@@ -1,0 +1,12 @@
+# Rime schema settings
+# encoding: utf-8
+
+__include: sbfm.schema.yaml:/
+
+__patch:
+  switches/@3/reset: 1
+
+schema:
+  __include: sbfm.schema.yaml:/schema
+  schema_id: sbfd
+  name: "声笔飞单"

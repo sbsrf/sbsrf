@@ -1,0 +1,146 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sbpy
+  name: "声笔拼音"
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - hypy
+    - bihua
+    - zhlf
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - options: [free, fixed, mixed, popping]
+    reset: 0
+    states: [自由, 固定, 混顶, 纯顶]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.popping
+    - lua_processor@*sbxlm.editor
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@bihua_lookup
+    - affix_segmentor@pinyin_lookup
+    - affix_segmentor@zhlf_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - lua_translator@*sbxlm.fixed_translator
+    - script_translator
+    - table_translator@sbzdy
+    - history_translator@hist
+    - table_translator@bihua_lookup
+    - script_translator@pinyin_lookup
+    - table_translator@zhlf_lookup
+    - lua_translator@*utils.datetime
+    - lua_translator@*utils.number
+    - lua_translator@*utils.calculator
+  filters:
+    - reverse_lookup_filter@bihua_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@zhlf_reverse_lookup
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "qwertasdfgzxcvbyuiophjklnm+"
+  initials: "qwrtsdfgzxcvbyphjklnm+"
+  algebra:
+    - "fuzz/^(\\w).+$/$1/"
+    - "fuzz/^(\\w)(\\w).+$/$1$2/"
+    - "fuzz/^(\\w)(\\w)(\\w).+$/$1$2$3/"
+    - "fuzz/^(\\w)(\\w)(\\w)(\\w).+$/$1$2$3$4/"
+  popping:
+    # 纯顶模式，单字、二字词、三字词
+    - when: popping
+      match: "[bpmfdtnlgkhjqxzcsrywv]{1,3}[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 纯顶模式，四字词
+    - when: popping
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 混顶模式，单字
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeiou]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 混顶模式，二字词之一
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeiou]{1,2}[bpmfdtnlgkhjqxzcsrywv][aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 混顶模式，二字词和三字词
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 混顶模式，四字词
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+
+translator:
+  dictionary: sbpy
+
+pyzdy:
+  dictionary: ""
+  user_dict: pyzdy
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+
+key_binder:
+  import_preset: sbxlm
+  bindings:
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 0, send_sequence: "{End}" }
+    - { match: "[a-z]", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[a-z]", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[a-z]", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[a-z]", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[a-z]", accept: ";", send_sequence: "{Page_Down}8" }
+    - { match: "[a-z]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[a-z]{2}", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[a-z]{2}", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[a-z]{2}", accept: "6", send_sequence: "{Page_Down}7" }
+
+menu:
+  page_size: 6
+  alternative_select_keys: "_23789"
+  alternative_select_labels: ["", "2", "3", "7", "8", "9"]
+
+__include: sbxlm.yaml:/prelude
+__patch:
+  bihua_reverse_lookup/dictionary: sbpy
+  pinyin_reverse_lookup/dictionary: sbpy
+  zhlf_reverse_lookup/dictionary: sbpy

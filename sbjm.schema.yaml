@@ -1,0 +1,126 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sbjm
+  name: "声笔简码"
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.gitee.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - hypy
+    - bihua
+    - zhlf
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: third_pop
+    reset: 0
+    states: [四顶, 三顶]
+  - name: is_enhanced
+    reset: 0
+    states: [常规, 增强]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.upper_case
+    - lua_processor@*sbxlm.popping
+    - lua_processor@*sbxlm.selector
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@sbzdy
+    - lua_translator@*sbxlm.auto_length
+    - history_translator@hist
+    - table_translator@bihua_lookup
+    - script_translator@pinyin_lookup
+    - table_translator@zhlf_lookup
+    - lua_translator@*utils.datetime
+    - lua_translator@*utils.number
+    - lua_translator@*utils.calculator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@bihua_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@zhlf_reverse_lookup
+    - simplifier
+    - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
+
+speller:
+  alphabet: "qwertasdfgzxcvbyuiophjklnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890+"
+  initials: "qwrtsdfgzxcvbyphjklnm+"
+  auto_clear: max_length
+  max_code_length: 6
+  popping:
+    - match: "[bpmfdtnlgkhjqxzcsrywv].*[aeiou]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv].*[0-9]"
+      accept: "."
+    - when: "third_pop"
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: "is_enhanced"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}.*"
+      accept: "[0123456789]"
+    - when_not: "is_enhanced"
+      match: ".*"
+      accept: "[0123456789]"
+
+translator:
+  dictionary: sbjm
+  enable_user_dict: true
+  enable_encoder: true
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: true
+  encode_commit_history: true
+  enable_filtering: false
+  lower_case: true
+  stop_change: false
+  delete_threshold: 1000
+  max_phrase_length: 4
+  disable_user_dict_for_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]?"
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+  patterns:
+    retention: "^([qwrtsdfgzxcvbyphjklnm][aeiou]{0,5}|[qwrtsdfgzxcvbyphjklnm]{2}[aeiou]{0,4}|[qwrtsdfgzxcvbyphjklnm]{3}[aeiou]{0,3})$"
+
+key_binder:
+  import_preset: sbxlm
+
+__include: sbxlm.yaml:/prelude
+
+menu:
+  __include: sbxlm.yaml:/prelude/menu
+  alternative_select_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{2}"

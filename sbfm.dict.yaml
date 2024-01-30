@@ -1,0 +1,30 @@
+# Rime dict
+# encoding: utf-8
+#
+# 声笔飞码
+
+---
+name: sbfm
+version: "9.5"
+sort: by_weight
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - weight
+  - stem
+import_tables:
+  - fmzdy
+  - sbfd
+  - sbfm.extended
+encoder:
+  exclude_patterns:
+    - '^[aeiou].*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBbAcAd"
+    - length_equal: 3
+      formula: "AaBaCaCbAcAd"
+    - length_in_range: [4, 12]
+      formula: "AaBaCaZaAcAd" 
+...

@@ -1,0 +1,38 @@
+# Rime dict
+# encoding: utf-8
+# 声笔通用自定义用户词库
+# 编码格式：字词+Tab符+编码，首码必须为u，后接aeuio以外的小写字母和数字
+# 如有重码，可加权重排序，字词模式用aeuio选择重码
+# 以下是一些示例词条
+---
+name: sbzdy
+version: "9.5"
+sort: by_weight
+use_preset_vocabulary: false
+...
+自定义【用户词组】	uzdy	90
+声笔介绍：sbxlm.gitee.io/about	ujs
+安装配置：sbxlm.gitee.io/vzpz	uvz
+声笔基础：sbxlm.gitee.io/sbjc	ujc
+声笔简码：sbxlm.gitee.io/sbjm	ujm
+声笔拼音：sbxlm.gitee.io/sbpy	upy
+声笔自然：sbxlm.gitee.io/sbzr	uzr
+声笔小鹤：sbxlm.gitee.io/sbxh	uxh
+声笔飞码：sbxlm.gitee.io/sbfm	ufm
+声笔飞单：sbxlm.gitee.io/sbfd	ufd
+声笔飞讯：sbxlm.gitee.io/sbfx	ufx
+发展历程：sbxlm.gitee.io/fzlc	ulc
+常见问题：sbxlm.gitee.io/faq	uwt
+声笔QQ群：445906697,780510469,783734487,728093309	uqq
+sbxlm.gitee.io/about	ujs
+sbxlm.gitee.io/vzpz	uvz
+sbxlm.gitee.io/sbjc	ujc
+sbxlm.gitee.io/sbjm	ujm
+sbxlm.gitee.io/sbpy	upy
+sbxlm.gitee.io/sbzr	uzr
+sbxlm.gitee.io/sbxh	uxh
+sbxlm.gitee.io/sbfd	ufd
+sbxlm.gitee.io/sbfm	ufm
+sbxlm.gitee.io/sbfx	ufx
+sbxlm.gitee.io/fzlc	ulc
+sbxlm.gitee.io/faq	uwt

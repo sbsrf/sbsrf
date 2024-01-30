@@ -1,0 +1,103 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: sbzr
+  name: "声笔自然"
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.gitee.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbzdy
+    - hypy
+    - bihua
+    - zhlf
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: pro_char
+    reset: 0
+    states: [词组, 单字]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.upper_case
+    - lua_processor@*sbxlm.popping
+    - lua_processor@*sbxlm.selector
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@zhlf_lookup
+    - affix_segmentor@bihua_lookup
+    - affix_segmentor@pinyin_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@sbzdy
+    - lua_translator@*sbxlm.auto_length
+    - history_translator@hist
+    - table_translator@bihua_lookup
+    - script_translator@pinyin_lookup
+    - table_translator@zhlf_lookup
+    - lua_translator@*utils.datetime
+    - lua_translator@*utils.number
+    - lua_translator@*utils.calculator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@bihua_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@zhlf_reverse_lookup
+    - simplifier
+    - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
+
+speller:
+  __include: sbfm.schema.yaml:/speller
+  alphabet: "qwertasdfgzxcvbyuiophjklnmQWERTYUIOPASDFGHJKLZXCVBNM_"
+  initials: "qwrtsdfgzxcvbyphjklnm+"
+  algebra:
+    - derive/_//
+
+translator:
+  __include: sbfm.schema.yaml:/translator
+  dictionary: sbzr
+  disable_user_dict_for_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio_]?"
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+
+key_binder:
+  import_preset: sbxlm
+
+__include: sbxlm.yaml:/prelude
+__patch:
+  bihua_reverse_lookup/dictionary: sbzr
+  pinyin_reverse_lookup/dictionary: sbzr
+  zhlf_reverse_lookup/dictionary: sbzr
+  menu/alternative_select_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
+    - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{2}"

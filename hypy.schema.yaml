@@ -1,0 +1,96 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hypy
+  name: 汉语拼音
+  version: "9.5"
+  author:
+    - 戴石麟
+  description: |
+    零声母用v代表
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: _hide_candidate
+    reset: 1
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  algebra:
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([zcs])h(.+)$/$1$2/
+    - derive/^([nl])ue$/$1ve/
+    - derive/^([nl])v(.*)$/$1u$2/
+    - derive/^([jqxy])u/$1v/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+    - derive/^ver$/ve/
+    - derive/^([jqx])i([aeo].*)$/$1$2/
+
+translator:
+  dictionary: hypy
+  enable_user_dict: false
+  enable_encoder: false
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: true
+  encode_commit_history: false
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: '^\\([0-9]|10|[A-Za-z]+)$'
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: composing, accept: Tab, send: Page_Down }
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: has_menu, accept: 1, send_sequence: "{Home}" }
+    - { when: has_menu, accept: 2, send_sequence: "{Home}{Shift+Right}" }
+    - { when: has_menu, accept: 3, send_sequence: "{Home}{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 5, send_sequence: "{End}" }
+
+menu:
+  page_size: 5
+  alternative_select_keys: "67890"
+
