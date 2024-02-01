@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Weasel
+patch:
+  "style/color_scheme": aqua
+  "style/display_tray_icon": false
+  "style/font_face": "Microsoft YaHei"
+  "style/font_point": 13
+  "style/fullscreen": false
+  "style/horizontal": true
+  "style/inline_preedit": false
+  "style/label_format": "%s "
+  "style/layout/candidate_spacing": 10

@@ -30,7 +30,7 @@ function this.func(translation, env)
       goto continue
     end
     if string.len(candidate.comment) > 0 then
-      candidate.comment = key .. ' |' .. candidate.comment
+      candidate.comment = candidate.comment .. ":" .. key
     else
       candidate.comment = key
     end
