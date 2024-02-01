@@ -39,8 +39,11 @@ speller:
     - when: pro_char
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 词组顶
+    # 常规的词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]{2,4}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 第四码大写的多字词
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 增强模式词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
