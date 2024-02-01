@@ -31,8 +31,10 @@ function this.func(translation, env)
   for _, tag in ipairs(this.lookup_tags) do
     if segment:has_tag(tag) then
       for candidate in translation:iter() do
-        candidate.comment = candidate.comment .. " 【" .. (this.radicals[candidate.text] or "") .. "】"
-        rime.yield(candidate)
+        if candidate.type ~= "number" then
+          candidate.comment = candidate.comment .. "[" .. (this.radicals[candidate.text] or "") .. "]"
+        end
+      rime.yield(candidate)
       end
       return
     end

@@ -57,9 +57,6 @@ translator:
   enable_completion: true
   encode_commit_history: false
 
-punctuator:
-  import_preset: symbols
-
 key_binder:
   bindings:
     - { when: paging, accept: Tab, send: Page_Up }

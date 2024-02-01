@@ -71,9 +71,6 @@ translator:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
-punctuator:
-  import_preset: symbols
-
 recognizer:
   import_preset: default
   patterns:
