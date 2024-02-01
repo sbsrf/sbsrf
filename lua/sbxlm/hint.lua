@@ -16,6 +16,12 @@ function this.init(env)
 	this.reverse = rime.ReverseLookup(dict_name)
 end
 
+---@param segment Segment
+---@param env Env
+function this.tags_match(segment, env)
+	return segment:has_tag("abc")
+end
+
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
@@ -42,9 +48,9 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		-- 第二种情况：飞系方案 ss 格式输入需要提示 ss_ 格式的二字词
-		if core.feixi(id) and core.ss(input) then
-			memory:dict_lookup(candidate.preedit .. "_", false, 1)
+		-- 第二种情况：飞系方案 ss 格式输入需要提示 ss' 格式的二字词
+		if core.feixi(id) and (core.s(input) or core.ss(input)) then
+			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
 				candidate:get_genuine().comment = ' ' .. entry.text

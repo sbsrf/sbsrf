@@ -24,7 +24,7 @@ function this.func(key_event, env)
   if key_event.modifier > 0 then
     return rime.process_results.kNoop
   end
-  local incoming = key_event:repr()
+  local incoming = utf8.char(key_event.keycode)
   if not rime.match(incoming, "[aeiou]") then
     return rime.process_results.kNoop
   end

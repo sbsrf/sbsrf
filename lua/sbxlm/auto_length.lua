@@ -65,6 +65,9 @@ end
 ---@param commit CommitEntry
 ---@param context Context
 function this.callback(commit, context)
+  if this.stop_change then
+    return
+  end
   -- 记忆刚上屏的字词
   for _, entry in ipairs(commit:get())
   do
@@ -82,6 +85,9 @@ function this.callback(commit, context)
       this.memory:update_userdict(entry, 1, "")
     end
     ::continue::
+  end
+  if not this.enable_encoder then
+    return
   end
   -- 对上屏历史造词
   local phrase = ""
@@ -133,6 +139,7 @@ function this.init(env)
   this.enable_filtering = config:get_bool("translator/enable_filtering") or false
   this.lower_case = config:get_bool("translator/lower_case") or false
   this.stop_change = config:get_bool("translator/stop_change") or false
+  this.enable_encoder = config:get_bool("translator/enable_encoder") or true
   this.delete_threshold = config:get_int("translator/delete_threshold") or 1000
   this.max_phrase_length = config:get_int("translator/max_phrase_length") or 4
   this.static_patterns = rime.get_string_list(config, "translator/disable_user_dict_for_patterns");
@@ -370,7 +377,7 @@ function this.func(input, segment, env)
     local count = 1
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
-      if (this.known_candidates[cand.text] or 10) < count then
+      if (this.known_candidates[cand.text] or inf) < count then
         goto continue
       end
       if count <= 6 then

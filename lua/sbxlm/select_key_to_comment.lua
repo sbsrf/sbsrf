@@ -14,17 +14,39 @@ function this.init(env)
 end
 
 ---@param translation Translation
+function this.default(translation)
+  for candidate in translation:iter() do
+    rime.yield(candidate)
+  end
+end
+
+---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
+  local context = env.engine.context
+  local segmentation = context.composition:toSegmentation()
+  local segment = segmentation:back()
+  if not segment then
+    this.default(translation)
+    return
+  end
+  local input = string.sub(context.input, segment.start + 1, segment._end)
+  -- 第一种情况：当前段落是常规编码，且编码长度大于等于 4
+  if segment:has_tag("abc") and string.len(input) >= 4 then
+    goto comment
+  -- 第一种情况：当前段落是标点
+  elseif segment:has_tag("punct") then
+    goto comment
+  else
+    this.default(translation)
+    return
+  end
+  ::comment::
   local i = 0
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键
     local j = i % string.len(this.select_keys) + 1
     local key = string.sub(this.select_keys, j, j)
-    -- 如果编码长度小于 4，说明无重码，无需操作
-    if string.len(candidate.preedit) < 4 then
-      goto continue
-    end
     -- 如果是下划线，说明是首选，无需操作
     if key == "_" then
       goto continue

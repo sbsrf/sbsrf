@@ -1,6 +1,8 @@
 # Rime schema settings
 # encoding: utf-8
 
+__include: sbxlm.yaml:/prelude
+
 schema:
   schema_id: sbzr
   name: "声笔自然"
@@ -29,6 +31,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@*sbxlm.ascii_composer
     - ascii_composer
     - recognizer
     - lua_processor@*sbxlm.key_binder
@@ -72,17 +75,26 @@ engine:
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
-  __include: sbfm.schema.yaml:/speller
-  alphabet: "qwertasdfgzxcvbyuiophjklnmQWERTYUIOPASDFGHJKLZXCVBNM_"
-  initials: "qwrtsdfgzxcvbyphjklnm+"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
+  auto_clear: max_length
+  max_code_length: 6
   algebra:
-    - derive/_//
+    - derive/'//
+  popping:
+    __include: sbxlm.yaml:/popping
+    __append:
+      # 词组顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 translator:
-  __include: sbfm.schema.yaml:/translator
   dictionary: sbzr
+  stop_change: false
+  delete_threshold: 1000
+  max_phrase_length: 4
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio_]?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;']?"
 
 punctuator:
   import_preset: sbxlm
@@ -93,11 +105,20 @@ recognizer:
 key_binder:
   import_preset: sbxlm
 
-__include: sbxlm.yaml:/prelude
-__patch:
-  bihua_reverse_lookup/dictionary: sbzr
-  pinyin_reverse_lookup/dictionary: sbzr
-  zhlf_reverse_lookup/dictionary: sbzr
-  menu/alternative_select_patterns:
+menu:
+  __include: sbxlm.yaml:/prelude/menu
+  alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
     - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{2}"
+
+bihua_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
+  dictionary: sbzr
+
+pinyin_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
+  dictionary: sbzr
+
+zhlf_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
+  dictionary: sbzr

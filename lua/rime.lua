@@ -252,7 +252,7 @@ local _Segment
 ---@field input string
 ---method
 ---@field empty fun(self: self): boolean
----@field back fun(self: self): Segment
+---@field back fun(self: self): Segment | nil
 ---@field pop_back fun(self: self): Segment
 ---@field reset_length fun(self: self, length: integer)
 ---@field add_segment fun(self: self, seg: Segment)

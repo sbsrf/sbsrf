@@ -1,73 +1,128 @@
 # Rime schema settings
 # encoding: utf-8
 
-__include: sbfm.schema.yaml:/
+__include: sbxlm.yaml:/prelude
 
 schema:
-  __include: sbfm.schema.yaml:/schema
   schema_id: sbfx
   name: "声笔飞讯"
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.gitee.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbjm
+    - hypy
+    - bihua
+    - zhlf
 
 switches:
-  __include: sbfm.schema.yaml:/switches
-  __append:
-    - name: fast_pop
-      reset: 0
-      states: [ 慢顶, 快顶 ]
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: pro_char
+    reset: 0
+    states: [词组, 单字]
+  - name: fast_pop
+    reset: 0
+    states: [ 慢顶, 快顶 ]
+  - name: is_enhanced
+    reset: 0
+    states: [常规, 增强]
+
+engine:
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.upper_case
+    - lua_processor@*sbxlm.popping
+    - lua_processor@*sbxlm.selector
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@sbjm_lookup
+    - affix_segmentor@zhlf_lookup
+    - affix_segmentor@bihua_lookup
+    - affix_segmentor@pinyin_lookup
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator@sbzdy
+    - lua_translator@*sbxlm.auto_length
+    - table_translator@sbjm_lookup
+    - table_translator@bihua_lookup
+    - script_translator@pinyin_lookup
+    - table_translator@zhlf_lookup
+    - lua_translator@*utils.datetime
+    - lua_translator@*utils.number
+    - lua_translator@*utils.calculator
+    - history_translator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@sbjm_reverse_lookup
+    - reverse_lookup_filter@bihua_reverse_lookup
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@zhlf_reverse_lookup
+    - lua_filter@*sbxlm.radicals
+    - simplifier
+    - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
-  __include: sbfm.schema.yaml:/speller
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
+  auto_clear: max_length
   max_code_length: 7
   popping:
-    # 单字三码顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 单字四二顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      prefix: 2
-    # 快顶模式下，声笔字结尾的单字也可以四二顶
-    - when: fast_pop
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[aeiou]"
-      prefix: 2
-    # 单字五二顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      prefix: 2
-    # 单字模式下的单字二码顶
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 常规的词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]{2,4}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 第四码大写的多字词
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 增强模式词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 顶数选字词
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9]"
-      accept: "."
-    # 如果输入是四码以上，数字可以随便顶
-    - match: ".{4,}"
-      accept: "[0123456789]"
-    # 如果不是增强模式，数字一码或二码之后可以顶
-    - when_not: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
-      accept: "[0123456789]"
-    # 如果不是快顶模式，数字三码之后可以顶
-    - when_not: fast_pop
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[0123456789]"
+    __include: sbxlm.yaml:/popping
+    __append:
+      # 单字四二顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+        prefix: 2
+      # 快顶模式下，声笔字结尾的单字也可以四二顶
+      - when: fast_pop
+        match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+        accept: "[aeiou]"
+        prefix: 2
+      # 单字五二顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+        prefix: 2
+      # 词组顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]{2,4}"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      # 第四码大写的多字词词组顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      # 增强模式词组顶
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 translator:
-  __include: sbfm.schema.yaml:/translator
   dictionary: sbfx
+  enable_encoder: true
+  stop_change: false
+  delete_threshold: 1000
+  max_phrase_length: 4
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio_]*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;']*"
 
 punctuator:
   import_preset: sbxlm
@@ -81,7 +136,7 @@ key_binder:
   import_preset: sbxlm
 
 menu:
-  __include: sbfm.schema.yaml:/menu
+  __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv]{4}[aeuio]{2}"

@@ -1,5 +1,41 @@
 # 声笔系列码共用配置
 
+popping:
+  # 单字三码顶
+  - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
+    accept: "[bpmfdtnlgkhjqxzcsrywv]"
+  # 单字模式下的单字二码顶
+  - when: "pro_char"
+    match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+    accept: "[bpmfdtnlgkhjqxzcsrywv]"
+  # 顶 finals
+  - match: "[bpmfdtnlgkhjqxzcsrywv].*[;']"
+    accept: "[^ ]"
+  # 顶 finals
+  - when_not: fast_pop
+    match: "[bpmfdtnlgkhjqxzcsrywv].*[0-9]"
+    accept: "[^ ]"
+  # 顶标点
+  - match: ".*[^a-z0-9]"
+    accept: "[bpmfdtnlgkhjqxzcsrywv]"
+  # 标点顶
+  - match: ".*[a-z0-9;']"
+    accept: "[^a-z0-9;' ]"
+  # 如果输入不是声母开头，数字可以随便顶
+  - match: "[^bpmfdtnlgkhjqxzcsrywv].*"
+    accept: "[0-9]"
+  # 如果输入是声母开头，且第三码是 aeiou 或者有四码，数字可以随便顶
+  - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]([aeiou]|[bpmfdtnlgkhjqxzcsrywv].).*"
+    accept: "[0-9]"
+  # 如果不是增强模式，数字一码或二码之后可以顶
+  - when_not: is_enhanced
+    match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+    accept: "[0-9]"
+  # 如果不是快顶模式，数字三码之后可以顶
+  - when_not: fast_pop
+    match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    accept: "[0-9]"
+
 prelude:
   menu:
     page_size: 6
@@ -20,7 +56,8 @@ prelude:
     encode_commit_history: false
     tips: "〔自定义〕"
 
-  hist:
+  history:
+    tag: history
     input: "+"
     size: 5
     initial_quality: -1
@@ -105,13 +142,15 @@ prelude:
 key_binder:
   bindings:
     - { when: paging, accept: Shift+Tab, send: Page_Up }
+    - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
     - { when: has_menu, accept: Tab, send: Page_Down }
+    - { when: composing, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
-      send_sequence: "{underscore}{space}"
+      send_sequence: "{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "'"
-      send_sequence: "{underscore}{space}"
+      send_sequence: "{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
@@ -120,10 +159,10 @@ key_binder:
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
-      send_sequence: "{Home}{Right}{Right}{underscore}{space}{space}"
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "'"
-      send_sequence: "{Home}{Right}{space}{underscore}{space}"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
@@ -132,7 +171,7 @@ key_binder:
       send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "'"
-      send_sequence: "{Home}{Right}{Right}{space}{underscore}{space}"
+      send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
@@ -142,14 +181,15 @@ key_binder:
 
 recognizer:
   patterns:
-    punct: '^\\([0-9]|10|[A-Za-z]+)$'
+    punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm_lookup: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua_lookup: "^[aeiou]+$"
-    pinyin_lookup: "^a[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
-    zhlf_lookup: "^i[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
+    pinyin_lookup: "^a[a-z]*'?$"
+    zhlf_lookup: "^i[a-z]*'?$"
     sbzdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
     expression: "^e.*$"
     quick_menu: "^o[qwrtsdfgzxcvbyphjklnm0-9][a-z0-9]*$"
+    history: "^\\+$"
 
 punctuator:
   full_shape:

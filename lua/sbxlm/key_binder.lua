@@ -31,6 +31,7 @@ end
 
 ---@param env Env
 function this.init(env)
+  this.redirecting = false
   ---@type Binding[]
   this.bindings = {}
   local bindings = env.engine.schema.config:get_list("key_binder/bindings")
@@ -52,13 +53,18 @@ end
 ---@param key_event KeyEvent
 ---@param env Env
 function this.func(key_event, env)
+  if this.redirecting then
+    return rime.process_results.kNoop
+  end
   local input = env.engine.context.input
   for _, binding in ipairs(this.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then
+      this.redirecting = true
       for _, event in ipairs(binding.send_sequence:toKeyEvent()) do
         env.engine:process_key(event)
       end
+      this.redirecting = false
       return rime.process_results.kAccepted
     end
   end

@@ -1,6 +1,8 @@
 # Rime schema settings
 # encoding: utf-8
 
+__include: sbxlm.yaml:/prelude
+
 schema:
   schema_id: sbjm
   name: "声笔简码"
@@ -31,6 +33,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@*sbxlm.ascii_composer
     - ascii_composer
     - recognizer
     - lua_processor@*sbxlm.key_binder
@@ -53,13 +56,13 @@ engine:
     - punct_translator
     - table_translator@sbzdy
     - lua_translator@*sbxlm.auto_length
-    - history_translator@hist
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
     - table_translator@zhlf_lookup
     - lua_translator@*utils.datetime
     - lua_translator@*utils.number
     - lua_translator@*utils.calculator
+    - history_translator
   filters:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@bihua_reverse_lookup
@@ -70,35 +73,22 @@ engine:
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
-  alphabet: "qwertasdfgzxcvbyuiophjklnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890+"
-  initials: "qwrtsdfgzxcvbyphjklnm+"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: max_length
   max_code_length: 6
   popping:
-    - match: "[bpmfdtnlgkhjqxzcsrywv].*[aeiou]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv].*[0-9]"
-      accept: "."
-    - when: "third_pop"
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: "is_enhanced"
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}.*"
-      accept: "[0123456789]"
-    - when_not: "is_enhanced"
-      match: ".*"
-      accept: "[0123456789]"
+    __include: sbxlm.yaml:/popping
+    __append:
+      - match: "[bpmfdtnlgkhjqxzcsrywv].*[aeiou]"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      - when: "third_pop"
+        match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+        accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 translator:
   dictionary: sbjm
-  enable_user_dict: true
   enable_encoder: true
-  enable_sentence: false
-  strict_spelling: true
-  enable_completion: true
-  encode_commit_history: true
   enable_filtering: false
   lower_case: true
   stop_change: false
@@ -117,8 +107,6 @@ recognizer:
 
 key_binder:
   import_preset: sbxlm
-
-__include: sbxlm.yaml:/prelude
 
 menu:
   __include: sbxlm.yaml:/prelude/menu

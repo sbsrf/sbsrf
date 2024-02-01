@@ -1,6 +1,8 @@
 # Rime schema settings
 # encoding: utf-8
 
+__include: sbxlm.yaml:/prelude
+
 schema:
   schema_id: sbpy
   name: "声笔拼音"
@@ -28,6 +30,7 @@ switches:
 
 engine:
   processors:
+    - lua_processor@*sbxlm.ascii_composer
     - ascii_composer
     - recognizer
     - lua_processor@*sbxlm.key_binder
@@ -69,8 +72,8 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "qwertasdfgzxcvbyuiophjklnm+"
-  initials: "qwrtsdfgzxcvbyphjklnm+"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
     - "fuzz/^(\\w).+$/$1/"
     - "fuzz/^(\\w)(\\w).+$/$1$2/"
@@ -134,13 +137,19 @@ key_binder:
     - { match: "[a-z]{2}", accept: "5", send_sequence: "{Page_Down}3" }
     - { match: "[a-z]{2}", accept: "6", send_sequence: "{Page_Down}7" }
 
+bihua_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
+  dictionary: sbpy
+
+pinyin_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
+  dictionary: sbpy
+
+zhlf_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
+  dictionary: sbpy
+
 menu:
   page_size: 6
   alternative_select_keys: "_23789"
   alternative_select_labels: ["", "2", "3", "7", "8", "9"]
-
-__include: sbxlm.yaml:/prelude
-__patch:
-  bihua_reverse_lookup/dictionary: sbpy
-  pinyin_reverse_lookup/dictionary: sbpy
-  zhlf_reverse_lookup/dictionary: sbpy
