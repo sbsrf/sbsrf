@@ -20,28 +20,17 @@ function this.default(translation)
   end
 end
 
+---@param segment Segment
+---@param env Env
+function this.tags_match(segment, env)
+  -- 第一种情况：当前段落是常规编码，且编码长度大于等于 4
+  -- 第二种情况：当前段落是标点
+  return (segment:has_tag("abc") and segment.length >= 4) or segment:has_tag("punct")
+end
+
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
-  local context = env.engine.context
-  local segmentation = context.composition:toSegmentation()
-  local segment = segmentation:back()
-  if not segment then
-    this.default(translation)
-    return
-  end
-  local input = string.sub(context.input, segment.start + 1, segment._end)
-  -- 第一种情况：当前段落是常规编码，且编码长度大于等于 4
-  if segment:has_tag("abc") and string.len(input) >= 4 then
-    goto comment
-  -- 第一种情况：当前段落是标点
-  elseif segment:has_tag("punct") then
-    goto comment
-  else
-    this.default(translation)
-    return
-  end
-  ::comment::
   local i = 0
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键

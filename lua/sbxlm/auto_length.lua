@@ -118,7 +118,12 @@ function this.callback(commit, context)
       goto continue
     end
     phrase = record.text .. phrase
-    if utf8.len(phrase) > this.max_phrase_length then
+    -- 如果造词的长度超过了最大长度，就不再造词
+    -- 普通模式下，最大长度是 translator/max_phrase_length
+    -- 缓冲模式下，最大长度是 12
+    if this.is_buffered and utf8.len(phrase) > 12 then
+      break
+    elseif not this.is_buffered and utf8.len(phrase) > this.max_phrase_length then
       break
     end
     ---@type string[]
@@ -146,6 +151,7 @@ function this.init(env)
   this.memory:memorize(function(commit) this.callback(commit, env.engine.context) end)
   ---@type { string: number }
   this.known_candidates = {}
+  this.is_buffered = env.engine.context:get_option("is_buffered")
 end
 
 ---判断输入的编码是否为静态编码
@@ -300,6 +306,7 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.func(input, segment, env)
+  this.is_buffered = env.engine.context:get_option("is_buffered")
   this.third_pop = env.engine.context:get_option("third_pop")
   local memory = this.memory
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果

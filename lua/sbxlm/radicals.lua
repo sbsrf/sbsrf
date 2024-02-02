@@ -24,25 +24,25 @@ function this.init(env)
   file:close()
 end
 
+---@param segment Segment
+---@param env Env
+function this.tags_match(segment, env)
+  for _, value in ipairs(this.lookup_tags) do
+    if segment.tags[value] then
+      return true
+    end
+  end
+  return false
+end
+
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
-  local segment = env.engine.context.composition:back()
-  for _, tag in ipairs(this.lookup_tags) do
-    if segment:has_tag(tag) then
-      for candidate in translation:iter() do
-        if candidate.type ~= "number" then
-          candidate.comment = candidate.comment .. "[" .. (this.radicals[candidate.text] or "") .. "]"
-        end
-      rime.yield(candidate)
-      end
-      return
-    end
-  end
-  -- 如果当前编码段没有匹配上这些标签，就按照原样送出候选
   for candidate in translation:iter() do
+    candidate.comment = candidate.comment .. string.format("【%s】", this.radicals[candidate.text] or "")
     rime.yield(candidate)
   end
+  return
 end
 
 return this

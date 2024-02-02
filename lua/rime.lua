@@ -209,7 +209,7 @@ local _Composition
 
 ---@class Notifier
 ---method
----@field connect fun(self: self, f: fun(ctx: Context), group: integer|nil): function[]
+---@field connect fun(self: self, f: fun(ctx: Context), group: integer|nil): Connection
 local _Notifier
 
 ---@class OptionUpdateNotifier: Notifier
@@ -226,6 +226,10 @@ local _PropertyUpdateNotifier
 ---method
 ---@field connect fun(self: self, f: fun(ctx: Context, key: string), group:integer|nil): function[]
 local _KeyEventNotifier
+
+---@class Connection
+---method
+---@field disconnect fun(self: self)
 
 ---@class Segment
 ---element

@@ -34,7 +34,7 @@ function this.func(key_event, env)
   if not segment then
     return rime.process_results.kNoop
   end
-  if segment:has_tag("punct") then
+  if segment:has_tag("punct") or segment:has_tag("paging") then
     return this.selector:process_key_event(key_event)
   end
   local input = env.engine.context.input

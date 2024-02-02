@@ -28,17 +28,23 @@ switches:
   - name: pro_char
     reset: 0
     states: [词组, 单字]
+  - name: auto_inline
+    reset: 0
+    states: [关闭, 开启]
+  - name: is_buffered
+    reset: 0
+    states: [ 直通, 缓冲 ]
 
 engine:
   processors:
     - lua_processor@*sbxlm.ascii_composer
     - ascii_composer
-    - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
     - lua_processor@*sbxlm.upper_case
     - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.selector
+    - recognizer
     - speller
     - punctuator
     - selector
