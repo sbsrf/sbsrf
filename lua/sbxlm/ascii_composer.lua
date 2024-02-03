@@ -42,7 +42,7 @@ function this.func(key_event, env)
   local auto_inline = context:get_option("auto_inline")
 
   -- auto_inline 启用时，首字母大写时自动切换到内联模式
-  if (not ascii_mode and auto_inline and context.input:len() == 0 and is_upper(key_event.keycode) and key_event.modifier == rime.modifier_masks.kShift) then
+  if (not ascii_mode and auto_inline and context.input:len() == 0 and is_upper(key_event.keycode)) then
     context:push_input(string.char(key_event.keycode))
     this.switch_inline(context)
     -- hack，随便发一个没用的键让 ascii_composer 忘掉之前的 shift
@@ -50,7 +50,7 @@ function this.func(key_event, env)
     return rime.process_results.kAccepted
   end
 
-  -- 首字母后的 Tab 键切换到内联模式，Shift+Tab 键切换到缓冲模式
+  -- 首字母后的 Tab 键切换到英文，Shift+Tab 键切换到缓冲模式
   if (not ascii_mode and context.input:len() == 1 and key_event.keycode == XK_Tab and not key_event:release()) then
     if key_event:shift() then
       if not context:get_option("is_buffered") then
@@ -58,14 +58,21 @@ function this.func(key_event, env)
       end
       context:set_option("temp_buffered", true)
     else
+      local s = context.input
+      context:clear()
       this.switch_inline(context)
+      env.engine:commit_text(s)
     end
     return rime.process_results.kAccepted
   end
 
   -- 用 Shift+Return 或者 Control+Return 反转大小写
   if key_event.modifier == rime.modifier_masks.kShift and key_event.keycode == XK_Return then
-    env.engine:commit_text(context.input:sub(1, 1):upper() .. context.input:sub(2))
+    if is_upper(context.input:byte(1)) then
+      env.engine:commit_text(context.input:sub(1, 1):lower() .. context.input:sub(2))
+    else
+      env.engine:commit_text(context.input:sub(1, 1):upper() .. context.input:sub(2))
+    end
     context:clear()
     return rime.process_results.kAccepted
   end

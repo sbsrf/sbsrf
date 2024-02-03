@@ -1,7 +1,7 @@
 -- 飞系部首反查过滤器
 -- 适用于：声笔飞码、声笔飞单、声笔飞讯
 -- 本过滤器在编码段打上反查标签的时候，给单字候选加注部首信息，以便用户学习
--- 部首信息的数据存放在同一目录下的 radicals.txt
+-- 部首信息的数据存放在用户目录下的 radicals.txt
 
 local rime = require "rime"
 
@@ -12,7 +12,7 @@ function this.init(env)
   this.lookup_tags = { "sbjm_lookup", "bihua_lookup", "pinyin_lookup", "zhlf_lookup" }
   ---@type { string : string }
   this.radicals = {}
-  local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/radicals.txt"
+  local path = rime.api.get_user_data_dir() .. "/radicals.txt"
   local file = io.open(path, "r")
   if not file then
     return
