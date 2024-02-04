@@ -39,7 +39,7 @@ end
 ---@param env Env
 function this.func(translation, env)
   for candidate in translation:iter() do
-    candidate.comment = candidate.comment .. string.format("【%s】", this.radicals[candidate.text] or "")
+    candidate.comment = candidate.comment .. string.format("[%s]", this.radicals[candidate.text] or "")
     rime.yield(candidate)
   end
   return
