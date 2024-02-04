@@ -27,9 +27,11 @@ switches:
   - options: [free, fixed, mixed, popping]
     reset: 0
     states: [自由, 固定, 混顶, 纯顶]
+  # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
+    reset: 1
+  - name: is_buffered
     reset: 0
-    states: [关闭, 开启]
 
 engine:
   processors:

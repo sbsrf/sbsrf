@@ -28,12 +28,11 @@ switches:
   - name: pro_char
     reset: 0
     states: [词组, 单字]
+  # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
-    reset: 0
-    states: [关闭, 开启]
+    reset: 1
   - name: is_buffered
     reset: 0
-    states: [ 直通, 缓冲 ]
 
 engine:
   processors:

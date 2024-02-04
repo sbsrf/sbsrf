@@ -31,12 +31,11 @@ switches:
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
+  # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
-    reset: 0
-    states: [关闭, 开启]
+    reset: 1
   - name: is_buffered
     reset: 0
-    states: [ 直通, 缓冲 ]
 
 engine:
   processors:
