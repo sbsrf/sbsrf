@@ -4,7 +4,7 @@
 -- Version: 20240125
 -- Author: 戴石麟
 
-local rime = require "rime"
+local rime = require "lib"
 
 local this = {}
 

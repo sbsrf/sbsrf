@@ -8,7 +8,7 @@ local XK_Control_L = 0xffe3
 local XK_Control_R = 0xffe4
 local XK_Return = 0xff0d
 local XK_Tab = 0xff09
-local rime = require("rime")
+local rime = require("lib")
 
 local this = {}
 

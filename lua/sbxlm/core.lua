@@ -1,7 +1,7 @@
 -- 声笔系列码核心逻辑
 -- 存放了一些常用的函数，方便调用
 
-local rime = require "rime"
+local rime = require "lib"
 local match = rime.match
 local core = {}
 

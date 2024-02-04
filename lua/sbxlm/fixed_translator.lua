@@ -3,7 +3,7 @@
 -- 本翻译器是对拼音自定义（pyzdy）码表翻译器的封装
 -- 实现了仅在模式为固顶、混顶、纯顶时才翻译
 
-local rime = require "rime"
+local rime = require "lib"
 
 local this = {}
 
