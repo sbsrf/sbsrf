@@ -141,6 +141,18 @@ recognizer:
 key_binder:
   import_preset: sbxlm
 
+bihua_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
+  dictionary: sbfm
+
+pinyin_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
+  dictionary: sbfm
+
+zhlf_reverse_lookup:
+  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
+  dictionary: sbfm
+
 menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
