@@ -82,9 +82,6 @@ prelude:
     tags: [bihua_lookup]
     overwrite_comment: true
     dictionary: sbjm
-    comment_format:
-      - xform/[^ ]+\d //
-      - xform/[^ ]{1,5} //
 
   pinyin_lookup:
     tag: pinyin_lookup
@@ -97,17 +94,11 @@ prelude:
     encode_commit_history: false
     prefix: "a"
     tips: "〔拼音反查〕"
-    comment_format:
-      - xform/[^ ]+\d //
-      - xform/[^ ]{1,5} //
 
   pinyin_reverse_lookup:
     tags: [pinyin_lookup]
     overwrite_comment: true
     dictionary: sbjm
-    comment_format:
-      - xform/[^ ]+\d //
-      - xform/[^ ]{1,5} //
 
   zhlf_lookup:
     tag: zhlf_lookup
@@ -124,9 +115,6 @@ prelude:
     tags: [zhlf_lookup]
     overwrite_comment: true
     dictionary: sbjm
-    comment_format:
-      - xform/[^ ]+\d //
-      - xform/[^ ]{1,5} //
 
   sbjm_lookup:
     tag: sbjm_lookup
@@ -189,7 +177,7 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm_lookup: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua_lookup: "^[aeiou]+$"
-    pinyin_lookup: "^a[a-z]*'?$"
+    pinyin_lookup: "^a[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
     zhlf_lookup: "^i[a-z]*'?$"
     sbzdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
     expression: "^e.*$"

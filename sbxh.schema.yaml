@@ -1,4 +1,4 @@
-# Rime schema settings
+# Rime schema
 # encoding: utf-8
 
 __include: sbxlm.yaml:/prelude
@@ -38,12 +38,12 @@ engine:
   processors:
     - lua_processor@*sbxlm.ascii_composer
     - ascii_composer
+    - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
     - lua_processor@*sbxlm.upper_case
     - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.selector
-    - recognizer
     - speller
     - punctuator
     - selector

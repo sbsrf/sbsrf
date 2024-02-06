@@ -1,4 +1,4 @@
-# Rime schema settings
+# Rime schema
 # encoding: utf-8
 
 __include: sbfm.schema.yaml:/
