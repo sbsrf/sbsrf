@@ -41,8 +41,8 @@ engine:
     - lua_processor@*sbxlm.key_binder
     - key_binder
     - lua_processor@*sbxlm.upper_case
-    - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
     - speller
     - punctuator
     - selector
@@ -62,13 +62,13 @@ engine:
     - punct_translator
     - table_translator@sbzdy
     - lua_translator@*sbxlm.auto_length
-    - history_translator@hist
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
     - table_translator@zhlf_lookup
     - lua_translator@*utils.datetime
     - lua_translator@*utils.number
     - lua_translator@*utils.calculator
+    - history_translator
   filters:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@bihua_reverse_lookup

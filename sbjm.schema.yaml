@@ -44,8 +44,8 @@ engine:
     - lua_processor@*sbxlm.key_binder
     - key_binder
     - lua_processor@*sbxlm.upper_case
-    - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
     - speller
     - punctuator
     - selector
@@ -55,6 +55,10 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@zhlf_lookup
+    - affix_segmentor@bihua_lookup
+    - affix_segmentor@pinyin_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -109,8 +113,6 @@ punctuator:
 
 recognizer:
   import_preset: sbxlm
-  patterns:
-    retention: "^([qwrtsdfgzxcvbyphjklnm][aeiou]{0,5}|[qwrtsdfgzxcvbyphjklnm]{2}[aeiou]{0,4}|[qwrtsdfgzxcvbyphjklnm]{3}[aeiou]{0,3})$"
 
 key_binder:
   bindings:

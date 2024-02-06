@@ -178,7 +178,7 @@ recognizer:
     sbjm_lookup: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua_lookup: "^[aeiou]+$"
     pinyin_lookup: "^a[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
-    zhlf_lookup: "^i[a-z]*'?$"
+    zhlf_lookup: "^i[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
     sbzdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
     expression: "^e.*$"
     quick_menu: "^o[qwrtsdfgzxcvbyphjklnm0-9][a-z0-9]*$"

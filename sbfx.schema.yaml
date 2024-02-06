@@ -48,8 +48,8 @@ engine:
     - lua_processor@*sbxlm.key_binder
     - key_binder
     - lua_processor@*sbxlm.upper_case
-    - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
     - speller
     - punctuator
     - selector
@@ -134,8 +134,6 @@ punctuator:
 
 recognizer:
   import_preset: sbxlm
-  patterns:
-    retention: "^[qwrtsdfgzxcvbyphjklnm][aeuio]{1,2}$"
 
 key_binder:
   import_preset: sbxlm
