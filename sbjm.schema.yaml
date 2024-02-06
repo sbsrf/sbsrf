@@ -113,7 +113,29 @@ recognizer:
     retention: "^([qwrtsdfgzxcvbyphjklnm][aeiou]{0,5}|[qwrtsdfgzxcvbyphjklnm]{2}[aeiou]{0,4}|[qwrtsdfgzxcvbyphjklnm]{3}[aeiou]{0,3})$"
 
 key_binder:
-  import_preset: sbxlm
+  bindings:
+    - { when: has_menu, accept: Tab, send: Page_Down }
+    - { when: paging, accept: Shift+Tab, send: Page_Up }
+    - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
+    - {accept: Tab, send: Page_Down, when: has_menu}
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
 
 menu:
   __include: sbxlm.yaml:/prelude/menu
