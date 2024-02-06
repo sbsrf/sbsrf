@@ -137,6 +137,7 @@ end
 function this.init(env)
   this.memory = rime.Memory(env.engine, env.engine.schema)
   this.id = env.engine.schema.schema_id
+  --相当于三目运算符a ? b : c
   local dict_name = this.id == "sbfd" and "sbfm" or this.id
   local config = env.engine.schema.config
   this.reverse = rime.ReverseLookup(dict_name)
@@ -362,9 +363,9 @@ function this.func(input, segment, env)
     local phrase = this.validate_phrase(entry, segment, "user_table", input)
     if phrase then table.insert(phrases, phrase) end
   end
-  -- 如果动态编码没有检索到结果，对于双拼方案来说，可以尝试拆分编码给出一个候选
+  -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
   if #phrases == 0 then
-    if core.sp(this.id) and rime.match(input, "[a-z]{4}") then
+    if rime.match(input, "[a-z]{4}") then
       this.translate_by_split(input, segment)
     end
     return
