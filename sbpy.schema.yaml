@@ -51,7 +51,8 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@sbzdy
+    - affix_segmentor@sbxlm_zdy
+    - affix_segmentor@sbpy_zdy
     - affix_segmentor@bihua_lookup
     - affix_segmentor@pinyin_lookup
     - affix_segmentor@zhlf_lookup
@@ -61,7 +62,8 @@ engine:
     - punct_translator
     - lua_translator@*sbxlm.fixed_translator
     - script_translator
-    - table_translator@sbzdy
+    - table_translator@sbxlm_zdy
+    - table_translator@sbpy_zdy
     - history_translator@hist
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
@@ -113,9 +115,9 @@ speller:
 translator:
   dictionary: sbpy
 
-pyzdy:
+sbpy_zdy:
   dictionary: ""
-  user_dict: pyzdy
+  user_dict: sbpy_zdy
   db_class: stabledb
   enable_completion: false
   enable_sentence: false

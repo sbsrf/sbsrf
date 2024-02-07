@@ -51,10 +51,10 @@ prelude:
     opencc_config: s2t.json
     option_name: zh_trad
 
-  sbzdy:
-    tag: sbzdy
+  sbxlm_zdy:
+    tag: sbxlm_zdy
     dictionary: ""
-    user_dict: sbzdy
+    user_dict: sbxlm_zdy
     db_class: stabledb
     enable_sentence: false
     enable_completion: true
@@ -179,7 +179,7 @@ recognizer:
     bihua_lookup: "^[aeiou]+$"
     pinyin_lookup: "^a[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
     zhlf_lookup: "^i[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
-    sbzdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
+    sbxlm_zdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
     expression: "^e.*$"
     quick_menu: "^o[qwrtsdfgzxcvbyphjklnm0-9][a-z0-9]*$"
     history: "^\\+$"

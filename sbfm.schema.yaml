@@ -56,7 +56,8 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@sbzdy
+    - affix_segmentor@sbxlm_zdy
+    - affix_segmentor@sbfx_zdy
     - affix_segmentor@sbjm_lookup
     - affix_segmentor@zhlf_lookup
     - affix_segmentor@bihua_lookup
@@ -65,7 +66,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@sbzdy
+    - table_translator@sbxlm_zdy
+    - table_translator@sbfx_zdy
     - lua_translator@*sbxlm.auto_length
     - table_translator@sbjm_lookup
     - table_translator@bihua_lookup
@@ -111,6 +113,14 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
+
+sbfx_zdy:
+  dictionary: ""
+  user_dict: sbfx_zdy
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
 
 punctuator:
   import_preset: sbxlm

@@ -137,6 +137,9 @@ end
 function this.init(env)
   this.memory = rime.Memory(env.engine, env.engine.schema)
   this.id = env.engine.schema.schema_id
+  if this.id == "sbjm" then
+    this.mem_zdy = rime.Memory1(env.engine, env.engine.schema, "sbjm_zdy")
+  end
   --相当于三目运算符a ? b : c
   local dict_name = this.id == "sbfd" and "sbfm" or this.id
   local config = env.engine.schema.config
