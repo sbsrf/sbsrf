@@ -94,7 +94,7 @@ engine:
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
-  auto_clear: max_length
+  auto_clear: none
   max_code_length: 6
   popping:
     __include: sbxlm.yaml:/popping
