@@ -32,6 +32,11 @@ switches:
     reset: 1
   - name: is_buffered
     reset: 0
+  # 不要改变下面的状态，以免穿帮
+  - name: third_pop
+    reset: 0
+  - name: fast_pop
+    reset: 0
 
 engine:
   processors:
@@ -52,7 +57,8 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
-    - affix_segmentor@sbzdy
+    - affix_segmentor@sbxlm_zdy
+    - affix_segmentor@sbzr_zdy
     - affix_segmentor@zhlf_lookup
     - affix_segmentor@bihua_lookup
     - affix_segmentor@pinyin_lookup
@@ -60,7 +66,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@sbzdy
+    - table_translator@sbxlm_zdy
+    - table_translator@sbzr_zdy
     - lua_translator@*sbxlm.auto_length
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
@@ -99,6 +106,14 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;']?"
+
+sbzr_zdy:
+  dictionary: ""
+  user_dict: sbzr_zdy
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 10
 
 punctuator:
   import_preset: sbxlm
