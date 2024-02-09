@@ -139,12 +139,6 @@ key_binder:
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
     - { when: composing, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: "'"
-      send_sequence: "{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"

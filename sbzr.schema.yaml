@@ -113,6 +113,13 @@ recognizer:
 
 key_binder:
   import_preset: sbxlm
+  bindings:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: Tab
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "{apostrophe}{space}"
 
 menu:
   __include: sbxlm.yaml:/prelude/menu

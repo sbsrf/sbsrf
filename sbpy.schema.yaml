@@ -133,15 +133,15 @@ key_binder:
   bindings:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[a-z]", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[a-z]", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[a-z]", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[a-z]", accept: "6", send_sequence: "{Page_Down}7" }
-    - { match: "[a-z]", accept: ";", send_sequence: "{Page_Down}8" }
-    - { match: "[a-z]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[a-z]{2}", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[a-z]{2}", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[a-z]{2}", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: ";", send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "6", send_sequence: "{Page_Down}7" }
 
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
