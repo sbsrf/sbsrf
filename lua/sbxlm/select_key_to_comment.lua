@@ -1,5 +1,4 @@
 -- 选择键转注释过滤器
--- 通用（不包含声笔系列码的特殊逻辑）
 -- 本过滤器将 alternative_select_keys 中定义的选择键添加到候选项的注释中显示
 -- Version: 20240125
 -- Author: 戴石麟
@@ -25,7 +24,10 @@ end
 function this.tags_match(segment, env)
   -- 第一种情况：当前段落是常规编码，且编码长度大于等于 4
   -- 第二种情况：当前段落是标点
-  return (segment:has_tag("abc") and segment.length >= 4) or segment:has_tag("punct")
+  -- 第三种情况：当前方案是声笔拼音
+  return (segment:has_tag("abc") and segment.length >= 4)
+      or segment:has_tag("punct")
+      or env.engine.schema.schema_id == "sbpy"
 end
 
 ---@param translation Translation

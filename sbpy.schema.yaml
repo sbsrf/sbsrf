@@ -75,6 +75,7 @@ engine:
     - reverse_lookup_filter@zhlf_reverse_lookup
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
@@ -157,4 +158,4 @@ zhlf_reverse_lookup:
 menu:
   page_size: 6
   alternative_select_keys: "_23789"
-  alternative_select_labels: ["", "2", "3", "7", "8", "9"]
+  alternative_select_labels: ["", "", "", "", "", ""]
