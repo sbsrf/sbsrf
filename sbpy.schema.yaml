@@ -113,6 +113,8 @@ speller:
 
 translator:
   dictionary: sbpy
+  packs:
+    - sbpy.extended
 
 pyzdy:
   dictionary: ""
