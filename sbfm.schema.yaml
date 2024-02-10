@@ -70,7 +70,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@sbzdy
+    - table_translator
     - lua_translator@*sbxlm.auto_length
     - table_translator@sbjm_lookup
     - table_translator@bihua_lookup
@@ -79,6 +79,7 @@ engine:
     - lua_translator@*utils.datetime
     - lua_translator@*utils.number
     - lua_translator@*utils.calculator
+    - table_translator@sbzdy
     - history_translator
   filters:
     - lua_filter@*sbxlm.hint
@@ -111,11 +112,18 @@ speller:
 translator:
   dictionary: sbfm
   enable_encoder: true
+  encode_commit_history: true
+  enable_user_dict: true
+  enable_completion: false
+  enable_sentence: false
   stop_change: false
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
+
+extended:
+  dictionary: sbfm.extended
 
 punctuator:
   import_preset: sbxlm

@@ -135,12 +135,11 @@ end
 
 ---@param env Env
 function this.init(env)
-  this.memory = rime.Memory(env.engine, env.engine.schema)
-  this.id = env.engine.schema.schema_id
-  --相当于三目运算符a ? b : c
-  local dict_name = this.id == "sbfd" and "sbfm" or this.id
+  this.memory = rime.Memory1(env.engine, env.engine.schema, "extended")
+  this.static_memory = rime.Memory(env.engine, env.engine.schema)
   local config = env.engine.schema.config
-  this.reverse = rime.ReverseLookup(dict_name)
+  this.id = env.engine.schema.schema_id
+  this.reverse = core.reverse(this.id)
   this.third_pop = false
   this.enable_filtering = config:get_bool("translator/enable_filtering") or false
   this.lower_case = config:get_bool("translator/lower_case") or false
@@ -286,7 +285,7 @@ end
 ---@param input string
 ---@param segment Segment
 function this.translate_by_split(input, segment)
-  local memory = this.memory
+  local memory = this.static_memory
   memory:dict_lookup(string.sub(input, 1, 2), false, 1)
   local text = ""
   for entry in memory:iter_dict() do

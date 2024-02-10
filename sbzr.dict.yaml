@@ -10,8 +10,6 @@ columns:
   - text
   - code
   - weight
-import_tables:
-  - sbzr.extended
 encoder:
   exclude_patterns:
     - '^[aeiou].*$'

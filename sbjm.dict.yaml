@@ -12,8 +12,6 @@ columns:
   - text
   - code
   - weight
-import_tables:
-  - sbjm.extended
 encoder:
   exclude_patterns:
     - '^[aeiou].*$'
