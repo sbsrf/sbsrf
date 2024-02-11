@@ -14,7 +14,7 @@ columns:
   - weight
   - stem
 import_tables:
-  - fmzdy
+  - sbf
   - sbfd
 encoder:
   exclude_patterns:

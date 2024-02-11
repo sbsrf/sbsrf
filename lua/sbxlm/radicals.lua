@@ -12,7 +12,7 @@ function this.init(env)
   this.lookup_tags = { "sbjm_lookup", "bihua_lookup", "pinyin_lookup", "zhlf_lookup" }
   ---@type { string : string }
   this.radicals = {}
-  local path = rime.api.get_user_data_dir() .. "/radicals.txt"
+  local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/radicals.txt"
   local file = io.open(path, "r")
   if not file then
     return

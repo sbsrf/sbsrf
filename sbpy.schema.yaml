@@ -116,9 +116,9 @@ translator:
   packs:
     - sbpy.extended
 
-pyzdy:
+sbp:
   dictionary: ""
-  user_dict: pyzdy
+  user_dict: sbp
   db_class: stabledb
   enable_completion: false
   enable_sentence: false

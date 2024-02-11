@@ -11,10 +11,10 @@ schema:
     - 戴石麟 <https://sbxlm.gitee.io>
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
-    - sbzdy
     - hypy
     - bihua
     - zhlf
+    - sbxh2
 
 switches:
   - name: ascii_mode

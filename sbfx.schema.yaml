@@ -15,6 +15,7 @@ schema:
     - hypy
     - bihua
     - zhlf
+    - sbfx2
 
 switches:
   - name: ascii_mode
