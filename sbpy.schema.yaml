@@ -59,7 +59,6 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - lua_translator@*sbxlm.fixed_translator
     - script_translator
     - table_translator@sbzdy
     - history_translator@hist
@@ -75,6 +74,7 @@ engine:
     - reverse_lookup_filter@zhlf_reverse_lookup
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.fixed_filter
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
@@ -115,14 +115,6 @@ translator:
   dictionary: sbpy
   packs:
     - sbpy.extended
-
-sbp:
-  dictionary: ""
-  user_dict: sbp
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 10
 
 punctuator:
   import_preset: sbxlm

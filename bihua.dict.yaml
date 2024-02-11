@@ -9,7 +9,7 @@
 
 ---
 name: bihua
-version: "9.5"
+version: "10.0"
 sort: by_weight              # 按字频排序
 use_preset_vocabulary: false
 max_phrase_length: 0         # 不生成词组

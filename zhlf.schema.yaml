@@ -4,7 +4,7 @@
 schema:
   schema_id: zhlf
   name: 字海两分
-  version: "9.5"
+  version: "10.0"
   author:
     - 基于字海两分
   description: |

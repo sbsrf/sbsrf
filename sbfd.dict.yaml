@@ -7,7 +7,7 @@
 
 ---
 name: sbfd
-version: "9.5"
+version: "10.0"
 sort: by_weight
 use_preset_vocabulary: false
 columns:

@@ -4,7 +4,7 @@
 schema:
   schema_id: hypy
   name: 汉语拼音
-  version: "9.5"
+  version: "10.0"
   author:
     - 戴石麟
   description: |
