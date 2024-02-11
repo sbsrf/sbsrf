@@ -5,6 +5,9 @@ on:
     tags:
       - '*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,32 +18,14 @@ jobs:
         password: ${{ secrets.pat }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Build
         id: build
         run: |
           rime_deployer --build . /usr/share/rime-data
           rm hypy* bihua* zhlf* *.extended.dict.yaml *2.schema.yaml user.yaml
           zip -r sbsrf.zip build lua squirrel trime weasel *.yaml *.txt
-          echo "::set-output name=tag_name::$(git tag --sort version:refname | tail -n 1)"
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VERSION: ${{ github.ref }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref }}
-          release_name: ${{ github.ref }}
-          draft: false
-          prerelease: false
-      - name: Upload zip file
-        id: upload-zip
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./sbsrf.zip
-          asset_name: sbsrf-${{ steps.build.outputs.tag_name }}.zip
-          asset_content_type: application/zip
+          files: sbsrf.zip
