@@ -14,7 +14,7 @@
 
 ### 在MacOS上
 
-建议采用鼠须管0.16.2版，下载地址 https://github.com/rime/squirrel/releases/tag/0.16.2 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、windows和trime以外的所有文件复制到小狼毫用户设定中，同时将squirrel目录里的squirrel.custom.yaml也复制进去，重新部署一下就可以使用了。
+建议采用鼠须管0.16.2版，下载地址 https://github.com/rime/squirrel/releases/tag/0.16.2 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、windows和trime以外的所有文件复制到鼠须管用户设定中，同时将squirrel目录里的squirrel.custom.yaml也复制进去，重新部署一下就可以使用了。
 
 ### 在iOS上
 
@@ -24,3 +24,5 @@
 
 
 ## 使用方法
+
+声笔输入法的具体使用方法详见 https://sbxlm.gitee.io/about/ 或者 https://sbxlm.pages.dev/ ，后者还包括声笔在线体验、声笔在线练习和声笔词库迁移工具等。
