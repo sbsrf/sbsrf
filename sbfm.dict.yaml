@@ -16,7 +16,6 @@ columns:
 import_tables:
   - fmzdy
   - sbfd
-  - sbfm.extended
 encoder:
   exclude_patterns:
     - '^[aeiou].*$'

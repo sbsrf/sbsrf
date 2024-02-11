@@ -81,7 +81,7 @@ prelude:
   bihua_reverse_lookup:
     tags: [bihua_lookup]
     overwrite_comment: true
-    dictionary: sbjm
+    dictionary: sbjm.extended
 
   pinyin_lookup:
     tag: pinyin_lookup
@@ -98,7 +98,7 @@ prelude:
   pinyin_reverse_lookup:
     tags: [pinyin_lookup]
     overwrite_comment: true
-    dictionary: sbjm
+    dictionary: sbjm.extended
 
   zhlf_lookup:
     tag: zhlf_lookup
@@ -114,11 +114,11 @@ prelude:
   zhlf_reverse_lookup:
     tags: [zhlf_lookup]
     overwrite_comment: true
-    dictionary: sbjm
+    dictionary: sbjm.extended
 
   sbjm_lookup:
     tag: sbjm_lookup
-    dictionary: sbjm
+    dictionary: sbjm.extended
     enable_user_dict: false
     enable_encoder: false
     enable_sentence: false

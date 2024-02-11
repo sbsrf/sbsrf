@@ -65,6 +65,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator
     - table_translator@sbzdy
     - lua_translator@*sbxlm.auto_length
     - table_translator@bihua_lookup
@@ -99,11 +100,19 @@ speller:
 
 translator:
   dictionary: sbzr
+  enable_encoder: true
+  encode_commit_history: true
+  enable_user_dict: true
+  enable_completion: false
+  enable_sentence: false
   stop_change: false
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;']?"
+
+extended:
+  dictionary: sbzr.extended
 
 punctuator:
   import_preset: sbxlm
@@ -129,12 +138,12 @@ menu:
 
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
-  dictionary: sbzr
+  dictionary: sbzr.extended
 
 pinyin_reverse_lookup:
   __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
-  dictionary: sbzr
+  dictionary: sbzr.extended
 
 zhlf_reverse_lookup:
   __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
-  dictionary: sbzr
+  dictionary: sbzr.extended
