@@ -766,4 +766,14 @@ function rime.get_string_list(config, key)
     return list
 end
 
+--- 取出输入中当前正在翻译的一部分
+---@param context Context
+function rime.current(context)
+    local segment = context.composition:toSegmentation():back()
+    if not segment then
+      return nil
+    end
+    return string.sub(context.input, segment.start + 1, segment._end)
+  end
+  
 return rime

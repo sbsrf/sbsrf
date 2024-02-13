@@ -136,6 +136,7 @@ end
 ---@param env Env
 function this.init(env)
   this.memory = rime.Memory1(env.engine, env.engine.schema, "extended")
+  this.shadow_translator = rime.Translator(env.engine, "extended", "table_translator")
   this.static_memory = rime.Memory(env.engine, env.engine.schema)
   local config = env.engine.schema.config
   this.id = env.engine.schema.schema_id
@@ -306,6 +307,7 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.func(input, segment, env)
+  this.shadow_translator:query(input, segment)
   this.is_buffered = env.engine.context:get_option("is_buffered")
   this.third_pop = env.engine.context:get_option("third_pop")
   local memory = this.memory

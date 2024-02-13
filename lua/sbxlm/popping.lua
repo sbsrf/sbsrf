@@ -63,23 +63,18 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
   -- 取出输入中当前正在翻译的一部分
-  local segment = context.composition:toSegmentation():back()
-  if not segment then
-    return rime.process_results.kNoop
-  end
-  local input = string.sub(context.input, segment.start + 1, segment._end)
-  if input:len() == 0 then
+  local input = rime.current(context)
+  if not input then
     return rime.process_results.kNoop
   end
   -- Rime 有一个 bug，在按句号键之后的那个字词的编码的会有一个隐藏的 "."
   -- 这导致顶功判断失败，所以先屏蔽了。但是这个对用 "." 作为编码的方案会有影响
   if input == "." then
     context:pop_input(1)
-    segment = context.composition:toSegmentation():back()
-    if not segment then
+    input = rime.current(context)
+    if not input then
       return rime.process_results.kNoop
     end
-    input = string.sub(context.input, segment.start + 1, segment._end)
   end
   local incoming = utf8.char(key_event.keycode)
   for _, rule in ipairs(this.popping) do

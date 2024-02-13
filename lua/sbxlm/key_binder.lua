@@ -39,7 +39,7 @@ function this.init(env)
     return
   end
   for i = 1, bindings.size do
-    local item = bindings:get_at(i)
+    local item = bindings:get_at(i - 1)
     if not item then goto continue end
     local value = item:get_map()
     if not value then goto continue end
@@ -56,7 +56,10 @@ function this.func(key_event, env)
   if this.redirecting then
     return rime.process_results.kNoop
   end
-  local input = env.engine.context.input
+  local input = rime.current(env.engine.context)
+  if not input then
+    return rime.process_results.kNoop
+  end
   for _, binding in ipairs(this.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then

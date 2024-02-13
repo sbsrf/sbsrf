@@ -44,10 +44,10 @@ function this.func(translation, env)
   local has_fixed = context:get_option("fixed") or context:get_option("mixed") or context:get_option("popping")
   -- 取出输入中当前正在翻译的一部分
   local segment = context.composition:toSegmentation():back()
-  if not segment then
+  local input = rime.current(context)
+  if not segment or not input then
     return rime.process_results.kNoop
   end
-  local input = string.sub(context.input, segment.start + 1, segment._end)
   local fixed_phrases = this.fixed[input]
   if has_fixed and core.sss(input) then
     local ss = this.fixed[input:sub(1, 2)][1]

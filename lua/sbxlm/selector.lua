@@ -30,14 +30,18 @@ function this.func(key_event, env)
   if not this.select_keys[key] then
     return rime.process_results.kNoop
   end
-  local segment = env.engine.context.composition:toSegmentation():back()
+  local context = env.engine.context
+  local segment = context.composition:toSegmentation():back()
   if not segment then
     return rime.process_results.kNoop
   end
   if segment:has_tag("punct") or segment:has_tag("paging") then
     return this.selector:process_key_event(key_event)
   end
-  local input = env.engine.context.input
+  local input = rime.current(context)
+  if not input then
+    return rime.process_results.kNoop
+  end
   -- 如果当前编码符合选重模式，就将这些键视为选重键
   for _, pattern in ipairs(this.select_patterns) do
     if rime.match(input, pattern) then
