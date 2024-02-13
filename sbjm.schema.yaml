@@ -106,20 +106,21 @@ speller:
 
 translator:
   dictionary: sbjm
-  enable_user_dict: false
+  enable_encoder: true
+  encode_commit_history: true
+  enable_user_dict: true
   enable_completion: false
   enable_sentence: false
-
-extended:
-  dictionary: sbjm.extended
   enable_filtering: false
   lower_case: true
-  enable_encoder: true
   stop_change: false
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]?"
+
+extended:
+  dictionary: sbjm.extended
 
 punctuator:
   import_preset: sbxlm

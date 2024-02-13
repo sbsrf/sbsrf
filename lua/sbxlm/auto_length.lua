@@ -141,13 +141,13 @@ function this.init(env)
   this.id = env.engine.schema.schema_id
   this.reverse = core.reverse(this.id)
   this.third_pop = false
-  this.enable_filtering = config:get_bool("extended/enable_filtering") or false
-  this.lower_case = config:get_bool("extended/lower_case") or false
-  this.stop_change = config:get_bool("extended/stop_change") or false
-  this.enable_encoder = config:get_bool("extended/enable_encoder") or true
-  this.delete_threshold = config:get_int("extended/delete_threshold") or 1000
-  this.max_phrase_length = config:get_int("extended/max_phrase_length") or 4
-  this.static_patterns = rime.get_string_list(config, "extended/disable_user_dict_for_patterns");
+  this.enable_filtering = config:get_bool("translator/enable_filtering") or false
+  this.lower_case = config:get_bool("translator/lower_case") or false
+  this.stop_change = config:get_bool("translator/stop_change") or false
+  this.enable_encoder = config:get_bool("translator/enable_encoder") or true
+  this.delete_threshold = config:get_int("translator/delete_threshold") or 1000
+  this.max_phrase_length = config:get_int("translator/max_phrase_length") or 4
+  this.static_patterns = rime.get_string_list(config, "translator/disable_user_dict_for_patterns");
   this.memory:memorize(function(commit) this.callback(commit, env.engine.context) end)
   ---@type { string: number }
   this.known_candidates = {}
