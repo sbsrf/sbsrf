@@ -71,7 +71,6 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator
     - lua_translator@*sbxlm.auto_length
     - table_translator@sbjm_lookup
     - table_translator@bihua_lookup
@@ -112,18 +111,15 @@ speller:
 
 translator:
   dictionary: sbfm
-  enable_user_dict: false
-  enable_completion: false
-  enable_sentence: false
-
-extended:
-  dictionary: sbfm.extended
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;']*"
+
+extended:
+  dictionary: sbfm.extended
 
 punctuator:
   import_preset: sbxlm

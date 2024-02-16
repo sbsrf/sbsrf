@@ -60,14 +60,14 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - table_translator@sbzdy
-    - history_translator@hist
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
     - table_translator@zhlf_lookup
     - lua_translator@*utils.datetime
     - lua_translator@*utils.number
     - lua_translator@*utils.calculator
+    - table_translator@sbzdy
+    - history_translator
   filters:
     - reverse_lookup_filter@bihua_reverse_lookup
     - reverse_lookup_filter@pinyin_reverse_lookup

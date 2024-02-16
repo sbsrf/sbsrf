@@ -22,11 +22,10 @@ function this.dfs_encode(phrase, position, code)
   if position > utf8.len(phrase) then
     local encoded = core.word_rules(code, this.id)
     if encoded then
-      rime.errorf("encode: %s %s, stems: %s", phrase, encoded, table.concat(code, " "))
       local entry = rime.DictEntry()
       entry.text = phrase
       entry.custom_code = encoded .. " "
-      this.memory:update_userdict(entry, 0, kEncodedPrefix)
+      this.dynamic_memory:update_userdict(entry, 0, kEncodedPrefix)
       return true
     else
       return false
@@ -69,20 +68,18 @@ function this.callback(commit, context)
     return
   end
   -- 记忆刚上屏的字词
-  for _, entry in ipairs(commit:get())
-  do
+  for _, entry in ipairs(commit:get()) do
     if this.static(entry.preedit) then
       goto continue
     end
-    rime.errorf("memorize: %s %s", entry.text, entry.preedit)
     -- 如果这个词之前标记为临时词，就消除这个标记，正式进入词库
     if string.find(entry.custom_code, kEncodedPrefix) then
       local new_entry = rime.DictEntry()
       new_entry.text = entry.text
       new_entry.custom_code = string.sub(entry.custom_code, string.len(kEncodedPrefix) + 1)
-      this.memory:update_userdict(new_entry, 1, "")
+      this.dynamic_memory:update_userdict(new_entry, 1, "")
     else
-      this.memory:update_userdict(entry, 1, "")
+      this.dynamic_memory:update_userdict(entry, 1, "")
     end
     ::continue::
   end
@@ -135,21 +132,20 @@ end
 
 ---@param env Env
 function this.init(env)
-  this.memory = rime.Memory1(env.engine, env.engine.schema, "extended")
-  this.shadow_translator = rime.Translator(env.engine, "extended", "table_translator")
   this.static_memory = rime.Memory(env.engine, env.engine.schema)
+  this.dynamic_memory = rime.Memory1(env.engine, env.engine.schema, "extended")
   local config = env.engine.schema.config
   this.id = env.engine.schema.schema_id
   this.reverse = core.reverse(this.id)
   this.third_pop = false
-  this.enable_filtering = config:get_bool("extended/enable_filtering") or false
-  this.lower_case = config:get_bool("extended/lower_case") or false
-  this.stop_change = config:get_bool("extended/stop_change") or false
-  this.enable_encoder = config:get_bool("extended/enable_encoder") or true
-  this.delete_threshold = config:get_int("extended/delete_threshold") or 1000
-  this.max_phrase_length = config:get_int("extended/max_phrase_length") or 4
-  this.static_patterns = rime.get_string_list(config, "extended/disable_user_dict_for_patterns");
-  this.memory:memorize(function(commit) this.callback(commit, env.engine.context) end)
+  this.enable_filtering = config:get_bool("translator/enable_filtering") or false
+  this.lower_case = config:get_bool("translator/lower_case") or false
+  this.stop_change = config:get_bool("translator/stop_change") or false
+  this.enable_encoder = config:get_bool("translator/enable_encoder") or true
+  this.delete_threshold = config:get_int("translator/delete_threshold") or 1000
+  this.max_phrase_length = config:get_int("translator/max_phrase_length") or 4
+  this.static_patterns = rime.get_string_list(config, "translator/disable_user_dict_for_patterns");
+  this.dynamic_memory:memorize(function(commit) this.callback(commit, env.engine.context) end)
   ---@type { string: number }
   this.known_candidates = {}
   this.is_buffered = env.engine.context:get_option("is_buffered")
@@ -270,7 +266,7 @@ function this.validate_phrase(entry, segment, type, input)
   end
   ::valid::
   -- 创建一个新的候选，并且把 preedit 设置成输入的内容
-  local phrase = rime.Phrase(this.memory, type, segment.start, segment._end, entry)
+  local phrase = rime.Phrase(this.dynamic_memory, type, segment.start, segment._end, entry)
   phrase.preedit = input
   -- 如果这个候选来自用户词典，根据不同的情况加上不同的标记
   if string.find(entry.custom_code, kEncodedPrefix) then
@@ -307,17 +303,15 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.func(input, segment, env)
-  this.shadow_translator:query(input, segment)
   this.is_buffered = env.engine.context:get_option("is_buffered")
   this.third_pop = env.engine.context:get_option("third_pop")
-  local memory = this.memory
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果
   if this.static(input) then
     -- 清空候选缓存
     this.known_candidates = {}
-    memory:dict_lookup(input, false, 0)
-    for entry in memory:iter_dict() do
-      local phrase = rime.Phrase(memory, "table", segment.start, segment._end, entry)
+    this.static_memory:dict_lookup(input, false, 0)
+    for entry in this.static_memory:iter_dict() do
+      local phrase = rime.Phrase(this.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input
       rime.yield(phrase:toCandidate())
     end
@@ -333,6 +327,7 @@ function this.func(input, segment, env)
     this.translate_by_split(input, segment)
     return
   end
+  local memory = this.dynamic_memory
   -- 静态编码都处理完了，现在进入自动码长的动态编码部分
   -- 首先，根据输入的前三码来模糊匹配，依次查询固态词典和用户词典，并且结果都存放到一个列表中
   local lookup_code = string.sub(input, 0, 3)
