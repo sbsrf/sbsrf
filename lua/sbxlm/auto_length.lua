@@ -305,6 +305,11 @@ end
 function this.func(input, segment, env)
   this.is_buffered = env.engine.context:get_option("is_buffered")
   this.third_pop = env.engine.context:get_option("third_pop")
+  this.ascii_mode = env.engine.context:get_option("ascii_mode")
+
+  if (this.ascii_mode) then
+    return
+  end
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果
   if this.static(input) then
     -- 清空候选缓存
