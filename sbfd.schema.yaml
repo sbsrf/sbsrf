@@ -20,3 +20,8 @@ switches:
   __include: sbfm.schema.yaml:/switches
   __patch:
     '@3/reset': 1
+
+translator:
+  __include: sbfm.schema.yaml:/translator
+  __patch:
+    'enable_encoder': false
