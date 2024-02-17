@@ -361,7 +361,7 @@ function this.func(input, segment, env)
   end
   -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
   if #phrases == 0 then
-    if rime.match(input, "[a-z]{4}") then
+    if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
       this.translate_by_split(input, segment)
     end
     return

@@ -1,5 +1,4 @@
-customization:
-  distribution_code_name: Weasel
+# customized for sbxlm
 patch:
   "style/color_scheme": aqua
   "style/display_tray_icon": false
