@@ -141,7 +141,7 @@ function this.init(env)
   this.enable_filtering = config:get_bool("translator/enable_filtering") or false
   this.lower_case = config:get_bool("translator/lower_case") or false
   this.stop_change = config:get_bool("translator/stop_change") or false
-  this.enable_encoder = config:get_bool("translator/enable_encoder") or true
+  this.enable_encoder = config:get_bool("translator/enable_encoder") or false
   this.delete_threshold = config:get_int("translator/delete_threshold") or 1000
   this.max_phrase_length = config:get_int("translator/max_phrase_length") or 4
   this.static_patterns = rime.get_string_list(config, "translator/disable_user_dict_for_patterns");

@@ -79,6 +79,10 @@ rime.api = rime_api
 ---@diagnostic disable-next-line: undefined-global
 rime.match = rime_api.regex_match
 
+---@type fun(input: string, pattern: string, fmt: string): string
+---@diagnostic disable-next-line: undefined-global
+rime.replace = rime_api.regex_replace
+
 ---@class Set
 ---method
 ---@field empty fun(self: self): boolean

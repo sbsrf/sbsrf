@@ -115,7 +115,7 @@ function core.word_rules(code, id)
   -- 不考虑扩展编码时，词组的基本编码
   local base = ""
   local jm = core.jm(id)
-  local fm = core.fm(id)
+  local fm = core.fm(id) or core.fd(id)
   local sp = core.sp(id)
   local fx = core.fx(id)
   if #code == 2 then
