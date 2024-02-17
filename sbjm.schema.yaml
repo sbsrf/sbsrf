@@ -123,8 +123,8 @@ punctuator:
 recognizer:
   import_preset: sbxlm
 
-sbjm_key_bindings:
-  __append:
+key_binder:
+  bindings:
     - { when: has_menu, accept: Tab, send: Page_Down }
     - { when: paging, accept: Shift+Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
@@ -146,13 +146,6 @@ sbjm_key_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
-
-key_binder:
-  bindings:
-    __patch:
-      - key_bindings:/emacs_editing
-      - key_bindings:/numbered_mode_switch
-      - /sbjm_key_bindings
 
 menu:
   __include: sbxlm.yaml:/prelude/menu

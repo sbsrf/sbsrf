@@ -132,8 +132,8 @@ prelude:
     overwrite_comment: true
     dictionary: sbfm
 
-sbxlm_key_bindings:
-  __append:
+key_binder:
+  bindings:
     - { when: has_menu, accept: Tab, send: Page_Down }
     - { when: paging, accept: Shift+Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
@@ -165,13 +165,6 @@ sbxlm_key_bindings:
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[a-z0-9]"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
-
-key_binder:
-  bindings:
-    __patch:
-      - key_bindings:/emacs_editing
-      - key_bindings:/numbered_mode_switch
-      - /sbxlm_key_bindings
 
 recognizer:
   patterns:
