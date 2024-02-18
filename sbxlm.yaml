@@ -98,6 +98,8 @@ prelude:
   pinyin_reverse_lookup:
     tags: [pinyin_lookup]
     overwrite_comment: true
+    comment_format:
+      - xform/.+[0-9]//
     dictionary: sbjm.extended
 
   zhlf_lookup:
