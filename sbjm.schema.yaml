@@ -136,10 +136,10 @@ sbjm_extra_bindings:
       send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "'"
-      send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      send_sequence: "{Home}{Right}{space}{Left}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
       accept: "'"
-      send_sequence: "{Home}{Right}{Right}{space}{space}"
+      send_sequence: "{Home}{Right}{Right}{space}{Left}{space}{space}"
 
 key_binder:
   bindings:
