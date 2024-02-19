@@ -123,8 +123,29 @@ punctuator:
 recognizer:
   import_preset: sbxlm
 
+sbjm_extra_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: Tab
+      send_sequence: "{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+
 key_binder:
-  import_preset: sbxlm
+  bindings:
+    __patch: 
+      - sbxlm.yaml:/sbxlm_key_bindings
+      - /sbjm_extra_bindings
 
 menu:
   __include: sbxlm.yaml:/prelude/menu

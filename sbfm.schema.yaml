@@ -129,13 +129,6 @@ recognizer:
 
 key_binder:
   import_preset: sbxlm
-  bindings:
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: "'"
-      send_sequence: "{apostrophe}{space}"
 
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
