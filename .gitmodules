@@ -1,0 +1,6 @@
+[submodule "hzinfo"]
+	path = hzinfo
+	url = https://github.com/sbsrf/hzinfo
+[submodule "rime-ice"]
+	path = rime-ice
+	url = https://github.com/iDvel/rime-ice

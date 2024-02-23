@@ -1,0 +1,15 @@
+{
+  "name": "sbsrf",
+  "version": "10.0.0-alpha.1",
+  "description": "用 lua 重新实现的声笔系列码。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "csv": "^6.3.6",
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.7.1"
+  }
+}

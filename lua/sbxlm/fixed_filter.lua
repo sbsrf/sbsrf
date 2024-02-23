@@ -18,14 +18,15 @@ function this.init(env)
     return
   end
   for line in file:lines() do
-    local phrase, code = line:match("([^\t]+)\t([^\t]+)")
-    if not phrase or not code then
+    local code, content = line:match("([^\t]+)\t([^\t]+)")
+    if not content or not code then
       goto continue
     end
-    if not this.fixed[code] then
-      this.fixed[code] = {}
+    local words = {}
+    for word in content:gmatch("[^%s]+") do
+      table.insert(words, word)
     end
-    table.insert(this.fixed[code], phrase)
+    this.fixed[code] = words
     ::continue::
   end
   file:close()

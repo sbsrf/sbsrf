@@ -81,10 +81,27 @@ speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
-    - "fuzz/^(\\w).+$/$1/"
-    - "fuzz/^(\\w)(\\w).+$/$1$2/"
-    - "fuzz/^(\\w)(\\w)(\\w).+$/$1$2$3/"
-    - "fuzz/^(\\w)(\\w)(\\w)(\\w).+$/$1$2$3$4/"
+    # 1. 冠零声
+    - xform/^(?=[aoe])/v/
+    # 2. 去翘舌
+    - xform/(?<=[zcs])h//
+    # 3. 省介音
+    - xform/(?<=[jqx])i(?=[aeo])//
+    # 4. 截韵尾
+    - xform/^([a-z]{3})[a-z]+/$1/
+    # 5. 去鼻音
+    - xform/(.)n/$1$1/
+    # 6. 理特例
+    - xform/er/e/
+    - xform/^(?<=[ln])v/u/
+    # 7. 补笔画
+    - xform/^([a-z]{3}\d{2})\d/$1/
+    - xlit/12345/eiuoa/
+    # 8. 出简码
+    - derive/^([a-z]).+$/$1/
+    - derive/^([a-z]{2}).+$/$1/
+    - derive/^([a-z]{3}).+$/$1/
+    - derive/^([a-z]{4}).+$/$1/
   popping:
     # 纯顶模式，单字、二字词、三字词
     - when: popping
@@ -114,7 +131,7 @@ speller:
 translator:
   dictionary: sbpy
   packs:
-    - sbpy.extended
+    - sbpy.base
 
 punctuator:
   import_preset: sbxlm
