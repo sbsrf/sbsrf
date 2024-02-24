@@ -1,5 +1,6 @@
--- based on https://github.com/baopaau/rime-lua-collection/blob/master/calculator_translator.lua
--- 声笔用簡易計算器（執行任何Lua表達式）
+-- 计算器翻译器
+-- 输入以 e 开头的表达式，输出表达式的值
+-- 基于 https://github.com/baopaau/rime-lua-collection/blob/master/calculator_translator.lua
 --
 -- 格式：e<exp>
 -- Lambda語法糖：\<arg>.<exp>|
@@ -14,6 +15,13 @@
 -- e$(range(-5,5,0.01))(map,\x.-60*x^2-16*x+20|)(max)() 輸出 21.066
 -- etest(\x.trunc(sin(x),1e-3)==trunc(deriv(cos)(x),1e-3)|,range(-2,2,0.1)) 輸出 true
 --
+
+local rime = require("lib")
+local yield = rime.yield
+local Candidate = rime.Candidate
+
+---@diagnostic disable: lowercase-global
+---@diagnostic disable: no-unknown
 -- 定義全局函數、常數（注意命名空間污染）
 cos = math.cos
 sin = math.sin
@@ -364,7 +372,7 @@ local function calculator_translator(input, seg)
   exp = exp:gsub("#", " ")
   
   yield(Candidate("number", seg.start, seg._end, exp, "表达式"))
-       
+
   if not expfin then return end
   
   local expe = exp
@@ -386,6 +394,7 @@ local function calculator_translator(input, seg)
   if result == nil then return end
   
   result = serialize(result)
+  ---@cast result string
   yield(Candidate("number", seg.start, seg._end, result, "答案"))
   yield(Candidate("number", seg.start, seg._end, exp.." = "..result, "等式"))
 end

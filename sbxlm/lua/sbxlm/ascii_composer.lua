@@ -2,19 +2,19 @@
 -- 通用（不包含声笔系列码的特殊逻辑）
 -- 本处理器实现了 Shift+Enter 反转首字母大小写、Control+Enter 反转编码大小写等功能
 
-local XK_Shift_L = 0xffe1
-local XK_Shift_R = 0xffe2
-local XK_Control_L = 0xffe3
-local XK_Control_R = 0xffe4
 local XK_Return = 0xff0d
 local XK_Tab = 0xff09
 local rime = require("lib")
 
 local this = {}
 
----@param env Env
+---@class AsciiComposerEnv: Env
+---@field ascii_composer Processor
+---@field connection Connection
+
+---@param env AsciiComposerEnv
 function this.init(env)
-  this.ascii_composer = rime.Processor(env.engine, "", "ascii_composer")
+  env.ascii_composer = rime.Processor(env.engine, "", "ascii_composer")
 end
 
 ---@param ch number
@@ -24,18 +24,19 @@ local function is_upper(ch)
 end
 
 ---@param context Context
-function this.switch_inline(context)
+---@param env AsciiComposerEnv
+local function switch_inline(context, env)
   context:set_option("ascii_mode", true)
-  this.connection = context.update_notifier:connect(function(ctx)
+  env.connection = context.update_notifier:connect(function(ctx)
     if not ctx:is_composing() then
-      this.connection:disconnect()
+      env.connection:disconnect()
       ctx:set_option("ascii_mode", false)
     end
   end)
 end
 
 ---@param key_event KeyEvent
----@param env Env
+---@param env AsciiComposerEnv
 function this.func(key_event, env)
   local context = env.engine.context
   local input = context.input
@@ -45,7 +46,7 @@ function this.func(key_event, env)
   -- auto_inline 启用时，首字母大写时自动切换到内联模式
   if (not ascii_mode and auto_inline and input:len() == 0 and is_upper(key_event.keycode)) then
     context:push_input(string.char(key_event.keycode))
-    this.switch_inline(context)
+    switch_inline(context, env)
     -- hack，随便发一个没用的键让 ascii_composer 忘掉之前的 shift
     env.engine:process_key(rime.KeyEvent("Release+A"))
     return rime.process_results.kAccepted
@@ -59,7 +60,7 @@ function this.func(key_event, env)
       end
       context:set_option("temp_buffered", true)
     else
-      this.switch_inline(context)
+      switch_inline(context, env)
     end
     return rime.process_results.kAccepted
   end

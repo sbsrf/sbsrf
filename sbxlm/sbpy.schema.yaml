@@ -146,7 +146,6 @@ recognizer:
   import_preset: sbxlm
   patterns:
     sbjm_lookup: ''
-    select_comments: '^[bpmfdtnlgkhjqxzcsrywv]'
 
 key_binder:
   import_preset: sbxlm
@@ -179,3 +178,4 @@ menu:
   page_size: 6
   alternative_select_keys: "_23789"
   alternative_select_labels: ["", "", "", "", "", ""]
+  select_comment_pattern: "^[bpmfdtnlgkhjqxzcsrywv].*$"

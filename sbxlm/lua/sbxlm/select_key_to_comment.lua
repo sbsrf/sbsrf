@@ -9,7 +9,6 @@ local this = {}
 
 ---@param env Env
 function this.init(env)
-  this.select_keys = env.engine.schema.select_keys
 end
 
 ---@param segment Segment
@@ -25,11 +24,12 @@ end
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
+  local select_keys = env.engine.schema.select_keys or ""
   local i = 0
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键
-    local j = i % string.len(this.select_keys) + 1
-    local key = string.sub(this.select_keys, j, j)
+    local j = i % string.len(select_keys) + 1
+    local key = string.sub(select_keys, j, j)
     -- 如果是下划线，说明是首选，无需操作
     if key == "_" then
       goto continue

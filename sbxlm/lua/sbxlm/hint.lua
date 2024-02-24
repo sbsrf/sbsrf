@@ -7,13 +7,17 @@ local core = require "sbxlm.core"
 
 local this = {}
 
----@param env Env
+---@class HintEnv: Env
+---@field memory Memory
+---@field reverse ReverseLookup
+
+---@param env HintEnv
 function this.init(env)
-	this.memory = rime.Memory(env.engine, env.engine.schema)
+	env.memory = rime.Memory(env.engine, env.engine.schema)
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
-	this.reverse = rime.ReverseLookup(dict_name)
+	env.reverse = rime.ReverseLookup(dict_name)
 end
 
 ---@param segment Segment
@@ -23,7 +27,7 @@ function this.tags_match(segment, env)
 end
 
 ---@param translation Translation
----@param env Env
+---@param env HintEnv
 function this.func(translation, env)
 	local is_enhanced = env.engine.context:get_option("is_enhanced")
 	local id = env.engine.schema.schema_id
@@ -31,12 +35,12 @@ function this.func(translation, env)
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_b = { "a", "e", "u", "i", "o" }
 	local i = 1
-	local memory = this.memory
+	local memory = env.memory
 	for candidate in translation:iter() do
 		local input = candidate.preedit
 		-- 第一种情况：飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
 		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
-			local codes = this.reverse:lookup(candidate.text)
+			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,}") then
 					candidate.comment = candidate.comment .. " " .. code

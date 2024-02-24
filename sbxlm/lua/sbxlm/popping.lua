@@ -7,6 +7,9 @@ local rime = require("lib")
 
 local this = {}
 
+---@class PoppingEnv: Env
+---@field popping PoppingConfig[]
+
 ---@class PoppingConfig
 ---@field when string | nil
 ---@field when_not string | nil
@@ -15,7 +18,7 @@ local this = {}
 ---@field prefix number | nil
 ---@field conditional boolean | nil
 
----@param env Env
+---@param env PoppingEnv
 function this.init(env)
   env.engine.context.option_update_notifier:connect(function(ctx, name)
     if name == "is_buffered" then
@@ -35,7 +38,7 @@ function this.init(env)
     return
   end
   ---@type PoppingConfig[]
-  this.popping = {}
+  env.popping = {}
   for i = 1, popping_config.size do
     local item = popping_config:get_at(i - 1)
     if not item then goto continue end
@@ -49,13 +52,13 @@ function this.init(env)
       prefix = value:get_value("prefix") and value:get_value("prefix"):get_int(),
       conditional = value:get_value("conditional") and value:get_value("conditional"):get_bool()
     }
-    table.insert(this.popping, popping)
+    table.insert(env.popping, popping)
     ::continue::
   end
 end
 
 ---@param key_event KeyEvent
----@param env Env
+---@param env PoppingEnv
 function this.func(key_event, env)
   local context = env.engine.context
   local is_buffered = context:get_option("is_buffered")
@@ -77,7 +80,7 @@ function this.func(key_event, env)
     end
   end
   local incoming = utf8.char(key_event.keycode)
-  for _, rule in ipairs(this.popping) do
+  for _, rule in ipairs(env.popping) do
     local when = rule.when
     local when_not = rule.when_not
     local success = false

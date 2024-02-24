@@ -9,25 +9,29 @@ local rime = require "lib"
 
 local this = {}
 
----@param env Env
+---@class SelectorEnv: Env
+---@field select_keys { string: boolean }
+---@field select_patterns string[]
+---@field selector Processor
+
+---@param env SelectorEnv
 function this.init(env)
   local config = env.engine.schema.config;
   local select_keys = env.engine.schema.select_keys;
-  ---@type { string: boolean }
-  this.select_keys = {}
+  env.select_keys = {}
   for i = 1, string.len(select_keys) do
-    this.select_keys[string.sub(select_keys, i, i)] = true
+    env.select_keys[string.sub(select_keys, i, i)] = true
   end
-  this.select_patterns = rime.get_string_list(config, "menu/alternative_select_patterns")
-  this.selector = rime.Processor(env.engine, "", "selector")
+  env.select_patterns = rime.get_string_list(config, "menu/alternative_select_patterns")
+  env.selector = rime.Processor(env.engine, "", "selector")
 end
 
 ---@param key_event KeyEvent
----@param env Env
+---@param env SelectorEnv
 ---@return ProcessResult
 function this.func(key_event, env)
   local key = utf8.char(key_event.keycode)
-  if not this.select_keys[key] then
+  if not env.select_keys[key] then
     return rime.process_results.kNoop
   end
   local context = env.engine.context
@@ -36,16 +40,16 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
   if segment:has_tag("punct") or segment:has_tag("paging") then
-    return this.selector:process_key_event(key_event)
+    return env.selector:process_key_event(key_event)
   end
   local input = rime.current(context)
   if not input then
     return rime.process_results.kNoop
   end
   -- 如果当前编码符合选重模式，就将这些键视为选重键
-  for _, pattern in ipairs(this.select_patterns) do
+  for _, pattern in ipairs(env.select_patterns) do
     if rime.match(input, pattern) then
-      return this.selector:process_key_event(key_event)
+      return env.selector:process_key_event(key_event)
     end
   end
   return rime.process_results.kNoop

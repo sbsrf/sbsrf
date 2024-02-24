@@ -7,6 +7,10 @@ local rime = require "lib"
 
 local this = {}
 
+---@class KeyBinderEnv: Env
+---@field redirecting boolean
+---@field bindings Binding[]
+
 ---@class Binding
 ---element
 ---@field match string
@@ -29,11 +33,11 @@ local function parse(value)
   return binding
 end
 
----@param env Env
+---@param env KeyBinderEnv
 function this.init(env)
-  this.redirecting = false
+  env.redirecting = false
   ---@type Binding[]
-  this.bindings = {}
+  env.bindings = {}
   local bindings = env.engine.schema.config:get_list("key_binder/bindings")
   if not bindings then
     return
@@ -45,29 +49,29 @@ function this.init(env)
     if not value then goto continue end
     local binding = parse(value)
     if not binding then goto continue end
-    table.insert(this.bindings, binding)
+    table.insert(env.bindings, binding)
     ::continue::
   end
 end
 
 ---@param key_event KeyEvent
----@param env Env
+---@param env KeyBinderEnv
 function this.func(key_event, env)
-  if this.redirecting then
+  if env.redirecting then
     return rime.process_results.kNoop
   end
   local input = rime.current(env.engine.context)
   if not input then
     return rime.process_results.kNoop
   end
-  for _, binding in ipairs(this.bindings) do
+  for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then
-      this.redirecting = true
+      env.redirecting = true
       for _, event in ipairs(binding.send_sequence:toKeyEvent()) do
         env.engine:process_key(event)
       end
-      this.redirecting = false
+      env.redirecting = false
       return rime.process_results.kAccepted
     end
   end

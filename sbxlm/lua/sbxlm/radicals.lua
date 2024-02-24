@@ -7,27 +7,32 @@ local rime = require "lib"
 
 local this = {}
 
----@param env Env
+---@class RadicalsEnv: Env
+---@field lookup_tags string[]
+---@field radicals { string : string }
+
+---@param env RadicalsEnv
 function this.init(env)
-  this.lookup_tags = { "sbjm_lookup", "bihua_lookup", "pinyin_lookup", "zhlf_lookup" }
+  env.lookup_tags = { "sbjm_lookup", "bihua_lookup", "pinyin_lookup", "zhlf_lookup" }
   ---@type { string : string }
-  this.radicals = {}
+  env.radicals = {}
   local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/radicals.txt"
   local file = io.open(path, "r")
   if not file then
     return
   end
   for line in file:lines() do
+    ---@type string, string
     local char, radical = line:match("([^\t]+)\t([^\t]+)")
-    this.radicals[char] = radical
+    env.radicals[char] = radical
   end
   file:close()
 end
 
 ---@param segment Segment
----@param env Env
+---@param env RadicalsEnv
 function this.tags_match(segment, env)
-  for _, value in ipairs(this.lookup_tags) do
+  for _, value in ipairs(env.lookup_tags) do
     if segment.tags[value] then
       return true
     end
@@ -36,12 +41,12 @@ function this.tags_match(segment, env)
 end
 
 ---@param translation Translation
----@param env Env
+---@param env RadicalsEnv
 function this.func(translation, env)
   for candidate in translation:iter() do
-    local radical = this.radicals[candidate.text]
+    local radical = env.radicals[candidate.text]
     if radical then
-      candidate.comment = candidate.comment .. string.format("[%s]", this.radicals[candidate.text])
+      candidate.comment = candidate.comment .. string.format("[%s]", env.radicals[candidate.text])
     end
     rime.yield(candidate)
   end

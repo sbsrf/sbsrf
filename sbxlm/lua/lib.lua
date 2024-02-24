@@ -71,16 +71,16 @@ rime.error = log.error
 ---@field get_distribution_code_name fun(): string
 ---@field get_distribution_version fun(): string
 ---@field get_user_id fun(): string
----@diagnostic disable-next-line: undefined-global
+---@diagnostic disable-next-line: undefined-global, no-unknown
 rime.api = rime_api
 
 
 ---@type fun(input: string, pattern: string): boolean
----@diagnostic disable-next-line: undefined-global
+---@diagnostic disable-next-line: undefined-global, no-unknown
 rime.match = rime_api.regex_match
 
 ---@type fun(input: string, pattern: string, fmt: string): string
----@diagnostic disable-next-line: undefined-global
+---@diagnostic disable-next-line: undefined-global, no-unknown
 rime.replace = rime_api.regex_replace
 
 ---@class Set
@@ -539,7 +539,7 @@ local _Filter
 ---@param klass string
 ---@return Processor
 function rime.Processor(engine, namespace, klass)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Component.Processor(engine, namespace, klass)
 end
 
@@ -549,7 +549,7 @@ end
 ---@param klass string
 ---@return Translator
 function rime.Translator(engine, namespace, klass)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Component.Translator(engine, namespace, klass)
 end
 
@@ -558,7 +558,7 @@ end
 ---@param values any[]
 ---@return Set
 function rime.Set(values)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Set(values)
 end
 
@@ -567,7 +567,7 @@ end
 ---@param end_pos integer 結束下標
 ---@return Segment
 function rime.Segment(start_pos, end_pos)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Segment(start_pos, end_pos)
 end
 
@@ -575,7 +575,7 @@ end
 ---@param schema_id string
 ---@return Schema
 function rime.Schema(schema_id)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Schema(schema_id)
 end
 
@@ -583,7 +583,7 @@ end
 ---@param str string 值, 卽 `get_string` 方法查詢的值
 ---@return ConfigValue
 function rime.ConfigValue(str)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return ConfigValue(str)
 end
 
@@ -595,7 +595,7 @@ end
 ---@param comment string 註解
 ---@return Candidate
 function rime.Candidate(type, start, _end, text, comment)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Candidate(type, start, _end, text, comment)
 end
 
@@ -607,7 +607,7 @@ end
 ---@param inherit_comment boolean
 ---@return ShadowCandidate
 function rime.ShadowCandidate(cand, type, text, comment, inherit_comment)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return ShadowCandidate(cand, type, text, comment, inherit_comment)
 end
 
@@ -619,7 +619,7 @@ end
 ---@param entry DictEntry
 ---@return Phrase
 function rime.Phrase(memory, typ, start, _end, entry)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Phrase(memory, typ, start, _end, entry)
 end
 
@@ -627,7 +627,7 @@ end
 ---@param filename string
 ---@return Opencc
 function rime.Opencc(filename)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Opencc(filename)
 end
 
@@ -635,7 +635,7 @@ end
 ---@param file_name string
 ---@return ReverseDb
 function rime.ReverseDb(file_name)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return ReverseDb(file_name)
 end
 
@@ -643,21 +643,21 @@ end
 ---@param dict_name string
 ---@return ReverseLookup
 function rime.ReverseLookup(dict_name)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return ReverseLookup(dict_name)
 end
 
 ---詞典候選詞結果
 ---@return DictEntry
 function rime.DictEntry()
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return DictEntry()
 end
 
 ---編碼
 ---@return Code
 function rime.Code()
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Code()
 end
 
@@ -666,7 +666,7 @@ end
 ---@param schema Schema
 ---@return Memory
 function rime.Memory(engine, schema)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Memory(engine, schema)
 end
 
@@ -676,7 +676,7 @@ end
 ---@param namespace string|nil
 ---@return Memory
 function rime.Memory1(engine, schema, namespace)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Memory(engine, schema, namespace)
 end
 
@@ -684,14 +684,14 @@ end
 ---@param engine Engine
 ---@return Switcher
 function rime.Switcher(engine)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Switcher(engine)
 end
 
 ---候選詞註釋轉換
 ---@return Projection
 function rime.Projection()
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return Projection()
 end
 
@@ -699,11 +699,11 @@ end
 ---@param dbname string
 ---@return LevelDb
 function rime.LevelDb(dbname)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     local ok, ldb = pcall(LevelDb, dbname)
     if not ok then
         local dbpath = rime.api.get_user_data_dir() .. "/" .. dbname .. ".userdb"
-        ---@diagnostic disable-next-line: undefined-global
+        ---@diagnostic disable-next-line: undefined-global, no-unknown
         _, ldb = pcall(LevelDb, dbpath, dbname)
     end
     return ldb
@@ -713,7 +713,7 @@ end
 ---@param repr string
 ---@return KeyEvent
 function rime.KeyEvent(repr)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return KeyEvent(repr)
 end
 
@@ -721,7 +721,7 @@ end
 ---@param repr string
 ---@return KeySequence
 function rime.KeySequence(repr)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     return KeySequence(repr)
 end
 
@@ -746,7 +746,7 @@ end
 ---送出候選
 ---@param cand Candidate
 function rime.yield(cand)
-    ---@diagnostic disable-next-line: undefined-global
+    ---@diagnostic disable-next-line: undefined-global, no-unknown
     yield(cand)
 end
 

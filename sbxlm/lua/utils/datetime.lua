@@ -1,18 +1,24 @@
---[[
-datetime_translator: 将 `ors` 翻译为当前日期
---]]
+-- 日期与时间翻译器
+-- 输入特定的日期时间缩写，输出对应的日期时间字符串
+
+local rime = require "lib"
+
 local function translator(input, seg)
+   ---@type (string | osdate)[]
+   local datetimes = {}
    if (input == "orq") then
-	   yield(Candidate("orq", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
-      yield(Candidate("orq", seg.start, seg._end, os.date("%Y-%m-%d"), ""))
+      table.insert(datetimes, os.date("%Y年%m月%d日"))
+      table.insert(datetimes, os.date("%Y-%m-%d"))
+   elseif (input == "osj") then
+      table.insert(datetimes, os.date("%H时%M分%S秒"))
+      table.insert(datetimes, os.date("%H:%M:%S"))
+   elseif (input == "ors") then
+      table.insert(datetimes, os.date("%Y年%m月%d日%H时%M分%S秒"))
+      table.insert(datetimes, os.date("%Y-%m-%d %H:%M:%S"))
    end
-   if (input == "ors") then
-      yield(Candidate("ors", seg.start, seg._end, os.date("%Y年%m月%d日%H时%M分%S秒"), ""))
-      yield(Candidate("ors", seg.start, seg._end, os.date("%Y-%m-%d %H:%M:%S"), ""))
-   end
-   if (input == "osj") then
-      yield(Candidate("osj", seg.start, seg._end, os.date("%H时%M分%S秒"), ""))
-      yield(Candidate("osj", seg.start, seg._end, os.date("%H:%M:%S"), ""))
+   for _, entry in ipairs(datetimes) do
+      ---@cast entry string
+      rime.yield(rime.Candidate("datetime", seg.start, seg._end, entry, ""))
    end
 end
 

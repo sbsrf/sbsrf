@@ -1,6 +1,7 @@
---[[
-number_translator: 将 `o` + 阿拉伯数字 翻译为大小写汉字
---]]
+-- 数字翻译器
+-- 将 `o` + 阿拉伯数字 翻译为大小写汉字
+
+local rime = require "lib"
 
 local confs = {
    {
@@ -37,13 +38,15 @@ local function read_seg(conf, n)
    while string.len(n) > 0 do
       local d = tonumber(string.sub(n, -1, -1))
       if d ~= 0 then
-	 s = conf.number[d] .. conf.suffix[i] .. s
-	 zf = false
+         ---@type string
+         s = conf.number[d] .. conf.suffix[i] .. s
+         zf = false
       else
-	 if not zf then
-	    s = conf.number[0] .. s
-	 end
-	 zf = true
+         if not zf then
+            ---@type string
+            s = conf.number[0] .. s
+         end
+         zf = true
       end
       i = i + 1
       n = string.sub(n, 1, -2)
@@ -66,11 +69,13 @@ local function read_number(conf, n)
    while string.len(n) > 0 do
       local zf2, r = read_seg(conf, string.sub(n, -4, -1))
       if r ~= "" then
-	 if zf and s ~= "" then
-	    s = r .. conf.suffix2[i] .. conf.number[0] .. s
-	 else
-	    s = r .. conf.suffix2[i] .. s
-	 end
+         if zf and s ~= "" then
+            ---@type string
+            s = r .. conf.suffix2[i] .. conf.number[0] .. s
+         else
+            ---@type string
+            s = r .. conf.suffix2[i] .. s
+         end
       end
       zf = zf2
       i = i + 1
@@ -83,10 +88,10 @@ local function translator(input, seg)
    if string.sub(input, 1, 1) == "o" then
       local n = string.sub(input, 2)
       if tonumber(n) ~= nil then
-	 for _, conf in ipairs(confs) do
-	    local r = read_number(conf, n)
-	    yield(Candidate("number", seg.start, seg._end, r, conf.comment))
-	 end
+         for _, conf in ipairs(confs) do
+            local r = read_number(conf, n)
+            rime.yield(rime.Candidate("number", seg.start, seg._end, r, conf.comment))
+         end
       end
    end
 end

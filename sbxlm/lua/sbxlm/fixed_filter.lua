@@ -8,16 +8,20 @@ local core = require "sbxlm.core"
 
 local this = {}
 
----@param env Env
+---@class FixedFilterEnv: Env
+---@field fixed { string : string[] }
+
+---@param env FixedFilterEnv
 function this.init(env)
   ---@type { string : string[] }
-  this.fixed = {}
+  env.fixed = {}
   local path = rime.api.get_user_data_dir() .. ("/%s.fixed.txt"):format(env.engine.schema.schema_id)
   local file = io.open(path, "r")
   if not file then
     return
   end
   for line in file:lines() do
+    ---@type string, string
     local code, content = line:match("([^\t]+)\t([^\t]+)")
     if not content or not code then
       goto continue
@@ -26,7 +30,7 @@ function this.init(env)
     for word in content:gmatch("[^%s]+") do
       table.insert(words, word)
     end
-    this.fixed[code] = words
+    env.fixed[code] = words
     ::continue::
   end
   file:close()
@@ -39,7 +43,7 @@ function this.tags_match(segment, env)
 end
 
 ---@param translation Translation
----@param env Env
+---@param env FixedFilterEnv
 function this.func(translation, env)
   local context = env.engine.context
   local has_fixed = context:get_option("fixed") or context:get_option("mixed") or context:get_option("popping")
@@ -49,10 +53,10 @@ function this.func(translation, env)
   if not segment or not input then
     return rime.process_results.kNoop
   end
-  local fixed_phrases = this.fixed[input]
+  local fixed_phrases = env.fixed[input]
   if has_fixed and core.sss(input) then
-    local ss = (this.fixed[input:sub(1, 2)] or {})[1]
-    local s = (this.fixed[input:sub(3, 3)] or {})[1]
+    local ss = (env.fixed[input:sub(1, 2)] or {})[1]
+    local s = (env.fixed[input:sub(3, 3)] or {})[1]
     if ss and s then
       local candidate = rime.Candidate("combination", segment.start, segment._end, ss .. s, "")
       candidate.preedit = input:sub(1, 1) .. ' ' .. input:sub(2, 2) .. ' ' .. input:sub(3, 3)
