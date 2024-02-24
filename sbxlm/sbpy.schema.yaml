@@ -128,16 +128,25 @@ speller:
       match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
+# grammar:
+#   language: zh-hans-t-essay-bgw
+
 translator:
   dictionary: sbpy
   packs:
     - sbpy.base
+  max_homophones: 7
+  max_homographs: 7
+  contextual_suggestions: true
 
 punctuator:
   import_preset: sbxlm
 
 recognizer:
   import_preset: sbxlm
+  patterns:
+    sbjm_lookup: ''
+    select_comments: '^[bpmfdtnlgkhjqxzcsrywv]'
 
 key_binder:
   import_preset: sbxlm

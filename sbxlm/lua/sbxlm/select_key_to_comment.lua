@@ -12,22 +12,14 @@ function this.init(env)
   this.select_keys = env.engine.schema.select_keys
 end
 
----@param translation Translation
-function this.default(translation)
-  for candidate in translation:iter() do
-    rime.yield(candidate)
-  end
-end
-
 ---@param segment Segment
 ---@param env Env
 function this.tags_match(segment, env)
-  -- 第一种情况：当前段落是常规编码，且编码长度大于等于 4
-  -- 第二种情况：当前段落是标点
-  -- 第三种情况：当前方案是声笔拼音
-  return (segment:has_tag("abc") and segment.length >= 4)
+  -- 当前段落需要为标点或为正常输入码且匹配选择注释模式
+  local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
+  local input = rime.current(env.engine.context) or ""
+  return (segment:has_tag("abc") and rime.match(input, pattern))
       or segment:has_tag("punct")
-      or env.engine.schema.schema_id == "sbpy"
 end
 
 ---@param translation Translation

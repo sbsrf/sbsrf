@@ -12,7 +12,7 @@ local this = {}
 function this.init(env)
   ---@type { string : string[] }
   this.fixed = {}
-  local path = rime.api.get_user_data_dir() .. "/sbpy.fixed.txt"
+  local path = rime.api.get_user_data_dir() .. ("/%s.fixed.txt"):format(env.engine.schema.schema_id)
   local file = io.open(path, "r")
   if not file then
     return
@@ -51,8 +51,8 @@ function this.func(translation, env)
   end
   local fixed_phrases = this.fixed[input]
   if has_fixed and core.sss(input) then
-    local ss = this.fixed[input:sub(1, 2)][1]
-    local s = this.fixed[input:sub(3, 3)][1]
+    local ss = (this.fixed[input:sub(1, 2)] or {})[1]
+    local s = (this.fixed[input:sub(3, 3)] or {})[1]
     if ss and s then
       local candidate = rime.Candidate("combination", segment.start, segment._end, ss .. s, "")
       candidate.preedit = input:sub(1, 1) .. ' ' .. input:sub(2, 2) .. ' ' .. input:sub(3, 3)
