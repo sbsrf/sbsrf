@@ -6,15 +6,15 @@
 
 ### 在Windows上
 
-建议采用小狼毫0.15.0版，下载地址 https://github.com/rime/weasel/releases/tag/0.15.0 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、windows和trime以外的所有文件复制到小狼毫用户rime中，同时将windows目录里的weasel.custom.yaml也复制进去，重新部署一下就可以使用了。
+建议采用小狼毫0.15.0版，下载地址 https://github.com/rime/weasel/releases/tag/0.15.0 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到小狼毫用户rime中，同时将windows目录里的weasel.custom.yaml也复制进去，重新部署一下就可以使用了。
 
 ### 在Android上
 
-建议采用同文v3.2.16，下载地址 https://github.com/osfans/trime/releases/tag/v3.2.16 。安装同文后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、windows和trime以外的所有文件复制到小狼毫用户设定中，同时将trime目录里的所有目录和文件也复制进去，重新部署一下就可以使用了。如果使用异常，请重启一下手机，一般就没有问题了。
+建议采用同文v3.2.16，下载地址 https://github.com/osfans/trime/releases/tag/v3.2.16 。安装同文后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到小狼毫用户设定中，同时将trime目录里的所有目录和文件也复制进去，重新部署一下就可以使用了。如果使用异常，请重启一下手机，一般就没有问题了。
 
 ### 在MacOS上
 
-建议采用鼠须管0.16.2版，下载地址 https://github.com/rime/squirrel/releases/tag/0.16.2 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、windows和trime以外的所有文件复制到鼠须管用户设定中，同时将squirrel目录里的squirrel.custom.yaml也复制进去，重新部署一下就可以使用了。
+建议采用鼠须管0.16.2版，下载地址 https://github.com/rime/squirrel/releases/tag/0.16.2 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到鼠须管用户设定中，同时将squirrel目录里的squirrel.custom.yaml也复制进去，重新部署一下就可以使用了。
 
 ### 在iOS上
 
