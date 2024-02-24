@@ -132,6 +132,8 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;']*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]?"
+    - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
 
 extended:
   dictionary: sbfx.extended

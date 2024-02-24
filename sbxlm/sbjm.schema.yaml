@@ -113,6 +113,7 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
 
 extended:
   dictionary: sbjm.extended

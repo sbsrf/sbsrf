@@ -27,6 +27,9 @@ switches:
   - options: [free, fixed, mixed, popping]
     reset: 0
     states: [自由, 固定, 混顶, 纯顶]
+  - name: postpone
+    reset: 0
+    states: [默认, 后置]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
@@ -74,6 +77,7 @@ engine:
     - reverse_lookup_filter@zhlf_reverse_lookup
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.fixed_filter
     - lua_filter@*sbxlm.select_key_to_comment
 
@@ -128,16 +132,10 @@ speller:
       match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
-# grammar:
-#   language: zh-hans-t-essay-bgw
-
 translator:
   dictionary: sbpy
   packs:
     - sbpy.base
-  max_homophones: 7
-  max_homographs: 7
-  contextual_suggestions: true
 
 punctuator:
   import_preset: sbxlm

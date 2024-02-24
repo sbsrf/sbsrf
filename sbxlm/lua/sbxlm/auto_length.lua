@@ -29,6 +29,10 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@param input string
 ---@param env AutoLengthEnv
 local function static(input, env)
+  -- 对简码特殊判断
+  if env.third_pop and core.sss(input) then
+    return false
+  end
   for _, pattern in ipairs(env.static_patterns) do
     if rime.match(input, pattern) then
       return true
@@ -315,9 +319,12 @@ local function translate_by_split(input, segment, env)
     text = text .. entry.text
     break
   end
-  local candidate = rime.Candidate("combination", segment.start, segment._end, text, "")
-  candidate.preedit = input
-  yield(candidate)
+  local entry = rime.DictEntry()
+  entry.text = text
+  entry.custom_code = input
+  local phrase = rime.Phrase(env.static_memory, "user_table", segment.start, segment._end, entry)
+  phrase.preedit = input
+  yield(phrase:toCandidate())
 end
 
 ---@param input string
@@ -341,16 +348,15 @@ function this.func(input, segment, env)
       phrase.preedit = input
       rime.yield(phrase:toCandidate())
     end
-    return
-  end
-  -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码
-  -- 1. 编码为 sxs 格式时，只要不是简码的三顶模式，就要拆分成二简字 + 一简字翻译
-  -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
-  -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
-  if (core.sxs(input) and not env.third_pop)
-      or (core.feixi(id) and core.sbsb(input))
-      or (core.fx(id) and core.sxsb(input)) then
-    translate_by_split(input, segment, env)
+    -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码
+    -- 1. 编码为 sxs 格式时，只要不是简码的三顶模式，就要拆分成二简字 + 一简字翻译
+    -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
+    -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
+    if (core.sxs(input) and not env.third_pop)
+        or (core.feixi(id) and core.sbsb(input))
+        or (core.fx(id) and core.sxsb(input)) then
+      translate_by_split(input, segment, env)
+    end
     return
   end
   local memory = env.dynamic_memory

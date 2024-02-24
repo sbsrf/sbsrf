@@ -106,6 +106,7 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
 
 extended:
   dictionary: sbxh.extended
