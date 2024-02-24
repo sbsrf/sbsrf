@@ -107,9 +107,9 @@ speller:
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){1,3}[aeiou]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 纯顶模式，四字词
+    # 纯顶模式，四字词和多字词
     - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){4}([aeiou]{2,})?"
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){3}([bpmfdtnlgkhjqxzcsrywv]|[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,})"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 混顶模式，单字
     - when: mixed
