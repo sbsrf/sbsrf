@@ -93,7 +93,7 @@ speller:
     - xform/(.)n/$1$1/
     # 6. 理特例
     - xform/er/e/
-    - xform/^(?<=[ln])v/u/
+    - xform/(?<=[ln])v/u/
     # 7. 补笔画
     - xform/^([a-z]{3}\d{2})\d/$1/
     - xlit/12345/eiuoa/
