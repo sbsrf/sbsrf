@@ -5317,7 +5317,7 @@ columns:
 襦	rneo	256	rnoa
 陉	xvao	256	xvai
 魉	lgei	255	lgui
-稗	bhui	255	bhue
+稗	bhui	223	bhue
 蛭	zcea	255	zcia
 摭	zfoe	255	zfei
 痈	ybua	254	yboe
@@ -5395,7 +5395,7 @@ columns:
 骘	zmai	224	zmai
 龉	ycei	223	ycie
 踟	czue	223	czia
-煲	bhui	223	bhui
+煲	bhui	255	bhui
 虺	hceu	223	hceu
 扦	qfue	221	qfei
 苕	scau	221	scei
@@ -9346,7 +9346,7 @@ columns:
 旊	ffue	1	ffoe
 疉	dtia	1	dtia
 氎	dmia	1	dmia
-哋	mkei	1	mkia
+哋	dkei	1	dkia
 昳	yque	1	yqia
 昳	dque	1	dqia
 眰	dmea	1	dmia
@@ -20059,7 +20059,7 @@ columns:
 飐	zfie	1	zfua
 嶃	zsei	1	zsia
 榐	zmae	1	zmei
-辗	ncae	1	ncea
+辗	ncae	2	ncea
 皽	zpoe	1	zpoe
 黵	dhua	1	dhia
 黵	zhua	1	zhia
@@ -22874,8 +22874,8 @@ columns:
 餛	hsia	0	hsuo
 閽	hmua	0	hmia
 渾	hdoa	0	hdoo
-葷	xcoa	0	xcei
-葷	hcoa	0	hcei
+葷	xcei	0	xcei
+葷	hcei	0	hcei
 噦	ykie	0	ykia
 噦	hkie	0	hkia
 鈥	hjou	0	hjuo
