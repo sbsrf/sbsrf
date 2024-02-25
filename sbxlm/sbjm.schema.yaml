@@ -88,7 +88,7 @@ engine:
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
