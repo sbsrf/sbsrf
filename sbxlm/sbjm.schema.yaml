@@ -88,7 +88,7 @@ engine:
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
@@ -102,6 +102,12 @@ speller:
       - when: "third_pop"
         match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
         accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+        accept: "[0-9]"
+        prefix: 1
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+        accept: "[0-9]"
+        prefix: 2
 
 translator:
   dictionary: sbjm

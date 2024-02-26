@@ -103,6 +103,12 @@ speller:
       # 词组顶
       - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
         accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+        accept: "[0-9]"
+        prefix: 1
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+        accept: "[0-9]"
+        prefix: 2
       # 词组空码，声母也可以条件顶屏
       - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
         accept: "[bpmfdtnlgkhjqxzcsrywv]"

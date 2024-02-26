@@ -31,10 +31,6 @@ popping:
   - when_not: is_enhanced
     match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
     accept: "[0-9]"
-  # 如果不是快顶模式，数字三码之后可以顶
-  - when_not: fast_pop
-    match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-    accept: "[0-9]"
   # 条件顶屏
   - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     accept: "[aeiou]"
@@ -46,7 +42,7 @@ prelude:
     page_size: 6
     alternative_select_keys: "_aeuio"
     alternative_select_labels: ["", "", "", "", "", ""]
-    select_comment_pattern: "^[a-z]{4,}$"
+    select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}$"
 
   simplifier:
     opencc_config: s2t.json

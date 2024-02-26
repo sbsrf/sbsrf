@@ -30,7 +30,7 @@ switches:
     reset: 0
     states: [词组, 单字]
   - name: fast_pop
-    reset: 0
+    reset: 1
     states: [ 慢顶, 快顶 ]
   - name: is_enhanced
     reset: 0
@@ -123,6 +123,12 @@ speller:
       # 增强模式词组顶
       - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
         accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+        accept: "[0-9]"
+        prefix: 1
+      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+        accept: "[14560]"
+        prefix: 2
 
 translator:
   dictionary: sbfx
