@@ -30,7 +30,7 @@ switches:
     reset: 0
     states: [词组, 单字]
   - name: fast_pop
-    reset: 1
+    reset: 0
     states: [ 慢顶, 快顶 ]
   - name: is_enhanced
     reset: 0
