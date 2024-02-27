@@ -77,8 +77,8 @@ engine:
     - reverse_lookup_filter@zhlf_reverse_lookup
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.fix
     - lua_filter@*sbxlm.postpone
-    - lua_filter@*sbxlm.fixed_filter
     - lua_filter@*sbxlm.select_key_to_comment
 
 speller:
@@ -136,6 +136,7 @@ translator:
   dictionary: sbpy
   packs:
     - sbpy.base
+  fix_combination: true
 
 punctuator:
   import_preset: sbxlm
