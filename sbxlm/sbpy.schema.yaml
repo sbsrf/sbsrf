@@ -146,9 +146,8 @@ recognizer:
   patterns:
     sbjm_lookup: ''
 
-key_binder:
-  import_preset: sbxlm
-  bindings:
+sbpy_extra_bindings:
+  __append:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}{space}" }
@@ -160,6 +159,13 @@ key_binder:
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "4", send_sequence: "{Page_Down}2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "5", send_sequence: "{Page_Down}3" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "6", send_sequence: "{Page_Down}7" }
+
+key_binder:
+  bindings:
+    __patch: 
+      - sbxlm.yaml:/rime_key_bindings
+      - sbxlm.yaml:/sbxlm_basic_bindings
+      - /sbpy_extra_bindings
 
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup

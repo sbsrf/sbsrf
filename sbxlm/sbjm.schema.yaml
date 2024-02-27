@@ -147,7 +147,8 @@ sbjm_extra_bindings:
 key_binder:
   bindings:
     __patch: 
-      - sbxlm.yaml:/sbxlm_key_bindings
+      - sbxlm.yaml:/rime_key_bindings
+      - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbjm_extra_bindings
 
 menu:

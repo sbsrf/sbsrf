@@ -131,7 +131,7 @@ prelude:
     overwrite_comment: true
     dictionary: sbfm
 
-sbxlm_key_bindings:
+rime_key_bindings:
   __append:
     # emacs_editing:
     - { when: composing, accept: Control+p, send: Up }
@@ -163,7 +163,8 @@ sbxlm_key_bindings:
     - { when: paging, accept: Shift+Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
     - { when: composing, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }
-    # sbxlm_common_bindings
+sbxlm_basic_bindings:
+  __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
@@ -182,7 +183,6 @@ sbxlm_key_bindings:
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[a-z0-9]"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
-
 sbxlm_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
@@ -204,7 +204,8 @@ sbxlm_extra_bindings:
 key_binder:
   bindings:
     __patch:
-      - /sbxlm_key_bindings
+      - /rime_key_bindings
+      - /sbxlm_basic_bindings
       - /sbxlm_extra_bindings
 
 recognizer:
