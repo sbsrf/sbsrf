@@ -24,12 +24,12 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
+  - name: postpone
+    reset: 0
+    states: [前置, 后置]
   - options: [free, fixed, mixed, popping]
     reset: 0
     states: [自由, 固定, 混顶, 纯顶]
-  - name: postpone
-    reset: 0
-    states: [默认, 后置]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
