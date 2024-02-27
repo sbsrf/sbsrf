@@ -1,14 +1,19 @@
 import { readFileSync, writeFileSync } from "fs";
 
-function extract(content: string, filter: (entry: [string, string]) => boolean) {
-  const lookup = new Map();
+function extract(
+  content: string,
+  filter: (entry: [string, string]) => boolean
+) {
+  const lookup = new Map<string, string[]>();
   for (const line of content.trim().split("\r\n")) {
     if (!line.includes("\t")) continue;
     const [word, code] = line.trim().split("\t");
     if (!filter([word, code])) continue;
-    lookup.set(code, word);
+    lookup.set(code, (lookup.get(code) || []).concat(word));
   }
-  return [...lookup].map(([code, word]) => `${code}\t${word}`).join("\n");
+  return [...lookup]
+    .map(([code, word]) => `${code}\t${word.join(" ")}`)
+    .join("\n");
 }
 
 const spFilter = ([word, code]: [string, string]) => {
@@ -24,9 +29,8 @@ const sbxh = readFileSync("sbxlm/sbxh.dict.yaml", "utf8");
 writeFileSync("sbxhzj.fixed.txt", extract(sbxh, spFilter), "utf8");
 
 const jmFilter = ([word, code]: [string, string]) => {
-  // code contains number
   return !/\d/.test(code);
-}
+};
 
-const sbjm = readFileSync("sbxlm/sbjm.dict.yaml", "utf8");
+const sbjm = readFileSync("sbjm.legacy.dict.yaml", "utf8");
 writeFileSync("sbjmzj.fixed.txt", extract(sbjm, jmFilter), "utf8");
