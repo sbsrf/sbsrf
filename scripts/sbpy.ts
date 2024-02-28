@@ -1,16 +1,17 @@
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, rmSync, writeFileSync } from "fs";
 import { parse } from "csv-parse/sync";
 
 function makeStrokesMap() {
   const strokesContent = readFileSync("hzinfo/gbkhz_bihua.csv", "utf8");
   const strokes = new Map<string, string>();
+  const n = 4;
 
   for (const [char, stroke] of parse(strokesContent) as [string, string][]) {
-    let firstThree = stroke.slice(0, 3);
-    if (firstThree.length < 3) {
-      firstThree = firstThree.padEnd(3, firstThree.at(-1));
+    let initialStrokes = stroke.slice(0, n);
+    if (initialStrokes.length < n) {
+      initialStrokes = initialStrokes.padEnd(n, initialStrokes.at(-1));
     }
-    strokes.set(char, firstThree);
+    strokes.set(char, initialStrokes);
   }
   return strokes;
 }
@@ -45,6 +46,10 @@ function processDict(dictName: string, newName: string) {
   for (const line of lines.split("\n")) {
     if (line == `name: ${dictName}`) {
       newLines.push(`name: ${newName}`);
+      if (dictName === "8105") {
+        newLines.push(`import_tables:`);
+        newLines.push(`  - sbpy.unihan`);
+      }
       continue;
     } else if (line.startsWith("#") || !line.includes("\t")) {
       newLines.push(line);
@@ -55,8 +60,9 @@ function processDict(dictName: string, newName: string) {
       newLines.push(newLine);
     }
   }
-  writeFileSync(`${newName}.dict.yaml`, newLines.join("\n"));
+  writeFileSync(`sbxlm/${newName}.dict.yaml`, newLines.join("\n"));
 }
 
 processDict("8105", "sbpy");
+processDict("41448", "sbpy.unihan");
 processDict("base", "sbpy.base");
