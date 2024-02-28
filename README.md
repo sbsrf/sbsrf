@@ -6,7 +6,7 @@
 
 ### 在Windows上
 
-建议采用小狼毫0.15.0版，下载地址 https://github.com/rime/weasel/releases/tag/0.15.0 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到小狼毫用户rime中，同时将windows目录里的weasel.custom.yaml也复制进去，重新部署一下就可以使用了。
+建议采用小狼毫0.15.0版，下载地址 https://github.com/rime/weasel/releases/tag/0.15.0 。安装小狼毫后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到小狼毫用户rime中，同时将weasel目录里的weasel.custom.yaml也复制进去，重新部署一下就可以使用了。
 
 ### 在Android上
 
