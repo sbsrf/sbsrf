@@ -33,18 +33,19 @@ function this.func(key_event, env)
   -- current_input 获取的是这部分的编码
   -- 这样，我们就可以在拼音整句中多次应用补码，而不会影响到已经确认的部分
   local confirmed_position = context.composition:toSegmentation():get_confirmed_position()
-  local current_input = string.sub(context.input, confirmed_position + 1)
+  local previous_caret_pos = context.caret_pos
+  local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
   if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
     return rime.process_results.kNoop
   end
   -- 找出补码的位置（第二个音节之前），并添加补码
-  local first_char_code_len = string.find(current_input, "[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
+  local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   context.caret_pos = confirmed_position + first_char_code_len
   context:push_input(incoming)
   -- 如果补码后不到 5 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码后已有 5 码，则不返回，相当于进入单字模式
   if first_char_code_len < 4 then
-    context.caret_pos = string.len(context.input) + 1
+    context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted
 end

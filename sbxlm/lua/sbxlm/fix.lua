@@ -95,6 +95,15 @@ function this.func(translation, env)
       i = i + 1
     end
   end
+  -- 输出设为固顶但是没在候选中找到的候选
+  -- 因为不知道全码是什么，所以只能做一个 SimpleCandidate
+  while fixed_phrases[i] do
+    local candidate = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
+    candidate.preedit = input
+    i = i + 1
+    rime.yield(candidate)
+  end
+  -- 输出没有固顶的候选
   for _, candidate in ipairs(unknown_candidates) do
     rime.yield(candidate)
   end
