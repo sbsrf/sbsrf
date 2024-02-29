@@ -131,13 +131,6 @@ recognizer:
 
 key_binder:
   import_preset: sbxlm
-    __append:
-      - match: "[bpmfdtnlgkhjqxzcsrywv]"
-        accept: ";"
-        send_sequence: "q"
-      - match: "[bpmfdtnlgkhjqxzcsrywv]"
-        accept: "'"
-        send_sequence: "a"
 
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
