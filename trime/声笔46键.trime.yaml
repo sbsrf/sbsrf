@@ -114,7 +114,7 @@ style:
   key_long_text_size: 12 #两字以上时键字号
   key_text_size: 21 #键字号
   key_width: 10.0 #键宽，占银幕宽的百分比
-  keyboards: [.default, qtxd, qtbj, cjbj, qtsz, qtlssz, qtzb, qtyb, qtxh, qtxh2, qtVJ, qtbz, qtux, qtzm, qtbq, qtbq1, qtbq2, qtbq3, qtbq4, qtbq5, qtts1, qtts2, qtts3, qtts4, qtts5, qtts6, sbxlzj, sbfmzj, sbzrzj, sbxhzj, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z] #声明
+  keyboards: [.default, qtxd, qtbj, cjbj, number, qtlssz, qtzb, qtyb, qtxh, qtxh2, qtVJ, qtbz, qtux, qtzm, qtbq, qtbq1, qtbq2, qtbq3, qtbq4, qtbq5, qtts1, qtts2, qtts3, qtts4, qtts5, qtts6, sbxlzj, sbfmzj, sbzrzj, sbxhzj, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z] #声明
   label_text_size: 16 #悬浮窗序号字号
   label_font: ziti.ttf #标签字型
   latin_font: latin.ttf #西文字型
@@ -1957,7 +1957,7 @@ preset_keyboards:
     name: "超级编辑。"
     width: 10
 
-  qtsz:
+  number:
     author: 青 铜 #数字，
     height: *SZG
     horizontal_gap: *SZL
@@ -3521,7 +3521,7 @@ preset_keys:
   liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴" }
 
  #符号盘
-  q_sz: {label: "123", send: Eisu_toggle, select: "qtsz"}
+  q_sz: {label: "123", send: Eisu_toggle, select: "number"}
   q_zb: {label: "标点", send: Eisu_toggle, select: "qtzb"}
   q_yb: {label: "英文", send: Eisu_toggle, select: "qtyb"}
   q_ts: {label: "特殊", send: Eisu_toggle, select: "qtts1"}
