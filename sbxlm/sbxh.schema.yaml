@@ -28,6 +28,9 @@ switches:
   - name: pro_char
     reset: 0
     states: [词组, 单字]
+  - name: fast_change
+    reset: 0
+    states: [慢调, 快调]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1

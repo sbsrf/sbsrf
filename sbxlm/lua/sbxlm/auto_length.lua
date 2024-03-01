@@ -23,6 +23,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
+---@field fast_change boolean
 ---@field is_buffered boolean
 
 ---判断输入的编码是否为静态编码
@@ -31,6 +32,10 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 local function static(input, env)
   -- 对简码特殊判断
   if env.third_pop and core.sss(input) then
+    return false
+  end
+  -- 对双拼特殊判断
+  if env.fast_change and core.sxb(input) then
     return false
   end
   for _, pattern in ipairs(env.static_patterns) do
@@ -178,7 +183,7 @@ function this.init(env)
   env.dynamic_memory:memorize(function(commit) callback(commit, env) end)
   ---@type { string: number }
   env.known_candidates = {}
-  env.is_buffered = env.engine.context:get_option("is_buffered")
+  env.is_buffered = env.engine.context:get_option("is_buffered") or false
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -331,8 +336,9 @@ end
 ---@param segment Segment
 ---@param env AutoLengthEnv
 function this.func(input, segment, env)
-  env.is_buffered = env.engine.context:get_option("is_buffered")
-  env.third_pop = env.engine.context:get_option("third_pop")
+  env.is_buffered = env.engine.context:get_option("is_buffered") or false
+  env.third_pop = env.engine.context:get_option("third_pop") or false
+  env.fast_change = env.engine.context:get_option("fast_change") or false
   local id = env.engine.schema.schema_id
 
   if env.engine.context:get_option("ascii_mode") then
