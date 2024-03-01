@@ -87,6 +87,12 @@ engine:
     - uniquifier
     - lua_filter@*sbxlm.select_key_to_comment
 
+popping:
+  __append:
+    # 词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
@@ -95,11 +101,9 @@ speller:
   algebra:
     - derive/'//
   popping:
-    __include: sbxlm.yaml:/popping
-    __append:
-      # 词组顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    __patch:
+      - /popping
+      - sbxlm.yaml:/popping
 
 translator:
   dictionary: sbxh

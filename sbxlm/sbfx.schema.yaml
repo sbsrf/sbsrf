@@ -93,36 +93,55 @@ engine:
     - uniquifier
     - lua_filter@*sbxlm.select_key_to_comment
 
+popping:
+  __append:
+    # 快顶模式，允许 sxs 后追加 n
+    - when: fast_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[0-9]"
+      strategy: append
+    # 快顶模式，允许 sxsn 后追加 aeiou
+    - when: fast_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9]"
+      accept: "[aeiou]"
+      strategy: append
+    # 单字四二顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      prefix: 2
+    # 增强模式下，数字结尾的单字也可以四二顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[0-9]"
+      prefix: 2
+    # 快顶模式下，声笔字结尾的单字也可以四二顶
+    - when: fast_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[aeiou]"
+      prefix: 2
+    # 单字五二顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      prefix: 2
+    # 词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]{2,4}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 第四码大写的多字词词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 增强模式词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 7
   popping:
-    __include: sbxlm.yaml:/popping
-    __append:
-      # 单字四二顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-        prefix: 2
-      # 快顶模式下，声笔字结尾的单字也可以四二顶
-      - when: fast_pop
-        match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-        accept: "[aeiou]"
-        prefix: 2
-      # 单字五二顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-        prefix: 2
-      # 词组顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]{2,4}"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      # 第四码大写的多字词词组顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      # 增强模式词组顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    __patch:
+      - /popping
+      - sbxlm.yaml:/popping
 
 translator:
   dictionary: sbfx

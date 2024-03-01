@@ -92,22 +92,25 @@ engine:
     - uniquifier
     - lua_filter@*sbxlm.select_key_to_comment
 
+popping:
+  # 词组顶
+  - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
+    accept: "[bpmfdtnlgkhjqxzcsrywv]"
+  # 词组空码，声母也可以条件顶屏
+  - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+    accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    prefix: 2
+    conditional: true
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
   popping:
-    __include: sbxlm.yaml:/popping
-    __append:
-      # 词组顶
-      - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      # 词组空码，声母也可以条件顶屏
-      - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-        accept: "[bpmfdtnlgkhjqxzcsrywv]"
-        prefix: 2
-        conditional: true
+    __patch:
+      - /popping
+      - sbxlm.yaml:/popping
 
 translator:
   dictionary: sbfm

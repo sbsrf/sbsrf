@@ -10,13 +10,19 @@ local this = {}
 ---@class PoppingEnv: Env
 ---@field popping PoppingConfig[]
 
+---@enum PoppingStrategy
+local strategies = {
+  pop = "pop",
+  append = "append",
+  conditional = "conditional"
+}
+
 ---@class PoppingConfig
 ---@field when string | nil
----@field when_not string | nil
 ---@field match string
 ---@field accept string
 ---@field prefix number | nil
----@field conditional boolean | nil
+---@field strategy PoppingStrategy | nil
 
 ---@param env PoppingEnv
 function this.init(env)
@@ -46,12 +52,15 @@ function this.init(env)
     if not value then goto continue end
     local popping = {
       when = value:get_value("when") and value:get_value("when"):get_string(),
-      when_not = value:get_value("when_not") and value:get_value("when_not"):get_string(),
       match = value:get_value("match"):get_string(),
       accept = value:get_value("accept"):get_string(),
       prefix = value:get_value("prefix") and value:get_value("prefix"):get_int(),
-      conditional = value:get_value("conditional") and value:get_value("conditional"):get_bool()
+      strategy = value:get_value("strategy") and value:get_value("strategy"):get_string()
     }
+    if popping.strategy ~= nil and strategies[popping.strategy] == nil then
+      rime.errorf("Invalid popping strategy: %s", popping.strategy)
+      goto continue
+    end
     table.insert(env.popping, popping)
     ::continue::
   end
@@ -82,12 +91,8 @@ function this.func(key_event, env)
   local incoming = utf8.char(key_event.keycode)
   for _, rule in ipairs(env.popping) do
     local when = rule.when
-    local when_not = rule.when_not
     local success = false
     if when and not context:get_option(when) then
-      goto continue
-    end
-    if when_not and context:get_option(when_not) then
       goto continue
     end
     if not rime.match(input, rule.match) then
@@ -96,19 +101,22 @@ function this.func(key_event, env)
     if not rime.match(incoming, rule.accept) then
       goto continue
     end
-    if rule.conditional then
-      -- 尝试先添加编码，看看是否能匹配到候选，如果不能，再执行顶屏
+    -- 如果策略为追加编码，则不执行顶屏直接返回
+    if rule.strategy == strategies.append then
+      goto finish
+    -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
+    elseif rule.strategy == strategies.conditional then
       context:push_input(incoming)
       if context:has_menu() then
         context:pop_input(1)
-        goto continue
+        goto finish
       end
       context:pop_input(1)
     end
     if rule.prefix then
       context:pop_input(string.len(input) - rule.prefix)
     end
-    -- 如果当前有候选，则执行顶屏；否则执行清空编码
+    -- 如果当前有候选，则执行顶屏；否则顶功失败，继续执行下一个规则
     if context:has_menu() then
       context:confirm_current_selection()
       if not is_buffered then

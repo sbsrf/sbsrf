@@ -1,45 +1,36 @@
 # 声笔系列码共用配置
 
 popping:
-  # 单字三码顶
-  - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
-    accept: "[bpmfdtnlgkhjqxzcsrywv]"
-  # 单字模式下的单字二码顶
-  - when: "pro_char"
-    match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-    accept: "[bpmfdtnlgkhjqxzcsrywv]"
-  # 顶 finals
-  - match: "[bpmfdtnlgkhjqxzcsrywv](.*[;']|[a-z]?[0-9])"
-    accept: "[^ ]"
-  # 顶 finals
-  - when_not: fast_pop
-    match: "[bpmfdtnlgkhjqxzcsrywv].*[0-9]"
-    accept: "[^ ]"
-  # 顶标点
-  - match: ".*[^a-z0-9]"
-    accept: "[bpmfdtnlgkhjqxzcsrywv]"
-  # 标点顶
-  - match: ".*[a-z0-9;']"
-    accept: "[^a-z0-9;' ]"
-  # 如果输入不是声母开头，数字可以随便顶
-  - match: "[^bpmfdtnlgkhjqxzcsrywv].*"
-    accept: "[0-9]"
-  # 如果输入是声母开头，且第三码是 aeiou 或者有四码，数字可以随便顶
-  - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]([aeiou]|[bpmfdtnlgkhjqxzcsrywv].).*"
-    accept: "[0-9]"
-  # 如果不是增强模式，数字一码或二码之后可以顶
-  - when_not: is_enhanced
-    match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
-    accept: "[0-9]"
-  # 如果不是快顶模式，数字三码之后可以顶
-  - when_not: fast_pop
-    match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-    accept: "[0-9]"
-  # 条件顶屏
-  - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-    accept: "[aeiou]"
-    prefix: 2
-    conditional: true
+  __append:
+    # 单字三码顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 单字模式下的单字二码顶
+    - when: "pro_char"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶末码
+    - match: "[bpmfdtnlgkhjqxzcsrywv].*[;'0-9]"
+      accept: "[^ ]"
+    # 顶标点
+    - match: ".*[^a-z0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点顶
+    - match: ".*[a-z0-9;']"
+      accept: "[^a-z0-9;' ]"
+    # 增强模式，数字一码或二码之后不顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      strategy: append
+    # 其他情况，数字顶
+    - match: ".*"
+      accept: "[0-9]"
+    # 条件顶屏
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[aeiou]"
+      prefix: 2
+      strategy: conditional
 
 prelude:
   menu:
