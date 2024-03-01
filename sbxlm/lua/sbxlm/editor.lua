@@ -20,12 +20,24 @@ function this.func(key_event, env)
   if not (context:get_option("mixed") or context:get_option("popping")) then
     return rime.process_results.kNoop
   end
-  -- 只对单个 aeiou 按键生效
+  -- 只对无修饰按键生效
   if key_event.modifier > 0 then
     return rime.process_results.kNoop
   end
-  local incoming = utf8.char(key_event.keycode)
-  if not rime.match(incoming, "[aeiou]") then
+  local incoming = key_event:repr()
+  -- 如果输入为空格或数字，代表着作文即将上屏，此时把 kConfirmed 的片段改为 kSelected
+  -- 这解决了 https://github.com/rime/home/issues/276 中的不造词问题
+  if rime.match(incoming, "\\d") or incoming == "space" then
+    for _, segment in ipairs(context.composition:toSegmentation():get_segments()) do
+      if segment.status == rime.segment_types.kConfirmed then
+        segment.status = rime.segment_types.kSelected
+      end
+    end
+  end
+  -- 只对 aeiou 和 Backspace 键生效
+  -- 如果输入是 aeiou，则添加一个码
+  -- 如果输入是 Backspace，则从之前增加的补码中删除一个码
+  if not (rime.match(incoming, "[aeiou]") or incoming == "BackSpace") then
     return rime.process_results.kNoop
   end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
@@ -38,10 +50,20 @@ function this.func(key_event, env)
   if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
     return rime.process_results.kNoop
   end
+  -- 如果输入是 Backspace，还要验证是否有补码
+  if incoming == "BackSpace" then
+    if not rime.match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]+.+") then
+      return rime.process_results.kNoop
+    end
+  end
   -- 找出补码的位置（第二个音节之前），并添加补码
   local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   context.caret_pos = confirmed_position + first_char_code_len
-  context:push_input(incoming)
+  if incoming == "BackSpace" then
+    context:pop_input(1)
+  else
+    context:push_input(incoming)
+  end
   -- 如果补码后不到 5 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码后已有 5 码，则不返回，相当于进入单字模式
   if first_char_code_len < 4 then

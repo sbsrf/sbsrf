@@ -19,7 +19,17 @@ function makeStrokesMap() {
 const strokes = makeStrokesMap();
 
 function processLine(line: string) {
-  const [word, pinyin, ...rest] = line.split("\t");
+  // 一行可能是以下三种情况：
+  // 1. 字\t拼音\t权重
+  // 2. 字\t拼音
+  // 3. 字\t权重
+  const fields = line.split("\t");
+  // 第三种情况无需补充笔画，不处理
+  if (fields.length == 2 && /^[0-9]+$/.test(fields[1])) {
+    return line;
+  }
+  // 第一和第二种情况都需要补充笔画，weight 可能不存在
+  const [word, pinyin, weight] = fields;
   const chars = Array.from(word).filter((char) => !"·–（）：".includes(char));
   const syllables = pinyin.split(" ");
   console.assert(
@@ -37,7 +47,10 @@ function processLine(line: string) {
     }
   }
   const newPinyin = newSyllables.join(" ");
-  return `${word}\t${newPinyin}\t${rest.join("\t")}`;
+  if (weight === undefined) {
+    return `${word}\t${newPinyin}`;
+  }
+  return `${word}\t${newPinyin}\t${weight}`;
 }
 
 function processDict(dictName: string, newName: string) {
@@ -49,6 +62,10 @@ function processDict(dictName: string, newName: string) {
       if (dictName === "8105") {
         newLines.push(`import_tables:`);
         newLines.push(`  - sbpy.unihan`);
+      }
+      if (dictName === "tencent") {
+        newLines.push(`import_tables:`);
+        newLines.push(`  - sbpy`);
       }
       continue;
     } else if (line.startsWith("#") || !line.includes("\t")) {
@@ -66,3 +83,5 @@ function processDict(dictName: string, newName: string) {
 processDict("8105", "sbpy");
 processDict("41448", "sbpy.unihan");
 processDict("base", "sbpy.base");
+processDict("ext", "sbpy.ext");
+processDict("tencent", "sbpy.tencent");

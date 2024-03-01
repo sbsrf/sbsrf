@@ -271,6 +271,8 @@ local _Segment
 ---@field get_current_end_position fun(self: self): integer
 ---@field get_current_segment_length fun(self: self): integer
 ---@field get_confirmed_position fun(self: self): integer
+---@field get_segments fun(self: self): Segment[]
+---@field get_at fun(self: self, index: integer): Segment
 local _Segmentation
 
 ---@class Candidate

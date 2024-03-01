@@ -1,9 +1,9 @@
 patch:
   schema_list:
-    - {schema: sbjm}
-    - {schema: sbpy}
-    - {schema: sbfd}
-    - {schema: sbfm}
-    - {schema: sbfx}
-    - {schema: sbxh}
-    - {schema: sbzr}
+    - schema: sbjm
+    - schema: sbpy
+    - schema: sbfd
+    - schema: sbfm
+    - schema: sbfx
+    - schema: sbxh
+    - schema: sbzr
