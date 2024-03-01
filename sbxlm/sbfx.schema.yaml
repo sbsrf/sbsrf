@@ -164,4 +164,4 @@ menu:
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv]{4}[aeuio]{2}"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]{4}"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789]{4}"
