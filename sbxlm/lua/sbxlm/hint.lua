@@ -112,6 +112,24 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
+		-- 第五种情况：飞系方案和双拼方案在 ss 码位上，提示声声笔词
+		if core.ss(input) and (core.feixi(id) or core.sp(id)) then
+			for _, bihua in ipairs(hint_b) do
+				local ssb = candidate.preedit .. bihua
+				memory:dict_lookup(ssb, false, 1)
+				local entry1 = nil
+				for entry in memory:iter_dict() do
+					entry1 = entry
+					break
+				end
+				if not entry1 or utf8.len(entry1.text) == 1 then
+					goto continue
+				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
+				rime.yield(forward)
+				::continue::
+			end
+		end
 		::continue::
 		i = i + 1
 	end
