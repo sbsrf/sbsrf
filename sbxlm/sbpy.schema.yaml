@@ -150,6 +150,7 @@ sbpy_extra_bindings:
   __append:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{2,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "4", send_sequence: "{Page_Down}2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "5", send_sequence: "{Page_Down}3" }
