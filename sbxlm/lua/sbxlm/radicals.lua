@@ -3,7 +3,7 @@
 -- 本过滤器在编码段打上反查标签的时候，给单字候选加注部首信息，以便用户学习
 -- 部首信息的数据存放在用户目录下的 radicals.txt
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 
 local this = {}
 

@@ -1,7 +1,7 @@
 -- 日期与时间翻译器
 -- 输入特定的日期时间缩写，输出对应的日期时间字符串
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 
 local function translator(input, seg)
    ---@type (string | osdate)[]

@@ -76,9 +76,9 @@ engine:
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
     - table_translator@zhlf_lookup
-    - lua_translator@*utils.datetime
-    - lua_translator@*utils.number
-    - lua_translator@*utils.calculator
+    - lua_translator@*sbxlm.utils.datetime
+    - lua_translator@*sbxlm.utils.number
+    - lua_translator@*sbxlm.utils.calculator
     - table_translator@sbzdy
     - history_translator
   filters:

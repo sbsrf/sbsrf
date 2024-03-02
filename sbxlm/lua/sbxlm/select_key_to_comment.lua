@@ -3,7 +3,7 @@
 -- Version: 20240125
 -- Author: 戴石麟
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 
 local this = {}
 

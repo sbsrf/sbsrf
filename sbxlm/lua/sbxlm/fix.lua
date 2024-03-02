@@ -3,7 +3,7 @@
 -- 本过滤器读取用户自定义的固顶短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固顶到特定位置
 -- 仅在模式为固顶、混顶、纯顶时才执行
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 local core = require "sbxlm.core"
 
 local this = {}

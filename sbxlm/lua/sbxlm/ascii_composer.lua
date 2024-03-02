@@ -4,7 +4,7 @@
 
 local XK_Return = 0xff0d
 local XK_Tab = 0xff09
-local rime = require("lib")
+local rime = require "sbxlm.lib"
 
 local this = {}
 

@@ -5,7 +5,7 @@
 -- 使用时，应当保证本处理器在 speller 之前，speller 在 selector 之前
 -- 例如，在声笔系列码中，aeuio 可以在一定的时机作为选重键
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 
 local this = {}
 

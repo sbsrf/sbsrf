@@ -1,7 +1,7 @@
 -- 数字翻译器
 -- 将 `o` + 阿拉伯数字 翻译为大小写汉字
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 
 local confs = {
    {

@@ -3,8 +3,8 @@
 -- 本处理器可以让大写字母发挥顶屏的作用，或者追加到编码中，同时转换为小写字母
 -- 具体行为视方案而定
 
-local rime = require("lib")
-local core = require("sbxlm.core")
+local rime = require "sbxlm.lib"
+local core = require "sbxlm.core"
 
 ---@param key_event KeyEvent
 ---@param env Env

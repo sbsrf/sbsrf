@@ -1,7 +1,7 @@
 -- 自动码长翻译器
 -- 适用于：声笔简码、声笔飞码、声笔飞单、声笔飞讯、声笔小鹤、声笔自然
 
-local rime           = require "lib"
+local rime           = require "sbxlm.lib"
 local yield          = rime.yield
 local core           = require "sbxlm.core"
 
