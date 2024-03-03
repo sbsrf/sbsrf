@@ -13,8 +13,6 @@ local this = {}
 
 ---@param env RadicalsEnv
 function this.init(env)
-  env.lookup_tags = { "sbjm_lookup", "bihua_lookup", "pinyin_lookup", "zhlf_lookup" }
-  ---@type { string : string }
   env.radicals = {}
   local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/radicals.txt"
   local file = io.open(path, "r")
@@ -32,7 +30,8 @@ end
 ---@param segment Segment
 ---@param env RadicalsEnv
 function this.tags_match(segment, env)
-  for _, value in ipairs(env.lookup_tags) do
+  local tags = rime.get_string_list(env.engine.schema.config, "reverse_lookup/tags")
+  for _, value in ipairs(tags) do
     if segment.tags[value] then
       return true
     end

@@ -55,26 +55,23 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
-    - affix_segmentor@bihua_lookup
-    - affix_segmentor@pinyin_lookup
-    - affix_segmentor@zhlf_lookup
+    - affix_segmentor@bihua
+    - affix_segmentor@pinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - table_translator@bihua_lookup
-    - script_translator@pinyin_lookup
-    - script_translator@zhlf_lookup
+    - table_translator@bihua
+    - script_translator@hypy
+    - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator
     - table_translator@sbzdy
     - history_translator
   filters:
-    - reverse_lookup_filter@bihua_reverse_lookup
-    - reverse_lookup_filter@pinyin_reverse_lookup
-    - reverse_lookup_filter@zhlf_reverse_lookup
+    - reverse_lookup_filter@reverse_lookup
     - simplifier
     - uniquifier
     - lua_filter@*sbxlm.fix
@@ -134,6 +131,12 @@ speller:
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶标点
+    - match: ".*[^a-z0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点顶
+    - match: ".*[a-z0-9;']"
+      accept: "[^a-z0-9;' ]"
 
 translator:
   dictionary: sbpy
@@ -147,7 +150,7 @@ punctuator:
 recognizer:
   import_preset: sbxlm
   patterns:
-    sbjm_lookup: ''
+    sbjm: ''
 
 sbpy_extra_bindings:
   __append:
@@ -171,20 +174,8 @@ key_binder:
       - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbpy_extra_bindings
 
-bihua_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
-  dictionary: sbpy
-  comment_format:
-    __include: /algebra
-
-pinyin_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
-  dictionary: sbpy
-  comment_format:
-    __include: /algebra
-
-zhlf_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbpy
   comment_format:
     __include: /algebra

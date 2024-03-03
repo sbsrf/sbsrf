@@ -66,19 +66,18 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
-    - affix_segmentor@sbjm_lookup
-    - affix_segmentor@zhlf_lookup
-    - affix_segmentor@bihua_lookup
-    - affix_segmentor@pinyin_lookup
+    - affix_segmentor@sbjm
+    - affix_segmentor@bihua
+    - affix_segmentor@pinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - lua_translator@*sbxlm.auto_length
-    - table_translator@sbjm_lookup
-    - table_translator@bihua_lookup
-    - script_translator@pinyin_lookup
-    - script_translator@zhlf_lookup
+    - table_translator@sbjm
+    - table_translator@bihua
+    - script_translator@hypy
+    - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator
@@ -86,10 +85,7 @@ engine:
     - history_translator
   filters:
     - lua_filter@*sbxlm.hint
-    - reverse_lookup_filter@sbjm_reverse_lookup
-    - reverse_lookup_filter@bihua_reverse_lookup
-    - reverse_lookup_filter@pinyin_reverse_lookup
-    - reverse_lookup_filter@zhlf_reverse_lookup
+    - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.radicals
     - simplifier
     - uniquifier
@@ -144,16 +140,8 @@ recognizer:
 key_binder:
   import_preset: sbxlm
 
-bihua_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
-  dictionary: sbfm
-
-pinyin_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
-  dictionary: sbfm
-
-zhlf_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbfm
 
 menu:

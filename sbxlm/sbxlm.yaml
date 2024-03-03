@@ -59,8 +59,8 @@ prelude:
     size: 5
     initial_quality: -1
 
-  bihua_lookup:
-    tag: bihua_lookup
+  bihua:
+    tag: bihua
     dictionary: bihua
     enable_user_dict: false
     enable_encoder: false
@@ -70,39 +70,27 @@ prelude:
     encode_commit_history: false
     tips: "〔笔画反查〕"
 
-  bihua_reverse_lookup:
-    tags: [bihua_lookup]
-    overwrite_comment: true
-    dictionary: sbjm.extended
+  pinyin:
+    tag: pinyin
+    prefix: "a"
+    tips: "〔拼音反查〕"
 
-  pinyin_lookup:
-    tag: pinyin_lookup
+  hypy:
+    tag: pinyin
     dictionary: sbpy
     packs:
       - sbpy.base
     prism: hypy
-    prefix: "a"
-    tips: "〔拼音反查〕"
+    initial_quality: 1
 
-  pinyin_reverse_lookup:
-    tags: [pinyin_lookup]
-    overwrite_comment: true
-    dictionary: sbjm.extended
-
-  zhlf_lookup:
-    tag: zhlf_lookup
+  zhlf:
+    tag: pinyin
     dictionary: zhlf
     enable_user_dict: false
-    prefix: "i"
-    tips: "〔两分反查〕"
+    initial_quality: 2
 
-  zhlf_reverse_lookup:
-    tags: [zhlf_lookup]
-    overwrite_comment: true
-    dictionary: sbjm.extended
-
-  sbjm_lookup:
-    tag: sbjm_lookup
+  sbjm:
+    tag: sbjm
     dictionary: sbjm.extended
     enable_user_dict: false
     enable_encoder: false
@@ -112,10 +100,10 @@ prelude:
     encode_commit_history: false
     tips: "〔声笔反查〕"
 
-  sbjm_reverse_lookup:
-    tags: [sbjm_lookup]
+  reverse_lookup:
+    tags: [bihua, pinyin, sbjm]
     overwrite_comment: true
-    dictionary: sbfm
+    dictionary: sbjm.extended
 
 rime_key_bindings:
   __append:
@@ -199,13 +187,12 @@ key_binder:
 recognizer:
   patterns:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
-    sbjm_lookup: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
-    bihua_lookup: "^[aeiou]+$"
-    pinyin_lookup: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
-    zhlf_lookup: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
-    sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z0-9]*$"
+    sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
+    bihua: "^[aeiou]+$"
+    pinyin: "^a[a-z]*'?$"
+    sbzdy: "^u[a-z0-9]*$"
     expression: "^e.*$"
-    quick_menu: "^o[bpmfdtnlgkhjqxzcsrywv0-9][a-z0-9]*$"
+    quick_menu: "^o[a-z0-9]*$"
     history: "^\\+$"
 
 punctuator:

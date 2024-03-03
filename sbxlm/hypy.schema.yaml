@@ -45,16 +45,25 @@ speller:
   algebra:
     - xform/\d+//
     - xform/^(?=[aoe])/v/
+    # 简拼
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([zcs]h).+$/$1/
-    - derive/^([zcs])h(.+)$/$1$2/
+    # 容错
     - derive/^([nl])ue$/$1ve/
-    - derive/^([nl])v(.*)$/$1u$2/
     - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    # 纠错
+    - derive/([aeiou])ng$/$1gn/
     - derive/([dtngkhrzcs])o(u|ng)$/$1o/
     - derive/ong$/on/
+    - derive/ao$/oa/
     - derive/([iu])a(o|ng?)$/a$1$2/
-    - derive/^ver$/ve/
+    # 声笔拼音风格模糊音
+    - derive/([zcs])h/$1/
+    - derive/er/e/
+    - derive/([nl])v/$1u/
     - derive/^([jqx])i([aeo].*)$/$1$2/
 
 translator:
