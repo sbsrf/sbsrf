@@ -77,32 +77,23 @@ prelude:
 
   pinyin_lookup:
     tag: pinyin_lookup
-    dictionary: hypy
-    enable_user_dict: false
-    enable_encoder: false
-    enable_sentence: false
-    strict_spelling: true
-    enable_completion: true
-    encode_commit_history: false
+    dictionary: sbpy
+    packs:
+      - sbpy.base
+    prism: hypy
     prefix: "a"
     tips: "〔拼音反查〕"
 
   pinyin_reverse_lookup:
     tags: [pinyin_lookup]
     overwrite_comment: true
-    comment_format:
-      - xform/.+[0-9]//
     dictionary: sbjm.extended
 
   zhlf_lookup:
     tag: zhlf_lookup
     dictionary: zhlf
     enable_user_dict: false
-    enable_encoder: false
-    enable_sentence: false
-    strict_spelling: true
-    enable_completion: true
-    encode_commit_history: false
+    prefix: "i"
     tips: "〔两分反查〕"
 
   zhlf_reverse_lookup:
@@ -210,11 +201,11 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm_lookup: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua_lookup: "^[aeiou]+$"
-    pinyin_lookup: "^a[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
-    zhlf_lookup: "^i[qwrtsdfgzxcvbyphjklnm][a-z]*'?$"
-    sbzdy: "^u[qwrtsdfgzxcvbyphjklnm][a-z0-9]*$"
+    pinyin_lookup: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    zhlf_lookup: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z0-9]*$"
     expression: "^e.*$"
-    quick_menu: "^o[qwrtsdfgzxcvbyphjklnm0-9][a-z0-9]*$"
+    quick_menu: "^o[bpmfdtnlgkhjqxzcsrywv0-9][a-z0-9]*$"
     history: "^\\+$"
 
 punctuator:

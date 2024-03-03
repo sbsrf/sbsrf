@@ -6,20 +6,16 @@ schema:
   name: 字海两分
   version: "10.0"
   author:
-    - 基于字海两分
+    - 字海网 <http://yedict.com>
   description: |
-    注：零声母用v代表
+    零声母用 v 代表
 
 switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: _hide_candidate
-    reset: 1
 
 engine:
   processors:
@@ -39,36 +35,14 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator
+    - script_translator
   filters:
     - uniquifier
 
 speller:
-  alphabet: "qwertasdfgzxcvbyuiophjklnm"
-  initials: "i"
-  auto_select: true
+  alphabet: bpmfdtnlgkhjqxzcsrywvaeiou
+  initials: bpmfdtnlgkhjqxzcsrywv
 
 translator:
   dictionary: zhlf
   enable_user_dict: false
-  enable_encoder: false
-  enable_sentence: false
-  strict_spelling: true
-  enable_completion: true
-  encode_commit_history: false
-
-key_binder:
-  bindings:
-    - { when: paging, accept: Tab, send: Page_Up }
-    - { when: composing, accept: Tab, send_sequence: "{Shift+Left}" }
-    - { when: has_menu, accept: Return, send: Page_Down }
-    - { when: has_menu, accept: 1, send_sequence: "{Home}" }
-    - { when: has_menu, accept: 2, send_sequence: "{Home}{Shift+Right}" }
-    - { when: has_menu, accept: 3, send_sequence: "{Home}{Shift+Right}{Shift+Right}" }
-    - { when: has_menu, accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}" }
-    - { when: has_menu, accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
-
-menu:
-  page_size: 5
-  alternative_select_keys: "67890"
-

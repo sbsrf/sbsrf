@@ -5,7 +5,7 @@ __include: sbxlm.yaml:/prelude
 
 schema:
   schema_id: sbpy
-  name: "声笔拼音"
+  name: 声笔拼音
   version: "10.0"
   author:
     - 戴石麟 <https://sbxlm.github.io>
@@ -65,7 +65,7 @@ engine:
     - script_translator
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
-    - table_translator@zhlf_lookup
+    - script_translator@zhlf_lookup
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator
@@ -81,31 +81,34 @@ engine:
     - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.select_key_to_comment
 
+algebra:
+  # 1. 冠零声
+  - xform/\b(?=[aoe])/v/
+  # 2. 去翘舌
+  - xform/(?<=[zcs])h//
+  # 3. 省介音
+  - xform/(?<=[jqx])i(?=[aeo])//
+  # 4. 截韵尾
+  - xform/\b([a-z]{3})[a-z]+/$1/
+  # 5. 去鼻音
+  - xform/(.)n(?=\d)/$1$1/
+  # 6. 理特例
+  - xform/er/e/
+  - xform/(?<=[ln])v/u/
+  # 7. 补笔画
+  - xform/\b([a-z\d]{5})\d+/$1/
+  - xlit/12345/eiuoa/
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
-    # 1. 冠零声
-    - xform/^(?=[aoe])/v/
-    # 2. 去翘舌
-    - xform/(?<=[zcs])h//
-    # 3. 省介音
-    - xform/(?<=[jqx])i(?=[aeo])//
-    # 4. 截韵尾
-    - xform/^([a-z]{3})[a-z]+/$1/
-    # 5. 去鼻音
-    - xform/(.)n/$1$1/
-    # 6. 理特例
-    - xform/er/e/
-    - xform/(?<=[ln])v/u/
-    # 7. 补笔画
-    - xform/^([a-z\d]{5})\d+/$1/
-    - xlit/12345/eiuoa/
-    # 8. 出简码
-    - derive/^([a-z]).+$/$1/
-    - derive/^([a-z]{2}).+$/$1/
-    - derive/^([a-z]{3}).+$/$1/
-    - derive/^([a-z]{4}).+$/$1/
+    __include: /algebra
+    __append:
+      - derive/^([a-z]).+$/$1/
+      - derive/^([a-z]{2}).+$/$1/
+      - derive/^([a-z]{3}).+$/$1/
+      - derive/^([a-z]{4}).+$/$1/
   popping:
     # 纯顶模式，单字、二字词、三字词
     - when: popping
@@ -171,14 +174,20 @@ key_binder:
 bihua_reverse_lookup:
   __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
   dictionary: sbpy
+  comment_format:
+    __include: /algebra
 
 pinyin_reverse_lookup:
   __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
   dictionary: sbpy
+  comment_format:
+    __include: /algebra
 
 zhlf_reverse_lookup:
   __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
   dictionary: sbpy
+  comment_format:
+    __include: /algebra
 
 menu:
   page_size: 6

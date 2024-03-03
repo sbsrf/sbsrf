@@ -75,7 +75,7 @@ engine:
     - lua_translator@*sbxlm.auto_length
     - table_translator@bihua_lookup
     - script_translator@pinyin_lookup
-    - table_translator@zhlf_lookup
+    - script_translator@zhlf_lookup
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator

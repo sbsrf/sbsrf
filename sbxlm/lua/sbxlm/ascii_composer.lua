@@ -4,6 +4,7 @@
 
 local XK_Return = 0xff0d
 local XK_Tab = 0xff09
+local XK_Escape = 0xff1b
 local rime = require "sbxlm.lib"
 
 local this = {}
@@ -84,6 +85,12 @@ function this.func(key_event, env)
   end
   if key_event.modifier == rime.modifier_masks.kControl and key_event.keycode == XK_Return then
     env.engine:commit_text(input:upper())
+    context:clear()
+    return rime.process_results.kAccepted
+  end
+
+  -- Esc 键取消输入
+  if key_event.keycode == XK_Escape then
     context:clear()
     return rime.process_results.kAccepted
   end
