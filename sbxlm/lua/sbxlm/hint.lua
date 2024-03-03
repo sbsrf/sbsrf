@@ -2,7 +2,7 @@
 -- 适用于：声笔简码、声笔飞码、声笔飞单、声笔飞讯、声笔小鹤、声笔自然
 -- 本过滤器在不同的编码模式和不同的选项下分别提示数选字词、声笔字、缩减码
 
-local rime = require "lib"
+local rime = require "sbxlm.lib"
 local core = require "sbxlm.core"
 
 local this = {}
