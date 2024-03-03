@@ -2,7 +2,7 @@
 -- 适用于：声笔简码、声笔飞码、声笔飞单、声笔飞讯、声笔小鹤、声笔自然
 -- 本过滤器在不同的编码模式和不同的选项下分别提示数选字词、声笔字、缩减码
 
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 local core = require "sbxlm.core"
 
 local this = {}
@@ -30,6 +30,13 @@ end
 ---@param env HintEnv
 function this.func(translation, env)
 	local is_enhanced = env.engine.context:get_option("is_enhanced")
+	--[[
+		0：隐藏，为不显示，即完全隐藏
+		1：有理，为显示23789有理组
+		2：无理，为显示14560无理组
+		3：显示，为显示所有数选字词
+	]]
+	local hide_option = env.engine.context:get_option("hide_option")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
@@ -63,7 +70,8 @@ function this.func(translation, env)
 		end
 		rime.yield(candidate)
 		-- 第三种情况：飞系方案和声笔简码在 s, sb, ss, sxb 格式的编码上提示 23789 和 14560 两组数选字词
-		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input)) and is_enhanced then
+		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input))
+				and is_enhanced and not env.engine.context:get_option("hide") then
 			for j = 1, #hint_n1 do
 				local n1 = hint_n1[j]
 				local n2 = hint_n2[j]
@@ -83,7 +91,10 @@ function this.func(translation, env)
 					break
 				end
 				local comment = n1
-				if entry_n2 then
+				if env.engine.context:get_option("irrational") then
+					comment = n2
+				end
+				if entry_n2 and env.engine.context:get_option("both") then
 					comment = comment .. entry_n2.text .. n2
 				end
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
