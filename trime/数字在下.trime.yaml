@@ -1347,8 +1347,8 @@ preset_keyboards:
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_text_size: 12, key_back_color: hsb, key_text_color: hst, width: 15}
       # ❹
       - {height: *VJM, click: "q_sz", key_text_size: 14, composing: Escape, swipe_up: "{Schema_switch}", long_click: q_xd, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, width: 15}
-      - {click: ",", long_click: "/", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
-      - {click: ".", long_click: "?", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
+      - {click: ".", long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
+      - {click: ",", long_click: "/", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
       - {click: space, long_click: Candidate_switch1, swipe_up: '{space}{Mode_switch}', swipe_down: '{Shift+space}', swipe_left: "Left", swipe_right: "Right", key_text_size: 18, key_back_color: kgb, key_text_color: kgt, key_symbol_color: dds, hilited_key_back_color: ttt, width: 26}
       - {click: ";", long_click: ":", swipe_up: Menu, swipe_down: Menu, hint: ✡, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
       - {click: "'", long_click: '"', swipe_up: "Theme_settings", swipe_down: "Theme_settings", hint: ☸, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
