@@ -1,22 +1,19 @@
-# Rime schema settings
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: bihua
-  name: "纯笔画"
+  name: 纯笔画
   version: "10.0"
   author:
     - 戴石麟
   description: |
-    纯笔画
-    e,i,u,o,a 代表橫、豎、撇、捺、折
+    e, i, u, o, a 代表横、竖、撇、捺、折
 
 switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -33,19 +30,15 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
-    - echo_translator
     - punct_translator
     - table_translator
 
 speller:
-  alphabet: "aeiou"
-  delimiter: " '"
-
-menu:
-  page_size: 6
+  alphabet: aeiou
 
 translator:
   dictionary: bihua
@@ -55,5 +48,3 @@ translator:
   strict_spelling: true
   enable_completion: true
   encode_commit_history: false
-
-

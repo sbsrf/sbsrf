@@ -5,7 +5,7 @@ __include: sbxlm.yaml:/prelude
 
 schema:
   schema_id: sbpy
-  name: "声笔拼音"
+  name: 声笔拼音
   version: "10.0"
   author:
     - 戴石麟 <https://sbxlm.github.io>
@@ -55,57 +55,57 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
-    - affix_segmentor@bihua_lookup
-    - affix_segmentor@pinyin_lookup
-    - affix_segmentor@zhlf_lookup
+    - affix_segmentor@bihua
+    - affix_segmentor@pinyin
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - table_translator@bihua_lookup
-    - script_translator@pinyin_lookup
-    - table_translator@zhlf_lookup
+    - table_translator@bihua
+    - script_translator@hypy
+    - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator
     - table_translator@sbzdy
     - history_translator
   filters:
-    - reverse_lookup_filter@bihua_reverse_lookup
-    - reverse_lookup_filter@pinyin_reverse_lookup
-    - reverse_lookup_filter@zhlf_reverse_lookup
+    - reverse_lookup_filter@reverse_lookup
     - simplifier
     - uniquifier
     - lua_filter@*sbxlm.fix
     - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.select_key_to_comment
 
+algebra:
+  # 1. 冠零声
+  - xform/\b(?=[aoe])/v/
+  # 2. 去翘舌
+  - xform/(?<=[zcs])h//
+  # 3. 省介音
+  - xform/(?<=[jqx])i(?=[aeo])//
+  # 4. 截韵尾
+  - xform/\b([a-z]{3})[a-z]+/$1/
+  # 5. 去鼻音
+  - xform/(.)n(?=\d)/$1$1/
+  # 6. 理特例
+  - xform/er/e/
+  - xform/(?<=[ln])v/u/
+  # 7. 补笔画
+  - xform/\b([a-z\d]{5})\d+/$1/
+  - xlit/12345/eiuoa/
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
-    # 1. 冠零声
-    - xform/^(?=[aoe])/v/
-    # 2. 去翘舌
-    - xform/(?<=[zcs])h//
-    # 3. 省介音
-    - xform/(?<=[jqx])i(?=[aeo])//
-    # 4. 截韵尾
-    - xform/^([a-z]{3})[a-z]+/$1/
-    # 5. 去鼻音
-    - xform/(.)n/$1$1/
-    # 6. 理特例
-    - xform/er/e/
-    - xform/(?<=[ln])v/u/
-    # 7. 补笔画
-    - xform/^([a-z\d]{5})\d+/$1/
-    - xlit/12345/eiuoa/
-    # 8. 出简码
-    - derive/^([a-z]).+$/$1/
-    - derive/^([a-z]{2}).+$/$1/
-    - derive/^([a-z]{3}).+$/$1/
-    - derive/^([a-z]{4}).+$/$1/
+    __include: /algebra
+    __append:
+      - derive/^([a-z]).+$/$1/
+      - derive/^([a-z]{2}).+$/$1/
+      - derive/^([a-z]{3}).+$/$1/
+      - derive/^([a-z]{4}).+$/$1/
   popping:
     # 纯顶模式，单字、二字词、三字词
     - when: popping
@@ -131,6 +131,12 @@ speller:
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶标点
+    - match: ".*[^a-z0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点顶
+    - match: ".*[a-z0-9;']"
+      accept: "[^a-z0-9;' ]"
 
 translator:
   dictionary: sbpy
@@ -144,7 +150,7 @@ punctuator:
 recognizer:
   import_preset: sbxlm
   patterns:
-    sbjm_lookup: ''
+    sbjm: ''
 
 sbpy_extra_bindings:
   __append:
@@ -168,17 +174,11 @@ key_binder:
       - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbpy_extra_bindings
 
-bihua_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/bihua_reverse_lookup
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbpy
-
-pinyin_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/pinyin_reverse_lookup
-  dictionary: sbpy
-
-zhlf_reverse_lookup:
-  __include: sbxlm.yaml:/prelude/zhlf_reverse_lookup
-  dictionary: sbpy
+  comment_format:
+    __include: /algebra
 
 menu:
   page_size: 6
