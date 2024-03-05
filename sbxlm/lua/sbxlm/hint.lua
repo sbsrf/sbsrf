@@ -56,11 +56,15 @@ function this.func(translation, env)
 		end
 		-- 除了缩减码之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
 		if i > 1 then
+		    -- 如果是双拼的声声词，也直接通过
+		    if core.sp(id) and core.ss(input) then
+		      goto continue
+		    end
 			rime.yield(candidate)
 			goto continue
 		end
-		-- 第二种情况：飞系方案 ss 格式输入需要提示 ss' 格式的二字词
-		if core.feixi(id) and (core.s(input) or core.ss(input)) then
+		-- 第二种情况：飞系或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
+		if (core.feixi(id) or core.sp(id)) and (core.s(input) or core.ss(input)) then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
