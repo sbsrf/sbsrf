@@ -10,7 +10,7 @@
 
 ### 在Android上
 
-建议采用同文v3.2.16，下载地址 https://github.com/osfans/trime/releases/tag/v3.2.16 。安装同文后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到同文用户设定中，同时将trime目录里的所有目录和文件也复制进去，重新部署一下就可以使用了。如果使用异常，请重启一下手机，一般就没有问题了。
+建议采用同文v3.2.16，下载地址 https://github.com/osfans/trime/releases/tag/v3.2.16 。安装同文后，再到 https://github.com/sbsrf/sbsrf/releases 下载声笔输入法压缩包。将压缩包解压后，将文件squirrel、weasel和trime以外的所有文件复制到同文用户设定中，同时将trime目录里的所有目录和文件也复制进去，重新部署一下就可以使用了。如果使用异常，请重启一下手机，一般就没有问题了。如果发现声笔的主题切换不出来，那么就将主题同时复制一份到build文件夹。
 
 ### 在MacOS上
 
