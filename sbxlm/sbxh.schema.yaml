@@ -126,6 +126,7 @@ key_binder:
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
+  tags: [bihua, pinyin]
   dictionary: sbxh.extended
 
 menu:
