@@ -95,13 +95,14 @@ function this.func(translation, env)
 					break
 				end
 				local comment = n1
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
 				if env.engine.context:get_option("irrational") then
 					comment = n2
-				end
-				if entry_n2 and env.engine.context:get_option("both") then
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n2.text, comment)
+				elseif entry_n2 and env.engine.context:get_option("both") then
 					comment = comment .. entry_n2.text .. n2
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
 				end
-				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
 				rime.yield(forward)
 				::continue::
 			end
