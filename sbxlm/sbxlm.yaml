@@ -135,10 +135,10 @@ rime_key_bindings:
     - { when: always, accept: Control+Shift+percent, toggle: extended_charset }
     - { when: has_menu, accept: Tab, send: Page_Down }
     - { when: paging, accept: Shift+Tab, send: Page_Up }
-    - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
+    - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
     - { when: composing, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }
     - { when: paging, accept: Shift+ISO_Left_Tab, send: Page_Up }
-    - { when: has_menu, accept: Shift+ISO_Left_Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
+    - { when: has_menu, accept: Shift+ISO_Left_Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
 sbxlm_basic_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
