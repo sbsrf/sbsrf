@@ -64,7 +64,7 @@ function this.func(translation, env)
 			goto continue
 		end
 		-- 第二种情况：飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
-		if (core.feixi(id) or core.sp(id) or core.jm) and (core.s(input) or core.ss(input)) then
+		if (core.feixi(id) or core.sp(id) or core.jm(id) and is_enhanced) and (core.s(input) or core.ss(input)) then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
