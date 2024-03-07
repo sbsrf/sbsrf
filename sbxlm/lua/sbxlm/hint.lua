@@ -36,7 +36,7 @@ function this.func(translation, env)
 		2：无理，为显示14560无理组
 		3：显示，为显示所有数选字词
 	]]
-	local hide_option = env.engine.context:get_option("hide_option")
+	local is_hidden = env.engine.context:get_option("hide")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
@@ -64,7 +64,7 @@ function this.func(translation, env)
 			goto continue
 		end
 		-- 第二种情况：飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
-		if (core.feixi(id) or core.sp(id) or core.jm(id) and is_enhanced) and (core.s(input) or core.ss(input)) then
+		if (core.feixi(id) or core.sp(id) or core.jm(id) and is_enhanced and not is_hidden) and (core.s(input) or core.ss(input)) then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
