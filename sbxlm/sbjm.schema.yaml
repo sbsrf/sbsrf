@@ -97,9 +97,13 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: "is_enhanced"
-      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[23789]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][23789]"
       accept: "[aeuio]"
       strategy: append
+    - when: "is_enhanced"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789'"
@@ -122,7 +126,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-    - "[bpmfdtnlgkhjqxzcsrywv]{2}[23789][aeuio]"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][23789][aeuio]"
 
 extended:
   dictionary: sbjm.extended
@@ -139,10 +143,7 @@ sbjm_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
-      send_sequence: "{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "{space}"
+      send_sequence: "'{space}"
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "'"
@@ -169,4 +170,4 @@ menu:
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv]{2}[23789][aeuio]"
-  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv]{2}[23789][aeuio]$"
+  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][23789][aeuio]$"
