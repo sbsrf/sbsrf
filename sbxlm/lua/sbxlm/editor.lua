@@ -16,10 +16,6 @@ end
 ---@param env Env
 function this.func(key_event, env)
   local context = env.engine.context
-  -- 只在混顶或者纯顶模式下生效
-  if not (context:get_option("mixed") or context:get_option("popping")) then
-    return rime.process_results.kNoop
-  end
   -- 只对无修饰按键生效
   if key_event.modifier > 0 then
     return rime.process_results.kNoop
@@ -33,6 +29,10 @@ function this.func(key_event, env)
         segment.status = rime.segment_types.kSelected
       end
     end
+  end
+  -- 只在混顶或者纯顶模式下生效
+  if not (context:get_option("mixed") or context:get_option("popping")) then
+    return rime.process_results.kNoop
   end
   -- 只对 aeiou 和 Backspace 键生效
   -- 如果输入是 aeiou，则添加一个码
