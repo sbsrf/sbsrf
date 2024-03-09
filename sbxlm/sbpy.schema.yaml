@@ -27,9 +27,9 @@ switches:
   - name: postpone
     reset: 0
     states: [前置, 后置]
-  - options: [free, fixed, mixed, popping]
+  - options: [free, fixed, mixed, popping, strong]
     reset: 0
-    states: [自由, 固定, 混顶, 纯顶]
+    states: [自由, 固定, 混顶, 纯顶, 强顶]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
@@ -43,8 +43,8 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
-    - lua_processor@*sbxlm.popping
     - lua_processor@*sbxlm.editor
+    - lua_processor@*sbxlm.popping
     - speller
     - punctuator
     - selector
@@ -96,25 +96,31 @@ algebra:
   - xform/\b([a-z\d]{5})\d+/$1/
   - xlit/12345/eiuoa/
 
-speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
-  initials: "bpmfdtnlgkhjqxzcsrywv"
-  algebra:
-    __include: /algebra
-    __append:
-      - derive/^([a-z]).+$/$1/
-      - derive/^([a-z]{2}).+$/$1/
-      - derive/^([a-z]{3}).+$/$1/
-      - derive/^([a-z]{4}).+$/$1/
-  popping:
+popping:
+  __append:
     # 纯顶模式，单字、二字词、三字词
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){1,3}[aeiou]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 纯顶模式，四字词和多字词
     - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){3}([bpmfdtnlgkhjqxzcsrywv]|[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,})"
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){3}[bpmfdtnlgkhjqxzcsrywv]([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+
+    # 强顶模式，单字、二字词、三字词
+    - when: strong
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){1,3}[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 强顶模式，四字词和多字词
+    - when: strong
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){4,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 强顶模式，大写参与编码
+    - when: strong
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,4}){4,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+
     # 混顶模式，单字
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv][aeiou]{3,}"
@@ -131,12 +137,21 @@ speller:
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv]{4}([aeiou]{2,})?"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 顶标点
-    - match: ".*[^a-z0-9]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 标点顶
-    - match: ".*[a-z0-9;']"
-      accept: "[^a-z0-9;' ]"
+
+speller:
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
+  algebra:
+    __include: /algebra
+    __append:
+      - derive/^([a-z]).+$/$1/
+      - derive/^([a-z]{2}).+$/$1/
+      - derive/^([a-z]{3}).+$/$1/
+      - derive/^([a-z]{4}).+$/$1/
+  popping:
+    __patch:
+      - /popping
+      - sbxlm.yaml:/basic_popping
 
 translator:
   dictionary: sbpy
@@ -157,15 +172,11 @@ sbpy_extra_bindings:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{2,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "6", send_sequence: "{Page_Down}7" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: ";", send_sequence: "{Page_Down}8" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "6", send_sequence: "{Page_Down}7" }
 
 key_binder:
   bindings:

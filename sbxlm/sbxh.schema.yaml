@@ -49,7 +49,6 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
-    - lua_processor@*sbxlm.upper_case
     - lua_processor@*sbxlm.selector
     - lua_processor@*sbxlm.popping
     - speller
@@ -100,7 +99,8 @@ speller:
   popping:
     __patch:
       - /popping
-      - sbxlm.yaml:/popping
+      - sbxlm.yaml:/table_popping
+      - sbxlm.yaml:/basic_popping
 
 translator:
   dictionary: sbxh

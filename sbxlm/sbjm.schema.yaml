@@ -52,7 +52,6 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
-    - lua_processor@*sbxlm.upper_case
     - lua_processor@*sbxlm.selector
     - lua_processor@*sbxlm.popping
     - speller
@@ -104,6 +103,11 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
+    # 大写字母输入多字词
+    - when: third_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789'"
@@ -113,7 +117,8 @@ speller:
   popping:
     __patch:
       - /popping
-      - sbxlm.yaml:/popping
+      - sbxlm.yaml:/table_popping
+      - sbxlm.yaml:/basic_popping
 
 translator:
   dictionary: sbjm

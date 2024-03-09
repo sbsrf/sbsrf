@@ -46,7 +46,7 @@ end
 ---@param env FixedFilterEnv
 function this.func(translation, env)
   local context = env.engine.context
-  local has_fixed = context:get_option("fixed") or context:get_option("mixed") or context:get_option("popping")
+  local has_fixed = not context:get_option("free")
   local fix_combination = env.engine.schema.config:get_bool("translator/fix_combination") or false
   -- 取出输入中当前正在翻译的一部分
   local segment = context.composition:toSegmentation():back()

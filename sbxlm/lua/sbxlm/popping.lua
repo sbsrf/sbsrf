@@ -8,6 +8,7 @@ local rime = require("sbxlm.lib")
 local this = {}
 
 ---@class PoppingEnv: Env
+---@field speller Processor
 ---@field popping PoppingConfig[]
 
 ---@enum PoppingStrategy
@@ -26,6 +27,7 @@ local strategies = {
 
 ---@param env PoppingEnv
 function this.init(env)
+  env.speller = rime.Processor(env.engine, "", "speller")
   env.engine.context.option_update_notifier:connect(function(ctx, name)
     if name == "is_buffered" then
       local is_buffered = ctx:get_option("is_buffered")
@@ -71,7 +73,7 @@ end
 function this.func(key_event, env)
   local context = env.engine.context
   local is_buffered = context:get_option("is_buffered")
-  if key_event:release() or key_event:shift() or key_event:alt() or key_event:ctrl() or key_event:caps() then
+  if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
     return rime.process_results.kNoop
   end
   -- 取出输入中当前正在翻译的一部分
@@ -133,7 +135,11 @@ function this.func(key_event, env)
     ::continue::
   end
   ::finish::
-  return rime.process_results.kNoop
+  -- 大写字母执行完顶屏功能之后转成小写
+  if key_event.keycode >= 65 and key_event.keycode <= 90 then
+    key_event = rime.KeyEvent(utf8.char(key_event.keycode + 32))
+  end
+  return env.speller:process_key_event(key_event)
 end
 
 return this
