@@ -114,7 +114,7 @@ function this.func(key_event, env)
       context:pop_input(1)
     end
     if rule.prefix then
-      context:pop_input(string.len(input) - rule.prefix)
+      context:pop_input(input:len() - rule.prefix)
     end
     -- 如果当前有候选，则执行顶屏；否则顶功失败，继续执行下一个规则
     if context:has_menu() then
@@ -125,7 +125,7 @@ function this.func(key_event, env)
       success = true
     end
     if rule.prefix then
-      context:push_input(string.sub(input, rule.prefix + 1))
+      context:push_input(input:sub(rule.prefix + 1))
     end
     if success then
       goto finish

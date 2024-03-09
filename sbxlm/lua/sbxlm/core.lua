@@ -120,27 +120,27 @@ function core.word_rules(code, id)
   local fx = core.fx(id)
   if #code == 2 then
     if jm then           -- s1s2b2b2
-      base = string.sub(code[1], 1, 1) .. string.sub(code[2], 1, 3)
+      base = code[1]:sub(1, 1) .. code[2]:sub(1, 3)
     elseif fm or sp then -- s1z1s2z2
-      base = string.sub(code[1], 1, 2) .. string.sub(code[2], 1, 2)
+      base = code[1]:sub(1, 2) .. code[2]:sub(1, 2)
     elseif fx then       -- s1z1s2b2b2
-      base = string.sub(code[1], 1, 2) .. string.sub(code[2], 1, 1) .. string.sub(code[2], 3, 4)
+      base = code[1]:sub(1, 2) .. code[2]:sub(1, 1) .. code[2]:sub(3, 4)
     end
   else
-    base = string.sub(code[1], 1, 1) .. string.sub(code[2], 1, 1) .. string.sub(code[3], 1, 1)
+    base = code[1]:sub(1, 1) .. code[2]:sub(1, 1) .. code[3]:sub(1, 1)
     if #code == 3 then
       if jm or fm or sp then -- s1s2s3z3
-        base = base .. string.sub(code[3], 2, 2)
+        base = base .. code[3]:sub(2, 2)
       elseif fx then         -- s1s2s3b3b3
-        base = base .. string.sub(code[3], 3, 4)
+        base = base .. code[3]:sub(3, 4)
       end
     elseif #code >= 4 then
       if jm then           -- s1s2s3b0
-        base = base .. string.sub(code[#code], 2, 2)
+        base = base .. code[#code]:sub(2, 2)
       elseif fm or sp then -- s1s2s3s0
-        base = base .. string.sub(code[#code], 1, 1)
+        base = base .. code[#code]:sub(1, 1)
       elseif fx then       -- s1s2s3b0b0
-        base = base .. string.sub(code[#code], 3, 4)
+        base = base .. code[#code]:sub(3, 4)
       end
     else
       return nil
@@ -149,16 +149,16 @@ function core.word_rules(code, id)
   -- 扩展编码为首字前两笔，但是这个笔在不同方案中有不同的取法
   local extended = ""
   if jm then
-    extended = string.sub(code[1], 2, 3)
+    extended = code[1]:sub(2, 3)
   elseif fm or fx or sp then
-    extended = string.sub(code[1], 3, 4)
+    extended = code[1]:sub(3, 4)
   end
   -- 全部编码为基本编码加上扩展编码
   local full = base .. extended
   -- 对于简码和飞讯，多字词有两种打法，之前生成的打法没有考虑用 ssss 格式的情况。
   -- 这里，在编码的最后增加一个末字的声母，然后在检索的时候动态判断
   if (jm or fx) and #code >= 4 then
-    full = full .. string.sub(code[#code], 1, 1)
+    full = full .. code[#code]:sub(1, 1)
   end
   return full
 end

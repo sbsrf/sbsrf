@@ -19,8 +19,8 @@ function this.init(env)
   local config = env.engine.schema.config;
   local select_keys = env.engine.schema.select_keys;
   env.select_keys = {}
-  for i = 1, string.len(select_keys) do
-    env.select_keys[string.sub(select_keys, i, i)] = true
+  for i = 1, select_keys:len() do
+    env.select_keys[select_keys:sub(i, i)] = true
   end
   env.select_patterns = rime.get_string_list(config, "menu/alternative_select_patterns")
   env.selector = rime.Processor(env.engine, "", "selector")

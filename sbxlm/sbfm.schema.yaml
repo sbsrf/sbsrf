@@ -119,6 +119,7 @@ speller:
 
 translator:
   dictionary: sbfm
+  forced_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

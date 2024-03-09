@@ -28,13 +28,13 @@ function this.func(translation, env)
   local i = 0
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键
-    local j = i % string.len(select_keys) + 1
-    local key = string.sub(select_keys, j, j)
+    local j = i % select_keys:len() + 1
+    local key = select_keys:sub(j, j)
     -- 如果是下划线，说明是首选，无需操作
     if key == "_" then
       goto continue
     end
-    if string.len(candidate.comment) > 0 then
+    if candidate.comment:len() > 0 then
       candidate.comment = candidate.comment .. ":" .. key
     else
       candidate.comment = key

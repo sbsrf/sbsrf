@@ -144,6 +144,8 @@ speller:
 
 translator:
   dictionary: sbfx
+  enable_filtering: false
+  forced_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

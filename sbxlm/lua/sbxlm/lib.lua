@@ -779,7 +779,7 @@ function rime.current(context)
     if not segment then
       return nil
     end
-    return string.sub(context.input, segment.start + 1, segment._end)
+    return context.input:sub(segment.start + 1, segment._end)
   end
   
 return rime

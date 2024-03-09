@@ -35,7 +35,7 @@ local function process(key_event, env)
     context:pop_input(2)
     context:confirm_current_selection()
     context:commit()
-    context:push_input(string.sub(input, 3))
+    context:push_input(input:sub(3))
   -- 其他情况下，大写字母作为顶屏键
   else
     context:confirm_current_selection()

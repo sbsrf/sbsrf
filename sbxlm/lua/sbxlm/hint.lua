@@ -113,9 +113,9 @@ function this.func(translation, env)
 		if ((core.s(input) or core.sxs(input)) and (core.feixi(id) or core.sp(id)))
 				or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]") then
 			for _, bihua in ipairs(hint_b) do
-				local shengmu = string.sub(candidate.preedit, -1)
+				local shengmu = candidate.preedit:sub(-1)
 				-- hack，假设 UTF-8 编码都是 3 字节的
-				local prev_text = string.sub(candidate.text, 1, -4)
+				local prev_text = candidate.text:sub(1, -4)
 				if core.sp(id) and not core.invalid_pinyin(shengmu .. bihua) then
 					goto continue
 				end

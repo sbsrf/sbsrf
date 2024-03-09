@@ -104,6 +104,7 @@ speller:
 
 translator:
   dictionary: sbxh
+  forced_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

@@ -15,6 +15,8 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field dynamic_memory Memory
 ---@field reverse ReverseLookup
 ---@field enable_filtering boolean
+---@field forced_selection boolean
+---@field single_selection boolean
 ---@field lower_case boolean
 ---@field stop_change boolean
 ---@field enable_encoder boolean
@@ -81,13 +83,13 @@ local function dfs_encode(phrase, position, code, env)
   end
   local success = false
   -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
-  for t in string.gmatch(translations, "[^ ]+") do
+  for stem in string.gmatch(translations, "[^ ]+") do
     -- 如果之前调用的是 reverse:lookup，那么除了单字全码之外，也可能查询到简码
     -- 这里要把它们过滤掉
-    if string.len(t) < 4 then
+    if stem:len() < 4 then
       goto continue
     end
-    table.insert(code, t)
+    table.insert(code, stem)
     local ok = dfs_encode(phrase, position + 1, code, env)
     success = success or ok
     table.remove(code)
@@ -113,7 +115,7 @@ local function callback(commit, env)
     if string.find(entry.custom_code, kEncodedPrefix) then
       local new_entry = rime.DictEntry()
       new_entry.text = entry.text
-      new_entry.custom_code = string.sub(entry.custom_code, string.len(kEncodedPrefix) + 1)
+      new_entry.custom_code = entry.custom_code:sub(kEncodedPrefix:len() + 1)
       env.dynamic_memory:update_userdict(new_entry, 1, "")
     else
       env.dynamic_memory:update_userdict(entry, 1, "")
@@ -147,7 +149,7 @@ local function callback(commit, env)
       end
     end
     -- 对最末一个上屏的候选，跳过造词，直接看下一个
-    if string.len(phrase) == 0 then
+    if phrase:len() == 0 then
       phrase = record.text
       goto continue
     end
@@ -174,6 +176,8 @@ function this.init(env)
   local config = env.engine.schema.config
   env.reverse = core.reverse(env.engine.schema.schema_id)
   env.enable_filtering = config:get_bool("translator/enable_filtering") or false
+  env.forced_selection = config:get_bool("translator/forced_selection") or false
+  env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
   env.stop_change = config:get_bool("translator/stop_change") or false
   env.enable_encoder = config:get_bool("translator/enable_encoder") or false
@@ -211,7 +215,7 @@ local function dynamic(input, env)
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
   if core.jm(id) or core.fm(id) or core.fd(id) or core.sp(id) then
-    return string.len(input) - 3
+    return input:len() - 3
   end
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
   -- 因此，将编码的长度减去 4 就分别对应了上述的 short, base, select, full 四种情况
@@ -220,12 +224,12 @@ local function dynamic(input, env)
   -- 以下综合考虑了这些情况
   if core.fx(id) then
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}.*") then
-      return string.len(input) - 3
+      return input:len() - 3
     end
-    if string.len(input) == 4 and not rime.match(input, ".{3}[23789]") then
+    if input:len() == 4 and not rime.match(input, ".{3}[23789]") then
       return dtypes.invalid
     end
-    return string.len(input) - 4
+    return input:len() - 4
   end
   return dtypes.invalid
 end
@@ -252,42 +256,50 @@ local function validate_phrase(entry, segment, type, input, env)
   local id = env.engine.schema.schema_id
   -- 一开始，entry.comment 中放置了 "~xxx" 形式的编码补全内容
   -- 对其取子串，得到真正的编码补全内容
-  local completion = string.sub(entry.comment, 2)
+  local completion = entry.comment:sub(2)
   local alt_completion = ""
   local to_match = ""
   if entry.comment == "" then
     goto valid
   end
+  -- 处理一些特殊的过滤条件
+  if env.enable_filtering then
+    -- 1. 简码启用多字词过滤时，三码不显示多字词
+    if core.jm(id) and input:len() == 3 and utf8.len(entry.text) > 3 then
+      return nil
+    end
+    -- 2. 飞讯启用多字词过滤时，四码不显示多字词
+    if core.fx(id) and input:len() > 4 and core.sxsb(input:sub(1, 4)) and utf8.len(entry.text) > 3 then
+      return nil
+    end
+  end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
   -- 在存储时，简码以 sssbbbs 的格式存储，飞讯以 sssbbbbs 的格式存储
   -- 如果识别到这种编码，需要把它们重排一下，得到另一种编码，即以 ssss 开头的编码，然后再进行匹配
   if rime.match(completion, "[aeiou]{3,4}[bpmfdtnlgkhjqxzcsrywv]") then
-    alt_completion = string.sub(completion, -1, -1) .. string.sub(completion, -3, -2)
+    alt_completion = completion:sub(-1, -1) .. completion:sub(-3, -2)
     -- 如果简码没启用 lower_case，就消除掉原来的编码，相当于禁用 sssbbb 这种打法
     if core.jm(id) and (not env.lower_case or not env.third_pop) then
       completion = ""
     end
   end
-  if string.len(input) == 3 then
-    if core.jm(id) and env.enable_filtering and utf8.len(entry.text) > 3 then
-      return nil
-    end
+  if input:len() == 3 then
     goto valid
     -- 如果当前的策略是 select，那么最后一码并不代表有效的编码，而是选择键，可以忽略
   elseif dynamic(input, env) == dtypes.select then
-    to_match = string.sub(input, 4, -2)
+    to_match = input:sub(4, -2)
     -- 如果当前的策略是 base, full 或者 short，那么从 4 码开始的部分都要匹配
   else
-    to_match = string.sub(input, 4)
+    to_match = input:sub(4)
   end
   -- 如果第 4 码是 23789，那么需要把它换成 aeiou
-  if fx_exchange[string.sub(to_match, 1, 1)] then
-    to_match = fx_exchange[string.sub(to_match, 1, 1)] .. string.sub(to_match, 2)
+  if fx_exchange[to_match:sub(1, 1)] then
+    to_match = fx_exchange[to_match:sub(1, 1)] .. to_match:sub(2)
   end
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
-  if string.sub(completion, 1, string.len(to_match)) == to_match then
+  if completion:sub(1, to_match:len()) == to_match then
     goto valid
-  elseif string.sub(alt_completion, 1, string.len(to_match)) == to_match then
+  elseif alt_completion:sub(1, to_match:len()) == to_match then
     goto valid
   else
     return nil
@@ -312,13 +324,13 @@ end
 ---@param env AutoLengthEnv
 local function translate_by_split(input, segment, env)
   local memory = env.static_memory
-  memory:dict_lookup(string.sub(input, 1, 2), false, 1)
+  memory:dict_lookup(input:sub(1, 2), false, 1)
   local text = ""
   for entry in memory:iter_dict() do
     text = text .. entry.text
     break
   end
-  memory:dict_lookup(string.sub(input, 3), false, 1)
+  memory:dict_lookup(input:sub(3), false, 1)
   for entry in memory:iter_dict() do
     ---@type string
     text = text .. entry.text
@@ -368,7 +380,7 @@ function this.func(input, segment, env)
   local memory = env.dynamic_memory
   -- 静态编码都处理完了，现在进入自动码长的动态编码部分
   -- 首先，根据输入的前三码来模糊匹配，依次查询固态词典和用户词典，并且结果都存放到一个列表中
-  local lookup_code = string.sub(input, 0, 3)
+  local lookup_code = input:sub(0, 3)
   ---@type Phrase[]
   local phrases = {}
   memory:user_lookup(lookup_code, true)
@@ -430,7 +442,7 @@ function this.func(input, segment, env)
       ::continue::
     end
   elseif dynamic(input, env) == dtypes.select then
-    local last = string.sub(input, -1)
+    local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
@@ -442,7 +454,10 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.full then
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
-      if env.known_candidates[cand.text] then
+      local rank = env.known_candidates[cand.text]
+      -- 如果强制选重，那么无论 rank 是多少都不显示这个候选
+      -- 如果不强制选重，那么只有 rank <= 1，即之前出现在首选的才会显示
+      if rank and (rank <= 1 or env.forced_selection) then
         goto continue
       end
       yield(cand)
