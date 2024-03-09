@@ -31,7 +31,7 @@ function this.func(key_event, env)
     end
   end
   -- 只在混顶或者纯顶模式下生效
-  if not (context:get_option("mixed") or context:get_option("popping")) then
+  if context:get_option("free") or context:get_option("fixed") then
     return rime.process_results.kNoop
   end
   -- 只对 aeiou 和 Backspace 键生效

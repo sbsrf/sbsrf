@@ -1,6 +1,17 @@
 # 声笔系列码共用配置
 
-popping:
+# 所有方案都能用的顶功
+basic_popping:
+  __append:
+    # 顶标点
+    - match: ".*[^a-z0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点大写顶
+    - match: ".*[a-z0-9;']"
+      accept: "[^a-z0-9;' ]"
+
+# 字词方案通用的顶功
+table_popping:
   __append:
     # 单字三码顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
@@ -9,15 +20,14 @@ popping:
     - when: "pro_char"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 单字模式下的兼容打词
+    - when: "pro_char"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
     # 顶末码
     - match: "[bpmfdtnlgkhjqxzcsrywv].*[;'0-9]"
       accept: "[^ ]"
-    # 顶标点
-    - match: ".*[^a-z0-9]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 标点顶
-    - match: ".*[a-z0-9;']"
-      accept: "[^a-z0-9;' ]"
     # 增强模式，数字一码或二码之后不顶
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
@@ -31,6 +41,10 @@ popping:
       accept: "[aeiou]"
       prefix: 2
       strategy: conditional
+    # 大写顶屏
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      prefix: 2
 
 prelude:
   menu:
