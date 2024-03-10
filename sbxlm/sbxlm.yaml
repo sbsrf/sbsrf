@@ -64,7 +64,7 @@ prelude:
     db_class: stabledb
     enable_sentence: false
     enable_completion: true
-    encode_commit_history: false
+    prefix: u
     tips: "〔自定义〕"
 
   history:

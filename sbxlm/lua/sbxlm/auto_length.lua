@@ -348,6 +348,9 @@ end
 ---@param segment Segment
 ---@param env AutoLengthEnv
 function this.func(input, segment, env)
+  if not segment:has_tag("abc") then
+    return
+  end
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
