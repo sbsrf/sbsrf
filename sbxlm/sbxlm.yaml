@@ -203,9 +203,9 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
-    pinyin: "^a[a-z]*'?$"
-    sbzdy: "^u[a-z0-9]*$"
-    expression: "^e.*$"
+    pinyin: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z0-9]*$"
+    expression: "^e.+$"
     quick_menu: "^o[a-z0-9]*$"
     history: "^\\+$"
 
