@@ -43,7 +43,7 @@ table_popping:
       strategy: conditional
     # 大写顶屏
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      accept: "[A-Z]"
       prefix: 2
 
 prelude:
