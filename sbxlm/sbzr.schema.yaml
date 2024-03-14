@@ -62,7 +62,8 @@ engine:
     - abc_segmentor
     - affix_segmentor@sbzdy
     - affix_segmentor@bihua
-    - affix_segmentor@pinyin
+    - affix_segmentor@hypy
+    - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -133,5 +134,5 @@ menu:
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
-  tags: [bihua, pinyin]
+  tags: [bihua, hypy, zhlf]
   dictionary: sbzr.extended

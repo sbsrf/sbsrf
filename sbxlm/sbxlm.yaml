@@ -84,24 +84,21 @@ prelude:
     encode_commit_history: false
     tips: "〔笔画反查〕"
 
-  pinyin:
-    tag: pinyin
-    prefix: "a"
-    tips: "〔拼音反查〕"
-
   hypy:
-    tag: pinyin
+    tag: hypy
     dictionary: sbpy
     packs:
       - sbpy.base
     prism: hypy
-    initial_quality: 1
+    prefix: a
+    tips: "〔拼音反查〕"
 
   zhlf:
-    tag: pinyin
+    tag: zhlf
     dictionary: zhlf
     enable_user_dict: false
-    initial_quality: 2
+    prefix: i
+    tips: "〔两分反查〕"
 
   sbjm:
     tag: sbjm
@@ -115,7 +112,7 @@ prelude:
     tips: "〔声笔反查〕"
 
   reverse_lookup:
-    tags: [bihua, pinyin, sbjm]
+    tags: [bihua, hypy, zhlf, sbjm]
     overwrite_comment: true
     dictionary: sbjm.extended
 
@@ -203,7 +200,8 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
-    pinyin: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    hypy: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z0-9]*$"
     expression: "^e.+$"
     quick_menu: "^o[a-z0-9]*$"
