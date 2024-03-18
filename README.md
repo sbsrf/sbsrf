@@ -4,8 +4,8 @@
 
 ## 安装配置
 
-详见 [sbxlm.github.io/vzpz](sbxlm.github.io/vzpz)
+详见 [sbxlm.github.io/vzpz](http://sbxlm.github.io/vzpz)
 
 ## 使用方法
 
-详见 [sbxlm.github.io/about](sbxlm.github.io/about)
+详见 [sbxlm.github.io/about](http://sbxlm.github.io/about)
