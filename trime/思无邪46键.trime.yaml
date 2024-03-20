@@ -986,7 +986,7 @@ preset_keyboards:
     width: 10
 
 # ━━━━━ 助记键盘 ━━━━━
-    sbjm: #声笔简码
+  sbjm: #声笔简码
     __include: /preset_keyboards/default
     __patch:
         "keys/@38//long_click": K_sbxlzj
