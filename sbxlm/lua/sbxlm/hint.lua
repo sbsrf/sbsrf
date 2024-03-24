@@ -66,10 +66,20 @@ function this.func(translation, env)
 		-- 第二种情况：飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
 		if (core.feixi(id) or core.sp(id) or core.jm(id) and is_enhanced and not is_hidden) and (core.s(input) or core.ss(input)) then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
+			local e = ''
 			for entry in memory:iter_dict()
 			do
+				e = entry.text
 				candidate:get_genuine().comment = ' ' .. entry.text
 				break
+			end
+			if core.jm(id) then
+				memory:dict_lookup(candidate.preedit .. ";", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = ' ' .. entry.text .. '; ' .. e .. "'"
+					break
+				end
 			end
 		end
 		rime.yield(candidate)

@@ -111,7 +111,7 @@ popping:
       strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789'"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6

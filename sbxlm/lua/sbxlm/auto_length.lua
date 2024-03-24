@@ -111,6 +111,9 @@ local function callback(commit, env)
     if static(entry.preedit, env) then
       goto continue
     end
+    if rime.match(entry.preedit, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+      goto continue
+    end
     -- 如果这个词之前标记为临时词，就消除这个标记，正式进入词库
     if string.find(entry.custom_code, kEncodedPrefix) then
       local new_entry = rime.DictEntry()
