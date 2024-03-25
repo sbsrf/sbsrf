@@ -2,7 +2,7 @@
 # encoding: utf-8
 #顶部 顶端
 
-config_version: "1.0, for同文3.2.8"
+config_version: "1.0, for同文3.2.16"
 name: 思無邪
 author: 莫颜
 # 说明：基于“声笔45键”+“派对之星”+“思无涯•26键”+“凉秋”制作，部分功能可能存在问题，如发现请告知，谢谢。
@@ -241,12 +241,12 @@ fallback_colors:
   AAT: key_text_color
   AAH: key_text_color
   shb: szb
-  bdb: szb
+  szb: bdb
   zbd: bdb
   zbd2: zbd
   kgb: AAA
   ybd: bdb
-  hsb: szb
+  hsb: zbd2
   hcb: szb
   hst: szt
   kgt: szt

@@ -220,11 +220,11 @@ fallback_colors:
   AAT: key_text_color
   AAH: key_text_color
   shb: szb
-  bdb: szb
+  szb: bdb
   zbd: bdb
   kgb: AAA
   ybd: bdb
-  hsb: szb
+  hsb: zbd
   hcb: szb
   hst: szt
   kgt: szt
@@ -290,6 +290,8 @@ preset_color_schemes:
     qszt: *白   #字色 数字、符号
     hcb: 0x007AFE
     hct: *白
+    zbd: 0xAAB1BB
+    hsb: 0xAAB1BB
     
   eeea:
     name: "出　彩" #出彩
