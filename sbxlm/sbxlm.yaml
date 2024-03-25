@@ -26,8 +26,14 @@ table_popping:
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
     # 顶末码
-    - match: "[bpmfdtnlgkhjqxzcsrywv].*[;'0-9]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv].+[;'0-9]"
       accept: "[^ ]"
+    # 自定义
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;'0-9][aeuio]*"
+      accept: "[aeuio]"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;'0-9][aeuio]*"
+      accept: "[^ aeuio]"
     # 增强模式，数字一码或二码之后不顶
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
