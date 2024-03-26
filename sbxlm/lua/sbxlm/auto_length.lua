@@ -111,7 +111,7 @@ local function callback(commit, env)
     if static(entry.preedit, env) then
       goto continue
     end
-    if rime.match(entry.preedit, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+    if entry.comment == kTopSymbol then
       goto continue
     end
     -- 如果这个词之前标记为临时词，就消除这个标记，正式进入词库
@@ -342,6 +342,7 @@ local function translate_by_split(input, segment, env)
   local entry = rime.DictEntry()
   entry.text = text
   entry.custom_code = input
+  entry.comment = kTopSymbol
   local phrase = rime.Phrase(env.static_memory, "user_table", segment.start, segment._end, entry)
   phrase.preedit = input
   yield(phrase:toCandidate())
@@ -415,11 +416,19 @@ function this.func(input, segment, env)
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
     if phrase then table.insert(phrases, phrase) end
   end
-  -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
-  if #phrases == 0 then
-    if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
-      translate_by_split(input, segment, env)
+  -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
+  if #phrases == 0 and core.sp(id) and core.sxb(input) then
+    env.static_memory:dict_lookup(input, false, 0)
+    for entry in env.static_memory:iter_dict() do
+      local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
+      phrase.preedit = input
+      rime.yield(phrase:toCandidate())
     end
+    return
+  end
+  -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
+  if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+    translate_by_split(input, segment, env)
     return
   end
   -- 以下分 4 种情况实现自动码长的翻译策略
