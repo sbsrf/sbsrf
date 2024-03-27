@@ -45,7 +45,7 @@ function this.func(translation, env)
 	local memory = env.memory
 	for candidate in translation:iter() do
 		local input = candidate.preedit
-		-- 第一种情况：飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
+		-- 飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
 		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -63,17 +63,19 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		-- 第二种情况：飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
-		if (core.feixi(id) or core.sp(id) or core.jm(id) and is_enhanced and not is_hidden) and (core.s(input) or core.ss(input)) then
-			memory:dict_lookup(candidate.preedit .. "'", false, 1)
-			local e = ''
-			for entry in memory:iter_dict()
-			do
-				e = entry.text
-				candidate:get_genuine().comment = ' ' .. entry.text
-				break
-			end
-			if core.jm(id) then
+		-- 飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
+		if (core.feixi(id) or core.sp(id) or core.jm(id)) and (core.s(input) or core.ss(input)) then
+			if core.jm(id) and not (is_enhanced and not is_hidden) then
+				; -- 简码只在增强非隐藏模式下提示
+			else
+				memory:dict_lookup(candidate.preedit .. "'", false, 1)
+				local e = ''
+				for entry in memory:iter_dict()
+				do
+					e = entry.text
+					candidate:get_genuine().comment = ' ' .. entry.text
+					break
+				end
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
 				do
@@ -83,9 +85,8 @@ function this.func(translation, env)
 			end
 		end
 		rime.yield(candidate)
-		-- 第三种情况：飞系方案和声笔简码在 s, sb, ss, sxb 格式的编码上提示 23789 和 14560 两组数选字词
-		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input))
-				and is_enhanced and not env.engine.context:get_option("hide") then
+		-- 飞系方案和声笔简码在 s, sb, ss, sxb 格式的编码上提示 23789 和 14560 两组数选字词
+		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do
 				local n1 = hint_n1[j]
 				local n2 = hint_n2[j]
@@ -117,7 +118,7 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 第四种情况：飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
+		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
 		-- 对于飞系，所有 sb 都提示
 		-- 对于小鹤和自然，只有几个 sb 格式的编码是真正的声笔字，通过声韵拼合规律判断出来
 		if ((core.s(input) or core.sxs(input)) and (core.feixi(id) or core.sp(id)))
@@ -138,7 +139,7 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 第五种情况：飞系方案和双拼方案在 ss 码位上，提示声声笔词
+		-- 飞系方案和双拼方案在 ss 码位上，提示声声笔词
 		if core.ss(input) and (core.feixi(id) or core.sp(id)) then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
@@ -154,6 +155,19 @@ function this.func(translation, env)
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
 				rime.yield(forward)
 				::continue::
+			end
+		end
+		-- 简码、飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
+		if (core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
+			or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2}")
+			or core.jm(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{0,2}") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if not is_enhanced and rime.match(code, ".*[0-9].*") then
+					;
+				else
+					candidate.comment = candidate.comment .. " " .. code
+				end
 			end
 		end
 		::continue::

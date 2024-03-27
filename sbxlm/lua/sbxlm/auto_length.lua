@@ -64,6 +64,13 @@ local function dfs_encode(phrase, position, code, env)
       local entry = rime.DictEntry()
       entry.text = phrase
       entry.custom_code = encoded .. " "
+      -- 如果词典中已经存在，则不必造词
+      env.dynamic_memory:dict_lookup(encoded, false, 1)
+      for e in env.dynamic_memory:iter_dict() do
+        if e.text == entry.text then
+          return false
+        end
+      end
       env.dynamic_memory:update_userdict(entry, 0, kEncodedPrefix)
       return true
     else
@@ -115,7 +122,7 @@ local function callback(commit, env)
       goto continue
     end
     -- 如果这个词之前标记为临时词，就消除这个标记，正式进入词库
-    if string.find(entry.custom_code, kEncodedPrefix) then
+   if string.find(entry.custom_code, kEncodedPrefix) then
       local new_entry = rime.DictEntry()
       new_entry.text = entry.text
       new_entry.custom_code = entry.custom_code:sub(kEncodedPrefix:len() + 1)

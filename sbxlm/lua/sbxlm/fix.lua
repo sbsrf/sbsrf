@@ -1,5 +1,5 @@
 -- 固顶过滤器
--- 适用于：声笔拼音
+-- 适用于：声笔拼音及其衍生方案
 -- 本过滤器读取用户自定义的固顶短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固顶到特定位置
 -- 仅在模式为固顶、混顶、纯顶时才执行
 
@@ -91,7 +91,15 @@ function this.func(translation, env)
     end
     local current = fixed_phrases[i]
     if current and known_candidates[current] then
-      rime.yield(known_candidates[current])
+      local cand = known_candidates[current]
+      local select = "'456;"
+      local is_hidden = env.engine.context:get_option("is_hidden")
+      local id = env.engine.schema.schema_id
+      if i > 1 and (id == 'sbpy' or id == 'sbjz') and not is_hidden then
+        local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
+        cand = rime.Candidate("fixed", cand.start, cand._end, fixed_phrases[i], comment)
+      end
+      rime.yield(cand)
       i = i + 1
     end
   end

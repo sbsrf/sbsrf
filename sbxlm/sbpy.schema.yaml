@@ -31,10 +31,12 @@ switches:
     reset: 0
     states: [自由, 固定, 混顶, 纯顶, 强顶]
   # 为了避免拥挤，不显示下面的状态
+  - name: is_hidden
+    reset: 1  # 1为隐藏：不提示第二页的固定字词
   - name: auto_inline
-    reset: 1
+    reset: 1  # 首字母大写进入临时英文状态
   - name: is_buffered
-    reset: 0
+    reset: 0  # 是否为缓冲输入模式
 
 engine:
   processors:
@@ -173,11 +175,11 @@ sbpy_extra_bindings:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{2,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "6", send_sequence: "{Page_Down}7" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: ";", send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{0,1}", accept: ";", send_sequence: "{Page_Down}8" }
 
 key_binder:
   bindings:
