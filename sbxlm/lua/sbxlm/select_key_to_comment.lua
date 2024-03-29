@@ -24,6 +24,7 @@ end
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
+  local id = env.engine.schema.schema_id
   local select_keys = env.engine.schema.select_keys or ""
   local i = 0
   for candidate in translation:iter() do
@@ -35,7 +36,11 @@ function this.func(translation, env)
       goto continue
     end
     if candidate.comment:len() > 0 then
-      candidate.comment = candidate.comment .. ":" .. key
+      if id == "sbpy" or id == "sbjz" then
+        candidate.comment = key .. candidate.comment
+      else
+        candidate.comment = candidate.comment .. ":" .. key
+      end
     else
       candidate.comment = key
     end
