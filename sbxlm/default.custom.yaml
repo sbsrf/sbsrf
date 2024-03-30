@@ -2,10 +2,10 @@ patch:
   schema_list:
     - schema: sbjm
     - schema: sbjz
-    - schema: sbpy
     - schema: sbfd
     - schema: sbfm
     - schema: sbfx
+    - schema: sbpy
     - schema: sbxh
     - schema: sbzr
   switcher:

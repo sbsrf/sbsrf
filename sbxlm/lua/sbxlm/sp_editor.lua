@@ -1,8 +1,8 @@
 -- 回头补码处理器
--- 适用于：声笔拼音
--- 本处理器实现了声笔拼音的自动回头补码的功能
+-- 适用于：声笔双拼
+-- 本处理器实现了声笔双拼的自动回头补码的功能
 -- 即在输入 aeiou 时，如果末音节有 3 码，且前面至少还有一个音节，则将这个编码追加到首音节上
--- 注意，这里的音节是 Rime 中的音节概念，在声笔拼音中对应的是压缩拼音 + 笔画形成的最长 5 码的编码组合，不一定只包含读音信息
+-- 注意，这里的音节是 Rime 中的音节概念，不一定只包含读音信息
 
 local rime = require "sbxlm.lib"
 
@@ -30,7 +30,7 @@ function this.func(key_event, env)
       end
     end
   end
-  -- 只在纯功模式下生效
+  -- 只在顶功模式下生效
   if context:get_option("free") or context:get_option("fixed") then
     return rime.process_results.kNoop
   end
@@ -47,18 +47,19 @@ function this.func(key_event, env)
   local confirmed_position = context.composition:toSegmentation():get_confirmed_position()
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
-  if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
+  if not rime.match(current_input, "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]") then
     return rime.process_results.kNoop
   end
   -- 如果输入是 Backspace，还要验证是否有补码
   if incoming == "BackSpace" then
-    if not rime.match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]+.+") then
+    if not rime.match(current_input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+.+") then
       return rime.process_results.kNoop
     end
   end
-  -- 找出补码的位置（第二个音节之前），并添加补码
-  local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
-  context.caret_pos = confirmed_position + first_char_code_len
+  -- 找出补码的位置（第一个音节之后），并添加补码
+  local e
+  _, e = current_input:find("[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*")
+  context.caret_pos = confirmed_position + e
   if incoming == "BackSpace" then
     context:pop_input(1)
   else
@@ -66,7 +67,7 @@ function this.func(key_event, env)
   end
   -- 如果补码后不到 5 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码后已有 5 码，则不返回，相当于进入单字模式
-  if first_char_code_len < 4 then
+  if e < 4 then
     context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted
