@@ -1,0 +1,48 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbpy.schema.yaml:/
+
+schema:
+  schema_id: sbjz
+  name: 声笔简整
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbpy
+
+switches:
+  __include: sbpy.schema.yaml:/switches
+  __patch:
+    '@3/reset': 1  #将后置设为默认
+    '@4/reset': 4  #将强顶设为默认
+    '@5/reset': 0  #将不隐藏设为默认
+
+sbjz_algebra:
+  # 1. 冠零声
+  - xform/\b(?=[aoe])/v/
+  # 2. 去韵母
+  - xform/\b([a-z])[a-z]+/$1/
+  # 3. 补笔画
+  - xlit/12345/eiuoa/
+
+speller:
+  __include: sbpy.schema.yaml:/speller
+  algebra:
+    __include: /sbjz_algebra
+    __append:
+      - derive/^([a-z]).+$/$1/
+      - derive/^([a-z]{2}).+$/$1/
+      - derive/^([a-z]{3}).+$/$1/
+      - derive/^([a-z]{4}).+$/$1/
+
+translator:
+  __include: sbpy.schema.yaml:/translator
+  prism: sbjz
+
+reverse_lookup:
+  __include: sbpy.schema.yaml:/reverse_lookup
+  comment_format:
+    __include: /sbjz_algebra

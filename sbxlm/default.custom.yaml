@@ -1,6 +1,7 @@
 patch:
   schema_list:
     - schema: sbjm
+    - schema: sbjz
     - schema: sbpy
     - schema: sbfd
     - schema: sbfm
