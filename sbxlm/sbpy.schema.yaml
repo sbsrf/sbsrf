@@ -160,6 +160,8 @@ translator:
   dictionary: sbpy
   packs:
     - sbpy.base
+    - sbpy.ext
+    - sbpy.tencent
   fix_combination: true
 
 punctuator:

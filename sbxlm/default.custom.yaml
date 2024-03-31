@@ -6,8 +6,10 @@ patch:
     - schema: sbfm
     - schema: sbfx
     - schema: sbpy
-    - schema: sbxh
     - schema: sbzr
+    - schema: sbzz
+    - schema: sbxh
+    - schema: sbhz
   switcher:
     abbreviate_options: true
     caption: "〔方案选单〕"
