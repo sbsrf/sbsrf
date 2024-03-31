@@ -1,0 +1,8 @@
+patch:
+  grammar/language: zh-hans-t-huayu-v7-bgw
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+  translator/packs/+:
+    - sbpy.ext
+    - sbpy.tencent

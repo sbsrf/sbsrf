@@ -1,0 +1,98 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbpy.schema.yaml:/
+
+schema:
+  schema_id: sbhz
+  name: 声笔鹤整
+  version: "10.0"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbpy
+
+switches:
+  __include: sbpy.schema.yaml:/switches
+  __patch:
+    "@3/reset": 1  #将后置设为默认
+    "@4": { options: [fixed, popping], reset: 1, states: [普通, 顶功] }
+
+engine:
+  __include: sbpy.schema.yaml:/engine
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.sp_editor
+    - lua_processor@*sbxlm.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+
+sbhz_popping:
+  __append:
+    # 词组顶
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+
+sbhz_algebra:
+  # 1. 执行双拼方案
+  - xform/(?<=[zcs])h//
+  - derive/\b([jqxy])u(?=\d)/$1v/
+  - xform/\b(?=[aoe])/V/
+  - xform/iu(?=\d)/Q/
+  - xform/ei(?=\d)/W/
+  - xform/uan(?=\d)|er(?=\d)/R/
+  - xform/[uv]e(?=\d)/T/
+  - xform/un(?=\d)/Y/
+  - xform/uo(?=\d)/O/
+  - xform/ie(?=\d)/P/
+  - xform/i?ong(?=\d)/S/
+  - xform/ing(?=\d)|uai(?=\d)/K/
+  - xform/ai(?=\d)/D/
+  - xform/en(?=\d)/F/
+  - xform/eng(?=\d)/G/
+  - xform/[iu]ang(?=\d)/L/
+  - xform/ang(?=\d)/H/
+  - xform/ian(?=\d)/M/
+  - xform/an(?=\d)/J/
+  - xform/ou(?=\d)/Z/
+  - xform/[iu]a(?=\d)/X/
+  - xform/iao(?=\d)/N/
+  - xform/ao(?=\d)/C/
+  - xform/ui(?=\d)/V/
+  - xform/in(?=\d)/B/
+  - xlit/QWRTYUIOPSDFGHJKLZXCVBNM/qwrtyuiopsdfghjklzxcvbnm/
+  # 2. 补笔画
+  - xlit/12345/eiuoa/
+  - xform/\b([a-z]{5})[aeiou]+/$1/
+
+speller:
+  __include: sbpy.schema.yaml:/speller
+  algebra:
+    __include: /sbhz_algebra
+    __append:
+      - derive/^([a-z]{2}).+$/$1/
+      - derive/^([a-z]{3}).+$/$1/
+      - derive/^([a-z]{4}).+$/$1/
+  popping:
+    __patch:
+      - /sbhz_popping
+      - sbxlm.yaml:/basic_popping
+
+translator:
+  __include: sbpy.schema.yaml:/translator
+  prism: sbhz
+  fix_combination: false
+
+reverse_lookup:
+  __include: sbpy.schema.yaml:/reverse_lookup
+  comment_format:
+    __include: /sbhz_algebra
