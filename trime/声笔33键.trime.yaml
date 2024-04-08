@@ -1330,20 +1330,20 @@ preset_keyboards:
       - {click: h, long_click: '9', swipe_up: H, swipe_down: '(', hint: '(', key_back_color: HHH, width: 14}
       - {click: j, long_click: '0', swipe_up: J, swipe_down: ')', hint: ')', key_back_color: JJJ, width: 14}
       - {click: k, long_click: '+', swipe_up: K, swipe_down: '=', hint: '=', key_back_color: KKK, width: 15}
-      - {click: z, long_click: select_all, swipe_up: Z, swipe_down: '←', hint: '←', key_back_color: ZZZ, width: 15}
-      - {click: x, long_click: cut, swipe_up: X, swipe_down: '→', hint: '→', key_back_color: XXX, width: 14}
-      - {click: c, long_click: copy, swipe_up: C, swipe_down: '↑', hint: '↑', key_back_color: CCC, width: 14}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: '↓', hint: '↓', key_back_color: VVV, key_text_color: *蓝, width: 14}
+      - {click: z, long_click: select_all, swipe_up: Z, swipe_down: '<', hint: '<', key_back_color: ZZZ, width: 15}
+      - {click: x, long_click: cut, swipe_up: X, swipe_down: '>', hint: '>', key_back_color: XXX, width: 14}
+      - {click: c, long_click: copy, swipe_up: C, swipe_down: '{', hint: '{', key_back_color: CCC, width: 14}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: '}', hint: '}', key_back_color: VVV, key_text_color: *蓝, width: 14}
       - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: '[', hint: '[', key_back_color: BBB, width: 14}
       - {click: n, long_click: Candidate_switch1, swipe_up: N, swipe_down: ']', hint: ']', key_back_color: NNN, width: 14}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: '·', hint: '·', key_back_color: MMM, width: 15}
       # ❸
       - {click: Shift_L1, key_text_size: 14, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
-      - {click: a, long_click: '"', swipe_up: A, swipe_down: "'", hint: "'", key_back_color: AAA, key_text_color: *橙, width: 14}
-      - {click: e, long_click: ':', swipe_up: E, swipe_down: ';', hint: ';', key_back_color: EEE, key_text_color: *橙, width: 14}
+      - {click: a, long_click: '↑', swipe_up: A, key_back_color: AAA, key_text_color: *橙, width: 14}
+      - {click: e, long_click: '↓', swipe_up: E, swipe_down: '{Control+l}', hint: ⇐, key_back_color: EEE, key_text_color: *橙, width: 14}
       - {click: u, long_click: '×', swipe_up: U, swipe_down: '÷', hint: '÷', key_back_color: UUU, key_text_color: *橙, width: 14}
-      - {click: i, long_click: '<', swipe_up: I, swipe_down: '{', hint: '{', key_back_color: III, key_text_color: *橙, width: 14}
-      - {click: o, long_click: '>', swipe_up: O, swipe_down: '}', hint: '}', key_back_color: OOO, key_text_color: *橙, width: 14}
+      - {click: i, long_click: '←', swipe_up: I, swipe_down: '{Control+l}', hint: ⇐, key_back_color: III, key_text_color: *橙, width: 14}
+      - {click: o, long_click: '→', swipe_up: O, key_back_color: OOO, key_text_color: *橙, width: 14}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_text_size: 12, key_back_color: hsb, key_text_color: hst, width: 15}
       # ❹
       - {height: *VJM, click: "q_sz", key_text_size: 14, composing: Escape, swipe_up: "{Schema_switch}", long_click: q_xd, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, width: 15}
