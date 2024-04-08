@@ -68,6 +68,8 @@ function this.func(translation, env)
 		if (core.feixi(id) or core.sp(id) or core.jm(id)) and (core.s(input) or core.ss(input)) then
 			if core.jm(id) and not (is_enhanced and not is_hidden) then
 				; -- 简码只在增强非隐藏模式下提示
+			elseif core.feixi(id) and is_hidden then
+				; -- 飞系在隐藏模式时不提示声声词
 			else
 				memory:dict_lookup(candidate.preedit .. "'", false, 1)
 				local e = ''
@@ -118,6 +120,11 @@ function this.func(translation, env)
 				rime.yield(forward)
 				::continue::
 			end
+		end
+
+		-- 飞系在隐藏模式下不提示声笔字
+		if core.feixi(id) and core.s(input) and is_hidden then
+			goto continue
 		end
 		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
 		-- 对于飞系，所有 sb 都提示

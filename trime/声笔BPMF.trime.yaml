@@ -1315,28 +1315,28 @@ preset_keyboards:
     keys:
       # ❶ 
       - {height: 0}
-      - {click: q, long_click: '`', swipe_up: Q, swipe_down: '~', hint: '~', key_back_color: QQQ, width: 15}
-      - {click: w, long_click: '1', swipe_up: W, swipe_down: '!', hint: '!', key_back_color: WWW, width: 14}
-      - {click: r, long_click: '2', swipe_up: R, swipe_down: '@', hint: '@', key_back_color: RRR, width: 14}
-      - {click: t, long_click: '3', swipe_up: T, swipe_down: '#', hint: '#', key_back_color: TTT, width: 14}
-      - {click: y, long_click: '4', swipe_up: Y, swipe_down: '$', hint: '$', key_back_color: YYY, width: 14}
-      - {click: l, long_click: '5', swipe_up: L, swipe_down: '%', hint: '%', key_back_color: LLL, width: 14}
-      - {click: p, long_click: '-', swipe_up: P, swipe_down: '_', hint: '_', key_back_color: PPP, width: 15}
+      - {click: b, long_click: '`', swipe_up: B, swipe_down: '~', hint: '~', key_back_color: QQQ, width: 15}
+      - {click: p, long_click: '1', swipe_up: P, swipe_down: '!', hint: '!', key_back_color: WWW, width: 14}
+      - {click: m, long_click: '2', swipe_up: M, swipe_down: '@', hint: '@', key_back_color: RRR, width: 14}
+      - {click: f, long_click: '3', swipe_up: F, swipe_down: '#', hint: '#', key_back_color: TTT, width: 14}
+      - {click: g, long_click: '4', swipe_up: G, swipe_down: '$', hint: '$', key_back_color: YYY, width: 14}
+      - {click: k, long_click: '5', swipe_up: K, swipe_down: '%', hint: '%', key_back_color: LLL, width: 14}
+      - {click: h, long_click: '-', swipe_up: H, swipe_down: '_', hint: '_', key_back_color: PPP, width: 15}
       # ❷
-      - {click: s, long_click: '\', swipe_up: S, swipe_down: '|', hint: '|', key_back_color: SSS, width: 15}
-      - {click: d, long_click: '6', swipe_up: D, swipe_down: '^', hint: '^', key_back_color: DDD, width: 14}
-      - {click: f, long_click: '7', swipe_up: F, swipe_down: '&', hint: '&', key_back_color: FFF, width: 14}
-      - {click: g, long_click: '8', swipe_up: G, swipe_down: '*', hint: '*', key_back_color: GGG, width: 14}
-      - {click: h, long_click: '9', swipe_up: H, swipe_down: '(', hint: '(', key_back_color: HHH, width: 14}
-      - {click: j, long_click: '0', swipe_up: J, swipe_down: ')', hint: ')', key_back_color: JJJ, width: 14}
-      - {click: k, long_click: '+', swipe_up: K, swipe_down: '=', hint: '=', key_back_color: KKK, width: 15}
+      - {click: d, long_click: '\', swipe_up: D, swipe_down: '|', hint: '|', key_back_color: SSS, width: 15}
+      - {click: t, long_click: '6', swipe_up: T, swipe_down: '^', hint: '^', key_back_color: DDD, width: 14}
+      - {click: n, long_click: '7', swipe_up: N, swipe_down: '&', hint: '&', key_back_color: FFF, width: 14}
+      - {click: l, long_click: '8', swipe_up: L, swipe_down: '*', hint: '*', key_back_color: GGG, width: 14}
+      - {click: j, long_click: '9', swipe_up: J, swipe_down: '(', hint: '(', key_back_color: HHH, width: 14}
+      - {click: q, long_click: '0', swipe_up: Q, swipe_down: ')', hint: ')', key_back_color: JJJ, width: 14}
+      - {click: x, long_click: '+', swipe_up: X, swipe_down: '=', hint: '=', key_back_color: KKK, width: 15}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: '←', hint: '←', key_back_color: ZZZ, width: 15}
-      - {click: x, long_click: cut, swipe_up: X, swipe_down: '→', hint: '→', key_back_color: XXX, width: 14}
-      - {click: c, long_click: copy, swipe_up: C, swipe_down: '↑', hint: '↑', key_back_color: CCC, width: 14}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: '↓', hint: '↓', key_back_color: VVV, key_text_color: *蓝, width: 14}
-      - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: '[', hint: '[', key_back_color: BBB, width: 14}
-      - {click: n, long_click: Candidate_switch1, swipe_up: N, swipe_down: ']', hint: ']', key_back_color: NNN, width: 14}
-      - {click: m, long_click: Hide, swipe_up: M, swipe_down: '·', hint: '·', key_back_color: MMM, width: 15}
+      - {click: c, long_click: cut, swipe_up: C, swipe_down: '→', hint: '→', key_back_color: XXX, width: 14}
+      - {click: s, long_click: copy, swipe_up: S, swipe_down: '↑', hint: '↑', key_back_color: CCC, width: 14}
+      - {click: r, long_click: paste, swipe_up: R, swipe_down: '↓', hint: '↓', key_back_color: VVV, width: 14}
+      - {click: y, long_click: liquid_keyboard_clipboard, swipe_up: Y, swipe_down: '[', hint: '[', key_back_color: BBB, width: 14}
+      - {click: w, long_click: Candidate_switch1, swipe_up: W, swipe_down: ']', hint: ']', key_back_color: NNN, width: 14}
+      - {click: v, long_click: Hide, swipe_up: V, swipe_down: '·', hint: '·', key_back_color: MMM, key_text_color: *蓝, width: 15}
       # ❸
       - {click: Shift_L1, key_text_size: 14, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
       - {click: a, long_click: '"', swipe_up: A, swipe_down: "'", hint: "'", key_back_color: AAA, key_text_color: *橙, width: 14}
