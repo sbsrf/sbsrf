@@ -25,6 +25,8 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
+---@field fourth_pop boolean
+---@field fly_simp boolean
 ---@field fast_change boolean
 ---@field is_buffered boolean
 
@@ -35,6 +37,9 @@ local function static(input, env)
   -- 对简码特殊判断
   if env.third_pop and core.sss(input) then
     return false
+  end
+  if env.fly_simp and core.ssb(input) then
+    return true
   end
   -- 对双拼特殊判断
   if env.fast_change and core.sxb(input) then
@@ -364,6 +369,8 @@ function this.func(input, segment, env)
   end
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
+  env.fourth_pop = env.engine.context:get_option("fourth_pop") or false
+  env.fly_simp = env.engine.context:get_option("fly_simp") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
   local id = env.engine.schema.schema_id
 
@@ -374,7 +381,11 @@ function this.func(input, segment, env)
   if static(input, env) then
     -- 清空候选缓存
     env.known_candidates = {}
-    env.static_memory:dict_lookup(input, false, 0)
+    local is = input
+    if core.jm(id) and core.ssb(input) and env.fly_simp then
+      is = input .. "'"
+    end
+    env.static_memory:dict_lookup(is, false, 0)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input

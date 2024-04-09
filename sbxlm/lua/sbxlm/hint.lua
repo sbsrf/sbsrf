@@ -37,6 +37,7 @@ function this.func(translation, env)
 		3：显示，为显示所有数选字词
 	]]
 	local is_hidden = env.engine.context:get_option("hide")
+	local fly_simp = env.engine.context:get_option("fly_simp")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
@@ -85,6 +86,14 @@ function this.func(translation, env)
 					candidate:get_genuine().comment = ' ' .. entry.text .. '; ' .. e .. "'"
 					break
 				end
+			end
+		end
+		if core.jm(id) and core.ssb(input) and not fly_simp and not is_hidden then
+			memory:dict_lookup(candidate.preedit .. "'", false, 1)
+			for entry in memory:iter_dict()
+			do
+				candidate:get_genuine().comment = ' ' .. entry.text
+				break
 			end
 		end
 		rime.yield(candidate)

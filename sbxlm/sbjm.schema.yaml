@@ -25,14 +25,14 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: third_pop
+  - options: [fourth_pop, third_pop, fly_simp]
     reset: 0
-    states: [四顶, 三顶]
+    states: [四顶, 三顶, 飞简]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
-    reset: 1
+    reset: 3
     states: [隐藏, 有理, 无理, 两者]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
@@ -97,8 +97,8 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: "is_enhanced"
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][23789]"
-      accept: "[aeuio]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
+      accept: "[23789]"
       strategy: append
     - when: "is_enhanced"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
@@ -133,7 +133,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][23789][aeuio]"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio][23789']"
 
 extended:
   dictionary: sbjm.extended
@@ -148,13 +148,22 @@ recognizer:
 
 sbjm_extra_bindings:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
       accept: Tab
       send_sequence: "'{space}"
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
       accept: "'"
       send_sequence: "'{space}"
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
+      accept: ";"
+      send_sequence: "0"
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
+      accept: "'"
+      send_sequence: "1"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{space}"
@@ -176,5 +185,5 @@ menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{2}"
-    - "[bpmfdtnlgkhjqxzcsrywv]{2}[23789][aeuio]"
-  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][23789][aeuio]$"
+    - "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio][23789]"
+  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio][23789]$"
