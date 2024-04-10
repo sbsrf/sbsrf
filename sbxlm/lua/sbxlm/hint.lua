@@ -88,12 +88,14 @@ function this.func(translation, env)
 				end
 			end
 		end
-		if core.jm(id) and core.ssb(input) and not fly_simp and not is_hidden then
+		if core.jm(id) and core.ssb(input) and is_enhanced and not fly_simp and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
-				candidate:get_genuine().comment = ' ' .. entry.text
-				break
+				if candidate:get_genuine().text ~= entry.text then
+				  candidate:get_genuine().comment = ' ' .. entry.text
+				  break
+				end
 			end
 		end
 		rime.yield(candidate)
