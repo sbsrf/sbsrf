@@ -97,10 +97,6 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: "is_enhanced"
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "[23789]"
-      strategy: append
-    - when: "is_enhanced"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
@@ -133,7 +129,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio][23789']"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{1,2}'"
 
 extended:
   dictionary: sbjm.extended
@@ -148,22 +144,33 @@ recognizer:
 
 sbjm_extra_bindings:
   __append:
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
-      accept: Tab
-      send_sequence: "'{space}"
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
-      accept: "'"
-      send_sequence: "'{space}"
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: "2"
+      send_sequence: "a'"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: "3"
+      send_sequence: "e'"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: "7"
+      send_sequence: "u'"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: "8"
+      send_sequence: "i'"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: "9"
+      send_sequence: "o'"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
       accept: ";"
       send_sequence: "0"
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
       accept: "'"
       send_sequence: "1"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
+      accept: Tab
+      send_sequence: "'{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
+      accept: "'"
+      send_sequence: "'{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{space}"
@@ -185,5 +192,5 @@ menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{2}"
-    - "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio][23789]"
-  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio][23789]$"
+    - "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2}'"
+  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}'$"

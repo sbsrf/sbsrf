@@ -30,9 +30,10 @@ switches:
   - options: [free, fixed, mixed, popping, strong]
     reset: 0
     states: [自由, 固定, 混顶, 纯顶, 强顶]
-  # 为了避免拥挤，不显示下面的状态
   - name: is_hidden
+    states: [提示, 隐藏]
     reset: 1  # 1为隐藏：不提示第二页的固定字词
+  # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1  # 首字母大写进入临时英文状态
   - name: is_buffered

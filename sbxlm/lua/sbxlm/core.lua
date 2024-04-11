@@ -61,6 +61,11 @@ end
 function core.ssb(input)
   return match(input, s .. s .. b)
 end
+
+---@param input string
+function core.ssbb(input)
+  return match(input, s .. s .. b .. b)
+end
 ----------------------------------------
 -- 以下为一系列常用的方案判断函数
 -- 用于判断当前方案是否为某种方案

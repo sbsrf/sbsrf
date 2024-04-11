@@ -25,7 +25,6 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
----@field fourth_pop boolean
 ---@field fly_simp boolean
 ---@field fast_change boolean
 ---@field is_buffered boolean
@@ -369,7 +368,6 @@ function this.func(input, segment, env)
   end
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
-  env.fourth_pop = env.engine.context:get_option("fourth_pop") or false
   env.fly_simp = env.engine.context:get_option("fly_simp") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
   local id = env.engine.schema.schema_id

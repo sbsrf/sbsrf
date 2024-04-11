@@ -88,7 +88,7 @@ function this.func(translation, env)
 				end
 			end
 		end
-		if core.jm(id) and core.ssb(input) and is_enhanced and not fly_simp and not is_hidden then
+		if core.jm(id) and (core.ssb(input) or core.ssbb(input)) and is_enhanced and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
