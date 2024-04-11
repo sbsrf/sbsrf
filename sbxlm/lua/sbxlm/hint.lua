@@ -37,7 +37,7 @@ function this.func(translation, env)
 		3：显示，为显示所有数选字词
 	]]
 	local is_hidden = env.engine.context:get_option("hide")
-	local fly_simp = env.engine.context:get_option("fly_simp")
+	local fast_char = env.engine.context:get_option("fast_char")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }

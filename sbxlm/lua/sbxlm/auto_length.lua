@@ -25,7 +25,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
----@field fly_simp boolean
+---@field fast_char boolean
 ---@field fast_change boolean
 ---@field is_buffered boolean
 
@@ -37,7 +37,7 @@ local function static(input, env)
   if env.third_pop and core.sss(input) then
     return false
   end
-  if env.fly_simp and core.ssb(input) then
+  if env.fast_char and core.ssb(input) then
     return true
   end
   -- 对双拼特殊判断
@@ -368,7 +368,7 @@ function this.func(input, segment, env)
   end
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
-  env.fly_simp = env.engine.context:get_option("fly_simp") or false
+  env.fast_char = env.engine.context:get_option("fast_char") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
   local id = env.engine.schema.schema_id
 
@@ -380,7 +380,7 @@ function this.func(input, segment, env)
     -- 清空候选缓存
     env.known_candidates = {}
     local is = input
-    if core.jm(id) and core.ssb(input) and env.fly_simp then
+    if core.jm(id) and core.ssb(input) and env.fast_char then
       is = input .. "'"
     end
     env.static_memory:dict_lookup(is, false, 0)
