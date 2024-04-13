@@ -79,6 +79,7 @@ function this.func(translation, env)
   for candidate in translation:iter() do
     local text = candidate.text
     local is_fixed = false
+    -- 对于一个新的候选，要么加入已知候选，要么加入未知候选
     for _, phrase in ipairs(fixed_phrases) do
       if text == phrase then
         known_candidates[phrase] = candidate
@@ -89,6 +90,7 @@ function this.func(translation, env)
     if not is_fixed then
       table.insert(unknown_candidates, candidate)
     end
+    -- 每看过一个新的候选之后，看看是否找到了新的固顶候选，如果找到了，就输出
     local current = fixed_phrases[i]
     if current and known_candidates[current] then
       local cand = known_candidates[current]
@@ -97,8 +99,9 @@ function this.func(translation, env)
       local id = env.engine.schema.schema_id
       if i > 1 and (id == 'sbpy' or id == 'sbjz') and not is_hidden then
         local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
-        cand = rime.Candidate("fixed", cand.start, cand._end, fixed_phrases[i], comment)
+        cand.comment = comment
       end
+      cand.type = "fixed"
       rime.yield(cand)
       i = i + 1
     end
