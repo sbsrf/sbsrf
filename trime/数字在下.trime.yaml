@@ -1377,11 +1377,11 @@ preset_keyboards:
   sbjm: #声笔简码
     __include: /preset_keyboards/default
     __patch:
-        "keys/@36//long_click": K_sbxlzj
+        "keys/@28//long_click": K_sbxlzj
   sbjz: #声笔简整
     __include: /preset_keyboards/default
     __patch:
-        "keys/@36//long_click": K_sbxlzj
+        "keys/@28//long_click": K_sbxlzj
   sbpy: #声笔拼音
     __include: /preset_keyboards/default
     __patch:
