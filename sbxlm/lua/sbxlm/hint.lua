@@ -47,7 +47,7 @@ function this.func(translation, env)
 	for candidate in translation:iter() do
 		local input = candidate.preedit
 		-- 飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
+		if core.feixi(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,}")
@@ -56,7 +56,19 @@ function this.func(translation, env)
 				end
 			end
 		end
-		-- 除了缩减码之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
+		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
+		if (core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
+			or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if not is_enhanced and rime.match(code, ".*[0-9].*") then
+					;
+				elseif candidate.preedit ~= code then
+					candidate.comment = candidate.comment .. " " .. code
+				end
+			end
+		end
+		-- 除了以上情况之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
 		if i > 1 then
 		    -- 如果是双拼的声声词，也直接通过
 		    if core.sp(id) and core.ss(input) then
@@ -174,18 +186,6 @@ function this.func(translation, env)
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
 				rime.yield(forward)
 				::continue::
-			end
-		end
-		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
-		if (core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
-			or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}") then
-			local codes = env.reverse:lookup(candidate.text)
-			for code in string.gmatch(codes, "[^ ]+") do
-				if not is_enhanced and rime.match(code, ".*[0-9].*") then
-					;
-				elseif candidate.preedit ~= code then
-					candidate.comment = candidate.comment .. " " .. code
-				end
 			end
 		end
 		::continue::

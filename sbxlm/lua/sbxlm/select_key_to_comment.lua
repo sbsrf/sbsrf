@@ -36,7 +36,7 @@ function this.func(translation, env)
       goto continue
     end
     if candidate.comment:len() > 0 then
-      if id == "sbpy" or id == "sbjz" then
+      if id == "sbpy" or id == "sbjp" then
         candidate.comment = key .. candidate.comment
       else
         candidate.comment = candidate.comment .. ":" .. key
