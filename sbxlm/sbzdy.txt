@@ -9,6 +9,8 @@
 
 自定义【用户词组】	zdy
 测试一下吧:)	cs
+声笔官网：sbxlm.gitee.io	gw
+sbxlm.gitee.io	gwa
 声笔介绍：sbxlm.gitee.io/about	js
 sbxlm.gitee.io/about	jsa
 安装配置：sbxlm.gitee.io/vzpz	vz

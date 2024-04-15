@@ -14,11 +14,26 @@ schema:
     - sbpy
 
 switches:
-  __include: sbpy.schema.yaml:/switches
-  __patch:
-    '@3/reset': 1  #将后置设为默认
-    '@4/reset': 4  #将强顶设为默认
-    '@5/reset': 0  #将不隐藏设为默认
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: is_hidden
+    states: [提示, 隐藏]
+    reset: 1  # 为1时隐藏无理固定数选字词
+  # 为了避免拥挤，不显示下面的状态
+  - name: auto_inline
+    reset: 1  # 首字母大写进入临时英文状态
+  - name: is_buffered
+    reset: 0  # 是否为缓冲输入模式
+  - name: postpone
+    reset: 1  # 是否为后置模式
+  - options: [free, fixed, mixed, popping, strong]
+    reset: 4  # 默认为强顶模式
 
 sbjp_algebra:
   # 1. 冠零声
