@@ -32,8 +32,10 @@ switches:
     reset: 0  # 是否为缓冲输入模式
   - name: postpone
     reset: 1  # 是否为后置模式
+  #  states: [前置, 后置]
   - options: [free, fixed, mixed, popping, strong]
     reset: 4  # 默认为强顶模式
+  #  states: [自由, 固定, 混顶, 纯顶, 强顶]
 
 sbjp_algebra:
   # 1. 冠零声

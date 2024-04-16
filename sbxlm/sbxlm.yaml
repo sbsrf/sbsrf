@@ -249,5 +249,5 @@ punctuator:
   full_shape: *symtable
   symbols:
     __patch:
-      - tsfh.yaml:/punctuator/symbols
-      - tsfh.yaml:/punctuator/emojis
+      - sbfh.yaml:/punctuator/symbols
+      - sbfh.yaml:/punctuator/emojis

@@ -94,7 +94,7 @@ function this.func(translation, env)
     local current = fixed_phrases[i]
     if current and known_candidates[current] then
       local cand = known_candidates[current]
-      local select = "'456;"
+      local select = "'456 "
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
       if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
