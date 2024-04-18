@@ -4,8 +4,8 @@
 __include: sbpy.schema.yaml:/
 
 schema:
-  schema_id: sbjp
-  name: 声笔简拼
+  schema_id: sbjz
+  name: 声笔简整
   version: "10.0"
   author:
     - 戴石麟 <https://sbxlm.github.io>
@@ -37,7 +37,7 @@ switches:
     reset: 4  # 默认为强顶模式
   #  states: [自由, 固定, 混顶, 纯顶, 强顶]
 
-sbjp_algebra:
+sbjz_algebra:
   # 1. 冠零声
   - xform/\b(?=[aoe])/v/
   # 2. 去韵母
@@ -48,7 +48,7 @@ sbjp_algebra:
 speller:
   __include: sbpy.schema.yaml:/speller
   algebra:
-    __include: /sbjp_algebra
+    __include: /sbjz_algebra
     __append:
       - derive/^([a-z]).+$/$1/
       - derive/^([a-z]{2}).+$/$1/
@@ -57,9 +57,9 @@ speller:
 
 translator:
   __include: sbpy.schema.yaml:/translator
-  prism: sbjp
+  prism: sbjz
 
 reverse_lookup:
   __include: sbpy.schema.yaml:/reverse_lookup
   comment_format:
-    __include: /sbjp_algebra
+    __include: /sbjz_algebra

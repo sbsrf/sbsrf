@@ -19,8 +19,8 @@ sbxlm.gitee.io/vzpz	vza
 sbxlm.gitee.io/sbjc	jca
 声笔简码：sbxlm.gitee.io/sbjm	jm
 sbxlm.gitee.io/sbjm	jma
-声笔简拼：sbxlm.gitee.io/sbjp	jp
-sbxlm.gitee.io/sbjp	jpa
+声笔简整：sbxlm.gitee.io/sbjz	jz
+sbxlm.gitee.io/sbjz	jza
 声笔拼音：sbxlm.gitee.io/sbpy	py
 sbxlm.gitee.io/sbpy	pya
 声笔自然：sbxlm.gitee.io/sbzr	zr

@@ -97,7 +97,7 @@ function this.func(translation, env)
       local select = "'456 "
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
-      if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+      if i > 1 and (id == 'sbpy' or id == 'sbjz') and not is_hidden then
         local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
         cand.comment = comment
       end
