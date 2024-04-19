@@ -64,6 +64,9 @@ function this.func(key_event, env)
   if not input then
     return rime.process_results.kNoop
   end
+  if not env.engine.context.composition:back():has_tag("abc") then
+    return rime.process_results.kNoop
+  end
   for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then
