@@ -145,6 +145,8 @@ local function callback(commit, env)
   local valid_types = rime.Set({ "table", "user_table", "sentence", "simplified", "uniquified", "raw", "completion" })
   local index = 0
   for _, record in env.engine.context.commit_history:iter() do
+    ---@type string[]
+    local code = {}
     -- 如果最后一次上屏是标点顶屏，跳过标点查看前面的部分
     if index == 0 and record.type == "punct" then
       goto continue
@@ -165,6 +167,9 @@ local function callback(commit, env)
     -- 对最末一个上屏的候选，跳过造词，直接看下一个
     if phrase:len() == 0 then
       phrase = record.text
+      if #commit:get() > 1 then
+        dfs_encode(phrase, 1, code, env)
+      end
       goto continue
     end
     phrase = record.text .. phrase
@@ -176,8 +181,6 @@ local function callback(commit, env)
     elseif not env.is_buffered and utf8.len(phrase) > env.max_phrase_length then
       break
     end
-    ---@type string[]
-    local code = {}
     dfs_encode(phrase, 1, code, env)
     ::continue::
   end
