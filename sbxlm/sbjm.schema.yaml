@@ -127,7 +127,7 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{1,2}'"
 
@@ -159,12 +159,6 @@ sbjm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
       accept: "9"
       send_sequence: "o'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
-      accept: ";"
-      send_sequence: "0"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?"
-      accept: "'"
-      send_sequence: "1"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]?"
       accept: Tab
       send_sequence: "'{space}"

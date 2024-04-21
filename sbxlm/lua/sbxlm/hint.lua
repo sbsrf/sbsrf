@@ -111,8 +111,8 @@ function this.func(translation, env)
 			end
 		end
 		rime.yield(candidate)
-		-- 字词型方案 s 和 ss 加; 或 ' 的自定义字词
-		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;']") then
+		-- 字词型方案 s 和 ss 加数字或 ; 或 ' 的自定义字词
+		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;'0-9]") then
 			local forward
 			for j = 1, #hint_b do
 				memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
