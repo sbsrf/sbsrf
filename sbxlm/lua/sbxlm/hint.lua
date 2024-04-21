@@ -77,8 +77,8 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		-- 飞系、简码或双拼方案 ss 格式输入需要提示 ss' 格式的二字词
-		if (core.feixi(id) or core.sp(id) or core.jm(id)) and (core.s(input) or core.ss(input)) then
+		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
+		if core.zici(id) and (core.s(input) or core.ss(input)) then
 			if core.jm(id) and not (is_enhanced and not is_hidden) then
 				; -- 简码只在增强非隐藏模式下提示
 			elseif core.feixi(id) and is_hidden then
@@ -111,6 +111,18 @@ function this.func(translation, env)
 			end
 		end
 		rime.yield(candidate)
+		-- 字词型方案 s 和 ss 加; 或 ' 的自定义字词
+		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;']") then
+			local forward
+			for j = 1, #hint_b do
+				memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
+				for entry in memory:iter_dict() do
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+					rime.yield(forward)
+				end
+			end
+		end
+
 		-- 飞系方案和声笔简码在 s, sb, ss, sxb 格式的编码上提示 23789 和 14560 两组数选字词
 		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do

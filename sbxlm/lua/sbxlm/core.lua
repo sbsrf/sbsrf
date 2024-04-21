@@ -101,6 +101,12 @@ function core.sp(id)
   return id == "sbzr" or id == "sbxh"
 end
 
+---@param id string
+function core.zici(id)
+  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == "sbjm" or id == "sbzr" or id == "sbxh"
+end
+
+
 ---判断一个 sb 格式的编码在小鹤、自然双拼方案中是否为无效拼音
 ---如果是，那么这个编码就是声笔字，需要提示
 ---@param sb string
