@@ -28,6 +28,11 @@ function core.ss(input)
 end
 
 ---@param input string
+function core.sx(input)
+  return match(input, s .. x)
+end
+
+---@param input string
 function core.sb(input)
   return match(input, s .. b)
 end

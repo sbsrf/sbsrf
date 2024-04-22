@@ -26,7 +26,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [fourth_pop, third_pop, fast_char]
-    reset: 0
+    reset: 1
     states: [四顶, 三顶, 快单]
   - name: is_enhanced
     reset: 0
@@ -127,7 +127,8 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9']?"
+    - "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][0-9;'][aeuio]*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{1,2}'"
