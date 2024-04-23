@@ -1131,7 +1131,7 @@ qou	权益
 qpe	汽配
 qpu	亲朋
 qta	前台
-qva	邱隘
+qva	曲阿
 qve	其二
 qvi	去啊
 qvo	全额
@@ -1413,7 +1413,7 @@ wno	污泥
 wnu	为你
 wpa	顽皮
 wpe	我拍
-wpi	物品
+wpi	外频
 wpo	我怕
 wpu	文凭
 wqa	委屈

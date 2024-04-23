@@ -41,7 +41,7 @@ local function static(input, env)
     return true
   end
   -- 对双拼特殊判断
-  if env.fast_change and core.sxb(input) then
+  if env.fast_change and core.sxb(input) and core.sp(env.engine.schema.schema_id) then
     return false
   end
   for _, pattern in ipairs(env.static_patterns) do

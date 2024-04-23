@@ -80,6 +80,7 @@ encoder:
 爱得	vd7
 爱抚	vf4
 爱国	vg8
+爱国	vgi'
 爱过	vg3
 爱好	vh2
 爱恨	vh0
@@ -138,7 +139,6 @@ encoder:
 安心	vx4
 安逸	vy7
 安置	vz6
-安置	vzi'
 安装	vz5
 侒	vro'
 桉	vmo'
@@ -172,6 +172,7 @@ encoder:
 按时	vs6
 按下	vx3
 按照	vz8
+按照	vzi'
 洝	vdo'
 案	v9
 案	vm'
@@ -211,12 +212,10 @@ encoder:
 昂	v5
 昂	vqu'
 昂贵	vg4
-昂贵	vgi'
 昂首	vs
 盎	vmi'
 盎司	vs2
 凹凸	vt5
-凹陷	vxa'
 坳	vta'
 柪	vma'
 敖	ve4
@@ -318,7 +317,6 @@ encoder:
 办案	bv1
 办法	bf
 办公	bg0
-办好	bha'
 办理	bl1
 办事	bs3
 半	b4
@@ -614,6 +612,7 @@ encoder:
 不管	bg7
 不过	bg
 不好	bh2
+不好	bha'
 不回	bh1
 不会	bh5
 不及	bj6
@@ -1665,7 +1664,6 @@ encoder:
 二班	vb1
 二层	vc2
 二次	vc9
-二队	vda'
 二房	vf1
 二分	vf7
 二哥	vg5
@@ -1693,6 +1691,7 @@ encoder:
 二维	vw1
 二位	vw5
 二线	vx2
+二线	vxa'
 贰	vbe'
 发	f
 发表	fb3
@@ -3431,7 +3430,6 @@ encoder:
 开拍	kp3
 开盘	kp4
 开启	kq9
-开刃	kra'
 开设	ks4
 开始	ks
 开通	kt2
@@ -3725,6 +3723,7 @@ encoder:
 快跑	kp1
 快去	kq3
 快如	kr2
+快如	kra'
 快速	ks3
 快讯	kx0
 快要	ky4
@@ -4693,8 +4692,8 @@ encoder:
 内屏	np6
 内容	nr9
 内外	nw4
-内网	nwi'
 内心	nx9
+内心	nxo'
 内衣	ny1
 内置	nz8
 那	na
@@ -4716,6 +4715,7 @@ encoder:
 那你	nn7
 那年	nn0
 那片	np7
+那片	npu'
 那群	nq2
 那人	nr4
 那日	nr1
@@ -4723,9 +4723,11 @@ encoder:
 那是	ns5
 那双	ns2
 那天	nt3
+那天	nte'
 那条	nt7
 那头	nt5
 那晚	nw8
+那晚	nwi'
 那位	nw
 那我	nw7
 那些	nx
@@ -4843,6 +4845,7 @@ encoder:
 能否	nf
 能给	ng2
 能够	ng7
+能够	ngu'
 能看	nk4
 能力	nl4
 能量	nl0
@@ -4865,7 +4868,6 @@ encoder:
 泥	no5
 泥巴	nb2
 泥土	nt4
-泥土	nte'
 倪	nru'
 倪	nu4
 屔	npi'
@@ -4966,7 +4968,6 @@ encoder:
 涅	ndi'
 涅	no1
 涅盘	np4
-涅盘	npu'
 聂	ne2
 聂	nva'
 敜	nwu'
@@ -5065,7 +5066,6 @@ encoder:
 女王	nw3
 女星	nx1
 女性	nx4
-女性	nxo'
 女友	ny6
 女子	nz
 恧	nxe'
@@ -5971,13 +5971,13 @@ encoder:
 壌	rto'
 嚷	ri2
 嚷	rko'
-嚷嚷	rri'
 壤	re1
 壤	rt'
 攘	rfo'
 让	ro
 让步	rb8
 让她	rt2
+让她	rta'
 让开	rk5
 让你	rn7
 让您	rn4
@@ -6101,6 +6101,7 @@ encoder:
 认认	rr9
 认识	rs
 认同	rt8
+认同	rti'
 认为	rw
 认真	rz3
 认证	rz9
@@ -6114,7 +6115,6 @@ encoder:
 任课	rk6
 任命	rm5
 任凭	rp4
-任凭	rpu'
 任务	rw7
 任务	rwu'
 任意	ry4
@@ -6163,11 +6163,12 @@ encoder:
 日起	rq6
 日前	rq9
 日日	rr8
+日日	rri'
 日文	rw0
 日益	ry9
 日用	ry7
+日用	ryu'
 日语	ry0
-日月	ryu'
 日照	rz8
 日照	rzi'
 日志	rz4
@@ -6207,7 +6208,6 @@ encoder:
 融	re9
 融合	rh6
 融入	rr5
-融通	rta'
 融资	rz5
 髶	rbe'
 冗	rgu'
@@ -6252,7 +6252,6 @@ encoder:
 如若	rr3
 如同	rt
 如图	rt6
-如图	rti'
 如下	rx3
 如意	ry5
 如有	ry3
@@ -6313,6 +6312,7 @@ encoder:
 软管	rg1
 软件	rj4
 软盘	rp7
+软盘	rpu'
 软皮	rp1
 软弱	rr6
 软体	rt5
@@ -7207,7 +7207,6 @@ encoder:
 外频	wp8
 外屏	wp0
 外婆	wp5
-外婆	wpo'
 外人	wr4
 外套	wt1
 外头	wt9
@@ -7285,7 +7284,6 @@ encoder:
 网球	wq6
 网上	ws8
 网通	wt4
-网游	wyo'
 往	wc'
 往	wu7
 往返	wf0
@@ -7560,6 +7558,7 @@ encoder:
 无形	wx6
 无疑	wy7
 无意	wy9
+无意	wyo'
 毋	wa1
 毋	wma'
 吴	wi3
