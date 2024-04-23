@@ -5806,7 +5806,6 @@ encoder:
 穹	qxa'
 琼	qwo'
 丘	qpi'
-邱隘	qv2
 秋	qho'
 秋	qu4
 囚	qi6
@@ -5835,6 +5834,7 @@ encoder:
 区域	qy3
 曲	qi3
 曲	qqi'
+曲阿	qv2
 曲目	qm8
 驱	qa8
 驱动	qd1
@@ -6045,7 +6045,6 @@ encoder:
 人间	rj9
 人均	rj3
 人看	rk7
-人孔	rk2
 人口	rk
 人来	rl5
 人类	rl
@@ -6288,6 +6287,7 @@ encoder:
 入党	rd1
 入耳	rv3
 入股	rg7
+入孔	rk2
 入口	rk8
 入库	rk9
 入门	rm4
@@ -6383,7 +6383,6 @@ encoder:
 霎	svo'
 山	si2
 山	ss'
-山隘	sv2
 珊	swu'
 闪	smu'
 闪	so8
@@ -6739,6 +6738,7 @@ encoder:
 苏	sca'
 夙	sje'
 素	sxe'
+素娥	sv2
 素质	sz6
 速	sle'
 速度	sd9
@@ -9913,7 +9913,7 @@ encoder:
 衔	xcue'	10130
 娅	ynei'	10109
 眩	xmoe'	10086
-彬	bmei'	10034
+彬	bpei'	2071
 捡	jfuo'	10025
 膊	bvei'	10020
 蹙	czeu'	10005
