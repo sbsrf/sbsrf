@@ -121,6 +121,7 @@ speller:
 translator:
   dictionary: sbfm
   forced_selection: true
+  single_selection: false
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

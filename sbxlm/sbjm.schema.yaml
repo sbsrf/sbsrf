@@ -121,6 +121,7 @@ translator:
   dictionary: sbjm
   enable_filtering: false
   forced_selection: true
+  single_selection: false
   lower_case: true
   enable_encoder: true
   stop_change: false

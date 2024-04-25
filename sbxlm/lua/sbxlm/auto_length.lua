@@ -220,6 +220,8 @@ local dtypes = {
   select = 2,
   --- 该编码是扩展编码的全码
   full = 3,
+  --- 类似于声笔拼音，简单前缀匹配即可
+  unified = 4,
 }
 
 ---判断输入的编码是否为动态编码
@@ -228,6 +230,9 @@ local dtypes = {
 ---@param env AutoLengthEnv
 ---@return DynamicCodeType
 local function dynamic(input, env)
+  if env.single_selection then
+    return dtypes.unified
+  end
   local id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
@@ -317,6 +322,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if completion:sub(1, to_match:len()) == to_match then
     goto valid
   elseif alt_completion:sub(1, to_match:len()) == to_match then
+    completion = alt_completion
     goto valid
   else
     return nil
@@ -325,13 +331,17 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 创建一个新的候选，并且把 preedit 设置成输入的内容
   local phrase = rime.Phrase(env.dynamic_memory, type, segment.start, segment._end, entry)
   phrase.preedit = input
-  -- 如果这个候选来自用户词典，根据不同的情况加上不同的标记
-  if entry.custom_code:find(kEncodedPrefix) then
-    phrase.comment = kUnitySymbol
-  elseif entry.custom_code:len() > 0 and entry.custom_code:len() < 6 then
-    phrase.comment = kTopSymbol
+  -- 单次选择模式下，显示编码补全内容；否则清空
+  if env.single_selection then
+    phrase.comment = completion:sub(input:len() - 2)
   else
     phrase.comment = ""
+  end
+  -- 如果这个候选来自用户词典，根据不同的情况加上不同的标记
+  if entry.custom_code:find(kEncodedPrefix) then
+    phrase.comment = phrase.comment .. kUnitySymbol
+  elseif entry.custom_code:len() > 0 and entry.custom_code:len() < 6 then
+    phrase.comment = phrase.comment .. kTopSymbol
   end
   return phrase
 end
@@ -495,6 +505,23 @@ function this.func(input, segment, env)
         goto continue
       end
       yield(cand)
+      ::continue::
+    end
+  elseif dynamic(input, env) == dtypes.unified then
+    local count = 1
+    for _, phrase in ipairs(phrases) do
+      local cand = phrase:toCandidate()
+      if (env.known_candidates[cand.text] or inf) < input:len() then
+        goto continue
+      end
+      if count == 1 then
+        env.known_candidates[cand.text] = input:len()
+        cand.comment = ""
+      elseif cand.comment ~= "" then
+        cand.type = "completion"
+      end
+      yield(cand)
+      count = count + 1
       ::continue::
     end
   end
