@@ -58,7 +58,7 @@ function this.func(key_event, env)
 
   -- 首字母后的 Tab 键切换到临时英文，Shift+Tab 键切换到缓冲模式
   local segment = env.engine.context.composition:back()
-  if (not ascii_mode and segment and segment:has_tag("abc") and input:len() == 1 and key_event.keycode == XK_Tab and not key_event:release()) then
+  if (not ascii_mode and segment and not segment:has_tag("punct") and input:len() == 1 and key_event.keycode == XK_Tab and not key_event:release()) then
     if key_event:shift() then
       if not context:get_option("is_buffered") then
         context:set_option("is_buffered", true)

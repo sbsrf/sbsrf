@@ -97,9 +97,13 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: "is_enhanced"
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[0-9]"
       prefix: 2
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[0-9]"
+      prefix: 1
     # 大写字母输入多字词
     - when: third_pop
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
