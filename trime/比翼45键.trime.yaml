@@ -120,8 +120,8 @@ style:
     margin_y: 3 #竖直边距解
     margin_bottom: 0 #3.2.6底部边距 （用于适配特定背景图）
     real_margin: 0 #3.2.6屏幕左右边缘和悬浮窗之间的距离
-    line_spacing: 0 #候选词的行间距(px)
-    line_spacing_multiplier: 0.8 #候选词的行间距(倍数)    
+    line_spacing: 5 #候选词的行间距(px)
+    line_spacing_multiplier: 1 #候选词的行间距(倍数)    
     spacing: -50 #悬浮窗偏移量
     round_corner: 8 #候选窗口圆角
     alpha: 192 #透明度(0-255)
@@ -140,14 +140,14 @@ style:
   window: #悬浮窗口组件•✦▪•
     - {start: "✍ ", composition: "%s", letter_spacing: 0, end: ""} #letter_spacing需要Android5.0。TODO: 不为0时，会导致不换行的问题
     #- {start: "", move: '　　', end: "\n"}
-    - {start: "\n", label: "%s", candidate: "%s", comment: " %s", end: "", sep: "　"}  #label: "%s.", 序号;start: "\n", 换行
+    - {start: " ", label: "%s", candidate: "%s", comment: " %s", end: "", sep: "　"}  #label: "%s.", 序号;start: "\n", 换行
 #    - {start: "", click: "Page_Down", label: ''}
     #- {start: "　", click: "Page_Up", label: " ‹ "}
     #- {start: "", click: "Page_Down", label: ' › '}
   key_font: ziti.ttf #键盘字型
   key_height: *FJG #符号键盘键高
   key_long_text_size: 15 #两字以上时键字号
-  key_text_size: 21 #键字号
+  key_text_size: 19 #键字号
   key_width: 10.0 #键宽，占银幕宽的百分比
   keyboards: [.default, default, defaultVJ, qtbz, sbxlzj, sbfmzj, sbzrzj, sbxhzj, letter, number, edit, menu, symbols, symbolsSZ, symbolsEN, symbolsCN, emoji, emoji2, symbolsTS, symbolsTS2, symbolsXH, symbolsXH2, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z, qzjt] #键盘配置
   label_text_size: 14 #悬浮窗序号字号
@@ -167,7 +167,7 @@ style:
   symbol_font: ziti.ttf #符号字型
   symbol_text_size: 10 #符号字号
   text_font: ziti.ttf #编码字型
-  text_size: 15 #编码字号
+  text_size: 16 #编码字号
   vertical_correction: -3 #按键纵向偏移，负数下移接触面
   vertical_gap: *FJH #符号键盘行距
   long_text_font: ziti.ttf #3.2.3剪贴板等可能包含大段文本使用的字体
