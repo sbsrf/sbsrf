@@ -94,7 +94,7 @@ style:
   color_scheme: default #配色方案
   comment_font: ziti.ttf #候选窗和状态栏提示字型
   comment_height: 12 #候选窗和状态栏提示区高度
-  comment_on_top: false #候选窗和状态栏提示在上方true或右侧false
+  comment_on_top: true #候选窗和状态栏提示在上方true或右侧false
   comment_text_size: 12 #候选窗和状态栏提示字号
   hanb_font: Ext.ttf #扩充字型就
   horizontal: true #水平模式
@@ -104,15 +104,15 @@ style:
   keyboard_padding_land: *HZYK #3.2.6横屏模式下，屏幕左右两侧与键盘的距离（避免横屏按键过度拉伸变形）
   keyboard_padding_land_bottom: *HXMK #3.2.6横屏模式下，屏幕下侧与键盘的距离
   layout: #悬浮窗口位置
-    position: bottom_left #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
-    min_length: 7 #候选窗口最小词长
+    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要Android5.0以上)
+    min_length: 0 #候选窗口最小词长
     max_length: 80 #超过字数则换行
     min_check: 3 #3.2.6只要前n个候选词有长度大于等于min_length的词，就会把长度符合以及之前的词全部加到悬浮窗内。
-    sticky_lines: 1 #固顶行数
-    max_entries: 1   #候选窗口最大词条数
+    sticky_lines: 0 #固顶行数
+    max_entries: 11   #候选窗口最大词条数
     all_phrases: false #所有满足条件的词语都显示在窗口
     border: 1 #候选窗口边框宽度
-    max_width: 392 #最大宽度，超过则自动换行
+    max_width: 360 #最大宽度，超过则自动换行
     max_height: 10 #最大高度
     min_width: 30 #最小宽度
     min_height: 0 #最小高度
@@ -122,12 +122,12 @@ style:
     real_margin: 0 #3.2.6屏幕左右边缘和悬浮窗之间的距离
     line_spacing: 0 #候选词的行间距(px)
     line_spacing_multiplier: 0.8 #候选词的行间距(倍数)    
-    spacing: 0 #悬浮窗偏移量
+    spacing: -50 #悬浮窗偏移量
     round_corner: 8 #候选窗口圆角
     alpha: 192 #透明度(0-255)
     elevation: 0 #阴影(>=Android5.0)
     background: candidate_text_color #颜色色或者backgrounds目录下的图片文件名，此项无效时后面配色的text_back_color则生效
-    movable: true #是否可移动窗口，或仅移动一次 true|false|once
+    movable: false #是否可移动窗口，或仅移动一次 true|false|once
   enter_labels:  # 定义Enter键的文本
     go: 前往
     done: 完成
@@ -138,7 +138,7 @@ style:
     default: ⏎ #Enter   # 定义默认Enter键的文本
     
   window: #悬浮窗口组件•✦▪•
-    - {start: "†", composition: "%s", letter_spacing: 0, end: ""} #letter_spacing需要Android5.0。TODO: 不为0时，会导致不换行的问题
+    - {start: "✍ ", composition: "%s", letter_spacing: 0, end: ""} #letter_spacing需要Android5.0。TODO: 不为0时，会导致不换行的问题
     #- {start: "", move: '　　', end: "\n"}
     - {start: "\n", label: "%s", candidate: "%s", comment: " %s", end: "", sep: "　"}  #label: "%s.", 序号;start: "\n", 换行
 #    - {start: "", click: "Page_Down", label: ''}
