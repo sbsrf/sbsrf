@@ -1368,7 +1368,7 @@ preset_keyboards:
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_back_color: ZZZ}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_back_color: XXX}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_back_color: CCC}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: V, key_back_color: VVV, key_text_color: *蓝}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, hint: "帮助", key_back_color: VVV, key_text_color: *蓝}
       - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_back_color: BBB}
       - {click: n, long_click: Candidate_switch, swipe_up: N, swipe_down: N, key_back_color: NNN}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_back_color: MMM}
@@ -1393,11 +1393,15 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj
-  sbjp: #声笔简拼
+  sbjz: #声笔简整
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj
   sbpy: #声笔拼音
+    __include: /preset_keyboards/default
+    __patch:
+        "keys/@36//long_click": K_sbxlzj
+  sbsp: #声笔三拼
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj
@@ -2062,17 +2066,18 @@ preset_keyboards:
     key_text_offset_y: *DtextY
     keys:
       - {height: *QDHG, width: 100}
-      - {click: "t_bz1", width: 80}
-      - {click: "t_fhvjj", key_text_color: *橙, width: 20}
+      - {click: "t_bz1", width: 70}
+      - {click: "t_fhvjj", key_text_color: *橙, width: 30}
       - {click: "t_bz2", width: 70}
-      - {click: "t_bz22", key_text_color: *橙, width: 30}
-      - {click: "t_bz3"}
-      - {click: "t_bz4", width: 65}
-      - {click: "t_bz41", key_text_color: hcb, width: 35}
-      - {click: "t_bz5", width: 65}
-      - {click: "t_bz51", key_text_color: hcb, width: 35}
+      - {click: "SBWZ-GW", key_text_color: hct, key_back_color: hcb, width: 30}
+      - {click: "t_bz3", width: 70}
+      - {click: "SBWZ-JX", key_text_color: hct, key_back_color: hcb, width: 30}
+      - {click: "t_bz4", width: 70}
+      - {click: "SBWZ-FX", key_text_color: hct, key_back_color: hcb, width: 30}
+      - {click: "t_bz5", width: 70}
+      - {click: "SBWZ-PY", key_text_color: hct, key_back_color: hcb, width: 30}
       - {click: "t_bz6", width: 70}
-      - {click: "XHQQQ", key_text_color: hct, key_back_color: hcb, width: 30}
+      - {click: "SBWZ-SP", key_text_color: hct, key_back_color: hcb, width: 30}
     name: "帮助。"
     width: 100
 
@@ -3501,15 +3506,12 @@ preset_keys:
   d_h8: {label: Tab, functional: false, text: "	"}
 
   #帮助——
-  t_bz1: {label: "  ❶ 左划K键 开启临时数字  «同文的划比较随缘»", functional: false}
-  t_bz2: {label: "  建议方案 状态栏右侧添加 临时数字键:", functional: false}
-  t_bz22: {label: "_keyboard_qtlssz", functional: false, commit: "_keyboard_qtlssz"}
-  t_bz3: {label: "❷ 布局 G键长按：  编辑 改成 💠超级编辑， q_bj → q_bj1", functional: false}
-  t_bz4: {label: "❸ 仿 凉秋主题: 布局末行 删除注释 #", functional: false}
-  t_bz41: {label: "注意 布局提示", functional: false}
-  t_bz5: {label: "❹ 未添加任何方案的助记（备用）   ", functional: false}
-  t_bz51: {label: "不适配 无障碍", functional: false}
-  t_bz6: {label: "折腾同文的闲聊群: 966868329", functional: false}
+  t_bz1: {label: "  声笔系列码", functional: false}
+  t_bz2: {label: "https://sbxlm.gitee.io/", functional: false}
+  t_bz3: {label: "https://sbxlm.gitee.io/sbj/", functional: false}
+  t_bz4: {label: "https://sbxlm.gitee.io/sbf/", functional: false}
+  t_bz5: {label: "https://sbxlm.gitee.io/sbpy/", functional: false}
+  t_bz6: {label: "https://sbxlm.gitee.io/sbs/", functional: false}
 
   redo: {label: ↷, functional: false, send: Control+y} #下一步
   undo: {label: 撤销, functional: false, send: Control+z} #撤销
@@ -3686,6 +3688,16 @@ preset_keys:
   Youxiang: {text: "{K_letter}{Mode_switch}okay{K_default}", label: "@"} #邮箱
 
   M2T: {label: mt, functional: false, send: function, command: run, option: "bin.mt.plus"} #MT2app包名
-  XHQQQ: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=966868329"} #直接开启 仙鹤群
+
+  SBWZ-GW: {label: 声笔官网, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/"}
+  SBWZ-JX: {label: 声笔简系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbj/"}
+  SBWZ-FX: {label: 声笔飞系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbf/"}
+  SBWZ-PY: {label: 声笔拼音, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbpy/"}
+  SBWZ-SP: {label: 声笔双拼, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbs/"}
+
+  XHQQQ1: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=445906697"} #直接开启 声笔①群
+  XHQQQ2: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=780510469"} #直接开启 声笔②群
+  XHQQQ3: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=783734487"} #直接开启 声笔③群
+  XHQQQ4: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=728093309"} #直接开启 声笔④群
   #底部 尾部 末尾 尾端 末端 
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
