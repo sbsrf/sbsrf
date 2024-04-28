@@ -53,10 +53,10 @@ height:
   
 # ----------上下档符号位置调整----------
 
-  Ⅰ: &DsymY 2.6   #上档文字纵向位置调节
+  Ⅰ: &DsymY 2   #上档文字纵向位置调节
   Ⅱ: &DsymX 0   #上档文字横向位置调节
   Ⅲ: &DtextY 0.1   #键盘字母纵向位置调节
-  Ⅳ: &DhintY -3 #键盘下档纵向
+  Ⅳ: &DhintY -2 #键盘下档纵向
   Ⅴ: &FHsymY 1   #符号键盘
   Ⅵ: &MtextY -6   #选单键盘
   Ⅶ: &MhintY -6
@@ -226,6 +226,7 @@ fallback_colors:
   789B: bdb #比翼上排数字背景
   789H: bdh #        高亮背景
   789T: off_key_text_color #数字色
+  789T2: comment_text_color
   AAS: key_symbol_color #主键盘上档文字
   AALS: key_symbol_color #letter键上档文字
   VJS: AAS #小鹤高飞助记键盘上档
@@ -234,11 +235,16 @@ fallback_colors:
   AAT: key_text_color #主键盘字母色
   AALT: key_text_color #letter键文字
   AAT1: AAT
+  AAT12: AAT1
   AAT2: AAT
+  AAT22: AAT2
+  AAT23: AAT2
   AAT3: AAT
   AAT4: AAT
   AAT5: AAT
+  AAT52: AAT
   AAT6: AAT
+  AAT62: AAT6
   A_Q: A_ #主键盘字母背景
   B_: A_
   C_: A_
@@ -329,6 +335,7 @@ fallback_colors:
 #颜色
 colors:
   1: &橙 0xff7200
+  2: &蓝 0xFF00BDD5
 
 preset_color_schemes:
   xihno:
@@ -367,6 +374,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   guge:
     author: flypy.com
     name: "谷歌"
@@ -420,6 +433,11 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
   gugecai:
     author: flypy.com
     name: "谷歌彩"
@@ -499,6 +517,11 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
   jmqm:
     author: slj
     name: "浅浅"
@@ -555,6 +578,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   jmuf:
     author: slj
     name: "深深"
@@ -686,6 +715,11 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
 
   iucd:
     author: 青铜
@@ -748,6 +782,11 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
   default:
     author: 朦胧
     name: "朦胧"
@@ -812,6 +851,11 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xFF56A2FA
     hilited_comment_text_color: 0xfff97f70
     hilited_text_color: 0xFFCD0E1E #高亮编码
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
   niwu:
     author: slj
     name: "拟物"
@@ -919,6 +963,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   jmnr:
     author: flypy.com
     name: "渐暖"
@@ -965,6 +1015,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: 0xFF1493
+    AAT22: 0xFF1493
+    AAT52: 0xFF1493
+    AAT62: 0xFF1493
+    AAT23: 0x00FA9A
+
   wuke:
     author: flypy.com
     name: "无刻"
@@ -1004,6 +1060,17 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    789T: 0x00
+    789T2: 0x00
+    hst: 0x00
+    szt: 0x00
+    bdt: 0x00
+    ykgt: 0x00
+    kgt: 0x00
+    hct: 0x00
+    bds: 0x00
+    kgs: 0x00
+    hcs: 0x00
   ios:
     name: "iOS"
     author: from IOS
@@ -1048,6 +1115,11 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
   ZJ:
     name: "助记"
     author: from IOS
@@ -1162,6 +1234,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   xkks:
     author: 聽雨客
     name: "星空"
@@ -1218,6 +1296,13 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    789T2: 0xFF00BDD5
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: 0x3AA73E
+
   xkhj:
     author: flypy.com
     name: "星汉"
@@ -1279,6 +1364,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   qkxb:
     author: 搜狗·一键倾心
     name: "倾心"
@@ -1327,6 +1418,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    AAT12: 0xFFD700
+    AAT22: 0xFFD700
+    AAT52: 0xFFD700
+    AAT62: 0xFFD700
+    AAT23: 0x00FA9A
+
   qkxb2:
     author: 搜狗·抹茶
     name: "琉璃"
@@ -1376,6 +1473,13 @@ preset_color_schemes:
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示    
     #Eback: 0xFF8EAA3B
+    789T2: 0x00BFFF
+    AAT12: 0xFF1493
+    AAT22: 0xFF1493
+    AAT52: 0xFF1493
+    AAT62: 0xFF1493
+    AAT23: 0x00A1D6
+
   xrcd:
     author: from sougou
     name: "炫彩"
@@ -1422,6 +1526,12 @@ preset_color_schemes:
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
     hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: *橙
+    AAT22: *橙
+    AAT52: *橙
+    AAT62: *橙
+    AAT23: *蓝
+
   nihs:
     author: flypy.com
     name: "霓虹"
@@ -1490,29 +1600,29 @@ preset_keyboards:
     keys:
       # 第一行
       - {height: *VJG1, click: 1, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_gthc", long_click: "!", swipe_down: "壹", key_symbol_color: szs}
-      - {click: "2", key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_at", long_click: "@", swipe_down: "贰", key_symbol_color: szs}
-      - {click: 3, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_jkhc", long_click: "#", swipe_down: "叁", key_symbol_color: szs}
+      - {click: "2", key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_at", long_click: "@", swipe_down: "贰", key_symbol_color: szs}
+      - {click: 3, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_jkhc", long_click: "#", swipe_down: "叁", key_symbol_color: szs}
       - {click: 4, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_mwyr", long_click: "$", swipe_down: "肆", key_symbol_color: szs}
       - {click: 5, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_bfhc", long_click: "%", swipe_down: "伍", key_symbol_color: szs}
       - {click: 6, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_crhc", long_click: "^", swipe_down: "陆", key_symbol_color: szs}
-      - {click: 7, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_hehc", long_click: "&", swipe_down: "柒", key_symbol_color: szs}
-      - {click: 8, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_xkhc", long_click: "*", swipe_down: "捌", key_symbol_color: szs}
-      - {click: 9, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_xkhz", long_click: "(", swipe_down: "玖", key_symbol_color: szs}
+      - {click: 7, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_hehc", long_click: "&", swipe_down: "柒", key_symbol_color: szs}
+      - {click: 8, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_xkhc", long_click: "*", swipe_down: "捌", key_symbol_color: szs}
+      - {click: 9, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_xkhz", long_click: "(", swipe_down: "玖", key_symbol_color: szs}
       - {click: 0, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_xkhy", long_click: ")", swipe_down: "零", key_symbol_color: szs}
 #      
       - {click: q, long_click: '`', swipe_up: Q, swipe_down: Q, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Q, hilited_key_back_color: AAH}
       - {click: w, long_click: '~', swipe_up: W, swipe_down: W, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_W, hilited_key_back_color: BBH}
-      - {click: e, long_click: '+', swipe_up: E, swipe_down: E, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
+      - {click: e, long_click: '+', swipe_up: E, swipe_down: E, key_text_color: AAT22, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
       - {click: r, long_click: '-', swipe_up: R, swipe_down: R, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_R, hilited_key_back_color: AAH}
       - {click: t, long_click: '=', swipe_up: T, swipe_down: T, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_T, hilited_key_back_color: BBH}
       - {click: y, long_click: '_', swipe_up: Y, swipe_down: Y, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_Y, hilited_key_back_color: CCH}
-      - {click: u, long_click: '{', swipe_up: U, swipe_down: U, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
-      - {click: i, long_click: '}', swipe_up: I, swipe_down: I, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_I, hilited_key_back_color: BBH}
-      - {click: o, long_click: '[', swipe_up: O, swipe_down: O, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
+      - {click: u, long_click: '{', swipe_up: U, swipe_down: U, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
+      - {click: i, long_click: '}', swipe_up: I, swipe_down: I, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_I, hilited_key_back_color: BBH}
+      - {click: o, long_click: '[', swipe_up: O, swipe_down: O, key_text_color: AAT62, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
       - {click: p, long_click: ']', swipe_up: P, swipe_down: P, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_P, hilited_key_back_color: AAH}
       # 第二行
       - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 0.1}
-      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
+      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: AAT12, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
       - {click: s, long_click: '|', swipe_up: S, swipe_down: S, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_S, hilited_key_back_color: BBH}
       - {click: d, long_click: '×', swipe_up: D, swipe_down: D, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
       - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_F, hilited_key_back_color: AAH}
@@ -1527,7 +1637,7 @@ preset_keyboards:
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, hint: "帮助", key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, , hint: "帮助", key_text_color: AAT23, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH}
       - {click: b, long_click: Liquid_switch, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH}
       - {click: n, long_click: K_defaultVJ, swipe_up: N, swipe_down: N, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_N, hilited_key_back_color: CCH}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
@@ -1552,32 +1662,12 @@ preset_keyboards:
   sbfm: #声笔飞码
     __include: /preset_keyboards/default
     __patch:
-#        "keys/@1//label": "フ₂"
-        "keys/@1//key_text_color": comment_text_color
-#        "keys/@2//label": "一₃"
-        "keys/@2//key_text_color": comment_text_color
-#        "keys/@6//label": "丿₇"
-        "keys/@6//key_text_color": comment_text_color
-#        "keys/@7//label": "丨₈"
-        "keys/@7//key_text_color": comment_text_color
-#        "keys/@8//label": "丶₉"
-        "keys/@8//key_text_color": comment_text_color 
         "keys/@37//long_click": K_sbfmzj
 #        "keys/@42//has_menu": backquote
 #        "keys/@44//has_menu": "|"  
   sbfx: #声笔飞讯
     __include: /preset_keyboards/default
     __patch:
-#        "keys/@1//label": "フ₂"
-        "keys/@1//key_text_color": comment_text_color
-#        "keys/@2//label": "一₃"
-        "keys/@2//key_text_color": comment_text_color
-#        "keys/@6//label": "丿₇"
-        "keys/@6//key_text_color": comment_text_color
-#        "keys/@7//label": "丨₈"
-        "keys/@7//key_text_color": comment_text_color
-#        "keys/@8//label": "丶₉"
-        "keys/@8//key_text_color": comment_text_color    
         "keys/@37//long_click": K_sbfmzj
 #        "keys/@42//has_menu": backquote
 #        "keys/@44//has_menu": "|"
