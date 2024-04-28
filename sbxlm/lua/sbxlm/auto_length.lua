@@ -16,24 +16,18 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field reverse ReverseLookup
 ---@field enable_filtering boolean
 ---@field forced_selection boolean
--- 单次选重
 ---@field single_selection boolean
+---@field single_display boolean
 ---@field lower_case boolean
--- 停止调频和造词
 ---@field stop_change boolean
 ---@field enable_encoder boolean
--- 废词清理阈值
 ---@field delete_threshold number
 ---@field max_phrase_length number
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
--- 声笔简码三顶模式
 ---@field third_pop boolean
--- 声笔简码快单模式
 ---@field fast_char boolean
--- 声笔双拼快调模式
 ---@field fast_change boolean
--- 缓冲输入模式
 ---@field is_buffered boolean
 
 ---判断输入的编码是否为静态编码
@@ -212,6 +206,7 @@ function this.init(env)
   ---@type { string: number }
   env.known_candidates = {}
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
+  env.single_display = env.engine.context:get_option("single_display") or false
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -240,10 +235,10 @@ local function dynamic(input, env)
   if env.single_selection then
     return dtypes.unified
   end
-  local id = env.engine.schema.schema_id
+  local schema_id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
-  if core.jm(id) or core.fm(id) or core.fd(id) or core.sp(id) then
+  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
   end
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
@@ -251,7 +246,7 @@ local function dynamic(input, env)
   -- 但是，如果以 sssS 格式输入多字词，那么基本编码的长度是 4，扩展编码是 6，在 5 码时选重
   -- 另外，如果开启快顶模式，则有一个 3 码时的码长调整位
   -- 以下综合考虑了这些情况
-  if core.fx(id) then
+  if core.fx(schema_id) then
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}.*") then
       return input:len() - 3
     end
@@ -282,7 +277,7 @@ local fx_exchange = {
 ---@param env AutoLengthEnv
 ---@return Phrase | nil
 local function validate_phrase(entry, segment, type, input, env)
-  local id = env.engine.schema.schema_id
+  local schema_id = env.engine.schema.schema_id
   -- 一开始，entry.comment 中放置了 "~xxx" 形式的编码补全内容
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
@@ -294,11 +289,11 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 处理一些特殊的过滤条件
   if env.enable_filtering then
     -- 1. 简码启用多字词过滤时，三码不显示多字词
-    if core.jm(id) and input:len() == 3 and utf8.len(entry.text) > 3 then
+    if core.jm(schema_id) and input:len() == 3 and utf8.len(entry.text) > 3 then
       return nil
     end
     -- 2. 飞讯启用多字词过滤时，四码不显示多字词
-    if core.fx(id) and input:len() > 4 and core.sxsb(input:sub(1, 4)) and utf8.len(entry.text) > 3 then
+    if core.fx(schema_id) and input:len() > 4 and core.sxsb(input:sub(1, 4)) and utf8.len(entry.text) > 3 then
       return nil
     end
   end
@@ -308,7 +303,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if rime.match(completion, "[aeiou]{3,4}[bpmfdtnlgkhjqxzcsrywv]") then
     alt_completion = completion:sub(-1, -1) .. completion:sub(-3, -2)
     -- 如果简码没启用 lower_case，就消除掉原来的编码，相当于禁用 sssbbb 这种打法
-    if core.jm(id) and (not env.lower_case or not env.third_pop) then
+    if core.jm(schema_id) and (not env.lower_case or not env.third_pop) then
       completion = ""
     end
   end
@@ -390,7 +385,8 @@ function this.func(input, segment, env)
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.fast_char = env.engine.context:get_option("fast_char") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
-  local id = env.engine.schema.schema_id
+  env.single_display = env.engine.context:get_option("single_display") or false
+  local schema_id = env.engine.schema.schema_id
 
   if env.engine.context:get_option("ascii_mode") then
     return
@@ -400,7 +396,7 @@ function this.func(input, segment, env)
     -- 清空候选缓存
     env.known_candidates = {}
     local is = input
-    if core.jm(id) and core.ssb(input) and env.fast_char then
+    if core.jm(schema_id) and core.ssb(input) and env.fast_char then
       is = input .. "'"
     end
     env.static_memory:dict_lookup(is, false, 0)
@@ -414,8 +410,8 @@ function this.func(input, segment, env)
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
     if (core.sxs(input) and not env.third_pop)
-        or (core.feixi(id) and core.sbsb(input))
-        or (core.fx(id) and core.sxsb(input)) then
+        or (core.feixi(schema_id) and core.sbsb(input))
+        or (core.fx(schema_id) and core.sxsb(input)) then
       translate_by_split(input, segment, env)
     end
     return
@@ -453,7 +449,7 @@ function this.func(input, segment, env)
     if phrase then table.insert(phrases, phrase) end
   end
   -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
-  if #phrases == 0 and core.sp(id) and core.sxb(input) then
+  if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
     env.static_memory:dict_lookup(input, false, 0)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
@@ -528,6 +524,14 @@ function this.func(input, segment, env)
         cand.type = "completion"
       end
       yield(cand)
+      if count == 1 and env.single_display then
+        if (input:len() < 7 and core.fx(schema_id)
+          and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+          break
+        elseif (input:len() < 6) then
+          break
+        end
+      end
       count = count + 1
       ::continue::
     end
