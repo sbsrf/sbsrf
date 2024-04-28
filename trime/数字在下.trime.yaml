@@ -1342,7 +1342,7 @@ preset_keyboards:
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_back_color: ZZZ}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_back_color: XXX}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_back_color: CCC}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: V, key_back_color: VVV, key_text_color: *蓝}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, hint: "帮助", key_back_color: VVV, key_text_color: *蓝}
       - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_back_color: BBB}
       - {click: n, long_click: Candidate_switch, swipe_up: N, swipe_down: N, key_back_color: NNN}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_back_color: MMM}

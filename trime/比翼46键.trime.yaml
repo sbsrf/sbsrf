@@ -3,7 +3,7 @@
 # 本主题适配同文3.1.3版，同时兼容同文3.2.6版
 
 config_version: "5.4for同文3.1.3，2022年6月6日"
-name: 比翼45键 #主题名称
+name: 比翼46键 #主题名称
 author: 散步的鹤 flypy.com #作者资讯   /强自解题二改
 
 height:
@@ -1511,17 +1511,17 @@ preset_keyboards:
       - {click: o, long_click: '[', swipe_up: O, swipe_down: O, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
       - {click: p, long_click: ']', swipe_up: P, swipe_down: P, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_P, hilited_key_back_color: AAH}
       # 第二行
-      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 0.1}
       - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
       - {click: s, long_click: '|', swipe_up: S, swipe_down: S, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_S, hilited_key_back_color: BBH}
       - {click: d, long_click: '×', swipe_up: D, swipe_down: D, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
       - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_F, hilited_key_back_color: AAH}
       - {click: g, long_click: '←', swipe_up: G, swipe_down: G, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_G, hilited_key_back_color: BBH}
       - {click: h, long_click: '→', swipe_up: H, swipe_down: H, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_H, hilited_key_back_color: CCH}
-      - {click: j, long_click: '<', swipe_up: J, swipe_down: J, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
-      - {click: k, long_click: '>', swipe_up: K, swipe_down: K, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_K, hilited_key_back_color: BBH}
+      - {click: j, long_click: undo, swipe_up: J, swipe_down: J, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
+      - {click: k, long_click: redo, swipe_up: K, swipe_down: K, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_K, hilited_key_back_color: BBH}
       - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
-      - {click: l, long_click: K_qzjt, swipe_up: L, swipe_down: L, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      - {click: ";", long_click: ":", key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH, width: 9.9}
       # 第三行
       - {click: Shift_L, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: hsb, hilited_key_back_color: hsh}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
@@ -1534,10 +1534,10 @@ preset_keyboards:
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, hilited_key_text_color: hsht, width: 15}
       # 第四行    
       - {click: K_symbols123, width: *SBK, paging: Page_Up, composing: Escape, swipe_up: "{Schema_switch}", long_click: K_menu, key_symbol_offset_x: 0, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
-      - {click: ".", label: " 。", long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, width: 12.5, key_text_size: 14, key_symbol_offset_x: 12, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs}
-      - {click: ",", label: " ，", long_click: "/", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨,  width: *FHK, key_text_size: 14, key_text_offset_y: -3, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: zzkgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: zzkgh}
+      - {click: "/", label: '/', long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, width: 12.5, key_symbol_offset_x: 12, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs, key_text_size: 14}
+      - {click: ",", label: " ，", long_click: "<", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨,  width: *FHK, key_text_size: 14, key_text_offset_y: -3, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: zzkgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: zzkgh}
       - {click: space, long_click: Candidate_switch, swipe_up: '{space}{Mode_switch}', swipe_down: '{Shift+space}', swipe_left: "Left", swipe_right: "Right", width: *KGK, key_text_size: 14, key_text_offset_x: 0, key_text_offset_y: 3, key_symbol_offset_x: 0, key_symbol_offset_y: 6, key_back_color: kgzb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgzh, hilited_key_text_color: kght, hilited_key_symbol_color: kghs}
-      - {click: ";", label: " ；", long_click: ":", swipe_up: Menu, swipe_down: Menu, hint: ✡, width: *FHK, key_text_size: 14, key_text_offset_y: -2, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: ykgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: ykgh}
+      - {click: ".", label: " 。", long_click: ">", swipe_up: Menu, swipe_down: Menu, hint: ✡, width: *FHK, key_text_size: 14, key_text_offset_y: -1, key_text_offset_x: 0, key_symbol_offset_y: 6, key_symbol_offset_x: 0, key_back_color: ykgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: ykgh}
       - {click: "'", long_click: '"', swipe_up: "Theme_settings", swipe_down: "Theme_settings", hint: ☸, key_symbol_offset_x: 12, width: 12.5, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs}
       - {click: Return, width: *HCK, key_symbol_offset_x: 20, swipe_up: '{Control+Return}', long_click: Color_settings, key_back_color: hcb, key_text_color: hct, key_symbol_color: hcs, hilited_key_back_color: hch, hilited_key_text_color: hcht, hilited_key_symbol_color: hchs}
       # 第五行ZGH
@@ -1549,97 +1549,6 @@ preset_keyboards:
     key_symbol_offset_x: 0
     name: "默认26键"
     width: 10
-  qzjt: #强自解题布局
-    __include: /preset_keyboards/default
-    __patch:
-#        "keys/@10//swipe_down": "`"
-        "keys/@11//swipe_down": symbol_blxm
-        "keys/@12//swipe_down": symbol_jkhz
-        "keys/@13//swipe_down": symbol_jkhy
-        "keys/@14//swipe_down": symbol_dkhz
-        "keys/@15//swipe_down": symbol_dkhy
-        "keys/@16//swipe_down": symbol_zkhz
-        "keys/@17//swipe_down": symbol_zkhy
-        "keys/@18//swipe_down": symbol_ljfu
-        "keys/@19//swipe_down": symbol_dh
-        "keys/@22//swipe_down": symbol_dzhc
-        "keys/@22//hint": "," 
-        "keys/@23//swipe_down": symbol_uuxm
-        "keys/@24//swipe_down": symbol_juhc
-        "keys/@24//hint": "."
-        "keys/@26//swipe_down": symbol_xhxm
-        "keys/@27//swipe_down": symbol_jh
-        "keys/@28//swipe_down": symbol_uyhc
-        "keys/@30//composing": symbol_dyhc
-        "keys/@32//swipe_down": symbol_kbsh
-        "keys/@38//swipe_down": symbol_mchc
-        "keys/@36//swipe_down": K_symbolsCN
-        "keys/@36//hint": "中符"
-#第一行            
-        "keys/@10//long_click": "`"       
-        "keys/@11//long_click": "~"
-        "keys/@12//long_click": "<"
-        "keys/@13//long_click": ">"
-        "keys/@14//long_click": "{"
-        "keys/@15//long_click": "}"
-        "keys/@16//long_click": "["
-        "keys/@17//long_click": "]"
-        "keys/@18//long_click": "-"
-        "keys/@19//long_click": "="
-      # 第二行
-        "keys/@20//long_click": K_defaultVJ
-        "keys/@20//composing": Escape
-        "keys/@21//long_click": select_all
-        "keys/@22//long_click": '\'
-        "keys/@23//long_click": "|"
-        "keys/@24//long_click": bd_pzh
-        "keys/@25//long_click": K_edit
-        "keys/@26//long_click": "_"
-        "keys/@27//long_click": "+"
-        "keys/@28//long_click": '"'
-        "keys/@29//long_click": ctrl_l
-        "keys/@30//long_click": K_default
-        "keys/@30//composing": "'"
-      # 第三行
-        "keys/@31//has_menu": apostrophe
-        "keys/@31//paging": Page_Up
-        "keys/@31//swipe_up": "{Schema_switch}"
-        "keys/@32//long_click": "/"
-        "keys/@33//long_click": cut
-        "keys/@34//long_click": copy
-        "keys/@35//long_click": paste
-        "keys/@36//long_click": undo
-        "keys/@37//long_click": redo
-        "keys/@38//long_click": ":"
-#        "keys/@39//swipe_up": Candidate_switch
-#        "keys/@39//swipe_up": DelH
-        "keys/@39//swipe_left": DelH
-      # 第四行    
-        "keys/@40//composing": Tab
-        "keys/@40//paging": Page_Down
-        "keys/@40//long_click": K_menu
-        "keys/@40//swipe_up": Menu
-        "keys/@41//click": ","
-        "keys/@41//label": " ，"
-        "keys/@41//composing": DZHC
-        "keys/@41//long_click": "!"
-        "keys/@42//click": "'"
-        "keys/@42//label": "’"
-        "keys/@42//long_click": Mode_switch        
-        "keys/@43//long_click": VOICE_ASSIST
-        "keys/@43//swipe_up": '{Shift+space}'
-        "keys/@43//swipe_down": K_default
-        "keys/@44//click": ";"
-        "keys/@44//long_click": Liquid_switch
-        "keys/@45//click": "."
-        "keys/@45//label": " 。"
-        "keys/@45//composing": JUHC
-        "keys/@45//long_click": "?"
-        "keys/@46//long_click": Color_settings
-        "keys/@46//swipe_down": Candidate_switch
-#        "keys/@46//swipe_up": Theme_settings
-        "keys/@42//has_menu": backquote
-        "keys/@44//has_menu": "|"              
   sbfm: #声笔飞码
     __include: /preset_keyboards/default
     __patch:

@@ -16,17 +16,24 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field reverse ReverseLookup
 ---@field enable_filtering boolean
 ---@field forced_selection boolean
+-- 单次选重
 ---@field single_selection boolean
 ---@field lower_case boolean
+-- 停止调频和造词
 ---@field stop_change boolean
 ---@field enable_encoder boolean
+-- 废词清理阈值
 ---@field delete_threshold number
 ---@field max_phrase_length number
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
+-- 声笔简码三顶模式
 ---@field third_pop boolean
+-- 声笔简码快单模式
 ---@field fast_char boolean
+-- 声笔双拼快调模式
 ---@field fast_change boolean
+-- 缓冲输入模式
 ---@field is_buffered boolean
 
 ---判断输入的编码是否为静态编码

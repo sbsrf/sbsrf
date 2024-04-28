@@ -1359,8 +1359,8 @@ preset_keyboards:
       - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_back_color: FFF}
       - {click: g, long_click: '←', swipe_up: G, swipe_down: G, key_back_color: GGG}
       - {click: h, long_click: '→', swipe_up: H, swipe_down: H, key_back_color: HHH}
-      - {click: j, long_click: '↓', swipe_up: J, swipe_down: J, key_back_color: JJJ}
-      - {click: k, long_click: '↑', swipe_up: K, swipe_down: K, key_back_color: KKK}
+      - {click: j, long_click: undo, swipe_up: J, swipe_down: J, key_back_color: JJJ}
+      - {click: k, long_click: redo, swipe_up: K, swipe_down: K, key_back_color: KKK}
       - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_back_color: LLL}
       - {click: ";", long_click: ":", key_back_color: LLL}
       # ❸
@@ -3513,8 +3513,8 @@ preset_keys:
   t_bz5: {label: "https://sbxlm.gitee.io/sbpy/", functional: false}
   t_bz6: {label: "https://sbxlm.gitee.io/sbs/", functional: false}
 
-  redo: {label: ↷, functional: false, send: Control+y} #下一步
-  undo: {label: 撤销, functional: false, send: Control+z} #撤销
+  redo: {label: ↷, functional: false, send: Control+y}
+  undo: {label: ↶, functional: false, send: Control+z}
   Home: {label: ⇤, send: Home, functional: false}
   End: {label: ⇥, send: End, functional: false} #行尾
   Tab1: {label: Tab, functional: false, preview: '↹', repeatable: false, text: '	'}

@@ -955,8 +955,8 @@ preset_keyboards:
       - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_back_color: FFF, width: *HK}
       - {click: g, long_click: '←', swipe_up: G, swipe_down: G, key_back_color: GGG, width: *HK}
       - {click: h, long_click: '→', swipe_up: H, swipe_down: H, key_back_color: HHH, width: *HK}
-      - {click: j, long_click: '↓', swipe_up: J, swipe_down: J, key_back_color: JJJ, width: *HK}
-      - {click: k, long_click: '↑', swipe_up: K, swipe_down: K, key_back_color: KKK, width: *HK}
+      - {click: j, long_click: undo, swipe_up: J, swipe_down: J, key_back_color: JJJ, width: *HK}
+      - {click: k, long_click: redo, swipe_up: K, swipe_down: K, key_back_color: KKK, width: *HK}
       - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_back_color: LLL, width: *HK}
       - {click: ";", long_click: ":", key_back_color: LLL, width: *HKY1}
       - {width: *HKY2}
@@ -965,7 +965,7 @@ preset_keyboards:
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_back_color: ZZZ}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_back_color: XXX}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_back_color: CCC}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: V, key_back_color: VVV, key_text_color: *蓝}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, hint: "帮助", key_back_color: VVV, key_text_color: *蓝}
       - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_back_color: BBB}
       - {click: n, long_click: Candidate_switch, swipe_up: N, swipe_down: N, key_back_color: NNN}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_back_color: MMM}
@@ -3112,8 +3112,8 @@ preset_keys:
   t_bz5: {label: "https://sbxlm.gitee.io/sbpy/", functional: false}
   t_bz6: {label: "https://sbxlm.gitee.io/sbs/", functional: false}
 
-  redo: {label: ↷, functional: false, send: Control+y} #下一步
-  undo: {label: 撤销, functional: false, send: Control+z} #撤销
+  redo: {label: ↷, functional: false, send: Control+y}
+  undo: {label: ↶, functional: false, send: Control+z}
   Home: {label: ⇤, send: Home, functional: false}
   End: {label: ⇥, send: End, functional: false} #行尾
   Tab1: {label: Tab, functional: false, preview: '↹', repeatable: false, text: '	'}
