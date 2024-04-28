@@ -68,6 +68,18 @@ function this.func(key_event, env)
       switch_inline(context, env)
     end
     return rime.process_results.kAccepted
+  -- 在码长为4时，设置临时重码提示
+  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() == 4 and key_event.keycode == XK_Tab and not key_event:release()) then
+      if context:get_option("single_display") and not context:get_option("not_single_display") then
+        context:set_option("not_single_display", true)
+        return rime.process_results.kAccepted
+      end
+      return rime.process_results.kNoop
+  end
+
+  -- 在码长为1时，取消临时重码提示
+  if input:len() == 1 and context:get_option("single_display") then
+    context:set_option("not_single_display", false)
   end
 
   if input:len() == 0 then
