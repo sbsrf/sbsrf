@@ -69,7 +69,7 @@ function this.func(key_event, env)
     end
     return rime.process_results.kAccepted
   -- 在码长为4以上时，设置临时重码提示
-  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and key_event.keycode == XK_Tab and not key_event:release()) then
+  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5 and key_event.keycode == XK_Tab and not key_event:release()) then
       if context:get_option("single_display") and not context:get_option("not_single_display") then
         context:set_option("not_single_display", true)
         return rime.process_results.kAccepted

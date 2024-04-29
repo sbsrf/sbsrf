@@ -49,6 +49,8 @@ function this.func(translation, env)
     if candidate.comment:len() > 0 then
       if schema_id == "sbpy" or schema_id == "sbjp" then
         candidate.comment = key .. candidate.comment
+      elseif (input:len() == 7 and core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+        candidate.comment = key
       else
         candidate.comment = candidate.comment .. ":" .. key
       end
