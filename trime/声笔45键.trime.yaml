@@ -1378,7 +1378,7 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@38//long_click": K_sbxlzj
-  sbjz: #声笔简整
+  sbjp: #声笔简整
     __include: /preset_keyboards/default
     __patch:
         "keys/@38//long_click": K_sbxlzj
