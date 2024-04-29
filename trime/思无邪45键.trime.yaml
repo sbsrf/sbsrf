@@ -3106,11 +3106,11 @@ preset_keys:
 
   #帮助——
   t_bz1: {label: "  声笔系列码", functional: false}
-  t_bz2: {label: "https://sbxlm.gitee.io/", functional: false}
-  t_bz3: {label: "https://sbxlm.gitee.io/sbj/", functional: false}
-  t_bz4: {label: "https://sbxlm.gitee.io/sbf/", functional: false}
-  t_bz5: {label: "https://sbxlm.gitee.io/sbpy/", functional: false}
-  t_bz6: {label: "https://sbxlm.gitee.io/sbs/", functional: false}
+  t_bz2: {label: "https://sbxlm.github.io/", functional: false}
+  t_bz3: {label: "https://sbxlm.github.io/sbj/", functional: false}
+  t_bz4: {label: "https://sbxlm.github.io/sbf/", functional: false}
+  t_bz5: {label: "https://sbxlm.github.io/sbpy/", functional: false}
+  t_bz6: {label: "https://sbxlm.github.io/sbs/", functional: false}
 
   redo: {label: ↷, functional: false, send: Control+y} #下一步
   undo: {label: 撤销, functional: false, send: Control+z} #撤销
@@ -3289,11 +3289,11 @@ preset_keys:
 
   M2T: {label: mt, functional: false, send: function, command: run, option: "bin.mt.plus"} #MT2app包名
 
-  SBWZ-GW: {label: 声笔官网, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/"}
-  SBWZ-JX: {label: 声笔简系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbj/"}
-  SBWZ-FX: {label: 声笔飞系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbf/"}
-  SBWZ-PY: {label: 声笔拼音, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbpy/"}
-  SBWZ-SP: {label: 声笔双拼, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbs/"}
+  SBWZ-GW: {label: 声笔官网, functional: false, send: function, command: run, option: "https://sbxlm.github.io/"}
+  SBWZ-JX: {label: 声笔简系, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbj/"}
+  SBWZ-FX: {label: 声笔飞系, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbf/"}
+  SBWZ-PY: {label: 声笔拼音, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbpy/"}
+  SBWZ-SP: {label: 声笔双拼, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbs/"}
 
   XHQQQ1: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=445906697"} #直接开启 声笔①群
   XHQQQ2: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=780510469"} #直接开启 声笔②群
