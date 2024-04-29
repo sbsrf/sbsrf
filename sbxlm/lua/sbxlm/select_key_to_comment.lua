@@ -35,10 +35,6 @@ function this.func(translation, env)
     if key == "_" then
       goto continue
     end
-    -- 如果是单次选重产生的补全选项，无需操作
-    if candidate.type == "completion" then
-      goto continue
-    end
     if candidate.comment:len() > 0 then
       if id == "sbpy" or id == "sbjp" then
         candidate.comment = key .. candidate.comment
