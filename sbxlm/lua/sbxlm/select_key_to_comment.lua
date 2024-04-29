@@ -4,6 +4,7 @@
 -- Author: 戴石麟
 
 local rime = require "sbxlm.lib"
+local core = require "sbxlm.core"
 
 local this = {}
 
@@ -24,7 +25,8 @@ end
 ---@param translation Translation
 ---@param env Env
 function this.func(translation, env)
-  local id = env.engine.schema.schema_id
+  local schema_id = env.engine.schema.schema_id
+  local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
   local i = 0
   for candidate in translation:iter() do
@@ -35,8 +37,17 @@ function this.func(translation, env)
     if key == "_" then
       goto continue
     end
+    -- 如果是单次选重非全码产生的补全选项，无需操作
+    if candidate.type == "completion" then
+      if (input:len() < 7 and core.fx(schema_id)
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+        goto continue
+      elseif (input:len() < 6) then
+        goto continue
+      end
+    end
     if candidate.comment:len() > 0 then
-      if id == "sbpy" or id == "sbjp" then
+      if schema_id == "sbpy" or schema_id == "sbjp" then
         candidate.comment = key .. candidate.comment
       else
         candidate.comment = candidate.comment .. ":" .. key
