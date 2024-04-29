@@ -374,6 +374,15 @@ local function translate_by_split(input, segment, env)
   yield(phrase:toCandidate())
 end
 
+local function is_unique(phrases, phrase)
+  for _, v in phrases do
+    if phrase.text == v.text then
+      return true
+    end
+  end
+  return false
+end
+
 ---@param input string
 ---@param segment Segment
 ---@param env AutoLengthEnv
@@ -448,7 +457,7 @@ function this.func(input, segment, env)
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
     if phrase then table.insert(phrases, phrase) end
   end
-  -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
+-- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
     env.static_memory:dict_lookup(input, false, 0)
     for entry in env.static_memory:iter_dict() do
@@ -524,7 +533,7 @@ function this.func(input, segment, env)
         cand.type = "completion"
       end
       yield(cand)
-      if count == 1 and env.single_display then
+      if count == 1 and env.single_display and not env.engine.context:get_option("not_single_display") then
         if (input:len() < 7 and core.fx(schema_id)
           and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
           break
