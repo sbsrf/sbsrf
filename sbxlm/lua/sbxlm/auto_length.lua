@@ -431,15 +431,23 @@ function this.func(input, segment, env)
   local lookup_code = input:sub(0, 3)
   ---@type Phrase[]
   local phrases = {}
+  ---@type table<string, boolean>
+  local known_words = {}
   memory:user_lookup(lookup_code, true)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    if phrase then table.insert(phrases, phrase) end
+    if phrase then
+      table.insert(phrases, phrase)
+      known_words[phrase.text] = true
+    end
   end
   memory:dict_lookup(lookup_code, true, 0)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
-    if phrase then table.insert(phrases, phrase) end
+    if phrase and (not known_words[phrase.text]) then
+      table.insert(phrases, phrase)
+      known_words[phrase.text] = true
+    end
   end
   -- 对列表根据置顶与否以及频率进行排序
   table.sort(phrases, function(a, b)
@@ -455,7 +463,10 @@ function this.func(input, segment, env)
   memory:user_lookup(kEncodedPrefix .. lookup_code, true)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    if phrase then table.insert(phrases, phrase) end
+    if phrase and (not known_words[phrase.text]) then
+      table.insert(phrases, phrase)
+      known_words[phrase.text] = true
+    end
   end
 -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
