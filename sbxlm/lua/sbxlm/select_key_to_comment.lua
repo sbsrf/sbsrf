@@ -38,7 +38,7 @@ function this.func(translation, env)
       goto continue
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
-    if candidate.type == "completion" then
+    if candidate.type == "completion" and core.zici(schema_id) then
       if (input:len() < 7 and core.fx(schema_id)
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
         goto continue
