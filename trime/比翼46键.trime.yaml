@@ -526,7 +526,7 @@ preset_color_schemes:
   jmqm:
     author: slj
     name: "浅浅"
-    dark_scheme: jmuf
+#    dark_scheme: jmuf
     back_color: 0xFFf2f2f2
     text_color: 0xff666666
     candidate_separator_color: 0x00
@@ -588,7 +588,7 @@ preset_color_schemes:
   jmuf:
     author: slj
     name: "深深"
-    light_scheme: jmqm
+#    light_scheme: jmqm
     back_color: 0xFF12151E
     text_color: 0xff888888
     candidate_separator_color: 0x00
@@ -653,7 +653,7 @@ preset_color_schemes:
   jmhw:
     author: flypy.com
     name: "暮暮"
-    light_scheme: jmbd
+#    light_scheme: jmbd
     back_color: 0xff141414 #0xfffefefe
     text_color: 0xFFd2d2d2
     keyboard_back_color: 0xff141414
@@ -690,7 +690,7 @@ preset_color_schemes:
   jmbd:
     author: flypy.com
     name: "朝朝"
-    dark_scheme: jmhw
+#    dark_scheme: jmhw
     back_color: 0xffffffff
     text_color: 0xFF000000
     keyboard_back_color: 0xffdddddd
@@ -791,7 +791,7 @@ preset_color_schemes:
   default:
     author: 朦胧
     name: "朦胧"
-    dark_scheme: niwu
+#    dark_scheme: niwu
     text_color: 0xff000000
     back_color: 0xFFC8CAC7
     key_back_color: xiaohe/MLshift.9.png
@@ -860,7 +860,7 @@ preset_color_schemes:
   niwu:
     author: slj
     name: "拟物"
-    light_scheme: default
+#    light_scheme: default
 #    back_color: 0xFF111111
     back_color: 0xFF434750
     text_color: 0xFF9FA1AD
@@ -1485,7 +1485,7 @@ preset_color_schemes:
   xrcd:
     author: from sougou
     name: "炫彩"
-    dark_scheme: nihs
+#    dark_scheme: nihs
     back_color: 0xffeeeeee
     text_color: 0xff333333
     comment_text_color: 0xFF4AD1C3
@@ -1537,7 +1537,7 @@ preset_color_schemes:
   nihs:
     author: flypy.com
     name: "霓虹"
-    light_scheme: xrcd
+#    light_scheme: xrcd
     back_color: 0xFF282828
     text_color: 0xffa9a9a9
     comment_text_color: 0xFFDB6A66
@@ -1582,7 +1582,6 @@ preset_color_schemes:
   qyfq:
     author: 去远方
     name: "去远方"
-    light_scheme: default
     back_color: 0xFF111111
     text_color: 0xFFC9D3DE
     candidate_background: xiaohe/qyfbj.png
