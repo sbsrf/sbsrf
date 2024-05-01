@@ -11,7 +11,7 @@ height:
   A: &VJG 54         #主键盘行高  自定
   B: &VJG1 52        #主键盘第一行高 与符号键盘高度不等时调整
   B1: &ZGH 6         #增高行高
-  C: &VJM 25         #主键盘增高行高
+  C: &VJM 2         #主键盘增高行高
   D: &FJG 56         #符号键盘行高  D=(A*4+B+C)/5=56
   E: &SZG 64         #数字和编辑键盘行高 E=(D*5-C)/4=64
   E1: &HXG 31        #状态栏候选栏高度
@@ -285,6 +285,7 @@ fallback_colors:
   bdb: off_key_back_color #ϟ12键背景色
   szb: bdb
   hsb: bdb
+  shb: hsb
   hcb: bdb
   bdh: hilited_off_key_back_color #ϟ12键高亮背景
   szh: bdh
@@ -1577,7 +1578,96 @@ preset_color_schemes:
     hilited_back_color: 0x00 #悬浮窗首选编码背景
     hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
     hilited_candidate_text_color: 0xFF56A2FA #首选文字
-    hilited_comment_text_color: 0xfff97f70      #首选编码提示    
+    hilited_comment_text_color: 0xfff97f70      #首选编码提示
+  qyfq:
+    author: 去远方
+    name: "去远方"
+    light_scheme: default
+    back_color: 0xFF111111
+    text_color: 0xFFC9D3DE
+    candidate_background: xiaohe/qyfbj.png
+    keyboard_back_color: xiaohe/qyfbj.png
+    comment_text_color: 0xFFDB6A66
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/qyfsw.png
+    key_text_color: 0xFF
+    key_symbol_color: 0xFF
+    on_key_back_color: xiaohe/qyfbd.png
+#    off_key_back_color: xiaohe/qyfgn.png
+    off_key_text_color: 0xFF
+    on_key_text_color: 0xFF
+    789B: xiaohe/NWgnb.png
+    AAT: 0xFF
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0x00 #高亮字母色
+    hilited_key_symbol_color: 0x00 #高亮符号
+    AAS: 0xFF #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/qyfsw.png
+    A_Q: xiaohe/qyf26s.png
+    A_W: xiaohe/qyf26.png
+    A_E: xiaohe/qyf26s.png
+    A_R: xiaohe/qyf26.png
+    A_T: xiaohe/qyf26s.png
+    A_Y: xiaohe/qyf26.png
+    A_U: xiaohe/qyf26s.png
+    A_I: xiaohe/qyf26.png
+    A_O: xiaohe/qyf26s.png
+    A_P: xiaohe/qyf26.png
+    A_A: xiaohe/qyf26s.png
+    A_S: xiaohe/qyf26.png
+    A_D: xiaohe/qyf26s.png
+    A_F: xiaohe/qyf26.png
+    A_G: xiaohe/qyf26s.png
+    A_H: xiaohe/qyf26.png
+    A_J: xiaohe/qyf26s.png
+    A_K: xiaohe/qyf26.png
+    A_L: xiaohe/qyf26s.png 
+    A_Z: xiaohe/qyf26s.png
+    A_X: xiaohe/qyf26.png
+    A_C: xiaohe/qyf26s.png
+    A_V: xiaohe/qyf26.png
+    A_B: xiaohe/qyf26s.png 
+    A_N: xiaohe/qyf26.png
+    A_M: xiaohe/qyf26s.png
+    hsb: xiaohe/qyfsc.png
+    shb: xiaohe/qyfgn.png
+    szb: xiaohe/qyfsz.png
+    bdb: xiaohe/qyfbd.png
+    hcb: xiaohe/qyfhc.png
+    szs: 0xff000000
+#    kgb: xiaohe/MLkgb.9.png
+    kgt: 0xff000000
+    kgzb: xiaohe/qyfzikg.png
+    zzkgb: xiaohe/qyfzkg.png    
+    ykgb: xiaohe/qyfykg.png
+    fhfhb: xiaohe/qyfgn.png
+#    zkgb: xiaohe/MLzkgb.png
+    kgh: 0xFF758495
+    ykgh: 0xFF758495
+    kgzh: 0xFF758495
+    zzkgh: 0xFF758495    
+    zkgh: 0xFF758495
+    szgnb: xiaohe/qyfsc.png
+    szhcb: xiaohe/qyfhc.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFFADC9DF
+    hilited_candidate_back_color: 0x00
+    hilited_back_color: 0x00
+    hilited_candidate_text_color: 0xFFADC9DF
+    hilited_comment_text_color: 0xFFACCFA3
+    hilited_text_color: 0xFFF9DECE #高亮编码
+    AAT12: 0xFFDB6A66
+    AAT22: 0xFFDB6A66
+    AAT52: 0xFFDB6A66
+    AAT62: 0xFFDB6A66
+    AAT23: *蓝
+
 # 键盘布局
 preset_keyboards:
   default:
@@ -1634,7 +1724,7 @@ preset_keyboards:
       - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
       - {click: l, long_click: K_qzjt, swipe_up: L, swipe_down: L, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
-      - {click: Shift_L, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: hsb, hilited_key_back_color: hsh}
+      - {click: Shift_L, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: shb, hilited_key_back_color: hsh}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH}

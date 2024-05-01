@@ -375,15 +375,6 @@ local function translate_by_split(input, segment, env)
   yield(phrase:toCandidate())
 end
 
-local function is_unique(phrases, phrase)
-  for _, v in phrases do
-    if phrase.text == v.text then
-      return true
-    end
-  end
-  return false
-end
-
 ---@param input string
 ---@param segment Segment
 ---@param env AutoLengthEnv
