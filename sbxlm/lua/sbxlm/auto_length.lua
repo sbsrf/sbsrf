@@ -293,7 +293,8 @@ local function validate_phrase(entry, segment, type, input, env)
       return nil
     end
     -- 2. 飞讯启用多字词过滤时，四码不显示多字词
-    if core.fx(schema_id) and input:len() > 4 and core.sxsb(input:sub(1, 4)) and utf8.len(entry.text) > 3 then
+    if core.fx(schema_id) and input:len() > 4 and utf8.len(entry.text) > 3
+        and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+") then
       return nil
     end
   end
@@ -546,7 +547,7 @@ function this.func(input, segment, env)
       yield(cand)
       if count == 1 and env.single_display and not env.engine.context:get_option("not_single_display") then
         if (input:len() < 7 and core.fx(schema_id)
-          and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+          and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+")) then
           break
         elseif (input:len() < 6) then
           break

@@ -24,6 +24,13 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZaAbAcZb"
 ...
+# 增加条目
+衡	h'
+砸	z'
+早	z;
+早晨	z;i
+早上好	z;a
+# 内置条目
 阿	va
 阿扁	vb9
 阿尔	vv4

@@ -6,6 +6,7 @@ local XK_Return = 0xff0d
 local XK_Tab = 0xff09
 local XK_Escape = 0xff1b
 local rime = require "sbxlm.lib"
+local core = require "sbxlm.core"
 
 local this = {}
 
@@ -58,7 +59,8 @@ function this.func(key_event, env)
 
   -- 首字母后的 Tab 键切换到临时英文，Shift+Tab 键切换到缓冲模式
   local segment = env.engine.context.composition:back()
-  if (not ascii_mode and segment and not segment:has_tag("punct") and input:len() == 1 and key_event.keycode == XK_Tab and not key_event:release()) then
+  if (not ascii_mode and segment and not segment:has_tag("punct") and input:len() == 1 
+      and key_event.keycode == XK_Tab and not key_event:release()) then
     if key_event:shift() then
       if not context:get_option("is_buffered") then
         context:set_option("is_buffered", true)
@@ -69,13 +71,18 @@ function this.func(key_event, env)
     end
     return rime.process_results.kAccepted
   -- 在码长为4以上时，设置临时重码提示
-  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5 and key_event.keycode == XK_Tab and not key_event:release()) then
+  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
+        and key_event.keycode == XK_Tab and not key_event:release()) then
       if context:get_option("single_display") and not context:get_option("not_single_display") then
         context:set_option("not_single_display", true)
       end
       return rime.process_results.kNoop
+  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 5
+      and key_event.keycode == string.byte("'") and not key_event:release()
+      and core.zici(env.engine.schema.schema_id)) then
+    
+    return rime.process_results.kNoop
   end
-
   -- 在码长为1时，取消临时重码提示
   if input:len() == 1 and context:get_option("single_display") then
     context:set_option("not_single_display", false)
@@ -84,6 +91,8 @@ function this.func(key_event, env)
   if input:len() == 0 then
     return rime.process_results.kNoop
   end
+
+
 
   -- 用 Shift+Return 或者 Control+Return 反转大小写
   if key_event.modifier == rime.modifier_masks.kShift and key_event.keycode == XK_Return then

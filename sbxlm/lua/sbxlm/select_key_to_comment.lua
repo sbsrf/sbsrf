@@ -29,6 +29,7 @@ function this.func(translation, env)
   local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
   local i = 0
+  local pattern = "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+"
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键
     local j = i % select_keys:len() + 1
@@ -39,8 +40,7 @@ function this.func(translation, env)
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
     if candidate.type == "completion" and core.zici(schema_id) then
-      if (input:len() < 7 and core.fx(schema_id)
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+      if (input:len() < 7 and core.fx(schema_id) and rime.match(input, pattern)) then
         goto continue
       elseif (input:len() < 6) then
         goto continue
@@ -49,7 +49,7 @@ function this.func(translation, env)
     if candidate.comment:len() > 0 then
       if schema_id == "sbpy" or schema_id == "sbjp" then
         candidate.comment = key .. candidate.comment
-      elseif (input:len() == 7 and core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{2,}")) then
+      elseif (input:len() == 7 and core.fx(schema_id) and rime.match(input, pattern)) then
         candidate.comment = key
       else
         candidate.comment = candidate.comment .. ":" .. key
