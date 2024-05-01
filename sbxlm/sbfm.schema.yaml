@@ -105,13 +105,9 @@ popping:
       conditional: true
     # 增强模式下的数字顶
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[0-9]"
-      prefix: 1
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
