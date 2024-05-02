@@ -26,7 +26,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [fourth_pop, third_pop, fast_char]
-    reset: 0
+    reset: 1
     states: [四顶, 三顶, 快单]
   - name: is_enhanced
     reset: 0
@@ -102,6 +102,10 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[aeiou]"
+      prefix: 2
+      strategy: append
     # 大写字母输入多字词
     - when: third_pop
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
