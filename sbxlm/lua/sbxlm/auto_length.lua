@@ -165,7 +165,7 @@ local function callback(commit, env)
         break
       end
     end
-    -- 对最末一个上屏的候选，跳过造词，直接看下一个
+    -- 对最末一个上屏的候选
     if phrase:len() == 0 then
       phrase = record.text
       if #commit:get() > 1 then
