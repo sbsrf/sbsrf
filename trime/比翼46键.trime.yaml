@@ -17,7 +17,7 @@ height:
   E1: &HXG 31        #状态栏候选栏高度
   F: &SZM 24         #数字和编辑键盘末行高=C 和主键盘不平时调整
   
-  M1: &SPG 283 #3.2.6竖屏总高=A*4+B+C
+  M1: &SPG 293 #3.2.6竖屏总高=A*4+B+C
   N: &HPG 240 #3.2.6横屏总高
 
 # ----------键盘左右下留空3.2.3------------
@@ -53,10 +53,10 @@ height:
   
 # ----------上下档符号位置调整----------
 
-  Ⅰ: &DsymY 2.2   #上档文字纵向位置调节
+  Ⅰ: &DsymY 2   #上档文字纵向位置调节
   Ⅱ: &DsymX 0   #上档文字横向位置调节
-  Ⅲ: &DtextY -0.5   #键盘字母纵向位置调节
-  Ⅳ: &DhintY -3 #键盘下档纵向
+  Ⅲ: &DtextY 0.1   #键盘字母纵向位置调节
+  Ⅳ: &DhintY -2 #键盘下档纵向
   Ⅴ: &FHsymY 1   #符号键盘
   Ⅵ: &MtextY -6   #选单键盘
   Ⅶ: &MhintY -6
@@ -242,7 +242,7 @@ fallback_colors:
   AAT3: AAT
   AAT4: AAT
   AAT5: AAT
-  AAT52: AAT
+  AAT52: AAT5
   AAT6: AAT
   AAT62: AAT6
   A_Q: A_ #主键盘字母背景
@@ -526,7 +526,7 @@ preset_color_schemes:
   jmqm:
     author: slj
     name: "浅浅"
-    dark_scheme: jmuf
+#    dark_scheme: jmuf
     back_color: 0xFFf2f2f2
     text_color: 0xff666666
     candidate_separator_color: 0x00
@@ -588,7 +588,7 @@ preset_color_schemes:
   jmuf:
     author: slj
     name: "深深"
-    light_scheme: jmqm
+#    light_scheme: jmqm
     back_color: 0xFF12151E
     text_color: 0xff888888
     candidate_separator_color: 0x00
@@ -617,7 +617,6 @@ preset_color_schemes:
     AAT4: 0xFF08B6CE  #YHN
     AAT5: 0xFF3582CA  #UIJKM
     AAT6: 0xFF786BD5  #OPL
-    AAT52: AAT5
     AAT23: 0xFF1493
     A_: xiaohe/UQUkey.png
     AAH: xiaohe/UQkeyH.png
@@ -655,7 +654,7 @@ preset_color_schemes:
   jmhw:
     author: flypy.com
     name: "暮暮"
-    light_scheme: jmbd
+#    light_scheme: jmbd
     back_color: 0xff141414 #0xfffefefe
     text_color: 0xFFd2d2d2
     keyboard_back_color: 0xff141414
@@ -673,7 +672,6 @@ preset_color_schemes:
     AAT4: 0xFF08B6CE  #YHN
     AAT5: 0xFF3582CA  #UIJKM
     AAT6: 0xFF786BD5  #OPL
-    AAT52: AAT5
     AAT23: 0xFF1493
     A_: xiaohe/JHkey.png
     zyt: 0x00
@@ -694,7 +692,7 @@ preset_color_schemes:
   jmbd:
     author: flypy.com
     name: "朝朝"
-    dark_scheme: jmhw
+#    dark_scheme: jmhw
     back_color: 0xffffffff
     text_color: 0xFF000000
     keyboard_back_color: 0xffdddddd
@@ -864,8 +862,9 @@ preset_color_schemes:
   niwu:
     author: slj
     name: "拟物"
-#   light_scheme: default
-    back_color: 0xFF111111
+#    light_scheme: default
+#    back_color: 0xFF111111
+    back_color: 0xFF434750
     text_color: 0xFF9FA1AD
     keyboard_back_color: 0xFF434750
     comment_text_color: 0xFFDB6A66
@@ -1483,7 +1482,7 @@ preset_color_schemes:
     AAT22: 0xFF1493
     AAT52: 0xFF1493
     AAT62: 0xFF1493
-    AAT23: 0xff1181fc
+    AAT23: 0x00A1D6
 
   xrcd:
     author: from sougou
@@ -1540,7 +1539,7 @@ preset_color_schemes:
   nihs:
     author: flypy.com
     name: "霓虹"
-#   light_scheme: xrcd
+#    light_scheme: xrcd
     back_color: 0xFF282828
     text_color: 0xffa9a9a9
     comment_text_color: 0xFFDB6A66
@@ -1559,7 +1558,6 @@ preset_color_schemes:
     AAT4: 0xFF08B6CE  #YHN
     AAT5: 0xFF3582CA  #UIJKM
     AAT6: 0xFF786BD5  #OPL
-    AAT52: AAT5
     AAT23: 0xFF1493
     789B: xiaohe/NHkey.png
     A_: xiaohe/NHkeyH.png
@@ -1587,7 +1585,6 @@ preset_color_schemes:
   qyfq:
     author: 去远方
     name: "去远方"
-#   light_scheme: default
     back_color: 0xFF111111
     text_color: 0xFFC9D3DE
     candidate_background: xiaohe/qyfbj.png
@@ -1655,7 +1652,7 @@ preset_color_schemes:
     kgh: 0x00
     ykgh: 0x00
     kgzh: 0x00
-    zzkgh: 0x00    
+    zzkgh: 0x00
     zkgh: 0x00
     szgnb: xiaohe/qyfsc.png
     szhcb: xiaohe/qyfhc.png
@@ -1672,12 +1669,100 @@ preset_color_schemes:
     AAT52: 0xFFDB6A66
     AAT62: 0xFFDB6A66
     AAT23: *蓝
+  qyfq:
+    author: 去远方
+    name: "去远方"
+##    light_scheme: default
+    back_color: 0xFF111111
+    text_color: 0xFFC9D3DE
+    candidate_background: xiaohe/qyfbj.png
+    keyboard_back_color: xiaohe/qyfbj.png
+    comment_text_color: 0xFFDB6A66
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/qyfsw.png
+    key_text_color: 0xFF
+    key_symbol_color: 0xFF
+    on_key_back_color: xiaohe/qyfbd.png
+#    off_key_back_color: xiaohe/qyfgn.png
+    off_key_text_color: 0xFF
+    on_key_text_color: 0xFF
+    AAT: 0xFF
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0x00 #高亮字母色
+    hilited_key_symbol_color: 0x00 #高亮符号
+    AAS: 0xFF #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/qyfsw.png
+    A_Q: xiaohe/qyf26s.png
+    A_W: xiaohe/qyf26.png
+    A_E: xiaohe/qyf26s.png
+    A_R: xiaohe/qyf26.png
+    A_T: xiaohe/qyf26s.png
+    A_Y: xiaohe/qyf26.png
+    A_U: xiaohe/qyf26s.png
+    A_I: xiaohe/qyf26.png
+    A_O: xiaohe/qyf26s.png
+    A_P: xiaohe/qyf26.png
+    A_A: xiaohe/qyf26s.png
+    A_S: xiaohe/qyf26.png
+    A_D: xiaohe/qyf26s.png
+    A_F: xiaohe/qyf26.png
+    A_G: xiaohe/qyf26s.png
+    A_H: xiaohe/qyf26.png
+    A_J: xiaohe/qyf26s.png
+    A_K: xiaohe/qyf26.png
+    A_L: xiaohe/qyf26s.png 
+    A_Z: xiaohe/qyf26s.png
+    A_X: xiaohe/qyf26.png
+    A_C: xiaohe/qyf26s.png
+    A_V: xiaohe/qyf26.png
+    A_B: xiaohe/qyf26s.png 
+    A_N: xiaohe/qyf26.png
+    A_M: xiaohe/qyf26s.png
+    hsb: xiaohe/qyfsc.png
+    shb: xiaohe/qyfgn.png
+    szb: xiaohe/qyfsz.png
+    bdb: xiaohe/qyfbd.png
+    hcb: xiaohe/qyfhc.png
+    szs: 0xff000000
+#    kgb: xiaohe/MLkgb.9.png
+    kgt: 0xff000000
+    kgzb: xiaohe/qyfzikg.png
+    zzkgb: xiaohe/qyfzkg.png    
+    ykgb: xiaohe/qyfykg.png
+    fhfhb: xiaohe/qyfgn.png
+    xdbdb: xiaohe/qyfsw.png
+#    zkgb: xiaohe/MLzkgb.png
+    kgh: 0x00
+    ykgh: 0x00
+    kgzh: 0x00
+    zzkgh: 0x00    
+    zkgh: 0x00
+    szgnb: xiaohe/qyfsc.png
+    szhcb: xiaohe/qyfhc.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFFADC9DF
+    hilited_candidate_back_color: 0x00
+    hilited_back_color: 0x00
+    hilited_candidate_text_color: 0xFFADC9DF
+    hilited_comment_text_color: 0xFFACCFA3
+    hilited_text_color: 0xFFF9DECE #高亮编码
+    AAT12: 0xFFDB6A66
+    AAT22: 0xFFDB6A66
+    AAT52: 0xFFDB6A66
+    AAT62: 0xFFDB6A66
+    AAT23: *蓝           
   jjzd:
     author: 寂静之地
     name: "寂静之地"
-#    light_scheme: default
+##    light_scheme: default
     back_color: 0xFF111111
-    text_color: 0xFFC9D3DE
+    text_color: 0xFFCEA09F
     candidate_background: xiaohe/jjsbj.png
     keyboard_back_color: 0xFF163454
     comment_text_color: 0xFFDB6A66
@@ -1759,6 +1844,7 @@ preset_color_schemes:
     zkgh: 0x00
     szgnb: xiaohe/jjsc.png
     szhcb: xiaohe/jjhc.png
+    xdbdb: xiaohe/jj262.png
     cd2: 0xff666666
     zgb: 0x00
     label_color: 0xFFADC9DF
@@ -1771,7 +1857,171 @@ preset_color_schemes:
     AAT22: 0xFFDB6A66
     AAT52: 0xFFDB6A66
     AAT62: 0xFFDB6A66
-    AAT23: *蓝     
+    AAT23: *蓝
+  Write:
+    author: Write2023
+    name: "Write·2023"
+##    light_scheme: default
+    back_color: 0x0F
+    text_color: 0xFF
+    candidate_background: xiaohe/Wsbj.png
+    keyboard_back_color: xiaohe/Wbj.png
+    comment_text_color: 0xff1181fc
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/Wbdh.png
+    key_text_color: 0xFF
+    key_symbol_color: 0xFF
+    on_key_back_color: xiaohe/Wgnh.png
+#    off_key_back_color: xiaohe/qyfgn.png
+    off_key_text_color: 0xFF
+    on_key_text_color: 0xFF
+    AAT: 0xFF
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0xFFFFFFFF #高亮字母色
+    hilited_key_symbol_color: 0xFFFFFFFF #高亮符号
+    AAS: 0xFF #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/Wsw.png
+    789T: 0xFFFFFFFF
+    A_: xiaohe/W26.png
+    AAH: xiaohe/W26h.png
+    BBH: xiaohe/W26h.png
+    CCH: xiaohe/W26h.png
+    hsb: xiaohe/Wgn.png
+    hsh: xiaohe/Wgnh.png
+    shb: xiaohe/Wgn.png
+    szb: xiaohe/Wsw.png
+    szh: xiaohe/Wswh.png
+    bdb: xiaohe/Wbd.png
+    bdh: xiaohe/Wbdh.png
+    hcb: xiaohe/Whc.png
+    hch: xiaohe/Whch.png
+    hst: 0xFFFFFFFF
+    szt: 0xFFFFFFFF
+    bdt: 0xFFFFFFFF
+    zkgt: 0xFF
+    kgt: 0xFF
+    kght: 0x00
+    ykgt: 0xFF
+    szs: 0xFFFFFFFF
+    hct: 0xFFFFFFFF
+    bds: 0xFFFFFFFF
+    kgs: 0xFF
+    kghs: 0xFFFFFFFF
+#    kgb: xiaohe/MLkgb.9.png
+    kgzb: xiaohe/Wzikg.png
+    zzkgb: xiaohe/Wzkg.png    
+    ykgb: xiaohe/Wykg.png
+    fhfhb: xiaohe/Wsw.png
+#    zkgb: xiaohe/MLzkgb.png
+    kgh: 0x00
+    ykgh: xiaohe/Wykgh.png
+    kgzh: xiaohe/Wzikgh.png
+    zzkgh: xiaohe/Wzkgh.png
+    zkgh: 0x00
+    szgnb: xiaohe/Wgn.png
+    szhcb: xiaohe/Whc.png
+    xdbdb: xiaohe/W26.png
+    xdgnb: xiaohe/W26.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFFADC9DF
+    hilited_candidate_back_color: 0x00
+    hilited_back_color: 0x00
+    hilited_candidate_text_color: 0xff1181fc
+    hilited_comment_text_color: 0xFFFB14C9
+    hilited_text_color: 0xFFF11111 #高亮编码
+    AAT12: 0xFFDB6A66
+    AAT22: 0xFFDB6A66
+    AAT52: 0xFFDB6A66
+    AAT62: 0xFFDB6A66
+    AAT23: *蓝
+  Writes:
+    author: Write2023S
+    name: "Write·2023S"
+##    light_scheme: default
+    back_color: 0x0F
+    text_color: 0xff999999
+    candidate_background: xiaohe/Wsbjs.png
+    keyboard_back_color: xiaohe/Wbjs.png
+    comment_text_color: 0xBBEEFFEE
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/W26s.png
+    key_text_color: 0xFF
+    key_symbol_color: 0xFF
+    on_key_back_color: xiaohe/Wgnsh.png
+#    off_key_back_color: xiaohe/qyfgn.png
+    off_key_text_color: 0xFF
+    on_key_text_color: 0xFF
+    AAT: 0xff888888
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0xFFFFFFFF #高亮字母色
+    hilited_key_symbol_color: 0xFFFFFFFF #高亮符号
+    AAS: 0xFFCEA09F #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/Wbds.png
+    789T: 0xff888888
+    A_: xiaohe/W26s.png
+    AAH: xiaohe/W26h.png
+    BBH: xiaohe/W26h.png
+    CCH: xiaohe/W26h.png
+    hsb: xiaohe/Wgns.png
+    hsh: xiaohe/Wgnsh.png
+    shb: xiaohe/Wgns.png
+    szb: xiaohe/Wgns.png
+    szh: xiaohe/Wgnsh.png
+    bdb: xiaohe/Wbds.png
+    bdh: xiaohe/Wbdsh.png
+    hcb: xiaohe/Whc.png
+    hch: xiaohe/Whcsh.png
+    hst: 0xFFCEA09F
+    szt: 0xFFCEA09F
+    bdt: 0xFFCEA09F
+    zkgt: 0xFFCEA09F
+    kgt: 0xff888888
+    kght: 0x00
+    ykgt: 0xFFCEA09F
+    szs: 0xFFCEA09F
+    hct: 0xFFCEA09F
+    bds: 0xFFCEA09F
+    kgs: 0xFFCEA09F
+    kghs: 0xFFFFFFFF
+#    kgb: xiaohe/MLkgb.9.png
+    kgzb: xiaohe/Wkgs.png
+    zzkgb: xiaohe/Wzkgs.png    
+    ykgb: xiaohe/Wykgs.png
+    fhfhb: xiaohe/W26s.png
+#    zkgb: xiaohe/MLzkgb.png
+    kgh: 0x00
+    ykgh: xiaohe/Wykgh.png
+    kgzh: xiaohe/Wzikgh.png
+    zzkgh: xiaohe/Wzkgh.png
+    zkgh: 0x00
+    szgnb: xiaohe/Wbds.png
+    szhcb: xiaohe/Whc.png
+    xdbdb: xiaohe/W26s.png
+    xdgnb: xiaohe/W26s.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFF00BDD5 #悬浮窗次选序号
+    hilited_candidate_back_color: 0x00 #悬浮窗首选背景
+    hilited_back_color: 0x00 #悬浮窗首选编码背景
+    hilited_text_color: 0xFFCD0E1E #悬浮窗编码    
+    hilited_candidate_text_color: 0xFF56A2FA #首选文字
+    hilited_comment_text_color: 0xfff97f70      #首选编码提示
+    AAT12: 0xFFDB6A66
+    AAT22: 0xFFDB6A66
+    AAT52: 0xFFDB6A66
+    AAT62: 0xFFDB6A66
+    AAT23: *蓝
 # 键盘布局
 preset_keyboards:
   default:
@@ -1831,16 +2081,16 @@ preset_keyboards:
       - {click: Shift_L, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: shb, hilited_key_back_color: hsh}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
-      - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH}
-      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, , hint: "帮助", key_text_color: AAT23, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH}
-      - {click: b, long_click: Liquid_switch, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH}
+      - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH, key_hint_offset_y: -6}
+      - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, , hint: "帮助", key_text_color: AAT23, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH, key_hint_offset_y: -6}
+      - {click: b, long_click: Liquid_switch, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH, key_hint_offset_y: -6}
       - {click: n, long_click: K_defaultVJ, swipe_up: N, swipe_down: N, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_N, hilited_key_back_color: CCH}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, hilited_key_text_color: hsht, width: 15}
       # 第四行
       - {click: K_symbols123, width: *SBK, paging: Page_Up, composing: Escape, swipe_up: "{Schema_switch}", long_click: K_menu, key_symbol_offset_x: 0, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
       - {click: "/", label: '/', long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, width: 12.5, key_symbol_offset_x: 12, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs, key_text_size: 14}
-      - {click: ",", label: " ，", long_click: "<", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨,  width: *FHK, key_text_size: 14, key_text_offset_y: -3, key_symbol_offset_y: 8, key_symbol_offset_x: 0, key_back_color: zzkgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: zzkgh}
+      - {click: ",", label: " ，", long_click: "<", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨,  width: *FHK, key_text_size: 14, key_text_offset_y: -3, key_symbol_offset_y: 8, key_symbol_offset_x: 0, key_back_color: zzkgb, key_text_color: ykgt, hilited_key_text_color: zkght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: zzkgh}
       - {click: space, long_click: Candidate_switch, swipe_up: '{space}{Mode_switch}', swipe_down: '{Shift+space}', swipe_left: "Left", swipe_right: "Right", width: *KGK, key_text_size: 14, key_text_offset_x: 0, key_text_offset_y: 3, key_symbol_offset_x: 0, key_symbol_offset_y: 8, key_back_color: kgzb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgzh, hilited_key_text_color: kght, hilited_key_symbol_color: kghs}
       - {click: ".", label: " 。", long_click: ">", swipe_up: Menu, swipe_down: Menu, hint: ✡, width: *FHK, key_text_size: 14, key_text_offset_y: -1, key_text_offset_x: 0, key_symbol_offset_y: 8, key_symbol_offset_x: 0, key_back_color: ykgb, key_text_color: ykgt, hilited_key_text_color: kght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: ykgh}
       - {click: "'", long_click: '"', swipe_up: "Theme_settings", swipe_down: "Theme_settings", hint: ☸, key_symbol_offset_x: 12, width: 12.5, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs}
@@ -1876,7 +2126,7 @@ preset_keyboards:
     __patch:
         "keys/@37//long_click": K_sbxlzj
 
-  sbjz: #声笔简整
+  sbjp: #声笔简整
     __include: /preset_keyboards/default
     __patch:
         "keys/@37//long_click": K_sbxlzj
@@ -2621,7 +2871,7 @@ preset_keyboards:
       - {click: "IME_switch", hint: 输入法, width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}
       - {click: "", key_back_color: xdbdb, hilited_key_back_color: xdbdb}
 #      - {click: M2T, hint: 编辑, width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}
-      - {click: "Hint_switch", hint: 提　示, width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}      
+      - {click: "Symbol_switch", hint: 提　示, width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}      
       - {click: "", key_back_color: xdbdb, hilited_key_back_color: xdbdb}
 #      - {click: share_text, hint: 分享, width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}
       - {click: "Theme_settings", hint: "主题", width: 20, key_back_color: xdbdb, hilited_key_back_color: on_key_text_color, key_hint_offset_y: *MhintY, key_text_offset_y: *MtextY}
@@ -3384,18 +3634,18 @@ preset_keys:
 
   #帮助——
   t_bz1: {label: "  声笔系列码", functional: false}
-  t_bz2: {label: "https://sbxlm.gitee.io/", functional: false}
-  t_bz3: {label: "https://sbxlm.gitee.io/sbj/", functional: false}
-  t_bz4: {label: "https://sbxlm.gitee.io/sbf/", functional: false}
-  t_bz5: {label: "https://sbxlm.gitee.io/sbpy/", functional: false}
-  t_bz6: {label: "https://sbxlm.gitee.io/sbs/", functional: false}
+  t_bz2: {label: "https://sbxlm.github.io/", functional: false}
+  t_bz3: {label: "https://sbxlm.github.io/sbj/", functional: false}
+  t_bz4: {label: "https://sbxlm.github.io/sbf/", functional: false}
+  t_bz5: {label: "https://sbxlm.github.io/sbpy/", functional: false}
+  t_bz6: {label: "https://sbxlm.github.io/sbs/", functional: false}
   t_fhvjj: {label: Ⓑ 返回, send: Eisu_toggle, select: .default}
 
-  SBWZ-GW: {label: 声笔官网, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/"}
-  SBWZ-JX: {label: 声笔简系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbj/"}
-  SBWZ-FX: {label: 声笔飞系, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbf/"}
-  SBWZ-PY: {label: 声笔拼音, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbpy/"}
-  SBWZ-SP: {label: 声笔双拼, functional: false, send: function, command: run, option: "https://sbxlm.gitee.io/sbs/"}
+  SBWZ-GW: {label: 声笔官网, functional: false, send: function, command: run, option: "https://sbxlm.github.io/"}
+  SBWZ-JX: {label: 声笔简系, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbj/"}
+  SBWZ-FX: {label: 声笔飞系, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbf/"}
+  SBWZ-PY: {label: 声笔拼音, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbpy/"}
+  SBWZ-SP: {label: 声笔双拼, functional: false, send: function, command: run, option: "https://sbxlm.github.io/sbs/"}
 
   XHQQQ1: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=445906697"} #直接开启 声笔①群
   XHQQQ2: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=780510469"} #直接开启 声笔②群
