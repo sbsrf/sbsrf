@@ -26,7 +26,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [fourth_pop, third_pop, fast_char]
-    reset: 1
+    reset: 0
     states: [四顶, 三顶, 快单]
   - name: is_enhanced
     reset: 0
