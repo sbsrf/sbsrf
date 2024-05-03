@@ -31,12 +31,20 @@ end
 ---@return ProcessResult
 function this.func(key_event, env)
   local key = utf8.char(key_event.keycode)
-  if not env.select_keys[key] then
-    return rime.process_results.kNoop
-  end
   local context = env.engine.context
   local segment = context.composition:toSegmentation():back()
   if not segment then
+    return rime.process_results.kNoop
+  end
+  if segment:has_tag("hypy") or segment:has_tag("bihua")
+      or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
+      or segment:has_tag("lua") then
+    if (string.find(key, "[_23789]")) then
+      env.engine.schema.select_keys = "_23789"
+      return env.selector:process_key_event(key_event)
+    end
+  end
+  if not env.select_keys[key] then
     return rime.process_results.kNoop
   end
   if segment:has_tag("punct") or segment:has_tag("paging") then

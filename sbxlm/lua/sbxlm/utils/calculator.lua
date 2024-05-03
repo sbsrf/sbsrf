@@ -362,7 +362,7 @@ end
 local greedy = true
 
 local function calculator_translator(input, seg)
-  if string.sub(input, 1, 1) ~= "e" then return end
+  if string.sub(input, 1, 1) ~= "`" then return end
   if string.len(input) <= 1 then return end
   
   local expfin = greedy or string.sub(input, -1, -1) == ";"

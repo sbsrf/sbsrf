@@ -19,7 +19,9 @@ function this.tags_match(segment, env)
   local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
   local input = rime.current(env.engine.context) or ""
   return (segment:has_tag("abc") and rime.match(input, pattern))
-      or segment:has_tag("punct")
+      or segment:has_tag("punct") or segment:has_tag("hypy")
+      or segment:has_tag("bihua") or segment:has_tag("zhlf")
+      or segment:has_tag("sbzdy") or segment:has_tag("lua")
 end
 
 ---@param translation Translation
@@ -28,6 +30,12 @@ function this.func(translation, env)
   local schema_id = env.engine.schema.schema_id
   local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
+  local segment = env.engine.context.composition:back()
+  if segment:has_tag("hypy") or segment:has_tag("bihua")
+      or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
+      or segment:has_tag("lua") then
+    select_keys = "_23789"
+  end
   local i = 0
   local pattern = "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+"
   for candidate in translation:iter() do
@@ -39,7 +47,7 @@ function this.func(translation, env)
       goto continue
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
-    if candidate.type == "completion" and core.zici(schema_id) then
+    if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") then
       if (input:len() < 7 and core.fx(schema_id) and rime.match(input, pattern)) then
         goto continue
       elseif (input:len() < 6) then

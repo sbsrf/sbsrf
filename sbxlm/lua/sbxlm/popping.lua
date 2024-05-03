@@ -71,6 +71,10 @@ end
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function this.func(key_event, env)
+  if not (env.engine.context.composition:back():has_tag("abc") 
+     or env.engine.context.composition:back():has_tag("punct")) then
+    return rime.process_results.kNoop
+  end
   local context = env.engine.context
   local is_buffered = context:get_option("is_buffered")
   if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then

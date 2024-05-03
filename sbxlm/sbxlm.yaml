@@ -208,9 +208,9 @@ recognizer:
     bihua: "^[aeiou]+$"
     hypy: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
     zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
-    sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z0-9]*$"
-    expression: "^e.+$"
-    quick_menu: "^o[a-z0-9]*$"
+    sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
+    jsq: "^`.+$"
+    lua: "^o[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     history: "^;$"
 
 punctuator:
@@ -227,14 +227,14 @@ punctuator:
     '"' : { pair: [ '“', '”' ] }
     '\' : [ '\' ]
     '|' : [ ·, '|', ｜, '§', '¦', '‖', ・ ]
-    '`' : [ '`', ′, ″, ‴, ‵, ‶, ‷, ⁗ ]
+    '`' : [ '`' ]
     '~' : [ '~', ～, ˜, ≈, ≋, ≃, ≅, ≇, ∽, ⋍, ≌, ﹏, ﹋, ﹌ ]
     '!' : { commit: ！ }
     '@' : [ '@', ©, ®, ℗ ,＠]
     '#' : [ '#', №, ＃, ⌘ ]
     '%' : [ '%', ％, '°', '℃', ‰, ‱, ℉ ]
     '$' : [ '$', ￥, '€', '£', '¥', '¢', '¤', ₩ ]
-    '^' : [……, '^']
+    '^' : [……, …, ′, ″, ‴, ‵, ‶, ‷, ⁗]
     '&' : ['&', ＆]
     '*' : [ '*', ＊, ·, ×, ※, ❂, ⁂, ☮, ☯, ☣, ・ ]
     '(' : [（,'(']
