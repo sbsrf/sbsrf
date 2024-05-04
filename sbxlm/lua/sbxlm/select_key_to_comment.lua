@@ -47,7 +47,7 @@ function this.func(translation, env)
       goto continue
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
-    if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") then
+    if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") and not segment:has_tag("sbjm") then
       if (input:len() < 7 and core.fx(schema_id) and rime.match(input, pattern)) then
         goto continue
       elseif (input:len() < 6) then
