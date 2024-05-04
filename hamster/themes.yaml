@@ -1,0 +1,8007 @@
+keyboard:
+  colorSchemas:
+  - schemaName: mac_light
+    name: 仿mac配色/日间
+    author: 坐忘道
+    back_color: '0xFFDAD3D0'
+    button_back_color: '0xFF2C2C2C'
+    button_pressed_back_color: '0xFF2C2C2C'
+    button_foreground_color: '0xFFFFFFFE'
+    button_pressed_foreground_color: '0xFFFFFFFE'
+    button_swipe_foreground_color: '0xFFFFFFFE'
+    button_swipe_pressed_foreground_color: '0xFFFFFFFE'
+    corner_radius: 5
+    border_color: '0x00000000'
+    border_size: 1e+0
+    text_color: '0xFF464646'
+    hilited_candidate_text_color: '0xFF000000'
+    hilited_candidate_back_color: '0xFF0199FE'
+    hilited_comment_text_color: '0xFF464646'
+    hilited_candidate_label_color: '0xFFFFFFFE'
+    candidate_text_color: '0xFF000000'
+    comment_text_color: '0xFF000000'
+    label_color: '0xFF000000'
+    lower_edge_color: '0x00000000'
+    shadow_color: '0x00000000'
+  - schemaName: mac_night
+    name: 仿mac配色/夜间
+    author: 坐忘道
+    back_color: '0xFFDAD3D0'
+    button_back_color: '0xFF2C2C2C'
+    button_pressed_back_color: '0xFF2C2C2C'
+    button_foreground_color: '0xFFFFFFFE'
+    button_pressed_foreground_color: '0xFFFFFFFE'
+    button_swipe_foreground_color: '0xFFFFFFFE'
+    button_swipe_pressed_foreground_color: '0xFFFFFFFE'
+    corner_radius: 5
+    border_color: '0x00000000'
+    border_size: 1e+0
+    text_color: '0xFF464646'
+    hilited_candidate_text_color: '0xFF000000'
+    hilited_candidate_back_color: '0xFF0199FE'
+    hilited_comment_text_color: '0xFF464646'
+    hilited_candidate_label_color: '0xFFFFFFFE'
+    candidate_text_color: '0xFF000000'
+    comment_text_color: '0xFF000000'
+    label_color: '0xFF000000'
+    lower_edge_color: '0x00000000'
+    shadow_color: '0x00000000'
+keyStyle:
+  萌叔-h-Light:
+    buttonBackgroundColor: '0xD5E4C8'
+    pressedButtonBackgroundColor: '0xD5E4C8'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-d-Light:
+    buttonBackgroundColor: '0xCAE2FA'
+    pressedButtonBackgroundColor: '0xCAE2FA'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-w-Dark:
+    buttonBackgroundColor: '0x4D63A0'
+    pressedButtonBackgroundColor: '0x4D63A0'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-c-Dark:
+    buttonBackgroundColor: '0x9EABB5'
+    pressedButtonBackgroundColor: '0x9EABB5'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-r-Light:
+    buttonBackgroundColor: '0xA4E0F9'
+    pressedButtonBackgroundColor: '0xA4E0F9'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-m-Light:
+    buttonBackgroundColor: '0xE2D3E7'
+    pressedButtonBackgroundColor: '0xE2D3E7'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-u-Light:
+    buttonBackgroundColor: '0xB6D195'
+    pressedButtonBackgroundColor: '0xB6D195'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-拼音123-Dark:
+    buttonBackgroundColor: '0x50808080'
+    pressedButtonBackgroundColor: '0x50808080'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0xFFFFFF'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-点-Dark:
+    buttonBackgroundColor: '0x50808080'
+    pressedButtonBackgroundColor: '0x50FFFFFF'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0xFFFFFF'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-n-Dark:
+    buttonBackgroundColor: '0xA79892'
+    pressedButtonBackgroundColor: '0xA79892'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-w-Light:
+    buttonBackgroundColor: '0x97B2F5'
+    pressedButtonBackgroundColor: '0x97B2F5'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-空格键-Dark:
+    buttonBackgroundColor: '0x50FFFFFF'
+    pressedButtonBackgroundColor: '0x50808080'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0xFFFFFF'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-q-Light:
+    buttonBackgroundColor: '0x9AA8F4'
+    pressedButtonBackgroundColor: '0x9AA8F4'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-m-Dark:
+    buttonBackgroundColor: '0x9A899C'
+    pressedButtonBackgroundColor: '0x9A899C'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-y-Light:
+    buttonBackgroundColor: '0xAEE1C3'
+    pressedButtonBackgroundColor: '0xAEE1C3'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-l-Dark:
+    buttonBackgroundColor: '0x806475'
+    pressedButtonBackgroundColor: '0x806475'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-Shift-Light:
+    buttonBackgroundColor: '0x69887E77'
+    pressedButtonBackgroundColor: '0x69FFFFFF'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-b-Light:
+    buttonBackgroundColor: '0xE3F0DC'
+    pressedButtonBackgroundColor: '0xE3F0DC'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-通用-Dark:
+    buttonBackgroundColor: '0xB7B7B5'
+    pressedButtonBackgroundColor: '0xB7B7B5'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-v-Light:
+    buttonBackgroundColor: '0xE8F7EE'
+    pressedButtonBackgroundColor: '0xE8F7EE'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-z-Dark:
+    buttonBackgroundColor: '0xA5A6B6'
+    pressedButtonBackgroundColor: '0xA5A6B6'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-y-Dark:
+    buttonBackgroundColor: '0x668F74'
+    pressedButtonBackgroundColor: '0x668F74'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-g-Light:
+    buttonBackgroundColor: '0xD7F0E5'
+    pressedButtonBackgroundColor: '0xD7F0E5'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-g-Dark:
+    buttonBackgroundColor: '0x93A8A1'
+    pressedButtonBackgroundColor: '0x93A8A1'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-q-Dark:
+    buttonBackgroundColor: '0x4F599D'
+    pressedButtonBackgroundColor: '0x4F599D'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-x-Light:
+    buttonBackgroundColor: '0xDAE7FA'
+    pressedButtonBackgroundColor: '0xDAE7FA'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-i-Dark:
+    buttonBackgroundColor: '0x80814E'
+    pressedButtonBackgroundColor: '0x80814E'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-d-Dark:
+    buttonBackgroundColor: '0x849BAC'
+    pressedButtonBackgroundColor: '0x849BAC'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-f-Light:
+    buttonBackgroundColor: '0xCFEBFD'
+    pressedButtonBackgroundColor: '0xCFEBFD'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  仿mac-重点色:
+    buttonBackgroundColor: '0xFF2C2C2C'
+    pressedButtonBackgroundColor: '0xFF2C2C2C'
+    buttonForegroundColor: '0xFFFFFFFE'
+    pressedButtonForegroundColor: '0xFFFFFFFE'
+    swipeForegroundColor: '0xFFFFFFFE'
+    pressedSwipeForegroundColor: '0xFFFFFFFE'
+    borderColor: '0xFF000000'
+    borderSize: 0.5
+    lowerEdgeColor: '0xFF000000'
+    shadowColor: '0xFF000000'
+    shadowSize: 3
+  萌叔-拼音123-Light:
+    buttonBackgroundColor: '0x69887E77'
+    pressedButtonBackgroundColor: '0x69887E77'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x016E6E6E'
+    borderSize: 0
+    lowerEdgeColor: '0x6E6E6E'
+    shadowColor: '0x01000000'
+    shadowSize: 0
+  萌叔-o-Light:
+    buttonBackgroundColor: '0xD5AA93'
+    pressedButtonBackgroundColor: '0xD5AA93'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-p-Light:
+    buttonBackgroundColor: '0xC5A5D0'
+    pressedButtonBackgroundColor: '0xC5A5D0'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-Delete-Dark:
+    buttonBackgroundColor: '0x50808080'
+    pressedButtonBackgroundColor: '0x50FFFFFF'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0xFFFFFF'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-s-Light:
+    buttonBackgroundColor: '0xC4DAFC'
+    pressedButtonBackgroundColor: '0xC4DAFC'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-p-Dark:
+    buttonBackgroundColor: '0x73567C'
+    pressedButtonBackgroundColor: '0x73567C'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-k-Dark:
+    buttonBackgroundColor: '0x90796F'
+    pressedButtonBackgroundColor: '0x90796F'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-j-Light:
+    buttonBackgroundColor: '0xE8E5CA'
+    pressedButtonBackgroundColor: '0xE8E5CA'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-回车发送键-Light:
+    buttonBackgroundColor: '0xFA7707'
+    pressedButtonBackgroundColor: '0x50FFFFFF'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x016E6E6E'
+    borderSize: 0
+    lowerEdgeColor: '0x6E6E6E'
+    shadowColor: '0x01000000'
+    shadowSize: 0
+  萌叔-i-Light:
+    buttonBackgroundColor: '0xD2D298'
+    pressedButtonBackgroundColor: '0xD2D298'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-空格键-Light:
+    buttonBackgroundColor: '0xFFFFFF'
+    pressedButtonBackgroundColor: '0x69808080'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x016E6E6E'
+    borderSize: 0
+    lowerEdgeColor: '0x6E6E6E'
+    shadowColor: '0x01000000'
+    shadowSize: 0
+  萌叔-o-Dark:
+    buttonBackgroundColor: '0x7E5748'
+    pressedButtonBackgroundColor: '0x7E5748'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-a-Dark:
+    buttonBackgroundColor: '0x8F95AD'
+    pressedButtonBackgroundColor: '0x8F95AD'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-r-Dark:
+    buttonBackgroundColor: '0x6094A5'
+    pressedButtonBackgroundColor: '0x6094A5'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  仿mac-Enter:
+    buttonBackgroundColor: '0xFFF45F27'
+    pressedButtonBackgroundColor: '0xFFF45F27'
+    buttonForegroundColor: '0xFFFFFFFE'
+    pressedButtonForegroundColor: '0xFFFFFFFE'
+    swipeForegroundColor: '0xFFFFFFFE'
+    pressedSwipeForegroundColor: '0xFFFFFFFE'
+    borderColor: '0xFF000000'
+    borderSize: 0.5
+    lowerEdgeColor: '0xFF000000'
+    shadowColor: '0xFF000000'
+    shadowSize: 1
+  萌叔-t-Light:
+    buttonBackgroundColor: '0xB2FAFE'
+    pressedButtonBackgroundColor: '0xB2FAFE'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-Delete-Light:
+    buttonBackgroundColor: '0x69887E77'
+    pressedButtonBackgroundColor: '0x69FFFFFF'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x016E6E6E'
+    borderSize: 0
+    lowerEdgeColor: '0x6E6E6E'
+    shadowColor: '0x01000000'
+    shadowSize: 0
+  萌叔-b-Dark:
+    buttonBackgroundColor: '0x8B977F'
+    pressedButtonBackgroundColor: '0x8B977F'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-u-Dark:
+    buttonBackgroundColor: '0x66804A'
+    pressedButtonBackgroundColor: '0x66804A'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-v-Dark:
+    buttonBackgroundColor: '0xA9B4AE'
+    pressedButtonBackgroundColor: '0xA9B4AE'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-e-Dark:
+    buttonBackgroundColor: '0x527EA3'
+    pressedButtonBackgroundColor: '0x527EA3'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-j-Dark:
+    buttonBackgroundColor: '0x9B9882'
+    pressedButtonBackgroundColor: '0x9B9882'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-n-Light:
+    buttonBackgroundColor: '0xF1DFD8'
+    pressedButtonBackgroundColor: '0xF1DFD8'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-a-Light:
+    buttonBackgroundColor: '0xD3DAFA'
+    pressedButtonBackgroundColor: '0xD3DAFA'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-通用-Light:
+    buttonBackgroundColor: '0xF8F7F3'
+    pressedButtonBackgroundColor: '0xF8F7F3'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-回车发送键-Dark:
+    buttonBackgroundColor: '0xFA7707'
+    pressedButtonBackgroundColor: '0x50FFFFFF'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0xFFFFFF'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0xFFFFFF'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-e-Light:
+    buttonBackgroundColor: '0x99CDF9'
+    pressedButtonBackgroundColor: '0x99CDF9'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-f-Dark:
+    buttonBackgroundColor: '0x8EA6B2'
+    pressedButtonBackgroundColor: '0x8EA6B2'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-l-Light:
+    buttonBackgroundColor: '0xD3B5C8'
+    pressedButtonBackgroundColor: '0xD3B5C8'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-k-Light:
+    buttonBackgroundColor: '0xE3C9BE'
+    pressedButtonBackgroundColor: '0xE3C9BE'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-Shift-Dark:
+    buttonBackgroundColor: '0x50808080'
+    pressedButtonBackgroundColor: '0xFFFFFF'
+    buttonForegroundColor: '0xFFFFFF'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0xFFFFFF'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x014C4B4B'
+    borderSize: 0
+    lowerEdgeColor: '0x4C4B4B'
+    shadowColor: '0x014C4B4B'
+    shadowSize: 0
+  萌叔-c-Light:
+    buttonBackgroundColor: '0xDEEEFE'
+    pressedButtonBackgroundColor: '0xDEEEFE'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-x-Dark:
+    buttonBackgroundColor: '0x99A4B1'
+    pressedButtonBackgroundColor: '0x99A4B1'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-t-Dark:
+    buttonBackgroundColor: '0x72AEB0'
+    pressedButtonBackgroundColor: '0x72AEB0'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  仿mac-主键区:
+    buttonBackgroundColor: '0xFF494849'
+    pressedButtonBackgroundColor: '0xFF494849'
+    buttonForegroundColor: '0xFFFFFFFE'
+    pressedButtonForegroundColor: '0xFFFFFFFE'
+    swipeForegroundColor: '0xFFFFFFFE'
+    pressedSwipeForegroundColor: '0xFFFFFFFE'
+    borderColor: '0xFF000000'
+    borderSize: 0.5
+    lowerEdgeColor: '0xFF000000'
+    shadowColor: '0xFF000000'
+    shadowSize: 2
+  萌叔-z-Light:
+    buttonBackgroundColor: '0xE5E8FC'
+    pressedButtonBackgroundColor: '0xE5E8FC'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-s-Dark:
+    buttonBackgroundColor: '0x7E93AD'
+    pressedButtonBackgroundColor: '0x7E93AD'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-h-Dark:
+    buttonBackgroundColor: '0x8A987E'
+    pressedButtonBackgroundColor: '0x8A987E'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x000000'
+    borderSize: 1
+    lowerEdgeColor: '0x000000'
+    shadowColor: '0x000000'
+    shadowSize: 0
+  萌叔-点-Light:
+    buttonBackgroundColor: '0x69887E77'
+    pressedButtonBackgroundColor: '0xFFFFFF'
+    buttonForegroundColor: '0x000000'
+    pressedButtonForegroundColor: '0x000000'
+    swipeForegroundColor: '0x000000'
+    pressedSwipeForegroundColor: '0x000000'
+    cornerRadius: 5
+    borderColor: '0x016E6E6E'
+    borderSize: 0
+    lowerEdgeColor: '0x6E6E6E'
+    shadowColor: '0x016E6E6E'
+    shadowSize: 0
+keyboards:
+- name: 声笔46键-仿mac-坐忘道
+  isPrimary: true
+  rows:
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '#'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: $
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '%'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ^
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '&'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Q
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: w
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: W
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: e
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: E
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: r
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: R
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: t
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: T
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '='
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: y
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Y
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: u
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: U
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: i
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: I
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: o
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: O
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: p
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: P
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: a
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: A
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: s
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: S
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '|'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: d
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: D
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ×
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: f
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: F
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ÷
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: g
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: G
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ←
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: h
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: H
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: →
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: j
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: J
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#撤销'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: '↖ '
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: k
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: K
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#重做'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ↗
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: l
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: L
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+l
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 快改
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: ；
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ：
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: tab
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: z
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Z
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#全选'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 全选
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: x
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: X
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 剪切
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: c
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: C
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 复制
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: v
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: V
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 粘贴
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: b
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: B
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 符号
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: n
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: N
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 开关
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: m
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: M
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#关闭键盘'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 键盘
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Delete
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 删词
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 清空
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        keyboardType: numericNineGrid
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: '123'
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: /
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ？
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ','
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: <
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: space
+      width:
+        portrait:
+          percentage: 0.3
+        landscape:
+          percentage: 0.3
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#中英切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: .
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '>'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ''''
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-Enter
+      darkModeStyleName: 仿mac-Enter
+  rowHeight:
+    portrait: 50
+    landscape: 45
+  buttonInsets:
+    left: 4
+    right: 4
+    top: 4
+    bottom: 4
+  keyStyle:
+    仿mac-Enter:
+      buttonBackgroundColor: '0xFFF45F27'
+      pressedButtonBackgroundColor: '0xFFF45F27'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 1
+    仿mac-主键区:
+      buttonBackgroundColor: '0xFF494849'
+      pressedButtonBackgroundColor: '0xFF494849'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 2
+    仿mac-重点色:
+      buttonBackgroundColor: '0xFF2C2C2C'
+      pressedButtonBackgroundColor: '0xFF2C2C2C'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 3
+- name: 声笔46键-仿mac-数字加深
+  isPrimary: true
+  rows:
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '#'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: $
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '%'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ^
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '&'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Q
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: w
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: W
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: e
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: E
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: r
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: R
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: t
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: T
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '='
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: y
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Y
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: u
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: U
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: i
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: I
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: o
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: O
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: p
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: P
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: a
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: A
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: s
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: S
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '|'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: d
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: D
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ×
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: f
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: F
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ÷
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: g
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: G
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ←
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: h
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: H
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: →
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: j
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: J
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#撤销'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: '↖ '
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: k
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: K
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#重做'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ↗
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: l
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: L
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+l
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 快改
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: ；
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ：
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: tab
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: z
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Z
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#全选'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 全选
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: x
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: X
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 剪切
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: c
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: C
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 复制
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: v
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: V
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 粘贴
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: b
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: B
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 符号
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: n
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: N
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 开关
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: m
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: M
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#关闭键盘'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 键盘
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Delete
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 删词
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 清空
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        keyboardType: numericNineGrid
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: '123'
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: /
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ？
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ','
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: <
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: space
+      width:
+        portrait:
+          percentage: 0.3
+        landscape:
+          percentage: 0.3
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#中英切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: .
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '>'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ''''
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-Enter
+      darkModeStyleName: 仿mac-Enter
+  rowHeight:
+    portrait: 50
+    landscape: 45
+  buttonInsets:
+    left: 4
+    right: 4
+    top: 4
+    bottom: 4
+  keyStyle:
+    仿mac-重点色:
+      buttonBackgroundColor: '0xFF2C2C2C'
+      pressedButtonBackgroundColor: '0xFF2C2C2C'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 3
+    仿mac-主键区:
+      buttonBackgroundColor: '0xFF494849'
+      pressedButtonBackgroundColor: '0xFF494849'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 2
+    仿mac-Enter:
+      buttonBackgroundColor: '0xFFF45F27'
+      pressedButtonBackgroundColor: '0xFFF45F27'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 1
+- name: 声笔45键-仿mac-数字加深
+  isPrimary: true
+  rows:
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '#'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: $
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '%'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ^
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '&'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Q
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: w
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: W
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: e
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: E
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: r
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: R
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: t
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: T
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '='
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: y
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Y
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: u
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: U
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: i
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: I
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: o
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: O
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: p
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: P
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        characterMargin:
+          char: a
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: a
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: A
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: s
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: S
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '|'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: d
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: D
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ×
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: f
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: F
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ÷
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: g
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: G
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ←
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: h
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: H
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: →
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: j
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: J
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: <
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: k
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: K
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '>'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: l
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: L
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+l
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 快改
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        characterMargin:
+          char: l
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: tab
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: z
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Z
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#全选'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 全选
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: x
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: X
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 剪切
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: c
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: C
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 复制
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: v
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: V
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 粘贴
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: b
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: B
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 符号
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: n
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: N
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 开关
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: m
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: M
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#关闭键盘'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 键盘
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Delete
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 删词
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 清空
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        keyboardType: numericNineGrid
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: '123'
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: .
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ？
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ','
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: /
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: space
+      width:
+        portrait:
+          percentage: 0.3
+        landscape:
+          percentage: 0.3
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#中英切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: ;
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ':'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ''''
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-Enter
+      darkModeStyleName: 仿mac-Enter
+  rowHeight:
+    portrait: 50
+    landscape: 45
+  buttonInsets:
+    left: 4
+    right: 4
+    top: 4
+    bottom: 4
+  keyStyle:
+    仿mac-主键区:
+      buttonBackgroundColor: '0xFF494849'
+      pressedButtonBackgroundColor: '0xFF494849'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 2
+    仿mac-重点色:
+      buttonBackgroundColor: '0xFF2C2C2C'
+      pressedButtonBackgroundColor: '0xFF2C2C2C'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 3
+    仿mac-Enter:
+      buttonBackgroundColor: '0xFFF45F27'
+      pressedButtonBackgroundColor: '0xFFF45F27'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 1
+- name: 声笔trime-坐忘道-彩
+  isPrimary: true
+  rows:
+  - rowHeight:
+      portrait: 45
+      landscape: 40
+    keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '#'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: $
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '%'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ^
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '&'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-q-Light
+      darkModeStyleName: 萌叔-q-Dark
+    - action:
+        character:
+          char: w
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-w-Light
+      darkModeStyleName: 萌叔-w-Dark
+    - action:
+        character:
+          char: e
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-e-Light
+      darkModeStyleName: 萌叔-e-Dark
+    - action:
+        character:
+          char: r
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-r-Light
+      darkModeStyleName: 萌叔-r-Dark
+    - action:
+        character:
+          char: t
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '='
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-t-Light
+      darkModeStyleName: 萌叔-t-Dark
+    - action:
+        character:
+          char: y
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-y-Light
+      darkModeStyleName: 萌叔-y-Dark
+    - action:
+        character:
+          char: u
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-u-Light
+      darkModeStyleName: 萌叔-u-Dark
+    - action:
+        character:
+          char: i
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-i-Light
+      darkModeStyleName: 萌叔-i-Dark
+    - action:
+        character:
+          char: o
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-o-Light
+      darkModeStyleName: 萌叔-o-Dark
+    - action:
+        character:
+          char: p
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-p-Light
+      darkModeStyleName: 萌叔-p-Dark
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        characterMargin:
+          char: a
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+    - action:
+        character:
+          char: a
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-a-Light
+      darkModeStyleName: 萌叔-a-Dark
+    - action:
+        character:
+          char: s
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '|'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-s-Light
+      darkModeStyleName: 萌叔-s-Dark
+    - action:
+        character:
+          char: d
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ×
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-d-Light
+      darkModeStyleName: 萌叔-d-Dark
+    - action:
+        character:
+          char: f
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ÷
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-f-Light
+      darkModeStyleName: 萌叔-f-Dark
+    - action:
+        character:
+          char: g
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ←
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-g-Light
+      darkModeStyleName: 萌叔-g-Dark
+    - action:
+        character:
+          char: h
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: →
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-h-Light
+      darkModeStyleName: 萌叔-h-Dark
+    - action:
+        character:
+          char: j
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: <
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-j-Light
+      darkModeStyleName: 萌叔-j-Dark
+    - action:
+        character:
+          char: k
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '>'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-k-Light
+      darkModeStyleName: 萌叔-k-Dark
+    - action:
+        character:
+          char: l
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+l
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 快改
+      callout: []
+      lightModeStyleName: 萌叔-l-Light
+      darkModeStyleName: 萌叔-l-Dark
+    - action:
+        characterMargin:
+          char: l
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: tab
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: z
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#全选'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 全选
+      callout: []
+      lightModeStyleName: 萌叔-z-Light
+      darkModeStyleName: 萌叔-z-Dark
+    - action:
+        character:
+          char: x
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 剪切
+      callout: []
+      lightModeStyleName: 萌叔-x-Light
+      darkModeStyleName: 萌叔-x-Dark
+    - action:
+        character:
+          char: c
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 复制
+      callout: []
+      lightModeStyleName: 萌叔-c-Light
+      darkModeStyleName: 萌叔-c-Dark
+    - action:
+        character:
+          char: v
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 粘贴
+      callout: []
+      lightModeStyleName: 萌叔-v-Light
+      darkModeStyleName: 萌叔-v-Dark
+    - action:
+        character:
+          char: b
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 符号
+      callout: []
+      lightModeStyleName: 萌叔-b-Light
+      darkModeStyleName: 萌叔-b-Dark
+    - action:
+        character:
+          char: n
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 开关
+      callout: []
+      lightModeStyleName: 萌叔-n-Light
+      darkModeStyleName: 萌叔-n-Dark
+    - action:
+        character:
+          char: m
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#关闭键盘'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 键盘
+      callout: []
+      lightModeStyleName: 萌叔-m-Light
+      darkModeStyleName: 萌叔-m-Dark
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Delete
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 删词
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 清空
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+  - rowHeight:
+      portrait: 45
+      landscape: 40
+    keys:
+    - action:
+        keyboardType: numericNineGrid
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: '123'
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: .
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ？
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: ','
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: /
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action: space
+      width:
+        portrait:
+          percentage: 0.3
+        landscape:
+          percentage: 0.3
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#中英切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: ;
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ':'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action:
+        character:
+          char: ''''
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 萌叔-通用-Light
+      darkModeStyleName: 萌叔-通用-Dark
+  rowHeight:
+    portrait: 50
+    landscape: 45
+  buttonInsets:
+    left: 2
+    right: 2
+    top: 2
+    bottom: 2
+  keyStyle:
+    萌叔-b-Dark:
+      buttonBackgroundColor: '0x8B977F'
+      pressedButtonBackgroundColor: '0x8B977F'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-y-Dark:
+      buttonBackgroundColor: '0x668F74'
+      pressedButtonBackgroundColor: '0x668F74'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-f-Dark:
+      buttonBackgroundColor: '0x8EA6B2'
+      pressedButtonBackgroundColor: '0x8EA6B2'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-u-Dark:
+      buttonBackgroundColor: '0x66804A'
+      pressedButtonBackgroundColor: '0x66804A'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-a-Light:
+      buttonBackgroundColor: '0xD3DAFA'
+      pressedButtonBackgroundColor: '0xD3DAFA'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-空格键-Dark:
+      buttonBackgroundColor: '0x50FFFFFF'
+      pressedButtonBackgroundColor: '0x50808080'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0xFFFFFF'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-l-Light:
+      buttonBackgroundColor: '0xD3B5C8'
+      pressedButtonBackgroundColor: '0xD3B5C8'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-i-Dark:
+      buttonBackgroundColor: '0x80814E'
+      pressedButtonBackgroundColor: '0x80814E'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-x-Light:
+      buttonBackgroundColor: '0xDAE7FA'
+      pressedButtonBackgroundColor: '0xDAE7FA'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-n-Dark:
+      buttonBackgroundColor: '0xA79892'
+      pressedButtonBackgroundColor: '0xA79892'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-w-Light:
+      buttonBackgroundColor: '0x97B2F5'
+      pressedButtonBackgroundColor: '0x97B2F5'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-r-Light:
+      buttonBackgroundColor: '0xA4E0F9'
+      pressedButtonBackgroundColor: '0xA4E0F9'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-k-Light:
+      buttonBackgroundColor: '0xE3C9BE'
+      pressedButtonBackgroundColor: '0xE3C9BE'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-t-Light:
+      buttonBackgroundColor: '0xB2FAFE'
+      pressedButtonBackgroundColor: '0xB2FAFE'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-g-Dark:
+      buttonBackgroundColor: '0x93A8A1'
+      pressedButtonBackgroundColor: '0x93A8A1'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-i-Light:
+      buttonBackgroundColor: '0xD2D298'
+      pressedButtonBackgroundColor: '0xD2D298'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-v-Light:
+      buttonBackgroundColor: '0xE8F7EE'
+      pressedButtonBackgroundColor: '0xE8F7EE'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-k-Dark:
+      buttonBackgroundColor: '0x90796F'
+      pressedButtonBackgroundColor: '0x90796F'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-t-Dark:
+      buttonBackgroundColor: '0x72AEB0'
+      pressedButtonBackgroundColor: '0x72AEB0'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-通用-Dark:
+      buttonBackgroundColor: '0xB7B7B5'
+      pressedButtonBackgroundColor: '0xB7B7B5'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-拼音123-Light:
+      buttonBackgroundColor: '0x69887E77'
+      pressedButtonBackgroundColor: '0x69887E77'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x016E6E6E'
+      borderSize: 0
+      lowerEdgeColor: '0x6E6E6E'
+      shadowColor: '0x01000000'
+      shadowSize: 0
+    萌叔-p-Dark:
+      buttonBackgroundColor: '0x73567C'
+      pressedButtonBackgroundColor: '0x73567C'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-g-Light:
+      buttonBackgroundColor: '0xD7F0E5'
+      pressedButtonBackgroundColor: '0xD7F0E5'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-e-Light:
+      buttonBackgroundColor: '0x99CDF9'
+      pressedButtonBackgroundColor: '0x99CDF9'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-Delete-Light:
+      buttonBackgroundColor: '0x69887E77'
+      pressedButtonBackgroundColor: '0x69FFFFFF'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x016E6E6E'
+      borderSize: 0
+      lowerEdgeColor: '0x6E6E6E'
+      shadowColor: '0x01000000'
+      shadowSize: 0
+    萌叔-r-Dark:
+      buttonBackgroundColor: '0x6094A5'
+      pressedButtonBackgroundColor: '0x6094A5'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-e-Dark:
+      buttonBackgroundColor: '0x527EA3'
+      pressedButtonBackgroundColor: '0x527EA3'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-w-Dark:
+      buttonBackgroundColor: '0x4D63A0'
+      pressedButtonBackgroundColor: '0x4D63A0'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-u-Light:
+      buttonBackgroundColor: '0xB6D195'
+      pressedButtonBackgroundColor: '0xB6D195'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-d-Dark:
+      buttonBackgroundColor: '0x849BAC'
+      pressedButtonBackgroundColor: '0x849BAC'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-m-Dark:
+      buttonBackgroundColor: '0x9A899C'
+      pressedButtonBackgroundColor: '0x9A899C'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-v-Dark:
+      buttonBackgroundColor: '0xA9B4AE'
+      pressedButtonBackgroundColor: '0xA9B4AE'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-回车发送键-Light:
+      buttonBackgroundColor: '0xFA7707'
+      pressedButtonBackgroundColor: '0x50FFFFFF'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x016E6E6E'
+      borderSize: 0
+      lowerEdgeColor: '0x6E6E6E'
+      shadowColor: '0x01000000'
+      shadowSize: 0
+    萌叔-Shift-Dark:
+      buttonBackgroundColor: '0x50808080'
+      pressedButtonBackgroundColor: '0xFFFFFF'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-o-Light:
+      buttonBackgroundColor: '0xD5AA93'
+      pressedButtonBackgroundColor: '0xD5AA93'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-Shift-Light:
+      buttonBackgroundColor: '0x69887E77'
+      pressedButtonBackgroundColor: '0x69FFFFFF'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-x-Dark:
+      buttonBackgroundColor: '0x99A4B1'
+      pressedButtonBackgroundColor: '0x99A4B1'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-s-Dark:
+      buttonBackgroundColor: '0x7E93AD'
+      pressedButtonBackgroundColor: '0x7E93AD'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-b-Light:
+      buttonBackgroundColor: '0xE3F0DC'
+      pressedButtonBackgroundColor: '0xE3F0DC'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-z-Light:
+      buttonBackgroundColor: '0xE5E8FC'
+      pressedButtonBackgroundColor: '0xE5E8FC'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-c-Light:
+      buttonBackgroundColor: '0xDEEEFE'
+      pressedButtonBackgroundColor: '0xDEEEFE'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-Delete-Dark:
+      buttonBackgroundColor: '0x50808080'
+      pressedButtonBackgroundColor: '0x50FFFFFF'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0xFFFFFF'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-q-Dark:
+      buttonBackgroundColor: '0x4F599D'
+      pressedButtonBackgroundColor: '0x4F599D'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-s-Light:
+      buttonBackgroundColor: '0xC4DAFC'
+      pressedButtonBackgroundColor: '0xC4DAFC'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-p-Light:
+      buttonBackgroundColor: '0xC5A5D0'
+      pressedButtonBackgroundColor: '0xC5A5D0'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-j-Dark:
+      buttonBackgroundColor: '0x9B9882'
+      pressedButtonBackgroundColor: '0x9B9882'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-回车发送键-Dark:
+      buttonBackgroundColor: '0xFA7707'
+      pressedButtonBackgroundColor: '0x50FFFFFF'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0xFFFFFF'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-l-Dark:
+      buttonBackgroundColor: '0x806475'
+      pressedButtonBackgroundColor: '0x806475'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-q-Light:
+      buttonBackgroundColor: '0x9AA8F4'
+      pressedButtonBackgroundColor: '0x9AA8F4'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-c-Dark:
+      buttonBackgroundColor: '0x9EABB5'
+      pressedButtonBackgroundColor: '0x9EABB5'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-j-Light:
+      buttonBackgroundColor: '0xE8E5CA'
+      pressedButtonBackgroundColor: '0xE8E5CA'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-点-Dark:
+      buttonBackgroundColor: '0x50808080'
+      pressedButtonBackgroundColor: '0x50FFFFFF'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0xFFFFFF'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-点-Light:
+      buttonBackgroundColor: '0x69887E77'
+      pressedButtonBackgroundColor: '0xFFFFFF'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x016E6E6E'
+      borderSize: 0
+      lowerEdgeColor: '0x6E6E6E'
+      shadowColor: '0x016E6E6E'
+      shadowSize: 0
+    萌叔-d-Light:
+      buttonBackgroundColor: '0xCAE2FA'
+      pressedButtonBackgroundColor: '0xCAE2FA'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-o-Dark:
+      buttonBackgroundColor: '0x7E5748'
+      pressedButtonBackgroundColor: '0x7E5748'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-f-Light:
+      buttonBackgroundColor: '0xCFEBFD'
+      pressedButtonBackgroundColor: '0xCFEBFD'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-m-Light:
+      buttonBackgroundColor: '0xE2D3E7'
+      pressedButtonBackgroundColor: '0xE2D3E7'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-h-Light:
+      buttonBackgroundColor: '0xD5E4C8'
+      pressedButtonBackgroundColor: '0xD5E4C8'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-空格键-Light:
+      buttonBackgroundColor: '0xFFFFFF'
+      pressedButtonBackgroundColor: '0x69808080'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x016E6E6E'
+      borderSize: 0
+      lowerEdgeColor: '0x6E6E6E'
+      shadowColor: '0x01000000'
+      shadowSize: 0
+    萌叔-a-Dark:
+      buttonBackgroundColor: '0x8F95AD'
+      pressedButtonBackgroundColor: '0x8F95AD'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-z-Dark:
+      buttonBackgroundColor: '0xA5A6B6'
+      pressedButtonBackgroundColor: '0xA5A6B6'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-n-Light:
+      buttonBackgroundColor: '0xF1DFD8'
+      pressedButtonBackgroundColor: '0xF1DFD8'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-h-Dark:
+      buttonBackgroundColor: '0x8A987E'
+      pressedButtonBackgroundColor: '0x8A987E'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-通用-Light:
+      buttonBackgroundColor: '0xF8F7F3'
+      pressedButtonBackgroundColor: '0xF8F7F3'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+    萌叔-拼音123-Dark:
+      buttonBackgroundColor: '0x50808080'
+      pressedButtonBackgroundColor: '0x50808080'
+      buttonForegroundColor: '0xFFFFFF'
+      pressedButtonForegroundColor: '0xFFFFFF'
+      swipeForegroundColor: '0xFFFFFF'
+      pressedSwipeForegroundColor: '0xFFFFFF'
+      cornerRadius: 5
+      borderColor: '0x014C4B4B'
+      borderSize: 0
+      lowerEdgeColor: '0x4C4B4B'
+      shadowColor: '0x014C4B4B'
+      shadowSize: 0
+    萌叔-y-Light:
+      buttonBackgroundColor: '0xAEE1C3'
+      pressedButtonBackgroundColor: '0xAEE1C3'
+      buttonForegroundColor: '0x000000'
+      pressedButtonForegroundColor: '0x000000'
+      swipeForegroundColor: '0x000000'
+      pressedSwipeForegroundColor: '0x000000'
+      cornerRadius: 5
+      borderColor: '0x000000'
+      borderSize: 1
+      lowerEdgeColor: '0x000000'
+      shadowColor: '0x000000'
+      shadowSize: 0
+- name: 声笔45键-仿mac-坐忘道
+  isPrimary: true
+  rows:
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        character:
+          char: '1'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '!'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '2'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '@'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '3'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '#'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '4'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: $
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '5'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '%'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '6'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ^
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '7'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '&'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '8'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '*'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '9'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: (
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: '0'
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: )
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        character:
+          char: q
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Q
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '`'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: w
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: W
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '~'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: e
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: E
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: +
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: r
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: R
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '-'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: t
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: T
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '='
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: y
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Y
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: _
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: u
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: U
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '{'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: i
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: I
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '}'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: o
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: O
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '['
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: p
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: P
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ']'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action:
+        characterMargin:
+          char: a
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: a
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: A
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: \
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: s
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: S
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '|'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: d
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: D
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ×
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: f
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: F
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ÷
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: g
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: G
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ←
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: h
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: H
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: →
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: j
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: J
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: <
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: k
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: K
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '>'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: l
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: L
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+l
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 快改
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        characterMargin:
+          char: l
+      width:
+        portrait: input
+        landscape: input
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe: []
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+  - rowHeight:
+      portrait: 50
+      landscape: 45
+    keys:
+    - action: shift
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: tab
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Tab
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: z
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: Z
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#全选'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 全选
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: x
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: X
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#剪切'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 剪切
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: c
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: C
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#复制'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 复制
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: v
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: V
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#粘贴'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 粘贴
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: b
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: B
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          keyboardType: classifySymbolic
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 符号
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: n
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: N
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#RimeSwitcher'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 开关
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: m
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: M
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#关闭键盘'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: 键盘
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action: backspace
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Shift+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: down
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Delete
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 删词
+      - direction: left
+        action:
+          shortcutCommand: '#重输'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: 清空
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+  - rowHeight:
+      portrait: 50
+      landscape: 40
+    keys:
+    - action:
+        keyboardType: numericNineGrid
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: '123'
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#简繁切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: .
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ？
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ','
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: /
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: space
+      width:
+        portrait:
+          percentage: 0.3
+        landscape:
+          percentage: 0.3
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand: '#中英切换'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      - direction: left
+        action:
+          shortcutCommand: '#左移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      - direction: right
+        action:
+          shortcutCommand: '#右移'
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-主键区
+      darkModeStyleName: 仿mac-主键区
+    - action:
+        character:
+          char: ;
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: ':'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action:
+        character:
+          char: ''''
+      width:
+        portrait:
+          percentage: 0.1
+        landscape:
+          percentage: 0.1
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          character:
+            char: '"'
+        processByRIME: true
+        display: true
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-重点色
+      darkModeStyleName: 仿mac-重点色
+    - action: enter
+      width:
+        portrait:
+          percentage: 0.15
+        landscape:
+          percentage: 0.15
+      label:
+        loadingText: ''
+        text: ''
+      processByRIME: true
+      swipe:
+      - direction: up
+        action:
+          shortcutCommand:
+            sendKeys:
+              keys: Control+Return
+        processByRIME: true
+        display: false
+        label:
+          loadingText: ''
+          text: ''
+      callout: []
+      lightModeStyleName: 仿mac-Enter
+      darkModeStyleName: 仿mac-Enter
+  rowHeight:
+    portrait: 50
+    landscape: 45
+  buttonInsets:
+    left: 4
+    right: 4
+    top: 4
+    bottom: 4
+  keyStyle:
+    仿mac-主键区:
+      buttonBackgroundColor: '0xFF494849'
+      pressedButtonBackgroundColor: '0xFF494849'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 2
+    仿mac-重点色:
+      buttonBackgroundColor: '0xFF2C2C2C'
+      pressedButtonBackgroundColor: '0xFF2C2C2C'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 3
+    仿mac-Enter:
+      buttonBackgroundColor: '0xFFF45F27'
+      pressedButtonBackgroundColor: '0xFFF45F27'
+      buttonForegroundColor: '0xFFFFFFFE'
+      pressedButtonForegroundColor: '0xFFFFFFFE'
+      swipeForegroundColor: '0xFFFFFFFE'
+      pressedSwipeForegroundColor: '0xFFFFFFFE'
+      borderColor: '0xFF000000'
+      borderSize: 0.5
+      lowerEdgeColor: '0xFF000000'
+      shadowColor: '0xFF000000'
+      shadowSize: 1
