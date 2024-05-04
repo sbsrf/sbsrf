@@ -40,8 +40,11 @@ function this.func(key_event, env)
       or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
       or segment:has_tag("lua") then
     if (string.find(key, "[_23789]")) then
+      local temp = env.engine.schema.select_keys
       env.engine.schema.select_keys = "_23789"
-      return env.selector:process_key_event(key_event)
+      local ret = env.selector:process_key_event(key_event)
+      env.engine.schema.select_keys = temp
+      return ret
     end
   end
   if not env.select_keys[key] then
