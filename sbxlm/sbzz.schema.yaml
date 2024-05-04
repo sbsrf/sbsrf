@@ -97,3 +97,19 @@ reverse_lookup:
   __include: sbpy.schema.yaml:/reverse_lookup
   comment_format:
     __include: /sbzz_algebra
+
+sbzz_extra_bindings:
+  __append:
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 0, send_sequence: "{End}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: Tab, send_sequence: "2" }
+
+key_binder:
+  bindings:
+    __patch: 
+      - sbxlm.yaml:/rime_key_bindings
+      - sbxlm.yaml:/sbxlm_basic_bindings
+      - /sbzz_extra_bindings
