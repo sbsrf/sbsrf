@@ -55,7 +55,7 @@ function this.func(translation, env)
       end
     end
     if candidate.comment:len() > 0 then
-      if schema_id == "sbpy" or schema_id == "sbjp" then
+      if (schema_id == "sbpy" or schema_id == "sbjp") and segment:has_tag("abc") then
         candidate.comment = key .. candidate.comment
       elseif (input:len() == 7 and core.fx(schema_id) and rime.match(input, pattern)) then
         candidate.comment = key
