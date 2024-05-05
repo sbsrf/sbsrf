@@ -68,6 +68,15 @@ function this.func(translation, env)
 				end
 			end
 		end
+		-- 声笔简码正码时提示一二简数选字词
+		if core.jm(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}[aeuio]{1,}") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9]") and is_enhanced) then
+					candidate.comment = candidate.comment .. " " .. code
+				end
+			end
+		end		
 		-- 除了以上情况之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
 		if i > 1 then
 		    -- 如果是双拼的声声词，也直接通过
@@ -105,7 +114,7 @@ function this.func(translation, env)
 			for entry in memory:iter_dict()
 			do
 				if candidate:get_genuine().text ~= entry.text then
-				  candidate:get_genuine().comment = ' ' .. entry.text
+				  candidate:get_genuine().comment = candidate:get_genuine().comment..  ' ' .. entry.text
 				  break
 				end
 			end
