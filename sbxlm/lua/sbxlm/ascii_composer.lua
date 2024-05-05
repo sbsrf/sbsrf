@@ -77,6 +77,7 @@ function this.func(key_event, env)
           context:set_option("not_single_display", true)
         end
         return rime.process_results.kNoop
+  -- 声笔简码在码长5以上时，单引号进入打空造词
   elseif (not ascii_mode and segment and segment:has_tag("abc") and segment.length >= 5
       and key_event.keycode == string.byte("'") and not key_event:release()
       and core.jm(env.engine.schema.schema_id)) then
@@ -84,6 +85,16 @@ function this.func(key_event, env)
         if segment.length == 6 then diff = 1 end
         context:pop_input(segment.length - 4)
         context.caret_pos = segment.start + 1
+        context:push_input(input:sub(input:len() - diff, -1))
+        return rime.process_results.kAccepted
+  -- 声笔双拼在码长5以上时，单引号进入打空造词
+  elseif (not ascii_mode and segment and segment:has_tag("abc") and segment.length >= 5
+      and key_event.keycode == string.byte("'") and not key_event:release()
+      and core.sp(env.engine.schema.schema_id)) then
+        local diff = 0
+        if segment.length == 6 then diff = 1 end
+        context:pop_input(segment.length - 4)
+        context.caret_pos = segment.start + 2
         context:push_input(input:sub(input:len() - diff, -1))
         return rime.process_results.kAccepted
   end
