@@ -108,7 +108,8 @@ function this.func(key_event, env)
         return rime.process_results.kAccepted
   end
   -- 在码长为1时，取消临时重码提示
-  if input:len() == 1 and context:get_option("single_display") then
+  if not ascii_mode and segment and segment:has_tag("abc") 
+      and input:len() == 1 and context:get_option("single_display") then
     context:set_option("not_single_display", false)
   end
 
