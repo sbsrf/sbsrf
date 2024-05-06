@@ -39,9 +39,15 @@ function this.func(key_event, env)
   if segment:has_tag("hypy") or segment:has_tag("bihua")
       or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
       or segment:has_tag("lua") then
-    if (string.find(key, "[_23789]")) then
+    local pat = "[_23789]"
+    local str = "_23789"
+    if segment:has_tag("lua") then
+      str = "_aeuio"
+      pat = "[_aeuio]"
+    end
+    if (string.find(key, pat)) then
       local temp = env.engine.schema.select_keys
-      env.engine.schema.select_keys = "_23789"
+      env.engine.schema.select_keys = str
       local ret = env.selector:process_key_event(key_event)
       env.engine.schema.select_keys = temp
       return ret

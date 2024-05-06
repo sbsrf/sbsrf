@@ -210,7 +210,7 @@ recognizer:
     zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"
-    lua: "^o[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
+    lua: "^o[bpmfdtnlgkhjqxzcsrywv0-9]+$"
     history: "^;$"
 
 punctuator:

@@ -20,7 +20,7 @@ function this.tags_match(segment, env)
   local input = rime.current(env.engine.context) or ""
   return (segment:has_tag("abc") and rime.match(input, pattern))
       or segment:has_tag("punct") or segment:has_tag("hypy")
-      or segment:has_tag("bihua") or segment:has_tag("zhlf")
+      or input:len() >= 2 and segment:has_tag("bihua") or segment:has_tag("zhlf")
       or segment:has_tag("sbzdy") or segment:has_tag("lua")
 end
 
@@ -31,10 +31,11 @@ function this.func(translation, env)
   local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
   local segment = env.engine.context.composition:back()
-  if segment:has_tag("hypy") or segment:has_tag("bihua")
-      or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
-      or segment:has_tag("lua") then
+  if segment:has_tag("hypy") or input:len() >= 2 and segment:has_tag("bihua")
+      or segment:has_tag("zhlf") or segment:has_tag("sbzdy") then
     select_keys = "_23789"
+  elseif segment:has_tag("lua") then
+    select_keys = "_aeuio"
   end
   local i = 0
   local pattern = "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+"
