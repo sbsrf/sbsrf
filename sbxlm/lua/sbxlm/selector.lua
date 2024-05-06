@@ -50,7 +50,7 @@ function this.func(key_event, env)
   if not env.select_keys[key] then
     return rime.process_results.kNoop
   end
-  if segment:has_tag("punct") or segment:has_tag("paging") then
+  if segment:has_tag("punct") or (segment:has_tag("paging") and not context:get_option("not_single_display")) then
     return env.selector:process_key_event(key_event)
   end
   local input = rime.current(context)
