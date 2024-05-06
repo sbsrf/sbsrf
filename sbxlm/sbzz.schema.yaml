@@ -7,7 +7,7 @@ schema:
   schema_id: sbzz
   name: 声笔自整
   version: "10.0"
-  icon: "sbsrf.ico"
+  icon: "sbxlm.ico"
   author:
     - 戴石麟 <https://sbxlm.github.io>
     - 蓝落萧 <https://tansongchen.com>
