@@ -51,6 +51,13 @@ height:
   
  #菜单行 Z+G+V*6+G+Q+Y=100
   
+#计算器键盘
+  A: &jsqhg 40    #主键行高
+  B: &jsqhj 2     #行距
+  C: &jsqlj 2     #竖距
+  D: &jsqyj 8     #圆角
+
+
 # ----------上下档符号位置调整----------
 
   Ⅰ: &DsymY 2   #上档文字纵向位置调节
@@ -164,7 +171,7 @@ style:
   key_long_text_size: 15 #两字以上时键字号
   key_text_size: 21 #键字号
   key_width: 10.0 #键宽，占银幕宽的百分比
-  keyboards: [.default, default, defaultVJ, qtbz, sbxlzj, sbfmzj, sbzrzj, sbxhzj, letter, number, edit, menu, symbols, symbolsSZ, symbolsEN, symbolsCN, emoji, emoji2, symbolsTS, symbolsTS2, symbolsXH, symbolsXH2, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z, qzjt] #键盘配置
+  keyboards: [.default, default, defaultVJ, qtbz, jsqjp, sbxlzj, sbfmzj, sbzrzj, sbxhzj, letter, number, edit, menu, symbols, symbolsSZ, symbolsEN, symbolsCN, emoji, emoji2, symbolsTS, symbolsTS2, symbolsXH, symbolsXH2, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z, qzjt] #键盘配置
   label_text_size: 14 #悬浮窗序号字号
   label_font: ziti.ttf #标签字型
   latin_font: latin.ttf #西文字型
@@ -2007,7 +2014,7 @@ preset_keyboards:
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, hilited_key_text_color: hsht, width: 15}
       # 第四行
-      - {click: K_symbols123, width: *SBK, paging: Page_Up, composing: Escape, swipe_up: Schema_switch, long_click: K_menu, key_symbol_offset_x: 0, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
+      - {click: K_symbols123, width: *SBK, paging: Page_Up, composing: Escape, swipe_up: "{Schema_switch}", swipe_left: '{q_jsqjp}=', swipe_right: '{q_jsqjp}=', long_click: K_menu, key_symbol_offset_x: 0, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择
       - {click: ".", label: " 。", long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, width: 12.5, key_text_size: 14, key_symbol_offset_x: 12, key_back_color: bdb, key_text_color: bdt, key_symbol_color: bds, hilited_key_back_color: bdh, hilited_key_text_color: bdht, hilited_key_symbol_color: bdhs}
       - {click: ",", label: " ，", long_click: "/", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨,  width: *FHK, key_text_size: 14, key_text_offset_y: -3, key_symbol_offset_y: 8, key_symbol_offset_x: 0, key_back_color: zzkgb, key_text_color: zkgt, hilited_key_text_color: zkght, key_symbol_color: kgs, hilited_key_symbol_color: kghs, hilited_key_back_color: zzkgh}
       - {click: space, long_click: Candidate_switch, swipe_up: '{space}{Mode_switch}', swipe_down: '{Shift+space}', swipe_left: "Left", swipe_right: "Right", width: *KGK, key_text_size: 14, key_text_offset_x: 0, key_text_offset_y: 3, key_symbol_offset_x: 0, key_symbol_offset_y: 8, key_back_color: kgzb, key_text_color: kgt, key_symbol_color: kgs, hilited_key_back_color: kgzh, hilited_key_text_color: kght, hilited_key_symbol_color: kghs}
@@ -3405,6 +3412,79 @@ preset_keyboards:
     name: "序号2"
     width: 14
 
+  jsqjp:
+    author: 莫颜 #计算器键盘
+    ascii_mode: 1
+    height: *jsqhg                  #键盘行高
+    horizontal_gap: *jsqlj          #键盘列行距
+    vertical_gap: *jsqhj            #键盘行距
+    round_corner: *jsqyj            #候选窗口圆角
+    key_text_offset_y: *DtextY      #键盘字母纵向位置调节
+    keys:
+      - {height: *ZGH, width: 100}
+# 第一行
+      - {width: 1.5}
+      - {click: "sum", long_click: 'max'}
+      - {click: "avg", long_click: 'min'}
+      - {width: 18, click: "sin", long_click: "asin"}
+      - {width: 18, click: "cos", long_click: "acos"}
+      - {width: 18, click: "tan", long_click: "atan"}
+      - {width: 15, click: "BackSpace2", swipe_up: Escape, swipe_left: Escape, swipe_down: Escape, hint: "esc", key_back_color: szhcb, key_text_color: szhct, hilited_key_back_color: szhch, hilited_key_text_color: szhcht}
+      - {width: 1.5}
+
+#第二行
+      - {width: 1.5}
+      - {click: "log", long_click: 'map'}
+      - {click: "ln", long_click: 'exp'}
+      - {width: 18, click: "sqrt", long_click: abs, label: "ˣ√￣"}
+      - {width: 18, click: "^", long_click: fac}
+      - {width: 18, click: "%", long_click: mod}
+      - {width: 15, click: "/", long_click: '\'}
+      - {width: 1.5}
+
+#第三行
+      - {width: 1.5}
+      - {click: "{", long_click: $}
+      - {click: "}", long_click: x}
+      - {width: 18, click: "7"}
+      - {width: 18, click: "8"}
+      - {width: 18, click: "9"}
+      - {width: 15, click: "*", long_click: trunc}
+      - {width: 1.5}
+
+#第四行
+      - {width: 1.5}
+      - {click: "(", long_click: rad}
+      - {click: ")", long_click: deg}
+      - {width: 18, click: "4"}
+      - {width: 18, click: "5"}
+      - {width: 18, click: "6"}
+      - {width: 15, click: "+", long_click: ceil}
+      - {width: 1.5}
+
+#第五行
+      - {width: 1.5}
+      - {click: "=", long_click: '|'}
+      - {click: "pi", long_click: "e", label: "π"}
+      - {width: 18, click: "1"}
+      - {width: 18, click: "2"}
+      - {width: 18, click: "3"}
+      - {width: 15, click: "-", long_click: floor}
+      - {width: 1.5}
+
+
+#第六行
+      - {width: 1.5}
+      - {click: "K_back1", long_click: deriv, key_back_color: szhcb, key_text_color: szhct, hilited_key_back_color: szhch, hilited_key_text_color: szhcht}
+      - {click: ",", long_click: integ}
+      - {width: 18, click: space2, label: "输出", long_click: random, key_back_color: szhcb, key_text_color: szhct, hilited_key_back_color: szhch, hilited_key_text_color: szhcht}
+      - {width: 18, click: "0"}
+      - {width: 18, click: ".", long_click: range}
+      - {width: 15, click: Return, key_back_color: szhcb, key_text_color: szhct, hilited_key_back_color: szhch, hilited_key_text_color: szhcht}
+      - {width: 1.5}
+    name: '计算器键盘'
+    width: 14
+
   qtbz:
     author: 青 铜 #帮助，
     height: *VJG #高
@@ -3539,6 +3619,7 @@ preset_keys:
   Hide1: {text: "{Hide}{K_back}", label: ﹀, send: BACK}
   BackSpace: {label: ⌫, preview: ⌫, repeatable: true, send: BackSpace}
   BackSpace1: {label: ⌫, preview: ⌫, repeatable: true, functional: false, send: BackSpace}
+  BackSpace2: {label: 退格, preview: 退格, repeatable: true, send: BackSpace}
   less: {label: "’", send: less}#新加近练了
   greater: {label: " ；", send: greater}
   space: {repeatable: false, preview: ␣, functional: false, send: space}
@@ -3643,6 +3724,7 @@ preset_keys:
   K_last: {label: 后退, functional: false, send: Eisu_toggle, select: .last}
   ctrl_l: {label: ⇐, functional: false, send: Control+l}
   q_bz: {label: "?", send: Eisu_toggle, select: qtbz} #帮助
+  q_jsqjp: {label: "计算器", send: Eisu_toggle, select: "jsqjp"}
 
   #帮助——
   t_bz1: {label: "  声笔系列码", functional: false}

@@ -25,6 +25,12 @@ height:
   C: &DUL 2 #竖距
   D: &DUY 10 #圆角
 
+#计算器键盘
+  A: &jsqhg 40    #主键行高
+  B: &jsqhj 2     #行距
+  C: &jsqlj 2     #竖距
+  D: &jsqyj 8     #圆角
+
 #符号
   A: &FHG 38 #键高
   B: &FHH 3 #行距
@@ -36,7 +42,7 @@ height:
   B: &SZH 4 #行距
   C: &SZL 3 #竖距
   D: &SZY 10 #圆角
-  
+
 #字符坐标
   1: &DsymY 0.5 #上标纵
   2: &DsymX 0 #上标横
@@ -113,7 +119,7 @@ style:
   key_long_text_size: 12 #两字以上时键字号
   key_text_size: 21 #键字号
   key_width: 10.0 #键宽，占银幕宽的百分比
-  keyboards: [.default, qtxd, qtbj, cjbj, number, qtlssz, qtzb, qtyb, qtxh, qtxh2, qtVJ, qtbz, qtux, qtzm, qtbq, qtbq1, qtbq2, qtbq3, qtbq4, qtbq5, qtts1, qtts2, qtts3, qtts4, qtts5, qtts6, sbxlzj, sbfmzj, sbzrzj, sbxhzj, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z] #声明
+  keyboards: [.default, qtxd, qtbj, cjbj, number, qtlssz, jsqjp, qtzb, qtyb, qtxh, qtxh2, qtVJ, qtbz, qtux, qtzm, qtbq, qtbq1, qtbq2, qtbq3, qtbq4, qtbq5, qtts1, qtts2, qtts3, qtts4, qtts5, qtts6, sbxlzj, sbfmzj, sbzrzj, sbxhzj, ZJJP-A, ZJJP-B, ZJJP-C, ZJJP-D, ZJJP-E, ZJJP-F, ZJJP-G, ZJJP-H, ZJJP-I, ZJJP-J, ZJJP-K, ZJJP-L, ZJJP-M, ZJJP-N, ZJJP-O, ZJJP-P, ZJJP-Q, ZJJP-R, ZJJP-S, ZJJP-T, ZJJP-U, ZJJP-V, ZJJP-W, ZJJP-X, ZJJP-Y, ZJJP-Z] #声明
   label_text_size: 16 #悬浮窗序号字号
   label_font: ziti.ttf #标签字型
   latin_font: latin.ttf #西文字型
@@ -1369,7 +1375,7 @@ preset_keyboards:
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_back_color: MMM}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_text_size: 12, key_back_color: hsb, key_text_color: hst, width: 15}
       # ❹
-      - {height: *VJM, click: "q_sz", key_text_size: 14, composing: Escape, swipe_up: "{Schema_switch}", long_click: q_xd, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, width: 15}
+      - {height: *VJM, click: "q_sz", key_text_size: 14, composing: Escape, swipe_up: "{Schema_switch}", long_click: q_xd, swipe_down: q_lssz, swipe_left: '{q_jsqjp}=', swipe_right: '{q_jsqjp}=', hint: ϟ, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, width: 15}
       - {click: "/", long_click: "?", swipe_up: '{Symbol_switch}{Hint_switch}', swipe_down: '{Symbol_switch}{Hint_switch}', hint: ≑, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
       - {click: ",", long_click: "<", swipe_up: IME_switch, swipe_down: IME_switch, hint: ⌨, key_text_size: 12, key_back_color: zbd, key_text_color: bdt, width: 11}
       - {click: space, long_click: Candidate_switch1, swipe_up: '{space}{Mode_switch}', swipe_down: '{Shift+space}', swipe_left: "Left", swipe_right: "Right", key_text_size: 18, key_back_color: kgb, key_text_color: kgt, key_symbol_color: dds, hilited_key_back_color: ttt, width: 26}
@@ -2051,6 +2057,79 @@ preset_keyboards:
       # 第五行
     name: "数字。临时"
     width: 12
+
+  jsqjp:
+    author: 莫颜 #计算器键盘
+    ascii_mode: 1
+    height: *jsqhg                  #键盘行高
+    horizontal_gap: *jsqlj          #键盘列行距
+    vertical_gap: *jsqhj            #键盘行距
+    round_corner: *jsqyj            #候选窗口圆角
+    key_text_offset_y: *DtextY      #键盘字母纵向位置调节
+    keys:
+      - {height: *QDHG, width: 100}
+# 第一行
+      - {width: 1.5}
+      - {click: "sum", long_click: 'max'}
+      - {click: "avg", long_click: 'min'}
+      - {width: 18, click: "sin", long_click: "asin"}
+      - {width: 18, click: "cos", long_click: "acos"}
+      - {width: 18, click: "tan", long_click: "atan"}
+      - {width: 15, click: "BackSpace2", swipe_up: Escape, swipe_left: Escape, swipe_down: Escape, hint: "esc", key_back_color: hsb, key_text_color: hst, key_symbol_color: hct}
+      - {width: 1.5}
+
+#第二行
+      - {width: 1.5}
+      - {click: "log", long_click: 'map'}
+      - {click: "ln", long_click: 'exp'}
+      - {width: 18, click: "sqrt", long_click: abs, label: "ˣ√￣"}
+      - {width: 18, click: "^", long_click: fac}
+      - {width: 18, click: "%", long_click: mod}
+      - {width: 15, click: "/", long_click: '\'}
+      - {width: 1.5}
+
+#第三行
+      - {width: 1.5}
+      - {click: "{", long_click: $}
+      - {click: "}", long_click: x}
+      - {width: 18, click: "7"}
+      - {width: 18, click: "8"}
+      - {width: 18, click: "9"}
+      - {width: 15, click: "*", long_click: trunc}
+      - {width: 1.5}
+
+#第四行
+      - {width: 1.5}
+      - {click: "(", long_click: rad}
+      - {click: ")", long_click: deg}
+      - {width: 18, click: "4"}
+      - {width: 18, click: "5"}
+      - {width: 18, click: "6"}
+      - {width: 15, click: "+", long_click: ceil}
+      - {width: 1.5}
+
+#第五行
+      - {width: 1.5}
+      - {click: "=", long_click: '|'}
+      - {click: "pi", long_click: "e", label: "π"}
+      - {width: 18, click: "1"}
+      - {width: 18, click: "2"}
+      - {width: 18, click: "3"}
+      - {width: 15, click: "-", long_click: floor}
+      - {width: 1.5}
+
+
+#第六行
+      - {width: 1.5}
+      - {click: "K_back1", long_click: deriv, key_back_color: szb, key_text_color: qszt, key_symbol_color: hct}
+      - {click: ",", long_click: integ}
+      - {width: 18, click: space2, label: "输出", long_click: random, key_back_color: szb, key_text_color: qszt, key_symbol_color: hct}
+      - {width: 18, click: "0"}
+      - {width: 18, click: ".", long_click: range}
+      - {width: 15, click: Return, key_back_color: hcb, key_text_color: hct, key_symbol_color: hct}
+      - {width: 1.5}
+    name: '计算器键盘'
+    width: 14
 
   qtbz:
     author: 青 铜 #帮助，
@@ -3454,6 +3533,7 @@ android_keys:
 preset_keys:
   #安卓  预设   q_ 副键盘  t_ 按键
   q_lssz: {label: "123️", send: Eisu_toggle, select: "qtlssz"}
+  q_jsqjp: {label: "计算器", send: Eisu_toggle, select: "jsqjp"}
   t_jh: {label: ".", functional: false, commit: "."}
   q_bj: {label: 编辑, send: Eisu_toggle, select: "qtbj"}
   q_bj1: {label: ❖, send: Eisu_toggle, select: "cjbj"}
@@ -3603,6 +3683,7 @@ preset_keys:
   Return1: {label: Enter, repeatable: true, preview: ↩, send: Return}
   Hide: {label: 键盘, send: BACK}
   BackSpace: {label: "〈〈  ", preview: ⌫, repeatable: true, send: BackSpace}
+  BackSpace2: {label: 退格, preview: 退格, repeatable: true, send: BackSpace}
   space: {repeatable: false, preview: ␣, functional: false, send: space} #空格
   space1: {repeatable: true, preview: ␣, label: ️️◉️ ️English, functional: true, send: space}
   space2: {repeatable: true, preview: ␣, label: ␣, functional: true, send: space}
