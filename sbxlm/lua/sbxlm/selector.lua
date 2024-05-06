@@ -13,10 +13,13 @@ local this = {}
 ---@field select_keys { string: boolean }
 ---@field select_patterns string[]
 ---@field selector Processor
+---@field single_selection boolean
 
 ---@param env SelectorEnv
 function this.init(env)
   local config = env.engine.schema.config;
+  env.single_selection = config:get_bool("translator/single_selection") or false
+
   local select_keys = env.engine.schema.select_keys;
   env.select_keys = {}
   for i = 1, select_keys:len() do
@@ -56,7 +59,7 @@ function this.func(key_event, env)
   if not env.select_keys[key] then
     return rime.process_results.kNoop
   end
-  if segment:has_tag("punct") or (segment:has_tag("paging") and not context:get_option("not_single_display")) then
+  if segment:has_tag("punct") or segment:has_tag("paging") and not env.single_selection then
     return env.selector:process_key_event(key_event)
   end
   local input = rime.current(context)
