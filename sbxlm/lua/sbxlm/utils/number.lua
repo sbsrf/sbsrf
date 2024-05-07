@@ -15,6 +15,9 @@ local datechars = {
    ["8"] = "八",
    ["9"] = "九",
    ["s"] = "十",
+   ["b"] = "百",
+   ["q"] = "千",
+   ["w"] = "万",
    ["n"] = "年",
    ["y"] = "月",
    ["r"] = "日",
@@ -22,27 +25,27 @@ local datechars = {
 
 local confs = {
    {
-      comment = " 大写",
-      number = { [0] = "零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖" },
-      suffix = { [0] = "", "拾", "佰", "仟" },
-      suffix2 = { [0] = "", "万", "亿", "万亿", "亿亿" }
-   },
-   {
       comment = " 小写",
       number = { [0] = "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" },
       suffix = { [0] = "", "十", "百", "千" },
       suffix2 = { [0] = "", "万", "亿", "万亿", "亿亿" }
    },
    {
-      comment = " 大寫",
-      number = { [0] = "零", "壹", "貳", "參", "肆", "伍", "陸", "柒", "捌", "玖" },
+      comment = " 大写",
+      number = { [0] = "零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖" },
       suffix = { [0] = "", "拾", "佰", "仟" },
-      suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
+      suffix2 = { [0] = "", "万", "亿", "万亿", "亿亿" }
    },
    {
       comment = " 小寫",
       number = { [0] = "零", "一", "二", "三", "四", "五", "六", "七", "八", "九" },
       suffix = { [0] = "", "十", "百", "千" },
+      suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
+   },
+   {
+      comment = " 大寫",
+      number = { [0] = "零", "壹", "貳", "參", "肆", "伍", "陸", "柒", "捌", "玖" },
+      suffix = { [0] = "", "拾", "佰", "仟" },
       suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
    },
 }
@@ -112,7 +115,12 @@ end
 local function translator(input, seg)
    if string.sub(input, 1, 1) == "o" then
       local n = string.sub(input, 2)
-      if string.find(n,"[nyr]") ~= nil then
+      if tonumber(n) ~= nil then
+         for _, conf in ipairs(confs) do
+            local r = read_number(conf, n)
+            rime.yield(rime.Candidate("number", seg.start, seg._end, r, conf.comment))
+         end
+      elseif string.find(n,"[0-9]+%a") ~= nil then
          local d = todatechars(datechars, n)
          if d ~= nil then
             rime.yield(rime.Candidate("number", seg.start, seg._end, d, ""))
@@ -120,11 +128,6 @@ local function translator(input, seg)
                local d2 = string.gsub(d, "零", "〇")
                rime.yield(rime.Candidate("number", seg.start, seg._end, d2, ""))
             end
-         end
-      elseif tonumber(n) ~= nil then
-         for _, conf in ipairs(confs) do
-            local r = read_number(conf, n)
-            rime.yield(rime.Candidate("number", seg.start, seg._end, r, conf.comment))
          end
       end
    end
