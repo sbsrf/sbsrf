@@ -3,6 +3,23 @@
 
 local rime = require "sbxlm.lib"
 
+local datechars = {
+   ["0"] = "零",
+   ["1"] = "一",
+   ["2"] = "二",
+   ["3"] = "三",
+   ["4"] = "四",
+   ["5"] = "五",
+   ["6"] = "六",
+   ["7"] = "七",
+   ["8"] = "八",
+   ["9"] = "九",
+   ["s"] = "十",
+   ["n"] = "年",
+   ["y"] = "月",
+   ["r"] = "日",
+}
+
 local confs = {
    {
       comment = " 大写",
@@ -29,6 +46,14 @@ local confs = {
       suffix2 = { [0] = "", "萬", "億", "萬億", "億億" }
    },
 }
+
+local function todatechars(datechars, input)
+   local r = ""
+   for c in string.gmatch(input, "%w") do
+       r = r .. datechars[c]
+   end
+   return r
+end
 
 local function read_seg(conf, n)
    local s = ""
@@ -87,7 +112,12 @@ end
 local function translator(input, seg)
    if string.sub(input, 1, 1) == "o" then
       local n = string.sub(input, 2)
-      if tonumber(n) ~= nil then
+      if string.find(n,"[nyr]") ~= nil then
+         local d = todatechars(datechars, n)
+         if d ~= nil then
+            rime.yield(rime.Candidate("number", seg.start, seg._end, d, "日期"))
+         end
+      elseif tonumber(n) ~= nil then
          for _, conf in ipairs(confs) do
             local r = read_number(conf, n)
             rime.yield(rime.Candidate("number", seg.start, seg._end, r, conf.comment))
