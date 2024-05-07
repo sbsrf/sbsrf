@@ -115,7 +115,11 @@ local function translator(input, seg)
       if string.find(n,"[nyr]") ~= nil then
          local d = todatechars(datechars, n)
          if d ~= nil then
-            rime.yield(rime.Candidate("number", seg.start, seg._end, d, "日期"))
+            rime.yield(rime.Candidate("number", seg.start, seg._end, d, ""))
+            if string.find(d, "零") then
+               local d2 = string.gsub(d, "零", "〇")
+               rime.yield(rime.Candidate("number", seg.start, seg._end, d2, ""))
+            end
          end
       elseif tonumber(n) ~= nil then
          for _, conf in ipairs(confs) do
