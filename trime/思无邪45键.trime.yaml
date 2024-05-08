@@ -2,7 +2,7 @@
 # encoding: utf-8
 #顶部 顶端
 
-config_version: "1.0, for同文3.2.16"
+config_version: "2.0, for同文3.2.18"
 name: 思无邪45键
 author: 莫颜
 # 说明：基于“声笔45键”+“派对之星”+“思无涯•26键”+“凉秋”制作，部分功能可能存在问题，如发现请告知，谢谢。
@@ -83,17 +83,19 @@ style:
   auto_caps: false #自动句首大写:true|false|ascii
   background_dim_amount: 0.5
   candidate_font: TH-Feon.ttf #候选字型
+#  candidate_font: [TH-Tshyn-P0.ttf, TH-Tshyn-P1.ttf, TH-Tshyn-P2.ttf, TH-Tshyn-P16.ttf, PlangothicP1.ttf, PlangothicP2.ttf] #候选字型
   candidate_padding: 4 #候选项内边距
   candidate_spacing: 1 #候选间距
   candidate_text_size: 19 #候选字号 声码 aeuio 字号
   candidate_use_cursor: true #高亮候选项
   candidate_view_height: *HXG #候选区高度
   color_scheme: default #配色方案
-  comment_font: TH-Feon.ttf #候选窗和状态栏提示字型
+  comment_font: ziti.ttf #候选窗和状态栏提示字型
   comment_height: 16 #候选窗和状态栏提示区高度
   comment_on_top: true #候选窗和状态栏提示在上方true或右侧false
   comment_text_size: 12 #候选窗和状态栏提示字号 声码悬浮窗字号
   hanb_font: TH-Feon.ttf #扩充字型
+#  hanb_font: [TH-Tshyn-P0.ttf, TH-Tshyn-P1.ttf, TH-Tshyn-P2.ttf, TH-Tshyn-P16.ttf, PlangothicP1.ttf, PlangothicP2.ttf] #扩充字型
   horizontal: true #false 水平模式true，竖排模式false
   horizontal_gap: *FHL #符号键盘列间距
   layout: #悬浮窗口位置

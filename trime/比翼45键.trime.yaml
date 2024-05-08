@@ -2,7 +2,7 @@
 # encoding: utf-8
 # 本主题适配同文3.1.3版，同时兼容同文3.2.6版
 
-config_version: "5.4for同文3.1.3，2022年6月6日"
+config_version: "5.4for同文3.2.18"
 name: 比翼45键 #主题名称
 author: 散步的鹤 flypy.com #作者资讯   /强自解题二改
 
@@ -95,7 +95,8 @@ style:
   keyboard_height_land: *HPG #3.2.6锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   auto_caps: false #自动句首大写:true|false|ascii
   background_dim_amount: 0.5
-  candidate_font: ziti.ttf #候选字型
+  candidate_font: TH-Feon.ttf #候选字型
+#  candidate_font: [TH-Tshyn-P0.ttf, TH-Tshyn-P1.ttf, TH-Tshyn-P2.ttf, TH-Tshyn-P16.ttf, PlangothicP1.ttf, PlangothicP2.ttf] #候选字型
   candidate_padding: 5 #候选项内边距
   candidate_spacing: 5 #候选间距
   candidate_text_size: 18 #候选字号
@@ -106,7 +107,8 @@ style:
   comment_height: 16 #候选窗和状态栏提示区高度
   comment_on_top: true #候选窗和状态栏提示在上方true或右侧false
   comment_text_size: 14 #候选窗和状态栏提示字号
-  hanb_font: Ext.ttf #扩充字型就
+  hanb_font: TH-Feon.ttf #扩充字型
+#  hanb_font: [TH-Tshyn-P0.ttf, TH-Tshyn-P1.ttf, TH-Tshyn-P2.ttf, TH-Tshyn-P16.ttf, PlangothicP1.ttf, PlangothicP2.ttf] #扩充字型
   horizontal: true #水平模式
   horizontal_gap: *FJL #符号键盘列间距
   keyboard_padding: *UZYK #3.2.6竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
@@ -1865,6 +1867,90 @@ preset_color_schemes:
     AAT52: 0xFFDB6A66
     AAT62: 0xFFDB6A66
     AAT23: *蓝
+
+  Write-blue:
+    author: Write2023
+    name: "Write·2023B"
+    back_color: 0xBBEEFFEE
+    text_color: 0xFF000000
+    candidate_background: xiaohe/Wsbjb.png
+    keyboard_back_color: xiaohe/Wbjb.png
+    comment_text_color: 0xff1181fc
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/Wgnhb.png
+    key_text_color: 0xFF000000 #数字
+    key_symbol_color: 0xff888888
+    on_key_back_color: xiaohe/Wgnhb.png
+#    off_key_back_color: xiaohe/qyfgnb.png
+    off_key_text_color: 0xFFFFFFFF #数字功能按键
+    cdt: 0xff888888
+    on_key_text_color: 0xFF000000
+    AAT: 0xFF000000
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0xFFFFFFFF #高亮字母色
+    hilited_key_symbol_color: 0xFFFFFFFF #高亮符号
+    AAS: 0xFF000000 #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/Wswb.png
+    789T: 0xFFFFFFFF
+    A_: xiaohe/W26b.png
+    AAH: xiaohe/W26hb.png
+    BBH: xiaohe/W26hb.png
+    CCH: xiaohe/W26hb.png
+    hsb: xiaohe/Wgnb.png
+    hsh: xiaohe/Wgnhb.png
+    shb: xiaohe/Wgnb.png
+    szb: xiaohe/Wgnb.png
+    szh: xiaohe/Wgnhb.png
+    bdb: xiaohe/Wbdb.png
+    bdh: xiaohe/Wbdhb.png
+    hcb: xiaohe/Whcb.png
+    hch: xiaohe/Whchb.png
+    hst: 0xFFFFFFFF
+    szt: 0xFFFFFFFF
+    bdt: 0xFFFFFFFF
+    zkgt: 0xFF000000
+    kgt: 0xFF000000
+    kght: 0x00
+    ykgt: 0xFF000000
+    szs: 0xFFFFFFFF
+    hct: 0xFFFFFFFF
+    bds: 0xFFFFFFFF
+    kgs: 0xFF000000
+    kghs: 0xFFFFFFFF
+#    kgb: xiaohe/MLkgb.9b.png
+    kgzb: xiaohe/Wzikgb.png
+    zzkgb: xiaohe/Wzkgb.png    
+    ykgb: xiaohe/Wykgb.png
+    fhfhb: xiaohe/Wswb.png
+#    zkgb: xiaohe/MLzkgbb.png
+    kgh: 0x00
+    ykgh: xiaohe/Wykghb.png
+    kgzh: xiaohe/Wzikghb.png
+    zzkgh: xiaohe/Wzkghb.png
+    zkgh: 0x00
+    szgnb: xiaohe/Wgnb.png
+    szhcb: xiaohe/Whcb.png
+#    xdbdb: xiaohe/W26b.png
+    xdgnb: xiaohe/W26b.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFFADC9DF
+    hilited_candidate_back_color: 0x00
+    hilited_back_color: 0x00
+    hilited_candidate_text_color: 0xff1181fc
+    hilited_comment_text_color: 0xFF330099
+    hilited_text_color: 0xFFF11111 #高亮编码
+    AAT12: 0xFFDB6A66
+    AAT22: 0xFFDB6A66
+    AAT52: 0xFFDB6A66
+    AAT62: 0xFFDB6A66
+    AAT23: *蓝
+
   Writes:
     author: Write2023S
     name: "Write·2023S"
