@@ -156,7 +156,7 @@ local function dfs_encode2(phrase, position, code, env)
   -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
   for stem in string.gmatch(translations, "[^ ]+") do
     -- 忽略一简字和声笔字
-    if position == 2 and string.find("[aeuio]", stem:sub(2,2)) then
+    if position == 2 and stem:len() == 4 then
       goto continue
     end
     table.insert(code, stem)
