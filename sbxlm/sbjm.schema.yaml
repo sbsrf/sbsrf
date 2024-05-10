@@ -26,9 +26,9 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - options: [fourth_pop, third_pop, fast_char]
+  - name: third_pop
     reset: 0
-    states: [四顶, 三顶, 快单]
+    states: [四顶, 三顶]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
