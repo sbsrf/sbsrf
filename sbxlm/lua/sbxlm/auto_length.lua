@@ -14,6 +14,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_memory Memory
 ---@field dynamic_memory Memory
 ---@field reverse ReverseLookup
+---@field reverse2 ReverseLookup
 ---@field enable_filtering boolean
 ---@field forced_selection boolean
 ---@field single_selection boolean
@@ -110,6 +111,63 @@ local function dfs_encode(phrase, position, code, env)
   return success
 end
 
+---对于声笔简码，需要同时造spb格式的二字词
+---@param phrase string 待造词的短语
+---@param position number 下一个需要编码枚举的位置
+---@param code string[] 已经完成编码枚举的编码
+---@param env AutoLengthEnv
+local function dfs_encode2(phrase, position, code, env)
+  if utf8.len(phrase) ~= 2 then
+    return false
+  end
+  -- 如果已经枚举完所有字，就尝试造词
+  -- word_rules 可能会失败，如果失败就返回 false
+  if position > utf8.len(phrase) then
+    local encoded = core.word_rules2(code, env.engine.schema.schema_id)
+    if encoded then
+      local entry = rime.DictEntry()
+      entry.text = phrase
+      entry.custom_code = encoded .. " "
+      -- 如果词典中已经存在，则不必造词
+      env.dynamic_memory:dict_lookup(encoded, false, 1)
+      for e in env.dynamic_memory:iter_dict() do
+        if e.text == entry.text then
+          return false
+        end
+      end
+      env.dynamic_memory:update_userdict(entry, 0, kEncodedPrefix)
+      return true
+    else
+      return false
+    end
+  end
+  -- 把 UTF-8 编码的词语拆成单个字符的列表
+  local characters = {}
+  for _, char in utf8.codes(phrase) do
+    table.insert(characters, utf8.char(char))
+  end
+  local translations = ""
+  if (position == 1) then
+    translations = env.reverse:lookup(characters[position])
+  else
+    translations = env.reverse2:lookup_stems(characters[position])
+   end
+  local success = false
+  -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
+  for stem in string.gmatch(translations, "[^ ]+") do
+    -- 忽略一简字和声笔字
+    if position == 2 and string.find("[aeuio]", stem:sub(2,2)) then
+      goto continue
+    end
+    table.insert(code, stem)
+    local ok = dfs_encode2(phrase, position + 1, code, env)
+    success = success or ok
+    table.remove(code)
+    ::continue::
+  end
+  return success
+end
+
 ---由本翻译器生成的候选上屏时的回调函数
 ---需要完成两个任务：1. 记忆刚上屏的字词 2. 对上屏历史造词
 ---@param commit CommitEntry
@@ -170,6 +228,9 @@ local function callback(commit, env)
       phrase = record.text
       if #commit:get() > 1 then
         dfs_encode(phrase, 1, code, env)
+        if core.jm(env.engine.schema.schema_id) then
+          dfs_encode2(phrase, 1, code, env)
+        end
       end
       goto continue
     end
@@ -183,6 +244,9 @@ local function callback(commit, env)
       break
     end
     dfs_encode(phrase, 1, code, env)
+    if core.jm(env.engine.schema.schema_id) then
+      dfs_encode2(phrase, 1, code, env)
+    end
     ::continue::
   end
 end
@@ -193,6 +257,7 @@ function this.init(env)
   env.dynamic_memory = rime.Memory1(env.engine, env.engine.schema, "extended")
   local config = env.engine.schema.config
   env.reverse = core.reverse(env.engine.schema.schema_id)
+  env.reverse2 = rime.ReverseLookup("sbfm")
   env.enable_filtering = config:get_bool("translator/enable_filtering") or false
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
@@ -288,15 +353,20 @@ local function validate_phrase(entry, segment, type, input, env)
   end
   -- 处理一些特殊的过滤条件
   if env.enable_filtering then
-    -- 1. 简码启用多字词过滤时，三码不显示多字词
+    -- 简码启用多字词过滤时，三码不显示多字词
     if core.jm(schema_id) and input:len() == 3 and utf8.len(entry.text) > 3 then
       return nil
     end
-    -- 2. 飞讯启用多字词过滤时，四码不显示多字词
+    -- 飞讯启用多字词过滤时，四码不显示多字词
     if core.fx(schema_id) and input:len() >= 4 and utf8.len(entry.text) > 3
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]*") then
       return nil
     end
+  end
+  -- 简码非三顶模式时，不显示spb格式的二字词
+  if core.jm(schema_id) and not env.third_pop and utf8.len(entry.text) == 2
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]+") then
+    return nil
   end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
   -- 在存储时，简码以 sssbbbs 的格式存储，飞讯以 sssbbbbs 的格式存储
