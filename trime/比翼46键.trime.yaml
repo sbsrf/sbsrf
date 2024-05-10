@@ -1954,7 +1954,7 @@ preset_color_schemes:
     AAT23: *蓝
 
   Writes:
-    author: Write2023S
+    author: Write2023
     name: "Write·2023S"
 #    light_scheme: default
     back_color: 0x0F
@@ -2036,6 +2036,91 @@ preset_color_schemes:
     AAT52: 0xFFDB6A66
     AAT62: 0xFFDB6A66
     AAT23: *蓝
+
+  WriteL:
+    author: Write2023
+    name: "Write·霾蓝玉质"
+#    light_scheme: default
+    back_color: 0xBBEEFFEE
+    text_color: 0xFF000000
+    candidate_background: xiaohe/LWsbj.png
+    keyboard_back_color: xiaohe/LWbj.png
+    comment_text_color: 0xFFFF4f00
+    hilited_back_color: 0x00
+    hilited_candidate_back_color: 0x00
+    hilited_key_back_color: 0x00
+    key_back_color: xiaohe/LWgnh.png
+    key_text_color: 0xFFFF4f00 #数字及編輯
+    key_symbol_color: 0xff888888
+    on_key_back_color: xiaohe/LWgnh.png
+#    off_key_back_color: xiaohe/qyfgn.png
+    off_key_text_color: 0xFFFFFFFF #数字功能按键
+    cdt: 0xff888888
+    on_key_text_color: 0xFF000000
+    AAT: 0xFF000000
+    AALT: 0xFF31343B
+    hilited_key_text_color: 0xFFFFFFFF #高亮字母色
+    hilited_key_symbol_color: 0xFFFFFFFF #高亮符号
+    AAS: 0xff888888 #字母上档透明
+#    AAT: 0x00 #字母透明
+    AALS: 0xFF41444B
+    VJBH: 0xFF31343B
+    789B: xiaohe/LWsw.png
+    789T: 0xFFFFFFFF
+    A_: xiaohe/LW26.png
+    AAH: xiaohe/LW26h.png
+    BBH: xiaohe/LW26h.png
+    CCH: xiaohe/LW26h.png
+    hsb: xiaohe/LWgn.png
+    hsh: xiaohe/LWgnh.png
+    shb: xiaohe/LWgn.png
+    szb: xiaohe/LWgn.png
+    szh: xiaohe/LWgnh.png
+    bdb: xiaohe/LWbd.png
+    bdh: xiaohe/LWbdh.png
+    hcb: xiaohe/LWhc.png
+    hch: xiaohe/LWhch.png
+    hst: 0xFFFFFFFF
+    szt: 0xFFFFFFFF
+    bdt: 0xFFFFFFFF
+    zkgt: 0xFF000000
+    kgt: AAT1
+    kght: 0x00
+    ykgt: 0xFF000000
+    szs: 0xFFFFFFFF
+    hct: 0xFFFFFFFF
+    bds: 0xFFFFFFFF
+    kgs: 0xff888888
+    kghs: 0xFFFFFFFF
+#    kgb: xiaohe/MLkgb.9.png
+    kgzb: xiaohe/LWzikg.png
+    zzkgb: xiaohe/LWzkg.png
+    ykgb: xiaohe/LWykg.png
+    fhfhb: xiaohe/LWsw.png
+#    zkgb: xiaohe/MLzkgb.png
+    kgh: 0x00
+    ykgh: xiaohe/LWykgh.png
+    kgzh: xiaohe/LWzikgh.png
+    zzkgh: xiaohe/LWzkgh.png
+    zkgh: 0x00
+    szgnb: xiaohe/LWgn.png
+    szhcb: xiaohe/LWhc.png
+#    xdbdb: xiaohe/LW26.png
+    xdgnb: xiaohe/LWgn.png
+    cd2: 0xff666666
+    zgb: 0x00
+    label_color: 0xFFADC9DF
+    hilited_candidate_back_color: 0x00
+    hilited_back_color: 0x00
+    hilited_candidate_text_color: 0xffff00ff #首选文字
+    hilited_comment_text_color: 0xFFFF4f00      #首选编码
+    hilited_text_color: 0xFFF11111 #高亮
+    AAT12: 0xFFFF4f00
+    AAT22: 0xFFFF4f00
+    AAT52: 0xFFFF4f00
+    AAT62: 0xFFFF4f00
+    AAT23: *蓝
+
 # 键盘布局
 preset_keyboards:
   default:
