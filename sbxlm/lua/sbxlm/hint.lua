@@ -76,7 +76,16 @@ function this.func(translation, env)
 					candidate.comment = candidate.comment .. " " .. code
 				end
 			end
-		end		
+		elseif core.jm(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
+			if utf8.len(candidate.text) == 2 then
+			local codes = env.reverse:lookup(candidate.text)
+				for code in string.gmatch(codes, "[^ ]+") do
+					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9]") and is_enhanced) then
+						candidate.comment = candidate.comment .. " " .. code
+					end
+				end
+			end
+		end
 		-- 除了以上情况之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
 		if i > 1 then
 		    -- 如果是双拼的声声词，也直接通过
