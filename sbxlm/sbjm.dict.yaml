@@ -35,50 +35,48 @@ encoder:
 阿婆	vp9
 阿荣	vr3
 阿姨	vy1
-啊	
 啊	v8
 啊	vk'
 啊啊	vv6
 锕	vja'
-哎	vi9
+哎	vi'
+哎	vi4
 哎	viu'
 哎呀	vy8
-哀	
+哀	vo3
 哀	vw'
 哀愁	vc6
 哀求	vq3
-唉	vi3
+唉	vi8
 唉	vka'
-埃	
+埃	ve3
 埃	vt'
 埃及	vj6
 埃克	vk1
-挨	ve8
+挨	ve9
 挨	vfa'
 挨了	vl1
 挨揍	vz3
 欸	vqa'
 捱	vee'
 皑	vbi'
-皑	vu6
 敱	vqi'
 敳	vwi'
-癌	
 癌	vb'
+癌	vo5
 矮	vsu'
 矮	vu3
 矮胖	vp7
 矮胖	vpu'
 矮小	vx8
 蔼	vco'
-蔼	ve0
 霭	veo'
-艾	
 艾	vc'
+艾	ve8
 艾尔	vv0
 艾克	vk0
 艾滋	vz0
-爱	
+爱	v;
 爱	v7
 爱	vz'
 爱不	vb6
@@ -152,19 +150,19 @@ encoder:
 侒	vro'
 桉	vmo'
 氨	vqo'
-氨	vu;
 庵	vge'
-庵	vo7
-谙	vo3
+庵	vo8
+谙	vo1
 谙	vyo'
 媕娿	vv2
-鞍	
+鞍	ve6
 鞍	vg'
 鞍马	vm2
 鞍辔	vp2
 鞍辔	vpa'
 盦	vmu'
-俺	vu2
+俺	vu'
+俺	vu5
 俺	vui'
 铵	vjo'
 隌	va0
@@ -172,7 +170,6 @@ encoder:
 岸	vi2
 岸	vse'
 岸边	vb2
-按	
 按	v5
 按	vf'
 按此	vc8
@@ -186,7 +183,6 @@ encoder:
 按照	vz8
 按照	vzi'
 洝	vdo'
-案	
 案	v9
 案	vm'
 案板	vb3
@@ -197,7 +193,6 @@ encoder:
 案情	vq0
 案子	vz2
 案子	vza'
-胺	vu'
 豻	hze'
 豻	vze'
 暗	vi
@@ -217,13 +212,13 @@ encoder:
 暗中	vz4
 暗自	vz7
 黯	vho'
-黯	vi5
+黯	vi6
 黯淡	vd0
 黯然	vr6
-肮	vu7
+肮	vu1
 肮	vvo'
 骯	vgo'
-昂	vi8
+昂	vi9
 昂	vqu'
 昂贵	vg4
 昂首	vs
@@ -232,61 +227,56 @@ encoder:
 凹凸	vt5
 坳	vta'
 柪	vma'
-敖	ve3
+敖	ve2
 敖	vwe'
 隞	va6
 獒	vqe'
 遨游	vy9
-熬	ve9
+熬	ve'
+熬	ve4
 熬	vle'
-翱	vu1
 翱	vvu'
 翱翔	vx1
-鳌	ve'
 鳌	vve'
-鏖	vo1
-拗	ve6
 拗	vei'
-袄	vo8
+袄	vo'
+袄	vo6
 袄	voa'
 媪	va9
 媪	vau'
 傲	vre'
-傲	vu8
+傲	vu7
 傲慢	vm0
-奥	
-奥	v;
 奥	vd'
+奥	vu8
 奥秘	vm7
 奥普	vp0
 奥运	vy3
 骜	vme'
 墺	vtu'
 澳	vdu'
-澳	vo9
+澳	vo7
 澳门	vm
 澳网	vw8
 澳洲	vz1
 懊	vlu'
-懊	vo2
+懊	vo;
+懊	vo4
 懊恼	vn6
 鏊	vje'
-八	
 八	bp'
+八	bu9
 八仙	bx6
 巴	ba8
 巴	bzi'
 巴结	bj2
 巴黎	bl7
-叭	bi;
 叭	bku'
-吧	
-吧	b'
+吧	bi2
 吧	bk'
 粑	bma'
 蚆	pca'
 釛	hja'
-跋	bi1
 跋	bii'
 墢	bta'
 把	be
@@ -300,9 +290,8 @@ encoder:
 靶	bga'
 坝	bti'
 爸	bfa'
-爸	bu9
 爸爸	bb5
-罢	bi8
+罢	bi5
 罢	bze'
 罢工	bg3
 罢了	bl2
@@ -318,31 +307,30 @@ encoder:
 百年	bn7
 百万	bw3
 佰	bre'
-摆	be;
 摆	bfi'
 摆脱	bt7
 呗	bki'
-败	bi2
+败	bi'
+败	bi4
 败	bia'
 拜	bse'
 拜	bu1
-班	be5
+班	be'
+班	be6
 班	bwo'
-般	
+般	bu7
 般	bz'
 般若	br3
-颁	
 颁	by'
 颁发	bf1
 褩	byu'
-板	be1
+板	be0
 板	bmu'
 板块	bk0
 版	bu0
 版	buo'
 版本	bb0
 版权	bq3
-办	
 办	b2
 办	bl'
 办案	bv1
@@ -350,17 +338,15 @@ encoder:
 办公	bg0
 办理	bl1
 办事	bs3
-半	
 半	bd'
+半	bo7
 半边	bb2
 半年	bn
 半晌	bs5
 半天	bt3
 伴	bro'
-伴	bu;
 扮演	by1
 拌	bfo'
-绊	ba'
 瓣	bxu'
 邦	bee'
 帮	be3
@@ -370,7 +356,8 @@ encoder:
 帮派	bp0
 帮我	bw5
 帮助	bz8
-绑	ba4
+绑	ba;
+绑	ba5
 绑	bau'
 榜	bmo'
 膀	bvo'
@@ -380,14 +367,15 @@ encoder:
 谤	byo'
 塝	bto'
 包	bba'
+包	bu;
 包	bu4
 包含	bh6
 包括	bk3
 胞	bvu'
 褒	bwu'
 雹	beo'
-宝	
 宝	bg'
+宝	bo9
 宝宝	bb4
 宝贝	bb8
 宝贵	bg8
@@ -405,33 +393,31 @@ encoder:
 保证	bz9
 堡	btu'
 堡	pue'
-报	
 报	b6
 报	bf'
 报表	bb1
 报仇	bc7
 报道	bd4
 报告	bg4
-抱	be4
+抱	be;
+抱	be5
 抱歉	bq0
 豹	bzu'
-暴	
+暴	bi0
 暴	bq'
 爆	bhi'
-爆	bo7
 爆发	bf0
-杯	be0
-悲	bi4
+悲	bi1
 悲	bxi'
 悲哀	bv5
 碑	beu'
-北	
+北	bi3
 北	bs'
 北方	bf9
 北海	bh9
 北京	bj9
 北欧	bv3
-贝	bi7
+贝	bi6
 贝	bsa'
 贝阿	bv2
 贝尔	bv0
@@ -440,13 +426,13 @@ encoder:
 备	bwi'
 备案	bv9
 备份	bf6
-背	bi3
+背	bi8
 背	bvi'
 背后	bh4
 背叛	bp9
 钡	bji'
 悖	boo'
-被	
+被	b'
 被	b9
 被	bn'
 被困	bk8
@@ -455,15 +441,15 @@ encoder:
 被迫	bp7
 惫	buao'
 軰	bci'
-辈	
 辈	bc'
+辈	bi7
 蓓	bcu'
 奔	bde'
-奔	be6
+奔	be1
 奔驰	bc2
 奔跑	bp5
 贲	beie'
-本	
+本	b;
 本	b3
 本	bm'
 本报	bb3
@@ -487,20 +473,15 @@ encoder:
 楍	bmi'
 笨	bpe'
 獖	fqe'
-崩	bi6
 崩	bio'
-绷	ba1
+绷	ba0
 甭	bye'
 泵	bsi'
-蹦	bi'
-逼	be'
 逼	ble'
 鼻	bpi'
-鼻	bu'
 鼻孔	bk2
 鼻孔	bka'
 匕	bpa'
-比	
 比	b1
 比	bh'
 比	pha'
@@ -512,15 +493,12 @@ encoder:
 比赛	bs9
 比我	bw0
 彼	bca'
-彼	bu7
 彼岸	bv8
 彼此	bc8
 笔	bpu'
 笔	bu3
-鄙	bi5
 鄙	biu'
 币	bju'
-必	
 必	b0
 必	bx'
 必定	bd0
@@ -535,7 +513,6 @@ encoder:
 闭	boi'
 庇	bge'
 畀	bte'
-陛	ba0
 陛	bai'
 狴	bqe'
 婢	ba7
@@ -543,11 +520,12 @@ encoder:
 愎	blu'
 裨	boai'
 辟	bxa'
-辟	pa4
+辟	pa'
+辟	pa5
 辟	pxa'
 弊	bno'
 獙	bqo'
-壁	
+壁	ba4
 壁	bt'
 嬖	bna'
 避	ba3
@@ -556,7 +534,6 @@ encoder:
 避免	bm4
 臂	ba9
 臂	bva'
-璧	ba;
 襞	bya'
 魓	bgi'
 边	ba
@@ -566,15 +543,12 @@ encoder:
 编排	bp3
 扁	phi'
 匾	bko'
-拚	pe'
-便	
 便	b7
 便	br'
 便	pre'
 便可	bk1
 便宜	py4
-变	
-变	b;
+变	bo3
 变	bw'
 变成	bc3
 变化	bh7
@@ -583,11 +557,8 @@ encoder:
 昪	bqa'
 遍	blo'
 遍	bo2
-辨	bo0
 辨	boe'
-辩	bo1
 辩	bxo'
-彪	bi0
 彪	bie'
 标	be8
 标	bme'
@@ -599,7 +570,6 @@ encoder:
 膘	buae'
 飙	beuo'
 镳	buee'
-表	
 表	b5
 表	bv'
 表达	bd1
@@ -618,7 +588,7 @@ encoder:
 别说	bs6
 蹩	bzo'
 宾	bgu'
-宾	bo6
+宾	bo0
 宾馆	bg1
 彬	beiu'
 斌	bwe'
@@ -626,18 +596,17 @@ encoder:
 髌	bgo'
 鬓	bbo'
 冰	bdi'
-冰	bo4
+冰	bo6
 冰封	bf3
 冰冷	bl0
 兵	bbu'
+兵	bu'
 兵	bu5
 兵器	bq4
 丙	beia'
 柄	bei'
 炳	bhe'
 窉	bxe'
-禀	bo'
-并	
 并	b4
 并	bb'
 并不	bb
@@ -645,15 +614,18 @@ encoder:
 并且	bq8
 并未	bw1
 病	bbe'
-病	bo3
+病	bo;
+病	bo4
 病情	bq1
 病人	br6
 偋	bra'
 波	bda'
-波	bo9
+波	bo'
+波	bo5
 玻	bwa'
 玻璃	bl6
-剥	ba5
+剥	ba'
+剥	ba6
 剥	bao'
 钵	bue'
 饽	buaa'
@@ -662,7 +634,7 @@ encoder:
 播放	bf5
 伯	bru'
 伯	bu6
-驳	ba6
+驳	ba1
 帛	bbi'
 泊	bdu'
 狛	bqu'
@@ -676,7 +648,7 @@ encoder:
 跛	bza'
 卜	bi9
 卜	bso'
-补	bo5
+补	bo1
 补	boa'
 补充	bc6
 哺	bke'
@@ -759,12 +731,12 @@ encoder:
 不住	bz
 不准	bz6
 不足	bz5
-布	
+布	be4
 布	bj'
 步	b8
+步	bi;
 步	bni'
 步伐	bf4
-怖	bo;
 部	bo
 部长	bz7
 部队	bd6
@@ -775,7 +747,7 @@ encoder:
 簿	bpo'
 擦	cfo'
 猜	cqe'
-才	
+才	c;
 才	c3
 才	ch'
 才好	ch2
@@ -784,7 +756,7 @@ encoder:
 才是	cs8
 材料	cl5
 财	cbe'
-财	ci2
+财	ci8
 财产	cc4
 财富	cf6
 财务	cw6
@@ -799,14 +771,13 @@ encoder:
 采用	cy7
 寀	cgu'
 彩	cpu'
-彩	cu1
+彩	cu0
 彩虹	ch1
 彩铃	cl7
 彩票	cp3
 彩屏	cp2
 菜单	cd0
 菜鸟	cn7
-参	
 参	c2
 参	cs'
 参观	cg2
@@ -817,11 +788,9 @@ encoder:
 餐	csi'
 餐厅	ct3
 残	cde'
-残	ce0
 残酷	ck6
 残忍	cr0
 蚕	cee'
-惨	co0
 粲	cieu'
 仓	cra'
 仓库	ck9
@@ -830,16 +799,13 @@ encoder:
 苍白	cb7
 舱	cuu'
 藏	cce'
-藏	ce5
 操作	cz7
 槽	ceiu'
-草	
 草	cc'
+草	ce6
 草案	cv4
 草原	cy1
-侧	cu;
 侧面	cm0
-测	co6
 测评	cp0
 测试	cs6
 策	cpe'
@@ -852,23 +818,22 @@ encoder:
 层	cse'
 层次	cc9
 层面	cm6
-叉	ca;
 叉	cyo'
 插	cfu'
 插曲	cq8
 插入	cr5
-查	
+查	ce9
 查	cm'
 查封	cf3
 查看	ck7
 查询	cx0
 茶	ccu'
-茶	ce'
-察	
 察	cg'
+察	co1
 察看	ck1
 诧异	cy2
-差	co7
+差	co;
+差	co5
 差	cye'
 差别	cb5
 差点	cd8
@@ -883,7 +848,6 @@ encoder:
 缠	cjo'
 蝉	cco'
 廛	cgi'
-产	
 产	c9
 产	cl'
 产量	cl6
@@ -897,11 +861,10 @@ encoder:
 忏	cooi'
 颤	zoe'
 颤抖	cd3
-昌	ci6
+昌	ci1
 昌	cqi'
 娼	cni'
 猖	cua'
-长	
 长	c4
 长	cp'
 长	zp'
@@ -919,7 +882,6 @@ encoder:
 肠	cva'
 尝	ci9
 尝	cxo'
-常	
 常	c8
 常	cj'
 常常	cc
@@ -927,10 +889,8 @@ encoder:
 常年	cn4
 常务	cw1
 嫦娥	cv2
-厂	ce7
 厂	cea'
 厂	vhu'
-场	
 场	c5
 场	ct'
 场合	ch5
@@ -938,11 +898,12 @@ encoder:
 敞	cwi'
 氅	ciou'
 倡	cuii'
-唱	ci4
+唱	ci'
+唱	ci5
 唱	cki'
 唱歌	cg0
 唱片	cp7
-超	ce4
+超	ce0
 超	cza'
 超高	cg9
 超过	cg3
@@ -951,13 +912,12 @@ encoder:
 超强	cq2
 超人	cr1
 晁	cqu'
-朝	ce6
 朝	ceo'
 朝廷	ct7
 朝鲜	cx7
 嘲弄	cn3
-潮	co'
 车	c1
+车	ce;
 车	cha'
 车队	cd2
 车内	cn8
@@ -968,8 +928,8 @@ encoder:
 尘	ci7
 尘	cxe'
 尘埃	cv3
-沉	
 沉	cd'
+沉	co9
 沉默	cm4
 沉思	cs0
 沉吟	cy4
@@ -977,13 +937,14 @@ encoder:
 陈	ca8
 陈	cve'
 宸	cooa'
-晨	ci5
+晨	ci6
 晨	ciu'
 谌	coae'
 闯	cma'
 闯	co8
 衬	cne'
 称	chu'
+称	cu'
 称	cu4
 称号	ch4
 称呼	ch8
@@ -1016,26 +977,24 @@ encoder:
 承担	cd4
 承诺	cn9
 承认	cr
-诚	co1
 诚	coa'
 诚恳	ck2
 诚聘	cp1
-城	ce8
+城	ce2
 城	cte'
 城市	cs9
 城镇	cz1
-乘	cu'
 乘客	ck0
 埕	cti'
 程	c0
 程	chi'
+程	cu;
 程度	cd
 程序	cx9
 酲	cyi'
 逞	cli'
 秤	che'
-吃	
-吃	c;
+吃	ci2
 吃	ck'
 吃得	cd7
 吃饭	cf7
@@ -1048,19 +1007,20 @@ encoder:
 弛	sga'
 池	cda'
 驰	ca0
+迟	ca;
 迟	ca4
 迟	cla'
 迟疑	cy6
-持	
+持	ce8
 持	cf'
 持股	cg7
 持续	cx2
 匙	sqe'
 墀	cta'
+尺	ca'
 尺	ca5
 尺	cso'
 尺寸	cc3
-齿	ci0
 齿	cio'
 耻	cvi'
 耻辱	cr3
@@ -1068,7 +1028,8 @@ encoder:
 翅	ceia'
 翅膀	cb6
 敕	cwe'
-充	co4
+充	co'
+充	co6
 充	cwa'
 充分	cf
 充满	cm
@@ -1077,21 +1038,18 @@ encoder:
 冲动	cd5
 冲突	ct9
 忡	coo'
-虫	ci;
 虫	cii'
 崇拜	cb0
 宠爱	cv7
 宠物	cw0
-抽	ce;
 抽	cfi'
 抽出	cc6
 瘳	cba'
 仇	cru'
-仇	cu8
+仇	cu1
 仇恨	ch9
 仇人	cr7
 俦	cre'
-绸	ca'
 绸	cju'
 稠	cue'
 丑	ca1
@@ -1110,8 +1068,8 @@ encoder:
 出席	cx5
 出现	cx
 出于	cy0
-初	
 初	cn'
+初	co2
 初步	cb8
 初二	cv6
 初期	cq1
@@ -1122,10 +1080,10 @@ encoder:
 厨房	cf9
 础	csa'
 储	cro'
-楚	
+楚	ce4
 楚	cy'
 褚	zne'
-处	
+处	c'
 处	c7
 处	cw'
 处处	cc1
@@ -1137,13 +1095,12 @@ encoder:
 触	cu2
 黜	ciao'
 啜	cka'
-穿	
+穿	co4
 穿	cx'
 穿过	cg1
 穿着	cz9
-传	
-传	c'
 传	cr'
+传	cu8
 传遍	cb9
 传播	cb4
 传出	cc2
@@ -1153,16 +1110,15 @@ encoder:
 传统	ct
 船	cu7
 船	czu'
-喘	ci1
+喘	ci0
 喘	cia'
 串	ciae'
-窗	co9
 窗	cxu'
 窗户	ch
 窗口	ck4
 窗外	cw5
 床	cge'
-床	co5
+床	co0
 创	clu'
 创	cu5
 创维	cw2
@@ -1170,11 +1126,12 @@ encoder:
 创意	cy9
 创造	cz4
 创作	cz6
-吹	ci8
+吹	ci;
+吹	ci4
 吹	cku'
 炊	couu'
 垂	cvu'
-春	
+春	ce3
 春	cq'
 春秋	cq7
 春天	ct4
@@ -1183,13 +1140,10 @@ encoder:
 纯	caa'
 纯属	cs2
 唇	cci'
-唇	ce1
 淳	cdo'
-蠢	ce3
 戳	cga'
 辍	cca'
 龊	ciei'
-词	co2
 词	cya'
 词汇	ch0
 祠	cna'
@@ -1209,7 +1163,7 @@ encoder:
 此外	cw7
 次	co
 次日	cr8
-刺	ce9
+刺	ce1
 刺	cle'
 刺耳	cv0
 刺激	cj0
@@ -1233,9 +1187,7 @@ encoder:
 聪	cvo'
 聪明	cm8
 粗	cmi'
-粗	co;
 促	cri'
-促	cu0
 促进	cj3
 猝	cqo'
 簇	cpo'
@@ -1243,7 +1195,6 @@ encoder:
 蹿	czo'
 窜	cxi'
 篡	cpi'
-崔	ci'
 崔	csu'
 催	cui'
 摧	ceie'
@@ -1255,10 +1206,11 @@ encoder:
 粹	cmo'
 翠	ca9
 翠	cao'
-村	ce2
+村	ce'
+村	ce5
 村	cme'
 村民	cm2
-存	
+存	ce7
 存	cz'
 存储	cc0
 存款	ck5
@@ -1281,12 +1233,12 @@ encoder:
 达到	dd3
 妲	dni'
 答	dpu'
+答	du'
 答	du5
 答案	dv9
 答应	dy9
 瘩	doe'
-打	
-打	d;
+打	de8
 打	df'
 打扮	db3
 打发	df2
@@ -1337,15 +1289,16 @@ encoder:
 大学	dx4
 大约	dy2
 眔	dzi'
-呆	di7
 呆	dke'
+呆	vi3
 呆	via'
+代	du;
 代	du4
 代	dui'
 代表	db
 代价	dj5
 代码	dm5
-带	
+带	de9
 带	dj'
 带回	dh8
 带宽	dk9
@@ -1353,27 +1306,24 @@ encoder:
 带领	dl7
 带着	dz9
 待	dce'
-待	du7
+待	du6
 怠	dxa'
 殆	dda'
 玳	dwu'
 贷	dbu'
 贷款	dk3
-袋	du'
 袋	dyu'
-逮	da6
+逮	da0
 逮	dla'
 曃	dqa'
-戴	de'
 戴尔	dv5
 黛	dhu'
-丹	
 丹	dk'
 单	dbi'
 单	do8
 单纯	dc0
 单位	dw
-担	de8
+担	de5
 担	dfi'
 担保	db7
 担任	dr6
@@ -1383,10 +1333,8 @@ encoder:
 殚	deua'
 瘅	dbo'
 箪	dpo'
-胆	du0
 旦	di6
 旦	dqe'
-但	
 但	d1
 但	dr'
 但是	ds
@@ -1395,7 +1343,7 @@ encoder:
 弹	ta2
 弹	tgo'
 弹出	tc6
-淡	do9
+淡	do6
 淡	doi'
 淡淡	dd5
 蛋	da8
@@ -1429,9 +1377,8 @@ encoder:
 党员	dy6
 宕	dooa'
 荡	dco'
-荡	de;
 档案	dv4
-刀	
+刀	da7
 刀	dz'
 刀刃	dr2
 叨	dka'
@@ -1440,13 +1387,12 @@ encoder:
 导弹	dd2
 导航	dh1
 岛	dsu'
-岛	du;
 倒	dre'
 倒	du8
 倒是	ds0
 捣	deie'
 祷	dne'
-到	
+到	d;
 到	d3
 到	dl'
 到处	dc7
@@ -1467,15 +1413,14 @@ encoder:
 得分	df6
 得了	dl2
 得意	dy5
-德	
 德	dc'
+德	du7
 德国	dg8
 的	d
 的话	dh
 的钱	dq6
 的确	dq3
 灯	dhe'
-灯	do;
 灯光	dg4
 登	da9
 登	dde'
@@ -1483,21 +1428,19 @@ encoder:
 燈	dha'
 璒	dwa'
 蹬	dza'
-等	
 等	d0
 等	dp'
 等待	dd7
 等到	dd0
 等候	dh0
 等于	dy0
-邓	da7
+邓	da2
 邓	dya'
-凳	da0
 凳	dja'
-瞪	di2
+瞪	di8
 瞪	dma'
 低	dru'
-低	du6
+低	du1
 低沉	dc1
 低声	ds3
 低头	dt9
@@ -1507,19 +1450,18 @@ encoder:
 狄	dqo'
 迪	di1
 迪	dii'
-敌	
 敌	dw'
 敌人	dr7
 涤	ddu'
 笛	dpi'
 嫡	dno'
 底	dgu'
+底	do'
 底	do5
 底下	dx6
-抵	de1
 抵抗	dk5
 砥	deui'
-地	
+地	d'
 地	d4
 地	dt'
 地步	db8
@@ -1539,12 +1481,10 @@ encoder:
 弟	do7
 弟子	dz
 俤	dro'
-帝	do'
 帝	dwo'
 帝国	dg5
 娣	dau'
 递	dlo'
-第	d'
 第	dpa'
 第	du3
 第二	dv
@@ -1555,9 +1495,8 @@ encoder:
 滇	dooe'
 颠	deii'
 巅	diai'
-典	di8
+典	di7
 典	diu'
-点	
 点	d8
 点	db'
 点儿	dv7
@@ -1566,7 +1505,7 @@ encoder:
 点评	dp9
 点燃	dr9
 点头	dt
-电	
+电	di2
 电	dq'
 电话	dh9
 电脑	dn4
@@ -1577,27 +1516,27 @@ encoder:
 佃	dri'
 甸	dua'
 店	dgi'
-店	do1
+店	do0
 店铺	dp6
 玷	dwi'
 奠	doue'
-殿	da2
+殿	da'
+殿	da4
 殿	dsa'
-刁	da1
 刁	dze'
 貂	duo'
 雕刻	dk0
 伄	dra'
 吊	dki'
 钓	dju'
-调	
+调	do2
 调	dy'
 调	tyu'
 调查	dc
 调控	tk0
 调皮	tp2
 调整	tz3
-掉	de3
+掉	de6
 掉	deo'
 藋	dca'
 爹	dfu'
@@ -1605,31 +1544,29 @@ encoder:
 跌	di0
 跌	dzu'
 谍	doae'
-叠	da5
+叠	da6
 叠	dae'
 牒	dpe'
-蝶	di;
 蝶	die'
-丁	de5
 丁	dhi'
 玎	dwe'
+盯	di;
 盯	di4
 盯	dio'
 钉	due'
 酊	deia'
-顶	de9
+顶	de1
 顶	dye'
 薡	dci'
 订	doa'
 订购	dg0
-定	
 定	d9
 定	dg'
 定额	dv6
 定期	dq0
 定义	dy4
 碇	dso'
-东	
+东	de2
 东	dh'
 东北	db6
 东方	df4
@@ -1644,6 +1581,7 @@ encoder:
 氡	dqu'
 董	dcu'
 动	d6
+动	de;
 动	dle'
 动画	dh3
 动静	dj6
@@ -1655,10 +1593,8 @@ encoder:
 动作	dz7
 峒	dsi'
 洞	ddi'
-洞	do0
 戙	tgi'
 胴	duae'
-都	
 都	d5
 都	dv'
 都不	db0
@@ -1667,12 +1603,11 @@ encoder:
 都快	dk6
 都没	dm0
 都能	dn2
-斗	
 斗	dd'
+斗	do9
 斗争	dz4
-抖	de0
 抖	dfo'
-陡	da4
+陡	da5
 陡	dai'
 陡然	dr1
 逗	dei'
@@ -1681,10 +1616,9 @@ encoder:
 嘟	diae'
 督	di3
 督	dmi'
-毒	
+毒	de3
 毒	dm'
 毒品	dp8
-读	do2
 读书	ds2
 读者	dz5
 渎	doo'
@@ -1694,11 +1628,12 @@ encoder:
 独特	dt7
 堵	dte'
 赌	dbe'
+赌	di'
 赌	di5
 睹	dia'
-妒	
+妒	da1
 妒	dn'
-杜	de4
+杜	de0
 杜	dme'
 肚	dve'
 肚皮	dp2
@@ -1708,22 +1643,22 @@ encoder:
 秺	dho'
 渡	ddo'
 端	dli'
-端	do6
+端	do1
 端口	dk8
 短	dse'
-短	du1
 短片	dp0
 短线	dx2
-段	
 段	ds'
+段	du0
 断	djo'
+断	do;
 断	do4
-缎	da'
 缎	daa'
 锻	duee'
 堆	dtu'
 鴭	dnu'
 队	d2
+队	da;
 队	dvu'
 队伍	dw4
 对	da
@@ -1748,14 +1683,13 @@ encoder:
 对于	dy3
 兑	dou'
 憝	dxo'
-吨	di'
 墩	dto'
 蹲	dzo'
 盾	dmu'
-顿	de2
+顿	de'
+顿	de4
 顿	dea'
 遁	dlu'
-多	
 多	d7
 多	dx'
 多半	db5
@@ -1769,36 +1703,35 @@ encoder:
 多少	ds8
 多种	dz1
 裰	dna'
-夺	de6
 夺	dee'
 掇	dfa'
 躲避	db2
-堕	da;
 堕	dta'
 堕	hta'
 舵	duu'
 惰	dooi'
+妸	va'
 妸	va4
 妿	va1
 屙	va2
 屙	vsa'
-讹	vo4
+讹	vo0
 讹	vyu'
-俄	
 俄	vr'
+俄	vu9
 俄国	vg1
 娥	v2
+娥	va;
 娥	vnu'
-峨	vi1
+峨	vi0
 峨	vie'
 锇	vju'
-鹅	
 鹅	vn'
+鹅	vu6
 鹅群	vq2
 鹅绒	vr2
 蛾	vcu'
-额	
-额	v'
+额	vo9
 额	vy'
 额定	vd6
 额度	vd5
@@ -1807,15 +1740,13 @@ encoder:
 婀	va8
 婀	vna'
 厄	vca'
-厄	ve2
+厄	ve5
 戹	vha'
-呃	vi0
 呃	vke'
-扼	ve1
 扼	vfe'
-阸	va'
 垩	vte'
 恶	v0
+恶	ve;
 恶	vxe'
 恶	wxe'
 恶搞	vg6
@@ -1826,32 +1757,28 @@ encoder:
 恶性	vx6
 恶意	vy5
 砨	vso'
-饿	
 饿	vs'
+饿	vu2
 饿了	vl2
-谔	vo0
-鄂	
 鄂	vv'
 堮	vti'
-愕	
 愕	vl'
+愕	vo2
 愕然	vr4
 湂	vdi'
 萼	vci'
-萼	ve5
-遏	vi'
+萼	ve0
 遏	vli'
-锷	
 锷	vj'
 鹗	vni'
 颚	vyi'
-噩	ve4
+噩	ve1
 噩	vhi'
 噩梦	vm3
 覨	vji'
-鳄	vu5
 鳄	vvi'
 恩	v6
+恩	vi;
 恩	vxi'
 恩爱	vv5
 恩赐	vc0
@@ -1896,14 +1823,12 @@ encoder:
 而言	vy4
 而已	vy
 而又	vy6
-耏	
 耏	vp'
 尓	vxu'
-尔	
+尔	v'
 尔	v4
 尔	vx'
 尔康	vk9
-耳	
 耳	v3
 耳	vh'
 耳边	vb
@@ -1915,11 +1840,9 @@ encoder:
 耳内	vn8
 耳畔	vp8
 耳旁	vp4
-迩	vu0
 迩	vuu'
 洱	vde'
-洱	vo6
-饵	vu4
+饵	vu0
 饵	vua'
 二	ve
 二百	vb4
@@ -1989,12 +1912,12 @@ encoder:
 发展	fz
 橃	fma'
 醗	fya'
-罚	
+罚	fi9
 罚	fz'
 罚款	fk0
 阀	foi'
 阀门	fm1
-法	
+法	f;
 法	f9
 法	fd'
 法案	fv4
@@ -2009,14 +1932,12 @@ encoder:
 法子	fz1
 砝	fse'
 琺	fwo'
-帆	fi4
+帆	fi5
 帆	fia'
-番	
 番	ft'
 番	ptu'
 番茄	fq1
 番禺	py8
-幡	fi'
 幡	fiai'
 翻	fu9
 翻	fvu'
@@ -2024,18 +1945,16 @@ encoder:
 翻身	fs7
 翻译	fy5
 凡	fjo'
-凡	fu5
+凡	fu0
 凡是	fs8
 烦	fhe'
 烦	fo7
 烦恼	fn9
 樊	fde'
-繁	
 繁	fx'
 繁	pxu'
 繁荣	fr3
 繁体	ft7
-反	
 反	f5
 反	fy'
 反驳	fb2
@@ -2055,18 +1974,18 @@ encoder:
 返	flu'
 返	fu7
 返回	fh8
-犯	
 犯	fq'
 犯罪	fz6
 泛	fdu'
+泛	fo;
 泛	fo4
-饭	
 饭	fs'
+饭	fu5
 饭店	fd5
-范	
 范	fc'
+范	fe2
 范围	fw8
-贩	fi1
+贩	fi0
 贩	fii'
 畈	ftu'
 梵	fme'
@@ -2082,7 +2001,7 @@ encoder:
 方向	fx7
 方针	fz0
 芳	fco'
-芳	fe4
+芳	fe6
 枋	fmo'
 堏	fte'
 防	fa8
@@ -2091,10 +2010,10 @@ encoder:
 防护	fh3
 防伪	fw1
 防御	fy0
-妨	fa7
+妨	fa;
+妨	fa4
 妨	fno'
 妨碍	fv3
-房	
 房	f1
 房	fh'
 房	pho'
@@ -2110,7 +2029,6 @@ encoder:
 房子	fz2
 肪	fua'
 仿	fro'
-仿	fu1
 仿佛	ff7
 访	fo8
 访	fyo'
@@ -2120,11 +2038,10 @@ encoder:
 访问	fw9
 彷	puu'
 彷徨	ph0
-纺	fa1
+纺	fa0
 昉	fqo'
 舫	fzo'
 髣	fbo'
-放	
 放	f4
 放	ff'
 放出	fc6
@@ -2153,7 +2070,7 @@ encoder:
 飞舞	fw7
 飞行	fx0
 飞扬	fy3
-妃	fa5
+妃	fa6
 妃	fna'
 非	fi
 非常	fc
@@ -2161,12 +2078,11 @@ encoder:
 非典	fd8
 非法	ff5
 非洲	fz9
-啡	fi3
+啡	fi7
 啡	fki'
-绯	fa0
 绯	fji'
 菲	fci'
-菲	fe6
+菲	fe0
 菲尔	fv7
 扉	foa'
 裶	fni'
@@ -2178,21 +2094,18 @@ encoder:
 腓	fuae'
 诽	fyi'
 悱	fli'
-斐	fi6
+斐	fi1
 斐	fwi'
-翡	fi;
 翡	fie'
 篚	fpe'
 吠	fke'
 废	fga'
-废	fo1
 废话	fh1
 废品	fp8
 废品	fpi'
 沸腾	ft0
 狒	fqa'
 肺癌	fv0
-费	
 费	f2
 费	fb'
 费尔	fv1
@@ -2223,7 +2136,7 @@ encoder:
 分析	fx3
 分享	fx1
 分钟	fz7
-吩	fi8
+吩	fi3
 吩	fiu'
 吩咐	ff8
 吩咐	ffi'
@@ -2238,18 +2151,18 @@ encoder:
 汾	foo'
 梤	fmi'
 羵	fye'
-粉	
 粉	fm'
+粉	fo1
 粉红	fh2
 粉嫩	fn0
-份	
 份	fr'
+份	fu8
 份额	fv2
 奋	fe7
 奋	feu'
 奋斗	fd9
 愤	fle'
-愤	fo5
+愤	fo6
 愤怒	fn2
 粪	fou'
 丰	fe3
@@ -2257,7 +2170,7 @@ encoder:
 丰富	ff9
 丰满	fm5
 丰田	ft5
-风	
+风	f'
 风	f7
 风	fp'
 风暴	fb6
@@ -2276,45 +2189,45 @@ encoder:
 风味	fw6
 风险	fx2
 风云	fy6
-枫	fe1
 枫	fmu'
 封	fce'
-封	fe8
+封	fe9
 封闭	fb9
 封口	fk8
 封面	fm3
 疯	fbu'
-疯	fo3
+疯	fo'
+疯	fo5
 疯狂	fk7
 峰	f8
+峰	fi;
 峰	fsu'
 烽	fhu'
 锋	fju'
-锋	fu0
-蜂	fi5
+蜂	fi6
 蜂	fio'
 僼	fri'
 酆	feee'
 冯	fda'
-冯	fo0
-缝	fa4
+缝	fa'
+缝	fa5
 缝	fao'
 缝纫	fr2
-讽	fo'
 讽	fyu'
-凤	
 凤	fj'
+凤	fu1
 凤凰	fh5
-奉	fe9
+奉	fe'
+奉	fe5
 奉	fee'
 奉劝	fq2
 奉献	fx6
 覅	fxa'
 佛	fra'
-佛	fu8
+佛	fu'
+佛	fu4
 佛教	fj1
 坲	fta'
-否	
 否	f3
 否	fk'
 否认	fr9
@@ -2330,10 +2243,10 @@ encoder:
 懯	fxe'
 弗	fa3
 弗	fgu'
-伏	fu6
 伏	fui'
 孚	fza'
-扶	fe2
+扶	fe;
+扶	fe4
 扶	ffe'
 扶持	fc4
 扶贫	fp7
@@ -2342,19 +2255,16 @@ encoder:
 咈	fka'
 怫	fla'
 拂	ffa'
-服	
 服	f6
 服	fv'
 服务	fw
-绂	fa'
 绋	fja'
 俘	fru'
 炥	fha'
-浮	fo6
+浮	fo0
 砩	fsa'
 涪	fdo'
 符	fpu'
-符	fu3
 符号	fh6
 符合	fh7
 笰	fpa'
@@ -2366,34 +2276,31 @@ encoder:
 福建	fj2
 福利	fl7
 辐	fea'
-蝠	fi0
 蝠	fiae'
-抚	fe5
+抚	fe1
 抚	fei'
 抚摸	fm6
 抚弄	fn3
-甫	fe'
 甫	fhi'
-府	
-府	f;
 府	fg'
+府	fo3
 斧	ffu'
 釜	fuo'
 辅导	fd2
 焤	fho'
-腐	fo;
 腐	foe'
 腐败	fb8
 父	f0
 父	fpo'
+父	fu;
 父母	fm2
 父女	fn6
 父亲	fq
 付	fre'
-付	fu4
+付	fu6
 付出	fc2
 付款	fk5
-妇	
+妇	fa7
 妇	fn'
 妇女	fn
 妇人	fr7
@@ -2409,12 +2316,10 @@ encoder:
 附近	fj7
 附图	ft4
 附属	fs2
-咐	fi9
+咐	fi8
 咐	fku'
-驸	fa;
 驸	faa'
-复	
-复	f'
+复	fu3
 复	fw'
 复仇	fc1
 复发	ff1
@@ -2423,11 +2328,9 @@ encoder:
 复垦	fk2
 复牌	fp5
 复杂	fz5
-赴	fe0
 赴	fzi'
-副	
+副	fe8
 副	fl'
-傅	fu;
 傅	fuu'
 富	fge'
 富	fo9
@@ -2435,11 +2338,10 @@ encoder:
 富翁	fw0
 富有	fy4
 赋	fbe'
-赋	fi7
-缚	fa6
+赋	fi'
+赋	fi4
+缚	fa1
 缚	fae'
-腹	fu'
-覆	fe;
 覆	fxu'
 覆盖	fg9
 覆盖	fgo'
@@ -2447,16 +2349,13 @@ encoder:
 猤	gqa'
 伽	gra'
 钆	gja'
-嘎	gi0
 噶	giae'
 尕	gxa'
-该	
 该	g0
 该	gy'
 该片	gp5
 垓	gto'
 赅	gbo'
-改	
 改	g2
 改	gj'
 改编	gb2
@@ -2468,11 +2367,9 @@ encoder:
 盖	go7
 盖	gou'
 溉	gda'
-概	ge;
 概	gma'
 概念	gn4
-干	
-干	g'
+干	ge3
 干	gv'
 干	qvi'
 干部	gb9
@@ -2483,7 +2380,6 @@ encoder:
 尴	geu'
 尴尬	gg1
 秆	ghe'
-赶	ge1
 赶	gze'
 赶到	gd6
 赶快	gk9
@@ -2491,6 +2387,7 @@ encoder:
 敢	gwa'
 敢情	gq5
 感	g6
+感	ge'
 感	gxe'
 感到	gd
 感动	gd0
@@ -2507,28 +2404,25 @@ encoder:
 趕	gzi'
 赣	gli'
 赣南	gn3
-冈	gi1
 冈	gie'
-刚	
+刚	gi8
 刚	gl'
 刚才	gc3
 刚刚	gg8
 刚好	gh4
 刚柔	gr2
 阬	kvo'
-岗	gi4
+岗	gi6
 岗	gsi'
 岗位	gw5
 纲	ga6
 纲	gaa'
 缸	guee'
 钢	gji'
-钢	gu3
 钢琴	gq0
 钢铁	gt6
-罡	gi;
-港	
 港	gd'
+港	go6
 港澳	gv9
 港口	gk8
 港台	gt1
@@ -2551,28 +2445,22 @@ encoder:
 高兴	gx9
 膏	goe'
 篙	gpo'
-搞	
 搞	gf'
 搞好	gh2
-缟	ga'
 稿	gho'
-稿	gu'
 镐	gjo'
-告	
 告	gn'
+告	gu4
 告别	gb8
 告诉	gs
 戈	ge2
 戈	gha'
-纥	ha'
-哥	
+哥	ge8
 哥	gk'
 哥哥	gg3
 鸽	gnu'
 割	glo'
-割	go1
 搁	gfo'
-歌	ge'
 歌	gqe'
 歌唱	gc8
 歌迷	gm9
@@ -2581,13 +2469,13 @@ encoder:
 阁	go8
 阁	goi'
 阁下	gx3
-革	ge5
 革	geo'
 革命	gm
-格	ge9
+格	ge5
 格	gmu'
 格格	gg5
 葛	gci'
+隔	ga;
 隔	ga4
 隔	gve'
 骼	giaa'
@@ -2598,7 +2486,6 @@ encoder:
 个别	gb0
 个体	gt7
 个性	gx0
-各	
 各	g7
 各	gw'
 各地	gd4
@@ -2619,12 +2506,12 @@ encoder:
 给人	gr1
 给他	gt4
 给我	gw6
-根	
+根	ge9
 根	gm'
 根本	gb
 根据	gj3
 根源	gy6
-跟	
+跟	gi2
 跟	gz'
 跟你	gn0
 跟前	gq4
@@ -2633,6 +2520,7 @@ encoder:
 艮	ga0
 艮	gau'
 更	g5
+更	ge;
 更	ghi'
 更改	gg2
 更好	gh5
@@ -2643,10 +2531,9 @@ encoder:
 更为	gw9
 耕	gle'
 羹	gyo'
-哽	gi'
 哽	gia'
 梗	geiu'
-工	
+工	g;
 工	g3
 工	gh'
 工厂	gc1
@@ -2659,6 +2546,7 @@ encoder:
 工商	gs6
 工业	gy8
 工作	gz
+弓	ga'
 弓	ga5
 弓	gae'
 公	gu
@@ -2682,44 +2570,42 @@ encoder:
 功力	gl2
 功能	gn2
 功勋	gx8
-攻	ge0
 攻	ggu'
 攻击	gj0
 攻略	gl1
 攻破	gp0
-供	
 供	gr'
+供	gu5
 供货	gh1
 供求	gq3
 供应	gy1
 宫	ggi'
-宫	go4
+宫	go;
+宫	go5
 宫殿	gd2
 恭	gea'
 恭维	gw2
 躬	gui'
 拱手	gs1
 共	gbe'
-共	ge8
+共	ge4
 共同	gt
 共有	gy5
 贡献	gx5
 勾	gba'
-勾	gu1
 佝	gru'
 沟	gdu'
-沟	go;
 沟通	gt2
 钩	gju'
 篝	gueo'
 狗	gqu'
-狗	gu6
+狗	gu0
 狗屁	gp1
-构	ge6
 构	gee'
 构成	gc5
 购	gbu'
-购	gi3
+购	gi'
+购	gi5
 购房	gf0
 购买	gm2
 购物	gw0
@@ -2727,10 +2613,8 @@ encoder:
 垢	gtu'
 够	gbi'
 够	gu2
-媾	ga;
 估	gre'
-估	gu;
-咕	gi6
+咕	gi0
 咕	gii'
 姑	ga7
 姑	gne'
@@ -2741,30 +2625,31 @@ encoder:
 孤儿	gv4
 鸪	geii'
 菇	gca'
-古	
+古	ge0
 古	gs'
 古怪	gg9
 古朴	gp6
 谷	gku'
 谷	gu9
-股	gu4
+股	gu;
+股	gu6
 股	gvu'
 股份	gf7
 股票	gp3
 股权	gq6
 牯	guei'
-骨	gi8
+骨	gi3
 骨	gsa'
 骨肉	gr8
 鹄	hnu'
-鼓	
 鼓	gt'
 鼓励	gl5
 瞽	geie'
-固	gi9
+固	gi;
+固	gi4
 固	gke'
 固然	gr5
-故	ge4
+故	ge1
 故	gwe'
 故事	gs3
 故意	gy9
@@ -2781,7 +2666,6 @@ encoder:
 挂牌	gp4
 褂	goa'
 乖	gpe'
-乖	gu0
 乖乖	gg0
 拐	gfi'
 怪	gla'
@@ -2790,7 +2674,7 @@ encoder:
 怪物	gw4
 怪异	gy0
 怪异	gy2
-关	
+关	g'
 关	g9
 关	gb'
 关爱	gv7
@@ -2810,8 +2694,8 @@ encoder:
 观看	gk7
 观念	gn7
 观众	gz0
-官	
 官	gg'
+官	go4
 官兵	gb7
 官方	gf6
 官网	gw8
@@ -2822,23 +2706,20 @@ encoder:
 棺	gmo'
 鳏	gvi'
 馆	gso'
-馆	gu5
-管	
-管	g;
+馆	gu'
+馆	gu1
 管	gp'
+管	gu3
 管孔	gk2
 管理	gl
 躀	gza'
 贯	ga2
 贯	gmi'
 贯彻	gc4
-惯	go6
 惯	goo'
 掼	gfa'
 灌	gde'
-灌	go'
 罐	gue'
-光	
 光	g8
 光	gx'
 光辉	gh8
@@ -2851,8 +2732,8 @@ encoder:
 光线	gx2
 侊	gri'
 姯	gni'
-广	
 广	gc'
+广	go3
 广播	gb5
 广场	gc0
 广大	gd3
@@ -2866,7 +2747,7 @@ encoder:
 圭	gte'
 妫	gno'
 龟	gdi'
-规	ge3
+规	ge6
 规	gje'
 规定	gd9
 规范	gf3
@@ -2879,7 +2760,6 @@ encoder:
 鲑	guai'
 瓌	gwo'
 轨	gcu'
-诡	go0
 诡	gyu'
 癸	ga1
 癸	gao'
@@ -2887,17 +2767,18 @@ encoder:
 鬼	gu8
 簋	gpa'
 刽	guo'
-贵	gi2
+贵	gi9
 贵	giu'
 贵宾	gb1
 桂	gme'
-跪	gi5
+跪	gi1
 跪	gio'
 滚	gdo'
-滚	go5
+滚	go'
+滚	go1
 滚屏	gp2
 埚	gti'
-郭	go3
+郭	go0
 郭	gvo'
 锅	guu'
 彍	ggo'
@@ -2916,7 +2797,6 @@ encoder:
 国有	gy3
 帼	giai'
 虢	guoo'
-果	
 果	g4
 果	gq'
 果然	gr
@@ -2937,38 +2817,37 @@ encoder:
 哈	hku'
 哈佛	hf1
 哈哈	hh8
-孩	
+孩	ha8
 孩	hz'
 孩子	hz
 骸	hgo'
 海	h0
 海	hdu'
+海	ho;
 海岸	hv6
 海尔	hv4
 海口	hk6
 海南	hn5
 海外	hw7
 亥	hwa'
-骇	ha3
+骇	ha6
 骇	hau'
-害	
 害	hg'
+害	ho9
 害怕	hp
 酣	heia'
-嫨	ra;
-憨	ha1
 憨	hxa'
-含	hu9
+含	hu6
 含	huo'
 含量	hl0
 含笑	hx4
 邯	hve'
-函	ha8
+函	ha'
+函	ha5
 函	hai'
 函数	hs0
 寒	hge'
-寒	ho4
-韩	he0
+寒	ho6
 韩	hwe'
 韩国	hg8
 韩剧	hj2
@@ -2978,10 +2857,10 @@ encoder:
 喊	hii'
 鬫	kda'
 汉	hda'
-汉	ho9
+汉	ho'
+汉	ho4
 汉子	hz2
 汉字	hz9
-汗	ho'
 汗孔	hk2
 旱	hqe'
 捍	hfi'
@@ -3006,7 +2885,6 @@ encoder:
 毫米	hm0
 毫秒	hm7
 毫无	hw
-豪	ho1
 好	ha
 好啊	hv8
 好不	hb
@@ -3031,6 +2909,7 @@ encoder:
 好些	hx0
 好心	hx1
 好在	hz5
+号	hi'
 号	hi4
 号	hke'
 号称	hc0
@@ -3045,6 +2924,7 @@ encoder:
 禾	hpe'
 合	h6
 合	hre'
+合	hu;
 合成	hc4
 合法	hf9
 合肥	hf4
@@ -3052,7 +2932,6 @@ encoder:
 合理	hl4
 合同	ht4
 合作	hz7
-何	
 何	h5
 何	hr'
 何必	hb9
@@ -3065,18 +2944,17 @@ encoder:
 和蔼	hv3
 和尚	hs8
 和弦	hx2
-河	ho5
+河	ho1
 河北	hb8
 河南	hn
 阂	hoia'
-核	he;
 核	hmo'
 核心	hx9
-盒	hu'
 貉	hzu'
 阖	hoi'
 覈	hxu'
-贺	ha7
+贺	ha;
+贺	ha4
 贺	hba'
 袔	kne'
 赫	hea'
@@ -3084,6 +2962,7 @@ encoder:
 鹤	hno'
 壑	hti'
 黑	h8
+黑	hi;
 黑	hsa'
 黑暗	hv
 黑客	hk5
@@ -3095,7 +2974,7 @@ encoder:
 嘿	hi0
 嘿嘿	hh4
 痕迹	hj1
-很	
+很	h'
 很	h4
 很	hc'
 很爱	hv1
@@ -3105,44 +2984,38 @@ encoder:
 很快	hk
 很难	hn2
 很强	hq2
-狠	
 狠	hq'
+狠	hu1
 狠狠	hh7
 詪	hya'
 恨	hla'
-恨	ho6
+恨	ho0
 亨	hoe'
 哼	hi6
 哼	hko'
 姮娥	hv2
 姮娥	hva'
 珩	hwu'
-横	
 横	hm'
 横幅	hf8
-衡	hu;
 衡	huu'
 轰	hca'
 哄	hiae'
 訇	hbo'
-弘	ha5
+弘	ha0
 弘	hga'
-红	
 红	h2
 红	hj'
 红外	hw0
 宏观	hg2
 垬	hte'
-洪	ho;
 洪	hoo'
 虹	hia'
 鸿	hooe'
 侯	hra'
-侯	hu6
 喉咙	hl8
-吼	hi;
 吼	hka'
-后	
+后	h;
 后	h7
 后	hk'
 后方	hf0
@@ -3159,32 +3032,30 @@ encoder:
 厚	hci'
 厚	he7
 候	hri'
-候	hu8
+候	hu3
 堠	htu'
 鲎	hxo'
-乎	
 乎	hp'
+乎	hu9
 呼	hi8
 呼	hiu'
 呼唤	hh1
 呼吸	hx8
-忽	
+忽	hu2
 忽	hx'
 忽地	hd6
 忽然	hr
 囫	hiau'
-弧	ha6
 弧	hae'
-狐	hu0
 狐	hua'
-胡	
+胡	he6
 胡	hv'
 胡闹	hn9
 胡子	hz4
 壶	hto'
 斛	hjo'
 湖	hde'
-湖	ho8
+湖	ho5
 湖北	hb6
 湖泊	hp6
 湖南	hn3
@@ -3197,14 +3068,13 @@ encoder:
 琥珀	hp3
 箎	hpi'
 鯱	hvi'
-互	he1
 互	hha'
 互相	hx3
 戶	hpa'
 户	ho2
 户口	hk8
 户外	hw4
-护	
+护	he5
 护	hf'
 护肤	hf6
 戽	hho'
@@ -3213,32 +3083,30 @@ encoder:
 簄	hpo'
 花	h3
 花	hcu'
+花	he;
 花儿	hv5
 花费	hf2
 花开	hk1
 花瓶	hp0
 花钱	hq7
 花园	hy5
-华	
-华	h;
 华	hs'
+华	hu8
 华纳	hn0
 华南	hn6
 华人	hr4
 华为	hw1
-姡	ka;
-骅	ha0
 骅	haa'
 铧	huee'
 化	h1
 化	hru'
+化	hu'
 化工	hg0
 化为	hw9
 划	he2
 划	hgi'
 划分	hf5
 划破	hp1
-画	he5
 画	hhi'
 画出	hc2
 画面	hm5
@@ -3246,8 +3114,8 @@ encoder:
 话说	hs9
 话题	ht8
 话筒	ht7
-怀	
 怀	hl'
+怀	ho8
 怀里	hl1
 怀念	hn7
 怀疑	hy7
@@ -3255,10 +3123,9 @@ encoder:
 徊	huui'
 槐	hmu'
 踝	hzi'
-坏	
 坏	ht'
 坏人	hr5
-欢	
+欢	ha9
 欢	hy'
 欢乐	hl5
 欢喜	hx6
@@ -3274,7 +3141,7 @@ encoder:
 还要	hy3
 还有	hy
 还在	hz1
-环	
+环	he3
 环	hw'
 环保	hb5
 环节	hj3
@@ -3288,10 +3155,11 @@ encoder:
 缓存	hc6
 缓缓	hh
 缓慢	hm6
-幻	ha9
+幻	ha3
 幻	hza'
 奂	huai'
-换	he8
+换	he'
+换	he1
 换	hfu'
 换成	hc1
 换个	hg7
@@ -3301,12 +3169,11 @@ encoder:
 荒	hco'
 慌	hle'
 皇	hbe'
-皇	hu3
+皇	hu4
 皇帝	hd9
 皇上	hs4
-隍	ha;
-黄	
 黄	hb'
+黄	he4
 黄河	hh6
 黄昏	hh0
 黄金	hj5
@@ -3314,14 +3181,12 @@ encoder:
 璜	hee'
 篁	hpu'
 恍	hli'
-晃	hi'
 晃	hqi'
 谎	hye'
 幌	hji'
-灰	he'
 灰	hhe'
 恢复	hf
-挥	he4
+挥	he0
 挥	hfo'
 晖	hqo'
 珲	hwo'
@@ -3349,7 +3214,6 @@ encoder:
 悔	hlu'
 卉	hse'
 汇款	hk3
-会	
 会	hu
 会	kr'
 会长	hz6
@@ -3362,7 +3226,7 @@ encoder:
 会上	hs6
 会谈	ht9
 会议	hy9
-绘	ha4
+绘	ha1
 绘	hao'
 绘画	hh3
 恚	heie'
@@ -3370,34 +3234,28 @@ encoder:
 秽	hue'
 惠普	hp5
 毁	hsu'
-毁	hu1
 毁灭	hm1
 昏	hqu'
-昏	hu2
 昏暗	hv0
 昏迷	hm9
 昬	hqa'
-婚	
+婚	ha7
 婚	hn'
 婚礼	hl9
 婚姻	hy0
 浑	hdo'
 浑身	hs7
-魂	he3
 魂	heo'
 魂魄	hp7
 诨	hyo'
 混	hdi'
-混	ho0
 混乱	hl7
 豁	hooa'
-活	
 活	h9
 活	hd'
 活动	hd
 活力	hl2
 活泼	hp4
-火	h'
 火	ho7
 火爆	hb1
 火车	hc3
@@ -3405,20 +3263,19 @@ encoder:
 火器	hq8
 火热	hr3
 伙	hro'
-伙	hu4
+伙	hu5
 伙伴	hb7
 伙计	hj6
-或	
+或	he8
 或	hh'
 或是	hs5
 或许	hx
 或者	hz3
 货	hbu'
-货	hu5
+货	hu0
 货币	hb4
 货品	hp8
 货物	hw5
-获	he6
 获	heu'
 获得	hd5
 获取	hq4
@@ -3428,11 +3285,12 @@ encoder:
 霍	hvu'
 镬	hje'
 讥	joau'
-击	je6
+击	je0
 击	jvi'
 叽	jiae'
 饥饿	jv7
 机	j3
+机	je;
 机	jmu'
 机构	jg5
 机关	jg9
@@ -3445,11 +3303,10 @@ encoder:
 肌肤	jf7
 矶	jeui'
 姬	jne'
-积	
 积	jh'
 积分	jf4
 积极	jj3
-基	
+基	je6
 基	jq'
 基本	jb
 基层	jc2
@@ -3464,28 +3321,30 @@ encoder:
 激烈	jl0
 羁	jiai'
 及	jpa'
-及	ju2
+及	ju;
+及	ju4
 及其	jq4
 吉	jti'
-级	ja;
 级别	jb6
-即	
+即	ja4
 即	jg'
 即可	jk1
 即使	js5
-极	je8
+极	je'
+极	je4
 极了	jl2
 极品	jp4
 极其	jq6
 极为	jw
 叝	gta'
-急	ju4
+急	ju'
+急	ju5
 急	jxu'
 急忙	jm9
 笈	jueo'
 疾	jbu'
 疾病	jb9
-集	ju5
+集	ju6
 集体	jt4
 集团	jt8
 集中	jz8
@@ -3497,35 +3356,35 @@ encoder:
 几年	jn1
 几天	jt3
 几位	jw1
+己	j'
 己	j2
 己	jze'
 挤	jfo'
-计	jo2
+计	jo8
 计	jye'
 计划	jh3
 计算	js1
-记	
+记	jo2
 记	jy'
 记得	jd7
 记录	jl1
 记者	jz
-纪	ja1
 纪	jja'
 纪律	jl7
 纪念	jn4
 妓	jau'
-技	je5
+技	je1
 技	jfe'
 技能	jn5
 技术	js3
-际	
+际	ja8
 际	jv'
 剂	joeu'
 季	jha'
-既	ja0
 既然	jr7
 济	jdo'
-济	jo9
+济	jo'
+济	jo5
 济南	jn0
 继	jjo'
 继而	jv6
@@ -3538,7 +3397,6 @@ encoder:
 霁	jeo'
 稷	juei'
 冀	jie'
-加	
 加	j5
 加	jl'
 加工	jg1
@@ -3557,22 +3415,19 @@ encoder:
 家庭	jt9
 家用	jy7
 袈	jaui'
-甲	ji0
 价格	jg6
 价值	jz5
 架	jma'
 假	jra'
-假	ju'
 假如	jr2
 嫁	jno'
 尖	ji7
 尖	jiu'
-坚	ji9
+坚	ji3
 坚	jii'
 坚持	jc3
 坚决	jj1
 坚强	jq2
-间	
 间	j4
 间	jm'
 肩	jhi'
@@ -3582,7 +3437,7 @@ encoder:
 艰苦	jk0
 艰难	jn2
 兼	jou'
-监	ji5
+监	ji6
 监	jmi'
 监督	jd8
 煎熬	jv0
@@ -3601,7 +3456,6 @@ encoder:
 见面	jm
 件	jru'
 件	ju8
-建	j;
 建	ja3
 建	jla'
 建成	jc0
@@ -3617,14 +3471,13 @@ encoder:
 舰	juu'
 渐渐	jj5
 溅	jdi'
-践	ji;
 鉴	jji'
 键盘	jp7
-江	
 江	jd'
+江	jo9
 江湖	jh9
 江南	jn3
-将	
+将	j;
 将	j9
 将	jz'
 将军	jj0
@@ -3648,7 +3501,6 @@ encoder:
 交往	jw7
 郊	jvo'
 姣	jaue'
-娇	ja7
 娇	jnu'
 浇	jooe'
 骄傲	jv
@@ -3656,15 +3508,12 @@ encoder:
 椒	jeiu'
 焦	jzo'
 蛟	jia'
-角	ju;
 绞	jaae'
 皎	jbo'
-脚	ju0
 脚	jve'
 脚步	jb8
 脚下	jx3
 缴	jaa'
-叫	
 叫	j8
 叫	jk'
 叫我	jw5
@@ -3673,7 +3522,7 @@ encoder:
 较	jco'
 较	je2
 较为	jw6
-教	
+教	je8
 教	jw'
 教案	jv4
 教堂	jt0
@@ -3681,10 +3530,8 @@ encoder:
 教训	jx4
 教育	jy
 教主	jz0
-阶	ja8
 阶	jvu'
 阶段	jd0
-接	
 接	j0
 接	jf'
 接触	jc5
@@ -3696,7 +3543,6 @@ encoder:
 揭晓	jx8
 街	jce'
 孑	jaie'
-节	
 节	jc'
 节目	jm8
 劫	jle'
@@ -3721,13 +3567,12 @@ encoder:
 她会	th1
 她们	tm7
 她那	tn5
-姐	
+姐	ja7
 姐	jn'
 姐夫	jf3
 姐姐	jj6
-解	
-解	j'
 解	jj'
+解	ju2
 解	xja'
 解放	jf
 解决	jj9
@@ -3736,12 +3581,11 @@ encoder:
 解释	js6
 介绍	js2
 届	jsi'
-界	
+界	ji2
 界	jt'
 界面	jm6
 诫	joae'
 借	jre'
-今	
 今	j7
 今	jr'
 今后	jh0
@@ -3750,7 +3594,6 @@ encoder:
 今天	jt
 今晚	jw8
 斤	jpu'
-金	
 金	j6
 金	jp'
 金币	jb0
@@ -3770,7 +3613,7 @@ encoder:
 紧张	jz2
 谨	joa'
 瑾	jee'
-尽	
+尽	ja6
 尽	js'
 尽管	jg7
 尽快	jk4
@@ -3793,10 +3636,8 @@ encoder:
 晋	jqe'
 浸	joo'
 浸泡	jp9
-禁	je;
 靳	jgu'
 噤	jke'
-京	jo0
 京	jwi'
 经	ja
 经常	jc8
@@ -3808,7 +3649,7 @@ encoder:
 经验	jy2
 经营	jy5
 惊	jlo'
-惊	jo4
+惊	jo6
 惊愕	jv1
 惊呼	jh8
 惊奇	jq0
@@ -3816,8 +3657,8 @@ encoder:
 惊讶	jy0
 旌	joea'
 菁	jeii'
-晶	ji'
-睛	ji3
+睛	ji;
+睛	ji4
 睛	jio'
 精	jme'
 精	jo7
@@ -3827,11 +3668,11 @@ encoder:
 精神	js9
 鲸	juai'
 颈	gya'
-景	ji4
+景	ji'
+景	ji5
 景	jqo'
 景象	jx6
 憬	jooi'
-警	je'
 警察	jc9
 警方	jf9
 警告	jg0
@@ -3841,30 +3682,26 @@ encoder:
 痉	jba'
 竞	jli'
 竞争	jz4
-竟	jo6
+竟	jo0
 竟	jyu'
 竟然	jr5
 靓女	ln1
-境	je0
 境	jto'
 境内	jn8
 静	je3
 静	jqu'
 窘	jxa'
 纠纷	jf6
-究	jo;
 究	joi'
 究竟	jj4
-九	ju6
-久	ju1
+九	ju1
+久	ju0
 灸	jhu'
 玖	jeei'
 酒	jde'
-酒	jo'
-旧	ji6
+旧	ji1
 旧	jqi'
 臼	jpi'
-救	je1
 救	jwe'
 就	j
 就此	jc1
@@ -3876,7 +3713,7 @@ encoder:
 就算	js4
 就要	jy4
 就业	jy8
-居	ja6
+居	ja0
 居	jse'
 居民	jm2
 居然	jr4
@@ -3884,32 +3721,31 @@ encoder:
 拘泥	jn9
 狙	juau'
 裾	jna'
-局	ja5
+局	ja'
+局	ja1
 局	jsa'
 局面	jm3
 咀	jki'
 弆	jta'
-举	jo1
 举	jxe'
 举办	jb2
 举起	jq5
 举行	jx7
 踽	jzu'
-句	
 句	jb'
 巨	jea'
 巨大	jd5
 巨额	jv5
 拒绝	jj2
 具	jbi'
-具	ji2
+具	ji9
 具备	jb1
 具体	jt7
 具有	jy3
 俱	jri'
-据	je4
+据	je5
 据	jfa'
-距	ji1
+距	ji0
 距离	jl9
 锯	juee'
 窭	jxo'
@@ -3921,18 +3757,19 @@ encoder:
 隽	jza'
 飬	jgo'
 决	jda'
-决	jo8
+决	jo;
+决	jo4
 决不	jb4
 决策	jc6
 决定	jd9
 决心	jx9
-绝	ja4
+绝	ja;
+绝	ja5
 绝	jju'
 绝不	jb3
 绝对	jd2
 绝非	jf8
 绝望	jw9
-觉	
 觉	j1
 觉	jx'
 觉得	jd
@@ -3942,9 +3779,8 @@ encoder:
 爵	jzi'
 矍	jyi'
 军	jge'
-军	jo5
+军	jo1
 军队	jd1
-君	ja'
 君	jka'
 均	jtu'
 均为	jw4
@@ -3953,13 +3789,12 @@ encoder:
 晙	jqa'
 竣	joeo'
 咖	gka'
-咖	ki3
+咖	ki1
 咖	kka'
 咖啡	kf8
-喀	ki5
 喀	kii'
-卡	
 卡	kb'
+卡	ki3
 卡片	kp7
 卡特	kt1
 卡通	kt4
@@ -4000,28 +3835,24 @@ encoder:
 开业	ky8
 开展	kz2
 衉	kxu'
-凯	
+凯	ki8
 凯	kj'
 凯恩	kv6
 恺	kli'
-铠	ku;
 慨	kla'
-慨	ko1
+慨	ko0
 楷模	km0
 炌	khu'
-刊	ke3
+刊	ke0
 刊	kle'
 刊登	kd2
 刊发	kf2
 刊物	kw6
 龛	kre'
-龛	ku1
-堪	ke1
 堪	kte'
 坎	ktu'
 侃	kri'
-侃	ku2
-砍	ke'
+侃	ku7
 砍	ksu'
 看	ku
 看啊	kv2
@@ -4059,8 +3890,8 @@ encoder:
 扛	kfe'
 亢	kwu'
 伉	kro'
-伉	ku'
-抗	ke4
+抗	ke'
+抗	ke5
 抗	kfo'
 抗癌	kv9
 抗洪	kh4
@@ -4070,7 +3901,6 @@ encoder:
 炕	kho'
 尻	ka2
 攷	kwe'
-考	
 考	k0
 考	kt'
 考察	kc9
@@ -4086,10 +3916,9 @@ encoder:
 考验	kya'
 拷贝	kb8
 烤	khe'
-烤	ko'
 烤肉	kr6
 铐	kje'
-铐	ku4
+铐	ku6
 靠	kni'
 靠	ku3
 靠岸	kv1
@@ -4097,9 +3926,8 @@ encoder:
 苛	kce'
 柯	kme'
 柯南	kn3
-珂	
 珂	kw'
-科	
+科	k'
 科	k7
 科	kh'
 科尔	kv7
@@ -4118,7 +3946,7 @@ encoder:
 犐	knu'
 稞	khi'
 窠	kxi'
-颗	
+颗	ki7
 颗	ky'
 颗粒	kl6
 瞌	kiae'
@@ -4126,7 +3954,8 @@ encoder:
 蝌	kcu'
 髁	kgi'
 壳	qto'
-咳	ki7
+咳	ki'
+咳	ki6
 咳	kko'
 可	k
 可爱	kv
@@ -4155,18 +3984,15 @@ encoder:
 可用	ky7
 可知	kz7
 渴	kdi'
-渴	ko5
+渴	ko6
 渴望	kw
-克	
 克	k3
 克	ks'
 克尔	kv5
 克服	kf7
-刻	
 刻	k4
 刻	kl'
 刻意	ky6
-客	
 客	k5
 客	kg'
 客场	kc0
@@ -4188,28 +4014,28 @@ encoder:
 课堂	kt8
 课题	kt5
 课文	kw5
+骒	ka'
 骒	ka4
 缂	ka5
-肯	
 肯	k8
 肯	kn'
 肯定	kd9
 垦	ka7
 垦	kae'
 恳	k2
+恳	ka;
 恳	kxa'
-啃	ki;
 啃	kki'
 豤	ksa'
 裉	kna'
-吭	ki0
 吭	kie'
 坑	kto'
 铿	kji'
-铿	ku7
+铿	ku'
+铿	ku5
 銵	kju'
 巪	kha'
-空	
+空	k;
 空	k9
 空	kx'
 空白	kb7
@@ -4231,7 +4057,7 @@ encoder:
 恐惧	kj4
 恐龙	kl0
 恐怕	kp
-控	
+控	ke9
 控	kf'
 控股	kg7
 控制	kz
@@ -4245,23 +4071,20 @@ encoder:
 口味	kw8
 口语	ky0
 口中	kz5
-叩	ki4
 叩	kio'
-扣	ke0
 扣	kfi'
 扣除	kc1
-寇	ko7
+寇	ko;
+寇	ko4
 寇	koo'
 滱	kdo'
 蔻	kco'
 枯	kee'
-哭	ki2
+哭	ki9
 哭	kqi'
 哭闹	kn1
 哭泣	kq5
-窟	ko;
 窟	koi'
-苦	
 苦	k6
 苦	kc'
 苦苦	kk3
@@ -4269,7 +4092,7 @@ encoder:
 苦难	kn4
 苦恼	kn9
 苦笑	kx7
-库	ko8
+库	ko7
 库	koe'
 库存	kc4
 库尔	kv0
@@ -4277,24 +4100,22 @@ encoder:
 绔	ka8
 喾	kxo'
 裤	kno'
-裤	ko6
+裤	ko1
 裤子	kz1
-酷	ke;
 酷	kyu'
 酷爱	kv4
 夸	kde'
 夸张	kz0
 挎	keie'
-胯	ku6
+胯	ku0
 胯	kve'
-跨	
+跨	ki4
 跨	kz'
 跨国	kg8
 跨骑	kq2
 跨越	ky1
 蒯	keii'
 巜	kza'
-块	k;
 块	ke8
 块	kta'
 块钱	kq6
@@ -4321,8 +4142,8 @@ encoder:
 快要	ky4
 狯	kqu'
 脍	kvu'
-筷	
 筷	kp'
+筷	ku9
 廥	kgu'
 宽	kge'
 宽	ko9
@@ -4332,26 +4153,24 @@ encoder:
 宽频	kp8
 宽屏	kp6
 宽容	kr9
-款	ke9
+款	ke;
+款	ke4
 款	kqe'
 款式	ks6
 匡	kke'
 诓	kye'
 筐	kpe'
-筐	ku5
-狂	
-狂	k'
+筐	ku1
 狂	kq'
+狂	ku2
 狂热	kr4
 狂人	kr7
 夼	kdu'
 纩	ka9
 纩	kjo'
-况	
 况	k1
 况	kd'
 况且	kq8
-旷	ki1
 旷	kqo'
 矿	ke7
 矿	kso'
@@ -4359,12 +4178,11 @@ encoder:
 贶	kbi'
 框	kea'
 框架	kj2
-眶	ki8
+眶	ki0
 眶	kia'
-亏	
+亏	ke3
 亏	kv'
 亏损	ks5
-窥	ko0
 窥	kou'
 聧	kva'
 奎	keu'
@@ -4381,17 +4199,19 @@ encoder:
 巙	nso'
 躨	kzo'
 傀	kru'
-傀	ku0
 跬	kze'
 愧	klu'
-愧	ko4
+愧	ko'
+愧	ko5
 溃	koa'
 蒉	kci'
 馈	ksi'
-馈	ku9
+馈	ku;
+馈	ku4
 篑	kpi'
 坤	kti'
-昆	ki9
+昆	ki;
+昆	ki5
 昆	kiu'
 昆明	km8
 琨	kwi'
@@ -4401,30 +4221,31 @@ encoder:
 鲲	kvi'
 捆绑	kb2
 梱	hmi'
-困	
+困	ki2
 困	kk'
 困惑	kh6
 困难	kn2
 困扰	kr3
-扩	ke5
+扩	ke6
 扩	keo'
 扩大	kd3
 扩容	kr5
 扩展	kz4
 扩张	kz6
 括	gfu'
-括	ke6
+括	ke1
 括	kfu'
 桰	kmu'
 筈	kpu'
-阔	
 阔	km'
+阔	ko8
 韕	kwo'
 垃	lto'
-拉	
+拉	le5
 拉	lf'
 拉开	lk3
-啦	li9
+啦	li;
+啦	li5
 啦	lke'
 旯	lqu'
 喇叭	lb0
@@ -4450,8 +4271,8 @@ encoder:
 徕	luui'
 赖	lbe'
 籁	lpe'
-兰	
 兰	lb'
+兰	lo4
 拦	lfo'
 拦住	lz4
 栏	lei'
@@ -4461,21 +4282,18 @@ encoder:
 蓝	lci'
 篮	lpi'
 篮球	lq4
-览	li'
 览	lji'
 揽	lfi'
 懒	loo'
 狼	lqo'
-狼	lu6
 朗	loa'
-浪	lo'
 浪费	lf
 浪漫	lm5
 劳动	ld4
 牢	lgu'
 牢固	lg8
 醪	lya'
-老	
+老	l'
 老	l4
 老	lt'
 老媪	lv2
@@ -4499,10 +4317,9 @@ encoder:
 老者	lz3
 老子	lz2
 佬	lui'
-姥	la0
 姥	lne'
 仂	lra'
-乐	
+乐	lu5
 乐	lx'
 乐观	lg2
 乐乐	ll7
@@ -4515,17 +4332,15 @@ encoder:
 磊	lse'
 蕾	leii'
 肋	lva'
-泪	lo0
 泪水	ls1
 类	lme'
 类	lo7
 类别	lb8
 类型	lx4
-累	li5
+累	li1
 累	lta'
 累计	lj9
 楞	lmi'
-冷	
 冷	l9
 冷	ld'
 冷汗	lh9
@@ -4552,14 +4367,15 @@ encoder:
 漓	looe'
 璃	lwo'
 黎	lsu'
-黎	lu3
-礼	
+黎	lu0
 礼	ln'
+礼	lo1
 礼服	lf7
 礼貌	lm7
 礼品	lp8
 礼物	lw7
-李	le8
+李	le'
+李	le4
 李	lma'
 李敖	lv5
 李强	lq2
@@ -4570,9 +4386,7 @@ encoder:
 里去	lq0
 里头	lt9
 俚	luii'
-哩	li;
 哩	lii'
-理	
 理	l5
 理	lw'
 理财	lc8
@@ -4597,7 +4411,6 @@ encoder:
 历年	ln6
 历史	ls
 厉	lce'
-厉	le'
 厉害	lh
 厉声	ls3
 立	lo
@@ -4608,7 +4421,6 @@ encoder:
 立刻	lk9
 立时	ls4
 立体	lt7
-丽	le1
 丽	lhi'
 利	lu
 利器	lq8
@@ -4623,9 +4435,7 @@ encoder:
 俪	luie'
 笠	lpo'
 雳	leoa'
-俩	lu1
 奁	leuo'
-连	
 连	l6
 连	ll'
 连接	lj5
@@ -4636,7 +4446,7 @@ encoder:
 连载	lz6
 怜	llu'
 怜爱	lv1
-联	le4
+联	le6
 联	lvo'
 联邦	lb3
 联合	lh7
@@ -4647,7 +4457,6 @@ encoder:
 联系	lx7
 廉	lgo'
 敛	luoe'
-脸	
 脸	l7
 脸	lv'
 脸部	lb9
@@ -4657,20 +4466,19 @@ encoder:
 脸庞	lp9
 脸皮	lp2
 脸色	ls7
-练	
+练	la2
 练	lj'
 炼	lhe'
 恋爱	lv7
 恋情	lq9
 恋人	lr0
 链	lje'
-良	
 良	lg'
 良好	lh2
 良心	lx9
 粮食	ls6
 踉	lzo'
-两	
+两	l;
 两	l3
 两	lh'
 两岸	lv
@@ -4688,14 +4496,14 @@ encoder:
 两位	lw5
 两只	lz8
 两种	lz5
-亮	lo5
+亮	lo'
+亮	lo6
 亮	lwi'
 谅	lyo'
 辆	lea'
-量	
-量	l;
+量	li2
 量	lq'
-辽	la5
+辽	la6
 辽	lla'
 辽宁	ln9
 疗	lba'
@@ -4708,10 +4516,10 @@ encoder:
 了	l
 了解	lj7
 料	lmo'
-料	lo4
+料	lo;
+料	lo5
 料到	ld0
 列	ldi'
-列	le;
 列表	lb4
 列车	lc5
 列入	lr1
@@ -4719,18 +4527,14 @@ encoder:
 劣	li7
 劣	lxu'
 冽	loee'
-烈	le0
 烈	lle'
 猎	lqe'
-猎	lu'
 裂	lye'
 裂缝	lf2
 擸	lfa'
 躐	lza'
-邻	lu9
 邻	luo'
 邻居	lj2
-林	
 林	l1
 林	lm'
 临	li8
@@ -4747,6 +4551,7 @@ encoder:
 躏	lze'
 拎	leie'
 灵	l2
+灵	la;
 灵	lxo'
 灵儿	lv4
 灵魂	lh3
@@ -4754,35 +4559,31 @@ encoder:
 岭南	ln3
 玲	lee'
 凌	lde'
-凌	lo1
 凌晨	lc6
 凌空	lk4
 凌厉	ll5
-铃	lu0
-陵	la9
+陵	la'
+陵	la4
 陵	lau'
 笭	lpu'
-绫	la'
-翎	lu;
 翎	luoo'
 聆听	lt8
-龄	li0
 龄	lio'
-领	
+领	lu9
 领	ly'
 领导	ld
 领取	lq6
 领域	ly3
-令	
 令	lr'
+令	lu4
 令你	ln0
 令人	lr5
 令我	lw0
-另	
+另	li4
 另	lk'
 另外	lw
 另一	ly1
-刘	lo6
+刘	lo0
 浏览	ll0
 流	ldo'
 流	lo9
@@ -4805,17 +4606,16 @@ encoder:
 柳	lmu'
 六	lo8
 六年	ln4
-咯	ki6
 咯	kku'
 龙	l0
+龙	le;
 龙	lhu'
 龙头	lt5
 咙	lia'
 珑	leei'
-笼	
 笼	lp'
 聋	leu'
-隆	la4
+隆	la5
 隆	lvu'
 窿	lxa'
 陇	laie'
@@ -4824,7 +4624,7 @@ encoder:
 拢	lfe'
 偻	lro'
 喽	lko'
-楼	le6
+楼	le0
 楼层	lc2
 楼房	lf6
 楼盘	lp7
@@ -4834,10 +4634,9 @@ encoder:
 陋	lai'
 漏	lda'
 瘘	lbo'
-露	le5
+露	le1
 露出	lc
 噜	lku'
-卢	li1
 卢	lie'
 庐	loeu'
 芦	lco'
@@ -4845,7 +4644,8 @@ encoder:
 舻	lzi'
 颅	lyi'
 虏	lha'
-鲁	lu5
+鲁	lu'
+鲁	lu1
 鲁	lua'
 鲁能	ln2
 陆	la8
@@ -4856,7 +4656,6 @@ encoder:
 录入	lr6
 禄	lna'
 碌	lsa'
-路	
 路	l8
 路	lz'
 路边	lb5
@@ -4870,7 +4669,7 @@ encoder:
 戮	lao'
 驴	laa'
 闾	loia'
-吕	li6
+吕	li0
 吕	lki'
 侣	lri'
 旅	lfu'
@@ -4879,32 +4678,32 @@ encoder:
 旅游	ly4
 铝	lue'
 屡	lso'
-缕	la;
 缕	ljo'
-履	la1
+履	la0
 履	lae'
 履行	lx1
 律	lu7
 律	luu'
 虑	lho'
 虑	li3
-率	lo;
 率	lwa'
 率高	lg9
-绿	la2
+绿	la7
 绿	lja'
 绿化	lh1
 氯	lqa'
 挛	loei'
 鸾	lno'
 卵	lpa'
-乱	
 乱	ls'
+乱	lu3
 掠过	lg3
-略	li4
+略	li'
+略	li6
 略	liu'
 伦	lru'
-伦	lu4
+伦	lu;
+伦	lu6
 囵	liau'
 轮	lcu'
 轮	le2
@@ -4913,7 +4712,7 @@ encoder:
 论	lyu'
 论坛	lt6
 论文	lw9
-罗	li2
+罗	li9
 罗	lzu'
 罗马	lm2
 逻辑	lj6
@@ -4924,25 +4723,24 @@ encoder:
 蠃	loea'
 洛	ldu'
 洛阳	ly2
-络	la7
+络	la9
 络	lju'
-骆	la6
-落	
-落	l'
+骆	la1
 落	lc'
+落	le8
 落地	ld6
 落后	lh5
 落日	lr8
 落实	ls5
-妈	ma7
+妈	ma;
+妈	ma4
 妈	mna'
 妈妈	mm2
 嬷	mno'
 麻	mde'
-麻	mo3
+麻	mo1
 麻烦	mf
 麻雀	mq8
-马	
 马	m2
 马	mz'
 马车	mc3
@@ -4952,7 +4750,6 @@ encoder:
 马克	mk0
 马匹	mp5
 马上	ms
-玛	me0
 玛	mwa'
 码	me7
 码	meu'
@@ -4960,12 +4757,11 @@ encoder:
 骂	mi8
 骂	mmi'
 骂我	mw4
-吗	
+吗	m'
 吗	m8
 吗	mk'
 嘛	mi3
 嘛	mko'
-埋	
 埋	mt'
 埋伏	mf7
 买	ma9
@@ -4984,59 +4780,53 @@ encoder:
 麦	me3
 麦	mwe'
 麦克	mk6
-卖	me6
 卖	msa'
 卖家	mj6
-脉	mu7
+脉	mu1
 脉	mvo'
 衇	mxu'
 馒	msi'
 馒头	mt0
-瞒	mi;
 鳗	mvi'
 鬘	mbi'
-满	
 满	m1
 满	md'
 满口	mk8
 满屋	mw2
 满意	my9
 满足	mz8
+曼	mi;
 曼	mi4
 曼	mio'
 谩	myi'
 墁	mti'
 慢	mli'
-慢	mo4
+慢	mo'
+慢	mo5
 慢慢	mm
 慢性	mx6
-漫	mo1
 漫步	mb8
 漫长	mc4
 漫画	mh3
 缦	maae'
-忙	
-忙	m;
 忙	ml'
+忙	mo9
 忙碌	ml3
 芒	mco'
-芒	me'
 盲目	mm1
 笀	mpo'
 茫然	mr4
 莽	meii'
 猫	mqe'
-猫	mu1
 猫儿	mv1
 猫扑	mp6
-毛	
 毛	mp'
+毛	mu3
 毛病	mb9
 毛病	mbo'
 毛孔	mk1
 毛皮	mp2
 毛绒	mr2
-矛	ma0
 矛	mzo'
 矛盾	md7
 茅	mca'
@@ -5048,8 +4838,8 @@ encoder:
 冒	mqi'
 冒出	mc2
 冒险	mx2
-贸	
 贸	mb'
+贸	mu5
 贸易	my8
 耄	mtu'
 帽	mi0
@@ -5059,6 +4849,7 @@ encoder:
 貌	mzu'
 么	m4
 么	msu'
+么	mu;
 没	m
 没吃	mc8
 没错	mc7
@@ -5073,10 +4864,9 @@ encoder:
 眉	ma8
 眉	mma'
 眉头	mt9
-梅	me4
+梅	me1
 梅	mmu'
 梅尔	mv6
-媒	ma;
 媒	mne'
 媒体	mt7
 煤	mou'
@@ -5084,7 +4874,6 @@ encoder:
 煤气	mq0
 煤炭	mt8
 霉	mvu'
-每	
 每	m0
 每	mm'
 每次	mc9
@@ -5099,7 +4888,6 @@ encoder:
 每页	my0
 每一	my1
 每月	my7
-美	
 美	m9
 美	my'
 美白	mb1
@@ -5119,11 +4907,11 @@ encoder:
 美文	mw6
 美元	my3
 镁	mjo'
-妹	
+妹	ma7
 妹	mn'
 妹妹	mm4
 妹子	mz6
-媚	ma1
+媚	ma0
 媚	mai'
 寐	mga'
 魅	mge'
@@ -5143,6 +4931,7 @@ encoder:
 闷	mo8
 闷热	mr3
 懑	mxo'
+们	m;
 们	m7
 们	mro'
 擝	mfi'
@@ -5152,19 +4941,19 @@ encoder:
 朦	muu'
 檬	meiu'
 勐	mla'
-猛	
 猛	mq'
+猛	mu2
 猛地	md3
 猛虎	mh8
 猛男	mn8
 猛然	mr7
-蒙	me5
+蒙	me0
 蒙	mse'
 蒙古	mg4
 懵	mooi'
-孟	ma5
+孟	ma6
 孟	mzi'
-梦	
+梦	me5
 梦	mx'
 梦幻	mh4
 梦想	mx3
@@ -5172,7 +4961,7 @@ encoder:
 弥	mgu'
 弥补	mb6
 迷	mlo'
-迷	mo5
+迷	mo6
 迷宫	mg9
 迷惑	mh6
 迷你	mn5
@@ -5187,35 +4976,33 @@ encoder:
 弭	maea'
 宓	mgo'
 泌尿	mn6
-觅	mu'
 觅	muo'
 秘	bho'
 秘	mho'
-秘	mu3
+秘	mu'
+秘	mu4
 秘籍	mj7
 秘诀	mj1
 秘密	mm9
 秘书	ms2
-密	mo9
+密	mo;
+密	mo4
 密度	md1
 密封	mf3
 密码	mm6
 密切	mq5
 幂	moai'
 蜜	moo'
-眠	mi'
-绵	ma'
 绵	mju'
 绵阳	my2
 棉花	mh5
 免	mdi'
-免	mu2
+免	mu7
 免得	md4
 免费	mf2
 免责	mz3
 黾	mki'
 勉	mlu'
-勉	mu6
 勉强	mq2
 冕	mqu'
 缅	mje'
@@ -5239,18 +5026,16 @@ encoder:
 面子	mz2
 喵	mke'
 苗	mci'
-描	me;
 描	mfe'
 描述	ms4
 描写	mx9
 瞄	mia'
 秒	mhi'
-秒	mu0
 缈	maa'
-妙	ma4
+妙	ma'
+妙	ma5
 妙	mni'
 庙	mgi'
-庙	mo'
 乜	nza'
 灭	me9
 灭	meo'
@@ -5272,7 +5057,7 @@ encoder:
 抿	mfa'
 闽	moia'
 闽南	mn0
-敏	
+敏	mu6
 敏	mw'
 敏感	mg6
 笢	mpa'
@@ -5307,12 +5092,10 @@ encoder:
 鸣	mku'
 茗	mcu'
 冥	moa'
-铭	mu;
 铭	mue'
 溟	mdo'
 暝	mqo'
 酩	myu'
-命	
 命	m5
 命	mr'
 命案	mv9
@@ -5321,12 +5104,12 @@ encoder:
 命运	my5
 谬	mya'
 缪	mja'
-摸	
 摸	mf'
 尛	mxi'
 嫫	maue'
 馍	muaa'
 模	m3
+模	me;
 模	mme'
 模板	mb4
 模范	mf0
@@ -5340,14 +5123,13 @@ encoder:
 模型	mx
 模样	my4
 膜	mua'
-摩	mo6
+摩	mo0
 摩	mso'
 摩擦	mc6
 摩尔	mv7
 摩托	mt6
-磨	mo;
-魔	
 魔	mg'
+魔	mo3
 魔法	mf9
 魔鬼	mg0
 魔力	ml1
@@ -5355,14 +5137,12 @@ encoder:
 魔兽	ms9
 魔王	mw3
 抹	mea'
-末	
 末	mv'
 陌	mve'
 陌生	ms5
-莫	
 莫	mc'
+莫	me4
 莫非	mf8
-漠	mo0
 蓦	mei'
 蓦地	md5
 蓦然	mr6
@@ -5377,26 +5157,27 @@ encoder:
 哞	mka'
 牟	mao'
 侔	mra'
+眸	mi'
 眸	mi5
 眸	mii'
 谋	mo2
 谋	mye'
 某	mce'
-某	me8
+某	me'
+某	me6
 某个	mg7
 某些	mx4
 某种	mz1
-母	m'
 母	ma2
 母	mza'
 母爱	mv2
 母亲	mq9
 亩	mwi'
 牡	mui'
-姆	ma6
+姆	ma1
 姆	mau'
 胟	mva'
-木	
+木	me8
 木	mh'
 木材	mc0
 木耳	mv3
@@ -5404,7 +5185,6 @@ encoder:
 木讷	mn9
 木偶	mv4
 仫	mru'
-目	
 目	m6
 目	ms'
 目标	mb3
@@ -5416,17 +5196,13 @@ encoder:
 沐	mooe'
 坶	mta'
 牧	mnu'
-牧	mu5
 墓	mte'
-幕	
 幕	mj'
 幕后	mh7
 睦	miae'
-慕	me1
 慕	mxe'
 穆	mhu'
-穆	mu4
-拿	
+穆	mu0
 拿	n7
 拿	nr'
 拿出	nc2
@@ -5436,6 +5212,7 @@ encoder:
 拿着	nz9
 拿着	nzo'
 哪	n0
+哪	ni;
 哪	nka'
 哪儿	nv4
 哪个	ng5
@@ -5500,24 +5277,25 @@ encoder:
 那样	ny
 那只	nz1
 那种	nz7
-纳	
+纳	na2
 纳	nj'
 纳闷	nm6
 纳米	nm9
 纳入	nr6
-娜	na4
+娜	na'
+娜	na5
 娜	nna'
 衲	nni'
-衲	no4
+衲	no6
 钠	nji'
-捺	ne'
 捺	neu'
 嗱	nku'
 靹	ngi'
 乃	na8
 乃	nzu'
 乃是	ns8
-奶	na9
+奶	na;
+奶	na4
 奶	nau'
 奶粉	nf5
 奶奶	nn2
@@ -5525,10 +5303,9 @@ encoder:
 疓	nba'
 奈	nde'
 奈	ne7
-耐	
 耐	nc'
+耐	ne3
 耐心	nx6
-男	
 男	n1
 男	nt'
 男儿	nv0
@@ -5556,7 +5333,6 @@ encoder:
 南宁	nn9
 南通	nt2
 畘	nti'
-难	
 难	n5
 难	ny'
 难熬	nv3
@@ -5578,17 +5354,15 @@ encoder:
 喃喃	nn8
 楠	nme'
 赧	nca'
-囔	ni;
 囔	nie'
 乪	nzi'
-囊	
+囊	ne5
 囊	nh'
 蠰	nco'
 鬞	nbi'
 馕	nse'
 齉	nbe'
 呶	niae'
-挠	ne;
 挠	nfe'
 铙	nje'
 猱	nuu'
@@ -5596,30 +5370,27 @@ encoder:
 獿	nqe'
 垴	nto'
 恼	nlo'
-恼	no8
-脑	
+恼	no;
+恼	no4
+脑	nu2
 脑	nv'
 脑袋	nd4
 脑海	nh5
 脑筋	nj7
 脑子	nz5
 瑙	nwa'
-闹	
 闹	nm'
-讷	no0
+闹	no8
 讷	nyi'
-呐	ni7
+呐	ni3
 呐	niu'
 呐喊	nh8
-呢	
 呢	n8
 呢	nk'
-馁	nu0
 馁	nua'
 氝	nqi'
-嫩	na1
 嫩	nne'
-能	
+能	n;
 能	n2
 能	ns'
 能把	nb3
@@ -5637,11 +5408,11 @@ encoder:
 能用	ny7
 能源	ny9
 能在	nz3
-嗯	ni9
+嗯	ni7
 嗯	nki'
 嗯	vki'
 嗯嗯	vv1
-妮	na5
+妮	na6
 妮	nao'
 尼	na3
 尼	nsu'
@@ -5649,14 +5420,16 @@ encoder:
 坭	nta'
 怩	noe'
 泥	nda'
-泥	no3
+泥	no'
+泥	no5
 泥巴	nb2
 泥土	nt4
 倪	nru'
-倪	nu9
+倪	nu;
+倪	nu4
 屔	npi'
 猊	nqu'
-霓	ne5
+霓	ne0
 霓	nvu'
 麑	nlu'
 你	n
@@ -5695,22 +5468,21 @@ encoder:
 你有	ny0
 你这	nz0
 你真	nz6
-拟	ne3
+拟	ne9
 拟	nfa'
-昵	ni0
 昵	nqa'
 昵称	nc7
 逆	no7
 逆	nou'
-匿	ne0
 匿	nee'
 匿名	nm5
 惄	nxi'
-溺	no1
 溺	noo'
-睨	ni8
+睨	ni'
+睨	ni4
 睨	nmu'
-腻	nu7
+腻	nu'
+腻	nu5
 腻	nve'
 拈	neo'
 年	nu
@@ -5733,74 +5505,67 @@ encoder:
 秥	nhi'
 鲇	nvi'
 黏	nhu'
-黏	nu6
 捻	nfu'
 淰	ndu'
 撵	nea'
 碾	nsa'
 簐	npe'
 廿	nce'
-念	
-念	n;
+念	nu9
 念	nx'
 念头	nt
 埝	ntu'
-娘	
 娘	n6
 娘	nn'
 娘子	nz4
-酿	ne1
 酿	nyo'
 鸟	npa'
-鸟	nu2
+鸟	nu7
 鸟儿	nv6
-袅	nu5
+袅	nu0
 袅	nyu'
 褭	nwe'
-尿	na;
 尿	nsi'
 尿频	np8
-捏	ne2
+捏	ne;
+捏	ne4
 捏	nfi'
 涅	ndi'
-涅	no5
+涅	no1
 涅盘	np4
-聂	ne8
+聂	ne2
 聂	nva'
-啮	ni'
 敜	nwu'
-嗫	ni1
+嗫	ni0
 嗫	nia'
 镍	nju'
 篞	npo'
-蹑	ni5
+蹑	ni6
 蹑	nze'
 孽	ncu'
-孽	ne4
+孽	ne1
 籋	mpe'
 您	nu8
 您	nxu'
 您的	nd6
 您好	nh6
 您是	ns6
-宁	
 宁	n9
 宁	ng'
 宁波	nb4
 宁静	nj3
 宁可	nk5
 宁夏	nx0
-咛	ni6
+咛	ni1
 咛	nio'
-拧	ne6
 拧	nfo'
 狞	nqo'
-狞	nu3
+狞	nu6
 柠	nmo'
 柠檬	nm0
 寕	nge'
-凝	
 凝	nd'
+凝	no3
 凝聚	nj0
 凝视	ns9
 嬣	nno'
@@ -5809,24 +5574,23 @@ encoder:
 佞	nre'
 泞	noi'
 甯	ngo'
-妞	na0
 妞	nae'
-牛	
 牛	np'
+牛	nu3
 牛奶	nn5
 牛排	np5
 牛皮	np2
 牛肉	nr8
 忸	nla'
-扭	
+扭	ne8
 扭	nf'
 扭曲	nq8
-纽	na2
+纽	na0
 纽	nja'
 纽澳	nv9
 纽约	ny4
 炄	nha'
-钮	nu4
+钮	nu1
 钮	nue'
 农	no
 农场	nc6
@@ -5837,34 +5601,29 @@ encoder:
 农民	nm2
 农业	ny8
 侬	nro'
-侬	nu;
-哝	ni4
+哝	ni5
 哝	nko'
 浓	ndo'
 浓	no9
-脓	nu'
 脓	nvo'
 秾	nho'
 憹	nli'
 蕽	nci'
-弄	
 弄	n3
 弄	nw'
 弄清	nq1
-奴	na6
+奴	na1
 奴	nai'
 驽	nma'
-努	
+努	na9
 努	nl'
 努力	nl2
-弩	na'
 弩	nga'
-怒	n'
 怒	na7
 怒	nxa'
 怒火	nh9
 怒气	nq7
-女	
+女	n'
 女	n4
 女	nz'
 女	rzu'
@@ -5883,14 +5642,14 @@ encoder:
 女友	ny6
 女子	nz
 恧	nxe'
-疟	
 疟	nb'
 虐	nhe'
-虐	ni3
-暖	
+虐	ni8
+暖	ni9
 暖	nq'
 暖气	nq6
-挪	ne9
+挪	ne'
+挪	ne6
 挪	nei'
 挪威	nw0
 傩	nra'
@@ -5901,16 +5660,13 @@ encoder:
 喏	ri1
 搦	neie'
 懦	nle'
-懦	no;
 懦弱	nr2
-噢	vi6
+噢	vi1
 噢	vii'
 哦	vi7
 哦	vku'
 乯	vzu'
-讴	vo5
 讴	vye'
-欧	
 欧	v1
 欧	vq'
 欧版	vb7
@@ -5920,30 +5676,25 @@ encoder:
 欧阳	vy2
 欧元	vy0
 欧洲	vz9
-殴	ve;
 殴	veu'
 殴打	vd3
 鸥	vne'
 熰	vhe'
-呕	vi;
 呕吐	vt8
 偶	vri'
-偶	vu9
+偶	vu;
+偶	vu4
 偶而	vv3
 偶尔	vv7
 偶们	vm1
 偶然	vr7
 偶像	vx7
 藕	vce'
-怄	vo;
-沤	vo'
 妑	pna'
-趴	pi;
 趴	pzu'
 啪	pi6
 啪	piu'
 杷	pma'
-爬	pu6
 爬	pza'
 爬上	ps8
 耙	pla'
@@ -5955,6 +5706,7 @@ encoder:
 怕你	pn7
 怕他	pt7
 拍	p0
+拍	pe'
 拍	pfu'
 拍案	pv1
 拍了	pl0
@@ -5966,7 +5718,6 @@ encoder:
 拍照	pz5
 徘	pci'
 徘徊	ph6
-排	
 排	p3
 排	pf'
 排出	pc1
@@ -5981,21 +5732,18 @@ encoder:
 排行	ph5
 排序	px9
 猅	pqi'
-牌	
 牌	pp'
+牌	pu4
 牌坊	pf3
 牌子	pz2
-派	
+派	p;
 派	p9
 派	pd'
 派出	pc2
 派遣	pq8
 派人	pr4
 潘	pdu'
-潘	po5
-攀	pe0
 攀升	ps1
-盘	p'
 盘	pu7
 盘	pzi'
 盘点	pd8
@@ -6003,33 +5751,32 @@ encoder:
 盘旋	px0
 磐	psu'
 蹒	pze'
-判	
 判	pl'
+判	po7
 判断	pd
 判决	pj1
 叛	pbe'
-叛	po6
 叛逆	pn9
 盼	pi7
 盼	pmu'
 盼望	pw9
+畔	pi'
 畔	pi5
 畔	pto'
 滂	pdo'
-庞	
 庞	pg'
+庞	po3
 庞大	pd5
-旁	
+旁	p'
 旁	p4
 旁	pw'
 旁边	pb
 旁观	pg2
 旁观	pga'
 旁人	pr6
-胖	pu0
 胖	pvo'
 胖子	pz1
-抛	pe2
+抛	pe1
 抛开	pk3
 抛弃	pq9
 咆	pio'
@@ -6037,12 +5784,12 @@ encoder:
 咆哮	pxi'
 庖	pgu'
 狍	pqu'
-炮	
 炮	ph'
+炮	po0
 炮孔	pk2
-袍	po8
+袍	po;
+袍	po4
 袍	poa'
-跑	
 跑	p8
 跑	pz'
 跑步	pb8
@@ -6054,13 +5801,11 @@ encoder:
 跑开	pk0
 跑了	pl2
 跑去	pq3
-泡	po0
 泡	poi'
 泡沫	pm6
 泡妞	pn2
 呸	pii'
 衃	pxe'
-陪	
 陪	p2
 陪	pv'
 陪伴	pb6
@@ -6068,12 +5813,13 @@ encoder:
 陪你	pn
 陪同	pt8
 陪我	pw4
-培	
+培	pe3
 培	pt'
 培训	px
 培养	py9
 培育	py5
 赔	pbo'
+赔	pi;
 赔	pi4
 赔偿	pc7
 锫	pjo'
@@ -6081,11 +5827,10 @@ encoder:
 裴	pie'
 沛	poo'
 佩	pru'
-佩	pu4
+佩	pu1
 佩恩	pv8
 佩服	pf
 帔	pja'
-配	
 配	p6
 配	py'
 配备	pb7
@@ -6097,7 +5842,6 @@ encoder:
 配送	ps9
 配套	pt3
 配置	pz8
-辔	pa0
 辔	pka'
 霈	peo'
 喷	pi2
@@ -6113,18 +5857,16 @@ encoder:
 烹饪	pr0
 嘭	piae'
 朋	p7
+朋	pu;
 朋	pvu'
 朋友	py
-彭	pe6
 蓬	pcu'
-蓬	pe1
 鹏	pnu'
 鹏	pu2
 澎	pooe'
 篷	ppu'
 膨	pve'
-捧	pe5
-碰	
+碰	pe7
 碰	ps'
 碰壁	pb2
 碰到	pd3
@@ -6132,6 +5874,7 @@ encoder:
 碰撞	pz3
 丕	phu'
 批	p5
+批	pe;
 批	pfe'
 批发	pf2
 批号	ph8
@@ -6141,7 +5884,7 @@ encoder:
 批评	pp9
 批准	pz
 邳	peui'
-披	pe4
+披	pe0
 披	pfa'
 披露	pl3
 狉	pqe'
@@ -6162,7 +5905,7 @@ encoder:
 皮鞋	px5
 毗邻	pl7
 疲	pba'
-疲	po3
+疲	po6
 疲惫	pb4
 疲劳	pl6
 疲软	pr3
@@ -6170,23 +5913,22 @@ encoder:
 啤	pku'
 啤酒	pj9
 琵	pee'
-脾	pu;
 脾	pua'
 脾气	pq
 鼙	pti'
-匹	
+匹	pe4
 匹	pk'
 匹配	pp5
 諀	pyu'
-屁	pa2
+屁	pa8
 屁	pse'
 屁股	pg
-媲	pa;
 媲	pau'
 睥睨	pn8
 僻	pra'
 甓	pwa'
-譬	pa9
+譬	pa;
+譬	pa4
 譬	pya'
 譬如	pr2
 片	pu
@@ -6197,8 +5939,8 @@ encoder:
 片区	pq1
 片尾	pw2
 片子	pz0
-偏	
 偏	pr'
+偏	pu8
 偏爱	pv2
 偏高	pg9
 偏好	ph2
@@ -6207,21 +5949,20 @@ encoder:
 篇	ppo'
 篇	pu3
 篇幅	pf8
-翩	po;
 骈	pao'
 骿	pgo'
 蹁	pzo'
-骗	
+骗	pa2
 骗	pm'
 骗你	pn4
 骗人	pr5
 骗我	pw0
 骗子	pz6
 漂	pde'
-漂	po9
+漂	po8
 漂亮	pl
 漂染	pr9
-缥	pa6
+缥	pa1
 缥	paa'
 飘	pe8
 飘	pea'
@@ -6230,18 +5971,17 @@ encoder:
 飘然	pr1
 飘逸	py7
 瓢	pge'
-瞟	pi'
 瞟	pme'
-票	
+票	pe2
 票	px'
 票房	pf0
-嫖	pa1
+嫖	pa0
 嫖	pne'
 暼	pqo'
 瞥	pmo'
-瞥	po4
+瞥	po1
 瞥见	pj8
-拼	pe9
+拼	pe5
 拼	pfo'
 拼命	pm
 拼图	pt6
@@ -6251,7 +5991,7 @@ encoder:
 贫困	pk8
 贫农	pn1
 贫穷	pq6
-嫔	pa5
+嫔	pa6
 嫔	pno'
 频	pi3
 频	pyi'
@@ -6270,7 +6010,6 @@ encoder:
 品质	pz4
 品种	pz7
 牝	puei'
-娉	pa'
 娉	pni'
 聘	pvi'
 聘请	pq4
@@ -6313,8 +6052,8 @@ encoder:
 评委	pw6
 评选	px7
 评议	py1
-凭	
 凭	pj'
+凭	pu6
 凭借	pj6
 凭空	pk9
 凭你	pn5
@@ -6323,34 +6062,33 @@ encoder:
 苹	pce'
 苹果	pg4
 屏	bae'
-屏	pa8
+屏	pa9
 屏	pso'
 屏蔽	pb3
 屏幕	pm3
-瓶	po7
+瓶	po'
+瓶	po5
 瓶	pwo'
-萍	
 萍	pc'
 慿	pxo'
 箳	ppa'
 钋	pji'
-坡	pe3
+坡	pe6
 坡	pta'
-泼	po1
 泼	pou'
 颇	pa7
 颇	ppe'
 颇为	pw
 颇有	py3
-婆	
-婆	p;
 婆	pn'
+婆	po9
 婆娘	pn6
 婆婆	pp4
 嘙	pko'
 謈	byi'
 迫	plu'
-迫	pu8
+迫	pu'
+迫	pu5
 迫切	pq5
 迫使	ps7
 珀	pwu'
@@ -6364,19 +6102,17 @@ encoder:
 破了	pl1
 破碎	ps6
 粕	poue'
-魄	pu'
 魄	pui'
 剖	plo'
 剖析	px3
 堷	vto'
 仆	pri'
-仆	pu5
+仆	pu0
 仆人	pr7
-扑	pe7
+扑	pe9
 扑	pfi'
 扑克	pk5
 铺	pje'
-铺	pu1
 铺开	pk1
 噗	pi1
 噗	pki'
@@ -6388,36 +6124,32 @@ encoder:
 璞	pwi'
 濮阳	py2
 贌	pbi'
-朴	pe;
 朴	pmi'
 圃	pia'
 浦东	pd1
-普	
 普	p1
 普	pb'
 普遍	pb9
 普尔	pv5
 普及	pj0
 普通	pt
-谱	po'
 谱	pyo'
 瀑	pdi'
 瀑布	pb0
-曝	
 曝	pq'
 曝光	pg8
 曝光	pgi'
-七	qe5
+七	qe6
 七	qha'
 七个	qg7
 七日	qr8
-妻	
+妻	qe0
 妻	qn'
 妻儿	qv1
 妻子	qz2
 凄	qoe'
 戚	qeu'
-期	
+期	qe4
 期	qq'
 期待	qd7
 期货	qh5
@@ -6426,19 +6158,17 @@ encoder:
 期盼	qp8
 期望	qw5
 期限	qx6
-欺	qe'
 欺	qqu'
 欺负	qf4
 欺骗	qp2
 嘁	qke'
 漆黑	qh8
-齐	
+齐	qo3
 齐	qw'
 齐全	qq7
 圻	qtu'
 圻	ytu'
 岐	qiai'
-其	
 其	q3
 其	qh'
 其次	qc9
@@ -6451,7 +6181,6 @@ encoder:
 奇	je7
 奇	jeu'
 奇	qde'
-奇	qe7
 奇怪	qg9
 奇观	qg2
 奇幻	qh1
@@ -6470,19 +6199,19 @@ encoder:
 骑兵	qb1
 祺	qoa'
 旗	qfu'
-旗	qo4
+旗	qo6
 麒	qoeu'
 籏	qpo'
 乞丐	qg0
-企	
 企	qr'
+企	qu9
 企鹅	qv7
 企图	qt8
 企业	qy
 岂	qi9
 岂	qsa'
 岂非	qf8
-启	qo2
+启	qo1
 启动	qd6
 杞	qma'
 起	qe
@@ -6492,10 +6221,11 @@ encoder:
 起码	qm5
 起身	qs4
 起头	qt4
+绮	qa'
 绮	qa4
 绮	qje'
 綮	qxo'
-气	
+气	q'
 气	q7
 气	qp'
 气氛	qf
@@ -6511,36 +6241,34 @@ encoder:
 气质	qz0
 讫	qyu'
 迄	que'
-弃	qo8
+弃	qo'
+弃	qo4
 弃	qwa'
 汽	qdu'
-汽	qo6
 汽车	qc3
 汽配	qp3
 契	qee'
 器	q8
+器	qi;
 器	qki'
 器材	qc6
 器官	qg6
 拤	qfi'
 恰	qlu'
-恰	qo1
 恰好	qh2
-千	
 千	qs'
+千	qu3
 千克	qk6
 千里	ql8
 千年	qn6
 千万	qw
-阡	qa'
 阡	qaiu'
-迁	qu;
 牵	qdo'
 牵挂	qg1
 铅	quee'
 谦	qyo'
 签	qpu'
-签	qu4
+签	qu1
 签名	qm7
 签署	qs8
 前	qo
@@ -6560,17 +6288,17 @@ encoder:
 前途	qt6
 前往	qw7
 前卫	qw2
-钱	
 钱	qj'
+钱	qu7
 乾	qsi'
 乾坤	qk5
 掮	qfo'
-潜	qo5
+潜	qo0
 潜力	ql0
 潜能	qn1
 凵	ka1
-浅	qo;
 浅	qoo'
+遣	qi'
 遣	qi4
 遣	qiu'
 谴	qyi'
@@ -6579,12 +6307,8 @@ encoder:
 欠	qu2
 倩	qui'
 堑	qte'
-嵌	ki'
 嵌	qia'
-歉	qo'
-戕	qa;
 戗	qgu'
-枪	qe1
 跄	qi0
 跄	qio'
 腔	qvo'
@@ -6597,36 +6321,30 @@ encoder:
 强烈	ql3
 强迫	qp
 强强	qq2
-墙	
 墙	qt'
 墙壁	qb2
 嫱	qa5
 嫱	qau'
 蔷	qce'
-抢	
 抢	qf'
 悄	qli'
 悄	qo9
 悄悄	qq9
 悄然	qr5
 跷	qze'
-敲	qo0
 敲	qqo'
 橇	qeiu'
 乔	qpe'
-乔	qu9
+乔	qu6
 侨	qru'
-桥	qe0
 瞧	qi2
 瞧	qmu'
 瞧见	qj4
 瞧瞧	qq8
-巧	
 巧	qg'
 巧妙	qm2
 俏	qri'
 俏皮	qp0
-峭	qi'
 峭	qii'
 翘	qve'
 鞘	qgi'
@@ -6642,6 +6360,7 @@ encoder:
 朅	qta'
 亲	q1
 亲	qle'
+亲	qo;
 亲密	qm4
 亲朋	qp7
 亲切	qq4
@@ -6650,19 +6369,15 @@ encoder:
 亲眼	qy5
 亲自	qz4
 侵	qra'
-侵	qu6
 侵犯	qf5
 侵害	qh9
 侵权	qq0
 侵入	qr0
-钦	qu'
 钦佩	qp6
 衾	quo'
 芹	qcu'
 埁	qti'
-秦	qe6
 秦	qeo'
-琴	qe;
 禽	qro'
 勤奋	qf3
 勤恳	qk2
@@ -6670,13 +6385,13 @@ encoder:
 寝	qgo'
 唚	qka'
 青	q0
+青	qe;
 青	qhe'
 青春	qc4
 青海	qh0
 青年	qn7
 青衣	qy9
 氢	qqa'
-轻	
 轻	q5
 轻	qc'
 轻快	qk0
@@ -6687,9 +6402,7 @@ encoder:
 轻易	qy8
 倾	qre'
 倾	qu8
-卿	qu1
 卿	qvu'
-清	
 清	q6
 清	qd'
 清晨	qc8
@@ -6701,7 +6414,7 @@ encoder:
 清理	ql6
 清晰	qx8
 清醒	qx3
-情	
+情	q;
 情	q9
 情	ql'
 情爱	qv5
@@ -6720,7 +6433,7 @@ encoder:
 晴	qqe'
 晴空	qk1
 顷	qye'
-请	
+请	qo2
 请	qy'
 请按	qv
 请把	qb6
@@ -6736,24 +6449,23 @@ encoder:
 请与	qy1
 请在	qz5
 庆	qge'
-庆	qo3
+庆	qo8
 庆祝	qz9
 磬	qeie'
 罄	qfe'
 邛	qga'
-穷	
+穷	qo5
 穷	qx'
 穷人	qr6
 穹	qxa'
 琼	qwo'
 丘	qpi'
-丘	qu0
 秋	qho'
-秋	qu3
+秋	qu;
+秋	qu4
 囚	qi6
 囚	qku'
 汓	qda'
-求	q'
 求	qe8
 求	qhi'
 求爱	qv6
@@ -6771,8 +6483,7 @@ encoder:
 球员	qy6
 遒	qlo'
 糗	qou'
-区	
-区	q;
+区	qe7
 区	qk'
 区别	qb4
 区内	qn8
@@ -6788,7 +6499,6 @@ encoder:
 屈	qae'
 祛	qoai'
 躯	qse'
-躯	qu5
 趋	qzu'
 趋势	qs0
 渠	qmo'
@@ -6813,9 +6523,7 @@ encoder:
 去找	qz6
 去做	qz1
 阒	qmi'
-觑	qi;
 觑	qji'
-趣	
 趣	qz'
 趣味	qw8
 圈	jko'
@@ -6844,15 +6552,15 @@ encoder:
 全体	qt7
 全文	qw4
 全新	qx5
-权	
+权	qe1
 权	qm'
 权力	ql5
 权利	ql7
 权威	qw3
 权限	qx4
 权益	qy4
-泉	
 泉	qb'
+泉	qu0
 拳	qo7
 拳	qso'
 拳头	qt5
@@ -6867,19 +6575,20 @@ encoder:
 劝	qa9
 劝	qao'
 缺	qfa'
-缺	qu7
+缺	qu'
+缺	qu5
 缺乏	qf7
 缺口	qk8
 缺陷	qx1
 瘸	qba'
-却	
 却	q4
 却	qv'
 却不	qb0
 却又	qy0
 雀	qi5
 雀	qxu'
-确	qe4
+确	qe'
+确	qe5
 确	qsu'
 确保	qb7
 确定	qd9
@@ -6891,6 +6600,7 @@ encoder:
 逡	qa6
 裙	qna'
 群	q2
+群	qa;
 群	qya'
 群发	qf2
 群体	qt0
@@ -6901,10 +6611,9 @@ encoder:
 然后	rh7
 髥	rbi'
 嘫	rku'
-髯	
 髯	rb'
-燃	
 燃	rh'
+燃	ro7
 燃放	rf1
 燃料	rl9
 燃气	rq1
@@ -6921,15 +6630,12 @@ encoder:
 儴	rro'
 獽	rqo'
 禳	rno'
-禳	ro0
 瓤	rgo'
-穰	ru0
 躟	rzo'
 鬤	rbo'
 壌	rto'
 嚷	ri2
 嚷	rko'
-壤	
 壤	rt'
 攘	rfo'
 让	ro
@@ -6945,21 +6651,20 @@ encoder:
 让我	rw5
 懹	rlo'
 譲	ryo'
-饶	
 饶	rs'
-扰	
+饶	ru2
+扰	re4
 扰	rf'
 扰乱	rl7
-娆	ra7
+娆	ra6
 娆	rne'
-绕	
+绕	ra2
 绕	rj'
 绕过	rg6
 遶	rle'
 惹	re2
 惹	rxe'
 惹恼	rn9
-热	
 热	r3
 热	rl'
 热爱	rv7
@@ -7039,19 +6744,18 @@ encoder:
 仁	ru8
 仁爱	rv4
 壬	rtu'
-壬	ru1
 忈	rvo'
 忍	r2
+忍	ra;
 忍	rxa'
 忍耐	rn3
 忍受	rs4
 忍者	rz6
 荏	rcu'
 稔	rhu'
-稔	ru6
-刃	
+稔	ru0
+刃	ra7
 刃	rd'
-认	
 认	r9
 认	ry'
 认出	rc2
@@ -7068,10 +6772,10 @@ encoder:
 认真	rz3
 认证	rz9
 认知	rz0
-仞	ru7
+仞	ru5
 仞	ruo'
 讱	rya'
-任	
+任	r'
 任	r4
 任	rr'
 任副	rf3
@@ -7083,23 +6787,22 @@ encoder:
 任务	rwu'
 任意	ry4
 任职	rz1
-纫	ra8
+纫	ra5
 纫	rja'
-妊	ra2
+妊	ra1
 牣	rna'
-韧	re;
 韧	rwa'
 饪	rsu'
-饪	ru4
+饪	ru6
 衽	rnu'
-衽	ro1
-恁	nu1
 恁	nui'
 恁	rxu'
-扔	re4
+扔	re'
+扔	re6
 扔	rfa'
 仍	r6
 仍	rra'
+仍	ru;
 仍按	rv1
 仍将	rj1
 仍旧	rj8
@@ -7142,21 +6845,16 @@ encoder:
 日志	rz4
 日子	rz
 鈤	rji'
-戎	re'
 戎	rge'
-肜	ru'
 肜	rvu'
-狨	
 狨	rq'
-绒	ra3
+绒	ra8
 绒	rje'
 茸	rei'
-荣	r;
 荣	re8
 荣	rme'
 荣获	rh0
 荣誉	ry6
-容	
 容	r5
 容	rx'
 容量	rl8
@@ -7167,32 +6865,32 @@ encoder:
 容器	rqi'
 容忍	rr2
 容易	ry8
-媶	ra5
+嵘	ri'
 嵘	ri5
 嵘	rse'
 嵤	rso'
-溶	ro2
+溶	ro3
 溶	roo'
 蓉	rco'
-蓉	re3
+蓉	re;
+蓉	re5
 蓉儿	rv0
 榕	rea'
 熔	rho'
-熔	ro4
+熔	ro'
+熔	ro6
 瑢	rwo'
 穁	rhe'
-蝾	ri;
 融	rce'
 融	re9
 融合	rh6
 融入	rr5
 融资	rz5
 髶	rbe'
-嬫	ra0
 冗	rgu'
-冗	ro3
+冗	ro;
+冗	ro4
 禸	rka'
-柔	
 柔	r1
 柔	rm'
 柔和	rh1
@@ -7201,23 +6899,21 @@ encoder:
 柔软	rr4
 柔弱	rr0
 柔婉	rw2
-揉	re5
+揉	re1
 揉	reo'
 糅	rma'
-糅	ro;
+蹂	ri;
 蹂	ri4
 蹂	rza'
 鞣	rga'
 瓇	rwe'
 煣	rha'
-肉	
 肉	r8
 肉	rk'
 肉皮	rp0
 肉片	rp5
 肉品	rp6
 肉体	rt0
-邚	ra6
 如	ra
 如冰	rb9
 如不	rb5
@@ -7240,25 +6936,24 @@ encoder:
 如意	ry5
 如有	ry3
 茹	rca'
-茹	re1
 渪	rdu'
 筎	rpa'
 儒	ru9
 儒	rui'
 嚅	ri9
 嚅	rke'
-孺	ra9
+孺	ra'
+孺	ra4
 孺	rze'
 濡	rde'
-濡	ro6
+濡	ro0
 曘	rqe'
-襦	ro'
 蠕	ri7
 蠕	ria'
 颥	rye'
 汝	rda'
-汝	ro7
-乳	
+汝	ro2
+乳	ru7
 乳	rz'
 乳癌	rv9
 乳房	rf9
@@ -7268,7 +6963,7 @@ encoder:
 辱	re7
 辱	reu'
 辱骂	rm8
-入	
+入	r;
 入	r7
 入	rp'
 入编	rb2
@@ -7288,18 +6983,16 @@ encoder:
 入驻	rz2
 扖	rfu'
 込	rlu'
-缛	ra4
+缛	ra0
 鳰	rru'
-褥	
 褥	rn'
+褥	ro5
 擩	rfe'
 撋	rfi'
 壖	rte'
-阮	
+阮	ra9
 阮	rv'
-朊	ru;
 朊	rve'
-软	
 软	r0
 软	rc'
 软管	rg1
@@ -7310,18 +7003,16 @@ encoder:
 软弱	rr6
 软体	rt5
 桵	rmu'
-緌	ra'
-蕊	re0
 蕊	ree'
 繠	rxo'
 汭	rdi'
 芮	rci'
-芮	re6
+芮	re0
 蚋	ri6
 蚋	riae'
 锐	rjo'
 锐	ru3
-瑞	
+瑞	re3
 瑞	rw'
 瑞典	rd6
 瑞恩	rv5
@@ -7332,7 +7023,7 @@ encoder:
 睿	ri3
 睿	rmi'
 叡	ryi'
-闰	ro5
+闰	ro1
 闰	roi'
 润	rdo'
 润	ro8
@@ -7345,30 +7036,27 @@ encoder:
 若您	rn1
 若是	rs8
 若无	rw1
-偌	ru2
+偌	ru'
+偌	ru4
 偌	ruu'
-弱	
-弱	r'
+弱	ra3
 弱	rg'
 弱点	rd0
 嵶	rsa'
 箬	rpe'
-箬	ru5
+箬	ru1
 鰯	rva'
-鶸	ra1
 洒	sde'
 飒	soe'
 腮	svi'
 噻	sko'
 赛	sbo'
-三	
 三	s1
 三	sv'
 三个	sg7
 三年	sn6
 三天	st6
 散	swe'
-桑	sa'
 桑	sao'
 骚	saae'
 骚扰	sr3
@@ -7381,8 +7069,8 @@ encoder:
 瑟	see'
 森林	sl0
 僧	sro'
-杀	
 杀	sm'
+杀	su5
 杀人	sr5
 沙发	sf2
 沙漠	sm0
@@ -7391,7 +7079,7 @@ encoder:
 唦	gko'
 煞	sua'
 霎	svo'
-山	
+山	si2
 山	ss'
 珊	swu'
 舢	suua'
@@ -7401,10 +7089,9 @@ encoder:
 善	syo'
 鳝	suai'
 伤	sru'
-伤	su4
+伤	su6
 伤口	sk8
 伤心	sx9
-商	so3
 商量	sl8
 商品	sp8
 商铺	sp7
@@ -7412,7 +7099,6 @@ encoder:
 裳	sio'
 垧	stu'
 赏	sbi'
-赏	si;
 上	si
 上岸	sv8
 上班	sb3
@@ -7432,8 +7118,7 @@ encoder:
 尚	si9
 尚	sxi'
 尚未	sw3
-少	
-少	s;
+少	si7
 少	sx'
 少儿	sv5
 少年	sn7
@@ -7444,25 +7129,24 @@ encoder:
 畲	suoe'
 舌头	st5
 蛇	sco'
-蛇	si'
+设	so;
 设	so4
 设	syu'
 设备	sb7
 设计	sj9
 设立	sl9
 社	sne'
+社	so'
 社	so5
 社会	sh7
 射	sse'
-射	su;
 涉	sdi'
 摄	sfe'
 申	sqi'
 伸	sri'
-伸	su6
+伸	su0
 伸出	sc2
 伸手	ss4
-身	
 身	s4
 身	sp'
 身边	sb
@@ -7486,7 +7170,6 @@ encoder:
 深刻	sk9
 深南	sn3
 深入	sr4
-神	s'
 神	sni'
 神	so2
 神殿	sd2
@@ -7499,13 +7182,11 @@ encoder:
 审判	sp1
 审批	sp3
 肾	sii'
-甚	se1
 甚	sqa'
 甚至	sz3
 慎	sooi'
 升	snu'
-升	su'
-生	
+生	s'
 生	s7
 生	sn'
 生病	sb9
@@ -7517,16 +7198,15 @@ encoder:
 生日	sr8
 生态	st3
 生意	sy6
-声	
 声	s3
 声	st'
 声明	sm6
 声音	sy9
-胜	su5
+胜	su1
 胜	svu'
 胜利	sl4
 笙	spu'
-省	si5
+省	si0
 省	smi'
 省	xiu'
 圣	sa9
@@ -7537,20 +7217,20 @@ encoder:
 尸	sze'
 尸体	st7
 失	spe'
-失	su7
+失	su'
+失	su4
 失败	sb8
 失去	sq3
 失望	sw4
-师	si7
+师	si;
+师	si5
 师	sji'
 师父	sf7
 师兄	sx8
 诗人	sr1
-施	
 施	sf'
 施工	sg5
 湿润	sr9
-十	
 十	s0
 十	sh'
 十二	sv3
@@ -7558,11 +7238,13 @@ encoder:
 十年	sn0
 什	s6
 什	sre'
+什	su;
 什么	sm
-石	se7
+石	se'
+石	se5
 石	shu'
 石头	st9
-时	
+时	s;
 时	s8
 时	sq'
 时常	sc8
@@ -7575,10 +7257,8 @@ encoder:
 时刻	sk
 时空	sk6
 时期	sq5
-识	so1
 识	syi'
 识别	sb0
-实	
 实	s9
 实	sg'
 实际	sj4
@@ -7590,35 +7270,32 @@ encoder:
 实验	sy2
 实在	sz4
 食	spo'
-食	su9
 食品	sp4
 食谱	sp0
 食物	sw0
-史	si6
 史	sku'
 豕	seua'
-使	
 使	sr'
+使	su8
 使得	sd6
 使用	sy7
 始	sa7
 始	sna'
 始终	sz2
 屎	sae'
-士	se5
+士	se0
 士	ste'
 士兵	sb5
 氏	spa'
-世	
 世	sc'
+世	se8
 世纪	sj2
 世界	sj8
 仕	suie'
-市	
+市	so3
 市	sw'
 市场	sc
 市民	sm2
-示	se6
 示	she'
 式	se3
 式	sge'
@@ -7632,7 +7309,7 @@ encoder:
 事物	sw1
 事业	sy8
 侍卫	sw2
-势	
+势	se6
 势	sl'
 势力	sl5
 视	so6
@@ -7642,14 +7319,12 @@ encoder:
 试题	st8
 试图	st1
 饰品	sp6
-室	so'
 室内	sn8
 是	s
 是啊	sv
 是非	sf8
 是否	sf3
 适	slu'
-适	su0
 适才	sc1
 适应	sy5
 轼	seai'
@@ -7671,14 +7346,14 @@ encoder:
 手下	sx6
 手掌	sz8
 手指	sz5
-首	
 首	sb'
+首	so0
 首次	sc5
 首都	sd1
 首脑	sn4
 首先	sx7
 寿	sce'
-受	
+受	su9
 受	sz'
 受到	sd3
 受骗	sp2
@@ -7688,6 +7363,7 @@ encoder:
 瘦	sbu'
 瘦弱	sr2
 书	s2
+书	sa;
 书	sza'
 书记	sj5
 书刊	sk0
@@ -7708,11 +7384,10 @@ encoder:
 暑	siae'
 黍	suei'
 薯	sci'
-术	se4
+术	se1
 术	smo'
 戍	seuo'
 束	shi'
-树	se0
 树	sma'
 树林	sl6
 竖	sli'
@@ -7738,20 +7413,18 @@ encoder:
 双手	ss7
 霜	se9
 霜	seo'
-谁	
+谁	so1
 谁	sy'
 谁能	sn2
 谁知	sz0
-水	si2
+水	si8
 水	ssa'
 水果	sg1
 水泥	sn9
 水平	sp
 税	sho'
 税收	ss2
-睡	si0
 睡觉	sj1
-顺	su1
 顺	suu'
 顺便	sb1
 顺利	sl7
@@ -7773,27 +7446,29 @@ encoder:
 司	sa3
 司	ska'
 私	sha'
-思	si8
+思	si'
+思	si6
 思	sto'
 思考	sk3
 思念	sn1
 思想	sx3
-斯	se8
+斯	se;
+斯	se4
 斯	squ'
 嘶	ske'
-死	
 死	sd'
+死	se7
 死去	sq1
 死人	sr6
 死亡	sw9
-四	
+四	si4
 四	sk'
 四个	sg6
 四面	sm1
 四强	sq2
 四周	sz7
 似	sra'
-似	su8
+似	su7
 似的	sd7
 似乎	sh4
 松	sea'
@@ -7802,7 +7477,6 @@ encoder:
 讼	soa'
 宋	soo'
 送	slo'
-送	so0
 送给	sg
 廀	sgo'
 馊	suaa'
@@ -7811,11 +7485,9 @@ encoder:
 叟	sui'
 苏	sca'
 夙	sje'
-诉	so;
 素	sxe'
 素娥	sv2
 素质	sz6
-速	se;
 速	sle'
 速度	sd9
 宿	sgu'
@@ -7828,16 +7500,16 @@ encoder:
 算	su3
 算法	sf4
 算是	ss1
-虽	si4
+虽	si1
 虽	ski'
 虽然	sr
 绥	sju'
+随	sa'
 随	sa4
 随	sve'
 随便	sb4
 随即	sj0
 随着	sz9
-岁	si1
 岁	ssu'
 隧	sai'
 孙	sa5
@@ -7845,9 +7517,7 @@ encoder:
 损	sfi'
 隼	suio'
 梭	seiu'
-缩	sa;
 缩	sjo'
-所	
 所	s5
 所	sj'
 所爱	sv0
@@ -7855,7 +7525,6 @@ encoder:
 所以	sy
 所有	sy3
 所在	sz1
-索	se'
 索	sso'
 索爱	sv7
 锁孔	sk2
@@ -7874,34 +7543,31 @@ encoder:
 他为	tw5
 他也	ty1
 他用	ty7
-它	
 它	t9
 它	tg'
 它们	tm4
 它能	tn6
 铊	tjo'
-塔	te0
 塔	tte'
 鮙	dva'
-踏	ti5
+踏	ti1
 踏	tzi'
 蹋	tia'
 胎	tua'
 胎儿	tv7
-台	
-台	t'
+台	ta9
 台	ts'
 台北	tb8
 台风	tf4
 台阶	tj5
 台湾	tw
 坮	tta'
-抬	te5
+抬	te1
 抬	tfa'
 抬起	tq1
 抬头	tt9
 苔	tca'
-太	
+太	t'
 太	t3
 太	td'
 太阿	tv2
@@ -7918,14 +7584,12 @@ encoder:
 态	txe'
 态度	td9
 钛	tje'
-泰	te3
 泰	tse'
 泰国	tg8
 坍	ttu'
 滩	toi'
 瘫	tba'
 昙	tqe'
-谈	t;
 谈	to2
 谈	tyo'
 谈话	th
@@ -7934,12 +7598,10 @@ encoder:
 谈谈	tt6
 覃	qxi'
 痰	tbo'
-谭	to;
 谭	toa'
 潭	toe'
 檀	teiu'
 忐	txi'
-坦	te;
 坦	tti'
 坦克	tk1
 坦然	tr0
@@ -7948,8 +7610,8 @@ encoder:
 叹	tka'
 叹了	tl0
 叹息	tx5
-炭	ti'
-探	te9
+探	te'
+探	te4
 探	tfo'
 探索	ts4
 碳	teu'
@@ -7957,26 +7619,22 @@ encoder:
 汤	to9
 汤姆	tm2
 唐	tga'
-唐	to3
-堂	
+唐	to8
+堂	ti9
 堂	tt'
-棠	ti0
 棠	tio'
 塘	tto'
 瑭	two'
 膛	tvi'
-糖	
 糖	tm'
 螳	tci'
 帑	tja'
 倘	tri'
 倘若	tr3
 躺	tsi'
-躺	tu6
 烫	tho'
-涛	to6
+涛	to1
 涛	tou'
-绦	ta'
 掏	tei'
 掏出	tc1
 詜	tya'
@@ -7992,14 +7650,13 @@ encoder:
 陶	tvu'
 陶瓷	tc9
 鼗	tpo'
-讨	to8
+讨	to7
 讨	tye'
 讨论	tl
 讨厌	ty4
 套	tde'
-套	te6
+套	te0
 套房	tf5
-特	
 特	t7
 特	tn'
 特别	tb
@@ -8009,17 +7666,18 @@ encoder:
 特殊	ts3
 特征	tz5
 疼	tbu'
-疼	to5
+疼	to6
 疼爱	tv4
 疼痛	tt5
-腾	tu5
+腾	tu0
 腾	tvo'
 藤	tcu'
 梯	tmo'
-踢	ti6
+踢	ti0
 踢	tii'
 啼	tko'
 提	t4
+提	te;
 提	tfi'
 提案	tv9
 提出	tc
@@ -8034,13 +7692,11 @@ encoder:
 提示	ts1
 提问	tw4
 提醒	tx6
-题	
 题	t5
 题	ty'
 题材	tc0
 题名	tm1
 题目	tm5
-蹄	ti1
 蹄	tzo'
 体	tu
 体会	th7
@@ -8053,12 +7709,11 @@ encoder:
 体验	ty0
 体育	ty5
 体制	tz7
-屉	ta0
 屉	taeu'
 剃	tlo'
 倜	tui'
 涕	tdo'
-替	
+替	te3
 替	tq'
 替你	tn1
 嚏	tiae'
@@ -8083,23 +7738,20 @@ encoder:
 天王	tw3
 天下	tx
 天真	tz1
-添	to'
 添	too'
 添加	tj0
-田	ti3
+田	ti;
+田	ti4
 田	tsa'
 恬	tooi'
 畑	thi'
-甜	tu1
 甜美	tm6
 甜蜜	tm9
 阗	toia'
 鷏	tne'
 旫	tqa'
-挑	te1
 挑战	tz0
 祧	tnu'
-条	
 条	t6
 条	tw'
 条件	tj
@@ -8108,24 +7760,24 @@ encoder:
 条码	tm3
 条纹	tw2
 条纹	twa'
-迢	ta1
+迢	ta0
 迢	tau'
 笤	tpa'
 窕	txu'
-跳	
+跳	ti3
 跳	tz'
 跳舞	tw7
 贴	tbi'
-贴	ti4
+贴	ti6
 贴图	tt1
 铁	tju'
 铁	tu3
 铁路	tl8
 铁通	tt2
 厅	tce'
-厅	te4
+厅	te6
 汀	tooe'
-听	
+听	t;
 听	t8
 听	tk'
 听到	td
@@ -8138,24 +7790,22 @@ encoder:
 听完	tw0
 听我	tw6
 聼	txa'
-廷	tu0
 廷	tue'
-亭	to1
+亭	to0
 亭	twi'
 庭	tgu'
-庭	to4
-停	
+庭	to'
+庭	to5
 停	tr'
+停	tu8
 停下	tx3
 停止	tz8
-婷	ta5
+婷	ta6
 婷	tno'
 霆	teo'
-挺	te'
 挺	tfu'
 挺好	th2
 艇	tzu'
-通	
 通	t2
 通	tl'
 通报	tb0
@@ -8189,32 +7839,30 @@ encoder:
 桐	tmi'
 砼	tsu'
 铜	tji'
-铜	tu;
 童	tli'
-童	to7
+童	to;
+童	to4
 童话	th9
 童年	tn7
 酮	tyi'
-瞳	ti;
 瞳	tie'
 瞳孔	tk2
-统	
 统	t1
 统	tj'
 统计	tj9
 统一	ty
 捅	teie'
 桶	tma'
-筒	
 筒	tp'
 恸	tle'
-痛	
 痛	tb'
+痛	to3
 痛风	tf1
 痛哭	tk8
 痛苦	tk
 偷	tru'
-偷	tu8
+偷	tu'
+偷	tu5
 偷拍	tp5
 偷偷	tt4
 头	to
@@ -8232,14 +7880,14 @@ encoder:
 投入	tr7
 投资	tz9
 黈	twe'
-透	tu7
+透	tu;
+透	tu4
 透	tuu'
 透过	tg3
 透露	tl3
 透明	tm8
 凸	tki'
 秃	thu'
-突	
 突	t0
 突	tx'
 突出	tc2
@@ -8258,25 +7906,25 @@ encoder:
 图为	tw1
 图文	tw9
 图像	tx1
-徒	
 徒	tc'
+徒	tu7
 徒弟	td1
 徒儿	tv1
 涂	tdu'
-涂	to0
 涂料	tl1
-途	tu4
+途	tu1
 途	tuo'
 途径	tj7
 屠	ta7
 屠	tae'
 跿	tze'
-土	
+土	te9
 土	th'
 土地	td3
 土匪	tf3
 土壤	tr5
-吐	ti9
+吐	ti'
+吐	ti5
 吐	tiu'
 兎	tpi'
 兔	tdi'
@@ -8299,7 +7947,7 @@ encoder:
 推进	tj3
 推开	tk3
 颓废	tf0
-腿	tu2
+腿	tu6
 腿	tva'
 退	ta3
 退	tla'
@@ -8311,34 +7959,33 @@ encoder:
 暾	tqo'
 屯	tha'
 豚	tve'
-臀	ta6
+臀	ta1
 臀	tao'
-托	
+托	te5
 托	tf'
 托盘	tp1
-脱	
+脱	tu2
 脱	tv'
 脱离	tl9
-驮	ta;
 驮	tme'
 佗	tro'
-陀	ta9
+陀	ta;
+陀	ta4
 陀	tai'
 狏	tqu'
-驼	ta4
+驼	ta'
+驼	ta5
 驼	taa'
 砣	tso'
-妥	tu'
 妥	tza'
 庹	tge'
 拓	tfe'
 箨	tpe'
-哇	wi4
+哇	wi6
 哇	wia'
 娃	wa7
 娃	wne'
 娃娃	ww2
-挖	we1
 挖	wfo'
 娲	wni'
 窊	wxu'
@@ -8366,14 +8013,12 @@ encoder:
 外套	wt1
 外头	wt9
 弯	wgo'
-弯	wo4
+弯	wo1
 湾	wdo'
-湾	wo7
-纨	wa;
+湾	wo6
 纨	waa'
-完	
-完	w'
 完	wg'
+完	wo9
 完毕	wb1
 完成	wc
 完了	wl4
@@ -8381,7 +8026,7 @@ encoder:
 完全	wq
 完善	ws9
 完整	wz3
-玩	we3
+玩	we4
 玩	wwe'
 玩儿	wv0
 玩家	wj5
@@ -8389,14 +8034,11 @@ encoder:
 玩弄	wn3
 玩玩	ww3
 笂	wpu'
-顽	we;
 顽	wye'
 顽皮	wp2
 烷	who'
 宛	wgu'
-宛	wo1
 宛如	wr1
-挽	we0
 挽	wfu'
 晚	wi
 晚安	wv9
@@ -8405,19 +8047,19 @@ encoder:
 晚饭	wf6
 晚上	ws
 莞	gco'
-婉	wa2
+婉	wa;
+婉	wa4
 婉	wno'
 惋	wlo'
-绾	wa'
 绾	wjo'
 琬	wwo'
 皖	wbo'
 畹	wto'
-碗	we5
 碗	wso'
 踠	wzo'
 万	mha'
 万	w6
+万	we;
 万	wha'
 万吨	wd8
 万分	wf7
@@ -8426,12 +8068,10 @@ encoder:
 万元	wy1
 卍	wzi'
 卐	wze'
-腕	wu'
 腕	wvo'
-汪	wo;
-亡	wo3
+亡	wo'
+亡	wo5
 亡	woi'
-王	
 王	w3
 王	wh'
 王朝	wc0
@@ -8440,6 +8080,7 @@ encoder:
 王爷	wy5
 王子	wz0
 网	w8
+网	wi;
 网	wku'
 网吧	wb6
 网际	wj6
@@ -8451,9 +8092,8 @@ encoder:
 网球	wq6
 网上	ws8
 网通	wt4
-往	
-往	w;
 往	wc'
+往	wu7
 往返	wf0
 往后	wh4
 往来	wl1
@@ -8464,15 +8104,14 @@ encoder:
 暀	wqu'
 棢	wmi'
 魍	wgi'
-忘	
+忘	wo3
 忘	wx'
 忘记	wj9
-旺	
+旺	wi1
 旺	wq'
-望	
 望	w5
 望	ww'
-危	wu6
+危	wu0
 危	wua'
 危机	wj3
 危险	wx2
@@ -8486,15 +8125,14 @@ encoder:
 隈	wvi'
 揋	wfi'
 微	wci'
-微	wu7
+微	wu;
+微	wu4
 微风	wf1
 微孔	wk2
 微软	wr3
 微微	ww
 微笑	wx
 薇	wcu'
-薇	we6
-巍	wi'
 为	wo
 为爱	wv5
 为此	wc8
@@ -8512,24 +8150,23 @@ encoder:
 为我	ww0
 为止	wz8
 为主	wz5
-韦	we4
+韦	we5
 韦	whe'
-围	
+围	wi2
 围	wk'
 围绕	wr2
-违	
+违	we6
 违	wl'
 违法	wf9
 违反	wf5
 违规	wg0
 闱	woia'
 桅	wmu'
-唯	wi3
+唯	wi8
 唯	wio'
 唯一	wy
 帷	wju'
 惟	wlu'
-惟	wo0
 维	wa
 维阿	wv2
 维持	wc3
@@ -8545,31 +8182,29 @@ encoder:
 尾	wsu'
 尾	yae'
 尾巴	wb2
-纬	wa5
+纬	wa6
 纬	wje'
 苇	wce'
-委	wu4
+委	wu'
+委	wu5
 委	wue'
 委派	wp1
 委屈	wq2
 委托	wt3
 委员	wy8
 炜	wou'
-娓	wa0
 娓	wna'
 捤	wfa'
 诿	wyu'
 隗	ka3
 猥	wqi'
 暐	wqa'
-艉	
 艉	wz'
 韪	wwi'
 卫	wa8
 卫	wve'
 卫生	ws7
 卫星	wx8
-未	
 未	w0
 未	wv'
 未必	wb9
@@ -8579,26 +8214,27 @@ encoder:
 未免	wm7
 未能	wn2
 未曾	wc9
-位	
 位	w7
 位	wr'
 位于	wy6
 位置	wz
-味	wi2
+味	wi7
 味	wke'
 味道	wd4
 味儿	wv1
-畏	
+畏	wi5
 畏	wt'
-胃	wi6
 胃	wti'
 胃口	wk5
 叞	wya'
-尉	wa4
+尉	wa'
+尉	wa5
 尉	wca'
-谓	wo2
+谓	wo;
+谓	wo4
 谓	wyi'
-喂	wi9
+喂	wi'
+喂	wi4
 喂	wki'
 渭	woo'
 墛	wta'
@@ -8609,14 +8245,14 @@ encoder:
 魏	wuu'
 霨	wva'
 温	wdi'
-温	wo9
+温	wo7
 温度	wd0
 温和	wh6
 温暖	wn8
 温泉	wq7
 温柔	wr
 瘟	wbi'
-文	
+文	w'
 文	w4
 文	wd'
 文案	wv6
@@ -8634,20 +8270,20 @@ encoder:
 文艺	wy4
 文章	wz9
 文字	wz6
-纹	
+纹	wa2
 纹	wj'
 闻	wme'
 闻	wo8
 蚊	wco'
 雯	weo'
 馼	wmo'
-吻	wi8
+吻	wi9
 吻	wii'
 紊	woe'
 稳	whu'
-稳	wu5
+稳	wu1
 稳定	wd9
-问	
+问	w;
 问	w9
 问	wm'
 问道	wd
@@ -8657,13 +8293,11 @@ encoder:
 问我	ww6
 翁	wu9
 翁	wuo'
-嗡	wi;
 瓮	wwu'
 齆	wba'
-喔	vi4
+喔	vi5
 喔	vio'
 喔	wka'
-窝	wo'
 窝	wxi'
 踒	wzu'
 我	w
@@ -8698,31 +8332,27 @@ encoder:
 我想	wx0
 我要	wy0
 我也	wy2
-婐	va;
 沃	wdu'
-卧	
 卧	wb'
+卧	we0
 卧室	ws6
 偓	wra'
 幄	wja'
-握	
+握	we8
 握	wf'
 握住	wz7
 渥	wda'
 斡	wsi'
 龌	wie'
 乌	wpa'
-乌	wu0
 圬	wte'
 污	wde'
-污	wo5
+污	wo0
 污泥	wn9
 污染	wr9
-呜	wi5
+呜	wi0
 呜	wiae'
 呜呜	ww8
-巫	we'
-屋	
 屋	w2
 屋	ws'
 屋顶	wd5
@@ -8759,29 +8389,27 @@ encoder:
 无疑	wy7
 无意	wy9
 无意	wyo'
-毋	wa6
+毋	wa1
 毋	wma'
-吴	wi7
+吴	wi3
 吴	wiu'
-吾	we8
+吾	we1
 吾	wei'
-唔	wi0
 五	w1
+五	we'
 五	whi'
 五个	wg7
 五金	wj7
 五年	wn6
 午	wpe'
-午	wu1
 午餐	wc6
 仵	wuiu'
-伍	wu;
 伍	wui'
 坞	wtu'
-妩	wa1
+妩	wa0
 妩	wau'
 妩媚	wm1
-武	
+武	we3
 武	wn'
 武功	wg5
 武汉	wh9
@@ -8792,8 +8420,8 @@ encoder:
 侮辱	wr0
 捂	wfe'
 鹉	wee'
-舞	
 舞	wp'
+舞	wu6
 舞曲	wq4
 舞台	wt2
 勿	wbu'
@@ -8804,14 +8432,12 @@ encoder:
 物品	wp
 物体	wt0
 物质	wz4
-误	
+误	wo2
 误	wy'
 误会	wh5
 误区	wq0
 悟	wle'
-悟	wo6
 悟空	wk9
-晤	wi1
 晤	wqe'
 婺	waoa'
 嵍	wsa'
@@ -8822,8 +8448,7 @@ encoder:
 寤	wga'
 夕	xpa'
 兮	xbe'
-西	
-西	x;
+西	xe8
 西	xh'
 西安	xv9
 西岸	xv8
@@ -8833,7 +8458,7 @@ encoder:
 西门	xm1
 西南	xn4
 西宁	xn9
-吸	xi5
+吸	xi1
 吸收	xs2
 吸引	xy2
 希	xju'
@@ -8841,19 +8466,16 @@ encoder:
 希尔	xv0
 希望	xw
 昔日	xr8
-析	xe'
 析	xmu'
 诶	vya'
 娭	va5
-息	
+息	xu4
 息	xz'
 牺	xne'
 惜	xle'
-惜	xo'
 犀	xae'
 稀	xhu'
 翕	xuoe'
-嘻	xi;
 熹	xeie'
 羲	xou'
 曦	xqo'
@@ -8861,7 +8483,7 @@ encoder:
 习	xda'
 习惯	xg9
 席	xge'
-席	xo6
+席	xo0
 袭	xlo'
 袭击	xj4
 媳妇	xf5
@@ -8869,7 +8491,7 @@ encoder:
 洗牌	xp1
 玺	xwu'
 铣	xuee'
-喜	
+喜	xe4
 喜	xt'
 喜爱	xv
 喜欢	xh
@@ -8881,6 +8503,7 @@ encoder:
 系	xxu'
 系统	xt
 细	x2
+细	xa;
 细	xji'
 细胞	xb5
 细节	xj0
@@ -8903,18 +8526,14 @@ encoder:
 下落	xl0
 下面	xm3
 下午	xw7
-吓	xi1
 吓	xke'
-夏	xe1
 夏	xwe'
 夏普	xp9
 夏天	xt3
 厦门	xm9
 罅	xfi'
-仙	xu1
 仙	xui'
 仙子	xz6
-先	
 先	x1
 先	xn'
 先锋	xf0
@@ -8933,13 +8552,14 @@ encoder:
 闲	xme'
 闲	xo8
 弦	xgo'
-贤	
 贤	xb'
+贤	xi8
 舷	xzo'
 痫	xbo'
 嫌	xau'
 冼	xoeu'
-显	xi8
+显	xi;
+显	xi5
 显	xqi'
 显得	xd7
 显卡	xk8
@@ -8948,9 +8568,10 @@ encoder:
 险	xa8
 险	xvu'
 箲	xpo'
-县	xi4
+县	xi'
+县	xi6
 县	xsi'
-现	
+现	x'
 现	x3
 现	xw'
 现场	xc3
@@ -8969,12 +8590,11 @@ encoder:
 陷入	xr4
 馅	xsu'
 羡慕	xm5
-献	xe;
 献	xqe'
+乡	xa'
 乡	xa4
 乡	xza'
 乡镇	xz7
-相	
 相	x5
 相	xm'
 相爱	xv4
@@ -9016,7 +8636,6 @@ encoder:
 想来	xl1
 想念	xn1
 想起	xq
-向	
 向	x4
 向	xk'
 向她	xt2
@@ -9027,11 +8646,11 @@ encoder:
 向往	xw1
 向我	xw0
 向着	xz9
-项	
+项	xe5
 项	xg'
 项目	xm
-象	
 象	xd'
+象	xu5
 像	xru'
 像	xu8
 像个	xg1
@@ -9042,7 +8661,8 @@ encoder:
 骁	xaae'
 宵	xgi'
 消	xdi'
-消	xo4
+消	xo'
+消	xo5
 消除	xc5
 消防	xf1
 消费	xf2
@@ -9050,7 +8670,6 @@ encoder:
 消失	xs6
 消息	xx4
 萧	xca'
-萧	xe0
 硝	xeu'
 潇	xoo'
 霄	xvi'
@@ -9073,7 +8692,7 @@ encoder:
 小雨	xy3
 小子	xz2
 小组	xz0
-晓	xi6
+晓	xi0
 晓得	xd6
 筱	xpu'
 孝	xtu'
@@ -9083,7 +8702,6 @@ encoder:
 效果	xg8
 效率	xl9
 效益	xy4
-校	xe6
 校	xmo'
 校内	xn8
 校园	xy8
@@ -9091,15 +8709,12 @@ encoder:
 笑话	xh9
 笑容	xr9
 笑意	xy6
-啸	xi0
 啸	xka'
 歗	cqa'
-些	
 些	x8
 些	xv'
-歇	xi'
 蝎	xci'
-协	
+协	xe0
 协	xs'
 协调	xt4
 协会	xh4
@@ -9110,11 +8725,11 @@ encoder:
 挟	xfe'
 斜	xdu'
 鞋	xei'
-写	xo5
+写	xo1
 写	xoi'
 写出	xc1
 泄	xde'
-谢	xo2
+谢	xo6
 谢	xyu'
 谢谢	xx6
 邂	xuau'
@@ -9133,7 +8748,6 @@ encoder:
 芯片	xp
 辛	xoe'
 辛苦	xk3
-新	
 新	x6
 新	xj'
 新版	xb6
@@ -9149,7 +8763,6 @@ encoder:
 歆	xoeo'
 馨	xta'
 伈	xro'
-信	
 信	x0
 信	xr'
 信号	xh8
@@ -9158,19 +8771,20 @@ encoder:
 信息	xx7
 信用	xy7
 衅	xxo'
-兴	xo9
+兴	xo;
+兴	xo4
 兴	xxe'
 兴奋	xf3
 兴趣	xq3
-星	
+星	xi4
 星	xq'
 星空	xk9
 星期	xq0
 惺	xooi'
 猩	xua'
 刑	xee'
-行	
 行	hce'
+行	x;
 行	x7
 行	xc'
 行程	xc0
@@ -9180,31 +8794,28 @@ encoder:
 行为	xw9
 行业	hy8
 行政	xz4
-形	
+形	xe3
 形	xp'
 形成	xc
 形容	xr0
 形式	xs4
 形势	xs5
 形态	xt0
-型	xe3
+型	xe'
+型	xe1
 型	xte'
 型号	xh1
-娙	ka'
-醒	xe5
 醒	xyi'
 醒来	xl4
 杏	xmi'
 姓	xa7
 姓	xnu'
 姓名	xm4
-幸	xe8
 幸	xto'
 幸福	xf
 幸好	xh6
-性	
-性	x'
 性	xl'
+性	xo9
 性爱	xv7
 性别	xb8
 性感	xg5
@@ -9218,25 +8829,22 @@ encoder:
 兄妹	xm2
 匈	xbu'
 汹	xooe'
-胸	xu'
 胸脯	xp6
 胸口	xk
 胸膛	xt7
 雄	xe7
 雄	xze'
-熊	xa'
 熊	xao'
 休	xre'
 休息	xx0
 修	xri'
-修	xu6
+修	xu0
 修复	xf6
 修改	xg2
 羞	xo7
 羞辱	xr3
 馐	xso'
 秀	xha'
-秀	xu0
 袖	xni'
 锈	xue'
 戌	xeue'
@@ -9254,8 +8862,7 @@ encoder:
 需要	xy
 墟	xti'
 徐	xcu'
-徐	xu;
-许	
+许	xo2
 许	xy'
 许多	xd
 许可	xk4
@@ -9264,9 +8871,7 @@ encoder:
 偦	xra'
 旭	xqu'
 序	xga'
-序	xo0
 畜	cto'
-绪	xa;
 续	xa2
 续	xje'
 酗	xeia'
@@ -9275,7 +8880,6 @@ encoder:
 嗅	xiae'
 蓄	xco'
 轩	xce'
-宣	xo1
 宣布	xb
 宣传	xc7
 宣判	xp0
@@ -9285,11 +8889,11 @@ encoder:
 嬛	qni'
 玄	xwa'
 悬	xxi'
-旋	
 旋	xf'
 旋律	xl7
 选	xlu'
-选	xu5
+选	xu'
+选	xu1
 选购	xg6
 选举	xj9
 选票	xp3
@@ -9298,7 +8902,6 @@ encoder:
 绚	xaa'
 穴	xdo'
 穴道	xd1
-学	
 学	x9
 学	xx'
 学会	xh5
@@ -9307,12 +8910,13 @@ encoder:
 学位	xw6
 学习	xx2
 学校	xx3
-雪	xe4
+雪	xe;
+雪	xe6
 雪	xva'
 雪白	xb7
 血	xpi'
-血	xu4
-谑	no'
+血	xu;
+血	xu6
 谑	noa'
 寻	xa3
 寻常	xc8
@@ -9322,7 +8926,6 @@ encoder:
 循环	xh0
 燂	the'
 训练	xl2
-讯	xo;
 讯	xya'
 迅	xa1
 迅	xla'
@@ -9331,14 +8934,14 @@ encoder:
 巽	xba'
 丫头	yt9
 压力	yl1
-呀	yi3
+呀	yi'
+呀	yi5
 呀	yiu'
 押	yfi'
 牙	yha'
 衙	yuu'
 雅	ye2
 雅虎	yh8
-亚	ye1
 亚洲	yz0
 娅	yau'
 咽	yiae'
@@ -9346,16 +8949,14 @@ encoder:
 焉	yeie'
 延安	yv0
 严	yce'
-严	ye0
 严格	yg3
 严肃	ys2
 严重	yz7
-言	
 言	yd'
+言	yo3
 岩	yia'
 炎	yho'
 炎热	yr3
-研	ye'
 研发	yf0
 研究	yj9
 筵	ypu'
@@ -9373,15 +8974,16 @@ encoder:
 演出	yc2
 彦	ywo'
 砚	ysi'
-验	ya1
+验	ya0
 验	ymu'
 谚	yoao'
 赝	yeuu'
 央	ydi'
-央	yi6
+央	yi0
 殃	yeua'
 秧	yue'
 扬	yfa'
+阳	ya;
 阳	ya4
 阳	yvi'
 阳光	yg5
@@ -9390,24 +8992,21 @@ encoder:
 徉	yuui'
 仰	yru'
 养	ybe'
-养	yo;
-样	
 样	y1
 样	ym'
 样子	yz4
 夭	ype'
-妖	
+妖	ya7
 妖	yn'
 腰	yve'
 邀	yui'
-摇	ye;
 摇	yfu'
 摇头	yt
 咬	yko'
 窈	yxa'
 药	yca'
 药品	yp6
-要	
+要	y;
 要	y3
 要	yx'
 要隘	yv2
@@ -9421,8 +9020,8 @@ encoder:
 鹞	yuoo'
 耀	yi9
 耀	yio'
-爷	
 爷	yf'
+爷	yu9
 也	ya
 也不	yb6
 也好	yh4
@@ -9431,19 +9030,17 @@ encoder:
 也能	yn2
 也是	ys
 也许	yx9
-野	yi0
 野	yla'
-业	
 业	y8
 业	ys'
 业绩	yj2
 业内	yn0
 业务	yw4
-叶	yi5
+叶	yi1
 叶	yii'
 曳	yqa'
 页面	ym6
-夜	yo5
+夜	yo1
 夜	ywu'
 夜晚	yw8
 烨	you'
@@ -9505,9 +9102,9 @@ encoder:
 一阵	yz2
 一直	yz
 一致	yz3
-伊	yu'
 衣	yde'
-衣	yo3
+衣	yo'
+衣	yo4
 衣服	yf
 医	yku'
 医院	yy2
@@ -9523,18 +9120,16 @@ encoder:
 怡	yooi'
 姨	yne'
 移	yhu'
-移	yu0
 移民	ym2
 遗憾	yh0
 疑	yu2
 疑	yyu'
 疑惑	yh3
 乙	yza'
-已	
 已	y4
 已	yj'
 已经	yj
-以	
+以	y'
 以	y2
 以	yr'
 以便	yb7
@@ -9557,25 +9152,24 @@ encoder:
 义	ydu'
 义	yo7
 亿	yra'
-亿	yu;
 艺人	yr0
 艺术	ys3
-议	
+议	yo6
 议	yy'
 议案	yv9
 议会	yh5
-亦	yo1
-异	ya3
+异	ya'
+异	ya5
 异	yje'
 异常	yc8
 抑	yei'
-易	yi7
+易	yi;
+易	yi4
 易	yqu'
 诣	yoau'
 驿	yaae'
 奕	yoeu'
 羿	yao'
-益	
 益	yb'
 谊	yoa'
 翊	yoeo'
@@ -9588,18 +9182,17 @@ encoder:
 缢	yjo'
 毅	yso'
 鶂	nnu'
-因	
-因	y;
+因	yi2
 因	yk'
 因此	yc
 因而	yv
 因您	yn6
 因为	yw
-阴	ya5
+阴	ya6
 阴暗	yv8
 阴谋	ym9
 姻	yni'
-音	yo4
+音	yo5
 音频	yp0
 垠	yta'
 银	yja'
@@ -9607,20 +9200,21 @@ encoder:
 银行	yh7
 银子	yz5
 夤	yxo'
-引	
+引	ya3
 引	yg'
 引进	yj0
 引起	yq0
 引入	yr6
-隐	ya6
+隐	ya1
 隐	yai'
 隐藏	yc3
 瘾	yba'
-印	yu1
+印	yu0
 印	yua'
 印尼	yn1
 应	y9
 应	ygo'
+应	yo;
 应当	yd5
 应付	yf4
 应该	yg
@@ -9635,10 +9229,9 @@ encoder:
 鹦	yiau'
 鹰	ygu'
 迎	ylu'
-迎	yu5
+迎	yu6
 迎接	yj3
 迎面	ym3
-盈	ya7
 荧	yhe'
 莹	ywe'
 营	yco'
@@ -9646,7 +9239,7 @@ encoder:
 赢	ybo'
 颍	yuai'
 颖	yuau'
-影	yi8
+影	yi3
 影	ypi'
 影片	yp7
 影响	yx4
@@ -9660,13 +9253,10 @@ encoder:
 邕	yzi'
 庸	yga'
 壅	yoea'
-永	yo0
 永远	yy4
 甬	yaoi'
-勇	ya0
 勇敢	yg2
 涌	yda'
-嵱	ri'
 用	yu
 用户	yh9
 用力	yl2
@@ -9674,7 +9264,8 @@ encoder:
 用人	yr5
 用途	yt1
 优	yre'
-优	yu4
+优	yu'
+优	yu5
 优化	yh6
 优秀	yx0
 攸	yri'
@@ -9682,8 +9273,7 @@ encoder:
 幽默	ym8
 尤	yyo'
 尤其	yq6
-由	
-由	y'
+由	yi8
 由	yq'
 由此	yc4
 由于	yy3
@@ -9694,7 +9284,8 @@ encoder:
 游	yo9
 游客	yk6
 猷	youe'
-友	ye7
+友	ye;
+友	ye6
 友	yeo'
 友好	yh2
 有	ye
@@ -9714,7 +9305,6 @@ encoder:
 有些	yx8
 有着	yz9
 酉	yeia'
-又	
 又	y5
 又	yz'
 又能	yn5
@@ -9724,12 +9314,12 @@ encoder:
 佑	yuie'
 诱人	yr1
 釉	ypo'
-于	
 于	y6
 于	yv'
 于是	ys8
 予	yzo'
-余	yu9
+余	yu;
+余	yu4
 余额	yv6
 妤	yna'
 於	yoe'
@@ -9747,20 +9337,18 @@ encoder:
 虞	yie'
 觎	yuoe'
 舆	ybu'
-与	
 与	y0
 与	yh'
 与你	yn7
 宇	yge'
-羽	ya'
 雨	yhi'
 语	yo2
 语	yye'
 语气	yq7
 语言	yy6
-玉	
+玉	ye5
 玉	yw'
-育	yo6
+育	yo0
 育	ywa'
 狱	yqo'
 峪	yiai'
@@ -9769,15 +9357,14 @@ encoder:
 预案	yv5
 预测	yc0
 预防	yf1
-域	
 域	yt'
-欲	yu6
+欲	yu1
 阈	yoi'
 寓	yooa'
 御	ycu'
 御	yu7
 裕	ynu'
-遇	yi4
+遇	yi6
 遇	yli'
 遇到	yd3
 遇见	yj1
@@ -9787,13 +9374,12 @@ encoder:
 鸢	yeao'
 元	ye9
 元	yvu'
-员	yi2
+员	yi7
 员	yki'
 员工	yg1
-园	yi1
 垣	yte'
-原	
 原	yc'
+原	ye7
 原本	yb4
 原创	yc5
 原来	yl
@@ -9801,14 +9387,11 @@ encoder:
 原帖	yt6
 原因	yy8
 原则	yz8
-圆	yi'
 圆孔	yk2
 袁	yti'
-缘	ya;
 缘故	yg0
-源	yo'
 辕	yea'
-远	
+远	ye4
 远	yl'
 远程	yc1
 远处	yc7
@@ -9816,15 +9399,12 @@ encoder:
 院	ya8
 院	yvo'
 瑗	yeei'
-愿	ye6
 愿	yxe'
 愿望	yw1
 愿意	yy9
-曰	yi;
 曰	yqi'
 约	ya2
 约	yju'
-月	
 月	y7
 月	yp'
 月份	yf5
@@ -9834,7 +9414,7 @@ encoder:
 阅	yo8
 跃	yzu'
 粤	yuia'
-越	ye5
+越	ye0
 越	yze'
 越发	yf2
 越南	yn4
@@ -9844,20 +9424,19 @@ encoder:
 耘	yeee'
 氲	yuee'
 允	ysu'
-运	ye4
+运	ye'
+运	ye1
 运	yle'
 运动	yd0
 运行	yx6
 韫	ywi'
 熨	yaeu'
 蕴	yeii'
-杂	
 杂	zm'
 砸	zeu'
 灾	zgo'
 栽	zeie'
 栽培	zp0
-再	
 再	z0
 再	zh'
 再不	zb3
@@ -9867,7 +9446,6 @@ encoder:
 在家	zj1
 在内	zn0
 在那	zn1
-咱	zi1
 咱	zku'
 咱们	zm4
 赞	zbu'
@@ -9876,27 +9454,26 @@ encoder:
 遭	zle'
 糟	zou'
 凿	zii'
-早	zi2
+早	zi8
 早	zqe'
 早已	zy2
 枣	zeia'
 璅	zwa'
 灶	zhe'
 皂	zuia'
-造	zu1
+造	zu0
 造成	zc3
-则	
 则	zb'
+则	zi7
 责	zbe'
 责任	zr5
-怎	
+怎	zu4
 怎	zx'
 怎么	zm
 怎样	zy1
-曾	
 曾	cb'
+曾	co7
 曾经	cj2
-增	ze'
 增长	zz7
 增加	zj2
 增强	zq2
@@ -9909,22 +9486,23 @@ encoder:
 翟	dao'
 窄	zxu'
 粘	nmi'
-粘	no6
+粘	no0
 斩	zcu'
 展	z2
+展	za;
 展	zse'
 展开	zk3
 盏	zeea'
 占	zbi'
-占	zi;
 战	zgi'
 战	zi3
 战略	zl4
 战争	zz6
+站	zo;
 站	zo4
 站	zoi'
 站内	zn6
-张	
+张	za3
 张	zg'
 张开	zk4
 张口	zk8
@@ -9937,26 +9515,25 @@ encoder:
 掌握	zw3
 丈夫	zf3
 胀	zvu'
-障	za0
 障碍	zv3
 瘬	zba'
 瘴	zoeu'
-招	ze0
 招	zfa'
 招呼	zh8
 招牌	zp1
 招聘	zp3
 昭	zqa'
-找	ze1
+找	ze0
 找	zfe'
 找到	zd3
-召	za6
+召	za0
 召	zdi'
 召开	zk
 兆	zpo'
 诏	zya'
 赵	zzu'
-照	zi7
+照	zi'
+照	zi5
 照	zli'
 照顾	zg5
 照片	zp7
@@ -9967,7 +9544,7 @@ encoder:
 者	ze8
 者	ztu'
 褶	zna'
-这	
+这	z;
 这	z9
 这	zl'
 这边	zb4
@@ -9985,6 +9562,7 @@ encoder:
 贞	ziei'
 针孔	zk2
 真	z1
+真	ze;
 真	zsi'
 真人	zr1
 真是	zs8
@@ -9997,7 +9575,6 @@ encoder:
 镇	zje'
 震	ze9
 震	zeo'
-争	zu;
 争取	zq5
 征	zce'
 怔	zoo'
@@ -10009,7 +9586,6 @@ encoder:
 筝	zueo'
 蒸	zca'
 徵	zuu'
-整	
 整	zn'
 整改	zg2
 整个	zg7
@@ -10025,7 +9601,7 @@ encoder:
 正式	zs3
 正是	zs5
 正在	zz
-证	
+证	zo2
 证	zy'
 证明	zm8
 证券	zq9
@@ -10037,7 +9613,7 @@ encoder:
 政府	zf
 政协	zx1
 政治	zz9
-之	
+之	z'
 之	z4
 之	zd'
 之恩	zv8
@@ -10055,28 +9631,27 @@ encoder:
 支农	zn9
 吱	ziae'
 枝	zme'
-知	
 知	z7
 知	zs'
 知道	zd
 知识	zs9
-织	za3
+织	za'
+织	za4
 织	zji'
 执法	zf9
 执行	zx7
+直	ze'
 直	ze4
 直到	zd4
 直接	zj3
-值	zu'
 值得	zd6
 职	zvi'
 职工	zg3
 职能	zn2
 职务	zw1
 殖	zeua'
-止	zi4
+止	zi6
 止	ziu'
-只	
 只	z8
 只	zk'
 只得	zd7
@@ -10088,11 +9663,11 @@ encoder:
 只要	zy5
 只有	zy3
 址	zti'
-纸	za4
+纸	za6
 纸	zao'
 芷	zci'
 祉	zoai'
-指	
+指	ze1
 指	zf'
 指标	zb6
 指出	zc2
@@ -10102,10 +9677,10 @@ encoder:
 至	ze6
 至	zte'
 至少	zs1
-志	ze;
 志	zto'
 制	zlu'
-制	zu5
+制	zu'
+制	zu6
 制定	zd0
 制度	zd9
 制品	zp4
@@ -10121,7 +9696,6 @@ encoder:
 窒	zxe'
 智	zqu'
 智能	zn5
-置	
 置	zz'
 中	zi
 中阿	zv2
@@ -10134,20 +9708,18 @@ encoder:
 中午	zw6
 中心	zx4
 中央	zy8
-终	za2
+终	za9
 终	zju'
 终于	zy0
 衷	zwi'
 肿	zuae'
-种	z;
 种	zhi'
 种	zu3
 仲	zri'
 众	zru'
-众	zu6
+众	zu1
 众人	zr7
 狆	zqi'
-重	
 重	c6
 重	cv'
 重	zv'
@@ -10172,7 +9744,6 @@ encoder:
 皱	zpu'
 皱眉	zm2
 皱纹	zw2
-骤	za'
 骤	zaa'
 朱	zpe'
 诛	zoa'
@@ -10181,7 +9752,6 @@ encoder:
 诸位	zw4
 烛	zouu'
 逐步	zb8
-主	
 主	z6
 主	zw'
 主板	zb1
@@ -10196,19 +9766,16 @@ encoder:
 属	sa6
 属于	sy4
 嘱	zka'
-住	z'
 住	zro'
 住	zu8
 住房	zf5
-助	zi6
+助	zi0
 注	zdo'
 注	zo6
 注意	zy9
-驻	za1
 驻	zmo'
 炷	zho'
 祝福	zf0
-著	
 著	zc'
 著名	zm5
 筑	zue'
@@ -10232,7 +9799,6 @@ encoder:
 赚钱	zq7
 篆	zpa'
 妆	zza'
-庄	zo'
 桩	zeiu'
 装	zo1
 装	zyo'
@@ -10241,13 +9807,13 @@ encoder:
 状况	zk9
 状态	zt3
 撞	zfo'
-追	zu0
 追求	zq4
 坠	zta'
 缀	zja'
 惴	zooi'
 谆	zoao'
 准	zdu'
+准	zo'
 准	zo5
 准备	zb
 准确	zq6
@@ -10273,7 +9839,6 @@ encoder:
 姊	za7
 姊	znu'
 耔	zla'
-紫	zi'
 紫	zxi'
 字	zga'
 字	zo9
@@ -10286,7 +9851,6 @@ encoder:
 自拍	zp5
 自然	zr
 自我	zw5
-综	za;
 综	zjo'
 综合	zh5
 踪	zzo'
@@ -10299,38 +9863,37 @@ encoder:
 总是	zs0
 总体	zt0
 总统	zt
-纵	za9
+纵	za5
 纵	zau'
 粽	zoue'
 邹	zuaa'
-走	
 走	z3
 走	zt'
 走过	zg6
 走了	zl2
 走向	zx6
 奏	zee'
-足	zi8
+足	zi;
+足	zi4
 足	zsa'
 卒	cwu'
 族	zo0
 诅	zyi'
-阻	za5
+阻	za1
 阻	zai'
 阻碍	zv6
 阻止	zz1
-组	
+组	za2
 组	zj'
 组成	zc5
 组织	zz2
 祖	zni'
-祖	zo2
 祖国	zg4
 纂	zpi'
-嘴	zi5
+嘴	zi1
 嘴	zki'
 嘴巴	zb2
-最	
+最	zi2
 最	zq'
 最高	zg9
 最好	zh4
@@ -10340,7 +9903,6 @@ encoder:
 最怕	zp9
 最热	zr3
 最小	zx8
-罪	zi0
 罪	zzi'
 罪恶	zv0
 尊	zco'
@@ -10351,7 +9913,6 @@ encoder:
 左	ze7
 左	zge'
 佐	zui'
-作	
 作	z5
 作	zr'
 作出	zc4
@@ -10365,9 +9926,9 @@ encoder:
 坐	zuo'
 坐下	zx5
 座	zgu'
-座	zo;
 做	zre'
-做	zu4
+做	zu;
+做	zu5
 做爱	zv7
 做出	zc0
 做法	zf4
