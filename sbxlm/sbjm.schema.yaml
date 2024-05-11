@@ -126,14 +126,15 @@ speller:
 
 translator:
   dictionary: sbjm
-  enable_filtering: false
-  forced_selection: true
-  single_selection: false
-  lower_case: true
-  enable_encoder: true
-  stop_change: false
-  delete_threshold: 2000
-  max_phrase_length: 5
+  enable_filtering: false #sss时过滤掉多字词
+  forced_selection: true  #四码时必须选重
+  single_selection: false #只在全码时选重
+  lower_case: true        #多字词可用sssb输入
+  enable_ssp_words: false #支持声声偏词
+  enable_encoder: true    #启用造词编码器
+  stop_change: false      #停止造词和调频
+  delete_threshold: 2000  #自动废词清理阈值
+  max_phrase_length: 5    #自动造词最大长度
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9']?"
     - "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;']?"

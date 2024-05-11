@@ -20,6 +20,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field single_selection boolean
 ---@field single_display boolean
 ---@field lower_case boolean
+---@field enable_ssp_words boolean
 ---@field stop_change boolean
 ---@field enable_encoder boolean
 ---@field delete_threshold number
@@ -111,7 +112,7 @@ local function dfs_encode(phrase, position, code, env)
   return success
 end
 
----对于声笔简码，需要同时造spb格式的二字词
+---对于声笔简码，需要同时造ssp格式的二字词
 ---@param phrase string 待造词的短语
 ---@param position number 下一个需要编码枚举的位置
 ---@param code string[] 已经完成编码枚举的编码
@@ -262,6 +263,7 @@ function this.init(env)
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
+  env.enable_ssp_words = config:get_bool("translator/enable_ssp_words") or false
   env.stop_change = config:get_bool("translator/stop_change") or false
   env.enable_encoder = config:get_bool("translator/enable_encoder") or false
   env.delete_threshold = config:get_int("translator/delete_threshold") or 1000
@@ -363,9 +365,9 @@ local function validate_phrase(entry, segment, type, input, env)
       return nil
     end
   end
-  -- 简码非三顶模式时，不显示spb格式的二字词
-  if core.jm(schema_id) and not env.third_pop and utf8.len(entry.text) == 2
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]+") then
+  -- 在enable_ssp_words为false时，不显示ssp格式的二字词
+  if core.jm(schema_id) and not env.enable_ssp_words and utf8.len(entry.text) == 2
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
     return nil
   end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
