@@ -8,11 +8,14 @@ local core = require "sbxlm.core"
 local this = {}
 
 ---@class HintEnv: Env
+---@field enable_ssp boolean
 ---@field memory Memory
 ---@field reverse ReverseLookup
 
 ---@param env HintEnv
 function this.init(env)
+	local config = env.engine.schema.config;
+	env.enable_ssp = config:get_bool("translator/enable_ssp") or false
 	env.memory = rime.Memory(env.engine, env.engine.schema)
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
@@ -99,8 +102,8 @@ function this.func(translation, env)
 		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
 		if core.zici(id) and (core.s(input) or core.sx(input)) then
-			if core.jm(id) and is_hidden then
-				; -- 简码只在增强非隐藏模式下提示
+			if core.jm(id) and (is_hidden or not env.enable_ssp) then
+				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词
 			else
@@ -120,7 +123,7 @@ function this.func(translation, env)
 				end
 			end
 		end
-		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
+		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden and env.enable_ssp then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
@@ -131,7 +134,7 @@ function this.func(translation, env)
 			end
 		end
 		rime.yield(candidate)
-		-- 字词型方案 s 和 ss 加数字或 ; 或 ' 的自定义字词
+		-- 字词型方案 s 和 ss 加数字或 ; 或 ' 后用aeuio选择的自定义字词，比如：早晨z;i
 		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;'0-9]") then
 			local forward
 			for j = 1, #hint_b do

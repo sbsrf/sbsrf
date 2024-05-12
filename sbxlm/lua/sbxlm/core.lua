@@ -113,7 +113,7 @@ end
 
 ---@param id string
 function core.zici(id)
-  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == "sbjm" or id == "sbzr" or id == "sbxh"
+  return core.feixi(id) or core.jm(id) or id == "sbzr" or id == "sbxh"
 end
 
 

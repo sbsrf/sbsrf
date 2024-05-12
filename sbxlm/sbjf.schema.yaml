@@ -29,4 +29,5 @@ translator:
   __patch:
     single_selection: true #只在全码时选重
     lower_case: false      #多字词可用sssb输入
-    enable_ssp_words: true #支持声声偏词
+    enable_ssp: true       #支持融合ssp二字词
+    no_ssp_in_ssb: true    #不能用ssb输入ssp词

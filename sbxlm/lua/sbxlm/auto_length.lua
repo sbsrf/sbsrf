@@ -20,7 +20,8 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field single_selection boolean
 ---@field single_display boolean
 ---@field lower_case boolean
----@field enable_ssp_words boolean
+---@field enable_ssp boolean
+---@field no_ssp_in_ssb boolean
 ---@field stop_change boolean
 ---@field enable_encoder boolean
 ---@field delete_threshold number
@@ -259,7 +260,8 @@ function this.init(env)
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
-  env.enable_ssp_words = config:get_bool("translator/enable_ssp_words") or false
+  env.enable_ssp = config:get_bool("translator/enable_ssp") or false
+  env.no_ssp_in_ssb = config:get_bool("translator/no_ssp_in_ssb") or false
   env.stop_change = config:get_bool("translator/stop_change") or false
   env.enable_encoder = config:get_bool("translator/enable_encoder") or false
   env.delete_threshold = config:get_int("translator/delete_threshold") or 1000
@@ -361,13 +363,14 @@ local function validate_phrase(entry, segment, type, input, env)
       return nil
     end
   end
-  -- 在enable_ssp_words为false时，不显示ssp格式的二字词
-  if core.jm(schema_id) and not env.enable_ssp_words and utf8.len(entry.text) == 2
+  -- 在enable_ssp为false时，不显示ssp格式的二字词
+  if core.jm(schema_id) and not env.enable_ssp and utf8.len(entry.text) == 2
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
     return nil
   end
-  -- 在enable_ssp_words为true时，不显示ssb格式的二字词
-  if core.jm(schema_id) and env.enable_ssp_words and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
+  -- 在enable_ssp和no_ssp_in_ssb为true时，不在ssb格式中显示ssp二字词
+  if core.jm(schema_id) and env.enable_ssp and env.no_ssp_in_ssb
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
     local success = false
     if utf8.len(entry.text) == 2 then
       local characters = {}
