@@ -1396,15 +1396,15 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj
-  sbjp: #声笔简整
+  sbjp: #声笔简拼
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj
+  sbjf: #声笔简飞
+    __include: /preset_keyboards/default
+    __patch:
+        "keys/@36//long_click": K_sbfmzj
   sbpy: #声笔拼音
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@36//long_click": K_sbxlzj
-  sbsp: #声笔三拼
     __include: /preset_keyboards/default
     __patch:
         "keys/@36//long_click": K_sbxlzj

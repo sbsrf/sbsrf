@@ -2224,37 +2224,30 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@37//long_click": K_sbxlzj
-
-  sbjp: #声笔简整
+  sbjp: #声笔简拼
     __include: /preset_keyboards/default
     __patch:
         "keys/@37//long_click": K_sbxlzj
-        
+  sbjf: #声笔简飞
+    __include: /preset_keyboards/default
+    __patch:
+        "keys/@37//long_click": K_sbfmzj      
   sbpy: #声笔拼音
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbxlzj
-        
-  sbsp: #声笔三拼
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@37//long_click": K_sbxlzj
-        
+        "keys/@37//long_click": K_sbxlzj       
   sbzr: #声笔自然
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbzrzj
-        
+        "keys/@37//long_click": K_sbzrzj       
   sbzz: #声笔自整
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbzrzj
-        
+        "keys/@37//long_click": K_sbzrzj      
   sbxh: #声笔小鹤
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbxhzj
-        
+        "keys/@37//long_click": K_sbxhzj        
   sbfd: #声笔飞单
     __include: /preset_keyboards/default
     __patch:

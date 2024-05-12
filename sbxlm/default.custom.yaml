@@ -2,6 +2,7 @@ patch:
   schema_list:
     - schema: sbjp
     - schema: sbjm
+    - schema: sbjf
     - schema: sbfd
     - schema: sbfm
     - schema: sbfx

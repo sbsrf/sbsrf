@@ -88,7 +88,7 @@ end
 
 ---@param id string
 function core.jm(id)
-  return id == "sbjm"
+  return id == "sbjm" or id == "sbjf"
 end
 
 ---@param id string
@@ -206,6 +206,9 @@ end
 function core.reverse(id)
   --相当于三目运算符a ? b : c
   local dict_name = id == "sbfd" and "sbfm" or id
+  if id == "sbjf" then
+    dict_name = "sbjm"
+  end
   --如果不是飞系方案，单字构词码在扩展词库里
   if not core.feixi(id) then
     dict_name = dict_name .. ".extended"

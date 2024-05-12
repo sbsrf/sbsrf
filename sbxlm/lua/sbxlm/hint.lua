@@ -17,6 +17,9 @@ function this.init(env)
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
+	if id == "sbjf" then
+		dict_name = "sbjm"
+	end
 	env.reverse = rime.ReverseLookup(dict_name)
 end
 
@@ -37,7 +40,6 @@ function this.func(translation, env)
 		3：显示，为显示所有数选字词
 	]]
 	local is_hidden = env.engine.context:get_option("hide")
-	local fast_char = env.engine.context:get_option("fast_char")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
