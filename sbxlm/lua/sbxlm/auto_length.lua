@@ -370,6 +370,26 @@ local function validate_phrase(entry, segment, type, input, env)
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
     return nil
   end
+  -- 在enable_ssp_words为true时，不显示ssb格式的二字词
+  if core.jm(schema_id) and env.enable_ssp_words and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
+    local success = false
+    if utf8.len(entry.text) == 2 then
+      local characters = {}
+      for _, char in utf8.codes(entry.text) do
+        table.insert(characters, utf8.char(char))
+      end
+      local translations = env.reverse2:lookup_stems(characters[2])
+      for stem in string.gmatch(translations, "[^ ]+") do
+        if input:sub(2,2) == stem:sub(1,1) and stem:len() == 4 then
+          success = true
+          break
+        end
+      end
+    end
+    if not success then
+      return nil
+    end
+end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
   -- 在存储时，简码以 sssbbbs 的格式存储，飞讯以 sssbbbbs 的格式存储
   -- 如果识别到这种编码，需要把它们重排一下，得到另一种编码，即以 ssss 开头的编码，然后再进行匹配
