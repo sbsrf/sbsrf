@@ -75,7 +75,7 @@ local function dfs_encode(phrase, position, code, env)
           return false
         end
       end
-      env.dynamic_memory:update_userdict(entry, 0, kEncodedPrefix)
+      env.dynamic_memory:update_userdict(entry, 1, kEncodedPrefix)
       return true
     else
       return false
@@ -133,7 +133,7 @@ local function dfs_encode2(phrase, position, code, env)
           return false
         end
       end
-      env.dynamic_memory:update_userdict(entry, 0, kEncodedPrefix)
+      env.dynamic_memory:update_userdict(entry, 1, kEncodedPrefix)
       return true
     else
       return false
