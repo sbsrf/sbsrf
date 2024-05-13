@@ -2175,7 +2175,7 @@ preset_keyboards:
       - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
       - {click: l, long_click: K_qzjt, swipe_up: L, swipe_down: L, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
-      - {click: Shift_L, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: shb, hilited_key_back_color: hsh}
+      - {click: Shift_L, composing: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: shb, hilited_key_back_color: hsh}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH, key_hint_offset_y: -6}

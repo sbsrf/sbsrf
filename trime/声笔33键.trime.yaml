@@ -1341,7 +1341,7 @@ preset_keyboards:
       - {click: n, long_click: Candidate_switch1, swipe_up: N, swipe_down: ']', hint: ']', key_back_color: NNN, width: 14}
       - {click: m, long_click: Hide, swipe_up: M, swipe_down: '·', hint: '·', key_back_color: MMM, width: 15}
       # ❸
-      - {click: Shift_L1, key_text_size: 14, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
+      - {click: Shift_L1, key_text_size: 14, composing: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
       - {click: a, long_click: '↑', swipe_up: A, swipe_down: q_bz, hint: "帮助", key_back_color: AAA, key_text_color: *橙, width: 14}
       - {click: e, long_click: '↓', swipe_up: E, swipe_down: '{Control+l}', hint: ⇐, key_back_color: EEE, key_text_color: *橙, width: 14}
       - {click: u, long_click: '×', swipe_up: U, swipe_down: '÷', hint: '÷', key_back_color: UUU, key_text_color: *橙, width: 14}

@@ -954,7 +954,7 @@ preset_keyboards:
       - {click: ";", long_click: ":", key_back_color: LLL, width: *HKY1}
       - {width: *HKY2}
       # ❸
-      - {click: Shift_L1, key_text_size: 14, has_menu: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
+      - {click: Shift_L1, key_text_size: 14, composing: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
       - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_back_color: ZZZ}
       - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_back_color: XXX}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_back_color: CCC}
