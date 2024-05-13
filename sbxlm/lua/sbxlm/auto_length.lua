@@ -31,6 +31,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field third_pop boolean
 ---@field fast_change boolean
 ---@field is_buffered boolean
+---@field is_enhanced boolean
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -480,6 +481,7 @@ function this.func(input, segment, env)
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+  env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
   local schema_id = env.engine.schema.schema_id
 
   if env.engine.context:get_option("ascii_mode") then
@@ -489,7 +491,12 @@ function this.func(input, segment, env)
   if static(input, env) then
     -- 清空候选缓存
     env.known_candidates = {}
-    env.static_memory:dict_lookup(input, false, 0)
+    local input2 = input
+    local map = {['2']='a', ['3']='e', ['7']='u', ['8']='i', ['9']='o'}
+    if core.fx(schema_id) and env.is_enhanced and rime.match(input2, "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789][aeuio]?") then
+      input2 = input2:sub(1,2) .. map[input2:sub(3,3)] .. input2:sub(4,-1)
+    end
+    env.static_memory:dict_lookup(input2, false, 0)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input

@@ -34,7 +34,7 @@ switches:
     reset: 0
     states: [ 慢顶, 快顶 ]
   - name: is_enhanced
-    reset: 0
+    reset: 1
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
     reset: 1
@@ -137,6 +137,11 @@ popping:
     # 大写字母输入多字词
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    # 增强模式下缩减码数字变换
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789]"
+      accept: "[aeuio]"
       strategy: append
 
 speller:
