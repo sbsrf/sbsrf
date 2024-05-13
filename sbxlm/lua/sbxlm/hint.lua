@@ -102,7 +102,7 @@ function this.func(translation, env)
 		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
 		if core.zici(id) and (core.s(input) or core.sx(input)) then
-			if core.jm(id) and (is_hidden or not env.enable_ssp) then
+			if core.jm(id) and is_hidden then
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词
