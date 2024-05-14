@@ -556,7 +556,26 @@ function this.func(input, segment, env)
       known_words[phrase.text] = true
     end
   end
--- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
+  -- 如果简飞ssb没检索到二字词，则查找静态词组中的飞单
+  if #phrases == 0 and core.jm(schema_id) and env.enable_ssp and env.no_ssp_in_ssb
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
+    local memory2 = env.static_memory
+    memory2:dict_lookup(input .. "'", false, 1)
+    local text = ""
+    for entry1 in memory2:iter_dict() do
+      text = entry1.text
+      break
+    end
+    local entry2 = rime.DictEntry()
+    entry2.text = text
+    entry2.custom_code = input
+    entry2.comment = ""
+    local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry2)
+    phrase.preedit = input
+    yield(phrase:toCandidate())
+    return phrase
+  end
+  -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
     env.static_memory:dict_lookup(input, false, 0)
     for entry in env.static_memory:iter_dict() do
