@@ -138,7 +138,7 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
-    # 增强模式下缩减码数字变换
+    # 增强模式下缩减码变换
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789]"
       accept: "[aeuio]"
