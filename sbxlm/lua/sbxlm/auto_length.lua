@@ -492,9 +492,8 @@ function this.func(input, segment, env)
     -- 清空候选缓存
     env.known_candidates = {}
     local input2 = input
-    local map = {['2']='a', ['3']='e', ['7']='u', ['8']='i', ['9']='o'}
-    if core.fx(schema_id) and env.is_enhanced and rime.match(input2, "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789][aeuio]?") then
-      input2 = input2:sub(1,2) .. map[input2:sub(3,3)] .. input2:sub(4,-1)
+    if core.feixi(schema_id) and env.is_enhanced and rime.match(input2, "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789][aeuio]?") then
+      input2 = input2:sub(1,2) .. fx_exchange[input2:sub(3,3)] .. input2:sub(4,-1)
     end
     env.static_memory:dict_lookup(input2, false, 0)
     for entry in env.static_memory:iter_dict() do
