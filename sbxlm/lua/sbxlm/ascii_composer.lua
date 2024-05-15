@@ -44,6 +44,7 @@ function this.func(key_event, env)
   local input = context.input
   local ascii_mode = context:get_option("ascii_mode")
   local auto_inline = context:get_option("auto_inline")
+  local schema_id = env.engine.schema.schema_id
 
   -- auto_inline 启用时，首字母大写时自动切换到内联模式
   if (not ascii_mode and auto_inline and input:len() == 0 and is_upper(key_event.keycode)) then
@@ -108,7 +109,7 @@ function this.func(key_event, env)
         return rime.process_results.kAccepted
   end
   -- 在码长为1时，取消临时重码提示
-  if not ascii_mode and segment and segment:has_tag("abc") 
+  if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
       and input:len() == 1 and context:get_option("single_display") then
     context:set_option("not_single_display", false)
   end
