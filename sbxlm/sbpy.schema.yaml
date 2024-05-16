@@ -77,11 +77,11 @@ engine:
     - history_translator
   filters:
     - reverse_lookup_filter@reverse_lookup
+    - lua_filter@*sbxlm.fix
+    - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
     - uniquifier
-    - lua_filter@*sbxlm.fix
-    - lua_filter@*sbxlm.postpone
 
 algebra:
   # 1. 冠零声
