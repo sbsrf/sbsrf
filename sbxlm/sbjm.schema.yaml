@@ -106,7 +106,6 @@ popping:
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[aeiou]"
       prefix: 2
-      strategy: append
     # 大写字母输入多字词
     - when: third_pop
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
