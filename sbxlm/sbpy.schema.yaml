@@ -164,7 +164,7 @@ translator:
     - sbpy.base
     - sbpy.ext
     - sbpy.tencent
-  fix_combination: true
+  fix_combination: false
 
 punctuator:
   import_preset: sbxlm

@@ -5,6 +5,7 @@
 local XK_Return = 0xff0d
 local XK_Tab = 0xff09
 local XK_Escape = 0xff1b
+local XK_space = 0x0020
 local rime = require "sbxlm.lib"
 local core = require "sbxlm.core"
 
@@ -112,6 +113,59 @@ function this.func(key_event, env)
   if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
       and input:len() == 1 and context:get_option("single_display") then
     context:set_option("not_single_display", false)
+  end
+
+  -- 声笔拼音和声笔简拼在组合变换时不造词
+  if not ascii_mode and segment and segment:has_tag("abc") and schema_id == "sbpy" or schema_id == "sbjp"
+      and not key_event:release() then
+    local str = input:sub(segment._start, segment._end)
+    if key_event.keycode == string.byte(";") then
+      if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]?") then
+        context.caret_pos = segment.start + 1
+        context:commit()
+        context:push_input(str:sub(2))
+        context:commit()
+        return rime.process_results.kAccepted
+      elseif key_event.keycode == string.byte(";") and rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{3}[a-z]") then
+        context.caret_pos = segment.start + 2
+        context:commit()
+        context:push_input(str:sub(3))
+        context:commit()
+        return rime.process_results.kAccepted
+      end
+    end
+    if key_event.keycode == string.byte("'")
+        or key_event.keycode == XK_space and key_event.modifier == rime.modifier_masks.kShift then
+      if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{3}") then
+        context.caret_pos = segment.start + 1
+        context:commit()
+        context:push_input(str:sub(2,2))
+        context:commit()
+        context:push_input(str:sub(3,3))
+        context:commit()
+        return rime.process_results.kAccepted
+      end
+    end
+    if key_event.keycode == XK_Tab then
+      if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{3}") then
+        context.caret_pos = segment.start + 2
+        context:commit()
+        context:push_input(str:sub(3,3))
+        context:commit()
+        return rime.process_results.kAccepted
+      end
+    end
+    if key_event.keycode == XK_space and key_event.modifier == rime.modifier_masks.kShift then
+      if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{4}") then
+        context.caret_pos = segment.start + 2
+        context:commit()
+        context:push_input(str:sub(3,3))
+        context:commit()
+        context:push_input(str:sub(4,4))
+        context:commit()
+        return rime.process_results.kAccepted
+      end
+    end
   end
 
   if input:len() == 0 then
