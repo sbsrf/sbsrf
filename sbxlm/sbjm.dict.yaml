@@ -345,6 +345,7 @@ encoder:
 帮派	bp0
 帮我	bw7
 帮助	bz8
+梆	beiu'
 绑	ba5
 绑	bau'
 榜	bmo'
@@ -583,7 +584,7 @@ encoder:
 宾	bgu'
 宾	bo0
 宾馆	bg1
-彬	beiu'
+彬	bpe'
 斌	bwe'
 滨	bdo'
 髌	bgo'
@@ -631,6 +632,7 @@ encoder:
 舶	buu'
 博客	bk9
 博士	bs6
+箔	bueo'
 膊	bua'
 薄	bco'
 礴	beui'
@@ -719,7 +721,6 @@ encoder:
 部署	bs1
 部位	bw5
 郶	bli'
-簿	bpo'
 擦	cfo'
 猜	cqe'
 才	c3
@@ -7694,6 +7695,7 @@ encoder:
 吞	tee'
 暾	tqo'
 屯	tha'
+屯	zha'
 豚	tve'
 臀	ta1
 臀	tao'
@@ -9259,7 +9261,6 @@ encoder:
 真人	zr0
 真是	zs8
 真正	zz3
-臻	zha'
 诊	zyu'
 轸	zeai'
 阵	za8
@@ -10632,7 +10633,6 @@ encoder:
 衔	xcue'	10130
 娅	ynei'	10109
 眩	xmoe'	10086
-彬	bpei'	2071
 捡	jfuo'	10025
 膊	bvei'	10020
 蹙	czeu'	10005
@@ -10907,6 +10907,7 @@ encoder:
 浊	zdia'	6006
 栅	smua'	6001
 唬	xkie'	6001
+簿	bpoo'	5992
 迄	qlue'	5992
 跺	dzua'	5957
 缉	jjia'	5921
@@ -11109,6 +11110,7 @@ encoder:
 篱	lpoe'	4226
 桀	jmua'	4193
 钵	bjei'	4186
+臻	zhea'	4185
 辙	zcoe'	4165
 磷	lsou'	4164
 颐	yyei'	4148
@@ -14060,7 +14062,6 @@ encoder:
 否	pkeu'	8
 筻	gpei'	8
 蹯	fzuo'	8
-屯	zhai'	8
 溻	tdia'	8
 锬	tjou'	8
 蔚	ycae'	8
