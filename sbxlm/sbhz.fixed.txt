@@ -3,30 +3,87 @@ ba	吧
 bb	宾 并不
 bc	报 不错
 bd	白 不得
+be	百
+bea	比较
+bee	避开
+bei	本报
+beo	暴露
+beu	变成
 bf	本 办法
+bfi	并非
 bg	崩 不过
 bh	帮 保护
 bi	比
 bj	办 不仅
 bk	并 不肯
 bl	不料 本来
+bla	罢了
+ble	不理
+bli	变量
+blo	不论
+blu	巴黎
 bm	便 部门
 bn	表 半年
 bo	波
 bp	别 不怕
 bq	兵器 表情
-br	必然 别人
+bqa	百强
+bqe	版权
+bqi	并且
+bqo	不清
+bqu	标签
+br	本人 别人
+bra	不忍
+bre	般若
+bri	本日
+bro	不容
+bru	必然
 bs	不时 表示
-bt	白天 不同
+bsa	本书
+bse	办事
+bsi	不少
+bso	比赛
+bsu	本身
+bt	本帖 不同
+bta	不通
+bte	半天
+bti	标题
+bto	把它
+btu	摆脱
 bu	部
 bv	保安 不安
+bva	贝阿
+bve	北欧
+bvi	彼岸
+bvo	备案
+bvu	不爱
 bw	被 把握
-bx	表现 必须
-by	毕业 不要
+bx	不幸 必须
+bxa	保险
+bxe	表现
+bxi	不虚
+bxo	不许
+bxu	不行
+by	表演 不要
+bya	不已
+bye	必要
+byi	不易
+byo	便宜
+byu	本月
 bz	标准 不住
+bza	保障
+bze	不再
+bzi	帮助
+bzo	保证
+bzu	部长
 c	出
 ca	查
 cb	传播 出版
+cba	承办
+cbe	成本
+cbi	初步
+cbo	传遍
+cbu	苍白
 cc	草 常常
 cd	才 程度
 ce	车
@@ -36,138 +93,432 @@ ch	长 窗户
 ci	此
 cj	产 参加
 ck	揣 此刻
+cka	诚恳
+cko	仓库
 cl	创 出来
 cm	沉默 充满
+cma	村民
+cme	场面
+cmi	聪明
+cmo	车门
+cmu	驰名
 cn	常年 才能
+cna	超女
+cne	嘲弄
+cni	车内
+cno	承诺
+cnu	菜鸟
 co	错
 cp	磁盘 产品
+cpa	彩屏
+cpe	彩票
+cpi	超频
+cpo	裁判
+cpu	唱片
 cq	产权 采取
+cqa	超强
+cqe	长期
+cqi	插曲
+cqo	重庆
+cqu	春秋
 cr	传 承认
 cs	从 此时
 ct	春天 传统
+cta	出台
+cte	餐厅
+cti	长叹
+cto	冲突
+ctu	朝廷
 cu	处
 cv	吹 从而
 cw	称为 成为
+cwa	创维
+cwe	从未
+cwi	春晚
+cwo	错误
+cwu	窗外
 cx	重新 出现
+cxa	持续
+cxe	呈现
+cxi	晨曦
+cxo	程序
+cxu	朝鲜
 cy	村 产业
 cz	仇 存在
 d	的
 da	大
 db	大步 代表
+dba	躲避
+dbe	打扮
+dbi	地步
+dbo	大半
+dbu	担保
 dc	道 调查
 dd	带 得到
 de	得
+dea	达到
 df	扥 地方
+dfa	打发
+dfe	颠覆
+dfi	大幅
+dfo	东方
+dfu	对付
 dg	等 大哥
 dh	当 的话
 di	地
 dj	但 大家
 dk	定 打开
-dl	大力 带来
+dl	道路 带来
+dla	大陆
+dle	道理
+dli	大量
+dlo	独立
+dlu	带领
 dm	点 多么
 dn	调 多年
 do	多
 dp	爹 大批
 dq	丢 地区
+dqa	党群
+dqi	电器
+dqo	道歉
 dr	断 当然
 ds	动 但是
-dt	当天 点头
+dt	地图 点头
+dta	电台
+dte	动态
+dti	打听
+dto	低头
+dtu	独特
 du	都
 dv	对 第二
 dw	得 单位
+dwa	大卫
+dwe	第五
+dwo	耽误
+dwu	地位
 dx	嗲 东西
+dxa	短线
+dxe	地下
+dxi	弟兄
+dxo	担心
+dxu	对象
 dy	顿 第一
 dz	都 弟子
 f	发
 fa	法
 fb	分布 分别
+fba	反驳
+fbe	发表
+fbi	腐败
+fbo	封闭
+fbu	方便
 fc	扶持 非常
+fca	付出
+fce	方才
+fci	发财
+fco	房产
+fcu	风采
 fd	发动 反对
+fda	辅导
+fde	负担
+fdi	非典
+fdo	奋斗
+fdu	非但
+fe	扶
+fea	放到
+fee	负责
+fei	反正
+feo	飞来
+feu	发布
 ff	分 方法
 fg	风 法国
 fh	方 发挥
+fi	咐
+fia	否则
+fie	防止
+fii	废旧
+fio	风光
+fiu	法师
 fj	反 房间
-fk	反抗 放开
+fk	付款 放开
+fka	复垦
+fke	反抗
+fki	封口
+fko	访客
+fku	疯狂
 fl	分离 法律
-fm	发明 方面
+fla	翻了
+fle	飞龙
+fli	房里
+flo	分类
+flu	福利
+fm	丰满 方面
+fma	父母
+fme	封面
+fmi	仿冒
+fmo	房门
+fmu	风貌
 fn	方能 妇女
+fna	愤怒
+fne	抚弄
+fni	房内
+fno	烦恼
+fnu	飞鸟
 fo	佛
+foa	翻译
+foi	访问
+foo	发觉
 fp	肥胖 分配
+fpa	放屁
+fpe	发票
+fpi	废品
+fpo	反叛
+fpu	扶贫
 fq	风情 父亲
+fqa	奉劝
+fqe	夫妻
+fqi	分歧
+fqo	放弃
+fqu	风气
 fr	芙蓉 夫人
+fra	缝纫
+fre	繁荣
+fri	肥肉
+fro	否认
+fru	妇人
 fs	放松 发生
+fsa	附属
+fse	方式
+fsi	凡是
+fso	发送
+fsu	翻身
 ft	附图 发帖
+fta	反弹
+fte	封套
+fti	发贴
+fto	法庭
+ftu	繁体
 fu	夫
 fv	法案 反而
+fva	份额
+fve	妨碍
+fvi	飞蛾
+fvo	方案
+fvu	菲尔
 fw	非 服务
 fx	放下 发现
+fxa	风险
+fxe	分析
+fxi	反响
+fxo	放心
+fxu	方向
 fy	富有 反应
+fya	法院
+fye	飞扬
+fyi	反映
+fyo	发言
+fyu	费用
 fz	否 发展
 g	个
 ga	嘎
+gao	购买
 gb	改变 根本
+gba	改编
+gbe	公布
+gbi	告别
+gbo	干部
+gbu	官兵
 gc	高 工程
 gd	该 感到
 ge	各
 gf	跟 功夫
+gfo	广泛
+gfu	股份
 gg	更 改革
 gh	刚 规划
+gi	归
+gia	刚刚
+gie	观点
+gii	工业
+gio	观赏
+giu	各省
 gj	感 国家
 gk	怪 公开
+gki	港口
 gl	光 管理
 gm	光芒 革命
+gma	购买
+gme	规模
+gmi	光明
+gmo	歌迷
+gmu	改名
 gn	概念 姑娘
+gna	功能
+gne	赣南
+gni	供暖
+gno	工农
+gnu	观念
 go	国
 gp	挂牌 公平
+gpa	滚屏
+gpe	股票
+gpi	高频
+gpo	各派
+gpu	光盘
 gq	跟前 过去
+gqa	光驱
+gqe	供求
+gqi	歌曲
+gqo	感情
+gqu	国企
 gr	关 果然
 gs	公 告诉
-gt	给他 共同
+gt	跟他 共同
+gta	沟通
+gte	国土
+gti	感叹
+gto	骨头
+gtu	钢铁
 gu	姑
 gv	规 公安
 gw	给 各位
+gwe	国王
+gwi	官网
+gwo	更为
+gwu	怪物
 gx	挂 关系
 gy	滚 关于
 gz	够 工作
 h	和
 ha	哈
+hao	何以
 hb	货币 好不
+hba	回避
+hbe	毫不
+hbi	河北
+hbo	何必
+hbu	伙伴
 hc	好 何处
 hd	还 活动
 he	何
 hf	很 恢复
+hfa	花费
+hfi	横幅
 hg	横 回归
 hh	行 缓缓
+hi	虎
+hia	哈哈
+hie	皇上
+hii	行业
+hio	和尚
+hiu	很少
 hj	汉 环境
 hk	怀 很快
 hl	黄 回来
-hm	还没 后面
+hm	画面 后面
+hma	黑马
+hme	号码
+hmi	好吗
+hmo	昏迷
+hmu	毫秒
 hn	还能 河南
+hna	很难
+hne	湖南
+hni	回暖
+hno	胡闹
+hnu	怀念
 ho	活
+hoa	会议
 hp	活泼 害怕
+hpa	黑屏
+hpe	琥珀
+hpi	货品
+hpo	好评
+hpu	魂魄
 hq	获取 回去
+hqa	很强
+hqe	好奇
+hqi	火器
+hqo	行情
+hqu	花钱
 hr	欢 忽然
 hs	红 还是
 ht	合同 回头
+hta	后退
+hte	航天
+hti	话题
+hto	会谈
+htu	话筒
 hu	乎
 hv	会 黑暗
 hw	黑 毫无
+hwe	好玩
+hwu	海外
 hx	话 或许
 hy	婚 还有
 hz	后 孩子
 j	就
+ja	际
+jaa	继续
+jae	居民
+jai	军队
+jao	交通
+jau	姐姐
 jb	进 基本
 jc	检查 基础
+jca	基层
+jce	坚持
+jci	经常
+jco	警察
+jcu	进程
 jd	简单 觉得
+jda	绝对
+jde	见到
+jdi	监督
+jdo	决定
+jdu	记得
+je	极
+jea	接到
+jee	激动
+jei	技术
+jeo	进来
+jeu	具有
 jf	积分 解放
-jg	结构 结果
+jfa	经费
+jfe	姐夫
+jfi	绝非
+jfo	警方
+jfu	肌肤
+jg	机构 结果
+jga	交给
+jge	结构
+jgi	金刚
+jgo	机关
+jgu	尽管
 jh	结合 几乎
+jha	结婚
+jhe	计划
+jhi	惊呼
+jho	江湖
+jhu	机会
 ji	己
 jj	究竟 经济
+jja	拒绝
+jje	积极
+jji	紧紧
+jjo	解决
+jju	接近
 jk	经 加快
 jl	将 建立
 jm	见 见面
 jn	叫 今年
+jo	觉
+joa	精神
+joe	家庭
+joi	进门
+joo	渐渐
+jou	街道
 jp	接 金牌
 jq	九 加强
 jr	卷 进入
@@ -175,33 +526,93 @@ js	炯 建设
 jt	决 今天
 ju	据
 jv	教案 骄傲
+jva	金娥
+jve	继而
+jvi	激昂
+jvo	金额
+jvu	饥饿
 jw	均为 极为
+jwa	结尾
+jwe	紧握
+jwi	今晚
+jwo	绝望
+jwu	交往
 jx	家 进行
 jy	军 教育
 jz	竞争 记者
+jza	紧张
+jze	简直
+jzi	集中
+jzo	接着
+jzu	机制
 k	可
 ka	卡
+kaa	考验
 kb	开办 恐怖
+kba	捆绑
+kbe	开本
+kbi	拷贝
+kbo	看病
+kbu	空白
 kc	考 看出
+kci	快餐
 kd	开 看到
+kda	刊登
 ke	科
 kf	肯 开发
 kg	坑 客观
 kh	康 客户
+ki	咳
+kia	开口
+kie	考虑
+kii	开业
+kio	宽敞
+kiu	孔雀
 kj	看 看见
 kk	快 看看
 kl	况 看来
 km	科目 开门
+kma	快马
+kme	开幕
+kmi	昆明
+kmo	苦闷
+kmu	科贸
 kn	苦难 可能
+kna	困难
+kne	柯南
+kni	课内
+kno	苦恼
+knu	靠你
 ko	扩
 kp	开盘 恐怕
+kpa	开辟
+kpe	开拍
+kpi	宽频
+kpo	科普
+kpu	卡片
 kq	空气 口气
+kqa	跨骑
+kqe	开枪
+kqi	况且
+kqo	开启
+kqu	客气
 kr	款 客人
+kra	可忍
 ks	空 开始
 kt	卡通 客厅
+kta	开通
+kte	开拓
+kti	课堂
+kto	空调
+ktu	卡特
 ku	苦
 kv	亏 可爱
 kw	可谓 渴望
+kwa	库娃
+kwe	可恶
+kwi	口味
+kwo	看完
+kwu	刊物
 kx	跨 科学
 ky	困 可以
 kz	口 控制
@@ -212,7 +623,13 @@ lc	老 露出
 ld	来 领导
 le	乐
 lf	来访 浪费
+lfa	裂缝
+lfe	老夫
+lfi	力帆
+lfo	立法
+lfu	礼服
 lg	冷 两国
+lga	乐观
 lh	浪 厉害
 li	里
 lj	兰 立即
@@ -224,12 +641,19 @@ lo	落
 lp	烈 老婆
 lq	流 离去
 lr	乱 老人
+lra	例如
 ls	龙 历史
 lt	略 老头
+lta	联通
+lto	龙头
 lu	路
 lv	律 两岸
 lw	类 另外
 lx	俩 冷笑
+lxa	连续
+lxe	留下
+lxi	流星
+lxo	良心
 ly	论 利用
 lz	楼 来自
 m	没
@@ -237,134 +661,395 @@ ma	吗
 mb	民 明白
 mc	毛 名称
 md	买 目的
+mda	摩登
+mdo	名单
 me	么
+meu	密码
 mf	们 麻烦
+mfa	免费
 mg	梦 美国
 mh	忙 模糊
 mi	密
 mj	满 面积
 mk	明 门口
 ml	目录 美丽
+mla	魅力
+mle	忙碌
+mli	面临
+mlo	明亮
+mlu	命令
 mm	面 慢慢
 mn	妙 美女
 mo	模
 mp	灭 门派
 mq	缪 目前
+mqe	明确
+mqu	没钱
 mr	茫然 美人
+mra	毛绒
+mre	闷热
+mri	每日
+mro	面容
+mru	猛然
 ms	描述 马上
+msa	秘书
+mse	模式
+msi	牧师
+mso	魔兽
+msu	面色
 mt	模特 明天
+mta	每台
+mte	每天
+mti	煤炭
+mto	眉头
+mtu	媒体
 mu	目
 mv	呒 名额
+mva	母爱
+mve	木耳
+mvo	命案
+mvu	摩尔
 mw	美 门外
 mx	某些 模型
+mxa	冒险
+mxe	梦想
+mxi	明显
+mxo	描写
+mxu	面向
 my	模样 没有
+mya	绵阳
+mye	美元
+myi	贸易
+myo	满意
+myu	每月
 mz	某 名字
 n	你
 na	那
 nb	您 那边
+nba	泥巴
+nbo	宁波
 nc	脑 农村
 nd	乃 难道
 ne	呢
 nf	嫩 能否
+nfe	农副
+nfi	那幅
+nfo	奶粉
 ng	能 那个
+nga	能给
+ngi	你跟
 nh	囊 女孩
 ni	尼
 nj	难 年纪
 nk	宁 难看
 nl	娘 那里
+nli	哪里
+nlo	女郎
+nlu	男篮
 nm	年 你们
 nn	鸟 男女
 no	诺
 np	聂 哪怕
 nq	牛 年轻
+nqi	扭曲
 nr	暖 女人
+nre	耐热
+nri	牛肉
 ns	农 那时
 nt	虐 念头
+nta	南通
+nti	难题
+ntu	那条
 nu	怒
 nv	女 女儿
+nva	诺阿
 nw	内 那位
-nx	女性 那些
+nwe	女王
+nwo	难忘
+nx	男性 那些
+nxa	年限
+nxe	宁夏
+nxi	哪些
+nxo	女性
+nxu	你先
 ny	纽约 那样
+nya	难以
+nye	你要
+nyi	农业
+nyo	能源
+nyu	能用
 nz	耨 女子
+nza	男子
 p	平
 pa	怕
 pb	品 旁边
 pc	跑 平常
 pd	派 判断
+pda	排队
+pe	拍
+pea	碰到
+pee	朴素
+pei	平均
+peo	跑来
+peu	平面
 pf	喷 佩服
+pfa	批发
 pg	朋 屁股
 ph	旁 破坏
 pi	皮
 pj	盘 平静
 pk	评 片刻
 pl	频率 漂亮
+pla	跑了
+ple	披露
+pli	批量
+plo	评论
+plu	毗邻
 pm	片 拼命
 pn	飘 陪你
 po	破
 pp	瞥 偏偏
+ppa	屁屁
+ppi	频频
 pq	聘请 脾气
+pqa	骠骑
+pqe	跑去
+pqi	派遣
+pqo	抛弃
+pqu	喷泉
 pr	派人 平日
+pra	譬如
+pre	疲软
+pri	皮肉
+pro	漂染
+pru	仆人
 ps	评审 平时
+psa	评书
+pse	拍摄
+psi	爬上
+pso	配送
+psu	迫使
 pt	葡萄 普通
+pta	平台
+pte	配套
+pti	陪同
+pto	烹调
+ptu	陪他
 pu	普
 pv	破案 平安
+pva	偏爱
+pve	皮埃
+pvi	佩恩
+pvo	配额
+pvu	配偶
 pw	配 颇为
 px	平行 培训
-py	便宜 朋友
+pxa	拍戏
+pxe	剖析
+pxi	咆哮
+pxo	排序
+pxu	评选
+py	培育 朋友
+pya	濮阳
+pye	颇有
+pyi	番禺
+pyo	培养
+pyu	飘逸
 pz	剖 批准
+pzu	品种
 q	去
+qa	驱
+qaa	全书
+qae	奇异
+qai	权限
+qao	却又
+qau	全力
 qb	亲 全部
 qc	青春 清楚
+qca	取出
+qce	汽车
+qci	清晨
+qco	其次
+qcu	全程
 qd	强调 取得
+qda	球队
+qde	全都
+qdi	起点
+qdo	确定
+qdu	期待
+qe	青
+qea	亲切
+qee	前进
+qei	请求
+qeo	前来
+qeu	全面
 qf	欺负 气氛
+qfa	群发
+qfe	勤奋
+qfi	岂非
+qfo	气愤
+qfu	缺乏
 qg	情歌 全国
+qga	奇观
+qge	情感
+qgi	求购
+qgo	奇怪
+qgu	七个
 qh	清华 前后
+qha	恰好
+qhe	切换
+qhi	漆黑
+qho	侵害
+qhu	强化
 qi	起
 qj	瞧见 期间
+qja	全局
+qje	请教
+qji	情景
+qjo	奇迹
+qju	全集
 qk	情 情况
+qka	勤恳
 ql	强 起来
 qm	前 前面
 qn	瞧 去年
+qo	请
+qoa	确认
+qoe	青衣
+qoi	其间
+qoo	其它
+qou	权益
 qp	且 强迫
 qq	求 轻轻
 qr	全 情人
 qs	穷 其实
 qt	却 其他
+qta	前台
 qu	区
 qv	去爱 请按
+qva	曲阿
+qve	其二
+qvi	去啊
+qvo	全额
+qvu	企鹅
 qw	全文 千万
+qwa	前卫
+qwe	权威
+qwi	趣味
+qwo	请问
+qwu	前往
 qx	恰 情形
+qxa	情绪
 qy	群 企业
+qye	区域
+qyu	其余
 qz	亲自 其中
+qza	妻子
+qze	求职
+qzi	求助
+qzo	庆祝
+qzu	群众
 r	人
-rb	若不 日本
+ra	刃
+raa	软驱
+rae	软弱
+rai	认出
+rao	人对
+rau	让她
+rb	热播 日本
+rba	入编
+rbe	日报
+rbi	让步
+rbo	如冰
+rbu	日版
 rc	绕 如此
-rd	认定 人大
+rd	人多 人大
+rda	荣登
+rde	热带
+rdi	热点
+rdo	认定
+rdu	认得
 re	热
+rea	柔软
+reu	如有
 rf	任 若非
 rg	仍 如果
+rgi	认购
+rgu	入股
 rh	让 如何
 ri	日
+rio	日常
 rj	然 人家
 rk	仍可 人口
+rka	入孔
+rke	认可
+rki	入口
+rko	入库
+rku	仁科
 rl	日历 人类
+rla	热力
+rle	热烈
+rli	容量
+rlo	燃料
+rlu	扰乱
 rm	入门 人民
-rn	让您 热闹
+rma	人马
+rme	热卖
+rmi	辱骂
+rmo	热门
+rmu	人们
+rn	容纳 热闹
+rna	人能
+rne	忍耐
+rni	入内
+rno	惹恼
+rnu	让您
 ro	若
 rp	任凭 人品
+rpa	肉皮
+rpe	如萍
+rpi	乳品
+rpo	热评
+rpu	软盘
 rq	日期 热情
+rqa	人群
+rqe	人权
+rqi	容器
+rqo	柔情
+rqu	人气
 rr	软 仍然
 rs	容 认识
-rt	人体 如同
+rt	如图 如同
+rta	融通
+rte	热土
+rti	认同
+rto	让它
+rtu	软体
 ru	如
 rv	瑞 然而
 rw	人物 认为
+rwa	柔婉
+rwe	仍未
+rwi	入围
+rwo	人文
+rwu	任务
 rx	热心 人心
+rxa	热线
+rxe	如需
+rxi	瑞星
+rxo	入学
+rxu	热血
 ry	润 人员
+rya	人又
 rz	柔 日子
 s	是
 sa	杀
 sb	随便 身边
+sba	手臂
+sbe	上班
+sbi	失败
+sbo	生病
+sbu	设备
 sc	少 市场
 sd	赛 说道
 se	色
@@ -374,152 +1059,527 @@ sh	上 时候
 si	时
 sj	三 时间
 sk	摔 时刻
+ske	思考
 sl	双 上来
-sm	双目 什么
+sli	商量
+sm	神秘 什么
+sma	市民
+sme	四面
+smi	双目
+smo	沙漠
+smu	生命
 sn	首脑 少女
+sna	谁能
+sne	深南
+sni	室内
+sno	水泥
+snu	少年
 so	说
 sp	食品 水平
-sq	上去 事情
+spa	受骗
+spe	审批
+spi	商品
+spo	身旁
+spu	商铺
+sq	时期 事情
+sqa	四强
+sqe	失去
+sqi	神器
+sqo	神情
+squ	生气
 sr	算 虽然
+sra	瘦弱
 ss	送 身上
 st	神态 身体
+sta	使她
+ste	生态
+sti	试题
+sto	石头
+stu	尸体
 su	数
 sv	水 是啊
 sw	谁 所谓
+swa	侍卫
+swe	尚未
+swi	上网
+swu	上午
 sx	刷 实现
+sxa	视线
 sy	孙 所以
 sz	手 身子
 t	他
 ta	她
+taa	团结
 tb	同伴 特别
+tba	逃避
+tbe	同比
+tbi	台北
+tbo	淘宝
+tbu	同胞
 tc	逃 提出
 td	太 听到
 te	特
+tea	提到
+teo	太平
 tf	台风 头发
+tfa	突发
+tfe	土匪
+tfi	天赋
+tfo	投放
+tfu	通风
 tg	腾 通过
+tgi	泰国
 th	堂 谈话
 ti	体
 tj	谈 条件
 tk	听 痛苦
 tl	谈论 讨论
+tla	听了
+tle	透露
+tli	铁路
+tlo	脱离
+tlu	条例
 tm	天 他们
 tn	条 头脑
 to	脱
 tp	铁 谈判
+tpa	调皮
 tq	提前 提起
+tqa	太强
+tqe	同期
+tqi	天晴
+tqo	同情
+tqu	天气
 tr	团 突然
 ts	同 同时
 tt	偷偷 太太
+tta	铁通
+tte	体坛
+tti	听听
+tto	抬头
+ttu	团体
 tu	突
 tv	推 图案
 tw	忒 台湾
+twa	条纹
+twe	天王
+twi	突围
+two	图文
+twu	跳舞
 tx	通信 天下
+txa	投降
+txe	停下
+txi	太小
+txo	同学
+txu	体系
 ty	吞 统一
 tz	头 同志
 v	而
 va	啊
+vao	而又
 vb	二百 耳边
+vba	岸边
+vbe	案板
+vbi	阿贝
+vbo	阿扁
+vbu	欧版
 vc	奥 暗藏
 vd	爱 耳朵
 ve	恶
 vf	嗯 案犯
+vfa	安防
+vfu	而返
 vg	昂贵 而过
+vga	二姑
+vge	爱过
+vgi	爱国
+vgo	而该
+vgu	鞍钢
 vh	昂 而后
+vha	爱好
+vho	爱恨
+vi	岸
+via	按照
+vie	而非
+vii	安监
+vio	耳光
+viu	而归
 vj	安 案件
 vk	爱看 安康
+vka	耳孔
+vke	阿克
+vki	爱卡
+vko	尔康
+vku	儿科
 vl	爱恋 而来
+vla	饿了
+vle	二楼
+vli	恶劣
+vlo	暗恋
+vlu	案例
 vm	恶魔 澳门
-vn	二年 儿女
+vma	鞍马
+vme	噩梦
+vmi	欧盟
+vmo	欧美
+vmu	奥秘
+vn	安娜 儿女
+vna	安妮
+vne	按扭
+vni	耳内
+vno	安宁
+vnu	按钮
 vo	哦
+voa	安心
+voo	欧洲
+vou	爱着
 vp	耳旁 安排
-vq	而起 而且
+vpa	鞍辔
+vpe	安培
+vpi	耳畔
+vpo	阿婆
+vpu	矮胖
+vq	二期 而且
+vqa	鹅群
+vqe	哀求
+vqi	暗器
+vqo	爱情
+vqu	二千
 vr	儿 爱人
-vs	二手 昂首
-vt	爱她 儿童
+vs	暗示 昂首
+vsa	盎司
+vse	二十
+vsi	爱上
+vso	二室
+vsu	暗算
+vt	凹凸 儿童
+vta	爱她
+vte	二厅
+vti	呕吐
+vto	额头
+vtu	爱他
+vu	饿
+vua	暗处
+vue	二手
+vui	暗自
+vuo	安全
+vuu	安徽
 vv	嗯 暗暗
 vw	诶 安危
-vx	安心 恶心
+vwa	安慰
+vwe	二万
+vwi	澳网
+vwu	爱我
+vx	而行 恶心
+vxa	凹陷
+vxe	按下
+vxi	矮小
+vxo	爱心
+vxu	偶像
 vy	而言 而已
+vya	欧阳
+vye	奥运
+vyi	哎呀
+vyo	遨游
+vyu	安逸
 vz	欧 儿子
+vza	案子
 w	我
 wa	瓦
-wb	外表 无比
-wc	晚餐 完成
+wb	文本 无比
+wba	尾巴
+wbe	外表
+wbi	晚辈
+wbo	未必
+wbu	我便
+wc	我才 完成
+wca	挖出
+wce	维持
+wci	晚餐
+wco	未曾
+wcu	无处
 wd	外 问道
+we	武
+wea	完毕
+wee	位于
+wei	维护
+weo	往来
+weu	外面
 wf	问 无法
 wg	翁 我国
+wga	外观
 wh	望 文化
+wi	味
+wia	外国
+wie	为此
+wii	物业
+wio	我当
+wiu	我省
 wj	万 文件
-wk	无可 我看
+wk	胃口 我看
+wka	微孔
+wke	外壳
+wki	网卡
+wko	悟空
+wku	外科
 wl	完了 为了
-wm	无名 我们
+wla	网络
+wle	未来
+wli	网路
+wlo	无论
+wlu	为例
+wm	外贸 我们
+wma	网民
+wme	帷幕
+wmi	文明
+wmo	完美
+wmu	未免
 wn	为难 无奈
+wna	未能
+wne	玩弄
+wni	温暖
+wno	污泥
+wnu	为您
 wo	握
 wp	王牌 物品
+wpa	顽皮
+wpe	我拍
+wpi	外频
+wpo	外婆
+wpu	文凭
 wq	舞曲 完全
-wr	外人 温柔
+wqa	委屈
+wqe	为其
+wqi	武器
+wqo	无情
+wqu	温泉
+wr	侮辱 温柔
+wra	围绕
+wre	微软
+wri	往日
+wro	污染
+wru	万人
 ws	无数 晚上
+wsa	我司
+wse	武士
+wsi	网上
+wso	完善
+wsu	卫生
 wt	网通 问题
+wta	舞台
+wte	委托
+wti	我听
+wto	外滩
+wtu	问他
 wu	无
 wv	维尔 我爱
+wva	翁媪
+wve	无碍
+wvi	我啊
+wvo	文案
+wvu	威尔
 ww	为 微微
 wx	无限 微笑
+wxa	危险
+wxe	文献
+wxi	卫星
+wxo	文学
+wxu	威胁
 wy	文艺 唯一
+wya	我又
+wye	万一
+wyi	委员
+wyo	网游
+wyu	无疑
 wz	物质 位置
+wza	屋子
+wze	完整
+wzi	为止
+wzo	文章
+wzu	握住
 x	下
+xa	险
+xaa	训练
+xae	吸引
+xai	小子
+xao	学习
+xau	幸好
 xb	心 宣布
 xc	相处 形成
+xca	现出
+xce	现场
+xci	寻常
+xco	相差
+xcu	宣传
 xd	行动 许多
+xda	相对
+xde	想到
+xdi	相当
+xdo	兄弟
+xdu	显得
+xe	项
+xea	相比
+xee	形式
+xei	迅速
+xeo	醒来
+xeu	下面
 xf	西方 幸福
+xfa	消费
+xfe	兴奋
+xfi	小幅
+xfo	想法
+xfu	相反
 xg	相关 香港
+xga	修改
+xge	性格
+xgi	效果
+xgo	习惯
+xgu	相公
 xh	协会 喜欢
+xha	小孩
+xhe	相互
+xhi	信号
+xho	下滑
+xhu	先后
 xi	西
 xj	袭击 小姐
+xja	下降
+xje	先进
+xji	相见
+xjo	选举
+xju	现金
 xk	行 胸口
 xl	想 下来
 xm	现 项目
 xn	小 性能
+xo	兴
+xoa	小心
+xoe	西部
+xoi	询问
+xoo	心情
+xou	向前
 xp	些 芯片
 xq	修 想起
 xr	选 显然
 xs	兄 先生
 xt	学 系统
+xta	向她
 xu	许
 xv	相爱 喜爱
+xva	狭隘
+xve	邪恶
+xvi	西岸
+xvo	西安
+xvu	性爱
 xw	新闻 希望
+xwa	纤维
+xwe	虚无
+xwi	香味
+xwo	行为
+xwu	下午
 xx	夏 相信
 xy	寻 需要
 xz	行政 现在
+xza	仙子
+xze	选择
+xzi	协助
+xzo	向着
+xzu	乡镇
 y	一
 ya	亚
 yb	因 一般
 yc	要 因此
 yd	有点 一定
+yda	引导
+yde	遇到
+ydi	一点
+ydo	印度
+ydu	一代
 ye	也
+yea	一致
 yf	应付 衣服
+yfa	越发
+yfe	一副
+yfi	一幅
+yfo	依法
+yfu	一番
 yg	英国 应该
+yga	勇敢
+yge	严格
+ygi	眼光
+ygo	有关
+ygu	一股
 yh	样 以后
 yi	以
 yj	眼 已经
 yk	应 一块
-yl	眼里 原来
-ym	有名 一面
+yl	原谅 原来
+yla	压力
+yle	以来
+yli	一路
+ylo	眼泪
+ylu	娱乐
+ym	要命 一面
+yma	移民
+yme	迎面
+ymi	幽默
+ymo	阴谋
+ymu	以免
 yn	越南 一年
+yna	也能
+yne	云南
+yni	以内
+yno	旖旎
+ynu	与你
 yo	哟
-yp	一片 一旁
-yq	要求 一切
+yoa	用户
+yoe	愿意
+you	眼前
+yp	硬盘 一旁
+ypa	荧屏
+ype	一批
+ypi	药品
+ypo	一派
+ypu	影片
+yq	尤其 一切
+yqa	一群
+yqe	要求
+yqi	仪器
+yqo	以前
+yqu	语气
 yr	原 依然
 ys	用 也是
 yt	月 摇头
 yu	于
 yv	幼儿 因而
-yw	业务 因为
+yva	要隘
+yve	悦耳
+yvi	阴暗
+yvo	议案
+yvu	婴儿
+yw	以外 因为
+ywa	鱼尾
+ywe	一万
+ywi	夜晚
+ywo	以为
+ywu	业务
 yx	影响 一些
+yxa	有限
+yxe	英雄
+yxi	有些
+yxo	也许
+yxu	一向
 yy	云 一样
 yz	有 一直
 z	在
 za	咱
+zaa	组织
 zb	这边 准备
+zba	嘴巴
+zbe	再不
+zbi	逐步
+zbo	转变
+zbu	装备
 zc	找 支持
 zd	再 知道
 ze	着
@@ -529,1090 +1589,51 @@ zh	张 之后
 zi	子
 zj	展 自己
 zk	拽 召开
-zl	装 这里
-zm	咱们 怎么
-zn	周年 只能
-zo	作
-zp	制品 只怕
-zq	追求 之前
-zr	转 自然
-zs	中 只是
-zt	昨天 总统
-zu	主
-zv	最 这儿
-zw	这 作为
-zx	抓 这些
-zy	准 这样
-zz	走 正在
-bea	比较
-bee	避开
-bei	本报
-beo	暴露
-beu	变成
-bfi	并非
-bla	罢了
-ble	不理
-bli	变量
-blo	不论
-blu	巴黎
-bqa	不强
-bqe	版权
-bqi	并且
-bqo	不清
-bqu	标签
-bra	不如
-bre	般若
-bri	本日
-bro	不容
-bru	不然
-bsa	本书
-bse	办事
-bsi	不少
-bso	比赛
-bsu	本身
-bta	不通
-bte	半天
-bti	标题
-bto	把它
-btu	摆脱
-bva	贝阿
-bve	北欧
-bvi	彼岸
-bvo	备案
-bvu	不爱
-bxa	保险
-bxe	不想
-bxi	不小
-bxo	不许
-bxu	不行
-bya	不已
-bye	必要
-byi	不易
-byo	表演
-byu	不用
-bza	保障
-bze	不再
-bzi	帮助
-bzo	保证
-bzu	部长
-cba	承办
-cbe	成本
-cbi	初步
-cbo	传遍
-cbu	苍白
-cka	诚恳
-cko	仓库
-cma	村民
-cme	场面
-cmi	聪明
-cmo	出门
-cmu	成名
-cna	超女
-cne	嘲弄
-cni	车内
-cno	承诺
-cnu	菜鸟
-cpa	彩屏
-cpe	彩票
-cpi	出品
-cpo	裁判
-cpu	唱片
-cqa	超强
-cqe	长期
-cqi	插曲
-cqo	从前
-cqu	春秋
-cta	出台
-cte	餐厅
-cti	长叹
-cto	冲突
-ctu	朝廷
-cwa	创维
-cwe	从未
-cwi	春晚
-cwo	错误
-cwu	此外
-cxa	持续
-cxe	呈现
-cxi	从小
-cxo	程序
-cxu	朝鲜
-dba	躲避
-dbe	打扮
-dbi	地步
-dbo	大半
-dbu	担保
-dea	达到
-dfa	打发
-dfe	大夫
-dfi	大幅
-dfo	对方
-dfu	对付
-dla	得了
-dle	道理
-dli	大量
-dlo	独立
-dlu	带领
-dqa	党群
-dqi	电器
-dqo	当前
-dta	对她
-dte	动态
-dti	打听
-dto	低头
-dtu	独特
-dwa	大卫
-dwe	第五
-dwo	大为
-dwu	地位
-dxa	短线
-dxe	地下
-dxi	大小
-dxo	担心
-dxu	对象
-fba	反驳
-fbe	发表
-fbi	腐败
-fbo	封闭
-fbu	方便
-fca	付出
-fce	方才
-fci	发财
-fco	房产
-fcu	风采
-fda	辅导
-fde	负担
-fdi	非典
-fdo	奋斗
-fdu	非但
-fea	放到
-fee	负责
-fei	反正
-feo	飞来
-feu	发布
-fia	否则
-fie	防止
-fii	废旧
-fio	风光
-fiu	法师
-fka	复垦
-fke	分开
-fki	封口
-fko	访客
-fku	疯狂
-fla	翻了
-fle	飞龙
-fli	房里
-flo	分类
-flu	福利
-fma	父母
-fme	封面
-fmi	分明
-fmo	房门
-fmu	风貌
-fna	愤怒
-fne	抚弄
-fni	房内
-fno	烦恼
-fnu	飞鸟
-foa	翻译
-foi	访问
-foo	发觉
-fpa	放屁
-fpe	发票
-fpi	废品
-fpo	反叛
-fpu	扶贫
-fqa	奉劝
-fqe	夫妻
-fqi	分歧
-fqo	放弃
-fqu	风气
-fra	缝纫
-fre	繁荣
-fri	肥肉
-fro	否认
-fru	妇人
-fsa	附属
-fse	方式
-fsi	凡是
-fso	发送
-fsu	翻身
-fta	反弹
-fte	飞天
-fti	发贴
-fto	法庭
-ftu	繁体
-fva	份额
-fve	妨碍
-fvi	飞蛾
-fvo	方案
-fvu	菲尔
-fxa	风险
-fxe	分析
-fxi	反响
-fxo	放心
-fxu	方向
-fya	法院
-fye	飞扬
-fyi	反映
-fyo	发言
-fyu	费用
-gao	购买
-gba	改编
-gbe	公布
-gbi	告别
-gbo	干部
-gbu	官兵
-gfo	广泛
-gfu	股份
-gia	刚刚
-gie	观点
-gii	工业
-gio	观赏
-giu	各省
-gki	港口
-gma	购买
-gme	规模
-gmi	高明
-gmo	歌迷
-gmu	改名
-gna	功能
-gne	赣南
-gni	国内
-gno	工农
-gnu	观念
-gpa	滚屏
-gpe	股票
-gpi	高频
-gpo	各派
-gpu	光盘
-gqa	光驱
-gqe	供求
-gqi	歌曲
-gqo	感情
-gqu	国企
-gta	沟通
-gte	国土
-gti	感叹
-gto	过头
-gtu	个体
-gwe	国王
-gwi	官网
-gwo	更为
-gwu	国外
-hao	何以
-hba	回避
-hbe	毫不
-hbi	河北
-hbo	何必
-hbu	伙伴
-hfa	花费
-hfi	横幅
-hia	哈哈
-hie	皇上
-hii	行业
-hio	和尚
-hiu	很少
-hma	黑马
-hme	号码
-hmi	好吗
-hmo	昏迷
-hmu	毫秒
-hna	很难
-hne	湖南
-hni	回暖
-hno	胡闹
-hnu	怀念
-hoa	会议
-hpa	黑屏
-hpe	琥珀
-hpi	货品
-hpo	好评
-hpu	魂魄
-hqa	很强
-hqe	好奇
-hqi	火器
-hqo	行情
-hqu	花钱
-hta	后退
-hte	航天
-hti	话题
-hto	会谈
-htu	话筒
-hwe	好玩
-hwu	海外
-jaa	继续
-jae	居民
-jai	军队
-jao	交通
-jau	姐姐
-jca	基层
-jce	坚持
-jci	经常
-jco	警察
-jcu	进程
-jda	绝对
-jde	见到
-jdi	监督
-jdo	决定
-jdu	记得
-jea	接到
-jee	激动
-jei	技术
-jeo	进来
-jeu	具有
-jfa	经费
-jfe	姐夫
-jfi	绝非
-jfo	警方
-jfu	肌肤
-jga	交给
-jge	经过
-jgi	金刚
-jgo	机关
-jgu	尽管
-jha	结婚
-jhe	计划
-jhi	惊呼
-jho	江湖
-jhu	机会
-jja	拒绝
-jje	积极
-jji	紧紧
-jjo	解决
-jju	接近
-joa	精神
-joe	家庭
-joi	进门
-joo	渐渐
-jou	街道
-jva	金娥
-jve	进而
-jvi	激昂
-jvo	金额
-jvu	饥饿
-jwa	结尾
-jwe	紧握
-jwi	今晚
-jwo	绝望
-jwu	交往
-jza	紧张
-jze	简直
-jzi	集中
-jzo	接着
-jzu	机制
-kaa	考验
-kba	捆绑
-kbe	开本
-kbi	拷贝
-kbo	看病
-kbu	空白
-kci	快餐
-kda	刊登
-kia	开口
-kie	考虑
-kii	开业
-kio	宽敞
-kiu	孔雀
-kma	快马
-kme	开幕
-kmi	昆明
-kmo	快门
-kmu	科贸
-kna	困难
-kne	柯南
-kni	课内
-kno	苦恼
-knu	看你
-kpa	开辟
-kpe	开拍
-kpi	宽频
-kpo	可怕
-kpu	卡片
-kqa	跨骑
-kqe	快去
-kqi	况且
-kqo	开启
-kqu	客气
-kra	快如
-kta	开通
-kte	开拓
-kti	课堂
-kto	空调
-ktu	看他
-kwa	库娃
-kwe	可恶
-kwi	口味
-kwo	看完
-kwu	看我
-lfa	裂缝
-lfe	老夫
-lfi	力帆
-lfo	立法
-lfu	礼服
-lga	乐观
-lra	例如
-lta	联通
-lto	里头
-lxa	连续
-lxe	留下
-lxi	流星
-lxo	良心
-mda	面对
-mdo	名单
-meu	密码
-mfa	免费
-mla	魅力
-mle	忙碌
-mli	面临
-mlo	明亮
-mlu	命令
-mqe	明确
-mqu	没钱
-mra	毛绒
-mre	闷热
-mri	明日
-mro	面容
-mru	猛然
-msa	秘书
-mse	模式
-msi	面上
-mso	魔兽
-msu	面色
-mta	每台
-mte	每天
-mti	煤炭
-mto	眉头
-mtu	媒体
-mva	母爱
-mve	木耳
-mvo	命案
-mvu	摩尔
-mxa	冒险
-mxe	梦想
-mxi	明显
-mxo	描写
-mxu	面向
-mya	绵阳
-mye	美元
-myi	贸易
-myo	满意
-myu	每月
-nba	泥巴
-nbo	内部
-nfe	农副
-nfi	南非
-nfo	南方
-nga	能给
-ngi	你跟
-nli	哪里
-nlo	女郎
-nlu	年利
-nqi	扭曲
-nre	你若
-nri	牛肉
-nta	南通
-nti	难题
-ntu	那条
-nva	诺阿
-nwe	女王
-nwo	难忘
-nxa	年限
-nxe	你想
-nxi	哪些
-nxo	内心
-nxu	你先
-nya	难以
-nye	你要
-nyi	农业
-nyo	能源
-nyu	能用
-nza	男子
-pda	排队
-pea	碰到
-pee	朴素
-pei	平均
-peo	跑来
-peu	平面
-pfa	批发
-pla	跑了
-ple	披露
-pli	批量
-plo	评论
-plu	毗邻
-ppa	皮皮
-ppi	频频
-pqa	骠骑
-pqe	跑去
-pqi	派遣
-pqo	抛弃
-pqu	喷泉
-pra	譬如
-pre	疲软
-pri	皮肉
-pro	漂染
-pru	仆人
-psa	评书
-pse	拍摄
-psi	爬上
-pso	配送
-psu	迫使
-pta	平台
-pte	配套
-pti	陪同
-pto	烹调
-ptu	怕他
-pva	偏爱
-pve	皮埃
-pvi	佩恩
-pvo	配额
-pvu	配偶
-pxa	拍戏
-pxe	剖析
-pxi	咆哮
-pxo	排序
-pxu	评选
-pya	濮阳
-pye	颇有
-pyi	番禺
-pyo	培养
-pyu	飘逸
-pzu	品种
-qaa	全书
-qae	奇异
-qai	权限
-qao	却又
-qau	全力
-qca	取出
-qce	汽车
-qci	清晨
-qco	其次
-qcu	全程
-qda	球队
-qde	全都
-qdi	起点
-qdo	确定
-qdu	期待
-qea	亲切
-qee	全球
-qei	请求
-qeo	前来
-qeu	全面
-qfa	群发
-qfe	勤奋
-qfi	岂非
-qfo	前方
-qfu	缺乏
-qga	奇观
-qge	情感
-qgi	求购
-qgo	奇怪
-qgu	七个
-qha	恰好
-qhe	切换
-qhi	漆黑
-qho	侵害
-qhu	强化
-qja	全局
-qje	前进
-qji	情景
-qjo	奇迹
-qju	全集
-qka	勤恳
-qoa	确认
-qoe	青衣
-qoi	其间
-qoo	其它
-qou	权益
-qta	前台
-qva	曲阿
-qve	其二
-qvi	去啊
-qvo	全额
-qvu	企鹅
-qwa	前卫
-qwe	权威
-qwi	趣味
-qwo	请问
-qwu	前往
-qxa	情绪
-qye	区域
-qyu	其余
-qza	妻子
-qze	求职
-qzi	求助
-qzo	庆祝
-qzu	群众
-raa	容纳
-rae	软弱
-rai	认出
-rao	人参
-rau	容忍
-rba	入编
-rbe	日报
-rbi	让步
-rbo	如冰
-rbu	日版
-rda	人对
-rde	热带
-rdi	热点
-rdo	人道
-rdu	认得
-rea	柔软
-reu	如有
-rgi	认购
-rgu	入股
-rio	日常
-rka	入孔
-rke	认可
-rki	入口
-rko	入库
-rku	人看
-rla	人力
-rle	热烈
-rli	容量
-rlo	燃料
-rlu	扰乱
-rma	人马
-rme	热卖
-rmi	辱骂
-rmo	热门
-rmu	人们
-rna	人能
-rne	忍耐
-rni	日内
-rno	惹恼
-rnu	让你
-rpa	人皮
-rpe	如萍
-rpi	乳品
-rpo	热评
-rpu	软盘
-rqa	人群
-rqe	人权
-rqi	容器
-rqo	日前
-rqu	人气
-rta	让她
-rte	热土
-rti	认同
-rto	让它
-rtu	让他
-rwa	柔婉
-rwe	仍未
-rwi	入围
-rwo	人文
-rwu	任务
-rxa	热线
-rxe	如下
-rxi	瑞星
-rxo	入学
-rxu	热血
-rya	人又
-sba	手臂
-sbe	上班
-sbi	失败
-sbo	生病
-sbu	设备
-ske	思考
-sli	商量
-sma	市民
-sme	上面
-smi	说明
-smo	上门
-smu	生命
-sna	谁能
-sne	深南
-sni	室内
-sno	水泥
-snu	少年
-spa	受骗
-spe	审批
-spi	商品
-spo	身旁
-spu	商铺
-sqa	四强
-sqe	失去
-sqi	神器
-sqo	神情
-squ	生气
-sra	瘦弱
-sta	说她
-ste	生态
-sti	试题
-sto	石头
-stu	尸体
-swa	侍卫
-swe	尚未
-swi	上网
-swu	上午
-sxa	视线
-taa	团结
-tba	逃避
-tbe	同比
-tbi	台北
-tbo	头部
-tbu	同胞
-tea	提到
-teo	太平
-tfa	突发
-tfe	土匪
-tfi	天赋
-tfo	投放
-tfu	通风
-tgi	泰国
-tla	体力
-tle	透露
-tli	铁路
-tlo	脱离
-tlu	条例
-tpa	调皮
-tqa	太强
-tqe	同期
-tqi	天晴
-tqo	同情
-tqu	天气
-tta	铁通
-tte	天天
-tti	听听
-tto	抬头
-ttu	团体
-twa	条纹
-twe	天王
-twi	突围
-two	图文
-twu	跳舞
-txa	投降
-txe	停下
-txi	太小
-txo	同学
-txu	体系
-vao	而又
-vba	岸边
-vbe	案板
-vbi	而别
-vbo	阿扁
-vbu	欧版
-vfa	安防
-vfu	二分
-vga	二姑
-vge	爱过
-vgi	爱国
-vgo	而该
-vgu	二个
-vha	爱好
-vho	二话
-via	按照
-vie	而非
-vii	安监
-vio	耳光
-viu	而归
-vka	耳孔
-vke	阿克
-vki	爱卡
-vko	尔康
-vku	儿科
-vla	饿了
-vle	二楼
-vli	恶劣
-vlo	暗恋
-vlu	案例
-vma	鞍马
-vme	噩梦
-vmi	欧盟
-vmo	欧美
-vmu	奥秘
-vna	安妮
-vne	按扭
-vni	耳内
-vno	安宁
-vnu	按钮
-voa	暗访
-voo	欧洲
-vou	爱着
-vpa	鞍辔
-vpe	安培
-vpi	耳畔
-vpo	阿婆
-vpu	矮胖
-vqa	鹅群
-vqe	哀求
-vqi	暗器
-vqo	爱情
-vqu	安全
-vsa	盎司
-vse	二十
-vsi	爱上
-vso	二室
-vsu	暗算
-vta	而她
-vte	二厅
-vti	呕吐
-vto	额头
-vtu	爱他
-vua	暗处
-vue	按键
-vui	暗自
-vuo	二人
-vuu	安徽
-vwa	安慰
-vwe	而无
-vwi	澳网
-vwu	爱我
-vxa	二线
-vxe	按下
-vxi	矮小
-vxo	爱心
-vxu	偶像
-vya	欧阳
-vye	奥运
-vyi	哎呀
-vyo	遨游
-vyu	安逸
-vza	案子
-wba	尾巴
-wbe	无不
-wbi	晚辈
-wbo	未必
-wbu	我便
-wca	外出
-wce	维持
-wci	为此
-wco	未曾
-wcu	无处
-wea	完毕
-wee	位于
-wei	维护
-weo	往来
-weu	伟大
-wga	外观
-wia	外国
-wie	午餐
-wii	物业
-wio	我当
-wiu	我省
-wka	微孔
-wke	外壳
-wki	网卡
-wko	悟空
-wku	外科
-wla	网络
-wle	未来
-wli	网路
-wlo	无论
-wlu	为例
-wma	网民
-wme	外面
-wmi	文明
-wmo	完美
-wmu	未免
-wna	未能
-wne	玩弄
-wni	温暖
-wno	污泥
-wnu	为你
-wpa	顽皮
-wpe	我拍
-wpi	外频
-wpo	我怕
-wpu	文凭
-wqa	委屈
-wqe	为其
-wqi	武器
-wqo	无情
-wqu	温泉
-wra	围绕
-wre	微软
-wri	往日
-wro	污染
-wru	为人
-wsa	我司
-wse	武士
-wsi	网上
-wso	完善
-wsu	卫生
-wta	舞台
-wte	委托
-wti	我听
-wto	外头
-wtu	为他
-wva	维阿
-wve	无碍
-wvi	我啊
-wvo	晚安
-wvu	威尔
-wxa	危险
-wxe	文献
-wxi	卫星
-wxo	文学
-wxu	威胁
-wya	我也
-wye	万一
-wyi	委员
-wyo	无意
-wyu	无疑
-wza	屋子
-wze	完整
-wzi	为止
-wzo	文章
-wzu	握住
-xaa	训练
-xae	吸引
-xai	仙子
-xao	学习
-xau	幸好
-xca	现出
-xce	现场
-xci	寻常
-xco	下次
-xcu	宣传
-xda	相对
-xde	想到
-xdi	相当
-xdo	兄弟
-xdu	显得
-xea	相比
-xee	形式
-xei	迅速
-xeo	醒来
-xeu	下面
-xfa	消费
-xfe	兴奋
-xfi	小幅
-xfo	想法
-xfu	相反
-xga	修改
-xge	性格
-xgi	效果
-xgo	习惯
-xgu	相公
-xha	小孩
-xhe	相互
-xhi	信号
-xho	笑话
-xhu	先后
-xja	下降
-xje	先进
-xji	相见
-xjo	选举
-xju	现金
-xoa	小心
-xoe	西部
-xoi	询问
-xoo	心情
-xou	向前
-xta	向她
-xva	狭隘
-xve	邪恶
-xvi	西岸
-xvo	西安
-xvu	性爱
-xwa	纤维
-xwe	虚无
-xwi	香味
-xwo	行为
-xwu	下午
-xza	小子
-xze	选择
-xzi	心中
-xzo	向着
-xzu	乡镇
-yda	一对
-yde	遇到
-ydi	一点
-ydo	一道
-ydu	有的
-yea	一致
-yfa	越发
-yfe	一副
-yfi	一幅
-yfo	依法
-yfu	一番
-yga	勇敢
-yge	严格
-ygi	眼光
-ygo	有关
-ygu	有个
-yla	用力
-yle	以来
-yli	一路
-ylo	眼泪
-ylu	有利
-yma	移民
-yme	迎面
-ymi	幽默
-ymo	阴谋
-ymu	以免
-yna	也能
-yne	云南
-yni	以内
-yno	旖旎
-ynu	与你
-yoa	用户
-yoe	愿意
-you	眼前
-ypa	眼皮
-ype	一批
-ypi	用品
-ypo	一派
-ypu	影片
-yqa	一群
-yqe	一起
-yqi	仪器
-yqo	以前
-yqu	语气
-yva	要隘
-yve	一二
-yvi	阴暗
-yvo	议案
-yvu	婴儿
-ywa	鱼尾
-ywe	有无
-ywi	夜晚
-ywo	以为
-ywu	意外
-yxa	有限
-yxe	英雄
-yxi	有些
-yxo	也许
-yxu	一向
-zaa	组织
-zba	嘴巴
-zbe	再不
-zbi	逐步
-zbo	转变
-zbu	装备
 zka	针孔
 zko	状况
 zku	专科
+zl	装 这里
+zm	咱们 怎么
 zma	皱眉
-zme	正面
+zme	字幕
 zmi	证明
 zmo	专门
 zmu	这么
+zn	智能 只能
 zna	职能
 zne	指南
 zni	之内
 zno	支农
-znu	中年
+znu	周年
+zo	作
+zp	制品 只怕
 zpa	诈骗
 zpe	招聘
 zpi	作品
 zpo	最怕
 zpu	照片
+zq	追求 之前
 zqa	增强
 zqe	正确
 zqi	作曲
 zqo	证券
 zqu	赚钱
+zr	转 自然
+zs	中 只是
+zt	昨天 总统
 zta	这台
 zte	状态
 zti	主题
 zto	增添
 ztu	整体
+zu	主
+zv	最 这儿
+zw	这 作为
 zwa	皱纹
 zwe	掌握
+zx	抓 这些
 zxa	仔细
 zxi	最小
 zxo	主席
+zy	准 这样
+zz	走 正在
