@@ -181,7 +181,7 @@ function this.func(translation, env)
 		end
 
 		-- 飞系在隐藏模式下不提示声笔字
-		if core.feixi(id) and core.s(input) and is_hidden then
+		if core.feixi(id) and (core.s(input) or core.sxs(input)) and is_hidden then
 			goto continue
 		end
 		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
@@ -194,9 +194,6 @@ function this.func(translation, env)
 				-- hack，假设 UTF-8 编码都是 3 字节的
 				local prev_text = candidate.text:sub(1, -4)
 				if core.sp(id) and not core.invalid_pinyin(shengmu .. bihua) then
-					goto continue
-				end
-				if core.feixi(id) and is_hidden then
 					goto continue
 				end
 				memory:dict_lookup(shengmu .. bihua, false, 1)
