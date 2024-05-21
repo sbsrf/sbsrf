@@ -196,6 +196,9 @@ function this.func(translation, env)
 				if core.sp(id) and not core.invalid_pinyin(shengmu .. bihua) then
 					goto continue
 				end
+				if core.feixi(id) and is_hidden then
+					goto continue
+				end
 				memory:dict_lookup(shengmu .. bihua, false, 1)
 				for entry in memory:iter_dict() do
 					local forward = rime.Candidate("hint", candidate.start, candidate._end, prev_text .. entry.text, bihua)
