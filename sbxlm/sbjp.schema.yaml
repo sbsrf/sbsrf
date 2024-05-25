@@ -57,7 +57,12 @@ speller:
       - derive/^([a-z]{4}).+$/$1/
 
 translator:
-  __include: sbpy.schema.yaml:/translator
+  dictionary: sbpy
+  packs:
+    - sbpy.base
+    - sbpy.ext
+    - sbpy.tencent
+  fix_combination: false
   prism: sbjp
 
 reverse_lookup:
