@@ -111,8 +111,15 @@ function this.func(translation, env)
   while fixed_phrases[i] do
     local candidate = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
     candidate.preedit = input
-    i = i + 1
+    local select = "'456 "
+    local is_hidden = env.engine.context:get_option("is_hidden")
+    local id = env.engine.schema.schema_id
+    if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+      local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
+      candidate.comment = comment
+    end
     rime.yield(candidate)
+    i = i + 1
   end
   -- 输出没有固顶的候选
   for _, candidate in ipairs(unknown_candidates) do
