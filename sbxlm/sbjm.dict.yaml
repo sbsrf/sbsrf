@@ -262,7 +262,7 @@ encoder:
 巴结	bj2
 巴黎	bl7
 叭	bku'
-吧	bi2
+吧	b8
 吧	bk'
 粑	bma'
 蚆	pca'
@@ -278,7 +278,7 @@ encoder:
 坝	bti'
 爸	bfa'
 爸爸	bb5
-罢	bi5
+罢	bi4
 罢	bze'
 罢工	bg3
 罢了	bl2
@@ -298,7 +298,7 @@ encoder:
 摆	bfi'
 摆脱	bt7
 呗	bki'
-败	bi4
+败	bi2
 败	bia'
 拜	bse'
 拜	bu1
@@ -392,11 +392,11 @@ encoder:
 抱	be5
 抱歉	bq6
 豹	bzu'
-暴	bi0
+暴	bi1
 暴	bq'
 爆	bhi'
 爆发	bf6
-悲	bi1
+悲	bi6
 悲	bxi'
 悲哀	bv5
 碑	beu'
@@ -406,7 +406,7 @@ encoder:
 北海	bh9
 北京	bj9
 北欧	bv3
-贝	bi6
+贝	bi5
 贝	bsa'
 贝阿	bv2
 贝尔	bv0
@@ -486,9 +486,10 @@ encoder:
 彼此	bc8
 笔	bpu'
 笔	bu3
+鄙	bi0
 鄙	biu'
 币	bju'
-必	b0
+必	bo2
 必	bx'
 必定	bd5
 必然	br7
@@ -549,7 +550,7 @@ encoder:
 变为	bw1
 昪	bqa'
 遍	blo'
-遍	bo2
+遍	bo1
 辨	boe'
 辩	bxo'
 彪	bie'
@@ -579,7 +580,6 @@ encoder:
 别人	br
 蹩	bzo'
 宾	bgu'
-宾	bo0
 宾馆	bg1
 彬	bpe'
 斌	bwe'
@@ -638,7 +638,7 @@ encoder:
 跛	bza'
 卜	bi9
 卜	bso'
-补	bo1
+补	bo0
 补	boa'
 补充	bc5
 哺	bke'
@@ -708,7 +708,7 @@ encoder:
 不足	bz5
 布	be4
 布	bj'
-步	b8
+步	b0
 步	bni'
 步伐	bf7
 步入	br1
@@ -1834,8 +1834,6 @@ encoder:
 发生	fs
 发誓	fs5
 发送	fs9
-发贴	ft8
-发帖	ft
 发威	fw3
 发现	fx
 发行	fx5
@@ -1873,6 +1871,7 @@ encoder:
 翻	fvu'
 翻了	fl2
 翻身	fs7
+翻腾	ft1
 翻译	fy5
 凡	fjo'
 凡	fu0
@@ -1888,7 +1887,7 @@ encoder:
 反	f5
 反	fy'
 反驳	fb2
-反弹	ft2
+反弹	ft
 反倒	fd0
 反对	fd
 反而	fv
@@ -1964,7 +1963,7 @@ encoder:
 访	fo8
 访	fyo'
 访客	fk9
-访谈	ft6
+访谈	ft5
 访问	fw9
 彷	puu'
 彷徨	ph0
@@ -2026,7 +2025,7 @@ encoder:
 废	fga'
 废话	fh1
 废品	fp8
-沸腾	ft0
+沸腾	ft6
 狒	fqa'
 肺癌	fv6
 费	f2
@@ -2088,7 +2087,7 @@ encoder:
 丰	fve'
 丰富	ff9
 丰满	fm4
-丰田	ft5
+丰田	ft4
 风	f7
 风	fp'
 风暴	fb6
@@ -2102,7 +2101,7 @@ encoder:
 风气	fq7
 风情	fq4
 风声	fs0
-风头	ft1
+风头	ft0
 风味	fw5
 风险	fx2
 风云	fy6
@@ -2140,6 +2139,7 @@ encoder:
 佛	fra'
 佛	fu4
 佛教	fj1
+佛陀	ft2
 坲	fta'
 否	f3
 否	fk'
@@ -2229,7 +2229,7 @@ encoder:
 附加	fj0
 附件	fj5
 附近	fj7
-附图	ft4
+附图	ft8
 附属	fs2
 咐	fi8
 咐	fku'
@@ -2783,13 +2783,12 @@ encoder:
 毫	ho3
 毫	hwi'
 毫安	hv9
-毫不	hb3
+毫不	hb
 毫米	hm6
 毫秒	hm7
 毫无	hw
 好	ha
 好啊	hv8
-好不	hb
 好吃	hc8
 好处	hc7
 好多	hd1
@@ -2817,6 +2816,7 @@ encoder:
 禾	hpe'
 合	h6
 合	hre'
+合并	hb1
 合成	hc4
 合法	hf9
 合肥	hf4
@@ -3086,7 +3086,7 @@ encoder:
 褘	hna'
 麾	hoeu'
 回	hi
-回报	hb1
+回报	hb3
 回避	hb2
 回答	hd7
 回到	hd3
@@ -5941,7 +5941,6 @@ encoder:
 曝光	bg8
 七	qe6
 七	qha'
-七日	qr8
 妻	qe0
 妻	qn'
 妻儿	qv1
@@ -6259,6 +6258,7 @@ encoder:
 丘	qpi'
 秋	qho'
 秋	qu4
+秋日	qr8
 秋天	qt0
 囚	qi6
 囚	qku'
@@ -6558,7 +6558,7 @@ encoder:
 任何	rh4
 任课	rk5
 任命	rm5
-任凭	rp4
+任凭	rp7
 任务	rw7
 任意	ry4
 任职	rz1
@@ -6677,9 +6677,11 @@ encoder:
 肉	r8
 肉	rk'
 肉搏	rb0
+肉排	rp1
 肉皮	rp2
-肉片	rp5
-肉品	rp6
+肉片	rp4
+肉票	rp3
+肉品	rp5
 肉体	rt5
 如	ra
 如冰	rb9
@@ -6691,7 +6693,6 @@ encoder:
 如今	rj7
 如梦	rm0
 如能	rn0
-如萍	rp3
 如题	rt1
 如同	rt
 如图	rt4
@@ -6759,9 +6760,8 @@ encoder:
 软	rc'
 软管	rg1
 软件	rj4
-软盘	rp7
-软皮	rp0
-软片	rp1
+软皮	rp6
+软片	rp0
 软软	rr0
 软弱	rr4
 软体	rt7
@@ -8211,7 +8211,7 @@ encoder:
 袭击	xj4
 媳妇	xf5
 飁	xfa'
-洗牌	xp0
+洗牌	xp1
 玺	xwu'
 铣	xuee'
 喜	xe4
@@ -8250,6 +8250,7 @@ encoder:
 下落	xl0
 下午	xw7
 吓	xke'
+吓跑	xp8
 夏	xwe'
 夏普	xp9
 夏日	xr1
@@ -8333,7 +8334,7 @@ encoder:
 相机	xj1
 相继	xj5
 相见	xj8
-相片	xp7
+相片	xp4
 相同	xt8
 相信	xx
 相应	xy5
@@ -8453,7 +8454,7 @@ encoder:
 心态	xt5
 心跳	xt4
 心痛	xt0
-芯片	xp
+芯片	xp7
 辛	xoe'
 辛苦	xk3
 新	x6
@@ -8464,8 +8465,8 @@ encoder:
 新款	xk5
 新年	xn7
 新娘	xn2
-新片	xp4
-新品	xp8
+新片	xp5
+新品	xp
 新人	xr0
 新闻	xw4
 歆	xoeo'
@@ -8538,7 +8539,7 @@ encoder:
 兄妹	xm2
 匈	xbu'
 汹	xooe'
-胸脯	xp5
+胸脯	xp6
 胸口	xk
 胸膛	xt7
 雄	xe7
@@ -8592,7 +8593,7 @@ encoder:
 轩	xce'
 宣布	xb
 宣传	xc7
-宣判	xp6
+宣判	xp0
 喧	xko'
 揎	xfo'
 萱	xeii'
@@ -8615,7 +8616,6 @@ encoder:
 学	xx'
 学会	xh5
 学科	xk7
-学派	xp1
 学生	xs7
 学位	xw6
 学习	xx2
@@ -8833,7 +8833,7 @@ encoder:
 已	yj'
 已被	yb6
 已经	yj
-已然	yr1
+已然	yr6
 以	y2
 以	yr'
 以便	yb7
@@ -8843,7 +8843,6 @@ encoder:
 以免	ym7
 以内	yn8
 以前	yq9
-以人	yr0
 以上	ys0
 以外	yw4
 以往	yw6
@@ -8987,10 +8986,12 @@ encoder:
 游	ydo'
 游	yo9
 游客	yk5
+游人	yr0
 猷	youe'
 友	ye6
 友	yeo'
 友好	yh2
+友人	yr1
 有	ye
 有点	yd4
 有关	yg9
@@ -9034,7 +9035,6 @@ encoder:
 舆	ybu'
 与	y0
 与	yh'
-与人	yr6
 宇	yge'
 雨	yhi'
 语	yo2
