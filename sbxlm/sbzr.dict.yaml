@@ -176,7 +176,7 @@ encoder:
 百万	bwe
 本网	bwi
 不问	bwo
-帮我	bwu
+部位	bwu
 别	bx
 必须	bx'
 縪	bxa
@@ -465,7 +465,7 @@ encoder:
 电	dmi
 店	dmo
 甸	dmu
-到你	dn
+大脑	dn
 多年	dn'
 都能	dna
 东南	dne
@@ -684,11 +684,11 @@ encoder:
 凡是	fsi
 发送	fso
 翻身	fsu
-附图	ft
-发帖	ft'
-反弹	fta
+丰田	ft
+反弹	ft'
+佛陀	fta
 封套	fte
-发贴	fti
+附图	fti
 法庭	fto
 繁体	ftu
 夫	fu
@@ -862,7 +862,7 @@ encoder:
 蚣	gsi
 宫	gso
 供	gsu
-跟他	gt
+港台	gt
 共同	gt'
 沟通	gta
 国土	gte
@@ -918,7 +918,7 @@ encoder:
 何以	hao
 铪	hau
 后	hb
-好不	hb'
+毫不	hb'
 翭	hba
 厚	hbe
 吼	hbi
@@ -1361,7 +1361,7 @@ encoder:
 柯南	kne
 课内	kni
 苦恼	kno
-靠你	knu
+渴念	knu
 扩	ko
 姡	koa
 括	koe
@@ -1482,7 +1482,7 @@ encoder:
 浪费	lf'
 裂缝	lfa
 老夫	lfe
-力帆	lfi
+两幅	lfi
 立法	lfo
 礼服	lfu
 冷	lg
@@ -1772,7 +1772,7 @@ encoder:
 嘸	mvi
 命案	mvo
 摩尔	mvu
-骂我	mw
+灭亡	mw
 门外	mw'
 满屋	mwa
 魔王	mwe
@@ -1845,7 +1845,7 @@ encoder:
 那个	ng'
 能给	nga
 薴	nge
-你跟	ngi
+凝固	ngi
 濘	ngo
 儜	ngu
 囊	nh
@@ -2114,7 +2114,7 @@ encoder:
 配套	pte
 陪同	pti
 烹调	pto
-陪他	ptu
+胚胎	ptu
 普	pu
 陠	pua
 扑	pue
@@ -2128,7 +2128,7 @@ encoder:
 佩恩	pvi
 配额	pvo
 配偶	pvu
-陪我	pw
+品位	pw
 颇为	pw'
 片尾	pwa
 喷雾	pwe
@@ -2168,7 +2168,7 @@ encoder:
 墙壁	qba
 情报	qbe
 前辈	qbi
-七宝	qbo
+欠扁	qbo
 确保	qbu
 瞧	qc
 清楚	qc'
@@ -2203,7 +2203,7 @@ encoder:
 情感	qge
 求购	qgi
 奇怪	qgo
-七个	qgu
+劝告	qgu
 清华	qh
 前后	qh'
 恰好	qha
@@ -2429,7 +2429,7 @@ encoder:
 忍耐	rne
 入内	rni
 惹恼	rno
-让您	rnu
+人脑	rnu
 若	ro
 弱	roa
 爇	roe
@@ -2779,11 +2779,11 @@ encoder:
 田	tmi
 添	tmo
 甜	tmu
-它能	tn
+体能	tn
 头脑	tn'
-他能	tna
+它能	tna
 腾挪	tne
-他呢	tni
+她呢	tni
 太浓	tno
 童年	tnu
 脱	to
@@ -3004,7 +3004,7 @@ encoder:
 二厅	vte
 呕吐	vti
 额头	vto
-爱他	vtu
+而逃	vtu
 饿	vu
 阿胶	vua
 二手	vue
@@ -3018,13 +3018,13 @@ encoder:
 唔	vvi
 旀	vvo
 穒	vvu
-额外	vw
+二位	vw
 安危	vw'
 安慰	vwa
 二万	vwe
 澳网	vwi
 爱问	vwo
-爱我	vwu
+额外	vwu
 而行	vx
 恶心	vx'
 凹陷	vxa
@@ -3059,8 +3059,8 @@ encoder:
 外表	wbe
 晚辈	wbi
 未必	wbo
-我便	wbu
-我才	wc
+五笔	wbu
+午餐	wc
 完成	wc'
 挖出	wca
 维持	wce
@@ -3141,7 +3141,7 @@ encoder:
 玩弄	wne
 温暖	wni
 污泥	wno
-为您	wnu
+五年	wnu
 握	wo
 媉	woa
 卧	woe
@@ -3151,7 +3151,7 @@ encoder:
 王牌	wp
 物品	wp'
 顽皮	wpa
-我拍	wpe
+外拍	wpe
 外频	wpi
 外婆	wpo
 文凭	wpu
@@ -3171,7 +3171,7 @@ encoder:
 万人	wru
 无数	ws
 晚上	ws'
-我司	wsa
+文书	wsa
 武士	wse
 网上	wsi
 完善	wso
@@ -3180,9 +3180,9 @@ encoder:
 问题	wt'
 舞台	wta
 委托	wte
-我听	wti
+无图	wti
 外滩	wto
-问他	wtu
+物体	wtu
 无	wu
 屋	wua
 五	wue
@@ -3193,7 +3193,7 @@ encoder:
 我爱	wv'
 翁媪	wva
 无碍	wve
-我啊	wvi
+巍峨	wvi
 文案	wvo
 威尔	wvu
 文物	ww
@@ -3212,7 +3212,7 @@ encoder:
 威胁	wxu
 文艺	wy
 唯一	wy'
-我又	wya
+无缘	wya
 万一	wye
 委员	wyi
 网游	wyo
@@ -3327,7 +3327,7 @@ encoder:
 心情	xoo
 兄弟	xou
 寻	xp
-芯片	xp'
+新品	xp'
 迅	xpa
 薰	xpe
 勋	xpi
