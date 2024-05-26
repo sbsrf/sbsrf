@@ -188,16 +188,16 @@ function core.word_rules(code, id)
   return full
 end
 
----对于声笔简码，需要同时造spb格式的二字词
+---对于声笔简码，需要同时造sp格式的二字词
 ---@param code string[]
 ---@param id string
 function core.word_rules2(code, id)
   -- 不考虑扩展编码时，词组的基本编码
   local base = ""
-  base = code[1]:sub(1, 1) .. code[2]:sub(1, 2) .. code[2]:sub(5, 5)
+  base = code[1]:sub(1, 1) .. code[2]:sub(1, 2) .. code[1]:sub(2, 2)
   -- 扩展编码为首字前两笔
   local extended = ""
-  extended = code[1]:sub(2, 3)
+  extended = code[1]:sub(3, 4)
   -- 全部编码为基本编码加上扩展编码
   local full = base .. extended
   return full
