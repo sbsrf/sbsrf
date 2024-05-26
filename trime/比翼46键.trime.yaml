@@ -1,6 +1,6 @@
 # Trime default style settings
 # encoding: utf-8
-# 本主题适配同文3.1.3版，同时兼容同文3.2.6版
+# 本主题适用于tumuyan3.2.7，官方3.2.16~3.2.18及每夜版。
 
 config_version: "5.4for同文3.2.18"
 name: 比翼46键 #主题名称
@@ -3487,7 +3487,7 @@ preset_keyboards:
 
   jsqjp:
     author: 莫颜 #计算器键盘
-    ascii_mode: 1
+    ascii_mode: 0
     height: *jsqhg                  #键盘行高
     horizontal_gap: *jsqlj          #键盘列行距
     vertical_gap: *jsqhj            #键盘行距
@@ -3688,6 +3688,7 @@ preset_keys:
   Shift_L: {label: '⇪', preview: '⇪', functional: false, send: Shift_L}
   Return: { label: enter_labels, preview: '↩', functional: false, send: Return }
   Return1: {label: Enter, repeatable: true, preview: ↩, send: Return}
+  Return2: {label: 回车, send: Return }
   Hide: {label: ﹀, send: BACK}
   Hide1: {text: "{Hide}{K_back}", label: ﹀, send: BACK}
   BackSpace: {label: ⌫, preview: ⌫, repeatable: true, send: BackSpace}
@@ -3698,6 +3699,7 @@ preset_keys:
   space: {repeatable: false, preview: ␣, functional: false, send: space}
   space1: {repeatable: true, preview: ␣, label: ␣, functional: true, send: space}
   space2: {repeatable: true, preview: ␣, label: " ", functional: false, send: space}
+  space4: {repeatable: false, label: '空格', functional: false, send: space}
   Clear: {label: 全清, send: Clear}
   Escape: {label: Esc, functional: false, send: Escape}
   Home: {label: ⇤, send: Home, functional: false}
@@ -3760,7 +3762,6 @@ preset_keys:
   Candidate_switch1: {toggle: _hide_candidate, functional: false, text: "{Candidate_switch}{K_back}", send: Mode_switch, states: [ ☐, ─ ]}
   Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ ZI.., "ZI  "]}
   Color_switch: {label: ◲, functional: false, send: PROG_RED} #配色
-  Liquid_switch: {toggle: _liquid_keyboard, send: Mode_switch, states: [ 剪贴, 剪贴 ]} #3.2.3
   Symbol_switch: {toggle: _hide_key_symbol, send: Mode_switch, states: [ ☰, ☱]}
   Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ ≑, ≟]}
   # trime设置
@@ -3819,7 +3820,6 @@ preset_keys:
   XHQQQ3: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=783734487"} #直接开启 声笔③群
   XHQQQ4: {label: 点这里, send: function, command: run, option: "mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&uin=728093309"} #直接开启 声笔④群
 
-  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
 
 #助记
   K_qzjt: {label: ϟ, send: Eisu_toggle, select: qzjt}
@@ -3928,17 +3928,38 @@ preset_keys:
   symbol_bksh: {label: "\\", commit: "\\"}
   symbol_kbsh: {label: "/", commit: "/"}
   symbol_at: {label: "@", commit: "@"} 
+  symbol_dg: {label: "√", commit: "√"}
+
+#液态键盘
+  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
+  liquid_keyboard_switch: { label: 更多, send: function, command: liquid_keyboard, option: "特殊" }  #备用：特殊
+  liquid_keyboard_switch2: { toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 更多 ] }  #备用
+  liquid_keyboard_tabs: { label: 更多, send: function, command: liquid_keyboard, option: "更多" }
+  liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }  #备用：表情
+  liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴" }
+  Liquid_switch: {toggle: _liquid_keyboard, send: Mode_switch, states: [ 剪贴, 剪贴 ]} #3.2.3
+
 liquid_keyboard:
   # 目前只能直接写参数，不支持变量或者fallback机制。
   # 缺少参数时，自动从style中加载参数。除非需要指定liquid_keyboard使用与主键盘不同的背景色、背景图，否则不应设置被注释掉的参数。
   author: "tumuyan"
   row: 6              #每屏最多显示多少行按键
   row_land: 5         #横屏每屏最多显示多少行按键
-  key_height: 40      #按键高度
-  key_height_land: 40 #横屏模式按键高度
-  single_width: 60    #single类型的按键宽度
+  key_height: 35
+  key_height_land: 35
+  single_width: 60
+  label_text_size: 24
   vertical_gap: 8     #纵向按键间隙
   margin_x: 2       #左右按键间隙的1/2
+  fixed_key_bar: # 固定按键条
+    position: right  # 摆放位置（在滚动区域的……） top|bottom|left|right
+    keys: # 按键（显示名称为对应的label，不能放太多）
+      - liquid_keyboard_exit
+      - space4
+      - BackSpace2
+      - Return2
+      - liquid_keyboard_clipboard
+      - liquid_keyboard_tabs
   keyboards: [clipboard, emoji, math, ascii, cn, history, collection, draft, symbollist, list, ids, symbol, tabs, pinyin, script_symbols, jp, grease, rusa, korea, lation, yinbiao, unit, yanwenzi, combing, emoji_full, candidate]  #tab列表
   tabs:
     name: 更多
