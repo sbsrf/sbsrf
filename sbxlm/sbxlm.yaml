@@ -178,19 +178,19 @@ sbxlm_basic_bindings:
       send_sequence: "{Home}{Right}{Right}{space}{space}"
 sbxlm_extra_bindings:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: Tab
       send_sequence: "{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
 
