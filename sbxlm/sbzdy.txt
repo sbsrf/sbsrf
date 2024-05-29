@@ -16,6 +16,8 @@ sbxlm.github.io/about	jsa
 sbxlm.github.io/vzpz	vza
 声笔基础：sbxlm.github.io/sbjc	jc
 sbxlm.github.io/sbjc	jca
+声笔简系：sbxlm.github.io/sbj	sbj
+sbxlm.github.io/sbj	sbja
 声笔简拼：sbxlm.github.io/sbjp	jp
 sbxlm.github.io/sbjp	jpa
 声笔简码：sbxlm.github.io/sbjm	jm
@@ -24,6 +26,10 @@ sbxlm.github.io/sbjm	jma
 sbxlm.github.io/sbjf	jfa
 声笔拼音：sbxlm.github.io/sbpy	py
 sbxlm.github.io/sbpy	pya
+声笔双拼：sbxlm.github.io/sbs	sbs
+sbxlm.github.io/sbs	sbsa
+声笔自然：sbxlm.github.io/sbzr	zr
+sbxlm.github.io/sbzr	zra
 声笔自然：sbxlm.github.io/sbzr	zr
 sbxlm.github.io/sbzr	zra
 声笔自整：sbxlm.github.io/sbzz	zz
@@ -32,10 +38,12 @@ sbxlm.github.io/sbzz	zza
 sbxlm.github.io/sbxh	xha
 声笔鹤整：sbxlm.github.io/sbhz	hz
 sbxlm.github.io/sbhz	hza
-声笔飞码：sbxlm.github.io/sbfm	fm
-sbxlm.github.io/sbfd	fda
+声笔飞系：sbxlm.github.io/sbf	sbf
+sbxlm.github.io/sbf	sbfa
 声笔飞单：sbxlm.github.io/sbfd	fd
 sbxlm.github.io/sbfm	fma
+声笔飞码：sbxlm.github.io/sbfm	fm
+sbxlm.github.io/sbfd	fda
 声笔飞讯：sbxlm.github.io/sbfx	fx
 sbxlm.github.io/sbfx	fxa
 发展历程：sbxlm.github.io/fzlc	lc
