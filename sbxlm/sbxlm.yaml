@@ -119,7 +119,7 @@ prelude:
 
   reverse_lookup:
     tags: [bihua, hypy, zhlf, sbjm]
-    overwrite_comment: true
+    overwrite_comment: false
     dictionary: sbjm.extended
 
 rime_key_bindings:

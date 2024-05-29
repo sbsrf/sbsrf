@@ -90,6 +90,7 @@ engine:
   filters:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup2
     - lua_filter@*sbxlm.radicals
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
@@ -181,6 +182,10 @@ recognizer:
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbfx
+
+reverse_lookup2:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
+  dictionary: sbfx.extended
 
 sbfx_extra_bindings:
   __append:
