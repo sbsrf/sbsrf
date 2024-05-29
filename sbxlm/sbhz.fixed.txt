@@ -34,7 +34,7 @@ bqo	不清
 bqu	标签
 br	本人 别人
 bra	不忍
-bre	般若
+bre	变软
 bri	本日
 bro	不容
 bru	必然
@@ -44,15 +44,15 @@ bse	办事
 bsi	不少
 bso	比赛
 bsu	本身
-bt	本帖 不同
+bt	不太 不同
 bta	不通
 bte	半天
 bti	标题
-bto	把它
+bto	包头
 btu	摆脱
 bu	部
-bv	保安 不安
-bva	贝阿
+bv	悲哀 不安
+bva	保安
 bve	北欧
 bvi	彼岸
 bvo	备案
@@ -61,14 +61,14 @@ bw	被 把握
 bx	不幸 必须
 bxa	保险
 bxe	表现
-bxi	不虚
+bxi	变小
 bxo	不许
 bxu	不行
-by	表演 不要
+by	毕业 不要
 bya	不已
 bye	必要
 byi	不易
-byo	便宜
+byo	表演
 byu	本月
 bz	标准 不住
 bza	保障
@@ -293,10 +293,10 @@ fse	方式
 fsi	凡是
 fso	发送
 fsu	翻身
-ft	附图 发帖
-fta	反弹
+ft	丰田 反弹
+fta	佛陀
 fte	封套
-fti	发贴
+fti	附图
 fto	法庭
 ftu	繁体
 fu	夫
@@ -305,7 +305,7 @@ fva	份额
 fve	妨碍
 fvi	飞蛾
 fvo	方案
-fvu	菲尔
+fvu	风儿
 fw	非 服务
 fx	放下 发现
 fxa	风险
@@ -374,7 +374,7 @@ gqo	感情
 gqu	国企
 gr	关 果然
 gs	公 告诉
-gt	跟他 共同
+gt	港台 共同
 gta	沟通
 gte	国土
 gti	感叹
@@ -393,9 +393,9 @@ gz	够 工作
 h	和
 ha	哈
 hao	何以
-hb	货币 好不
+hb	货币 毫不
 hba	回避
-hbe	毫不
+hbe	回报
 hbi	河北
 hbo	何必
 hbu	伙伴
@@ -582,7 +582,7 @@ kna	困难
 kne	柯南
 kni	课内
 kno	苦恼
-knu	靠你
+knu	渴念
 ko	扩
 kp	开盘 恐怕
 kpa	开辟
@@ -625,7 +625,7 @@ le	乐
 lf	来访 浪费
 lfa	裂缝
 lfe	老夫
-lfi	力帆
+lfi	两幅
 lfo	立法
 lfu	礼服
 lg	冷 两国
@@ -732,12 +732,12 @@ nc	脑 农村
 nd	乃 难道
 ne	呢
 nf	嫩 能否
-nfe	农副
+nfe	那副
 nfi	那幅
 nfo	奶粉
 ng	能 那个
 nga	能给
-ngi	你跟
+ngi	凝固
 nh	囊 女孩
 ni	尼
 nj	难 年纪
@@ -762,7 +762,7 @@ nti	难题
 ntu	那条
 nu	怒
 nv	女 女儿
-nva	诺阿
+nva	鸟儿
 nw	内 那位
 nwe	女王
 nwo	难忘
@@ -771,10 +771,10 @@ nxa	年限
 nxe	宁夏
 nxi	哪些
 nxo	女性
-nxu	你先
+nxu	内向
 ny	纽约 那样
 nya	难以
-nye	你要
+nye	女友
 nyi	农业
 nyo	能源
 nyu	能用
@@ -834,7 +834,7 @@ pta	平台
 pte	配套
 pti	陪同
 pto	烹调
-ptu	陪他
+ptu	胚胎
 pu	普
 pv	破案 平安
 pva	偏爱
@@ -849,7 +849,7 @@ pxe	剖析
 pxi	咆哮
 pxo	排序
 pxu	评选
-py	培育 朋友
+py	便宜 朋友
 pya	濮阳
 pye	颇有
 pyi	番禺
@@ -894,7 +894,7 @@ qga	奇观
 qge	情感
 qgi	求购
 qgo	奇怪
-qgu	七个
+qgu	劝告
 qh	清华 前后
 qha	恰好
 qhe	切换
@@ -927,7 +927,7 @@ qt	却 其他
 qta	前台
 qu	区
 qv	去爱 请按
-qva	曲阿
+qva	邱隘
 qve	其二
 qvi	去啊
 qvo	全额
@@ -1003,14 +1003,14 @@ rna	人能
 rne	忍耐
 rni	入内
 rno	惹恼
-rnu	让您
+rnu	人脑
 ro	若
-rp	任凭 人品
+rp	肉片 人品
 rpa	肉皮
-rpe	如萍
+rpe	肉票
 rpi	乳品
 rpo	热评
-rpu	软盘
+rpu	任凭
 rq	日期 热情
 rqa	人群
 rqe	人权
@@ -1257,7 +1257,7 @@ vta	爱她
 vte	二厅
 vti	呕吐
 vto	额头
-vtu	爱他
+vtu	而逃
 vu	饿
 vua	暗处
 vue	二手
@@ -1269,7 +1269,7 @@ vw	诶 安危
 vwa	安慰
 vwe	二万
 vwi	澳网
-vwu	爱我
+vwu	额外
 vx	而行 恶心
 vxa	凹陷
 vxe	按下
@@ -1291,8 +1291,8 @@ wba	尾巴
 wbe	外表
 wbi	晚辈
 wbo	未必
-wbu	我便
-wc	我才 完成
+wbu	五笔
+wc	午餐 完成
 wca	挖出
 wce	维持
 wci	晚餐
@@ -1339,11 +1339,11 @@ wna	未能
 wne	玩弄
 wni	温暖
 wno	污泥
-wnu	为您
+wnu	五年
 wo	握
 wp	王牌 物品
 wpa	顽皮
-wpe	我拍
+wpe	外拍
 wpi	外频
 wpo	外婆
 wpu	文凭
@@ -1360,7 +1360,7 @@ wri	往日
 wro	污染
 wru	万人
 ws	无数 晚上
-wsa	我司
+wsa	文书
 wse	武士
 wsi	网上
 wso	完善
@@ -1368,16 +1368,16 @@ wsu	卫生
 wt	网通 问题
 wta	舞台
 wte	委托
-wti	我听
+wti	无图
 wto	外滩
-wtu	问他
+wtu	物体
 wu	无
-wv	维尔 我爱
+wv	玩儿 我爱
 wva	翁媪
 wve	无碍
-wvi	我啊
+wvi	巍峨
 wvo	文案
-wvu	威尔
+wvu	为爱
 ww	为 微微
 wx	无限 微笑
 wxa	危险
@@ -1386,7 +1386,7 @@ wxi	卫星
 wxo	文学
 wxu	威胁
 wy	文艺 唯一
-wya	我又
+wya	无缘
 wye	万一
 wyi	委员
 wyo	网游
@@ -1458,7 +1458,7 @@ xoe	西部
 xoi	询问
 xoo	心情
 xou	向前
-xp	些 芯片
+xp	些 新品
 xq	修 想起
 xr	选 显然
 xs	兄 先生
@@ -1530,7 +1530,7 @@ yna	也能
 yne	云南
 yni	以内
 yno	旖旎
-ynu	与你
+ynu	意念
 yo	哟
 yoa	用户
 yoe	愿意
