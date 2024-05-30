@@ -123,7 +123,7 @@ function this.func(translation, env)
 				end
 			end
 		end
-		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden and env.enable_ssp then
+		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
