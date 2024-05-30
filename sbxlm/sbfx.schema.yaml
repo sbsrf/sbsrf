@@ -117,11 +117,6 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]?"
       accept: "[0-9]"
       prefix: 2
-    # 快顶模式下，声笔字结尾的单字也可以四二顶
-    - when: fast_pop
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[aeiou]"
-      prefix: 2
     # 单字五二顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
