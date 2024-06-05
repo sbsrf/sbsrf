@@ -518,6 +518,8 @@ function this.func(input, segment, env)
   local lookup_code = input:sub(0, 3)
   ---@type Phrase[]
   local phrases = {}
+  ---@type Phrase[]
+  local phrases2 = {}
   ---@type table<string, boolean>
   local known_words = {}
   memory:user_lookup(lookup_code, true)
@@ -528,24 +530,26 @@ function this.func(input, segment, env)
       known_words[phrase.text] = true
     end
   end
+  -- 对列表根据置顶与否以及频率对用户词条进行排序
+  table.sort(phrases, function(a, b)
+    return a.weight > b.weight
+  end)
   memory:dict_lookup(lookup_code, true, 0)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
     if phrase and (not known_words[phrase.text]) then
-      table.insert(phrases, phrase)
+      table.insert(phrases2, phrase)
       known_words[phrase.text] = true
     end
   end
-  -- 对列表根据置顶与否以及频率进行排序
-  table.sort(phrases, function(a, b)
-    if a.comment == kTopSymbol and b.comment ~= kTopSymbol then
-      return true
-    end
-    if a.comment ~= kTopSymbol and b.comment == kTopSymbol then
-      return false
-    end
+  -- 对列表根据置顶与否以及频率对固态词条进行排序
+  table.sort(phrases2, function(a, b)
     return a.weight > b.weight
   end)
+  -- 将固态词条追加到用户词条后面
+  for _, phrase in ipairs(phrases2) do
+    table.insert(phrases, phrase)
+  end
   -- 在列表的末尾加上未确认的用户自造词
   memory:user_lookup(kEncodedPrefix .. lookup_code, true)
   for entry in memory:iter_user() do
