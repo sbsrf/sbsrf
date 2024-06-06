@@ -95,11 +95,17 @@ function this.func(translation, env)
     if current and known_candidates[current] then
       local cand = known_candidates[current]
       local select = "'456 "
+      local select2 = "'456;"
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
       if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
-        local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
-        cand.comment = comment
+        local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
+        if core.s(input) or core.sb(input) then
+          comment = comment .. select2:sub(i - 1, i - 1)
+        else
+          comment = comment .. select:sub(i - 1, i - 1)
+        end
+          cand.comment = comment
       end
       cand.type = "fixed"
       rime.yield(cand)
@@ -112,12 +118,18 @@ function this.func(translation, env)
     local candidate = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
     candidate.preedit = input
     local select = "'456 "
+    local select2 = "'456;"
     local is_hidden = env.engine.context:get_option("is_hidden")
     local id = env.engine.schema.schema_id
     if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
-      local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5] .. select:sub(i - 1, i - 1)
+      local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
+      if core.s(input) or core.sb(input) then
+        comment = comment .. select2:sub(i - 1, i - 1)
+      else
+        comment = comment .. select:sub(i - 1, i - 1)
+      end
       candidate.comment = comment
-    end
+  end
     rime.yield(candidate)
     i = i + 1
   end

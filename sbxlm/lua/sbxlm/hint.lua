@@ -122,7 +122,7 @@ function this.func(translation, env)
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
 				do
-					candidate:get_genuine().comment = ' ' .. entry.text .. '; ' .. e .. "'"
+					candidate:get_genuine().comment = ' ' .. e .. "'" .. entry.text .. '; '
 					break
 				end
 			end

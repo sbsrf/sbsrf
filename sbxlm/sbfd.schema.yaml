@@ -25,4 +25,4 @@ switches:
 translator:
   __include: sbfm.schema.yaml:/translator
   __patch:
-    'enable_encoder': false
+    'max_phrase_length': 1
