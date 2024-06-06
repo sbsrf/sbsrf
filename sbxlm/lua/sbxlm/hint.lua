@@ -138,7 +138,7 @@ function this.func(translation, env)
 			end
 		end
 		rime.yield(candidate)
-		-- 字词型方案 s 和 ss 加数字或 ; 或 ' 后用aeuio选择的自定义字词
+		-- 字词型方案 s 加数字或 ; 或 ' 后用aeuio选择的自定义字词
 		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;'0-9]") and not is_hidden then
 			local forward
 			for j = 1, #hint_b do
@@ -150,8 +150,19 @@ function this.func(translation, env)
 			end
 		end
 
-		-- 飞系方案和声笔简码在 s, sb, ss, sxb 格式的编码上提示 23789 和 14560 两组数选字词
-		if (core.s(input) or core.sb(input) or core.ss(input) or core.sxb(input)) and is_enhanced and not is_hidden then
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]") and not is_hidden then
+			local forward
+			for j = 1, #hint_n2 do
+				memory:dict_lookup(candidate.preedit .. hint_n2[j], false, 1)
+				for entry in memory:iter_dict() do
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_n2[j])
+					rime.yield(forward)
+				end
+			end
+		end
+
+		-- 飞系方案和声笔简码在 s, sx, sxb 格式的编码上提示 23789 和 14560 两组数选字词
+		if (core.s(input) or core.sx(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do
 				local n1 = hint_n1[j]
 				local n2 = hint_n2[j]

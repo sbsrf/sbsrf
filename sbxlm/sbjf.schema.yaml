@@ -23,6 +23,7 @@ switches:
     '@3/reset': 1  #[四顶, 三顶]
     '@4/reset': 1  #[常规, 增强]
     '@5/reset': 0  #[隐藏, 有理, 无理, 两者]
+    '@8/reset': 0  #single_display
 
 translator:
   __include: sbjm.schema.yaml:/translator
