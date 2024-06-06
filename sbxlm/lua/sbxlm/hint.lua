@@ -56,7 +56,7 @@ function this.func(translation, env)
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,}")
-					or (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][0-9]") and is_enhanced) then
+					or (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;']") and is_enhanced) then
 					candidate.comment = candidate.comment .. " " .. code
 				end
 			end
