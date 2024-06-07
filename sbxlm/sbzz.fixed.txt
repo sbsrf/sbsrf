@@ -932,7 +932,7 @@ qt	却 其他
 qta	前台
 qu	区
 qv	去爱 请按
-qva	邱隘
+qva	湫隘
 qve	其二
 qvi	去啊
 qvo	全额
@@ -1443,7 +1443,7 @@ xji	相见
 xjo	选举
 xju	现金
 xk	许可 胸口
-xka	细孔
+xka	姓孔
 xke	辛苦
 xki	显卡
 xko	星空
