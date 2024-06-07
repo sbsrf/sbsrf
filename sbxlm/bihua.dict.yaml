@@ -8302,9 +8302,10 @@ max_phrase_length: 0         # 不生成词组
 吇	iaeaieee
 啊	iaeaiei
 喡	iaeaieia
-叩	iaeaii
+嗤	iaeaii
 咄	iaeaiia
 唨	iaeaiiae
+叩	iaeaiii
 叹	iaeao
 嗓	iaeaoa
 噊	iaeaoai
@@ -9431,8 +9432,7 @@ max_phrase_length: 0         # 不生成词组
 呮	iaeiaeuoo
 咉	iaeiaeuooo
 喘	iaeiai
-嗤	iaeiaie
-呥	iaeiaiee
+呥	iaeiaie
 啱	iaeiaieu
 嘊	iaeiaieue
 吊	iaeiaii

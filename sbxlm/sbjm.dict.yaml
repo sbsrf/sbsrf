@@ -1028,6 +1028,7 @@ encoder:
 吃了	cl2
 鸱	cnu'
 笞	cpa'
+嗤	cka'
 痴	coe'
 魑	cgo'
 弛	cae'
@@ -1117,7 +1118,6 @@ encoder:
 触	cji'
 触	cu2
 黜	ciao'
-啜	cka'
 穿	cx'
 穿过	cg0
 穿着	cz9
@@ -10974,7 +10974,6 @@ encoder:
 盐	ymei'	12741
 樵	qmui'	12739
 硕	sseu'	12724
-嗤	ckia'	12691
 擎	qsei'	12691
 尴	gyii'	12661
 尬	gyuo'	12642
@@ -11459,6 +11458,7 @@ encoder:
 擂	lfeo'	5200
 俭	jruo'	5189
 绊	bjou'	5175
+啜	ckao'	5173
 橱	cmeu'	5160
 阱	jvee'	5160
 帧	zjie'	5128
