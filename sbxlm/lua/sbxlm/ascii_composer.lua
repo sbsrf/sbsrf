@@ -6,7 +6,7 @@ local XK_Return = 0xff0d
 local XK_Tab = 0xff09
 local XK_Escape = 0xff1b
 local XK_space = 0x0020
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 local core = require "sbxlm.core"
 
 local this = {}

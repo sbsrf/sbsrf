@@ -3,7 +3,7 @@
 -- 本处理器在 Rime 标准库的按键绑定处理器（key_binder）的基础上增加了用正则表达式判断当前输入的编码的功能
 -- 也即，在输入编码不同时，可以将按键绑定到不同的功能
 
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 
 local this = {}
 

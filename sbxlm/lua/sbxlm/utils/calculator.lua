@@ -16,7 +16,7 @@
 -- etest(\x.trunc(sin(x),1e-3)==trunc(deriv(cos)(x),1e-3)|,range(-2,2,0.1)) 輸出 true
 --
 
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 local yield = rime.yield
 local Candidate = rime.Candidate
 

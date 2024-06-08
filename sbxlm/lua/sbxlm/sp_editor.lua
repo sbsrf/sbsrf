@@ -4,7 +4,7 @@
 -- 即在输入 aeiou 时，如果末音节有 3 码，且前面至少还有一个音节，则将这个编码追加到首音节上
 -- 注意，这里的音节是 Rime 中的音节概念，不一定只包含读音信息
 
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 
 local this = {}
 

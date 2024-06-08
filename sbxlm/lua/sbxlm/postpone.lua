@@ -2,7 +2,7 @@
 -- 适用于：声笔拼音、声笔简拼、声笔鹤整、声笔自整
 -- 本过滤器记录码长较短时已出现在首选的字词，当码长较长时将这些字词后置，以便提高编码的利用效率
 
-local rime = require "sbxlm.lib"
+local rime = require "lib"
 
 local this = {}
 
