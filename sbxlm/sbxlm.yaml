@@ -154,6 +154,7 @@ rime_key_bindings:
     - { when: paging, accept: Shift+Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
     - { when: composing, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }
+    - { when: composing, accept: F6, toggle: pro_char }
     - { when: paging, accept: Shift+ISO_Left_Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+ISO_Left_Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
 sbxlm_basic_bindings:
@@ -179,6 +180,9 @@ sbxlm_basic_bindings:
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[a-z0-9]"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "Shift+space"
+      send_sequence: "{F6}"
 sbxlm_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
