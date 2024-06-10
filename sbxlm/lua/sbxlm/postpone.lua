@@ -90,7 +90,7 @@ function this.func(translation, env)
     end
     -- 否则直接输出
     -- 记录首选
-    if is_first then
+    if is_first and utf8.len(text) <= 4 then
       env.known_candidates[text] = input:len()
       is_first = false
       rime.yield(candidate)
