@@ -71,8 +71,8 @@ end
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function this.func(key_event, env)
-  if not (env.engine.context.composition:back():has_tag("abc") 
-     or env.engine.context.composition:back():has_tag("punct")) then
+  local seg = env.engine.context.composition:back()
+  if not seg or not (seg:has_tag("abc") or seg:has_tag("punct")) then
     return rime.process_results.kNoop
   end
   local context = env.engine.context
