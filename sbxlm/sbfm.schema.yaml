@@ -125,7 +125,7 @@ speller:
 translator:
   dictionary: sbfm
   forced_selection: true
-  single_selection: false
+  single_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
@@ -149,11 +149,12 @@ key_binder:
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
-  dictionary: sbfm
+  dictionary: sbfm.extended
 
 reverse_lookup2:
-  __include: sbxlm.yaml:/prelude/reverse_lookup
-  dictionary: sbfm.extended
+  tags: [bihua, hypy, zhlf, sbjm]
+  overwrite_comment: false
+  dictionary: sbfm
 
 menu:
   __include: sbxlm.yaml:/prelude/menu
