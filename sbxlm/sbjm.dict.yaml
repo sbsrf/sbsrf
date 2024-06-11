@@ -357,6 +357,7 @@ encoder:
 帮忙	bm6
 帮派	bp6
 帮助	bz8
+梆	beiu'
 绑	ba4
 绑	bau'
 榜	bmo'
@@ -610,7 +611,6 @@ encoder:
 宾	bgu'
 宾	bo6
 宾馆	bg1
-彬	beiu'
 斌	bwe'
 滨	bdo'
 髌	bgo'
@@ -665,6 +665,7 @@ encoder:
 薄弱	br1
 礴	beui'
 跛	bza'
+簸	bueo'
 譒	byu'
 卜	bi9
 卜	bso'
@@ -1027,6 +1028,7 @@ encoder:
 吃了	cl2
 鸱	cnu'
 笞	cpa'
+嗤	cka'
 痴	coe'
 魑	cgo'
 弛	cae'
@@ -1116,7 +1118,6 @@ encoder:
 触	cji'
 触	cu2
 黜	ciao'
-啜	cka'
 穿	cx'
 穿过	cg0
 穿着	cz9
@@ -2427,7 +2428,6 @@ encoder:
 感叹	gt8
 感谢	gx6
 趕	gzi'
-赣	gli'
 赣南	gn3
 冈	gi;
 冈	gie'
@@ -2658,6 +2658,7 @@ encoder:
 古	gs'
 古怪	gg9
 古朴	gp6
+诂	goae'
 谷	gku'
 谷	gu9
 股	gu4
@@ -2693,6 +2694,7 @@ encoder:
 瓜	gpu'
 瓜	gu7
 鸹	gsu'
+剐	gli'
 挂	gfe'
 挂牌	gp4
 褂	goa'
@@ -8066,6 +8068,7 @@ encoder:
 焞	cho'
 暾	tqo'
 屯	tha'
+屯	zha'
 豚	tve'
 臀	ta6
 臀	tao'
@@ -9709,7 +9712,6 @@ encoder:
 真人	zr0
 真是	zs8
 真正	zz3
-臻	zha'
 诊	zyu'
 轸	zeai'
 阵	za8
@@ -10975,7 +10977,6 @@ encoder:
 盐	ymei'	12741
 樵	qmui'	12739
 硕	sseu'	12724
-嗤	ckia'	12691
 擎	qsei'	12691
 尴	gyii'	12661
 尬	gyuo'	12642
@@ -11102,7 +11103,7 @@ encoder:
 衔	xcue'	10130
 娅	ynei'	10109
 眩	xmoe'	10086
-彬	bmei'	10034
+彬	bpei'	10034
 捡	jfuo'	10025
 膊	bvei'	10020
 蹙	czeu'	10005
@@ -11460,6 +11461,7 @@ encoder:
 擂	lfeo'	5200
 俭	jruo'	5189
 绊	bjou'	5175
+啜	ckao'	5173
 橱	cmeu'	5160
 阱	jvee'	5160
 帧	zjie'	5128
@@ -11579,6 +11581,7 @@ encoder:
 篱	lpoe'	4226
 桀	jmua'	4193
 钵	bjei'	4186
+臻	zhea'	4185
 辙	zcoe'	4165
 磷	lsou'	4164
 颐	yyei'	4148
@@ -11925,6 +11928,7 @@ encoder:
 崽	zsia'	2399
 蹭	czou'	2394
 渭	wdia'	2393
+赣	gyei'	2392
 痪	hbua'	2391
 梓	zmoe'	2389
 僮	zroe'	2388
@@ -12139,7 +12143,6 @@ encoder:
 郢	yvia'	1634
 惰	dleu'	1629
 驸	fmui'	1627
-剐	glia'	1626
 蛰	zcei'	1626
 焊	hhia'	1625
 鸵	tnoo'	1622
@@ -14534,7 +14537,6 @@ encoder:
 炔	ghae'	8
 溻	tdia'	8
 锬	tjou'	8
-屯	zhai'	8
 蔚	ycae'	8
 莶	xcuo'	8
 榍	xmae'	8
