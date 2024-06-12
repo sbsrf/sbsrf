@@ -428,9 +428,13 @@ end
   phrase.preedit = input
   -- 单次选择模式下，显示编码补全内容；否则清空
   if env.single_selection then
-    phrase.comment = completion:sub(input:len() - 2)
-    if input:len() >= 4 and utf8.len(phrase.text) >= 4 and string.find("aeuio", input:sub(4,4)) then
-      phrase.comment = completion:sub(input:len() - 2, -2)
+    if input:len() == 3 and utf8.len(phrase.text) >= 4 and core.jm(schema_id) then
+      phrase.comment = phrase.comment:sub(2, -2)
+    else
+      phrase.comment = completion:sub(input:len() - 2)
+      if input:len() >= 4 and utf8.len(phrase.text) >= 4 and string.find("aeuio", input:sub(4,4)) then
+        phrase.comment = completion:sub(input:len() - 2, -2)
+      end
     end
   else
     phrase.comment = ""
