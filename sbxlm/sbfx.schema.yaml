@@ -162,7 +162,7 @@ speller:
 
 translator:
   dictionary: sbfx
-  enable_filtering: true
+  enable_filtering: false
   forced_selection: true
   single_selection: false
   enable_encoder: true
