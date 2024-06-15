@@ -114,6 +114,10 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[0-9]"
       prefix: 1
+    # 支持标点字顶屏
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[;']"
+      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
