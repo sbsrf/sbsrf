@@ -223,6 +223,9 @@ sbfx_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
 
 key_binder:
   bindings:
