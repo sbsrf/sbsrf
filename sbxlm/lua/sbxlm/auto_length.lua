@@ -290,6 +290,8 @@ local dtypes = {
   full = 3,
   --- 类似于声笔拼音，简单前缀匹配即可
   unified = 4,
+  --- 声笔飞讯第三声母大写
+  short2 = 5,
 }
 
 ---判断输入的编码是否为动态编码
@@ -313,8 +315,14 @@ local function dynamic(input, env)
   -- 另外，如果开启快顶模式，则有一个 3 码时的码长调整位
   -- 以下综合考虑了这些情况
   if core.fx(schema_id) then
-    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}.*") then
+    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       return input:len() - 3
+    elseif core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      if input:len() == 3 then
+        return dtypes.short
+      elseif input:len() == 4 then
+        return dtypes.short2
+      end
     end
     if input:len() == 4 and not rime.match(input, ".{3}[23789]") then
       return dtypes.invalid
@@ -358,8 +366,8 @@ local function validate_phrase(entry, segment, type, input, env)
     if core.jm(schema_id) and input:len() == 3 and utf8.len(entry.text) > 3 then
       return nil
     end
-    -- 飞讯启用多字词过滤时，四码不显示多字词
-    if core.fx(schema_id) and input:len() >= 4 and utf8.len(entry.text) > 3
+    -- 飞讯启用多字词过滤时，四码不显示三字词和多字词
+    if core.fx(schema_id) and input:len() >= 4 and utf8.len(entry.text) >= 3
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]*") then
       return nil
     end
@@ -413,6 +421,7 @@ end
   if fx_exchange[to_match:sub(1, 1)] then
     to_match = fx_exchange[to_match:sub(1, 1)] .. to_match:sub(2)
   end
+  to_match = to_match:lower()
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
   if completion:sub(1, to_match:len()) == to_match then
     goto valid
@@ -521,7 +530,7 @@ function this.func(input, segment, env)
   local memory = env.dynamic_memory
   -- 静态编码都处理完了，现在进入自动码长的动态编码部分
   -- 首先，根据输入的前三码来模糊匹配，依次查询固态词典和用户词典，并且结果都存放到一个列表中
-  local lookup_code = input:sub(0, 3)
+  local lookup_code = input:sub(0, 3):lower()
   ---@type Phrase[]
   local phrases = {}
   ---@type Phrase[]
@@ -532,8 +541,13 @@ function this.func(input, segment, env)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
     if phrase then
-      table.insert(phrases, phrase)
-      known_words[phrase.text] = true
+      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+        ;
+      else
+        table.insert(phrases, phrase)
+        known_words[phrase.text] = true
+      end
     end
   end
   -- 对列表根据置顶与否以及频率对用户词条进行排序
@@ -544,8 +558,13 @@ function this.func(input, segment, env)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
     if phrase and (not known_words[phrase.text]) then
-      table.insert(phrases2, phrase)
-      known_words[phrase.text] = true
+      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+        ;
+      else
+        table.insert(phrases2, phrase)
+        known_words[phrase.text] = true
+      end
     end
   end
   -- 对列表根据置顶与否以及频率对固态词条进行排序
@@ -561,8 +580,13 @@ function this.func(input, segment, env)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
     if phrase and (not known_words[phrase.text]) then
-      table.insert(phrases, phrase)
-      known_words[phrase.text] = true
+      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+        ;
+      else
+        table.insert(phrases, phrase)
+        known_words[phrase.text] = true
+      end
     end
   end
   -- 如果简飞ssb没检索到二字词，则查找静态词组中的飞单
@@ -610,14 +634,22 @@ function this.func(input, segment, env)
     local cand = phrases[1]:toCandidate()
     env.known_candidates[cand.text] = 0
     yield(cand)
+  elseif dynamic(input, env) == dtypes.short2 then
+    local cand = phrases[2]:toCandidate()
+    env.known_candidates[cand.text] = 1
+    yield(cand)
   elseif dynamic(input, env) == dtypes.base then
     local count = 1
+    if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
+      count = 3
+    end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
       if (env.known_candidates[cand.text] or inf) < count then
         goto continue
       end
-      if count <= 6 then
+      if count <= 9 and core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
+      or count <= 6 then
         env.known_candidates[cand.text] = count
       end
       yield(cand)
@@ -627,6 +659,9 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.select then
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
+    if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
+      order = order + 2
+    end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
       if env.known_candidates[cand.text] == order then

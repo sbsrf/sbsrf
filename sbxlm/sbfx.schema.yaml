@@ -90,6 +90,7 @@ engine:
   filters:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup2
     - lua_filter@*sbxlm.radicals
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
@@ -116,7 +117,7 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]?"
       accept: "[0-9]"
       prefix: 2
-    # 快顶模式下，声笔字结尾的单字也可以四二顶
+     # 快顶模式下，声笔字结尾的单字也可以四二顶
     - when: fast_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[aeiou]"
@@ -131,11 +132,13 @@ popping:
     # 第四码大写的多字词词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 增强模式词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 大写字母输入多字词
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
     # 增强模式下缩减码变换
@@ -147,9 +150,9 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
-
+    
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 7
@@ -161,7 +164,7 @@ speller:
 
 translator:
   dictionary: sbfx
-  enable_filtering: false
+  enable_filtering: true
   forced_selection: true
   single_selection: false
   enable_encoder: true
@@ -185,6 +188,11 @@ recognizer:
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbfx.extended
+
+reverse_lookup2:
+  tags: [bihua, hypy, zhlf, sbjm]
+  overwrite_comment: false
+  dictionary: sbfm
 
 sbfx_basic_bindings:
   __append:
@@ -238,5 +246,6 @@ menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
-    - "[bpmfdtnlgkhjqxzcsrywv]{4}[aeuio]{2}"
+    - "[bpmfdtnlgkhjqxzcsrywv]{3}[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789]{4}"
+    - "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{4}"

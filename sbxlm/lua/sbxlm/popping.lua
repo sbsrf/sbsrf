@@ -139,8 +139,9 @@ function this.func(key_event, env)
     ::continue::
   end
   ::finish::
-  -- 大写字母执行完顶屏功能之后转成小写
-  if key_event.keycode >= 65 and key_event.keycode <= 90 then
+  -- 大写字母AEIOU执行完顶屏功能之后转成小写
+  if key_event.keycode == 65 or key_event.keycode == 69 or key_event.keycode == 73
+  or key_event.keycode == 79 or key_event.keycode == 85 then
     key_event = rime.KeyEvent(utf8.char(key_event.keycode + 32))
   end
   return env.speller:process_key_event(key_event)

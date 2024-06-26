@@ -38,7 +38,7 @@ function this.func(translation, env)
     select_keys = "_aeuio"
   end
   local i = 0
-  local pattern = "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+"
+  local pattern = "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio23789][aeuio]+"
   for candidate in translation:iter() do
     -- 通过取模运算获取与候选项对应的选择键
     local j = i % select_keys:len() + 1

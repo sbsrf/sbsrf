@@ -150,7 +150,7 @@ function this.func(translation, env)
 			end
 		end
 
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]") and not is_hidden then
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]") and is_enhanced and not is_hidden then
 			local forward
 			for j = 1, #hint_n2 do
 				memory:dict_lookup(candidate.preedit .. hint_n2[j], false, 1)
