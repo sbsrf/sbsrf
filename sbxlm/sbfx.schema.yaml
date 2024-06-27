@@ -164,7 +164,7 @@ speller:
 
 translator:
   dictionary: sbfx
-  enable_filtering: true
+  enable_filtering: false
   forced_selection: true
   single_selection: false
   enable_encoder: true
@@ -231,6 +231,9 @@ sbfx_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
@@ -249,3 +252,4 @@ menu:
     - "[bpmfdtnlgkhjqxzcsrywv]{3}[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789]{4}"
     - "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{4}"
+  select_comment_pattern: "^[a-z]{3}[a-zBPMFDTNLGKHJQXZCSRYWV].*|[a-z]{3}[0-9][aeuio]{1,}|[a-z]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{2,}$"

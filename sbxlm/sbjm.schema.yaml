@@ -114,7 +114,7 @@ popping:
       strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
@@ -197,6 +197,6 @@ key_binder:
 menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]{2}"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[a-zA-Z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2}'"
-  select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}|[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}'$"
+  select_comment_pattern: "^[a-z]{3}[a-zA-Z].*|[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}'$"

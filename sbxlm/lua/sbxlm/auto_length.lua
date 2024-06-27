@@ -360,6 +360,10 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
+  if ((core.fm(schema_id) or core.sp(schema_id)) and 
+    rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]")) then
+    return nil
+  end
   -- 处理一些特殊的过滤条件
   if env.enable_filtering then
     -- 简码启用多字词过滤时，三码不显示多字词

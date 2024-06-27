@@ -90,11 +90,20 @@ engine:
 popping:
   __append:
     # 词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 大写字母输入词组
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]"
+      accept: "[a-z]"
+      strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
@@ -130,13 +139,14 @@ recognizer:
 key_binder:
   import_preset: sbxlm
 
-menu:
-  __include: sbxlm.yaml:/prelude/menu
-  alternative_select_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
-    - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{2}"
-
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   tags: [bihua, hypy, zhlf]
   dictionary: sbzr.extended
+
+menu:
+  __include: sbxlm.yaml:/prelude/menu
+  alternative_select_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{2}"
+  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}$"

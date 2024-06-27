@@ -57,7 +57,7 @@ prelude:
     page_size: 6
     alternative_select_keys: "_aeuio"
     alternative_select_labels: ["", "", "", "", "", ""]
-    select_comment_pattern: "^[a-z]{3}[a-zBPMFDTNLGKHJQXZCSRYWV].*|[a-z]{3}[0-9][aeuio]{1,}|[a-z]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{2,}$"
+    select_comment_pattern: "^[a-z]{4,}|[a-z]{3}[0-9][aeuio]{1,}$"
 
   simplifier:
     opencc_config: s2t.json
