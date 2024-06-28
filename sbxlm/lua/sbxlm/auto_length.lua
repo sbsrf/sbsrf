@@ -1,5 +1,5 @@
 -- 自动码长翻译器
--- 适用于：声笔简码、声笔飞码、声笔飞单、声笔飞讯、声笔小鹤、声笔自然
+-- 适用于：声笔的所有字词型方案
 
 local rime           = require "lib"
 local yield          = rime.yield
@@ -155,7 +155,7 @@ local function dfs_encode2(phrase, position, code, env)
   -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
   for stem in string.gmatch(translations, "[^ ]+") do
     -- 忽略一简字和声笔字
-    if position == 2 and stem:len() == 4 then
+    if position == 2 and stem:len() == 7 then
       goto continue
     end
     table.insert(code, stem)
@@ -306,7 +306,7 @@ local function dynamic(input, env)
   local schema_id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
-  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
+  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.fj(schema_id) or core.sp(schema_id) then
     return input:len() - 3
   end
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
@@ -392,7 +392,7 @@ local function validate_phrase(entry, segment, type, input, env)
       end
       local translations = env.reverse2:lookup_stems(characters[2])
       for stem in string.gmatch(translations, "[^ ]+") do
-        if input:sub(2,2) == stem:sub(1,1) and stem:len() == 4 then
+        if input:sub(2,2) == stem:sub(1,1) and stem:len() == 7 then
           success = true
           break
         end

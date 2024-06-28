@@ -1,0 +1,211 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbxlm.yaml:/prelude
+
+schema:
+  schema_id: sbfj
+  name: "声笔飞简"
+  version: "10.0"
+  icon: "sbxlm.ico"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbjm
+    - hypy
+    - bihua
+    - zhlf
+    - sbfj2
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: pro_char
+    reset: 0
+    states: [词组, 单字]
+  - name: is_enhanced
+    reset: 1
+    states: [常规, 增强]
+  - options: [hide, rational, irrational, both]
+    reset: 1
+    states: [隐藏, 有理, 无理, 两者]
+  # 为了避免拥挤，不显示下面的状态
+  - name: auto_inline
+    reset: 1
+  - name: is_buffered
+    reset: 0
+  - name: single_display
+    reset: 1
+  # 不要改变下面的状态，以免穿帮
+  - name: third_pop
+    reset: 0
+
+engine:
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@sbjm
+    - affix_segmentor@bihua
+    - affix_segmentor@hypy
+    - affix_segmentor@zhlf
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - lua_translator@*sbxlm.auto_length
+    - table_translator@sbjm
+    - table_translator@bihua
+    - script_translator@hypy
+    - script_translator@zhlf
+    - lua_translator@*sbxlm.utils.datetime
+    - lua_translator@*sbxlm.utils.number
+    - lua_translator@*sbxlm.utils.calculator
+    - table_translator@sbzdy
+    - history_translator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup2
+    - lua_filter@*sbxlm.radicals
+    - lua_filter@*sbxlm.select_key_to_comment
+    - simplifier
+    - uniquifier
+
+popping:
+  __append:
+    # 声笔字
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 增强模式下的数字顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[0-9]"
+      prefix: 1
+    # 第四码大写的多字词词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,2}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 大写字母输入三字词和多字词
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    
+speller:
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
+  auto_clear: none
+  max_code_length: 6
+  popping:
+    __patch:
+      - /popping
+      - sbxlm.yaml:/table_popping
+      - sbxlm.yaml:/basic_popping
+
+translator:
+  dictionary: sbfj
+  enable_filtering: false
+  forced_selection: true
+  single_selection: false
+  enable_encoder: true
+  stop_change: false
+  delete_threshold: 2000
+  max_phrase_length: 5
+  disable_user_dict_for_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;']*"
+
+extended:
+  dictionary: sbfj.extended
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
+  dictionary: sbfj.extended
+
+reverse_lookup2:
+  tags: [bihua, hypy, zhlf, sbjm]
+  overwrite_comment: false
+  dictionary: sbfm
+
+sbfj_basic_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[a-z0-9]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+sbfj_extra_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: Tab
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+
+key_binder:
+  bindings:
+    __patch:
+      - sbxlm.yaml:/rime_key_bindings
+      - /sbfj_basic_bindings
+      - /sbfj_extra_bindings
+
+menu:
+  __include: sbxlm.yaml:/prelude/menu
+  alternative_select_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
+    - "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuioBPMFDTNLGKHJQXZCSRYWV][aeuio]{2}"
+  select_comment_pattern: "^[a-z]{3}[aeuioBPMFDTNLGKHJQXZCSRYWV].*$"
