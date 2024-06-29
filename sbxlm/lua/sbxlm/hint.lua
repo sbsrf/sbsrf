@@ -1,5 +1,5 @@
 -- 提示过滤器
--- 适用于：声笔简码、声笔飞码、声笔飞单、声笔飞讯、声笔小鹤、声笔自然
+-- 适用于：声笔的字词型方案
 -- 本过滤器在不同的编码模式和不同的选项下分别提示数选字词、声笔字、缩减码
 
 local rime = require "lib"
@@ -63,7 +63,8 @@ function this.func(translation, env)
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
 		if not is_hidden and ((core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
-			or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
+		or core.fj(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuioBPMFDTNLGKHJQXZCSRYWV]?[aeuio]{0,3}")
+		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if not is_enhanced and rime.match(code, ".*[0-9].*") then
@@ -199,11 +200,12 @@ function this.func(translation, env)
 		if core.feixi(id) and (core.s(input) or core.sxs(input)) and is_hidden then
 			goto continue
 		end
-		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
+		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字，飞简在sxs时除外
 		-- 对于飞系，所有 sb 都提示
 		-- 对于小鹤和自然，只有几个 sb 格式的编码是真正的声笔字，通过声韵拼合规律判断出来
-		if ((core.s(input) or core.sxs(input)) and (core.feixi(id) or core.sp(id)))
-				or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]") then
+		if (core.s(input) and (core.feixi(id) or core.sp(id)))
+		or (core.sxs(input) and (core.fx(id) or core.fm(id) or core.sp(id)))
+		or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]") then
 			for _, bihua in ipairs(hint_b) do
 				local shengmu = candidate.preedit:sub(-1)
 				-- hack，假设 UTF-8 编码都是 3 字节的

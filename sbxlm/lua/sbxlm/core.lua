@@ -83,7 +83,7 @@ end
 
 ---@param id string
 function core.feixi(id)
-  return id == "sbfd" or id == "sbfm" or id == "sbfx"
+  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == "sbfj"
 end
 
 ---@param id string
@@ -226,7 +226,7 @@ function core.reverse(id)
     dict_name = "sbjm"
   end
   --如果不是飞系方案，单字构词码在扩展词库里
-  if not (core.feixi(id) or core.fj(id)) then
+  if not core.feixi(id) then
     dict_name = dict_name .. ".extended"
   end
   return rime.ReverseLookup(dict_name)

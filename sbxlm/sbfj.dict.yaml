@@ -25,5 +25,5 @@ encoder:
     - length_equal: 3
       formula: "AaBaCaCfAcAd"
     - length_in_range: [4, 12]
-      formula: "AaBaCaZfAcAd" 
+      formula: "AaBaCaZaAcAd" 
 ...
