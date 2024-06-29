@@ -20,8 +20,6 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field single_selection boolean
 ---@field single_display boolean
 ---@field lower_case boolean
----@field enable_ssp boolean
----@field no_ssp_in_ssb boolean
 ---@field stop_change boolean
 ---@field enable_encoder boolean
 ---@field delete_threshold number
@@ -110,63 +108,6 @@ local function dfs_encode(phrase, position, code, env)
   return success
 end
 
----对于声笔简码，需要同时造ssp格式的二字词
----@param phrase string 待造词的短语
----@param position number 下一个需要编码枚举的位置
----@param code string[] 已经完成编码枚举的编码
----@param env AutoLengthEnv
-local function dfs_encode2(phrase, position, code, env)
-  if utf8.len(phrase) ~= 2 then
-    return false
-  end
-  -- 如果已经枚举完所有字，就尝试造词
-  -- word_rules 可能会失败，如果失败就返回 false
-  if position > utf8.len(phrase) then
-    local encoded = core.word_rules2(code, env.engine.schema.schema_id)
-    if encoded then
-      local entry = rime.DictEntry()
-      entry.text = phrase
-      entry.custom_code = encoded .. " "
-      -- 如果词典中已经存在，则不必造词
-      env.dynamic_memory:dict_lookup(encoded, false, 1)
-      for e in env.dynamic_memory:iter_dict() do
-        if e.text == entry.text then
-          return false
-        end
-      end
-      env.dynamic_memory:update_userdict(entry, 1, kEncodedPrefix)
-      return true
-    else
-      return false
-    end
-  end
-  -- 把 UTF-8 编码的词语拆成单个字符的列表
-  local characters = {}
-  for _, char in utf8.codes(phrase) do
-    table.insert(characters, utf8.char(char))
-  end
-  local translations = ""
-  if (position == 1) then
-    translations = env.reverse:lookup(characters[position])
-  else
-    translations = env.reverse2:lookup_stems(characters[position])
-   end
-  local success = false
-  -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
-  for stem in string.gmatch(translations, "[^ ]+") do
-    -- 忽略一简字和声笔字
-    if position == 2 and stem:len() == 7 then
-      goto continue
-    end
-    table.insert(code, stem)
-    local ok = dfs_encode2(phrase, position + 1, code, env)
-    success = success or ok
-    table.remove(code)
-    ::continue::
-  end
-  return success
-end
-
 ---由本翻译器生成的候选上屏时的回调函数
 ---需要完成两个任务：1. 记忆刚上屏的字词 2. 对上屏历史造词
 ---@param commit CommitEntry
@@ -227,9 +168,6 @@ local function callback(commit, env)
       phrase = record.text
       if #commit:get() > 1 then
         dfs_encode(phrase, 1, code, env)
-        if core.jm(env.engine.schema.schema_id) then
-          dfs_encode2(phrase, 1, code, env)
-        end
       end
       goto continue
     end
@@ -243,9 +181,6 @@ local function callback(commit, env)
       break
     end
     dfs_encode(phrase, 1, code, env)
-    if core.jm(env.engine.schema.schema_id) then
-      dfs_encode2(phrase, 1, code, env)
-    end
     ::continue::
   end
 end
@@ -261,8 +196,6 @@ function this.init(env)
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
-  env.enable_ssp = config:get_bool("translator/enable_ssp") or false
-  env.no_ssp_in_ssb = config:get_bool("translator/no_ssp_in_ssb") or false
   env.stop_change = config:get_bool("translator/stop_change") or false
   env.enable_encoder = config:get_bool("translator/enable_encoder") or false
   env.delete_threshold = config:get_int("translator/delete_threshold") or 1000
@@ -306,7 +239,7 @@ local function dynamic(input, env)
   local schema_id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
-  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.fj(schema_id) or core.sp(schema_id) then
+  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
   end
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
@@ -376,32 +309,6 @@ local function validate_phrase(entry, segment, type, input, env)
       return nil
     end
   end
-  -- 在enable_ssp为false时，不显示ssp格式的二字词
-  if core.jm(schema_id) and not env.enable_ssp and utf8.len(entry.text) == 2
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
-    return nil
-  end
-  -- 在enable_ssp和no_ssp_in_ssb为true时，不在ssb格式中显示ssp二字词
-  if core.jm(schema_id) and env.enable_ssp and env.no_ssp_in_ssb
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
-    local success = false
-    if utf8.len(entry.text) == 2 then
-      local characters = {}
-      for _, char in utf8.codes(entry.text) do
-        table.insert(characters, utf8.char(char))
-      end
-      local translations = env.reverse2:lookup_stems(characters[2])
-      for stem in string.gmatch(translations, "[^ ]+") do
-        if input:sub(2,2) == stem:sub(1,1) and stem:len() == 7 then
-          success = true
-          break
-        end
-      end
-    end
-    if not success then
-      return nil
-    end
-end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
   -- 在存储时，简码以 sssbbbs 的格式存储，飞讯以 sssbbbbs 的格式存储
   -- 如果识别到这种编码，需要把它们重排一下，得到另一种编码，即以 ssss 开头的编码，然后再进行匹配
@@ -592,25 +499,6 @@ function this.func(input, segment, env)
         known_words[phrase.text] = true
       end
     end
-  end
-  -- 如果简飞ssb没检索到二字词，则查找静态词组中的飞单
-  if #phrases == 0 and core.jm(schema_id) and env.enable_ssp and env.no_ssp_in_ssb
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+") then
-    local memory2 = env.static_memory
-    memory2:dict_lookup(input .. "'", false, 1)
-    local text = ""
-    for entry1 in memory2:iter_dict() do
-      text = entry1.text
-      break
-    end
-    local entry2 = rime.DictEntry()
-    entry2.text = text
-    entry2.custom_code = input
-    entry2.comment = ""
-    local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry2)
-    phrase.preedit = input
-    yield(phrase:toCandidate())
-    return phrase
   end
   -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then

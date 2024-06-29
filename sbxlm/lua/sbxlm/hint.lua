@@ -14,15 +14,10 @@ local this = {}
 
 ---@param env HintEnv
 function this.init(env)
-	local config = env.engine.schema.config;
-	env.enable_ssp = config:get_bool("translator/enable_ssp") or false
 	env.memory = rime.Memory(env.engine, env.engine.schema)
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
-	if id == "sbjf" then
-		dict_name = "sbjm"
-	end
 	env.reverse = rime.ReverseLookup(dict_name)
 end
 
@@ -63,7 +58,6 @@ function this.func(translation, env)
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
 		if not is_hidden and ((core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
-		or core.fj(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuioBPMFDTNLGKHJQXZCSRYWV]?[aeuio]{0,3}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -74,7 +68,7 @@ function this.func(translation, env)
 				end
 			end
 		end
-		-- 简码和简飞正码时提示一二简数选字词
+		-- 简码正码时提示一二简数选字词
 		if core.jm(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}[aeuio]{1,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -82,17 +76,6 @@ function this.func(translation, env)
 					candidate.comment = candidate.comment .. " " .. code
 				elseif (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][;'][aeuio]") and is_enhanced) then
 					candidate.comment = candidate.comment .. " " .. code
-				end
-			end
-		elseif core.jm(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]*") then
-			if utf8.len(candidate.text) == 2 then
-			local codes = env.reverse:lookup(candidate.text)
-				for code in string.gmatch(codes, "[^ ]+") do
-					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9;']") and is_enhanced) then
-						candidate.comment = candidate.comment .. " " .. code
-					elseif (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][;'][aeuio]") and is_enhanced) then
-						candidate.comment = candidate.comment .. " " .. code
-					end
 				end
 			end
 		end
@@ -200,12 +183,11 @@ function this.func(translation, env)
 		if core.feixi(id) and (core.s(input) or core.sxs(input)) and is_hidden then
 			goto continue
 		end
-		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字，飞简在sxs时除外
+		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
 		-- 对于飞系，所有 sb 都提示
 		-- 对于小鹤和自然，只有几个 sb 格式的编码是真正的声笔字，通过声韵拼合规律判断出来
-		if (core.s(input) and (core.feixi(id) or core.sp(id)))
-		or (core.sxs(input) and (core.fx(id) or core.fm(id) or core.sp(id)))
-		or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]") then
+		if ((core.s(input) or core.sxs(input)) and (core.feixi(id) or core.sp(id))
+		or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]")) then
 			for _, bihua in ipairs(hint_b) do
 				local shengmu = candidate.preedit:sub(-1)
 				-- hack，假设 UTF-8 编码都是 3 字节的
