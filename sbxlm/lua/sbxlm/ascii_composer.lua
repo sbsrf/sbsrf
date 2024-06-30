@@ -49,7 +49,7 @@ function this.func(key_event, env)
 
   -- auto_inline 启用时，首字母大写时自动切换到内联模式
   if (not ascii_mode and auto_inline and input:len() == 0 and is_upper(key_event.keycode)) then
-    if (key_event:shift() and key_event:ctrl()) or key_event:alt() or key_event:super() then
+    if (key_event:shift() and key_event:ctrl()) or key_event:alt() or key_event:super() or key_event:release() then
       return rime.process_results.kNoop
     end
     context:push_input(string.char(key_event.keycode))
