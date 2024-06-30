@@ -109,7 +109,7 @@ function this.func(key_event, env)
     end
     -- 如果策略为追加编码，则不执行顶屏直接返回
     if rule.strategy == strategies.append then
-      goto finish
+      return env.speller:process_key_event(key_event)
     -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
     elseif rule.strategy == strategies.conditional then
       context:push_input(incoming)
@@ -139,9 +139,8 @@ function this.func(key_event, env)
     ::continue::
   end
   ::finish::
-  -- 大写字母AEIOU执行完顶屏功能之后转成小写
-  if key_event.keycode == 65 or key_event.keycode == 69 or key_event.keycode == 73
-  or key_event.keycode == 79 or key_event.keycode == 85 then
+  -- 大写字母执行完顶屏功能之后转成小写
+  if key_event.keycode >= 65 and key_event.keycode <= 90 then
     key_event = rime.KeyEvent(utf8.char(key_event.keycode + 32))
   end
   return env.speller:process_key_event(key_event)
