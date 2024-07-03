@@ -479,7 +479,7 @@ function this.func(input, segment, env)
   memory:dict_lookup(lookup_code, true, 0)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
-    filter(phrase, schema_id, input, phrases, known_words)
+    filter(phrase, schema_id, input, phrases2, known_words)
   end
   -- 对列表根据置顶与否以及频率对固态词条进行排序
   table.sort(phrases2, function(a, b)
