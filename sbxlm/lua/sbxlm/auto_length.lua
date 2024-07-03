@@ -293,7 +293,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if ((core.fm(schema_id) or core.sp(schema_id)) and 
+  if ((core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id)) and 
     rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]")) then
     return nil
   end
