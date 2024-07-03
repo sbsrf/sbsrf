@@ -92,13 +92,15 @@ popping:
     # 词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 大写字母输入词组
     - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
     - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
 
@@ -147,6 +149,7 @@ reverse_lookup:
 menu:
   __include: sbxlm.yaml:/prelude/menu
   alternative_select_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{2}"
-  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}$"
+    - "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{2}"
+  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}|[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{0, 2}$"

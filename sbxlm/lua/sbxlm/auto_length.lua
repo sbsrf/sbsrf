@@ -293,8 +293,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if ((core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id)) and 
-    rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]")) then
+  if (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -396,6 +395,26 @@ local function translate_by_split(input, segment, env)
   yield(phrase:toCandidate())
 end
 
+local function filter(phrase, schema_id, input, phrases, known_words)
+  if phrase then
+    if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
+    and utf8.len(phrase.text) >= 4
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
+    and utf8.len(phrase.text) < 4
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    else
+      table.insert(phrases, phrase)
+      known_words[phrase.text] = true
+    end
+  end
+end
+
 ---@param input string
 ---@param segment Segment
 ---@param env AutoLengthEnv
@@ -451,15 +470,7 @@ function this.func(input, segment, env)
   memory:user_lookup(lookup_code, true)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    if phrase then
-      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
-        ;
-      else
-        table.insert(phrases, phrase)
-        known_words[phrase.text] = true
-      end
-    end
+    filter(phrase, schema_id, input, phrases, known_words)
   end
   -- 对列表根据置顶与否以及频率对用户词条进行排序
   table.sort(phrases, function(a, b)
@@ -468,15 +479,7 @@ function this.func(input, segment, env)
   memory:dict_lookup(lookup_code, true, 0)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
-    if phrase and (not known_words[phrase.text]) then
-      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
-        ;
-      else
-        table.insert(phrases2, phrase)
-        known_words[phrase.text] = true
-      end
-    end
+    filter(phrase, schema_id, input, phrases, known_words)
   end
   -- 对列表根据置顶与否以及频率对固态词条进行排序
   table.sort(phrases2, function(a, b)
@@ -490,15 +493,7 @@ function this.func(input, segment, env)
   memory:user_lookup(kEncodedPrefix .. lookup_code, true)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    if phrase and (not known_words[phrase.text]) then
-      if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
-        ;
-      else
-        table.insert(phrases, phrase)
-        known_words[phrase.text] = true
-      end
-    end
+    filter(phrase, schema_id, input, phrases, known_words)
   end
   -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
