@@ -78,8 +78,9 @@ function this.func(key_event, env)
   -- 在码长为4以上时，设置临时重码提示
   elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
       and key_event.keycode == XK_Tab and not key_event:release()) then
-        if context:get_option("single_display") and not context:get_option("not_single_display") then
+        if context:get_option("single_display") and not context:get_option("not_single_display") and key_event.modifier ~= rime.modifier_masks.kShift then
           context:set_option("not_single_display", true)
+          return rime.process_results.kAccepted
         end
         return rime.process_results.kNoop
   -- 声笔简码在码长5以上时，单引号进入打空造词
