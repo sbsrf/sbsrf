@@ -74,7 +74,7 @@ sbzz_algebra:
   - xlit/QWRTYUIOPSDFGHMJCKLZXVBN/qwrtyuiopsdfghmjcklzxvbn/
   # 2. 补笔画
   - xlit/12345/eiuoa/
-  - xform/\b([a-z]{5})[aeiou]+/$1/
+  - xform/\b([a-z]{6})[aeiou]+/$1/
 
 speller:
   __include: sbpy.schema.yaml:/speller
@@ -84,6 +84,7 @@ speller:
       - derive/^([a-z]{2}).+$/$1/
       - derive/^([a-z]{3}).+$/$1/
       - derive/^([a-z]{4}).+$/$1/
+      - derive/^([a-z]{5}).+$/$1/
   popping:
     __patch:
       - /sbzz_popping
