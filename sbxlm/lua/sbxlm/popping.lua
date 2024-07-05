@@ -4,6 +4,7 @@
 -- 根据当前编码和新输入的按键来决定是否将当前编码或其一部分的首选顶上屏
 
 local rime = require("lib")
+local core = require("sbxlm.core")
 
 local this = {}
 
@@ -72,6 +73,7 @@ end
 ---@param env PoppingEnv
 function this.func(key_event, env)
   local seg = env.engine.context.composition:back()
+  local schema_id = env.engine.schema.schema_id
   if not seg or not (seg:has_tag("abc") or seg:has_tag("punct")) then
     return rime.process_results.kNoop
   end
@@ -109,6 +111,9 @@ function this.func(key_event, env)
     end
     -- 如果策略为追加编码，则不执行顶屏直接返回
     if rule.strategy == strategies.append then
+      if core.jp(schema_id) or core.py(schema_id) then
+        goto finish
+      end
       return env.speller:process_key_event(key_event)
     -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
     elseif rule.strategy == strategies.conditional then

@@ -97,6 +97,11 @@ function core.jp(id)
 end
 
 ---@param id string
+function core.py(id)
+  return id == "sbpy"
+end
+
+---@param id string
 function core.fm(id)
   return id == "sbfm"
 end
