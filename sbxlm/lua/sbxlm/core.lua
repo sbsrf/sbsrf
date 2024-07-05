@@ -92,6 +92,11 @@ function core.jm(id)
 end
 
 ---@param id string
+function core.jp(id)
+  return id == "sbjp"
+end
+
+---@param id string
 function core.fm(id)
   return id == "sbfm"
 end
