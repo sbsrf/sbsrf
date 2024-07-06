@@ -32,6 +32,12 @@ switches:
   - name: fast_change
     reset: 0
     states: [慢调, 快调]
+  - name: is_enhanced
+    reset: 0
+    states: [常规, 增强]
+  - options: [hide, rational, irrational, both]
+    reset: 0
+    states: [隐藏, 有理, 无理, 两者]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
@@ -105,7 +111,7 @@ popping:
       strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'BPMFDTNLGKHJQXZCSRYWV"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
@@ -126,8 +132,9 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio;'0-9]?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - "[bpmfdtnlgkhjqxzcsrywv][0-9;'][aeuio]*"
 
 extended:
   dictionary: sbxh.extended
