@@ -186,7 +186,7 @@ sbpy_extra_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "5", send_sequence: "{Page_Down}3" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "6", send_sequence: "{Page_Down}7" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{0,1}", accept: ";", send_sequence: "{Page_Down}8" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: Tab, send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]", accept: Tab, send_sequence: "{Page_Down}8" }
 
 key_binder:
   bindings:
