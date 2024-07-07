@@ -293,7 +293,8 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fd(schema_id) 
+  or core.sp(schema_id) and not env.fast_change) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
