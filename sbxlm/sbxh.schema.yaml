@@ -109,6 +109,10 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
+    - when: "is_enhanced"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
@@ -116,7 +120,7 @@ speller:
   auto_clear: none
   max_code_length: 6
   algebra:
-    - derive/'//
+    - derive/([bpmfdtnlgkhjqxzcsrywv]{2})'/$1/
   popping:
     __patch:
       - /popping

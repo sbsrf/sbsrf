@@ -30,13 +30,13 @@ switches:
     reset: 0
     states: [词组, 单字]
   - name: fast_change
-    reset: 0
+    reset: 1
     states: [慢调, 快调]
   - name: is_enhanced
-    reset: 0
+    reset: 1
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
-    reset: 0
+    reset: 3
     states: [隐藏, 有理, 无理, 两者]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
@@ -109,6 +109,10 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
+    - when: "is_enhanced"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
@@ -116,7 +120,7 @@ speller:
   auto_clear: none
   max_code_length: 6
   algebra:
-    - derive/'//
+    - derive/([bpmfdtnlgkhjqxzcsrywv]{2})'/$1/
   popping:
     __patch:
       - /popping
