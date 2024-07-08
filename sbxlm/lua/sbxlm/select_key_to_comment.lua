@@ -48,9 +48,7 @@ function this.func(translation, env)
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
     if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") then
-      if (core.sp(schema_id)) then
-        goto continue
-      elseif (input:len() < 6) and not segment:has_tag("sbjm") then
+      if (input:len() < 6) and not segment:has_tag("sbjm") then
         goto continue
       end
     end
