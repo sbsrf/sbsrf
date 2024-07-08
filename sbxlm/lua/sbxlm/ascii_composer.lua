@@ -14,12 +14,15 @@ local this = {}
 ---@class AsciiComposerEnv: Env
 ---@field ascii_composer Processor
 ---@field selector Processor
+---@field single_selection boolean
 ---@field connection Connection
 
 ---@param env AsciiComposerEnv
 function this.init(env)
   env.ascii_composer = rime.Processor(env.engine, "", "ascii_composer")
   env.selector = rime.Processor(env.engine, "", "selector")
+  local config = env.engine.schema.config
+  env.single_selection = config:get_bool("translator/single_selection") or false
 end
 
 ---@param ch number
@@ -80,7 +83,8 @@ function this.func(key_event, env)
   -- 在码长为4以上时，设置临时重码提示
   elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
       and key_event.keycode == XK_Tab and not key_event:release()) then
-        if context:get_option("single_display") and not context:get_option("not_single_display") then
+        if env.single_selection and context:get_option("single_display")
+        and not context:get_option("not_single_display") then
           context:set_option("not_single_display", true)
           if  key_event.modifier ~= rime.modifier_masks.kShift then
             env.selector:process_key_event(key_event)
