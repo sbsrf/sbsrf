@@ -163,8 +163,56 @@ punctuator:
 recognizer:
   import_preset: sbxlm
 
+sbfm_basic_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[aeuio]{0,2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "Shift+space"
+      send_sequence: "{F6}"
+sbfm_extra_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: Tab
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+
 key_binder:
-  import_preset: sbxlm
+  bindings:
+    __patch:
+      - sbxlm.yaml:/rime_key_bindings
+      - /sbfm_basic_bindings
+      - /sbfm_extra_bindings
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
