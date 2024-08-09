@@ -33,7 +33,7 @@ switches:
     reset: 0
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
-    reset: 0
+    reset: 1
     states: [隐藏, 有理, 无理, 两者]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline

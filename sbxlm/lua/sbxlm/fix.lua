@@ -94,18 +94,16 @@ function this.func(translation, env)
     local current = fixed_phrases[i]
     if current and known_candidates[current] then
       local cand = known_candidates[current]
-      local select = "'456 "
-      local select2 = "'456;"
+      local select = "14560"
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
-      if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+      if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
         local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
-        if core.s(input) or core.sb(input) then
-          comment = comment .. select2:sub(i - 1, i - 1)
-        else
-          comment = comment .. select:sub(i - 1, i - 1)
+        if i > 1 then
+          cand.comment = comment .. select:sub(i - 1, i - 1)
+        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]?") then
+          cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
         end
-          cand.comment = comment
       end
       cand.type = "fixed"
       rime.yield(cand)
@@ -115,22 +113,20 @@ function this.func(translation, env)
   -- 输出设为固顶但是没在候选中找到的候选
   -- 因为不知道全码是什么，所以只能做一个 SimpleCandidate
   while fixed_phrases[i] do
-    local candidate = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
-    candidate.preedit = input
-    local select = "'456 "
-    local select2 = "'456;"
+    local cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
+    cand.preedit = input
+    local select = "14560"
     local is_hidden = env.engine.context:get_option("is_hidden")
     local id = env.engine.schema.schema_id
-    if i > 1 and (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+    if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
       local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
-      if core.s(input) or core.sb(input) then
-        comment = comment .. select2:sub(i - 1, i - 1)
-      else
-        comment = comment .. select:sub(i - 1, i - 1)
+      if i > 1 then
+        cand.comment = comment .. select:sub(i - 1, i - 1)
+      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]?") then
+        cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
       end
-      candidate.comment = comment
-  end
-    rime.yield(candidate)
+    end
+    rime.yield(cand)
     i = i + 1
   end
   -- 输出没有固顶的候选

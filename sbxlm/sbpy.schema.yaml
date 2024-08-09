@@ -26,10 +26,10 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - name: postpone
-    reset: 0
+    reset: 1
     states: [前置, 后置]
   - options: [free, fixed, mixed, popping, strong]
-    reset: 0
+    reset: 4
     states: [自由, 固定, 混顶, 纯顶, 强顶]
   - name: is_hidden
     states: [提示, 隐藏]
@@ -97,7 +97,9 @@ algebra:
   # 6. 理特例
   - xform/er/e/
   - xform/(?<=[ln])v/u/
-  # 7. 补笔画
+  # 7. 纯音节
+  - derive/\b([a-z][aeuio])(?=\d)/$1'/
+  # 8. 补笔画
   - xform/\b([a-z\d]{6})\d+/$1/
   - xlit/12345/eiuoa/
 
@@ -144,7 +146,7 @@ popping:
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou'"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
     __include: /algebra
@@ -177,16 +179,19 @@ recognizer:
 
 sbpy_extra_bindings:
   __append:
-    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
-    - { when: has_menu, accept: 0, send_sequence: "{End}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "1", send_sequence: "{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "4", send_sequence: "{Page_Down}2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "5", send_sequence: "{Page_Down}3" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "6", send_sequence: "{Page_Down}7" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{0,1}", accept: ";", send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "0", send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?", accept: "'", send_sequence: "{Page_Down}9" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: ";", send_sequence: "{Page_Down}{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]", accept: Tab, send_sequence: "{Page_Down}8" }
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 0, send_sequence: "{End}" }
 
 key_binder:
   bindings:
