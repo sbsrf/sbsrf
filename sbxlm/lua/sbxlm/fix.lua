@@ -102,7 +102,7 @@ function this.func(translation, env)
         if i > 1 then
           cand.comment = comment .. select:sub(i - 1, i - 1)
         elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]?") then
-          cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
+          cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
         end
       end
       cand.type = "fixed"

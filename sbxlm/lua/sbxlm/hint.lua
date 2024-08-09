@@ -106,7 +106,7 @@ function this.func(translation, env)
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
 				do
-					candidate:get_genuine().comment = ' ' .. e .. "'" .. entry.text .. '; '
+					candidate:get_genuine().comment = ' ' .. entry.text .. ";" .. e .. "'"
 					break
 				end
 			end
