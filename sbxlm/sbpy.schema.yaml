@@ -26,10 +26,10 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - name: postpone
-    reset: 1
+    reset: 0
     states: [前置, 后置]
   - options: [free, fixed, mixed, popping, strong]
-    reset: 4
+    reset: 0
     states: [自由, 固定, 混顶, 纯顶, 强顶]
   - name: is_hidden
     states: [提示, 隐藏]
