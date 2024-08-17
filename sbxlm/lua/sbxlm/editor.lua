@@ -59,18 +59,21 @@ function this.func(key_event, env)
   end
   -- 找出补码的位置（第二个音节之前），并添加补码
   local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
-  context.caret_pos = confirmed_position + first_char_code_len
-  if incoming == "BackSpace" then
-    context:pop_input(1)
-  else
-    context:push_input(incoming)
-  end
   -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码已有 6 码，则不返回，相当于进入单字模式
   -- 但是声笔简拼为5
   local len_limit = 6
   if core.jp(env.engine.schema.schema_id) then
     len_limit = 5
+  end
+  if first_char_code_len <= len_limit then
+    context.caret_pos = confirmed_position + first_char_code_len
+  end
+  if incoming == "BackSpace" then
+    context:pop_input(1)
+  --如果达到限制长度则禁止补码
+  elseif first_char_code_len < len_limit then
+    context:push_input(incoming)
   end
   if first_char_code_len <= len_limit then
     context.caret_pos = previous_caret_pos + 1
