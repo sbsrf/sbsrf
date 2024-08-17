@@ -67,12 +67,12 @@ function this.func(key_event, env)
   end
   -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码已有 6 码，则不返回，相当于进入单字模式
-  -- 但是声笔简拼为4
+  -- 但是声笔简拼为5
   local len_limit = 6
   if core.jp(env.engine.schema.schema_id) then
     len_limit = 5
   end
-  if first_char_code_len < len_limit then
+  if first_char_code_len <= len_limit then
     context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted
