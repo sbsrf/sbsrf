@@ -7144,7 +7144,7 @@ encoder:
 森林	sl6
 僧	sro'
 杀	sm'
-杀	su5
+杀	su4
 杀人	sr5
 杀死	ss1
 沙发	sf2
@@ -7167,7 +7167,7 @@ encoder:
 善	syo'
 鳝	suai'
 伤	sru'
-伤	su6
+伤	su5
 伤害	sh1
 伤口	sk8
 伤心	sx9
@@ -7191,7 +7191,7 @@ encoder:
 尚	sxi'
 尚未	sw3
 裳	sio'
-少	s1
+少	s6
 少	sx'
 少儿	sv4
 少年	sn7
@@ -7219,7 +7219,7 @@ encoder:
 申	sqi'
 申请	sq0
 伸	sri'
-伸	su'
+伸	su;
 伸出	sc2
 伸手	ss7
 身	s4
@@ -7248,10 +7248,9 @@ encoder:
 深南	sn3
 深入	sr4
 深深	s'o
-什	s6
 什	sre'
 什么	sm
-神	s0
+神	s1
 神	sni'
 神殿	sd2
 神经	s'a
@@ -7291,7 +7290,7 @@ encoder:
 省	xiu'
 圣	sa9
 圣	sye'
-胜	su;
+胜	su6
 胜	svu'
 胜利	sl4
 盛	sme'
@@ -7300,7 +7299,7 @@ encoder:
 尸	sze'
 尸体	st7
 失	spe'
-失	su4
+失	su7
 失败	sb8
 失去	sq3
 失望	sw4
@@ -7349,15 +7348,15 @@ encoder:
 实验	sy2
 实在	sz4
 食	spo'
-食	su1
+食	su'
 食品	sp4
 食谱	sp0
 食物	sw0
 史	si'
 史	sku'
 豕	seua'
+使	s0
 使	sr'
-使	su8
 使得	sd6
 使她	st2
 使用	sy7
@@ -7383,7 +7382,7 @@ encoder:
 式	se3
 式	sge'
 似	sra'
-似	su7
+似	su8
 似的	sd7
 似乎	sh4
 势	se6
@@ -7409,6 +7408,7 @@ encoder:
 是啊	sv
 是否	sf3
 适	slu'
+适	su0
 适才	sc1
 适应	sy5
 室内	sn8
@@ -7518,7 +7518,7 @@ encoder:
 税收	ss2
 睡	si0
 睡觉	sj1
-顺	su0
+顺	su1
 顺	suu'
 顺便	sb1
 顺利	sl7
