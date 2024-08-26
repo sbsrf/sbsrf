@@ -93,6 +93,9 @@ function this.func(key_event, env)
     context.caret_pos = confirmed_position + position1
   end
   if incoming == "BackSpace" then
+    if offset == context.caret_pos -1 then
+      context.caret_pos = offset
+    end
     context:pop_input(1)
   --如果达到限制长度则禁止补码
   elseif position1 < len_limit then
