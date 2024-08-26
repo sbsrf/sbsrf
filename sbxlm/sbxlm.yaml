@@ -150,6 +150,7 @@ rime_key_bindings:
     - { when: always, accept: Control+Shift+numbersign, toggle: full_shape }
     - { when: always, accept: Control+Shift+dollar, toggle: simplification }
     - { when: always, accept: Control+Shift+percent, toggle: extended_charset }
+    # other key bindings
     - { when: has_menu, accept: Tab, send: Page_Down }
     - { when: paging, accept: Shift+Tab, send: Page_Up }
     - { when: has_menu, accept: Shift+Tab, send_sequence: "{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}{Page_Down}" }
