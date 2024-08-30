@@ -41,6 +41,16 @@ function this.func(key_event, env)
   if not (rime.match(incoming, "[aeiou]") or incoming == "BackSpace") then
     return rime.process_results.kNoop
   end
+  -- 单字码长有限制，声笔简拼为5，而声笔拼音为6
+  if core.jp(env.engine.schema.schema_id) then
+    if rime.match(context.input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{4,}") and incoming ~= "BackSpace" then
+      return rime.process_results.kAccepted
+    end
+  else
+    if rime.match(context.input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{5,}") and incoming ~= "BackSpace" then
+      return rime.process_results.kAccepted
+    end
+  end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
   -- confirmed_position 是拼音整句中已经被确认的编码的长度，只有后面的部分是可编辑的
   -- current_input 获取的是这部分的编码
