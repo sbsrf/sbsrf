@@ -55,6 +55,7 @@ speller:
       - derive/^([a-z]{2}).+$/$1/
       - derive/^([a-z]{3}).+$/$1/
       - derive/^([a-z]{4}).+$/$1/
+      - derive/^([a-z]{5}).+$/$1/
 
 translator:
   dictionary: sbpy

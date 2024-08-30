@@ -4,7 +4,7 @@ import { parse } from "csv-parse/sync";
 function makeStrokesMap() {
   const strokesContent = readFileSync("hzinfo/gbkhz_bihua.csv", "utf8");
   const strokes = new Map<string, string>();
-  const n = 4;
+  const n = 5;
 
   for (const [char, stroke] of parse(strokesContent) as [string, string][]) {
     let initialStrokes = stroke.slice(0, n);
@@ -84,4 +84,3 @@ processDict("8105", "sbpy");
 processDict("41448", "sbpy.unihan");
 processDict("base", "sbpy.base");
 processDict("ext", "sbpy.ext");
-processDict("tencent", "sbpy.tencent");
