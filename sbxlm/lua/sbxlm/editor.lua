@@ -97,10 +97,10 @@ function this.func(key_event, env)
       context.caret_pos = offset
     end
     context:pop_input(1)
-  --如果达到限制长度则禁止补码
   elseif position1 < len_limit then
     context:push_input(incoming)
   end
+  --如果达到限制长度则禁止补码
   if position1 <= len_limit then
     context.caret_pos = previous_caret_pos + 1
   end

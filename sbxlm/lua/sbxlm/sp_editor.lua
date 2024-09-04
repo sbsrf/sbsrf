@@ -62,12 +62,11 @@ function this.func(key_event, env)
   context.caret_pos = confirmed_position + e
   if incoming == "BackSpace" then
     context:pop_input(1)
-  else
+  elseif e < 6 then
     context:push_input(incoming)
   end
-  -- 如果补码不足 5 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
-  -- 如果补码已有 5 码，则不返回，相当于进入单字模式
-  if e < 5 then
+  --如果达到限制长度则禁止补码
+  if e <= 6 then
     context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted
