@@ -229,6 +229,9 @@ sbfx_extra_bindings:
       accept: "'"
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
