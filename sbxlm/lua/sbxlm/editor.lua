@@ -5,7 +5,6 @@
 -- 注意，这里的音节是 Rime 中的音节概念，在声笔拼音中对应的是压缩拼音 + 笔画形成的最长 5 码的编码组合，不一定只包含读音信息
 
 local rime = require "lib"
-local core = require "sbxlm.core"
 
 local this = {}
 
