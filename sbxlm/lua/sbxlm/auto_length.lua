@@ -409,7 +409,7 @@ local function filter(phrase, schema_id, input, phrases, known_words)
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    else
+    elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)
       known_words[phrase.text] = true
     end
@@ -520,11 +520,16 @@ function this.func(input, segment, env)
   -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
   if dynamic(input, env) == dtypes.short then
     local cand = phrases[1]:toCandidate()
-    env.known_candidates[cand.text] = 0
+    env.known_candidates[cand.text] = 1
     yield(cand)
   elseif dynamic(input, env) == dtypes.short2 then
-    local cand = phrases[2]:toCandidate()
-    env.known_candidates[cand.text] = 1
+    local cand = phrases[1]:toCandidate()
+    if #phrases >= 2 then
+      cand = phrases[2]:toCandidate()
+      env.known_candidates[cand.text] = 2
+    else
+      env.known_candidates[cand.text] = 1
+    end
     yield(cand)
   elseif dynamic(input, env) == dtypes.base then
     local count = 1
