@@ -67,6 +67,7 @@ function this.func(key_event, env)
   local position2 = 0
   local position3 = 0
   local offset = 0
+  local position = position1
   if (position1 - confirmed_position > 2) then
     if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
       position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
@@ -74,12 +75,31 @@ function this.func(key_event, env)
         if (position2 - position1 > 2) then
           position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
           offset = position2
-          position1 = position3
+          position = position3
           goto continue
         end
       end
       offset = position1
-      position1 = position2
+      position = position2
+      goto continue
+    end
+  end
+  if (position1 - confirmed_position == 2) then
+    if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
+      position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
+      if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
+        if (position2 - position1 == 2) then
+          position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
+          offset = position2
+          position = position3
+          goto continue
+        end
+      end
+      offset = position1
+      position = position2
+      if confirmed_position == 0 then
+        position = position2 - 1
+      end
       goto continue
     end
   end
@@ -88,19 +108,19 @@ function this.func(key_event, env)
   -- 但是声笔简拼为5
   ::continue::
   local len_limit = 6 + offset
-  if position1 <= len_limit then
-    context.caret_pos = confirmed_position + position1
+  if position <= len_limit then
+    context.caret_pos = confirmed_position + position
   end
   if incoming == "BackSpace" then
-    if offset == context.caret_pos -1 then
+    if offset == context.caret_pos - 1 then
       context.caret_pos = offset
     end
     context:pop_input(1)
-  elseif position1 < len_limit then
+  elseif position < len_limit then
     context:push_input(incoming)
   end
   --如果达到限制长度则禁止补码
-  if position1 <= len_limit then
+  if position <= len_limit then
     context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted
