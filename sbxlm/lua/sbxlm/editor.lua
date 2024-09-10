@@ -68,7 +68,7 @@ function this.func(key_event, env)
   local position3 = 0
   local offset = 0
   local position = position1
-  if (position1 - confirmed_position > 2) then
+  if (position1 > 2) then
     if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
       position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
       if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
@@ -84,7 +84,7 @@ function this.func(key_event, env)
       goto continue
     end
   end
-  if (position1 - confirmed_position == 2) then
+  if (position1 == 2) then
     if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
       position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
       if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
@@ -96,24 +96,20 @@ function this.func(key_event, env)
         end
       end
       offset = position1
-      position = position2
-      if confirmed_position == 0 then
-        position = position2 - 1
-      end
+      position = position2 - 1
       goto continue
     end
   end
   -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   -- 如果补码已有 6 码，则不返回，相当于进入单字模式
-  -- 但是声笔简拼为5
   ::continue::
   local len_limit = 6 + offset
   if position <= len_limit then
     context.caret_pos = confirmed_position + position
   end
   if incoming == "BackSpace" then
-    if offset == context.caret_pos - 1 then
-      context.caret_pos = offset
+    if offset + confirmed_position == context.caret_pos - 1 then
+      context.caret_pos = offset + confirmed_position
     end
     context:pop_input(1)
   elseif position < len_limit then
