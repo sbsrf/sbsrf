@@ -227,4 +227,12 @@ function this.func(translation, env)
 	end
 end
 
+function this.fini(env)
+	if env.memory.disconnect then
+		env.memory:disconnect()
+	else
+		env.memory = nil
+	end
+end
+
 return this

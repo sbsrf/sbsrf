@@ -602,4 +602,18 @@ function this.func(input, segment, env)
   end
 end
 
+function this.fini(env)
+  if env.static_memory.disconnect then
+    env.static_memory:disconnect()
+  else
+    env.memory = nil
+  end
+
+  if (env.dynamic_memory.disconnect) then
+    env.dynamic_memory:disconnect()
+  else
+    env.dynamic_memory = nil
+  end
+end
+
 return this
