@@ -16,7 +16,8 @@ local this = {}
 local strategies = {
   pop = "pop",
   append = "append",
-  conditional = "conditional"
+  conditional = "conditional",
+  ignore = "ignore"
 }
 
 ---@class PoppingConfig
@@ -137,6 +138,10 @@ function this.func(key_event, env)
     end
     if rule.prefix then
       context:push_input(input:sub(rule.prefix + 1))
+      if rule.strategy == strategies.ignore then
+        context:commit()
+        return rime.process_results.kAccepted
+      end
     end
     if success then
       goto finish

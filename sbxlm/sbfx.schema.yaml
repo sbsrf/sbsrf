@@ -150,7 +150,13 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
-    
+    # 增强模式下的分号变换
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
+      accept: ";"
+      prefix: 2
+      strategy: ignore
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
