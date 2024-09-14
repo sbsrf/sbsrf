@@ -95,13 +95,18 @@ function this.func(translation, env)
     if current and known_candidates[current] then
       local cand = known_candidates[current]
       local select = "14560"
+      local select2 = "aeuio"
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
       if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
         local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
+        local comment2 = fixed_phrases[i + 12] == nil and "" or fixed_phrases[i + 12]
         if i > 1 then
           cand.comment = comment .. select:sub(i - 1, i - 1)
-        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]?") then
+          if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") then
+            cand.comment = cand.comment .. comment2 .. select2:sub(i - 1, i - 1)
+          end
+        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") then
           cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
         end
       end
@@ -116,13 +121,18 @@ function this.func(translation, env)
     local cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
     cand.preedit = input
     local select = "14560"
+    local select2 = "aeuio"
     local is_hidden = env.engine.context:get_option("is_hidden")
     local id = env.engine.schema.schema_id
     if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
       local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
+      local comment2 = fixed_phrases[i + 12] == nil and "" or fixed_phrases[i + 12]
       if i > 1 then
         cand.comment = comment .. select:sub(i - 1, i - 1)
-      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]?") then
+        if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") then
+          cand.comment = cand.comment .. comment2 .. select2:sub(i - 1, i - 1)
+        end
+    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") then
         cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
       end
     end
