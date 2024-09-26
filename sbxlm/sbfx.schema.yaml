@@ -152,13 +152,13 @@ popping:
       prefix: 2
     # 增强模式下的分号变换
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9]"
       accept: ";"
       prefix: 2
       strategy: ignore
     # 增强模式下的单引号变换
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9]"
       accept: "'"
       prefix: 1
       strategy: ignore
@@ -203,7 +203,7 @@ reverse_lookup:
 
 reverse_lookup2:
   tags: [bihua, hypy, zhlf, sbjm]
-  overwrite_comment: true
+  overwrite_comment: false
   dictionary: sbfm
 
 sbfx_basic_bindings:

@@ -220,7 +220,7 @@ reverse_lookup:
 
 reverse_lookup2:
   tags: [bihua, hypy, zhlf, sbjm]
-  overwrite_comment: true
+  overwrite_comment: false
   dictionary: sbfm
 
 menu:
