@@ -10,3 +10,6 @@ patch:
   "style/inline_preedit": false
   "style/label_format": "%s "
   "style/layout/candidate_spacing": 10
+#开启以下两行进行强制盲打
+#  "style/layout/margin_x": -1010
+#  "style/layout/margin_y": -1010
