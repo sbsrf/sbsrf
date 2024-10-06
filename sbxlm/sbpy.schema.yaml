@@ -34,6 +34,9 @@ switches:
   - name: is_hidden
     states: [提示, 隐藏]
     reset: 1  # 1为隐藏：不提示第二页的固定字词
+  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
+  #- options: [_key_Hide]
+  #  states: ["▼"]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1  # 首字母大写进入临时英文状态

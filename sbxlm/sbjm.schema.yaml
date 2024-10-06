@@ -35,6 +35,9 @@ switches:
   - options: [hide, rational, irrational, both]
     reset: 1
     states: [隐藏, 有理, 无理, 两者]
+  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
+  #- options: [_key_Hide]
+  #  states: ["▼"]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
