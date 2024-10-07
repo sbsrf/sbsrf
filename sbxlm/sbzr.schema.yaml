@@ -41,7 +41,7 @@ switches:
   - name: is_buffered
     reset: 0
   - name: single_display
-    reset: 1
+    reset: 0
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0
