@@ -1,8 +1,7 @@
 # Trime default style settings
 # encoding: utf-8
-# 本主题适用于tumuyan3.2.7，官方3.2.16~3.2.18及每夜版。
 
-config_version: "5.4for同文3.2.18"
+config_version: "5.4for同文"
 name: 比翼45键 #主题名称
 author: 散步的鹤 flypy.com #作者资讯   /强自解题二改
 
@@ -2152,37 +2151,37 @@ preset_keyboards:
       - {click: 9, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T2, swipe_up: "symbol_xkhz", long_click: "(", swipe_down: "玖", key_symbol_color: szs}
       - {click: 0, key_back_color: 789B, hilited_key_back_color: 789H, key_text_color: 789T, swipe_up: "symbol_xkhy", long_click: ")", swipe_down: "零", key_symbol_color: szs}
 #      
-      - {click: q, long_click: '`', swipe_up: Q, swipe_down: Q, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Q, hilited_key_back_color: AAH}
-      - {click: w, long_click: '~', swipe_up: W, swipe_down: W, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_W, hilited_key_back_color: BBH}
-      - {click: e, long_click: '+', swipe_up: E, swipe_down: E, key_text_color: AAT22, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
-      - {click: r, long_click: '-', swipe_up: R, swipe_down: R, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_R, hilited_key_back_color: AAH}
-      - {click: t, long_click: '=', swipe_up: T, swipe_down: T, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_T, hilited_key_back_color: BBH}
-      - {click: y, long_click: '_', swipe_up: Y, swipe_down: Y, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_Y, hilited_key_back_color: CCH}
-      - {click: u, long_click: '{', swipe_up: U, swipe_down: U, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
-      - {click: i, long_click: '}', swipe_up: I, swipe_down: I, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_I, hilited_key_back_color: BBH}
-      - {click: o, long_click: '[', swipe_up: O, swipe_down: O, key_text_color: AAT62, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
-      - {click: p, long_click: ']', swipe_up: P, swipe_down: P, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_P, hilited_key_back_color: AAH}
+      - {click: q, long_click: '`', swipe_up: Q, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Q, hilited_key_back_color: AAH}
+      - {click: w, long_click: '~', swipe_up: W, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_W, hilited_key_back_color: BBH}
+      - {click: e, long_click: '+', swipe_up: E, key_text_color: AAT22, key_symbol_color: AAS, key_back_color: A_E, hilited_key_back_color: CCH}
+      - {click: r, long_click: '-', swipe_up: R, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_R, hilited_key_back_color: AAH}
+      - {click: t, long_click: '=', swipe_up: T, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_T, hilited_key_back_color: BBH}
+      - {click: y, long_click: '_', swipe_up: Y, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_Y, hilited_key_back_color: CCH}
+      - {click: u, long_click: '{', swipe_up: U, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_U, hilited_key_back_color: AAH}
+      - {click: i, long_click: '}', swipe_up: I, key_text_color: AAT52, key_symbol_color: AAS, key_back_color: A_I, hilited_key_back_color: BBH}
+      - {click: o, long_click: '[', swipe_up: O, key_text_color: AAT62, key_symbol_color: AAS, key_back_color: A_O, hilited_key_back_color: CCH}
+      - {click: p, long_click: ']', swipe_up: P, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_P, hilited_key_back_color: AAH}
       # 第二行
-      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
-      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_text_color: AAT12, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
-      - {click: s, long_click: '|', swipe_up: S, swipe_down: S, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_S, hilited_key_back_color: BBH}
-      - {click: d, long_click: '×', swipe_up: D, swipe_down: D, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
-      - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_F, hilited_key_back_color: AAH}
-      - {click: g, long_click: '←', swipe_up: G, swipe_down: G, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_G, hilited_key_back_color: BBH}
-      - {click: h, long_click: '→', swipe_up: H, swipe_down: H, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_H, hilited_key_back_color: CCH}
-      - {click: j, long_click: '<', swipe_up: J, swipe_down: J, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
-      - {click: k, long_click: '>', swipe_up: K, swipe_down: K, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_K, hilited_key_back_color: BBH}
-      - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
-      - {click: l, long_click: K_qzjt, swipe_up: L, swipe_down: L, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      - {click: a, long_click: '\', swipe_up: A, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
+      - {click: a, long_click: '\', swipe_up: A, key_text_color: AAT12, key_symbol_color: AAS, key_back_color: A_A, hilited_key_back_color: AAH}
+      - {click: s, long_click: '|', swipe_up: S, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_S, hilited_key_back_color: BBH}
+      - {click: d, long_click: '×', swipe_up: D, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_D, hilited_key_back_color: CCH}
+      - {click: f, long_click: "÷", swipe_up: F, key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_F, hilited_key_back_color: AAH}
+      - {click: g, long_click: '←', swipe_up: G, key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_G, hilited_key_back_color: BBH}
+      - {click: h, long_click: '→', swipe_up: H, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_H, hilited_key_back_color: CCH}
+      - {click: j, long_click: '<', swipe_up: J, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_J, hilited_key_back_color: AAH}
+      - {click: k, long_click: '>', swipe_up: K, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_K, hilited_key_back_color: BBH}
+      - {click: l, long_click: ctrl_l, swipe_up: L, key_text_color: AAT6, key_symbol_color: AAS, key_back_color: A_L, hilited_key_back_color: CCH}
+      - {click: l, long_click: K_qzjt, swipe_up: L, key_text_color: zyt, key_back_color: zyb, key_symbol_color: zyt, hilited_key_text_color: zyt, hilited_key_back_color: zyb, hilited_key_symbol_color: zyt, width: 5}
       # 第三行
       - {click: Shift_L, composing: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, width: 15, key_text_color: hst, key_back_color: shb, hilited_key_back_color: hsh}
-      - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
-      - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
+      - {click: z, long_click: select_all, swipe_up: Z, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_Z, hilited_key_back_color: AAH}
+      - {click: x, long_click: cut, swipe_up: X, key_text_color: AAT1, key_symbol_color: AAS, key_back_color: A_X, hilited_key_back_color: BBH}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_text_color: AAT2, key_symbol_color: AAS, key_back_color: A_C, hilited_key_back_color: CCH, key_hint_offset_y: -6}
       - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, , hint: "帮助", key_text_color: AAT23, key_symbol_color: AAS, key_back_color: A_V, hilited_key_back_color: AAH, key_hint_offset_y: -6}
       - {click: b, long_click: Liquid_switch, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_text_color: AAT3, key_symbol_color: AAS, key_back_color: A_B, hilited_key_back_color: BBH, key_hint_offset_y: -6}
-      - {click: n, long_click: K_defaultVJ, swipe_up: N, swipe_down: N, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_N, hilited_key_back_color: CCH}
-      - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
+      - {click: n, long_click: K_defaultVJ, swipe_up: N, key_text_color: AAT4, key_symbol_color: AAS, key_back_color: A_N, hilited_key_back_color: CCH}
+      - {click: m, long_click: Hide, swipe_up: M, key_text_color: AAT5, key_symbol_color: AAS, key_back_color: A_M, hilited_key_back_color: AAH}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_back_color: hsb, hilited_key_back_color: hsh, key_text_color: hst, hilited_key_text_color: hsht, width: 15}
       # 第四行
       - {click: K_symbols123, width: *SBK, paging: Page_Up, composing: Escape, swipe_up: "{Schema_switch}", swipe_left: '{q_jsqjp}=', swipe_right: '{q_jsqjp}=', long_click: K_menu, key_symbol_offset_x: 0, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, hilited_key_back_color: szh, hilited_key_symbol_color: szhs} #方案选择

@@ -2,7 +2,7 @@
 # encoding: utf-8
 #顶部 顶端
 
-config_version: "2.0, for同文3.2.18"
+config_version: "2.0, for 同文"
 name: 思无邪45键
 author: 莫颜
 # 说明：基于“声笔45键”+“派对之星”+“思无涯•26键”+“凉秋”制作，部分功能可能存在问题，如发现请告知，谢谢。
@@ -939,38 +939,38 @@ preset_keyboards:
       - {click: 9, long_click: '(', key_back_color: dh9, key_text_color: *蓝}
       - {click: 0, long_click: ')', key_back_color: dh0}
       # ❶ 
-      - {click: q, long_click: '`', swipe_up: Q, swipe_down: Q, key_back_color: QQQ}
-      - {click: w, long_click: '~', swipe_up: W, swipe_down: W, key_back_color: WWW}
-      - {click: e, long_click: '+', swipe_up: E, swipe_down: E, key_back_color: EEE, key_text_color: *橙}
-      - {click: r, long_click: '-', swipe_up: R, swipe_down: R, key_back_color: RRR}
-      - {click: t, long_click: '=', swipe_up: T, swipe_down: T, key_back_color: TTT}
-      - {click: y, long_click: '_', swipe_up: Y, swipe_down: Y, key_back_color: YYY}
-      - {click: u, long_click: '{', swipe_up: U, swipe_down: U, key_back_color: UUU, key_text_color: *橙}
-      - {click: i, long_click: '}', swipe_up: I, swipe_down: I, key_back_color: III, key_text_color: *橙}
-      - {click: o, long_click: '[', swipe_up: O, swipe_down: O, key_back_color: OOO, key_text_color: *橙}
-      - {click: p, long_click: ']', swipe_up: P, swipe_down: P, key_back_color: PPP}
+      - {click: q, long_click: '`', swipe_up: Q, key_back_color: QQQ}
+      - {click: w, long_click: '~', swipe_up: W, key_back_color: WWW}
+      - {click: e, long_click: '+', swipe_up: E, key_back_color: EEE, key_text_color: *橙}
+      - {click: r, long_click: '-', swipe_up: R, key_back_color: RRR}
+      - {click: t, long_click: '=', swipe_up: T, key_back_color: TTT}
+      - {click: y, long_click: '_', swipe_up: Y, key_back_color: YYY}
+      - {click: u, long_click: '{', swipe_up: U, key_back_color: UUU, key_text_color: *橙}
+      - {click: i, long_click: '}', swipe_up: I, key_back_color: III, key_text_color: *橙}
+      - {click: o, long_click: '[', swipe_up: O, key_back_color: OOO, key_text_color: *橙}
+      - {click: p, long_click: ']', swipe_up: P, key_back_color: PPP}
       # ❷
       - {width: *HKZ}
-      - {click: a, long_click: '\', swipe_up: A, swipe_down: A, key_back_color: AAA, key_text_color: *橙, width: *HK}
-      - {click: s, long_click: '|', swipe_up: S, swipe_down: S, key_back_color: SSS, width: *HK}
-      - {click: d, long_click: '×', swipe_up: D, swipe_down: D, key_back_color: DDD, width: *HK}
-      - {click: f, long_click: "÷", swipe_up: F, swipe_down: F, key_back_color: FFF, width: *HK}
-      - {click: g, long_click: '←', swipe_up: G, swipe_down: G, key_back_color: GGG, width: *HK}
-      - {click: h, long_click: '→', swipe_up: H, swipe_down: H, key_back_color: HHH, width: *HK}
-      - {click: j, long_click: '<', swipe_up: J, swipe_down: J, key_back_color: JJJ, width: *HK}
-      - {click: k, long_click: '>', swipe_up: K, swipe_down: K, key_back_color: KKK, width: *HK}
-      - {click: l, long_click: ctrl_l, swipe_up: L, swipe_down: L, key_back_color: LLL, width: *HK}
+      - {click: a, long_click: '\', swipe_up: A, key_back_color: AAA, key_text_color: *橙, width: *HK}
+      - {click: s, long_click: '|', swipe_up: S, key_back_color: SSS, width: *HK}
+      - {click: d, long_click: '×', swipe_up: D, key_back_color: DDD, width: *HK}
+      - {click: f, long_click: "÷", swipe_up: F, key_back_color: FFF, width: *HK}
+      - {click: g, long_click: '←', swipe_up: G, key_back_color: GGG, width: *HK}
+      - {click: h, long_click: '→', swipe_up: H, key_back_color: HHH, width: *HK}
+      - {click: j, long_click: '<', swipe_up: J, key_back_color: JJJ, width: *HK}
+      - {click: k, long_click: '>', swipe_up: K, key_back_color: KKK, width: *HK}
+      - {click: l, long_click: ctrl_l, swipe_up: L, key_back_color: LLL, width: *HK}
       - {width: *HKY1}
       - {width: *HKY2}
       # ❸
       - {click: Shift_L1, key_text_size: 14, composing: Tab, swipe_up: '{Shift+Tab}', swipe_down: Page_Down, key_back_color: shb, key_text_color: SHt, width: 15}
-      - {click: z, long_click: select_all, swipe_up: Z, swipe_down: Z, key_back_color: ZZZ}
-      - {click: x, long_click: cut, swipe_up: X, swipe_down: X, key_back_color: XXX}
+      - {click: z, long_click: select_all, swipe_up: Z, key_back_color: ZZZ}
+      - {click: x, long_click: cut, swipe_up: X, key_back_color: XXX}
       - {click: c, long_click: copy, swipe_up: C, swipe_down: CommitComment, hint: "编码", key_back_color: CCC}
       - {click: v, long_click: paste, swipe_up: V, swipe_down: q_bz, hint: "帮助", key_back_color: VVV, key_text_color: *蓝}
       - {click: b, long_click: liquid_keyboard_clipboard, swipe_up: B, swipe_down: q_bj, hint: "编辑", key_back_color: BBB}
-      - {click: n, long_click: Candidate_switch, swipe_up: N, swipe_down: N, key_back_color: NNN}
-      - {click: m, long_click: Hide, swipe_up: M, swipe_down: M, key_back_color: MMM}
+      - {click: n, long_click: Candidate_switch, swipe_up: N, key_back_color: NNN}
+      - {click: m, long_click: Hide, swipe_up: M, key_back_color: MMM}
       - {click: BackSpace, swipe_up: '{Shift+Return}', swipe_left: Escape, swipe_down: DeleteCandidate, key_text_size: 12, key_back_color: hsb, key_text_color: hst, width: 15}
       # ❹
       - {height: *HGKG, click: "q_sz", key_text_size: 14, composing: Escape, swipe_up: "{Schema_switch}", long_click: q_xd, swipe_down: q_lssz, swipe_left: '{q_jsqjp}=', swipe_right: '{q_jsqjp}=', hint: ϟ, key_back_color: szb, key_text_color: szt, key_symbol_color: szs, width: 15}
