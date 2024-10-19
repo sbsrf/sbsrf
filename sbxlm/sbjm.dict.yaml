@@ -496,7 +496,7 @@ encoder:
 比尔	bv5
 比较	bj4
 比拟	bn1
-比起	bq5
+比起	bq4
 比如	br6
 比赛	bs9
 彼	bca'
@@ -594,7 +594,7 @@ encoder:
 表达	bd3
 表面	bm3
 表明	bm8
-表情	bq
+表情	bq9
 表示	bs
 表现	bx3
 表演	by9
@@ -618,7 +618,7 @@ encoder:
 冰冷	bl0
 兵	bbu'
 兵	bu5
-兵器	bq4
+兵器	bq8
 丙	beia'
 柄	bei'
 炳	bhe'
@@ -628,7 +628,7 @@ encoder:
 并不	bb
 并非	bf8
 并能	bn6
-并且	bq8
+并且	bq
 并未	bw5
 并无	bw6
 垪	bto'
@@ -710,7 +710,7 @@ encoder:
 不能	bn2
 不宁	bn9
 不怕	bp
-不清	bq9
+不清	bq5
 不忍	br2
 不容	br9
 不少	bs8
@@ -26984,7 +26984,7 @@ encoder:
 鴲	znua'	1
 蘵	zcei'	1
 鼅	zmue'	1
-禵	tnia'	1
+禵	znia'	1
 坧	zteu'	1
 姪	znea'	1
 聀	zvea'	1
@@ -27626,7 +27626,7 @@ encoder:
 捘	jfao'	1
 捘	zfao'	1
 銌	zjeu'	1
-莋	zcui'	1
+莋	jcui'	1
 秨	zhue'	1
 稓	zhei'	1
 筰	zpui'	1
