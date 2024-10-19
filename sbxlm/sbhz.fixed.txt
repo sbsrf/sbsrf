@@ -26,11 +26,11 @@ bm	便 部门
 bn	表 半年
 bo	波
 bp	别 不怕
-bq	兵器 表情
+bq	比起 并且
 bqa	百强
 bqe	版权
-bqi	并且
-bqo	不清
+bqi	兵器
+bqo	表情
 bqu	标签
 br	本人 别人
 bra	不忍
@@ -230,7 +230,7 @@ fea	放到
 fee	负责
 fei	反正
 feo	飞来
-feu	发布
+feu	放大
 ff	分 方法
 fg	风 法国
 fh	方 发挥
@@ -268,7 +268,7 @@ fnu	飞鸟
 fo	佛
 foa	翻译
 foi	访问
-foo	发觉
+foo	丰富
 fp	肥胖 分配
 fpa	放屁
 fpe	发票
@@ -411,7 +411,7 @@ hi	虎
 hia	哈哈
 hie	皇上
 hii	行业
-hio	和尚
+hio	火光
 hiu	很少
 hj	汉 环境
 hk	怀 很快
@@ -789,9 +789,9 @@ pda	排队
 pe	拍
 pea	碰到
 pee	朴素
-pei	平均
+pei	拍拍
 peo	跑来
-peu	平面
+peu	庞大
 pf	喷 佩服
 pfa	批发
 pg	朋 屁股
@@ -927,7 +927,7 @@ qt	却 其他
 qta	前台
 qu	区
 qv	去爱 请按
-qva	湫隘
+qva	邱隘
 qve	其二
 qvi	去啊
 qvo	全额
@@ -953,8 +953,8 @@ r	人
 ra	刃
 raa	软驱
 rae	软弱
-rai	认出
-rao	人对
+rai	入院
+rao	如对
 rau	让她
 rb	热播 日本
 rba	入编
@@ -1120,7 +1120,7 @@ tc	逃 提出
 td	太 听到
 te	特
 tea	提到
-teo	太平
+teo	头来
 tf	台风 头发
 tfa	突发
 tfe	土匪
@@ -1176,7 +1176,7 @@ ty	吞 统一
 tz	头 同志
 v	而
 va	啊
-vao	而又
+vao	恶习
 vb	二百 耳边
 vba	岸边
 vbe	案板
@@ -1200,10 +1200,10 @@ vha	爱好
 vho	爱恨
 vi	岸
 via	按照
-vie	而非
+vie	二战
 vii	安监
 vio	耳光
-viu	而归
+viu	恩师
 vj	安 案件
 vk	爱看 安康
 vka	耳孔
@@ -1265,7 +1265,7 @@ vui	暗自
 vuo	安全
 vuu	安徽
 vv	嗯 暗暗
-vw	诶 安危
+vw	誒 安危
 vwa	安慰
 vwe	二万
 vwi	澳网
@@ -1313,8 +1313,8 @@ wi	味
 wia	外国
 wie	为此
 wii	物业
-wio	我当
-wiu	我省
+wio	往常
+wiu	巫师
 wj	万 文件
 wk	胃口 我看
 wka	微孔
@@ -1422,7 +1422,7 @@ xea	相比
 xee	形式
 xei	迅速
 xeo	醒来
-xeu	下面
+xeu	现有
 xf	西方 幸福
 xfa	消费
 xfe	兴奋
@@ -1496,7 +1496,7 @@ ydi	一点
 ydo	印度
 ydu	一代
 ye	也
-yea	一致
+yea	运输
 yf	应付 衣服
 yfa	越发
 yfe	一副

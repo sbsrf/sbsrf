@@ -16,7 +16,7 @@ bdu	不但
 be	百
 bea	比较
 bee	表现
-bei	不想
+bei	罢工
 beo	暴露
 beu	变成
 bf	本 办法
@@ -36,11 +36,11 @@ bpe	编排
 bpi	本品
 bpo	背叛
 bpu	被迫
-bq	兵器 表情
+bq	比起 并且
 bqa	百强
 bqe	版权
-bqi	并且
-bqo	不清
+bqi	兵器
+bqo	表情
 bqu	标签
 br	本人 别人
 bra	不忍
@@ -263,7 +263,7 @@ fnu	飞鸟
 fo	佛
 foa	翻译
 foi	封闭
-foo	发觉
+foo	丰富
 fp	肥胖 分配
 fpa	放屁
 fpe	发票
@@ -410,7 +410,7 @@ hi	虎
 hia	哈哈
 hie	皇上
 hii	行业
-hio	和尚
+hio	火光
 hiu	很少
 hj	汉 环境
 hk	好 很快
@@ -793,9 +793,9 @@ pdu	平等
 pe	拍
 pea	浦东
 pee	朴素
-pei	平均
+pei	屏幕
 peo	披露
-peu	平面
+peu	庞大
 pf	喷 佩服
 pfa	批发
 pg	朋 屁股
@@ -860,7 +860,7 @@ q	去
 qa	驱
 qaa	情绪
 qae	全民
-qai	取出
+qai	权限
 qao	却又
 qau	全力
 qb	区别 全部
@@ -932,7 +932,7 @@ qt	却 其他
 qta	前台
 qu	区
 qv	去爱 请按
-qva	湫隘
+qva	邱隘
 qve	其二
 qvi	去啊
 qvo	全额
@@ -952,8 +952,8 @@ r	人
 ra	刃
 raa	软驱
 rae	软弱
-rai	人际
-rao	人对
+rai	入院
+rao	如对
 rau	让她
 rb	柔 日本
 rc	日产 如此
@@ -1175,7 +1175,7 @@ tzo	投资
 tzu	体制
 v	而
 va	啊
-vao	而又
+vao	恶习
 vb	欧 耳边
 vba	岸边
 vc	爱吃 暗藏
@@ -1205,7 +1205,7 @@ vha	爱好
 vho	爱恨
 vi	岸
 via	暗中
-vie	而非
+vie	二战
 vii	安监
 vio	耳光
 viu	恶劣
@@ -1317,8 +1317,8 @@ wi	味
 wia	外国
 wie	为此
 wii	物业
-wio	我当
-wiu	我省
+wio	往常
+wiu	巫师
 wj	万 文件
 wk	胃口 我看
 wka	微孔
@@ -1416,7 +1416,7 @@ xea	想到
 xee	行动
 xei	迅速
 xeo	向来
-xeu	下面
+xeu	现有
 xf	西方 幸福
 xfa	消费
 xfe	兴奋
