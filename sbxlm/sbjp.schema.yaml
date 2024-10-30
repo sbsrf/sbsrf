@@ -37,9 +37,9 @@ switches:
   - name: postpone
     reset: 1  # 是否为后置模式
   #  states: [前置, 后置]
-  - options: [free, fixed, popping]
+  - options: [free, fixed, popping, mixed]
     reset: 2  # 默认为顶功模式
-  #  states: [自由, 固定, 顶功]
+  #  states: [自由, 固定, 顶功, 混合]
 
 sbjp_algebra:
   # 1. 冠零声

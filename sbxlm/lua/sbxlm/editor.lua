@@ -30,7 +30,7 @@ function this.func(key_event, env)
       end
     end
   end
-  -- 只在纯功模式下生效
+  -- 在自由和固定模式无效
   if context:get_option("free") or context:get_option("fixed") then
     return rime.process_results.kNoop
   end

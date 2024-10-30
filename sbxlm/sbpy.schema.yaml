@@ -28,9 +28,9 @@ switches:
   - name: postpone
     reset: 0
     states: [前置, 后置]
-  - options: [free, fixed, popping]
-    reset: 0
-    states: [自由, 固定, 顶功]
+  - options: [free, fixed, popping, mixed]
+    reset: 3
+    states: [自由, 固定, 顶功, 混合]
   - name: is_hidden
     states: [提示, 隐藏]
     reset: 1  # 1为隐藏：不提示第二页的固定字词
@@ -108,6 +108,24 @@ algebra:
 
 popping:
   __append:
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{1})*[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2})+[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{2,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 顶功模式，单字、二字词、三字词
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou]+"
