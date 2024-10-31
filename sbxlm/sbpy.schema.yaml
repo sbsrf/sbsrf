@@ -109,17 +109,17 @@ algebra:
 popping:
   __append:
     - when: mixed
-    # [aeuio]{3,}可以根据情况调整为[aeuio]或者[aeuio]+
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+    # [aeuio]可以根据情况调整为[aeuio]+以屏蔽sbbsb...词组
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2}([bpmfdtnlgkhjqxzcsrywv][aeuio])*[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
-      match: "[bpmfdtnlgkhjqxzcsrywv]([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2})+[bpmfdtnlgkhjqxzcsrywv]"
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2})+[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
-      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+"
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2,}[aeuio]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{2,}"
@@ -127,6 +127,10 @@ popping:
     - when: mixed
       match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
     # 顶功模式，单字、二字词、三字词
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou]+"
