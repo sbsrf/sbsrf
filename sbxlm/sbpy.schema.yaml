@@ -29,7 +29,7 @@ switches:
     reset: 0
     states: [前置, 后置]
   - options: [free, fixed, popping, mixed]
-    reset: 3
+    reset: 0
     states: [自由, 固定, 顶功, 混合]
   - name: is_hidden
     states: [提示, 隐藏]
