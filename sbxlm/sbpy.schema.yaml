@@ -109,13 +109,14 @@ algebra:
 popping:
   __append:
     - when: mixed
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{1})*[bpmfdtnlgkhjqxzcsrywv]"
+    # [aeuio]{3,}可以根据情况调整为[aeuio]或者[aeuio]+
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2}([bpmfdtnlgkhjqxzcsrywv][aeuio])*[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv]([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2})+[bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: mixed
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]+"
