@@ -25,7 +25,7 @@ switches:
     states: [简体, 繁体]
   - name: is_hidden
     states: [提示, 隐藏]
-    reset: 1  # 为1时隐藏无理固定数选字词
+    reset: 0  # 为1时隐藏无理固定数选字词
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
@@ -40,6 +40,8 @@ switches:
   - options: [free, fixed, popping, mixed]
     reset: 2  # 默认为顶功模式
   #  states: [自由, 固定, 顶功, 混合]
+  - name: back_insert # 混合模式下的补码标识
+    reset: 0
 
 sbjp_algebra:
   # 1. 冠零声
@@ -66,7 +68,7 @@ translator:
     - sbpy.base
     - sbpy.ext
     - sbpy.tencent
-  fix_combination: false
+  fix_combination: true
   prism: sbjp
 
 sbjp_extra_bindings:

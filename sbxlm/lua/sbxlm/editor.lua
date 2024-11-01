@@ -30,8 +30,8 @@ function this.func(key_event, env)
       end
     end
   end
-  -- 在自由和固定模式无效
-  if context:get_option("free") or context:get_option("fixed") then
+  -- 在非顶功模式下和非回头补码时无效
+  if not context:get_option("popping") and not context:get_option("back_insert") then
     return rime.process_results.kNoop
   end
   -- 只对 aeiou 和 Backspace 键生效
