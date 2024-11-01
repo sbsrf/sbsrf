@@ -26,14 +26,14 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - name: postpone
-    reset: 1
+    reset: 0
     states: [前置, 后置]
   - options: [free, fixed, popping, mixed]
-    reset: 3
+    reset: 0
     states: [自由, 固定, 顶功, 混合]
   - name: is_hidden
     states: [提示, 隐藏]
-    reset: 0  # 1为隐藏：不提示第二页的固定字词
+    reset: 1  # 1为隐藏：不提示第二页的固定字词
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
@@ -169,7 +169,7 @@ translator:
     - sbpy.base
     - sbpy.ext
     - sbpy.tencent
-  fix_combination: true
+  fix_combination: false
 
 punctuator:
   import_preset: sbxlm
