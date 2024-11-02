@@ -114,8 +114,8 @@ popping:
     # 如果希望能顶声笔字，那么可以将下一行中的[aeuio]{3,}改为[aeuio]
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 如果希望词组末字有三码后就开始顶，那么可以将下一行中的[aeuio]{3,}改为[aeuio]{2,}
     - when: mixed
-      # 如果希望词组非首字三码能顶，那么可以将下一行中的[aeuio]{3,}改为[aeuio]{2,}
       match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
@@ -128,12 +128,12 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv]{2,}[aeuio]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
-      match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: mixed
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
+    - when: back_insert
+      match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{2,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 顶功模式，单字、二字词、三字词
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou]+"
