@@ -119,6 +119,9 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
+      match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2})*[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
