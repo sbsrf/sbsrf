@@ -117,6 +117,8 @@ popping:
     # 如果希望词组末字有三码后就开始顶，那么可以将下一行中的[aeuio]{3,}改为[aeuio]{2,}
     - when: mixed
       match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+    # 如果希望只支持顺序二字词，且从第二字的首码起顶屏，那么可注释掉上一行并启用下一行
+      #match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}[bpmfdtnlgkhjqxzcsrywv][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: mixed
       match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
