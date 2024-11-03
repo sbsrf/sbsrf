@@ -152,6 +152,11 @@ popping:
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
+    # 适用于各种模式的组合上屏
+    - match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2}){1,}[bpmfdtnlgkhjqxzcsrywv][aeuio]*"
+      accept: ";" 
+      prefix: 0
+      strategy: ignore
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou'"

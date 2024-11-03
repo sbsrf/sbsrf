@@ -179,7 +179,7 @@ sbxlm_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[a-z0-9]"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[aeuio0-9]"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"

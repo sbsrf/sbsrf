@@ -125,8 +125,13 @@ function this.func(key_event, env)
       end
       context:pop_input(1)
     end
-    if rule.prefix then
-      context:pop_input(input:len() - rule.prefix)
+    local index = string.find(string.reverse(input), "[bpmfdtnlgkhjqxzcsrywv]")
+    if rule.prefix and index then
+      if rule.prefix > 0 then
+        context:pop_input(input:len() - rule.prefix)
+      elseif rule.prefix == 0 then
+        context:pop_input(index)
+      end
     end
     -- 如果当前有候选，则执行顶屏；否则顶功失败，继续执行下一个规则
     if context:has_menu() then
@@ -136,11 +141,19 @@ function this.func(key_event, env)
       end
       success = true
     end
-    if rule.prefix then
-      context:push_input(input:sub(rule.prefix + 1))
-      if rule.strategy == strategies.ignore then
-        context:commit()
-        return rime.process_results.kAccepted
+    if rule.prefix and index then
+      if rule.prefix > 0 then
+        context:push_input(input:sub(rule.prefix + 1))
+        if rule.strategy == strategies.ignore then
+          context:commit()
+          return rime.process_results.kAccepted
+        end
+      elseif rule.prefix == 0 then
+        context:push_input(input:sub(input:len() - index + 1))
+        if rule.strategy == strategies.ignore then
+          context:commit()
+          return rime.process_results.kAccepted
+        end
       end
     end
     if success then
