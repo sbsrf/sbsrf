@@ -203,6 +203,7 @@ sbpy_extra_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: ";", send_sequence: "{Page_Down}{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: Tab, send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: "1", send_sequence: "{Home}{Right}" }
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]", accept: Tab, send_sequence: "{Home}{Right}{Right}{space}{space}" }
