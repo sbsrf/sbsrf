@@ -142,18 +142,16 @@ function this.func(key_event, env)
       success = true
     end
     if rule.prefix and index then
+      local tmpStr = ""
       if rule.prefix > 0 then
-        context:push_input(input:sub(rule.prefix + 1))
-        if rule.strategy == strategies.ignore then
-          context:commit()
-          return rime.process_results.kAccepted
-        end
+        tmpStr = input:sub(rule.prefix + 1)
       elseif rule.prefix == 0 then
-        context:push_input(input:sub(input:len() - index + 1))
-        if rule.strategy == strategies.ignore then
-          context:commit()
-          return rime.process_results.kAccepted
-        end
+        tmpStr = input:sub(input:len() - index + 1)
+      end
+      context:push_input(tmpStr)
+      if rule.strategy == strategies.ignore then
+        context:commit()
+        return rime.process_results.kAccepted
       end
     end
     if success then
