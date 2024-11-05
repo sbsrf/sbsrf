@@ -133,7 +133,7 @@ function this.func(key_event, env)
       and not key_event:release() and input:len() == 2 and context:get_option("mixed") then
       if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}") and not context:get_option("back_insert") then
         context:set_option("back_insert", true)
-      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]") and context:get_option("back_insert") then
+      else
         context:set_option("back_insert", false)
       end
   end

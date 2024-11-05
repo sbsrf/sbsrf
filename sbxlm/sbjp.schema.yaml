@@ -25,7 +25,7 @@ switches:
     states: [简体, 繁体]
   - name: is_hidden
     states: [提示, 隐藏]
-    reset: 0  # 为1时隐藏无理固定数选字词
+    reset: 1  # 为1时隐藏无理固定数选字词
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
