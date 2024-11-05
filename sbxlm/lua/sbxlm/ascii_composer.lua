@@ -129,7 +129,7 @@ function this.func(key_event, env)
   end
 
   -- 声笔拼音和声笔简拼在混合模式时的回头补码状态
-  if not ascii_mode and segment and segment:has_tag("abc") and schema_id == "sbpy" or schema_id == "sbjp"
+  if not ascii_mode and segment and segment:has_tag("abc") and (schema_id == "sbpy" or schema_id == "sbjp")
       and not key_event:release() and input:len() == 2 and context:get_option("mixed") then
       if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}") and not context:get_option("back_insert") then
         context:set_option("back_insert", true)
@@ -139,7 +139,7 @@ function this.func(key_event, env)
   end
 
   -- 声笔拼音和声笔简拼在组合变换时不造词
-  if not ascii_mode and segment and segment:has_tag("abc") and schema_id == "sbpy" or schema_id == "sbjp"
+  if not ascii_mode and segment and segment:has_tag("abc") and (schema_id == "sbpy" or schema_id == "sbjp")
       and not key_event:release() then
     local str = input:sub(segment._start, segment._end)
     if key_event.keycode == string.byte(";") then
