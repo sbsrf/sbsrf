@@ -93,6 +93,7 @@ engine:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - reverse_lookup_filter@reverse_lookup2
+    - reverse_lookup_filter@reverse_lookup3
     - lua_filter@*sbxlm.radicals
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
@@ -222,7 +223,12 @@ reverse_lookup:
   dictionary: sbfm.extended
 
 reverse_lookup2:
-  tags: [bihua, hypy, zhlf, sbjm]
+  tags: [bihua, zhlf, sbjm]
+  overwrite_comment: true
+  dictionary: sbfm
+
+reverse_lookup3:
+  tags: [hypy]
   overwrite_comment: false
   dictionary: sbfm
 
