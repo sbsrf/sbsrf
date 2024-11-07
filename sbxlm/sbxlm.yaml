@@ -244,25 +244,6 @@ zrxh_popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
-# 用于声笔拼音和声笔简拼的键绑定
-pyjp_bindings:
-  __append:
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "1", send_sequence: "{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "4", send_sequence: "{Page_Down}2" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "5", send_sequence: "{Page_Down}3" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "6", send_sequence: "{Page_Down}7" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "0", send_sequence: "{Page_Down}8" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}9" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: ";", send_sequence: "{Page_Down}{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: Tab, send_sequence: "{Page_Down}8" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: "1", send_sequence: "{Home}{Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "0", send_sequence: "{Home}{Right}{Right}" }
-    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
-    - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]", accept: Tab, send_sequence: "{Home}{Right}{Right}{space}{space}" }
 
 key_binder:
   bindings:
