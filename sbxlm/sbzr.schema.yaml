@@ -90,21 +90,6 @@ engine:
     - simplifier
     - uniquifier
 
-popping:
-  __append:
-    # 词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 大写字母输入词组
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
-      strategy: append
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]"
-      accept: "[a-z]"
-      strategy: append
-
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
@@ -114,9 +99,9 @@ speller:
     - derive/'//
   popping:
     __patch:
-      - /popping
       - sbxlm.yaml:/table_popping
       - sbxlm.yaml:/basic_popping
+      - sbxlm.yaml:/zrxh_popping
 
 translator:
   dictionary: sbzr

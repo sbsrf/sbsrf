@@ -173,15 +173,9 @@ sbxlm_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}"
-      accept: ";"
-      send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[aeuio0-9]"
-      accept: ";"
-      send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "Shift+space"
       send_sequence: "{F6}"
@@ -202,6 +196,73 @@ sbxlm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+# 用于声笔自整和声笔鹤整的键绑定
+zzhz_bindings:
+  __append:
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 0, send_sequence: "{End}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{4,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}2"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "Tab", send_sequence: "{Home}{Right}{Right}2{space}{space}"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: Tab, send_sequence: "2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: ";", send_sequence: "{Home}{Right}{space}{space}"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: ";", send_sequence: "{Home}{Right}{space}{space}"}
+    - { match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}", accept: ";", send_sequence: "{Home}{Right}{Right}{space}{space}" }
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}2"
+# 用于声笔自整和声笔鹤整的顶屏
+zzhz_popping:
+  __append:
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2,}[bpmfdtnlgkhjqxzcsrywv]{1,2}"
+      accept: ";"
+      prefix: 0
+      strategy: ignore   
+# 用于声笔自然和声笔小鹤的顶屏
+zrxh_popping:
+  __append:
+    # 词组顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 大写字母输入词组
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV]"
+      accept: "[a-z]"
+      strategy: append
+# 用于声笔拼音和声笔简拼的键绑定
+pyjp_bindings:
+  __append:
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "1", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "4", send_sequence: "{Page_Down}2" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "5", send_sequence: "{Page_Down}3" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "6", send_sequence: "{Page_Down}7" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: "0", send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]", accept: "'", send_sequence: "{Page_Down}9" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{1,2}", accept: ";", send_sequence: "{Page_Down}{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: Tab, send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: "1", send_sequence: "{Home}{Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "0", send_sequence: "{Home}{Right}{Right}" }
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 0, send_sequence: "{End}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]", accept: Tab, send_sequence: "{Home}{Right}{Right}{space}{space}" }
 
 key_binder:
   bindings:

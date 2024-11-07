@@ -37,13 +37,6 @@ engine:
     - navigator
     - express_editor
 
-sbhz_popping:
-  __append:
-    # 词组顶
-    - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[aeiou]+"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-
 sbhz_algebra:
   # 1. 执行双拼方案
   - xform/(?<=[zcs])h//
@@ -87,32 +80,21 @@ speller:
       - derive/^([a-z]{5}).+$/$1/
   popping:
     __patch:
-      - /sbhz_popping
-      - sbxlm.yaml:/basic_popping
+        - sbxlm.yaml:/basic_popping
+        - sbxlm.yaml:/zzhz_popping
 
 translator:
   __include: sbpy.schema.yaml:/translator
   prism: sbhz
-  fix_combination: false
+  fix_combination: true
 
 reverse_lookup:
   __include: sbpy.schema.yaml:/reverse_lookup
   comment_format:
     __include: /sbhz_algebra
 
-
-sbhz_extra_bindings:
-  __append:
-    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
-    - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "2" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: Tab, send_sequence: "2" }
-
 key_binder:
   bindings:
     __patch: 
       - sbxlm.yaml:/rime_key_bindings
-      - sbxlm.yaml:/sbxlm_basic_bindings
-      - /sbhz_extra_bindings
+      - sbxlm.yaml:/zzhz_bindings
