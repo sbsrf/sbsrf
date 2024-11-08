@@ -47,7 +47,7 @@ function this.func(translation, env)
 	for candidate in translation:iter() do
 		local input = candidate.preedit
 		-- 飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
-		if core.feixi(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,}")
@@ -57,7 +57,8 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
-		if not is_hidden and ((core.fm(id) or core.fd(id) or core.sp(id)) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}")
+		if ((core.fm(id) or core.fd(id) or core.sp(id)) 
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -69,7 +70,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 简码正码时提示一二简数选字词
-		if core.jm(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}[aeuio]{1,}") then
+		if core.jm(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}[aeuio]{1,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9;']") and is_enhanced) then
