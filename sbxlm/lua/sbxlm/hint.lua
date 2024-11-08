@@ -47,11 +47,11 @@ function this.func(translation, env)
 	for candidate in translation:iter() do
 		local input = candidate.preedit
 		-- 飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{1,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{2,}")
-					or (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;']") and is_enhanced) then
+					or (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;'][aeuio]?") and is_enhanced) then
 					candidate.comment = candidate.comment .. " " .. code
 				end
 			end
