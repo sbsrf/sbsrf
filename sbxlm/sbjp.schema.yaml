@@ -74,8 +74,9 @@ translator:
 
 sbjp_extra_bindings:
   __append:
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{4,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
+    - { match: "[bpmfdtnlgkhjqxzcsrywv]{4}", accept: "'", send_sequence: "{Home}{Right}{Right}{space}{Left}{space}{space}"}
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "1", send_sequence: "{Page_Down}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "4", send_sequence: "{Page_Down}2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "5", send_sequence: "{Page_Down}3" }
