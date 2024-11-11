@@ -23,6 +23,7 @@ switches:
     reset: 0
     states: [中文, 西文]
   - name: ascii_punct
+    reset: 0
     states: [。，, ．，]
   - name: zh_trad
     reset: 0
