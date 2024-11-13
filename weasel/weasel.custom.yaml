@@ -1,6 +1,6 @@
 # customized for sbxlm
 patch:
-  "style/color_scheme": aqua
+  "style/color_scheme": lost_temple
   "style/display_tray_icon": false
   "style/font_face": "LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"              # 候选字体
   "style/comment_font_face": "LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"      # 编码字体
