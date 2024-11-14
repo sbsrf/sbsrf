@@ -82,6 +82,7 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix
     - lua_filter@*sbxlm.postpone

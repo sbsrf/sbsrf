@@ -18,6 +18,12 @@ function this.init(env)
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
+	-- 声笔简拼和声笔拼音用声笔简码的简码
+	if id == 'sbjp' or id == 'sbpy' then dict_name = 'sbjm' end
+	-- 声笔自整用声笔自然的简码
+	if id == 'sbzz' then dict_name = 'sbzr' end
+	-- 声笔鹤整用声笔小鹤的简码
+	if id == 'sbhz' then dict_name = 'sbxh' end
 	env.reverse = rime.ReverseLookup(dict_name)
 end
 
@@ -30,14 +36,15 @@ end
 ---@param translation Translation
 ---@param env HintEnv
 function this.func(translation, env)
-	local is_enhanced = env.engine.context:get_option("is_enhanced")
+	local ctx = env.engine.context
+	local is_enhanced = ctx:get_option("is_enhanced")
 	--[[
 		0：隐藏，为不显示，即完全隐藏
 		1：有理，为显示23789有理组
 		2：无理，为显示14560无理组
 		3：显示，为显示所有数选字词
 	]]
-	local is_hidden = env.engine.context:get_option("hide")
+	local is_hidden = ctx:get_option("hide")
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
@@ -58,7 +65,7 @@ function this.func(translation, env)
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
 		if ((core.fm(id) or core.fd(id) or core.sp(id)) 
-		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -69,6 +76,33 @@ function this.func(translation, env)
 				end
 			end
 		end
+		-- 声笔简拼和声笔拼音在非自由模式下在常规码位上提示简码
+		-- 注意ctx:input和input(candidate.preedit)是不一样的，后者在音节间含有空格
+		if (id == 'sbpy' or id == 'sbjp') and not ctx:get_option("free")
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].+") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if ctx.input ~= code then
+					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9]?")) then
+						candidate.comment = candidate.comment .. " " .. code
+					elseif (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z0-9;']?")) then
+						candidate.comment = candidate.comment .. " " .. code
+					end
+				end
+			end
+		end
+
+		if (id == 'sbzz' or id == 'sbhz') and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].+") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if ctx.input ~= code then
+					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]*")) then
+						candidate.comment = candidate.comment .. " " .. code
+					end
+				end
+			end
+		end
+
 		-- 简码正码时提示一二简数选字词
 		if core.jm(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}[aeuio]{1,}") then
 			local codes = env.reverse:lookup(candidate.text)
@@ -80,6 +114,7 @@ function this.func(translation, env)
 				end
 			end
 		end
+
 		-- 除了以上情况之外，其他的提示都只需要用到首选字词的信息，所以其他字词可以直接通过
 		if i > 1 then
 		    -- 如果是双拼的声声词，也直接通过
@@ -168,10 +203,10 @@ function this.func(translation, env)
 				end
 				local comment = n1
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
-				if env.engine.context:get_option("irrational") then
+				if ctx:get_option("irrational") then
 					comment = n2
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n2.text, comment)
-				elseif entry_n2 and env.engine.context:get_option("both") then
+				elseif entry_n2 and ctx:get_option("both") then
 					comment = comment .. entry_n2.text .. n2
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry_n1.text, comment)
 				end

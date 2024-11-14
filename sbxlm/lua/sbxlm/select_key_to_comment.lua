@@ -55,7 +55,8 @@ function this.func(translation, env)
       end
     end
     if candidate.comment:len() > 0 then
-      if (schema_id == "sbpy" or schema_id == "sbjp") and segment:has_tag("abc") then
+      if (schema_id == "sbpy" or schema_id == "sbjp") and segment:has_tag("abc") 
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{1,2}") then
         candidate.comment = key .. candidate.comment
       else
         candidate.comment = candidate.comment .. ":" .. key
