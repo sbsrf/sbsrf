@@ -31,6 +31,12 @@ local function is_upper(ch)
   return ch >= 0x41 and ch <= 0x5a
 end
 
+---@param ch number
+local function is_lower(ch)
+  -- ch >= 'a' and ch <= 'z'
+  return ch >= 0x61 and ch <= 0x7a
+end
+
 ---@param context Context
 ---@param env AsciiComposerEnv
 local function switch_inline(context, env)
@@ -124,17 +130,19 @@ function this.func(key_event, env)
   end
   -- 在码长为1时，取消临时重码提示
   if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
-      and input:len() == 1 and context:get_option("single_display") then
+      and not key_event:release()and input:len() == 1 and context:get_option("single_display") then
     context:set_option("not_single_display", false)
   end
 
   -- 声笔拼音和声笔简拼在混合模式时的回头补码状态
   if not ascii_mode and segment and segment:has_tag("abc") and (schema_id == "sbpy" or schema_id == "sbjp")
-      and not key_event:release() and input:len() == 2 and context:get_option("mixed") then
-      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}") and not context:get_option("back_insert") then
-        context:set_option("back_insert", true)
-      else
-        context:set_option("back_insert", false)
+  and not key_event:release() and input:len() == 2 and context:get_option("mixed") then
+      if is_lower(key_event.keycode) then
+        if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}") then
+          context:set_option("back_insert", true)
+        else
+          context:set_option("back_insert", false)
+        end
       end
   end
 
