@@ -79,7 +79,7 @@ function this.func(translation, env)
 		-- 声笔简拼和声笔拼音在非自由模式下在常规码位上提示简码
 		-- 注意ctx:input和input(candidate.preedit)是不一样的，后者在音节间含有空格
 		if (id == 'sbpy' or id == 'sbjp') and not ctx:get_option("free")
-		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].+") then
+		and rime.match(ctx.input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2,}") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if ctx.input ~= code then

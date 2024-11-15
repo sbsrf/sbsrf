@@ -393,8 +393,15 @@ local function calculator_translator(input, seg)
   local result = load("return "..expe)()
   if result == nil then return end
   
+  -- 四舍五入到两位数
+  if type(result) == "number" then
+    result = round(result, 0.01)
+  end
+
   result = serialize(result)
+ 
   ---@cast result string
+
   yield(Candidate("number", seg.start, seg._end, result, "答案"))
   yield(Candidate("number", seg.start, seg._end, exp.." = "..result, "等式"))
 end
