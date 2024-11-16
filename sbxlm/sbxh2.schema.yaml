@@ -1,0 +1,8 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: sbxh2
+
+translator:
+  dictionary: sbxh.extended

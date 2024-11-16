@@ -86,7 +86,7 @@ speller:
 translator:
   __include: sbpy.schema.yaml:/translator
   prism: sbhz
-  fix_combination: true
+  fix_combination: false
 
 reverse_lookup:
   __include: sbpy.schema.yaml:/reverse_lookup
