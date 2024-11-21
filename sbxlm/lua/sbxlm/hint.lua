@@ -14,7 +14,7 @@ local this = {}
 
 ---@param env HintEnv
 function this.init(env)
-	env.memory = rime.Memory(env.engine, env.engine.schema)
+	env.memory = rime.Memory1(env.engine, env.engine.schema, "")
 	local id = env.engine.schema.schema_id
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
