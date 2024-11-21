@@ -148,6 +148,8 @@ speller:
 
 translator:
   dictionary: sbfm
+  user_dictionary: ""
+  enable_user_dict: false
   forced_selection: true
   single_selection: false
   enable_encoder: true
@@ -161,6 +163,8 @@ translator:
 
 extended:
   dictionary: sbfm.extended
+  user_dictionary: "sbfm"
+  enable_user_dict: true
 
 punctuator:
   import_preset: sbxlm

@@ -19,7 +19,7 @@ function this.init(env)
 	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = id == "sbfd" and "sbfm" or id
 	-- 声笔简拼和声笔拼音用声笔简码的简码
-	if id == 'sbjp' or id == 'sbpy' then dict_name = 'sbjm' end
+	if (id == 'sbjp' or id == 'sbpy') then dict_name = 'sbjm' end
 	-- 声笔自整用声笔自然的简码
 	if id == 'sbzz' then dict_name = 'sbzr' end
 	-- 声笔鹤整用声笔小鹤的简码

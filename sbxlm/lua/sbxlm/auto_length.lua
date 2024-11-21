@@ -14,7 +14,6 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_memory Memory
 ---@field dynamic_memory Memory
 ---@field reverse ReverseLookup
----@field reverse2 ReverseLookup
 ---@field enable_filtering boolean
 ---@field forced_selection boolean
 ---@field single_selection boolean
@@ -191,7 +190,6 @@ function this.init(env)
   env.dynamic_memory = rime.Memory1(env.engine, env.engine.schema, "extended")
   local config = env.engine.schema.config
   env.reverse = core.reverse(env.engine.schema.schema_id)
-  env.reverse2 = rime.ReverseLookup("sbfm")
   env.enable_filtering = config:get_bool("translator/enable_filtering") or false
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false

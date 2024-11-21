@@ -181,6 +181,8 @@ speller:
 
 translator:
   dictionary: sbfx
+  user_dictionary: ""
+  enable_user_dict: false
   enable_filtering: false
   forced_selection: true
   single_selection: false
@@ -195,6 +197,8 @@ translator:
 
 extended:
   dictionary: sbfx.extended
+  user_dictionary: "sbfx"
+  enable_user_dict: true
 
 punctuator:
   import_preset: sbxlm

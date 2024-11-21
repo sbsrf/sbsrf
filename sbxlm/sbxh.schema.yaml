@@ -106,6 +106,8 @@ speller:
 
 translator:
   dictionary: sbxh
+  user_dictionary: ""
+  enable_user_dict: false
   forced_selection: true
   single_selection: false
   enable_encoder: true
@@ -118,6 +120,8 @@ translator:
 
 extended:
   dictionary: sbxh.extended
+  user_dictionary: "sbxh"
+  enable_user_dict: true
 
 punctuator:
   import_preset: sbxlm
