@@ -68,8 +68,6 @@ speller:
 
 translator:
   __include: sbpy.schema.yaml:/translator
-  user_dictionary: ""
-  enable_user_dict: false
   prism: hypy
   preedit_format:
     - xform/([nl])v/$1ü/
