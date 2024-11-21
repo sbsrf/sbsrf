@@ -93,6 +93,8 @@ prelude:
   hypy:
     tag: hypy
     dictionary: sbpy
+    enable_user_dict: false
+    enable_encoder: false
     packs:
       - sbpy.base
     prism: hypy
