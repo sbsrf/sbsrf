@@ -69,7 +69,7 @@ function this.func(translation, env)
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
 		if ((core.fm(id) or core.fd(id) or core.sp(id)) 
-		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9aeuio][aeuio]{0,3}")) then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do

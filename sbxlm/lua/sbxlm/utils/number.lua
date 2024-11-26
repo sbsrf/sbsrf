@@ -21,6 +21,8 @@ local datechars = {
    ["n"] = "年",
    ["y"] = "月",
    ["r"] = "日",
+   ["d"] = "点",
+   ["i"] = "亿",
 }
 
 local confs = {

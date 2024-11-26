@@ -588,7 +588,7 @@ function this.func(input, segment, env)
       yield(cand)
       if count == 1 and env.single_display and not env.engine.context:get_option("not_single_display") then
         if (input:len() < 7 and core.fx(schema_id)
-          and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]+")) then
+          and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio23789][aeuio]+")) then
           break
         elseif (input:len() < 6) then
           break
