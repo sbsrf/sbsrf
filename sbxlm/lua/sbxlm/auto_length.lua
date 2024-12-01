@@ -29,6 +29,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field fast_change boolean
 ---@field is_buffered boolean
 ---@field is_enhanced boolean
+---@field enhanced_char boolean
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -37,6 +38,8 @@ local function static(input, env)
   -- 对简码特殊判断
   if env.third_pop and core.sss(input) then
     return false
+  elseif env.enhanced_char and not env.third_pop and core.ssb(input) and core.jm(env.engine.schema.schema_id) then
+    return true
   end
   -- 对双拼特殊判断
   if env.fast_change and core.sxb(input) and core.sp(env.engine.schema.schema_id) then
@@ -237,9 +240,17 @@ local function dynamic(input, env)
   local schema_id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
-  if core.jm(schema_id) or core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
+  if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input) then
+    return dtypes.invalid
+  elseif core.jm(schema_id) then
+    if input:len() == 3 then
+      return dtypes.short
+    else
+      return input:len() - 3
+    end
+  elseif core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
-  end
+  end 
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
   -- 因此，将编码的长度减去 4 就分别对应了上述的 short, base, select, full 四种情况
   -- 但是，如果以 sssS 格式输入多字词，那么基本编码的长度是 4，扩展编码是 6，在 5 码时选重
@@ -426,6 +437,7 @@ function this.func(input, segment, env)
   env.fast_change = env.engine.context:get_option("fast_change") or false
   env.single_display = env.engine.context:get_option("single_display") or false
   env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
+  env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
   local schema_id = env.engine.schema.schema_id
 
   if env.engine.context:get_option("ascii_mode") then
@@ -438,6 +450,8 @@ function this.func(input, segment, env)
     local input2 = input
     if core.feixi(schema_id) and env.is_enhanced and rime.match(input2, "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789][aeuio]?") then
       input2 = input2:sub(1,2) .. fx_exchange[input2:sub(3,3)] .. input2:sub(4,-1)
+    elseif core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
+      input2 = input2 .. "'"
     end
     env.static_memory:dict_lookup(input2, false, 0)
     for entry in env.static_memory:iter_dict() do
@@ -491,8 +505,12 @@ function this.func(input, segment, env)
   -- 在列表的末尾加上未确认的用户自造词
   memory:user_lookup(kEncodedPrefix .. lookup_code, true)
   for entry in memory:iter_user() do
-    local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    filter(phrase, schema_id, input, phrases, known_words)
+    if entry.tick_diff and entry.tick_diff > env.delete_threshold then
+      memory:update_userdict(entry, -1, kEncodedPrefix)
+    else
+      local phrase = validate_phrase(entry, segment, "user_table", input, env)
+      filter(phrase, schema_id, input, phrases, known_words)
+    end
   end
   -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
   if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
@@ -533,6 +551,8 @@ function this.func(input, segment, env)
     local count = 1
     if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
       count = 3
+    elseif core.jm(schema_id) then
+      count = 2
     end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
@@ -540,7 +560,7 @@ function this.func(input, segment, env)
         goto continue
       end
       if count <= 9 and core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
-      or count <= 6 then
+      or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
       end
       yield(cand)
@@ -552,6 +572,8 @@ function this.func(input, segment, env)
     local order = string.find(env.engine.schema.select_keys, last)
     if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
       order = order + 2
+    elseif core.jm(schema_id) then
+      order = order + 1
     end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
