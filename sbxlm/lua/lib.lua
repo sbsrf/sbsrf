@@ -457,6 +457,7 @@ local _ReverseLookup
 ---@field custom_code string "hao", "ni hao"
 ---@field remaining_code_length integer "~ao"
 ---@field code Code
+---@field tick_diff integer
 local _DictEntry
 
 ---@class CommitEntry: DictEntry
