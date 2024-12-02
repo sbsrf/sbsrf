@@ -136,8 +136,7 @@ speller:
 
 translator:
   dictionary: sbjm
-  user_dictionary: ""
-  enable_user_dict: false
+  enable_user_dict: true
   enable_filtering: false #sss时过滤掉多字词
   forced_selection: true  #四码时必须选重
   single_selection: false #只在全码时选重

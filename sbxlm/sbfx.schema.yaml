@@ -181,8 +181,7 @@ speller:
 
 translator:
   dictionary: sbfx
-  user_dictionary: ""
-  enable_user_dict: false
+  enable_user_dict: true
   enable_filtering: false
   forced_selection: true
   single_selection: false

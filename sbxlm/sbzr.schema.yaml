@@ -106,8 +106,7 @@ speller:
 
 translator:
   dictionary: sbzr
-  user_dictionary: ""
-  enable_user_dict: false
+  enable_user_dict: true
   forced_selection: true
   single_selection: false
   enable_encoder: true
