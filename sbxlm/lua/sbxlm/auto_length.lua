@@ -251,23 +251,23 @@ local function dynamic(input, env)
   elseif core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
   end 
-  -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重
-  -- 因此，将编码的长度减去 4 就分别对应了上述的 short, base, select, full 四种情况
-  -- 但是，如果以 sssS 格式输入多字词，那么基本编码的长度是 4，扩展编码是 6，在 5 码时选重
-  -- 另外，如果开启快顶模式，则有一个 3 码时的码长调整位
-  -- 以下综合考虑了这些情况
+  -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重。
+  -- 因此，将编码的长度减去 4 就分别对应了上述的 short, base, select, full 四种情况。
+  -- 但是，如果以 sssS 格式输入多字词，那么基本编码的长度是 4，扩展编码是 6，在 5 码时选重。
+  -- 如果以 ssSbb 格式输入三字词，那么会多出3、4两个码长调整位。
+  -- 另外，如果开启快顶模式，那么二字词sssn有一个 4 码时的码长调整位。
+  -- 以下综合考虑了这些情况。
   if core.fx(schema_id) then
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       return input:len() - 3
-    elseif core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
       if input:len() == 3 then
         return dtypes.short
       elseif input:len() == 4 then
         return dtypes.short2
       end
-    end
-    if input:len() == 4 and not rime.match(input, ".{3}[23789]") then
-      return dtypes.invalid
+    elseif input:len() == 4 and rime.match(input, "[a-z]{3}[23789]") then
+      return dtypes.short
     end
     return input:len() - 4
   end
@@ -549,8 +549,12 @@ function this.func(input, segment, env)
     yield(cand)
   elseif dynamic(input, env) == dtypes.base then
     local count = 1
-    if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
-      count = 3
+    if core.fx(schema_id) then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
+        count = 3
+      elseif rime.match(input, "[a-z]{3}[23789][aeuio]?") then
+        count = 2
+      end
     elseif core.jm(schema_id) then
       count = 2
     end
@@ -559,7 +563,9 @@ function this.func(input, segment, env)
       if (env.known_candidates[cand.text] or inf) < count then
         goto continue
       end
-      if count <= 9 and core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
+      if count <= 9 and core.fx(schema_id) 
+      and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
+      or rime.match(input, "[a-z]{3}[23789][aeuio]?"))
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
       end
@@ -570,8 +576,12 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.select then
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
-    if core.fx(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
-      order = order + 2
+    if core.fx(schema_id) then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
+        order = order + 2
+      elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then
+        order = order + 1
+      end
     elseif core.jm(schema_id) then
       order = order + 1
     end
