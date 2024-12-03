@@ -152,7 +152,7 @@ popping:
       accept: "[aeuio]"
       strategy: append
     # 支持标点字顶屏
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]?"
       accept: "[;']"
       prefix: 2
     # 增强模式下的分号变换
@@ -227,7 +227,7 @@ sbfx_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]{1,3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]{2,3}"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
