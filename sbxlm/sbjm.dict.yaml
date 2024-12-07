@@ -224,6 +224,7 @@ encoder:
 昂首	vs
 盎	vmi'
 盎司	vs2
+凹	vki'
 凹凸	vt4
 凹陷	vx2
 敖	ve2
@@ -1785,7 +1786,6 @@ encoder:
 摁	vfi'
 嗯	ni7
 嗯	nki'
-嗯	vki'
 嗯嗯	vv6
 鞥	vgu'
 儿	vu
@@ -3069,7 +3069,6 @@ encoder:
 狐	hua'
 弧	ha1
 弧	hae'
-坏	he6
 胡	hv'
 胡闹	hn9
 胡子	hz4
@@ -3153,6 +3152,7 @@ encoder:
 徊	huui'
 槐	hmu'
 踝	hzi'
+坏	he6
 坏	ht'
 坏人	hr4
 欢	ha9
@@ -6714,7 +6714,6 @@ encoder:
 染	ro9
 染发	rf2
 染红	rh2
-獽	rqo'
 禳	rno'
 禳	ro0
 穰	ru0
@@ -6930,7 +6929,6 @@ encoder:
 荣获	rh0
 荣耀	r;i
 荣誉	ry5
-狨	rqe'
 绒	ra9
 绒	rje'
 峵	rso'
@@ -6977,7 +6975,6 @@ encoder:
 柔婉	rw2
 揉	re6
 揉	reie'
-揉	rq'
 煣	rha'
 糅	rma'
 蹂	ri4
@@ -8177,7 +8174,6 @@ encoder:
 婉	wno'
 绾	wjo'
 琬	wwo'
-晩	wqu'
 皖	wbo'
 碗	we1
 碗	wso'
@@ -8239,6 +8235,7 @@ encoder:
 往外	ww0
 往往	ww7
 惘	wli'
+暀	wqu'
 魍	wgi'
 忘	wo3
 忘	wx'
@@ -9594,6 +9591,7 @@ encoder:
 凿	zii'
 早	zi8
 早	zqe'
+早晨	zc0
 早已	zy2
 枣	zeia'
 皂	zuia'
@@ -9981,7 +9979,6 @@ encoder:
 资	zbo'
 资	zo3
 资本	zb5
-资产	zc0
 资金	zj7
 资料	zl9
 资源	z;o
@@ -11481,7 +11478,6 @@ encoder:
 厕	ccia'	5031
 沼	zdau'	5013
 溶	rdoo'	5010
-凹	vkia'	5001
 脯	pvei'	5001
 嵌	qsei'	5001
 崎	qseu'	4985
@@ -13690,6 +13686,7 @@ encoder:
 姥	mnei'	86
 簏	lpoe'	86
 旆	pfue'	86
+狨	rqee'	86
 凇	sdei'	86
 儇	xria'	86
 刿	glia'	85
@@ -16871,6 +16868,7 @@ encoder:
 煾	vhia'	1
 峎	lsae'	1
 峎	vsae'	1
+嗯	vkia'	5002
 鞥	yguo'	1
 儿	npaa'	1
 児	vvii'	1
@@ -22478,6 +22476,7 @@ encoder:
 橪	ymua'	1
 蹨	nzua'	1
 穣	rhoe'	1
+獽	rqoe'	1
 瀼	rdoe'	1
 孃	nnoe'	1
 鬤	nboe'	1
@@ -23083,6 +23082,8 @@ encoder:
 夀	svai'	1
 獣	sqoo'	1
 鏉	sjei'	1
+疋	pzie'	1
+疋	yzie'	1
 尗	sxie'	1
 杸	smua'	1
 陎	svue'	1
@@ -24059,6 +24060,7 @@ encoder:
 葂	mcua'	1
 葂	wcua'	1
 椀	wmoo'	1
+晩	wqua'	1
 晼	wqoo'	1
 皖	hboo'	1
 輓	wcua'	1
@@ -24089,7 +24091,6 @@ encoder:
 徃	wcue'	1
 菵	wcia'	1
 棢	wmia'	1
-暀	wquu'	1
 蛧	wcia'	1
 蝄	wcia'	1
 誷	wyia'	1
@@ -26984,7 +26985,7 @@ encoder:
 鴲	znua'	1
 蘵	zcei'	1
 鼅	zmue'	1
-禵	znia'	1
+禵	tnia'	1
 坧	zteu'	1
 姪	znea'	1
 聀	zvea'	1
@@ -27626,7 +27627,7 @@ encoder:
 捘	jfao'	1
 捘	zfao'	1
 銌	zjeu'	1
-莋	jcui'	1
+莋	zcui'	1
 秨	zhue'	1
 稓	zhei'	1
 筰	zpui'	1
