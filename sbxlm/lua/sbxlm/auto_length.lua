@@ -416,7 +416,7 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
         ;
       elseif env.rapid_pop and utf8.len(phrase.text) > 3 then
         ;
-      else
+      elseif not known_words[phrase.text] then
         table.insert(phrases, phrase)
         known_words[phrase.text] = true
       end
