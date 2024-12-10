@@ -236,6 +236,9 @@ sbfx_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "Shift+space"
+      send_sequence: "{F6}"
 sbfx_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
