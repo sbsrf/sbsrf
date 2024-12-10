@@ -28,6 +28,9 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field third_pop boolean
 ---@field fast_change boolean
 ---@field pro_char boolean
+---@field slow_pop boolean
+---@field fast_pop boolean
+---@field rapid_pop boolean
 ---@field is_buffered boolean
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
@@ -408,9 +411,15 @@ end
 
 local function filter(phrase, schema_id, input, phrases, known_words, env)
   if phrase then
-    if core.fx(schema_id) and utf8.len(phrase.text) ~= 3 and not env.pro_char
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
-      ;
+    if core.fx(schema_id) and not env.pro_char and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      if (env.slow_pop or env.fast_pop) and utf8.len(phrase.text) ~= 3 then
+        ;
+      elseif env.rapid_pop and utf8.len(phrase.text) > 3 then
+        ;
+      else
+        table.insert(phrases, phrase)
+        known_words[phrase.text] = true
+      end
     elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
     and utf8.len(phrase.text) >= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
@@ -438,6 +447,9 @@ function this.func(input, segment, env)
   env.fast_change = env.engine.context:get_option("fast_change") or false
   env.single_display = env.engine.context:get_option("single_display") or false
   env.pro_char = env.engine.context:get_option("pro_char") or false
+  env.slow_pop = env.engine.context:get_option("slow_pop") or false
+  env.fast_pop = env.engine.context:get_option("fast_pop") or false
+  env.rapid_pop = env.engine.context:get_option("rapid_pop") or false
   env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
   env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
   local schema_id = env.engine.schema.schema_id

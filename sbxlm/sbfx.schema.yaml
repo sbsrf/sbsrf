@@ -31,9 +31,9 @@ switches:
   - name: pro_char
     reset: 0
     states: [词组, 单字]
-  - name: fast_pop
+  - options: [slow_pop, fast_pop, rapid_pop]
     reset: 0
-    states: [ 慢顶, 快顶 ]
+    states: [ 慢顶, 快顶, 速顶 ]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
@@ -127,6 +127,11 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[aeiou]"
       prefix: 2
+     # 速顶模式下，声笔字结尾的单字也可以四二顶
+    - when: rapid_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[aeiou]"
+      prefix: 2
     # 单字五二顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
@@ -144,8 +149,8 @@ popping:
     # 增强模式词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 大写字母输入多字词
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}"
+    # 大写字母输入词组
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
     # 增强模式下缩减码变换
