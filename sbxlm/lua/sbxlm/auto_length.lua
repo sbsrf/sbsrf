@@ -27,6 +27,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
 ---@field fast_change boolean
+---@field pro_char boolean
 ---@field is_buffered boolean
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
@@ -260,7 +261,7 @@ local function dynamic(input, env)
   if core.fx(schema_id) then
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       return input:len() - 3
-    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV].*") then
       if input:len() == 3 then
         return dtypes.short
       elseif input:len() == 4 then
@@ -405,9 +406,9 @@ local function translate_by_split(input, segment, env)
   yield(phrase:toCandidate())
 end
 
-local function filter(phrase, schema_id, input, phrases, known_words)
+local function filter(phrase, schema_id, input, phrases, known_words, env)
   if phrase then
-    if core.fx(schema_id) and utf8.len(phrase.text) ~= 3
+    if core.fx(schema_id) and utf8.len(phrase.text) ~= 3 and not env.pro_char
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
     elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
@@ -436,6 +437,7 @@ function this.func(input, segment, env)
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.fast_change = env.engine.context:get_option("fast_change") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+  env.pro_char = env.engine.context:get_option("pro_char") or false
   env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
   env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
   local schema_id = env.engine.schema.schema_id
@@ -483,7 +485,7 @@ function this.func(input, segment, env)
   memory:user_lookup(lookup_code, true)
   for entry in memory:iter_user() do
     local phrase = validate_phrase(entry, segment, "user_table", input, env)
-    filter(phrase, schema_id, input, phrases, known_words)
+    filter(phrase, schema_id, input, phrases, known_words, env)
   end
   -- 对列表根据置顶与否以及频率对用户词条进行排序
   table.sort(phrases, function(a, b)
@@ -492,7 +494,7 @@ function this.func(input, segment, env)
   memory:dict_lookup(lookup_code, true, 0)
   for entry in memory:iter_dict() do
     local phrase = validate_phrase(entry, segment, "table", input, env)
-    filter(phrase, schema_id, input, phrases2, known_words)
+    filter(phrase, schema_id, input, phrases2, known_words, env)
   end
   -- 对列表根据置顶与否以及频率对固态词条进行排序
   table.sort(phrases2, function(a, b)
@@ -509,7 +511,7 @@ function this.func(input, segment, env)
       memory:update_userdict(entry, -1, kEncodedPrefix)
     else
       local phrase = validate_phrase(entry, segment, "user_table", input, env)
-      filter(phrase, schema_id, input, phrases, known_words)
+      filter(phrase, schema_id, input, phrases, known_words, env)
     end
   end
   -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
@@ -550,7 +552,7 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.base then
     local count = 1
     if core.fx(schema_id) then
-      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}") then
         count = 3
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]?") then
         count = 2
@@ -564,7 +566,7 @@ function this.func(input, segment, env)
         goto continue
       end
       if count <= 9 and core.fx(schema_id) 
-      and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
+      and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
       or rime.match(input, "[a-z]{3}[23789][aeuio]?"))
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
@@ -577,7 +579,7 @@ function this.func(input, segment, env)
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
     if core.fx(schema_id) then
-      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
         order = order + 2
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then
         order = order + 1
