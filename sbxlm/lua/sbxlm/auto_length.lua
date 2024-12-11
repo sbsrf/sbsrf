@@ -421,7 +421,7 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
         known_words[phrase.text] = true
       end
     elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
-    and utf8.len(phrase.text) >= 4
+    and utf8.len(phrase.text) >= 4 and env.enable_filtering
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
     elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))

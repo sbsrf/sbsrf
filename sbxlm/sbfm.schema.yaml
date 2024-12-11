@@ -149,6 +149,7 @@ speller:
 translator:
   dictionary: sbfm
   enable_user_dict: true
+  enable_filtering: true
   forced_selection: true
   single_selection: false
   enable_encoder: true
