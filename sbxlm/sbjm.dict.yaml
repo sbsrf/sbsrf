@@ -3939,7 +3939,6 @@ encoder:
 考试	ks9
 考研	ky5
 考验	ky2
-攷	kwe'
 拷贝	kb8
 烤	khe'
 烤肉	kr6
@@ -3966,6 +3965,7 @@ encoder:
 科研	ky3
 牁	ka1
 趷	kzu'
+疴	kbe'
 棵	kmi'
 痾	kba'
 痾	vba'
@@ -4232,7 +4232,8 @@ encoder:
 魁	ku8
 睽	kma'
 鍨	kja'
-夔	kbe'
+蘷	kwe'
+夔	kwo'
 躨	kzo'
 傀	kru'
 傀	ku1
@@ -4272,7 +4273,6 @@ encoder:
 阔	km'
 阔	ko8
 彍	ggo'
-韕	kwo'
 垃	lto'
 拉	le4
 拉	lf'
@@ -13294,7 +13294,6 @@ encoder:
 庥	xgui'	191
 睚	ymeu'	191
 鹕	hnei'	190
-疴	kbei'	189
 溘	kdei'	189
 钒	fjua'	188
 荇	xcuu'	188
@@ -19539,6 +19538,7 @@ encoder:
 嵪	qsoe'	1
 髛	kwia'	1
 丂	yhaa'	1
+攷	kwea'	1
 洘	kdei'	1
 薧	kcoe'	1
 犒	dnoe'	1
@@ -19733,8 +19733,7 @@ encoder:
 藈	kcia'	1
 櫆	kmui'	1
 鍷	kjeu'	1
-蘷	kcui'	1
-虁	kcou'	1
+虁	kwei'	1
 巙	nsou'	1
 尯	kyua'	1
 尯	wyua'	1
@@ -19816,6 +19815,7 @@ encoder:
 鞟	kgoe'	1
 濶	kdia'	1
 韕	cwoe'	1
+韕	kwoe'	1
 霩	kvoe'	1
 懖	gxuo'	1
 鞹	kgoe'	1
