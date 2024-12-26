@@ -212,8 +212,6 @@ zzhz_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: Tab, send_sequence: "2" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: ";", send_sequence: "{Home}{Right}{space}{space}"}
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: ";", send_sequence: "{Home}{Right}{space}{space}"}
-    - { match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}", accept: ";", send_sequence: "{Home}{Right}{Right}{space}{space}" }
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
@@ -230,7 +228,7 @@ zzhz_popping:
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[aeiou]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2,}[bpmfdtnlgkhjqxzcsrywv]{1,2}"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){1,}[bpmfdtnlgkhjqxzcsrywv]{1,2}"
       accept: ";"
       prefix: 0
       strategy: ignore   

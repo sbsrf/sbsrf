@@ -100,7 +100,7 @@ function this.func(translation, env)
 		if (id == 'sbzz' or id == 'sbhz') and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].+") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
-				if ctx.input ~= code then
+				if ctx.input:len() >= 3 and ctx.input ~= code then
 					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]*")) then
 						candidate.comment = candidate.comment .. " " .. code
 					end
