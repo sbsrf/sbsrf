@@ -18,7 +18,7 @@ switches:
   __include: sbpy.schema.yaml:/switches
   __patch:
     "@3/reset": 1  #将后置设为默认
-    "@4": { options: [fixed, popping], reset: 1, states: [普通, 顶功] }
+    "@4/reset": 2  #将顶功设为默认
     "@5": { name: is_hidden, reset: 1 }
 
 engine:
