@@ -1,39 +1,11 @@
 # Rime dictionary
 # encoding: utf-8
 #
-#
-# https://github.com/iDvel/rime-ice
-# ------- 大字表 -------
-# （已经不是最初的 41448 个字了，一直没有改名）
-#
-# 数据来源：
-# 字来自 Unihan https://www.unicode.org/Public/ > 16.0.0 > Unihan.zip > Unihan_Readings.txt > kMandarin
-# 音来自汉典 https://github.com/mozillazg/pinyin-data/ > zdic.txt
-# 因为 Unihan 的音存在错误及缺失的情况，汉典存在过多生僻罕见的字，结合了一下。
-#
-# 使用建议： 多个词库文件有重复时，靠前的词库文件中的权重生效。
-#          将 8105  作为第一字表，放到靠前位置；
-#          将 41448 作为第二字表，放到靠后位置。
-#          这样小字表里存在的字按权重靠前排列，大字表殿后，生僻字自动就排在末尾。
 ---
 name: sbpy.unihan
-version: "2024-08-30"
-sort: by_weight
+version: "2024-12-30"
 ...
-# 注释掉了一些
-# 唔	n
-# 嗯	n
-# 㕶	n
-# 𠮾	n
-# 𧗈	n
-# 呒	m
-# 呣	m
-# 嘸	m
-# 嗯	ng
-# 唔	ng
-# 㕶	ng
-# 哼	hng
-# +_+
+吖	a25143
 呵	a25112
 啊	a25152
 嗄	a25113
@@ -167,7 +139,7 @@ sort: by_weight
 銨	an34112
 錌	an34112
 铵	an31115
-闇	an51122
+闇	an25112
 隌	an52414
 雸	an14524
 鞌	an44553
@@ -179,6 +151,7 @@ sort: by_weight
 鶕	an41431
 鹌	an13425
 黯	an25431
+𩽾	an35251
 仰	ang32355
 卬	ang35522
 岇	ang25235
@@ -227,7 +200,7 @@ sort: by_weight
 熝	ao43344
 熬	ao11215
 爊	ao43344
-獒	ao11213
+獒	ao11215
 獓	ao35311
 璈	ao11211
 眑	ao25111
@@ -236,8 +209,7 @@ sort: by_weight
 翶	ao32511
 翺	ao32511
 聱	ao11215
-艹	ao
-122  
+艹	ao12222
 芺	ao12231
 蔜	ao12211
 螯	ao11215
@@ -408,6 +380,7 @@ sort: by_weight
 颁	ban34531
 魬	ban35251
 鳻	ban34533
+𨭉	ban41341
 傍	bang32414
 垹	bang12111
 塝	bang12141
@@ -448,6 +421,7 @@ sort: by_weight
 镑	bang31115
 鞤	bang12112
 髈	bang25545
+𠳐	bang25111
 佨	bao32355
 保	bao32251
 儤	bao32251
@@ -814,7 +788,7 @@ sort: by_weight
 閇	bi25112
 閈	bi25112
 閉	bi25112
-閟	bi51122
+閟	bi25112
 闬	bi42511
 闭	bi42512
 陛	bi52153
@@ -842,7 +816,7 @@ sort: by_weight
 匾	bian14513
 卞	bian41244
 变	bian41223
-変	bian41323
+変	bian41223
 峅	bian25254
 弁	bian54132
 徧	bian33245
@@ -910,6 +884,7 @@ sort: by_weight
 鳊	bian35251
 鴘	bian54132
 鶣	bian45132
+𨚕	bian54132
 俵	biao32112
 僄	biao32125
 儦	biao32413
@@ -926,8 +901,7 @@ sort: by_weight
 淲	biao44121
 滮	biao44121
 瀌	biao44141
-灬	biao
-4444 
+灬	biao44444
 熛	biao43341
 爂	biao32112
 猋	biao13441
@@ -968,7 +942,7 @@ sort: by_weight
 髟	biao12111
 鳔	biao35251
 麃	biao41352
-別	bie25153
+別	bie25135
 别	bie25153
 彆	bie43252
 徶	bie33243
@@ -986,7 +960,7 @@ sort: by_weight
 鱉	bie43252
 鳖	bie43252
 鼈	bie43252
-龞	bie24325
+龞	bie43252
 份	bin32345
 傧	bin32445
 儐	bin32445
@@ -1017,7 +991,7 @@ sort: by_weight
 臏	bin35114
 虨	bin21531
 豩	bin13533
-豳	bin13533
+豳	bin21353
 賓	bin44512
 賔	bin44552
 邠	bin34535
@@ -1042,8 +1016,7 @@ sort: by_weight
 偋	bing32513
 傡	bing32414
 兵	bing32121
-冫	bing
-41   
+冫	bing41111
 冰	bing41253
 垪	bing12143
 寎	bing44552
@@ -1309,6 +1282,7 @@ sort: by_weight
 跴	cai25121
 踩	cai25121
 采	cai34431
+䅟	can31234
 傪	can32545
 儏	can32213
 参	can54134
@@ -1383,8 +1357,7 @@ sort: by_weight
 鸧	cang34553
 傮	cao32125
 嘈	cao25112
-屮	cao
-522  
+屮	cao52222
 嶆	cao25212
 愺	cao44212
 慅	cao44254
@@ -1400,8 +1373,7 @@ sort: by_weight
 肏	cao34253
 艚	cao33541
 艸	cao52352
-艹	cao
-122  
+艹	cao12222
 草	cao12225
 蓸	cao12212
 螬	cao25121
@@ -1411,6 +1383,7 @@ sort: by_weight
 鏪	cao34112
 騲	cao12112
 鼜	cao12125
+𥕢	cao13251
 侧	ce32253
 側	ce32251
 冊	ce25221
@@ -1520,6 +1493,7 @@ sort: by_weight
 靫	cha12212
 餷	cha34451
 馇	cha35512
+𥻗	cha43123
 侪	chai32413
 儕	chai32414
 喍	chai25121
@@ -1723,7 +1697,7 @@ sort: by_weight
 鼚	chang12125
 仦	chao32234
 仯	chao32234
-剿	chao55515
+剿	chao55525
 劋	chao25125
 勦	chao55525
 吵	chao25123
@@ -1766,6 +1740,7 @@ sort: by_weight
 麨	chao12343
 鼂	chao25111
 鼌	chao25111
+㬚	che25114
 伡	che32151
 俥	che32125
 偖	che32121
@@ -1775,8 +1750,7 @@ sort: by_weight
 坼	che12133
 奲	che13412
 尺	che51344
-屮	che
-522  
+屮	che52222
 彻	che33215
 徹	che33241
 扯	che12121
@@ -1896,7 +1870,7 @@ sort: by_weight
 埕	cheng12125
 埩	cheng12135
 堘	cheng12143
-塍	cheng25114
+塍	cheng35114
 塖	cheng12131
 娍	cheng53113
 宬	cheng44513
@@ -1998,7 +1972,7 @@ sort: by_weight
 俿	chi32215
 傺	chi32354
 勅	chi12512
-勑	chi13434
+勑	chi12343
 匙	chi25111
 卶	chi35435
 叱	chi25135
@@ -2134,6 +2108,7 @@ sort: by_weight
 齒	chi21213
 齝	chi21213
 齿	chi21213
+㳘	chong44141
 充	chong41543
 冲	chong41251
 嘃	chong25141
@@ -2165,7 +2140,7 @@ sort: by_weight
 虫	chong25121
 蝩	chong25121
 蟲	chong25121
-衝	chong33131
+衝	chong33231
 褈	chong45234
 蹖	chong25121
 重	chong31251
@@ -2241,6 +2216,8 @@ sort: by_weight
 雦	chou32411
 魗	chou12151
 鮘	chou35251
+㤘	chu44235
+䢺	chu52252
 亍	chu11222
 俶	chu32211
 傗	chu32415
@@ -2428,6 +2405,7 @@ sort: by_weight
 陲	chui52312
 顀	chui32411
 龡	chui34125
+䏝	chun35111
 偆	chun32111
 唇	chun13115
 堾	chun12111
@@ -2502,8 +2480,7 @@ sort: by_weight
 輟	chuo12511
 辍	chuo15215
 辵	chuo33321
-辶	chuo
-454  
+辶	chuo45444
 逴	chuo21251
 酫	chuo12535
 鋜	chuo34112
@@ -2649,6 +2626,7 @@ sort: by_weight
 腠	cou35111
 輳	cou12511
 辏	cou15211
+㤘	cu44235
 促	cu32251
 卒	cu41343
 噈	cu25141
@@ -2874,6 +2852,7 @@ sort: by_weight
 韃	da12212
 龖	da41431
 龘	da41431
+𫟼	da31115
 代	dai32154
 侢	dai32125
 傣	dai32111
@@ -3097,8 +3076,7 @@ sort: by_weight
 黨	dang24345
 倒	dao32154
 刀	dao53333
-刂	dao
-22   
+刂	dao22222
 到	dao15412
 叨	dao25153
 嘄	dao25132
@@ -3163,9 +3141,9 @@ sort: by_weight
 底	de41335
 得	de33225
 徳	de33212
-德	de33213
+德	de33212
 恴	de41251
-悳	de13251
+悳	de12251
 惪	de12251
 旳	de25113
 棏	de12342
@@ -3207,6 +3185,7 @@ sort: by_weight
 鐙	deng34112
 镫	deng31115
 隥	deng52543
+䗖	di25121
 仾	di32155
 低	di32351
 俤	di32435
@@ -3349,6 +3328,7 @@ sort: by_weight
 髢	di12111
 鯳	di35251
 鸐	di54154
+𤧛	di11214
 嗲	dia25134
 佃	dian32251
 佔	dian32212
@@ -3471,6 +3451,7 @@ sort: by_weight
 鵰	diao35121
 鸟	diao35451
 鼦	diao32151
+䏲	die35114
 佚	die32311
 叠	die54545
 咥	die25115
@@ -3692,11 +3673,11 @@ sort: by_weight
 陡	dou52121
 餖	dou34451
 饾	dou35512
-鬥	dou11212
-鬦	dou11212
-鬪	dou11212
-鬬	dou11212
-鬭	dou11212
+鬥	dou21121
+鬦	dou21121
+鬪	dou21121
+鬬	dou21121
+鬭	dou21121
 凟	du41121
 剢	du13533
 匵	du11212
@@ -3858,7 +3839,7 @@ sort: by_weight
 潡	dun44141
 炖	dun43341
 燉	dun43344
-犜	dun31213
+犜	dun31214
 獤	dun35341
 盹	dun25111
 盾	dun33122
@@ -3879,6 +3860,7 @@ sort: by_weight
 頓	dun15251
 顿	dun15251
 驐	dun12112
+㙍	duo12154
 亸	duo41251
 仛	duo32315
 凙	duo41252
@@ -4084,6 +4066,7 @@ sort: by_weight
 鹗	e25125
 齃	e32511
 齶	e21213
+𥔲	e13251
 欸	ei54311
 誒	ei41112
 诶	ei45543
@@ -4280,8 +4263,7 @@ sort: by_weight
 鷭	fan34312
 仿	fang32415
 倣	fang32415
-匚	fang
-15   
+匚	fang15555
 坊	fang12141
 埅	fang52415
 堏	fang12344
@@ -4389,8 +4371,8 @@ sort: by_weight
 靅	fei14524
 非	fei21112
 靟	fei21112
-飛	fei53435
-飝	fei53435
+飛	fei53433
+飝	fei53433
 飞	fei53444
 餥	fei21112
 馡	fei31234
@@ -4477,6 +4459,7 @@ sort: by_weight
 黺	fen22431
 鼖	fen12122
 鼢	fen32151
+𣸣	fen44112
 丰	feng11122
 仹	feng32111
 俸	feng32111
@@ -4494,7 +4477,7 @@ sort: by_weight
 夆	feng35411
 奉	feng11134
 妦	feng53111
-寷	feng44511
+寷	feng44521
 封	feng12112
 峯	feng25235
 峰	feng25235
@@ -4511,7 +4494,7 @@ sort: by_weight
 湗	feng44112
 溄	feng44125
 漨	feng44135
-灃	feng44111
+灃	feng44121
 炐	feng43341
 烽	feng43343
 焨	feng43342
@@ -4533,18 +4516,18 @@ sort: by_weight
 艂	feng33541
 莑	feng12235
 葑	feng12212
-蘴	feng12211
+蘴	feng12221
 蜂	feng25121
 蠭	feng35411
 覂	feng12522
 諷	feng41112
 讽	feng45353
-豐	feng11122
+豐	feng21112
 賵	feng25111
 赗	feng25342
 逢	feng35411
 鄷	feng25122
-酆	feng11122
+酆	feng21112
 鋒	feng34112
 鎽	feng34112
 鏠	feng34112
@@ -4572,10 +4555,13 @@ sort: by_weight
 紑	fou55444
 缶	fou31125
 缹	fou31125
-缻	fou51125
+缻	fou31125
 雬	fou14524
 鴀	fou13243
-乀	fu55555
+㕮	fu25134
+㳇	fu44134
+䓛	fu12251
+乀	fu44444
 乶	fu12511
 付	fu32124
 伏	fu32134
@@ -4785,8 +4771,7 @@ sort: by_weight
 鍑	fu34112
 鍢	fu34112
 阜	fu32515
-阝	fu
-52   
+阝	fu52222
 附	fu52321
 韍	fu52125
 韨	fu11521
@@ -4877,6 +4862,7 @@ sort: by_weight
 钙	gai31115
 陔	gai52415
 隑	gai52252
+㽏	gan44134
 乾	gan12251
 亁	gan12251
 仠	gan32112
@@ -4945,6 +4931,7 @@ sort: by_weight
 鱤	gan35251
 鳡	gan35251
 鳱	gan11232
+㭎	gang12342
 冈	gang25344
 冮	gang41121
 刚	gang25342
@@ -5063,7 +5050,7 @@ sort: by_weight
 扢	ge12131
 挌	ge12135
 搁	ge12142
-搿	ge31123
+搿	ge31133
 擱	ge12125
 敋	ge35425
 格	ge12343
@@ -5175,6 +5162,7 @@ sort: by_weight
 鲠	geng35251
 鶊	geng41351
 鹒	geng41351
+䢼	gong12213
 侊	gong32243
 供	gong32122
 公	gong34544
@@ -5191,8 +5179,7 @@ sort: by_weight
 工	gong12111
 巩	gong12135
 幊	gong25212
-廾	gong
-132  
+廾	gong13222
 弓	gong51555
 恭	gong12213
 愩	gong44212
@@ -5284,6 +5271,7 @@ sort: by_weight
 雊	gou35251
 鞲	gou12212
 韝	gou52125
+䓛	gu12251
 估	gu32122
 傦	gu32255
 僱	gu32451
@@ -5392,6 +5380,7 @@ sort: by_weight
 鹘	gu25545
 鼓	gu12125
 鼔	gu12125
+𦙶	gu35111
 冎	gua25525
 刮	gua31225
 剐	gua25125
@@ -5444,7 +5433,7 @@ sort: by_weight
 柺	guai12342
 箉	guai31431
 罫	guai25221
-丱	guan53212
+丱	guan53221
 倌	guan32445
 关	guan43113
 冠	guan45113
@@ -5539,8 +5528,8 @@ sort: by_weight
 珖	guang11212
 硄	guang13251
 胱	guang35112
-臦	guang12152
-臩	guang12152
+臦	guang52152
+臩	guang52152
 茪	guang12224
 輄	guang12511
 逛	guang35311
@@ -5569,7 +5558,7 @@ sort: by_weight
 嶡	gui25213
 嶲	gui25232
 巂	gui25232
-帰	gui43511
+帰	gui23511
 庋	gui41312
 庪	gui41312
 廆	gui41332
@@ -5664,8 +5653,7 @@ sort: by_weight
 鳺	gui11343
 龜	gui32511
 龟	gui35251
-丨	gun
-2    
+丨	gun22222
 惃	gun44225
 棍	gun12342
 滚	gun44141
@@ -5693,8 +5681,7 @@ sort: by_weight
 啯	guo25125
 喐	guo25113
 嘓	guo25125
-囗	guo
-251  
+囗	guo25111
 囯	guo25112
 囶	guo25341
 囻	guo25515
@@ -5791,6 +5778,7 @@ sort: by_weight
 駴	hai12112
 骇	hai55141
 骸	hai25545
+㘎	han25142
 丆	han13333
 仠	han32112
 佄	han32122
@@ -6224,12 +6212,13 @@ sort: by_weight
 霐	hong14524
 霟	hong14524
 鞃	hong12212
-鬨	hong11212
+鬨	hong21121
 魟	hong35251
 鴻	hong44112
 鸿	hong44112
 黉	hong44345
 黌	hong32113
+𫟹	hong31115
 侯	hou32513
 候	hou32251
 厚	hou13251
@@ -6311,7 +6300,7 @@ sort: by_weight
 戯	hu21531
 戱	hu21531
 戲	hu21531
-戶	hu35133
+戶	hu33511
 户	hu45133
 戸	hu15133
 戽	hu45134
@@ -6430,7 +6419,7 @@ sort: by_weight
 埖	hua12112
 夻	hua13425
 姡	hua53131
-婲	hua51312
+婲	hua53112
 婳	hua53112
 嫿	hua53151
 嬅	hua53112
@@ -6502,6 +6491,7 @@ sort: by_weight
 褢	huai41325
 褱	huai41252
 踝	huai25121
+㬊	huan25113
 唤	huan25135
 喚	huan25135
 喛	huan25134
@@ -6597,6 +6587,7 @@ sort: by_weight
 鴅	huan35413
 鵍	huan44511
 鹮	huan25221
+㿠	huang32511
 偟	huang32325
 兤	huang24313
 凰	huang35325
@@ -6711,7 +6702,7 @@ sort: by_weight
 恚	hui12112
 恛	hui44225
 恢	hui44213
-恵	hui12511
+恵	hui12512
 悔	hui44231
 惠	hui12511
 慧	hui11121
@@ -6877,6 +6868,7 @@ sort: by_weight
 馄	hun35525
 魂	hun11543
 鼲	hun32151
+㸌	huo43341
 伙	huo32433
 佸	huo32312
 俰	huo32312
@@ -6911,8 +6903,7 @@ sort: by_weight
 濩	huo44112
 瀖	huo44114
 火	huo43344
-灬	huo
-4444 
+灬	huo44444
 煷	huo43344
 獲	huo35312
 癨	huo41341
@@ -6954,9 +6945,10 @@ sort: by_weight
 靃	huo14524
 韄	huo12212
 騞	huo12112
+䓫	ji12213
 丌	ji13222
 丮	ji51122
-乁	ji55555
+乁	ji44444
 乩	ji21251
 亟	ji52251
 亼	ji34111
@@ -7025,8 +7017,7 @@ sort: by_weight
 幾	ji55455
 庴	ji41312
 廭	ji41331
-彐	ji
-511  
+彐	ji51111
 彑	ji55111
 彶	ji33235
 徛	ji33213
@@ -7287,7 +7278,7 @@ sort: by_weight
 齎	ji41432
 齏	ji41432
 齐	ji41343
-齑	ji41342
+齑	ji41343
 乫	jia53251
 价	jia32343
 伽	jia32532
@@ -7311,7 +7302,7 @@ sort: by_weight
 家	jia44513
 岬	jia25225
 幏	jia25244
-徍	jia55212
+徍	jia33212
 徦	jia33251
 忦	jia44234
 恝	jia11125
@@ -7699,13 +7690,14 @@ sort: by_weight
 顜	jiang11221
 鱂	jiang35251
 鳉	jiang35251
+䴔	jiao41343
 交	jiao41343
 佼	jiao32413
 侥	jiao32153
 僥	jiao32121
 僬	jiao32324
 儌	jiao32325
-剿	jiao55515
+剿	jiao55525
 劋	jiao25125
 勦	jiao55525
 叫	jiao25152
@@ -7846,6 +7838,7 @@ sort: by_weight
 鷮	jiao31342
 鹪	jiao32411
 龣	jiao34125
+㛃	jie11125
 丯	jie33322
 介	jie34322
 价	jie32343
@@ -7860,8 +7853,7 @@ sort: by_weight
 刼	jie12154
 劫	jie12154
 劼	jie12125
-卩	jie
-52   
+卩	jie52222
 卪	jie52444
 吤	jie25134
 哜	jie25141
@@ -8121,6 +8113,7 @@ sort: by_weight
 鹶	jin21253
 黅	jin12212
 齽	jin21213
+䴖	jing11212
 丼	jing11324
 井	jing11322
 京	jing41251
@@ -8239,10 +8232,11 @@ sort: by_weight
 麖	jing41352
 麠	jing41352
 鼱	jing32151
+䌹	jiong55125
+䐃	jiong35112
 侰	jiong32511
 僒	jiong32445
-冂	jiong
-25   
+冂	jiong25555
 冋	jiong25251
 冏	jiong25342
 囧	jiong25342
@@ -8259,12 +8253,12 @@ sort: by_weight
 煚	jiong25111
 煛	jiong25111
 熲	jiong35433
-燛	jiong12152
+燛	jiong52152
 窘	jiong44534
 絅	jiong55444
 綗	jiong55444
-臦	jiong12152
-臩	jiong12152
+臦	jiong52152
+臩	jiong52152
 蘏	jiong12235
 蘔	jiong12235
 褧	jiong12211
@@ -8275,6 +8269,7 @@ sort: by_weight
 颎	jiong35433
 駉	jiong12112
 駫	jiong12112
+㠇	jiu25241
 丩	jiu52222
 久	jiu35444
 乆	jiu53444
@@ -8336,7 +8331,7 @@ sort: by_weight
 韭	jiu21112
 韮	jiu12221
 鬏	jiu12111
-鬮	jiu11212
+鬮	jiu21121
 鯦	jiu35251
 鳩	jiu35325
 鷲	jiu41251
@@ -8344,6 +8339,7 @@ sort: by_weight
 鹫	jiu41251
 麔	jiu41352
 齨	jiu21213
+䴗	ju25111
 且	ju25111
 举	ju44313
 乬	ju15155
@@ -8593,6 +8589,7 @@ sort: by_weight
 飬	juan43113
 餋	juan43113
 鹃	juan25125
+㵐	jue44113
 亅	jue22222
 倔	jue32513
 傕	jue32453
@@ -8710,6 +8707,7 @@ sort: by_weight
 鴂	jue51343
 鴃	jue32511
 鷢	jue13431
+𨟠	jue25111
 俊	jun32543
 儁	jun32324
 军	jun45151
@@ -8828,8 +8826,7 @@ sort: by_weight
 侃	kan32251
 偘	kan32251
 冚	kan45252
-凵	kan
-52   
+凵	kan52222
 刊	kan11222
 勘	kan12211
 坎	kan12135
@@ -8860,7 +8857,7 @@ sort: by_weight
 闞	kan25112
 阚	kan42551
 顑	kan13125
-鬫	kan11212
+鬫	kan21121
 龕	kan34125
 龛	kan34125
 亢	kang41355
@@ -8890,6 +8887,9 @@ sort: by_weight
 閌	kang25112
 闶	kang42541
 鱇	kang35251
+𡐓	kang12141
+𩾌	kang35251
+㸆	kao43343
 丂	kao15555
 尻	kao51335
 嵪	kao25241
@@ -9137,6 +9137,7 @@ sort: by_weight
 跨	kua25121
 銙	kua34112
 骻	kua25545
+㧟	kuai12144
 会	kuai34115
 侩	kuai32341
 儈	kuai32341
@@ -9183,7 +9184,7 @@ sort: by_weight
 鑧	kuan34112
 髋	kuan25545
 髖	kuan25545
-丱	kuang53212
+丱	kuang53221
 儣	kuang32413
 况	kuang41251
 劻	kuang11121
@@ -9295,7 +9296,7 @@ sort: by_weight
 蕢	kui12225
 藈	kui12225
 蘷	kui12213
-虁	kui12243
+虁	kui12213
 虧	kui21531
 蝰	kui25121
 謉	kui41112
@@ -9320,6 +9321,7 @@ sort: by_weight
 骙	kui55154
 魁	kui32511
 鮭	kui35251
+𫠆	kui12541
 困	kun25123
 坤	kun12125
 堃	kun41534
@@ -9438,28 +9440,28 @@ sort: by_weight
 鞡	la12212
 鬎	la12111
 鯻	la35251
-來	lai13434
+來	lai12343
 俫	lai32143
-倈	lai32134
-唻	lai25113
+倈	lai32123
+唻	lai25112
 娕	lai53112
-婡	lai53113
+婡	lai53112
 崃	lai25214
-崍	lai25213
-庲	lai41313
+崍	lai25212
+庲	lai41312
 徕	lai33214
-徠	lai33213
+徠	lai33212
 攋	lai12112
 来	lai14312
 梾	lai12341
 棶	lai12341
 櫴	lai12341
 涞	lai44114
-淶	lai44113
+淶	lai44112
 濑	lai44112
 瀨	lai44112
 瀬	lai44112
-猍	lai35313
+猍	lai35312
 琜	lai11211
 疠	lai41341
 癘	lai41341
@@ -9472,31 +9474,31 @@ sort: by_weight
 籁	lai31431
 籟	lai31431
 莱	lai12214
-萊	lai12213
+萊	lai12212
 藾	lai12212
 襰	lai45234
 誺	lai41112
-賚	lai13434
+賚	lai12343
 賴	lai12512
 赉	lai14312
 赖	lai12512
-逨	lai13434
-郲	lai13434
+逨	lai12343
+郲	lai12343
 錸	lai34112
 铼	lai31115
 頼	lai12512
-顂	lai13434
+顂	lai12343
 騋	lai12112
 鯠	lai35251
 鵣	lai12512
-鶆	lai13434
+鶆	lai12343
 麳	lai12343
 儖	lan32125
 兰	lan43111
 厱	lan13341
 啉	lan25112
 嚂	lan25112
-囒	lan22511
+囒	lan25112
 坔	lan25341
 壈	lan12141
 壏	lan12112
@@ -9506,7 +9508,7 @@ sort: by_weight
 孏	lan53112
 岚	lan25235
 嵐	lan25235
-幱	lan25251
+幱	lan25225
 惏	lan44212
 懒	lan44212
 懢	lan44212
@@ -9576,6 +9578,8 @@ sort: by_weight
 阑	lan42512
 韊	lan12212
 顲	lan43344
+㫰	lang25114
+㮾	lang45115
 勆	lang45115
 哴	lang25145
 啷	lang25145
@@ -9795,6 +9799,7 @@ sort: by_weight
 稜	leng31234
 薐	leng12231
 踜	leng25121
+㰀	li12343
 丽	li12542
 例	li32135
 俐	li32312
@@ -10199,6 +10204,13 @@ sort: by_weight
 駺	liang12112
 魉	liang32511
 魎	liang32511
+鿄	liang12135
+鿄	liang13251
+鿄	liang31115
+鿌	liang12135
+鿌	liang13251
+鿌	liang31115
+𫟅	liang55141
 了	liao52222
 僚	liao32134
 嘹	liao25113
@@ -10268,6 +10280,7 @@ sort: by_weight
 髎	liao25545
 鷯	liao13443
 鹩	liao13443
+䴕	lie13542
 儠	lie32555
 冽	lie41135
 列	lie13542
@@ -10281,7 +10294,7 @@ sort: by_weight
 姴	lie13542
 巁	lie25213
 巤	lie55525
-忚	lie44251
+忚	lie44252
 挒	lie12113
 挘	lie12123
 捩	lie12145
@@ -10395,6 +10408,7 @@ sort: by_weight
 鳞	lin35251
 麐	lin41352
 麟	lin41352
+㥄	ling44212
 令	ling34454
 伶	ling32344
 凌	ling41121
@@ -10441,7 +10455,7 @@ sort: by_weight
 紷	ling55444
 綾	ling55444
 绫	ling55112
-羐	ling21211
+羐	ling12212
 羚	ling43111
 翎	ling34454
 聆	ling12211
@@ -10644,6 +10658,7 @@ sort: by_weight
 龒	long41431
 龓	long13251
 龙	long13534
+䁖	lou25111
 偻	lou32431
 僂	lou32251
 剅	lou12514
@@ -10913,7 +10928,7 @@ sort: by_weight
 耣	lun11123
 腀	lun35113
 芲	lun12234
-菕	lun12235
+菕	lun12234
 蜦	lun25121
 論	lun41112
 论	lun45343
@@ -11254,7 +11269,7 @@ sort: by_weight
 帽	mao25225
 愗	mao54523
 懋	mao12345
-戼	mao13151
+戼	mao51512
 旄	mao41533
 昴	mao25113
 暓	mao54523
@@ -11344,7 +11359,7 @@ sort: by_weight
 殙	mei13543
 毎	mei31552
 每	mei31554
-沒	mei44153
+沒	mei44135
 没	mei44135
 沬	mei44111
 浼	mei44135
@@ -11427,6 +11442,8 @@ sort: by_weight
 门	men42555
 闷	men42545
 鞔	men12212
+𫞩	men11211
+㠓	meng25212
 儚	meng32122
 冡	meng45113
 勐	meng52125
@@ -11491,8 +11508,7 @@ sort: by_weight
 黾	meng25125
 鼆	meng45251
 侎	mi32431
-冖	mi
-45   
+冖	mi45555
 冞	mi45431
 冪	mi45122
 咪	mi25143
@@ -11552,7 +11568,7 @@ sort: by_weight
 糸	mi55423
 縻	mi41312
 羃	mi25221
-羋	mi12121
+羋	mi21221
 脒	mi35114
 芈	mi21211
 葞	mi12251
@@ -11599,8 +11615,7 @@ sort: by_weight
 婂	mian53132
 媔	mian53113
 嬵	mian53155
-宀	mian
-445  
+宀	mian44555
 愐	mian44213
 杣	mian12342
 棉	mian12343
@@ -11829,9 +11844,9 @@ sort: by_weight
 模	mo12341
 橅	mo12343
 歾	mo13543
-歿	mo13545
+歿	mo13543
 殁	mo13543
-沒	mo44153
+沒	mo44135
 没	mo44135
 沫	mo44111
 漠	mo44112
@@ -11977,6 +11992,7 @@ sort: by_weight
 雮	mu14524
 霂	mu14524
 鞪	mu54523
+𧿹	mu25121
 乸	na52555
 内	na25344
 南	na12254
@@ -12016,13 +12032,14 @@ sort: by_weight
 雫	na14524
 靹	na12212
 魶	na35251
+𦰡	na12251
 乃	nai53333
 佴	nai32122
 倷	nai32134
 奈	nai13411
 奶	nai53153
 妳	nai53135
-嬭	nai53123
+嬭	nai53113
 孻	nai52151
 廼	nai12535
 搱	nai12151
@@ -12132,7 +12149,7 @@ sort: by_weight
 铙	nao31115
 閙	nao25112
 闹	nao42541
-鬧	nao11212
+鬧	nao21121
 吶	ne25125
 呐	ne25125
 呢	ne25151
@@ -12240,6 +12257,8 @@ sort: by_weight
 鲵	ni35251
 麑	ni41352
 齯	ni21213
+𨺙	ni52321
+𫠜	ni21213
 卄	nian12222
 哖	nian25131
 唸	nian25134
@@ -12510,6 +12529,7 @@ sort: by_weight
 锘	nuo31115
 难	nuo54324
 難	nuo12212
+𦰡	nuo12251
 女	nv53111
 恧	nv13252
 朒	nv35112
@@ -12563,6 +12583,7 @@ sort: by_weight
 鴎	ou13453
 鷗	ou12512
 鸥	ou13453
+𠙶	ou52522
 啪	pa25112
 妑	pa53152
 帊	pa25252
@@ -12607,8 +12628,7 @@ sort: by_weight
 輫	pai12511
 迫	pai32511
 鎃	pai34112
-丬	pan
-412  
+丬	pan41222
 冸	pan41431
 判	pan43113
 叛	pan43113
@@ -12871,6 +12891,7 @@ sort: by_weight
 鬔	peng12111
 鵬	peng35113
 鹏	peng35113
+䴙	pi51325
 丕	pi13241
 仳	pi32153
 伓	pi32132
@@ -13004,6 +13025,7 @@ sort: by_weight
 鷿	pi51325
 鸊	pi51325
 鼙	pi12125
+㛹	pian53132
 便	pian32125
 偏	pian32451
 囨	pian25132
@@ -13040,6 +13062,7 @@ sort: by_weight
 骿	pian25545
 魸	pian35251
 鶣	pian45132
+𡎚	pian12145
 僄	piao32125
 剽	piao12522
 勡	piao12522
@@ -13074,8 +13097,7 @@ sort: by_weight
 骠	piao55112
 魒	piao32511
 鰾	piao35251
-丿	pie
-3    
+丿	pie33333
 嫳	pie43252
 撆	pie43252
 撇	pie12143
@@ -13126,7 +13148,7 @@ sort: by_weight
 娉	ping53125
 屏	ping51343
 屛	ping51331
-岼	ping25212
+岼	ping25214
 帡	ping25243
 帲	ping25231
 幈	ping25251
@@ -13256,8 +13278,7 @@ sort: by_weight
 撲	pu12122
 擈	pu12122
 攴	pu21544
-攵	pu
-3134 
+攵	pu31344
 普	pu43122
 暜	pu41431
 暴	pu25111
@@ -13305,6 +13326,7 @@ sort: by_weight
 镨	pu31115
 陠	pu52125
 鯆	pu35251
+䓫	qi12213
 七	qi15555
 丌	qi13222
 乞	qi31555
@@ -13540,6 +13562,7 @@ sort: by_weight
 麡	qi41352
 齊	qi41432
 齐	qi41343
+𨙸	qi12545
 冾	qia41341
 匼	qia13412
 卡	qia21124
@@ -13578,8 +13601,7 @@ sort: by_weight
 傔	qian32431
 僉	qian34125
 儙	qian32251
-凵	qian
-52   
+凵	qian52222
 刋	qian31322
 前	qian43125
 千	qian31222
@@ -13739,7 +13761,7 @@ sort: by_weight
 嫱	qiang53112
 嬙	qiang53112
 嶈	qiang25252
-廧	qiang41313
+廧	qiang41312
 強	qiang51554
 强	qiang51525
 彊	qiang51512
@@ -14095,6 +14117,7 @@ sort: by_weight
 鯖	qing35251
 鲭	qing35251
 黥	qing25431
+䓖	qiong12244
 儝	qiong32433
 卭	qiong12152
 嬛	qiong53125
@@ -14225,6 +14248,8 @@ sort: by_weight
 龜	qiu32511
 龝	qiu31234
 龟	qiu35251
+㭕	qu12341
+䓛	qu12251
 伹	qu32251
 佉	qu32121
 佢	qu32151
@@ -14378,8 +14403,7 @@ sort: by_weight
 牷	quan31213
 犈	quan31214
 犬	quan13444
-犭	quan
-353  
+犭	quan35333
 犮	quan13544
 狋	quan35311
 瑔	quan11213
@@ -14419,6 +14443,7 @@ sort: by_weight
 鰁	quan35251
 鳈	quan35251
 齤	quan43113
+𨟠	quan25111
 傕	que32453
 却	que12154
 卻	que34342
@@ -14459,6 +14484,7 @@ sort: by_weight
 雀	que23432
 鵲	que12212
 鹊	que12212
+𨟠	que25111
 囷	qun25312
 夋	qun54343
 宭	qun44551
@@ -14472,6 +14498,7 @@ sort: by_weight
 裠	qun51132
 逡	qun54343
 麇	qun41352
+䎃	ran25211
 冄	ran25111
 冉	ran25211
 呥	ran25125
@@ -14540,8 +14567,7 @@ sort: by_weight
 熱	re12134
 若	re12213
 人	ren34444
-亻	ren
-32   
+亻	ren32222
 仁	ren32111
 仞	ren32534
 仭	ren32534
@@ -14938,10 +14964,11 @@ sort: by_weight
 鰠	sao35251
 鱢	sao35251
 鳋	sao35251
+㴔	se44135
 啬	se12431
 嗇	se12343
 塞	se44511
-廧	se41313
+廧	se41312
 懎	se44212
 拺	se12112
 摵	se12113
@@ -14957,7 +14984,7 @@ sort: by_weight
 澁	se44121
 濇	se44112
 濏	se44111
-瀒	se44113
+瀒	se44112
 琗	se11214
 瑟	se11211
 璱	se11211
@@ -15157,6 +15184,9 @@ sort: by_weight
 鱔	shan35251
 鳝	shan35251
 鳣	shan35251
+鿃	shan12135
+鿃	shan13251
+鿃	shan31115
 丄	shang21111
 上	shang21111
 伤	shang32315
@@ -15409,7 +15439,7 @@ sort: by_weight
 乘	sheng31221
 偗	sheng32234
 剩	sheng31221
-剰	sheng31212
+剰	sheng31122
 勝	sheng35114
 升	sheng31322
 呏	sheng25131
@@ -15437,7 +15467,7 @@ sort: by_weight
 澠	sheng44125
 焺	sheng43342
 牲	sheng31213
-狌	sheng34331
+狌	sheng35331
 珄	sheng11213
 琞	sheng25113
 生	sheng31121
@@ -15467,6 +15497,8 @@ sort: by_weight
 陹	sheng52313
 鵿	sheng32511
 鼪	sheng32151
+䏡	shi35111
+䴓	shi12523
 世	shi12215
 丗	shi12221
 乨	shi54251
@@ -15583,8 +15615,7 @@ sort: by_weight
 硕	shi13251
 碩	shi13251
 示	shi11234
-礻	shi
-4524 
+礻	shi45244
 祏	shi45241
 秲	shi31234
 竍	shi41431
@@ -15657,8 +15688,7 @@ sort: by_weight
 飾	shi34451
 餙	shi34451
 餝	shi34451
-饣	shi
-355  
+饣	shi35555
 饰	shi35531
 馶	shi12112
 駛	shi12112
@@ -15687,8 +15717,7 @@ sort: by_weight
 守	shou44512
 寿	shou11131
 手	shou31122
-扌	shou
-121  
+扌	shou12111
 授	shou12134
 收	shou52313
 敊	shou21123
@@ -15879,8 +15908,7 @@ sort: by_weight
 挩	shui12134
 捝	shui12143
 水	shui25344
-氵	shui
-441  
+氵	shui44111
 氺	shui24134
 涗	shui44134
 涚	shui44143
@@ -15932,6 +15960,7 @@ sort: by_weight
 鎙	shuo34112
 鑠	shuo34112
 铄	shuo31115
+㟃	si25251
 丝	si55551
 亖	si11111
 伺	si32512
@@ -15996,8 +16025,7 @@ sort: by_weight
 糹	si55444
 絲	si55444
 緦	si55444
-纟	si
-551  
+纟	si55111
 缌	si55125
 罳	si25221
 耛	si11123
@@ -16039,6 +16067,7 @@ sort: by_weight
 鷥	si55444
 鸶	si55551
 鼶	si32151
+㧐	song12154
 倯	song32123
 傱	song32332
 凇	song41123
@@ -16169,7 +16198,7 @@ sort: by_weight
 穌	su35251
 窣	su44534
 簌	su31431
-粛	su51124
+粛	su51123
 粟	su12522
 素	su11215
 縤	su55444
@@ -16282,6 +16311,7 @@ sort: by_weight
 韢	sui52125
 髄	sui25545
 髓	sui25545
+𫟦	sui15214
 喰	sun25134
 孙	sun52123
 孫	sun52135
@@ -16358,7 +16388,7 @@ sort: by_weight
 侤	ta32121
 傝	ta32251
 嗒	ta25112
-嚃	ta25115
+嚃	ta25125
 嚺	ta25125
 塌	ta12125
 塔	ta12112
@@ -16549,6 +16579,7 @@ sort: by_weight
 锬	tan31115
 镡	tan31115
 顃	tan43344
+䣘	tang24345
 伖	tang32135
 倘	tang32243
 偒	tang32251
@@ -16693,6 +16724,7 @@ sort: by_weight
 鋱	te34112
 铽	te31115
 忒	tei14544
+䲢	teng35114
 儯	teng32431
 幐	teng35114
 滕	teng35114
@@ -16717,6 +16749,7 @@ sort: by_weight
 驣	teng12112
 鰧	teng35114
 鼟	teng12125
+䴘	ti33215
 体	ti32123
 俶	ti32211
 倜	ti32351
@@ -16881,6 +16914,7 @@ sort: by_weight
 鷆	tian35251
 鷏	tian12251
 黇	tian12212
+㕮	tiao25134
 佻	tiao32341
 啁	tiao25135
 嬥	tiao53154
@@ -16952,6 +16986,7 @@ sort: by_weight
 飻	tie34451
 餮	tie13543
 驖	tie12112
+䗴	ting25121
 亭	ting41251
 侱	ting32251
 侹	ting32312
@@ -17009,6 +17044,7 @@ sort: by_weight
 頲	ting31215
 颋	ting31215
 鼮	ting32151
+㛚	tong53154
 仝	tong34121
 佟	tong32354
 侗	tong32251
@@ -17078,8 +17114,9 @@ sort: by_weight
 餇	tong34451
 鮦	tong35251
 鲖	tong35251
-亠	tou
-41   
+𦒍	tong41431
+𫍣	tong45251
+亠	tou41111
 偷	tou32341
 偸	tou32341
 埱	tou12121
@@ -17101,6 +17138,7 @@ sort: by_weight
 飳	tou34451
 骰	tou25545
 黈	tou12212
+㻬	tu11211
 兎	tu32513
 兔	tu35251
 凃	tu41341
@@ -17172,7 +17210,7 @@ sort: by_weight
 鶟	tu44534
 鷋	tu12234
 鷵	tu51312
-鼵	tu32154
+鼵	tu32151
 剸	tuan12511
 团	tuan25123
 団	tuan25124
@@ -17373,7 +17411,7 @@ sort: by_weight
 媧	wa53125
 屲	wa32522
 帓	wa25211
-徍	wa55212
+徍	wa33212
 挖	wa12144
 搲	wa12144
 攨	wa12144
@@ -17516,7 +17554,7 @@ sort: by_weight
 彺	wang33211
 往	wang33241
 徃	wang33231
-徍	wang55212
+徍	wang33212
 忘	wang41545
 忹	wang44211
 惘	wang44225
@@ -17549,6 +17587,7 @@ sort: by_weight
 迋	wang11214
 迬	wang41121
 魍	wang32511
+㧑	wei12143
 为	wei43544
 亹	wei41321
 伟	wei32115
@@ -17570,8 +17609,7 @@ sort: by_weight
 喂	wei25125
 喡	wei25152
 喴	wei25113
-囗	wei
-251  
+囗	wei25111
 囲	wei25113
 围	wei25115
 圍	wei25521
@@ -17759,6 +17797,7 @@ sort: by_weight
 鲔	wei35251
 鳂	wei35251
 鳚	wei35251
+𣲗	wei44111
 伆	wen32353
 刎	wen35332
 吻	wen25135
@@ -18074,6 +18113,8 @@ sort: by_weight
 鼯	wu32151
 鼿	wu32511
 齀	wu32511
+𣲘	wu44111
+䜣	xi45331
 习	xi54111
 係	xi32355
 俙	xi32341
@@ -18121,7 +18162,7 @@ sort: by_weight
 徆	xi33212
 徙	xi33221
 徯	xi33234
-忚	xi44251
+忚	xi44252
 忥	xi31154
 忾	xi44231
 怬	xi44225
@@ -18188,7 +18229,7 @@ sort: by_weight
 焈	xi45135
 焟	xi43341
 焬	xi43342
-煕	xi15122
+煕	xi12251
 熂	xi43343
 熄	xi43343
 熈	xi31251
@@ -18342,7 +18383,7 @@ sort: by_weight
 騱	xi12112
 騽	xi12112
 驨	xi12112
-鬩	xi11212
+鬩	xi21121
 鯑	xi35251
 鰓	xi35251
 鰼	xi35251
@@ -18353,6 +18394,7 @@ sort: by_weight
 鸂	xi44134
 黖	xi25431
 鼷	xi32151
+𠅤	xi41251
 丅	xia12222
 下	xia12444
 乤	xia12455
@@ -18368,7 +18410,7 @@ sort: by_weight
 圷	xia12112
 埉	xia12113
 夏	xia13251
-夓	xia13251
+夓	xia32111
 夾	xia13434
 峡	xia25214
 峽	xia25213
@@ -18432,6 +18474,7 @@ sort: by_weight
 鰕	xia35251
 鶷	xia44511
 黠	xia25431
+㬎	xian25115
 仙	xian32252
 仚	xian34252
 伭	xian32415
@@ -18829,7 +18872,7 @@ sort: by_weight
 蕭	xiao12251
 薂	xiao12232
 藃	xiao12241
-虈	xiao12213
+虈	xiao12225
 虓	xiao35215
 蛸	xiao25121
 蟂	xiao25121
@@ -18858,6 +18901,7 @@ sort: by_weight
 鴵	xiao34153
 鷍	xiao32511
 鸮	xiao25115
+㙦	xie34112
 些	xie21213
 亵	xie41121
 伳	xie32122
@@ -18895,7 +18939,7 @@ sort: by_weight
 廨	xie41335
 徢	xie33215
 恊	xie44253
-愶	xie42253
+愶	xie44253
 慀	xie44234
 懈	xie44235
 拹	xie12153
@@ -19004,6 +19048,8 @@ sort: by_weight
 齛	xie21213
 齥	xie21213
 龤	xie34125
+𤫉	xie11214
+䜣	xin45331
 伈	xin32454
 伩	xin32413
 信	xin32411
@@ -19016,8 +19062,7 @@ sort: by_weight
 孞	xin52145
 廞	xin41334
 心	xin45444
-忄	xin
-442  
+忄	xin44222
 忻	xin44233
 惞	xin44233
 愖	xin44212
@@ -19080,7 +19125,7 @@ sort: by_weight
 涬	xing44112
 滎	xing43344
 煋	xing43342
-狌	xing34331
+狌	xing35331
 猩	xing35325
 瑆	xing11212
 皨	xing32511
@@ -19439,6 +19484,7 @@ sort: by_weight
 駨	xuan12112
 駽	xuan12112
 鰚	xuan35251
+𫠊	xuan55141
 乴	xue12133
 削	xue24325
 吷	xue25151
@@ -19450,8 +19496,7 @@ sort: by_weight
 岤	xue25244
 峃	xue44345
 嶨	xue32113
-彐	xue
-511  
+彐	xue51111
 怴	xue44215
 敩	xue44345
 斈	xue41345
@@ -19607,6 +19652,7 @@ sort: by_weight
 压	ya13121
 厑	ya13251
 厓	ya13121
+吖	ya25143
 呀	ya25115
 哑	ya25112
 唖	ya25112
@@ -19684,6 +19730,7 @@ sort: by_weight
 鸭	ya25112
 齖	ya21213
 齾	ya21531
+䶮	yan13534
 严	yan12243
 乵	yan41431
 俨	yan32122
@@ -19796,8 +19843,8 @@ sort: by_weight
 漹	yan44112
 灎	yan44125
 灔	yan44125
-灧	yan44111
-灩	yan44111
+灧	yan44121
+灩	yan44121
 炎	yan43344
 炏	yan43344
 烟	yan43342
@@ -19842,7 +19889,7 @@ sort: by_weight
 臙	yan35111
 艳	yan11123
 艶	yan25122
-艷	yan11122
+艷	yan21112
 芫	yan12211
 莚	yan12232
 菸	yan12241
@@ -19864,12 +19911,11 @@ sort: by_weight
 諺	yan41112
 讌	yan41112
 讞	yan41112
-讠	yan
-45   
+讠	yan45555
 谚	yan45414
 谳	yan45122
-豓	yan11122
-豔	yan11122
+豓	yan21112
+豔	yan21112
 豣	yan13533
 贋	yan13323
 贗	yan13323
@@ -20266,8 +20312,10 @@ sort: by_weight
 驜	ye12112
 鵺	ye41323
 鸈	ye22431
+㑊	yi32413
+㴔	yi44135
 一	yi11111
-乁	yi55555
+乁	yi44444
 乂	yi34444
 义	yi43444
 乊	yi34333
@@ -20449,7 +20497,7 @@ sort: by_weight
 炈	yi43343
 焬	yi43342
 焲	yi43344
-煕	yi15122
+煕	yi12251
 熠	yi43345
 熤	yi43345
 熪	yi43343
@@ -20658,6 +20706,8 @@ sort: by_weight
 黳	yi13113
 齮	yi21213
 齸	yi21213
+䜣	yin45331
+䲟	yin35251
 乑	yin32333
 伒	yin32331
 侌	yin34451
@@ -20691,14 +20741,13 @@ sort: by_weight
 崯	yin25234
 嶾	yin25234
 廕	yin41352
-廴	yin
-54   
+廴	yin54444
 引	yin51522
 愔	yin44241
 慇	yin33511
 慭	yin14312
-憖	yin13434
-憗	yin13434
+憖	yin12343
+憗	yin12343
 懚	yin44234
 斦	yin33123
 朄	yin25112
@@ -20727,7 +20776,7 @@ sort: by_weight
 烎	yin11324
 犾	yin35313
 狺	yin35341
-猌	yin13434
+猌	yin12343
 珢	yin11215
 璌	yin11214
 瘖	yin41341
@@ -20960,6 +21009,7 @@ sort: by_weight
 唷	yo25141
 喲	yo25155
 育	yo41542
+㶲	yong43343
 佣	yong32351
 俑	yong32542
 傭	yong32413
@@ -21033,7 +21083,7 @@ sort: by_weight
 鲬	yong35251
 鳙	yong35251
 鷛	yong41351
-丣	you13152
+丣	you13215
 亴	you41251
 优	you32135
 佑	you32132
@@ -21100,7 +21150,7 @@ sort: by_weight
 獶	you35313
 獿	you35313
 由	you25121
-甴	you25121
+甴	you25211
 疣	you41341
 痏	you41341
 祐	you45241
@@ -21153,6 +21203,8 @@ sort: by_weight
 麀	you41352
 黝	you25431
 鼬	you32151
+㳚	yu44113
+㺄	yu35334
 丂	yu15555
 与	yu15111
 乻	yu41533
@@ -21335,8 +21387,7 @@ sort: by_weight
 羽	yu54154
 翑	yu54154
 聿	yu51111
-肀	yu
-5112 
+肀	yu51122
 育	yu41542
 腴	yu35113
 臾	yu32151
@@ -21491,7 +21542,7 @@ sort: by_weight
 塬	yuan12113
 夗	yuan35455
 妧	yuan53111
-妴	yuan35355
+妴	yuan35455
 媛	yuan53134
 媴	yuan53112
 嫄	yuan53113
@@ -21514,7 +21565,7 @@ sort: by_weight
 櫞	yuan12345
 沅	yuan44111
 涴	yuan44144
-淵	yuan44131
+淵	yuan44132
 渁	yuan44125
 渆	yuan44143
 渊	yuan44134
@@ -21576,7 +21627,7 @@ sort: by_weight
 駌	yuan35455
 騵	yuan12112
 魭	yuan35251
-鳶	yuan15431
+鳶	yuan15432
 鴛	yuan35455
 鵷	yuan44535
 鶢	yuan34431
@@ -21935,6 +21986,7 @@ sort: by_weight
 遭	zao12512
 醩	zao12535
 鑿	zao22431
+𥖨	zao13251
 仄	ze13344
 侧	ze32253
 側	ze32251
@@ -22028,6 +22080,7 @@ sort: by_weight
 锃	zeng31115
 鬵	zeng15351
 鱛	zeng35251
+䃎	zha13251
 乍	zha31211
 偧	zha32134
 剳	zha12234
@@ -22066,7 +22119,7 @@ sort: by_weight
 炸	zha43343
 煠	zha43341
 牐	zha32153
-甴	zha25121
+甴	zha25211
 痄	zha41341
 皶	zha12342
 皻	zha21531
@@ -22325,6 +22378,7 @@ sort: by_weight
 鮡	zhao35251
 鳭	zhao53325
 鼌	zhao25111
+䗪	zhe41312
 乇	zhe31555
 乽	zhe12132
 厇	zhe13315
@@ -22602,8 +22656,7 @@ sort: by_weight
 執	zhi12143
 墆	zhi12113
 墌	zhi12141
-夂	zhi
-354  
+夂	zhi35444
 妷	zhi53131
 姪	zhi53115
 娡	zhi53112
@@ -22619,7 +22672,7 @@ sort: by_weight
 庢	zhi41315
 庤	zhi41312
 廌	zhi41352
-彘	zhi55131
+彘	zhi55115
 徏	zhi33221
 徝	zhi33212
 徴	zhi33225
@@ -22790,7 +22843,7 @@ sort: by_weight
 識	zhi41112
 识	zhi45251
 豑	zhi25122
-豒	zhi11122
+豒	zhi21112
 豸	zhi34435
 貭	zhi33122
 質	zhi33123
@@ -22843,6 +22896,8 @@ sort: by_weight
 鸷	zhi12135
 黹	zhi22431
 鼅	zhi31134
+𦭜	zhi12225
+𨙸	zhi12545
 中	zhong25122
 仲	zhong32251
 伀	zhong32345
@@ -22853,8 +22908,7 @@ sort: by_weight
 喠	zhong25131
 堹	zhong12131
 塚	zhong12145
-夂	zhong
-354  
+夂	zhong35444
 妐	zhong53134
 妕	zhong53125
 媑	zhong53131
@@ -22910,6 +22964,8 @@ sort: by_weight
 锺	zhong31115
 鴤	zhong32511
 鼨	zhong32151
+㑇	zhou32355
+㤘	zhou44235
 伷	zhou32251
 侜	zhou32335
 僽	zhou32312
@@ -23156,20 +23212,21 @@ sort: by_weight
 睉	zhuai25111
 跩	zhuai25121
 转	zhuai15211
+䏝	zhuan35111
 专	zhuan11544
 传	zhuan32115
 傳	zhuan32125
 僎	zhuan32515
 僝	zhuan32513
 剸	zhuan12511
-叀	zhuan12511
+叀	zhuan12512
 啭	zhuan25115
 囀	zhuan25112
 堟	zhuan12155
 塼	zhuan12112
 嫥	zhuan53112
 孨	zhuan52152
-専	zhuan12511
+専	zhuan12512
 專	zhuan12511
 恮	zhuan44234
 撰	zhuan12151
@@ -23395,7 +23452,7 @@ sort: by_weight
 字	zi44552
 孜	zi52131
 孳	zi43155
-孶	zi41554
+孶	zi12255
 崰	zi25255
 嵫	zi25243
 恣	zi41353
@@ -23409,7 +23466,7 @@ sort: by_weight
 洓	zi44112
 淄	zi44155
 渍	zi44111
-湽	zi44155
+湽	zi44115
 滋	zi44143
 滓	zi44144
 漬	zi44111
@@ -23448,7 +23505,7 @@ sort: by_weight
 茲	zi12255
 荢	zi12244
 菑	zi12255
-葘	zi12255
+葘	zi12215
 蓻	zi12212
 薋	zi12241
 虸	zi25121

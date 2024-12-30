@@ -1,8 +1,28 @@
 b	不
 ba	吧
+baa	巴
+bae	把
+bai	罢
+bao	疤
+bau	八
 bb	宾 并不
+bba	缤
+bbe	彬
+bbi	豳
+bbo	滨
+bbu	膑
 bc	报 不错
+bca	剥
+bce	抱
+bci	暴
+bco	宝
+bcu	保
 bd	白 不得
+bda	韛
+bde	百
+bdi	败
+bdo	襬
+bdu	伯
 be	百
 bea	比较
 bee	避开
@@ -10,12 +30,41 @@ bei	本报
 beo	暴露
 beu	变成
 bf	本 办法
+bfa	畚
+bfe	奔
 bfi	并非
+bfo	渀
+bfu	笨
 bg	崩 不过
+bga	绷
+bge	甭
+bgi	蹦
+bgo	迸
+bgu	錋
 bh	帮 保护
+bha	绑
+bhe	邦
+bhi	蚌
+bho	谤
+bhu	膀
 bi	比
+bia	避
+bie	毕
+bii	鄙
+bio	必
+biu	笔
 bj	办 不仅
+bja	绊
+bje	班
+bji	蝂
+bjo	半
+bju	般
 bk	并 不肯
+bka	屏
+bke	柄
+bki	昞
+bko	病
+bku	兵
 bl	不料 本来
 bla	罢了
 ble	不理
@@ -23,9 +72,29 @@ bli	变量
 blo	不论
 blu	巴黎
 bm	便 部门
+bma	边
+bme	鞭
+bmi	贬
+bmo	变
+bmu	笾
 bn	表 半年
+bna	婊
+bne	标
+bni	彪
+bno	裱
+bnu	镖
 bo	波
+boa	驳
+boe	博
+boi	跛
+boo	泊
+bou	伯
 bp	别 不怕
+bpa	縪
+bpe	莂
+bpi	咇
+bpo	憋
+bpu	徶
 bq	比起 并且
 bqa	百强
 bqe	版权
@@ -51,6 +120,11 @@ bti	标题
 bto	包头
 btu	摆脱
 bu	部
+bua	婄
+bue	布
+bui	步
+buo	补
+buu	堡
 bv	悲哀 不安
 bva	保安
 bve	北欧
@@ -58,6 +132,11 @@ bvi	彼岸
 bvo	备案
 bvu	不爱
 bw	被 把握
+bwa	臂
+bwe	杯
+bwi	北
+bwo	悖
+bwu	备
 bx	不幸 必须
 bxa	保险
 bxe	表现
@@ -78,6 +157,11 @@ bzo	保证
 bzu	部长
 c	出
 ca	查
+caa	叉
+cae	茶
+cai	嚓
+cao	察
+cau	刹
 cb	传播 出版
 cba	承办
 cbe	成本
@@ -85,17 +169,65 @@ cbi	初步
 cbo	传遍
 cbu	苍白
 cc	草 常常
+cca	巢
+cce	超
+cci	吵
+cco	潮
+ccu	钞
 cd	才 程度
+cda	綵
+cde	材
+cdi	财
+cdo	差
+cdu	采
 ce	车
+cea	尺
+cee	扯
+cei	畟
+ceo	测
+ceu	策
 cf	沉 充分
+cfa	参
+cfe	臣
+cfi	尘
+cfo	衬
+cfu	称
 cg	成 成功
+cga	承
+cge	城
+cgi	呈
+cgo	曾
+cgu	程
 ch	长 窗户
+cha	娼
+che	场
+chi	常
+cho	沧
+chu	偿
 ci	此
+cia	迟
+cie	持
+cii	吃
+cio	次
+ciu	辞
 cj	产 参加
+cja	参
+cje	残
+cji	餐
+cjo	惨
+cju	铲
 ck	揣 此刻
 cka	诚恳
+cke	搋
+cki	踹
 cko	仓库
+cku	膪
 cl	创 出来
+cla	刅
+cle	摐
+cli	幢
+clo	床
+clu	牕
 cm	沉默 充满
 cma	村民
 cme	场面
@@ -109,6 +241,11 @@ cni	车内
 cno	承诺
 cnu	菜鸟
 co	错
+coa	戳
+coe	措
+coi	啜
+coo	痤
+cou	锉
 cp	磁盘 产品
 cpa	彩屏
 cpe	彩票
@@ -122,7 +259,17 @@ cqi	插曲
 cqo	重庆
 cqu	春秋
 cr	传 承认
+cra	剶
+cre	椽
+cri	喘
+cro	穿
+cru	船
 cs	从 此时
+csa	骢
+cse	聪
+csi	虫
+cso	冲
+csu	重
 ct	春天 传统
 cta	出台
 cte	餐厅
@@ -130,7 +277,17 @@ cti	长叹
 cto	冲突
 ctu	朝廷
 cu	处
+cua	除
+cue	楚
+cui	躇
+cuo	初
+cuu	促
 cv	吹 从而
+cva	翠
+cve	摧
+cvi	崔
+cvo	粹
+cvu	垂
 cw	称为 成为
 cwa	创维
 cwe	从未
@@ -144,9 +301,24 @@ cxi	晨曦
 cxo	程序
 cxu	朝鲜
 cy	村 产业
+cya	纯
+cye	存
+cyi	蹲
+cyo	忖
+cyu	䲠
 cz	仇 存在
+cza	丑
+cze	抽
+czi	瞅
+czo	凑
+czu	愁
 d	的
 da	大
+daa	妲
+dae	打
+dai	哒
+dao	瘩
+dau	答
 db	大步 代表
 dba	躲避
 dbe	打扮
@@ -154,9 +326,23 @@ dbi	地步
 dbo	大半
 dbu	担保
 dc	道 调查
+dca	刀
+dce	到
+dci	蹈
+dco	盗
+dcu	倒
 dd	带 得到
+dda	逮
+dde	戴
+ddi	呆
+ddo	汏
+ddu	代
 de	得
 dea	达到
+dee	地
+dei	嘚
+deo	底
+deu	德
 df	扥 地方
 dfa	打发
 dfe	颠覆
@@ -164,10 +350,35 @@ dfi	大幅
 dfo	东方
 dfu	对付
 dg	等 大哥
+dga	登
+dge	磴
+dgi	瞪
+dgo	灯
+dgu	镫
 dh	当 的话
+dha	氹
+dhe	荡
+dhi	党
+dho	宕
+dhu	铛
 di	地
+dia	缔
+die	抵
+dii	迪
+dio	弟
+diu	第
 dj	但 大家
+dja	蛋
+dje	担
+dji	旦
+djo	单
+dju	丹
 dk	定 打开
+dka	奵
+dke	顶
+dki	盯
+dko	订
+dku	钉
 dl	道路 带来
 dla	大陆
 dle	道理
@@ -175,15 +386,47 @@ dli	大量
 dlo	独立
 dlu	带领
 dm	点 多么
+dma	殿
+dme	颠
+dmi	电
+dmo	店
+dmu	甸
 dn	调 多年
+dna	刁
+dne	掉
+dni	吊
+dno	凋
+dnu	雕
 do	多
+doa	堕
+doe	夺
+doi	踱
+doo	惰
+dou	躲
 dp	爹 大批
+dpa	叠
+dpe	碟
+dpi	跌
+dpo	谍
+dpu	迭
 dq	丢 地区
 dqa	党群
+dqe	丟
 dqi	电器
 dqo	道歉
+dqu	铥
 dr	断 当然
+dra	缎
+dre	椴
+dri	躖
+dro	端
+dru	段
 ds	动 但是
+dsa	絧
+dse	东
+dsi	咚
+dso	洞
+dsu	冬
 dt	地图 点头
 dta	电台
 dte	动态
@@ -191,10 +434,21 @@ dti	打听
 dto	低头
 dtu	独特
 du	都
+dua	妒
+due	毒
+dui	督
+duo	度
+duu	独
 dv	对 第二
+dva	队
+dve	堆
+dvi	懟
+dvo	兑
+dvu	镦
 dw	得 单位
 dwa	大卫
 dwe	第五
+dwi	嘚
 dwo	耽误
 dwu	地位
 dx	嗲 东西
@@ -204,9 +458,24 @@ dxi	弟兄
 dxo	担心
 dxu	对象
 dy	顿 第一
+dya	鶨
+dye	墩
+dyi	吨
+dyo	敦
+dyu	盾
 dz	都 弟子
+dza	陡
+dze	抖
+dzi	蚪
+dzo	斗
+dzu	兜
 f	发
 fa	法
+faa	発
+fae	珐
+fai	罚
+fao	阀
+fau	乏
 fb	分布 分别
 fba	反驳
 fbe	发表
@@ -232,8 +501,23 @@ fei	反正
 feo	飞来
 feu	放大
 ff	分 方法
+ffa	纷
+ffe	奋
+ffi	吩
+ffo	愤
+ffu	份
 fg	风 法国
+fga	缝
+fge	封
+fgi	峰
+fgo	疯
+fgu	凤
 fh	方 发挥
+fha	防
+fhe	芳
+fhi	昘
+fho	放
+fhu	仿
 fi	咐
 fia	否则
 fie	防止
@@ -241,6 +525,11 @@ fii	废旧
 fio	风光
 fiu	法师
 fj	反 房间
+fja	嬎
+fje	范
+fji	帆
+fjo	烦
+fju	翻
 fk	付款 放开
 fka	复垦
 fke	反抗
@@ -267,8 +556,10 @@ fno	烦恼
 fnu	飞鸟
 fo	佛
 foa	翻译
+foe	坲
 foi	访问
 foo	丰富
+fou	仏
 fp	肥胖 分配
 fpa	放屁
 fpe	发票
@@ -300,6 +591,11 @@ fti	附图
 fto	法庭
 ftu	繁体
 fu	夫
+fua	妇
+fue	副
+fui	幅
+fuo	府
+fuu	服
 fv	法案 反而
 fva	份额
 fve	妨碍
@@ -307,6 +603,11 @@ fvi	飞蛾
 fvo	方案
 fvu	风儿
 fw	非 服务
+fwa	飞
+fwe	菲
+fwi	啡
+fwo	废
+fwu	肥
 fx	放下 发现
 fxa	风险
 fxe	分析
@@ -320,9 +621,18 @@ fyi	反映
 fyo	发言
 fyu	费用
 fz	否 发展
+fza	紑
+fze	殕
+fzi	罘
+fzo	粰
+fzu	缶
 g	个
 ga	嘎
+gaa	尕
+gae	尬
+gai	呷
 gao	购买
+gau	伽
 gb	改变 根本
 gba	改编
 gbe	公布
@@ -330,13 +640,41 @@ gbi	告别
 gbo	干部
 gbu	官兵
 gc	高 工程
+gca	缟
+gce	搞
+gci	杲
+gco	糕
+gcu	告
 gd	该 感到
+gda	改
+gde	概
+gdi	赅
+gdo	盖
+gdu	钙
 ge	各
+gea	隔
+gee	哥
+gei	骼
+geo	阁
+geu	胳
 gf	跟 功夫
+gfa	艮
+gfe	根
+gfi	哏
 gfo	广泛
 gfu	股份
 gg	更 改革
+gga	绠
+gge	耿
+ggi	哽
+ggo	庚
+ggu	鲠
 gh	刚 规划
+gha	纲
+ghe	杠
+ghi	岗
+gho	港
+ghu	钢
 gi	归
 gia	刚刚
 gie	观点
@@ -344,9 +682,23 @@ gii	工业
 gio	观赏
 giu	各省
 gj	感 国家
+gja	敢
+gje	干
+gji	旰
+gjo	赣
+gju	肝
 gk	怪 公开
+gka	叏
+gke	拐
 gki	港口
+gko	旝
+gku	乖
 gl	光 管理
+gla	姯
+gle	桄
+gli	咣
+glo	广
+glu	逛
 gm	光芒 革命
 gma	购买
 gme	规模
@@ -360,6 +712,11 @@ gni	供暖
 gno	工农
 gnu	观念
 go	国
+goa	彉
+goe	过
+goi	果
+goo	郭
+gou	锅
 gp	挂牌 公平
 gpa	滚屏
 gpe	股票
@@ -373,7 +730,17 @@ gqi	歌曲
 gqo	感情
 gqu	国企
 gr	关 果然
+gra	观
+gre	棺
+gri	矔
+gro	官
+gru	管
 gs	公 告诉
+gsa	弓
+gse	工
+gsi	蚣
+gso	宫
+gsu	供
 gt	港台 共同
 gta	沟通
 gte	国土
@@ -381,18 +748,48 @@ gti	感叹
 gto	骨头
 gtu	钢铁
 gu	姑
+gua	孤
+gue	故
+gui	骨
+guo	雇
+guu	股
 gv	规 公安
+gva	癸
+gve	桂
+gvi	贵
+gvo	诡
+gvu	鬼
 gw	给 各位
+gwa	給
 gwe	国王
 gwi	官网
 gwo	更为
 gwu	怪物
 gx	挂 关系
+gxa	緺
+gxe	卦
+gxi	呱
+gxo	寡
+gxu	瓜
 gy	滚 关于
+gya	绲
+gye	棍
+gyi	睴
+gyo	衮
+gyu	鲧
 gz	够 工作
+gza	媾
+gze	构
+gzi	购
+gzo	沟
+gzu	狗
 h	和
 ha	哈
+haa	妎
+hae	奤
+hai	蛤
 hao	何以
+hau	铪
 hb	货币 毫不
 hba	回避
 hbe	回报
@@ -400,13 +797,41 @@ hbi	河北
 hbo	何必
 hbu	伙伴
 hc	好 何处
+hca	恏
+hce	耗
+hci	号
+hco	毫
+hcu	皓
 hd	还 活动
+hda	孩
+hde	醢
+hdi	嗨
+hdo	海
+hdu	氦
 he	何
+hea	贺
+hee	核
+hei	喝
+heo	河
+heu	合
 hf	很 恢复
 hfa	花费
+hfe	拫
 hfi	横幅
+hfo	恨
+hfu	狠
 hg	横 回归
+hga	绗
+hge	蘅
+hgi	哼
+hgo	恒
+hgu	衡
 hh	行 缓缓
+hha	绗
+hhe	杭
+hhi	吭
+hho	沆
+hhu	航
 hi	虎
 hia	哈哈
 hie	皇上
@@ -414,8 +839,23 @@ hii	行业
 hio	火光
 hiu	很少
 hj	汉 环境
+hja	函
+hje	韩
+hji	喊
+hjo	寒
+hju	含
 hk	怀 很快
+hka	劃
+hke	坏
+hki	踝
+hko	淮
+hku	徊
 hl	黄 回来
+hla	隍
+hle	荒
+hli	晃
+hlo	慌
+hlu	皇
 hm	画面 后面
 hma	黑马
 hme	号码
@@ -429,7 +869,11 @@ hni	回暖
 hno	胡闹
 hnu	怀念
 ho	活
-hoa	会议
+hoa	𬴃
+hoe	或
+hoi	夥
+hoo	火
+hou	伙
 hp	活泼 害怕
 hpa	黑屏
 hpe	琥珀
@@ -443,7 +887,17 @@ hqi	火器
 hqo	行情
 hqu	花钱
 hr	欢 忽然
+hra	缓
+hre	环
+hri	唤
+hro	寰
+hru	奂
 hs	红 还是
+hsa	弘
+hse	轰
+hsi	虹
+hso	洪
+hsu	訇
 ht	合同 回头
 hta	后退
 hte	航天
@@ -451,13 +905,41 @@ hti	话题
 hto	会谈
 htu	话筒
 hu	乎
+hua	弧
+hue	护
+hui	呼
+huo	湖
+huu	忽
 hv	会 黑暗
+hva	绘
+hve	挥
+hvi	回
+hvo	恢
+hvu	毁
 hw	黑 毫无
+hwa	嫼
 hwe	好玩
-hwu	海外
+hwi	嘿
+hwo	潶
+hwu	𬭶
 hx	话 或许
+hxa	骅
+hxe	花
+hxi	哗
+hxo	滑
+hxu	化
 hy	婚 还有
+hya	昬
+hye	魂
+hyi	睧
+hyo	混
+hyu	昏
 hz	后 孩子
+hza	翭
+hze	厚
+hzi	吼
+hzo	鲎
+hzu	候
 j	就
 ja	际
 jaa	继续
@@ -466,6 +948,11 @@ jai	军队
 jao	交通
 jau	姐姐
 jb	进 基本
+jba	尽
+jbe	禁
+jbi	紧
+jbo	津
+jbu	今
 jc	检查 基础
 jca	基层
 jce	坚持
@@ -503,6 +990,11 @@ jhi	惊呼
 jho	江湖
 jhu	机会
 ji	己
+jia	即
+jie	机
+jii	冀
+jio	记
+jiu	几
 jj	究竟 经济
 jja	拒绝
 jje	积极
@@ -510,9 +1002,29 @@ jji	紧紧
 jjo	解决
 jju	接近
 jk	经 加快
+jka	颈
+jke	静
+jki	睛
+jko	惊
+jku	径
 jl	将 建立
+jla	降
+jle	蒋
+jli	虹
+jlo	江
+jlu	僵
 jm	见 见面
+jma	建
+jme	检
+jmi	坚
+jmo	间
+jmu	件
 jn	叫 今年
+jna	娇
+jne	教
+jni	蛟
+jno	交
+jnu	脚
 jo	觉
 joa	精神
 joe	家庭
@@ -520,11 +1032,41 @@ joi	进门
 joo	渐渐
 jou	街道
 jp	接 金牌
+jpa	结
+jpe	节
+jpi	界
+jpo	洁
+jpu	解
 jq	九 加强
+jqa	纠
+jqe	救
+jqi	旧
+jqo	究
+jqu	久
 jr	卷 进入
+jra	娟
+jre	捐
+jri	圈
+jro	眷
+jru	倦
 js	炯 建设
+jsa	絅
+jse	蘔
+jsi	迥
+jso	窘
+jsu	澃
 jt	决 今天
+jta	绝
+jte	掘
+jti	崛
+jto	觉
+jtu	爵
 ju	据
+jua	局
+jue	巨
+jui	具
+juo	举
+juu	句
 jv	教案 骄傲
 jva	金娥
 jve	继而
@@ -538,7 +1080,17 @@ jwi	今晚
 jwo	绝望
 jwu	交往
 jx	家 进行
+jxa	加
+jxe	嘉
+jxi	甲
+jxo	浃
+jxu	假
 jy	军 教育
+jya	君
+jye	均
+jyi	峻
+jyo	浚
+jyu	俊
 jz	竞争 记者
 jza	紧张
 jze	简直
@@ -548,6 +1100,10 @@ jzu	机制
 k	可
 ka	卡
 kaa	考验
+kae	垰
+kai	咖
+kao	裃
+kau	胩
 kb	开办 恐怖
 kba	捆绑
 kbe	开本
@@ -555,13 +1111,41 @@ kbi	拷贝
 kbo	看病
 kbu	空白
 kc	考 看出
+kca	尻
+kce	拷
 kci	快餐
+kco	烤
+kcu	靠
 kd	开 看到
 kda	刊登
+kde	楷
+kdi	凯
+kdo	慨
+kdu	铠
 ke	科
+kea	骒
+kee	克
+kei	颗
+keo	刻
+keu	稞
 kf	肯 开发
+kfa	恳
+kfe	豤
+kfi	啃
+kfo	裉
+kfu	墾
 kg	坑 客观
+kga	阬
+kge	硁
+kgi	吭
+kgo	誙
+kgu	铿
 kh	康 客户
+kha	嫝
+khe	抗
+khi	嵻
+kho	慷
+khu	伉
 ki	咳
 kia	开口
 kie	考虑
@@ -569,8 +1153,23 @@ kii	开业
 kio	宽敞
 kiu	孔雀
 kj	看 看见
+kja	凵
+kje	刊
+kji	嵌
+kjo	惂
+kju	侃
 kk	快 看看
+kka	巜
+kke	块
+kki	哙
+kko	浍
+kku	筷
 kl	况 看来
+kla	纩
+kle	矿
+kli	眶
+klo	邝
+klu	狂
 km	科目 开门
 kma	快马
 kme	开幕
@@ -584,6 +1183,11 @@ kni	课内
 kno	苦恼
 knu	渴念
 ko	扩
+koa	姡
+koe	括
+koi	蛞
+koo	阔
+kou	籗
 kp	开盘 恐怕
 kpa	开辟
 kpe	开拍
@@ -598,7 +1202,16 @@ kqo	开启
 kqu	客气
 kr	款 客人
 kra	可忍
+kre	梡
+kri	髋
+kro	宽
+kru	鑧
 ks	空 开始
+ksa	孔
+kse	恐
+ksi	崆
+kso	宆
+ksu	倥
 kt	卡通 客厅
 kta	开通
 kte	开拓
@@ -606,7 +1219,17 @@ kti	课堂
 kto	空调
 ktu	卡特
 ku	苦
+kua	绔
+kue	酷
+kui	哭
+kuo	库
+kuu	秙
 kv	亏 可爱
+kva	隗
+kve	奎
+kvi	喟
+kvo	愧
+kvu	魁
 kw	可谓 渴望
 kwa	库娃
 kwe	可恶
@@ -614,14 +1237,54 @@ kwi	口味
 kwo	看完
 kwu	刊物
 kx	跨 科学
+kxa	姱
+kxe	夸
+kxi	晇
+kxo	恗
+kxu	胯
 ky	困 可以
+kya	婫
+kye	坤
+kyi	昆
+kyo	阃
+kyu	鲲
 kz	口 控制
+kza	彄
+kze	扣
+kzi	叩
+kzo	寇
+kzu	筘
 l	了
 la	拉
+laa	邋
+lae	落
+lai	啦
+lao	辣
+lau	腊
 lb	林 老板
+lba	繗
+lbe	琳
+lbi	临
+lbo	麟
+lbu	邻
 lc	老 露出
+lca	姥
+lce	劳
+lci	唠
+lco	牢
+lcu	佬
 ld	来 领导
+lda	娕
+lde	莱
+ldi	睐
+ldo	癞
+ldu	籁
 le	乐
+lea	阞
+lee	勒
+lei	叻
+leo	泐
+leu	肋
 lf	来访 浪费
 lfa	裂缝
 lfe	老夫
@@ -630,48 +1293,191 @@ lfo	立法
 lfu	礼服
 lg	冷 两国
 lga	乐观
+lge	楞
+lgi	睖
+lgo	愣
+lgu	倰
 lh	浪 厉害
+lha	鵖
+lhe	琅
+lhi	踉
+lho	郎
+lhu	狼
 li	里
+lia	力
+lie	理
+lii	哩
+lio	立
+liu	利
 lj	兰 立即
+lja	缆
+lje	蓝
+lji	览
+ljo	烂
+lju	篮
 lk	领 离开
+lka	灵
+lke	零
+lki	另
+lko	凌
+lku	令
 ll	两 理论
+lla	緉
+lle	辆
+lli	量
+llo	亮
+llu	俩
 lm	连 里面
+lma	练
+lme	联
+lmi	蠊
+lmo	怜
+lmu	脸
 ln	料 理念
+lna	了
+lne	聊
+lni	嘹
+lno	疗
+lnu	僚
 lo	落
+loa	络
+loe	萝
+loi	罗
+loo	洛
+lou	锣
 lp	烈 老婆
+lpa	巤
+lpe	列
+lpi	劣
+lpo	冽
+lpu	猎
 lq	流 离去
+lqa	绺
+lqe	柳
+lqi	蹓
+lqo	六
+lqu	留
 lr	乱 老人
 lra	例如
+lre	虊
+lri	羉
+lro	鸾
+lru	卵
 ls	龙 历史
+lsa	隆
+lse	弄
+lsi	咙
+lso	窿
+lsu	笼
 lt	略 老头
 lta	联通
+lte	掠
+lti	畧
 lto	龙头
+ltu	锊
 lu	路
+lua	陆
+lue	露
+lui	卢
+luo	炉
+luu	鲁
 lv	律 两岸
+lva	绿
+lve	捋
+lvi	虑
+lvo	率
+lvu	侣
 lw	类 另外
+lwa	垒
+lwe	雷
+lwi	累
+lwo	泪
+lwu	儡
 lx	俩 冷笑
 lxa	连续
 lxe	留下
 lxi	流星
 lxo	良心
+lxu	倆
 ly	论 利用
+lya	纶
+lye	轮
+lyi	囵
+lyo	沦
+lyu	伦
 lz	楼 来自
+lza	陋
+lze	露
+lzi	喽
+lzo	漏
+lzu	篓
 m	没
 ma	吗
+maa	马
+mae	码
+mai	骂
+mao	麻
+mau	犸
 mb	民 明白
+mba	缗
+mbe	抿
+mbi	皿
+mbo	悯
+mbu	敏
 mc	毛 名称
+mca	矛
+mce	茅
+mci	冒
+mco	袤
+mcu	贸
 md	买 目的
 mda	摩登
+mde	卖
+mdi	蝐
 mdo	名单
+mdu	脉
 me	么
+mea	孭
+mee	末
+mei	嚰
+meo	麼
 meu	密码
 mf	们 麻烦
 mfa	免费
+mfe	扪
+mfi	門
+mfo	门
+mfu	钔
 mg	梦 美国
+mga	孟
+mge	蒙
+mgi	盟
+mgo	懵
+mgu	猛
 mh	忙 模糊
+mha	孟
+mhe	芒
+mhi	蟒
+mho	盲
+mhu	釯
 mi	密
+mia	弥
+mie	蘼
+mii	咪
+mio	米
+miu	秘
 mj	满 面积
+mja	缦
+mje	蔓
+mji	曼
+mjo	慢
+mju	馒
 mk	明 门口
+mka	姳
+mke	茗
+mki	鸣
+mko	冥
+mku	名
 ml	目录 美丽
 mla	魅力
 mle	忙碌
@@ -679,11 +1485,34 @@ mli	面临
 mlo	明亮
 mlu	命令
 mm	面 慢慢
+mma	绵
+mme	棉
+mmi	眠
+mmo	湎
+mmu	免
 mn	妙 美女
+mna	缈
+mne	描
+mni	瞄
+mno	庙
+mnu	秒
 mo	模
+moa	陌
+moe	莫
+moi	默
+moo	魔
+mou	膜
 mp	灭 门派
+mpa	乜
+mpe	蔑
+mpi	咩
+mpo	滅
+mpu	篾
 mq	缪 目前
+mqa	繆
 mqe	明确
+mqi	唒
+mqo	谬
 mqu	没钱
 mr	茫然 美人
 mra	毛绒
@@ -704,12 +1533,23 @@ mti	煤炭
 mto	眉头
 mtu	媒体
 mu	目
+mua	母
+mue	木
+mui	睦
+muo	亩
+muu	穆
 mv	呒 名额
 mva	母爱
 mve	木耳
+mvi	嘸
 mvo	命案
 mvu	摩尔
 mw	美 门外
+mwa	妹
+mwe	梅
+mwi	昧
+mwo	煤
+mwu	每
 mx	某些 模型
 mxa	冒险
 mxe	梦想
@@ -723,49 +1563,150 @@ myi	贸易
 myo	满意
 myu	每月
 mz	某 名字
+mza	牟
+mze	麰
+mzi	眸
+mzo	谋
+mzu	侔
 n	你
 na	那
+naa	纳
+nae	捺
+nai	哪
+nao	衲
+nau	拿
 nb	您 那边
 nba	泥巴
+nbe	軠
+nbi	囜
 nbo	宁波
+nbu	恁
 nc	脑 农村
+nca	婥
+nce	挠
+nci	呶
+nco	闹
+ncu	猱
 nd	乃 难道
+nda	奶
+nde	奈
+ndi	哪
+ndo	疓
+ndu	氖
 ne	呢
+nea	那
+nee	抐
+nei	哪
+neo	讷
+neu	倷
 nf	嫩 能否
+nfa	媆
 nfe	那副
 nfi	那幅
 nfo	奶粉
+nfu	恁
 ng	能 那个
 nga	能给
+nge	薴
 ngi	凝固
+ngo	泞
+ngu	儜
 nh	囊 女孩
+nha	乪
+nhe	攮
+nhi	囔
+nho	灢
+nhu	馕
 ni	尼
+nia	妮
+nie	拟
+nii	睨
+nio	泥
+niu	倪
 nj	难 年纪
+nja	婻
+nje	南
+nji	男
+njo	湳
+nju	腩
 nk	宁 难看
+nka	嬣
+nke	拧
+nki	咛
+nko	凝
+nku	狞
 nl	娘 那里
+nla	孃
+nle	酿
 nli	哪里
 nlo	女郎
 nlu	男篮
 nm	年 你们
+nma	姩
+nme	拈
+nmi	跈
+nmo	粘
+nmu	念
 nn	鸟 男女
+nna	尿
+nne	茑
+nni	嬲
+nno	褭
+nnu	袅
 no	诺
+noa	娜
+noe	挪
+noi	喏
+noo	懦
+nou	傩
 np	聂 哪怕
+npa	乜
+npe	捏
+npi	蹑
+npo	涅
+npu	臬
 nq	牛 年轻
+nqa	纽
+nqe	扭
 nqi	扭曲
+nqo	忸
+nqu	钮
 nr	暖 女人
+nra	奻
 nre	耐热
 nri	牛肉
+nro	渜
+nru	餪
 ns	农 那时
+nsa	繷
+nse	弄
+nsi	哝
+nso	浓
+nsu	侬
 nt	虐 念头
 nta	南通
+nte	挪
 nti	难题
+nto	谑
 ntu	那条
 nu	怒
+nua	努
+nue	搙
+nui	呶
+nuo	忸
+nuu	傉
 nv	女 女儿
 nva	鸟儿
+nve	恧
+nvi	嗯
+nvo	籹
+nvu	钕
 nw	内 那位
+nwa	那
 nwe	女王
+nwi	哪
 nwo	难忘
+nwu	馁
 nx	男性 那些
 nxa	年限
 nxe	宁夏
@@ -780,12 +1721,35 @@ nyo	能源
 nyu	能用
 nz	耨 女子
 nza	男子
+nze	檽
+nzi	啂
+nzo	譳
+nzu	獳
 p	平
 pa	怕
+paa	妑
+pae	琶
+pai	帕
+pao	派
+pau	爬
 pb	品 旁边
+pba	嫔
+pbe	拼
+pbi	频
+pbo	涄
+pbu	贫
 pc	跑 平常
+pca	皰
+pce	抛
+pci	咆
+pco	袍
+pcu	刨
 pd	派 判断
 pda	排队
+pde	排
+pdi	哌
+pdo	湃
+pdu	牌
 pe	拍
 pea	碰到
 pee	朴素
@@ -794,11 +1758,40 @@ peo	跑来
 peu	庞大
 pf	喷 佩服
 pfa	批发
+pfe	翸
+pfi	噴
+pfo	湓
+pfu	盆
 pg	朋 屁股
+pga	纄
+pge	碰
+pgi	嘭
+pgo	怦
+pgu	鹏
 ph	旁 破坏
+pha	嫎
+phe	磅
+phi	螃
+pho	庞
+phu	胖
 pi	皮
+pia	劈
+pie	批
+pii	啤
+pio	疲
+piu	脾
 pj	盘 平静
+pja	爿
+pje	攀
+pji	盼
+pjo	判
+pju	番
 pk	评 片刻
+pka	屏
+pke	萍
+pki	蛢
+pko	瓶
+pku	凭
 pl	频率 漂亮
 pla	跑了
 ple	披露
@@ -806,11 +1799,29 @@ pli	批量
 plo	评论
 plu	毗邻
 pm	片 拼命
+pma	骗
+pme	萹
+pmi	蹁
+pmo	翩
+pmu	偏
 pn	飘 陪你
+pna	缥
+pne	票
+pni	瞟
+pno	漂
+pnu	篻
 po	破
+poa	颇
+poe	坡
+poi	嘙
+poo	婆
+pou	迫
 pp	瞥 偏偏
 ppa	屁屁
+ppe	撇
 ppi	频频
+ppo	嫳
+ppu	彡
 pq	聘请 脾气
 pqa	骠骑
 pqe	跑去
@@ -836,6 +1847,11 @@ pti	陪同
 pto	烹调
 ptu	胚胎
 pu	普
+pua	陠
+pue	扑
+pui	噗
+puo	谱
+puu	仆
 pv	破案 平安
 pva	偏爱
 pve	皮埃
@@ -843,6 +1859,11 @@ pvi	佩恩
 pvo	配额
 pvu	配偶
 pw	配 颇为
+pwa	陪
+pwe	培
+pwi	裴
+pwo	沛
+pwu	佩
 px	平行 培训
 pxa	拍戏
 pxe	剖析
@@ -856,6 +1877,10 @@ pyi	番禺
 pyo	培养
 pyu	飘逸
 pz	剖 批准
+pza	婄
+pze	掊
+pzi	哣
+pzo	裒
 pzu	品种
 q	去
 qa	驱
@@ -865,6 +1890,11 @@ qai	权限
 qao	却又
 qau	全力
 qb	亲 全部
+qba	矜
+qbe	秦
+qbi	噙
+qbo	寝
+qbu	侵
 qc	青春 清楚
 qca	取出
 qce	汽车
@@ -902,6 +1932,11 @@ qhi	漆黑
 qho	侵害
 qhu	强化
 qi	起
+qia	骑
+qie	其
+qii	器
+qio	齐
+qiu	气
 qj	瞧见 期间
 qja	全局
 qje	请教
@@ -910,9 +1945,28 @@ qjo	奇迹
 qju	全集
 qk	情 情况
 qka	勤恳
+qke	轻
+qki	晴
+qko	清
+qku	倾
 ql	强 起来
+qla	嫱
+qle	抢
+qli	跄
+qlo	羌
+qlu	腔
 qm	前 前面
+qma	纤
+qme	牵
+qmi	遣
+qmo	潜
+qmu	千
 qn	瞧 去年
+qna	缲
+qne	巧
+qni	峭
+qno	悄
+qnu	乔
 qo	请
 qoa	确认
 qoe	青衣
@@ -920,12 +1974,41 @@ qoi	其间
 qoo	其它
 qou	权益
 qp	且 强迫
+qpa	緀
+qpe	切
+qpi	唼
+qpo	怯
+qpu	锲
 qq	求 轻轻
+qqa	巯
+qqe	球
+qqi	囚
+qqo	酋
+qqu	秋
 qr	全 情人
+qra	劝
+qre	权
+qri	圈
+qro	拳
+qru	泉
 qs	穷 其实
+qsa	嬛
+qse	琼
+qsi	睘
+qso	穹
+qsu	筇
 qt	却 其他
 qta	前台
+qte	确
+qti	雀
+qto	阙
+qtu	缺
 qu	区
+qua	屈
+que	取
+qui	曲
+quo	渠
+quu	躯
 qv	去爱 请按
 qva	邱隘
 qve	其二
@@ -940,8 +2023,15 @@ qwo	请问
 qwu	前往
 qx	恰 情形
 qxa	情绪
+qxe	掐
+qxi	卡
+qxo	洽
+qxu	魻
 qy	群 企业
+qya	逡
 qye	区域
+qyi	踆
+qyo	裙
 qyu	其余
 qz	亲自 其中
 qza	妻子
@@ -963,6 +2053,11 @@ rbi	让步
 rbo	如冰
 rbu	日版
 rc	绕 如此
+rca	娆
+rce	扰
+rci	蛲
+rco	襓
+rcu	饶
 rd	人多 人大
 rda	荣登
 rde	热带
@@ -971,15 +2066,40 @@ rdo	认定
 rdu	认得
 re	热
 rea	柔软
+ree	惹
+rei	喏
+reo	渃
 reu	如有
 rf	任 若非
+rfa	忍
+rfe	韧
+rfi	屻
+rfo	认
+rfu	仁
 rg	仍 如果
+rga	陾
+rge	扔
 rgi	认购
+rgo	礽
 rgu	入股
 rh	让 如何
+rha	纕
+rhe	壤
+rhi	嚷
+rho	禳
+rhu	穰
 ri	日
+ria	驲
+rie	馹
+rii	囸
 rio	日常
+riu	釰
 rj	然 人家
+rja	媣
+rje	髯
+rji	冉
+rjo	染
+rju	肰
 rk	仍可 人口
 rka	入孔
 rke	认可
@@ -1005,6 +2125,11 @@ rni	入内
 rno	惹恼
 rnu	人脑
 ro	若
+roa	弱
+roe	楉
+roi	嵶
+roo	焫
+rou	偌
 rp	肉片 人品
 rpa	肉皮
 rpe	肉票
@@ -1018,7 +2143,17 @@ rqi	容器
 rqo	柔情
 rqu	人气
 rr	软 仍然
+rra	阮
+rre	碝
+rri	蠕
+rro	愞
+rru	朊
 rs	容 认识
+rsa	绒
+rse	荣
+rsi	嵘
+rso	溶
+rsu	狨
 rt	如图 如同
 rta	融通
 rte	热土
@@ -1026,7 +2161,17 @@ rti	认同
 rto	让它
 rtu	软体
 ru	如
+rua	孺
+rue	辱
+rui	嚅
+ruo	汝
+ruu	入
 rv	瑞 然而
+rva	緌
+rve	芮
+rvi	睿
+rvo	惢
+rvu	锐
 rw	人物 认为
 rwa	柔婉
 rwe	仍未
@@ -1041,9 +2186,23 @@ rxo	入学
 rxu	热血
 ry	润 人员
 rya	人又
+rye	橍
+ryi	瞤
+ryo	闰
+ryu	犉
 rz	柔 日子
+rza	媃
+rze	揉
+rzi	肉
+rzo	糅
+rzu	月
 s	是
 sa	杀
+saa	纱
+sae	萨
+sai	啥
+sao	沙
+sau	傻
 sb	随便 身边
 sba	手臂
 sbe	上班
@@ -1051,17 +2210,65 @@ sbi	失败
 sbo	生病
 sbu	设备
 sc	少 市场
+sca	绍
+sce	扫
+sci	哨
+sco	烧
+scu	稍
 sd	赛 说道
+sda	繺
+sde	酾
+sdi	晒
+sdo	塞
+sdu	腮
 se	色
+sea	韘
+see	摄
+sei	蛇
+seo	设
+seu	射
 sf	身 十分
+sfa	绅
+sfe	甚
+sfi	申
+sfo	神
+sfu	什
 sg	生 送给
+sga	圣
+sge	声
+sgi	省
+sgo	竔
+sgu	胜
 sh	上 时候
+sha	桑
+she	丧
+shi	尚
+sho	商
+shu	伤
 si	时
+sia	司
+sie	事
+sii	四
+sio	实
+siu	使
 sj	三 时间
+sja	叁
+sje	散
+sji	山
+sjo	闪
+sju	伞
 sk	摔 时刻
+ska	缞
 ske	思考
+ski	帅
+sko	率
+sku	甩
 sl	双 上来
+sla	孀
+sle	霜
 sli	商量
+slo	泷
+slu	艭
 sm	神秘 什么
 sma	市民
 sme	四面
@@ -1075,6 +2282,11 @@ sni	室内
 sno	水泥
 snu	少年
 so	说
+soa	缩
+soe	索
+soi	嗦
+soo	烁
+sou	所
 sp	食品 水平
 spa	受骗
 spe	审批
@@ -1089,7 +2301,16 @@ sqo	神情
 squ	生气
 sr	算 虽然
 sra	瘦弱
+sre	酸
+sri	閂
+sro	闩
+sru	狻
 ss	送 身上
+ssa	娀
+sse	松
+ssi	嵩
+sso	宋
+ssu	耸
 st	神态 身体
 sta	使她
 ste	生态
@@ -1097,19 +2318,48 @@ sti	试题
 sto	石头
 stu	尸体
 su	数
+sua	书
+sue	术
+sui	叔
+suo	诉
+suu	舒
 sv	水 是啊
+sva	随
+sve	碎
+svi	虽
+svo	谁
+svu	税
 sw	谁 所谓
 swa	侍卫
 swe	尚未
 swi	上网
+swo	誰
 swu	上午
 sx	刷 实现
 sxa	视线
+sxe	耍
+sxi	唰
+sxo	誜
+sxu	鮛
 sy	孙 所以
+sya	愻
+sye	损
+syi	瞬
+syo	潠
+syu	顺
 sz	手 身子
+sza	收
+sze	授
+szi	嗽
+szo	首
+szu	受
 t	他
 ta	她
 taa	团结
+tae	塔
+tai	踏
+tao	它
+tau	獭
 tb	同伴 特别
 tba	逃避
 tbe	同比
@@ -1117,10 +2367,23 @@ tbi	台北
 tbo	淘宝
 tbu	同胞
 tc	逃 提出
+tca	陶
+tce	套
+tci	啕
+tco	讨
+tcu	鼗
 td	太 听到
+tda	台
+tde	态
+tdi	跆
+tdo	汰
+tdu	胎
 te	特
 tea	提到
+tee	忑
+tei	蟘
 teo	头来
+teu	铽
 tf	台风 头发
 tfa	突发
 tfe	土匪
@@ -1128,11 +2391,35 @@ tfi	天赋
 tfo	投放
 tfu	通风
 tg	腾 通过
+tga	邆
+tge	藤
 tgi	泰国
+tgo	疼
+tgu	滕
 th	堂 谈话
+tha	帑
+the	趟
+thi	棠
+tho	唐
+thu	躺
 ti	体
+tia	屉
+tie	提
+tii	题
+tio	涕
+tiu	倜
 tj	谈 条件
+tja	弹
+tje	探
+tji	叹
+tjo	谭
+tju	贪
 tk	听 痛苦
+tka	婷
+tke	厅
+tki	蜓
+tko	庭
+tku	停
 tl	谈论 讨论
 tla	听了
 tle	透露
@@ -1140,10 +2427,29 @@ tli	铁路
 tlo	脱离
 tlu	条例
 tm	天 他们
+tma	屇
+tme	填
+tmi	田
+tmo	添
+tmu	甜
 tn	条 头脑
+tna	迢
+tne	挑
+tni	跳
+tno	调
+tnu	佻
 to	脱
+toa	陀
+toe	托
+toi	唾
+too	沱
+tou	妥
 tp	铁 谈判
 tpa	调皮
+tpe	餮
+tpi	贴
+tpo	怗
+tpu	鉄
 tq	提前 提起
 tqa	太强
 tqe	同期
@@ -1151,7 +2457,17 @@ tqi	天晴
 tqo	同情
 tqu	天气
 tr	团 突然
+tra	彖
+tre	抟
+tri	疃
+tro	湍
+tru	篿
 ts	同 同时
+tsa	通
+tse	桐
+tsi	瞳
+tso	痛
+tsu	铜
 tt	偷偷 太太
 tta	铁通
 tte	体坛
@@ -1159,7 +2475,17 @@ tti	听听
 tto	抬头
 ttu	团体
 tu	突
+tua	屠
+tue	土
+tui	图
+tuo	涂
+tuu	徒
 tv	推 图案
+tva	退
+tve	忒
+tvi	蜕
+tvo	褪
+tvu	腿
 tw	忒 台湾
 twa	条纹
 twe	天王
@@ -1173,10 +2499,24 @@ txi	太小
 txo	同学
 txu	体系
 ty	吞 统一
+tya	臀
+tye	屯
+tyi	囤
+tyo	褪
+tyu	豚
 tz	头 同志
+tza	妵
+tze	投
+tzi	骰
+tzo	咅
+tzu	透
 v	而
 va	啊
+vaa	阿
+vae	醃
+vai	嗄
 vao	恶习
+vau	腌
 vb	二百 耳边
 vba	岸边
 vbe	案板
@@ -1184,10 +2524,28 @@ vbi	阿贝
 vbo	阿扁
 vbu	欧版
 vc	奥 暗藏
+vca	媪
+vce	敖
+vci	凹
+vco	澳
+vcu	傲
 vd	爱 耳朵
+vda	隘
+vde	艾
+vdi	呆
+vdo	哀
+vdu	矮
 ve	恶
+vea	娥
+vee	厄
+vei	峨
+veo	额
+veu	俄
 vf	嗯 案犯
 vfa	安防
+vfe	摁
+vfi	恩
+vfo	煾
 vfu	而返
 vg	昂贵 而过
 vga	二姑
@@ -1197,7 +2555,10 @@ vgo	而该
 vgu	鞍钢
 vh	昂 而后
 vha	爱好
+vhe	軮
+vhi	盎
 vho	爱恨
+vhu	肮
 vi	岸
 via	按照
 vie	二战
@@ -1205,6 +2566,11 @@ vii	安监
 vio	耳光
 viu	恩师
 vj	安 案件
+vja	媕
+vje	按
+vji	暗
+vjo	案
+vju	俺
 vk	爱看 安康
 vka	耳孔
 vke	阿克
@@ -1231,6 +2597,8 @@ vno	安宁
 vnu	按钮
 vo	哦
 voa	安心
+voe	毮
+voi	喔
 voo	欧洲
 vou	爱着
 vp	耳旁 安排
@@ -1246,6 +2614,11 @@ vqi	暗器
 vqo	爱情
 vqu	二千
 vr	儿 爱人
+vra	隭
+vre	二
+vri	唲
+vro	洱
+vru	尔
 vs	暗示 昂首
 vsa	盎司
 vse	二十
@@ -1265,10 +2638,16 @@ vui	暗自
 vuo	安全
 vuu	安徽
 vv	嗯 暗暗
+vva	厼
+vve	乤
+vvi	唔
+vvo	黁
+vvu	乺
 vw	誒 安危
 vwa	安慰
 vwe	二万
 vwi	澳网
+vwo	诶
 vwu	额外
 vx	而行 恶心
 vxa	凹陷
@@ -1283,9 +2662,18 @@ vyi	哎呀
 vyo	遨游
 vyu	安逸
 vz	欧 儿子
-vza	案子
+vza	𠙶
+vze	殴
+vzi	呕
+vzo	讴
+vzu	偶
 w	我
 wa	瓦
+waa	娃
+wae	挖
+wai	哇
+wao	袜
+wau	佤
 wb	文本 无比
 wba	尾巴
 wbe	外表
@@ -1299,6 +2687,11 @@ wci	晚餐
 wco	未曾
 wcu	无处
 wd	外 问道
+wda	嬒
+wde	歪
+wdi	崴
+wdo	竵
+wdu	徻
 we	武
 wea	完毕
 wee	位于
@@ -1306,9 +2699,23 @@ wei	维护
 weo	往来
 weu	外面
 wf	问 无法
+wfa	纹
+wfe	雯
+wfi	吻
+wfo	文
+wfu	稳
 wg	翁 我国
 wga	外观
+wge	蓊
+wgi	嗡
+wgo	浻
+wgu	瓮
 wh	望 文化
+wha	臦
+whe	王
+whi	网
+who	忘
+whu	往
 wi	味
 wia	外国
 wie	为此
@@ -1316,6 +2723,11 @@ wii	物业
 wio	往常
 wiu	巫师
 wj	万 文件
+wja	婉
+wje	玩
+wji	晚
+wjo	完
+wju	腕
 wk	胃口 我看
 wka	微孔
 wke	外壳
@@ -1341,6 +2753,11 @@ wni	温暖
 wno	污泥
 wnu	五年
 wo	握
+woa	婑
+woe	卧
+woi	蜗
+woo	窝
+wou	倭
 wp	王牌 物品
 wpa	顽皮
 wpe	外拍
@@ -1372,6 +2789,11 @@ wti	无图
 wto	外滩
 wtu	物体
 wu	无
+wua	屋
+wue	五
+wui	吴
+wuo	误
+wuu	务
 wv	玩儿 我爱
 wva	翁媪
 wve	无碍
@@ -1379,6 +2801,11 @@ wvi	巍峨
 wvo	文案
 wvu	为爱
 ww	为 微微
+wwa	维
+wwe	未
+wwi	围
+wwo	谓
+wwu	位
 wx	无限 微笑
 wxa	危险
 wxe	文献
@@ -1405,6 +2832,11 @@ xai	小子
 xao	学习
 xau	幸好
 xb	心 宣布
+xba	寻
+xbe	馨
+xbi	昕
+xbo	新
+xbu	信
 xc	相处 形成
 xca	现出
 xce	现场
@@ -1442,6 +2874,11 @@ xhi	信号
 xho	下滑
 xhu	先后
 xi	西
+xia	细
+xie	喜
+xii	吸
+xio	席
+xiu	系
 xj	袭击 小姐
 xja	下降
 xje	先进
@@ -1449,9 +2886,29 @@ xji	相见
 xjo	选举
 xju	现金
 xk	行 胸口
+xka	姓
+xke	形
+xki	星
+xko	性
+xku	腥
 xl	想 下来
+xla	乡
+xle	相
+xli	响
+xlo	享
+xlu	向
 xm	现 项目
+xma	线
+xme	献
+xmi	显
+xmo	闲
+xmu	先
 xn	小 性能
+xna	骁
+xne	校
+xni	晓
+xno	消
+xnu	笑
 xo	兴
 xoa	小心
 xoe	西部
@@ -1459,12 +2916,41 @@ xoi	询问
 xoo	心情
 xou	向前
 xp	些 新品
+xpa	屑
+xpe	协
+xpi	歇
+xpo	谢
+xpu	血
 xq	修 想起
+xqa	绣
+xqe	朽
+xqi	嗅
+xqo	袖
+xqu	秀
 xr	选 显然
+xra	绚
+xre	轩
+xri	悬
+xro	宣
+xru	铉
 xs	兄 先生
+xsa	熊
+xse	雄
+xsi	焸
+xso	汹
+xsu	胸
 xt	学 系统
 xta	向她
+xte	雪
+xti	削
+xto	穴
+xtu	血
 xu	许
+xua	续
+xue	需
+xui	虚
+xuo	序
+xuu	须
 xv	相爱 喜爱
 xva	狭隘
 xve	邪恶
@@ -1478,7 +2964,17 @@ xwi	香味
 xwo	行为
 xwu	下午
 xx	夏 相信
+xxa	遐
+xxe	霞
+xxi	吓
+xxo	煆
+xxu	侠
 xy	寻 需要
+xya	迅
+xye	薰
+xyi	勋
+xyo	讯
+xyu	循
 xz	行政 现在
 xza	仙子
 xze	选择
@@ -1487,8 +2983,23 @@ xzo	向着
 xzu	乡镇
 y	一
 ya	亚
+yaa	娅
+yae	压
+yai	呀
+yao	丫
+yau	衙
 yb	因 一般
+yba	引
+ybe	茵
+ybi	吟
+ybo	音
+ybu	银
 yc	要 因此
+yca	妖
+yce	摇
+yci	咬
+yco	谣
+ycu	腰
 yd	有点 一定
 yda	引导
 yde	遇到
@@ -1497,6 +3008,10 @@ ydo	印度
 ydu	一代
 ye	也
 yea	运输
+yee	页
+yei	业
+yeo	夜
+yeu	爷
 yf	应付 衣服
 yfa	越发
 yfe	一副
@@ -1510,9 +3025,29 @@ ygi	眼光
 ygo	有关
 ygu	一股
 yh	样 以后
+yha	阳
+yhe	杨
+yhi	央
+yho	养
+yhu	仰
 yi	以
+yia	已
+yie	医
+yii	易
+yio	意
+yiu	依
 yj	眼 已经
+yja	验
+yje	严
+yji	岩
+yjo	言
+yju	延
 yk	应 一块
+yka	盈
+yke	英
+yki	影
+yko	鹰
+yku	迎
 yl	原谅 原来
 yla	压力
 yle	以来
@@ -1534,6 +3069,8 @@ ynu	意念
 yo	哟
 yoa	用户
 yoe	愿意
+yoi	唷
+yoo	育
 you	眼前
 yp	硬盘 一旁
 ypa	荧屏
@@ -1548,9 +3085,29 @@ yqi	仪器
 yqo	以前
 yqu	语气
 yr	原 依然
+yra	院
+yre	元
+yri	员
+yro	源
+yru	怨
 ys	用 也是
+ysa	勇
+yse	拥
+ysi	咏
+yso	永
+ysu	佣
 yt	月 摇头
+yta	约
+yte	越
+yti	曰
+yto	悦
+ytu	岳
 yu	于
+yua	预
+yue	与
+yui	遇
+yuo	语
+yuu	余
 yv	幼儿 因而
 yva	要隘
 yve	悦耳
@@ -1570,10 +3127,24 @@ yxi	有些
 yxo	也许
 yxu	一向
 yy	云 一样
+yya	允
+yye	运
+yyi	晕
+yyo	韵
+yyu	匀
 yz	有 一直
+yza	又
+yze	友
+yzi	由
+yzo	游
+yzu	优
 z	在
 za	咱
 zaa	组织
+zae	扎
+zai	眨
+zao	炸
+zau	杂
 zb	这边 准备
 zba	嘴巴
 zbe	再不
@@ -1581,18 +3152,65 @@ zbi	逐步
 zbo	转变
 zbu	装备
 zc	找 支持
+zca	召
+zce	招
+zci	早
+zco	着
+zcu	造
 zd	再 知道
+zda	翟
+zde	载
+zdi	崽
+zdo	灾
+zdu	仔
 ze	着
+zea	嫧
+zee	者
+zei	则
+zeo	这
+zeu	锗
 zf	真 政府
+zfa	阵
+zfe	震
+zfi	贞
+zfo	诊
+zfu	怎
 zg	正 这个
+zga	缯
+zge	政
+zgi	睁
+zgo	证
+zgu	争
 zh	张 之后
+zha	障
+zhe	丈
+zhi	掌
+zho	章
+zhu	长
 zi	子
+zia	织
+zie	直
+zii	只
+zio	之
+ziu	自
 zj	展 自己
+zja	绽
+zje	暂
+zji	战
+zjo	站
+zju	赞
 zk	拽 召开
 zka	针孔
+zke	转
+zki	跩
 zko	状况
 zku	专科
 zl	装 这里
+zla	奘
+zle	撞
+zli	幢
+zlo	庄
+zlu	僮
 zm	咱们 怎么
 zma	皱眉
 zme	字幕
@@ -1606,6 +3224,11 @@ zni	之内
 zno	支农
 znu	周年
 zo	作
+zoa	阼
+zoe	左
+zoi	桌
+zoo	着
+zou	做
 zp	制品 只怕
 zpa	诈骗
 zpe	招聘
@@ -1619,7 +3242,17 @@ zqi	作曲
 zqo	证券
 zqu	赚钱
 zr	转 自然
+zra	缵
+zre	专
+zri	赚
+zro	沌
+zru	钻
 zs	中 只是
+zsa	终
+zse	棕
+zsi	踪
+zso	总
+zsu	种
 zt	昨天 总统
 zta	这台
 zte	状态
@@ -1627,1671 +3260,38 @@ zti	主题
 zto	增添
 ztu	整体
 zu	主
+zua	组
+zue	珠
+zui	足
+zuo	注
+zuu	住
 zv	最 这儿
+zva	坠
+zve	醉
+zvi	嘴
+zvo	惴
+zvu	追
 zw	这 作为
 zwa	皱纹
 zwe	掌握
+zwi	贼
+zwo	這
+zwu	鲗
 zx	抓 这些
 zxa	仔细
+zxe	挝
 zxi	最小
 zxo	主席
-zy	准 这样
-zz	走 正在
-dce	到
-dee	地
-zeo	这
-zio	之
-goe	过
-ziu	自
-zii	只
-sie	事
-yia	已
-sge	声
-yza	又
-xnu	笑
-yio	意
-sou	所
-bae	把
-sfu	什
-hvi	回
-lia	力
-xlu	向
-sio	实
-qiu	气
-yue	与
-lie	理
-mfo	门
-jmo	间
-qie	其
-zsu	种
-gse	工
-yei	业
-xle	相
-wfo	文
-vre	二
-mku	名
-sfo	神
-zuu	住
-zee	者
-dae	打
-xbo	新
-xmu	先
-wwu	位
-jie	机
-siu	使
-sji	山
-xbu	信
-jxa	加
-jiu	几
-cio	次
-ruu	入
-heu	合
-lio	立
-yzi	由
-jbu	今
-sii	四
-zfu	怎
-goi	果
-fho	放
-hxu	化
-zso	总
-diu	第
-zou	做
-zie	直
-zge	政
-jma	建
-che	场
-liu	利
-jpu	解
-xko	性
-bui	步
-jmu	件
-qke	轻
-xiu	系
-whe	王
-jne	教
-bma	边
-tie	提
-csu	重
-tsa	通
-jpa	结
-dmi	电
-lmu	脸
-chi	常
-dse	东
-szu	受
-jio	记
-hxe	花
-fwa	飞
-duo	度
-bio	必
-maa	马
-qko	清
-wue	五
-bmo	变
-hdo	海
-gru	管
-wwe	未
-zhu	长
-seo	设
-jlo	江
-rfo	认
-jno	交
-yjo	言
-whu	往
-tii	题
-bcu	保
-nje	南
-wjo	完
-yri	员
-sua	书
-wuu	务
-gje	干
-xke	形
-yre	元
-tao	它
-cgu	程
-bwi	北
-fuu	服
-lli	量
-gcu	告
-jko	惊
-jia	即
-cii	吃
-vru	尔
-zci	早
-que	取
-zei	则
-gda	改
-zji	战
-lku	令
-bjo	半
-svi	虽
-sza	收
-bde	百
-hoo	火
-dcu	倒
-dio	弟
-jbi	紧
-jto	觉
-kee	克
-hzu	候
-yki	影
-cie	持
-deu	德
-yuo	语
-jta	绝
-ybo	音
-sue	术
-shu	伤
-hoe	或
-nji	男
-sia	司
-mwu	每
-sva	随
-yra	院
-xie	喜
-ddu	代
-keo	刻
-qpe	切
-vji	暗
-zhi	掌
-dhi	党
-cge	城
-gee	哥
-yze	友
-jpi	界
-gfe	根
-bau	八
-szo	首
-juo	举
-loi	罗
-dva	队
-zua	组
-yye	运
-gja	敢
-fuo	府
-jba	尽
-hda	孩
-tda	台
-dau	答
-djo	单
-zjo	站
-qmu	千
-qte	确
-zui	足
-tui	图
-lqu	留
-bue	布
-zco	着
-zoo	着
-bju	般
-wji	晚
-dca	刀
-huu	忽
-yke	英
-bco	宝
-lme	联
-yta	约
-yeo	夜
-cgo	曾
-zce	招
-xno	消
-gra	观
-yii	易
-gro	官
-yte	越
-nai	哪
-jqu	久
-zzu	周
-yha	阳
-jua	局
-nau	拿
-mua	母
-sfe	甚
-yeu	爷
-zfa	阵
-bwu	备
-glo	广
-zsa	终
-vaa	阿
-yba	引
-sho	商
-baa	巴
-gue	故
-nmu	念
-xli	响
-jke	静
-xki	星
-jnu	脚
-jqo	究
-zcu	造
-hue	护
-cue	楚
-dru	段
-zuo	注
-yiu	依
-lqo	六
-juu	句
-cua	除
-hei	喝
-zgo	证
-xmi	显
-xuu	须
-yje	严
-zoe	左
-sgi	省
-xma	线
-yce	摇
-cye	存
-suo	诉
-tso	痛
-lki	另
-jui	具
-lka	灵
-bne	标
-cso	冲
-tze	投
-lwe	雷
-xue	需
-due	毒
-cja	参
-cfa	参
-qre	权
-hre	环
-zre	专
-hui	呼
-xpo	谢
-xte	雪
-shi	尚
-tva	退
-yuu	余
-ybu	银
-qii	器
-bku	兵
-zvu	追
-xia	细
-mue	木
-xua	续
-huo	湖
-tku	停
-zgu	争
-jya	君
-duu	独
-jpe	节
-moe	莫
-gso	宫
-tde	态
-gze	构
-cro	穿
-sjo	闪
-bko	病
-mwa	妹
-jqe	救
-zvi	嘴
-fue	副
-wwa	维
-hra	缓
-cfu	称
-cdu	采
-jmi	坚
-hjo	寒
-llo	亮
-yie	医
-hci	号
-yhe	杨
-vjo	案
-jxu	假
-yzo	游
-heo	河
-qio	齐
-rfa	忍
-cuo	初
-dzo	斗
-soe	索
-yzu	优
-gvu	鬼
-jbe	禁
-jki	睛
-sao	沙
-whi	网
-cga	承
-sgu	胜
-xpe	协
-mjo	慢
-xio	席
-lpe	列
-qqu	秋
-tji	叹
-bce	抱
-fua	妇
-zia	织
-ffu	份
-tho	唐
-fha	防
-cru	船
-hve	挥
-wwi	围
-zlo	庄
-yai	呀
-zzo	州
-zhe	丈
-tni	跳
-who	忘
-yui	遇
-dje	担
-dne	掉
-gvi	贵
-tue	土
-pde	排
-wua	屋
-kke	块
-zfe	震
-gsu	供
-klu	狂
-ceu	策
-vje	按
-cao	察
-yso	永
-mgu	猛
-guu	股
-xqu	秀
-moo	魔
-lai	啦
-xla	乡
-sje	散
-fje	范
-sse	松
-mmu	免
-kse	恐
-yho	养
-lko	凌
-hlu	皇
-yja	验
-yku	迎
-lma	练
-yro	源
-syu	顺
-wje	玩
-tmi	田
-fju	翻
-zho	章
-hfo	恨
-hco	毫
-yhi	央
-mio	米
-lwo	泪
-kcu	靠
-dro	端
-clo	床
-xse	雄
-tco	讨
-pie	批
-dke	顶
-xro	宣
-xka	姓
-tje	探
-qqe	球
-fgu	凤
-gho	港
-seu	射
-xtu	血
-dmo	店
-zue	珠
-mwe	梅
-dso	洞
-lbi	临
-xsu	胸
-xii	吸
-cdi	财
-bje	班
-jme	检
-xni	晓
-yae	压
-zyo	尊
-xui	虚
-poo	婆
-lce	劳
-toe	托
-cce	超
-wfu	稳
-hou	伙
-tno	调
-lue	露
-bdu	伯
-nse	弄
-lvo	率
-miu	秘
-xpu	血
-xne	校
-lua	陆
-tuu	徒
-fge	封
-bfe	奔
-tke	厅
-kui	哭
-xuo	序
-lje	蓝
-bdi	败
-moi	默
-jye	均
-yua	预
-gui	骨
-sga	圣
-bia	避
-hke	坏
-xyo	讯
-mge	蒙
-yti	曰
-naa	纳
-dga	登
-hju	含
-kuo	库
-lqe	柳
-biu	笔
-bai	罢
-lva	绿
-hje	韩
-rzi	肉
-jue	巨
-wui	吴
-tce	套
-dgo	灯
-dju	丹
-mao	麻
-tzu	透
-qne	巧
-xme	献
-zoi	桌
-bie	毕
-bwe	杯
-qui	曲
-zau	杂
-mde	卖
-nko	凝
-rse	荣
-gde	概
-jqi	旧
-qbe	秦
-pmu	偏
-ceo	测
-xxu	侠
-cia	迟
-fjo	烦
-hye	魂
-fgi	峰
-roa	弱
-khe	抗
-xxi	吓
-wuo	误
-cuu	促
-lho	郎
-tne	挑
-pdu	牌
-loo	洛
-tko	庭
-jna	娇
-ffa	纷
-hji	喊
-nua	努
-pjo	判
-gdo	盖
-pbu	贫
-qro	拳
-qle	抢
-loa	络
-mcu	贸
-gua	孤
-lvi	虑
-yse	拥
-veo	额
-mci	冒
-hgi	哼
-lmo	怜
-hfu	狠
-sui	叔
-ycu	腰
-cje	残
-cze	抽
-lna	了
-nda	奶
-mai	骂
-lye	轮
-pue	扑
-cae	茶
-tvu	腿
-hze	厚
-nco	闹
-pge	碰
-pou	迫
-sdo	塞
-cde	材
-pwa	陪
-pwe	培
-qtu	缺
-lyu	伦
-ksa	孔
-hyo	混
-ffe	奋
-hso	洪
-wwo	谓
-luu	鲁
-zju	赞
-suu	舒
-xto	穴
-mga	孟
-svu	税
-gce	搞
-doe	夺
-zwi	贼
-yca	妖
-sso	宋
-ytu	岳
-sca	绍
-buo	补
-jyu	俊
-xya	迅
-ysa	勇
-fhu	仿
-gzu	狗
-qia	骑
-bci	暴
-dgi	瞪
-mgi	盟
-yci	咬
-wfi	吻
-boe	博
-ybi	吟
-kro	宽
-coe	措
-lwi	累
-qnu	乔
-pne	票
-scu	稍
-cjo	惨
-sco	烧
-tae	塔
-qno	悄
-veu	俄
-zsi	踪
-xmo	闲
-pku	凭
-goo	郭
-hyu	昏
-dui	督
-pwu	佩
-lze	露
-cya	纯
-zae	扎
-jku	径
-cji	餐
-fhe	芳
-sae	萨
-dou	躲
-die	抵
-hee	核
-gea	隔
-zle	撞
-cfi	尘
-mzo	谋
-yhu	仰
-yru	怨
-sye	损
-mae	码
-koe	括
-rfu	仁
-sce	扫
-geo	阁
-cvu	垂
-dze	抖
-tpi	贴
-yju	延
-sve	碎
-dhe	荡
-cdo	差
-vcu	傲
-jtu	爵
-dde	戴
-soa	缩
-zdo	灾
-mbu	敏
-zca	召
-sze	授
-fgo	疯
-xlo	享
-kei	颗
-nde	奈
-pma	骗
-lde	莱
-cfe	臣
-zve	醉
-dja	蛋
-ddi	呆
-buu	堡
-kdi	凯
-pbe	拼
-sei	蛇
-mji	曼
-ffo	愤
-dsu	冬
-hle	荒
-zgi	睁
-sha	桑
-sfi	申
-hlo	慌
-nso	浓
-dve	堆
-ciu	辞
-hwi	嘿
-yko	鹰
-yee	页
-xqo	袖
-hhu	航
-lte	掠
-ghu	钢
-hvo	恢
-vde	艾
-qmo	潜
-mzi	眸
-zje	暂
-tai	踏
-jpo	洁
-dki	盯
-kje	刊
-gzi	购
-poa	颇
-cco	潮
-qku	倾
-zde	载
-hzi	吼
-thu	躺
-hli	晃
-hri	唤
-cse	聪
-dma	殿
-rjo	染
-jla	降
-mne	描
-nia	妮
-tgo	疼
-cva	翠
-vdo	哀
-vco	澳
-pgu	鹏
-lhu	狼
-qua	屈
-fui	幅
-xxe	霞
-czu	愁
-dji	旦
-vdi	呆
-hvu	毁
-zha	障
-yya	允
-dii	迪
-qra	劝
-ghi	岗
-lsa	隆
-hxo	滑
-see	摄
-she	丧
-lco	牢
-waa	娃
-cee	扯
-sle	霜
-dpi	跌
-bwa	臂
-zdu	仔
-tja	弹
-lno	疗
-tmu	甜
-jxi	甲
-sau	傻
-lui	卢
-bhe	邦
-yka	盈
-dco	盗
-mki	鸣
-mhe	芒
-noa	娜
-jbo	津
-dko	订
-nio	泥
-puu	仆
-fwo	废
-gku	乖
-qru	泉
-lbe	琳
-pno	漂
-yto	悦
-pau	爬
-hea	贺
-ree	惹
-nqe	扭
-qme	牵
-yao	丫
-lle	辆
-kzo	寇
-lke	零
-rce	扰
-fwe	菲
-muu	穆
-pho	庞
-quu	躯
-hsi	虹
-cza	丑
-bme	鞭
-bnu	镖
-pia	劈
-pco	袍
-kze	扣
-svo	谁
-syi	瞬
-nvi	嗯
-vfi	恩
-xsa	熊
-lne	聊
-jxe	嘉
-bke	柄
-poe	坡
-tca	陶
-xre	轩
-hse	轰
-cri	喘
-ssu	耸
-qbu	侵
-mno	庙
-fai	罚
-vzu	偶
-zai	眨
-pbi	频
-hja	函
-hgu	衡
-cyo	忖
-rue	辱
-rvu	锐
-woe	卧
-tsu	铜
-pko	瓶
-tuo	涂
-zao	炸
-ljo	烂
-yji	岩
-zru	钻
-kyi	昆
-lbu	邻
-zze	奏
-koo	阔
-qki	晴
-qma	纤
-cau	刹
-mdu	脉
-qri	圈
-lee	勒
-lii	哩
-lbo	麟
-kvo	愧
-phu	胖
-mca	矛
-dnu	雕
-dyu	盾
-fwu	肥
-wju	腕
-sre	酸
-lgo	愣
-pce	抛
-xpi	歇
-gve	桂
-csi	虫
-fau	乏
-cvi	崔
-wja	婉
-lji	览
-pke	萍
-mia	弥
-tua	屠
-vdu	矮
-gxu	瓜
-rcu	饶
-bou	伯
-jqa	纠
-muo	亩
-jka	颈
-pji	盼
-qse	琼
-cci	吵
-tou	妥
-kue	酷
-xyu	循
-mme	棉
 zxu	爪
-sko	率
-fga	缝
-pai	帕
-kle	矿
-ffi	吩
-xri	悬
-pio	疲
-ski	帅
-chu	偿
-bhu	膀
-lao	辣
-lsu	笼
-saa	纱
-bfu	笨
-mma	绵
-tjo	谭
-jlu	僵
-zza	骤
-tju	贪
-lpu	猎
-rhi	嚷
-pwi	裴
-cgi	呈
-tmo	添
-nie	拟
-yyi	晕
-piu	脾
-zfi	贞
-nea	那
-dza	陡
-dyi	吨
-woo	窝
-czo	凑
-dni	吊
-wae	挖
-caa	叉
-gsa	弓
-lzo	漏
-luo	炉
-gke	拐
-wai	哇
-dyo	敦
-gvo	诡
-jri	圈
-nqa	纽
-jre	捐
-llu	俩
-moa	陌
-gge	耿
-hce	耗
-mwo	煤
-gzo	沟
-lpi	劣
-hgo	恒
-toa	陀
-qyo	裙
-kxe	夸
-pju	番
-lae	落
-pka	屏
-wfa	纹
-npe	捏
-the	趟
-sku	甩
-zva	坠
-qlu	腔
-qmi	遣
-mnu	秒
-kdo	慨
-gye	棍
-xqa	绣
-pje	攀
-pfu	盆
-zzi	咒
-fwi	啡
-dku	钉
-tse	桐
-hva	绘
-kai	咖
-xqe	朽
-kvu	魁
-gxo	寡
-yyo	韵
-bha	绑
-rge	扔
-jyi	峻
-jru	倦
-cfo	衬
-qpo	怯
-mmi	眠
-mko	冥
-lca	姥
-sxe	耍
-mce	茅
-lju	篮
-wde	歪
-rze	揉
-tge	藤
-zfo	诊
-rra	阮
-xbe	馨
-hko	淮
-pmo	翩
-fji	帆
-gre	棺
-dpa	叠
-zri	赚
-mho	盲
-cho	沧
-noe	挪
-dua	妒
-gou	锅
-voi	喔
-bbo	滨
-qti	雀
-tme	填
-xpa	屑
-tka	婷
-tdu	胎
-kye	坤
-bii	鄙
-vce	敖
-ybe	茵
-puo	谱
-hhe	杭
-zja	绽
-thi	棠
-jle	蒋
-jra	娟
-quo	渠
-kfa	恳
-ppe	撇
-mni	瞄
-qqi	囚
-sai	啥
-ruo	汝
-dme	颠
-hxi	哗
-jte	掘
-sja	叁
-tsi	瞳
-boa	驳
-mwi	昧
-mii	咪
-hro	寰
-gco	糕
-lse	弄
-hcu	皓
-lau	腊
-kli	眶
-sci	哨
-hsa	弘
-niu	倪
-kzi	叩
-vei	峨
-zli	幢
-lge	楞
-dpu	迭
-rve	芮
-yau	衙
-ysi	咏
-guo	雇
-soo	烁
-gha	纲
-dzu	兜
-gju	肝
-dci	蹈
-ysu	佣
-xyi	勋
-glu	逛
-rji	冉
-pwo	沛
-geu	胳
-pui	噗
-lvu	侣
-kco	烤
-loe	萝
-yaa	娅
-bbe	彬
-xti	削
-boo	泊
-jro	眷
-wfe	雯
-vee	厄
-xku	腥
-dda	逮
-vju	俺
-gxe	卦
-bga	绷
-qbo	寝
-lza	陋
-cca	巢
-nku	狞
-lsi	咙
-dna	刁
-sdi	晒
-sfa	绅
-lhi	踉
-jso	窘
-cve	摧
-xso	汹
-qli	跄
-kve	奎
-doa	堕
-jii	冀
-doi	踱
-xqi	嗅
-vzi	呕
-czi	瞅
-vea	娥
-vvi	唔
-coa	戳
-bgo	迸
-dra	缎
-qto	阙
-rje	髯
-mpe	蔑
-rsa	绒
-gae	尬
-sju	伞
-jni	蛟
-dvo	兑
-wgi	嗡
-mbe	抿
-bni	彪
-mou	膜
-cvo	粹
-bao	疤
-nao	衲
-lzi	喽
-pii	啤
-hua	弧
-kku	筷
-yco	谣
-lwa	垒
-mza	牟
-dmu	甸
-npo	涅
-kgi	吭
-nna	尿
-nke	拧
-soi	嗦
-mqo	谬
-jyo	浚
-mje	蔓
-yyu	匀
-qxo	洽
-bgi	蹦
-rhe	壤
-dsi	咚
-mbo	悯
-nle	酿
-tgu	滕
-lyo	沦
-ccu	钞
-bmi	贬
-sdu	腮
-kju	侃
-pni	瞟
-qni	峭
-nii	睨
-leu	肋
-mui	睦
-cju	铲
-nmo	粘
-ssi	嵩
-ggi	哽
-lou	锣
-kho	慷
-neo	讷
-mhi	蟒
-tio	涕
-dpe	碟
-nqu	钮
-pgo	怦
-wao	袜
-tvo	褪
-szi	嗽
-pci	咆
-nnu	袅
-lru	卵
-dia	缔
-toi	唾
-bja	绊
-coi	啜
-qqo	酋
-nsi	哝
-rso	溶
-vci	凹
-bka	屏
-qxe	掐
-tye	屯
-bpo	憋
-zse	棕
-tdo	汰
-lcu	佬
-kfi	啃
-hku	徊
-noo	懦
-lro	鸾
-hdi	嗨
-xye	薰
-kji	嵌
-nce	挠
-nae	捺
-lja	缆
-cui	躇
-tya	臀
-xbi	昕
-pae	琶
-ldo	癞
-bca	剥
-ggo	庚
-tna	迢
-boi	跛
-ghe	杠
-npi	蹑
-nme	拈
-nto	谑
-rou	偌
-lnu	僚
-kce	拷
-sxi	唰
-mke	茗
-mju	馒
-lpo	冽
-yoi	唷
-rfe	韧
-xxa	遐
-lhe	琅
-ksi	崆
-jti	崛
-xra	绚
-tia	屉
-tzi	骰
-qso	穹
-fao	阀
-lci	唠
-daa	妲
-nki	咛
-rui	嚅
-vhu	肮
-gxi	呱
-bba	缤
-cki	踹
-vze	殴
-tee	忑
-jsi	迥
-kgu	铿
-kvi	喟
-vhi	盎
-noi	喏
-rvi	睿
-gsi	蚣
-cai	嚓
-cha	娼
-nfu	恁
-ldu	籁
-hki	踝
-klo	邝
-dao	瘩
-rua	孺
-kde	楷
-pba	嫔
-pna	缥
-dye	墩
-tiu	倜
-zvo	惴
-dno	凋
-zdi	崽
-gjo	赣
-zlu	僮
-nwu	馁
-pdo	湃
-ryo	闰
-nsu	侬
-ldi	睐
-dhu	铛
-lso	窿
-bge	甭
-dpo	谍
-lya	纶
-qxi	卡
-qbi	噙
-vda	隘
-wou	倭
-bna	婊
-sla	孀
-gai	呷
-phe	磅
-sro	闩
-wgu	瓮
-kxu	胯
-gau	伽
-mna	缈
-lzu	篓
-tro	湍
-bho	谤
-hxa	骅
-hai	蛤
-xna	骁
-bwo	悖
-lve	捋
-doo	惰
-gva	癸
-gei	骼
-lqa	绺
-hoi	夥
-nhi	囔
-mgo	懵
-qlo	羌
-tnu	佻
-vai	嗄
-tyu	豚
-woi	蜗
-ncu	猱
-gfa	艮
-tvi	蜕
-pgi	嘭
-qla	嫱
-nqo	忸
-mbi	皿
-vca	媪
-dho	宕
-dai	哒
-laa	邋
-lwu	儡
-tki	蜓
-tci	啕
-hla	隍
-phi	螃
-vzo	讴
-qpu	锲
-pcu	刨
-kdu	铠
-too	沱
-npu	臬
-vro	洱
-lni	嘹
-deo	底
-gdu	钙
-lmi	蠊
-khu	伉
+zy	准 这样
+zya	綧
 zye	樽
-nci	呶
-rsi	嵘
-rca	娆
-qya	逡
-bno	裱
-jxo	浃
-nou	傩
-hge	蘅
-mfe	扪
-cre	椽
-kyu	鲲
-dgu	镫
-kua	绔
-gyo	衮
-pja	爿
-mco	袤
-tau	獭
-mmo	湎
-bbu	膑
-xru	铉
-tyi	囤
-cou	锉
-hru	奂
-mja	缦
-lyi	囵
-zla	奘
-mpi	咩
-csa	骢
-tdi	跆
-zeu	锗
-tve	忒
-hho	沆
-gza	媾
-vau	腌
-dge	磴
-dzi	蚪
-zyu	鳟
-gca	缟
-gci	杲
-gdi	赅
-zoa	阼
-hde	醢
-rho	禳
-rzo	糅
-tre	抟
-mpu	篾
-keu	稞
-kva	隗
-wge	蓊
-rhu	穰
-ksu	倥
-hsu	訇
-gaa	尕
-vfe	摁
-zro	沌
-gyu	鲧
-ggu	鲠
-kki	哙
-npa	乜
-qba	矜
-mba	缗
-zga	缯
-wau	佤
-xba	寻
-lei	叻
-tha	帑
-mie	蘼
-fae	珐
-sru	狻
-dre	椴
-hdu	氦
-ndu	氖
-kyo	阃
-gli	咣
-tra	彖
-kri	髋
-bfa	畚
-bmu	笾
-tpe	餮
-fzu	缶
-kca	尻
-hhi	吭
-qsu	筇
-nei	哪
-ndi	哪
-cea	尺
-rsu	狨
-hzo	鲎
-nhu	馕
-pmi	蹁
-wdi	崴
-zke	转
-nne	茑
-gfi	哏
-zra	缵
-mzu	侔
-nju	腩
-gji	旰
-nhe	攮
-rei	喏
-zda	翟
-coo	痤
-tri	疃
-mau	犸
-kla	纩
-pze	掊
-cli	幢
-pfo	湓
-mpa	乜
-nvu	钕
-pzo	裒
-gga	绠
-leo	泐
-nni	嬲
-koi	蛞
-yoo	育
-gle	桄
-gya	绲
-sde	酾
-nve	恧
-rru	朊
-pdi	哌
-tcu	鼗
-kea	骒
-bbi	髌
-bhi	蚌
-kko	浍
-slo	泷
-kfo	裉
-dvu	镦
-pao	派
-hha	绗
-mfu	钔
-hau	铪
-tyo	褪
-ltu	锊
-cke	搋
-kau	胩
-cyi	蹲
-teu	铽
-kzu	筘
-zxe	挝
-nbu	恁
-qqa	巯
-dqu	铥
-jli	虹
-nwa	那
-cku	膪
-nwi	哪
-jsu	熲
-ngo	濘
-pfe	歕
-faa	発
-rre	輭
-rzu	月
-sea	韘
-kxi	晇
-tru	猯
-gyi	睴
-kge	揁
-clu	牕
-cla	刅
-vve	尅
-mea	孭
-xxo	疜
-hza	翭
-nmi	齞
-bji	昄
-dsa	娻
-tza	緰
-riu	釰
-mfi	閅
-poi	哱
-rja	繎
-kae	垰
-nzi	嗕
-bki	昞
-bda	絔
-nfa	媆
-hya	焄
-rgo	礽
-rro	愞
-mze	麰
-pki	蚲
-pca	皰
-rza	韖
-nja	婻
-mhu	铓
-nha	乪
-mpo	懱
-cle	搶
-lba	繗
-pbo	涄
-bpi	別
-lti	畧
-fzo	粰
-fhi	蚄
-kga	阬
-mdi	嘜
-rvo	惢
-nro	煗
-vvu	夞
-sgo	憴
-lda	婡
-khi	閌
-vri	峏
-fja	軬
-jse	駉
-hwo	潶
-gri	矔
-vvo	旀
-kfu	錹
-kuu	胐
-kfe	硍
-lri	圞
-goa	彉
-ppo	暼
-bpe	蔑
-qsi	睘
-zya	純
-kso	悾
-koa	姡
-pnu	魒
-syo	潠
-zwo	這
-nka	嬣
-dvi	懟
-qna	繰
-hga	绗
-lgi	睖
-vja	媕
-tpu	銕
-rci	蛲
-dya	鶨
-wdo	竵
-dri	躖
-nze	檽
-bfo	渀
-rye	橍
-nue	搙
-dha	氹
-vva	縇
-tma	屇
-kou	籗
-gko	旝
-slu	艭
-ppu	丿
-fze	不
-hyi	睧
-pme	騈
-ska	縗
-swo	誰
-tzo	咅
-kya	婫
-ryi	閠
-meo	麽
-kza	彄
-lla	綡
-kha	嫝
-lqi	疁
-hwa	嫼
-wgo	浻
-ndo	疓
-vhe	枊
-mqa	繆
-hca	恏
-nee	抐
-nho	灢
-rha	纕
-cyu	憌
-kgo	誙
-nla	嬢
-njo	湳
-mha	娏
-dqe	丟
-mvi	嘸
-wha	網
-nuu	傉
-lgu	倰
-vfo	煾
-cei	呫
-rga	辸
-lha	鵖
-fou	彿
-nui	呶
-pfi	噴
-jsa	綗
-kru	欵
-bgu	鏰
-roe	爇
-cra	巛
-ssa	娀
-bdo	粨
-roi	嵶
-qyi	峮
-mka	姳
-ngu	儜
-mee	末
-nca	婥
-pzi	颒
-woa	婑
-hfe	拫
-nzo	羺
-qxu	魻
-nra	奻
-nru	偄
-cda	綵
-kxo	恗
-sya	愻
-qpa	緀
-reo	渃
-kxa	姱
-paa	妑
-zea	嫧
-kao	裃
-rri	蠕
 zyi	嶟
-kre	梡
-tga	邆
-nsa	繷
-nbi	囜
-kka	巜
-hka	劃
-sxu	鮛
-nno	褭
-foe	梻
-pga	纄
-ddo	瀻
-zwu	鲗
-gxa	絓
-rju	肰
-roo	焫
-kjo	冚
-pha	嫎
-dka	奵
-gka	叏
-kja	凵
-nzu	鐞
-hae	奤
-sri	閂
-nbe	軠
-gwa	給
-ryu	犉
-dwi	嘚
-lxu	倆
-fza	紑
-vra	隭
-vae	醃
-rco	襓
-vwo	诶
-wda	嬒
-fzi	罘
-wdu	舀
-lpa	巤
-tpo	怗
-bua	婄
-rva	婑
-nvo	籹
-sda	繺
-bpu	徶
-rii	囸
-tei	蟘
-mei	嚜
-nuo	忸
-rfi	屻
-lre	薍
-qpi	踥
-nma	姩
-voe	毮
-qsa	嬛
-sxo	誜
-dei	嘚
-neu	倷
-pua	纀
-lea	阞
-nte	硸
-ria	驲
-pza	婄
-rie	馹
-xsi	焸
-haa	妎
-gla	姯
-bpa	縪
-zki	跩
-mqi	唒
-nge	薴
+zyo	尊
+zyu	鳟
+zz	走 正在
+zza	骤
+zze	奏
+zzi	咒
+zzo	州
+zzu	周
