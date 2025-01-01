@@ -5,6 +5,7 @@ patch:
     - schema: sbfd
     - schema: sbfm
     - schema: sbfx
+    - schema: sbfj
     - schema: sbpy
     - schema: sbzr
     - schema: sbzz
