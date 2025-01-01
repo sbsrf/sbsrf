@@ -83,7 +83,7 @@ end
 
 ---@param id string
 function core.feixi(id)
-  return id == "sbfd" or id == "sbfm" or id == "sbfx"
+  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == 'sbfj'
 end
 
 ---@param id string
@@ -114,6 +114,11 @@ end
 ---@param id string
 function core.fx(id)
   return id == "sbfx"
+end
+
+---@param id string
+function core.fj(id)
+  return id == "sbfj"
 end
 
 ---@param id string
@@ -152,7 +157,7 @@ function core.word_rules(code, id)
   local jm = core.jm(id)
   local fm = core.fm(id) or core.fd(id)
   local sp = core.sp(id)
-  local fx = core.fx(id)
+  local fx = core.fx(id) or core.fj(id)
   if #code == 2 then
     if jm then           -- s1s2b2b2
       base = code[1]:sub(1, 1) .. code[2]:sub(1, 3)

@@ -48,14 +48,14 @@ function this.func(translation, env)
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
     if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") then
-      if (input:len() < 7) and schema_id == "sbfx" then
+      if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then
         goto continue
       elseif (input:len() < 6) and not segment:has_tag("sbjm") then
         goto continue
       end
     end
     if candidate.comment:len() > 0 then
-      if (schema_id == "sbpy" or schema_id == "sbjp") and segment:has_tag("abc") 
+      if (core.py(schema_id) or core.jp(schema_id)) and segment:has_tag("abc") 
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then
         candidate.comment = key .. candidate.comment
       else

@@ -1,0 +1,8 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: sbfj2
+
+translator:
+  dictionary: sbfj.extended

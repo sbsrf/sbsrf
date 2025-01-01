@@ -275,6 +275,17 @@ local function dynamic(input, env)
     end
     return input:len() - 4
   end
+  -- 飞简
+  if core.fj(schema_id) then
+    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      return input:len() - 3
+    elseif input:len() == 3 then
+      return dtypes.short
+    elseif input:len() == 4 then
+      return dtypes.short2
+    end
+    return input:len() - 4
+  end
   return dtypes.invalid
 end
 
@@ -316,9 +327,14 @@ local function validate_phrase(entry, segment, type, input, env)
     if core.jm(schema_id) and input:len() == 3 and utf8.len(entry.text) > 3 then
       return nil
     end
-    -- 飞讯启用多字词过滤时，四码不显示三字词和多字词
+    -- 飞讯启用多字词过滤时，四码起不显示三字词和多字词
     if core.fx(schema_id) and input:len() >= 4 and utf8.len(entry.text) >= 3
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]*") then
+      return nil
+    end
+    -- 飞简启用多字词过滤时，四码起不显示多字词
+    if core.fj(schema_id) and input:len() >= 4 and utf8.len(entry.text) >= 4
+        and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{1,4}") then
       return nil
     end
   end
@@ -462,9 +478,7 @@ function this.func(input, segment, env)
     -- 清空候选缓存
     env.known_candidates = {}
     local input2 = input
-    if core.feixi(schema_id) and env.is_enhanced and rime.match(input2, "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789][aeuio]?") then
-      input2 = input2:sub(1,2) .. fx_exchange[input2:sub(3,3)] .. input2:sub(4,-1)
-    elseif core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
+    if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
       input2 = input2 .. "'"
     end
     env.static_memory:dict_lookup(input2, false, 0)
@@ -569,6 +583,8 @@ function this.func(input, segment, env)
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]?") then
         count = 2
       end
+    elseif core.fj(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}") then
+      count = 3
     elseif core.jm(schema_id) then
       count = 2
     end
@@ -579,6 +595,7 @@ function this.func(input, segment, env)
       end
       if count <= 9 and core.fx(schema_id) 
       and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
+      or count <= 9 and core.fj(schema_id) and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}"))
       or rime.match(input, "[a-z]{3}[23789][aeuio]?"))
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
@@ -596,6 +613,8 @@ function this.func(input, segment, env)
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then
         order = order + 1
       end
+    elseif core.fj(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{3}") then
+      order = order + 2
     elseif core.jm(schema_id) then
       order = order + 1
     end
@@ -633,7 +652,7 @@ function this.func(input, segment, env)
       end
       yield(cand)
       if count == 1 and env.single_display and not env.engine.context:get_option("not_single_display") then
-        if (input:len() < 7 and core.fx(schema_id)
+        if (input:len() < 7 and (core.fx(schema_id) or core.fj(schema_id))
           and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio23789][aeuio]+")) then
           break
         elseif (input:len() < 6) then

@@ -68,8 +68,8 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
-		if ((core.fm(id) or core.fd(id) or core.sp(id))
-		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}")
+		if ((core.fm(id) or core.fd(id) or core.fj(id) or core.sp(id))
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z]?[aeuio]{0,2}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][0-9aeuio]{0,4}")
 		and not is_hidden) then
 			local codes = env.reverse:lookup(candidate.text)
@@ -178,17 +178,6 @@ function this.func(translation, env)
 			end
 		end
 
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]") and is_enhanced and not is_hidden then
-			local forward
-			for j = 1, #hint_n2 do
-				memory:dict_lookup(candidate.preedit .. hint_n2[j], false, 1)
-				for entry in memory:iter_dict() do
-					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_n2[j])
-					rime.yield(forward)
-				end
-			end
-		end
-
 		-- 飞系方案和声笔简码在 s, sx, sxb 格式的编码上提示 23789 和 14560 两组数选字词
 		if (core.s(input) or core.sx(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do
@@ -225,6 +214,8 @@ function this.func(translation, env)
 
 		-- 飞系在隐藏模式下不提示声笔字
 		if core.feixi(id) and (core.s(input) or core.sxs(input)) and is_hidden then
+			goto continue
+		elseif core.fj(id) and core.sxs(input) then
 			goto continue
 		end
 		-- 飞系方案和双拼方案在 s 和 sxs 码位上，提示声笔字
