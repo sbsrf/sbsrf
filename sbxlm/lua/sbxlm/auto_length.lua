@@ -595,8 +595,8 @@ function this.func(input, segment, env)
       end
       if count <= 9 and core.fx(schema_id) 
       and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}")
-      or count <= 9 and core.fj(schema_id) and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}"))
       or rime.match(input, "[a-z]{3}[23789][aeuio]?"))
+      or count <= 9 and core.fj(schema_id) and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}"))
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
       end
