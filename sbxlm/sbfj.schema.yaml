@@ -140,8 +140,8 @@ translator:
   enable_filtering: true
   forced_selection: true
   single_selection: false
-  lower_case: false
-  exclude_third: false
+  lower_case: true
+  exclude_third: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
