@@ -2219,11 +2219,14 @@ preset_keyboards:
         "keys/@37//long_click": K_sbfmzj
 #        "keys/@42//has_menu": backquote
 #        "keys/@44//has_menu": "|"
-  sbhz: #声笔鹤整
+  sbfj: #声笔飞简
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbxhzj
- #       "keys/@42//has_menu": 2
+        "keys/@37//long_click": K_sbfmzj
+  sbfd: #声笔飞单
+    __include: /preset_keyboards/default
+    __patch:
+        "keys/@37//long_click": K_sbfmzj
   sbjm: #声笔简码
     __include: /preset_keyboards/default
     __patch:
@@ -2232,10 +2235,6 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@37//long_click": K_sbxlzj
-  sbjf: #声笔简飞
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@37//long_click": K_sbfmzj      
   sbpy: #声笔拼音
     __include: /preset_keyboards/default
     __patch:
@@ -2252,10 +2251,10 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@37//long_click": K_sbxhzj        
-  sbfd: #声笔飞单
+  sbhz: #声笔鹤整
     __include: /preset_keyboards/default
     __patch:
-        "keys/@37//long_click": K_sbfmzj
+        "keys/@37//long_click": K_sbxhzj
   sbxlzj:
     __include: /preset_keyboards/default
     __patch:

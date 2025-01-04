@@ -1383,10 +1383,6 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@20//long_click": K_sbxlzj
-  sbjf: #声笔简飞
-    __include: /preset_keyboards/default
-    __patch:
-        "keys/@36//long_click": K_sbfmzj
   sbpy: #声笔拼音
     __include: /preset_keyboards/default
     __patch:
@@ -1419,6 +1415,10 @@ preset_keyboards:
     __include: /preset_keyboards/default
     __patch:
         "keys/@20//long_click": K_sbfmzj
+  sbfj: #声笔飞简
+    __include: /preset_keyboards/default
+    __patch:
+        "keys/@36//long_click": K_sbfmzj
 
   sbxlzj:
     __include: /preset_keyboards/default
