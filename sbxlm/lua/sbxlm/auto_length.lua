@@ -588,8 +588,12 @@ function this.func(input, segment, env)
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]?") then
         count = 2
       end
-    elseif core.fj(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}") then
-      count = 3
+    elseif core.fj(schema_id) then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{0,2}") then
+        count = 3
+      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV]") then
+        count = 2
+      end
     elseif core.jm(schema_id) then
       count = 2
     end
