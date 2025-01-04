@@ -622,8 +622,12 @@ function this.func(input, segment, env)
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then
         order = order + 1
       end
-    elseif core.fj(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{3}") then
-      order = order + 2
+    elseif core.fj(schema_id) then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{3}") then
+        order = order + 2
+      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]") then
+        order = order + 1
+      end
     elseif core.jm(schema_id) then
       order = order + 1
     end
