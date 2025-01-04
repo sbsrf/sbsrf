@@ -49,7 +49,7 @@ switches:
     reset: 0
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
-    reset: 0
+    reset: 1
   - name: fast_pop
     reset: 0
 
@@ -137,9 +137,11 @@ speller:
 translator:
   dictionary: sbfj
   enable_user_dict: true
-  enable_filtering: false
+  enable_filtering: true
   forced_selection: true
   single_selection: false
+  lower_case: false
+  exclude_third: false
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

@@ -19,6 +19,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field single_selection boolean
 ---@field single_display boolean
 ---@field lower_case boolean
+---@field exclude_third boolean
 ---@field stop_change boolean
 ---@field enable_encoder boolean
 ---@field delete_threshold number
@@ -201,6 +202,7 @@ function this.init(env)
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
+  env.exclude_third = config:get_bool("translator/exclude_third") or false
   env.stop_change = config:get_bool("translator/stop_change") or false
   env.enable_encoder = config:get_bool("translator/enable_encoder") or false
   env.delete_threshold = config:get_int("translator/delete_threshold") or 1000
@@ -332,10 +334,12 @@ local function validate_phrase(entry, segment, type, input, env)
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio23789][aeuio]*") then
       return nil
     end
-    -- 飞简启用多字词过滤时，四码起不显示多字词
-    if core.fj(schema_id) and input:len() >= 4 and utf8.len(entry.text) >= 4
-        and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{1,4}") then
-      return nil
+    -- 飞简多字词过滤
+    if core.fj(schema_id) and utf8.len(entry.text) >= 4 then
+      if env.exclude_third and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}") 
+      or not env.lower_case and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{1,4}") then
+        return nil
+      end
     end
   end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
@@ -568,7 +572,8 @@ function this.func(input, segment, env)
     yield(cand)
   elseif dynamic(input, env) == dtypes.short2 then
     local cand = phrases[1]:toCandidate()
-    if #phrases >= 2 then
+    if #phrases >= 2 --飞简需要特殊处理
+    and not (core.fj(schema_id) and env.exclude_third and env.lower_case and utf8.len(cand.text) > 3) then
       cand = phrases[2]:toCandidate()
       env.known_candidates[cand.text] = 2
     else
