@@ -567,6 +567,10 @@ function this.func(input, segment, env)
   -- 在情况 1 和 2 下，还要把已经见到的候选放到缓存中，以便在更长码时不重复出现这个候选
   -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
   if dynamic(input, env) == dtypes.short then
+    --飞简需要特殊处理
+    if core.fj(schema_id) then
+      env.known_candidates = {}
+    end
     local cand = phrases[1]:toCandidate()
     env.known_candidates[cand.text] = 1
     yield(cand)
