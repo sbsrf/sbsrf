@@ -30,9 +30,6 @@ switches:
   - name: pro_char
     reset: 0
     states: [词组, 单字]
-  - name: fast_change
-    reset: 0
-    states: [慢调, 快调]
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]

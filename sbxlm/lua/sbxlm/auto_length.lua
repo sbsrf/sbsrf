@@ -27,7 +27,6 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
----@field fast_change boolean
 ---@field pro_char boolean
 ---@field slow_pop boolean
 ---@field fast_pop boolean
@@ -45,10 +44,6 @@ local function static(input, env)
     return false
   elseif env.enhanced_char and not env.third_pop and core.ssb(input) and core.jm(env.engine.schema.schema_id) then
     return true
-  end
-  -- 对双拼特殊判断
-  if env.fast_change and core.sxb(input) and core.sp(env.engine.schema.schema_id) then
-    return false
   end
   for _, pattern in ipairs(env.static_patterns) do
     if rime.match(input, pattern) then
@@ -319,8 +314,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fd(schema_id) 
-  or core.sp(schema_id) and not env.fast_change) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fd(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -464,7 +458,6 @@ function this.func(input, segment, env)
   end
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
-  env.fast_change = env.engine.context:get_option("fast_change") or false
   env.single_display = env.engine.context:get_option("single_display") or false
   env.pro_char = env.engine.context:get_option("pro_char") or false
   env.slow_pop = env.engine.context:get_option("slow_pop") or false
