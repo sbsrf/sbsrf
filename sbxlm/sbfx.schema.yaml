@@ -158,10 +158,6 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][23789]"
       accept: "[aeuio]"
       strategy: append
-    # 支持标点字顶屏
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]?"
-      accept: "[;']"
-      prefix: 2
     # 增强模式下的分号变换
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][0-9]"
@@ -263,9 +259,12 @@ sbfx_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}" 
 
 key_binder:
   bindings:
