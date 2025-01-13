@@ -158,7 +158,10 @@ punctuator:
   import_preset: sbxlm
 
 recognizer:
-  import_preset: sbxlm
+  patterns:
+    __patch:
+      __include: sbxlm.yaml:/patterns
+      abc: "^[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]*$"
 
 sbfj_basic_bindings:
   __append:
