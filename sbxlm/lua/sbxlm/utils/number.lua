@@ -23,6 +23,8 @@ local datechars = {
    ["r"] = "日",
    ["d"] = "点",
    ["i"] = "亿",
+   ["f"] = "分",
+   ["m"] = "秒",
 }
 
 local confs = {
