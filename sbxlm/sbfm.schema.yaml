@@ -29,7 +29,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [pro_word, pro_char, delayed_pop]
-    reset: 1
+    reset: 0
     states: [词组, 单字, 延顶]
   - name: is_enhanced
     reset: 0
@@ -162,6 +162,7 @@ translator:
   dictionary: sbfm
   enable_user_dict: true
   enable_filtering: true
+  strong_filter: false 
   forced_selection: true
   single_selection: false
   enable_encoder: true

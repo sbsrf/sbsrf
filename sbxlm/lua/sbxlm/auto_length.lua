@@ -15,6 +15,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field dynamic_memory Memory
 ---@field reverse ReverseLookup
 ---@field enable_filtering boolean
+---@field strong_filter boolean
 ---@field forced_selection boolean
 ---@field single_selection boolean
 ---@field single_display boolean
@@ -36,6 +37,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field is_buffered boolean
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
+---@field char_lens { string : number }
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -196,6 +198,7 @@ function this.init(env)
   local config = env.engine.schema.config
   env.reverse = core.reverse(env.engine.schema.schema_id)
   env.enable_filtering = config:get_bool("translator/enable_filtering") or false
+  env.strong_filter = config:get_bool("translator/strong_filter") or false
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
@@ -210,6 +213,19 @@ function this.init(env)
   env.known_candidates = {}
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+
+  env.char_lens = {}
+  local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/char_lens.txt"
+  local file = io.open(path, "r")
+  if not file then
+    return
+  end
+  for line in file:lines() do
+    ---@type string, string
+    local char, len = line:match("([^\t]+)\t([^\t]+)")
+    env.char_lens[char] = tonumber(len)
+  end
+  file:close()
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -335,6 +351,21 @@ local function validate_phrase(entry, segment, type, input, env)
       if env.exclude_third and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}") 
       or not env.lower_case and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[aeuio]{1,4}") then
         return nil
+      end
+    end
+    if core.fm(schema_id) and env.delayed_pop and utf8.len(entry.text) == 2 then
+      local offset = utf8.offset(entry.text,2)
+      local char1 = entry.text:sub(1, offset - 1)
+      local char2 = entry.text:sub(offset)
+      local char1_len = env.char_lens[char1]
+      local char2_len = env.char_lens[char2]
+      if char1 and char2 and char1_len and char2_len then
+        local len_sum = char1_len + char2_len
+        if len_sum < 6 then
+          return nil
+        elseif env.strong_filter and len_sum == 6 then
+          return nil
+        end
       end
     end
   end
