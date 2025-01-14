@@ -54,6 +54,10 @@ function this.func(translation, env)
         goto continue
       end
     end
+    if core.fm(schema_id) and segment:has_tag("abc") and env.engine.context:get_option("delayed_pop")
+    and rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+      key = key:upper()
+    end
     if candidate.comment:len() > 0 then
       if (core.py(schema_id) or core.jp(schema_id)) and segment:has_tag("abc") 
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then

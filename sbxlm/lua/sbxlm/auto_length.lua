@@ -27,7 +27,9 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
+---@field pro_word boolean
 ---@field pro_char boolean
+---@field delayed_pop boolean
 ---@field slow_pop boolean
 ---@field fast_pop boolean
 ---@field rapid_pop boolean
@@ -459,7 +461,9 @@ function this.func(input, segment, env)
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+  env.pro_word = env.engine.context:get_option("pro_word") or false
   env.pro_char = env.engine.context:get_option("pro_char") or false
+  env.delayed_pop = env.engine.context:get_option("delayed_pop") or false
   env.slow_pop = env.engine.context:get_option("slow_pop") or false
   env.fast_pop = env.engine.context:get_option("fast_pop") or false
   env.rapid_pop = env.engine.context:get_option("rapid_pop") or false
@@ -613,7 +617,9 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.select then
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
-    if core.fx(schema_id) then
+    if core.fm(schema_id) and env.delayed_pop then
+      order = string.find("_AEUIO", last)
+    elseif core.fx(schema_id) then
       if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
         order = order + 2
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then
