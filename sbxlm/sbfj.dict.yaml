@@ -7906,7 +7906,7 @@ encoder:
 灷	zheu	1	zhou
 堟	ztaa	1	ztei
 蒃	zcaa	1	zcei
-瑑	zwa	1	zwee
+瑑	zwaa	1	zwee
 僎	zrae	1	zrui
 篹	cpia	1	cpue
 篹	zpia	1	zpue
@@ -8192,7 +8192,7 @@ encoder:
 嶊	zsei	1	zsia
 嶵	zsia	1	zsia
 噿	zkao	1	zkia
-璻	zwao	1	zwee
+璻	zwa	1	zwee
 枠	zmua	1	zmei
 栬	zmua	1	zmei
 酔	zyua	1	zyei
@@ -8205,7 +8205,7 @@ encoder:
 鋷	zjei	1	zjuo
 檌	zmia	1	zmei
 穝	zhia	1	zhue
-欈	wmia	1	wmei
+欈	wmi	1	wmei
 欈	zmia	1	zmei
 墫	ctou	1	ctei
 墫	ztou	1	ztei
@@ -8240,17 +8240,17 @@ encoder:
 飵	zsue	1	zsuo
 糳	zmii	1	zmii
 咗	zkeu	1	zkia
-乤	hzei	1	hzei
-乥	hpou	1	hpuo
-乫	kzau	1	kzau
+乤	hze	1	hzei
+乥	hpo	1	hpuo
+乫	kza	1	kzau
 乬	kzea	1	kzea
 乭	tsaa	1	tseu
 乮	mzua	1	mzua
-乯	vzuo	1	vzuo
+乯	vzu	1	vzuo
 乲	czoe	1	czoe
 乶	pzei	1	pzei
 乺	szuu	1	szuu
-乻	vzoe	1	vzoe
+乻	vzo	1	vzoe
 乼	czoo	1	czoo
 乽	czei	1	czei
 亪	ywui	1	ywoe
@@ -8273,7 +8273,7 @@ encoder:
 廤	kgei	1	kgoe
 怾	klia	1	kloo
 旀	mfao	1	mfoe
-旕	vfuo	1	vfoe
+旕	vfu	1	vfoe
 曢	dqoo	1	dqia
 朑	qvei	1	qvua
 朰	tmaa	1	tmei
@@ -8291,7 +8291,7 @@ encoder:
 畓	tsia	1	tsia
 癷	bdee	1	bdao
 硳	csei	1	cseu
-穒	khui	1	khue
+穒	khu	1	khue
 縇	sjoo	1	sjaa
 聁	zvuo	1	zvei
 聣	dvui	1	dvei
@@ -10509,7 +10509,7 @@ encoder:
 輆	kcoe	1	kcei
 暟	kqia	1	kqia
 颽	kfia	1	kfia
-炌	khu	1	khou
+炌	khuo	1	khou
 炏	khou	1	khou
 欬	kqoe	1	kqoe
 烗	khoe	1	khou
@@ -10626,7 +10626,7 @@ encoder:
 肎	kgia	1	kgoa
 肻	kbo	1	kbie
 豤	ksae	1	kseu
-貇	kza	1	kzuo
+貇	kzae	1	kzuo
 錹	kjie	1	kjuo
 掯	kfie	1	kfei
 硍	ksa	1	kseu
@@ -15315,7 +15315,7 @@ encoder:
 愄	wlia	1	wloo
 媙	wneu	1	wnau
 楲	wmeu	1	wmei
-椳	wmi	1	wmei
+椳	wmia	1	wmei
 詴	hyeu	1	hyoe
 詴	wyeu	1	wyoe
 溦	wdia	1	wdoo
@@ -18299,7 +18299,7 @@ encoder:
 鳸	hhui	1	hhoa
 擭	hfei	1	hfei
 濩	hdei	1	hdoo
-簄	hpo	1	hpue
+簄	hpoa	1	hpue
 鍙	hjoo	1	hjoo
 嚛	hkui	1	hkia
 鳠	hvei	1	hvua
@@ -20167,11 +20167,11 @@ encoder:
 隌	vvoe	1	vvai
 晻	vqeu	1	vqia
 晻	yqeu	1	yqia
-罯	vzo	1	vzia
+罯	vzoe	1	vzia
 犴	hqee	1	hqua
 荌	vcoo	1	vcei
 洝	vdo	1	vdoo
-豻	hze	1	hzuo
+豻	hzee	1	hzuo
 豻	vze	1	vzuo
 堓	vtia	1	vtei
 婩	vnia	1	vnau
@@ -20206,8 +20206,8 @@ encoder:
 鰲	vvee	1	vvee
 芺	tcue	1	tcei
 芺	vcue	1	vcei
-镺	vzu	1	vzei
-扷	vfu	1	vfei
+镺	vzue	1	vzei
+扷	vfue	1	vfei
 抝	nfaa	1	nfei
 抝	vfaa	1	vfei
 垇	vtia	1	vtei
@@ -23525,7 +23525,7 @@ encoder:
 宝典	bd8
 不断	bd9
 编辑	b'e
-勃	be'
+扳	be'
 拨	be;
 搏	be0
 搬	be1
@@ -23657,7 +23657,7 @@ encoder:
 不宁	bn9
 爆炸	b'o
 卞	bo'
-泌	bo;
+泊	bo;
 鳖	bo0
 痹	bo1
 敝	bo2
@@ -23734,7 +23734,7 @@ encoder:
 簸	bu'
 镑	bu;
 钹	bu0
-鸨	bu1
+煲	bu1
 脖	bu2
 镖	bu3
 饼	bu4
@@ -23880,13 +23880,13 @@ encoder:
 查找	c'e
 寸	ce'
 曹	ce;
-趁	ce0
-裁	ce1
+醋	ce0
+醇	ce1
 材	ce2
 蠢	ce3
-赤	ce4
-臣	ce5
-扯	ce6
+撮	ce4
+盛	ce5
+揣	ce6
 辰	ce7
 操	ce8
 菜	ce9
@@ -23936,7 +23936,7 @@ encoder:
 仇恨	ch9
 创业	c'i
 哧	ci'
-嗔	ci;
+踹	ci;
 睬	ci0
 岑	ci1
 崇	ci2
@@ -24014,7 +24014,7 @@ encoder:
 车内	cn8
 承诺	cn9
 察觉	c'o
-灿	co'
+淬	co'
 澄	co;
 瓷	co0
 惭	co1
@@ -24295,14 +24295,14 @@ encoder:
 电话	dh9
 登时	d'i
 巅	di'
-哆	di;
+盹	di;
 喋	di0
-眈	di1
+踮	di1
 吨	di2
 嘟	di3
 踱	di4
 跺	di5
-咄	di6
+町	di6
 蹈	di7
 鼎	di8
 叮	di9
@@ -24450,7 +24450,7 @@ encoder:
 低头	dt9
 道德	d'u
 锻	du'
-稻	du;
+镀	du;
 锭	du0
 笃	du1
 胆	du2
@@ -24943,14 +24943,14 @@ encoder:
 规定	gd9
 公共	g'e
 龚	ge'
-尬	ge;
-卦	ge0
+柑	ge;
+鹳	ge0
 巩	ge1
 耿	ge2
 柜	ge3
 棍	ge4
 辜	ge5
-杆	ge6
+汞	ge6
 拱	ge7
 贡	ge8
 丐	ge9
@@ -25147,7 +25147,7 @@ encoder:
 感叹	gt8
 骨头	gt9
 构造	g'u
-篝	gu'
+钴	gu'
 钙	gu;
 舸	gu0
 皈	gu1
@@ -25297,7 +25297,7 @@ encoder:
 很大	h'e
 酣	he'
 蕙	he;
-茴	he0
+荤	he0
 琥	he1
 惠	he2
 慧	he3
@@ -25600,7 +25600,7 @@ encoder:
 君子	j'a
 奸	ja'
 纠	ja;
-骄	ja0
+绢	ja0
 疆	ja1
 级	ja2
 既	ja3
@@ -25656,10 +25656,10 @@ encoder:
 井	je'
 拒	je;
 贾	je0
-嘉	je1
+茧	je1
 皆	je2
 戒	je3
-警	je4
+拣	je4
 检	je5
 敬	je6
 禁	je7
@@ -25868,7 +25868,7 @@ encoder:
 家庭	jt9
 急急	j'u
 佳	ju'
-健	ju;
+钾	ju;
 锦	ju0
 镜	ju1
 九	ju2
@@ -26359,11 +26359,11 @@ encoder:
 聊	le'
 零	le;
 蕾	le0
-搂	le1
+摞	le1
 莲	le2
 劳	le3
-莱	le4
-掠	le5
+捋	le4
+硫	le5
 莉	le6
 励	le7
 楼	le8
@@ -27547,7 +27547,7 @@ encoder:
 叛逆	pn9
 疱疹	p'o
 疱	po'
-粕	po;
+泊	po;
 裨	po0
 泮	po1
 浦	po2
@@ -27714,7 +27714,7 @@ encoder:
 情	q9
 曲线	q'a
 隑	qa'
-巯	qa;
+纤	qa;
 矝	qa0
 彊	qa1
 逡	qa2
@@ -27764,8 +27764,8 @@ encoder:
 起点	qd8
 确定	qd9
 骑士	q'e
-擎	qe'
-樵	qe;
+揿	qe'
+栖	qe;
 掐	qe0
 裘	qe1
 勤	qe2
@@ -27893,7 +27893,7 @@ encoder:
 区内	qn8
 气恼	qn9
 签订	q'o
-麒	qo'
+沏	qo'
 沁	qo;
 洽	qo0
 窍	qo1
@@ -28458,13 +28458,13 @@ encoder:
 速度	sd9
 上述	s'e
 莎	se'
-撒	se;
+撕	se;
 爽	se0
 逝	se1
 寺	se2
 萨	se3
 丧	se4
-拾	se5
+拴	se5
 搜	se6
 碎	se7
 述	se8
@@ -28518,12 +28518,12 @@ encoder:
 呻吟	s'i
 蜀	si'
 暑	si;
-嵩	si0
-嗦	si1
+嗜	si0
+嗽	si1
 睡	si2
 晌	si3
 哨	si4
-呻	si5
+吮	si5
 晒	si6
 啥	si7
 署	si8
@@ -28674,7 +28674,7 @@ encoder:
 舌	su1
 饰	su2
 稍	su3
-售	su4
+佘	su4
 锁	su5
 剩	su6
 释	su7
@@ -29799,7 +29799,7 @@ encoder:
 些	x8
 学	x9
 箱子	x'a
-娴	xa'
+纤	xa'
 媳	xa;
 嬉	xa0
 驯	xa1
@@ -30212,7 +30212,7 @@ encoder:
 厌	ye'
 页	ye;
 耶	ye0
-援	ye1
+苑	ye1
 雅	ye2
 艳	ye3
 燕	ye4
@@ -30270,7 +30270,7 @@ encoder:
 隐患	yh8
 用户	yh9
 夜里	y'i
-晕	yi'
+鸭	yi'
 邮	yi;
 咦	yi0
 婴	yi1
@@ -30348,10 +30348,10 @@ encoder:
 以内	yn8
 旖旎	yn9
 允许	y'o
-颜	yo'
-洋	yo;
+淫	yo'
+浴	yo;
 沿	yo0
-忧	yo1
+淹	yo1
 永	yo2
 音	yo3
 亦	yo4
@@ -30587,15 +30587,15 @@ encoder:
 重点	zd8
 制度	zd9
 左右	z'e
-折	ze'
-逐	ze;
-扎	ze0
-择	ze1
+斟	ze'
+哉	ze;
+攒	ze0
+酯	ze1
 转	ze2
 珍	ze3
 支	ze4
 致	ze5
-执	ze6
+榨	ze6
 丈	ze7
 直	ze8
 增	ze9
@@ -30648,12 +30648,12 @@ encoder:
 珠海	zh9
 自由	z'i
 赠	zi'
-贞	zi;
+帧	zi;
 躁	zi0
 赚	zi1
 助	zi2
 桌	zi3
-帐	zi4
+咂	zi4
 眨	zi5
 罩	zi6
 忠	zi7
@@ -30724,13 +30724,13 @@ encoder:
 之内	zn8
 支农	zn9
 主意	z'o
-宅	zo'
+涨	zo'
 祝	zo;
 滋	zo0
-寨	zo1
+痣	zo1
 诸	zo2
 族	zo3
-洲	zo4
+汁	zo4
 宗	zo5
 壮	zo6
 州	zo7
