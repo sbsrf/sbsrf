@@ -29,7 +29,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [pro_word, pro_char, delayed_pop]
-    reset: 0
+    reset: 1
     states: [词组, 单字, 延顶]
   - name: is_enhanced
     reset: 0
@@ -162,7 +162,7 @@ translator:
   dictionary: sbfm
   enable_user_dict: true
   enable_filtering: true
-  strong_filter: false 
+  filter_strength: 4    #可以为3,4,5,6 
   forced_selection: true
   single_selection: false
   enable_encoder: true
@@ -228,6 +228,8 @@ sbfm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+    #支持用Tab选择
+    #- { when: has_menu, accept: Tab, send_sequence: "{Down}{space}" }
 
 key_binder:
   bindings:

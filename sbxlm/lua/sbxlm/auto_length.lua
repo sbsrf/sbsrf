@@ -15,7 +15,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field dynamic_memory Memory
 ---@field reverse ReverseLookup
 ---@field enable_filtering boolean
----@field strong_filter boolean
+---@field filter_strength number
 ---@field forced_selection boolean
 ---@field single_selection boolean
 ---@field single_display boolean
@@ -198,7 +198,12 @@ function this.init(env)
   local config = env.engine.schema.config
   env.reverse = core.reverse(env.engine.schema.schema_id)
   env.enable_filtering = config:get_bool("translator/enable_filtering") or false
-  env.strong_filter = config:get_bool("translator/strong_filter") or false
+  env.filter_strength = config:get_int("translator/filter_strength") or 4
+  if env.filter_strength < 3 then
+    env.filter_strength = 3
+  elseif env.filter_strength > 6 then
+    env.filter_strength = 6
+  end
   env.forced_selection = config:get_bool("translator/forced_selection") or false
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.lower_case = config:get_bool("translator/lower_case") or false
@@ -360,10 +365,7 @@ local function validate_phrase(entry, segment, type, input, env)
       local char1_len = env.char_lens[char1]
       local char2_len = env.char_lens[char2]
       if char1 and char2 and char1_len and char2_len then
-        local len_sum = char1_len + char2_len
-        if len_sum < 6 then
-          return nil
-        elseif env.strong_filter and len_sum == 6 then
+        if char1_len + char2_len <= env.filter_strength then
           return nil
         end
       end
