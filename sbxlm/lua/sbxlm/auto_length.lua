@@ -642,6 +642,23 @@ function this.func(input, segment, env)
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
       end
+      -- 飞码延顶模式下在首选后用注释来提示两个二简字的组合，可用分号上屏
+      if (count == 1 and core.fm(schema_id) and env.delayed_pop) then
+        local memory = env.static_memory
+        memory:dict_lookup(input:sub(1, 2), false, 1)
+        local text = ""
+        for entry in memory:iter_dict() do
+          text = text .. entry.text
+          break
+        end
+        memory:dict_lookup(input:sub(3), false, 1)
+        for entry in memory:iter_dict() do
+          ---@type string
+          text = text .. entry.text
+          break
+        end
+        cand.comment = cand.comment .. " " .. text .. ";"
+      end
       yield(cand)
       count = count + 1
       ::continue::
