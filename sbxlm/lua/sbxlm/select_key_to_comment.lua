@@ -31,6 +31,9 @@ function this.func(translation, env)
   local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
   local segment = env.engine.context.composition:back()
+  local pro_char = env.engine.context:get_option("pro_char") or false
+  local delayed_pop = env.engine.context:get_option("delayed_pop") or false
+
   if segment:has_tag("hypy") or input:len() >= 2 and segment:has_tag("bihua")
       or segment:has_tag("zhlf") or segment:has_tag("sbzdy") then
     select_keys = "_23789"
@@ -54,7 +57,7 @@ function this.func(translation, env)
         goto continue
       end
     end
-    if core.fm(schema_id) and segment:has_tag("abc") and env.engine.context:get_option("delayed_pop")
+    if core.fm(schema_id) and segment:has_tag("abc") and pro_char and delayed_pop
     and rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
       key = key:upper()
     end

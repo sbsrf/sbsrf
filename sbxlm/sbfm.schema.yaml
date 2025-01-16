@@ -28,9 +28,12 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - options: [pro_word, pro_char, delayed_pop]
+  - name: pro_char
+    reset: 0
+    states: [词组, 单字]
+  - name: delayed_pop
     reset: 1
-    states: [词组, 单字, 延顶]
+    states: [即顶, 延顶]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
@@ -102,15 +105,55 @@ engine:
 
 popping:
   __append:
-    # 词组顶
-    - when: pro_word
+    # 单字三码顶
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 单字模式下的单字二码顶
+    - when: "pro_char and not delayed_pop"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 单字模式下的兼容打词
+    - when: "pro_char and not delayed_pop"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    # 顶末码
+    - match: "[bpmfdtnlgkhjqxzcsrywv].+[;'0-9]"
+      accept: "[^ ]"
+    # 自定义
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;'0-9][aeuio]*"
+      accept: "[aeuio]"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;'0-9][aeuio]*"
+      accept: "[^ aeuio]"
+    # 增强模式，数字一码或二码之后不顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      strategy: append
+    # 其他情况，数字顶
+    - match: ".*"
+      accept: "[0-9]"
+    # 条件顶屏
+    - when: "not pro_char"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[aeiou]"
+      prefix: 2
+      strategy: conditional
+    # 大写顶屏
+    - when: "not pro_char"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[A-Z]"
+      prefix: 2
+   # 词组顶
+    - when: "not pro_char"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: pro_word
+    - when: "not pro_char"
       match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 词组空码，声母也可以条件顶屏
-    - when: pro_word
+    - when: "not pro_char"
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
       prefix: 2
@@ -129,20 +172,20 @@ popping:
       accept: "[;']"
       prefix: 2
     # 单字模式
-    - when: pro_char
+    - when: "pro_char and not delayed_pop"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
-    - when: pro_char
+    - when: "pro_char and not delayed_pop"
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
     # 延顶模式
-    - when: delayed_pop
+    - when: "pro_char and delayed_pop"
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[a-z]"
       prefix: 2
-    - when: delayed_pop
+    - when: "pro_char and delayed_pop"
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[AEUIO]"
       strategy: append
@@ -155,7 +198,6 @@ speller:
   popping:
     __patch:
       - /popping
-      - sbxlm.yaml:/table_popping
       - sbxlm.yaml:/basic_popping
 
 translator:
