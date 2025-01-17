@@ -104,7 +104,7 @@ popping:
   __append:
     # 词组模式
     - when: pro_word
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: pro_word
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
@@ -134,7 +134,7 @@ popping:
       accept: "[a-z]"
       strategy: append
     - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: pro_char
       match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"

@@ -160,7 +160,7 @@ punctuator:
 recognizer:
   patterns:
     __include: sbxlm.yaml:recognizer/patterns
-    abc: "^[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]{0,3}$"
+    abc: "^[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]{0,2}$"
     
 sbfj_basic_bindings:
   __append:
