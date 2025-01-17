@@ -659,7 +659,9 @@ function this.func(input, segment, env)
           text = text .. entry.text
           break
         end
-        cand.comment = cand.comment .. " " .. text .. ";"
+        if cand.text ~= text then
+          cand.comment = cand.comment .. " " .. text .. ";"
+        end
       end
       yield(cand)
       count = count + 1
