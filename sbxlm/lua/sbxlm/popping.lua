@@ -70,32 +70,6 @@ function this.init(env)
   end
 end
 
----@param when string
----@param env PoppingEnv
----@return boolean
-local function evaluate(when, env)
-  local context = env.engine.context
-  local conditions = {}
-  string.gsub(when, "[^ ]+", function (w)
-    if w ~= "and" and w ~= "or" and w ~= "not" then
-      local b = context:get_option(w) or false
-      if b then
-        conditions[w] = "true"
-      else
-        conditions[w] = "false"
-      end
-    end
-  end)
-  for key, value in pairs(conditions) do
-    when = string.gsub(when, key, value)
-  end
-  local func = load("return " .. when)
-  if func then
-    return func()
-  end
-  return false
-end
-
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function this.func(key_event, env)
@@ -124,8 +98,7 @@ function this.func(key_event, env)
     end
   end
   local incoming = utf8.char(key_event.keycode)
-  if core.fm(schema_id) and seg:has_tag("paging") 
-  and context:get_option("pro_char") and context:get_option("delayed_pop") then
+  if core.fm(schema_id) and context:get_option("delayed_pop") and seg:has_tag("paging") then
     if rime.match(incoming, "[aeuio]") then
       return rime.process_results.kNoop
     elseif rime.match(incoming, "[bpmfdtnlgkhjqxzcsrywv]") then
@@ -136,7 +109,7 @@ function this.func(key_event, env)
   for _, rule in ipairs(env.popping) do
     local when = rule.when
     local success = false
-    if when and not evaluate(when, env) then
+    if when and not context:get_option(when) then
       goto continue
     end
     if not rime.match(input, rule.match) then

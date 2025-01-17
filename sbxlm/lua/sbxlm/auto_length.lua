@@ -28,6 +28,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field static_patterns string[]
 ---@field known_candidates { string: number }
 ---@field third_pop boolean
+---@field pro_word boolean
 ---@field pro_char boolean
 ---@field delayed_pop boolean
 ---@field slow_pop boolean
@@ -217,8 +218,8 @@ function this.init(env)
   env.known_candidates = {}
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+
   env.char_lens = {}
-  
   local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/char_lens.txt"
   local file = io.open(path, "r")
   if not file then
@@ -357,7 +358,7 @@ local function validate_phrase(entry, segment, type, input, env)
         return nil
       end
     end
-    if core.fm(schema_id) and env.pro_char and env.delayed_pop and utf8.len(entry.text) == 2 then
+    if core.fm(schema_id) and env.delayed_pop and utf8.len(entry.text) == 2 then
       local offset = utf8.offset(entry.text,2)
       local char1 = entry.text:sub(1, offset - 1)
       local char2 = entry.text:sub(offset)
@@ -493,6 +494,7 @@ function this.func(input, segment, env)
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.single_display = env.engine.context:get_option("single_display") or false
+  env.pro_word = env.engine.context:get_option("pro_word") or false
   env.pro_char = env.engine.context:get_option("pro_char") or false
   env.delayed_pop = env.engine.context:get_option("delayed_pop") or false
   env.slow_pop = env.engine.context:get_option("slow_pop") or false
@@ -643,7 +645,7 @@ function this.func(input, segment, env)
         env.known_candidates[cand.text] = count
       end
       -- 飞码延顶模式下在首选后用注释来提示两个二简字的组合，可用分号上屏
-      if (count == 1 and core.fm(schema_id) and env.pro_char and env.delayed_pop) then
+      if (count == 1 and core.fm(schema_id) and env.delayed_pop) then
         local memory = env.static_memory
         memory:dict_lookup(input:sub(1, 2), false, 1)
         local text = ""
@@ -666,7 +668,7 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.select then
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
-    if core.fm(schema_id) and env.pro_char and env.delayed_pop then
+    if core.fm(schema_id) and env.delayed_pop then
       order = string.find("_AEUIO", last)
     elseif core.fx(schema_id) then
       if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
