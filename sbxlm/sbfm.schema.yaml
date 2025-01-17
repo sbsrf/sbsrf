@@ -102,14 +102,10 @@ engine:
 
 popping:
   __append:
-    # 词组顶
+    # 词组模式
     - when: pro_word
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: pro_word
-      match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 词组空码，声母也可以条件顶屏
     - when: pro_word
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
@@ -137,6 +133,12 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
       accept: "[a-z]"
       strategy: append
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 延顶模式
     - when: delayed_pop
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
