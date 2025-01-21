@@ -13,7 +13,7 @@ schema:
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
     - sbjm
-    - hypy
+    - sbyp
     - bihua
     - zhlf
     - sbfj2
@@ -74,7 +74,7 @@ engine:
     - affix_segmentor@sbzdy
     - affix_segmentor@sbjm
     - affix_segmentor@bihua
-    - affix_segmentor@hypy
+    - affix_segmentor@sbyp
     - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
@@ -83,7 +83,7 @@ engine:
     - lua_translator@*sbxlm.auto_length
     - table_translator@sbjm
     - table_translator@bihua
-    - script_translator@hypy
+    - script_translator@sbyp
     - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
@@ -158,9 +158,7 @@ punctuator:
   import_preset: sbxlm
 
 recognizer:
-  patterns:
-    __include: sbxlm.yaml:recognizer/patterns
-    abc: "^[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]{0,2}$"
+  import_preset: sbxlm
     
 sbfj_basic_bindings:
   __append:
@@ -223,7 +221,7 @@ reverse_lookup2:
   dictionary: sbfj
 
 reverse_lookup3:
-  tags: [hypy]
+  tags: [sbyp]
   overwrite_comment: false
   dictionary: sbfj
 
