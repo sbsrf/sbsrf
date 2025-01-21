@@ -1,0 +1,169 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbxlm.yaml:/prelude
+
+schema:
+  schema_id: sbyp
+  name: 声笔易拼
+  version: "10.0"
+  icon: "sbxlm.ico"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - bihua
+    - zhlf
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    reset: 0
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: postpone
+    reset: 0
+    states: [前置, 后置]
+  - options: [free, fixed, popping]
+    reset: 0
+    states: [自由, 固定, 顶功]
+  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
+  #- options: [_key_Hide]
+  #  states: ["▼"]
+  # 为了避免拥挤，不显示下面的状态
+  - name: auto_inline
+    reset: 1  # 首字母大写进入临时英文状态
+  - name: is_buffered
+    reset: 0  # 是否为缓冲输入模式
+
+engine:
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.editor
+    - lua_processor@*sbxlm.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@bihua
+    - affix_segmentor@zhlf
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - table_translator@bihua
+    - script_translator@zhlf
+    - lua_translator@*sbxlm.utils.datetime
+    - lua_translator@*sbxlm.utils.number
+    - lua_translator@*sbxlm.utils.calculator
+    - table_translator@sbzdy
+    - history_translator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@reverse_lookup
+    - lua_filter@*sbxlm.fix
+    - lua_filter@*sbxlm.postpone
+    - lua_filter@*sbxlm.select_key_to_comment
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou'"
+  algebra:
+    # 声笔特色
+    - xform/^(?=[aoe])/v/
+    - xform/^([zcs])h([a-z]+)(?=\d)/$1$2/
+    - derive/([nl])v/$1u/
+    - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
+    # 模糊鼻音
+    - derive/([aeio])ng(?=\d)/$1n/
+    # 容错
+    - derive/un(?=\d)/uen/
+    - derive/ui(?=\d)/uei/
+    - derive/iu(?=\d)/iou/
+    # 纠错
+    - derive/([aeiou])ng(?=\d)/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)(?=\d)/$1o/
+    - derive/ong(?=\d)/on/
+    - derive/ao(?=\d)/oa/
+    - derive/([iu])a(o|ng?)(?=\d)/a$1$2/
+    # 简拼
+    - abbrev/^([a-z]).+$/$1/
+    # 简拼加笔画
+    - derive/^([a-z])[a-z]+(\d)(\d+)$/$1$2/
+    - derive/^([a-z])[a-z]+(\d)(\d+)$/$1'$2/
+    - derive/^([a-z])[a-z]+(\d{2})(\d+)$/$1$2/
+    - derive/^([a-z])[a-z]+(\d{3})(\d+)$/$1$2/
+    - derive/^([a-z])[a-z]+(\d{4})(\d+)$/$1$2/
+    - derive/^([a-z])[a-z]+(\d{5})(\d+)$/$1$2/
+    # 全拼
+    - abbrev/^([a-z]+)\d+$/$1/
+    # 全拼加笔画
+    - derive/^([a-z]+)(\d+)$/$1/
+    - derive/^([a-z]+)(\d+)$/$1'/
+    - derive/^([a-z]+\d)(\d+)$/$1/
+    - derive/^([a-z]+\d{2})(\d+)$/$1/
+    - derive/^([a-z]+\d{3})(\d+)$/$1/
+    - derive/^([a-z]+\d{4})(\d+)$/$1/
+    - derive/^([a-z]+\d{5})(\d+)$/$1/
+    # 加分隔符
+    - xform/([a-z]+)(?=\d)/$1'/
+    # 数字转字母
+    - xlit/12345/eiuoa/
+
+translator:
+  __include: sbpy.schema.yaml:/translator
+  prism: sbyp
+  strict_spelling: true
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+
+sbyp_extra_bindings:
+  __append:
+    - { when: has_menu, accept: 1, send_sequence: "{Home}{Shift+Right}'" }
+    - { when: has_menu, accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}'" }
+    - { when: has_menu, accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}'" }
+    - { when: has_menu, accept: 6, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}'" }
+    - { when: has_menu, accept: 0, send_sequence: "{Home}{End}" }
+
+key_binder:
+  bindings:
+    __patch: 
+      - sbxlm.yaml:/rime_key_bindings
+      - sbxlm.yaml:/sbxlm_basic_bindings
+      - /sbyp_extra_bindings
+
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
+  dictionary: sbyp
+  comment_format:
+    __include: /speller/algebra
+
+menu:
+  page_size: 6
+  alternative_select_keys: "_23789"
+  alternative_select_labels: ["", "", "", "", "", ""]
+  select_comment_pattern: "^[bpmfdtnlgkhjqxzcsrywv].*$"

@@ -13,7 +13,7 @@ schema:
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
     - sbjm
-    - hypy
+    - sbyp
     - bihua
     - zhlf
 

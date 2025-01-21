@@ -39,7 +39,7 @@ function this.func(key_event, env)
   if not segment then
     return rime.process_results.kNoop
   end
-  if segment:has_tag("hypy") or segment:has_tag("bihua")
+  if segment:has_tag("sbyp") or segment:has_tag("bihua")
       or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
       or segment:has_tag("lua") then
     local pat = "[_23789]"

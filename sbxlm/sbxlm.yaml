@@ -90,14 +90,14 @@ prelude:
     encode_commit_history: false
     tips: "〔笔画反查〕"
 
-  hypy:
-    tag: hypy
+  sbyp:
+    tag: sbyp
     dictionary: sbpy
     enable_user_dict: false
     enable_encoder: false
     packs:
       - sbpy.base
-    prism: hypy
+    prism: sbyp
     prefix: a
     tips: "〔拼音反查〕"
 
@@ -120,7 +120,7 @@ prelude:
     tips: "〔声笔反查〕"
 
   reverse_lookup:
-    tags: [bihua, hypy, zhlf, sbjm]
+    tags: [bihua, sbyp, zhlf, sbjm]
     overwrite_comment: true
     dictionary: sbjm.extended
 
@@ -260,7 +260,7 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
-    hypy: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    sbyp: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
     zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"
