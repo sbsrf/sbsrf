@@ -24,7 +24,7 @@ jobs:
         run: |
           mv sbxlm/* .
           rime_deployer --build . /usr/share/rime-data
-          rm hypy* bihua* zhlf* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml
+          rm bihua* zhlf* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml
           zip -r sbsrf.zip build lua *.yaml *.txt
       - name: Release
         uses: softprops/action-gh-release@v1
