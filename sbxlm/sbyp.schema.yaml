@@ -29,7 +29,7 @@ switches:
     reset: 0
     states: [前置, 后置]
   - options: [free, fixed, popping]
-    reset: 0
+    reset: 1
     states: [自由, 固定, 顶功]
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
@@ -82,49 +82,72 @@ engine:
     - simplifier
     - uniquifier
 
+algebra:
+  # 声笔特色
+  - xform/^(?=[aoe])/v/
+  - xform/^([zcs])h([a-z]+)(?=\d)/$1$2/
+  - derive/([nl])v/$1u/
+  - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
+  # 模糊鼻音
+  - derive/([aeio])ng(?=\d)/$1n/
+  # 容错
+  - derive/un(?=\d)/uen/
+  - derive/ui(?=\d)/uei/
+  - derive/iu(?=\d)/iou/
+  # 纠错
+  - derive/([aeiou])ng(?=\d)/$1gn/
+  - derive/([dtngkhrzcs])o(u|ng)(?=\d)/$1o/
+  - derive/ong(?=\d)/on/
+  - derive/ao(?=\d)/oa/
+  - derive/([iu])a(o|ng?)(?=\d)/a$1$2/
+  # 简拼
+  - abbrev/^([a-z]).+$/$1/
+  # 简拼加笔画
+  - derive/^([a-z])[a-z]+(\d)(\d+)$/$1$2/
+  - derive/^([a-z])[a-z]+(\d)(\d+)$/$1'$2/
+  - derive/^([a-z])[a-z]+(\d{2})(\d+)$/$1$2/
+  - derive/^([a-z])[a-z]+(\d{3})(\d+)$/$1$2/
+  - derive/^([a-z])[a-z]+(\d{4})(\d+)$/$1$2/
+  - derive/^([a-z])[a-z]+(\d{5})(\d+)$/$1$2/
+  # 全拼
+  - abbrev/^([a-z]+)\d+$/$1/
+  # 全拼加笔画
+  - derive/^([a-z]+)(\d+)$/$1/
+  - derive/^([a-z]+)(\d+)$/$1'/
+  - derive/^([a-z]+\d)(\d+)$/$1/
+  - derive/^([a-z]+\d{2})(\d+)$/$1/
+  - derive/^([a-z]+\d{3})(\d+)$/$1/
+  - derive/^([a-z]+\d{4})(\d+)$/$1/
+  - derive/^([a-z]+\d{5})(\d+)$/$1/
+  # 加分隔符
+  - xform/([a-z]+)(?=\d)/$1'/
+  # 数字转字母
+  - xlit/12345/eiuoa/
+
+popping:
+  __append:
+    # 顶功模式，单字、二字词、三字词
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶功模式，四字词和多字词
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 组合上屏
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]*[bpmfdtnlgkhjqxzcsrywv]"
+      accept: ";"
+      prefix: 0
+      strategy: ignore   
+
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou'"
   algebra:
-    # 声笔特色
-    - xform/^(?=[aoe])/v/
-    - xform/^([zcs])h([a-z]+)(?=\d)/$1$2/
-    - derive/([nl])v/$1u/
-    - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
-    # 模糊鼻音
-    - derive/([aeio])ng(?=\d)/$1n/
-    # 容错
-    - derive/un(?=\d)/uen/
-    - derive/ui(?=\d)/uei/
-    - derive/iu(?=\d)/iou/
-    # 纠错
-    - derive/([aeiou])ng(?=\d)/$1gn/
-    - derive/([dtngkhrzcs])o(u|ng)(?=\d)/$1o/
-    - derive/ong(?=\d)/on/
-    - derive/ao(?=\d)/oa/
-    - derive/([iu])a(o|ng?)(?=\d)/a$1$2/
-    # 简拼
-    - abbrev/^([a-z]).+$/$1/
-    # 简拼加笔画
-    - derive/^([a-z])[a-z]+(\d)(\d+)$/$1$2/
-    - derive/^([a-z])[a-z]+(\d)(\d+)$/$1'$2/
-    - derive/^([a-z])[a-z]+(\d{2})(\d+)$/$1$2/
-    - derive/^([a-z])[a-z]+(\d{3})(\d+)$/$1$2/
-    - derive/^([a-z])[a-z]+(\d{4})(\d+)$/$1$2/
-    - derive/^([a-z])[a-z]+(\d{5})(\d+)$/$1$2/
-    # 全拼
-    - abbrev/^([a-z]+)\d+$/$1/
-    # 全拼加笔画
-    - derive/^([a-z]+)(\d+)$/$1/
-    - derive/^([a-z]+)(\d+)$/$1'/
-    - derive/^([a-z]+\d)(\d+)$/$1/
-    - derive/^([a-z]+\d{2})(\d+)$/$1/
-    - derive/^([a-z]+\d{3})(\d+)$/$1/
-    - derive/^([a-z]+\d{4})(\d+)$/$1/
-    - derive/^([a-z]+\d{5})(\d+)$/$1/
-    # 加分隔符
-    - xform/([a-z]+)(?=\d)/$1'/
-    # 数字转字母
-    - xlit/12345/eiuoa/
+    __include: /algebra
+  popping:
+    __patch:
+      - /popping
+      - sbxlm.yaml:/basic_popping
 
 translator:
   __include: sbpy.schema.yaml:/translator
@@ -153,14 +176,12 @@ key_binder:
   bindings:
     __patch: 
       - sbxlm.yaml:/rime_key_bindings
-      - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbyp_extra_bindings
 
 reverse_lookup:
-  __include: sbxlm.yaml:/prelude/reverse_lookup
-  dictionary: sbyp
-  comment_format:
-    __include: /speller/algebra
+  tags: [bihua, zhlf]
+  overwrite_comment: true
+  dictionary: sbpy
 
 menu:
   page_size: 6

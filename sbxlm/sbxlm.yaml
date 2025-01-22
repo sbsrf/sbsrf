@@ -228,7 +228,7 @@ zzhz_popping:
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[aeiou]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){1,}[bpmfdtnlgkhjqxzcsrywv]{1,2}"
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){1,}[bpmfdtnlgkhjqxzcsrywv]{0,2}"
       accept: ";"
       prefix: 0
       strategy: ignore   
