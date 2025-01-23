@@ -26,10 +26,10 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - name: postpone
-    reset: 0
+    reset: 1
     states: [前置, 后置]
   - options: [free, fixed, popping]
-    reset: 1
+    reset: 2
     states: [自由, 固定, 顶功]
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
@@ -126,13 +126,9 @@ algebra:
 
 popping:
   __append:
-    # 顶功模式，单字、二字词、三字词
+    # 顶功模式
     - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou]+"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 顶功模式，四字词和多字词
-    - when: popping
-      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z']*'[aeiou]*$"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 组合上屏
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]*[bpmfdtnlgkhjqxzcsrywv]"
