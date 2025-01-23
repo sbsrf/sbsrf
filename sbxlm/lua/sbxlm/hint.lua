@@ -239,8 +239,8 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 飞系方案和双拼方案在 ss 码位上，提示声声笔词
-		if core.ss(input) and (core.feixi(id) or core.sp(id)) then
+		-- 飞系方案和双拼方案在 sx 码位上，进行后码提示
+		if core.sx(input) and (core.feixi(id) or core.sp(id)) then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
 				memory:dict_lookup(ssb, false, 1)
