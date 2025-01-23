@@ -47,7 +47,6 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
-    - lua_processor@*sbxlm.editor
     - lua_processor@*sbxlm.popping
     - speller
     - punctuator
