@@ -3,7 +3,10 @@
 -- 本处理器在 Rime 标准库的按键绑定处理器（key_binder）的基础上增加了用正则表达式判断当前输入的编码的功能
 -- 也即，在输入编码不同时，可以将按键绑定到不同的功能
 
+local XK_semicolon = 0x003b
+
 local rime = require "lib"
+local core = require "sbxlm.core"
 
 local this = {}
 
@@ -57,16 +60,31 @@ end
 ---@param key_event KeyEvent
 ---@param env KeyBinderEnv
 function this.func(key_event, env)
+  local context = env.engine.context
+  local segment = env.engine.context.composition:back()
+  local schema_id = env.engine.schema.schema_id
   if env.redirecting then
     return rime.process_results.kNoop
   end
-  local input = rime.current(env.engine.context)
+  local input = rime.current(context)
   if not input then
     return rime.process_results.kNoop
   end
-  if not env.engine.context.composition:back():has_tag("abc") then
+  if not segment:has_tag("abc") then
     return rime.process_results.kNoop
   end
+
+  -- 飞码延顶四码加分号特殊处理
+  if key_event.keycode == XK_semicolon and core.fm(schema_id)
+  and context:get_option("delayed_pop") and core.sxsx(input) then
+    env.redirecting = true
+    env.engine:process_key(rime.KeyEvent("Page_Down"))
+    env.engine:process_key(rime.KeyEvent("Page_Up"))
+    env.engine:process_key(rime.KeyEvent("a"))
+    env.redirecting = false
+    return rime.process_results.kAccepted
+  end
+
   for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then

@@ -435,6 +435,7 @@ end
 ---@param input string
 ---@param segment Segment
 ---@param env AutoLengthEnv
+---@return string
 local function translate_by_split(input, segment, env)
   local memory = env.static_memory
   memory:dict_lookup(input:sub(1, 2), false, 1)
@@ -456,6 +457,7 @@ local function translate_by_split(input, segment, env)
   local phrase = rime.Phrase(env.static_memory, "user_table", segment.start, segment._end, entry)
   phrase.preedit = input
   yield(phrase:toCandidate())
+  return text
 end
 
 local function filter(phrase, schema_id, input, phrases, known_words, env)
@@ -532,6 +534,7 @@ function this.func(input, segment, env)
     end
     return
   end
+
   local memory = env.dynamic_memory
   -- 静态编码都处理完了，现在进入自动码长的动态编码部分
   -- 首先，根据输入的前三码来模糊匹配，依次查询固态词典和用户词典，并且结果都存放到一个列表中
@@ -630,6 +633,12 @@ function this.func(input, segment, env)
       end
     elseif core.jm(schema_id) then
       count = 2
+    end  
+    -- 飞码延顶
+    if core.fm(schema_id) and env.delayed_pop and core.sxsx then
+      local text = translate_by_split(input, segment, env)
+      env.known_candidates[text] = 1
+      count = 2
     end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
@@ -643,25 +652,6 @@ function this.func(input, segment, env)
       or count <= 7 and core.fj(schema_id) and (rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV]"))
       or count <= 7 and core.jm(schema_id) or count <= 6 then
         env.known_candidates[cand.text] = count
-      end
-      -- 飞码延顶模式下在首选后用注释来提示两个二简字的组合，可用分号上屏
-      if (count == 1 and core.fm(schema_id) and env.delayed_pop) then
-        local memory = env.static_memory
-        memory:dict_lookup(input:sub(1, 2), false, 1)
-        local text = ""
-        for entry in memory:iter_dict() do
-          text = text .. entry.text
-          break
-        end
-        memory:dict_lookup(input:sub(3), false, 1)
-        for entry in memory:iter_dict() do
-          ---@type string
-          text = text .. entry.text
-          break
-        end
-        if cand.text ~= text then
-          cand.comment = cand.comment .. " " .. text .. ";"
-        end
       end
       yield(cand)
       count = count + 1
