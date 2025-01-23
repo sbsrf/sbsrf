@@ -240,7 +240,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系方案和双拼方案在 sx 码位上，进行后码提示
-		if core.sx(input) and (core.feixi(id) or core.sp(id)) then
+		if core.sx(input) and (core.feixi(id) and not is_hidden or core.sp(id)) then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
 				memory:dict_lookup(ssb, false, 1)
@@ -249,7 +249,7 @@ function this.func(translation, env)
 					entry1 = entry
 					break
 				end
-				if not entry1 or utf8.len(entry1.text) == 1 then
+				if not entry1 then
 					goto continue
 				end
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
