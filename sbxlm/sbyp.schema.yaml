@@ -148,10 +148,6 @@ translator:
   __include: sbpy.schema.yaml:/translator
   prism: sbyp
   strict_spelling: true
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
 
 punctuator:
   import_preset: sbxlm
