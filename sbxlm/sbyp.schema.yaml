@@ -85,7 +85,7 @@ algebra:
   # 声笔特色
   - xform/^(?=[aoe])/v/
   - xform/^([zcs])h([a-z]+)(?=\d)/$1$2/
-  - derive/([nl])v/$1u/
+  - xform/([nl])v/$1u/
   - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
   # 模糊鼻音
   - derive/([aeio])ng(?=\d)/$1n/
