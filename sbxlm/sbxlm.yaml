@@ -260,8 +260,8 @@ recognizer:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
     sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
-    sbyp: "^a[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
-    zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*'?$"
+    sbyp: "^a[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
+    zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"
     lua: "^o[bpmfdtnlgkhjqxzcsrywv0-9]+$"
