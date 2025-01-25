@@ -4,6 +4,11 @@
 -- 也即，在输入编码不同时，可以将按键绑定到不同的功能
 
 local XK_semicolon = 0x003b
+local XK_0 = 0x0030
+local XK_1 = 0x0031
+local XK_4 = 0x0034
+local XK_5 = 0x0035
+local XK_6 = 0x0036
 
 local rime = require "lib"
 local core = require "sbxlm.core"
@@ -95,6 +100,13 @@ function this.func(key_event, env)
       env.redirecting = false
       return rime.process_results.kAccepted
     end
+  end
+
+  if core.yp(schema_id) and input:sub(-2,-1) == "''"
+  and (key_event.keycode == XK_1 or key_event.keycode == XK_4
+  or key_event.keycode == XK_5 or key_event.keycode == XK_6
+  or key_event.keycode == XK_0) then
+    env.engine:process_key(rime.KeyEvent("BackSpace"))
   end
   return rime.process_results.kNoop
 end

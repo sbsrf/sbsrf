@@ -102,6 +102,11 @@ function core.jp(id)
 end
 
 ---@param id string
+function core.yp(id)
+  return id == "sbyp"
+end
+
+---@param id string
 function core.py(id)
   return id == "sbpy"
 end
