@@ -84,8 +84,8 @@ engine:
 algebra:
   # 声笔特色
   - xform/^(?=[aoe])/v/
-  - xform/^([zcs])h([a-z]+)(?=\d)/$1$2/
-  - xform/([nl])v/$1u/
+  - derive/^([zcs])h([a-z]+)(?=\d)/$1$2/
+  - derive/([nl])v/$1u/
   - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
   # 模糊鼻音
   - derive/([aeio])ng(?=\d)/$1n/
@@ -161,7 +161,7 @@ sbyp_extra_bindings:
     - { when: has_menu, accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}'" }
     - { when: has_menu, accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}'" }
     - { when: has_menu, accept: 6, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}'" }
-    - { when: has_menu, accept: 0, send_sequence: "{Home}{End}" }
+    - { when: has_menu, accept: 0, send_sequence: "{Home}{End}'" }
 
 key_binder:
   bindings:
