@@ -27,8 +27,14 @@ sbxlm.github.io/sbjp	jpa
 sbxlm.github.io/sbjm	jma
 声笔简飞：sbxlm.github.io/sbjf	jf
 sbxlm.github.io/sbjf	jfa
+声笔混拼：sbxlm.github.io/sbh	sbh
+sbxlm.github.io/sbh	sbha
+声笔易拼：sbxlm.github.io/sbyp	yp
+sbxlm.github.io/sbyp	ypa
 声笔拼音：sbxlm.github.io/sbpy	py
 sbxlm.github.io/sbpy	pya
+声笔四拼：sbxlm.github.io/sbsp	sp
+sbxlm.github.io/sbsp	spa
 声笔双拼：sbxlm.github.io/sbs	sbs
 sbxlm.github.io/sbs	sbsa
 声笔自然：sbxlm.github.io/sbzr	zr
