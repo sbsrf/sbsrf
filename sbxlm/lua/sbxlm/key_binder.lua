@@ -4,6 +4,7 @@
 -- 也即，在输入编码不同时，可以将按键绑定到不同的功能
 
 local XK_semicolon = 0x003b
+local XK_Tab = 0xff09
 local XK_0 = 0x0030
 local XK_1 = 0x0031
 local XK_4 = 0x0034
@@ -68,6 +69,8 @@ function this.func(key_event, env)
   local context = env.engine.context
   local segment = env.engine.context.composition:back()
   local schema_id = env.engine.schema.schema_id
+  local ascii_mode = context:get_option("ascii_mode")
+  local delayed_pop = context:get_option("delayed_pop")
   if env.redirecting then
     return rime.process_results.kNoop
   end
@@ -80,12 +83,17 @@ function this.func(key_event, env)
   end
 
   -- 飞码延顶四码加分号特殊处理
-  if key_event.keycode == XK_semicolon and core.fm(schema_id)
-  and context:get_option("delayed_pop") and core.sxsx(input) then
+  if (key_event.keycode == XK_semicolon or key_event.keycode == XK_Tab) 
+  and not ascii_mode and not key_event:shift() and not key_event:ctrl()
+  and core.fm(schema_id) and delayed_pop and core.sxsx(input) then
     env.redirecting = true
     env.engine:process_key(rime.KeyEvent("Page_Down"))
     env.engine:process_key(rime.KeyEvent("Page_Up"))
-    env.engine:process_key(rime.KeyEvent("a"))
+    if key_event.keycode == XK_semicolon then
+      env.engine:process_key(rime.KeyEvent("a"))
+    else
+      env.engine:process_key(rime.KeyEvent("e"))
+    end
     env.redirecting = false
     return rime.process_results.kAccepted
   end

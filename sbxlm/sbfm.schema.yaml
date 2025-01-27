@@ -237,8 +237,6 @@ sbfm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
-    #要支持用Tab进行三选，请去掉下面一行前面的#，并重新部署
-    #- { match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}", accept: Tab, send_sequence: "{Page_Down}{Page_Up}e" }
 
 key_binder:
   bindings:
