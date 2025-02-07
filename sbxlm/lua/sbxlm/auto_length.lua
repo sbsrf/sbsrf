@@ -250,6 +250,8 @@ local dtypes = {
   unified = 4,
   --- 声笔飞讯第三声母大写
   short2 = 5,
+  --- 声笔飞简延顶ssss
+  fj4s = 6,
 }
 
 ---判断输入的编码是否为动态编码
@@ -300,7 +302,7 @@ local function dynamic(input, env)
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       return input:len() - 3
     elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}") then
-      return dtypes.invalid
+      return dtypes.fj4s
     elseif input:len() == 3 then
       return dtypes.short
     elseif input:len() == 4 then
@@ -601,7 +603,26 @@ function this.func(input, segment, env)
   -- 4. 如果输入的编码是扩展编码的全码，那么返回所有的候选
   -- 在情况 1 和 2 下，还要把已经见到的候选放到缓存中，以便在更长码时不重复出现这个候选
   -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
-  if dynamic(input, env) == dtypes.short then
+  if dynamic(input, env) == dtypes.fj4s then
+    local entry = rime.DictEntry()
+    local text = ""
+    for key, _ in pairs(env.known_candidates) do
+      text = key
+      break
+    end
+    local memory2 = env.static_memory
+    memory2:dict_lookup(input:sub(4, 4), false, 1)
+    for entry2 in memory2:iter_dict() do
+      text = text .. entry2.text
+      break
+    end
+    entry.text = text
+    entry.custom_code = input
+    entry.comment = kTopSymbol
+    local phrase = rime.Phrase(env.static_memory, "user_table", segment.start, segment._end, entry)
+    phrase.preedit = input
+    yield(phrase:toCandidate())
+  elseif dynamic(input, env) == dtypes.short then
     --飞简需要特殊处理
     if core.fj(schema_id) then
       env.known_candidates = {}
