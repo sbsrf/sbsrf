@@ -28,9 +28,9 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: pro_char
+  - options: [pro_word, pro_char, delayed_pop]
     reset: 0
-    states: [词组, 单字]
+    states: [词组, 单字, 延顶]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
@@ -106,9 +106,16 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][aeiou]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[aeiou]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: pro_word
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     # 增强模式下的数字顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[0-9]"
+      prefix: 2
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "[0-9]"
@@ -118,10 +125,17 @@ popping:
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
     # 大写的词组顶
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 延顶模式
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: "[a-z]"
+      prefix: 3
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      strategy: append
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
@@ -203,6 +217,12 @@ sbfj_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: space
+      send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
 
 key_binder:
   bindings:

@@ -299,6 +299,8 @@ local function dynamic(input, env)
   if core.fj(schema_id) then
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       return input:len() - 3
+    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}") then
+      return dtypes.invalid
     elseif input:len() == 3 then
       return dtypes.short
     elseif input:len() == 4 then
