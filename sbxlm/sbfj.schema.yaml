@@ -220,9 +220,6 @@ sbfj_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
-      accept: space
-      send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
 
 key_binder:
   bindings:
