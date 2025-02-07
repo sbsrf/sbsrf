@@ -591,18 +591,8 @@ function this.func(input, segment, env)
     end
     return
   end
-  -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
-  if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
-    translate_by_split(input, segment, env)
-    return
-  end
-  -- 以下分 4 种情况实现自动码长的翻译策略
-  -- 1. 如果输入的编码是一个动态编码的起始调整位，那么返回一个权重最高的候选
-  -- 2. 如果输入的编码是基本编码的全码，那么返回所有的候选
-  -- 3. 如果输入的编码是在基本编码的基础上加上了一个选重键，那么返回一个特定的候选
-  -- 4. 如果输入的编码是扩展编码的全码，那么返回所有的候选
-  -- 在情况 1 和 2 下，还要把已经见到的候选放到缓存中，以便在更长码时不重复出现这个候选
-  -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
+  
+  -- 飞简ssss时的特殊处理
   if dynamic(input, env) == dtypes.fj4s then
     local entry = rime.DictEntry()
     local text = ""
@@ -622,7 +612,22 @@ function this.func(input, segment, env)
     local phrase = rime.Phrase(env.static_memory, "user_table", segment.start, segment._end, entry)
     phrase.preedit = input
     yield(phrase:toCandidate())
-  elseif dynamic(input, env) == dtypes.short then
+    return
+  end
+
+  -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
+  if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+    translate_by_split(input, segment, env)
+    return
+  end
+  -- 以下分 4 种情况实现自动码长的翻译策略
+  -- 1. 如果输入的编码是一个动态编码的起始调整位，那么返回一个权重最高的候选
+  -- 2. 如果输入的编码是基本编码的全码，那么返回所有的候选
+  -- 3. 如果输入的编码是在基本编码的基础上加上了一个选重键，那么返回一个特定的候选
+  -- 4. 如果输入的编码是扩展编码的全码，那么返回所有的候选
+  -- 在情况 1 和 2 下，还要把已经见到的候选放到缓存中，以便在更长码时不重复出现这个候选
+  -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
+  if dynamic(input, env) == dtypes.short then
     --飞简需要特殊处理
     if core.fj(schema_id) then
       env.known_candidates = {}
