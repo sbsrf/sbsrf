@@ -25,8 +25,6 @@ sbxlm.github.io/sbj	sbja
 sbxlm.github.io/sbjp	jpa
 声笔简码：sbxlm.github.io/sbjm	jm
 sbxlm.github.io/sbjm	jma
-声笔简飞：sbxlm.github.io/sbjf	jf
-sbxlm.github.io/sbjf	jfa
 声笔混拼：sbxlm.github.io/sbh	sbh
 sbxlm.github.io/sbh	sbha
 声笔易拼：sbxlm.github.io/sbyp	yp
@@ -55,6 +53,8 @@ sbxlm.github.io/sbfm	fma
 sbxlm.github.io/sbfd	fda
 声笔飞讯：sbxlm.github.io/sbfx	fx
 sbxlm.github.io/sbfx	fxa
+声笔飞简：sbxlm.github.io/sbfj	fj
+sbxlm.github.io/sbfj	fja
 发展历程：sbxlm.github.io/fzlc	lc
 sbxlm.github.io/fzlc	lca
 常见问题：sbxlm.github.io/faq	wt
