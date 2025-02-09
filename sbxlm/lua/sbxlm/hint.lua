@@ -88,11 +88,12 @@ function this.func(translation, env)
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if ctx.input ~= code then
-					if (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9]?")) then
+					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9]?") then
 						candidate.comment = candidate.comment .. " " .. code
-					elseif (rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z0-9;']?")) then
+					elseif rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z0-9;']?") then
 						candidate.comment = candidate.comment .. " " .. code
-					end
+					elseif id == 'sbjp' and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio][0-9;']") then
+						candidate.comment = candidate.comment .. " " .. code					end
 				end
 			end
 		end
