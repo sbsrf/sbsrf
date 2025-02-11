@@ -37,10 +37,10 @@ function this.func(key_event, env)
   -- 只对 aeiou 和 Backspace 键生效
   -- 如果输入是 aeiou，则添加一个码
   -- 如果输入是 Backspace，则从之前增加的补码中删除一个码
-  if not (rime.match(incoming, "[aeiou]") or incoming == "BackSpace") then
+  if not (rime.match(incoming, "[aeiou']") or incoming == "BackSpace") then
     return rime.process_results.kNoop
   end
-  if rime.match(context.input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]{5,}") and incoming ~= "BackSpace" then
+  if rime.match(context.input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{5,}") and incoming ~= "BackSpace" then
     return rime.process_results.kAccepted
   end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
@@ -53,12 +53,12 @@ function this.func(key_event, env)
   end
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
-  if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
+  if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}") then
     return rime.process_results.kNoop
   end
   -- 如果输入是 Backspace，还要验证是否有补码
   if incoming == "BackSpace" then
-    if not rime.match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]+.+") then
+    if not rime.match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']+.+") then
       return rime.process_results.kNoop
     end
   end
