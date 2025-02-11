@@ -116,9 +116,6 @@ popping:
     # 顶标点
     - match: ".*[^a-z0-9']"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    # 标点大写顶
-    - match: ".*[a-z0-9;']"
-      accept: "[^a-z0-9;' ]"
     - when: mixed
     # 如果希望能顶声笔字，那么可以将下一行中的[aeuio]{3,}改为[aeuio]
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
