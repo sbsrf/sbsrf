@@ -615,6 +615,12 @@ function this.func(input, segment, env)
     return
   end
 
+  -- 飞码延顶
+  if core.fm(schema_id) and env.delayed_pop and core.sxsx(input) then
+    translate_by_split(input, segment, env)
+    return
+  end
+
   -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
   if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
     translate_by_split(input, segment, env)
@@ -662,12 +668,6 @@ function this.func(input, segment, env)
     elseif core.jm(schema_id) then
       count = 2
     end  
-    -- 飞码延顶
-    if core.fm(schema_id) and env.delayed_pop and core.sxsx then
-      local text = translate_by_split(input, segment, env)
-      env.known_candidates[text] = 1
-      count = 2
-    end
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
       if (env.known_candidates[cand.text] or inf) < count then
@@ -688,9 +688,7 @@ function this.func(input, segment, env)
   elseif dynamic(input, env) == dtypes.select then
     local last = input:sub(-1)
     local order = string.find(env.engine.schema.select_keys, last)
-    if core.fm(schema_id) and env.delayed_pop then
-      order = string.find("_AEUIO", last)
-    elseif core.fx(schema_id) then
+    if core.fx(schema_id) then
       if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][aeuio]{3}") then
         order = order + 2
       elseif rime.match(input, "[a-z]{3}[23789][aeuio]{2}") then

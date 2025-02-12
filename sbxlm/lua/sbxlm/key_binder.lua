@@ -83,17 +83,24 @@ function this.func(key_event, env)
   end
 
   -- 飞码延顶四码加分号特殊处理
-  if (key_event.keycode == XK_semicolon or key_event.keycode == XK_Tab) 
-  and not ascii_mode and not key_event:shift() and not key_event:ctrl()
+  if not ascii_mode and not key_event:shift() and not key_event:ctrl()
   and core.fm(schema_id) and delayed_pop then
     env.redirecting = true
     if core.sxsx(input) then
-      env.engine:process_key(rime.KeyEvent("Page_Down"))
-      env.engine:process_key(rime.KeyEvent("Page_Up"))
       if key_event.keycode == XK_semicolon then
-        env.engine:process_key(rime.KeyEvent("a"))
+        env.engine:process_key(rime.KeyEvent("BackSpace"))
+        env.engine:process_key(rime.KeyEvent(input:upper():sub(4,4)))
+      elseif key_event.keycode == XK_Tab then
+        env.engine:process_key(rime.KeyEvent("Home"))
+        env.engine:process_key(rime.KeyEvent("Right"))
+        env.engine:process_key(rime.KeyEvent("Right"))
+        env.engine:process_key(rime.KeyEvent("'"))
+        env.engine:process_key(rime.KeyEvent("space"))
+        env.engine:process_key(rime.KeyEvent("'"))
+        env.engine:process_key(rime.KeyEvent("space"))
       else
-        env.engine:process_key(rime.KeyEvent("e"))
+        env.redirecting = false
+        goto continue
       end
     elseif core.sss(input) and key_event.keycode == XK_semicolon then
       env.engine:process_key(rime.KeyEvent("Home"))
@@ -102,11 +109,15 @@ function this.func(key_event, env)
       env.engine:process_key(rime.KeyEvent("space"))
       env.engine:process_key(rime.KeyEvent(";"))
       env.engine:process_key(rime.KeyEvent("space"))
+    else
+      env.redirecting = false
+      goto continue
     end
     env.redirecting = false
     return rime.process_results.kAccepted
   end
 
+  ::continue::
   for _, binding in ipairs(env.bindings) do
     -- 只有当按键和当前输入的模式都匹配的时候，才起作用
     if key_event:eq(binding.accept) and rime.match(input, binding.match) then

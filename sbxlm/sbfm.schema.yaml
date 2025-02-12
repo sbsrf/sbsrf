@@ -32,7 +32,7 @@ switches:
     reset: 0
     states: [词组, 单字, 延顶]
   - name: is_enhanced
-    reset: 1
+    reset: 0
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
     reset: 1
@@ -155,6 +155,10 @@ popping:
     - when: delayed_pop
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO][aeuio]*"
       accept: ";"
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[A-Z]"
+      strategy: append
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO"
@@ -264,5 +268,6 @@ menu:
   alternative_select_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuioAEUIO][aeuio]"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-zA-Z][aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{2}"
-  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuioAEUIO]{0,2}|[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{0, 2}$"
+  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuioAEUIO]{0,2}|[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{0, 2}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-zA-Z][aeuio]{0,2}$"
