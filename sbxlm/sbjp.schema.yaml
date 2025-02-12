@@ -90,7 +90,9 @@ sbjp_extra_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "0", send_sequence: "{Home}{Right}{Right}" }
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]", accept: Tab, send_sequence: "{Home}{Right}{Right}{space}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 6, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
 
 key_binder:
   bindings:
