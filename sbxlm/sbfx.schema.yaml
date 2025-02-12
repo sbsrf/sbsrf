@@ -120,11 +120,11 @@ popping:
     # 增强模式下的数字顶
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeuio]"
-      accept: "[0-9]"
+      accept: "[0-9;']"
       prefix: 2
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[0-9]"
+      accept: "[0-9;']"
       prefix: 2
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
@@ -271,9 +271,12 @@ sbfx_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[0-9]"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{apostrophe}{space}" 
