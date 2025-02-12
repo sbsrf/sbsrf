@@ -32,7 +32,7 @@ switches:
     reset: 0
     states: [词组, 单字, 延顶]
   - name: is_enhanced
-    reset: 0
+    reset: 1
     states: [常规, 增强]
   - options: [hide, rational, irrational, both]
     reset: 1
@@ -199,14 +199,9 @@ sbfm_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio0-9]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
-      accept: ";"
-      send_sequence: "{Home}{Right}{space}{space}"
-      #上一行在延顶下可改为下一行，以支持s;字
-      #send_sequence: "{Home}{Right}{Right}{space};{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"

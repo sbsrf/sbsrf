@@ -85,14 +85,23 @@ function this.func(key_event, env)
   -- 飞码延顶四码加分号特殊处理
   if (key_event.keycode == XK_semicolon or key_event.keycode == XK_Tab) 
   and not ascii_mode and not key_event:shift() and not key_event:ctrl()
-  and core.fm(schema_id) and delayed_pop and core.sxsx(input) then
+  and core.fm(schema_id) and delayed_pop then
     env.redirecting = true
-    env.engine:process_key(rime.KeyEvent("Page_Down"))
-    env.engine:process_key(rime.KeyEvent("Page_Up"))
-    if key_event.keycode == XK_semicolon then
-      env.engine:process_key(rime.KeyEvent("a"))
-    else
-      env.engine:process_key(rime.KeyEvent("e"))
+    if core.sxsx(input) then
+      env.engine:process_key(rime.KeyEvent("Page_Down"))
+      env.engine:process_key(rime.KeyEvent("Page_Up"))
+      if key_event.keycode == XK_semicolon then
+        env.engine:process_key(rime.KeyEvent("a"))
+      else
+        env.engine:process_key(rime.KeyEvent("e"))
+      end
+    elseif core.sss(input) and key_event.keycode == XK_semicolon then
+      env.engine:process_key(rime.KeyEvent("Home"))
+      env.engine:process_key(rime.KeyEvent("Right"))
+      env.engine:process_key(rime.KeyEvent("Right"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(";"))
+      env.engine:process_key(rime.KeyEvent("space"))
     end
     env.redirecting = false
     return rime.process_results.kAccepted
