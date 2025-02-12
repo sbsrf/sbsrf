@@ -159,6 +159,9 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[A-Z]"
       strategy: append
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
+      accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO"
