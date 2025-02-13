@@ -69,7 +69,7 @@ translator:
     - sbpy.base
     - sbpy.ext
     - sbpy.tencent
-  fix_combination: false
+  fix_combination: true
   prism: sbjp
 
 sbjp_extra_bindings:
