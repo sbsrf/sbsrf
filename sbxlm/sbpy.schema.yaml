@@ -27,7 +27,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - name: postpone
-    reset: 0
+    reset: 1
     states: [前置, 后置]
   - options: [free, fixed, popping, mixed]
     reset: 2
