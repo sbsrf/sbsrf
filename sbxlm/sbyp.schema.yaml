@@ -90,7 +90,8 @@ algebra:
   - derive/^([jqx])i([aeo][a-z]*)(?=\d)/$1$2/
   # 模糊音
   - derive/([aeio])ng(?=\d)/$1n/
-  - derive/^n([a-z]*)(?=\d)/l$1/
+  # 若要模糊n为l，则启用下一行
+  #- derive/^n([a-z]*)(?=\d)/l$1/
   # 容错
   - derive/un(?=\d)/uen/
   - derive/ui(?=\d)/uei/

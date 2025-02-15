@@ -21,6 +21,9 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
   local incoming = key_event:repr()
+  if incoming == "apostrophe" then
+    incoming = "'"
+  end
   -- 如果输入为空格或数字，代表着作文即将上屏，此时把 kConfirmed 的片段改为 kSelected
   -- 这解决了 https://github.com/rime/home/issues/276 中的不造词问题
   if rime.match(incoming, "\\d") or incoming == "space" then

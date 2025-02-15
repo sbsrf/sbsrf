@@ -26,15 +26,9 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: postpone
-    reset: 1
-    states: [前置, 后置]
-  - options: [free, fixed, popping, mixed]
-    reset: 2
-    states: [自由, 固定, 顶功, 混合]
   - name: is_hidden
     states: [提示, 隐藏]
-    reset: 1  # 1为隐藏：不提示第二页的固定字词
+    reset: 1  # 为1时隐藏无理固定数选字词
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
@@ -43,6 +37,12 @@ switches:
     reset: 1  # 首字母大写进入临时英文状态
   - name: is_buffered
     reset: 0  # 是否为缓冲输入模式
+  - name: postpone
+    reset: 1  # 是否为后置模式
+  #  states: [前置, 后置]
+  - options: [free, fixed, popping, mixed]
+    reset: 2  # 默认为顶功模式
+  #  states: [自由, 固定, 顶功, 混合]
   - name: back_insert # 混合模式下的补码标识
     reset: 0
 
@@ -116,6 +116,9 @@ popping:
     # 顶标点
     - match: ".*[^a-z0-9']"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点顶
+    - match: ".*[a-zA-Z0-9;']"
+      accept: "[^a-zA-Z0-9;' ]"
     - when: mixed
     # 如果希望能顶声笔字，那么可以将下一行中的[aeuio']{3,}改为[aeuio']
       match: "[bpmfdtnlgkhjqxzcsrywv][aeuio']{3,}"
@@ -145,6 +148,10 @@ popping:
     - when: back_insert
       match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio']{2,}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: back_insert
+      match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio][aeuio']"
+      accept: "'"
+      strategy: append    
     # 顶功模式，单字、二字词、三字词
     - when: popping
       match: "([bpmfdtnlgkhjqxzcsrywv][aeuio']{0,5}){1,3}[aeiou']+"

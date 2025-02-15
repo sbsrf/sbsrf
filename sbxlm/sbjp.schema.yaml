@@ -1,7 +1,7 @@
 # Rime schema
 # encoding: utf-8
 
-__include: sbpy.schema.yaml:/
+__include: sbxlm.yaml:/prelude
 
 schema:
   schema_id: sbjp
@@ -12,7 +12,9 @@ schema:
     - 戴石麟 <https://sbxlm.github.io>
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
-    - sbpy
+    - sbyp
+    - bihua
+    - zhlf
 
 switches:
   - name: ascii_mode
@@ -44,7 +46,52 @@ switches:
   - name: back_insert # 混合模式下的补码标识
     reset: 0
 
-sbjp_algebra:
+engine:
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.editor
+    - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@bihua
+    - affix_segmentor@sbyp
+    - affix_segmentor@zhlf
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - table_translator@bihua
+    - script_translator@sbyp
+    - script_translator@zhlf
+    - lua_translator@*sbxlm.utils.datetime
+    - lua_translator@*sbxlm.utils.number
+    - lua_translator@*sbxlm.utils.calculator
+    - table_translator@sbzdy
+    - history_translator
+  filters:
+    - lua_filter@*sbxlm.hint
+    - reverse_lookup_filter@reverse_lookup
+    - lua_filter@*sbxlm.fix
+    - lua_filter@*sbxlm.postpone
+    - lua_filter@*sbxlm.select_key_to_comment
+    - simplifier
+    - uniquifier
+
+algebra:
   # 1. 冠零声
   - xform/\b(?=[aoe])/v/
   # 2. 去韵母
@@ -52,16 +99,80 @@ sbjp_algebra:
   # 3. 补笔画
   - xlit/12345/eiuoa/
 
+popping:
+  __append:
+    # 顶标点
+    - match: ".*[^a-z0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 标点顶
+    - match: ".*[a-zA-Z0-9;']"
+      accept: "[^a-zA-Z0-9;' ]"
+    - when: mixed
+    # 如果希望能顶声笔字，那么可以将下一行中的[aeuio]{3,}改为[aeuio]
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 如果希望词组末字有三码后就开始顶，那么可以将下一行中的[aeuio]{3,}改为[aeuio]{2,}
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+    # 如果希望只支持顺序二字词，且从第二字的首码起顶屏，那么可注释掉上一行并启用下一行
+      #match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}[bpmfdtnlgkhjqxzcsrywv][aeuio]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: ".*[bpmfdtnlgkhjqxzcsrywv][aeuio]{3,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{1,2})*[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2})+[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2,}[aeuio]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: mixed
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    - when: back_insert
+      match: "[bpmfdtnlgkhjqxzcsrywv].*[bpmfdtnlgkhjqxzcsrywv][aeuio]{2,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]" 
+    # 顶功模式，单字、二字词、三字词
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){1,3}[aeiou']+"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶功模式，四字词和多字词
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 顶功模式，大写参与编码
+    - when: popping
+      match: "([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,5}){4,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    # 适用于各种模式的组合上屏
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{1,3}[aeuio]{1,}([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,}){1,}"
+      accept: ";" 
+      prefix: 0
+      strategy: ignore
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}([bpmfdtnlgkhjqxzcsrywv][aeuio]{0,}){1,}"
+      accept: ";" 
+      prefix: 0
+      strategy: ignore
+
 speller:
-  __include: sbpy.schema.yaml:/speller
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
   algebra:
-    __include: /sbjp_algebra
+    __include: /algebra
     __append:
       - derive/^([a-z]).+$/$1/
       - derive/^([a-z]{2}).+$/$1/
       - derive/^([a-z]{3}).+$/$1/
       - derive/^([a-z]{4}).+$/$1/
       - derive/^([a-z]{5}).+$/$1/
+  popping:
+    __patch:
+      - /popping
 
 translator:
   dictionary: sbpy
@@ -72,9 +183,16 @@ translator:
   fix_combination: true
   prism: sbjp
 
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+  patterns:
+    sbjm: ''
+
 sbjp_extra_bindings:
   __append:
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{4,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}{Left}{space}{space}"}
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{4}", accept: "'", send_sequence: "{Home}{Right}{Right}{space}{Left}{space}{space}"}
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "1", send_sequence: "{Page_Down}{space}" }
@@ -90,9 +208,9 @@ sbjp_extra_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "0", send_sequence: "{Home}{Right}{Right}" }
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z']{3,}", accept: 6, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: 4, send_sequence: "{Home}{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: 5, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{3,}", accept: 6, send_sequence: "{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
 
 key_binder:
   bindings:
@@ -102,6 +220,14 @@ key_binder:
       - /sbjp_extra_bindings
 
 reverse_lookup:
-  __include: sbpy.schema.yaml:/reverse_lookup
+  __include: sbxlm.yaml:/prelude/reverse_lookup
+  dictionary: sbpy
+  prism: sbjp
   comment_format:
-    __include: /sbjp_algebra
+    __include: /algebra
+
+menu:
+  page_size: 6
+  alternative_select_keys: "_23789"
+  alternative_select_labels: ["", "", "", "", "", ""]
+  select_comment_pattern: "^[bpmfdtnlgkhjqxzcsrywv].*$"
