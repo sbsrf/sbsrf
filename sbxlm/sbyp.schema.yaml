@@ -151,6 +151,7 @@ translator:
   __include: sbpy.schema.yaml:/translator
   prism: sbyp
   strict_spelling: true
+  fix_combination: true
 
 punctuator:
   import_preset: sbxlm
