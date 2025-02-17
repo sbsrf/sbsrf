@@ -18,9 +18,39 @@ schema:
     - zhlf
 
 switches:
-  __include: sbfm.schema.yaml:/switches
-  __patch:
-    '@3/reset': 1
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    reset: 0
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - options: [pro_word, pro_char, delayed_pop]
+    reset: 1
+    states: [词组, 单字, 延顶]
+  - name: is_enhanced
+    reset: 0
+    states: [常规, 增强]
+  - options: [hide, rational, irrational, both]
+    reset: 1
+    states: [隐藏, 有理, 无理, 两者]
+  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
+  #- options: [_key_Hide]
+  #  states: ["▼"]
+  # 为了避免拥挤，不显示下面的状态
+  - name: auto_inline
+    reset: 1
+  - name: is_buffered
+    reset: 0
+  - name: single_display
+    reset: 1
+  # 不要改变下面的状态，以免穿帮
+  - name: third_pop
+    reset: 0
+  - name: fast_pop
+    reset: 0
 
 translator:
   __include: sbfm.schema.yaml:/translator
