@@ -363,16 +363,32 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     if (core.fm(schema_id) or core.fd(schema_id)) and (env.delayed_pop or env.pro_char)
-    and utf8.len(entry.text) == 2 then
-      local offset = utf8.offset(entry.text,2)
-      local char1 = entry.text:sub(1, offset - 1)
-      local char2 = entry.text:sub(offset)
-      local char1_len = env.char_lens[char1]
-      local char2_len = env.char_lens[char2]
-      if char1 and char2 and char1_len and char2_len then
-        if char1_len + char2_len <= env.filter_strength then
-          return nil
+    and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
+      if (utf8.len(entry.text) == 2) then
+        local offset = utf8.offset(entry.text, 2)
+        local char1 = entry.text:sub(1, offset - 1)
+        local char2 = entry.text:sub(offset)
+        local char1_len = env.char_lens[char1]
+        local char2_len = env.char_lens[char2]
+        if char1 and char2 and char1_len and char2_len then
+          if char1_len + char2_len <= env.filter_strength then
+            return nil
+          end
         end
+      elseif (utf8.len(entry.text) == 3) then
+          local offset = utf8.offset(entry.text, 2)
+          local offset2 = utf8.offset(entry.text, 3)
+          local char1 = entry.text:sub(1, offset - 1)
+          local char2 = entry.text:sub(offset, offset2 - 1)
+          local char3 = entry.text:sub(offset2)
+          local char1_len = env.char_lens[char1]
+          local char2_len = env.char_lens[char2]
+          local char3_len = env.char_lens[char3]
+          if char1 and char2 and char3 and char1_len and char2_len and char3_len then
+            if char1_len + char2_len + char3_len <= env.filter_strength then
+              return nil
+            end
+          end        
       end
     end
   end
