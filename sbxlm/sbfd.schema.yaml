@@ -53,6 +53,17 @@ switches:
     reset: 0
 
 translator:
-  __include: sbfm.schema.yaml:/translator
-  __patch:
-    'max_phrase_length': 1
+  dictionary: sbfm
+  enable_user_dict: true
+  enable_filtering: true
+  filter_strength: 6    #可以为3,4,5,6 
+  forced_selection: true
+  single_selection: false
+  enable_encoder: true
+  stop_change: false
+  delete_threshold: 2000
+  max_phrase_length: 1
+  disable_user_dict_for_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
