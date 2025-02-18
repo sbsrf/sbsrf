@@ -61,7 +61,7 @@ function this.func(translation, env)
 		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
-				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]*") and input ~= code and input:len() >= code:len()
+				if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z;']*") and input ~= code and input:len() >= code:len()
 					or rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;'][aeuio]?") and is_enhanced then
 					candidate.comment = candidate.comment .. " " .. code
 				end
