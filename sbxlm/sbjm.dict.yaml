@@ -165,6 +165,7 @@ encoder:
 铵	vjo'
 隌	va;
 揞	vfo'
+罯	vzo'
 岸	vi2
 岸	vse'
 岸边	vb2
@@ -183,6 +184,7 @@ encoder:
 按照	vz8
 按住	vz7
 洝	vdo'
+豻	hze'
 豻	vze'
 案	v9
 案	vm'
@@ -239,8 +241,10 @@ encoder:
 鏖	vo0
 袄	vo5
 袄	voa'
+镺	vzu'
 媪	va9
 媪	vau'
+扷	vfu'
 坳	vta'
 傲	vre'
 傲	vu9
@@ -1523,6 +1527,7 @@ encoder:
 刁	dze'
 貂	duo'
 雕刻	dk6
+屌	dae'
 吊	dki'
 伄	dra'
 钓	dju'
@@ -1537,7 +1542,6 @@ encoder:
 谍	doae'
 牒	dpe'
 叠	da;
-叠	dae'
 蝶	di1
 蝶	die'
 丁	de'
@@ -1586,7 +1590,7 @@ encoder:
 动态	dt3
 动物	dw6
 动作	dz7
-峒	dsi'
+峒	dsia'
 洞	ddi'
 洞	do1
 洞口	dk1
@@ -2368,7 +2372,7 @@ encoder:
 赶	ge0
 赶	gze'
 赶到	gd6
-赶紧	g;i
+赶紧	gj1
 赶快	gk9
 敢	ga3
 敢	gwa'
@@ -2378,8 +2382,8 @@ encoder:
 感到	gd
 感动	gd0
 感恩	gv8
-感激	gj6
-感觉	gj9
+感激	gj9
+感觉	gj
 感慨	gk1
 感冒	gm5
 感情	gq9
@@ -2487,6 +2491,7 @@ encoder:
 各个	gg7
 各国	gg4
 各级	gj5
+各界	g'i
 各类	gl9
 各派	gp9
 各人	gr6
@@ -2503,7 +2508,7 @@ encoder:
 跟	gz'
 跟前	gq4
 跟着	gz9
-跟踪	g'i
+跟踪	g;i
 艮	ga'
 艮	gau'
 耕	gle'
@@ -2541,7 +2546,7 @@ encoder:
 公安	gv
 公布	gb3
 公共	g'e
-公斤	gj1
+公斤	gj0
 公开	gk
 公路	gl8
 公平	gp
@@ -2556,7 +2561,7 @@ encoder:
 功能	gn2
 功勋	gx8
 攻	ggu'
-攻击	gj0
+攻击	gj6
 攻略	gl5
 攻破	gp0
 攻势	gs1
@@ -2788,7 +2793,6 @@ encoder:
 国	gi
 国防	gf2
 国际	gj2
-国家	gj
 国企	gq7
 国土	gt3
 国王	gw3
@@ -3099,6 +3103,7 @@ encoder:
 戽	hho'
 祜	hne'
 扈	hoa'
+簄	hpo'
 花	h3
 花	hcu'
 花儿	hv4
@@ -3862,6 +3867,7 @@ encoder:
 慨	kla'
 慨	ko1
 楷模	km5
+炌	khu'
 刊	ke;
 刊	kle'
 刊登	kd2
@@ -4047,6 +4053,7 @@ encoder:
 恳	k2
 恳	kxa'
 啃	kki'
+貇	kza'
 硍	ksa'
 裉	kna'
 阬	kvo'
@@ -8251,6 +8258,7 @@ encoder:
 偎	wri'
 隈	wvi'
 揋	wfi'
+椳	wmi'
 微	wci'
 微	wu7
 微风	wf1
@@ -9936,6 +9944,7 @@ encoder:
 转让	zr9
 转身	zs7
 转向	zx6
+瑑	zwa'
 赚	ziau'
 赚钱	zq7
 篆	zpa'
@@ -10035,7 +10044,6 @@ encoder:
 嘴	zki'
 嘴巴	zb2
 嘴唇	zc1
-璻	zwa'
 最	z;
 最	zq'
 最高	zg9
@@ -10049,7 +10057,6 @@ encoder:
 罪	zi1
 罪	zzi'
 罪恶	zv6
-欈	wmi'
 尊	zco'
 遵	zlo'
 昨日	zr8
@@ -10081,14 +10088,7 @@ encoder:
 做出	zc6
 做法	zf4
 做好	zh6
-乤	hze'
-乥	hpo'
-乫	kza'
-乯	vzu'
-乻	vzo'
 巪	kha'
-旕	vfu'
-穒	khu'
 直	zsia'	494723
 剑	jluo'	362868
 极	jmua'	326584
@@ -11156,7 +11156,7 @@ encoder:
 竺	zpee'	9210
 捣	dfua'	9202
 雍	ywaa'	9181
-醋	cyei'	9161
+醋	cyei'	2
 搅	jfoo'	9144
 闺	gmei'	9142
 捞	lfei'	9142
@@ -12049,6 +12049,7 @@ encoder:
 椿	cmee'	1934
 秧	yhia'	1934
 辘	lcoe'	1925
+峒	dsia'	1922
 潼	tdoe'	1920
 杳	ymia'	1920
 郸	dvou'	1910
@@ -12149,7 +12150,6 @@ encoder:
 腺	xvui'	1610
 鼾	hbee'	1608
 镰	ljoe'	1608
-碘	dsia'	1604
 绡	xjio'	1601
 癸	gdee'	1598
 诌	zyua'	1598
@@ -14750,10 +14750,8 @@ encoder:
 隌	vvoe'	1
 晻	vqeu'	1
 晻	yqeu'	1
-罯	vzoe'	1
 犴	hqee'	1
 荌	vcoo'	1
-豻	hzee'	1
 堓	vtia'	1
 婩	vnia'	1
 婩	ynia'	1
@@ -14786,8 +14784,6 @@ encoder:
 鰲	vvee'	1
 芺	tcue'	1
 芺	vcue'	1
-镺	vzue'	1
-扷	vfue'	1
 抝	nfaa'	1
 抝	vfaa'	1
 垇	vtia'	1
@@ -15559,7 +15555,7 @@ encoder:
 窲	lxou'	1
 罺	czaa'	1
 轈	ccaa'	1
-謿	cyei'	1
+謿	cyei'	312
 眧	cmau'	1
 煼	chua'	1
 麨	cmiu'	1
@@ -16525,7 +16521,7 @@ encoder:
 鼦	dsau'	1
 鵰	dnua'	1
 扚	dfua'	1
-屌	dsia'	2
+屌	dsia'	1923
 弔	dgii'	1
 訋	dyua'	1
 罀	zfuo'	1
@@ -18170,7 +18166,6 @@ encoder:
 鳸	hhui'	1
 擭	hfei'	1
 濩	hdei'	1
-簄	hpoa'	1
 鍙	hjoo'	1
 嚛	hkui'	1
 鳠	hvei'	1
@@ -19524,7 +19519,6 @@ encoder:
 輆	kcoe'	1
 暟	kqia'	1
 颽	kfia'	1
-炌	khuo'	1
 炏	khou'	1
 欬	kqoe'	1
 烗	khoe'	1
@@ -19637,7 +19631,6 @@ encoder:
 礊	ksei'	1
 肎	kgia'	1
 豤	ksae'	1
-貇	kzae'	1
 錹	kjie'	1
 掯	kfie'	1
 褃	knie'	1
@@ -19898,8 +19891,8 @@ encoder:
 鯠	lvei'	1
 勑	clei'	1
 勑	llei'	1
-誺	cyei'	1
-誺	lyei'	1
+誺	cyei'	3
+誺	lyei'	3
 頼	lyei'	1
 鵣	lnei'	1
 攋	lfei'	1
@@ -24168,7 +24161,6 @@ encoder:
 愄	wlia'	1
 媙	wneu'	1
 楲	wmeu'	1
-椳	wmia'	1
 詴	hyeu'	1
 詴	wyeu'	1
 溦	wdia'	1
@@ -27389,7 +27381,6 @@ encoder:
 灷	zheu'	1
 堟	ztaa'	1
 蒃	zcaa'	1
-瑑	zwaa'	1
 僎	zrae'	1
 篹	cpia'	1
 篹	zpia'	1
@@ -27674,6 +27665,7 @@ encoder:
 嶊	zsei'	1
 嶵	zsia'	1
 噿	zkao'	1
+璻	zwao'	1
 枠	zmua'	1
 栬	zmua'	1
 酔	zyua'	1
@@ -27686,6 +27678,7 @@ encoder:
 鋷	zjei'	1
 檌	zmia'	1
 穝	zhia'	1
+欈	wmia'	1
 欈	zmia'	1
 墫	ctou'	1
 墫	ztou'	1
@@ -27720,12 +27713,17 @@ encoder:
 飵	zsue'	1
 糳	zmii'	1
 咗	zkeu'	1
+乤	hzei'	1
+乥	hpou'	1
+乫	kzau'	1
 乬	kzea'	1
 乭	tsaa'	1
 乮	mzua'	1
+乯	vzuo'	1
 乲	czoe'	1
 乶	pzei'	1
 乺	szuu'	1
+乻	vzoe'	1
 乼	czoo'	1
 乽	czei'	1
 亪	ywui'	1
@@ -27747,6 +27745,7 @@ encoder:
 廤	kgei'	1
 怾	klia'	1
 旀	mfao'	1
+旕	vfuo'	1
 曢	dqoo'	1
 朑	qvei'	1
 朰	tmaa'	1
@@ -27764,6 +27763,7 @@ encoder:
 畓	tsia'	1
 癷	bdee'	1
 硳	csei'	1
+穒	khui'	1
 縇	sjoo'	1
 聁	zvuo'	1
 聣	dvui'	1
@@ -27781,7 +27781,7 @@ encoder:
 鿍	gtea'	0
 鿍	gtua'	0
 鿍	gtae'	0
-鿏	mtea'	0
+鿎	mtea'	0
 鿏	mtua'	0
 鿍	mtae'	0
 錒	vjai'	0
