@@ -94,9 +94,15 @@ function this.func(key_event, env)
         env.engine:process_key(rime.KeyEvent("Home"))
         env.engine:process_key(rime.KeyEvent("Right"))
         env.engine:process_key(rime.KeyEvent("Right"))
-        env.engine:process_key(rime.KeyEvent("'"))
+        if not core.sxsb(input) then
+          env.engine:process_key(rime.KeyEvent("'"))
+        end
         env.engine:process_key(rime.KeyEvent("space"))
-        env.engine:process_key(rime.KeyEvent("'"))
+        if core.sxsb(input) then
+          env.engine:process_key(rime.KeyEvent(";"))
+        else
+          env.engine:process_key(rime.KeyEvent("'"))
+        end
         env.engine:process_key(rime.KeyEvent("space"))
       else
         env.redirecting = false
