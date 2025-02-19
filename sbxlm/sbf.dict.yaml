@@ -24,8 +24,11 @@ columns:
 # 优化手感
 星	x;
 趣	q;
-致	rea
+致	vea
+暂	rea
 争	rua
+早	rq
+昨	rqu
 # 内置条目
 步	b'
 比	b;
@@ -4691,10 +4694,10 @@ columns:
 轫	re7
 蕤	re8
 桡	re9
-榕	ree
+榕	rea
+蕊	ree
 茸	rei
-揉	reie
-蕊	reo
+揉	reo
 辱	reu
 若非	rf'
 润肤	rf0
@@ -4830,7 +4833,6 @@ columns:
 热评	rp9
 乳品	rpi
 软盘	rpu
-早	rq
 热情	rq'
 日趋	rq0
 人情	rq1
@@ -4842,10 +4844,8 @@ columns:
 人气	rq7
 容器	rq8
 柔情	rq9
-暂	rqe
 容器	rqi
 日前	rqo
-昨	rqu
 仍然	rr'
 软软	rr0
 惹人	rr1
