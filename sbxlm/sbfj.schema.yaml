@@ -197,9 +197,9 @@ sbfj_basic_bindings:
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[aeuio]{0,2}"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "Shift+space"
-      send_sequence: "{F6}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+      accept: ";"
+      send_sequence: ";{space}"
 sbfj_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
