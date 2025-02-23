@@ -5,6 +5,8 @@
 
 local XK_semicolon = 0x003b
 local XK_Tab = 0xff09
+local XK_apostrophe = 0x0027
+local XK_space = 0x0020
 local XK_0 = 0x0030
 local XK_1 = 0x0031
 local XK_4 = 0x0034
@@ -83,32 +85,51 @@ function this.func(key_event, env)
   end
 
   -- 飞码延顶四码加分号特殊处理
-  if not ascii_mode and not key_event:shift() and not key_event:ctrl()
+  if not ascii_mode and not key_event:ctrl()
   and core.fm(schema_id) and delayed_pop then
     env.redirecting = true
     if core.sxsx(input) then
-      if key_event.keycode == XK_semicolon then
-        env.engine:process_key(rime.KeyEvent("BackSpace"))
-        env.engine:process_key(rime.KeyEvent(input:upper():sub(4,4)))
-      elseif key_event.keycode == XK_Tab then
-        env.engine:process_key(rime.KeyEvent("Home"))
-        env.engine:process_key(rime.KeyEvent("Right"))
-        env.engine:process_key(rime.KeyEvent("Right"))
-        if not core.sxsb(input) then
-          env.engine:process_key(rime.KeyEvent("'"))
-        end
-        env.engine:process_key(rime.KeyEvent("space"))
-        if core.sxsb(input) then
-          env.engine:process_key(rime.KeyEvent(";"))
+       if key_event:shift() then
+        if key_event.keycode == XK_space then
+          env.engine:process_key(rime.KeyEvent("space"))
         else
-          env.engine:process_key(rime.KeyEvent("'"))
+          env.redirecting = false
+          goto continue
         end
-        env.engine:process_key(rime.KeyEvent("space"))
       else
-        env.redirecting = false
-        goto continue
+        if key_event.keycode == XK_space then
+          env.engine:process_key(rime.KeyEvent("BackSpace"))
+          env.engine:process_key(rime.KeyEvent(input:upper():sub(4,4)))
+        elseif key_event.keycode == XK_Tab
+        or key_event.keycode == XK_semicolon
+        or key_event.keycode == XK_apostrophe then
+          env.engine:process_key(rime.KeyEvent("BackSpace"))
+          env.engine:process_key(rime.KeyEvent("BackSpace"))
+          env.engine:process_key(rime.KeyEvent("space"))
+          if key_event.keycode == XK_semicolon then
+            if core.sxsb(input) then
+              env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+              env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+              env.engine:process_key(rime.KeyEvent(";"))
+              env.engine:process_key(rime.KeyEvent("space"))
+            else
+              env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+              env.engine:process_key(rime.KeyEvent("space"))
+              env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+              env.engine:process_key(rime.KeyEvent("space"))
+            end
+          else
+            env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+            env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+            env.engine:process_key(rime.KeyEvent("'"))
+            env.engine:process_key(rime.KeyEvent("space"))
+          end
+        else
+          env.redirecting = false
+          goto continue
+        end
       end
-    elseif core.sss(input) and key_event.keycode == XK_semicolon then
+    elseif core.sxs(input) and key_event.keycode == XK_semicolon and not key_event:shift() then
       env.engine:process_key(rime.KeyEvent("Home"))
       env.engine:process_key(rime.KeyEvent("Right"))
       env.engine:process_key(rime.KeyEvent("Right"))

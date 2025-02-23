@@ -149,13 +149,6 @@ popping:
       accept: "[a-z]"
       prefix: 2
     - when: delayed_pop
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[AEUIO]"
-      strategy: append
-    - when: delayed_pop
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO][aeuio]*"
-      accept: ";"
-    - when: delayed_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[A-Z]"
       strategy: append
