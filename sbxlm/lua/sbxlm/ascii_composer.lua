@@ -15,6 +15,7 @@ local this = {}
 ---@field ascii_composer Processor
 ---@field selector Processor
 ---@field single_selection boolean
+---@field delayed_pop boolean
 ---@field connection Connection
 
 ---@param env AsciiComposerEnv
@@ -23,6 +24,7 @@ function this.init(env)
   env.selector = rime.Processor(env.engine, "", "selector")
   local config = env.engine.schema.config
   env.single_selection = config:get_bool("translator/single_selection") or false
+  env.delayed_pop = env.engine.context:get_option("delayed_pop") or false
 end
 
 ---@param ch number
@@ -88,7 +90,7 @@ function this.func(key_event, env)
         return rime.process_results.kAccepted
   -- 在码长为4以上时，设置临时重码提示，飞系单字除外
 elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
-and key_event.keycode == XK_Tab and not key_event:release()
+and key_event.keycode == XK_Tab and not key_event:release() and not env.delayed_pop
 and not (core.feixi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"))) then
   if env.single_selection and context:get_option("single_display")
   and not context:get_option("not_single_display") then

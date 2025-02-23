@@ -44,6 +44,12 @@ local function parse(value)
   return binding
 end
 
+---@param ch number
+local function is_upper(ch)
+  -- ch >= 'A' and ch <= 'Z'
+  return ch >= 0x41 and ch <= 0x5a
+end
+
 ---@param env KeyBinderEnv
 function this.init(env)
   env.redirecting = false
@@ -130,11 +136,17 @@ function this.func(key_event, env)
         end
       end
     elseif core.sxs(input) and key_event.keycode == XK_semicolon and not key_event:shift() then
-      env.engine:process_key(rime.KeyEvent("Home"))
-      env.engine:process_key(rime.KeyEvent("Right"))
-      env.engine:process_key(rime.KeyEvent("Right"))
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
       env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
       env.engine:process_key(rime.KeyEvent(";"))
+    elseif input:len() == 4 and core.sxs(input:sub(1,3)) and is_upper(rime.KeyEvent(input:sub(4,4)).keycode)
+    and key_event.keycode == XK_apostrophe and not key_event:shift() then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent(input:sub(4,4):lower()))
       env.engine:process_key(rime.KeyEvent("space"))
     else
       env.redirecting = false
