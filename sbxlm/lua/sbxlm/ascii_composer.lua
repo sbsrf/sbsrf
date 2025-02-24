@@ -90,12 +90,14 @@ function this.func(key_event, env)
         return rime.process_results.kAccepted
   -- 在码长为4以上时，设置临时重码提示，飞系单字除外
 elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
-and key_event.keycode == XK_Tab and not key_event:release() and not env.delayed_pop
+and key_event.keycode == XK_Tab and not key_event:release()
 and not (core.feixi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"))) then
   if env.single_selection and context:get_option("single_display")
   and not context:get_option("not_single_display") then
     context:set_option("not_single_display", true)
-    if  key_event.modifier ~= rime.modifier_masks.kShift then
+    if not (core.fm(schema_id) and context:get_option("delayed_pop")
+    and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]*"))
+    and key_event.modifier ~= rime.modifier_masks.kShift then
       env.selector:process_key_event(key_event)
       return rime.process_results.kAccepted
     end
