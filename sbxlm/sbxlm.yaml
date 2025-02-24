@@ -264,13 +264,13 @@ recognizer:
     lua: "^o[bpmfdtnlgkhjqxzcsrywv0-9]+$"
     history: "^;$"
 
-punctuator:
+punctuator: 
   half_shape: &symtable
-    ',' : { commit: ， }
+    ',' : [ ，, ；,'.', ':', '?', '!' ]
     '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹, ↑, ← ]
     '>' : [ 》, 〉, », ›, ↓, → ]
-    '/' : [ 、, '//', ÷, '/*', '*/', ／ ]
+    '/' : [ 、, '''', '"', '//', ÷, ／]
     '?' : { commit: ？ }
     ';' : [ ； ]
     ':' : { commit: ： }
