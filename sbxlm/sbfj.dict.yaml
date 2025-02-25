@@ -2270,7 +2270,7 @@ encoder:
 盆	pmuo	18234	pmuo
 咒	zjia	18203	zjia
 蕾	lceo	18183	lcei
-芷	zci	18163	zcei
+芷	zcie	18163	zcei
 咕	gkei	18148	gkia
 嗓	skao	18139	skia
 啡	fki	18132	fkia
@@ -3181,7 +3181,7 @@ encoder:
 鞠	jgua	5595	jgei
 漓	ldoe	5572	ldoo
 舜	szo	5549	szuo
-轴	zcia	5539	zcea
+轴	zci	5539	zcea
 枢	smeu	5537	smei
 珂	kw	5536	kwee
 袜	wnee	5533	wnoa
@@ -25870,7 +25870,7 @@ encoder:
 九	ju'
 集	ju;
 锦	ju0
-镜	ju1
+键	ju1
 久	ju2
 箭	ju3
 仅	ju4
@@ -28669,7 +28669,7 @@ encoder:
 舍	su;
 舌	su0
 傻	su1
-删	su2
+煞	su2
 稍	su3
 锁	su4
 剩	su5
@@ -30805,14 +30805,14 @@ encoder:
 左手	z'u
 追	zu'
 造	zu;
-舟	zu0
+爪	zu0
 仗	zu1
 争	zu2
 钟	zu3
 竹	zu4
 债	zu5
 钻	zu6
-质	zu7
+舟	zu7
 值	zu8
 针	zu9
 脏	zua
@@ -30827,7 +30827,7 @@ encoder:
 佐	zui
 皂	zuia
 坐	zuo
-徵	zuu
+质	zuu
 这儿	zv'
 周二	zv0
 作案	zv1
