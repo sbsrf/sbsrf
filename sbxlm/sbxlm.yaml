@@ -75,7 +75,7 @@ prelude:
 
   history:
     tag: history
-    input: ";"
+    input: "/"
     size: 5
     initial_quality: -1
 
@@ -262,7 +262,7 @@ recognizer:
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"
     lua: "^o[bpmfdtnlgkhjqxzcsrywv0-9]+$"
-    history: "^;$"
+    history: "^/$"
 
 punctuator: 
   half_shape: &symtable
@@ -270,9 +270,9 @@ punctuator:
     '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹, ↑, ← ]
     '>' : [ 》, 〉, », ›, ↓, → ]
-    '/' : [ 、, ；, ÷ ]
+    '/' : [ 、, ； ]
     '?' : { commit: ？ }
-    ';' : [ ； ]
+    ';' : { commit: ； }
     ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
     '"' : { pair: [ '“', '”' ] }
