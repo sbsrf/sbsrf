@@ -134,6 +134,9 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[;]"
+      prefix: 2
     # 快顶模式下，声笔字结尾的单字也可以四二顶
     - when: fast_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
@@ -277,9 +280,6 @@ sbfx_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
-      accept: ";"
-      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{apostrophe}{space}" 
