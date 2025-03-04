@@ -260,10 +260,10 @@ local dtypes = {
 ---@param env AutoLengthEnv
 ---@return DynamicCodeType
 local function dynamic(input, env)
-  if env.single_selection then
+  local schema_id = env.engine.schema.schema_id
+  if env.single_selection and not core.fj(schema_id) then
     return dtypes.unified
   end
-  local schema_id = env.engine.schema.schema_id
   -- 对于除了飞讯之外的方案来说，基本编码的长度是 4，扩展编码是 6，在 5 码时选重，此外简码还有一个 3 码时的码长调整位
   -- 因此，将编码的长度减去 3 就分别对应了上述的 short, base, select, full 四种情况
   if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input) then
@@ -299,10 +299,12 @@ local function dynamic(input, env)
   end
   -- 飞简
   if core.fj(schema_id) then
-    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
-      return input:len() - 3
-    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}") then
+    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{4}") then
       return dtypes.fj4s
+    elseif env.single_selection then
+      return dtypes.unified
+    elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      return input:len() - 3
     elseif input:len() == 3 then
       return dtypes.short
     elseif input:len() == 4 then
