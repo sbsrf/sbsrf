@@ -24,6 +24,29 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZcZdAcAdZe" 
 ...
+# 增加条目
+庄严	zoe;
+奖励	joe;
+懒惰	loo;
+劳动	lei'
+筑造	zue;
+制造	zue'
+追逐	zui;
+铸造	zueu
+实质	s9u
+本质	b3u
+机译	j3o
+皮鞋	pae
+皮具	pai
+# 优化手感
+星	x;
+趣	q;
+致	vea
+暂	rea
+争	rua
+早	rq
+昨	rqu
+# 内置条目
 的	d	18680622	dbui
 一	y	9613770	yhee
 不	b	8204600	bheu
