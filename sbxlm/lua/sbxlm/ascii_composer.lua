@@ -92,8 +92,9 @@ function this.func(key_event, env)
       context:commit()
       return rime.process_results.kAccepted
     end
-    -- 在码长为4以上时，设置临时重码提示，飞系单字除外
-  elseif (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
+  end
+  -- 在码长为4以上时，设置临时重码提示，飞系单字除外
+  if (not ascii_mode and segment and segment:has_tag("abc") and input:len() >= 4 and input:len() <= 5
         and key_event.keycode == XK_Tab and not key_event:release()
         and not (core.feixi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"))) then
     if env.single_selection and context:get_option("single_display")
