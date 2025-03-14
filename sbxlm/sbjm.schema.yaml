@@ -48,6 +48,8 @@ switches:
     reset: 0
   - name: enhanced_char
     reset: 0
+  - name: delayed_pop
+    reset: 0
   # 不要改变下面的状态，以免穿帮
   - name: fast_pop
     reset: 0
@@ -98,6 +100,14 @@ engine:
 
 popping:
   __append:
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
+      accept: "[a-z]"
+      prefix: 3
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      strategy: append
     - match: "[bpmfdtnlgkhjqxzcsrywv].*[aeiou]"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"

@@ -68,6 +68,11 @@ function core.sxsx(input)
 end
 
 ---@param input string
+function core.ssss(input)
+  return match(input, s .. s .. s .. s)
+end
+
+---@param input string
 function core.ssb(input)
   return match(input, s .. s .. b)
 end

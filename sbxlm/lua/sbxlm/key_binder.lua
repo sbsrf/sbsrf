@@ -91,7 +91,7 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
 
-  -- 飞码延顶四码加分号特殊处理
+  -- 飞码延顶四码特殊处理
   if not ascii_mode and not key_event:ctrl() and not key_event:shift()
   and core.fm(schema_id) and delayed_pop then
     env.redirecting = true
@@ -141,6 +141,26 @@ function this.func(key_event, env)
       env.engine:process_key(rime.KeyEvent("space"))
       env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
       env.engine:process_key(rime.KeyEvent(input:sub(4,4):lower()))
+      env.engine:process_key(rime.KeyEvent("space"))
+    else
+      env.redirecting = false
+      goto continue
+    end
+    env.redirecting = false
+    return rime.process_results.kAccepted
+  end
+
+  -- 飞简延顶四码特殊处理
+  if not ascii_mode and not key_event:ctrl() and not key_event:shift()
+  and core.fj(schema_id) and delayed_pop and key_event.keycode == XK_Tab then
+    env.redirecting = true
+    if core.ssss(input) then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("'"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+      env.engine:process_key(rime.KeyEvent("'"))
       env.engine:process_key(rime.KeyEvent("space"))
     else
       env.redirecting = false
