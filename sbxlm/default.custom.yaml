@@ -21,3 +21,12 @@ patch:
       - "Control+grave"
       - "Control+Shift+grave"
       - F4
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Shift_L: inline_ascii
+      Shift_R: inline_ascii
+      Control_L: commit_code
+      Control_R: noop
+      Caps_Lock: clear
+      Eisu_toggle: clear
