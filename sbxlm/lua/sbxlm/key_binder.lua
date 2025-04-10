@@ -7,6 +7,7 @@ local XK_semicolon = 0x003b
 local XK_Tab = 0xff09
 local XK_apostrophe = 0x0027
 local XK_space = 0x0020
+local XK_period = 0x002e
 local XK_Return = 0xff0d
 local XK_0 = 0x0030
 local XK_1 = 0x0031
@@ -22,6 +23,8 @@ local this = {}
 ---@class KeyBinderEnv: Env
 ---@field redirecting boolean
 ---@field bindings Binding[]
+---@field space_word boolean
+---@field period_word boolean
 
 ---@class Binding
 ---element
@@ -80,6 +83,8 @@ function this.func(key_event, env)
   local schema_id = env.engine.schema.schema_id
   local ascii_mode = context:get_option("ascii_mode")
   local delayed_pop = context:get_option("delayed_pop")
+  local space_word = context:get_option("space_word")
+  local period_word = context:get_option("period_word")
   if env.redirecting then
     return rime.process_results.kNoop
   end
@@ -98,7 +103,8 @@ function this.func(key_event, env)
     if core.sxsx(input) then
       if key_event.keycode == XK_Return then
         env.engine:process_key(rime.KeyEvent("space"))
-      elseif key_event.keycode == XK_space then
+      elseif (key_event.keycode == XK_space and space_word)
+      or (key_event.keycode == XK_period and period_word) then
         env.engine:process_key(rime.KeyEvent("BackSpace"))
         env.engine:process_key(rime.KeyEvent(input:upper():sub(4,4)))
       elseif key_event.keycode == XK_Tab

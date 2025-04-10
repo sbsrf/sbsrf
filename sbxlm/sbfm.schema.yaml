@@ -47,6 +47,8 @@ switches:
     reset: 0
   - name: single_display
     reset: 0
+  - options: [none_word, space_word, period_word]
+    reset: 1
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0
