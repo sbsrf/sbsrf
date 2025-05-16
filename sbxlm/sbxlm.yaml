@@ -262,7 +262,7 @@ recognizer:
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"
     lua: "^o[bpmfdtnlgkhjqxzcsrywv0-9]+$"
-    history: "^/$"
+#    history: "^/$"
 
 punctuator: 
   half_shape: &symtable
@@ -270,7 +270,7 @@ punctuator:
     '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹, ↑, ← ]
     '>' : [ 》, 〉, », ›, ↓, → ]
-    '/' : [ 、 ]
+    '/' : { commit: 、 }
     '?' : { commit: ？ }
     ';' : { commit: ； }
     ':' : { commit: ： }
