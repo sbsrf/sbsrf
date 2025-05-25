@@ -265,6 +265,7 @@ recognizer:
 #    history: "^/$"
 
 punctuator: 
+  digit_separator_action: commit
   half_shape: &symtable
     ',' : { commit: ， }
     '.' : { commit: 。 }
