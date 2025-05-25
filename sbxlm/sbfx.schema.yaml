@@ -201,6 +201,7 @@ translator:
   dictionary: sbfx
   enable_user_dict: true
   enable_filtering: false
+  filter_strength: 4    #可以为3,4,5,6 
   forced_selection: true
   single_selection: false
   enable_encoder: true
