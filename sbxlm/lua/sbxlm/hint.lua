@@ -57,15 +57,16 @@ function this.func(translation, env)
 	local memory = env.memory
 	for candidate in translation:iter() do
 		local input = candidate.preedit
-		-- 飞系方案 spbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]*") then
+		-- 飞系方案 sxbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
+			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
 				if input ~= code and input:len() >= code:len() then
-					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio;']+") then
+					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z;']+") then
 						candidate.comment = candidate.comment .. " " .. code
 					end
-					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9][aeuio]?") and is_enhanced then
+					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9][aeuio]?") and is_enhanced then
 						candidate.comment = candidate.comment .. " " .. code
 					end
 				end

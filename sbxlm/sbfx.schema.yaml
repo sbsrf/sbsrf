@@ -92,10 +92,10 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
-    - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - reverse_lookup_filter@reverse_lookup2
     - reverse_lookup_filter@reverse_lookup3
+    - lua_filter@*sbxlm.hint
     - lua_filter@*sbxlm.radicals
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
