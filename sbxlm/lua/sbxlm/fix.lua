@@ -98,18 +98,20 @@ function this.func(translation, env)
       local select2 = "aeuio"
       local is_hidden = env.engine.context:get_option("is_hidden")
       local id = env.engine.schema.schema_id
-      if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+      if (id == 'sbpy' or id == 'sbjp') then
         local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
         local comment2 = fixed_phrases[i + 12] == nil and "" or fixed_phrases[i + 12]
-        if i > 1 then
+        if i > 1 and not is_hidden then
           cand.comment = comment .. select:sub(i - 1, i - 1)
           if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
             cand.comment = cand.comment .. comment2 .. select2:sub(i - 1, i - 1)
           end
-        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?") and id == 'sbjp' then
-          cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
-        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
-          cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
+        elseif i == 1 then
+          if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?") and id == 'sbjp' then
+            cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
+          elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
+            cand.comment = fixed_phrases[i + 12] .. ";" .. fixed_phrases[i + 11] .. "'"
+          end
         end
       end
       cand.type = "fixed"
@@ -126,18 +128,20 @@ function this.func(translation, env)
     local select2 = "aeuio"
     local is_hidden = env.engine.context:get_option("is_hidden")
     local id = env.engine.schema.schema_id
-    if (id == 'sbpy' or id == 'sbjp') and not is_hidden then
+    if (id == 'sbpy' or id == 'sbjp') then
       local comment = fixed_phrases[i + 5] == nil and "" or fixed_phrases[i + 5]
       local comment2 = fixed_phrases[i + 12] == nil and "" or fixed_phrases[i + 12]
-      if i > 1 then
+      if i > 1 and not is_hidden then
         cand.comment = comment .. select:sub(i - 1, i - 1)
         if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
           cand.comment = cand.comment .. comment2 .. select2:sub(i - 1, i - 1)
         end
-      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?") and id == 'sbjp' then
-        cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
-      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
-        cand.comment = fixed_phrases[i + 11] .. ";" .. fixed_phrases[i + 12] .. "'"
+      elseif i == 1 then
+        if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?") and id == 'sbjp' then
+          cand.comment = fixed_phrases[i + 11] .. "'" .. fixed_phrases[i + 12] .. ";"
+        elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]") and id == 'sbpy' then
+          cand.comment = fixed_phrases[i + 11] .. ";" .. fixed_phrases[i + 12] .. "'"
+      end
     end
     end
     rime.yield(cand)
