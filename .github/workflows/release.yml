@@ -14,8 +14,8 @@ jobs:
     container:
       image: ghcr.io/sbsrf/librime
       credentials:
-        username: tansongchen
-        password: ${{ secrets.pat }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.sbsrf }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
