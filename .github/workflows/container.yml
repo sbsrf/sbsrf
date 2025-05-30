@@ -24,3 +24,5 @@ jobs:
         with:
           push: true
           tags: ghcr.io/sbsrf/librime
+          cache-from: type=gha  # 可选：禁用缓存以排除干扰
+          cache-to: type=gha,mode=max         
