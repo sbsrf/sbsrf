@@ -17,8 +17,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: tansongchen
-          password: ${{ secrets.pat }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.sbsrf }}
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
