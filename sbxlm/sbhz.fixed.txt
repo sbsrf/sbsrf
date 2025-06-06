@@ -681,7 +681,7 @@ gie	观点
 gii	工业
 gio	观赏
 giu	各省
-gj	感 国家
+gj	感 感觉
 gja	敢
 gje	干
 gji	旰
@@ -2613,7 +2613,7 @@ vqe	哀求
 vqi	暗器
 vqo	爱情
 vqu	二千
-vr	儿 爱人
+vr	儿 偶然
 vra	隭
 vre	二
 vri	唲
@@ -2637,7 +2637,7 @@ vue	二手
 vui	暗自
 vuo	安全
 vuu	安徽
-vv	嗯 暗暗
+vv	嗯 偶尔
 vva	厼
 vve	乤
 vvi	唔
