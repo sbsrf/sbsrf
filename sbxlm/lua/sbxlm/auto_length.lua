@@ -368,7 +368,7 @@ local function validate_phrase(entry, segment, type, input, env)
         return nil
       end
     end
-    if ((core.fm(schema_id) or core.fd(schema_id)) and (env.delayed_pop or env.pro_char) or core.fx(schema_id))
+    if (core.fm(schema_id) and (env.delayed_pop or env.pro_char) or core.fd(schema_id) or core.fx(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
