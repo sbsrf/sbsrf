@@ -177,27 +177,6 @@ recognizer:
 
 sbjm_extra_bindings:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "2"
-      send_sequence: "a'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "3"
-      send_sequence: "e'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "7"
-      send_sequence: "u'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "8"
-      send_sequence: "i'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "9"
-      send_sequence: "o'"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]?"
-      accept: Tab
-      send_sequence: "'{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]?"
-      accept: "'"
-      send_sequence: "'{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{space}"
