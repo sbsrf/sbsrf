@@ -1152,7 +1152,7 @@ kii	开业
 kio	宽敞
 kiu	孔雀
 kj	看 看见
-kja	凵
+kja	框架
 kje	刊
 kji	嵌
 kjo	冚
@@ -1868,7 +1868,7 @@ pxa	拍戏
 pxe	撇
 pxi	咆哮
 pxo	鐅
-pxu	丿
+pxu	𬭯
 py	评 朋友
 pya	屏
 pye	萍
@@ -2637,7 +2637,7 @@ vui	暗自
 vuo	安全
 vuu	安徽
 vv	嗯 偶尔
-vva	叾
+vva	縇
 vve	栍
 vvi	唔
 vvo	襨

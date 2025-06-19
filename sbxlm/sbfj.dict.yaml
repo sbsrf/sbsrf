@@ -7313,7 +7313,6 @@ encoder:
 蜯	bcee	1	bcia
 艕	bzoe	1	bzuu
 縍	bjoe	1	bjaa
-勹	bbaa	1	bbua
 佨	brua	1	brui
 笣	bpua	1	bpue
 龅	pcua	1	pcie
@@ -7321,7 +7320,6 @@ encoder:
 闁	bmia	1	bmia
 襃	bwua	1	bwoe
 窇	bxua	1	bxoo
-宀	bgaa	1	bgoo
 怉	blua	1	bloo
 珤	bwue	1	bwee
 堢	btui	1	btei
@@ -7371,7 +7369,7 @@ encoder:
 琲	pwie	1	pwee
 軰	bcie	1	bcie
 僃	brei	1	brui
-愂	bxe	1	bxei
+愂	bxei	1	bxei
 碚	psoe	1	pseu
 蛽	bcia	1	bcia
 禙	bnie	1	bnoa
@@ -7526,12 +7524,10 @@ encoder:
 慒	clei	1	cloo
 褿	cnei	1	cnoa
 鏪	cjei	1	cjuo
-艹	ccii	1	ccei
 愺	clei	1	cloo
 騲	cmei	1	cmei
 肏	cria	1	cruo
 襙	cnia	1	cnoa
-刂	llii	1	llii
 拺	cfei	1	cfei
 拺	sfei	1	sfei
 荝	ccia	1	ccei
@@ -7598,7 +7594,7 @@ encoder:
 鼊	bmae	1	bmae
 萹	bcoa	1	bcei
 萹	pcoa	1	pcei
-猵	bqoa	1	bqua
+猵	bqo	1	bqua
 牑	bpoa	1	bpui
 箯	bpui	1	bpue
 鞕	ygei	1	ygei
@@ -7714,7 +7710,7 @@ encoder:
 昞	bqei	1	bqia
 昺	bqei	1	bqia
 眪	bmei	1	bmia
-窉	bxei	1	bxoo
+窉	bxe	1	bxoo
 蛃	bcei	1	bcia
 棅	bmue	1	bmei
 鈵	bjei	1	bjuo
@@ -8513,8 +8509,6 @@ encoder:
 瀻	ddei	1	ddoo
 黱	dvou	1	dvua
 襶	dnei	1	dnoa
-亻	drii	1	drui
-卩	dvii	1	dvai
 妉	dnoa	1	dnau
 瓭	dwoa	1	dwoa
 砃	dsua	1	dseu
@@ -8753,7 +8747,6 @@ encoder:
 攧	dfei	1	dfei
 巓	dsua	1	dsia
 齻	dcei	1	dcie
-丶	ddoo	1	ddoo
 奌	ddie	1	ddie
 婰	dnia	1	dnau
 椣	dmia	1	dmei
@@ -8957,7 +8950,7 @@ encoder:
 秴	hhuo	1	hhue
 渮	gdei	1	gdoo
 渮	hdei	1	hdoo
-惒	hxue	1	hxue
+惒	hxu	1	hxue
 訸	hyue	1	hyoe
 粭	hmuo	1	hmou
 楁	hmoo	1	hmei
@@ -8975,7 +8968,7 @@ encoder:
 鞨	hgia	1	hgei
 礉	hsui	1	hseu
 礉	qsui	1	qseu
-覈	hxu	1	hxei
+覈	hxui	1	hxei
 皬	hbeo	1	hbui
 鑉	gjei	1	gjuo
 鑉	hjei	1	hjuo
@@ -9091,7 +9084,7 @@ encoder:
 爴	jzia	1	jzia
 嶡	gseu	1	gsia
 嶥	jseu	1	jsia
-鴃	gnae	1	gnui
+鴃	gna	1	gnui
 鴃	jnae	1	jnui
 瘚	jbou	1	jboe
 熦	jhiu	1	jhou
@@ -9209,14 +9202,12 @@ encoder:
 褯	jnoe	1	jnoa
 曁	jbea	1	jbui
 繲	jjua	1	jjaa
-钅	jjaa	1	jjue
 兓	jhau	1	jhea
-釒	jjee	1	jjuo
 荕	jcua	1	jcei
 砛	jsuo	1	jseu
 觔	jjau	1	jjua
 珒	jwae	1	jwee
-埐	jta	1	jtei
+埐	jtae	1	jtei
 矝	gzoa	1	gzao
 矝	jzoa	1	jzao
 矝	qzoa	1	qzao
@@ -9258,7 +9249,7 @@ encoder:
 凚	jdei	1	jdoe
 濅	jdoo	1	jdoo
 賮	jbae	1	jbae
-壗	jtae	1	jtei
+壗	jta	1	jtei
 嚍	jkae	1	jkia
 嬧	jnae	1	jnau
 璶	jwae	1	jwee
@@ -9292,7 +9283,7 @@ encoder:
 汬	jsee	1	jsee
 穽	jxee	1	jxoo
 景	yqoe	1	yqia
-璄	jwo	1	jwee
+璄	jwoe	1	jwee
 擏	jfei	1	jfei
 擏	qfei	1	qfei
 幜	jjia	1	jjia
@@ -9686,7 +9677,6 @@ encoder:
 鶦	hnei	1	hnei
 鰗	hvei	1	hvua
 鶮	hnoe	1	hnoe
-虍	hhaa	1	hhie
 乕	hjuu	1	hjuu
 汻	hdue	1	hdoo
 俿	hrie	1	hrui
@@ -9996,7 +9986,6 @@ encoder:
 秮	thao	1	thue
 秳	hhue	1	hhue
 趏	gzue	1	gzei
-灬	hloo	1	hloo
 邩	hhai	1	hhou
 漷	hdoe	1	hdoo
 漷	kdoe	1	kdoo
@@ -10144,7 +10133,6 @@ encoder:
 撠	jfei	1	jfei
 颳	gfue	1	gfua
 穖	jhaa	1	jhue
-彐	jxee	1	jxae
 彑	jzae	1	jzaa
 旡	jhau	1	jhea
 坖	jtee	1	jtee
@@ -10231,7 +10219,7 @@ encoder:
 豭	jsae	1	jseu
 貑	jzae	1	jzuo
 糘	jmoo	1	jmou
-鴐	gna	1	gnau
+鴐	gnau	1	gnau
 鴐	jnau	1	jnau
 鎵	jjoo	1	jjuo
 麚	jlae	1	jloe
@@ -10448,10 +10436,6 @@ encoder:
 鷮	jnue	1	jnue
 鷮	qnue	1	qnue
 櫵	jmei	1	jmei
-纟	jjee	1	jjaa
-纟	mjee	1	mjaa
-纟	sjee	1	sjaa
-糹	sjoo	1	sjaa
 臫	jzaa	1	jzui
 角	lpau	1	lpua
 恔	jloe	1	jloo
@@ -10494,7 +10478,7 @@ encoder:
 呌	jkoo	1	jkia
 挍	jfoe	1	jfei
 訆	jyai	1	jyoe
-珓	jwoe	1	jwee
+珓	jwo	1	jwee
 窌	jxua	1	jxoo
 窌	lxua	1	lxoo
 滘	jdoa	1	jdoo
@@ -10611,7 +10595,6 @@ encoder:
 篢	lpei	1	lpue
 觵	gjei	1	gjua
 龏	gleu	1	gloe
-廾	gnii	1	gneu
 汞	hgia	1	hgei
 拲	gsei	1	gsei
 栱	gmei	1	gmei
@@ -10704,7 +10687,7 @@ encoder:
 堌	gtia	1	gtei
 崓	gsia	1	gsia
 棝	gmia	1	gmei
-祻	gnia	1	gnoa
+祻	gni	1	gnoa
 頋	gyeu	1	gyeu
 稒	ghia	1	ghue
 僱	groa	1	grui
@@ -10756,7 +10739,7 @@ encoder:
 悺	gloo	1	gloo
 婠	wnoo	1	wnau
 悹	gxoo	1	gxoo
-祼	gni	1	gnoa
+祼	gnia	1	gnoa
 祼	lnia	1	lnoa
 潅	gdue	1	gdoo
 遦	glaa	1	glaa
@@ -10903,7 +10886,7 @@ encoder:
 弔	dgii	1	dgae
 伄	dra	1	drui
 訋	dyua	1	dyoe
-窎	dxu	1	dxoo
+窎	dxua	1	dxoo
 罀	zfuo	1	zfue
 鈟	djae	1	djuo
 竨	dlie	1	dloe
@@ -10911,7 +10894,7 @@ encoder:
 雿	zvuo	1	zveo
 鋽	djie	1	djuo
 瘹	dbuo	1	dboe
-窵	dxui	1	dxoo
+窵	dxu	1	dxoo
 鑃	djao	1	djuo
 苵	dcue	1	dcei
 怢	dlue	1	dloo
@@ -11359,12 +11342,11 @@ encoder:
 襎	fnuo	1	fnoa
 羳	fyuo	1	fyou
 繙	fjuo	1	fjaa
-瀪	fsoe	1	fsue
+瀪	fso	1	fsue
 鐇	fjuo	1	fjuo
 瀿	fdue	1	fdoo
 蠜	fcei	1	fcei
 鷭	fnuo	1	fnuo
-犭	qquu	1	qqua
 攵	fpeu	1	fpue
 攵	ppeu	1	ppue
 攵	wpeu	1	wpue
@@ -11383,8 +11365,6 @@ encoder:
 滼	fdei	1	fdoo
 嬎	fnua	1	fnau
 嬔	fnua	1	fnau
-匚	fkaa	1	fkea
-匚	xkaa	1	xkea
 汸	fdoe	1	fdoo
 汸	pdoe	1	pdoo
 牥	fnoe	1	fnue
@@ -11408,9 +11388,9 @@ encoder:
 婓	fni	1	fnie
 渄	fdie	1	fdoo
 婔	fnie	1	fnau
-猆	fqie	1	fqie
+猆	fqi	1	fqie
 靟	fmie	1	fmie
-暃	fqi	1	fqia
+暃	fqie	1	fqia
 裶	fnie	1	fnoa
 餥	fsie	1	fsie
 馡	fhia	1	fhue
@@ -11434,15 +11414,15 @@ encoder:
 厞	fcie	1	fceu
 剕	flie	1	flie
 俷	frua	1	frui
-疿	fbae	1	fboe
+疿	fba	1	fboe
 萉	fcua	1	fcei
 屝	fsi	1	fsae
 廃	fgao	1	fgoe
 蕟	fcao	1	fcei
 曊	fqae	1	fqia
 鼣	fseu	1	fsui
-癈	fba	1	fboe
-濷	fso	1	fsia
+癈	fbao	1	fboe
+濷	fsoo	1	fsia
 櫠	fmoe	1	fmei
 鐨	fjae	1	fjuo
 靅	fvee	1	fveo
@@ -12083,7 +12063,6 @@ encoder:
 篶	ypei	1	ypue
 臙	yvei	1	yvua
 黫	yhei	1	yhia
-讠	yyaa	1	yyoa
 誾	ymoe	1	ymia
 膶	yvia	1	yvua
 檭	ymuo	1	ymei
@@ -12105,7 +12084,6 @@ encoder:
 蘟	ycai	1	ycei
 櫽	ymai	1	ymai
 讔	yyai	1	yyoe
-廴	yloo	1	ylao
 岃	ysau	1	ysia
 洕	yduo	1	ydoo
 垽	ytoo	1	ytoo
@@ -12240,8 +12218,6 @@ encoder:
 櫌	ymeu	1	ymei
 耰	yleu	1	ylee
 纋	yjeu	1	yjaa
-尢	wya	1	wyeu
-尢	yyaa	1	yyeu
 尣	wbua	1	wbuo
 沋	ydeu	1	ydoo
 肬	yveu	1	yvua
@@ -12906,7 +12882,6 @@ encoder:
 鸈	ynii	1	ynii
 弌	yhea	1	yhee
 辷	yleo	1	yleo
-衤	ynoo	1	ynoa
 壱	ytoa	1	ytei
 吚	ykae	1	ykia
 祎	ynee	1	ynoa
@@ -13614,7 +13589,7 @@ encoder:
 駮	bmoe	1	bmei
 蝋	lcoo	1	lcia
 箆	bpia	1	bpue
-獙	bqo	1	bqua
+獙	bqou	1	bqua
 姃	znei	1	znau
 埩	ztua	1	ztei
 炡	zhei	1	zhou
@@ -13698,9 +13673,6 @@ encoder:
 蹢	zzoe	1	zzia
 蟙	zcoe	1	zcia
 軄	zsoe	1	zsui
-夂	fwo	1	fwua
-夂	pwoo	1	pwua
-夂	wwoo	1	wwua
 劧	zsau	1	zsue
 凪	zjie	1	zjua
 阯	zvie	1	zvai
@@ -13963,7 +13935,7 @@ encoder:
 歱	znue	1	znie
 煄	zhue	1	zhou
 瘇	zbue	1	zboe
-狆	zqi	1	zqua
+狆	zqia	1	zqua
 妕	znia	1	znau
 祌	cnia	1	cnoa
 祌	znia	1	znoa
@@ -14046,7 +14018,7 @@ encoder:
 茿	zcei	1	zcei
 笁	zpei	1	zpue
 炢	zhei	1	zhou
-窋	zxai	1	zxoo
+窋	zxa	1	zxoo
 笜	zpai	1	zpue
 蓫	zceu	1	zcei
 敳	vwi	1	vwia
@@ -14152,9 +14124,6 @@ encoder:
 粧	zmoe	1	zmou
 湷	cdee	1	cdoo
 糚	zmei	1	zmou
-丬	bzii	1	bzoe
-丬	jzii	1	jzoe
-丬	qzii	1	qzoe
 壵	ztei	1	ztei
 焋	zhai	1	zhai
 撞	cfoe	1	cfei
@@ -14227,7 +14196,7 @@ encoder:
 硺	zseu	1	zseu
 罬	zzao	1	zzia
 窧	zxie	1	zxoo
-窡	zxa	1	zxoo
+窡	zxao	1	zxoo
 擆	zfei	1	zfei
 撯	zfou	1	zfei
 斲	zjaa	1	zjaa
@@ -14236,7 +14205,7 @@ encoder:
 諁	zyao	1	zyoe
 篧	hpoa	1	hpue
 篧	zpoa	1	zpue
-斀	zqia	1	zqia
+斀	zqi	1	zqia
 斵	zjua	1	zjua
 櫡	zmue	1	zmei
 謶	zyoe	1	zyoe
@@ -14366,7 +14335,6 @@ encoder:
 緅	zjei	1	zjaa
 黀	zmei	1	zmoe
 齺	zcua	1	zcie
-辶	zloo	1	zloa
 赱	ztou	1	ztei
 鯐	zvei	1	zvua
 菹	jcoo	1	jcei
@@ -14454,7 +14422,6 @@ encoder:
 稓	zhei	1	zhue
 筰	zpui	1	zpue
 鈼	zjue	1	zjuo
-阝	zvii	1	zvai
 繓	zjia	1	zjaa
 岝	zsue	1	zsia
 岞	zsue	1	zsia
@@ -14735,7 +14702,7 @@ encoder:
 硂	qsuo	1	qseu
 啳	jkou	1	jkia
 惓	qlou	1	qloo
-婘	qno	1	qnau
+婘	qnou	1	qnau
 葲	qcui	1	qcei
 犈	qnou	1	qnue
 腃	jvou	1	jvua
@@ -14764,7 +14731,7 @@ encoder:
 烇	qhuo	1	qhou
 虇	hcae	1	hcei
 虇	qcae	1	qcei
-牶	qnou	1	qnou
+牶	qno	1	qnou
 椦	qmou	1	qmei
 勧	qlue	1	qlue
 韏	jwou	1	jwou
@@ -14830,7 +14797,7 @@ encoder:
 犪	knou	1	knue
 扰	yfeu	1	yfei
 隢	rvei	1	rvai
-遶	rle	1	rlei
+遶	rlei	1	rlei
 忈	rvoa	1	rvee
 朲	rmuo	1	rmei
 芢	rcui	1	rcei
@@ -14854,8 +14821,8 @@ encoder:
 扨	rfau	1	rfei
 屻	rsau	1	rsia
 杒	vmau	1	vmei
-牣	rnau	1	rnue
-肕	rva	1	rvua
+牣	rna	1	rnue
+肕	rvau	1	rvua
 纴	rjue	1	rjaa
 祍	rnue	1	rnoa
 姙	rnui	1	rnau
@@ -14866,7 +14833,7 @@ encoder:
 靱	rgau	1	rgei
 腍	dvuo	1	dvua
 腍	rvuo	1	rvua
-絍	rjui	1	rjaa
+絍	rju	1	rjaa
 餁	rsui	1	rsuo
 辸	rla	1	rlau
 礽	rnau	1	rnoa
@@ -14877,7 +14844,7 @@ encoder:
 鈤	rji	1	rjuo
 茙	rcee	1	rcei
 栄	rmoo	1	rmoo
-峵	rsoo	1	rsia
+峵	rso	1	rsia
 毧	rmee	1	rmue
 烿	rhua	1	rhou
 搑	nfei	1	nfei
@@ -14887,11 +14854,11 @@ encoder:
 媶	rnei	1	rnau
 搈	rfoo	1	rfei
 榵	rmei	1	rmei
-嵤	rso	1	rsou
+嵤	rsou	1	rsou
 嫆	rnoo	1	rnau
 嫆	ynoo	1	ynau
 瑢	rwo	1	rwee
-穁	rhei	1	rhue
+穁	rhe	1	rhue
 镕	rjoo	1	rjue
 褣	rnoo	1	rnoa
 縙	rjei	1	rjaa
@@ -14923,7 +14890,7 @@ encoder:
 鍒	rjao	1	rjuo
 瓇	rwe	1	rwee
 騥	rmao	1	rmei
-鰇	rvao	1	rvua
+鰇	rva	1	rvua
 鶔	rnao	1	rnao
 韖	rwao	1	rwai
 宍	rgoe	1	rgoo
@@ -14942,11 +14909,11 @@ encoder:
 獳	nqeo	1	nqua
 嬬	rneo	1	rnau
 嬬	xneo	1	xnau
-鴽	rna	1	rnau
+鴽	rnau	1	rnau
 曘	rqe	1	rqia
 臑	nveo	1	nvua
 臑	rveo	1	rvua
-燸	rhe	1	rhou
+燸	rheo	1	rhou
 繻	xjeo	1	xjaa
 醹	ryeo	1	ryei
 鱬	rveo	1	rvua
@@ -14965,7 +14932,7 @@ encoder:
 耎	rdeu	1	rdeu
 偄	nreu	1	nrui
 偄	rreu	1	rrui
-愞	rleu	1	rloo
+愞	rle	1	rloo
 媆	nneu	1	nnau
 瑌	rweu	1	rwee
 腝	nveu	1	nvua
@@ -14976,7 +14943,7 @@ encoder:
 瓀	rweo	1	rwee
 礝	rseo	1	rseu
 甤	rsue	1	rseu
-緌	rju	1	rjaa
+緌	rjue	1	rjaa
 桵	rmu	1	rmei
 惢	rxo	1	rxoa
 惢	sxoa	1	sxoa
@@ -15026,9 +14993,6 @@ encoder:
 嗮	skia	1	skia
 僿	sroo	1	srui
 簺	spoo	1	spue
-彡	ppuu	1	ppuu
-彡	spuu	1	spuu
-氵	sdee	1	sdoo
 弎	shee	1	shee
 毶	smao	1	smue
 厁	svuo	1	svuo
@@ -15562,7 +15526,7 @@ encoder:
 鎌	ljou	1	ljuo
 鬑	lbou	1	lbei
 譧	lyoe	1	lyoe
-籢	lpu	1	lpue
+籢	lpuo	1	lpue
 籨	lpuo	1	lpue
 槤	lmei	1	lmei
 嬚	lnoe	1	lnau
@@ -15593,7 +15557,6 @@ encoder:
 墚	ltoo	1	ltei
 綡	ljoe	1	ljaa
 樑	lmoo	1	lmei
-冫	ldee	1	ldoe
 両	lhia	1	lhei
 唡	lkei	1	lkia
 掚	lfei	1	lfei
@@ -15754,7 +15717,7 @@ encoder:
 矙	kmia	1	kmia
 粇	kmoe	1	kmou
 嵻	ksoe	1	ksia
-漮	kdoe	1	kdoo
+漮	kdo	1	kdoo
 嫝	knoe	1	knau
 槺	kmoe	1	kmei
 穅	khoe	1	khue
@@ -15765,7 +15728,7 @@ encoder:
 摃	kfei	1	kfei
 亢	hwua	1	hwoe
 匟	kkoe	1	kkeo
-邟	kvoe	1	kvoe
+邟	kvo	1	kvoe
 囥	kkoe	1	kkia
 犺	kqoe	1	kqua
 忼	kloe	1	kloo
@@ -15843,14 +15806,14 @@ encoder:
 貇	kza	1	kzuo
 錹	kjie	1	kjuo
 掯	kfie	1	kfei
-硍	ksa	1	kseu
+硍	ksae	1	kseu
 褃	knie	1	knoa
 劥	kloe	1	kloe
 阬	gvoe	1	gvai
-阬	kvo	1	kvai
+阬	kvoe	1	kvai
 妔	knoe	1	knau
 挳	kfea	1	kfei
-硁	ksao	1	kseu
+硁	ksa	1	kseu
 牼	knea	1	knue
 硻	ksei	1	ksei
 誙	hyea	1	hyoe
@@ -15858,7 +15821,7 @@ encoder:
 銵	kju	1	kjuo
 鍞	kjie	1	kjuo
 埪	ktoo	1	ktei
-涳	kdo	1	kdoo
+涳	kdoo	1	kdoo
 悾	kloo	1	kloo
 硿	ksoo	1	kseu
 躻	ksoo	1	ksui
@@ -15898,10 +15861,10 @@ encoder:
 俈	krue	1	krui
 秙	khei	1	khue
 焅	khue	1	khou
-袴	kne	1	knoa
+袴	kneu	1	knoa
 瘔	kbei	1	kboe
 鮬	kveu	1	kvua
-姱	kneu	1	knau
+姱	kne	1	knau
 晇	kqeu	1	kqia
 晇	xqeu	1	xqia
 舿	kzeu	1	kzuu
@@ -16451,7 +16414,7 @@ encoder:
 泺	pdua	1	pdoo
 峈	lsua	1	lsia
 洜	lsua	1	lsua
-笿	lpua	1	lpue
+笿	lpu	1	lpue
 鮥	lvua	1	lvua
 鵅	lnua	1	lnua
 纙	ljia	1	ljaa
@@ -16509,9 +16472,9 @@ encoder:
 薶	wcuo	1	wcei
 嘪	mkia	1	mkia
 鷶	mnia	1	mnia
-売	mto	1	mtei
+売	mtoa	1	mtei
 佅	mree	1	mrui
-衇	mxuu	1	mxui
+衇	mxu	1	mxui
 霡	mvua	1	mveo
 霢	mvua	1	mveo
 姏	mnei	1	mnau
@@ -16549,7 +16512,7 @@ encoder:
 尨	mluu	1	mleu
 尨	pluu	1	pleu
 杗	mmoe	1	mmoe
-甿	mtoe	1	mtia
+甿	mto	1	mtia
 厖	mceu	1	mceu
 厖	pceu	1	pceu
 笀	mpo	1	mpue
@@ -16736,8 +16699,6 @@ encoder:
 瀰	mdae	1	mdoo
 灖	mdoe	1	mdoo
 孊	mnoe	1	mnau
-糸	mxoo	1	mxaa
-糸	sxoo	1	sxaa
 峚	mseu	1	msia
 祕	bnoa	1	bnoa
 祕	mnoa	1	mnoa
@@ -16849,7 +16810,7 @@ encoder:
 笢	mpae	1	mpue
 敯	hqae	1	hqae
 敯	mqae	1	mqae
-慜	mxu	1	mxue
+慜	mxue	1	mxue
 僶	mri	1	mrui
 潣	mdia	1	mdoo
 簢	mpia	1	mpue
@@ -17002,7 +16963,7 @@ encoder:
 娚	nnia	1	nnau
 萳	ncei	1	ncei
 遖	nlei	1	nlei
-暔	nqei	1	nqia
+暔	nqe	1	nqia
 諵	nyei	1	nyoe
 揇	nfei	1	nfei
 湳	ndei	1	ndoo
@@ -17028,7 +16989,7 @@ encoder:
 蛲	rcea	1	rcia
 詉	nya	1	nyoe
 嶩	nsia	1	nsia
-獶	nqe	1	nqua
+獶	nqeu	1	nqua
 夒	nweu	1	nweu
 巎	nseu	1	nsia
 獿	nqeu	1	nqua
@@ -17048,7 +17009,7 @@ encoder:
 銰	njei	1	njuo
 抳	nfae	1	nfei
 籾	nmau	1	nmou
-秜	nha	1	nhue
+秜	nhae	1	nhue
 屔	npi	1	npui
 郳	nvui	1	nvui
 蚭	ncae	1	ncia
@@ -17106,7 +17067,7 @@ encoder:
 秥	nhie	1	nhue
 鮎	nvie	1	nvua
 鵇	nnue	1	nnue
-淰	nduo	1	ndoo
+淰	ndu	1	ndoo
 焾	nhuo	1	nhou
 簐	npe	1	npue
 躎	nzeu	1	nzia
@@ -17128,7 +17089,7 @@ encoder:
 惗	nluo	1	nloo
 敜	dwuo	1	dwuo
 敜	nwu	1	nwuo
-湼	ndu	1	ndoo
+湼	ndui	1	ndoo
 嵲	nsui	1	nsia
 鉩	xjuo	1	xjuo
 踂	nzei	1	nzia
@@ -17167,10 +17128,10 @@ encoder:
 儜	nroo	1	nrui
 薴	ncoo	1	ncei
 薴	zcoo	1	zcei
-嬣	nno	1	nnau
+嬣	nnoo	1	nnau
 鑏	njo	1	njuo
 鬡	nbo	1	nbei
-鸋	nnoo	1	nnoo
+鸋	nno	1	nnoo
 橣	nmoo	1	nmei
 矃	nmoo	1	nmia
 侫	nroe	1	nrui
@@ -17183,7 +17144,7 @@ encoder:
 沑	ndai	1	ndoo
 杻	cmai	1	cmei
 杻	nmai	1	nmei
-炄	nhai	1	nhou
+炄	nha	1	nhou
 莥	ccua	1	ccei
 莥	ncua	1	ncei
 靵	ngai	1	ngei
@@ -17265,7 +17226,7 @@ encoder:
 腢	vvia	1	vvua
 蕅	vcoo	1	vcei
 帊	pjai	1	pjia
-妑	pnai	1	pnau
+妑	pna	1	pnau
 皅	pbai	1	pbui
 舥	pzai	1	pzuu
 杷	bmai	1	bmei
@@ -17374,7 +17335,7 @@ encoder:
 葐	pcuo	1	pcei
 呠	pkei	1	pkia
 翸	pvei	1	pvei
-歕	pqei	1	pqei
+歕	pqe	1	pqei
 匉	pbeo	1	pbua
 恲	plou	1	ploo
 梈	pmoe	1	pmei
@@ -17423,7 +17384,7 @@ encoder:
 伓	preu	1	prui
 伾	preu	1	prui
 抷	pfeu	1	pfei
-狉	pqe	1	pqua
+狉	pqeu	1	pqua
 狓	pqau	1	pqua
 炋	pheu	1	phou
 怶	plau	1	ploo
@@ -17492,7 +17453,7 @@ encoder:
 疈	ptei	1	ptei
 闢	bmae	1	bmia
 闢	pmae	1	pmia
-鷿	pna	1	pnae
+鷿	pnae	1	pnae
 囨	pkeu	1	pkia
 媥	pnoa	1	pnau
 甂	bwoa	1	bwoa
@@ -17529,7 +17490,6 @@ encoder:
 慓	plei	1	ploo
 氕	pquu	1	pque
 暼	pqo	1	pqou
-丿	ppuu	1	ppuu
 撆	psou	1	psou
 鐅	pjou	1	pjou
 嫳	bnou	1	bnou
@@ -17556,7 +17516,6 @@ encoder:
 聠	pvou	1	pvei
 艵	pbee	1	pbou
 頩	pyou	1	pyou
-冖	tgaa	1	tgoa
 呯	pkeo	1	pkia
 岼	pseo	1	psia
 郱	pvou	1	pvou
@@ -17879,8 +17838,6 @@ encoder:
 籖	qpei	1	qpue
 鰬	qvie	1	qvua
 灊	qdea	1	qdoo
-凵	kkii	1	kkai
-凵	qkii	1	qkai
 肷	xvua	1	xvua
 嵰	qsou	1	qsia
 槏	qmou	1	qmei
@@ -18218,14 +18175,12 @@ encoder:
 襹	snei	1	snoa
 籭	spei	1	spue
 丆	shuu	1	sheu
-饣	ssaa	1	ssua
 辻	slei	1	slei
 瓧	swei	1	swea
 瓧	wwei	1	wwea
 佦	sreu	1	srui
 竍	slei	1	sloe
 囸	rkei	1	rkia
-飠	ssoo	1	ssuo
 実	sgee	1	sgoo
 旹	scei	1	scai
 峕	ssoe	1	ssia
@@ -18249,7 +18204,6 @@ encoder:
 笶	spue	1	spue
 榁	smoo	1	smei
 鉂	sjia	1	sjuo
-礻	snoo	1	snoa
 丗	shii	1	shei
 卋	ssei	1	ssei
 亊	shou	1	sheo
@@ -18349,8 +18303,6 @@ encoder:
 鸀	snia	1	snia
 鸀	znia	1	znia
 鱰	svia	1	svua
-丨	ssii	1	ssii
-忄	slii	1	sloo
 朮	shiu	1	shei
 朮	zhiu	1	zhei
 荗	sceu	1	scei
@@ -18414,7 +18366,7 @@ encoder:
 矟	svao	1	svao
 獡	squi	1	squa
 鎙	sjou	1	sjuo
-厶	ssoo	1	ssao
+厶	szoo	1	szao
 泀	sdae	1	sdoo
 俬	srue	1	srui
 恖	sxui	1	sxui
@@ -18662,7 +18614,7 @@ encoder:
 橽	dmei	1	dmei
 嚃	tkia	1	tkia
 錔	tjia	1	tjuo
-鞜	tgia	1	tgei
+鞜	tgi	1	tgei
 濌	tque	1	tque
 鞳	tgei	1	tgei
 鎉	djia	1	djuo
@@ -18754,7 +18706,7 @@ encoder:
 薚	tceu	1	tcei
 蹚	tzio	1	tzia
 闛	tmio	1	tmia
-鞺	tgi	1	tgei
+鞺	tgio	1	tgei
 鼞	ttei	1	ttei
 饧	tsau	1	tsua
 坣	ttio	1	ttio
@@ -18848,7 +18800,6 @@ encoder:
 鷈	tnuu	1	tnui
 鷉	snuu	1	snuu
 鷉	tnuu	1	tnuu
-扌	tfee	1	tfei
 苐	dca	1	dcei
 厗	tcoe	1	tceu
 偍	tria	1	trui
@@ -18871,7 +18822,7 @@ encoder:
 徲	ccae	1	ccuu
 徲	tcae	1	tcuu
 漽	tdae	1	tdoo
-趧	dzia	1	dzei
+趧	dzi	1	dzei
 趧	tzia	1	tzei
 鴺	tnea	1	tnea
 鴺	ynea	1	ynea
@@ -18999,7 +18950,7 @@ encoder:
 怗	tlie	1	tloo
 聑	dvei	1	dvei
 聑	tvei	1	tvei
-跕	dzi	1	dzia
+跕	dzie	1	dzia
 铁	yjue	1	yjue
 蛈	tcue	1	tcia
 鉄	tjue	1	tjuo
@@ -19052,7 +19003,6 @@ encoder:
 蓪	tcao	1	tcei
 樋	tmao	1	tmei
 熥	thao	1	thou
-冂	tkaa	1	tkia
 峂	tsua	1	tsia
 庝	tgua	1	tgoe
 哃	tkia	1	tkia
@@ -19363,20 +19313,20 @@ encoder:
 迋	glee	1	glee
 迋	wlee	1	wlee
 盳	mmoe	1	mmia
-盳	wmoe	1	wmia
+盳	wmo	1	wmia
 朢	wwei	1	wwei
 烓	qhei	1	qhou
 烓	whei	1	whou
 隇	wveu	1	wvai
 揻	wfeu	1	wfei
-揋	wfi	1	wfei
+揋	wfia	1	wfei
 葨	wcia	1	wcei
 喴	wkeu	1	wkia
 渨	wdia	1	wdoo
 愄	wlia	1	wloo
 媙	wneu	1	wnau
 楲	wmeu	1	wmei
-椳	wmi	1	wmei
+椳	wmia	1	wmei
 詴	hyeu	1	hyoe
 詴	wyeu	1	wyoe
 溦	wdia	1	wdoo
@@ -19389,9 +19339,6 @@ encoder:
 癐	gbuo	1	gboe
 癐	wbuo	1	wboe
 鰄	wveu	1	wvua
-囗	dkee	1	dkia
-囗	kkee	1	kkia
-囗	wkee	1	wkia
 沩	gdou	1	gdoo
 峗	wsua	1	wsia
 峞	ksua	1	ksia
@@ -19415,7 +19362,7 @@ encoder:
 霺	wvuu	1	wveo
 犩	wnue	1	wnue
 芛	wcae	1	wcei
-捤	wfa	1	wfei
+捤	wfae	1	wfei
 荱	wcae	1	wcei
 浘	wdae	1	wdoo
 屗	wcae	1	wcae
@@ -19449,14 +19396,14 @@ encoder:
 濻	ddai	1	ddoo
 濻	wdai	1	wdoo
 壝	wtia	1	wtei
-颹	wfai	1	wfua
+颹	wfa	1	wfua
 瀢	wdia	1	wdoo
 韡	wwei	1	wwai
 亹	mwui	1	mwoe
 亹	wwui	1	wwoe
 斖	wwui	1	wwoe
 苿	wcee	1	wcei
-叞	wyae	1	wyae
+叞	wya	1	wyae
 菋	wcia	1	wcei
 硙	wsia	1	wseu
 媦	wnia	1	wnau
@@ -19494,13 +19441,12 @@ encoder:
 瑥	wwia	1	wwee
 榅	wmia	1	wmei
 殟	wdia	1	wdeu
-榲	wmia	1	wmei
+榲	wmi	1	wmei
 豱	wsia	1	wseu
 鎾	wjia	1	wjuo
 饂	wsia	1	wsuo
 鳁	wvia	1	wvua
 鰛	wvia	1	wvua
-亠	twee	1	twoe
 芠	wcoe	1	wcei
 彣	wwuu	1	wwoe
 炆	whoe	1	whou
@@ -19509,7 +19455,7 @@ encoder:
 珳	wwoe	1	wwee
 駇	pmue	1	pmei
 駇	wmue	1	wmei
-馼	wmo	1	wmei
+馼	wmoe	1	wmei
 瘒	wboa	1	wboe
 魰	jvoe	1	jvua
 魰	wvoe	1	wvua
@@ -19535,7 +19481,7 @@ encoder:
 穏	whuo	1	whue
 汶	mdoe	1	mdoo
 妏	wnoe	1	wnau
-揾	wfia	1	wfei
+揾	wfi	1	wfei
 搵	wfia	1	wfei
 顐	hyoa	1	hyoa
 滃	wduo	1	wdoo
@@ -20425,15 +20371,15 @@ encoder:
 鿍	gtae	0	gtei
 鿍	gtae	0	gteu
 鿍	gtae	0	gtue
-鿎	mtea	0	mtei
-鿎	mtea	0	mteu
-鿎	mtea	0	mtue
+鿏	mtea	0	mtei
+鿏	mtea	0	mteu
+鿏	mtea	0	mtue
 鿏	mtua	0	mtei
 鿏	mtua	0	mteu
 鿏	mtua	0	mtue
-鿍	mtae	0	mtei
-鿍	mtae	0	mteu
-鿍	mtae	0	mtue
+鿏	mtae	0	mtei
+鿏	mtae	0	mteu
+鿏	mtae	0	mtue
 錒	vjai	0	vjuo
 鎄	vjoe	0	vjuo
 皚	vbia	0	vbui
@@ -20900,7 +20846,7 @@ encoder:
 廢	fgao	0	fgoe
 閥	fmui	0	fmia
 罰	fzoe	0	fzia
-琺	fwoo	0	fwee
+琺	fwo	0	fwee
 釩	fjua	0	fjuo
 煩	fheu	0	fhou
 礬	fsei	0	fsei

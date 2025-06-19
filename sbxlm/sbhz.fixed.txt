@@ -227,7 +227,7 @@ cla	刅
 cle	摐
 cli	幢
 clo	床
-clu	牕
+clu	囱
 cm	沉默 充满
 cma	村民
 cme	场面
@@ -1136,7 +1136,7 @@ kfo	裉
 kfu	墾
 kg	坑 客观
 kga	阬
-kge	硁
+kge	摼
 kgi	吭
 kgo	誙
 kgu	铿
@@ -1153,7 +1153,7 @@ kii	开业
 kio	宽敞
 kiu	孔雀
 kj	看 看见
-kja	凵
+kja	框架
 kje	刊
 kji	嵌
 kjo	惂
@@ -1809,7 +1809,7 @@ pna	缥
 pne	票
 pni	瞟
 pno	漂
-pnu	篻
+pnu	皫
 po	破
 poa	颇
 poe	坡
@@ -1821,7 +1821,7 @@ ppa	屁屁
 ppe	撇
 ppi	频频
 ppo	嫳
-ppu	彡
+ppu	𬭯
 pq	聘请 脾气
 pqa	骠骑
 pqe	跑去
