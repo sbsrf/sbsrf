@@ -177,6 +177,12 @@ recognizer:
 
 sbjm_extra_bindings:
   __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: Tab
+      send_sequence: "0"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "1"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{space}"
