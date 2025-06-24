@@ -278,7 +278,7 @@ local function dynamic(input, env)
     else
       return input:len() - 3
     end
-  elseif core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
+  elseif core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
   end 
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重。
