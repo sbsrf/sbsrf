@@ -20,8 +20,8 @@ function this.init(env)
 	else
 	    env.memory = rime.Memory1(env.engine, env.engine.schema, "")
 	end
-	-- 声笔飞单用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
-	local dict_name = id == "sbfd" and "sbfm" or id
+	-- 声笔飞单和声笔飞延采用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
+	local dict_name = (id == "sbfd" or id == "sbfy") and "sbfm" or id
 	-- 声笔简拼和声笔拼音用声笔简码的简码
 	if (id == 'sbjp' or id == 'sbpy') then dict_name = 'sbjm' end
 	-- 声笔自整用声笔自然的简码
@@ -73,7 +73,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系和双拼在常规码位上，提示声声词和声声笔词，在增强模式下还提示数选字词
-		if ((core.fm(id) or core.fd(id) or core.fj(id) or core.sp(id))
+		if ((core.fm(id) or core.fy(id) or core.fd(id) or core.fj(id) or core.sp(id))
 		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-zA-Z]?[aeuio]{0,2}")
 		or core.fx(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][0-9aeuio]{0,4}")
 		and not is_hidden) then

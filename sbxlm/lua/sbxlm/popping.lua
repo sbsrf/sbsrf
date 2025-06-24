@@ -98,7 +98,7 @@ function this.func(key_event, env)
     end
   end
   local incoming = utf8.char(key_event.keycode)
-  if core.fm(schema_id) and context:get_option("delayed_pop") and seg:has_tag("paging") then
+  if (core.fm(schema_id) or core.fy(schema_id)) and context:get_option("delayed_pop") and seg:has_tag("paging") then
     if rime.match(incoming, "[aeuio]") then
       return rime.process_results.kNoop
     elseif rime.match(incoming, "[bpmfdtnlgkhjqxzcsrywv]") then

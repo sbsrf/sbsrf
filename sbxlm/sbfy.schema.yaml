@@ -1,0 +1,271 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbxlm.yaml:/prelude
+
+schema:
+  schema_id: sbfy
+  name: "声笔飞延"
+  version: "10.0"
+  icon: "sbxlm.ico"
+  author:
+    - 戴石麟 <https://sbxlm.github.io>
+    - 蓝落萧 <https://tansongchen.com>
+  dependencies:
+    - sbjm
+    - sbyp
+    - bihua
+    - zhlf
+    - sbfm2
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [中文, 西文]
+  - name: ascii_punct
+    reset: 0
+    states: [。，, ．，]
+  - name: zh_trad
+    reset: 0
+    states: [简体, 繁体]
+  - name: is_enhanced
+    reset: 0
+    states: [常规, 增强]
+  - options: [hide, rational, irrational, both]
+    reset: 1
+    states: [隐藏, 有理, 无理, 两者]
+  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
+  #- options: [_key_Hide]
+  #  states: ["▼"]
+  # 为了避免拥挤，不显示下面的状态
+  - name: auto_inline
+    reset: 1
+  - name: is_buffered
+    reset: 0
+  - name: single_display
+    reset: 1
+  - options: [none_word, space_word, period_word]
+    reset: 1
+  - options: [pro_word, pro_char, delayed_pop]
+    reset: 2
+  # states: [词组, 单字, 延顶]
+  # 不要改变下面的状态，以免穿帮
+  - name: third_pop
+    reset: 0
+  - name: fast_pop
+    reset: 0
+
+engine:
+  processors:
+    - lua_processor@*sbxlm.ascii_composer
+    - ascii_composer
+    - recognizer
+    - lua_processor@*sbxlm.key_binder
+    - key_binder
+    - lua_processor@*sbxlm.selector
+    - lua_processor@*sbxlm.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@sbzdy
+    - affix_segmentor@sbjm
+    - affix_segmentor@bihua
+    - affix_segmentor@sbyp
+    - affix_segmentor@zhlf
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - lua_translator@*sbxlm.auto_length
+    - table_translator@sbjm
+    - table_translator@bihua
+    - script_translator@sbyp
+    - script_translator@zhlf
+    - lua_translator@*sbxlm.utils.datetime
+    - lua_translator@*sbxlm.utils.number
+    - lua_translator@*sbxlm.utils.calculator
+    - table_translator@sbzdy
+    - history_translator
+  filters:
+    - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup2
+    - reverse_lookup_filter@reverse_lookup3
+    - lua_filter@*sbxlm.hint
+    - lua_filter@*sbxlm.radicals
+    - lua_filter@*sbxlm.select_key_to_comment
+    - simplifier
+    - uniquifier
+
+popping:
+  __append:
+    # 词组模式
+    - when: pro_word
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: pro_word
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      prefix: 2
+      conditional: true
+    # 增强模式下的数字顶
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[0-9]"
+      prefix: 2
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[0-9]"
+      prefix: 2
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[0-9]"
+      prefix: 1
+    # 支持标点字顶屏
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[;']"
+      prefix: 2
+    # 单字模式
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[BPMFDTNLGKHJQXZCSRYWV]"
+      accept: "[a-z]"
+      strategy: append
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    # 延顶模式
+    - when: delayed_pop
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[a-z]"
+      prefix: 2
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[A-Z]"
+      strategy: append
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
+      accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
+
+speller:
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
+  auto_clear: none
+  max_code_length: 6
+  popping:
+    __patch:
+      - /popping
+      - sbxlm.yaml:/table_popping
+      - sbxlm.yaml:/basic_popping
+
+translator:
+  dictionary: sbfm
+  enable_user_dict: true
+  enable_filtering: true
+  filter_strength: 6    #可以为3,4,5,6 
+  forced_selection: true
+  single_selection: true
+  enable_encoder: true
+  stop_change: false
+  delete_threshold: 2000
+  max_phrase_length: 5
+  disable_user_dict_for_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
+
+extended:
+  dictionary: sbfm.extended
+  user_dictionary: "sbfm"
+  enable_user_dict: true
+
+punctuator:
+  import_preset: sbxlm
+
+recognizer:
+  import_preset: sbxlm
+
+sbfm_basic_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}[aeuio]{0,2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+      accept: ";"
+      send_sequence: ";{space}"
+sbfm_extra_bindings:
+  __append:
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: Tab
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+
+key_binder:
+  bindings:
+    __patch:
+      - sbxlm.yaml:/rime_key_bindings
+      - /sbfm_basic_bindings
+      - /sbfm_extra_bindings
+
+reverse_lookup:
+  __include: sbxlm.yaml:/prelude/reverse_lookup
+  dictionary: sbfm.extended
+
+reverse_lookup2:
+  tags: [bihua, zhlf, sbjm]
+  overwrite_comment: true
+  dictionary: sbfm
+
+reverse_lookup3:
+  tags: [sbyp]
+  overwrite_comment: false
+  dictionary: sbfm
+
+menu:
+  __include: sbxlm.yaml:/prelude/menu
+  alternative_select_patterns:
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuioAEUIO][aeuio]"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-zA-Z][aeuio]{2}"
+    - "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{2}"
+  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuioAEUIO]{0,2}|[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV][a-z]{2}[aeuio]{0, 2}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-zA-Z][aeuio]{0,2}$"

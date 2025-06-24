@@ -28,9 +28,6 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - options: [pro_word, pro_char, delayed_pop]
-    reset: 0
-    states: [词组, 单字, 延顶]
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
@@ -49,6 +46,9 @@ switches:
     reset: 0
   - options: [none_word, space_word, period_word]
     reset: 1
+  - options: [pro_word, pro_char, delayed_pop]
+    reset: 0
+  # states: [词组, 单字, 延顶]
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0

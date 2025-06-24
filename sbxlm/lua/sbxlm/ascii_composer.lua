@@ -100,7 +100,7 @@ function this.func(key_event, env)
     if env.single_selection and context:get_option("single_display")
         and not context:get_option("not_single_display") then
       context:set_option("not_single_display", true)
-      if not (core.fm(schema_id) and context:get_option("delayed_pop")
+      if not ((core.fm(schema_id) or core.fy(schema_id)) and context:get_option("delayed_pop")
             and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]*"))
           and key_event.modifier ~= rime.modifier_masks.kShift then
         env.selector:process_key_event(key_event)

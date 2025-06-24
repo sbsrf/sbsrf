@@ -368,7 +368,7 @@ local function validate_phrase(entry, segment, type, input, env)
         return nil
       end
     end
-    if (core.fm(schema_id) and (env.delayed_pop or env.pro_char) or core.fd(schema_id) or core.fx(schema_id))
+    if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char) or core.fd(schema_id) or core.fx(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
@@ -639,7 +639,7 @@ function this.func(input, segment, env)
   end
 
   -- 飞码延顶
-  if core.fm(schema_id) and env.delayed_pop and core.sxsx(input) then
+  if (core.fm(schema_id) or core.fy(schema_id)) and env.delayed_pop and core.sxsx(input) then
     translate_by_split(input, segment, env)
     return
   end

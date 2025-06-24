@@ -98,7 +98,7 @@ function this.func(key_event, env)
 
   -- 飞码延顶四码特殊处理
   if not ascii_mode and not key_event:ctrl() and not key_event:shift()
-  and core.fm(schema_id) and delayed_pop then
+  and (core.fm(schema_id) or core.fy(schema_id)) and delayed_pop then
     env.redirecting = true
     if core.sxsx(input) then
       if key_event.keycode == XK_Return then

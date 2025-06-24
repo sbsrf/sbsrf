@@ -93,7 +93,7 @@ end
 
 ---@param id string
 function core.feixi(id)
-  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == 'sbfj'
+  return id == "sbfd" or id == "sbfm" or id == "sbfx" or id == 'sbfj' or id == "sbfy"
 end
 
 ---@param id string
@@ -119,6 +119,11 @@ end
 ---@param id string
 function core.fm(id)
   return id == "sbfm"
+end
+
+---@param id string
+function core.fy(id)
+  return id == "sbfy"
 end
 
 ---@param id string
