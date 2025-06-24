@@ -175,7 +175,7 @@ translator:
   enable_filtering: true
   filter_strength: 6    #可以为3,4,5,6 
   forced_selection: true
-  single_selection: true
+  single_selection: false
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
