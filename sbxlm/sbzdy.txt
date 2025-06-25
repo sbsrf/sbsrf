@@ -52,7 +52,7 @@ sbxlm.github.io/sbfm	fma
 声笔飞码：sbxlm.github.io/sbfm	fm
 sbxlm.github.io/sbfd	fda
 声笔飞延：sbxlm.github.io/sbfy	fy
-sbxlm.github.io/sbfd	fya
+sbxlm.github.io/sbfy	fya
 声笔飞讯：sbxlm.github.io/sbfx	fx
 sbxlm.github.io/sbfx	fxa
 声笔飞简：sbxlm.github.io/sbfj	fj
