@@ -35,7 +35,7 @@ columns:
 早	rq
 昨	rqu
 # 内置条目
-笨	b'
+笔	b'
 步	b;
 鼻子	b;a
 标志	b;e
@@ -6358,7 +6358,7 @@ columns:
 为止	wz8
 文章	wz9
 细	x'
-夏	x;
+雪	x;
 详细	x;a
 行事	x;e
 欣赏	x;i
@@ -7092,7 +7092,7 @@ columns:
 严重	yz7
 原则	yz8
 亚洲	yz9
-展	z'
+种	z'
 最	z;
 桌子	z;a
 之一	z;e
@@ -7100,7 +7100,7 @@ columns:
 资源	z;o
 增长	z;u
 则	z0
-种	z1
+展	z1
 再	z2
 走	z3
 之	z4
