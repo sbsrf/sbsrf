@@ -3,7 +3,6 @@
 -- 本过滤器记录码长较短时已出现在首选的字词，当码长较长时将这些字词后置，以便提高编码的利用效率
 
 local rime = require "lib"
-
 local this = {}
 
 ---@class PostponeEnv: Env
@@ -18,6 +17,7 @@ end
 ---@param env Env
 function this.tags_match(segment, env)
   local context = env.engine.context
+  local stroke_input = context:get_property("stroke_input")
   -- 在回补时不刷新
   if context.caret_pos ~= context.input:len() then
     return false
@@ -31,12 +31,11 @@ function this.func(translation, env)
   local context = env.engine.context
   -- 取出输入中当前正在翻译的一部分
   local input = rime.current(context)
-  if not input then
-    return
-  end
+  local stroke_input = context:get_property("stroke_input")
+  local length = input:len() + stroke_input:len()
   -- 删除与当前编码长度相等或者更长的已知候选，这些对当前输入无帮助
   for k, v in pairs(env.known_candidates) do
-    if v >= input:len() then
+    if v >= length then
       env.known_candidates[k] = nil
     end
   end
@@ -59,6 +58,7 @@ function this.func(translation, env)
   local is_first = true
   local count = 0
   local proper_length = 0
+
   for candidate in translation:iter() do
     if proper_length == 0 then
       proper_length = utf8.len(candidate.text) or 0
@@ -84,14 +84,14 @@ function this.func(translation, env)
       goto continue
     end
     -- 如果这个候选词已经在首选中出现过，那么后置
-    if (env.known_candidates[text] or inf) < input:len() then
+    if (env.known_candidates[text] or inf) < length then
       table.insert(postponed_candidates, candidate)
       goto continue
     end
     -- 否则直接输出
     -- 记录首选
     if is_first and utf8.len(text) <= 4 then
-      env.known_candidates[text] = input:len()
+      env.known_candidates[text] = length
       is_first = false
       rime.yield(candidate)
     elseif candidate.type == "fixed" then

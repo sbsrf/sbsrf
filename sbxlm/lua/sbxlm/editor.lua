@@ -5,17 +5,28 @@
 -- 注意，这里的音节是 Rime 中的音节概念，在声笔拼音中对应的是压缩拼音 + 笔画形成的最长 5 码的编码组合，不一定只包含读音信息
 
 local rime = require "lib"
-
 local this = {}
 
 ---@param env Env
 function this.init(env)
+  local function clear()
+    env.engine.context:set_property("stroke_input", "")
+    env.engine.context:refresh_non_confirmed_composition()
+  end
+  local context = env.engine.context
+  context.select_notifier:connect(clear)
+  context.commit_notifier:connect(clear)
 end
 
 ---@param key_event KeyEvent
 ---@param env Env
 function this.func(key_event, env)
   local context = env.engine.context
+  local input = rime.current(env.engine.context)
+  if not input or input:len() == 0 then
+    env.engine.context:set_property("stroke_input", "")
+    return rime.process_results.kNoop
+  end
   -- 只对无修饰按键生效
   if key_event.modifier > 0 then
     return rime.process_results.kNoop
@@ -38,13 +49,8 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
   -- 只对 aeiou 和 Backspace 键生效
-  -- 如果输入是 aeiou，则添加一个码
-  -- 如果输入是 Backspace，则从之前增加的补码中删除一个码
   if not (rime.match(incoming, "[aeiou']") or incoming == "BackSpace") then
     return rime.process_results.kNoop
-  end
-  if rime.match(context.input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{5,}") and incoming ~= "BackSpace" then
-    return rime.process_results.kAccepted
   end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
   -- confirmed_position 是拼音整句中已经被确认的编码的长度，只有后面的部分是可编辑的
@@ -56,6 +62,27 @@ function this.func(key_event, env)
   end
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
+
+  -- 追加笔画
+  if rime.match(input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}[a-z]*") then
+    local stroke_input = context:get_property("stroke_input")
+    if rime.match(context.input:sub(1,3) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
+    and incoming ~= "BackSpace" then
+      return rime.process_results.kAccepted
+    end
+    if incoming == "BackSpace" and stroke_input ~= "" then
+      stroke_input = stroke_input:sub(1, -2)
+    elseif rime.match(incoming, "[aeuio]") and rime.match(current_input, ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}") then
+      stroke_input = stroke_input .. incoming
+    else
+      goto continue
+    end
+    context:set_property("stroke_input", stroke_input)
+    env.engine.context:refresh_non_confirmed_composition()
+    return rime.process_results.kAccepted
+  end
+  ::continue::
+
   if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}") then
     return rime.process_results.kNoop
   end
@@ -66,53 +93,15 @@ function this.func(key_event, env)
     end
   end
   -- 找出补码的位置（第二个音节之前），并添加补码
-  local position1 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
-  local position2 = 0
-  local position3 = 0
-  local offset = 0
-  local position = position1
-  if (position1 > 2) then
-    if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
-      position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
-      if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
-        if (position2 - position1 > 2) then
-          position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
-          offset = position2
-          position = position3
-          goto continue
-        end
-      end
-      offset = position1
-      position = position2
-      goto continue
-    end
-  end
-  if (position1 == 2) then
-    if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
-      position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
-      if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
-        if (position2 - position1 == 2) then
-          position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
-          offset = position2
-          position = position3
-          goto continue
-        end
-      end
-      offset = position1
-      position = position2 - 1
-      goto continue
-    end
-  end
   -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
-  -- 如果补码已有 6 码，则不返回，相当于进入单字模式
-  ::continue::
-  local len_limit = 6 + offset
+  local position = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
+  local len_limit = 3
   if position <= len_limit then
     context.caret_pos = confirmed_position + position
   end
   if incoming == "BackSpace" then
-    if offset + confirmed_position == context.caret_pos - 1 then
-      context.caret_pos = offset + confirmed_position
+    if confirmed_position == context.caret_pos - 1 then
+      context.caret_pos = confirmed_position
     end
     context:pop_input(1)
   elseif position < len_limit then
