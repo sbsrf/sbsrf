@@ -101,6 +101,7 @@ function this.func(key_event, env)
   end
   if incoming == "BackSpace" then
     if confirmed_position == context.caret_pos - 1 then
+      previous_caret_pos =context.caret_pos
       context.caret_pos = confirmed_position
     end
     context:pop_input(1)
@@ -109,7 +110,11 @@ function this.func(key_event, env)
   end
   --如果达到限制长度则禁止补码
   if position <= len_limit then
-    context.caret_pos = previous_caret_pos + 1
+    if incoming == "BackSpace" then
+      context.caret_pos = previous_caret_pos - 1
+    else
+      context.caret_pos = previous_caret_pos + 1
+    end
   end
   return rime.process_results.kAccepted
 end
