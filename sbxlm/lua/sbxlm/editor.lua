@@ -1,8 +1,8 @@
 -- 回头补码处理器
--- 适用于：声笔拼音
--- 本处理器实现了声笔拼音的自动回头补码的功能
--- 即在输入 aeiou 时，如果末音节有 3 码，且前面至少还有一个音节，则将这个编码追加到首音节上
--- 注意，这里的音节是 Rime 中的音节概念，在声笔拼音中对应的是压缩拼音 + 笔画形成的最长 5 码的编码组合，不一定只包含读音信息
+-- 适用于：声笔拼音和声笔简拼
+-- 本处理器实现了自动回头补码的功能
+-- 即在输入 aeiou' 时，如果末音节有 3 码，且前面至少还有一个音节，则将这个编码追加到首音节上
+-- 注意，这里的音节是 Rime 中的音节概念，不一定只包含读音，也可能包含笔画
 
 local rime = require "lib"
 local this = {}
@@ -48,7 +48,7 @@ function this.func(key_event, env)
   if not context:get_option("popping") and not context:get_option("back_insert") then
     return rime.process_results.kNoop
   end
-  -- 只对 aeiou 和 Backspace 键生效
+  -- 只对 aeiou' 和 Backspace 键生效
   if not (rime.match(incoming, "[aeiou']") or incoming == "BackSpace") then
     return rime.process_results.kNoop
   end
@@ -64,15 +64,23 @@ function this.func(key_event, env)
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
 
   -- 追加笔画
-  if rime.match(input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio]{2}[a-z]*") then
+  local expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{2}.*"
+  local expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}"
+  local len = 3
+  if env.engine.schema.schema_id == "sbpy" then
+    expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4}.*"
+    expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{4}"
+    len = 5
+  end
+  if rime.match(input, expression) then
     local stroke_input = context:get_property("stroke_input")
-    if rime.match(context.input:sub(1,3) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
+    if rime.match(context.input:sub(1, len) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
     and incoming ~= "BackSpace" then
       return rime.process_results.kAccepted
     end
     if incoming == "BackSpace" and stroke_input ~= "" then
       stroke_input = stroke_input:sub(1, -2)
-    elseif rime.match(incoming, "[aeuio]") and rime.match(current_input, ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}") then
+    elseif rime.match(incoming, "[aeuio]") and rime.match(current_input, expression2) then
       stroke_input = stroke_input .. incoming
     else
       goto continue
@@ -96,6 +104,9 @@ function this.func(key_event, env)
   -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   local position = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   local len_limit = 3
+  if env.engine.schema.schema_id == "sbpy" then
+    len_limit = 5
+  end
   if position <= len_limit then
     context.caret_pos = confirmed_position + position
   end

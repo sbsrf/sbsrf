@@ -51,10 +51,14 @@ end
 function this.func(translation, env)
   local context = env.engine.context
   local stroke_input = context:get_property("stroke_input")
+  local len = 3
+  if env.engine.schema.schema_id == "sbpy" then
+    len = 5
+  end
   ---@type Candidate
   for candidate in translation:iter() do
     if handle_candidate(candidate.text, stroke_input, env) then
-      candidate.preedit = candidate.preedit:sub(1,3) .. stroke_input ..candidate.preedit:sub(4)
+      candidate.preedit = candidate.preedit:sub(1,len) .. stroke_input ..candidate.preedit:sub(len + 1)
       yield(candidate)
     end
   end
