@@ -28,7 +28,7 @@ switches:
     states: [简体, 繁体]
   - name: is_hidden
     states: [提示, 隐藏]
-    reset: 1  # 为1时隐藏无理固定数选字词
+    reset: 0  # 为1时隐藏无理固定数选字词
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
@@ -53,6 +53,7 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
+    # - lua_processor@*sbxlm.stroke_processor
     - lua_processor@*sbxlm.editor
     - lua_processor@*sbxlm.selector
     - lua_processor@*sbxlm.popping
@@ -86,7 +87,9 @@ engine:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix
+    - lua_filter@*sbxlm.stroke_filter
     - lua_filter@*sbxlm.postpone
+    - lua_filter@*sbxlm.lookup_filter
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
     - uniquifier
@@ -167,9 +170,6 @@ speller:
     __append:
       - derive/^([a-z]).+$/$1/
       - derive/^([a-z]{2}).+$/$1/
-      - derive/^([a-z]{3}).+$/$1/
-      - derive/^([a-z]{4}).+$/$1/
-      - derive/^([a-z]{5}).+$/$1/
   popping:
     __patch:
       - /popping

@@ -86,7 +86,9 @@ engine:
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix
+    - lua_filter@*sbxlm.stroke_filter
     - lua_filter@*sbxlm.postpone
+    - lua_filter@*sbxlm.lookup_filter
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
     - uniquifier
