@@ -50,10 +50,13 @@ end
 ---@param env StrokesEnv
 function this.func(translation, env)
   local context = env.engine.context
+  local id = env.engine.schema.schema_id
   local stroke_input = context:get_property("stroke_input")
   local len = 3
-  if env.engine.schema.schema_id == "sbpy" then
+  if id == "sbpy" then
     len = 5
+  elseif id == "sbzz" or id == "sbhz" then
+    len = 4
   end
   ---@type Candidate
   for candidate in translation:iter() do

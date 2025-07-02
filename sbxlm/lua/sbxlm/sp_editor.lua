@@ -10,12 +10,20 @@ local this = {}
 
 ---@param env Env
 function this.init(env)
+  local function clear()
+    env.engine.context:set_property("stroke_input", "")
+    env.engine.context:refresh_non_confirmed_composition()
+  end
+  local context = env.engine.context
+  context.select_notifier:connect(clear)
+  context.commit_notifier:connect(clear)
 end
 
 ---@param key_event KeyEvent
 ---@param env Env
 function this.func(key_event, env)
   local context = env.engine.context
+  local input = rime.current(env.engine.context)
   -- 只对无修饰按键生效
   if key_event.modifier > 0 then
     return rime.process_results.kNoop
@@ -47,6 +55,28 @@ function this.func(key_event, env)
   local confirmed_position = context.composition:toSegmentation():get_confirmed_position()
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
+
+  -- 追加笔画
+  if rime.match(input, "^[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}.*") then
+    local stroke_input = context:get_property("stroke_input")
+    if rime.match(context.input:sub(1, 4) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]{4,}")
+    and incoming ~= "BackSpace" then
+      return rime.process_results.kAccepted
+    end
+    if incoming == "BackSpace" and stroke_input ~= "" then
+      stroke_input = stroke_input:sub(1, -2)
+    elseif rime.match(incoming, "[aeuio]") 
+    and rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]{2,}|([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]") then
+      stroke_input = stroke_input .. incoming
+    else
+      goto continue
+    end
+    context:set_property("stroke_input", stroke_input)
+    env.engine.context:refresh_non_confirmed_composition()
+    return rime.process_results.kAccepted
+  end
+  ::continue::
+
   if not rime.match(current_input, "([bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]*)+[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]") then
     return rime.process_results.kNoop
   end
@@ -62,11 +92,11 @@ function this.func(key_event, env)
   context.caret_pos = confirmed_position + e
   if incoming == "BackSpace" then
     context:pop_input(1)
-  elseif e < 6 then
+  elseif e < 4 then
     context:push_input(incoming)
   end
   --如果达到限制长度则禁止补码
-  if e <= 6 then
+  if e <= 4 then
     context.caret_pos = previous_caret_pos + 1
   end
   return rime.process_results.kAccepted

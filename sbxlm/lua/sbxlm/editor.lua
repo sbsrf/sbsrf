@@ -101,7 +101,7 @@ function this.func(key_event, env)
     end
   end
   -- 找出补码的位置（第二个音节之前），并添加补码
-  -- 如果补码不足 6 码，则返回当前的位置，使得补码后的输入可以继续匹配词语；
+  -- 如果补码不足，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   local position = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   local len_limit = 3
   if env.engine.schema.schema_id == "sbpy" then
