@@ -69,12 +69,14 @@ function this.func(key_event, env)
   local len = 3
   if env.engine.schema.schema_id == "sbpy" then
     expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4}.*"
-    expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{4}"
+    if env.engine.schema.schema_id == "sbpy" and rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4,}") then
+      expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{4}"
+    end
     len = 5
   end
   if rime.match(input, expression) then
     local stroke_input = context:get_property("stroke_input")
-    if rime.match(context.input:sub(1, len) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
+    if rime.match(current_input:sub(1, len) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
     and incoming ~= "BackSpace" then
       return rime.process_results.kAccepted
     end
