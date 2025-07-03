@@ -64,34 +64,36 @@ function this.func(key_event, env)
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
 
   -- 追加笔画
-  local expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{2}.*"
-  local expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}"
-  local len = 3
-  if env.engine.schema.schema_id == "sbpy" then
-    expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4}.*"
-    if env.engine.schema.schema_id == "sbpy" and rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4,}") then
-      expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{4}"
+  if rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio']*|^[bpmfdtnlgkhjqxzcsrywv][aeuio']*[bpmfdtnlgkhjqxzcsrywv][aeuio']*") then
+    local expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{2}.*"
+    local expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}"
+    local len = 3
+    if env.engine.schema.schema_id == "sbpy" then
+      expression = "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4}.*"
+      if env.engine.schema.schema_id == "sbpy" and rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio']{4,}") then
+        expression2 = ".*[bpmfdtnlgkhjqxzcsrywv][aeiou']{4}"
+      end
+      len = 5
     end
-    len = 5
-  end
-  if rime.match(input, expression) then
-    local stroke_input = context:get_property("stroke_input")
-    if rime.match(current_input:sub(1, len) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
-    and incoming ~= "BackSpace" then
+    if rime.match(input, expression) then
+      local stroke_input = context:get_property("stroke_input")
+      if rime.match(current_input:sub(1, len) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou']{8,}")
+      and incoming ~= "BackSpace" then
+        return rime.process_results.kAccepted
+      end
+      if incoming == "BackSpace" and stroke_input ~= "" then
+        stroke_input = stroke_input:sub(1, -2)
+      elseif rime.match(incoming, "[aeuio]") and rime.match(current_input, expression2) then
+        stroke_input = stroke_input .. incoming
+      else
+        goto continue2
+      end
+      context:set_property("stroke_input", stroke_input)
+      env.engine.context:refresh_non_confirmed_composition()
       return rime.process_results.kAccepted
     end
-    if incoming == "BackSpace" and stroke_input ~= "" then
-      stroke_input = stroke_input:sub(1, -2)
-    elseif rime.match(incoming, "[aeuio]") and rime.match(current_input, expression2) then
-      stroke_input = stroke_input .. incoming
-    else
-      goto continue
-    end
-    context:set_property("stroke_input", stroke_input)
-    env.engine.context:refresh_non_confirmed_composition()
-    return rime.process_results.kAccepted
+    ::continue2::
   end
-  ::continue::
 
   if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou']{2}") then
     return rime.process_results.kNoop
@@ -105,17 +107,60 @@ function this.func(key_event, env)
   -- 找出补码的位置（第二个音节之前），并添加补码
   -- 如果补码不足，则返回当前的位置，使得补码后的输入可以继续匹配词语；
   local position = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
+  local offset = 0
   local len_limit = 3
   if env.engine.schema.schema_id == "sbpy" then
     len_limit = 5
   end
+
+  if not rime.match(current_input, "^[bpmfdtnlgkhjqxzcsrywv][aeuio']*|^[bpmfdtnlgkhjqxzcsrywv][aeuio']*[bpmfdtnlgkhjqxzcsrywv][aeuio']*") then
+    local position1 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
+    local position2 = 0
+    local position3 = 0
+    position = position1
+    if (position1 > 2) then
+      if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
+        position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
+        if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
+          if (position2 - position1 > 2) then
+            position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
+            offset = position2
+            position = position3
+            goto continue
+          end
+        end
+        offset = position1
+        position = position2
+        goto continue
+      end
+    end
+    if (position1 == 2) then
+      if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) then
+        position2 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position1) - 1
+        if current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2)  then
+          if (position2 - position1 == 2) then
+            position3 = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2 + position2) - 1
+            offset = position2
+            position = position3
+            goto continue
+          end
+        end
+        offset = position1
+        position = position2 - 1
+        goto continue
+      end
+    end
+    ::continue::
+    len_limit = len_limit + offset
+  end
+
   if position <= len_limit then
     context.caret_pos = confirmed_position + position
   end
   if incoming == "BackSpace" then
-    if confirmed_position == context.caret_pos - 1 then
+    if offset + confirmed_position == context.caret_pos - 1 then
       previous_caret_pos =context.caret_pos
-      context.caret_pos = confirmed_position
+      context.caret_pos = offset + confirmed_position
     end
     context:pop_input(1)
   elseif position < len_limit then
