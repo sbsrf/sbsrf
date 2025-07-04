@@ -159,19 +159,22 @@ function this.func(key_event, env)
   end
   if incoming == "BackSpace" then
     if offset + confirmed_position == context.caret_pos - 1 then
-      previous_caret_pos =context.caret_pos
+      previous_caret_pos = context.caret_pos
       context.caret_pos = offset + confirmed_position
-    end
+    end  
     context:pop_input(1)
   elseif position < len_limit then
     context:push_input(incoming)
   end
   --如果达到限制长度则禁止补码
   if position <= len_limit then
+    if current_input:len() < context.input:len() then
+      position = 0
+    end
     if incoming == "BackSpace" then
-      context.caret_pos = previous_caret_pos - 1
+      context.caret_pos = previous_caret_pos - 1 + position
     else
-      context.caret_pos = previous_caret_pos + 1
+      context.caret_pos = previous_caret_pos + 1 + position
     end
   end
   return rime.process_results.kAccepted
