@@ -101,7 +101,7 @@ function this.func(key_event, env)
   and (core.fm(schema_id) or core.fy(schema_id)) and delayed_pop then
     env.redirecting = true
     if core.sxsx(input) then
-      if key_event.keycode == XK_Return then
+      if key_event.keycode == XK_Tab then
         env.engine:process_key(rime.KeyEvent("space"))
       elseif (key_event.keycode == XK_space and space_word)
       or (key_event.keycode == XK_period and period_word) then
