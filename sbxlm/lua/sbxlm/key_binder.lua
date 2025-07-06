@@ -140,6 +140,11 @@ function this.func(key_event, env)
       env.engine:process_key(rime.KeyEvent("space"))
       env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
       env.engine:process_key(rime.KeyEvent(";"))
+    elseif core.sxs(input) and key_event.keycode == XK_apostrophe then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent("'"))
     elseif input:len() == 4 and core.sxs(input:sub(1,3)) and is_upper(rime.KeyEvent(input:sub(4,4)).keycode)
     and key_event.keycode == XK_apostrophe and not key_event:shift() then
       env.engine:process_key(rime.KeyEvent("BackSpace"))
@@ -168,6 +173,28 @@ function this.func(key_event, env)
       env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
       env.engine:process_key(rime.KeyEvent("'"))
       env.engine:process_key(rime.KeyEvent("space"))
+    else
+      env.redirecting = false
+      goto continue
+    end
+    env.redirecting = false
+    return rime.process_results.kAccepted
+  end
+
+  -- 飞讯三特殊处理
+  if not ascii_mode and not key_event:ctrl() and not key_event:shift()
+  and core.fx(schema_id) then
+    env.redirecting = true
+    if core.sxs(input) and key_event.keycode == XK_semicolon then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent(";"))
+    elseif core.sxs(input) and key_event.keycode == XK_apostrophe then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent("'"))
     else
       env.redirecting = false
       goto continue
