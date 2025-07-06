@@ -42,7 +42,7 @@ switches:
   - name: is_buffered
     reset: 0
   - name: single_display
-    reset: 1
+    reset: 0
   - options: [pro_word, pro_char, delayed_pop]
     reset: 1
   # states: [词组, 单字, 延顶]

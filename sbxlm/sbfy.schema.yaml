@@ -43,7 +43,7 @@ switches:
   - name: is_buffered
     reset: 0
   - name: single_display
-    reset: 1
+    reset: 0
   - options: [none_word, space_word, period_word]
     reset: 1
   - options: [pro_word, pro_char, delayed_pop]
@@ -115,19 +115,11 @@ popping:
       conditional: true
     # 增强模式下的数字顶
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[0-9]"
-      prefix: 2
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
-      accept: "[0-9]"
-      prefix: 1
     # 支持标点字顶屏
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
     # 单字模式
@@ -157,6 +149,10 @@ popping:
     - when: delayed_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
       accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
+    - when: delayed_pop
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[AEUIO]"
+      strategy: append
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO"
@@ -198,13 +194,7 @@ recognizer:
 
 sbfm_basic_bindings:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: ";"
-      send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"
-      accept: ";"
-      send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
@@ -233,7 +223,7 @@ sbfm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
       accept: "'"
       send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
