@@ -133,14 +133,6 @@ function this.func(key_event, env)
         env.redirecting = false
         goto continue
       end
-    elseif input:len() == 4 and core.sxs(input:sub(1,3)) and is_upper(rime.KeyEvent(input:sub(4,4)).keycode)
-    and key_event.keycode == XK_apostrophe and not key_event:shift() then
-      env.engine:process_key(rime.KeyEvent("BackSpace"))
-      env.engine:process_key(rime.KeyEvent("BackSpace"))
-      env.engine:process_key(rime.KeyEvent("space"))
-      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
-      env.engine:process_key(rime.KeyEvent(input:sub(4,4):lower()))
-      env.engine:process_key(rime.KeyEvent("space"))
     else
       env.redirecting = false
       goto continue
