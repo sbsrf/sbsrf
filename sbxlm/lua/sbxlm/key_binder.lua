@@ -24,7 +24,7 @@ local this = {}
 ---@field redirecting boolean
 ---@field bindings Binding[]
 ---@field space_word boolean
----@field period_word boolean
+---@field tab_word boolean
 
 ---@class Binding
 ---element
@@ -84,7 +84,7 @@ function this.func(key_event, env)
   local ascii_mode = context:get_option("ascii_mode")
   local delayed_pop = context:get_option("delayed_pop")
   local space_word = context:get_option("space_word")
-  local period_word = context:get_option("period_word")
+  local tab_word = context:get_option("tab_word")
   if env.redirecting then
     return rime.process_results.kNoop
   end
@@ -101,10 +101,8 @@ function this.func(key_event, env)
   and (core.fm(schema_id) or core.fy(schema_id)) and delayed_pop then
     env.redirecting = true
     if core.sxsx(input) then
-      if key_event.keycode == XK_Tab then
-        env.engine:process_key(rime.KeyEvent("space"))
-      elseif (key_event.keycode == XK_space and space_word)
-      or (key_event.keycode == XK_period and period_word) then
+      if (key_event.keycode == XK_space and space_word)
+      or (key_event.keycode == XK_Tab and tab_word) then
         env.engine:process_key(rime.KeyEvent("BackSpace"))
         env.engine:process_key(rime.KeyEvent(input:upper():sub(4,4)))
       elseif key_event.keycode == XK_Tab
