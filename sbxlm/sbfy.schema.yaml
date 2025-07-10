@@ -188,7 +188,7 @@ punctuator:
 recognizer:
   import_preset: sbxlm
 
-sbfm_basic_bindings:
+sbfy_basic_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2}"
       accept: ";"
@@ -208,7 +208,7 @@ sbfm_basic_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
       accept: ";"
       send_sequence: ";{space}"
-sbfm_extra_bindings:
+sbfy_extra_bindings:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: Tab
@@ -230,8 +230,8 @@ key_binder:
   bindings:
     __patch:
       - sbxlm.yaml:/rime_key_bindings
-      - /sbfm_basic_bindings
-      - /sbfm_extra_bindings
+      - /sbfy_basic_bindings
+      - /sbfy_extra_bindings
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
