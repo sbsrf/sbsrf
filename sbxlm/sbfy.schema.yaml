@@ -49,6 +49,8 @@ switches:
   - options: [pro_word, pro_char, delayed_pop]
     reset: 2
   # states: [词组, 单字, 延顶]
+  - name: show_es
+    reset: 1
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0
@@ -77,6 +79,7 @@ engine:
     - affix_segmentor@sbjm
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
+    - affix_segmentor@emoji
     - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
@@ -86,6 +89,7 @@ engine:
     - table_translator@sbjm
     - table_translator@bihua
     - script_translator@sbyp
+    - script_translator@emoji
     - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
@@ -93,6 +97,7 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - simplifier@es_conversion
     - reverse_lookup_filter@reverse_lookup
     - reverse_lookup_filter@reverse_lookup2
     - reverse_lookup_filter@reverse_lookup3

@@ -40,6 +40,8 @@ switches:
     reset: 0
   - name: single_display
     reset: 0
+  - name: show_es
+    reset: 1
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0
@@ -67,6 +69,7 @@ engine:
     - affix_segmentor@sbzdy
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
+    - affix_segmentor@emoji
     - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
@@ -75,6 +78,7 @@ engine:
     - lua_translator@*sbxlm.auto_length
     - table_translator@bihua
     - script_translator@sbyp
+    - script_translator@emoji
     - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
@@ -82,6 +86,7 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - simplifier@es_conversion
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.select_key_to_comment

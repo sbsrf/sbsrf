@@ -45,6 +45,8 @@ switches:
   #  states: [自由, 固定, 顶功, 混合]
   - name: back_insert # 混合模式下的补码标识
     reset: 0
+  - name: show_es
+    reset: 1
 
 engine:
   processors:
@@ -53,7 +55,6 @@ engine:
     - recognizer
     - lua_processor@*sbxlm.key_binder
     - key_binder
-    # - lua_processor@*sbxlm.stroke_processor
     - lua_processor@*sbxlm.editor
     - lua_processor@*sbxlm.selector
     - lua_processor@*sbxlm.popping
@@ -69,6 +70,7 @@ engine:
     - affix_segmentor@sbzdy
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
+    - affix_segmentor@emoji
     - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
@@ -77,6 +79,7 @@ engine:
     - script_translator
     - table_translator@bihua
     - script_translator@sbyp
+    - script_translator@emoji
     - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
@@ -84,6 +87,7 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - simplifier@es_conversion
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix

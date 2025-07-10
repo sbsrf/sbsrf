@@ -68,6 +68,7 @@ engine:
     - affix_segmentor@sbzdy
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
+    - affix_segmentor@emoji
     - affix_segmentor@zhlf
     - punct_segmentor
     - fallback_segmentor
@@ -76,6 +77,7 @@ engine:
     - script_translator
     - table_translator@bihua
     - script_translator@sbyp
+    - script_translator@emoji
     - script_translator@zhlf
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
@@ -83,6 +85,7 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - simplifier@es_conversion
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix

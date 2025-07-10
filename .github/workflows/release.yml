@@ -25,7 +25,7 @@ jobs:
           mv sbxlm/* .
           rime_deployer --build . /usr/share/rime-data
           rm bihua* zhlf* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml
-          zip -r sbsrf.zip build lua *.yaml *.txt
+          zip -r sbsrf.zip build lua opencc *.yaml *.txt
       - name: Release
         uses: softprops/action-gh-release@v1
         with:

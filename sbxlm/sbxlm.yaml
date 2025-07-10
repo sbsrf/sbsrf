@@ -101,6 +101,16 @@ prelude:
     prefix: a
     tips: "〔拼音反查〕"
 
+  emoji:
+    tag: emoji
+    dictionary: sbpy
+    enable_user_dict: false
+    enable_encoder: false
+    packs:
+      - sbpy.base
+    prism: sbyp
+    prefix: e
+
   zhlf:
     tag: zhlf
     dictionary: zhlf
@@ -123,6 +133,11 @@ prelude:
     tags: [bihua, sbyp, zhlf, sbjm]
     overwrite_comment: true
     dictionary: sbjm.extended
+
+  es_conversion:
+    tags: [emoji]
+    opencc_config: es.json
+    option_name: show_es
 
 rime_key_bindings:
   __append:
@@ -258,6 +273,7 @@ recognizer:
     sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
     sbyp: "^a[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
+    emoji: "^e[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
     zhlf: "^i[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     sbzdy: "^u[bpmfdtnlgkhjqxzcsrywv][a-z]*$"
     jsq: "^=.+$"

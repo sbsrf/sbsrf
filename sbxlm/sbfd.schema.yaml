@@ -46,6 +46,8 @@ switches:
   - options: [pro_word, pro_char, delayed_pop]
     reset: 1
   # states: [词组, 单字, 延顶]
+  - name: show_es
+    reset: 1
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0

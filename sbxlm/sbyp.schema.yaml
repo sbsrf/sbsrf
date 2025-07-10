@@ -34,6 +34,8 @@ switches:
   # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
   #- options: [_key_Hide]
   #  states: ["▼"]
+  - name: show_es
+    reset: 1
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1  # 首字母大写进入临时英文状态
@@ -61,6 +63,7 @@ engine:
     - affix_segmentor@sbzdy
     - affix_segmentor@bihua
     - affix_segmentor@zhlf
+    - affix_segmentor@emoji
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -68,12 +71,14 @@ engine:
     - script_translator
     - table_translator@bihua
     - script_translator@zhlf
+    - script_translator@emoji
     - lua_translator@*sbxlm.utils.datetime
     - lua_translator@*sbxlm.utils.number
     - lua_translator@*sbxlm.utils.calculator
     - table_translator@sbzdy
     - history_translator
   filters:
+    - simplifier@es_conversion
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - lua_filter@*sbxlm.fix

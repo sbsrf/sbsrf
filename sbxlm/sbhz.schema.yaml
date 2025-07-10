@@ -40,6 +40,8 @@ switches:
     reset: 0  # 是否为缓冲输入模式
   - name: back_insert # 混合模式下的补码标识
     reset: 0
+  - name: show_es
+    reset: 1
 
 engine:
   __include: sbpy.schema.yaml:/engine
