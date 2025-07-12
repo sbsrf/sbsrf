@@ -8,6 +8,7 @@ patch:
   "style/fullscreen": false
   "style/horizontal": true
   "style/inline_preedit": false
+  "style/preedit_type": composition
   "style/label_format": "%s "
   "style/layout/candidate_spacing": 10
   "style/layout/min_width": 10
