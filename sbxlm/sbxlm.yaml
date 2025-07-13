@@ -217,8 +217,10 @@ sbxlm_extra_bindings:
 zzhz_bindings:
   __append:
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 4, send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 5, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
     - { when: has_menu, accept: 0, send_sequence: "{End}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{4,}", accept: "'", send_sequence: "{Shift+Right}{Shift+Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "'", send_sequence: "{Home}{Right}{space}2"}
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "Tab", send_sequence: "{Home}{Right}{Right}2{space}{space}"}
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "'", send_sequence: "2" }
