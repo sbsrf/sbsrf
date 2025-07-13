@@ -118,11 +118,19 @@ popping:
       conditional: true
     # 增强模式下的数字顶
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[0-9]"
       prefix: 2
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[0-9]"
+      prefix: 2
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[0-9]"
+      prefix: 1
     # 支持标点字顶屏
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
     # 单字模式
@@ -193,7 +201,13 @@ recognizer:
 
 sbfm_basic_bindings:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{0,2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][a-z0-9]"
+      accept: ";"
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][bpmfdtnlgkhjqxzcsrywv][aeuio]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
@@ -221,13 +235,13 @@ sbfm_extra_bindings:
       send_sequence: "{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
-      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}" 
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "'"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"    
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z0-9][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]"
-      accept: "'"
-      send_sequence: "{Home}{Right}{space}{apostrophe}{space}" 
 
 key_binder:
   bindings:
