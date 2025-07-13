@@ -15,6 +15,7 @@ function this.init(env)
     env.engine.context:refresh_non_confirmed_composition()
   end
   local context = env.engine.context
+  context:delete_input()
   context.select_notifier:connect(clear)
   context.commit_notifier:connect(clear)
 end
