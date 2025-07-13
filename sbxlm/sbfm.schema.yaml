@@ -44,8 +44,6 @@ switches:
     reset: 0
   - name: single_display
     reset: 0
-  - options: [none_word, space_word, period_word]
-    reset: 1
   - options: [pro_word, pro_char, delayed_pop]
     reset: 0
   # states: [词组, 单字, 延顶]
