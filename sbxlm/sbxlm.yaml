@@ -158,6 +158,7 @@ rime_key_bindings:
     - { when: composing, accept: Control+v, send: Page_Down }
     - { when: composing, accept: Control+c, send: Page_Up }
     # numbered_mode_switch:
+    - { when: always, accept: Control+Shift+0, select: .next }
     - { when: always, accept: Control+Shift+1, select: .next }
     - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
     - { when: always, accept: Control+Shift+3, toggle: full_shape }
