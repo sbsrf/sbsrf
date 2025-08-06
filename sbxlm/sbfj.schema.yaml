@@ -192,7 +192,7 @@ sbfj_basic_bindings:
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: "Shift+space"
-      send_sequence: "{Home}{Right}{Right}{space}{space}"
+      send_sequence: "{Home}{Right}{space}{apostrophe}{space}"
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z0-9]){2}"
       accept: ";"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
