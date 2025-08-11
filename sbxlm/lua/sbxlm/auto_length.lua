@@ -649,6 +649,15 @@ function this.func(input, segment, env)
     translate_by_split(input, segment, env)
     return
   end
+  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1,2}") then
+    local map = {['a'] = 1, ['e'] = 2, ['u'] = 3, ['i'] = 4, ['o'] = 5}
+    local c = input:sub(-1)
+    local n = map[c]
+    if n >= #phrases then
+      local t = translate_by_split(input, segment, env)
+      return
+    end
+  end
   -- 以下分 4 种情况实现自动码长的翻译策略
   -- 1. 如果输入的编码是一个动态编码的起始调整位，那么返回一个权重最高的候选
   -- 2. 如果输入的编码是基本编码的全码，那么返回所有的候选
