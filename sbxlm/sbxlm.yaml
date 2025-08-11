@@ -48,7 +48,7 @@ table_popping:
       prefix: 2
       strategy: conditional
     # 大写顶屏
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv]{2}){2}"
       accept: "[A-Z]"
       prefix: 2
 
