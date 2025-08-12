@@ -649,13 +649,33 @@ function this.func(input, segment, env)
     translate_by_split(input, segment, env)
     return
   end
-  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1,2}") then
-    local map = {['a'] = 1, ['e'] = 2, ['u'] = 3, ['i'] = 4, ['o'] = 5}
-    local c = input:sub(-1)
-    local n = map[c]
-    if n >= #phrases then
-      local t = translate_by_split(input, segment, env)
-      return
+  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]") then
+    if env.single_selection then
+      if env.single_display then
+        local b = false
+        local i = 0
+        for _, v in ipairs(phrases) do
+          i = i + 1
+          if v.preedit == input then
+            if i >= 1 then
+              b = true
+              break
+            end
+          end
+        end
+        if #phrases == 1 or not b then
+          translate_by_split(input, segment, env)
+          return            
+        end         
+      end
+    else
+      local map = {['a'] = 1, ['e'] = 2, ['u'] = 3, ['i'] = 4, ['o'] = 5}
+      local c = input:sub(-1)
+      local n = map[c]
+      if n >= #phrases then
+        translate_by_split(input, segment, env)
+        return
+      end
     end
   end
   -- 以下分 4 种情况实现自动码长的翻译策略
