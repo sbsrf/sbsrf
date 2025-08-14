@@ -665,9 +665,7 @@ function this.func(input, segment, env)
         return            
       end         
     else
-      local map = {['a'] = 1, ['e'] = 2, ['u'] = 3, ['i'] = 4, ['o'] = 5}
-      local c = input:sub(-1)
-      local n = map[c]
+      local n, _ = string.find('aeuio', input:sub(-1))
       if n >= #phrases then
         translate_by_split(input, segment, env)
         return
