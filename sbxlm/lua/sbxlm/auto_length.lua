@@ -651,23 +651,21 @@ function this.func(input, segment, env)
   end
   if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]") then
     if env.single_selection then
-      if env.single_display then
-        local b = false
-        local i = 0
-        for _, v in ipairs(phrases) do
-          i = i + 1
-          if v.preedit == input then
-            if i >= 1 then
-              b = true
-              break
-            end
+      local b = false
+      local i = 0
+      for _, v in ipairs(phrases) do
+        i = i + 1
+        if v.preedit == input then
+          if i >= 1 then
+            b = true
+            break
           end
         end
-        if #phrases == 1 or not b then
-          translate_by_split(input, segment, env)
-          return            
-        end         
       end
+      if #phrases == 1 or not b then
+        translate_by_split(input, segment, env)
+        return            
+      end         
     else
       local map = {['a'] = 1, ['e'] = 2, ['u'] = 3, ['i'] = 4, ['o'] = 5}
       local c = input:sub(-1)
