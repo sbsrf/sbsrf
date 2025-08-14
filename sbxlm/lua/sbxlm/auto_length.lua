@@ -653,16 +653,18 @@ function this.func(input, segment, env)
     if env.single_selection then
       local b = false
       local i = 0
-      for _, v in ipairs(phrases) do
-        i = i + 1
-        if v.preedit == input then
-          if i >= 1 then
-            b = true
-            break
+      if phrases then
+        for _, v in ipairs(phrases) do
+          i = i + 1
+          if v.preedit == input then
+            if i >= 1 then
+              b = true
+              break
+            end
           end
         end
       end
-      if #phrases == 1 or not b then
+      if not (phrases and b) then
         translate_by_split(input, segment, env)
         return            
       end         
