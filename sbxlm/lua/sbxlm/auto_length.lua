@@ -652,15 +652,11 @@ function this.func(input, segment, env)
   if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]") then
     if env.single_selection then
       local b = false
-      local i = 0
       if phrases then
         for _, v in ipairs(phrases) do
-          i = i + 1
           if v.preedit == input then
-            if i >= 1 then
-              b = true
-              break
-            end
+            b = true
+            break
           end
         end
       end
