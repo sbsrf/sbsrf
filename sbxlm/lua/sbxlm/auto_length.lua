@@ -649,22 +649,27 @@ function this.func(input, segment, env)
     translate_by_split(input, segment, env)
     return
   end
-  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]") then
+  if core.fm(schema_id) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1,2}") then
     if env.single_selection then
-      local b = false
-      if phrases then
-        for _, v in ipairs(phrases) do
-          if v.preedit == input then
-            b = true
-            break
+      local found = false
+      for _, v in ipairs(phrases) do
+        if v.preedit == input then
+          -- 已经找到，但还要看是否已经出现过
+          for k, _ in pairs(env.known_candidates) do
+            if k == v.text then
+              goto again
+            end
           end
+          found = true
+          break
+          ::again::
         end
       end
-      if not (phrases and b) then
+      if not found then
         translate_by_split(input, segment, env)
         return            
       end         
-    else
+    elseif input:len() < 6 then -- not single_selection
       local n, _ = string.find('aeuio', input:sub(-1))
       if n >= #phrases then
         translate_by_split(input, segment, env)
