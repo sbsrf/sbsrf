@@ -126,7 +126,7 @@ popping:
       accept: "[0-9]"
       prefix: 2
     - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: "[0-9]"
       prefix: 1
     # 支持标点字顶屏
