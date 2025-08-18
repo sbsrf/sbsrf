@@ -42,15 +42,14 @@ table_popping:
     # 其他情况，数字顶
     - match: ".*"
       accept: "[0-9]"
-    # # 条件顶屏
-    # - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-    #   accept: "[aeiou]"
-    #   prefix: 2
-    #   strategy: conditional
     # 大写顶屏
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[A-Z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       prefix: 2
+    # 大写补码
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuioAEUIO]{0,1}"
+      accept: "[AEUIO]"
+      strategy: append
 
 prelude:
   menu:

@@ -465,13 +465,19 @@ end
 ---@return string
 local function translate_by_split(input, segment, env)
   local memory = env.static_memory
-  memory:dict_lookup(input:sub(1, 2), false, 1)
+  local part1 = input:sub(1, 2)
+  local part2 = input:sub(3)
+  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO]{1,2}") then
+    part1 = part1 .. input:sub(5):lower()
+    part2 = input:sub(3,4)
+  end
+  memory:dict_lookup(part1, false, 1)
   local text = ""
   for entry in memory:iter_dict() do
     text = text .. entry.text
     break
   end
-  memory:dict_lookup(input:sub(3), false, 1)
+  memory:dict_lookup(part2, false, 1)
   for entry in memory:iter_dict() do
     ---@type string
     text = text .. entry.text
@@ -556,7 +562,8 @@ function this.func(input, segment, env)
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
     if (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
-        or (core.fx(schema_id) and core.sxsb(input)) then
+        or (core.fx(schema_id) and core.sxsb(input)) 
+        or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO]{1,2}") then
       translate_by_split(input, segment, env)
     end
     return
