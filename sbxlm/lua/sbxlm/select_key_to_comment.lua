@@ -46,9 +46,7 @@ function this.func(translation, env)
     if key == "_" then
       goto continue
     end
-    if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][aeuio]{3}") and core.feixi(schema_id) then
-      goto continue
-    end
+
     -- 如果是单次选重非全码产生的补全选项，无需操作
     if candidate.type == "completion" and core.zici(schema_id) and segment:has_tag("abc") then
       if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then

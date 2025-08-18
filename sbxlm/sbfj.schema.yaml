@@ -12,7 +12,7 @@ schema:
     - 戴石麟 <https://sbxlm.github.io>
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
-    - sbjm
+    - sbfc
     - sbyp
     - bihua
     - zhlf
@@ -74,7 +74,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
-    - affix_segmentor@sbjm
+    - affix_segmentor@sbfc
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
     - affix_segmentor@emoji
@@ -84,7 +84,7 @@ engine:
   translators:
     - punct_translator
     - lua_translator@*sbxlm.auto_length
-    - table_translator@sbjm
+    - table_translator@sbfc
     - table_translator@bihua
     - script_translator@sbyp
     - script_translator@emoji
@@ -97,8 +97,6 @@ engine:
   filters:
     - simplifier@es_conversion
     - reverse_lookup_filter@reverse_lookup
-    - reverse_lookup_filter@reverse_lookup2
-    - reverse_lookup_filter@reverse_lookup3
     - lua_filter@*sbxlm.hint
     - lua_filter@*sbxlm.radicals
     - lua_filter@*sbxlm.select_key_to_comment
@@ -239,16 +237,6 @@ key_binder:
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbfj.extended
-
-reverse_lookup2:
-  tags: [bihua, zhlf, sbjm]
-  overwrite_comment: true
-  dictionary: sbfj
-
-reverse_lookup3:
-  tags: [sbyp]
-  overwrite_comment: false
-  dictionary: sbfj
 
 menu:
   __include: sbxlm.yaml:/prelude/menu

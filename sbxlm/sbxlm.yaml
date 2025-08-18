@@ -118,9 +118,9 @@ prelude:
     prefix: i
     tips: "〔两分反查〕"
 
-  sbjm:
-    tag: sbjm
-    dictionary: sbjm.extended
+  sbfc:
+    tag: sbfc
+    dictionary: sbfc
     enable_user_dict: false
     enable_encoder: false
     enable_sentence: false
@@ -130,7 +130,7 @@ prelude:
     tips: "〔声笔反查〕"
 
   reverse_lookup:
-    tags: [bihua, sbyp, zhlf, sbjm]
+    tags: [bihua, sbyp, zhlf, sbfc]
     overwrite_comment: true
     dictionary: sbjm.extended
 
@@ -272,7 +272,7 @@ key_binder:
 recognizer:
   patterns:
     punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
-    sbjm: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
+    sbfc: "^[bpmfdtnlgkhjqxzcsrywv][aeiou]{3}$"
     bihua: "^[aeiou]+$"
     sbyp: "^a[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
     emoji: "^e[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
