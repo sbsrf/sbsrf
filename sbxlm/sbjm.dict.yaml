@@ -2135,7 +2135,7 @@ encoder:
 怀疑	hy7
 怀孕	h;a
 怀中	hz8
-或	h3
+坏	h0
 坏人	hr4
 欢	ha9
 欢乐	hl5
@@ -2224,7 +2224,7 @@ encoder:
 伙	hu5
 伙伴	hb7
 伙计	hj4
-坏	h0
+或	h3
 或是	hs5
 或许	hx
 或者	hz3
@@ -6415,7 +6415,7 @@ encoder:
 增长	z;u
 诈骗	zp2
 粘	no'
-展	z1
+展	z;
 展开	zk3
 占	zi0
 战	zi3
@@ -6689,7 +6689,7 @@ encoder:
 嘴	zi5
 嘴巴	zb2
 嘴唇	zc1
-最	z;
+最	z1
 最高	zg9
 最好	zh4
 最后	zh7

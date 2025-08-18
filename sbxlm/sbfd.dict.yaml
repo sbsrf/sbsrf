@@ -19,7 +19,7 @@ columns:
 的	d	18680622	dbui
 一	y	9613770	yhee
 不	b	8204600	bheu
-是	s	7466188	sqia
+是	s	7466188	svia
 了	l	7333950	lzai
 人	r	5802057	rpuo
 他	t	5787651	trui
@@ -51,7 +51,7 @@ columns:
 会	hu	2210001	huuo
 这	zl	2198182	zloe
 就	j	2088414	jwoe
-时	sq	2009604	sqia
+时	sv	2009604	svia
 以	yr	2007327	yrao
 之	zd	1966527	zdoa
 国	gi	1946536	giia
@@ -125,7 +125,7 @@ columns:
 定	dg	947222	dgoo
 全	qu	944367	quuo
 回	hi	940853	hiia
-三	sv	919909	svee
+三	sve	919909	svee
 样	ym	916891	ymei
 力	la	911640	laau
 分	fu	909296	fuuo
@@ -187,7 +187,7 @@ columns:
 月	yp	634553	ypua
 先	xn	633436	xnue
 位	wr	624247	wrui
-最	zq	615202	zqia
+最	zv	615202	zvia
 机	jmu	605695	jmei
 给	ga	603001	gaaa
 内	ni	601369	niia
@@ -208,7 +208,7 @@ columns:
 并	bb	565356	bbou
 合	hre	565001	hruo
 立	lo	562832	looe
-由	yq	561568	yqia
+由	yvi	561568	yvia
 风	fp	560217	fpua
 表	bv	552695	bvee
 报	bf	550502	bfei
@@ -224,7 +224,7 @@ columns:
 体	tu	526434	tuui
 色	sda	522014	sdua
 安	vo	521581	vooo
-果	gq	520864	gqia
+果	gv	520864	gvia
 放	ff	519002	ffoe
 更	ghi	512588	ghei
 马	mz	511990	mzaa
@@ -275,7 +275,7 @@ columns:
 算	spi	454332	spue
 任	rr	453944	rrui
 双	sa	449477	saao
-电	dq	447044	dqia
+电	dva	447044	dvia
 脸	lv	445821	lvua
 常	cj	445391	cjio
 东	dh	444653	dhea
@@ -324,7 +324,7 @@ columns:
 华	hs	385987	hsui
 往	wc	385488	wcuu
 吧	bk	385289	bkia
-斯	squ	383002	sqei
+斯	sq	383002	sqei
 题	ty	380184	tyia
 保	bri	379647	brui
 似	sra	378928	srui
@@ -337,7 +337,7 @@ columns:
 决	jda	373186	jdoe
 务	wwa	372319	wwua
 武	wn	371542	wnee
-干	gv	371450	gvee
+干	gvi	371450	gvee
 形	xp	370270	xpee
 反	fy	369693	fyuu
 衣	yde	369418	ydoe
@@ -348,7 +348,7 @@ columns:
 呢	nk	359765	nkia
 条	tw	358908	twua
 它	tg	357943	tgoo
-重	zv	357155	zvue
+重	zvu	357155	zvue
 义	ydu	356213	ydou
 青	qhe	355868	qhee
 区	qk	355401	qkeu
@@ -361,7 +361,7 @@ columns:
 服	fv	348539	fvua
 红	hj	348471	hjaa
 求	qhi	345118	qhei
-量	lq	342594	lqia
+量	lve	342594	lvia
 跟	gz	338827	gzia
 落	lc	337023	lcei
 济	jdo	336135	jdoo
@@ -382,7 +382,7 @@ columns:
 石	shu	326701	sheu
 极	jmua	326584	jmei
 远	yl	324868	ylee
-早	zqe	324831	zqia
+早	zve	324831	zvia
 取	qva	324419	qvei
 领	ly	323627	lyuo
 息	xz	322733	xzui
@@ -441,7 +441,7 @@ columns:
 坐	ztuo	282160	ztuo
 每	mm	281545	mmue
 众	zru	281425	zruo
-随	sve	280171	svai
+随	sveu	280171	svai
 设	syu	279879	syoa
 院	yvo	279056	yvai
 喜	xt	278856	xtei
@@ -535,7 +535,7 @@ columns:
 欢	hy	226342	hyao
 忙	ml	226324	mloo
 观	gyi	225986	gyao
-易	yqu	223221	yqia
+易	yvua	223221	yvia
 害	hg	223040	hgoo
 志	zto	222576	ztei
 功	gga	220751	ggei
@@ -548,7 +548,7 @@ columns:
 站	zlie	218515	zloe
 久	jpao	218488	jpua
 周	zke	218295	zkua
-阳	yvi	218088	yvai
+阳	yvia	218088	yvai
 复	fw	217658	fwue
 局	jsa	216334	jsae
 施	sf	216033	sfoe
@@ -557,7 +557,7 @@ columns:
 母	mza	214139	mzaa
 甚	sqa	213803	sqei
 爷	yf	213781	yfuo
-阵	zve	213574	zvai
+阵	zvea	213574	zvai
 备	bwi	213273	bwua
 项	xg	212743	xgei
 广	gc	212566	gcoe
@@ -583,7 +583,7 @@ columns:
 闻	wme	203736	wmoi
 脚	jve	203732	jvua
 支	zsao	203655	zsei
-星	xq	203244	xqia
+星	xvu	203244	xvia
 模	mme	202606	mmei
 究	jxua	202600	jxoo
 造	zlue	202349	zlue
@@ -603,7 +603,7 @@ columns:
 况	kd	196207	kdoe
 喝	hki	195944	hkia
 证	zy	194086	zyoa
-显	xqi	193992	xqia
+显	xvi	193992	xvia
 须	xpe	193347	xpuu
 严	yce	193343	ycei
 破	pe	193150	peeu
@@ -671,7 +671,7 @@ columns:
 君	jka	168327	jkae
 革	ghii	168161	ghei
 右	yke	167998	ykeu
-独	dqi	166871	dqua
+独	dq	166871	dqua
 节	jc	166846	jcei
 旁	pw	166834	pwoe
 够	gbi	166763	gbua
@@ -759,7 +759,7 @@ columns:
 鬼	gpi	145094	gpui
 禁	jsei	144940	jsei
 睛	jmee	144860	jmia
-险	xvu	144665	xvai
+险	xvuo	144665	xvai
 涉	sdi	144479	sdoo
 围	wk	144151	wkia
 承	czi	144081	czai
@@ -774,7 +774,7 @@ columns:
 私	sha	141387	shue
 列	ldi	141287	ldeu
 堂	tt	140860	ttio
-春	cq	140785	cqee
+春	cvee	140785	cvee
 咱	zku	140378	zkia
 秋	qho	140264	qhue
 胡	hv	140052	hvei
@@ -850,7 +850,7 @@ columns:
 卫	wve	123987	wvai
 逃	tlu	123982	tluo
 察	cg	123682	cgoo
-景	jqo	123292	jqia
+景	jvo	123292	jvia
 寻	xxei	123179	xxae
 积	jh	123143	jhue
 涌	yda	123105	ydoo
@@ -900,7 +900,7 @@ columns:
 翻	fvu	114752	fvuo
 罪	zzi	114666	zzia
 困	kk	114543	kkia
-欲	yquo	114359	yquo
+欲	yq	114359	yquo
 苏	sca	114067	scei
 章	zye	114034	zyoe
 恨	hla	113740	hloo
@@ -927,7 +927,7 @@ columns:
 付	fre	108376	frui
 宣	xgei	108351	xgoo
 姓	xnu	108349	xnau
-替	tq	108100	tqee
+替	tve	108100	tvee
 探	tfo	107979	tfei
 球	qwe	107724	qwee
 配	py	107720	pyei
@@ -962,7 +962,7 @@ columns:
 拍	pfu	102535	pfei
 检	jmuo	102402	jmei
 握	wf	102356	wfei
-献	xqe	101901	xqei
+晓	xvea	101901	xvia
 压	ycei	101568	yceu
 尊	zco	101494	zcou
 虚	xhii	101356	xhie
@@ -986,7 +986,7 @@ columns:
 弄	nw	100001	nwee
 调	tyu	100001	tyoa
 校	xmo	100001	xmei
-陆	lve	99990	lvai
+陆	lvee	99990	lvai
 徒	tc	99430	tcuu
 封	fce	99394	fcei
 奔	bde	99385	bdeu
@@ -1029,7 +1029,7 @@ columns:
 午	wpe	94524	wpue
 蒙	mse	94416	msei
 词	cya	94160	cyoa
-曰	yqi	94155	yqia
+曰	yvia	94155	yvia
 犯	fq	94140	fqua
 读	dyei	94054	dyoa
 乃	nzu	93779	nzau
@@ -1044,7 +1044,7 @@ columns:
 柳	lmu	92153	lmei
 亿	yra	91572	yrui
 笔	bpu	91374	bpue
-智	zqu	91117	zque
+智	zvue	91117	zvue
 罢	bze	90937	bzia
 绿	lja	90543	ljaa
 厂	chuu	90501	cheu
@@ -1066,7 +1066,7 @@ columns:
 麻	mde	86900	mdoe
 透	tlue	86886	tlue
 巧	qg	86722	qgei
-晓	xqea	86711	xqia
+晓	xq	86711	xqia
 街	jce	86406	jcuu
 桌	zbia	86380	zbie
 姊	znu	86194	znau
@@ -1077,7 +1077,7 @@ columns:
 摆	bfi	85680	bfei
 评	pye	85669	pyoa
 拜	bse	85576	bsue
-曲	qqi	85523	qqia
+曲	qvi	85523	qvia
 奥	vd	85506	vdui
 油	ydia	85335	ydoo
 偷	tru	85327	trui
@@ -1099,8 +1099,8 @@ columns:
 宇	yge	83173	ygoo
 彩	cpu	83086	cpuo
 臂	bva	82992	bvae
-歌	gqe	82869	gqei
-旧	jqi	82817	jqii
+歌	gq	82869	gqei
+旧	jvii	82817	jvii
 秦	qhee	82663	qhee
 偏	pr	82625	prui
 测	cdia	82623	cdoo
@@ -1172,7 +1172,7 @@ columns:
 额	vy	74613	vyoo
 销	xjio	74542	xjue
 迹	jloe	74497	jloe
-冒	mqi	74493	mqia
+冒	mv	74493	mvia
 玄	xwa	74212	xwoe
 哼	hko	74204	hkia
 岂	qsa	74139	qsia
@@ -1233,7 +1233,7 @@ columns:
 仲	zri	68668	zrui
 枪	qmuo	68513	qmei
 勒	lga	68495	lgei
-映	yqia	68342	yqia
+映	yvia	68342	yvia
 洪	hdei	68330	hdoo
 鼓	gt	68048	gtei
 谓	wyi	67674	wyoa
@@ -1271,8 +1271,8 @@ columns:
 途	tluo	64568	tluo
 狗	gqu	64547	gqua
 骑	qme	64439	qmaa
-昨	zque	64366	zqia
-暴	bq	64278	bqia
+昨	zvue	64366	zvia
+暴	bve	64278	bvia
 乌	wpa	64175	wpua
 瞪	dma	63838	dmia
 亡	wwaa	63804	wwoe
@@ -1325,7 +1325,7 @@ columns:
 触	cji	60048	cjua
 乘	cpei	60001	cpue
 貌	mzu	59958	mzuo
-昏	hqu	59955	hqua
+昏	hvu	59955	hvua
 督	dmi	59934	dmie
 佩	pru	59880	prui
 奖	jdoe	59583	jdoe
@@ -1424,7 +1424,7 @@ columns:
 敏	mw	52404	mwue
 召	zdi	52281	zdau
 丢	dsue	52277	dsue
-猜	cqe	52169	cqua
+猜	cq	52169	cqua
 授	sfu	52010	sfei
 插	cfu	51983	cfei
 凉	ldoe	51972	ldoe
@@ -1461,7 +1461,7 @@ columns:
 惯	glaa	49525	gloo
 蛇	sco	49401	scia
 篇	ppo	49323	ppue
-曼	mqia	49320	mqia
+曼	mvi	49320	mvia
 愤	fle	49269	floo
 纷	fjuo	49197	fjaa
 抚	ffee	49050	ffei
@@ -1469,7 +1469,7 @@ columns:
 启	qhia	49037	qhoa
 哦	vku	48883	vkia
 朵	djei	48821	djua
-霍	hvu	48703	hveo
+霍	hvui	48703	hveo
 冬	dwoo	48693	dwua
 荒	hco	48667	hcei
 枝	zme	48542	zmei
@@ -1485,7 +1485,7 @@ columns:
 镜	jjoe	48144	jjue
 惑	hxe	48110	hxei
 忆	ylaa	47802	yloo
-申	sqi	47768	sqia
+申	svi	47768	svia
 黎	lsu	47752	lsue
 衫	snuu	47742	snoa
 鸟	npa	47701	npua
@@ -1514,7 +1514,7 @@ columns:
 潜	qdee	46364	qdoo
 眸	mmao	46327	mmia
 逸	ylua	46272	ylua
-暂	zqea	46269	zqea
+暂	zvea	46269	zvea
 踏	tzi	46181	tzia
 洁	jdei	46152	jdoo
 慧	hxee	46081	hxee
@@ -1538,7 +1538,7 @@ columns:
 躺	tsi	45205	tsui
 拖	tfue	44996	tfei
 锦	jjui	44939	jjue
-晃	hqi	44915	hqia
+晃	hvi	44915	hvia
 浮	fduo	44835	fdoo
 欺	qqu	44726	qqei
 唤	hkua	44697	hkia
@@ -1566,7 +1566,7 @@ columns:
 哀	vw	43513	vwoe
 澳	vdu	43496	vdoo
 鹏	pnu	43474	pnua
-狼	lqo	43405	lqua
+狼	lq	43405	lqua
 赌	dbe	43362	dbia
 密	msoo	43351	msoo
 屈	qsai	43261	qsae
@@ -1576,18 +1576,18 @@ columns:
 愁	cxue	43121	cxue
 宾	bgu	43034	bgoo
 厌	yceu	42973	yceu
-旦	dqe	42946	dqia
+旦	dve	42946	dvia
 毁	hsu	42840	hsui
 寺	stei	42829	stei
 障	zvoe	42775	zvai
 忌	jjoa	42761	jjae
 奴	nnao	42657	nnau
-晨	cqeu	42620	cqia
+晨	cveu	42620	cvia
 埋	mt	42596	mtei
 羞	xyai	42518	xyou
 汤	tda	42501	tdoo
 董	dcu	42425	dcei
-末	mv	42168	mvee
+末	mviu	42168	mvee
 询	xyua	42147	xyoa
 卓	zbia	42147	zbie
 喃	nke	42099	nkia
@@ -1627,7 +1627,7 @@ columns:
 娃	wne	40781	wnau
 扯	cfie	40740	cfei
 惧	jlia	40705	jloo
-霸	bve	40675	bveo
+霸	bvei	40675	bveo
 宏	hgeu	40653	hgoo
 肃	sxiu	40615	sxae
 霜	svei	40575	sveo
@@ -1643,7 +1643,7 @@ columns:
 甜	tsei	39875	tsue
 寂	jgi	39853	jgoo
 恰	qlu	39841	qloo
-甲	jqii	39826	jqia
+甲	jvii	39826	jvia
 傻	srui	39793	srui
 卢	lbae	39792	lbie
 浑	hdo	39691	hdoo
@@ -1653,7 +1653,7 @@ columns:
 邦	bvee	39599	bvee
 姿	zno	39569	znoe
 恼	nlo	39539	nloo
-肚	dve	39362	dvua
+肚	dvei	39362	dvua
 盈	ymau	39344	ymau
 廷	tlue	39321	tlue
 盗	dmo	39242	dmoe
@@ -1675,16 +1675,16 @@ columns:
 乖	gpe	38550	gpue
 泉	qb	38525	qbui
 艳	yvei	38475	yvee
-暖	nq	38389	nqia
+暖	nvu	38389	nvia
 溜	ldua	38329	ldoo
 挣	zfua	38301	zfei
 琳	lwe	38204	lwee
 漂	pde	38181	pdoo
 悦	ylo	38129	yloo
 啸	xka	38096	xkia
-曹	cqei	38055	cqei
+曹	cvei	38055	cvei
 爬	pza	38037	pzuu
-狐	hquu	38018	hqua
+狐	hqu	38018	hqua
 贺	hba	37994	hbau
 倍	broe	37993	brui
 惹	rxe	37943	rxei
@@ -1746,7 +1746,7 @@ columns:
 袍	pnua	35438	pnoa
 扣	kfi	35373	kfei
 援	yfuo	35359	yfei
-昌	cqi	35174	cqia
+昌	cvi	35174	cvia
 贤	xb	35148	xbii
 铺	pje	34907	pjue
 牧	mnu	34853	mnue
@@ -1816,7 +1816,7 @@ columns:
 颊	jyeo	32016	jyeo
 辱	rcei	31950	rceu
 锐	rjo	31948	rjue
-晶	jqia	31865	jqia
+晶	jvia	31865	jvia
 卧	wb	31788	wbei
 姬	jne	31785	jnau
 铃	ljuo	31741	ljue
@@ -1841,7 +1841,7 @@ columns:
 贷	dbu	31054	dbui
 币	bju	31002	bjui
 袁	yti	30996	ytei
-昆	kqea	30974	kqia
+昆	kve	30974	kvia
 仗	zreu	30962	zrui
 邻	lvuo	30910	lvuo
 冯	fda	30901	fdoe
@@ -1863,7 +1863,7 @@ columns:
 励	lleu	30549	lleu
 拓	tfe	30479	tfei
 娶	qne	30439	qnei
-晴	qqe	30407	qqia
+晴	qve	30407	qvia
 悠	yxui	30402	yxui
 梯	tmo	30366	tmei
 卿	qvu	30361	qvua
@@ -1881,7 +1881,7 @@ columns:
 趁	czuo	29886	czei
 夕	xpa	29841	xpua
 幼	ylaa	29835	ylaa
-昂	vqu	29794	vqia
+昂	vv	29794	vvia
 翎	lvuo	29735	lvuo
 歉	qqou	29723	qqou
 湿	sdia	29700	sdoo
@@ -1927,7 +1927,7 @@ columns:
 誓	syei	28334	syei
 尹	yxuu	28294	yxae
 舟	zpua	28253	zpuu
-歇	xqia	28243	xqia
+歇	xqi	28243	xqia
 柱	zmoe	28199	zmei
 麽	mmua	28147	mmoe
 桂	gme	28134	gmei
@@ -1984,7 +1984,7 @@ columns:
 芙	fcee	26445	fcei
 巡	xlaa	26439	xlaa
 姜	jyau	26392	jyou
-昔	xqei	26369	xqei
+昔	xvei	26369	xvei
 厨	ccei	26337	cceu
 豆	dhia	26312	dhei
 踢	tzia	26293	tzia
@@ -2009,7 +2009,7 @@ columns:
 矿	kso	25729	kseu
 吩	fkuo	25663	fkia
 悬	xxi	25662	xxia
-猪	zqei	25646	zqua
+猪	zq	25646	zqua
 疲	pba	25639	pboe
 丘	qpi	25588	qpui
 懒	llei	25547	lloo
@@ -2029,7 +2029,7 @@ columns:
 矩	jsea	25077	jsue
 苗	mci	25054	mcei
 笼	lp	25010	lpue
-晌	squi	25000	sqia
+晌	svui	25000	svia
 纱	sjiu	24980	sjaa
 翁	wvuo	24976	wvuo
 卜	bso	24969	bsio
@@ -2071,8 +2071,8 @@ columns:
 柯	kme	23669	kmei
 蓦	mmei	23651	mmei
 轿	jcu	23647	jcea
-晕	yqoa	23591	yqia
-旨	zqua	23570	zqua
+晕	yvoa	23591	yvia
+旨	zvua	23570	zvua
 溪	xduo	23548	xdoo
 抑	yfua	23504	yfei
 蜜	mcoo	23383	mcoo
@@ -2099,7 +2099,7 @@ columns:
 催	cria	22909	crui
 裤	kno	22841	knoa
 档	dmio	22799	dmei
-昭	zqa	22786	zqia
+昭	zvau	22786	zvia
 疆	jgei	22782	jgae
 膝	xvei	22771	xvua
 凑	cdee	22731	cdoe
@@ -2109,8 +2109,8 @@ columns:
 璃	lwo	22679	lwee
 妄	wnoe	22678	wnoe
 挖	wfo	22675	wfei
-晋	jqe	22673	jqei
-畅	cqia	22652	cqia
+晋	jvei	22673	jvei
+畅	cvia	22652	cvia
 颤	cyoe	22595	cyoe
 伐	frea	22561	frui
 弓	gzea	22485	gzae
@@ -2157,7 +2157,7 @@ columns:
 黛	dhu	20863	dhui
 挽	wfu	20862	wfei
 叛	pbe	20859	pbou
-耻	cvi	20825	cvei
+耻	cvie	20825	cvei
 陌	mve	20819	mvai
 搏	bfei	20811	bfei
 後	hcaa	20782	hcuu
@@ -2276,7 +2276,7 @@ columns:
 朽	xmea	17951	xmei
 魁	kgo	17938	kgui
 姻	yni	17931	ynau
-旺	wq	17832	wqia
+旺	wvee	17832	wvia
 嫩	nne	17774	nnau
 巫	whiu	17721	whei
 恕	sxa	17693	sxau
@@ -2302,7 +2302,7 @@ columns:
 峻	jsao	17214	jsia
 枕	zmoa	17165	zmei
 会	kr	17127	kruo
-狮	sqiu	17121	squa
+狮	sqi	17121	squa
 郡	jvae	17119	jvae
 厢	xcei	17090	xceu
 倦	jro	17082	jrui
@@ -2325,7 +2325,7 @@ columns:
 绮	qje	16748	qjaa
 睹	dmei	16744	dmia
 叮	dkei	16718	dkia
-霄	xvi	16709	xveo
+霄	xvio	16709	xveo
 姥	lne	16701	lnau
 躬	gsae	16688	gsui
 校	jmoe	16635	jmei
@@ -2446,7 +2446,7 @@ columns:
 铭	mjua	14380	mjue
 剥	blae	14309	blae
 抄	cfiu	14283	cfei
-旭	xqu	14283	xqua
+旭	xvua	14283	xvua
 谱	pyo	14225	pyoa
 账	zbue	14215	zbia
 杭	hmoe	14202	hmei
@@ -2475,7 +2475,7 @@ columns:
 娟	jni	13961	jnau
 渠	qmo	13955	qmoo
 孽	ncu	13952	ncei
-暇	xqa	13936	xqia
+暇	xvae	13936	xvia
 梳	smoe	13900	smei
 恳	kxa	13886	kxae
 蹲	dzo	13881	dzia
@@ -2487,9 +2487,9 @@ columns:
 诈	zyue	13792	zyoa
 冈	gkuo	13781	gkia
 瞄	mmei	13752	mmia
-郊	jvo	13749	jvoe
+郊	jvoe	13749	jvoe
 彤	tpu	13742	tpua
-晰	xqei	13739	xqia
+晰	xvei	13739	xvia
 篷	ppu	13666	ppue
 挫	cfuo	13639	cfei
 葡	pcua	13621	pcei
@@ -2528,7 +2528,7 @@ columns:
 茂	mceu	12942	mcei
 樱	ymi	12919	ymei
 侮	wru	12911	wrui
-胀	zvu	12907	zvua
+胀	zvue	12907	zvua
 棚	pmua	12882	pmei
 钥	yjua	12877	yjue
 钓	dju	12873	djue
@@ -2539,7 +2539,7 @@ columns:
 焚	fhei	12778	fhei
 贩	fbuu	12775	fbia
 遁	dlu	12773	dluu
-昧	mqee	12767	mqia
+昧	mvee	12767	mvia
 咪	mkou	12764	mkia
 寰	hgia	12745	hgoo
 蝉	cco	12741	ccia
@@ -2569,13 +2569,13 @@ columns:
 於	yfuo	12501	yfoe
 腊	lvei	12481	lvua
 酬	cyou	12477	cyei
-旱	hqe	12471	hqia
+旱	hve	12471	hvia
 浦	pdei	12445	pdoo
 毙	bbeu	12431	bbea
 眶	kmee	12425	kmia
 琛	cwo	12405	cwee
 哨	skio	12386	skia
-狭	xqeo	12380	xqua
+狭	xqe	12380	xqua
 弘	hga	12369	hgae
 坑	kto	12359	ktei
 窄	zxu	12312	zxoo
@@ -2591,10 +2591,10 @@ columns:
 倡	cria	12121	crui
 湛	zdei	12077	zdoo
 叩	kkai	12071	kkia
-晤	wqe	12060	wqia
+晤	wvei	12060	wvia
 沐	mdei	12034	mdoo
 峨	vsue	12025	vsia
-狡	jqoe	12018	jqua
+狡	jqo	12018	jqua
 鞘	qgi	12001	qgei
 幢	zjoe	12001	zjia
 饥	jsua	11995	jsua
@@ -2637,7 +2637,7 @@ columns:
 襟	jnei	11419	jnoa
 炭	tseu	11404	tsia
 诀	jyae	11401	jyoa
-暮	mqei	11384	mqei
+暮	mvei	11384	mvei
 磁	csou	11342	cseu
 雇	ghu	11300	ghoa
 奕	ydoe	11275	ydoe
@@ -2737,11 +2737,11 @@ columns:
 辟	bxa	10001	bxae
 茜	xcei	10001	xcei
 厦	sceu	10001	sceu
-匙	sqe	10001	sqia
+匙	svei	10001	svia
 伺	crae	10001	crui
 卒	zwuo	10001	zwoe
 撼	hfe	9993	hfei
-晏	yqoo	9984	yqia
+晏	yvoo	9984	yvia
 眷	jmou	9982	jmou
 悍	hlia	9979	hloo
 雯	wvoe	9957	wveo
@@ -2791,7 +2791,7 @@ columns:
 荐	jceu	9355	jcei
 诛	zyue	9340	zyoa
 霆	tvue	9339	tveo
-狞	nqo	9313	nqua
+狞	nq	9313	nqua
 咙	lkeu	9298	lkia
 逞	cli	9288	clia
 浣	hdoo	9276	hdoo
@@ -2815,7 +2815,7 @@ columns:
 刁	dze	9061	dzae
 渗	sdao	9049	sdoo
 菁	jcee	9041	jcei
-晒	sqei	9034	sqia
+晒	svei	9034	svia
 揪	jfue	9030	jfei
 媛	ynuo	9026	ynau
 绅	sjia	9021	sjaa
@@ -2834,7 +2834,7 @@ columns:
 汹	xduo	8903	xdoo
 琉	lwoe	8901	lwee
 骏	jmao	8897	jmaa
-狈	bqi	8893	bqua
+狈	bq	8893	bqua
 咨	zko	8889	zkoe
 萱	xcoo	8888	xcei
 蛛	zcue	8885	zcia
@@ -2860,7 +2860,7 @@ columns:
 菩	pcoe	8633	pcei
 筠	jpei	8601	jpue
 嘘	xki	8601	xkia
-昊	hqee	8580	hqia
+昊	hvee	8580	hvia
 廖	lgao	8557	lgoe
 邢	xvee	8538	xvee
 砂	ssi	8534	sseu
@@ -2899,12 +2899,12 @@ columns:
 憎	zlou	8105	zloo
 扳	bfuu	8101	bfei
 咸	xgeu	8075	xgeu
-暑	sqei	8069	sqia
+暑	svei	8069	svia
 澈	cdoe	8066	cdoo
 昼	zso	8062	zsae
 蔚	wcae	8041	wcei
 梭	smao	8040	smei
-旷	kqo	8026	kqia
+旷	kvo	8026	kvia
 哉	zkei	8000	zkei
 哎	vkei	8000	vkia
 呆	vkei	8000	vkia
@@ -2953,7 +2953,7 @@ columns:
 蝴	hcei	7465	hcia
 驹	jmua	7414	jmaa
 叭	bku	7413	bkia
-晖	hqo	7412	hqia
+晖	hvo	7412	hvia
 嚼	jkuo	7410	jkia
 笠	lpo	7385	lpue
 膜	mvei	7381	mvua
@@ -2984,7 +2984,7 @@ columns:
 趴	pzu	7156	pzia
 犀	xsio	7140	xsae
 夭	ype	7124	ypue
-霓	nvu	7123	nveo
+霓	nvui	7123	nveo
 谣	yyuo	7108	yyoa
 垒	ltao	7103	ltao
 噪	zkia	7068	zkia
@@ -3046,7 +3046,7 @@ columns:
 瑾	jwei	6532	jwee
 悯	mloi	6531	mloo
 酿	nyo	6524	nyei
-翘	qve	6516	qvea
+翘	qvea	6516	qvea
 镶	xjo	6513	xjue
 韶	syau	6500	syoe
 倔	jrae	6493	jrui
@@ -3064,7 +3064,7 @@ columns:
 沦	lduo	6369	ldoo
 炒	chiu	6364	chou
 诣	yyua	6356	yyoa
-晁	cqu	6354	cqia
+晁	cvuo	6354	cvia
 墅	sti	6349	stia
 弩	nga	6346	ngau
 庐	lgoa	6325	lgoe
@@ -3082,7 +3082,7 @@ columns:
 缀	zja	6236	zjaa
 蝠	fcei	6232	fcia
 俘	fru	6221	frui
-腮	svi	6206	svua
+腮	svia	6206	svua
 侃	kri	6200	krui
 勘	klei	6192	klei
 瞟	pme	6187	pmia
@@ -3094,7 +3094,7 @@ columns:
 娴	xnoi	6154	xnau
 呛	qkuo	6141	qkia
 磋	csou	6132	cseu
-猾	hqia	6128	hqua
+猾	hqi	6128	hqua
 沮	jdia	6128	jdoo
 刹	sluo	6121	sluo
 肋	lva	6120	lvua
@@ -3152,7 +3152,7 @@ columns:
 讷	nyi	5724	nyoa
 汛	xdae	5723	xdoo
 蟒	mcei	5708	mcia
-曦	xqo	5706	xqia
+曦	xvou	5706	xvia
 驯	xmui	5694	xmaa
 秉	bxue	5679	bxue
 噬	skue	5673	skia
@@ -3199,7 +3199,7 @@ columns:
 嚎	hkoe	5340	hkia
 虬	qca	5340	qcia
 筱	xpu	5338	xpue
-晦	hque	5328	hqia
+晦	hvue	5328	hvia
 孜	zzue	5313	zzai
 诫	jyee	5309	jyoa
 毋	wma	5305	wmaa
@@ -3242,7 +3242,7 @@ columns:
 筝	zpua	5056	zpue
 颅	lyi	5048	lyie
 乓	ppie	5045	ppui
-暧	vquo	5036	vqia
+暧	vvu	5036	vvia
 嘀	dko	5034	dkia
 闵	mmoe	5033	mmoi
 厕	ccia	5031	cceu
@@ -3310,7 +3310,7 @@ columns:
 鸾	lno	4674	lnoe
 铅	qjua	4671	qjue
 戮	lgao	4669	lgao
-曳	yqa	4666	yqia
+曳	yvau	4666	yvia
 帷	wju	4655	wjia
 芭	bcai	4651	bcei
 灶	zhe	4641	zhou
@@ -3352,7 +3352,7 @@ columns:
 酌	zyua	4389	zyei
 拎	lfuo	4388	lfei
 迦	jlau	4381	jlau
-昕	xquu	4378	xqia
+昕	xvuu	4378	xvia
 抒	sfao	4376	sfei
 笺	jpee	4375	jpue
 炜	whee	4360	whou
@@ -3363,7 +3363,7 @@ columns:
 赃	zboe	4324	zbia
 簌	spei	4316	spue
 癞	lbei	4314	lboe
-曙	sqia	4311	sqia
+曙	svia	4311	svia
 庚	ggae	4301	ggoe
 砌	qsea	4290	qseu
 迢	tlau	4278	tlau
@@ -3409,7 +3409,7 @@ columns:
 酣	hyei	4014	hyei
 蹑	nze	4014	nzia
 殃	ydia	4010	ydeu
-狰	zqua	4004	zqua
+狰	zqu	4004	zqua
 募	mlei	4001	mlei
 吆	ykaa	3999	ykia
 筵	ypu	3994	ypue
@@ -3433,8 +3433,8 @@ columns:
 梗	gmei	3887	gmei
 偕	xrea	3884	xrui
 禾	hpe	3880	hpue
-暄	xqoo	3880	xqia
-鄂	vv	3869	vvia
+暄	xvoo	3880	xvia
+鄂	vvi	3869	vvia
 楠	nme	3868	nmei
 庶	sgei	3862	sgoe
 扼	vfe	3854	vfei
@@ -3462,7 +3462,7 @@ columns:
 惋	wlo	3749	wloo
 馀	ysuo	3748	ysua
 穗	shei	3745	shue
-邯	hve	3741	hvei
+邯	hvei	3741	hvei
 忒	txeo	3739	txeo
 渍	zdee	3730	zdoo
 胭	yvia	3721	yvua
@@ -3472,7 +3472,7 @@ columns:
 蜘	zcue	3715	zcia
 拷	kfei	3700	kfei
 涎	xdui	3699	xdoo
-昱	yqoe	3695	yqia
+昱	yvoe	3695	yvia
 咋	zkue	3693	zkia
 唰	skae	3691	skia
 蛙	wcei	3689	wcia
@@ -3574,7 +3574,7 @@ columns:
 钊	zjii	3273	zjue
 孰	swia	3271	swoe
 嚅	rke	3269	rkia
-猖	cqia	3261	cqua
+猖	cqi	3261	cqua
 圃	pkei	3256	pkia
 壹	yto	3254	ytei
 挹	yfia	3253	yfei
@@ -3609,7 +3609,7 @@ columns:
 遽	jlie	3132	jlie
 黠	xhe	3132	xhia
 忑	txei	3131	txei
-曜	yqao	3127	yqia
+曜	yvao	3127	yvia
 醇	cyoe	3119	cyei
 漩	xdoe	3114	xdoo
 匾	bko	3113	bkeo
@@ -3641,13 +3641,13 @@ columns:
 熠	yhao	3042	yhou
 聿	yzee	3042	yzae
 盎	vmi	3041	vmia
-昵	nqa	3041	nqia
+昵	nvae	3041	nvia
 吠	fke	3037	fkia
 玺	xwu	3034	xwua
 淀	ddoo	3029	ddoo
 皙	xbei	3028	xbei
 萦	yxei	3028	yxei
-曝	pq	3013	pqia
+曝	pvia	3013	pvia
 葵	kca	3009	kcei
 厦	xceu	3005	xceu
 矜	jzoa	3001	jzao
@@ -3725,7 +3725,7 @@ columns:
 巽	xba	2747	xbae
 弛	cgai	2744	cgae
 渎	ddei	2743	ddoo
-匙	cqei	2743	cqia
+匙	cvei	2743	cvia
 茜	qcei	2741	qcei
 姣	jnoe	2740	jnau
 瘩	dbei	2734	dboe
@@ -3755,7 +3755,7 @@ columns:
 乘	spei	2644	spue
 粤	ypia	2642	ypui
 蠕	rceo	2639	rcia
-冕	mqu	2636	mqia
+冕	mvua	2636	mvia
 桅	wmu	2630	wmei
 嗥	hkui	2627	hkia
 鲸	jvoe	2623	jvua
@@ -3819,7 +3819,7 @@ columns:
 汾	fduo	2424	fdoo
 淤	ydoe	2422	ydoo
 阈	ymei	2405	ymoi
-昀	yqua	2403	yqia
+昀	yvua	2403	yvia
 揩	kfea	2402	kfei
 沓	tsia	2401	tsia
 崽	zsia	2399	zsia
@@ -3870,7 +3870,7 @@ columns:
 甭	bye	2260	byeu
 硫	lsoe	2260	lseu
 憬	jlia	2257	jloo
-鳄	vvi	2249	vvua
+鳄	vvia	2249	vvua
 捎	sfio	2247	sfei
 腆	tvia	2245	tvua
 嫡	dno	2244	dnau
@@ -3939,7 +3939,7 @@ columns:
 孀	sneo	2042	snau
 玟	mwo	2039	mwee
 仞	rrau	2037	rrui
-狙	jqia	2036	jqua
+狙	jqi	2036	jqua
 钹	bjeu	2032	bjue
 螂	lcoa	2031	lcia
 馋	csua	2029	csua
@@ -3947,7 +3947,7 @@ columns:
 翦	jvou	2026	jvou
 缨	yji	2023	yjaa
 潺	cdae	2012	cdoo
-昙	tqe	2012	tqia
+昙	tvee	2012	tvia
 踵	zzue	2012	zzia
 怆	cluo	2011	cloo
 扒	pfuo	2001	pfei
@@ -3979,7 +3979,7 @@ columns:
 捅	tfao	1962	tfei
 鳖	bvou	1960	bvou
 瓮	wwu	1954	wwuo
-胯	kve	1952	kvua
+胯	kveu	1952	kvua
 褒	bwu	1951	bwoe
 剁	dlua	1947	dlua
 睇	dmou	1945	dmia
@@ -4087,7 +4087,7 @@ columns:
 坷	ktei	1684	ktei
 刽	gluo	1681	gluo
 橄	gmae	1680	gmei
-翱	vvu	1675	vvui
+翱	vvui	1675	vvui
 唁	ykoe	1675	ykia
 瞌	kmei	1669	kmia
 堇	jcei	1668	jcei
@@ -4149,14 +4149,14 @@ columns:
 辔	pka	1551	pkaa
 臼	jpi	1536	jpui
 甯	ngo	1536	ngoo
-猥	wqi	1535	wqua
+猥	wq	1535	wqua
 宸	cgeu	1527	cgoo
 绺	ljua	1527	ljaa
 蔺	lcoi	1524	lcei
 柠	nmo	1524	nmei
 淆	xduo	1524	xdoo
 槌	cmui	1521	cmei
-晔	yqui	1520	yqia
+晔	yvui	1520	yvia
 峪	ysuo	1517	ysia
 葆	bcui	1511	bcei
 汶	wdoe	1508	wdoo
@@ -4188,7 +4188,7 @@ columns:
 嗲	dkuo	1456	dkia
 蟾	ccua	1452	ccia
 戍	sgeu	1447	sgeu
-獗	jqeu	1446	jqua
+獗	jqe	1446	jqua
 瘁	cbo	1445	cboe
 俪	lrei	1439	lrui
 粲	cmie	1438	cmie
@@ -4275,7 +4275,7 @@ columns:
 阂	hmoe	1290	hmoi
 箩	lpia	1290	lpue
 杞	qma	1289	qmei
-豚	tve	1288	tvua
+豚	tveu	1288	tvua
 帼	gjia	1286	gjia
 蹂	rza	1285	rzia
 蜗	wcia	1284	wcia
@@ -4283,7 +4283,7 @@ columns:
 泱	ydia	1282	ydoo
 鹞	ynuo	1275	ynuo
 阪	bvuu	1272	bvai
-猱	nqao	1270	nqua
+猱	nqa	1270	nqua
 臧	zgeu	1269	zgeu
 肪	fvoe	1260	fvua
 嵇	jheu	1258	jhue
@@ -4293,7 +4293,7 @@ columns:
 梆	bmee	1238	bmei
 艮	gzee	1234	gzae
 蜕	tco	1234	tcia
-昶	cqoa	1232	cqoa
+昶	cvoa	1232	cvoa
 陲	cvue	1232	cvai
 嘭	pkei	1232	pkia
 掖	yfo	1232	yfei
@@ -4357,7 +4357,7 @@ columns:
 狒	fqa	1137	fqua
 蜚	fcie	1133	fcie
 倨	jrae	1130	jrui
-晾	lqoe	1130	lqia
+晾	lvoe	1130	lvia
 瑗	ywuo	1129	ywee
 牒	dpe	1124	dpui
 怵	clei	1121	cloo
@@ -4389,7 +4389,7 @@ columns:
 恽	yloa	1084	yloo
 盥	gmui	1083	gmui
 衢	qci	1083	qcuu
-氲	yqia	1083	yque
+氲	yqi	1083	yque
 匍	pbei	1082	pbua
 麝	slui	1082	sloe
 佃	dri	1081	drui
@@ -4447,7 +4447,7 @@ columns:
 嗒	dkei	1001	dkia
 恫	dlia	1001	dloo
 刨	plua	1001	plua
-晟	sqeu	1001	sqia
+晟	sveu	1001	svia
 覃	txia	1001	txei
 腌	yveu	1001	yvua
 荑	ycea	1001	ycei
@@ -4469,12 +4469,12 @@ columns:
 蜃	scia	976	sceu
 沱	tdoo	976	tdoo
 闾	lmia	972	lmoi
-鳗	mvi	970	mvua
+鳗	mvia	970	mvua
 恂	xlua	969	xloo
 谗	cyua	968	cyoa
 缜	zjei	967	zjaa
 摈	bfoo	965	bfei
-猬	wqia	963	wqua
+猬	wqi	963	wqua
 卅	shui	962	sheu
 佶	jrei	961	jrui
 凹	wkia	960	wkia
@@ -4515,7 +4515,7 @@ columns:
 雉	zsui	910	zsue
 蛀	zcoe	910	zcia
 蠊	lcoe	908	lcia
-耆	qqei	906	qqei
+耆	qvei	906	qvei
 滢	ydei	906	ydoo
 篝	gpee	905	gpue
 蓑	scoe	905	scei
@@ -4555,7 +4555,7 @@ columns:
 峥	zsua	852	zsia
 橹	lmua	850	lmei
 岷	msae	849	msia
-禺	yqia	848	yqia
+禺	yvia	848	yvia
 泾	jdao	847	jdoo
 饪	rsu	843	rsua
 稔	rhu	839	rhue
@@ -4619,7 +4619,7 @@ columns:
 忪	sluo	771	sloo
 酡	tyoo	770	tyei
 泫	xdoe	770	xdoo
-猢	hqei	769	hqua
+猢	hqe	769	hqua
 壳	qto	767	qtei
 銮	ljoe	767	ljoe
 殁	mdua	766	mdeu
@@ -4811,7 +4811,7 @@ columns:
 鸩	znoa	562	znoa
 韭	jhie	561	jhie
 梏	gmue	560	gmei
-獭	tqei	557	tqua
+獭	tq	557	tqua
 潋	lduo	555	ldoo
 喑	ykoe	555	ykia
 湎	mdeu	554	mdoo
@@ -4968,7 +4968,7 @@ columns:
 跎	tzoo	421	tzia
 爰	yzee	421	yzuo
 墀	cta	419	ctei
-晟	cqeu	419	cqia
+晟	cveu	419	cvia
 厝	ccei	417	cceu
 缦	mjia	416	mjaa
 鱿	yveu	416	yvua
@@ -4980,7 +4980,7 @@ columns:
 嵬	wsui	412	wsia
 酯	zyua	411	zyei
 蛎	lceu	410	lcia
-鳏	gvi	409	gvua
+鳏	gvia	409	gvua
 囹	lkuo	409	lkia
 仵	wrue	407	wrui
 啁	zkua	405	zkia
@@ -5048,7 +5048,7 @@ columns:
 跆	tzao	375	tzia
 锗	zjei	374	zjue
 汞	ggia	372	ggei
-暝	mqo	372	mqia
+暝	mvoa	372	mvia
 蓍	scei	370	scei
 疥	jbuo	369	jboe
 郓	yvoa	369	yvoa
@@ -5098,7 +5098,7 @@ columns:
 汜	sdae	336	sdoo
 舛	cxea	334	cxua
 媾	gnee	334	gnau
-欷	xquo	334	xquo
+欷	xqu	334	xquo
 榉	jmoo	333	jmei
 茏	lceu	333	lcei
 秣	mhee	333	mhue
@@ -5157,7 +5157,7 @@ columns:
 蚨	fcee	310	fcia
 祜	hne	310	hnoa
 婺	wnao	310	wnao
-肓	hvo	309	hvoe
+肓	hvoe	309	hvoe
 魍	wgi	309	wgui
 痔	zbei	309	zboe
 烃	thao	307	thou
@@ -5196,7 +5196,7 @@ columns:
 柞	zmue	297	zmei
 鳟	zvou	297	zvua
 嵯	csou	296	csia
-曷	hqua	295	hqia
+曷	hvua	295	hvia
 葭	jcae	295	jcei
 娌	lnia	295	lnau
 缟	gjoe	294	gjaa
@@ -5206,7 +5206,7 @@ columns:
 佘	sree	294	sruo
 圄	ykei	294	ykia
 蓼	lcao	293	lcei
-杲	gqei	291	gqia
+杲	gvei	291	gvia
 胱	gvio	291	gvua
 逶	wlue	291	wlue
 蓿	xcoo	290	xcei
@@ -5258,7 +5258,7 @@ columns:
 垩	vte	267	vtei
 悱	fli	266	floo
 螟	mcoa	266	mcia
-曩	nqoe	266	nqia
+曩	nvoe	266	nvia
 伛	yreu	266	yrui
 轭	vceu	265	vcea
 犟	jnae	265	jnae
@@ -5307,7 +5307,7 @@ columns:
 铵	vjo	246	vjue
 鲟	xvae	246	xvua
 芨	jcua	245	jcei
-旯	lqu	245	lqia
+旯	lvua	245	lvia
 旄	mfu	245	mfoe
 爻	ypou	245	ypuo
 嘣	bkia	244	bkia
@@ -5319,7 +5319,7 @@ columns:
 侑	yreu	242	yrui
 猡	lqia	241	lqua
 樯	qmei	241	qmei
-氰	qqee	241	qque
+氰	qqe	241	qque
 龃	jcia	239	jcie
 鼍	tkia	239	tkia
 碓	dsui	238	dseu
@@ -5327,7 +5327,7 @@ columns:
 皴	cpao	237	cpao
 溧	ldei	237	ldoo
 髫	tbau	237	tbei
-旮	gqua	236	gqua
+旮	gvua	236	gvua
 嬗	snoe	236	snau
 蓊	wcuo	236	wcei
 蜉	fcuo	235	fcia
@@ -5342,7 +5342,7 @@ columns:
 掾	yfaa	232	yfei
 孛	bsoa	231	bsei
 侉	kreu	231	krui
-昝	zqua	231	zqua
+昝	zvua	231	zvua
 绐	djao	230	djaa
 醍	tyia	230	tyei
 帙	zjue	230	zjia
@@ -5533,7 +5533,7 @@ columns:
 殂	cdia	165	cdeu
 矸	gsee	165	gseu
 瓠	hgeu	165	hgeu
-歃	sque	165	sque
+歃	squ	165	sque
 甑	zwou	165	zwou
 踣	bzoe	164	bzia
 锂	ljia	164	ljue
@@ -5554,7 +5554,7 @@ columns:
 蹀	dzei	160	dzia
 渌	ldae	159	ldoo
 龋	qcui	158	qcie
-晷	gqua	157	gqia
+晷	gvua	157	gvia
 阋	xmui	157	xmoi
 铳	cjoe	157	cjue
 菖	ccia	156	ccei
@@ -5580,7 +5580,7 @@ columns:
 圉	ykei	153	ykia
 祢	mnua	152	mnoa
 蚬	xcia	152	xcia
-氦	hqoe	151	hque
+氦	hqo	151	hque
 垅	lte	151	ltei
 笥	spae	151	spue
 薹	tcei	151	tcei
@@ -5603,7 +5603,7 @@ columns:
 铊	tjo	146	tjue
 谵	zyua	146	zyoa
 溷	hdia	144	hdoo
-昴	mqua	144	mqia
+昴	mvua	144	mvia
 诜	syue	144	syoa
 隰	xvia	144	xvai
 苋	xcia	144	xcei
@@ -5689,7 +5689,7 @@ columns:
 邴	bvei	124	bvei
 黩	dhei	124	dhia
 艽	jcua	124	jcei
-狍	pqu	124	pqua
+狍	pq	124	pqua
 碛	qsee	124	qseu
 莳	scia	124	scei
 钨	wjua	124	wjue
@@ -5734,7 +5734,7 @@ columns:
 唣	zkui	115	zkia
 谮	zyea	115	zyoa
 捭	bfui	114	bfei
-暌	kqa	114	kqia
+暌	kva	114	kvia
 黥	qhoe	114	qhia
 悫	qxei	114	qxei
 狴	bqe	113	bqua
@@ -5927,7 +5927,7 @@ columns:
 埽	sta	84	stei
 芟	scua	84	scei
 眚	smue	84	smue
-昃	zqeu	84	zqia
+昃	zveu	84	zvia
 笊	zpuu	84	zpue
 塍	cvou	83	cvua
 莨	lcoa	83	lcei
@@ -5957,14 +5957,14 @@ columns:
 缑	gjui	80	gjaa
 蠖	hcei	80	hcia
 戗	qgu	80	qguo
-狳	yquo	80	yqua
+狳	yqu	80	yqua
 龀	ccua	79	ccie
 鳜	gveu	79	gvua
 佾	yruo	79	yrui
 忭	bloe	78	bloo
 咯	lkua	78	lkia
 缡	ljoe	78	ljaa
-暾	tqo	78	tqia
+暾	tvoe	78	tvia
 痖	ybei	78	yboe
 埭	dtae	77	dtei
 锞	kjia	77	kjue
@@ -5972,7 +5972,7 @@ columns:
 溽	rdeu	77	rdoo
 糁	smao	77	smou
 躞	xzoe	77	xzia
-晡	bqei	76	bqia
+晡	bvei	76	bvia
 车	jhae	76	jhea
 谠	dyio	76	dyoa
 哏	gkae	76	gkia
@@ -5984,7 +5984,7 @@ columns:
 鞘	sgio	76	sgei
 说	yyou	76	yyoa
 牾	wnei	76	wnue
-曛	xque	76	xqia
+曛	xvue	76	xvia
 仇	qrua	75	qrui
 踔	czie	75	czia
 鲑	xvei	75	xvua
@@ -6037,7 +6037,7 @@ columns:
 饧	xsau	70	xsua
 檗	bmae	69	bmae
 觏	gjee	69	gjee
-晗	hquo	69	hqia
+晗	hvuo	69	hvia
 贾	gxia	69	gxei
 腩	nvei	69	nvua
 黹	zyou	69	zyii
@@ -6058,7 +6058,7 @@ columns:
 嗾	skoe	66	skia
 窬	yxuo	66	yxoo
 痱	fbi	65	fboe
-旰	gqee	65	gqia
+旰	gvee	65	gvia
 僦	jroe	65	jrui
 瞀	mmao	65	mmao
 攮	nfei	65	nfei
@@ -6196,7 +6196,7 @@ columns:
 闫	ymee	51	ymoi
 撙	zfou	51	zfei
 钣	bjuu	50	bjue
-猁	lque	50	lqua
+猁	lqu	50	lqua
 醅	pyoe	50	pyei
 掊	pfoe	50	pfei
 猞	squo	50	squa
@@ -6396,7 +6396,7 @@ columns:
 瞢	mcia	33	mcei
 蠛	mcei	33	mcia
 酾	syei	33	syei
-氚	cqui	32	cque
+氚	cqu	32	cque
 坻	ctua	32	ctei
 碲	dsoe	32	dseu
 廑	jgei	32	jgoe
@@ -6516,8 +6516,8 @@ columns:
 轧	ycaa	24	ycea
 单	cbia	23	cbou
 鸸	vneu	23	vneu
-炅	gqou	23	gqia
-炅	jqou	23	jqia
+炅	gvou	23	gvia
+炅	jvou	23	jvia
 区	vkuo	23	vkeu
 摅	sfie	23	sfei
 涠	wdia	23	wdoo
@@ -6650,7 +6650,7 @@ columns:
 蛇	ycoo	16	ycia
 萜	tcia	16	tcei
 獯	xque	16	xqua
-狁	yqao	16	yqua
+狁	yqa	16	yqua
 傺	crua	15	crui
 铤	djue	15	djue
 簖	dpou	15	dpue
@@ -6727,7 +6727,7 @@ columns:
 鹎	bnui	11	bnui
 滗	bdue	11	bdoo
 艚	czei	11	czuu
-猹	cqei	11	cqua
+猹	cqe	11	cqua
 掺	sfao	11	sfei
 茈	zcie	11	zcei
 璁	cwui	11	cwee
@@ -7158,8 +7158,8 @@ columns:
 雸	vvei	1	vveo
 唵	vkeu	1	vkia
 隌	vvoe	1	vvai
-晻	vqeu	1	vqia
-晻	yqeu	1	yqia
+晻	vveu	1	vvia
+晻	yveu	1	yvia
 罯	vzo	1	vzia
 犴	hqee	1	hqua
 荌	vcoo	1	vcei
@@ -7176,7 +7176,7 @@ columns:
 骯	vgo	1	vgia
 岇	vsua	1	vsia
 枊	vmua	1	vmei
-昻	vqei	1	vqia
+昻	vvei	1	vvia
 醠	vyia	1	vyei
 柪	nmaa	1	nmei
 柪	vmaa	1	vmei
@@ -7267,7 +7267,7 @@ columns:
 辬	bxoe	1	bxoe
 岅	bsuu	1	bsia
 瓪	bwuu	1	bwea
-昄	bqu	1	bqia
+昄	bvuu	1	bvia
 覂	fxuo	1	fxei
 粄	bmuu	1	bmou
 蝂	bcui	1	bcia
@@ -7332,9 +7332,9 @@ columns:
 靤	phui	1	pheu
 骲	bgua	1	bgia
 髱	pbua	1	pbei
-暴	pqei	1	pqia
+暴	pvei	1	pvia
 虣	bvie	1	bvee
-曓	bqai	1	bqia
+曓	bvai	1	bvia
 儤	bria	1	brui
 忁	bcia	1	bcuu
 鑤	bjia	1	bjuo
@@ -7346,7 +7346,7 @@ columns:
 藣	pcia	1	pcei
 鉳	bjie	1	bjuo
 苝	bcie	1	bcei
-昁	bqei	1	bqia
+昁	bvei	1	bvia
 牬	bnua	1	bnue
 俻	brua	1	brui
 被	pnau	1	pnoa
@@ -7359,7 +7359,7 @@ columns:
 琲	pwie	1	pwee
 軰	bcie	1	bcie
 僃	brei	1	brui
-愂	bxei	1	bxei
+愂	bxe	1	bxei
 碚	psoe	1	pseu
 蛽	bcia	1	bcia
 禙	bnie	1	bnoa
@@ -7507,7 +7507,7 @@ columns:
 鑶	cjei	1	cjuo
 賶	cbuo	1	cbia
 撡	cfao	1	cfei
-曺	cqie	1	cqei
+曺	cvie	1	cvei
 傮	zrei	1	zrui
 蓸	ccei	1	ccei
 嶆	csei	1	csia
@@ -7608,7 +7608,7 @@ columns:
 汳	bduu	1	bdoo
 玣	mwoe	1	mwee
 峅	bsao	1	bsia
-昪	bqa	1	bqia
+昪	bvao	1	bvia
 変	bwoe	1	bwoe
 覍	bxia	1	bxiu
 揙	bfoa	1	bfei
@@ -7697,10 +7697,10 @@ columns:
 抦	bfei	1	bfei
 苪	bcei	1	bcei
 怲	blei	1	bloo
-昞	bqei	1	bqia
-昺	bqei	1	bqia
+昞	bvei	1	bvia
+昺	bvei	1	bvia
 眪	bmei	1	bmia
-窉	bxe	1	bxoo
+窉	bxei	1	bxoo
 蛃	bcei	1	bcia
 棅	bmue	1	bmei
 鈵	bjei	1	bjuo
@@ -7743,7 +7743,7 @@ columns:
 犻	bqei	1	bqua
 苩	bcui	1	bcei
 瓝	bgua	1	bguu
-狛	bqui	1	bqua
+狛	bqu	1	bqua
 柭	bmeu	1	bmei
 郣	bvei	1	bvei
 侼	brei	1	brui
@@ -7830,7 +7830,7 @@ columns:
 艬	czua	1	czuu
 鑱	cjua	1	cjuo
 刬	clee	1	clee
-旵	cqia	1	cqia
+旵	cvia	1	cvia
 丳	ckia	1	ckia
 浐	cdoe	1	cdoo
 啴	ckou	1	ckia
@@ -7856,7 +7856,7 @@ columns:
 淐	cdia	1	cdoo
 琩	cwia	1	cwee
 椙	cmia	1	cmei
-晿	cqia	1	cqia
+晿	cvia	1	cvia
 锠	cjia	1	cjue
 裮	cnia	1	cnoa
 鼚	ctia	1	ctei
@@ -7889,9 +7889,9 @@ columns:
 焯	chie	1	chou
 繛	cvie	1	cvee
 牊	spau	1	spui
-晁	zquo	1	zqia
+晁	zvuo	1	zvia
 巣	cxia	1	cxoo
-鼌	cqei	1	cqia
+鼌	cvei	1	cvia
 鄛	cvaa	1	cvaa
 漅	cdaa	1	cdoo
 漅	jdaa	1	jdoo
@@ -7962,7 +7962,7 @@ columns:
 螴	ccai	1	ccai
 薼	ccoe	1	ccei
 麎	cleu	1	cloe
-曟	cqia	1	cqia
+曟	cvia	1	cvia
 鷐	cnia	1	cnia
 趻	czuo	1	czia
 硶	csia	1	cseu
@@ -8169,7 +8169,7 @@ columns:
 猭	cqaa	1	cqua
 猭	yqaa	1	yqua
 瑏	cwoo	1	cwee
-暷	cqei	1	cqia
+暷	cvei	1	cvia
 篅	cpia	1	cpue
 篅	dpia	1	dpue
 輲	ccia	1	ccei
@@ -8207,13 +8207,13 @@ columns:
 顀	czeu	1	czui
 鎚	cjui	1	cjuo
 杶	cmea	1	cmei
-旾	cqea	1	cqea
-萅	cqei	1	cqei
+旾	cvea	1	cvea
+萅	cvei	1	cvei
 堾	ctee	1	ctei
 媋	cnee	1	cnau
 瑃	cwee	1	cwee
 槆	xmei	1	xmei
-暙	cqee	1	cqia
+暙	cvee	1	cvia
 箺	cpee	1	cpue
 橁	xmue	1	xmei
 輴	ccuu	1	ccei
@@ -8316,7 +8316,7 @@ columns:
 瑽	cwuu	1	cwee
 聦	cvua	1	cvei
 樬	cmui	1	cmei
-暰	cquu	1	cqia
+暰	cvuu	1	cvia
 熜	chui	1	chou
 熜	zhui	1	zhou
 緫	cjua	1	cjaa
@@ -8488,7 +8488,7 @@ columns:
 瑇	dwee	1	dwee
 廗	dgeu	1	dgoe
 叇	dvao	1	dvee
-曃	dqae	1	dqia
+曃	dvae	1	dvia
 緿	djao	1	djaa
 鴏	dnui	1	dnui
 鮘	dvui	1	dvua
@@ -8632,7 +8632,7 @@ columns:
 竳	dlao	1	dloe
 艠	dzao	1	dzuu
 覴	djao	1	djao
-僜	drao	1	drui
+僜	dra	1	drui
 隥	dvao	1	dvai
 墱	dtao	1	dtei
 櫈	dmao	1	dmei
@@ -8690,7 +8690,7 @@ columns:
 弚	tbae	1	tbou
 玓	dwua	1	dwee
 杕	dmeu	1	dmei
-旳	dqua	1	dqia
+旳	dvua	1	dvia
 坔	dsei	1	dsia
 枤	dmeu	1	dmei
 怟	dlua	1	dloo
@@ -8726,7 +8726,7 @@ columns:
 踶	dzia	1	dzia
 嶳	dseu	1	dsia
 螮	dceu	1	dcia
-敁	dqie	1	dqie
+敁	dqi	1	dqie
 厧	dcei	1	dceu
 傎	drei	1	drui
 嵮	tsei	1	tsia
@@ -8784,8 +8784,8 @@ columns:
 馃	gsia	1	gsua
 淉	gdia	1	gdoo
 惈	glia	1	gloo
-褁	gqei	1	gqia
-褁	zqei	1	zqia
+褁	gvei	1	gvia
+褁	zvei	1	zvia
 粿	gmia	1	gmou
 綶	gjia	1	gjaa
 輠	gcia	1	gcei
@@ -8844,7 +8844,7 @@ columns:
 莟	hcuo	1	hcei
 猂	hqia	1	hqua
 涆	hdia	1	hdoo
-晘	hqia	1	hqia
+晘	hvia	1	hvia
 釬	hjee	1	hjuo
 淊	hdua	1	hdoo
 淊	ydua	1	ydoo
@@ -8855,7 +8855,7 @@ columns:
 傼	hrei	1	hrui
 撖	qfae	1	qfei
 蜭	hcua	1	hcia
-暵	hqei	1	hqia
+暵	hvei	1	hvia
 銲	hjia	1	hjuo
 鋎	hjoo	1	hjuo
 熯	hhei	1	hhou
@@ -8894,25 +8894,25 @@ columns:
 儫	hroe	1	hrui
 籇	hpoe	1	hpue
 譹	hyoe	1	hyoe
-昦	hqeu	1	hqia
+昦	hveu	1	hvia
 秏	hhue	1	hhue
 秏	mhue	1	mhue
 哠	hkue	1	hkia
 悎	hlue	1	hloo
 恏	hxau	1	hxau
-晧	hque	1	hqia
+晧	hvue	1	hvia
 淏	hdia	1	hdoo
 傐	hroe	1	hrui
 鄗	hvoe	1	hvoe
 聕	hvue	1	hvei
 滈	hdoe	1	hdoo
-暤	hqui	1	hqia
-暭	hqui	1	hqia
+暤	hvui	1	hvia
+暭	hvui	1	hvia
 皞	hbui	1	hbui
 皜	hboe	1	hbui
 澔	hdui	1	hdoo
 薃	hcoo	1	hcei
-曍	hqui	1	hqia
+曍	hvui	1	hvia
 皡	hbui	1	hbui
 翯	hvoe	1	hvao
 皥	hbui	1	hbui
@@ -8927,7 +8927,7 @@ columns:
 柇	hmue	1	hmei
 盇	hmeu	1	hmeu
 峆	hsuo	1	hsia
-狢	mqua	1	mqua
+狢	mqu	1	mqua
 饸	hsuo	1	hsua
 籺	hmue	1	hmou
 籺	xmue	1	xmou
@@ -8940,7 +8940,7 @@ columns:
 秴	hhuo	1	hhue
 渮	gdei	1	gdoo
 渮	hdei	1	hdoo
-惒	hxu	1	hxue
+惒	hxue	1	hxue
 訸	hyue	1	hyoe
 粭	hmuo	1	hmou
 楁	hmoo	1	hmei
@@ -8958,7 +8958,7 @@ columns:
 鞨	hgia	1	hgei
 礉	hsui	1	hseu
 礉	qsui	1	qseu
-覈	hxui	1	hxei
+覈	hxu	1	hxei
 皬	hbeo	1	hbui
 鑉	gjei	1	gjuo
 鑉	hjei	1	hjuo
@@ -9040,7 +9040,7 @@ columns:
 敱	vqi	1	vqia
 癌	ybia	1	yboe
 毐	vtaa	1	vtei
-昹	vqoa	1	vqia
+昹	vvoa	1	vvia
 躷	vsue	1	vsui
 濭	kdei	1	kdoo
 濭	vdei	1	vdoo
@@ -9197,7 +9197,7 @@ columns:
 砛	jsuo	1	jseu
 觔	jjau	1	jjua
 珒	jwae	1	jwee
-埐	jtae	1	jtei
+埐	jta	1	jtei
 矝	gzoa	1	gzao
 矝	jzoa	1	jzao
 矝	qzoa	1	qzao
@@ -9239,7 +9239,7 @@ columns:
 凚	jdei	1	jdoe
 濅	jdoo	1	jdoo
 賮	jbae	1	jbae
-壗	jta	1	jtei
+壗	jtae	1	jtei
 嚍	jkae	1	jkia
 嬧	jnae	1	jnau
 璶	jwae	1	jwee
@@ -9272,7 +9272,7 @@ columns:
 宑	jgee	1	jgoo
 汬	jsee	1	jsee
 穽	jxee	1	jxoo
-景	yqoe	1	yqia
+景	yvoe	1	yvia
 璄	jwoe	1	jwee
 擏	jfei	1	jfei
 擏	qfei	1	qfei
@@ -9280,7 +9280,7 @@ columns:
 璥	jwei	1	jwee
 璟	jwia	1	jwee
 憼	jxei	1	jxei
-暻	jqia	1	jqia
+暻	jvia	1	jvia
 燝	jhia	1	jhou
 蟼	jcei	1	jcei
 妌	jnee	1	jnau
@@ -9302,7 +9302,7 @@ columns:
 誩	jyoe	1	jyoe
 頚	gyao	1	gyao
 頚	jyao	1	jyao
-曔	jqei	1	jqia
+曔	jvei	1	jvia
 瀞	jdee	1	jdoo
 竸	jlia	1	jloe
 埛	jtia	1	jtei
@@ -9447,7 +9447,7 @@ columns:
 坥	jtia	1	jtei
 拠	jfua	1	jfei
 歫	jnea	1	jnie
-昛	jqea	1	jqia
+昛	jvea	1	jvia
 怚	jlia	1	jloo
 秬	jhea	1	jhue
 耟	jlea	1	jlee
@@ -9589,7 +9589,7 @@ columns:
 霐	wvoo	1	wveo
 彋	hgia	1	hgae
 霟	hvoo	1	hveo
-晎	hqei	1	hqia
+晎	hvei	1	hvia
 閧	hmei	1	hmia
 撔	hfia	1	hfei
 銾	gjei	1	gjuo
@@ -9622,8 +9622,8 @@ columns:
 匢	hkua	1	hkeu
 垀	htuo	1	htei
 苸	hcuo	1	hcei
-昒	hqua	1	hqia
-曶	hqua	1	hqua
+昒	hvua	1	hvia
+曶	hvua	1	hvua
 泘	hduo	1	hdoo
 轷	hcuo	1	hcea
 恗	kleu	1	kloo
@@ -9682,7 +9682,7 @@ columns:
 沍	hdea	1	hdoo
 帍	hhia	1	hhoa
 枑	hmea	1	hmei
-昈	hqoa	1	hqia
+昈	hvoa	1	hvia
 粐	hmoa	1	hmou
 婟	hnia	1	hnau
 綔	hdee	1	hdeu
@@ -9753,7 +9753,7 @@ columns:
 咶	hkue	1	hkia
 壊	htei	1	htei
 蘾	hcei	1	hcei
-欥	yqua	1	yqia
+欥	yvua	1	yvia
 歓	hque	1	hque
 鴅	hnua	1	hnua
 懁	hlia	1	hloo
@@ -9835,7 +9835,7 @@ columns:
 怳	hlia	1	hloo
 炾	hhia	1	hhou
 炾	phia	1	phou
-晄	hqio	1	hqia
+晄	hvio	1	hvia
 宺	hgia	1	hgoo
 奛	hdia	1	hdeu
 詤	hyuo	1	hyoe
@@ -9847,7 +9847,7 @@ columns:
 滉	hdia	1	hdoo
 愰	hlia	1	hloo
 榥	hmia	1	hmei
-曂	hqei	1	hqia
+曂	hvei	1	hvia
 皝	hbee	1	hbui
 鎤	hjia	1	hjuo
 皩	hbee	1	hbui
@@ -9883,7 +9883,7 @@ columns:
 痐	hbia	1	hboe
 蛕	hceu	1	hcia
 蜖	hcia	1	hcia
-鮰	hvi	1	hvua
+鮰	hvia	1	hvua
 烠	hheu	1	hhou
 毇	hsui	1	hsui
 檓	hmui	1	hmei
@@ -9910,7 +9910,7 @@ columns:
 瘣	hbui	1	hboe
 瘣	lbui	1	lboe
 槥	hmee	1	hmei
-暳	hqee	1	hqia
+暳	hvee	1	hvia
 圚	hkia	1	hkia
 潓	hdei	1	hdoo
 憓	hlei	1	hloo
@@ -9946,7 +9946,7 @@ columns:
 顪	hyie	1	hyie
 顪	syie	1	syie
 譿	hyee	1	hyoe
-昬	hqae	1	hqae
+昬	hva	1	hvae
 涽	hdua	1	hdoo
 惛	hlua	1	hloo
 棔	hmua	1	hmei
@@ -10002,7 +10002,7 @@ columns:
 耯	hlei	1	hlee
 艧	hzei	1	hzuu
 瀖	hdeo	1	hdoo
-曤	hqeo	1	hqia
+曤	hveo	1	hvia
 嚿	hkei	1	hkia
 臛	hveo	1	hvua
 矐	hmeo	1	hmia
@@ -10159,7 +10159,7 @@ columns:
 漃	jdoo	1	jdoo
 禝	jnia	1	jnoa
 諅	jqoe	1	jqei
-暩	gqua	1	gqia
+暩	gvua	1	gvia
 穄	jhua	1	jhue
 襀	jnee	1	jnoa
 縘	jjuo	1	jjaa
@@ -10297,7 +10297,7 @@ columns:
 検	jmuo	1	jmei
 詃	jyoe	1	jyoe
 瑐	jwou	1	jwee
-暕	jqei	1	jqia
+暕	jvei	1	jvia
 弿	jgoo	1	jgoo
 絸	jjia	1	jjaa
 彅	jgou	1	jgae
@@ -10432,7 +10432,7 @@ columns:
 恔	xloe	1	xloo
 捁	gfue	1	gfei
 捁	jfue	1	jfei
-晈	jqoe	1	jqia
+晈	jvoe	1	jvia
 笅	xpuo	1	xpue
 烄	jhoe	1	jhou
 搅	gfoo	1	gfei
@@ -10444,7 +10444,7 @@ columns:
 勦	jlaa	1	jlaa
 摷	cfaa	1	cfei
 摷	jfaa	1	jfei
-暞	jqui	1	jqia
+暞	jvui	1	jvia
 踋	jzei	1	jzia
 撹	jfoo	1	jfei
 劋	jlia	1	jlia
@@ -10455,7 +10455,7 @@ columns:
 敿	qwue	1	qwue
 徼	ycui	1	ycuu
 璬	jwui	1	jwee
-曒	jqui	1	jqia
+曒	jvui	1	jvia
 蟜	jcue	1	jcia
 皦	jbui	1	jbui
 鵤	jjui	1	jjua
@@ -10511,7 +10511,7 @@ columns:
 兯	jbai	1	jbou
 刦	jlei	1	jlei
 刧	jdei	1	jdei
-昅	jqua	1	jqia
+昅	jvua	1	jvia
 岊	jsai	1	jsai
 劼	jlei	1	jlei
 刼	jdei	1	jdei
@@ -10652,7 +10652,7 @@ columns:
 羖	gyua	1	gyou
 蛌	gcuu	1	gcia
 啒	hkae	1	hkia
-傦	gri	1	grui
+傦	gria	1	grui
 脵	gvia	1	gvua
 淈	gdae	1	gdoo
 淈	qdae	1	qdoo
@@ -10661,7 +10661,7 @@ columns:
 焸	xhia	1	xhia
 馉	gsia	1	gsua
 愲	glia	1	gloo
-鼔	gqei	1	gqei
+鼔	gqe	1	gqei
 榾	gmia	1	gmei
 皷	gpei	1	gpei
 榖	gsei	1	gsei
@@ -10677,7 +10677,7 @@ columns:
 堌	gtia	1	gtei
 崓	gsia	1	gsia
 棝	gmia	1	gmei
-祻	gni	1	gnoa
+祻	gnia	1	gnoa
 頋	gyeu	1	gyeu
 稒	ghia	1	ghue
 僱	groa	1	grui
@@ -10729,7 +10729,7 @@ columns:
 悺	gloo	1	gloo
 婠	wnoo	1	wnau
 悹	gxoo	1	gxoo
-祼	gnia	1	gnoa
+祼	gni	1	gnoa
 祼	lnia	1	lnoa
 潅	gdue	1	gdoo
 遦	glaa	1	glaa
@@ -10746,8 +10746,8 @@ columns:
 鱹	gvei	1	gvua
 灮	ghua	1	ghou
 炗	ghei	1	ghei
-炚	gqou	1	gqia
-侊	grio	1	grui
+炚	gvou	1	gvia
+侊	gri	1	grui
 炛	ghui	1	ghou
 垙	gtio	1	gtei
 挄	kfio	1	kfei
@@ -10824,7 +10824,7 @@ columns:
 厬	gcia	1	gceu
 蟡	gcuo	1	gcia
 攰	glei	1	glei
-昋	gqee	1	gqee
+昋	gvee	1	gvee
 刽	kluo	1	kluo
 攱	llei	1	lloe
 桧	kmuo	1	kmei
@@ -10874,7 +10874,7 @@ columns:
 囻	gkae	1	gkia
 圀	gkuo	1	gkia
 弔	dgii	1	dgae
-伄	dra	1	drui
+伄	drae	1	drui
 訋	dyua	1	dyoe
 窎	dxua	1	dxoo
 罀	zfuo	1	zfue
@@ -10919,7 +10919,7 @@ columns:
 疂	dtoe	1	dtia
 褺	dyei	1	dyei
 鮙	dvao	1	dvua
-曡	dqia	1	dqia
+曡	dvia	1	dvia
 疉	dtia	1	dtia
 氎	dmia	1	dmia
 哋	dkei	1	dkia
@@ -10948,7 +10948,7 @@ columns:
 磸	dsou	1	dseu
 顁	dyoo	1	dyoo
 苳	dcua	1	dcei
-昸	dqua	1	dqia
+昸	dvua	1	dvia
 倲	drei	1	drui
 埬	dtei	1	dtei
 菄	dcei	1	dcei
@@ -10956,7 +10956,7 @@ columns:
 笗	dpua	1	dpue
 涷	ddei	1	ddoo
 娻	dnei	1	dnau
-氭	dqei	1	dque
+氭	dqe	1	dque
 徚	dcei	1	dcuu
 蝀	dcei	1	dcia
 鮗	dvua	1	dvua
@@ -11042,7 +11042,7 @@ columns:
 厾	dzei	1	dzae
 帾	djei	1	djia
 琽	dwei	1	dwee
-暏	dqei	1	dqia
+暏	dvei	1	dvia
 覩	djei	1	djei
 芏	tcei	1	tcei
 妬	dneu	1	dnau
@@ -11367,8 +11367,8 @@ columns:
 房	phoe	1	phoa
 埅	ftai	1	ftai
 堏	fte	1	ftei
-昉	fqo	1	fqia
-昘	fqoe	1	fqia
+昉	fvoe	1	fvia
+昘	fvoe	1	fvia
 瓬	ffea	1	ffoe
 眆	fmoe	1	fmia
 倣	froe	1	frui
@@ -11380,7 +11380,7 @@ columns:
 婔	fnie	1	fnau
 猆	fqi	1	fqie
 靟	fmie	1	fmie
-暃	fqie	1	fqia
+暃	fvie	1	fvia
 裶	fnie	1	fnoa
 餥	fsie	1	fsie
 馡	fhia	1	fhue
@@ -11400,7 +11400,7 @@ columns:
 蕜	fcie	1	fcei
 杮	bmei	1	bmei
 肺	pvei	1	pvua
-昲	fqae	1	fqia
+昲	fvae	1	fvia
 厞	fcie	1	fceu
 剕	flie	1	flie
 俷	frua	1	frui
@@ -11409,7 +11409,7 @@ columns:
 屝	fsi	1	fsae
 廃	fgao	1	fgoe
 蕟	fcao	1	fcei
-曊	fqae	1	fqia
+曊	fvae	1	fvia
 鼣	fseu	1	fsui
 癈	fbao	1	fboe
 濷	fsoo	1	fsia
@@ -11420,7 +11420,7 @@ columns:
 妢	fnuo	1	fnau
 瓰	fwuo	1	fwea
 瓰	wwuo	1	wwea
-昐	fquo	1	fqia
+昐	fvuo	1	fvia
 竕	fluo	1	floe
 衯	fnuo	1	fnoa
 衯	pnuo	1	pnoa
@@ -11662,7 +11662,7 @@ columns:
 輹	fcue	1	fcei
 鍢	fjei	1	fjuo
 鍑	fjue	1	fjuo
-旮	xqua	1	xqua
+旮	xvua	1	xvua
 尜	gxeu	1	gxiu
 嘠	gkeu	1	gkia
 錷	gjei	1	gjuo
@@ -11675,7 +11675,7 @@ columns:
 荄	gcoe	1	gcei
 峐	gsoe	1	gsia
 姟	gnoe	1	gnau
-晐	gqoe	1	gqia
+晐	gvoe	1	gvia
 畡	gtoe	1	gtia
 祴	gnee	1	gnoa
 祴	jnee	1	jnoa
@@ -11789,8 +11789,8 @@ columns:
 峼	gsue	1	gsia
 祮	jnei	1	jnoa
 祰	gnue	1	gnoa
-暠	gqoe	1	gqia
-暠	hqoe	1	hqia
+暠	gvoe	1	gvia
+暠	hvoe	1	hvia
 禞	gnoe	1	gnoa
 圪	ytue	1	ytei
 犵	gque	1	gqua
@@ -11886,12 +11886,12 @@ columns:
 琁	xwue	1	xwee
 蜁	xcue	1	xcia
 嫙	xnoe	1	xnau
-暶	xqoe	1	xqia
+暶	xvoe	1	xvia
 檈	xmia	1	xmei
 烜	xhei	1	xhou
-暅	gqoo	1	gqia
+暅	gvoo	1	gvia
 怰	xloe	1	xloo
-昡	xqoe	1	xqia
+昡	xvoe	1	xvia
 袨	xnoe	1	xnoa
 琄	qwia	1	qwee
 琄	xwia	1	xwee
@@ -11954,7 +11954,7 @@ columns:
 纁	xjue	1	xjaa
 廵	xlaa	1	xlaa
 杊	xmui	1	xmei
-畃	sqiu	1	sqia
+畃	sviu	1	svia
 郇	xvua	1	xvua
 荨	tcae	1	tcei
 荨	xcae	1	xcei
@@ -12065,7 +12065,7 @@ columns:
 靷	ygae	1	ygei
 飮	yseu	1	ysuo
 隠	yvuo	1	yvai
-朄	yqie	1	yqia
+朄	yvie	1	yvia
 趛	yzuo	1	yzei
 檃	ymai	1	ymai
 螾	ycoo	1	ycia
@@ -12158,7 +12158,7 @@ columns:
 巊	ysia	1	ysia
 鐛	yjia	1	yjuo
 廮	ygia	1	ygoe
-暎	yqei	1	yqia
+暎	yvei	1	yvia
 膡	yvou	1	yvua
 噟	ykoe	1	ykoe
 嗈	ykaa	1	ykia
@@ -12530,7 +12530,7 @@ columns:
 禐	ynuo	1	ynoa
 裫	ynui	1	ynoa
 噮	ykia	1	ykia
-曱	yqii	1	yqia
+曱	yvii	1	yvia
 箹	ypaa	1	ypue
 矱	hsei	1	hsue
 矱	ysei	1	ysue
@@ -12541,7 +12541,7 @@ columns:
 抈	yfua	1	yfei
 岄	ysua	1	ysia
 礿	ynua	1	ynoa
-昖	yquo	1	yqia
+昖	yvuo	1	yvia
 郔	yvui	1	yvui
 挻	sfui	1	sfei
 莚	ycui	1	ycei
@@ -12619,12 +12619,12 @@ columns:
 顩	qyuo	1	qyuo
 顩	yyuo	1	yyuo
 孍	ynia	1	ynau
-曮	yqia	1	yqia
+曮	yvia	1	yvia
 巘	ysie	1	ysia
 巚	ysie	1	ysia
 礹	ysia	1	yseu
 齴	ycoe	1	ycie
-妟	yqau	1	yqia
+妟	yvau	1	yvia
 觃	yjai	1	yjia
 牪	ynue	1	ynue
 姲	ynoo	1	ynau
@@ -12643,7 +12643,7 @@ columns:
 椻	ymei	1	ymei
 鳫	ycui	1	yceu
 墕	ytei	1	ytei
-暥	yqia	1	yqia
+暥	yvia	1	yvia
 熖	yhuo	1	yhou
 嬊	ynei	1	ynei
 鴈	ycui	1	yceu
@@ -12651,7 +12651,7 @@ columns:
 鬳	yhei	1	yhie
 燄	ydui	1	ydua
 嬮	yneu	1	yneu
-曕	yqua	1	yqia
+曕	yvua	1	yvia
 鴳	ynoo	1	ynoo
 験	ymuo	1	ymei
 騐	ymuo	1	ymei
@@ -12659,7 +12659,7 @@ columns:
 懕	yxeu	1	yxeu
 贋	ybeu	1	ybeu
 嚥	ykei	1	ykia
-艶	yqie	1	yqia
+艶	yvie	1	yvia
 軅	yseu	1	ysui
 嬿	ynei	1	ynau
 騴	ymia	1	ymei
@@ -12687,13 +12687,13 @@ columns:
 阦	yvou	1	yvai
 玚	cwau	1	cwee
 玚	ywau	1	ywee
-旸	yqau	1	yqia
+旸	yvau	1	yvia
 飏	yfau	1	yfua
 钖	yjau	1	yjue
 氜	yqia	1	yque
 劷	yyau	1	yyou
 垟	ytou	1	ytei
-昜	yqeu	1	yqia
+昜	yveu	1	yvia
 羏	yyuu	1	yyou
 珜	ywou	1	ywee
 眻	ymou	1	ymia
@@ -12757,7 +12757,7 @@ columns:
 媱	ynuo	1	ynau
 摿	yfuo	1	yfei
 榣	ymuo	1	ymei
-暚	yquo	1	yqia
+暚	yvuo	1	yvia
 飖	yfuo	1	yfuo
 餆	ysuo	1	ysuo
 磘	ysuo	1	yseu
@@ -12809,12 +12809,12 @@ columns:
 艞	yzue	1	yzuu
 燿	yhao	1	yhou
 矅	ymao	1	ymia
-曣	yqei	1	yqia
+曣	yvei	1	yvia
 纅	yjui	1	yjaa
 讑	yyuo	1	yyoe
 倻	yrei	1	yrui
-暍	hqia	1	hqia
-暍	yqia	1	yqia
+暍	hvia	1	hvia
+暍	yvia	1	yvia
 潱	ydei	1	ydoo
 蠮	yceu	1	ycia
 捓	yfea	1	yfei
@@ -12829,7 +12829,7 @@ columns:
 漜	ydei	1	ydoo
 壄	ytei	1	ytei
 叶	skei	1	skia
-曵	yqau	1	yqia
+曵	yvau	1	yvia
 抴	yfei	1	yfei
 枼	ymei	1	ymei
 亱	ywui	1	ywoe
@@ -12844,7 +12844,7 @@ columns:
 楪	ymei	1	ymei
 馌	ysei	1	ysua
 璍	hwei	1	hwee
-曅	yqei	1	yqia
+曅	yvei	1	yvia
 僷	yrei	1	yrui
 歋	yquu	1	yquu
 擛	yfei	1	yfei
@@ -12859,7 +12859,7 @@ columns:
 澲	ydii	1	ydoo
 擫	yfeu	1	yfei
 瞸	ymei	1	ymia
-曗	yqii	1	yqia
+曗	yvii	1	yvia
 嚈	ykeu	1	ykia
 鍱	yjei	1	yjuo
 擪	yseu	1	yseu
@@ -12929,7 +12929,7 @@ columns:
 媐	ynei	1	ynei
 椸	ymoe	1	ymei
 頉	yneu	1	ynie
-暆	yqoe	1	yqia
+暆	yvoe	1	yvia
 跠	yzea	1	yzia
 誃	cyua	1	cyoe
 誃	yyua	1	yyoe
@@ -13004,8 +13004,8 @@ columns:
 妷	ynue	1	ynau
 玴	ywei	1	ywee
 枻	ymei	1	ymei
-昳	dque	1	dqia
-昳	yque	1	yqia
+昳	dvue	1	dvia
+昳	yvue	1	yvia
 帠	yjui	1	yjui
 俋	yria	1	yrui
 帟	yjoe	1	yjoe
@@ -13039,7 +13039,7 @@ columns:
 羛	yyae	1	yyou
 棭	ymoe	1	ymei
 殔	ydae	1	ydeu
-晹	yqia	1	yqia
+晹	yvia	1	yvia
 敡	yqia	1	yqia
 跇	czei	1	czia
 跇	yzei	1	yzia
@@ -13076,7 +13076,7 @@ columns:
 熤	yhao	1	yhou
 墿	ytia	1	ytei
 瞖	ymeu	1	ymeu
-曀	yqei	1	yqia
+曀	yvei	1	yvia
 螠	ycou	1	ycia
 圛	ykia	1	ykia
 穓	yhia	1	yhue
@@ -13091,7 +13091,7 @@ columns:
 嬑	ynoe	1	ynau
 嬟	ynou	1	ynau
 檍	ymoe	1	ymei
-曎	yqia	1	yqia
+曎	yvia	1	yvia
 斁	dwia	1	dwia
 斁	ywia	1	ywia
 歝	yqia	1	yqia
@@ -13408,7 +13408,7 @@ columns:
 遧	zloe	1	zloe
 粻	cmei	1	cmou
 慞	zloe	1	zloo
-暲	zqoe	1	zqia
+暲	zvoe	1	zvia
 餦	zsei	1	zsuo
 騿	zmoe	1	zmei
 鱆	zvoe	1	zvua
@@ -13469,10 +13469,10 @@ columns:
 粍	lmue	1	lmou
 粍	mmue	1	mmou
 袩	cnie	1	cnoa
-晢	zqei	1	zqei
+晢	zvei	1	zvei
 悊	qxei	1	qxei
 悊	zxei	1	zxei
-晣	zqei	1	zqia
+晣	zvei	1	zvia
 啠	zkuu	1	zkuu
 喆	ztia	1	ztei
 棏	zmia	1	zmei
@@ -13525,7 +13525,7 @@ columns:
 籈	zpei	1	zpue
 鱵	zvue	1	zvua
 抮	zfuo	1	zfei
-昣	zquo	1	zqia
+昣	zvuo	1	zvia
 弫	zgei	1	zgae
 姫	jnei	1	jnau
 眕	zmuo	1	zmia
@@ -13600,7 +13600,7 @@ columns:
 抍	zfue	1	zfei
 糽	zjei	1	zjaa
 掟	dfoo	1	dfei
-晸	zqei	1	zqia
+晸	zvei	1	zvia
 愸	zxei	1	zxei
 撜	zfao	1	zfei
 証	zyei	1	zyoe
@@ -13738,7 +13738,7 @@ columns:
 夨	zhao	1	zhea
 庂	zguo	1	zgoe
 汄	zduo	1	zdoo
-昗	zqoe	1	zqia
+昗	zvoe	1	zvia
 捑	sfia	1	sfei
 捑	zfia	1	zfei
 崱	zsia	1	zsia
@@ -13827,11 +13827,11 @@ columns:
 歭	cnei	1	cnie
 歭	snei	1	snie
 歭	znei	1	znie
-晊	zqea	1	zqia
+晊	zvea	1	zvia
 徏	zcie	1	zcuu
 胵	cvea	1	cvua
 胵	zvea	1	zvua
-狾	zqei	1	zqua
+狾	zqe	1	zqua
 袟	znue	1	znoa
 娡	znei	1	znau
 梽	zmei	1	zmei
@@ -13895,7 +13895,7 @@ columns:
 櫍	zmuu	1	zmei
 鯯	jvue	1	jvua
 礩	zsuu	1	zseu
-豑	zqie	1	zqia
+豑	zvie	1	zvia
 鶨	dnaa	1	dnaa
 鶨	znaa	1	znaa
 驇	zmei	1	zmei
@@ -13925,7 +13925,7 @@ columns:
 歱	znue	1	znie
 煄	zhue	1	zhou
 瘇	zbue	1	zboe
-狆	zqia	1	zqua
+狆	zqi	1	zqua
 妕	znia	1	znau
 祌	cnia	1	cnoa
 祌	znia	1	znoa
@@ -13966,7 +13966,7 @@ columns:
 碡	dsee	1	dseu
 疛	zbei	1	zboe
 菷	zcae	1	zcei
-晭	zqua	1	zqia
+晭	zvua	1	zvia
 睭	zmua	1	zmia
 箒	zpae	1	zpue
 鯞	zvae	1	zvua
@@ -14018,7 +14018,7 @@ columns:
 灟	zdae	1	zdoo
 孎	znae	1	znau
 欘	zmae	1	zmei
-曯	zqae	1	zqia
+曯	zvae	1	zvia
 爥	zhae	1	zhou
 斸	zjae	1	zjae
 蠾	zcae	1	zcia
@@ -14182,7 +14182,7 @@ columns:
 斮	cjei	1	cjei
 斮	zjei	1	zjei
 椓	zmeu	1	zmei
-晫	zqie	1	zqia
+晫	zvie	1	zvia
 硺	zseu	1	zseu
 罬	zzao	1	zzia
 窧	zxie	1	zxoo
@@ -14195,7 +14195,7 @@ columns:
 諁	zyao	1	zyoe
 篧	hpoa	1	hpue
 篧	zpoa	1	zpue
-斀	zqi	1	zqia
+斀	zqia	1	zqia
 斵	zjua	1	zjua
 櫡	zmue	1	zmei
 謶	zyoe	1	zyoe
@@ -14304,7 +14304,7 @@ columns:
 燪	zhei	1	zhou
 鍯	zjua	1	zjuo
 鏓	zjui	1	zjuo
-昮	zqei	1	zqia
+昮	zvei	1	zvia
 疭	zbuo	1	zboe
 倊	zruo	1	zrui
 猔	zqoo	1	zqua
@@ -14383,7 +14383,7 @@ columns:
 栬	zmua	1	zmei
 酔	zyua	1	zyei
 絊	zjei	1	zjaa
-晬	zqoe	1	zqia
+晬	zvoe	1	zvia
 祽	znoe	1	znoa
 辠	zzoe	1	zzui
 槜	zmui	1	zmei
@@ -14459,7 +14459,7 @@ columns:
 怾	klia	1	kloo
 旀	mfao	1	mfoe
 旕	vfuo	1	vfoe
-曢	dqoo	1	dqia
+曢	dvoo	1	dvia
 朑	qvei	1	qvua
 朰	tmaa	1	tmei
 栍	smue	1	smei
@@ -14492,7 +14492,7 @@ columns:
 霻	wvia	1	wveo
 鶑	snou	1	snou
 棾	qjei	1	qjei
-暒	qqia	1	qqia
+暒	qvia	1	qvia
 樈	qmoe	1	qmei
 黥	jhoe	1	jhia
 凊	jdee	1	jdoe
@@ -14692,7 +14692,7 @@ columns:
 硂	qsuo	1	qseu
 啳	jkou	1	jkia
 惓	qlou	1	qloo
-婘	qnou	1	qnau
+婘	qno	1	qnau
 葲	qcui	1	qcei
 犈	qnou	1	qnue
 腃	jvou	1	jvua
@@ -14721,7 +14721,7 @@ columns:
 烇	qhuo	1	qhou
 虇	hcae	1	hcei
 虇	qcae	1	qcei
-牶	qno	1	qnou
+牶	qnou	1	qnou
 椦	qmou	1	qmei
 勧	qlue	1	qlue
 韏	jwou	1	jwou
@@ -14758,12 +14758,12 @@ columns:
 衻	rnia	1	rnoa
 袇	rnua	1	rnoa
 蚦	rcia	1	rcia
-袡	rnia	1	rnoa
+袡	rni	1	rnoa
 舑	tsia	1	tsue
 髥	rbi	1	rbei
 嘫	rku	1	rkia
 繎	rjua	1	rjaa
-姌	rni	1	rnau
+姌	rnia	1	rnau
 珃	rwi	1	rwee
 蒅	rcoo	1	rcei
 媣	rnoo	1	rnau
@@ -14802,16 +14802,16 @@ columns:
 栠	rmui	1	rmui
 涊	ndau	1	ndoo
 秹	rhui	1	rhue
-棯	rmuo	1	rmei
+棯	rmu	1	rmei
 綛	rjau	1	rjaa
 躵	rsau	1	rsui
 刄	rdoo	1	rdau
 仭	rrau	1	rrui
-讱	rya	1	ryoa
+讱	ryau	1	ryoa
 扨	rfau	1	rfei
 屻	rsau	1	rsia
 杒	vmau	1	vmei
-牣	rna	1	rnue
+牣	rnau	1	rnue
 肕	rvau	1	rvua
 纴	rjue	1	rjaa
 祍	rnue	1	rnoa
@@ -14848,7 +14848,7 @@ columns:
 嫆	rnoo	1	rnau
 嫆	ynoo	1	ynau
 瑢	rwo	1	rwee
-穁	rhe	1	rhue
+穁	rhei	1	rhue
 镕	rjoo	1	rjue
 褣	rnoo	1	rnoa
 縙	rjei	1	rjaa
@@ -14859,7 +14859,7 @@ columns:
 嬫	rnou	1	rnau
 爃	rhou	1	rhou
 瀜	rdei	1	rdoo
-曧	rqei	1	rqia
+曧	rvei	1	rvia
 宂	rgua	1	rgoo
 坈	ktoa	1	ktei
 傇	rrei	1	rrui
@@ -14880,12 +14880,12 @@ columns:
 鍒	rjao	1	rjuo
 瓇	rwe	1	rwee
 騥	rmao	1	rmei
-鰇	rva	1	rvua
+鰇	rvao	1	rvua
 鶔	rnao	1	rnao
 韖	rwao	1	rwai
 宍	rgoe	1	rgoo
 楺	rmao	1	rmei
-邚	rnai	1	rnau
+邚	rna	1	rnau
 侞	rrau	1	rrui
 帤	rjau	1	rjau
 桇	ymau	1	ymau
@@ -14900,14 +14900,14 @@ columns:
 嬬	rneo	1	rnau
 嬬	xneo	1	xnau
 鴽	rnau	1	rnau
-曘	rqe	1	rqia
+曘	rveo	1	rvia
 臑	nveo	1	nvua
 臑	rveo	1	rvua
-燸	rheo	1	rhou
+燸	rhe	1	rhou
 繻	xjeo	1	xjaa
 醹	ryeo	1	ryei
 鱬	rveo	1	rvua
-肗	rvau	1	rvua
+肗	rva	1	rvua
 鄏	rveu	1	rveu
 擩	rfe	1	rfei
 扖	rfuo	1	rfei
@@ -14934,7 +14934,7 @@ columns:
 礝	rseo	1	rseu
 甤	rsue	1	rseu
 緌	rjue	1	rjaa
-桵	rmu	1	rmei
+桵	rmuo	1	rmei
 惢	rxo	1	rxoa
 惢	sxoa	1	sxoa
 蕋	rcie	1	rcei
@@ -14950,7 +14950,7 @@ columns:
 壡	rboa	1	rbie
 閠	rmee	1	rmia
 橍	rmia	1	rmei
-叒	ryao	1	ryao
+叒	rya	1	ryao
 鄀	rvei	1	rvei
 焫	rhei	1	rhou
 渃	rdei	1	rdoo
@@ -15101,7 +15101,7 @@ columns:
 羴	syou	1	syou
 羶	syoe	1	syou
 炶	shie	1	shou
-晱	sqou	1	sqia
+晱	svou	1	svia
 睒	smou	1	smia
 煔	shou	1	shou
 煔	thou	1	thou
@@ -15461,7 +15461,7 @@ columns:
 巁	lseu	1	lsia
 濿	ldeu	1	ldoo
 櫔	lmeu	1	lmei
-曞	lqeu	1	lqia
+曞	lveu	1	lvia
 蠇	lcei	1	lcia
 犡	lneu	1	lnue
 儮	lreu	1	lrui
@@ -15571,7 +15571,7 @@ columns:
 憭	lleu	1	lloo
 嫽	lneu	1	lnau
 璙	lweu	1	lwee
-暸	lqeu	1	lqia
+暸	lveu	1	lvia
 膫	lveu	1	lvua
 窷	lxei	1	lxoo
 竂	lxeu	1	lxoo
@@ -15642,7 +15642,7 @@ columns:
 埈	jtao	1	jtei
 馂	jsao	1	jsua
 珺	jwae	1	jwee
-晙	jqao	1	jqia
+晙	jvao	1	jvia
 焌	jhao	1	jhou
 焌	qhao	1	qhou
 葰	jcui	1	jcei
@@ -15674,7 +15674,7 @@ columns:
 闿	kmia	1	kmoi
 蒈	kcea	1	kcei
 輆	kcoe	1	kcei
-暟	kqia	1	kqia
+暟	kvia	1	kvia
 颽	kfia	1	kfia
 炌	khu	1	khou
 炏	khou	1	khou
@@ -15718,9 +15718,9 @@ columns:
 摃	kfei	1	kfei
 亢	hwua	1	hwoe
 匟	kkoe	1	kkeo
-邟	kvo	1	kvoe
+邟	kvoe	1	kvoe
 囥	kkoe	1	kkia
-犺	kqoe	1	kqua
+犺	kqo	1	kqua
 忼	kloe	1	kloo
 砊	ksoe	1	kseu
 嵪	qsoe	1	qsia
@@ -15796,14 +15796,14 @@ columns:
 貇	kza	1	kzuo
 錹	kjie	1	kjuo
 掯	kfie	1	kfei
-硍	ksae	1	kseu
+硍	ksa	1	kseu
 褃	knie	1	knoa
 劥	kloe	1	kloe
 阬	gvoe	1	gvai
 阬	kvoe	1	kvai
 妔	knoe	1	knau
 挳	kfea	1	kfei
-硁	ksa	1	kseu
+硁	ksao	1	kseu
 牼	knea	1	knue
 硻	ksei	1	ksei
 誙	hyea	1	hyoe
@@ -15851,12 +15851,12 @@ columns:
 俈	krue	1	krui
 秙	khei	1	khue
 焅	khue	1	khou
-袴	kneu	1	knoa
+袴	kne	1	knoa
 瘔	kbei	1	kboe
 鮬	kveu	1	kvua
-姱	kne	1	knau
-晇	kqeu	1	kqia
-晇	xqeu	1	xqia
+姱	kneu	1	knau
+晇	kveu	1	kvia
+晇	xveu	1	xvia
 舿	kzeu	1	kzuu
 咵	kkeu	1	kkia
 銙	kjeu	1	kjuo
@@ -15898,7 +15898,7 @@ columns:
 懭	kloe	1	kloo
 矿	gsoe	1	gseu
 岲	ksia	1	ksia
-昿	kqoe	1	kqia
+昿	kvoe	1	kvia
 砿	ksoe	1	kseu
 眖	kmia	1	kmia
 絋	kjoe	1	kjaa
@@ -15920,10 +15920,10 @@ columns:
 顝	kgeu	1	kgia
 闚	kmee	1	kmia
 蘬	kcui	1	kcei
-晆	kqei	1	kqia
+晆	kvei	1	kvia
 頄	pyua	1	pyua
 頄	qyua	1	qyua
-鄈	kva	1	kvao
+鄈	kvao	1	kvao
 骙	kmao	1	kmaa
 楏	kmeu	1	kmei
 楑	kmao	1	kmei
@@ -15965,7 +15965,7 @@ columns:
 菎	bcia	1	bcei
 菎	jcia	1	jcei
 菎	kcia	1	kcei
-晜	kqou	1	kqia
+晜	kvou	1	kvia
 崐	ksia	1	ksia
 崑	ksia	1	ksia
 猑	kqia	1	kqua
@@ -16061,15 +16061,15 @@ columns:
 厸	lsao	1	lsao
 崊	lsei	1	lsia
 惏	llei	1	lloo
-晽	lqei	1	lqia
+晽	lvei	1	lvia
 粦	lmua	1	lmou
 碄	lsei	1	lseu
 箖	lpei	1	lpue
 隣	lvou	1	lvai
-獜	lqou	1	lqua
+獜	lqo	1	lqua
 潾	ldou	1	ldoo
 璘	lwou	1	lwee
-暽	lqou	1	lqia
+暽	lvou	1	lvia
 斴	ljou	1	ljou
 燐	lhou	1	lhou
 疄	ltou	1	ltia
@@ -16105,7 +16105,7 @@ columns:
 彾	lcuo	1	lcuu
 狑	lquo	1	lqua
 姈	lnuo	1	lnau
-昤	lquo	1	lqia
+昤	lvuo	1	lvia
 朎	lvuo	1	lvua
 砱	lsuo	1	lseu
 秢	lhuo	1	lhue
@@ -16201,7 +16201,7 @@ columns:
 鬸	ltei	1	ltei
 飂	lfa	1	lfua
 囖	lkue	1	lkia
-昽	lqeu	1	lqia
+昽	lveu	1	lvia
 眬	lmeu	1	lmia
 竜	nlia	1	nloe
 湰	ldua	1	ldoo
@@ -16346,8 +16346,8 @@ columns:
 鵉	lnoe	1	lnoe
 圝	lkoe	1	lkia
 奱	ldoe	1	ldoe
-曫	lqoe	1	lqoe
-曫	mqoe	1	mqoe
+曫	lvoe	1	lvoe
+曫	mvoe	1	mvoe
 灓	lsoe	1	lsoe
 羉	lzoe	1	lzia
 虊	lcoe	1	lcei
@@ -16399,7 +16399,7 @@ columns:
 躶	lsia	1	lsui
 臝	lwai	1	lwoe
 攞	lfia	1	lfei
-曪	lqia	1	lqia
+曪	lvia	1	lvia
 癳	lbia	1	lboe
 泺	pdua	1	pdoo
 峈	lsua	1	lsia
@@ -16412,7 +16412,7 @@ columns:
 馿	lmoa	1	lmei
 氀	lmia	1	lmia
 藘	lcie	1	lcei
-曥	lqie	1	lqia
+曥	lvie	1	lvia
 鷜	lnia	1	lnia
 郘	lvia	1	lvia
 梠	lmia	1	lmei
@@ -16483,10 +16483,10 @@ columns:
 鏋	mjei	1	mjuo
 鄤	fvia	1	fvia
 鄤	mvia	1	mvia
-僈	mria	1	mrui
+僈	mri	1	mrui
 摱	mfia	1	mfei
 蔄	mcia	1	mcei
-獌	mqia	1	mqua
+獌	mqi	1	mqua
 嫚	mnia	1	mnau
 槾	mmia	1	mmei
 澫	ldei	1	ldoo
@@ -16541,7 +16541,7 @@ columns:
 髳	mba	1	mbei
 鶜	mnei	1	mnei
 夘	wxai	1	wxua
-戼	mzea	1	mzae
+戼	mzea	1	NULL
 铆	ljua	1	ljue
 笷	mpu	1	mpue
 蓩	mcao	1	mcei
@@ -16556,7 +16556,7 @@ columns:
 楙	mmao	1	mmei
 毷	mmia	1	mmia
 獏	mqei	1	mqua
-暓	mqao	1	mqao
+暓	mvao	1	mvao
 愗	mxao	1	mxao
 鄮	mvua	1	mvua
 蝐	mcia	1	mcia
@@ -16622,7 +16622,7 @@ columns:
 菛	mcia	1	mcei
 璊	mwei	1	mwee
 虋	mcui	1	mcei
-暪	mqei	1	mqia
+暪	mvei	1	mvia
 擝	mfi	1	mfei
 莔	mcia	1	mcei
 冡	mgee	1	mgoa
@@ -16639,7 +16639,7 @@ columns:
 濛	mdei	1	mdoo
 懞	mlei	1	mloo
 氋	mmei	1	mmei
-曚	mqei	1	mqia
+曚	mvei	1	mvia
 鹲	mnei	1	mnei
 礞	msei	1	mseu
 矇	mmei	1	mmia
@@ -16768,8 +16768,8 @@ columns:
 鑖	mjei	1	mjuo
 鱴	mvei	1	mvua
 玟	wwoe	1	wwee
-旻	mqoe	1	mqia
-旼	mqoe	1	mqia
+旻	mvoe	1	mvia
+旼	mvoe	1	mvia
 怋	mlae	1	mloo
 姄	mnae	1	mnau
 盿	mmoe	1	mmia
@@ -16784,7 +16784,7 @@ columns:
 碈	msua	1	mseu
 鈱	mjae	1	mjuo
 痻	mbua	1	mboe
-暋	mqae	1	mqae
+暋	mvae	1	mvae
 緍	mjua	1	mjaa
 賯	xbua	1	xbia
 錉	mjua	1	mjuo
@@ -16801,7 +16801,7 @@ columns:
 敯	hqae	1	hqae
 敯	mqae	1	mqae
 慜	mxue	1	mxue
-僶	mri	1	mrui
+僶	mria	1	mrui
 潣	mdia	1	mdoo
 簢	mpia	1	mpue
 簢	vpia	1	vpue
@@ -16812,7 +16812,7 @@ columns:
 朙	mvia	1	mvia
 鄍	mvoa	1	mvoa
 蓂	mcoa	1	mcei
-猽	mqoa	1	mqua
+猽	mqo	1	mqua
 嫇	mnoa	1	mnau
 榠	mmoa	1	mmei
 覭	mjoa	1	mjoa
@@ -16838,12 +16838,12 @@ columns:
 劰	mbau	1	mbui
 歾	mdua	1	mdeu
 歾	wdua	1	wdeu
-冐	mqia	1	mqia
+冐	mvia	1	mvia
 帓	mjee	1	mjia
 怽	mlee	1	mloo
 妺	mnee	1	mnau
 枺	mmee	1	mmei
-昩	mqee	1	mqia
+昩	mvee	1	mvia
 帞	mjeu	1	mjia
 莈	mcoo	1	mcei
 砞	msee	1	mseu
@@ -16860,7 +16860,7 @@ columns:
 嗼	mkei	1	mkia
 貉	mzua	1	mzuo
 靺	mgee	1	mgei
-暯	mqei	1	mqia
+暯	mvei	1	mvia
 銆	mjeu	1	mjuo
 瞙	mmei	1	mmia
 瞐	mmia	1	mmia
@@ -16953,7 +16953,7 @@ columns:
 娚	nnia	1	nnau
 萳	ncei	1	ncei
 遖	nlei	1	nlei
-暔	nqe	1	nqia
+暔	nvei	1	nvia
 諵	nyei	1	nyoe
 揇	nfei	1	nfei
 湳	ndei	1	ndoo
@@ -16979,7 +16979,7 @@ columns:
 蛲	rcea	1	rcia
 詉	nya	1	nyoe
 嶩	nsia	1	nsia
-獶	nqeu	1	nqua
+獶	nqe	1	nqua
 夒	nweu	1	nweu
 巎	nseu	1	nsia
 獿	nqeu	1	nqua
@@ -17024,11 +17024,11 @@ columns:
 柅	nmae	1	nmei
 掜	nfui	1	nfei
 掜	yfui	1	yfei
-晲	nqui	1	nqia
-晲	yqui	1	yqia
+晲	nvui	1	nvia
+晲	yvui	1	yvia
 鉨	njua	1	njuo
 鉨	xjua	1	xjuo
-孴	nqai	1	nqai
+孴	nvai	1	nvai
 馜	nhia	1	nhue
 儞	nreu	1	nrui
 隬	nveu	1	nvai
@@ -17045,7 +17045,7 @@ columns:
 惄	nxie	1	nxie
 愵	nlae	1	nloo
 嫟	nnee	1	nnau
-暱	nqee	1	nqia
+暱	nvee	1	nvia
 誽	nyui	1	nyoe
 縌	njou	1	njaa
 懝	vlua	1	vloo
@@ -17057,7 +17057,7 @@ columns:
 秥	nhie	1	nhue
 鮎	nvie	1	nvua
 鵇	nnue	1	nnue
-淰	ndu	1	ndoo
+淰	nduo	1	ndoo
 焾	nhuo	1	nhou
 簐	npe	1	npue
 躎	nzeu	1	nzia
@@ -17073,13 +17073,13 @@ columns:
 苶	ncuo	1	ncei
 肀	nzee	1	nzae
 帇	nxi	1	nxae
-圼	nqei	1	nqia
+圼	nvei	1	nvia
 枿	nmei	1	nmei
 菍	ncuo	1	ncei
 惗	nluo	1	nloo
 敜	dwuo	1	dwuo
 敜	nwu	1	nwuo
-湼	ndui	1	ndoo
+湼	ndu	1	ndoo
 嵲	nsui	1	nsia
 鉩	xjuo	1	xjuo
 踂	nzei	1	nzia
@@ -17118,10 +17118,10 @@ columns:
 儜	nroo	1	nrui
 薴	ncoo	1	ncei
 薴	zcoo	1	zcei
-嬣	nnoo	1	nnau
+嬣	nno	1	nnau
 鑏	njo	1	njuo
 鬡	nbo	1	nbei
-鸋	nno	1	nnoo
+鸋	nnoo	1	nnoo
 橣	nmoo	1	nmei
 矃	nmoo	1	nmia
 侫	nroe	1	nrui
@@ -17171,7 +17171,7 @@ columns:
 搙	nfeu	1	nfei
 奻	nnau	1	nnau
 渜	ndeu	1	ndoo
-暖	xquo	1	xqia
+暖	xvuo	1	xvia
 煗	nheu	1	nhou
 餪	nseu	1	nsuo
 硸	nsia	1	nseu
@@ -17216,7 +17216,7 @@ columns:
 腢	vvia	1	vvua
 蕅	vcoo	1	vcei
 帊	pjai	1	pjia
-妑	pna	1	pnau
+妑	pnai	1	pnau
 皅	pbai	1	pbui
 舥	pzai	1	pzuu
 杷	bmai	1	bmei
@@ -17311,7 +17311,7 @@ columns:
 毰	pmoe	1	pmue
 俖	preu	1	prui
 伂	prei	1	prui
-昢	pqa	1	pqia
+昢	pvai	1	pvia
 斾	pfue	1	pfoe
 姵	pnua	1	pnau
 珮	pwua	1	pwee
@@ -17325,7 +17325,7 @@ columns:
 葐	pcuo	1	pcei
 呠	pkei	1	pkia
 翸	pvei	1	pvei
-歕	pqe	1	pqei
+歕	pqei	1	pqei
 匉	pbeo	1	pbua
 恲	plou	1	ploo
 梈	pmoe	1	pmei
@@ -17374,8 +17374,8 @@ columns:
 伓	preu	1	prui
 伾	preu	1	prui
 抷	pfeu	1	pfei
-狉	pqeu	1	pqua
-狓	pqau	1	pqua
+狉	pqe	1	pqua
+狓	pqa	1	pqua
 炋	pheu	1	phou
 怶	plau	1	ploo
 秠	pheu	1	phue
@@ -17412,7 +17412,7 @@ columns:
 崥	psui	1	psia
 豼	pzea	1	pzuo
 猈	bqui	1	bqua
-猈	pqui	1	pqua
+猈	pqu	1	pqua
 椑	bmui	1	bmei
 椑	pmui	1	pmei
 腗	pvia	1	pvua
@@ -17443,7 +17443,7 @@ columns:
 疈	ptei	1	ptei
 闢	bmae	1	bmia
 闢	pmae	1	pmia
-鷿	pnae	1	pnae
+鷿	pna	1	pnae
 囨	pkeu	1	pkia
 媥	pnoa	1	pnau
 甂	bwoa	1	bwoa
@@ -17479,7 +17479,7 @@ columns:
 徱	pcei	1	pcuu
 慓	plei	1	ploo
 氕	pquu	1	pque
-暼	pqo	1	pqou
+暼	pvou	1	pvou
 撆	psou	1	psou
 鐅	pjou	1	pjou
 嫳	bnou	1	bnou
@@ -17500,7 +17500,7 @@ columns:
 蠙	pcoo	1	pcia
 朩	phiu	1	phei
 汖	psia	1	psia
-甹	pqee	1	pqia
+甹	pvee	1	pvia
 砯	psoi	1	pseu
 涄	pdia	1	pdoo
 聠	pvou	1	pvei
@@ -17587,21 +17587,21 @@ columns:
 酺	pyei	1	pyei
 僕	prii	1	prui
 墣	ptii	1	ptei
-獛	bqii	1	bqua
+獛	bqi	1	bqua
 瞨	pmii	1	pmia
 穙	phii	1	phue
 贌	pbi	1	pbia
 纀	pjui	1	pjaa
 烳	phei	1	phou
 圑	tkei	1	tkia
-暜	tqoe	1	tqoe
+暜	tvoe	1	tvoe
 諩	pyou	1	pyoe
 潽	pdou	1	pdoo
 氆	bmou	1	bmue
 檏	pmii	1	pmei
 舖	pree	1	pruo
 舗	prei	1	pruo
-曝	bqia	1	bqia
+曝	bvia	1	bvia
 迉	qlae	1	qlae
 迉	slae	1	slae
 恓	qlei	1	qloo
@@ -17672,7 +17672,7 @@ columns:
 鬿	qguu	1	qgui
 愭	qlei	1	qloo
 褀	qnei	1	qnoa
-蜝	qqia	1	qqei
+蜝	qqi	1	qqei
 粸	qmei	1	qmou
 綨	qjei	1	qjaa
 綥	qjia	1	qjaa
@@ -17711,7 +17711,7 @@ columns:
 啓	qkoa	1	qkoa
 婍	qneu	1	qnau
 棨	qmoa	1	qmoa
-晵	qqoa	1	qqoa
+晵	qvoa	1	qvoa
 裿	yneu	1	ynoa
 諬	qyue	1	qyue
 簯	qpei	1	qpue
@@ -17733,7 +17733,7 @@ columns:
 愒	klia	1	kloo
 愒	qlia	1	qloo
 碶	qsee	1	qseu
-暣	qque	1	qqia
+暣	qvue	1	qvia
 甈	qwui	1	qwui
 槭	cmeu	1	cmei
 噐	qkia	1	qkia
@@ -17810,7 +17810,7 @@ columns:
 乾	gsia	1	gsei
 軡	qcuo	1	qcei
 偂	jrou	1	jrui
-朁	cqea	1	cqea
+朁	cvea	1	cvea
 媊	qnou	1	qnau
 鉆	zjie	1	zjuo
 墘	qtei	1	qtei
@@ -17989,7 +17989,7 @@ columns:
 蠄	qcuo	1	qcia
 鵭	qjui	1	qjuo
 坅	qtuo	1	qtei
-昑	qquo	1	qqia
+昑	qvuo	1	qvia
 笉	cpua	1	cpue
 笉	zpua	1	zpue
 赾	qzuu	1	qzei
@@ -18020,7 +18020,7 @@ columns:
 鶄	jqui	1	jqee
 鑋	qjei	1	qjei
 夝	qxue	1	qxua
-甠	qque	1	qqia
+甠	qvue	1	qvia
 勍	qloe	1	qloe
 摵	sfeu	1	sfei
 蔎	scoe	1	scei
@@ -18067,7 +18067,7 @@ columns:
 薓	scoo	1	scei
 鲹	svao	1	svua
 燊	smou	1	smou
-曑	sqia	1	sqia
+曑	svia	1	svia
 鵢	ssui	1	ssui
 鯓	nvui	1	nvua
 鯓	svui	1	svua
@@ -18088,12 +18088,12 @@ columns:
 訠	syae	1	syoe
 頣	yyei	1	yyei
 魫	svoa	1	svua
-曋	qqei	1	qqia
-曋	tqei	1	tqia
+曋	qvei	1	qvia
+曋	tvei	1	tvia
 瞫	smei	1	smia
 讅	syoo	1	syoe
 覾	sjoo	1	sjoo
-昚	sqeu	1	sqeu
+昚	sveu	1	sveu
 侺	sria	1	srui
 眘	smeu	1	smeu
 脤	sveu	1	svua
@@ -18108,7 +18108,7 @@ columns:
 斘	sxoo	1	sxua
 苼	rcue	1	rcei
 枡	smue	1	smei
-昇	sque	1	sqia
+昇	svue	1	svia
 狌	sque	1	squa
 狌	xque	1	xqua
 泩	sdue	1	sdoo
@@ -18116,7 +18116,7 @@ columns:
 殅	sdue	1	sdeu
 竔	slue	1	sloe
 陞	svue	1	svai
-曻	squa	1	sqia
+曻	svua	1	svia
 陹	svue	1	svai
 焺	shia	1	shou
 湦	sdia	1	sdoo
@@ -18132,7 +18132,7 @@ columns:
 偗	sriu	1	srui
 渻	xdiu	1	xdoo
 胜	xvue	1	xvua
-晠	sqeu	1	sqia
+晠	sveu	1	svia
 剰	slue	1	slue
 貹	sbue	1	sbia
 琞	wwia	1	wwia
@@ -18200,8 +18200,8 @@ columns:
 柹	smua	1	smei
 呩	skee	1	skia
 枾	smei	1	smei
-昰	sqei	1	sqia
-昰	xqei	1	xqia
+昰	svei	1	svia
+昰	xvei	1	xvia
 眂	smua	1	smia
 适	glue	1	glue
 适	klue	1	klue
@@ -18451,7 +18451,7 @@ columns:
 謏	syui	1	syoe
 謏	xyui	1	xyoe
 櫢	smia	1	smei
-欶	sqei	1	sqei
+欶	sqe	1	sqei
 瘶	sbei	1	sboe
 甦	shia	1	shei
 稣	wvue	1	wvua
@@ -18571,7 +18571,7 @@ columns:
 簔	spoe	1	spue
 鮻	svao	1	svua
 琑	swio	1	swee
-暛	sqou	1	sqia
+暛	svou	1	svia
 溑	sdio	1	sdoo
 鎍	sjei	1	sjuo
 鎻	sjaa	1	sjuo
@@ -18605,7 +18605,7 @@ columns:
 嚃	tkia	1	tkia
 錔	tjia	1	tjuo
 鞜	tgi	1	tgei
-濌	tque	1	tque
+濌	tvue	1	tvue
 鞳	tgei	1	tgei
 鎉	djia	1	djuo
 鎉	tjia	1	tjuo
@@ -18616,8 +18616,8 @@ columns:
 囼	tkao	1	tkia
 孡	tzao	1	tzai
 珆	ywao	1	ywee
-旲	tqeu	1	tqia
-旲	yqeu	1	yqia
+旲	tveu	1	tvia
+旲	yveu	1	yvia
 坮	tta	1	ttei
 骀	tmao	1	tmaa
 炲	thao	1	thou
@@ -18677,7 +18677,7 @@ columns:
 嗿	tkuo	1	tkia
 憳	tlae	1	tloo
 醓	tyoa	1	tyei
-暺	dqia	1	dqia
+暺	dvia	1	dvia
 憻	tloe	1	tloo
 璮	twoe	1	twee
 襢	tnoe	1	tnoa
@@ -18729,7 +18729,7 @@ columns:
 鎲	tjio	1	tjuo
 戃	clio	1	cloo
 戃	tlio	1	tloo
-曭	tqi	1	tqia
+曭	tvio	1	tvia
 爣	thio	1	thou
 矘	tmio	1	tmia
 钂	tjio	1	tjuo
@@ -18784,7 +18784,7 @@ columns:
 籘	tpua	1	tpue
 虅	tcua	1	tcei
 驣	tmou	1	tmei
-霯	dva	1	dveo
+霯	dvao	1	dveo
 霯	tvao	1	tveo
 鷈	snuu	1	snui
 鷈	tnuu	1	tnui
@@ -18812,7 +18812,7 @@ columns:
 徲	ccae	1	ccuu
 徲	tcae	1	tcuu
 漽	tdae	1	tdoo
-趧	dzi	1	dzei
+趧	dzia	1	dzei
 趧	tzia	1	tzei
 鴺	tnea	1	tnea
 鴺	ynea	1	ynea
@@ -18841,7 +18841,7 @@ columns:
 掦	tfia	1	tfei
 逷	tlia	1	tlia
 悐	txua	1	txua
-惖	tqu	1	tqia
+惖	tvua	1	tvia
 褅	tnoe	1	tnoa
 髰	tbei	1	tbei
 殢	tdeu	1	tdeu
@@ -18855,7 +18855,7 @@ columns:
 趯	yzao	1	yzei
 兲	twuo	1	twee
 婖	tnee	1	tnau
-靔	tque	1	tqee
+靔	tqu	1	tqee
 酟	tyie	1	tyei
 黇	tkei	1	tkei
 靝	tque	1	tqee
@@ -18889,7 +18889,7 @@ columns:
 悿	tlee	1	tloo
 琠	dwia	1	dwee
 琠	twia	1	twee
-晪	tqia	1	tqia
+晪	tvia	1	tvia
 觍	tjia	1	tjia
 睓	tmia	1	tmia
 痶	dbia	1	dboe
@@ -18902,7 +18902,7 @@ columns:
 瑱	zwei	1	zwee
 睼	tmia	1	tmia
 舚	tsua	1	tsue
-旫	tqa	1	tqia
+旫	tvau	1	tvia
 庣	tguo	1	tgoe
 恌	tluo	1	tloo
 恌	yluo	1	yloo
@@ -18923,7 +18923,7 @@ columns:
 鎥	tjui	1	tjui
 儵	sriu	1	srui
 宨	tguo	1	tgoo
-晀	tquo	1	tqia
+晀	tvuo	1	tvia
 誂	dyuo	1	dyoe
 誂	tyuo	1	tyoe
 窱	txui	1	txoo
@@ -18940,7 +18940,7 @@ columns:
 怗	tlie	1	tloo
 聑	dvei	1	dvei
 聑	tvei	1	tvei
-跕	dzie	1	dzia
+跕	dzi	1	dzia
 铁	yjue	1	yjue
 蛈	tcue	1	tcia
 鉄	tjue	1	tjuo
@@ -18996,8 +18996,8 @@ columns:
 峂	tsua	1	tsia
 庝	tgua	1	tgoe
 哃	tkia	1	tkia
-狪	tqia	1	tqua
-晍	tqia	1	tqia
+狪	tqi	1	tqua
+晍	tvia	1	tvia
 蚒	tcua	1	tcia
 烔	thia	1	thou
 浵	tdua	1	tdoo
@@ -19016,11 +19016,11 @@ columns:
 餇	tsia	1	tsuo
 鲖	tvia	1	tvua
 勭	tloe	1	tloe
-獞	tqoe	1	tqua
+獞	tqo	1	tqua
 獞	zqoe	1	zqua
 橦	cmoe	1	cmei
 橦	tmoe	1	tmei
-曈	tqoe	1	tqia
+曈	tvoe	1	tvia
 犝	tnoe	1	tnue
 朣	tvoe	1	tvua
 膧	tvoe	1	tvua
@@ -19083,7 +19083,7 @@ columns:
 廜	tgae	1	tgoe
 潳	tdae	1	tdoo
 潳	zdae	1	zdoo
-馟	thi	1	thue
+馟	thia	1	thue
 駼	tmuo	1	tmei
 鍎	tjuu	1	tjuo
 鵌	tnuo	1	tnui
@@ -19099,7 +19099,7 @@ columns:
 鵵	tnua	1	tnua
 猯	tqia	1	tqua
 圕	tkae	1	tkia
-煓	thia	1	thou
+煓	thi	1	thou
 貒	tzia	1	tzuo
 団	tkei	1	tkia
 漙	tdei	1	tdoo
@@ -19137,7 +19137,7 @@ columns:
 螁	tcae	1	tcia
 駾	tmou	1	tmei
 呑	tkue	1	tkue
-旽	tqea	1	tqia
+旽	tvea	1	tvia
 涒	tdae	1	tdoo
 涒	ydae	1	ydoo
 朜	tvoe	1	tvua
@@ -19253,16 +19253,16 @@ columns:
 琓	wwoo	1	wwee
 埦	wtoo	1	wtei
 梚	wmua	1	wmei
-晥	hqoo	1	hqia
-晥	wqo	1	wqia
+晥	hvoo	1	hvia
+晥	wvoo	1	wvia
 脘	gvoo	1	gvua
 涴	wdoo	1	wdoo
 涴	ydoo	1	ydoo
 葂	mcua	1	mcei
 葂	wcua	1	wcei
 椀	wmoo	1	wmei
-晩	wqu	1	wqia
-晼	wqoo	1	wqia
+晩	wvua	1	wvia
+晼	wvoo	1	wvia
 皖	hboo	1	hbui
 輓	wcua	1	wcei
 綩	wjoo	1	wjaa
@@ -19295,7 +19295,7 @@ columns:
 徃	wcue	1	wcuu
 菵	wcia	1	wcei
 棢	wmia	1	wmei
-暀	wquu	1	wqia
+暀	wvuu	1	wvia
 蛧	wcia	1	wcia
 蝄	wcia	1	wcia
 誷	wyia	1	wyoe
@@ -19371,7 +19371,7 @@ columns:
 廆	wgui	1	wgoe
 愇	wlai	1	wloo
 椲	wmai	1	wmei
-暐	wqa	1	wqia
+暐	wva	1	wvia
 腲	wvia	1	wvua
 蜲	wcue	1	wcia
 蜼	wcui	1	wcia
@@ -19426,7 +19426,7 @@ columns:
 讆	wyuu	1	wyuu
 躛	wzuu	1	wzuu
 讏	wyuu	1	wyuu
-昷	wqia	1	wqia
+昷	wvia	1	wvia
 塭	wtia	1	wtei
 瑥	wwia	1	wwee
 榅	wmia	1	wmei
@@ -19471,7 +19471,7 @@ columns:
 穏	whuo	1	whue
 汶	mdoe	1	mdoo
 妏	wnoe	1	wnau
-揾	wfi	1	wfei
+揾	wfia	1	wfei
 搵	wfia	1	wfei
 顐	hyoa	1	hyoa
 滃	wduo	1	wdoo
@@ -19482,7 +19482,7 @@ columns:
 勜	wluo	1	wluo
 塕	wtuo	1	wtei
 嵡	wsuo	1	wsia
-暡	wquo	1	wqia
+暡	wvuo	1	wvia
 瞈	wmuo	1	wmia
 聬	wvuo	1	wvei
 攚	yfou	1	yfei
@@ -19496,7 +19496,7 @@ columns:
 涹	wdue	1	wdoo
 蜗	gcia	1	gcia
 踒	wzue	1	wzia
-捰	wfia	1	wfei
+捰	wfi	1	wfei
 婐	vnia	1	vnau
 婐	wnia	1	wnau
 婑	rnue	1	rnau
@@ -19509,7 +19509,7 @@ columns:
 焥	yhoo	1	yhou
 媉	wnae	1	wnau
 楃	wmae	1	wmei
-腛	wva	1	wvua
+腛	wvae	1	wvua
 瞃	wmuu	1	wmia
 瓁	hwei	1	hwee
 瓁	wwei	1	wwee
@@ -19524,7 +19524,7 @@ columns:
 窏	wxo	1	wxoo
 剭	wla	1	wlae
 誈	wyea	1	wyoe
-歍	wqui	1	wqui
+歍	wqu	1	wqui
 歍	yqui	1	yqui
 箼	wpae	1	wpue
 螐	wcui	1	wcia
@@ -19549,7 +19549,7 @@ columns:
 鷡	wnue	1	wnue
 乄	wzoo	1	wzao
 玝	wwue	1	wwee
-旿	wque	1	wqia
+旿	wvue	1	wvia
 俉	wrei	1	wrui
 倵	wree	1	wrui
 啎	wkue	1	wkue
@@ -19613,12 +19613,12 @@ columns:
 赥	xcua	1	xcei
 桸	xmuo	1	xmei
 唽	xkei	1	xkia
-晞	xquo	1	xqia
+晞	xvuo	1	xvia
 焁	xhia	1	xhia
 釸	xjua	1	xjuo
 渓	xduo	1	xdoo
 焈	xhoa	1	xhoa
-晳	xqei	1	xqei
+晳	xvei	1	xvei
 惁	xxei	1	xxei
 睎	xmuo	1	xmia
 傒	xruo	1	xrui
@@ -19710,7 +19710,7 @@ columns:
 歖	yqei	1	yqei
 憙	xxei	1	xxei
 橲	xmei	1	xmei
-暿	xqei	1	xqia
+暿	xvei	1	xvia
 諰	vyia	1	vyoe
 諰	xyia	1	xyoe
 壐	xteu	1	xteu
@@ -19726,7 +19726,7 @@ columns:
 卌	xhii	1	xhei
 呬	lkia	1	lkia
 呬	xkia	1	xkia
-忥	xqoa	1	xque
+忥	xqo	1	xque
 怬	xlia	1	xloo
 盻	xmuo	1	xmia
 咥	dkea	1	dkia
@@ -19795,7 +19795,7 @@ columns:
 赮	xcae	1	xcei
 螛	hcoo	1	hcia
 螛	xcoo	1	xcia
-魻	qvi	1	qvua
+魻	qvia	1	qvua
 魻	xvia	1	xvua
 縖	xjoo	1	xjaa
 鍜	xjae	1	xjuo
@@ -19889,7 +19889,7 @@ columns:
 険	xvuo	1	xvai
 赻	xziu	1	xzei
 尠	xqai	1	xqei
-尟	xqei	1	xqia
+尟	xvei	1	xvia
 禒	tnaa	1	tnoa
 禒	xnaa	1	xnoa
 箲	xpoo	1	xpue
@@ -19914,7 +19914,7 @@ columns:
 涀	xdia	1	xdoo
 娨	mnia	1	mnau
 娊	xnia	1	xnau
-晛	xqia	1	xqia
+晛	xvia	1	xvia
 睍	xmia	1	xmia
 羡	yyoe	1	yyou
 缐	xjui	1	xjaa
@@ -19960,7 +19960,7 @@ columns:
 跭	xzua	1	xzia
 亯	xwia	1	xwoe
 蚃	xcaa	1	xcaa
-晑	xqui	1	xqia
+晑	xvui	1	xvia
 銄	jjui	1	jjuo
 鮝	xvou	1	xvou
 蠁	xcaa	1	xcaa
@@ -19977,7 +19977,7 @@ columns:
 嶑	xsua	1	xsia
 潒	ddua	1	ddoo
 潒	xdua	1	xdoo
-曏	xqaa	1	xqia
+曏	xvaa	1	xvia
 襐	xnua	1	xnoa
 嚮	xzau	1	xzaa
 鐌	xjua	1	xjuo
@@ -20039,7 +20039,7 @@ columns:
 訤	nyuo	1	nyoe
 淆	yduo	1	ydoo
 誵	xyuo	1	xyoe
-暁	xqei	1	xqia
+暁	xvei	1	xvia
 筿	xpua	1	xpue
 皛	jbui	1	jbui
 皛	ybui	1	ybui
@@ -20058,11 +20058,11 @@ columns:
 誟	xyei	1	xyoe
 熽	xhae	1	xhou
 歗	cqa	1	cqae
-歗	xqae	1	xqae
+歗	xqa	1	xqae
 斅	xqui	1	xqui
 斆	xwui	1	xwui
 蝎	hcia	1	hcia
-旪	xqei	1	xqia
+旪	xvei	1	xvia
 奊	ltei	1	ltei
 奊	xtei	1	xtei
 垥	xtuo	1	xtei
@@ -20119,7 +20119,7 @@ columns:
 塮	xtui	1	xtei
 僁	xruo	1	xrui
 褉	xnee	1	xnoa
-暬	xqei	1	xqei
+暬	xvei	1	xvei
 碿	xsae	1	xseu
 噧	xkei	1	xkia
 屧	xsuu	1	xsae
@@ -20184,7 +20184,7 @@ columns:
 篂	xpia	1	xpue
 鮏	xvue	1	xvua
 謃	xyia	1	xyoe
-曐	xqia	1	xqia
+曐	xvia	1	xvia
 觲	xjou	1	xjua
 皨	xtui	1	xtui
 嬹	xnui	1	xnau
@@ -20262,7 +20262,7 @@ columns:
 繍	xjae	1	xjaa
 鏥	xjoo	1	xjuo
 齅	xbui	1	xbui
-旴	xqee	1	xqia
+旴	xvee	1	xvia
 疞	xbee	1	xboe
 姁	xnua	1	xnau
 欨	xqua	1	xqua
@@ -20298,9 +20298,9 @@ columns:
 许	hyue	1	hyoa
 呴	xkua	1	xkia
 珝	xwao	1	xwee
-冔	xqia	1	xqia
+冔	xvia	1	xvia
 蛡	ycao	1	ycia
-暊	fqeu	1	fqia
+暊	fveu	1	fvia
 鄦	xvue	1	xvue
 盨	xmuu	1	xmuu
 伵	xria	1	xrui
@@ -20308,19 +20308,19 @@ columns:
 沀	xsao	1	xsia
 侐	xrui	1	xrui
 卹	xxai	1	xxui
-昫	xqua	1	xqia
+昫	xvua	1	xvia
 珬	xweu	1	xwee
 垿	xtoe	1	xtei
 殈	xdui	1	xdeu
 欰	xxua	1	xxui
 烅	xhui	1	xhou
-勗	xqia	1	xqia
+勗	xvia	1	xvia
 敍	xquo	1	xquo
 烼	hheu	1	hhou
 烼	xheu	1	xhou
 聓	xvei	1	xvei
 壻	xtai	1	xtei
-朂	xqei	1	xqia
+朂	xvei	1	xvia
 喣	xlia	1	xlia
 訹	xyei	1	xyoe
 湑	xdai	1	xdoo
@@ -20343,9 +20343,9 @@ columns:
 鱮	yvui	1	yvua
 蓿	scoo	1	scei
 吅	xkia	1	xkia
-昍	xqia	1	xqia
+昍	xvia	1	xvia
 咺	xkei	1	xkia
-晅	xqei	1	xqia
+晅	xvei	1	xvia
 塇	xtoo	1	xtei
 萲	xcuo	1	xcei
 萲	ycuo	1	ycei
@@ -20379,7 +20379,7 @@ columns:
 噯	vkuo	0	vkia
 嬡	vnuo	0	vnau
 璦	vwuo	0	vwee
-曖	vquo	0	vqia
+曖	vvuo	0	vvia
 礙	vsua	0	vseu
 礙	ysua	0	yseu
 𩽾	vvoo	0	vvua
@@ -20429,7 +20429,7 @@ columns:
 鏰	bjia	0	bjuo
 鰏	bvei	0	bvua
 筆	bpae	0	bpue
-畢	bqei	0	bqia
+畢	bvei	0	bvia
 閉	bmei	0	bmia
 詖	byau	0	byoe
 蓽	bcia	0	bcei
@@ -20567,15 +20567,15 @@ columns:
 鱨	cvio	0	cvua
 廠	cgio	0	cgoe
 悵	clei	0	cloo
-暢	cqii	0	cqia
+暢	cvii	0	cvia
 鈔	cjiu	0	cjuo
-鼂	cqei	0	cqia
-鼂	zqei	0	zqia
+鼂	cvei	0	cvia
+鼂	zvei	0	zvia
 車	chia	0	chei
 車	jhia	0	jhei
 硨	csei	0	cseu
 徹	ccoe	0	ccuu
-㬚	cqoe	0	cqia
+㬚	cvoe	0	cvia
 塵	clei	0	cloe
 諶	cyei	0	cyoe
 磣	csao	0	cseu
@@ -21094,7 +21094,7 @@ columns:
 鍰	hjuo	0	hjuo
 繯	hjia	0	hjaa
 闤	hmia	0	hmia
-㬊	hquo	0	hqia
+㬊	hvuo	0	hvia
 緩	hjuo	0	hjaa
 奐	hdia	0	hdua
 換	hfua	0	hfei
@@ -21112,7 +21112,7 @@ columns:
 㿠	hbio	0	hbui
 㧑	hfou	0	hfei
 揮	hfoa	0	hfei
-暉	hqoa	0	hqia
+暉	hvoa	0	hvia
 詼	hyeu	0	hyoe
 輝	hxeu	0	hxio
 噅	hkuo	0	hkia
@@ -21308,7 +21308,7 @@ columns:
 謹	jyei	0	jyoe
 饉	jsei	0	jsuo
 勁	jlea	0	jlea
-晉	jqea	0	jqea
+晉	jvea	0	jvea
 進	jlui	0	jlui
 盡	jmae	0	jmae
 縉	jjei	0	jjaa
@@ -21439,7 +21439,7 @@ columns:
 貺	kbia	0	kbia
 鄺	kvoe	0	kvoe
 壙	ktoe	0	ktei
-曠	kqoe	0	kqia
+曠	kvoe	0	kvia
 礦	gsoe	0	gseu
 礦	ksoe	0	kseu
 纊	kjoe	0	kjaa
@@ -21505,7 +21505,7 @@ columns:
 爛	lhia	0	lhou
 閬	lmoa	0	lmia
 鋃	ljoa	0	ljuo
-㫰	lqoa	0	lqia
+㫰	lvoa	0	lvia
 㮾	lmoa	0	lmoa
 撈	lfou	0	lfei
 勞	llou	0	llou
@@ -21547,7 +21547,7 @@ columns:
 蒞	lcoo	0	lcei
 厲	lcei	0	lceu
 勵	lleu	0	lleu
-曆	lqeu	0	lqeu
+曆	lveu	0	lveu
 鬁	lbue	0	lbei
 隸	lmee	0	lmei
 癘	jbei	0	jboe
@@ -21649,7 +21649,7 @@ columns:
 瀧	sdoe	0	sdoo
 瓏	lwoe	0	lwee
 櫳	lmoe	0	lmei
-曨	lqoe	0	lqia
+曨	lvoe	0	lvia
 朧	lvoe	0	lvua
 矓	lmoe	0	lmia
 礱	lleu	0	lloe
@@ -21885,7 +21885,7 @@ columns:
 顳	nyei	0	nyei
 寧	ngoa	0	ngoo
 嚀	nkoo	0	nkia
-獰	nqoo	0	nqua
+獰	nqo	0	nqua
 檸	nmoo	0	nmei
 聹	nvoo	0	nvei
 擰	nfoo	0	nfei
@@ -22176,7 +22176,7 @@ columns:
 篩	spui	0	spue
 釃	lyei	0	lyei
 釃	syei	0	syei
-曬	sqei	0	sqia
+曬	svei	0	svia
 刪	slia	0	slia
 姍	snia	0	snau
 姍	xnia	0	xnau
@@ -22229,7 +22229,7 @@ columns:
 鳲	ssui	0	ssae
 濕	sdia	0	sdoo
 鯴	svau	0	svua
-時	sqei	0	sqia
+時	svei	0	svia
 塒	stia	0	stei
 蒔	scia	0	scei
 蝕	ssia	0	ssuo
@@ -22325,7 +22325,7 @@ columns:
 嗩	skio	0	skia
 瑣	swio	0	swee
 鎖	sjio	0	sjuo
-獺	tqei	0	tqua
+獺	tqe	0	tqua
 鰨	tvia	0	tvua
 遝	dlia	0	dlia
 遝	tlia	0	tlia
@@ -22345,7 +22345,7 @@ columns:
 癱	tbei	0	tboe
 談	tyou	0	tyoe
 壇	ttoe	0	ttei
-曇	tqeo	0	tqia
+曇	tveo	0	tvia
 譚	tyei	0	tyoe
 鉭	djia	0	djuo
 鉭	tjia	0	tjuo
@@ -22578,7 +22578,7 @@ columns:
 癇	xbia	0	xboe
 鷳	xnia	0	xnia
 蜆	xcia	0	xcia
-㬎	xqaa	0	xqia
+㬎	xvaa	0	xvia
 險	xvuo	0	xvai
 嶮	xsuo	0	xsia
 嶮	ysuo	0	ysia
@@ -22620,7 +22620,7 @@ columns:
 囂	xkia	0	xkia
 驍	xmei	0	xmei
 蠨	xcei	0	xcia
-曉	xqei	0	xqia
+曉	xvei	0	xvia
 嘯	xkae	0	xkia
 蠍	xcia	0	xcia
 協	xsau	0	xsei
@@ -22753,7 +22753,7 @@ columns:
 瑒	cwia	0	cwee
 瑒	ywia	0	ywee
 楊	ymia	0	ymei
-暘	yqia	0	yqia
+暘	yvia	0	yvia
 煬	yhia	0	yhou
 瘍	ybia	0	yboe
 鍚	yjia	0	yjuo
@@ -22785,7 +22785,7 @@ columns:
 葉	xcei	0	xcei
 葉	ycei	0	ycei
 業	yyou	0	yyii
-曄	yqei	0	yqia
+曄	yvei	0	yvia
 燁	yhei	0	yhou
 鄴	yvii	0	yvii
 謁	yyia	0	yyoe
@@ -22970,7 +22970,7 @@ columns:
 嶽	ysua	0	ysia
 躍	yzao	0	yzia
 躒	lzui	0	lzia
-暈	yqoa	0	yqia
+暈	yvoa	0	yvia
 氳	yqia	0	yque
 轀	wcia	0	wcei
 贇	yboe	0	yboe
@@ -22998,7 +22998,7 @@ columns:
 攢	cfue	0	cfei
 攢	zfue	0	zfei
 趲	zzue	0	zzei
-暫	zqei	0	zqei
+暫	zvei	0	zvei
 鏨	zjei	0	zjei
 瓚	zwue	0	zwee
 讚	zyue	0	zyoe
@@ -23297,8 +23297,8 @@ columns:
 𫶇	dsei	0	dsia
 𫷷	xgue	0	xgoe
 𫸩	kgeu	0	kgae
-𬀩	wqee	0	wqia
-𬀪	xqia	0	xqia
+𬀩	wvee	0	wvia
+𬀪	xvia	0	xvia
 𬂩	jmeo	0	jmei
 𬃊	zmuu	0	zmei
 𬇕	wdea	0	wdoo
