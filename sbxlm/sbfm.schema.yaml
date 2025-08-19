@@ -131,6 +131,11 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;']"
       prefix: 2
+    # 大写补码分号变换
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?"
+      accept: "[;]"
+      prefix: 0
+      strategy: ignore
     # 单字模式
     - when: pro_char
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"

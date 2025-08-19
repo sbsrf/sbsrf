@@ -106,6 +106,19 @@ function this.func(key_event, env)
       return rime.process_results.kNoop
     end
   end
+  if (core.fm(schema_id) and incoming == ';'
+  and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?")) then
+    local start =  string.find(input, "%u")
+    local part1 = input:sub(1, 2) .. input:sub(start):lower()
+    local part2 = input:sub(3, start - 1)
+    context:clear()
+    context:push_input(part1)
+    env.engine:process_key(rime.KeyEvent("space"))
+    context:clear()
+    context:push_input(part2)
+    env.engine:process_key(rime.KeyEvent("space"))
+    return rime.process_results.kAccepted
+  end
   for _, rule in ipairs(env.popping) do
     local when = rule.when
     local success = false
