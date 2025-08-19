@@ -185,7 +185,7 @@ translator:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
     - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
-    - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO]{1,2}"
+    - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?"
 
 extended:
   dictionary: sbfm.extended

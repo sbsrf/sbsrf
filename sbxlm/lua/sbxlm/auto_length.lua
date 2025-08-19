@@ -467,9 +467,10 @@ local function translate_by_split(input, segment, env)
   local memory = env.static_memory
   local part1 = input:sub(1, 2)
   local part2 = input:sub(3)
-  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO]{1,2}") then
-    part1 = part1 .. input:sub(5):lower()
-    part2 = input:sub(3,4)
+  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
+    local start =  string.find(input, "%u")
+    part1 = part1 .. input:sub(start):lower()
+    part2 = input:sub(3, start - 1)
   end
   memory:dict_lookup(part1, false, 1)
   local text = ""
@@ -563,7 +564,7 @@ function this.func(input, segment, env)
     if (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
         or (core.fx(schema_id) and core.sxsb(input)) 
-        or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[AEUIO]{1,2}") then
+        or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
     return

@@ -47,7 +47,7 @@ table_popping:
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       prefix: 2
     # 大写补码
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuioAEUIO]{0,1}"
+    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO]?"
       accept: "[AEUIO]"
       strategy: append
 
