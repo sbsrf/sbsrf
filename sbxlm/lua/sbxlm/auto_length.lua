@@ -658,16 +658,6 @@ function this.func(input, segment, env)
     return
   end
 
-  if core.fm(schema_id) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]") then
-    if not env.single_selection then
-      local n, _ = string.find('aeuio', input:sub(-1))
-      if n >= #phrases then
-        translate_by_split(input, segment, env)
-        return
-      end
-    end
-  end
-
   -- 以下分 4 种情况实现自动码长的翻译策略
   -- 1. 如果输入的编码是一个动态编码的起始调整位，那么返回一个权重最高的候选
   -- 2. 如果输入的编码是基本编码的全码，那么返回所有的候选
@@ -790,33 +780,41 @@ function this.func(input, segment, env)
       ::continue::
     end
   end
-
-  if core.fm(schema_id) and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
-    if env.single_selection then
-      if #phrases == 0 then
-        translate_by_split(input, segment, env)
-        return         
-      end 
-      local found = false
-      for _, v in ipairs(phrases) do
-        if v.preedit == input then
-          -- 已经找到，但还要排除已经出现过的
-          for k, _ in pairs(env.known_candidates) do
-            if k == v.text and env.known_candidates[k] ~= input:len() then
-              goto again
-            end
-          end
-          -- 排除了已经出现过，还是有候选，算是真的找到了
-          found = true
-          break
-        end
-        ::again::
-      end
-      if not found then
-        translate_by_split(input, segment, env)
-        return           
-      end         
+  
+  if not env.single_selection and core.fm(schema_id) 
+  and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
+    local n, _ = string.find('aeuio', input:sub(-1))
+    if n >= #phrases then
+      translate_by_split(input, segment, env)
+      return
     end
+  end
+
+  if env.single_selection and core.fm(schema_id) 
+  and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1,2}") then
+    if #phrases == 0 then
+      translate_by_split(input, segment, env)
+      return         
+    end 
+    local found = false
+    for _, v in ipairs(phrases) do
+      if v.preedit == input then
+        -- 已经找到，但还要排除已经出现过的
+        for k, _ in pairs(env.known_candidates) do
+          if k == v.text and env.known_candidates[k] ~= input:len() then
+            goto again
+          end
+        end
+        -- 排除了已经出现过，还是有候选，算是真的找到了
+        found = true
+        break
+      end
+      ::again::
+    end
+    if not found then
+      translate_by_split(input, segment, env)
+      return           
+    end         
   end
 end
 
