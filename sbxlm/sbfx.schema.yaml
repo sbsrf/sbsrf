@@ -12,7 +12,7 @@ schema:
     - 戴石麟 <https://sbxlm.github.io>
     - 蓝落萧 <https://tansongchen.com>
   dependencies:
-    - sbjm
+    - sbfc
     - sbyp
     - bihua
     - zhlf
@@ -75,7 +75,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
-    - affix_segmentor@sbjm
+    - affix_segmentor@sbfc
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
     - affix_segmentor@emoji
@@ -85,7 +85,7 @@ engine:
   translators:
     - punct_translator
     - lua_translator@*sbxlm.auto_length
-    - table_translator@sbjm
+    - table_translator@sbfc
     - table_translator@bihua
     - script_translator@sbyp
     - script_translator@emoji
