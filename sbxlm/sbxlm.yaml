@@ -320,4 +320,3 @@ punctuator:
   symbols:
     __patch:
       - sbfh.yaml:/punctuator/symbols
-      - sbfh.yaml:/punctuator/emojis
