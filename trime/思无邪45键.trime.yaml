@@ -1303,7 +1303,6 @@ preset_keyboards:
         "keys/@38//long_click": Keyboard_default1
 
   sbfmzj:
-    lock: true
     ascii_mode: 0
     width: 10
     height: *主键高
