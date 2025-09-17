@@ -38,6 +38,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
 ---@field char_lens { string : number }
+---@field caps_word boolean
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -397,6 +398,15 @@ local function validate_phrase(entry, segment, type, input, env)
           end        
       end
     end
+    if core.fy(schema_id) and env.delayed_pop and env.caps_word and input:len() >= 4 then
+      if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][A-Z][a-z]{2}[aeuio]{0,2}") and utf8.len(entry.text) ~= 3 then
+        return nil
+      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][A-Z][a-z][aeuio]{0,2}") and utf8.len(entry.text) ~= 2 then
+        return nil
+      elseif rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[A-Z][aeuio]{0,2}") and utf8.len(entry.text) < 4 then
+        return nil
+      end
+    end
   end
   -- 声笔简码和声笔飞讯的多字词有两种输入方式
   -- 在存储时，简码以 sssbbbs 的格式存储，飞讯以 sssbbbbs 的格式存储
@@ -538,6 +548,7 @@ function this.func(input, segment, env)
   env.rapid_pop = env.engine.context:get_option("rapid_pop") or false
   env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
   env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
+  env.caps_word = env.engine.context:get_option("caps_word") or false
   local schema_id = env.engine.schema.schema_id
 
   if env.engine.context:get_option("ascii_mode") then

@@ -44,7 +44,7 @@ switches:
     reset: 0
   - name: single_display
     reset: 0
-  - options: [tab_word, space_word, none_word]
+  - options: [tab_word, space_word, none_word, caps_word]
     reset: 0
   - options: [pro_word, pro_char, delayed_pop]
     reset: 2
@@ -147,11 +147,11 @@ popping:
       accept: "[a-z]"
       prefix: 2
     - when: delayed_pop
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,2}"
       accept: "[A-Z]"
       strategy: append
     - when: delayed_pop
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{3}[aeuio]*"
       accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
 
 speller:
