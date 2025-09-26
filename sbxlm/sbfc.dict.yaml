@@ -11261,9 +11261,9 @@ sort: by_weight
 胟	muae	10
 凩	muae	9
 脈	muae	4
+鳗	muai	999
 免	muai	45
 勉	muai	42
-鳗	muai	35
 亇	muai	29
 鰢	muai	27
 鯍	muai	18
@@ -13910,10 +13910,10 @@ sort: by_weight
 輭	reia	22
 軔	reia	3
 軟	reia	1
+揉	reie	999
 热	reie	82
 扰	reie	78
 扔	reie	76
-揉	reie	75
 髯	reie	73
 壤	reie	72
 攘	reie	68
@@ -18165,8 +18165,9 @@ sort: by_weight
 騂	xeie	4
 塤	xeie	2
 馴	xeie	1
-献	xeii	999
+萱	xeii	999
 萧	xeii	262
+献	xeii	261
 薛	xeii	259
 鞋	xeii	257
 昔	xeii	256
@@ -18175,7 +18176,6 @@ sort: by_weight
 熙	xeii	246
 茜	xeii	245
 薪	xeii	244
-萱	xeii	243
 靴	xeii	242
 芯	xeii	240
 薰	xeii	238
@@ -19429,8 +19429,8 @@ sort: by_weight
 院	yaio	36
 隒	yaio	25
 阦	yaio	23
-隐	yaiu	999
 阴	yaiu	34
+隐	yaiu	33
 陶	yaiu	29
 辥	yaiu	27
 阣	yaiu	20
@@ -20146,7 +20146,7 @@ sort: by_weight
 骬	yiaa	81
 髃	yiaa	77
 圎	yiaa	61
-映	yiae	999
+咽	yiae	999
 因	yiae	347
 眼	yiae	346
 由	yiae	346
@@ -20161,10 +20161,10 @@ sort: by_weight
 野	yiae	337
 曰	yiae	336
 遗	yiae	334
+映	yiae	333
 跃	yiae	332
 咬	yiae	331
 吟	yiae	330
-咽	yiae	326
 哑	yiae	325
 邮	yiae	324
 愚	yiae	323
