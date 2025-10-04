@@ -26,7 +26,7 @@ patch:
     good_old_caps_lock: true
     switch_key:
       Shift_L: inline_ascii
-      Shift_R: noop
+      Shift_R: inline_ascii
       Control_L: commit_code
       Control_R: noop
       Caps_Lock: clear
