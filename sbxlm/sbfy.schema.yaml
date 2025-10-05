@@ -152,7 +152,7 @@ popping:
       strategy: append
     - when: delayed_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
-      accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[;',./bpmfdtnlgkhjqxzcsrywv]"
     # 支持63个标点字
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[,./]"

@@ -128,7 +128,7 @@ popping:
       prefix: 2
     # 支持标点字顶屏
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[;']"
+      accept: "[;',./]"
       prefix: 2
     # 快顶模式下，声笔字结尾的单字也可以四二顶
     - when: fast_pop
