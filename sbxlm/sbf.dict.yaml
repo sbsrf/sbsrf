@@ -137,7 +137,7 @@ columns:
 步伐	bf7	0
 并非	bf8	0
 北方	bf9	0
-扳	bfue	50
+扳	bfue	9999
 不过	bg'	0
 办公	bg0	0
 宾馆	bg1	0
@@ -461,7 +461,7 @@ columns:
 吃得	cd7	0
 差点	cd8	0
 彻底	cd9	0
-淬	cdoi	50
+淬	cdoi	9999
 查找	c'e	0
 摧	ce'	0
 操	ce;	0
@@ -497,7 +497,7 @@ columns:
 吃饭	cf7	0
 处罚	cf8	0
 厨房	cf9	0
-搐	cfoa	50
+搐	cfoa	9999
 成功	cg'	0
 穿过	cg0	0
 常规	cg1	0
@@ -566,8 +566,8 @@ columns:
 查看	ck7	0
 窗口	ck8	0
 仓库	ck9	0
-嘈	ckeo	50
-嗔	ckeu	50
+嘈	ckeo	9999
+嗔	ckeu	9999
 出来	cl'	0
 测量	cl0	0
 错了	cl1	0
@@ -590,7 +590,7 @@ columns:
 驰名	cm7	0
 聪明	cm8	0
 车门	cm9	0
-杵	cmuu	50
+杵	cmuu	9999
 才能	cn'	0
 采纳	cn0	0
 城内	cn1	0
@@ -711,7 +711,7 @@ columns:
 宠爱	cv7	0
 承恩	cv8	0
 长安	cv9	0
-翅	cveo	50
+翅	cveo	9999
 成为	cw'	0
 常务	cw0	0
 传闻	cw1	0
@@ -745,7 +745,7 @@ columns:
 采用	cy7	0
 成员	cy8	0
 创意	cy9	0
-醇	cyoi	50
+醇	cyoi	9999
 存在	cz'	0
 成长	cz0	0
 城镇	cz1	0
@@ -757,9 +757,9 @@ columns:
 操作	cz7	0
 初中	cz8	0
 穿着	cz9	0
-蹙	czeo	50
-踹	cziu	50
-踩	czuu	50
+蹙	czeo	9999
+踹	cziu	9999
+踩	czuu	9999
 第	d'	0
 电	d,	0
 度	d.	0
@@ -921,7 +921,7 @@ columns:
 多久	dj7	0
 大叫	dj8	0
 东京	dj9	0
-镀	djoi	50
+镀	djoi	9999
 打开	dk'	0
 大哭	dk0	0
 洞口	dk1	0
@@ -955,7 +955,7 @@ columns:
 多名	dm7	0
 东盟	dm8	0
 动漫	dm9	0
-盹	dmeo	50
+盹	dmeo	9999
 多年	dn'	0
 大娘	dn0	0
 电能	dn1	0
@@ -1122,7 +1122,7 @@ columns:
 动作	dz7	0
 得罪	dz8	0
 带着	dz9	0
-跺	dzui	50
+跺	dzui	9999
 父	f'	0
 负	f,	0
 防	f.	0
@@ -1893,8 +1893,8 @@ columns:
 好处	hc7	0
 好吃	hc8	0
 缓冲	hc9	0
-荤	hcea	50
-蕙	hceu	50
+荤	hcea	9999
+蕙	hceu	9999
 活动	hd'	0
 何等	hd0	0
 好多	hd1	0
@@ -2004,7 +2004,7 @@ columns:
 回馈	hk7	0
 户口	hk8	0
 何况	hk9	0
-哗	hkuu	50
+哗	hkuu	9999
 回来	hl'	0
 怀里	hl0	0
 花了	hl1	0
@@ -2257,7 +2257,7 @@ columns:
 进程	jc7	0
 经常	jc8	0
 警察	jc9	0
-茧	jcio	50
+茧	jcio	9999
 觉得	jd'	0
 阶段	jd0	0
 军队	jd1	0
@@ -2269,7 +2269,7 @@ columns:
 记得	jd7	0
 监督	jd8	0
 决定	jd9	0
-汲	jduu	50
+汲	jduu	9999
 教授	j'e	0
 禁	je'	0
 极	je;	0
@@ -2305,8 +2305,8 @@ columns:
 肌肤	jf7	0
 绝非	jf8	0
 警方	jf9	0
-拣	jfee	50
-攫	jfio	50
+拣	jfee	9999
+攫	jfio	9999
 结果	jg'	0
 加工	jg0	0
 军官	jg1	0
@@ -2318,7 +2318,7 @@ columns:
 尽管	jg7	0
 金刚	jg8	0
 机关	jg9	0
-戟	jgeo	50
+戟	jgeo	9999
 几乎	jh'	0
 今后	jh0	0
 交换	jh1	0
@@ -2330,7 +2330,7 @@ columns:
 机会	jh7	0
 惊呼	jh8	0
 江湖	jh9	0
-棘	jhio	50
+棘	jhio	9999
 减少	j'i	0
 距	ji'	0
 旧	ji;	0
@@ -2362,9 +2362,9 @@ columns:
 接近	jj7	0
 紧紧	jj8	0
 解决	jj9	0
-钾	jjii	50
-觊	jjiu	50
-绢	jjiu	50
+钾	jjii	9999
+觊	jjiu	9999
+绢	jjiu	9999
 加快	jk'	0
 即可	jk0	0
 监控	jk1	0
@@ -2376,7 +2376,7 @@ columns:
 紧靠	jk7	0
 接口	jk8	0
 健康	jk9	0
-叽	jkuu	50
+叽	jkuu	9999
 建立	jl'	0
 记录	jl0	0
 角落	jl1	0
@@ -2388,7 +2388,7 @@ columns:
 纪律	jl7	0
 尽量	jl8	0
 距离	jl9	0
-剂	jloa	50
+剂	jloa	9999
 见面	jm'	0
 加盟	jm0	0
 精美	jm1	0
@@ -2400,8 +2400,8 @@ columns:
 经贸	jm7	0
 节目	jm8	0
 急忙	jm9	0
-驹	jmui	50
-睑	jmuu	50
+驹	jmui	9999
+睑	jmuu	9999
 今年	jn'	0
 节能	jn0	0
 佳能	jn1	0
@@ -2981,7 +2981,7 @@ columns:
 流程	lc7	0
 理财	lc8	0
 两次	lc9	0
-螺	lcio	50
+螺	lcio	9999
 领导	ld'	0
 料到	ld0	0
 老道	ld1	0
@@ -2993,7 +2993,7 @@ columns:
 懒得	ld7	0
 来电	ld8	0
 力度	ld9	0
-涝	ldeo	50
+涝	ldeo	9999
 流动	l'e	0
 楼	le'	0
 露	le;	0
@@ -3097,7 +3097,7 @@ columns:
 理科	lk7	0
 路口	lk8	0
 立刻	lk9	0
-唠	lkeo	50
+唠	lkeo	9999
 理论	ll'	0
 浏览	ll0	0
 流量	ll1	0
@@ -3109,7 +3109,7 @@ columns:
 凌乱	ll7	0
 力量	ll8	0
 利率	ll9	0
-麓	llea	50
+麓	llea	9999
 里面	lm'	0
 厘米	lm0	0
 两名	lm1	0
@@ -3202,7 +3202,7 @@ columns:
 脸色	ls7	0
 路上	ls8	0
 落实	ls9	0
-硫	lsoi	50
+硫	lsoi	9999
 老头	lt'	0
 流通	lt0	0
 两天	lt1	0
@@ -3359,8 +3359,8 @@ columns:
 没错	mc7	0
 没吃	mc8	0
 每次	mc9	0
-萌	mcio	50
-蔓	mciu	50
+萌	mcio	9999
+蔓	mciu	9999
 目的	md'	0
 每当	md0	0
 密度	md1	0
@@ -3372,7 +3372,7 @@ columns:
 矛盾	md7	0
 目睹	md8	0
 名单	md9	0
-渺	mdie	50
+渺	mdie	9999
 敏捷	m'e	0
 棉	me'	0
 茫	me;	0
@@ -3609,7 +3609,7 @@ columns:
 摩尔	mv7	0
 蒙恩	mv8	0
 命案	mv9	0
-冕	mvui	50
+冕	mvui	9999
 门外	mw'	0
 迷雾	mw0	0
 没完	mw1	0
@@ -3819,7 +3819,7 @@ columns:
 能看	nk7	0
 那颗	nk8	0
 内裤	nk9	0
-唔	nkeo	50
+唔	nkeo	9999
 那里	nl'	0
 南路	nl0	0
 拿了	nl1	0
@@ -5158,9 +5158,9 @@ columns:
 师父	sf7	0
 山峰	sf8	0
 算法	sf9	0
-抒	sfau	50
-撕	sfeu	50
-拴	sfua	50
+抒	sfau	9999
+撕	sfeu	9999
+拴	sfua	9999
 送给	sg'	0
 水果	sg0	0
 帅哥	sg1	0
@@ -5214,7 +5214,7 @@ columns:
 事件	sj7	0
 世界	sj8	0
 设计	sj9	0
-绅	sjie	50
+绅	sjie	9999
 时刻	sk'	0
 书刊	sk0	0
 水库	sk1	0
@@ -5226,10 +5226,10 @@ columns:
 收看	sk7	0
 伤口	sk8	0
 深刻	sk9	0
-吮	skau	50
-嗜	skeo	50
-嗽	skeu	50
-嗣	skii	50
+吮	skau	9999
+嗜	skeo	9999
+嗽	skeu	9999
+嗣	skii	9999
 上来	sl'	0
 数量	sl0	0
 率领	sl1	0
@@ -5241,9 +5241,9 @@ columns:
 顺利	sl7	0
 商量	sl8	0
 设立	sl9	0
-悚	slea	50
-恃	sleo	50
-煞	sluu	50
+悚	slea	9999
+恃	sleo	9999
+煞	sluu	9999
 什么	sm'	0
 师妹	sm0	0
 数码	sm1	0
@@ -5382,9 +5382,9 @@ columns:
 索爱	sv7	0
 上岸	sv8	0
 数额	sv9	0
-暑	svea	50
-晒	svee	50
-曙	sviu	50
+暑	svea	9999
+晒	svee	9999
+曙	sviu	9999
 所谓	sw'	0
 食物	sw0	0
 事物	sw1	0
@@ -5418,7 +5418,7 @@ columns:
 使用	sy7	0
 事业	sy8	0
 声音	sy9	0
-讼	syua	50
+讼	syua	9999
 身子	sz'	0
 谁知	sz0	0
 所在	sz1	0
@@ -5608,7 +5608,7 @@ columns:
 条例	tl7	0
 铁路	tl8	0
 脱离	tl9	0
-惕	tliu	50
+惕	tliu	9999
 他们	tm'	0
 提名	tm0	0
 题名	tm1	0
@@ -6637,7 +6637,7 @@ columns:
 现金	xj7	0
 相见	xj8	0
 选举	xj9	0
-巷	xjeo	50
+巷	xjeo	9999
 胸口	xk'	0
 侠客	xk0	0
 小康	xk1	0
@@ -6649,9 +6649,9 @@ columns:
 学科	xk7	0
 显卡	xk8	0
 星空	xk9	0
-哮	xkeo	50
-嚣	xkio	50
-嗅	xkuu	50
+哮	xkeo	9999
+嚣	xkio	9999
+嗅	xkuu	9999
 下来	xl'	0
 下落	xl0	0
 行李	xl1	0
@@ -6907,7 +6907,7 @@ columns:
 远处	yc7	0
 异常	yc8	0
 预测	yc9	0
-苑	ycuu	50
+苑	ycuu	9999
 一定	yd'	0
 运动	yd0	0
 一动	yd1	0
@@ -6919,9 +6919,9 @@ columns:
 一代	yd7	0
 一点	yd8	0
 印度	yd9	0
-涯	ydea	50
-淹	ydee	50
-溢	ydoi	50
+涯	ydea	9999
+淹	ydee	9999
+溢	ydoi	9999
 移动	y'e	0
 研	ye'	0
 亚	ye;	0
@@ -6961,7 +6961,7 @@ columns:
 一番	yf7	0
 一幅	yf8	0
 依法	yf9	0
-於	yfuu	50
+於	yfuu	9999
 应该	yg'	0
 缘故	yg0	0
 员工	yg1	0
@@ -7003,10 +7003,10 @@ columns:
 鹦	yiau	0
 鸭	yie	0
 叶	yii	0
-蝇	yiii	50
+蝇	yiii	9999
 耀	yio	0
 呀	yiu	0
-胰	yiuu	50
+胰	yiuu	9999
 已经	yj'	0
 遇见	yj0	0
 依据	yj1	0
@@ -7029,8 +7029,8 @@ columns:
 依靠	yk7	0
 一颗	yk8	0
 愉快	yk9	0
-咦	ykeo	50
-喻	ykua	50
+咦	ykeo	9999
+喻	ykua	9999
 原来	yl'	0
 一连	yl0	0
 严厉	yl1	0
@@ -7064,7 +7064,7 @@ columns:
 意念	yn7	0
 以内	yn8	0
 旖旎	yn9	0
-媛	ynuu	50
+媛	ynuu	9999
 允许	y'o	0
 亦	yo'	0
 音	yo;	0
@@ -7079,7 +7079,7 @@ columns:
 阎	yo8	0
 油	yo9	0
 谊	yoa	0
-谕	yoaa	50
+谕	yoaa	9999
 郓	yoae	0
 谚	yoao	0
 诣	yoau	0
@@ -7092,7 +7092,7 @@ columns:
 寓	yooa	0
 渔	yooe	0
 怡	yooi	0
-渝	yooo	50
+渝	yooo	9999
 烨	you	0
 猷	youe	0
 煜	youu	0
@@ -7172,7 +7172,7 @@ columns:
 邀	yui	0
 粤	yuia	0
 佑	yuie	0
-禺	yuii	50
+禺	yuii	9999
 佯	yuio	0
 逾	yuo	0
 觎	yuoe	0
@@ -7190,9 +7190,9 @@ columns:
 婴儿	yv7	0
 阴暗	yv8	0
 议案	yv9	0
-邮	yvio	50
-陨	yviu	50
-翌	yvoi	50
+邮	yvio	9999
+陨	yviu	9999
+翌	yvoi	9999
 因为	yw'	0
 愿望	yw0	0
 义务	yw1	0
@@ -7226,7 +7226,7 @@ columns:
 应用	yy7	0
 原因	yy8	0
 愿意	yy9	0
-颐	yyeo	50
+颐	yyeo	9999
 一直	yz'	0
 影子	yz0	0
 沿着	yz1	0
@@ -7289,7 +7289,7 @@ columns:
 装备	zb7	0
 逐步	zb8	0
 转变	zb9	0
-痣	zbeo	50
+痣	zbeo	9999
 支持	zc'	0
 早晨	zc0	0
 嘴唇	zc1	0
@@ -7312,8 +7312,8 @@ columns:
 只得	zd7	0
 重点	zd8	0
 制度	zd9	0
-斟	zdeo	50
-浊	zdio	50
+斟	zdeo	9999
+浊	zdio	9999
 左右	z'e	0
 转	ze'	0
 直	ze;	0
@@ -7353,9 +7353,9 @@ columns:
 作风	zf7	0
 涨幅	zf8	0
 执法	zf9	0
-拯	zfau	50
-撮	zfio	50
-攒	zfui	50
+拯	zfau	9999
+撮	zfio	9999
+攒	zfui	9999
 这个	zg'	0
 总管	zg0	0
 足够	zg1	0
@@ -7378,7 +7378,7 @@ columns:
 最后	zh7	0
 招呼	zh8	0
 珠海	zh9	0
-燥	zhio	50
+燥	zhio	9999
 自由	z'i	0
 桌	zi'	0
 助	zi;	0
@@ -7412,7 +7412,7 @@ columns:
 资金	zj7	0
 只见	zj8	0
 之间	zj9	0
-帧	zjiu	50
+帧	zjiu	9999
 召开	zk'	0
 折扣	zk0	0
 周刊	zk1	0
@@ -7424,9 +7424,9 @@ columns:
 专科	zk7	0
 张口	zk8	0
 状况	zk9	0
-吱	zkea	50
-哉	zkeo	50
-匝	zkio	50
+吱	zkea	9999
+哉	zkeo	9999
+匝	zkio	9999
 这里	zl'	0
 治疗	zl0	0
 整理	zl1	0
@@ -7449,7 +7449,7 @@ columns:
 这么	zm7	0
 证明	zm8	0
 专门	zm9	0
-棕	zmoi	50
+棕	zmoi	9999
 只能	zn'	0
 灾难	zn0	0
 怎能	zn1	0
@@ -7484,7 +7484,7 @@ columns:
 汁	zoo	0
 滋	zooe	0
 惴	zooi	0
-渣	zooo	50
+渣	zooo	9999
 糟	zou	0
 粽	zoue	0
 烛	zouu	0
@@ -7533,8 +7533,8 @@ columns:
 转身	zs7	0
 真是	zs8	0
 知识	zs9	0
-挚	zseo	50
-崽	zsii	50
+挚	zseo	9999
+崽	zsii	9999
 总统	zt'	0
 总体	zt0	0
 整天	zt1	0
@@ -7582,9 +7582,9 @@ columns:
 做爱	zv7	0
 之恩	zv8	0
 治安	zv9	0
-肘	zvee	50
-肢	zveo	50
-胀	zvuu	50
+肘	zvee	9999
+肢	zveo	9999
+胀	zvuu	9999
 作为	zw'	0
 职务	zw0	0
 暂无	zw1	0
@@ -7596,7 +7596,7 @@ columns:
 之外	zw7	0
 周围	zw8	0
 中文	zw9	0
-卒	zwuu	50
+卒	zwuu	9999
 这些	zx'	0
 政协	zx0	0
 秩序	zx1	0
@@ -7630,4 +7630,4 @@ columns:
 这种	zz7	0
 之中	zz8	0
 政治	zz9	0
-趾	zzii	50
+趾	zzii	9999
