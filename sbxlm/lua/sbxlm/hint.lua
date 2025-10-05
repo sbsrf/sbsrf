@@ -63,7 +63,7 @@ function this.func(translation, env)
 			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
 				if input ~= code and input:len() >= code:len() then
-					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z;']+") then
+					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z;',./]+") then
 						candidate.comment = candidate.comment .. " " .. code
 					end
 					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9][aeuio]?") and is_enhanced then

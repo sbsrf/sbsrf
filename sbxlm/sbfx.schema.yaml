@@ -178,9 +178,13 @@ popping:
       accept: "'"
       prefix: 1
       strategy: ignore
+    # 支持63个标点字
+    - match: "[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[,./]"
+      strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWV,./"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 7
@@ -202,7 +206,7 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;']*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789aeuio;',./]*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][aeiou]?"
     - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
 

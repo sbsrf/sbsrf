@@ -124,7 +124,7 @@ popping:
       prefix: 2
     # 支持标点字顶屏
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[;']"
+      accept: "[;',./]"
       prefix: 2
     # 单字模式
     - when: pro_char
@@ -153,9 +153,13 @@ popping:
     - when: delayed_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][A-Z][aeuio]*"
       accept: "[;'bpmfdtnlgkhjqxzcsrywv]"
+    # 支持63个标点字
+    - match: "[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[,./]"
+      strategy: append
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO,./"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
   max_code_length: 6
@@ -177,7 +181,7 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;']*"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9aeuio;',./]*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
     - "([bpmfdtnlgkhjqxzcsrywv][aeiou]){2}"
 
