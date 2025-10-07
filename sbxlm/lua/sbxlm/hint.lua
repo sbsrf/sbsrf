@@ -173,7 +173,7 @@ function this.func(translation, env)
 		end
 		rime.yield(candidate)
 		-- 字词型方案 s 加数字或 ; 或 ' 后用aeuio选择的自定义字词
-		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;'0-9]") and not is_hidden then
+		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;',./0-9]") and not is_hidden then
 			local forward
 			for j = 1, #hint_b do
 				memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)

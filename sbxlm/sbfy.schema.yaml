@@ -157,6 +157,9 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[,./]"
       strategy: append
+    # 支持标点词顶屏
+    - match: "[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;'BPMFDTNLGKHJQXZCSRYWVAEUIO,./"
