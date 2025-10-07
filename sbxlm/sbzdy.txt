@@ -1,7 +1,7 @@
 # Rime dict
 # encoding: utf-8
 # name: sbzdy
-# version: "10.0"
+# version: "11.0"
 # 声笔通用自定义用户词库
 # 编码格式：字词+Tab符+编码，首码必须为声母，后接小写字母
 # 以下是一些示例词条，用户可以任意增删改

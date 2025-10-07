@@ -3,7 +3,7 @@
 
 ---
 name: sbxh
-version: "10.0"
+version: "11.0"
 sort: by_weight
 use_preset_vocabulary: false
 columns:

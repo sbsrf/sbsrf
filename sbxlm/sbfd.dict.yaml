@@ -7,7 +7,7 @@
 # spb格式的stem多一位b放在最后
 ---
 name: sbfd
-version: "10.0"
+version: "11.0"
 sort: by_weight
 use_preset_vocabulary: false
 columns:

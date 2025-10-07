@@ -6,7 +6,7 @@ __include: sbxlm.yaml:/prelude
 schema:
   schema_id: sbfy
   name: "声笔飞延"
-  version: "10.0"
+  version: "11.0"
   icon: "sbxlm.ico"
   author:
     - 戴石麟 <https://sbxlm.github.io>
