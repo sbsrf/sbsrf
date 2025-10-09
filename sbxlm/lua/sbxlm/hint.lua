@@ -53,6 +53,7 @@ function this.func(translation, env)
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_b = { "a", "e", "u", "i", "o" }
+	local hint_p = { ";", "'", ",", ".", "/" }
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
@@ -145,20 +146,36 @@ function this.func(translation, env)
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词 
 			else
-				memory:dict_lookup(candidate.preedit .. "'", false, 1)
-				local e = ''
-				for entry in memory:iter_dict()
-				do
-					e = entry.text
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. ' ' .. entry.text
-					break
-				end
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
 				do
-					candidate:get_genuine().comment = ' ' .. entry.text .. ";" .. e .. "'"
+					candidate:get_genuine().comment = ' ' .. entry.text .. ";"
 					break
 				end
+				memory:dict_lookup(candidate.preedit .. "'", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
+					break
+				end				
+				memory:dict_lookup(candidate.preedit .. ",", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. ","
+					break
+				end				
+				memory:dict_lookup(candidate.preedit .. ".", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "."
+					break
+				end				
+				memory:dict_lookup(candidate.preedit .. "/", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "/"
+					break
+				end				
 			end
 		end
 		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
