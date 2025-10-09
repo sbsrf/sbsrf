@@ -145,7 +145,8 @@ function this.func(translation, env)
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词 
-			else
+			elseif not (core.feixi(id) and core.s(input)) then
+				candidate:get_genuine().comment = ''
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
 				do
@@ -157,25 +158,7 @@ function this.func(translation, env)
 				do
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
 					break
-				end				
-				memory:dict_lookup(candidate.preedit .. ",", false, 1)
-				for entry in memory:iter_dict()
-				do
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. ","
-					break
-				end				
-				memory:dict_lookup(candidate.preedit .. ".", false, 1)
-				for entry in memory:iter_dict()
-				do
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "."
-					break
-				end				
-				memory:dict_lookup(candidate.preedit .. "/", false, 1)
-				for entry in memory:iter_dict()
-				do
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "/"
-					break
-				end				
+				end						
 			end
 		end
 		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
@@ -246,19 +229,25 @@ function this.func(translation, env)
 		-- 对于小鹤和自然，只有几个 sb 格式的编码是真正的声笔字，通过声韵拼合规律判断出来
 		if ((core.s(input) or core.sxs(input)) and (core.feixi(id) or core.sp(id))
 		or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]")) then
-			for _, bihua in ipairs(hint_b) do
+			for idx, bihua in ipairs(hint_b) do
 				local shengmu = candidate.preedit:sub(-1)
 				-- hack，假设 UTF-8 编码都是 3 字节的
-				local prev_text = candidate.text:sub(1, -4)
+				local text = candidate.text:sub(1, -4)
 				if core.sp(id) and not core.invalid_pinyin(shengmu .. bihua) then
 					goto continue
 				end
 				memory:dict_lookup(shengmu .. bihua, false, 1)
 				for entry in memory:iter_dict() do
-					local forward = rime.Candidate("hint", candidate.start, candidate._end, prev_text .. entry.text, bihua)
-					rime.yield(forward)
+					text = text .. entry.text
 					break
 				end
+				memory:dict_lookup(shengmu .. hint_p[idx], false, 1)
+				for entry in memory:iter_dict() do
+					bihua = bihua .. entry.text .. hint_p[idx]
+					break
+				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
+				rime.yield(forward)
 				::continue::
 			end
 		end
