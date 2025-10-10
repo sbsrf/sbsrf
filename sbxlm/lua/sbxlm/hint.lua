@@ -244,10 +244,10 @@ function this.func(translation, env)
 				memory:dict_lookup(shengmu .. hint_p[idx], false, 1)
 				for entry in memory:iter_dict() do
 					bihua = bihua .. entry.text .. hint_p[idx]
+					local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
+					rime.yield(forward)
 					break
 				end
-				local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
-				rime.yield(forward)
 				::continue::
 			end
 		end
