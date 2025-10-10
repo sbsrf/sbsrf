@@ -877,6 +877,7 @@ columns:
 等待	dd7	0
 地点	dd8	0
 到底	dd9	0
+沌	ddeo	9999
 大地	d'e	0
 戴	de'	0
 抵	de;	0
@@ -3130,6 +3131,7 @@ columns:
 来电	ld8	0
 力度	ld9	0
 涝	ldeo	9999
+浏	ldoo	9999
 流动	l'e	0
 楼	le'	0
 露	le;	0
