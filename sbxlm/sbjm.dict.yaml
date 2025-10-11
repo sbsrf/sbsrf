@@ -4486,7 +4486,7 @@ encoder:
 然	ru
 然而	rv
 然后	rh7
-髯	re'
+髯	re1
 燃	ro7
 燃放	rf6
 燃料	rl9
@@ -4500,8 +4500,8 @@ encoder:
 染发	rf2
 染红	rh2
 禳	ro0
-穰	ru0
-壤	re1
+穰	ru1
+壤	re0
 嚷	ri2
 嚷嚷	rr8
 让	ro
@@ -4509,7 +4509,7 @@ encoder:
 让它	rt9
 饶	ru2
 娆	ra5
-扰	re2
+扰	re4
 扰乱	rl7
 绕	ra2
 绕过	rg6
@@ -4588,8 +4588,8 @@ encoder:
 人又	ry2
 人与	r'e
 人员	ry
-壬	ru1
-仁	ru8
+壬	ru'
+仁	r'
 仁爱	rv2
 仁科	rk7
 忍	r;
@@ -4597,7 +4597,7 @@ encoder:
 忍受	rs4
 忍痛	rt0
 忍者	rz6
-稔	ru;
+稔	ru6
 刃	ra7
 认	r9
 认出	rc2
@@ -4613,7 +4613,7 @@ encoder:
 认真	rz3
 认证	rz9
 认知	rz0
-仞	ru5
+仞	ru4
 任	r4
 任何	rh4
 任课	rk5
@@ -4625,11 +4625,11 @@ encoder:
 任由	r'i
 任职	rz1
 纫	ra4
-饪	ru6
+饪	ru5
 妊	ra6
 妊娠	r;a
 衽	ro1
-扔	re5
+扔	re6
 扔给	rg2
 仍	r6
 仍按	rv5
@@ -4675,6 +4675,7 @@ encoder:
 荣获	rh0
 荣耀	r;i
 荣誉	ry5
+狨	ru0
 绒	ra3
 容	r5
 容量	rl8
@@ -4684,7 +4685,7 @@ encoder:
 容忍	rr2
 容易	ry8
 嵘	ri5
-蓉	re4
+蓉	re5
 蓉儿	rv4
 溶	ro3
 熔	ro6
@@ -4703,7 +4704,7 @@ encoder:
 柔软	rr3
 柔弱	rr5
 柔婉	rw2
-揉	re6
+揉	re;
 蹂	ri4
 肉	r8
 肉搏	rb0
@@ -4727,8 +4728,7 @@ encoder:
 如同	rt
 如图	rt4
 如需	rx3
-茹	re0
-儒	ru7
+儒	ru8
 嚅	ri9
 濡	ro'
 孺	ra9
@@ -4766,7 +4766,7 @@ encoder:
 缛	ra;
 褥	ro5
 阮	ra8
-软	r'
+软	re2
 软腭	rv1
 软管	rg1
 软件	rj4
@@ -4776,7 +4776,7 @@ encoder:
 软软	rr0
 软弱	rr4
 软体	rt7
-芮	re;
+芮	re'
 蚋	ri6
 锐	ru3
 锐利	rl0
@@ -4794,10 +4794,10 @@ encoder:
 若非	rf
 若干	rg3
 若能	rn5
-偌	ru4
+偌	ru7
 弱	r0
 弱点	rd6
-箬	ru'
+箬	ru;
 三	s1
 三个	sg7
 三年	sn5
