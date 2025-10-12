@@ -13,7 +13,7 @@ basic_popping:
     - match: "^[;]"
       accept: "[;',./]"
     # 标点顶
-    - match: "^[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]"
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]?"
       accept: "[;',./]"
     # 顶大写
     - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[a-zA-Z]*"
