@@ -34,9 +34,9 @@ table_popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       strategy: append
-    # 顶末码
-    - match: "[bpmfdtnlgkhjqxzcsrywv].+[;'0-9]"
-      accept: "[^ ]"
+    # # 顶末码
+    # - match: "[bpmfdtnlgkhjqxzcsrywv].+[;'0-9]"
+    #   accept: "[^ ]"
     # 自定义
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;'0-9][aeuio]*"
       accept: "[aeuio]"
