@@ -1,18 +1,18 @@
 patch:
   schema_list:
     - schema: sbyp
-    - schema: sbpy
     - schema: sbjp
-    - schema: sbjm
     - schema: sbfd
     - schema: sbfm
-    - schema: sbfy
-    - schema: sbfx
-    - schema: sbfj
+    - schema: sbpy
     - schema: sbzr
     - schema: sbzz
     - schema: sbxh
     - schema: sbhz
+    - schema: sbjm
+    - schema: sbfy
+    - schema: sbfx
+    - schema: sbfj
   switcher:
     abbreviate_options: true
     caption: "〔方案选单〕"
