@@ -658,6 +658,11 @@ function this.func(input, segment, env)
     return
   end
 
+  if core.fm(schema_id) and env.single_selection and env.forced_selection
+  and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
+    translate_by_split(input, segment, env)
+  end
+
   -- 以下分 4 种情况实现自动码长的翻译策略
   -- 1. 如果输入的编码是一个动态编码的起始调整位，那么返回一个权重最高的候选
   -- 2. 如果输入的编码是基本编码的全码，那么返回所有的候选
@@ -755,6 +760,10 @@ function this.func(input, segment, env)
       ::continue::
     end
   elseif dynamic(input, env) == dtypes.unified then
+    if env.single_selection and core.fm(schema_id) and env.forced_selection
+    and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
+      return
+    end    
     local count = 1
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
@@ -790,7 +799,7 @@ function this.func(input, segment, env)
     end
   end
 
-  if env.single_selection and core.fm(schema_id) 
+  if env.single_selection and core.fm(schema_id)
   and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1,2}") then
     if #phrases == 0 then
       translate_by_split(input, segment, env)
