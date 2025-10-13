@@ -9,15 +9,6 @@ basic_popping:
     # 标点大写顶
     - match: ".*[a-z0-9;']"
       accept: "[^a-z0-9;' ]"
-    # 单引号顶
-    - match: "^[;]"
-      accept: "[;',./]"
-    # 标点顶
-    - match: "^[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]?"
-      accept: "[;',./]"
-    # 顶大写
-    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[a-zA-Z]*"
-      accept: "[;',./]"
 
 # 字词方案通用的顶功
 table_popping:

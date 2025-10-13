@@ -107,6 +107,15 @@ engine:
 
 popping:
   __append:
+    # 顶分号
+    - match: "^[;]"
+      accept: "[;',./]"
+    # 标点顶
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]?"
+      accept: "[;',./]"
+    # 顶大写
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[a-zA-Z]*"
+      accept: "[;',./]"
     # 快顶模式，允许 sxs 后追加 n
     - when: fast_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
