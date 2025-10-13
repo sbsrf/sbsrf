@@ -110,6 +110,27 @@ function this.func(key_event, env)
     end
   end
 
+  if not ascii_mode and not key_event:ctrl() and core.fm(schema_id) and key_event.keycode == XK_Shift_R then
+    if core.sxss(input) then
+      env.engine:process_key(rime.KeyEvent("Escape"))
+      env.engine:process_key(rime.KeyEvent(input:sub(1,1)))
+      env.engine:process_key(rime.KeyEvent(input:sub(2,2)))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+      env.engine:process_key(rime.KeyEvent("space"))
+    elseif core.sss(input) then
+      env.engine:process_key(rime.KeyEvent("Escape"))
+      env.engine:process_key(rime.KeyEvent(input:sub(1,1)))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(2,2)))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
+      env.engine:process_key(rime.KeyEvent("space"))
+    end
+  end
+
   -- 飞码延顶四码特殊处理
   if not ascii_mode and not key_event:ctrl() and not key_event:shift()
   and (core.fm(schema_id) or core.fy(schema_id)) and delayed_pop then
