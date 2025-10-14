@@ -119,6 +119,33 @@ function this.func(key_event, env)
     env.engine:process_key(rime.KeyEvent("space"))
     return rime.process_results.kAccepted
   end
+  
+  if core.fm(schema_id) and rime.match(incoming, "[0-9]")
+  and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{1,2}") then
+    local len = input:len()
+    local part1 = input:sub(1, 2)
+    local stroke = ''
+    if incoming == '2' then
+      stroke = 'a'
+    elseif incoming == '3' then
+      stroke = 'e'
+    elseif incoming == '7' then
+      stroke = 'u'
+    elseif incoming == '8' then
+      stroke = 'i'
+    elseif incoming == '9' then
+      stroke = 'o'
+    end
+    local part2 = input:sub(3, len)
+    context:clear()
+    context:push_input(part1)
+    env.engine:process_key(rime.KeyEvent("space"))
+    context:clear()
+    context:push_input(part2)
+    env.engine:process_key(rime.KeyEvent(stroke))
+    return rime.process_results.kAccepted
+  end
+
   for _, rule in ipairs(env.popping) do
     local when = rule.when
     local success = false
