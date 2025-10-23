@@ -178,7 +178,7 @@ punctuator:
 recognizer:
   import_preset: sbxlm
   patterns:
-    sbjm: ''
+    sbfc: ''
 
 sbjm_extra_bindings:
   __append:
