@@ -113,7 +113,7 @@ popping:
     - match: "^[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]?"
       accept: "[;',./]"
     # 顶大写
-    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[a-zA-Z]*"
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{4}[a-zA-Z]*"
       accept: "[;',./]"
     # 词组模式
     - when: pro_word
@@ -124,6 +124,9 @@ popping:
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
       prefix: 2
       conditional: true
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[;',./]"
+      prefix: 2
     # 增强模式下的数字顶
     - when: is_enhanced
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
