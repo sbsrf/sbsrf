@@ -116,6 +116,8 @@ popping:
     # 顶大写
     - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[a-zA-Z]*"
       accept: "[;',./]"
+    - match: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{1,2}[A-Z][aeuio]*"
+      accept: "[;',./]"
     # 快顶模式，允许 sxs 后追加 n
     - when: fast_pop
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
