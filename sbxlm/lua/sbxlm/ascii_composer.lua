@@ -98,7 +98,7 @@ function this.func(key_event, env)
         and key_event.keycode == XK_Tab and not key_event:release()
         and not (core.feixi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"))) then
     if env.single_selection and context:get_option("single_display")
-        and not context:get_option("not_single_display") and not core.fy(schema_id) then
+        and not context:get_option("not_single_display") then
       context:set_option("not_single_display", true)
       if not ((core.fm(schema_id) or core.fy(schema_id)) and context:get_option("delayed_pop")
             and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]*"))
