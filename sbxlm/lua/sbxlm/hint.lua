@@ -197,8 +197,9 @@ function this.func(translation, env)
 
 		-- 豹码提示
 		if core.bm(id) and rime.match(input, "[a-z]{1,3}") then
-			local forward
-			local x
+			local forward, x, y
+			---@type { string: number }
+			local candidates = {}
 			if rime.match(input, "[a-z]") then
 				x = hint_n3
 			else
@@ -207,6 +208,11 @@ function this.func(translation, env)
 			for j = 1, 5 do
 				memory:dict_lookup(candidate.preedit .. x[j], false, 1)
 				for entry in memory:iter_dict() do
+					local cand = candidates[x[j]] 
+					if cand and cand > 0 then
+						break
+					end
+					candidates[x[j]] = 1
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, x[j])
 					rime.yield(forward)
 				end
