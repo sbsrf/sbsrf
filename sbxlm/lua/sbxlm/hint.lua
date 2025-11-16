@@ -15,7 +15,7 @@ local this = {}
 ---@param env HintEnv
 function this.init(env)
 	local id = env.engine.schema.schema_id
-	if core.zici(id) then
+	if core.zici(id) or core.bm(id) then
 		env.memory = rime.Memory(env.engine, env.engine.schema)
 	else
 	    env.memory = rime.Memory1(env.engine, env.engine.schema, "")
@@ -52,12 +52,23 @@ function this.func(translation, env)
 	local id = env.engine.schema.schema_id
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
+	local hint_n3 = { "1", "2", "3", "4", "5" }
 	local hint_b = { "a", "e", "u", "i", "o" }
 	local hint_p = { ";", "'", ",", ".", "/" }
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
+		-- 豹码提示
 		local input = candidate.preedit
+		if core.bm(id) and rime.match(input, "[a-z]{3}[;',./]") then
+			local codes = env.reverse:lookup(candidate.text)
+			candidate.comment = ""
+			for code in string.gmatch(codes, "[^ ]+") do
+				if input ~= code and input:len() > code:len() then
+					candidate.comment = candidate.comment .. " " .. code
+				end
+			end
+		end		
 		-- 飞系方案 sxbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
 		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
@@ -179,6 +190,24 @@ function this.func(translation, env)
 				memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
 				for entry in memory:iter_dict() do
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+					rime.yield(forward)
+				end
+			end
+		end
+
+		-- 豹码提示
+		if core.bm(id) and rime.match(input, "[a-z]{1,3}") then
+			local forward
+			local x
+			if rime.match(input, "[a-z]") then
+				x = hint_n3
+			else
+				x = hint_p
+			end
+			for j = 1, 5 do
+				memory:dict_lookup(candidate.preedit .. x[j], false, 1)
+				for entry in memory:iter_dict() do
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, x[j])
 					rime.yield(forward)
 				end
 			end

@@ -91,10 +91,25 @@ end
 function core.sxbb(input)
   return match(input, s .. x .. b .. b)
 end
+
+---@param input string
+function core.xxx(input)
+  return match(input, x .. x .. x)
+end
+
+---@param input string
+function core.xxxx(input)
+  return match(input, x .. x .. x .. x)
+end
 ----------------------------------------
 -- 以下为一系列常用的方案判断函数
 -- 用于判断当前方案是否为某种方案
 -- 例如：core.feixi(id) 判断当前方案是否为飞系方案
+
+---@param id string
+function core.bm(id)
+  return id == "sbbm"
+end
 
 ---@param id string
 function core.feixi(id)
