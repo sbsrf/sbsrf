@@ -4,8 +4,8 @@
 __include: sbxlm.yaml:/prelude
 
 schema:
-  schema_id: sbbm
-  name: "声笔豹码"
+  schema_id: sbmm
+  name: "声笔猛码"
   version: "11.0"
   icon: "sbxlm.ico"
   author:
@@ -95,7 +95,7 @@ speller:
       - /popping
 
 translator:
-  dictionary: sbbm
+  dictionary: sbmm
   enable_user_dict: true
   enable_filtering: true
   filter_strength: 4    #可以为3,4,5,6 
@@ -110,8 +110,8 @@ translator:
     - "[a-z]{2,3}[;',./]?"
 
 extended:
-  dictionary: sbbm.extended
-  user_dictionary: "sbbm"
+  dictionary: sbmm.extended
+  user_dictionary: "sbmm"
   enable_user_dict: true
 
 
@@ -121,7 +121,7 @@ punctuator:
 # recognizer:
 #   import_preset: sbxlm
 
-sbbm_bindings:
+sbmm_bindings:
   __append:
     - match: "[a-z]{1,2}"
       accept: "6"
@@ -146,7 +146,7 @@ key_binder:
   bindings:
     __patch:
       - sbxlm.yaml:/rime_key_bindings
-      - /sbbm_bindings
+      - /sbmm_bindings
 
 menu:
   page_size: 6

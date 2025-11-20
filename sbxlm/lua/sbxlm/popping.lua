@@ -146,7 +146,7 @@ function this.func(key_event, env)
     return rime.process_results.kAccepted
   end
 
-  if core.bm(schema_id) and rime.match(incoming, "[a-z0-9]")
+  if core.mm(schema_id) and rime.match(incoming, "[a-z0-9]")
   and rime.match(input, "[a-z]{3}") then
     local part1 = input:sub(1, 2)
     local part2 = input:sub(3, 3)

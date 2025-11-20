@@ -15,7 +15,7 @@ local this = {}
 ---@param env HintEnv
 function this.init(env)
 	local id = env.engine.schema.schema_id
-	if core.zici(id) or core.bm(id) then
+	if core.zici(id) or core.mm(id) then
 		env.memory = rime.Memory(env.engine, env.engine.schema)
 	else
 	    env.memory = rime.Memory1(env.engine, env.engine.schema, "")
@@ -54,13 +54,13 @@ function this.func(translation, env)
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_n3 = { "1", "2", "3", "4", "5" }
 	local hint_b = { "a", "e", "u", "i", "o" }
-	local hint_p = { ";", "'", ",", ".", "/" }
+	local hint_p = { ",", ";", "/", ".", "'" }
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
 		-- 豹码提示
 		local input = candidate.preedit
-		if core.bm(id) and rime.match(input, "[a-z]{3}[;',./]") then
+		if core.mm(id) and rime.match(input, "[a-z]{3}[;',./]") then
 			local codes = env.reverse:lookup(candidate.text)
 			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -196,7 +196,7 @@ function this.func(translation, env)
 		end
 
 		-- 豹码提示
-		if core.bm(id) and rime.match(input, "[a-z]{1,3}") then
+		if core.mm(id) and rime.match(input, "[a-z]{1,3}") then
 			local forward, x, y
 			---@type { string: number }
 			local candidates = {}

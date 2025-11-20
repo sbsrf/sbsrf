@@ -107,8 +107,8 @@ end
 -- 例如：core.feixi(id) 判断当前方案是否为飞系方案
 
 ---@param id string
-function core.bm(id)
-  return id == "sbbm"
+function core.mm(id)
+  return id == "sbmm"
 end
 
 ---@param id string
