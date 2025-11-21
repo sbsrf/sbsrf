@@ -1,5 +1,4 @@
 -- 中英混输处理器
--- 通用（不包含声笔系列码的特殊逻辑）
 -- 本处理器实现了 Shift+Enter 反转首字母大小写、Control+Enter 反转编码大小写等功能
 
 local XK_Return = 0xff0d

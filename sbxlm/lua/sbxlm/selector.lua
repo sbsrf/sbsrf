@@ -1,5 +1,4 @@
 -- 条件选重处理器
--- 通用（不包含声笔系列码的特殊逻辑）
 -- 本处理器可以限制 alternative_select_keys 的作用范围
 -- 即只有当编码匹配一定模式的时候，才将这些键视为选重键，否则仍然可以用于编码
 -- 使用时，应当保证本处理器在 speller 之前，speller 在 selector 之前
@@ -62,6 +61,13 @@ function this.func(key_event, env)
       local ret = env.selector:process_key_event(key_event)
       env.engine.schema.select_keys = temp
       return ret
+    end
+  elseif env.engine.schema.schema_id == "sbmm" 
+    and rime.match(env.engine.context.input, "^[a-z]{3}[;',./]$") then
+    local pat = "[09876]"
+    local map = {["0"] = "1",["9"] = "2",["8"] = "3",["7"] = "4",["6"] = "5"}
+    if (string.find(key, pat)) then
+      return env.selector:process_key_event(rime.KeyEvent(map[key]))
     end
   end
   if not env.select_keys[key] then
