@@ -11,6 +11,9 @@ schema:
   author:
     - 戴石麟 <https://sbxlm.github.io>
   dependencies:
+    - sbyp
+    - bihua
+    - sbmm2
 
 switches:
   - name: ascii_mode
@@ -30,6 +33,8 @@ switches:
   - options: [pro_word, pro_char]
     reset: 1
   # states: [词组, 单字]
+  - name: show_es
+    reset: 1
   # 不要改变下面的状态，以免穿帮
   - name: third_pop
     reset: 0
@@ -54,12 +59,20 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@bihua
+    - affix_segmentor@sbyp
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - lua_translator@*sbxlm.auto_length
+    - table_translator@bihua
+    - script_translator@sbyp
+    - history_translator
   filters:
+    - simplifier@es_conversion
+    - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter@reverse_lookup2
     - lua_filter@*sbxlm.hint
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
@@ -114,12 +127,44 @@ extended:
   user_dictionary: "sbmm"
   enable_user_dict: true
 
+history:
+  tag: history
+  input: "/"
+  size: 5
+  initial_quality: -1
+
+bihua:
+  tag: bihua
+  dictionary: bihua
+  enable_user_dict: false
+  enable_encoder: false
+  enable_sentence: false
+  strict_spelling: true
+  enable_completion: true
+  encode_commit_history: false
+  prefix: "="
+  tips: "〔笔画反查〕"
+
+sbyp:
+  tag: sbyp
+  dictionary: sbpy
+  enable_user_dict: false
+  enable_encoder: false
+  packs:
+    - sbpy.base
+  prism: sbyp
+  prefix: "="
+  tips: "〔拼音反查〕"
 
 punctuator:
   import_preset: sbxlm
 
-# recognizer:
-#   import_preset: sbxlm
+recognizer:
+  patterns:
+    punct: '^\\([0-9]|10|[A-Za-z][A-Zbpmfdtnlgkhjqxzcsrywv]*)$'
+    bihua: "^=[aeiou]+$"
+    sbyp: "^=[bpmfdtnlgkhjqxzcsrywv][a-z']*$"
+    history: "^/$"
 
 sbmm_bindings:
   __append:
@@ -147,6 +192,16 @@ key_binder:
     __patch:
       - sbxlm.yaml:/rime_key_bindings
       - /sbmm_bindings
+
+reverse_lookup:
+  tags: [bihua, sbyp]
+  overwrite_comment: true
+  dictionary: sbmm.extended
+
+reverse_lookup2:
+  tags: [bihua, sbyp]
+  overwrite_comment: true
+  dictionary: sbmm
 
 menu:
   page_size: 6

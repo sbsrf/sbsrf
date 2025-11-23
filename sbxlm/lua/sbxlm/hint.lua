@@ -64,7 +64,7 @@ function this.func(translation, env)
 			local codes = env.reverse:lookup(candidate.text)
 			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
-				if input ~= code and input:len() > code:len() then
+				if input ~= code and input:len() >= code:len() then
 					candidate.comment = candidate.comment .. " " .. code
 				end
 			end
