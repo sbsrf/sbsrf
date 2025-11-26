@@ -57,6 +57,8 @@ sbxlm.github.io/sbfy	fya
 sbxlm.github.io/sbfx	fxa
 声笔飞简：sbxlm.github.io/sbfj	fj
 sbxlm.github.io/sbfj	fja
+声笔猛码：sbxlm.github.io/sbmm	mm
+sbxlm.github.io/sbmm	mma
 发展历程：sbxlm.github.io/fzlc	lc
 sbxlm.github.io/fzlc	lca
 常见问题：sbxlm.github.io/faq	wt
