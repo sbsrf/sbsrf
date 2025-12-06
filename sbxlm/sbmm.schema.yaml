@@ -95,6 +95,8 @@ popping:
       accept: "[a-z;',./0-9]"
     - match: "[a-z]"
       accept: "[;',./]"
+    - match: "[;',./]"
+      accept: "[a-z;',./]"
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;',./"
