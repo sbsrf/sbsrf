@@ -81,11 +81,11 @@ engine:
     - simplifier@es_conversion
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
+    - uniquifier
     - lua_filter@*sbxlm.fix
     - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.select_key_to_comment
     - simplifier
-    - uniquifier
 
 algebra:
   # 声笔特色
