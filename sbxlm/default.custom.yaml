@@ -14,6 +14,7 @@ patch:
     - schema: sbfy
     - schema: sbfx
     - schema: sbfj
+    - schema: sbmd
   switcher:
     abbreviate_options: true
     caption: "〔方案选单〕"
