@@ -21,7 +21,7 @@ function this.init(env)
 	    env.memory = rime.Memory1(env.engine, env.engine.schema, "")
 	end
 	-- 声笔飞单和声笔飞延采用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
-	local dict_name = (id == "sbfd" or id == "sbfy") and "sbfm" or id
+	local dict_name = (id == "sbfd" or id == "sbmd" or id == "sbfy") and "sbfm" or id
 	-- 声笔简拼和声笔拼音用声笔简码的简码
 	if (id == 'sbjp' or id == 'sbpy') then dict_name = 'sbjm' end
 	-- 声笔自整用声笔自然的简码

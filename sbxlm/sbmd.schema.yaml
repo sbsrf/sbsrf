@@ -1,0 +1,18 @@
+# Rime schema
+# encoding: utf-8
+
+__include: sbfd.schema.yaml:/
+
+schema:
+  schema_id: sbmd
+  name: "声笔魔单"
+  icon: "nothing.ico"
+  description: |
+    —— 隐藏了候选框的飞单, 强制盲打。只能在Windows下使用。
+
+style:
+  # 如果连嵌入的首选都不想看，则注释掉下面一行
+  inline_preedit: true
+  preedit_type: preview
+  layout:
+    margin_y: -1
