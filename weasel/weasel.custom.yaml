@@ -12,6 +12,7 @@ patch:
   "style/label_format": "%s "
   "style/layout/candidate_spacing": 10
   "style/layout/min_width": 10
+  "show_notifications": false #中英文切换时是否显示图标
 #开启以下两行进行强制盲打
 #  "style/layout/margin_x": -1010
 #  "style/layout/margin_y": -1010
