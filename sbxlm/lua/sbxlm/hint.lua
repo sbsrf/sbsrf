@@ -195,7 +195,7 @@ function this.func(translation, env)
 			end
 		end
 
-		-- 豹码提示
+		-- 猛码提示
 		if core.mm(id) and rime.match(input, "[a-z]{1,3}") then
 			local forward, x, y
 			---@type { string: number }
@@ -278,7 +278,10 @@ function this.func(translation, env)
 				end
 				memory:dict_lookup(shengmu .. hint_p[idx], false, 1)
 				for entry in memory:iter_dict() do
-					bihua = bihua .. entry.text .. hint_p[idx]
+					-- 飞码的sxs上不提示标点字
+					if not (core.fm(id) and core.sxs(input)) then
+						bihua = bihua .. entry.text .. hint_p[idx]
+					end
 					local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
 					rime.yield(forward)
 					break
