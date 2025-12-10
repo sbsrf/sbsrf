@@ -55,7 +55,6 @@ function this.func(translation, env)
 	local hint_n3 = { "1", "2", "3", "4", "5" }
 	local hint_b = { "a", "e", "u", "i", "o" }
 	local hint_p = { ",", ";", "/", ".", "'" }
-	local hint_bp = { "'",";", "a", "e", "u", "i", "o" }
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
@@ -232,6 +231,18 @@ function this.func(translation, env)
 			end
 		end
 
+		-- 飞系在spb时用注释提示扩展标点字
+		if core.feixi(id) and core.ssb(input) then
+			for j = 1, #hint_p do
+				memory:dict_lookup(candidate.preedit .. hint_p[j], false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. hint_p[j]
+					break
+				end	
+			end
+		end
+
 		-- 飞系方案和声笔简码在 s, sx, sxb 格式的编码上提示 23789 和 14560 两组数选字词
 		if (core.s(input) or core.sx(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do
@@ -320,10 +331,10 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 飞系方案在 ssb 码位上，提示扩展标点字和spbb缩减字
+		-- 飞系方案在 ssb 码位上，提示spbb缩减字
 		if core.ssb(input) and core.feixi(id) and not is_hidden then
-			for _, bp in ipairs(hint_bp) do
-				local ssbx = candidate.preedit .. bp
+			for _, b in ipairs(hint_b) do
+				local ssbx = candidate.preedit .. b
 				memory:dict_lookup(ssbx, false, 1)
 				local entry1 = nil
 				for entry in memory:iter_dict() do
@@ -333,7 +344,7 @@ function this.func(translation, env)
 				if not entry1 then
 					goto continue
 				end
-				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bp)
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, b)
 				rime.yield(forward)
 				::continue::
 			end
