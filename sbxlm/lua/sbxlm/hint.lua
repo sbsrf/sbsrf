@@ -55,6 +55,7 @@ function this.func(translation, env)
 	local hint_n3 = { "1", "2", "3", "4", "5" }
 	local hint_b = { "a", "e", "u", "i", "o" }
 	local hint_p = { ",", ";", "/", ".", "'" }
+	local hint_bp = { "'",";", "a", "e", "u", "i", "o" }
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
@@ -79,6 +80,18 @@ function this.func(translation, env)
 						candidate.comment = candidate.comment .. " " .. code
 					end
 					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9][aeuio]?") and is_enhanced then
+						candidate.comment = candidate.comment .. " " .. code
+					end
+				end
+			end
+		end
+		-- 飞系方案 sxb[;'] 格式上的编码需要提示 s 或者 sb 字
+		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio][;']") then
+			local codes = env.reverse:lookup(candidate.text)
+			candidate.comment = ""
+			for code in string.gmatch(codes, "[^ ]+") do
+				if input ~= code and input:len() >= code:len() then
+					if rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio]?") then
 						candidate.comment = candidate.comment .. " " .. code
 					end
 				end
@@ -303,6 +316,24 @@ function this.func(translation, env)
 					goto continue
 				end
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
+				rime.yield(forward)
+				::continue::
+			end
+		end
+		-- 飞系方案在 ssb 码位上，提示扩展标点字和spbb缩减字
+		if core.ssb(input) and core.feixi(id) and not is_hidden then
+			for _, bp in ipairs(hint_bp) do
+				local ssbx = candidate.preedit .. bp
+				memory:dict_lookup(ssbx, false, 1)
+				local entry1 = nil
+				for entry in memory:iter_dict() do
+					entry1 = entry
+					break
+				end
+				if not entry1 then
+					goto continue
+				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bp)
 				rime.yield(forward)
 				::continue::
 			end

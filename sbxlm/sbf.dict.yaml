@@ -402,6 +402,7 @@ columns:
 八方资源网	bf9i	0
 变废为宝	bf9o	0
 备份文件	bf9u	0
+把	bfa'	0
 扳	bfue	9999
 不过	bg'	0
 办公	bg0	0
@@ -476,6 +477,7 @@ columns:
 不会忘记	bh9o	0
 悲欢离合	bh9u	0
 不好	bha	0
+不	bhu'	0
 不只	b'i	0
 贬	bi'	0
 蹦	bi;	0
@@ -603,6 +605,8 @@ columns:
 本来就是	bl9i	0
 不良资产	bl9o	0
 布鲁塞尔	bl9u	0
+边	bla'	0
+别	bli'	0
 部门	bm'	0
 保密	bm0	0
 报名	bm1	0
@@ -731,6 +735,7 @@ columns:
 鞭辟着里	bp9i	0
 变频空调	bp9o	0
 不怕官只怕管	bp9u	0
+白	bpi'	0
 并且	bq'	0
 病情	bq0	0
 本期	bq1	0
@@ -935,6 +940,7 @@ columns:
 百二河山	bv9i	0
 不二法门	bv9o	0
 贝尔法斯特	bv9u	0
+部	bvo'	0
 把握	bw'	0
 变为	bw0	0
 傍晚	bw1	0
@@ -1355,6 +1361,7 @@ columns:
 存储容量	cc9i	0
 匆匆忙忙	cc9o	0
 除此之外	cc9u	0
+出	cca'	0
 程度	cd'	0
 菜单	cd0	0
 长度	cd1	0
@@ -1392,6 +1399,7 @@ columns:
 闯荡江湖	cd9o	0
 彻底治愈	cd9u	0
 淬	cdoi	9999
+次	cdu'	0
 查找	c'e	0
 摧	ce'	0
 操	ce;	0
@@ -1490,6 +1498,7 @@ columns:
 乘高决水	cg9i	0
 出国旅游	cg9o	0
 成功案例	cg9u	0
+成	cge'	0
 窗户	ch'	0
 词汇	ch0	0
 彩虹	ch1	0
@@ -1733,6 +1742,7 @@ columns:
 丑女效颦	cn9i	0
 楚囊之情	cn9o	0
 超女演唱会	cn9u	0
+此	cnu'	0
 察觉	c'o	0
 惨	co'	0
 测	co;	0
@@ -1864,6 +1874,7 @@ columns:
 齿如齐贝	cr9i	0
 出人意料	cr9o	0
 乘人之危	cr9u	0
+从	cru'	0
 此时	cs'	0
 成熟	cs0	0
 参数	cs1	0
@@ -1993,6 +2004,7 @@ columns:
 侈恩席宠	cv9o	0
 长安福特	cv9u	0
 翅	cveo	9999
+除	cvu'	0
 成为	cw'	0
 常务	cw0	0
 传闻	cw1	0
@@ -2340,7 +2352,7 @@ columns:
 繵	da8	0
 缍	da9	0
 缎	daa	0
-叠	dae	0
+屌	dae	0
 陡	dai	0
 翟	dao	0
 娣	dau	0
@@ -2380,6 +2392,7 @@ columns:
 东北新闻网	db9i	0
 对比测试	db9o	0
 东北方向	db9u	0
+的	dbu'	0
 调查	dc'	0
 电池	dc0	0
 地产	dc1	0
@@ -2416,6 +2429,7 @@ columns:
 打草惊蛇	dc9i	0
 调查问卷	dc9o	0
 德才兼备	dc9u	0
+得	dci'	0
 得到	dd'	0
 等到	dd0	0
 懂得	dd1	0
@@ -2587,6 +2601,7 @@ columns:
 电话订购	dh9i	0
 大会决议	dh9o	0
 大航海时代	dh9u	0
+大	dhu'	0
 登时	d'i	0
 鼎	di'	0
 吨	di;	0
@@ -2716,6 +2731,7 @@ columns:
 多来米中文网	dl9i	0
 电路设计	dl9o	0
 大连实德	dl9u	0
+道	dlo'	0
 多么	dm'	0
 大米	dm0	0
 店面	dm1	0
@@ -3122,6 +3138,7 @@ columns:
 地下室里	dx9i	0
 大学语文	dx9o	0
 得心应手	dx9u	0
+当	dxa'	0
 第一	dy'	0
 对应	dy0	0
 得以	dy1	0
@@ -3158,6 +3175,7 @@ columns:
 电影演员	dy9i	0
 电影资源	dy9o	0
 第一部分	dy9u	0
+对	dye'	0
 弟子	dz'	0
 当作	dz0	0
 多种	dz1	0
@@ -3434,6 +3452,7 @@ columns:
 发表意见	fb9i	0
 发表文章	fb9o	0
 反败为胜	fb9u	0
+分	fba'	0
 非常	fc'	0
 复仇	fc0	0
 服从	fc1	0
@@ -3506,6 +3525,7 @@ columns:
 房地产业	fd9i	0
 房地产商	fd9o	0
 发短消息	fd9u	0
+方	fde'	0
 放到	f'e	0
 焚	fe'	0
 辅	fe;	0
@@ -4000,6 +4020,7 @@ columns:
 风声鹤唳	fs9i	0
 发生冲突	fs9o	0
 发生意外	fs9u	0
+非	fse'	0
 反弹	ft'	0
 风头	ft0	0
 翻腾	ft1	0
@@ -4092,6 +4113,7 @@ columns:
 反而容易	fv9i	0
 凡尔赛宫	fv9o	0
 反而觉得	fv9u	0
+夫	fvu'	0
 服务	fw'	0
 防伪	fw0	0
 绯闻	fw1	0
@@ -4203,6 +4225,7 @@ columns:
 副研究员	fy9i	0
 法院认为	fy9o	0
 斧钺汤镬	fy9u	0
+发	fya'	0
 发展	fz'	0
 方针	fz0	0
 法子	fz1	0
@@ -4239,6 +4262,7 @@ columns:
 发展前景	fz9i	0
 发展空间	fz9o	0
 发展方向	fz9u	0
+飞	fzu'	0
 功	g'	0
 感	g,	0
 甘肃	g,a	0
@@ -4476,6 +4500,7 @@ columns:
 关闭窗口	gb9i	0
 拱北海关	gb9o	0
 根本宗旨	gb9u	0
+公	gba'	0
 工程	gc'	0
 广场	gc0	0
 工厂	gc1	0
@@ -4734,6 +4759,7 @@ columns:
 国家广电	gj9i	0
 国际米兰	gj9o	0
 国家安全	gj9u	0
+给	gju'	0
 公开	gk'	0
 过客	gk0	0
 感慨	gk1	0
@@ -4770,6 +4796,7 @@ columns:
 高考试题	gk9i	0
 顾客满意	gk9o	0
 鬼哭神愁	gk9u	0
+国	gke'	0
 管理	gl'	0
 过滤	gl0	0
 桂林	gl1	0
@@ -4806,6 +4833,7 @@ columns:
 关联交易	gl9i	0
 管理部门	gl9o	0
 鼓励学生	gl9u	0
+过	gle'	0
 革命	gm'	0
 干吗	gm0	0
 哥们	gm1	0
@@ -5006,6 +5034,7 @@ columns:
 个人意见	gr9i	0
 个人资料	gr9o	0
 个人文集	gr9u	0
+个	gri'	0
 告诉	gs'	0
 拱手	gs0	0
 攻势	gs1	0
@@ -5093,8 +5122,8 @@ columns:
 锢	gu9	0
 肝	gua	0
 鲑	guai	0
-罐	gue	0
-缸	guee	0
+锢	gue	0
+罐	guee	0
 牯	guei	0
 篝	gueo	0
 躬	gui	0
@@ -5175,6 +5204,7 @@ columns:
 国无宁日	gw9i	0
 过五关斩六将	gw9o	0
 公文写作	gw9u	0
+高	gwi'	0
 关系	gx'	0
 个性	gx0	0
 甘心	gx1	0
@@ -5727,6 +5757,7 @@ columns:
 赫赫之光	hh9i	0
 豪华酒店	hh9o	0
 呼和浩特	hh9u	0
+和	hhi'	0
 呼吁	h'i	0
 唤	hi'	0
 嘿	hi;	0
@@ -5819,6 +5850,7 @@ columns:
 黑客帝国	hk9i	0
 好客之道	hk9o	0
 航空安全	hk9u	0
+回	hki'	0
 哗	hkuu	9999
 回来	hl'	0
 怀里	hl0	0
@@ -5856,6 +5888,7 @@ columns:
 汗流浃背	hl9i	0
 糊里糊涂	hl9o	0
 哈利波特	hl9u	0
+还	hle'	0
 后面	hm'	0
 毁灭	hm0	0
 皇马	hm1	0
@@ -5928,6 +5961,7 @@ columns:
 华纳音乐集团	hn9i	0
 河南郑州	hn9o	0
 海内海外	hn9u	0
+好	hna'	0
 海洋	h'o	0
 河	ho'	0
 户	ho;	0
@@ -6060,6 +6094,7 @@ columns:
 骇人视听	hr9i	0
 浩如烟海	hr9o	0
 浩然之气	hr9u	0
+会	hre'	0
 还是	hs'	0
 何时	hs0	0
 红色	hs1	0
@@ -6297,6 +6332,7 @@ columns:
 很有意思	hy9i	0
 欢迎访问	hy9o	0
 会员注册	hy9u	0
+话	hyu'	0
 孩子	hz'	0
 患者	hz0	0
 活着	hz1	0
@@ -6537,6 +6573,7 @@ columns:
 降	jai	0
 孑	jaie	0
 劲	jao	0
+迳	jaoe	0
 妓	jau	0
 姣	jaue	0
 袈	jaui	0
@@ -6748,6 +6785,7 @@ columns:
 几个问题	jg9i	0
 靖国神社	jg9o	0
 加工设备	jg9u	0
+家	jge'	0
 戟	jgeo	9999
 几乎	jh'	0
 今后	jh0	0
@@ -6842,6 +6880,7 @@ columns:
 解决问题	jj9i	0
 经济效益	jj9o	0
 经济社会	jj9u	0
+经	jja'	0
 钾	jjii	9999
 觊	jjiu	9999
 绢	jjiu	9999
@@ -6918,6 +6957,7 @@ columns:
 举例说明	jl9i	0
 加利福尼亚州	jl9o	0
 计量单位	jl9u	0
+进	jle'	0
 剂	jloa	9999
 见面	jm'	0
 加盟	jm0	0
@@ -7056,6 +7096,7 @@ columns:
 解剖麻雀	jp9i	0
 鸡皮疙瘩	jp9o	0
 精品课程	jp9u	0
+几	jpa'	0
 加强	jq'	0
 减轻	jq0	0
 金钱	jq1	0
@@ -7164,6 +7205,7 @@ columns:
 精神文明	js9i	0
 技术交流	js9o	0
 结束之后	js9u	0
+见	jsa'	0
 今天	jt'	0
 教堂	jt0	0
 简体	jt1	0
@@ -7300,6 +7342,7 @@ columns:
 井蛙之见	jw9i	0
 军委主席	jw9o	0
 鸡尾酒会	jw9u	0
+就	jwi'	0
 进行	jx'	0
 机械	jx0	0
 惊喜	jx1	0
@@ -7934,6 +7977,7 @@ columns:
 慷慨激昂	kk9i	0
 苦口婆心	kk9o	0
 开开心心的	kk9u	0
+可	kke'	0
 看来	kl'	0
 克隆	kl0	0
 骷髅	kl1	0
@@ -7970,6 +8014,7 @@ columns:
 恐龙总目	kl9i	0
 伉俪情深	kl9o	0
 克劳福德	kl9u	0
+快	kla'	0
 开门	km'	0
 快慢	km0	0
 开卖	km1	0
@@ -8006,6 +8051,7 @@ columns:
 卡姆永远活在我心中	km9i	0
 昆明旅游	km9o	0
 刻木为鹄	km9u	0
+看	kmu'	0
 可能	kn'	0
 哭闹	kn0	0
 狂怒	kn1	0
@@ -8205,6 +8251,7 @@ columns:
 考试试题	ks9i	0
 开始实施	ks9o	0
 哭丧着脸	ks9u	0
+口	ksa'	0
 客厅	kt'	0
 开庭	kt0	0
 抗体	kt1	0
@@ -8293,6 +8340,7 @@ columns:
 科尔沁左翼中	kv9i	0
 困而学之	kv9o	0
 口耳并重	kv9u	0
+开	kvu'	0
 渴望	kw'	0
 课外	kw0	0
 可望	kw1	0
@@ -8438,6 +8486,7 @@ columns:
 空中课堂	kz9i	0
 口直心快	kz9o	0
 控制设备	kz9u	0
+孔	kza'	0
 空中	kzi	0
 龙	l'	0
 量	l,	0
@@ -8753,6 +8802,7 @@ columns:
 劳动就业	ld9i	0
 劳动部门	ld9o	0
 落到实处	ld9u	0
+立	lde'	0
 涝	ldeo	9999
 浏	ldoo	9999
 流动	l'e	0
@@ -8890,6 +8940,8 @@ columns:
 落花流水	lh9i	0
 联合证券	lh9o	0
 临河羡鱼	lh9u	0
+利	lhi'	0
+来	lho'	0
 律师	l'i	0
 逻	li'	0
 岭	li;	0
@@ -9263,6 +9315,7 @@ columns:
 粮食产量	ls9i	0
 历史文章	ls9o	0
 历史文化	ls9u	0
+里	lsa'	0
 硫	lsoi	9999
 老头	lt'	0
 流通	lt0	0
@@ -9507,6 +9560,8 @@ columns:
 留在这里	lz9i	0
 狼子兽心	lz9o	0
 隆重举行	lz9u	0
+了	lzi'	0
+力	lzu'	0
 么	m'	0
 母	m,	0
 卖出	m,a	0
@@ -9823,7 +9878,9 @@ columns:
 梦的衣裳	md9i	0
 灭顶之灾	md9o	0
 满打满算	md9u	0
+门	mdi'	0
 渺	mdie	9999
+没	mdu'	0
 敏捷	m'e	0
 棉	me'	0
 茫	me;	0
@@ -9952,6 +10009,7 @@ columns:
 梦幻之星	mh9i	0
 貌合神离	mh9o	0
 默换潜移	mh9u	0
+面	mhu'	0
 梦中	m'i	0
 眠	mi'	0
 瞒	mi;	0
@@ -10409,6 +10467,7 @@ columns:
 马尔康县	mv9i	0
 默而识之	mv9o	0
 免安装版	mv9u	0
+明	mvu'	0
 冕	mvui	9999
 门外	mw'	0
 迷雾	mw0	0
@@ -10482,6 +10541,7 @@ columns:
 梦想家园	mx9i	0
 冒险精神	mx9o	0
 目眩头昏	mx9u	0
+名	mxi'	0
 没有	my'	0
 每页	my0	0
 每一	my1	0
@@ -10554,6 +10614,7 @@ columns:
 木制家具	mz9i	0
 民族精神	mz9o	0
 民族文化	mz9u	0
+民	mze'	0
 哪	n'	0
 您	n,	0
 南阳	n,a	0
@@ -10955,6 +11016,7 @@ columns:
 内顾之忧	ng9o	0
 能告诉我	ng9u	0
 能够	ngu	0
+农	ngu'	0
 女孩	nh'	0
 农户	nh0	0
 内核	nh1	0
@@ -11083,6 +11145,7 @@ columns:
 宁可清贫不作浊富	nk9o	0
 你看这个	nk9u	0
 唔	nkeo	9999
+内	nku'	0
 那里	nl'	0
 南路	nl0	0
 拿了	nl1	0
@@ -11245,6 +11308,7 @@ columns:
 黏皮着骨	np9i	0
 牛皮癣关节炎	np9o	0
 你陪着我	np9u	0
+年	npe'	0
 那片	npu	0
 年轻	nq'	0
 拿钱	nq0	0
@@ -11318,6 +11382,7 @@ columns:
 你认为呢	nr9i	0
 女人高潮	nr9o	0
 女人心海底针	nr9u	0
+你	nru'	0
 那时	ns'	0
 女声	ns0	0
 女神	ns1	0
@@ -11354,6 +11419,7 @@ columns:
 女设计师	ns9i	0
 鸟声兽心	ns9o	0
 女生宿舍	ns9u	0
+南	nsi'	0
 念头	nt'	0
 难听	nt0	0
 女童	nt1	0
@@ -11443,6 +11509,7 @@ columns:
 男按摩师	nv9i	0
 南安普敦	nv9o	0
 南澳洲刺躄鱼	nv9u	0
+那	nva'	0
 那位	nw'	0
 女巫	nw0	0
 难为	nw1	0
@@ -12029,6 +12096,7 @@ columns:
 品花宝鉴	ph9i	0
 普华永道	ph9o	0
 批红判白	ph9u	0
+平	pho'	0
 牌照	p'i	0
 毗	pi'	0
 曝	pi;	0
@@ -12120,6 +12188,7 @@ columns:
 怕苦怕累	pk9i	0
 贫困家庭	pk9o	0
 贫困学生	pk9u	0
+品	pki'	0
 漂亮	pl'	0
 拍了	pl0	0
 破裂	pl1	0
@@ -12157,6 +12226,7 @@ columns:
 蒲柳之姿	pl9o	0
 批鳞请剑	pl9u	0
 批量	pli	0
+怕	plu'	0
 拼命	pm'	0
 飘渺	pm0	0
 破灭	pm1	0
@@ -12284,6 +12354,7 @@ columns:
 铺平道路	pp9i	0
 平平淡淡	pp9o	0
 品牌定位	pp9u	0
+片	ppi'	0
 脾气	pq'	0
 排球	pq0	0
 片区	pq1	0
@@ -12389,6 +12460,7 @@ columns:
 拍摄效果	ps9i	0
 扑朔迷离	ps9o	0
 破死忘生	ps9u	0
+破	psa'	0
 普通	pt'	0
 菩提	pt0	0
 陪她	pt1	0
@@ -12623,6 +12695,7 @@ columns:
 批准文号	pz9i	0
 萍踪浪迹	pz9o	0
 配置文件	pz9u	0
+皮	pzu'	0
 求	q'	0
 青	q,	0
 情缘	q,a	0
@@ -12860,6 +12933,7 @@ columns:
 曲不离口	qb9i	0
 浅表性胃炎	qb9o	0
 全部音乐	qb9u	0
+前	qbe'	0
 清楚	qc'	0
 全场	qc0	0
 球场	qc1	0
@@ -13025,6 +13099,7 @@ columns:
 情感话题	qg9i	0
 全国计算机等级考试	qg9o	0
 全国总工会	qg9u	0
+强	qgi'	0
 前后	qh'	0
 青海	qh0	0
 奇幻	qh1	0
@@ -13074,7 +13149,7 @@ columns:
 岖	qi7	0
 岐	qi8	0
 黔	qi9	0
-嵌	qia	0
+蹊	qia	0
 噙	qiae	0
 岐	qiai	0
 歧	qie	0
@@ -13391,6 +13466,7 @@ columns:
 切入主题	qr9i	0
 欺人之谈	qr9o	0
 沁人心脾	qr9u	0
+全	qre'	0
 其实	qs'	0
 趋势	qs0	0
 气势	qs1	0
@@ -13427,6 +13503,7 @@ columns:
 求神问卜	qs9i	0
 气势汹汹	qs9o	0
 岂是池中物	qs9u	0
+且	qsa'	0
 其他	qt'	0
 秋天	qt0	0
 洽谈	qt1	0
@@ -13463,6 +13540,7 @@ columns:
 拳头产品	qt9i	0
 气体放电灯	qt9o	0
 情投意合	qt9u	0
+去	qta'	0
 取代	q'u	0
 钦	qu'	0
 迁	qu;	0
@@ -13663,6 +13741,7 @@ columns:
 群众意见	qz9i	0
 强直性脊柱炎	qz9o	0
 求职意向	qz9u	0
+起	qza'	0
 仁	r'	0
 仍	r,	0
 人妖	r,a	0
@@ -13930,6 +14009,7 @@ columns:
 人畜兴旺	rc9i	0
 人才交流	rc9o	0
 人才流失	rc9u	0
+若	rce'	0
 人大	rd'	0
 入党	rd0	0
 人到	rd1	0
@@ -14216,6 +14296,7 @@ columns:
 人力资源	rl9o	0
 人类社会	rl9u	0
 容量	rli	0
+然	rlu'	0
 人民	rm'	0
 如梦	rm0	0
 人命	rm1	0
@@ -14287,6 +14368,7 @@ columns:
 如鸟兽散	rn9e	0
 阮囊羞涩	rn9o	0
 热能设备	rn9u	0
+如	rni'	0
 任性	r'o	0
 溽	ro'	0
 襦	ro;	0
@@ -14335,6 +14417,7 @@ columns:
 乳癖消片	rp9u	0
 乳品	rpi	0
 热评	rpo	0
+人	rpo'	0
 软盘	rpu	0
 热情	rq'	0
 日趋	rq0	0
@@ -14445,6 +14528,7 @@ columns:
 染神刻骨	rs9i	0
 人事部门	rs9o	0
 人身安全	rs9u	0
+日	rsa'	0
 如同	rt'	0
 忍痛	rt0	0
 如题	rt1	0
@@ -14643,6 +14727,7 @@ columns:
 日用消费品	ry9i	0
 人员资格考试	ry9o	0
 容易产生	ry9u	0
+让	ryi'	0
 日用	ryu	0
 日子	rz'	0
 认知	rz0	0
@@ -14922,6 +15007,7 @@ columns:
 山崩海啸	sb9i	0
 设备安装	sb9o	0
 商标注册	sb9u	0
+上	sbe'	0
 市场	sc'	0
 输出	sc0	0
 适才	sc1	0
@@ -15131,6 +15217,7 @@ columns:
 社会实践	sh9i	0
 社会主义	sh9o	0
 社会主义现代化	sh9u	0
+事	shi'	0
 呻吟	s'i	0
 署	si'	0
 睡	si;	0
@@ -15397,6 +15484,7 @@ columns:
 商品交易	sp9i	0
 食品添加剂	sp9o	0
 食品安全	sp9u	0
+手	spe'	0
 事情	sq'	0
 申请	sq0	0
 山区	sq1	0
@@ -15605,6 +15693,7 @@ columns:
 十二宫图	sv9i	0
 萨尔温江	sv9o	0
 十二宫篇	sv9u	0
+是	sve'	0
 暑	svea	9999
 晒	svee	9999
 曙	sviu	9999
@@ -15716,6 +15805,8 @@ columns:
 使用说明	sy9i	0
 所有资源	sy9o	0
 事业单位	sy9u	0
+双	sya'	0
+说	syo'	0
 讼	syua	9999
 身子	sz'	0
 谁知	sz0	0
@@ -16065,6 +16156,7 @@ columns:
 他的心里	td9i	0
 团队精神	td9o	0
 唐代诗人	td9u	0
+头	tdo'	0
 特地	t'e	0
 挑	te'	0
 投	te;	0
@@ -16285,6 +16377,7 @@ columns:
 弹空说嘴	tk9i	0
 痛哭流涕	tk9o	0
 填坑满谷	tk9u	0
+同	tke'	0
 讨论	tl'	0
 涂料	tl0	0
 停了	tl1	0
@@ -16394,6 +16487,7 @@ columns:
 糖尿病足	tn9i	0
 糖尿病治疗	tn9o	0
 糖尿病药物	tn9u	0
+她	tna'	0
 通道	t'o	0
 淘	to'	0
 滔	to;	0
@@ -16525,6 +16619,8 @@ columns:
 突然之间	tr9o	0
 投入资金	tr9u	0
 体弱	tra	0
+他	tra'	0
+体	tre'	0
 同时	ts'	0
 天使	ts0	0
 提示	ts1	0
@@ -16649,6 +16745,7 @@ columns:
 胎儿性别	tv9i	0
 推而广之	tv9o	0
 天安门事件	tv9u	0
+天	tvu'	0
 台湾	tw'	0
 体温	tw0	0
 天文	tw1	0
@@ -17190,6 +17287,7 @@ columns:
 爱国主义	vg9o	0
 哀告宾服	vg9u	0
 二姑	vga	0
+安	vga'	0
 爱国	vgi	0
 而后	vh'	0
 二胡	vh0	0
@@ -17227,6 +17325,8 @@ columns:
 哀鸿遍野	vh9i	0
 哀毁瘠立	vh9o	0
 鹅湖之会	vh9u	0
+二	vhe'	0
+而	vhu'	0
 哎哟	v'i	0
 嗄	vi'	0
 嗳	vi;	0
@@ -17476,6 +17576,7 @@ columns:
 饿殍满道	vp9o	0
 安排资金	vp9u	0
 鞍辔	vpa	0
+儿	vpa'	0
 矮胖	vpu	0
 而且	vq'	0
 按期	vq0	0
@@ -17675,6 +17776,8 @@ columns:
 爱尔兰共和国	vv9i	0
 爱尔兰共和军	vv9o	0
 爱尔兰人	vv9u	0
+阿	vve'	0
+暗	vvo'	0
 安危	vw'	0
 耳闻	vw0	0
 爱玩	vw1	0
@@ -18135,6 +18238,7 @@ columns:
 我的心里	wd9i	0
 我的心情	wd9o	0
 我的音乐盒	wd9u	0
+为	wdu'	0
 物理	w'e	0
 枉	we'	0
 巫	we;	0
@@ -18225,6 +18329,7 @@ columns:
 我国农业	wg9i	0
 外观设计	wg9o	0
 无关宏旨	wg9u	0
+我	wgu'	0
 文化	wh'	0
 危害	wh0	0
 外汇	wh1	0
@@ -18316,6 +18421,7 @@ columns:
 五金交电	wj9i	0
 物价部门	wj9o	0
 外交部发言人	wj9u	0
+维	wju'	0
 我看	wk'	0
 为空	wk0	0
 唯恐	wk1	0
@@ -18717,6 +18823,7 @@ columns:
 望而兴叹	wv9i	0
 问安视寝	wv9o	0
 问安视膳	wv9u	0
+晚	wvu'	0
 微微	ww'	0
 往外	ww0	0
 外围	ww1	0
@@ -18789,6 +18896,7 @@ columns:
 微型窃听器	wx9i	0
 无形资产	wx9o	0
 无需注册	wx9u	0
+外	wxi'	0
 唯一	wy'	0
 万元	wy0	0
 网页	wy1	0
@@ -18825,6 +18933,7 @@ columns:
 网页快照	wy9i	0
 网页设计	wy9o	0
 五颜六色	wy9u	0
+无	wye'	0
 无意	wyo	0
 位置	wz'	0
 王子	wz0	0
@@ -19101,6 +19210,7 @@ columns:
 鲜蹦活跳	xb9i	0
 西部旅游	xb9o	0
 校本课程	xb9u	0
+下	xbe'	0
 形成	xc'	0
 行程	xc0	0
 写出	xc1	0
@@ -19173,6 +19283,7 @@ columns:
 现代农业	xd9i	0
 下定决心	xd9o	0
 现代社会	xd9u	0
+心	xda'	0
 西藏	x'e	0
 昔	xe'	0
 薛	xe;	0
@@ -19359,6 +19470,7 @@ columns:
 现金流量	xj9i	0
 先进性教育	xj9o	0
 先进单位	xj9u	0
+线	xje'	0
 巷	xjeo	9999
 胸口	xk'	0
 侠客	xk0	0
@@ -19566,6 +19678,7 @@ columns:
 效颦学步	xp9i	0
 新瓶装旧酒	xp9o	0
 嘻皮涎脸	xp9u	0
+笑	xpu'	0
 想起	xq'	0
 星期	xq0	0
 小区	xq1	0
@@ -19674,6 +19787,7 @@ columns:
 小说阅读网	xs9i	0
 销售渠道	xs9o	0
 刑事法律	xs9u	0
+小	xsu'	0
 系统	xt'	0
 心痛	xt0	0
 小偷	xt1	0
@@ -19840,6 +19954,7 @@ columns:
 详细说明	xx9i	0
 详细资料	xx9o	0
 信息安全	xx9u	0
+想	xxe'	0
 需要	xy'	0
 现有	xy0	0
 学院	xy1	0
@@ -20370,6 +20485,7 @@ columns:
 用户数量	yh9i	0
 优化设计	yh9o	0
 用户注册	yh9u	0
+一	yhe'	0
 夜里	y'i	0
 曰	yi'	0
 园	yi;	0
@@ -20539,6 +20655,7 @@ columns:
 要么就是	ym9i	0
 阴谋诡计	ym9o	0
 域名注册	ym9u	0
+眼	yma'	0
 一年	yn'	0
 印尼	yn0	0
 酝酿	yn1	0
@@ -20643,6 +20760,7 @@ columns:
 硬盘容量	yp9i	0
 一篇文章	yp9o	0
 音频文件	yp9u	0
+用	ypa'	0
 一切	yq'	0
 邀请	yq0	0
 勇气	yq1	0
@@ -20851,6 +20969,7 @@ columns:
 以耳为目	yv9i	0
 尤而效之	yv9o	0
 掩耳盗铃	yv9u	0
+有	yve'	0
 邮	yvio	9999
 陨	yviu	9999
 翌	yvoi	9999
@@ -20963,6 +21082,7 @@ columns:
 一夜之间	yy9o	0
 音乐文件	yy9u	0
 颐	yyeo	9999
+意	yyo'	0
 一直	yz'	0
 影子	yz0	0
 沿着	yz1	0
@@ -20999,6 +21119,7 @@ columns:
 优质产品	yz9i	0
 宇宙空间	yz9o	0
 语重心长	yz9u	0
+也	yzi'	0
 种	z'	0
 真	z,	0
 最终	z,a	0
@@ -21197,8 +21318,8 @@ columns:
 纣	za7	0
 孜	za8	0
 帚	za9	0
-骤	zaa	0
-纣	zaae	0
+纣	zaa	0
+骤	zaae	0
 粥	zae	0
 阵	zai	0
 纸	zao	0
@@ -21552,6 +21673,7 @@ columns:
 真空设备	zk9u	0
 吱	zkea	9999
 哉	zkeo	9999
+中	zki'	0
 匝	zkio	9999
 这里	zl'	0
 治疗	zl0	0
@@ -21662,6 +21784,7 @@ columns:
 在你心中	zn9i	0
 职能部门	zn9o	0
 罪孽深重	zn9u	0
+正	zne'	0
 主意	z'o	0
 族	zo'	0
 涨	zo;	0
@@ -21683,12 +21806,12 @@ columns:
 瘴	zoeu	0
 站	zoi	0
 汁	zoo	0
-滋	zooe	0
-惴	zooi	0
+涨	zooe	0
+怔	zooi	0
 渣	zooo	9999
-糟	zou	0
-粽	zoue	0
-烛	zouu	0
+烛	zou	0
+糟	zoue	0
+燥	zouu	0
 只怕	zp'	0
 栽培	zp0	0
 招牌	zp1	0
@@ -21725,6 +21848,7 @@ columns:
 指破迷团	zp9i	0
 这篇文章	zp9o	0
 招聘单位	zp9u	0
+自	zpi'	0
 之前	zq'	0
 主权	zq0	0
 抓起	zq1	0
@@ -21872,6 +21996,7 @@ columns:
 转贴请注明	zt9i	0
 专题讲座	zt9o	0
 志同道合	zt9u	0
+在	zte'	0
 左手	z'u	0
 追	zu'	0
 造	zu;	0
@@ -22045,6 +22170,7 @@ columns:
 主营产品	zy9i	0
 中医治疗	zy9o	0
 职业道德	zy9u	0
+着	zyi'	0
 正在	zz'	0
 挣扎	zz0	0
 阻止	zz1	0
@@ -22081,4 +22207,5 @@ columns:
 转载请注明	zz9i	0
 这种情况	zz9o	0
 重中之重	zz9u	0
+子	zzi'	0
 趾	zzii	9999
