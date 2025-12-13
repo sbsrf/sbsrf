@@ -25,14 +25,14 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
+  - name: is_enhanced
+    reset: 1
+    states: [常规, 增强]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
   - name: is_buffered
     reset: 0
-  - options: [pro_word, pro_char]
-    reset: 1
-  # states: [词组, 单字]
   - name: show_es
     reset: 1
   # 不要改变下面的状态，以免穿帮
@@ -80,15 +80,15 @@ engine:
 
 popping:
   __append:
-    # 词组模式
-    # 单字模式
-    - match: "[a-z]{3}"
-      accept: "[a-z0-9]"
-      prefix: 2
+    # 增强模式
+    - when: is_enhanced
+      match: "[a-z]{4}"
+      accept: "[0-9]"
+      strategy: append
+    # 不论模式
     - match: "[a-z]{2}"
       accept: "[0-9]"
       prefix: 1
-    # 不论模式
     - match: "[a-z][0-9]"
       accept: "[a-z]"
     - match: "[a-z]{2,3}[;',./]"
@@ -97,12 +97,14 @@ popping:
       accept: "[;',./]"
     - match: "[^a-z]"
       accept: "[^ ]"
+    - match: "[a-z]{4}[12345]"
+      accept: "[a-z;',./]"
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;',./"
   initials: "bpmfdtnlgkhjqxzcsrywvaeiou"
   auto_clear: none
-  max_code_length: 4
+  max_code_length: 5
   auto_select: true
   auto_select_pattern: "^[a-z][0-9]|[a-z]{2}[;',./]$"
   popping:
@@ -123,6 +125,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[a-z][0-9]?"
     - "[a-z]{2,3}[;',./]?"
+    - "[a-z]{4}"
 
 extended:
   dictionary: sbmm.extended
@@ -170,19 +173,19 @@ recognizer:
 
 sbmm_bindings:
   __append:
-    - match: "[a-z]{1,2}"
+    - match: "[a-z]{1,4}[12345]?"
       accept: "6"
       send_sequence: "5"
-    - match: "[a-z]{1,2}"
+    - match: "[a-z]{1,4}[12345]?"
       accept: "7"
       send_sequence: "4"
-    - match: "[a-z]{1,2}"
+    - match: "[a-z]{1,4}[12345]?"
       accept: "8"
       send_sequence: "3"
-    - match: "[a-z]{1,2}"
+    - match: "[a-z]{1,4}[12345]?"
       accept: "9"
       send_sequence: "2"
-    - match: "[a-z]{1,2}"
+    - match: "[a-z]{1,4}[12345]?"
       accept: "0"
       send_sequence: "1"
     - match: "[a-z]{3}"
@@ -211,4 +214,5 @@ menu:
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
     - "[a-z]{3}[;',./]"
-  select_comment_pattern: "^[a-z]{3}[;',./]$"
+    - "[a-z]{4}[12345]"
+  select_comment_pattern: "^[a-z]{3}[;',./]|[a-z]{4}[12345]$"

@@ -101,8 +101,8 @@ local function dfs_encode(phrase, position, code, env)
   -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
   for stem in string.gmatch(translations, "[^ ]+") do
     -- 如果之前调用的是 reverse:lookup，那么除了单字全码之外，也可能查询到简码
-    -- 这里要把它们过滤掉
-    if stem:len() < 4 then
+    -- 这里要把它们过滤掉，猛码除外
+    if not core.mm(env.engine.schema.schema_id) and stem:len() < 4 then
       goto continue
     end
     table.insert(code, stem)
@@ -278,8 +278,14 @@ local function dynamic(input, env)
     else
       return input:len() - 3
     end
-  elseif core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.sp(schema_id) or core.mm(schema_id) then
+  elseif core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
     return input:len() - 3
+  elseif core.mm(schema_id) then
+    if input:len() == 5 then
+      return dtypes.full
+    else
+      return dtypes.invalid
+    end
   end 
   -- 对于飞讯来说，一般情况下基本编码的长度是 5，扩展编码是 7，在 6 码时选重。
   -- 因此，将编码的长度减去 4 就分别对应了上述的 short, base, select, full 四种情况。
@@ -368,7 +374,8 @@ local function validate_phrase(entry, segment, type, input, env)
         return nil
       end
     end
-    if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char) or core.fd(schema_id) or core.fx(schema_id))
+    if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
+    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)

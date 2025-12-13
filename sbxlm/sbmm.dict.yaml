@@ -16,11 +16,11 @@ columns:
 encoder:
   rules:
     - length_equal: 2
-      formula: "AaAbBaBbAcAd"
+      formula: "AaAbBaBbBc"
     - length_equal: 3
-      formula: "AaBaCaCbAcAd"
+      formula: "AaBaCaCbCc"
     - length_in_range: [4, 12]
-      formula: "AaBaCaZaAcAd" 
+      formula: "AaBaCaZaZc" 
 ...
 的	e	7922795	eo4
 一	h	3050833	hy1

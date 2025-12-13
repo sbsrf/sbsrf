@@ -145,14 +145,10 @@ function this.func(key_event, env)
     return rime.process_results.kAccepted
   end
 
-  if core.mm(schema_id) and rime.match(incoming, "[a-z0-9]")
-  and rime.match(input, "[a-z]{3}") then
+  if core.mm(schema_id) and rime.match(input, "[a-z]{3}") and (rime.match(incoming, "[0-9]") 
+  or rime.match(incoming, "[a-z]") and not context:get_option("is_enhanced")) then
     local part1 = input:sub(1, 2)
     local part2 = input:sub(3, 3)
-    if rime.match(input, "[a-z][2]") then
-      part1 = input:sub(1, 1)
-      part2 = input:sub(2, 2)      
-    end
     context:clear()
     context:push_input(part1)
     env.engine:process_key(rime.KeyEvent("space"))
@@ -161,6 +157,19 @@ function this.func(key_event, env)
     env.engine:process_key(rime.KeyEvent(incoming))
     return rime.process_results.kAccepted
   end  
+
+  if core.mm(schema_id) and rime.match(input, "[a-z]{4}") 
+  and rime.match(incoming, "[a-z;',./]") and context:get_option("is_enhanced") then
+    local part1 = input:sub(1, 2)
+    local part2 = input:sub(3, 4)
+    context:clear()
+    context:push_input(part1)
+    env.engine:process_key(rime.KeyEvent("space"))
+    context:clear()
+    context:push_input(part2)
+    env.engine:process_key(rime.KeyEvent(incoming))
+    return rime.process_results.kAccepted
+  end 
 
   for _, rule in ipairs(env.popping) do
     local when = rule.when
