@@ -11,11 +11,12 @@ local this = {}
 ---@field enable_ssp boolean
 ---@field memory Memory
 ---@field reverse ReverseLookup
+---@field xm_chars { string : string }
 
 ---@param env HintEnv
 function this.init(env)
 	local id = env.engine.schema.schema_id
-	if core.zici(id) or core.mm(id) then
+	if core.zici(id) then
 		env.memory = rime.Memory(env.engine, env.engine.schema)
 	else
 	    env.memory = rime.Memory1(env.engine, env.engine.schema, "")
@@ -29,6 +30,18 @@ function this.init(env)
 	-- 声笔鹤整用声笔小鹤的简码
 	if id == 'sbhz' then dict_name = 'sbxh' end
 	env.reverse = rime.ReverseLookup(dict_name)
+	env.xm_chars = {}
+	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
+	local file = io.open(path, "r")
+	if not file then
+	  return
+	end
+	for line in file:lines() do
+	  ---@type string, string
+	  local char, code = line:match("([^\t]+)\t([^\t]+)")
+	  env.xm_chars[code] = char
+	end
+	file:close()
 end
 
 ---@param segment Segment
@@ -58,7 +71,7 @@ function this.func(translation, env)
 	local i = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
-		-- 豹码提示
+		-- 猛码提示
 		local input = candidate.preedit
 		if core.mm(id) and rime.match(input, "[a-z]{3}[;',./]") then
 			local codes = env.reverse:lookup(candidate.text)
@@ -69,6 +82,16 @@ function this.func(translation, env)
 				end
 			end
 		end		
+		-- 象码单字在全码时提示简码
+		if core.xm(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[aeuio12345]") then
+			local codes = env.reverse:lookup(candidate.text)
+			candidate.comment = ""
+			for code in string.gmatch(codes, "[^ ]+") do
+				if input ~= code and input:len() >= code:len() then
+					candidate.comment = candidate.comment .. " " .. code
+				end
+			end
+		end
 		-- 飞系方案 sxbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
 		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
@@ -162,13 +185,29 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
+		if core.xm(id) and core.s(input) and not is_hidden then
+			candidate:get_genuine().comment = ''
+			for j = 1, 5 do
+				memory:dict_lookup(candidate.preedit .. hint_p[j], false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. hint_p[j]
+					break
+				end	
+			end
+			for code, char in pairs(env.xm_chars) do
+				if code and code:sub(1,1) == input then
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
+				end
+			end
+		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
 		if core.zici(id) and (core.s(input) or core.sx(input)) then
 			if core.jm(id) and is_hidden then
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词 
-			elseif not (core.feixi(id) and core.s(input)) then
+			elseif not ((core.feixi(id) or core.xm(id)) and core.s(input)) then
 				candidate:get_genuine().comment = ''
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
@@ -228,6 +267,40 @@ function this.func(translation, env)
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, x[j])
 					rime.yield(forward)
 				end
+			end
+		end
+
+		-- 象码提示
+		if core.xm(id) then
+			local forward
+			---@type { string: number }
+			local candidates = {}
+			if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then
+				for j = 1, 5 do
+					memory:dict_lookup(candidate.preedit .. hint_n3[j], false, 1)
+					for entry in memory:iter_dict() do
+						local cand = candidates[hint_n3[j]] 
+						if cand and cand > 0 then
+							break
+						end
+						candidates[hint_n3[j]] = 1
+						forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_n3[j])
+						rime.yield(forward)
+					end
+				end
+				candidates = {}
+				for j = 1, 5 do
+					memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
+					for entry in memory:iter_dict() do
+						local cand = candidates[hint_b[j]] 
+						if cand and cand > 0 then
+							break
+						end
+						candidates[hint_b[j]] = 1
+						forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+						rime.yield(forward)
+					end
+				end		
 			end
 		end
 
@@ -314,7 +387,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系方案和双拼方案在 sx 码位上，进行后码提示
-		if core.sx(input) and (core.feixi(id) and not is_hidden or core.sp(id)) then
+		if core.sx(input) and (core.feixi(id) and not is_hidden or core.sp(id) or core.xm(id)) then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
 				memory:dict_lookup(ssb, false, 1)

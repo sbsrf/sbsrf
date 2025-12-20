@@ -107,6 +107,11 @@ end
 -- 例如：core.feixi(id) 判断当前方案是否为飞系方案
 
 ---@param id string
+function core.xm(id)
+  return id == "sbxm"
+end
+
+---@param id string
 function core.mm(id)
   return id == "sbmm"
 end
@@ -168,7 +173,7 @@ end
 
 ---@param id string
 function core.zici(id)
-  return core.feixi(id) or core.jm(id) or id == "sbzr" or id == "sbxh"
+  return core.feixi(id) or core.jm(id) or id == "sbzr" or id == "sbxh" or core.mm(id) or core.xm(id)
 end
 
 

@@ -353,7 +353,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xm(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -375,7 +375,7 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
-    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id))
+    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xm(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
@@ -568,7 +568,8 @@ function this.func(input, segment, env)
     -- 1. 编码为 sxs 格式时，只要不是简码的三顶模式，就要拆分成二简字 + 一简字翻译
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
-    if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) then
+    if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) 
+    or core.xm(schema_id) and core.sxsx(input) then
       translate_by_split(input, segment, env)
     elseif (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
