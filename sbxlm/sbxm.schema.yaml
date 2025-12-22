@@ -29,14 +29,19 @@ switches:
   - name: is_hidden
     states: [提示, 隐藏]
     reset: 0
-  - name: pro_char
+  - name: is_enhanced
     reset: 1
-    states: [词组, 单字]
+    states: [常规, 增强]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
   - name: is_buffered
     reset: 0
+  - name: single_display
+    reset: 0
+  - options: [pro_word, pro_char]
+    reset: 1
+  # states: [词组, 单字]
   - name: show_es
     reset: 1
   # 不要改变下面的状态，以免穿帮
@@ -93,17 +98,24 @@ engine:
 
 popping:
   __append:
-    # # 增强模式
-    # - when: is_enhanced
-    #   match: "[a-z]{4}"
-    #   accept: "[0-9]"
-    #   strategy: append
+    # 增强模式
+    - when: is_enhanced
+      match: "[a-z]{4}"
+      accept: "[0-9]"
+      strategy: append
+    - when: is_enhanced
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      strategy: append
+    - when: is_enhanced
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[a-z;']"
+      prefix: 2
     # 不论模式
+    - match: "[^a-z]"
+      accept: "[^ ]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
-    # - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-    #   accept: "[a-z']"
-    #   prefix: 2
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[a-z;',./]"
       prefix: 2
@@ -113,6 +125,8 @@ popping:
       accept: "[,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][12345]"
       accept: "[a-z0-9;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z]{2}[12345][aeuio]{0,2}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv0-9;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv0-9;',./]"
     - match: "[a-z]{1,2}"
@@ -133,9 +147,9 @@ translator:
   dictionary: sbxm
   enable_user_dict: true
   enable_filtering: true
-  filter_strength: 4    #可以为3,4,5,6 
+  filter_strength: 6    #可以为3,4,5,6 
   forced_selection: true
-  single_selection: false
+  single_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
@@ -178,6 +192,16 @@ sbxm_bindings:
     - match: "[a-z]{3}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
+
 
 key_binder:
   bindings:
@@ -199,6 +223,7 @@ menu:
   alternative_select_keys: "_aeuio"
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
-    - "[a-z]{3,4}[12345]"
+    - "[a-z]{3}[12345]"
     - "[a-z]{2}[aeuio]{2}"
-  select_comment_pattern: "^[a-z]{3,4}[12345]|[a-z]{2}[aeuio]{2}$"
+    - "[a-z]{4}[12345][aeuio]{2}"
+  select_comment_pattern: "^[a-z]{3,4}[12345]|[a-z]{2}[aeuio]{2}|[a-z]{4}[12345][aeuio]{2}$"

@@ -38,6 +38,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
 ---@field char_lens { string : number }
+---@field xm_lens { string : number }
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -231,6 +232,19 @@ function this.init(env)
     env.char_lens[char] = tonumber(len)
   end
   file:close()
+
+  env.xm_lens = {}
+  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_lens.txt"
+  file = io.open(path, "r")
+  if not file then
+    return
+  end
+  for line in file:lines() do
+    ---@type string, string
+    local char, len = line:match("([^\t]+)\t([^\t]+)")
+    env.xm_lens[char] = tonumber(len)
+  end
+  file:close()
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -282,6 +296,16 @@ local function dynamic(input, env)
     return input:len() - 3
   elseif core.mm(schema_id) then
     if input:len() == 5 then
+      return dtypes.full
+    else
+      return dtypes.invalid
+    end
+  elseif core.xm(schema_id) then
+    if input:len() == 5 then
+      return dtypes.base
+    elseif input:len() == 6 then
+      return dtypes.select
+    elseif input:len() == 7 then
       return dtypes.full
     else
       return dtypes.invalid
@@ -353,7 +377,10 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xm(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id)) and input:len() < 4 then
+    return nil
+  end
+  if core.xm(schema_id) and input:len() < 5 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -377,12 +404,14 @@ local function validate_phrase(entry, segment, type, input, env)
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
     or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xm(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
+      local lens = env.char_lens
+      if core.xm(schema_id) then lens = env.xm_lens end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
         local char2 = entry.text:sub(offset)
-        local char1_len = env.char_lens[char1]
-        local char2_len = env.char_lens[char2]
+        local char1_len = lens[char1]
+        local char2_len = lens[char2]
         if char1 and char2 and char1_len and char2_len then
           if char1_len + char2_len <= env.filter_strength then
             return nil
@@ -394,9 +423,9 @@ local function validate_phrase(entry, segment, type, input, env)
           local char1 = entry.text:sub(1, offset - 1)
           local char2 = entry.text:sub(offset, offset2 - 1)
           local char3 = entry.text:sub(offset2)
-          local char1_len = env.char_lens[char1]
-          local char2_len = env.char_lens[char2]
-          local char3_len = env.char_lens[char3]
+          local char1_len = lens[char1]
+          local char2_len = lens[char2]
+          local char3_len = lens[char3]
           if char1 and char2 and char3 and char1_len and char2_len and char3_len then
             if char1_len + char2_len + char3_len <= env.filter_strength then
               return nil
@@ -792,6 +821,9 @@ function this.func(input, segment, env)
           and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio23789][aeuio]+")) then
           break
         elseif (input:len() < 6) then
+          break
+        end
+        if input:len() < 7 and core.xm(schema_id) then
           break
         end
       end
