@@ -204,6 +204,7 @@ function core.word_rules(code, id)
   local sp = core.sp(id)
   local fx = core.fx(id) or core.fj(id)
   local mm = core.mm(id)
+  local xm = core.xm(id)
   if #code == 2 then
     if jm then           -- s1s2b2b2
       base = code[1]:sub(1, 1) .. code[2]:sub(1, 3)
@@ -211,7 +212,7 @@ function core.word_rules(code, id)
       base = code[1]:sub(1, 2) .. code[2]:sub(1, 2)
     elseif fx then       -- s1z1s2b2b2
       base = code[1]:sub(1, 2) .. code[2]:sub(1, 1) .. code[2]:sub(3, 4)
-    elseif mm then       -- AaAbBaBbBc
+    elseif mm or xm then       -- AaAbBaBbBc
       base = code[1]:sub(1, 2) .. code[2]:sub(1, 3)
     end
   else
@@ -221,7 +222,7 @@ function core.word_rules(code, id)
         base = base .. code[3]:sub(2, 2)
       elseif fx then         -- s1s2s3b3b3
         base = base .. code[3]:sub(3, 4)
-      elseif mm then       -- AaBaCaCbCc
+      elseif mm or xm then       -- AaBaCaCbCc
         base = base .. code[3]:sub(2,3)
       end
     elseif #code >= 4 then
@@ -231,7 +232,7 @@ function core.word_rules(code, id)
         base = base .. code[#code]:sub(1, 1)
       elseif fx then       -- s1s2s3b0b0
         base = base .. code[#code]:sub(3, 4)
-      elseif mm then       -- AaBaCaZaZc
+      elseif mm or xm then       -- AaBaCaZaZc
         base = base .. code[#code]:sub(1,1) .. code[#code]:sub(3, 3)
       end
     else
@@ -244,6 +245,8 @@ function core.word_rules(code, id)
     extended = code[1]:sub(2, 3)
   elseif fm or fx or sp then
     extended = code[1]:sub(3, 4)
+  elseif xm then
+    extended = code[1]:sub(4,5)
   end
   -- 全部编码为基本编码加上扩展编码
   local full = base .. extended
@@ -259,7 +262,7 @@ function core.reverse(id)
   --相当于三目运算符a ? b : c
   local dict_name = (id == "sbfd" or id == "sbmd" or id == "sbfy") and "sbfm" or id
   --如果不是飞系方案或者猛码，单字构词码在扩展词库里
-  if not (core.feixi(id) or core.mm(id)) then
+  if not (core.feixi(id) or core.mm(id) or core.xm(id)) then
     dict_name = dict_name .. ".extended"
   end
   return rime.ReverseLookup(dict_name)
