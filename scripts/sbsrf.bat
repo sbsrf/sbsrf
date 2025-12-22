@@ -12,7 +12,7 @@ copy %AppData%\Rime\*.* .
 copy %AppData%\Rime\build\*.* .\build
 xcopy %AppData%\Rime\lua\*.* .\lua /s
 del bihua* zhlf* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml
-del sbxlm.ico weasel* installation.yaml user.yaml
+del *.ico weasel* installation.yaml user.yaml
 cd build
 del bopomofo* cangjie5* luna* stroke* terra* weasel*
 cd ..
