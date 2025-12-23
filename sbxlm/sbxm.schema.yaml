@@ -39,9 +39,6 @@ switches:
     reset: 0
   - name: single_display
     reset: 0
-  - options: [pro_word, pro_char]
-    reset: 1
-  # states: [词组, 单字]
   - name: show_es
     reset: 1
   # 不要改变下面的状态，以免穿帮

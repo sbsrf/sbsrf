@@ -8,8 +8,6 @@
 呕	vh
 亡	wz
 瓦	wq
-撂	ljt1
-璨	cfea
 丑	cjia
 浴	yvr1
 烛	zhie
@@ -52,6 +50,8 @@
 噫	yol1
 幺	ylae
 鲨	svp1
+撂	ljt1
+璨	cfea
 咫	zpw1
 妤	yny1
 翦	jkue
