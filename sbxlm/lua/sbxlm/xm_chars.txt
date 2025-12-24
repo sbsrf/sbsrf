@@ -8,6 +8,7 @@
 呕	vh
 亡	wz
 瓦	wq
+靖	jlf1
 烛	zhie
 凛	ldw1
 宿	sir5
@@ -59,7 +60,6 @@
 嫦	cnea
 湍	tvea
 瀛	yvw5
-饺	jul2
 掸	djd2
 褴	lyd1
 泗	svie
@@ -98,3 +98,4 @@
 蹉	cnd3
 鬻	ygd1
 牖	yrea
+赝	ygr3

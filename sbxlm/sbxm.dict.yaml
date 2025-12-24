@@ -277,7 +277,7 @@ encoder:
 万	ws	456262	ws5ea
 师	sdi	455670	sd2iu
 产	cl	455386	cl3oe
-结	j/	454542	jl2aa
+久	j/	454542	ju4ua
 算	sz	454343	sz1ue
 任	r;	453955	rr1ui
 双	sk;	449488	sk5ao
@@ -553,7 +553,7 @@ encoder:
 哪	n,	219102	no5ia
 送	sko	218950	sk4ou
 照	zio	218526	zi4ia
-久	ju;	218499	ju4ua
+结	jli	218499	jl2aa
 周	zci	218306	zc2ua
 阳	ybi	218099	yb2ai
 复	f,	217669	fq3ue
@@ -897,7 +897,7 @@ encoder:
 某	mke	116812	mk1ei
 迎	yh	116606	yh4ua
 练	llu	116474	ll3aa
-食	sa	116312	sa4uo
+食	suu	116312	su3uo
 源	yvi	116132	yv2oo
 顺	sci	115806	sc2ui
 适	sro	115600	sr4ue
@@ -1209,7 +1209,7 @@ encoder:
 茶	cke	71981	ck1ei
 趣	qta	71902	qt5ei
 洋	yvd2	71898	yv2oo
-舍	sai	71840	sa2uo
+舍	sa	71840	sa2uo
 操	cje	71646	cj1ei
 腿	tuo	71577	tu4ua
 厚	hga	71499	hg5eu
@@ -1250,7 +1250,7 @@ encoder:
 鲁	lyi	67681	ly2ua
 跃	yn	67636	yn1ia
 赞	zrt2	67553	zr2ue
-舒	sa;	67496	sa2uo
+舒	sai	67496	sa2uo
 穴	xiuo	67248	xi3oo
 乙	yla	67137	yl5aa
 孟	mji	67116	mj2ai
@@ -1347,7 +1347,7 @@ encoder:
 振	zjg5	58902	zj5ei
 奉	ffe	58298	ff1ee
 伴	bre	58294	br1ui
-餐	ceo	58241	ce4ie
+餐	ceu	58241	ce3ie
 芳	fko	58228	fk4ei
 尺	cp;	58197	cp4ae
 竞	jlo3	58153	jl3oe
@@ -1607,7 +1607,7 @@ encoder:
 允	yy'	42077	yy3ao
 递	ddo	42066	dd4ou
 慰	wpo	42064	wp4ae
-锁	sa'	41943	sa2ue
+锁	sa;	41943	sa2ue
 剩	sh'	41856	sh2ue
 繁	fqi	41832	fq2ue
 筑	zz;	41742	zz4ue
@@ -1726,7 +1726,7 @@ encoder:
 殊	ss'	36563	ss2eu
 玲	lfa	36550	lf5ee
 吞	tsi	36548	ts2ee
-绩	jli	36450	jl2aa
+绩	jlf2	36450	jl2aa
 搜	sjn5	36377	sj5ei
 脉	mua	36361	mu5ua
 穆	mhu	36361	mh3ue
@@ -1953,7 +1953,7 @@ encoder:
 喷	poi	27917	po2ia
 披	pj;	27914	pj5ei
 嫂	sna	27908	sn5au
-崔	ce;	27898	ce4ia
+崔	ceo	27898	ce4ia
 宛	wia	27854	wi5oo
 洒	svei	27795	sv1oo
 婉	wna	27662	wn5au
@@ -2037,6 +2037,7 @@ encoder:
 膀	buo	25312	bu4ua
 奸	jnee	25311	jn1au
 靖	jlf2	25311	jl2oe
+靖	jlf1	25301	jl2oe
 巾	je'	25286	je2ia
 饿	vuo	25285	vu4ua
 削	xei	25271	xe2io
@@ -2107,7 +2108,7 @@ encoder:
 涵	hvj5	23099	hv5oo
 瞥	pd	23099	pd2ou
 氛	fq;	23064	fq5ue
-肌	ju'	23052	ju3ua
+胶	ju;	23052	ju3ua
 吨	doa	23027	do5ia
 窝	wi;	23003	wi3oo
 珊	sfc1	22998	sf1ee
@@ -2497,7 +2498,7 @@ encoder:
 滩	tv'	14052	tv4oo
 桶	tm;	14051	tm2ei
 秃	thu	14051	th3ue
-嘱	zo'	14020	zo4ia
+噪	zoe	14030	zo1ia
 藉	jkf2	14018	jk2ei
 涩	svq2	14015	sv2oo
 孕	yna	14004	yn5au
@@ -2557,7 +2558,7 @@ encoder:
 砸	zs'	13072	zs2eu
 潭	tvx1	13049	tv1oo
 哗	hoe	13048	ho1ia
-敞	ceu	13031	ce3io
+敞	ce;	13031	ce3io
 掘	jjp2	13008	jj2ei
 茂	mkg4	12953	mk4ei
 樱	yma	12930	ym5ei
@@ -2633,7 +2634,7 @@ encoder:
 狡	jq;	12029	jq3ua
 鞘	qki	12012	qk2ei
 幢	zel2	12012	ze2ia
-饥	jul3	12006	ju3ua
+饥	ju'	12006	ju3ua
 楞	lmo	11997	lm4ei
 拢	lj;	11986	lj4ei
 灼	zhb4	11966	zh4ou
@@ -2813,7 +2814,7 @@ encoder:
 朕	zuk1	9550	zu1ua
 亨	hw'	9527	hw5oe
 玑	jfu	9525	jf3ee
-胶	juw3	9520	ju3ua
+肌	juua	9520	ju3ua
 陋	lb;	9508	lb5ai
 疫	yga	9503	yg5oe
 绞	jlw3	9484	jl3aa
@@ -2970,7 +2971,7 @@ encoder:
 嘎	gos1	7792	go1ia
 陛	bbe	7772	bb1ai
 凸	te'	7771	te1ie
-伞	sad1	7764	sa1uo
+伞	sa'	7764	sa1uo
 豁	hii	7753	hi2oo
 颓	th;	7739	th2ue
 浆	jkia	7725	jk2oe
@@ -3019,6 +3020,7 @@ encoder:
 詹	zuo	7291	zu4ua
 葫	hkg3	7290	hk3ei
 喽	loa	7279	lo5ia
+咋	zo'	7277	zo1ia
 沫	mvi	7276	mv2oo
 啧	zof2	7276	zo2ia
 啤	poe	7254	po1ia
@@ -3034,7 +3036,6 @@ encoder:
 霓	ntu	7134	nt3eo
 谣	ywz2	7119	yw2oa
 垒	ly'	7114	ly1ao
-噪	zoe	7079	zo1ia
 黝	yvt5	7070	yv5ia
 瑚	hf;	7043	hf3ee
 叨	do'	7012	do5ia
@@ -3162,7 +3163,7 @@ encoder:
 浇	jvl3	6099	jv3oo
 笃	dza	6081	dz5ue
 槐	hma	6079	hm5ei
-饲	sul2	6071	su2ua
+饲	suj2	6071	su2ua
 铲	ca'	6033	ca3ue
 怠	dyo	6033	dy4ao
 蚁	ycw3	6025	yc3ia
@@ -3535,10 +3536,10 @@ encoder:
 笈	jzn4	3727	jz4ue
 拴	sja1	3726	sj1ei
 蜘	zcg2	3726	zc2ia
+嘱	zop4	3714	zo4ia
 拷	kjt5	3711	kj5ei
 涎	xvr5	3710	xv5oo
 昱	yioe	3706	yi4ia
-咋	zoq1	3704	zo1ia
 唰	sop2	3702	so2ia
 蛙	wc;	3700	wc1ia
 蟹	xu;	3695	xu2ua
@@ -3562,7 +3563,7 @@ encoder:
 粟	sxou	3583	sx4ei
 嬴	ywoe	3583	yw4oe
 椒	jme5	3580	jm5ei
-馒	mul5	3563	mu5ua
+馒	mui5	3563	mu5ua
 翌	yjd4	3559	yj4ao
 貂	dzq2	3558	dz2uo
 荪	skj2	3555	sk2ei
@@ -3829,7 +3830,7 @@ encoder:
 藻	zkv1	2669	zk1ei
 倌	gri2	2668	gr2ui
 稣	syue	2662	sy3ua
-饵	vul1	2660	vu1ua
+饵	vuei	2660	vu1ua
 恣	zdu4	2656	zd4oe
 粤	yro5	2653	yr5ui
 蠕	rct2	2650	rc2ia
@@ -3913,7 +3914,7 @@ encoder:
 梓	zmoe	2400	zm4ei
 拌	bjd1	2395	bj1ei
 鸥	vcx1	2395	vc1eu
-馁	nul5	2394	nu5ua
+馁	nuz5	2394	nu5ua
 琬	wfi5	2380	wf5ee
 癖	pgp4	2379	pg4oe
 燎	lhp2	2372	lh2ou
@@ -4023,7 +4024,7 @@ encoder:
 狙	jqia	2047	jq2ua
 钹	bax4	2043	ba4ue
 螂	lcw5	2042	lc5ia
-馋	cul4	2040	cu4ua
+馋	cuu4	2040	cu4ua
 腼	mus1	2038	mu1ua
 翦	jku4	2037	jk4ou
 缨	ylh5	2034	yl5aa
@@ -4133,7 +4134,7 @@ encoder:
 琏	lfp4	1787	lf4ee
 湍	tvea	1783	tv2oo
 颉	jto2	1782	jt2ei
-馅	xul3	1782	xu3ua
+馅	xuu3	1782	xu3ua
 洵	xvb2	1782	xv2oo
 潦	lvp2	1780	lv2oo
 伺	srj2	1780	sr2ui
@@ -4189,11 +4190,10 @@ encoder:
 痣	zgt4	1657	zg4oe
 碳	tse4	1654	ts4eu
 掴	gjo4	1652	gj4ei
-饺	jul3	1651	ju3ua
+饺	juw3	1651	ju3ua
 咔	koe2	1649	ko2ia
 沽	gvei	1646	gv1oo
 郢	yof5	1645	yo5ia
-饺	jul2	1641	ju3ua
 惰	dxx2	1640	dx2oo
 驸	fqr1	1638	fq1aa
 剐	goc2	1637	go2ia
@@ -4334,7 +4334,7 @@ encoder:
 坳	vtl5	1361	vt5ei
 俦	crf1	1360	cr1ui
 榛	zmf3	1354	zm3ei
-饯	jul1	1353	ju1ua
+饯	juee	1353	ju1ua
 泗	svie	1352	sv2oo
 咿	yor3	1351	yo3ia
 釜	frx4	1349	fr4uo
@@ -4390,7 +4390,7 @@ encoder:
 珩	hfp1	1229	hf1ee
 啮	non5	1228	no5ia
 剽	pxd2	1226	px2ei
-饷	xul2	1226	xu2ua
+饷	xur2	1226	xu2ua
 娉	pni5	1225	pn5au
 嫱	qnk2	1224	qn2au
 骈	pqk1	1223	pq1aa
@@ -4483,7 +4483,7 @@ encoder:
 匍	pbs4	1093	pb4ua
 麝	sgc1	1093	sg1oe
 佃	dria	1092	dr2ui
-飨	xlr4	1091	xl4aa
+飨	xlr3	1091	xl3aa
 罹	lfx4	1088	lf4ia
 泠	lva5	1086	lv5oo
 轾	zps1	1086	zp1ea
@@ -4646,7 +4646,7 @@ encoder:
 岷	mec1	860	me1ia
 禺	yic4	859	yi4ia
 泾	jvy1	858	jv1oo
-饪	rul1	854	ru1ua
+饪	rur1	854	ru1ua
 稔	rha4	850	rh4ue
 箬	rzk2	850	rz2ue
 禺	yic1	849	yi4ia
@@ -4669,7 +4669,7 @@ encoder:
 觐	jkou	823	jk3ei
 懋	mmy4	821	mm4ei
 僭	jrc2	820	jr2ui
-馍	mul1	819	mu1ua
+馍	muei	819	mu1ua
 蹶	jng2	817	jn3ia
 佥	qas1	815	qa1uo
 呗	boia	813	bo2ia
@@ -4692,7 +4692,7 @@ encoder:
 桠	yms1	800	ym1ei
 喁	yoi4	800	yo4ia
 绌	clc2	799	cl2aa
-馔	zul3	798	zu3ua
+馔	zub3	798	zu3ua
 缮	sld2	795	sl2aa
 潞	lvn2	793	lv2oo
 蚓	ycg2	793	yc2ia
@@ -4703,7 +4703,7 @@ encoder:
 胛	jui2	789	ju2ua
 瑁	mfi2	789	mf2ee
 娆	rnl3	789	rn3au
-饨	tul5	789	tu5ua
+饨	tus5	789	tu5ua
 辇	nda1	787	nd1ee
 阒	qcf4	787	qc4oi
 帏	wed2	785	we2ia
@@ -4790,7 +4790,7 @@ encoder:
 悒	yxo5	684	yx5oo
 竽	yzd2	684	yz2ue
 葩	pkn5	683	pk5ei
-馊	sul5	682	su5ua
+馊	sun5	682	su5ua
 纤	xlr1	682	xl1aa
 祚	zyq1	682	zy1oa
 痢	lgh4	680	lg2oe
@@ -4890,7 +4890,7 @@ encoder:
 爿	ple1	594	pl1ai
 熵	shw2	594	sh2ou
 囿	yox2	594	yo2ia
-饬	cul5	593	cu5ua
+饬	cuq5	593	cu5ua
 痘	dgs4	593	dg4oe
 邈	mzn4	592	mz4uo
 壹	ytia	592	yt4ei
@@ -4926,7 +4926,7 @@ encoder:
 湎	mvs1	565	mv1oo
 冼	xdr3	565	xd3oe
 愎	bxq3	564	bx3oo
-馄	hul3	564	hu3ua
+馄	hui3	564	hu3ua
 轲	kpj2	564	kp2ea
 镛	yag2	563	ya2ue
 哔	bog1	562	bo1ia
@@ -5009,7 +5009,7 @@ encoder:
 豕	szeu	491	sz1eu
 鹜	wyj1	491	wy1ao
 玳	dfr1	488	df1ee
-饴	yul2	488	yu2ua
+饴	yuy2	488	yu2ua
 佰	brs2	487	br2ui
 砒	psg3	487	ps3eu
 羸	lwo4	485	lw4oe
@@ -5095,7 +5095,7 @@ encoder:
 仵	wrr1	418	wr1ui
 啁	zoc2	416	zo2ia
 靛	dfu2	415	df2ee
-馏	lul2	414	lu2ua
+馏	luh2	414	lu2ua
 樨	xmp1	414	xm1ei
 嫫	mnei	413	mn1au
 骧	xqw3	412	xq3aa
@@ -5118,12 +5118,13 @@ encoder:
 牖	yre4	406	yr4ui
 啁	zoc1	406	zo2ia
 淦	gvuo	405	gv3oo
-搡	sjk1	405	sj1ei
+赝	ygr2	405	yg2eu
 蹉	cnd3	399	cn1ia
 鬻	ygd1	399	yg2ae
 牖	yrea	396	yr4ui
 醴	lxc4	395	lx4ei
-赝	ygr2	395	yg2eu
+搡	sjk1	395	sj1ei
+赝	ygr3	395	yg2eu
 焙	bhl2	394	bh2ou
 恚	htt4	394	ht4ei
 囵	loa3	393	lo3ia
@@ -5165,7 +5166,7 @@ encoder:
 蓍	skt2	371	sk2ei
 疥	jga3	370	jg3oe
 郓	yip5	370	yi5oa
-饽	bul5	369	bu5ua
+饽	buk5	369	bu5ua
 哞	moy1	369	mo1ia
 骓	zqr4	369	zq4aa
 廪	lgw2	368	lg2oe
@@ -5361,7 +5362,7 @@ encoder:
 怙	hxei	270	hx1oo
 裣	lya1	270	ly1oa
 皤	pnr2	270	pn2ui
-餍	ygp4	269	yg4eu
+餍	ygp3	269	yg3eu
 砀	dsj3	268	ds3eu
 垩	vsm1	268	vs1ei
 悱	fxe1	267	fx1oo
@@ -5381,7 +5382,7 @@ encoder:
 硷	jsa1	262	js1eu
 瓴	law4	262	la4uo
 浜	bvj3	261	bv3oo
-饕	tos4	261	to4ia
+饕	tos3	261	to3ia
 抟	tjd4	261	tj4ei
 镒	yak2	261	ya2ue
 呲	con3	260	co3ia
@@ -5441,7 +5442,7 @@ encoder:
 麈	zgc1	235	zg1oe
 玢	ffr5	234	ff5ee
 槊	skc1	234	sk1ou
-馐	xul2	234	xu2ua
+馐	xud2	234	xu2ua
 锰	maj2	233	ma2ue
 蔫	nks4	233	nk4ei
 掾	yjm1	233	yj1ei
@@ -5723,7 +5724,7 @@ encoder:
 咣	goe5	143	go5ia
 阃	kco1	143	kc1oi
 爨	chd4	142	ch4ui
-馑	jul1	142	ju1ua
+馑	juk1	142	ju1ua
 砻	lxl1	142	lx1eu
 笤	tzq2	142	tz2ue
 谘	zwd2	142	zw2oa
@@ -5735,7 +5736,7 @@ encoder:
 彖	tmeu	141	tm1aa
 圯	ytae	141	yt5ei
 驺	zqu5	141	zq5aa
-飧	sua4	140	su4ua
+飧	suuo	140	su3ua
 垭	yts1	140	yt1ei
 酽	yxs1	140	yx1ei
 鼬	ynl2	140	yn2ui
@@ -5834,7 +5835,7 @@ encoder:
 糌	zdu2	117	zd2ou
 缶	fqia	116	fq2ue
 屺	qec5	116	qe5ia
-餮	tsu4	116	ts4eu
+餮	tsu3	116	ts3eu
 唣	zon1	116	zo1ia
 谮	zwc2	116	zw2oa
 捭	bjn1	115	bj1ei
@@ -5962,7 +5963,7 @@ encoder:
 缧	llt2	95	ll2aa
 筇	qzd5	95	qz5ue
 舄	xnb4	95	xn4ui
-饔	ywl4	95	yw4oe
+饔	ywl3	95	yw3oe
 扁	pwp1	94	pw1oa
 铖	cag4	94	ca4ue
 枋	fmoe	94	fm4ei
@@ -6008,7 +6009,7 @@ encoder:
 儇	xrf3	87	xr3ui
 屙	vpb2	86	vp2ae
 刿	geu2	86	ge2ia
-馕	nul3	86	nu3ua
+馕	nus3	86	nu3ua
 芪	qkh1	86	qk1ei
 茄	jkq2	86	jk2ei
 殳	snao	86	sn5ua
@@ -6110,7 +6111,7 @@ encoder:
 鞯	jko5	73	jk5ei
 筠	yzt4	73	yz4ue
 侔	mry1	73	mr1ui
-饩	xul3	73	xu3ua
+饩	xuue	73	xu3ua
 槠	zmw2	73	zm2ei
 兹	ckl5	73	ck5ou
 缵	zlr2	73	zl2aa
@@ -6123,7 +6124,7 @@ encoder:
 礅	dsw3	71	ds3eu
 蚶	hck1	71	hc1ia
 疝	sgia	71	sg2oe
-饧	xul3	71	xu3ua
+饧	xuj3	71	xu3ua
 檗	bpo1	70	bp1ae
 觏	gfd3	70	gf3ee
 晗	hia2	70	hi2ia
@@ -6168,7 +6169,7 @@ encoder:
 合	gas2	63	ga2uo
 谝	pww1	63	pw1oa
 券	xkp5	63	xk5ou
-馓	sul3	63	su3ua
+馓	suk3	63	su3ua
 铯	sau5	63	sa5ue
 蔌	sks3	63	sk3ei
 濉	svf4	63	sv4oo
@@ -6225,7 +6226,7 @@ encoder:
 鄄	jxt5	57	jx5ei
 襻	pym3	57	py3oa
 枘	rmc3	57	rm3ei
-饫	yul1	57	yu1ua
+饫	yur1	57	yu1ua
 榧	fmc1	56	fm1ei
 苷	gkk1	56	gk1ei
 荭	hkl1	56	hk1ei
@@ -6717,7 +6718,7 @@ encoder:
 吣	qooa	16	qo4ia
 腧	sua2	16	su2ua
 锕	vab2	15	va2ue
-馇	cul1	15	cu1ua
+馇	cum1	15	cu1ua
 眵	cfu3	15	cf3ia
 芏	dkei	15	dk1ei
 袼	gyu2	15	gy2oa
@@ -7103,7 +7104,7 @@ encoder:
 哵	boo2	2	bo2ia
 釟	bauo	2	ba3uo
 羓	bdv5	2	bd5ou
-紦	blv5	2	bl5aa
+紦	blai	2	bl5aa
 豝	bzai	2	bz5eu
 鲃	byai	2	by5ua
 魞	byr4	2	by4ua
@@ -7129,7 +7130,7 @@ encoder:
 瓸	bsl2	2	bs2ea
 竡	bls2	2	bl2oe
 粨	bds2	2	bd2ou
-絔	blv2	2	bl2aa
+絔	bls2	2	bl2aa
 襬	byf3	2	by3oa
 庍	bguu	2	bg3oe
 拝	bjf1	2	bj1ei
@@ -7172,7 +7173,7 @@ encoder:
 稖	bhl2	2	bh2ue
 蜯	bcf1	2	bc1ia
 艕	bzw4	2	bz4uu
-縍	blv4	2	bl4aa
+縍	blw4	2	bl4aa
 勹	bbua	2	bb3ua
 佨	brb5	2	br5ui
 笣	bzb5	2	bz5ue
@@ -7187,7 +7188,7 @@ encoder:
 寚	bif2	2	bi2oo
 駂	blk1	2	bl1ua
 鳵	blk4	2	bl4ae
-緥	blv1	2	bl1aa
+緥	blr1	2	bl1aa
 賲	bro2	2	br2ui
 藵	bkr3	2	bk3ei
 寳	bif2	2	bi2oo
@@ -7243,13 +7244,13 @@ encoder:
 撪	bjy1	2	bj1ei
 伻	brs1	2	br1ui
 閍	bcoe	2	bc4ia
-絣	blv1	2	bl1aa
-絣	plv1	2	pl1aa
+絣	blk1	2	bl1aa
+絣	plk1	2	pl1aa
 嵭	bew4	2	be4ia
 傰	pre3	2	pr3ui
 痭	bgu3	2	bg3oe
 痭	pgu3	2	pg3oe
-綳	blv3	2	bl3aa
+綳	blu3	2	bl3aa
 埲	btf1	2	bt1ei
 菶	bkf1	2	bk1ei
 琫	bff1	2	bf1ee
@@ -7315,7 +7316,7 @@ encoder:
 弻	bgs5	2	bg5ae
 閟	bcx3	2	bc3ia
 蜌	bcg1	2	bc1ia
-飶	baw3	2	ba3uo
+飶	bux3	2	bu3uo
 腷	bus2	2	bu2ua
 痺	bgn1	2	bg1oe
 煏	bhs2	2	bh2ou
@@ -7328,7 +7329,7 @@ encoder:
 獙	bqd3	2	bq3ua
 熚	bhi1	2	bh1ou
 鄪	bgd5	2	bg5ae
-綼	blv1	2	bl1aa
+綼	bln1	2	bl1aa
 髲	bcx5	2	bc5ei
 駜	bqx3	2	bq3ei
 幤	bec2	2	be2io
@@ -7338,11 +7339,11 @@ encoder:
 觱	bgs3	2	bg3eu
 鮅	byx3	2	by3ua
 廦	bgp4	2	bg4oe
-縪	blv1	2	bl1aa
+縪	bli1	2	bl1aa
 鞞	bko1	2	bk1ei
 奰	bff1	2	bf1ia
 鏎	bai1	2	ba1uo
-饆	baw1	2	ba1uo
+饆	bui1	2	bu1uo
 鄨	bde5	2	bd5ou
 鞸	bko1	2	bk1ei
 魓	bnr1	2	bn1ui
@@ -7470,7 +7471,7 @@ encoder:
 鈵	bas3	2	ba3uo
 鞆	bko3	2	bk3ei
 鉼	bak1	2	ba1uo
-餠	baw1	2	ba1uo
+餠	bur1	2	bu1uo
 癛	lgw3	2	lg3oe
 幷	brs1	2	br1ue
 併	brk1	2	br1ui
@@ -7490,7 +7491,7 @@ encoder:
 袚	byx4	2	by4oa
 袚	fyx4	2	fy4oa
 袯	byl4	2	by4oa
-紴	blv5	2	bl5aa
+紴	blg5	2	bl5aa
 鉢	bam1	2	ba1uo
 碆	bvg1	2	bv1oo
 嶓	ber2	2	be2ia
@@ -7516,7 +7517,7 @@ encoder:
 葧	bkk5	2	bk5ei
 鲌	byui	2	by3ua
 猼	bqs1	2	bq1ua
-馎	bul1	2	bu1ua
+馎	bus1	2	bu1ua
 愽	bxs1	2	bx1oo
 僰	bse3	2	bs3ei
 馛	bhi4	2	bh4ue
@@ -7566,14 +7567,14 @@ encoder:
 蔀	bkl5	2	bk5ei
 廍	bgl5	2	bg5oe
 踄	bnn3	2	bn3ia
-餔	baw4	2	ba4uo
+餔	bus4	2	bu4uo
 郶	blo5	2	bl5oe
 篰	bzl5	2	bz5ue
-餢	baw2	2	ba2uo
+餢	bul2	2	bu2uo
 攃	sjk2	2	sj2ei
 礸	csr2	2	cs2eu
 遪	cyy4	2	cy4ao
-纔	clv4	2	cl4aa
+纔	clu4	2	cl4aa
 毝	cpuu	2	cp3ue
 倸	crz1	2	cr1ui
 採	cjz1	2	cj1ei
@@ -7581,19 +7582,19 @@ encoder:
 寀	ciz1	2	ci1oo
 婇	cnz1	2	cn1au
 跴	cnei	2	cn1ia
-綵	clv1	2	cl1aa
+綵	clz1	2	cl1aa
 埰	ctz1	2	ct1ei
 棌	cmz1	2	cm1ei
-縩	clv2	2	cl2aa
-飡	cda4	2	cd4oe
-喰	coa4	2	co4ia
-湌	cva4	2	cv4oo
+縩	clu2	2	cl2aa
+飡	cduo	2	cd3oe
+喰	couo	2	co3ia
+湌	cvuo	2	cv3oo
 叅	cyy4	2	cy4ao
-飱	ssu4	2	ss4eu
+飱	ssu3	2	ss3eu
 傪	cry3	2	cr3ui
 嵾	cey3	2	ce3ia
 嬠	cno1	2	cn1au
-爘	che4	2	ch4ou
+爘	che3	2	ch3ou
 蝅	csp2	2	cs2ee
 慙	cpj4	2	cp4ei
 蠺	csp2	2	cs2ee
@@ -7657,7 +7658,7 @@ encoder:
 訍	cyk4	2	cy4oe
 偛	crr3	2	cr3ui
 嗏	cok1	2	co1ia
-馇	zul1	2	zu1ua
+馇	zum1	2	zu1ua
 銟	cae2	2	ca2uo
 艖	czd1	2	cz1uu
 鎈	cad1	2	ca1uo
@@ -7672,7 +7673,7 @@ encoder:
 褨	syd1	2	sy1oa
 奼	cnr1	2	cn1au
 侘	cri1	2	cr1ui
-紁	clv4	2	cl4aa
+紁	clk4	2	cl4aa
 疀	cll2	2	cl2aa
 犲	cqs3	2	cq3ua
 祡	cnl2	2	cn2ie
@@ -7697,7 +7698,7 @@ encoder:
 儃	crw1	2	cr1ui
 儃	srw1	2	sr1ui
 潹	cvm1	2	cv1oo
-緾	clv2	2	cl2aa
+緾	clg2	2	cl2aa
 磛	cpj1	2	cp1ei
 毚	cuo4	2	cu4ua
 鄽	cgi5	2	cg5oe
@@ -7706,15 +7707,15 @@ encoder:
 儳	cru4	2	cr4ui
 劖	cuo2	2	cu2ua
 酁	cuo5	2	cu5ua
-繵	clv1	2	cl1aa
-繵	dlv1	2	dl1aa
+繵	clw1	2	cl1aa
+繵	dlw1	2	dl1aa
 壥	ctg1	2	ct1ei
 嚵	cou4	2	co4ia
 巉	ceu4	2	ce4ia
 瀺	cvu4	2	cv4oo
 欃	cmu4	2	cm4ei
 镵	cau4	2	ca4ue
-纒	clv1	2	cl1aa
+纒	clg1	2	cl1aa
 艬	czu4	2	cz4uu
 鑱	cau4	2	ca4uo
 刬	clii	2	cl2ee
@@ -7730,7 +7731,7 @@ encoder:
 燀	cho1	2	ch1ou
 簅	czl1	2	cz1ue
 醦	cxy3	2	cx3ei
-繟	clv1	2	cl1aa
+繟	clo1	2	cl1aa
 譂	cyo1	2	cy1oe
 讇	cyc3	2	cy3oe
 灛	cvc1	2	cv1oo
@@ -7805,7 +7806,7 @@ encoder:
 爡	chk2	2	ch2ou
 棽	cmm5	2	cm5ei
 棽	smm5	2	sm5ei
-綝	clv1	2	cl1aa
+綝	clm1	2	cl1aa
 瞋	cfk3	2	cf3ia
 賝	chi1	2	ch1ia
 諃	cym1	2	cy1oe
@@ -7852,14 +7853,14 @@ encoder:
 赪	ctm2	2	ct2ei
 靗	cfu5	2	cf5ee
 憆	cxe1	2	cx1oo
-緽	clv2	2	cl2aa
+緽	cle2	2	cl2aa
 頳	ctm2	2	ct2ei
 橕	cme3	2	cm3ei
 罉	cqe3	2	cq3ue
 穪	chs3	2	ch3ue
 鏿	cae1	2	ca1uo
 鏳	cad2	2	ca2uo
-饓	caw1	2	ca1uo
+饓	cue1	2	cu1uo
 朾	tmei	2	tm1ei
 朾	zmei	2	zm1ei
 郕	cgj5	2	cg5eu
@@ -7882,7 +7883,7 @@ encoder:
 筬	czg4	2	cz4ue
 椉	cwu1	2	cw1oe
 椉	swu1	2	sw1oe
-絾	clv4	2	cl4aa
+絾	clg4	2	cl4aa
 塖	cth3	2	ct3ei
 畻	ctk1	2	ct1ia
 鋮	cag4	2	ca4uo
@@ -7907,7 +7908,7 @@ encoder:
 粚	cdq5	2	cd5ou
 喫	cof1	2	co1ia
 摛	cjw5	2	cj5ei
-絺	clv2	2	cl2aa
+絺	clx2	2	cl2aa
 殦	dsu4	2	ds4eu
 瞝	cfw5	2	cf5ia
 鵄	csy4	2	cs4ea
@@ -7972,7 +7973,7 @@ encoder:
 趩	ctn3	2	ct3ei
 懘	cvx4	2	cv4oo
 鶒	cso4	2	cs4ei
-饎	caw2	2	ca2uo
+饎	cut2	2	cu2uo
 鷘	cso4	2	cs4ei
 沖	cvo2	2	cv2oo
 珫	cfw3	2	cf3ee
@@ -7991,14 +7992,14 @@ encoder:
 褈	cyr2	2	cy2oa
 蝩	ccr2	2	cc2ia
 蝩	zcr2	2	zc2ia
-緟	clv2	2	cl2aa
-緟	zlv2	2	zl2aa
+緟	clr2	2	cl2aa
+緟	zlr2	2	zl2aa
 爞	chc2	2	ch2ou
 爞	thc2	2	th2ou
 喠	zor2	2	zo2ia
 揰	cjr2	2	cj2ei
 揰	djr2	2	dj2ei
-紬	clv2	2	cl2aa
+紬	cli2	2	cl2aa
 搊	cjb3	2	cj3ei
 搊	zjb3	2	zj3ei
 醔	qhh1	2	qh1ue
@@ -8009,7 +8010,7 @@ encoder:
 栦	cmc4	2	cm4ei
 菗	ckj2	2	ck2ei
 椆	cmc2	2	cm2ei
-絒	clv4	2	cl4aa
+絒	clc4	2	cl4aa
 酧	cxi1	2	cx1ei
 皗	cnc2	2	cn2ui
 詶	cyc4	2	cy4oe
@@ -8173,7 +8174,7 @@ encoder:
 偨	crn1	2	cr1ui
 骴	ccj3	2	cc3ia
 骴	zcj3	2	zc3ia
-縒	clv1	2	cl1aa
+縒	cld1	2	cl1aa
 珁	cfs4	2	cf4ee
 柌	cmj2	2	cm2ei
 垐	cdu1	2	cd1oe
@@ -8181,9 +8182,9 @@ encoder:
 辝	cyo4	2	cy4ao
 鈶	say2	2	sa2uo
 甆	ckl4	2	ck4ou
-飺	cnl4	2	cn4ie
+飺	cnl3	2	cn3ie
 辤	czi4	2	cz4uo
-餈	cdu4	2	cd4oe
+餈	cdu3	2	cd3oe
 薋	ckd2	2	ck2ei
 薋	zkd2	2	zk2ei
 濨	cvk4	2	cv4oo
@@ -8204,7 +8205,7 @@ encoder:
 栨	cmd3	2	cm3ei
 莿	cks2	2	ck2ei
 蛓	ckl2	2	ck2ei
-絘	clv3	2	cl3aa
+絘	cld3	2	cl3aa
 螆	cck5	2	cc5ia
 茐	ckb4	2	ck4ei
 忩	cry4	2	cr4uo
@@ -8220,12 +8221,12 @@ encoder:
 樬	cmr4	2	cm4ei
 暰	cip2	2	ci2ia
 熜	chr4	2	ch4ou
-緫	clv4	2	cl4aa
+緫	clb4	2	cl4aa
 瞛	cfp2	2	cf2ia
 蟌	ccr4	2	cc4ia
 篵	czp2	2	cz2ue
 謥	cyr4	2	cy4oe
-繱	clv4	2	cl4aa
+繱	clk4	2	cl4aa
 騘	cqb4	2	cq4ei
 鏦	cap2	2	ca2uo
 従	cpk2	2	cp2uu
@@ -8260,7 +8261,7 @@ encoder:
 噈	zow4	2	zo4ia
 憱	cxw4	2	cx4oo
 瘯	cgq3	2	cg3oe
-縬	clv4	2	cl4aa
+縬	clg4	2	cl4aa
 鼀	ctr5	2	ct5ei
 蹵	cwo2	2	cw2oe
 顣	cge2	2	cg2eu
@@ -8346,7 +8347,7 @@ encoder:
 跶	dnp4	2	dn4ia
 燵	dht4	2	dh4ou
 蟽	dct4	2	dc4ia
-繨	dlv4	2	dl4aa
+繨	dlt4	2	dl4aa
 鐽	dat4	2	da4uo
 龖	dlu1	2	dl1oe
 龘	dlu1	2	dl1oe
@@ -8366,7 +8367,7 @@ encoder:
 廗	dgx2	2	dg2oe
 叇	ddy4	2	dd4ee
 曃	die4	2	di4ia
-緿	dlv4	2	dl4aa
+緿	dly4	2	dl4aa
 鴏	drc1	2	dr1ui
 鮘	dyr1	2	dy1ua
 艜	dzx2	2	dz2uu
@@ -8393,7 +8394,7 @@ encoder:
 刐	dcw2	2	dc2ua
 玬	dfc4	2	df4ee
 衴	dyi3	2	dy3oa
-紞	dlv3	2	dl3aa
+紞	dli3	2	dl3aa
 亶	dwo1	2	dw1oe
 黕	dvt3	2	dv3ia
 澸	dvg4	2	dv4oo
@@ -8419,8 +8420,8 @@ encoder:
 嘾	dox1	2	do1ia
 駳	dqr5	2	dq5ei
 鴠	dis4	2	di4ia
-餤	daw4	2	da4uo
-餤	taw4	2	ta4uo
+餤	duh4	2	du4uo
+餤	tuh4	2	tu4uo
 憺	dxu4	2	dx4oo
 禫	dyx1	2	dy1oa
 甔	dug4	2	du4ua
@@ -8428,7 +8429,7 @@ encoder:
 贉	dhx1	2	dh1ia
 嚪	doc3	2	do3ia
 霮	dtv5	2	dt5eo
-饏	djb4	2	dj4ae
+饏	djb3	2	dj3ae
 珰	dfe5	2	df5ee
 筜	dze5	2	dz5ue
 噹	doe2	2	do2ia
@@ -8686,7 +8687,7 @@ encoder:
 嵿	dej2	2	de2ia
 薡	dkf5	2	dk5ei
 鐤	daf5	2	da5uo
-饤	dul1	2	du1ua
+饤	duei	2	du1ua
 忊	dxei	2	dx1oo
 矴	dsei	2	ds1eu
 萣	dki2	2	dk2ei
@@ -8738,7 +8739,7 @@ encoder:
 钭	dad1	2	da1ue
 郖	dso5	2	ds5ei
 荳	dks4	2	dk4ei
-饾	dul4	2	du4ua
+饾	dus4	2	du4ua
 浢	dvs4	2	dv4oo
 梪	dms4	2	dm4ei
 毭	dso3	2	ds3ei
@@ -8797,7 +8798,7 @@ encoder:
 瑖	dfh5	2	df5ee
 腶	duh5	2	du5ua
 碫	dsh5	2	ds5eu
-縀	xlv5	2	xl5aa
+縀	xlc5	2	xl5aa
 毈	dhw5	2	dh5ua
 躖	dnl1	2	dn1ia
 垖	dtr2	2	dt2ei
@@ -8811,7 +8812,7 @@ encoder:
 対	duei	2	du1oe
 祋	dyn5	2	dy5oa
 陮	dbr4	2	db4ai
-綐	dlv3	2	dl3aa
+綐	dld3	2	dl3aa
 薱	dkm1	2	dk1ei
 濧	dvm1	2	dv1oo
 譈	dyw3	2	dy3oe
@@ -8867,7 +8868,7 @@ encoder:
 亸	dwo1	2	dw1oe
 鬌	dcx2	2	dc2ei
 鬌	tcx2	2	tc2ei
-饳	dul2	2	du2ua
+饳	duc2	2	du2ua
 陏	dbx2	2	db2ai
 陊	dbu3	2	db3ai
 刴	dnm2	2	dn2au
@@ -8944,7 +8945,7 @@ encoder:
 頞	vin2	2	vi2oo
 擜	vjk4	2	vj4ei
 覨	voo3	2	vo3ia
-餩	vaw3	2	va3uo
+餩	vua3	2	vu3uo
 歞	vil3	2	vi3ia
 蘁	vks2	2	vk2ei
 蘁	wks2	2	wk2ei
@@ -9040,7 +9041,7 @@ encoder:
 膰	fur2	2	fu2ua
 襎	fyr2	2	fy2oa
 羳	fdv2	2	fd2ou
-繙	flv2	2	fl2aa
+繙	flr2	2	fl2aa
 瀪	fqm2	2	fq2ue
 鐇	far2	2	fa2uo
 瀿	fvq2	2	fv2oo
@@ -9057,7 +9058,7 @@ encoder:
 訉	fyn4	2	fy4oe
 笵	fzv5	2	fz5ue
 盕	fvn2	2	fv2oo
-飰	faw2	2	fa2uo
+飰	fuw2	2	fu2uo
 軬	fyp1	2	fy1ao
 滼	fvm4	2	fv4oo
 嬎	fnu1	2	fn1au
@@ -9081,7 +9082,7 @@ encoder:
 倣	frq3	2	fr3ui
 旊	fqq4	2	fq4oe
 髣	fcx4	2	fc4ei
-鶭	flv4	2	fl4aa
+鶭	flq4	2	fl4aa
 婓	fef5	2	fe5ie
 渄	fve1	2	fv1oo
 婔	fne1	2	fn1au
@@ -9089,7 +9090,7 @@ encoder:
 靟	fef3	2	fe3ie
 暃	fie1	2	fi1ia
 裶	fye1	2	fy1oa
-餥	fef4	2	fe4ie
+餥	fef3	2	fe3ie
 馡	fhi1	2	fh1ue
 騑	fqe1	2	fq1ei
 騛	fql2	2	fq2ei
@@ -9134,9 +9135,9 @@ encoder:
 訜	fyr5	2	fy5oe
 雰	ftr5	2	ft5eo
 鈖	far5	2	fa5uo
-餴	faw1	2	fa1uo
+餴	fup1	2	fu1uo
 朆	fdv3	2	fd3ou
-饙	faw2	2	fa2uo
+饙	fuk2	2	fu2uo
 坆	mtue	2	mt3ei
 岎	fer5	2	fe5ia
 枌	fmr5	2	fm5ei
@@ -9206,7 +9207,7 @@ encoder:
 摓	fju4	2	fj4ei
 艂	fzu2	2	fz2uu
 漨	fvu4	2	fv4oo
-綘	flv2	2	fl2aa
+綘	flu2	2	fl2aa
 篈	fzt1	2	fz1ue
 甮	fbd3	2	fb3ua
 焨	fhi2	2	fh2ou
@@ -9219,7 +9220,7 @@ encoder:
 仏	frao	2	fr5ui
 坲	ftg3	2	ft3ei
 梻	fmr3	2	fm3ei
-紑	flv2	2	fl2aa
+紑	fls2	2	fl2aa
 妚	pns2	2	pn2au
 缻	fqe4	2	fq4ue
 缹	fqe4	2	fq4ue
@@ -9241,11 +9242,11 @@ encoder:
 尃	fsu1	2	fs1ei
 娐	fnz5	2	fn5au
 旉	fsu4	2	fs4ei
-紨	flv1	2	fl1aa
+紨	flr1	2	fl1aa
 鈇	fad3	2	fa3uo
 筟	fzz5	2	fz5ue
 鄜	fgc5	2	fg5oe
-綒	flv5	2	fl5aa
+綒	flz5	2	fl5aa
 豧	fzs4	2	fz4eu
 鳺	fda4	2	fd4ee
 麬	fkr5	2	fk5ei
@@ -9287,13 +9288,13 @@ encoder:
 葍	fks2	2	fk2ei
 棴	fmu5	2	fm5ei
 罦	ffz5	2	ff5ia
-絥	flv4	2	fl4aa
+絥	flr4	2	fl4aa
 艀	fzz5	2	fz5uu
 鉜	far1	2	fa1uo
 鉘	fag3	2	fa3uo
 颫	fnr3	2	fn3ua
 粰	fdz5	2	fd5ou
-綍	flv5	2	fl5aa
+綍	flk5	2	fl5aa
 榑	fms1	2	fm1ei
 酻	fxz5	2	fx5ei
 稪	fhq3	2	fh3ue
@@ -9346,7 +9347,7 @@ encoder:
 禣	fys1	2	fy1oa
 蕧	fkp3	2	fk3ei
 蝜	fcu2	2	fc2ia
-緮	flv3	2	fl3aa
+緮	flq3	2	fl3aa
 輹	fpq3	2	fp3ei
 鍢	fas2	2	fa2uo
 鍑	faq3	2	fa3uo
@@ -9365,12 +9366,12 @@ encoder:
 祴	gyl1	2	gy1oa
 隑	gbe4	2	gb4ai
 隑	qbe4	2	qb4ai
-絯	glv3	2	gl3aa
-絯	hlv3	2	hl3aa
+絯	glw3	2	gl3aa
+絯	hlw3	2	hl3aa
 豥	gzw3	2	gz3eu
 賌	gwl2	2	gw2oe
 忋	gxc5	2	gx5oo
-絠	glv2	2	gl2aa
+絠	glx2	2	gl2aa
 乢	geaa	2	ge5ia
 匃	gba5	2	gb5ua
 匄	gboe	2	gb4ua
@@ -9440,7 +9441,7 @@ encoder:
 滜	gvn1	2	gv1oo
 槹	gmn1	2	gm1ei
 橰	gmr1	2	gm1ei
-餻	gaw4	2	ga4uo
+餻	gud4	2	gu4uo
 櫜	gso1	2	gs1ei
 韟	gje1	2	gj1ai
 鼛	gto2	2	gt2ei
@@ -9507,11 +9508,11 @@ encoder:
 菮	gkg3	2	gk3ei
 椩	gmg3	2	gm3ei
 焿	ghg3	2	gh3ou
-絚	glv4	2	gl4aa
+絚	gls4	2	gl4aa
 鹒	gge1	2	gg1oe
 羮	gdf4	2	gd4ou
-縆	glv1	2	gl1aa
-緪	glv4	2	gl4aa
+縆	glx1	2	gl1aa
+緪	glx4	2	gl4aa
 郠	gsi5	2	gs5ei
 挭	gjs3	2	gj3ei
 莄	gks3	2	gk3ei
@@ -9520,7 +9521,7 @@ encoder:
 堩	gtx4	2	gt4ei
 厷	gxao	2	gx5eu
 杛	gmae	2	gm5ei
-糼	glv5	2	gl5aa
+糼	glau	2	gl5aa
 匑	gbr5	2	gb5ua
 塨	gtk4	2	gt4ei
 幊	ged2	2	ge2ia
@@ -9594,13 +9595,13 @@ encoder:
 尳	gxl2	2	gx2eu
 焸	gii4	2	gi4ia
 焸	xii4	2	xi4ia
-馉	gul2	2	gu2ua
+馉	guc2	2	gu2ua
 愲	gxc2	2	gx2oo
 鼔	gto5	2	gt5ei
 榾	gmc2	2	gm2ei
 皷	gto5	2	gt5ei
 榖	gti5	2	gt5ei
-縎	glv2	2	gl2aa
+縎	glc2	2	gl2aa
 糓	gti5	2	gt5ei
 薣	gkt5	2	gk5ei
 皼	gti5	2	gt5ei
@@ -9621,7 +9622,7 @@ encoder:
 焻	chi2	2	ch2ou
 煱	ghc2	2	gh2ou
 劀	gyj2	2	gy2ao
-緺	glv2	2	gl2aa
+緺	glc2	2	gl2aa
 銽	gah2	2	ga2uo
 騧	gqc2	2	gq2ei
 叧	goau	2	go5ia
@@ -9629,7 +9630,7 @@ encoder:
 坬	gth4	2	gt4ei
 啩	got2	2	go2ia
 罣	gft1	2	gf1ia
-絓	glv1	2	gl1aa
+絓	glt1	2	gl1aa
 罫	gft2	2	gf2ia
 枴	gmo5	2	gm5ei
 柺	gmo5	2	gm5ei
@@ -9755,8 +9756,8 @@ encoder:
 蓘	gkw3	2	gk3ei
 裷	yyk5	2	yy5oa
 蔉	gkw3	2	gk3ei
-緷	glv1	2	gl1aa
-緷	ylv1	2	yl1aa
+緷	gli1	2	gl1aa
+緷	yli1	2	yl1aa
 鮌	gyw5	2	gy5ua
 琯	gfi2	2	gf2ee
 睔	gfa1	2	gf1ia
@@ -9782,22 +9783,22 @@ encoder:
 漍	gvo1	2	gv1oo
 慖	gxo1	2	gx1oo
 菓	gki1	2	gk1ei
-馃	gul1	2	gu1ua
+馃	gui1	2	gu1ua
 淉	gvi1	2	gv1oo
 惈	gxi1	2	gx1oo
 褁	gim3	2	gi3ia
 粿	gdi1	2	gd1ou
-綶	glv1	2	gl1aa
+綶	gli1	2	gl1aa
 輠	gpi1	2	gp1ei
 腂	gui1	2	gu1ua
 烸	hhq4	2	hh4ou
 塰	hvq1	2	hv1oo
 酼	hxw3	2	hx3ei
 嗐	hoi2	2	ho2ia
-餀	haw3	2	ha3uo
+餀	huk3	2	hu3uo
 駴	hql1	2	hq1ei
 嚡	hok1	2	ho1ia
-饚	haw2	2	ha2uo
+饚	huk2	2	hu2uo
 佄	hrk1	2	hr1ui
 哻	hoi1	2	ho1ia
 谽	hra2	2	hr2uo
@@ -9910,7 +9911,7 @@ encoder:
 盇	hpw2	2	hp2eu
 峆	hea2	2	he2ia
 狢	mqu2	2	mq2ua
-饸	hul2	2	hu2ua
+饸	hua2	2	hu2ua
 籺	hdq5	2	hd5ou
 哬	hor2	2	ho2ia
 盉	hhia	2	hh2ue
@@ -9931,8 +9932,8 @@ encoder:
 澕	hvk1	2	hv1oo
 熆	hht2	2	hh2ou
 篕	hzt2	2	hz2ue
-餲	haw5	2	ha5uo
-餲	vaw5	2	va5uo
+餲	hui5	2	hu5uo
+餲	vui5	2	vu5uo
 鞨	hko5	2	hk5ei
 礉	hsn3	2	hs3eu
 礉	qsn3	2	qs3eu
@@ -10005,7 +10006,7 @@ encoder:
 翃	hxy4	2	hx4eu
 浤	hvi5	2	hv5oo
 谹	hra5	2	hr5uo
-紭	hlv5	2	hl5aa
+紭	hlg5	2	hl5aa
 葓	hkv3	2	hk3ei
 硡	hsi5	2	hs5eu
 舼	hzk3	2	hz3uu
@@ -10016,7 +10017,7 @@ encoder:
 渱	hvc1	2	hv1oo
 谼	hra3	2	hr3uo
 翝	hix4	2	hi4oo
-綋	hlv5	2	hl5aa
+綋	hli5	2	hl5aa
 鞃	hko5	2	hk5ei
 鉷	hak3	2	ha3uo
 魟	hyei	2	hy1ua
@@ -10077,7 +10078,7 @@ encoder:
 搰	hjc2	2	hj2ei
 喖	hom1	2	ho1ia
 媩	hng3	2	hn3au
-絗	hlv2	2	hl2aa
+絗	hlo2	2	hl2aa
 楜	hmg3	2	hm3ei
 蔛	hku1	2	hk1ei
 嘝	hou1	2	ho1ia
@@ -10088,7 +10089,7 @@ encoder:
 縠	hti5	2	ht5ei
 頶	hrt2	2	hr2ue
 鍸	hag3	2	ha3uo
-餬	haw3	2	ha3uo
+餬	hug3	2	hu3uo
 鬍	hcx3	2	hc3ei
 瀫	hvt5	2	hv5oo
 鶦	hgu4	2	hg4ei
@@ -10161,7 +10162,7 @@ encoder:
 澅	hve1	2	hv1oo
 黊	hki1	2	hk1ei
 舙	hrg1	2	hr1ue
-繣	hlv1	2	hl1aa
+繣	hle1	2	hl1aa
 蘳	hkk1	2	hk1ei
 佪	hro2	2	hr2ui
 褢	hwn3	2	hw3oe
@@ -10193,11 +10194,11 @@ encoder:
 萈	hkf4	2	hk4ei
 雈	hes4	2	he4ie
 寏	hiu1	2	hi1oo
-絙	glv1	2	gl1aa
+絙	gls1	2	gl1aa
 貆	hzs1	2	hz1uo
 羦	hdv3	2	hd3ou
-綄	hlv3	2	hl3aa
-綄	wlv3	2	wl3aa
+綄	hli3	2	hl3aa
+綄	wli3	2	wl3aa
 瞏	hft3	2	hf3ia
 瞏	qft3	2	qf3ia
 阛	hcf3	2	hc3oi
@@ -10242,7 +10243,7 @@ encoder:
 熿	hhk3	2	hh3ou
 穔	hhk3	2	hh3ue
 諻	hyn1	2	hy1oe
-餭	haw1	2	ha1uo
+餭	hun1	2	hu1uo
 趪	htn3	2	ht3ei
 韹	hli1	2	hl1oe
 騜	hqn1	2	hq1ei
@@ -10257,7 +10258,7 @@ encoder:
 詤	hya3	2	hy3oe
 熀	hhi5	2	hh5ou
 熀	yhi5	2	yh5ou
-縨	hlv5	2	hl5aa
+縨	hli5	2	hl5aa
 櫎	hmg3	2	hm3ei
 兤	hes3	2	he3io
 滉	hvi5	2	hv5oo
@@ -10310,7 +10311,7 @@ encoder:
 翙	heu4	2	he4ia
 阓	hco2	2	hc2oi
 湏	hvs2	2	hv2oo
-絵	hlv5	2	hl5aa
+絵	hla5	2	hl5aa
 匯	hcv4	2	hc4eo
 詯	hyr2	2	hy2oe
 滙	hvc4	2	hv4oo
@@ -10336,7 +10337,7 @@ encoder:
 藱	hkg5	2	hk5ei
 檅	hmn4	2	hm4ei
 篲	hzf5	2	hz5ue
-餯	haw1	2	ha1uo
+餯	hum1	2	hu1uo
 嚖	hof4	2	ho4ia
 瞺	hfa2	2	hf2ia
 櫘	hmf4	2	hm4ei
@@ -10360,7 +10361,7 @@ encoder:
 睯	hcl2	2	hc2ae
 忶	hxd5	2	hx5oo
 堚	hti1	2	ht1ei
-繉	hlv4	2	hl4aa
+繉	hlf4	2	hl4aa
 鼲	hnl1	2	hn1ui
 俒	hri3	2	hr3ui
 倱	hri3	2	hr3ui
@@ -10408,7 +10409,7 @@ encoder:
 刉	jql2	2	jq2ue
 刏	jqii	2	jq2ue
 枅	jms1	2	jm1ei
-飢	jaw3	2	ja3uo
+飢	juua	2	ju3uo
 攲	qpj5	2	qp5eu
 敧	jpj5	2	jp5eu
 敧	qpj5	2	qp5eu
@@ -10520,7 +10521,7 @@ encoder:
 峜	jea2	2	je2ia
 畟	ctr3	2	ct3ia
 剤	jud2	2	ju2oe
-紒	jlv3	2	jl3aa
+紒	jla3	2	jl3aa
 萕	qku1	2	qk1ei
 梞	jmc4	2	jm4ei
 旣	jng3	2	jn3ui
@@ -10536,7 +10537,7 @@ encoder:
 裚	jjj3	2	jj3ei
 痵	jgh5	2	jg5oe
 兾	jdt3	2	jd3ou
-継	jlv5	2	jl5aa
+継	jld5	2	jl5aa
 稩	jht2	2	jh2ue
 穊	jhe3	2	jh3ue
 誋	jyc4	2	jy4oe
@@ -10639,7 +10640,7 @@ encoder:
 熸	jhc2	2	jh2ou
 麉	jtt3	2	jt3ee
 馢	jhi1	2	jh1ue
-餰	jaw1	2	ja1uo
+餰	jup1	2	ju1uo
 鳒	jyk2	2	jy2ua
 瀐	jvk1	2	jv1oo
 礛	jsc2	2	js2eu
@@ -10666,7 +10667,7 @@ encoder:
 瑐	jfk2	2	jf2ee
 暕	jis2	2	ji2ia
 弿	jif5	2	ji5oo
-絸	jlv3	2	jl3aa
+絸	jlf3	2	jl3aa
 彅	jgk5	2	jg5ae
 錽	was3	2	wa3uo
 襔	myk4	2	my4oa
@@ -10720,7 +10721,7 @@ encoder:
 瞯	jfc3	2	jf3ia
 螹	jcp3	2	jc3ia
 擶	jjz2	2	jj2ei
-繝	jlv3	2	jl3aa
+繝	jlc3	2	jl3aa
 覵	bcu3	2	bc3ia
 覵	jcu3	2	jc3ia
 鏩	jap3	2	ja3uo
@@ -10743,7 +10744,7 @@ encoder:
 殭	jsu1	2	js1eu
 鳉	jyk1	2	jy1ua
 疅	jts1	2	jt1ia
-繮	jlv1	2	jl1aa
+繮	jls1	2	jl1aa
 奨	jkz1	2	jk1oe
 奬	jle1	2	jl1ai
 膙	jug2	2	ju2ua
@@ -10783,7 +10784,7 @@ encoder:
 鷮	jrp4	2	jr4ue
 櫵	jmk4	2	jm4ei
 纟	slaa	2	sl5aa
-糹	sloo	2	sl4aa
+糹	slaa	2	sl5aa
 臫	jrf5	2	jr5ui
 恔	jxw3	2	jx3oo
 捁	jjr2	2	jj2ei
@@ -10811,7 +10812,7 @@ encoder:
 鵤	juu4	2	ju4ua
 譑	jyr2	2	jy2oe
 孂	jnz2	2	jn2au
-纐	jlv2	2	jl2aa
+纐	jlw2	2	jl2aa
 鱎	jyr2	2	jy2ua
 灚	jvh3	2	jv3oo
 呌	jod1	2	jo1ia
@@ -10897,7 +10898,7 @@ encoder:
 蠽	jpr2	2	jp2iu
 毑	jms5	2	jm5aa
 媎	jnt2	2	jn2au
-飷	jaw2	2	ja2uo
+飷	juia	2	ju2uo
 觧	juu2	2	ju2ua
 檞	jmu1	2	jm1ei
 丯	jxii	2	jx2uu
@@ -10929,7 +10930,7 @@ encoder:
 珒	jfe1	2	jf1ee
 埐	jte5	2	jt5ei
 矝	jyj5	2	jy5ao
-紟	jlv5	2	jl5aa
+紟	jla5	2	jl5aa
 琎	jfd4	2	jf4ee
 惍	jxuo	2	jx3oo
 琻	jfuo	2	jf3ee
@@ -10975,7 +10976,7 @@ encoder:
 猄	jqw2	2	jq2ua
 旍	jqq5	2	jq5oe
 婛	jnw2	2	jn2au
-経	jlv1	2	jl1aa
+経	jlk1	2	jl1aa
 稉	jhs3	2	jh3ue
 聙	jbf2	2	jb2ei
 橸	jmi2	2	jm2ei
@@ -11033,10 +11034,10 @@ encoder:
 逈	jrc4	2	jr4ui
 宭	qie2	2	qi2oo
 烱	jhc2	2	jh2ou
-絅	jlv2	2	jl2aa
+絅	jlc2	2	jl2aa
 煚	jic4	2	ji4ia
 颎	jlh2	2	jl2ua
-綗	jlv2	2	jl2aa
+綗	jlc2	2	jl2aa
 煛	jff4	2	jf4ia
 僒	jri2	2	jr2ui
 褧	jbh3	2	jb3ei
@@ -11049,7 +11050,7 @@ encoder:
 勼	jbua	2	jb3ua
 朻	jml2	2	jm2ei
 牞	jrj5	2	jr5ue
-糺	jlv5	2	jl5aa
+糺	jlaa	2	jl5aa
 萛	jkf1	2	jk1ei
 揂	jjd1	2	jj1ei
 揂	yjd1	2	yj1ei
@@ -11064,7 +11065,7 @@ encoder:
 杦	jmu4	2	jm4ei
 舏	jrg2	2	jr2ue
 镹	jcu4	2	jc4ei
-紤	jlv3	2	jl3aa
+紤	jluu	2	jl3aa
 韮	jke1	2	jk1ei
 匛	jcu4	2	jc4eu
 畂	ltu4	2	lt4ia
@@ -11209,7 +11210,7 @@ encoder:
 飬	jkp4	2	jk4ou
 蔨	jko5	2	jk5ei
 慻	jxk2	2	jx2oo
-餋	jkp4	2	jk4ou
+餋	jkp3	2	jk3ou
 獧	jqf3	2	jq3ua
 羂	jfl2	2	jf2ia
 撧	jjl5	2	jj5ei
@@ -11246,7 +11247,7 @@ encoder:
 傕	jri4	2	jr4ui
 鈌	jac3	2	ja3uo
 覚	jvi3	2	jv3oo
-絶	jlv5	2	jl5aa
+絶	jlu5	2	jl5aa
 駃	jqc3	2	jq3ei
 駃	kqc3	2	kq3ei
 瑴	jti5	2	jt5ei
@@ -11306,7 +11307,7 @@ encoder:
 呁	job4	2	jo4ia
 陖	jby3	2	jb3ai
 埈	jty3	2	jt3ei
-馂	jul3	2	ju3ua
+馂	juy3	2	ju3ua
 珺	jfe2	2	jf2ee
 晙	jiy3	2	ji3ia
 焌	jhy3	2	jh3ou
@@ -11524,9 +11525,9 @@ encoder:
 昿	kig5	2	ki5ia
 砿	ksg5	2	ks5eu
 眖	kfo3	2	kf3ia
-絋	klv5	2	kl5aa
+絋	klg5	2	kl5aa
 軦	kpo3	2	kp3ei
-絖	klv5	2	kl5aa
+絖	kle5	2	kl5aa
 鉱	kag5	2	ka5uo
 鋛	kao2	2	ka2uo
 黋	kes3	2	ke3io
@@ -11570,7 +11571,7 @@ encoder:
 嬇	kno2	2	kn2au
 樻	kmo2	2	km2ei
 謉	dyn5	2	dy5oe
-餽	kaw5	2	ka5uo
+餽	kun5	2	ku5uo
 籄	kzc2	2	kz2ue
 鐀	kao2	2	ka2uo
 鑎	kac2	2	ka2uo
@@ -11604,7 +11605,7 @@ encoder:
 稇	kho1	2	kh1ue
 裍	kyo1	2	ky1oa
 稛	kho3	2	kh3ue
-綑	klv1	2	kl1aa
+綑	klo1	2	kl1aa
 閸	kcs1	2	kc1ia
 涃	kvo1	2	kv1oo
 睏	kfo1	2	kf1ia
@@ -11687,7 +11688,7 @@ encoder:
 譋	lyc3	2	ly3oe
 幱	lec2	2	le2ia
 灆	lvk2	2	lv2oo
-繿	llv2	2	ll2aa
+繿	llc2	2	ll2aa
 礷	lsk2	2	ls2eu
 囒	lok2	2	lo2ia
 籣	lzc2	2	lz2ue
@@ -11784,8 +11785,8 @@ encoder:
 韷	lli2	2	ll2oe
 簕	lzk5	2	lz5ue
 鳓	lyk5	2	ly5ua
-饹	gul2	2	gu2ua
-饹	lul2	2	lu2ua
+饹	guu2	2	gu2ua
+饹	luu2	2	lu2ua
 蔂	lkt2	2	lk2ei
 畾	ltt2	2	lt2ia
 瓃	lft2	2	lf2ee
@@ -11799,7 +11800,7 @@ encoder:
 虆	lkt2	2	lk2ei
 鱩	lyt2	2	ly2ua
 欙	lmt2	2	lm2ei
-纝	llv2	2	ll2aa
+纝	llt2	2	ll2aa
 鼺	lnl2	2	ln2ui
 厽	lyy5	2	ly5ao
 塁	ltv1	2	lt1ia
@@ -11884,9 +11885,9 @@ encoder:
 劙	lmz2	2	lm2aa
 矖	xfs3	2	xf3ia
 穲	lhs3	2	lh3ue
-纚	llv3	2	ll3aa
-纚	slv3	2	sl3aa
-纚	xlv3	2	xl3aa
+纚	lls3	2	ll3aa
+纚	sls3	2	sl3aa
+纚	xls3	2	xl3aa
 峛	les2	2	le2ia
 峲	leh2	2	le2ia
 浬	lvi2	2	lv2oo
@@ -11933,7 +11934,7 @@ encoder:
 歴	lgm2	2	lg2eu
 暦	lgm2	2	lg2eu
 蜧	lcw4	2	lc4ia
-綟	llv4	2	ll4aa
+綟	llw4	2	ll4aa
 隷	ltd2	2	lt2ei
 歷	lgh2	2	lg2eu
 鴗	llr4	2	ll4oe
@@ -11987,7 +11988,7 @@ encoder:
 螊	lck2	2	lc2ia
 濓	lvl2	2	lv2oo
 翴	ljd4	2	lj4ao
-縺	llv4	2	ll4aa
+縺	llp4	2	ll4aa
 櫣	lmk4	2	lm4ei
 蹥	lnp4	2	ln4ia
 謰	lyp4	2	ly4oe
@@ -12016,12 +12017,12 @@ encoder:
 澰	lva3	2	lv3oo
 鍊	las2	2	la2uo
 鰊	lys2	2	ly2ua
-纞	llv4	2	ll4aa
+纞	lly4	2	ll4aa
 俍	lrw4	2	lr4ui
 辌	lpw2	2	lp2ea
 蜋	lcw4	2	lc4ia
 墚	ltv1	2	lt1ei
-綡	llv2	2	ll2aa
+綡	llw2	2	ll2aa
 樑	lmv1	2	lm1ei
 両	lsc2	2	ls2ei
 唡	los3	2	lo3ia
@@ -12029,7 +12030,7 @@ encoder:
 脼	lus4	2	lu4ua
 裲	lys4	2	ly4oa
 蜽	lcs4	2	lc4ia
-緉	llv4	2	ll4aa
+緉	lls4	2	ll4aa
 哴	low4	2	lo4ia
 喨	low3	2	lo3ia
 湸	lvw3	2	lv3oo
@@ -12115,7 +12116,7 @@ encoder:
 疄	ltd2	2	lt2ia
 麐	lgc2	2	lg2oe
 翷	ldu4	2	ld4ou
-繗	llv2	2	ll2aa
+繗	lld2	2	ll2aa
 蹸	lnd2	2	ln2ia
 壣	ltb1	2	lt1ei
 鏻	lad2	2	la2uo
@@ -12159,7 +12160,7 @@ encoder:
 衑	lpa1	2	lp1uu
 舲	lza5	2	lz5uu
 婈	lnt3	2	ln3au
-紷	llv5	2	ll5aa
+紷	lla5	2	ll5aa
 軨	lpa5	2	lp5ei
 跉	lna5	2	ln5ia
 詅	lya5	2	ly5oe
@@ -12302,7 +12303,7 @@ encoder:
 蠦	lce2	2	lc2ia
 罏	lqe2	2	lq2ue
 籚	lze2	2	lz2ue
-纑	llv2	2	ll2aa
+纑	lle2	2	ll2aa
 鑪	lae2	2	la2uo
 髗	lcj2	2	lc2ia
 黸	lvt2	2	lv2ia
@@ -12375,7 +12376,7 @@ encoder:
 觻	luu1	2	lu1ua
 虂	lkt2	2	lk2ei
 鵉	lwm4	2	lw4oe
-圝	loy4	2	lo4ia
+圝	loy5	2	lo5ia
 奱	lyl1	2	ly1oe
 曫	lyl2	2	ly2oe
 灓	lyl2	2	ly2oe
@@ -12416,7 +12417,7 @@ encoder:
 儸	lrf4	2	lr4ui
 驘	lwo4	2	lw4oe
 鸁	lwo4	2	lw4oe
-饠	law4	2	la4uo
+饠	luf4	2	lu4uo
 剆	lwe2	2	lw2oa
 砢	ksj2	2	ks2eu
 砢	lsj2	2	ls2eu
@@ -12431,7 +12432,7 @@ encoder:
 笿	lzu2	2	lz2ue
 鮥	lyu2	2	ly2ua
 鵅	luo4	2	lu4ua
-纙	llv4	2	ll4aa
+纙	llf4	2	ll4aa
 鱳	lyn1	2	ly1ua
 馿	lqw5	2	lq5ei
 氀	los3	2	lo3ia
@@ -12442,7 +12443,7 @@ encoder:
 梠	lmo2	2	lm2ei
 焒	lho2	2	lh2ou
 祣	lyq4	2	ly4oa
-絽	llv2	2	ll2aa
+絽	llo2	2	ll2aa
 膐	lqq3	2	lq3oe
 穞	lhy2	2	lh2ue
 儢	lre4	2	lr4ui
@@ -12450,10 +12451,10 @@ encoder:
 哷	loz1	2	lo1ia
 葎	lkp1	2	lk1ei
 嵂	lep1	2	le1ia
-緑	llv2	2	ll2aa
+緑	lle2	2	ll2aa
 箻	lzp1	2	lz1ue
 勴	leg5	2	le5ie
-繂	llv1	2	ll1aa
+繂	llw1	2	ll1aa
 櫖	lme4	2	lm4ei
 爈	lhe4	2	lh4ou
 鑢	lae4	2	la4uo
@@ -12548,7 +12549,7 @@ encoder:
 堥	myj1	2	my1ao
 嵍	myj2	2	my2ao
 嵍	wyj2	2	wy2ao
-緢	mlv2	2	ml2aa
+緢	mlk2	2	ml2aa
 氂	ldp3	2	ld3ee
 氂	mdp3	2	md3ee
 髳	mcx3	2	mc3ei
@@ -12650,7 +12651,7 @@ encoder:
 鯍	myw3	2	my3ua
 矒	mfk2	2	mf2ia
 靀	mtk1	2	mt1eo
-饛	maw1	2	ma1uo
+饛	muk1	2	mu1uo
 鼆	mii5	2	mi5oa
 瓾	mhn4	2	mh4ue
 鯭	myj2	2	my2ua
@@ -12732,8 +12733,8 @@ encoder:
 喕	mos1	2	mo1ia
 愐	mxs1	2	mx1oo
 媔	mns1	2	mn1au
-絻	mlv3	2	ml3aa
-絻	wlv3	2	wl3aa
+絻	mlu3	2	ml3aa
+絻	wlu3	2	wl3aa
 鮸	myu3	2	my3ua
 靣	mso2	2	ms2eu
 麫	mkr5	2	mk5ei
@@ -12776,7 +12777,7 @@ encoder:
 鈱	mac1	2	ma1uo
 痻	mgh2	2	mg2oe
 暋	mcl2	2	mc2ae
-緍	mlv2	2	ml2aa
+緍	mlh2	2	ml2aa
 賯	xhb5	2	xh5ia
 錉	mah2	2	ma2uo
 鴖	wcl4	2	wc4ae
@@ -12819,7 +12820,7 @@ encoder:
 謩	mkoe	2	mk4ei
 擵	mjg3	2	mj3ei
 髍	mcj1	2	mc1ia
-饝	maw1	2	ma1uo
+饝	mug1	2	mu1uo
 麿	mgm2	2	mg2oe
 懡	mxg5	2	mx5oo
 圽	mtb3	2	mt3ei
@@ -12841,7 +12842,7 @@ encoder:
 眽	mfh4	2	mf4ia
 粖	mdd2	2	md2ou
 袹	mys2	2	my2oa
-絈	mlv3	2	ml3aa
+絈	mlui	2	ml3aa
 蛨	mcs2	2	mc2ia
 貃	mzui	2	mz3uo
 塻	mtei	2	mt1ei
@@ -12853,7 +12854,7 @@ encoder:
 瞐	mff2	2	mf2ia
 黙	mit4	2	mi4ia
 魩	myb3	2	my3ua
-縸	mlv1	2	ml1aa
+縸	mlei	2	ml1aa
 藦	mkg3	2	mk3ei
 蟔	mcv4	2	mc4ia
 爅	mhv1	2	mh1ou
@@ -13023,7 +13024,7 @@ encoder:
 嫟	nnc2	2	nn2au
 暱	nic2	2	ni2ia
 誽	nyn3	2	ny3oe
-縌	nlv4	2	nl4aa
+縌	nlk4	2	nl4aa
 懝	vxl2	2	vx2oo
 秊	nhr1	2	nh1ue
 哖	noq2	2	no2ia
@@ -13110,7 +13111,7 @@ encoder:
 襛	nyc5	2	ny5oa
 醲	nxc5	2	nx5ei
 欁	nmc1	2	nm1ei
-繷	nlv5	2	nl5aa
+繷	nlc5	2	nl5aa
 挊	nje2	2	nj2ei
 挵	njf1	2	nj1ei
 齈	nrf5	2	nr5ui
@@ -13129,7 +13130,7 @@ encoder:
 奻	nnau	2	nn5au
 渜	nvs1	2	nv1oo
 煗	nhs1	2	nh1ou
-餪	naw1	2	na1uo
+餪	nus1	2	nu1uo
 硸	nse1	2	ns1eu
 黁	ngm2	2	ng2oe
 梛	nmu5	2	nm5ei
@@ -13297,7 +13298,7 @@ encoder:
 鬅	pcx3	2	pc3ei
 蟚	pto2	2	pt2ei
 韼	pli4	2	pl4oe
-纄	plv4	2	pl4aa
+纄	plk4	2	pl4aa
 鬔	pcx4	2	pc4ei
 騯	bqw4	2	bq4ei
 鑝	pak4	2	pa4uo
@@ -13498,7 +13499,7 @@ encoder:
 瞨	pfm3	2	pf3ia
 穙	phm3	2	ph3ue
 贌	phm3	2	ph3ia
-纀	plv3	2	pl3aa
+纀	plr3	2	pl3aa
 烳	phs4	2	ph4ou
 諩	pyk1	2	py1oe
 潽	pvk2	2	pv2oo
@@ -13519,7 +13520,7 @@ encoder:
 褄	qys5	2	qy5oa
 僛	qrk3	2	qr3ui
 慽	qxg4	2	qx4oo
-緀	qlv5	2	ql5aa
+緀	qls5	2	ql5aa
 慼	qge4	2	qg4eu
 諆	qyk3	2	qy3oe
 霋	qts5	2	qt5eo
@@ -13563,9 +13564,9 @@ encoder:
 褀	qyk3	2	qy3oa
 蜝	qkf2	2	qk2ei
 粸	qdk3	2	qd3ou
-綨	qlv3	2	ql3aa
-綥	qlv3	2	ql3aa
-緕	qlv1	2	ql1aa
+綨	qlk3	2	ql3aa
+綥	qlt3	2	ql3aa
+緕	qlu1	2	ql1aa
 踑	jnk3	2	jn3ia
 踑	qnk3	2	qn3ia
 禥	qyk1	2	qy1oa
@@ -13583,7 +13584,7 @@ encoder:
 鬐	qcx2	2	qc2ei
 籏	qzq3	2	qz3ue
 艩	qzw1	2	qz1uu
-纃	qlv1	2	ql1aa
+纃	qlw1	2	ql1aa
 魕	jnr3	2	jn3ui
 玂	qqk3	2	qq3ua
 麡	qgc1	2	qg1oe
@@ -13713,7 +13714,7 @@ encoder:
 儙	qro4	2	qr4ui
 篟	qzr2	2	qz2ue
 壍	qvp1	2	qv1oo
-縴	qlv1	2	ql1aa
+縴	qlw1	2	ql1aa
 鏲	qaw1	2	qa1uo
 玱	qfa5	2	qf5ee
 斨	qle3	2	ql3ai
@@ -13739,7 +13740,7 @@ encoder:
 蘠	qkl2	2	qk2ei
 勥	jgo5	2	jg5ae
 墏	qle1	2	ql1ai
-繦	qlv2	2	ql2aa
+繦	qlg2	2	ql2aa
 唴	qok3	2	qo3ia
 羻	qdv3	2	qd3ou
 郻	qfl5	2	qf5ia
@@ -13753,7 +13754,7 @@ encoder:
 橾	qmo1	2	qm1ei
 橾	smo1	2	sm1ei
 鍫	qhh3	2	qh3ue
-繑	qlv2	2	ql2aa
+繑	qlr2	2	ql2aa
 趬	qtn3	2	qt3ei
 蹻	jnr2	2	jn2ia
 蹻	qnr2	2	qn2ia
@@ -13797,7 +13798,7 @@ encoder:
 朅	qty5	2	qt5ei
 魥	qyn4	2	qy4ua
 魥	vyn4	2	vy4ua
-緁	qlv2	2	ql2aa
+緁	qls2	2	ql2aa
 踥	qnl5	2	qn5ia
 藒	qkh5	2	qk5ei
 穕	qhr1	2	qh1ue
@@ -13808,7 +13809,7 @@ encoder:
 菳	qkuo	2	qk3ei
 嵚	qea3	2	qe3ia
 媇	qnl1	2	qn1au
-綅	qlv5	2	ql5aa
+綅	qle5	2	ql5aa
 誛	qye5	2	qy5oe
 顉	qas2	2	qa2uo
 鮼	qye5	2	qy5ua
@@ -13854,7 +13855,7 @@ encoder:
 淸	qvf1	2	qv1oo
 寈	qif2	2	qi2oo
 軽	qpk1	2	qp1ei
-綪	qlv2	2	ql2aa
+綪	qlf2	2	ql2aa
 漀	qtp2	2	qt2ei
 鶄	jfu4	2	jf4ee
 鑋	qps3	2	qp3ei
@@ -13899,7 +13900,7 @@ encoder:
 鹙	qhh1	2	qh1ue
 蝵	qhh2	2	qh2ue
 篍	qzh4	2	qz4ue
-緧	qlv1	2	ql1aa
+緧	qld1	2	ql1aa
 趥	qtn1	2	qt1ei
 穐	qhu5	2	qh5ue
 鞦	qko4	2	qk4ei
@@ -13926,7 +13927,7 @@ encoder:
 唒	qoei	2	qo1ia
 釚	qaua	2	qa3uo
 浗	qvs4	2	qv4oo
-紌	qlv4	2	ql4aa
+紌	qlx4	2	ql4aa
 梂	qms4	2	qm4ei
 殏	qsu4	2	qs4eu
 毬	qps4	2	qp4ue
@@ -13938,7 +13939,7 @@ encoder:
 渞	wvk2	2	wv2oo
 蛷	qcs4	2	qc4ia
 煪	qhd1	2	qh1ou
-絿	qlv4	2	ql4aa
+絿	qls4	2	ql4aa
 觩	quu4	2	qu4ua
 璆	qfj3	2	qf3ee
 蝤	ycd1	2	yc1ia
@@ -13956,7 +13957,7 @@ encoder:
 胠	qut5	2	qu5ua
 浀	qvc1	2	qv1oo
 袪	qyt5	2	qy5oa
-紶	qlv5	2	ql5aa
+紶	qlt5	2	ql5aa
 筁	qzc1	2	qz1ue
 粬	qdc1	2	qd1ou
 駆	qqc3	2	qq3ei
@@ -13978,7 +13979,7 @@ encoder:
 衐	qpc1	2	qp1uu
 淭	qvw1	2	qv1oo
 翑	qjd2	2	qj2ao
-絇	qlv2	2	ql2aa
+絇	qlb2	2	ql2aa
 葋	qku2	2	qk2ei
 軥	gpb2	2	gp2ei
 軥	qpb2	2	qp2ei
@@ -14035,7 +14036,7 @@ encoder:
 腃	juk5	2	ju5ua
 腃	quk5	2	qu5ua
 湶	qvn2	2	qv2oo
-絟	qlv1	2	ql1aa
+絟	qla1	2	ql1aa
 瑔	qfn2	2	qf2ee
 搼	qjk3	2	qj3ei
 楾	qmn2	2	qm2ei
@@ -14043,7 +14044,7 @@ encoder:
 觠	qkp3	2	qk3ou
 権	qmq4	2	qm4ei
 踡	qnk5	2	qn5ia
-縓	qlv2	2	ql2aa
+縓	qlg2	2	ql2aa
 闎	qcn2	2	qc2ia
 鳈	qyn2	2	qy2ua
 巏	qek4	2	qe4ia
@@ -14096,7 +14097,7 @@ encoder:
 舑	trg2	2	tr2ue
 髥	rcx1	2	rc1ei
 嘫	rou4	2	ro4ia
-繎	rlv4	2	rl4aa
+繎	rlu4	2	rl4aa
 姌	rnc2	2	rn2au
 珃	rfc2	2	rf2ee
 蒅	rkv1	2	rk1ei
@@ -14134,7 +14135,7 @@ encoder:
 涊	nvq4	2	nv4oo
 秹	rhr1	2	rh1ue
 棯	rma4	2	rm4ei
-綛	rlv4	2	rl4aa
+綛	rlq4	2	rl4aa
 躵	rrc4	2	rr4ui
 刄	rqoo	2	rq4au
 仭	rrq4	2	rr4ui
@@ -14154,8 +14155,8 @@ encoder:
 靱	rko4	2	rk4ei
 腍	dua4	2	du4ua
 腍	rua4	2	ru4ua
-絍	rlv1	2	rl1aa
-餁	raw1	2	ra1uo
+絍	rlr1	2	rl1aa
+餁	rur1	2	ru1uo
 辸	rnoa	2	rn4au
 礽	ryau	2	ry5oa
 陾	rbs1	2	rb1ai
@@ -14180,7 +14181,7 @@ encoder:
 穁	rhk1	2	rh1ue
 镕	rai2	2	ra2ue
 褣	ryi2	2	ry2oa
-縙	rlv1	2	rl1aa
+縙	rlk1	2	rl1aa
 髶	rcx1	2	rc1ei
 駥	rql1	2	rq1ei
 螎	rcs2	2	rc2ia
@@ -14228,7 +14229,7 @@ encoder:
 曘	rit2	2	ri2ia
 臑	nut2	2	nu2ua
 燸	rht2	2	rh2ou
-繻	xlv2	2	xl2aa
+繻	xlt2	2	xl2aa
 醹	rxt2	2	rx2ei
 鱬	ryt2	2	ry2ua
 肗	ruau	2	ru5ua
@@ -14248,12 +14249,12 @@ encoder:
 腝	nus1	2	nu1ua
 碝	rss1	2	rs1eu
 蝡	rcs1	2	rc1ia
-緛	rlv1	2	rl1aa
+緛	rls1	2	rl1aa
 輭	rps1	2	rp1ei
 瓀	rft2	2	rf2ee
 礝	rst2	2	rs2eu
 甤	rzr1	2	rz1eu
-緌	rlv5	2	rl5aa
+緌	rlh5	2	rl5aa
 桵	rmz5	2	rm5ei
 惢	rxx4	2	rx4oa
 惢	sxx4	2	sx4oa
@@ -14309,7 +14310,7 @@ encoder:
 橵	smk3	2	sm3ei
 糤	sdk3	2	sd3ou
 糣	sdc2	2	sd2ou
-繖	slv3	2	sl3aa
+繖	slk3	2	sl3aa
 鏒	qay3	2	qa3uo
 鏾	sak3	2	sa3uo
 鏾	xak3	2	xa3uo
@@ -14345,7 +14346,7 @@ encoder:
 懎	sxt2	2	sx2oo
 璱	sff3	2	sf3ee
 瀒	svk2	2	sv2oo
-繬	slv2	2	sl2aa
+繬	slt2	2	sl2aa
 轖	spt2	2	sp2ei
 穯	sht2	2	sh2ue
 鏼	saz3	2	sa3uo
@@ -14373,7 +14374,7 @@ encoder:
 閷	sxm3	2	sx3uo
 鎩	sax5	2	sa5uo
 鯋	syv3	2	sy3ua
-繺	slv4	2	sl4aa
+繺	slu4	2	sl4aa
 儍	srx3	2	sr3ui
 倽	sra2	2	sr2ui
 萐	sks2	2	sk2ei
@@ -14399,7 +14400,7 @@ encoder:
 穇	chy3	2	ch3ue
 穇	shy3	2	sh3ue
 檆	smh2	2	sm2ei
-縿	slv3	2	sl3aa
+縿	sly3	2	sl3aa
 羴	sdf2	2	sd2ou
 羶	sdv1	2	sd1ou
 炶	she2	2	sh2ou
@@ -14421,7 +14422,7 @@ encoder:
 蟺	ccw1	2	cc1ia
 蟺	scw1	2	sc1ia
 鐥	sad2	2	sa2uo
-饍	saw2	2	sa2uo
+饍	sud2	2	su2uo
 譱	sdf4	2	sd4ou
 鱓	syo1	2	sy1ua
 蔏	skw2	2	sk2ei
@@ -14543,7 +14544,7 @@ encoder:
 鉎	sar1	2	sa1uo
 鼪	snl1	2	sn1ui
 鵿	src1	2	sr1ui
-縄	slv5	2	sl5aa
+縄	sli5	2	sl5aa
 憴	sxc5	2	sx5oo
 譝	syc5	2	sy5oe
 鱦	syc5	2	sy5ua
@@ -14562,7 +14563,7 @@ encoder:
 呞	soj2	2	so2ia
 鸤	spb1	2	sp1ae
 浉	svd2	2	sv2oo
-絁	slv5	2	sl5aa
+絁	slq5	2	sl5aa
 葹	skq5	2	sk5ei
 湤	svq5	2	sv5oo
 蒒	skr2	2	sk2ei
@@ -14580,12 +14581,12 @@ encoder:
 鰤	syr2	2	sy2ua
 襹	sys3	2	sy3oa
 籭	szs3	2	sz3ue
-饣	suaa	2	su5ua
+饣	suua	2	su3ua
 辻	skoa	2	sk4ei
 佦	sreu	2	sr1ui
 竍	slei	2	sl1oe
 囸	ros2	2	ro2ia
-飠	saw5	2	sa5uo
+飠	suuo	2	su3uo
 実	sif3	2	si3oo
 旹	sce2	2	sc2ai
 峕	sew2	2	se2ia
@@ -14598,7 +14599,7 @@ encoder:
 溡	svi1	2	sv1oo
 榯	smi1	2	sm1ei
 鉽	sal1	2	sa1uo
-篒	sza4	2	sz4ue
+篒	szuo	2	sz3ue
 鮖	syeu	2	sy1ua
 鼫	snl1	2	sn1ui
 鼭	snl1	2	sn1ui
@@ -14645,7 +14646,7 @@ encoder:
 謚	syk2	2	sy2oe
 謚	yyk2	2	yy2oe
 簭	szd2	2	sz2ue
-籂	sza2	2	sz2ue
+籂	szu2	2	sz2ue
 齛	sna5	2	sn5ie
 齛	xna5	2	xn5ie
 鰘	syi1	2	sy1ua
@@ -14672,7 +14673,7 @@ encoder:
 鄃	sas5	2	sa5uo
 疎	sjn2	2	sj2ai
 毺	spa2	2	sp2ue
-綀	slv2	2	sl2aa
+綀	sls2	2	sl2aa
 踈	sns2	2	sn2ia
 跾	cre2	2	cr2ui
 跾	sre2	2	sr2ui
@@ -14700,7 +14701,7 @@ encoder:
 捒	sjs2	2	sj2ei
 蒁	skm4	2	sk4ei
 庻	sgk3	2	sg3oe
-絉	slv4	2	sl4aa
+絉	slm4	2	sl4aa
 尌	sto1	2	st1ei
 裋	sys4	2	sy4oa
 竪	sce4	2	sc4ei
@@ -14728,7 +14729,7 @@ encoder:
 漺	svp3	2	sv3oo
 慡	sxp3	2	sx3oo
 樉	smp3	2	sm3ei
-縔	slv1	2	sl1aa
+縔	slk1	2	sl1aa
 鏯	sap3	2	sa3uo
 灀	svt2	2	sv2oo
 脽	sur4	2	su4ua
@@ -14791,7 +14792,7 @@ encoder:
 牭	srj2	2	sr2ue
 娰	snr3	2	sn3au
 肂	ssu1	2	ss1eu
-飤	saw3	2	sa3uo
+飤	suuo	2	su3uo
 洍	svc2	2	sv2oo
 涘	svy3	2	sv3oo
 梩	lmi2	2	lm2ei
@@ -14823,7 +14824,7 @@ encoder:
 嵷	sep2	2	se2ia
 駷	sqs2	2	sq2ei
 鎹	sak4	2	sa4uo
-餸	saw4	2	sa4uo
+餸	suk4	2	su4uo
 凁	sds2	2	sd2oe
 捜	sji5	2	sj5ei
 鄋	sne5	2	sn5ui
@@ -14870,12 +14871,12 @@ encoder:
 樕	sms3	2	sm3ei
 樎	smi2	2	sm2ei
 鋉	sas2	2	sa2uo
-餗	saw2	2	sa2uo
+餗	sus2	2	su2uo
 潥	svx4	2	sv4oo
 憟	sxx4	2	sx4oo
 潚	sve2	2	sv2oo
 潚	xve2	2	xv2oo
-縤	slv2	2	sl2aa
+縤	slf2	2	sl2aa
 璛	sfe2	2	sf2ee
 藗	sks4	2	sk4ei
 橚	sme2	2	sm2ei
@@ -14921,18 +14922,18 @@ encoder:
 禭	syk4	2	sy4oa
 穟	shk4	2	sh4ue
 襚	syk4	2	sy4oa
-繀	slv4	2	sl4aa
+繀	sle4	2	sl4aa
 旞	sqq4	2	sq4oe
 懳	hxf4	2	hx4oo
-繐	slv4	2	sl4aa
-繸	slv4	2	sl4aa
+繐	sls4	2	sl4aa
+繸	slk4	2	sl4aa
 譢	syk4	2	sy4oe
 鐆	sbk3	2	sb3ai
 鐩	sak4	2	sa4uo
 搎	sjj2	2	sj2ei
 槂	smj2	2	sm2ei
-蕵	sku4	2	sk4ei
-薞	sks4	2	sk4ei
+蕵	sku3	2	sk3ei
+薞	sks3	2	sk3ei
 箰	szb5	2	sz5ue
 鎨	sar1	2	sa1uo
 鶽	xrf4	2	xr4ui
@@ -15077,8 +15078,8 @@ encoder:
 赯	ttm2	2	tt2ei
 糛	tde1	2	td1ou
 鎕	tag2	2	ta2uo
-餹	taw2	2	ta2uo
-饄	taw1	2	ta1uo
+餹	tug2	2	tu2uo
+饄	tue1	2	tu1uo
 鶶	tge4	2	tg4oe
 偒	tri3	2	tr3ui
 镋	tae3	2	ta3ue
@@ -15097,9 +15098,9 @@ encoder:
 嫍	tnz3	2	tn3au
 瑫	tfz3	2	tf3ee
 槄	tmz3	2	tm3ei
-飸	tos4	2	to4ia
-縧	tlv1	2	tl1aa
-縚	tlv3	2	tl3aa
+飸	tos3	2	to3ia
+縧	tlr1	2	tl1aa
+縚	tlz3	2	tl3aa
 謟	tyz3	2	ty3oe
 鞱	tko3	2	tk3ei
 匋	tbq2	2	tb2ua
@@ -15115,7 +15116,7 @@ encoder:
 駣	tqn4	2	tq4ei
 鋾	tab2	2	ta2uo
 騊	tqb2	2	tq2ei
-饀	taw3	2	ta3uo
+饀	tuz3	2	tu3uo
 貣	tlia	2	tl2ea
 脦	dul4	2	du4ua
 脦	tul4	2	tu4ua
@@ -15208,7 +15209,7 @@ encoder:
 搷	tjk3	2	tj3ei
 塡	ttl3	2	tt3ei
 碵	tse2	2	ts2eu
-緂	tlv4	2	tl4aa
+緂	tlh4	2	tl4aa
 磌	tsk3	2	ts3eu
 窴	tir3	2	ti3oo
 鴫	ttr4	2	tt4ia
@@ -15228,7 +15229,7 @@ encoder:
 睓	tfv3	2	tf3ia
 痶	dgv3	2	dg3oe
 痶	tgv3	2	tg3oe
-餂	taw1	2	ta1uo
+餂	tur1	2	tu1uo
 賟	thv3	2	th3ia
 錪	tav3	2	ta3uo
 瑱	tfk3	2	tf3ee
@@ -15262,8 +15263,8 @@ encoder:
 嬥	tnj4	2	tn4au
 朓	tun4	2	tu4ua
 脁	tcd4	2	tc4ua
-絩	dlv4	2	dl4aa
-絩	tlv4	2	tl4aa
+絩	dln4	2	dl4aa
+絩	tln4	2	tl4aa
 趒	ttn4	2	tt4ei
 覜	tnv3	2	tn3uo
 頫	fnv2	2	fn2uo
@@ -15278,14 +15279,14 @@ encoder:
 驖	tqk1	2	tq1ei
 呫	coe2	2	co2ia
 呫	toe2	2	to2ia
-飻	taw3	2	ta3uo
+飻	tua3	2	tu3uo
 艼	dkei	2	dk1ei
 艼	tkei	2	tk1ei
 庁	tgei	2	tg1oe
 耓	tfp1	2	tf1ee
 厛	tgo3	2	tg3eu
 渟	tvw1	2	tv1oo
-綎	tlv5	2	tl5aa
+綎	tlr5	2	tl5aa
 鞓	tko1	2	tk1ei
 聴	tbk4	2	tb4ei
 聼	tjb4	2	tj4ae
@@ -15328,15 +15329,15 @@ encoder:
 秱	thc2	2	th2ue
 衕	tpc1	2	tp1uu
 粡	tdc2	2	td2ou
-絧	dlv2	2	dl2aa
-絧	tlv2	2	tl2aa
+絧	dlc2	2	dl2aa
+絧	tlc2	2	tl2aa
 赨	ttm2	2	tt2ei
 赨	xtm2	2	xt2ei
 鉖	tau4	2	ta4uo
 詷	tyc2	2	ty2oe
 僮	trl2	2	tr2ui
 鉵	taia	2	ta2uo
-餇	taw2	2	ta2uo
+餇	tuc2	2	tu2uo
 鲖	tyc2	2	ty2ua
 勭	tli5	2	tl5oe
 獞	tql2	2	tq2ua
@@ -15350,14 +15351,14 @@ encoder:
 燑	thl2	2	th2ou
 穜	thl2	2	th2ue
 筩	tzy2	2	tz2ue
-綂	tlv3	2	tl3aa
+綂	tlw3	2	tl3aa
 憅	trs4	2	tr4ue
 偸	trr5	2	tr5ui
 鍮	taa2	2	ta2uo
-緰	tlv2	2	tl2aa
-緰	ylv2	2	yl2aa
+緰	tla2	2	tl2aa
+緰	yla2	2	yl2aa
 妵	tnw1	2	tn1au
-紏	tlv1	2	tl1aa
+紏	tld1	2	tl1aa
 殕	bsu2	2	bs2eu
 殕	fsu2	2	fs2eu
 斢	tki1	2	tk1ei
@@ -15466,7 +15467,7 @@ encoder:
 坉	tts5	2	tt5ei
 乇	zrea	2	zr1ue
 讬	twr1	2	tw1oa
-饦	tul1	2	tu1ua
+饦	tur1	2	tu1ua
 汑	tvr1	2	tv1oo
 杔	tmr1	2	tm1ei
 拕	tji3	2	tj3ei
@@ -15487,7 +15488,7 @@ encoder:
 柁	tmi3	2	tm3ei
 砤	tsq5	2	ts5eu
 袉	tyi3	2	ty3oa
-紽	tlv3	2	tl3aa
+紽	tli3	2	tl3aa
 堶	ttx2	2	tt2ei
 詑	dyi3	2	dy3oe
 詑	tyi3	2	ty3oe
@@ -15558,7 +15559,7 @@ encoder:
 晩	wiu3	2	wi3ia
 晼	wii5	2	wi5ia
 輓	wpu3	2	wp3ei
-綩	wlv5	2	wl5aa
+綩	wli5	2	wl5aa
 踠	wni5	2	wn5ia
 鋔	wau3	2	wa3uo
 卐	wjs1	2	wj1ae
@@ -15609,7 +15610,7 @@ encoder:
 溦	wve3	2	wv3oo
 蝛	wcg4	2	wc4ia
 覣	whn3	2	wh3ue
-縅	wlv4	2	wl4aa
+縅	wlg4	2	wl4aa
 嶶	wep3	2	we3ia
 鳂	wyt5	2	wy5ua
 燰	whz3	2	wh3ou
@@ -15681,16 +15682,16 @@ encoder:
 碨	wst5	2	ws5eu
 熭	wfe4	2	wf4ee
 犚	wpd1	2	wp1ae
-緭	wlv2	2	wl2aa
+緭	wlt2	2	wl2aa
 璏	wfm3	2	wf3ee
 罻	wfp1	2	wf1ia
 衞	wpj1	2	wp1uu
 錗	wah5	2	wa5uo
-餧	waw5	2	wa5uo
+餧	wuh5	2	wu5uo
 鮇	wyd2	2	wy2ua
 濊	hvn4	2	hv4oo
 懀	wxa2	2	wx2oo
-餵	waw5	2	wa5uo
+餵	wut5	2	wu5uo
 螱	wpd2	2	wp2ae
 褽	wpd3	2	wp3ae
 藯	wkp4	2	wk4ei
@@ -15699,7 +15700,7 @@ encoder:
 鏏	waf5	2	wa5uo
 鳚	wyp1	2	wy1ua
 蘶	wkh5	2	wk5ei
-饖	waw4	2	wa4uo
+饖	wun4	2	wu4uo
 躗	wpj2	2	wp2uu
 讆	wpj4	2	wp4uu
 躛	wpj2	2	wp2uu
@@ -15712,7 +15713,7 @@ encoder:
 榲	wmo2	2	wm2ei
 豱	wzi2	2	wz2eu
 鎾	wai2	2	wa2uo
-饂	waw2	2	wa2uo
+饂	wui2	2	wu2uo
 鳁	wyi2	2	wy2ua
 鰛	wyi2	2	wy2ua
 亠	twoe	2	tw4oe
@@ -15860,7 +15861,7 @@ encoder:
 俙	xrx2	2	xr2ui
 徔	zpk4	2	zp4uu
 徆	xpei	2	xp1uu
-饻	xul3	2	xu3ua
+饻	xuw3	2	xu3ua
 莃	xkx2	2	xk2ei
 氥	xqei	2	xq1ue
 狶	xqx2	2	xq2ua
@@ -15894,11 +15895,11 @@ encoder:
 榽	xmz1	2	xm1ei
 豨	xzx2	2	xz2eu
 熈	xrc4	2	xr4ue
-緆	xlv3	2	xl3aa
+緆	xli3	2	xl3aa
 磎	qsz1	2	qs1eu
 磎	xsz1	2	xs1eu
 噏	xoa4	2	xo4ia
-餙	xaw2	2	xa2uo
+餙	xux2	2	xu2uo
 瘜	xgr4	2	xg4oe
 嬆	xna4	2	xn4au
 橀	xmw2	2	xm2ei
@@ -15920,7 +15921,7 @@ encoder:
 鯑	xyx2	2	xy2ua
 糦	xdt2	2	xd2ou
 雟	xcr2	2	xc2ai
-繥	xlv2	2	xl2aa
+繥	xlt2	2	xl2aa
 鏭	xar4	2	xa4uo
 譆	xyt2	2	xy2oe
 隵	xbe1	2	xb1ai
@@ -15967,7 +15968,7 @@ encoder:
 諰	xyt4	2	xy4oe
 壐	xsr1	2	xs1eu
 謑	xyz1	2	xy1oe
-縰	xlv2	2	xl2aa
+縰	xlp2	2	xl2aa
 蹝	xnp2	2	xn2ia
 蟢	xct2	2	xc2ia
 瓕	mgs4	2	mg4ae
@@ -16038,7 +16039,7 @@ encoder:
 螛	hci2	2	hc2ia
 螛	xci2	2	xc2ia
 魻	xyi2	2	xy2ua
-縖	xlv2	2	xl2aa
+縖	xli2	2	xl2aa
 鍜	xac5	2	xa5uo
 鎋	xai2	2	xa2uo
 騢	xqc5	2	xq5ei
@@ -16071,7 +16072,7 @@ encoder:
 嬐	xna3	2	xn3au
 韱	xaa1	2	xa1uo
 褼	xyx5	2	xy5oa
-繊	xlv1	2	xl1aa
+繊	xlk1	2	xl1aa
 蹮	xnx5	2	xn5ia
 馦	xhi2	2	xh2ue
 攕	jja1	2	jj1ei
@@ -16079,7 +16080,7 @@ encoder:
 廯	xgy2	2	xg2oe
 孅	xna1	2	xn1au
 鶱	xif4	2	xi4oo
-纎	xlv1	2	xl1aa
+纎	xlk1	2	xl1aa
 襳	xya1	2	xy1oa
 鱻	xyy3	2	xy3ua
 咞	xos1	2	xo1ia
@@ -16089,7 +16090,7 @@ encoder:
 蚿	xcw5	2	xc5ia
 婱	xgw5	2	xg5ae
 娹	xng5	2	xn5au
-絃	xlv5	2	xl5aa
+絃	xlw5	2	xl5aa
 蛝	xce4	2	xc4ia
 啣	xoq5	2	xo5ia
 嗛	qok2	2	qo2ia
@@ -16143,12 +16144,12 @@ encoder:
 晛	xif3	2	xi3ia
 睍	xff3	2	xf3ia
 缐	xln2	2	xl2aa
-絤	xlv1	2	xl1aa
+絤	xlei	2	xl1aa
 粯	xdf3	2	xd3ou
 僴	xrc2	2	xr2ui
 僩	xrc3	2	xr3ui
 誢	xyf3	2	xy3oe
-綫	xlv1	2	xl1aa
+綫	xll1	2	xl1aa
 撊	xjc3	2	xj3ei
 鋧	xaf3	2	xa3uo
 錎	gau3	2	ga3uo
@@ -16171,12 +16172,12 @@ encoder:
 瓖	xfw3	2	xf3ee
 欀	xmw3	2	xm3ei
 鱜	xyl5	2	xy5ua
-纕	rlv3	2	rl3aa
-纕	xlv3	2	xl3aa
+纕	rlw3	2	rl3aa
+纕	xlw3	2	xl3aa
 瓨	hds4	2	hd4ei
 佭	xru2	2	xr2ui
 栙	xmu2	2	xm2ei
-絴	xlv2	2	xl2aa
+絴	xld2	2	xl2aa
 跭	xnu2	2	xn2ia
 亯	xwo2	2	xw2oe
 蚃	xlr2	2	xl2aa
@@ -16184,7 +16185,7 @@ encoder:
 銄	jar2	2	ja2uo
 鮝	xkp3	2	xk3ou
 蠁	xlr2	2	xl2aa
-饟	xaw3	2	xa3uo
+饟	xuw3	2	xu3uo
 鱶	xyd4	2	xy4ua
 姠	xnr2	2	xn2au
 珦	xfr2	2	xf2ee
@@ -16283,7 +16284,7 @@ encoder:
 瑎	xfg3	2	xf3ee
 嗋	xoq2	2	xo2ia
 愶	xxq2	2	xx2oo
-綊	xlv3	2	xl3aa
+綊	xlp3	2	xl3aa
 膎	xuz1	2	xu1ua
 熁	xhq2	2	xh2ou
 擕	xjr2	2	xj2ei
@@ -16309,10 +16310,10 @@ encoder:
 禼	xeo5	2	xe5ie
 偰	xrf1	2	xr1ui
 徢	xps2	2	xp2uu
-紲	xlv5	2	xl5aa
+紲	xlk5	2	xl5aa
 屟	xpk1	2	xp1ae
 媟	xnk1	2	xn1au
-絬	xlv1	2	xl1aa
+絬	xlr1	2	xl1aa
 塮	xtr1	2	xt1ei
 僁	xrr4	2	xr4ui
 褉	xyf1	2	xy1oa
@@ -16320,7 +16321,7 @@ encoder:
 碿	xsp2	2	xs2eu
 噧	xok4	2	xo4ia
 屧	xpp1	2	xp1ae
-緤	xlv1	2	xl1aa
+緤	xlk1	2	xl1aa
 薢	xku1	2	xk1ei
 韰	xeu1	2	xe1ie
 嶰	jeu1	2	je1ia
@@ -16399,7 +16400,7 @@ encoder:
 涬	xvt1	2	xv1oo
 婞	xnt1	2	xn1au
 塂	jtk5	2	jt5ei
-緈	xlv1	2	xl1aa
+緈	xlt1	2	xl1aa
 臖	xhd2	2	xh2ui
 兇	xxc3	2	xx3uo
 讻	xwx5	2	xw5oa
@@ -16430,11 +16431,11 @@ encoder:
 苬	xko3	2	xk3ei
 滫	xvr2	2	xv2oo
 潃	xvp2	2	xv2oo
-綇	xlv1	2	xl1aa
+綇	xlei	2	xl1aa
 糔	xdk2	2	xd2ou
 珛	xfx2	2	xf2ee
 琇	xfh5	2	xf5ee
-綉	xlv5	2	xl5aa
+綉	xlh5	2	xl5aa
 璓	xfk5	2	xf5ee
 褏	xwh3	2	xw3oe
 褎	xwh3	2	xw3oe
@@ -16442,7 +16443,7 @@ encoder:
 銹	xah5	2	xa5uo
 螑	xcr4	2	xc4ia
 嚊	por3	2	po3ia
-繍	xlv3	2	xl3aa
+繍	xle3	2	xl3aa
 鏥	xai2	2	xa2uo
 齅	xrf4	2	xr4ui
 旴	xid2	2	xi2ia
@@ -16466,7 +16467,7 @@ encoder:
 歔	xeg3	2	xe3ie
 蝑	xcj2	2	xc2ia
 嬃	xxs5	2	xx5uu
-縃	xlv2	2	xl2aa
+縃	xlj2	2	xl2aa
 歘	chh3	2	ch3ou
 歘	xhh3	2	xh3ou
 譃	xye1	2	xy1oe
@@ -16505,7 +16506,7 @@ encoder:
 湑	xvj2	2	xv2oo
 賉	xhr2	2	xh2ia
 慉	xxw2	2	xx2oo
-続	xlv3	2	xl3aa
+続	xlt3	2	xl3aa
 槒	xmw2	2	xm2ei
 瞁	xff4	2	xf4ia
 盢	xtp2	2	xt2ia
@@ -16515,7 +16516,7 @@ encoder:
 稸	xhw2	2	xh2ue
 獝	xqy2	2	xq2ua
 獝	yqy2	2	yq2ua
-緖	xlv4	2	xl4aa
+緖	xlt4	2	xl4aa
 瞲	xfy2	2	xf2ia
 藚	xkt2	2	xk2ei
 鱮	xyh3	2	xy3ua
@@ -16570,8 +16571,8 @@ encoder:
 衒	xpw1	2	xp1uu
 蔙	xkq2	2	xk2ei
 颴	xnr2	2	xn2ua
-縼	xlv2	2	xl2aa
-繏	xlv3	2	xl3aa
+縼	xlq2	2	xl2aa
+繏	xlb3	2	xl3aa
 贙	xeg2	2	xe2ie
 疶	xgk5	2	xg5oe
 蒆	xkd5	2	xk5ei
@@ -16616,14 +16617,14 @@ encoder:
 矄	xfr4	2	xf4ia
 壦	xtk4	2	xt4ei
 爋	xhr5	2	xh5ou
-纁	xlv4	2	xl4aa
+纁	xlr4	2	xl4aa
 廵	xll5	2	xl5aa
 杊	xmui	2	xm3ei
 郇	xbi5	2	xb5ua
 荨	xke1	2	xk1ei
 咰	sob2	2	so2ia
 咰	xob2	2	xo2ia
-紃	xlv3	2	xl3aa
+紃	xlui	2	xl3aa
 珣	xfb2	2	xf2ee
 栒	xmb2	2	xm2ei
 桪	xme1	2	xm1ei
@@ -16725,7 +16726,7 @@ encoder:
 喦	yoo2	2	yo2ia
 嵒	yoo2	2	yo2ia
 嵓	yeo2	2	ye2ia
-綖	ylv5	2	yl5aa
+綖	ylr5	2	yl5aa
 塩	ytq2	2	yt2ei
 楌	yml3	2	ym3ei
 揅	yss3	2	ys3eu
@@ -16770,7 +16771,7 @@ encoder:
 戭	yis1	2	yi1oo
 噞	yoa3	2	yo3ia
 躽	yrc5	2	yr5ui
-縯	ylv3	2	yl3aa
+縯	yli3	2	yl3aa
 黡	ygp4	2	yg4eu
 檿	ygi1	2	yg1eu
 鶠	yci4	2	yc4ei
@@ -16914,11 +16915,11 @@ encoder:
 榣	ymz2	2	ym2ei
 暚	yiz2	2	yi2ia
 飖	yzq3	2	yz3uo
-餆	yaw4	2	ya4uo
+餆	yun4	2	yu4uo
 磘	ysz2	2	ys2eu
 嶤	yet3	2	ye3ia
 窰	yir2	2	yi2oo
-餚	yaw2	2	ya2uo
+餚	yux2	2	yu2uo
 謡	yyz2	2	yy2oe
 鎐	yaz2	2	ya2uo
 蘨	ykz2	2	yk2ei
@@ -16960,7 +16961,7 @@ encoder:
 燿	yhj4	2	yh4ou
 矅	yfj4	2	yf4ia
 曣	yik4	2	yi4ia
-纅	ylv1	2	yl1aa
+纅	yln1	2	yl1aa
 讑	yya1	2	yy1oe
 倻	yrb5	2	yr5ui
 暍	yii5	2	yi5ia
@@ -16990,7 +16991,7 @@ encoder:
 鄓	yrf5	2	yr5ui
 墷	ytk1	2	yt1ei
 楪	dmk1	2	dm1ei
-馌	yul2	2	yu2ua
+馌	yut2	2	yu2ua
 曅	yik1	2	yi1ia
 僷	yrk1	2	yr1ui
 歋	yhe3	2	yh3uu
@@ -17002,7 +17003,7 @@ encoder:
 皣	ynk1	2	yn1ui
 嶪	yem3	2	ye3ia
 嶫	yem3	2	ye3ia
-餣	yaw5	2	ya5uo
+餣	yup5	2	yu5uo
 澲	yvm3	2	yv3oo
 擫	yjg4	2	yj4ei
 瞸	yfk1	2	yf1ia
@@ -17232,12 +17233,12 @@ encoder:
 鶂	ynn4	2	yn4ui
 鶃	yrc3	2	yr3ui
 鯣	yyi3	2	yy3ua
-繶	ylv4	2	yl4aa
+繶	yll4	2	yl4aa
 蘙	ykc4	2	yk4ei
 醳	yxf1	2	yx1ei
 醷	vxl4	2	vx4ei
 醷	yxl4	2	yx4ei
-饐	yaw4	2	ya4uo
+饐	yut4	2	yu4uo
 瀷	yvj3	2	yv3oo
 鷧	yti4	2	yt4ei
 襼	yyk5	2	yy5oa
@@ -17260,7 +17261,7 @@ encoder:
 筃	yzo1	2	yz1ue
 愔	yxl2	2	yx2oo
 婣	ynd2	2	yn2au
-絪	ylv1	2	yl1aa
+絪	ylo1	2	yl1aa
 蒑	ykh5	2	yk5ei
 歅	yxt3	2	yx3ei
 溵	yvh5	2	yv5oo
@@ -17269,7 +17270,7 @@ encoder:
 瘖	ygl2	2	yg2oe
 鞇	yko1	2	yk1ei
 磤	ysh5	2	ys5eu
-緸	ylv1	2	yl1aa
+緸	ylx1	2	yl1aa
 霒	ytd5	2	yt5eo
 諲	yyx1	2	yy1oe
 霠	ytl5	2	yt5eo
@@ -17453,7 +17454,7 @@ encoder:
 懮	yxs3	2	yx3oo
 櫌	yms3	2	ym3ei
 耰	yfp3	2	yf3ee
-纋	ylv3	2	yl3aa
+纋	yls3	2	yl3aa
 尢	wxaa	2	wx5eu
 尣	wrua	2	wr3uo
 沋	yvx4	2	yv4oo
@@ -17492,7 +17493,7 @@ encoder:
 槱	ymx4	2	ym4ei
 牗	yre2	2	yr2ui
 狖	yqi3	2	yq3ua
-糿	ylv5	2	yl5aa
+糿	ylau	2	yl5aa
 孧	ylq5	2	yl5aa
 迶	yxu4	2	yx4eu
 哊	yox2	2	yo2ia
@@ -17635,7 +17636,7 @@ encoder:
 銉	yae1	2	ya1uo
 瘉	yga2	2	yg2oe
 隩	vbr1	2	vb1ai
-緎	ylv1	2	yl1aa
+緎	yll1	2	yl1aa
 鳿	yfr4	2	yf4ee
 墺	vtr1	2	vt1ei
 蓹	ykp5	2	yk5ei
@@ -17658,9 +17659,9 @@ encoder:
 篽	yzp5	2	yz5ue
 礜	yhd1	2	yh1ui
 癒	yga4	2	yg4oe
-繘	ylv2	2	yl2aa
+繘	yly2	2	yl2aa
 櫲	ymy3	2	ym3ei
-饇	yaw2	2	ya2uo
+饇	yuc2	2	yu2uo
 霱	yty2	2	yt2eo
 轝	yhd1	2	yh1ui
 驈	yqy2	2	yq2ei
@@ -17725,7 +17726,7 @@ encoder:
 魭	wyd3	2	wy3ua
 魭	yyd3	2	yy3ua
 褤	yyt3	2	yy3oa
-縁	ylv3	2	yl3aa
+縁	yle3	2	yl3aa
 薗	yko4	2	yk4ei
 羱	ydv2	2	yd2ou
 謜	yyg2	2	yy2oe
@@ -17803,8 +17804,8 @@ encoder:
 澐	yvt5	2	yv5oo
 橒	ymt5	2	ym5ei
 篔	yzo2	2	yz2ue
-縜	ylv2	2	yl2aa
-繧	ylv5	2	yl5aa
+縜	ylo2	2	yl2aa
+繧	ylt5	2	yl5aa
 阭	yby3	2	yb3ai
 抎	yjd5	2	yj5ei
 夽	ypd5	2	yp5eu
@@ -17825,11 +17826,11 @@ encoder:
 腪	yui1	2	yu1ua
 熅	yho2	2	yh2ou
 蕰	wkv2	2	wk2ei
-緼	ylv2	2	yl2aa
+緼	yli2	2	yl2aa
 薀	ykv2	2	yk2ei
 醖	yxi2	2	yx2ei
-餫	haw1	2	ha1uo
-餫	yaw1	2	ya1uo
+餫	hui1	2	hu1uo
+餫	yui1	2	yu1uo
 藴	ykl2	2	yk2ei
 韗	yje1	2	yj1ai
 帀	zsia	2	zs2ei
@@ -17854,7 +17855,7 @@ encoder:
 傤	zrk1	2	zr1ui
 酨	zkl1	2	zk1ei
 儎	zrk1	2	zr1ui
-縡	zlv4	2	zl4aa
+縡	zli4	2	zl4aa
 兂	zcua	2	zc3ea
 簮	zzd2	2	zz2ue
 鐟	tad2	2	ta2uo
@@ -17882,7 +17883,7 @@ encoder:
 禶	zyr2	2	zy2oa
 穳	chr2	2	ch2ue
 襸	zyr2	2	zy2oa
-饡	zaw2	2	za2uo
+饡	zur2	2	zu2uo
 喒	zou2	2	zo2ia
 羘	zud2	2	zu2ua
 牂	zle2	2	zl2ai
@@ -17992,7 +17993,7 @@ encoder:
 鉙	zao3	2	za3uo
 栴	zmq4	2	zm4ei
 蛅	zce2	2	zc2ia
-飦	zaw1	2	za1uo
+飦	zuee	2	zu1uo
 趈	ztn2	2	zt2ei
 詀	zye2	2	zy2oe
 閚	zcoe	2	zc4ia
@@ -18004,7 +18005,7 @@ encoder:
 覱	zpj3	2	zp3ei
 鹯	zwo1	2	zw1oe
 旜	zqq1	2	zq1oe
-饘	zaw1	2	za1uo
+饘	zuw1	2	zu1uo
 鳣	zyw1	2	zy1ua
 驙	zqw1	2	zq1ei
 魙	zvp5	2	zv5oo
@@ -18038,7 +18039,7 @@ encoder:
 遧	zli4	2	zl4oe
 慞	zxl1	2	zx1oo
 暲	zil1	2	zi1ia
-餦	zaw1	2	za1uo
+餦	zuei	2	zu1uo
 騿	zql1	2	zq1ei
 鱆	zyl1	2	zy1ua
 麞	zgc1	2	zg1oe
@@ -18145,13 +18146,13 @@ encoder:
 屒	zpg5	2	zp5ae
 聄	zba3	2	zb3ei
 萙	zkm3	2	zk3ei
-紾	tlv3	2	tl3aa
-紾	zlv3	2	zl3aa
+紾	tla3	2	tl3aa
+紾	zla3	2	zl3aa
 覙	lup3	2	lu3ua
 裖	zyg5	2	zy5oa
 嫃	znk3	2	zn3au
 駗	zqa3	2	zq3ei
-縥	zlv3	2	zl3aa
+縥	zlf3	2	zl3aa
 辴	coo5	2	co5ia
 辴	zoo5	2	zo5ia
 鬒	zcx3	2	zc3ei
@@ -18164,7 +18165,7 @@ encoder:
 揕	zjk5	2	zj5ei
 塦	zbp1	2	zb1ai
 蜄	zcg5	2	zc5ia
-絼	zlv3	2	zl3aa
+絼	zluo	2	zl3aa
 誫	zyg5	2	zy5oe
 敶	zbs3	2	zb3ai
 鋴	zag3	2	za3uo
@@ -18189,7 +18190,7 @@ encoder:
 癥	zgp3	2	zg3oe
 氶	zjau	2	zj5ai
 抍	zjr1	2	zj1ei
-糽	zlv1	2	zl1aa
+糽	zlei	2	zl1aa
 掟	dji2	2	dj2ei
 晸	zis3	2	zi3ia
 愸	zkr4	2	zk4ei
@@ -18299,7 +18300,7 @@ encoder:
 觗	zuu1	2	zu1ua
 袠	zwq3	2	zw3oe
 翐	zjd3	2	zj3ao
-紩	zlv3	2	zl3aa
+紩	zlq3	2	zl3aa
 崻	zep1	2	ze1ia
 傂	zrh3	2	zr3ui
 搱	zjp4	2	zj4ei
@@ -18309,7 +18310,7 @@ encoder:
 廌	zgc4	2	zg4oe
 滍	zvc2	2	zv2oo
 寘	zik3	2	zi3oo
-綕	zlv4	2	zl4aa
+綕	zlt4	2	zl4aa
 墆	dtx2	2	dt2ei
 覟	ztx3	2	zt3ei
 疐	zki2	2	zk2ei
@@ -18327,7 +18328,7 @@ encoder:
 旘	zqw2	2	zq2oe
 瀄	zvz5	2	zv5oo
 隲	zbp1	2	zb1ai
-緻	zlv3	2	zl3aa
+緻	zls3	2	zl3aa
 擿	tjw4	2	tj4ei
 螲	dci1	2	dc1ia
 螲	zci1	2	zc1ia
@@ -18424,7 +18425,7 @@ encoder:
 硃	zsq2	2	zs2eu
 秼	zhq2	2	zh2ue
 袾	zyq2	2	zy2oa
-絑	zlv2	2	zl2aa
+絑	zlq2	2	zl2aa
 跦	cnq2	2	cn2ia
 跦	znq2	2	zn2ia
 蝫	zct2	2	zc2ia
@@ -18477,7 +18478,7 @@ encoder:
 竚	zli1	2	zl1oe
 祩	zyq2	2	zy2oa
 羜	zdv1	2	zd1ou
-紸	zlv1	2	zl1aa
+紸	zlw1	2	zl1aa
 軴	zpw1	2	zp1ei
 跓	znw1	2	zn1ia
 嵀	zem1	2	ze1ia
@@ -18485,7 +18486,7 @@ encoder:
 馵	zqeu	2	zq1ei
 筯	zzh5	2	zz5ue
 鉒	zaw1	2	za1uo
-飳	zaw1	2	za1uo
+飳	zuw1	2	zu1uo
 墸	ztk2	2	zt2ei
 樦	zmz1	2	zm1ei
 鋳	zaf1	2	za1uo
@@ -18526,8 +18527,8 @@ encoder:
 僎	zrb3	2	zr3ui
 篹	zzf5	2	zz5ue
 襈	jyb3	2	jy3oa
-縳	jlv1	2	jl1aa
-縳	zlv1	2	zl1aa
+縳	jls1	2	jl1aa
+縳	zls1	2	zl1aa
 簨	szb3	2	sz3ue
 譔	zyb3	2	zy3oe
 籑	zzf4	2	zz4ue
@@ -18554,7 +18555,7 @@ encoder:
 醊	zxk5	2	zx5ei
 諈	zyr1	2	zy1oe
 錣	zak5	2	za5uo
-餟	zaw5	2	za5uo
+餟	zuk5	2	zu5uo
 礈	zsk4	2	zs4eu
 轛	zpm1	2	zp1ei
 鑆	zam1	2	za1uo
@@ -18567,7 +18568,7 @@ encoder:
 埻	ztw5	2	zt5ei
 凖	zdr1	2	zd1oe
 稕	zhw5	2	zh5ue
-綧	zlv5	2	zl5aa
+綧	zlw5	2	zl5aa
 炪	zhc2	2	zh2ou
 棁	zmd3	2	zm3ei
 琸	zfe1	2	zf1ee
@@ -18622,7 +18623,7 @@ encoder:
 姕	znl5	2	zn5ie
 栥	zdu1	2	zd1oe
 玆	zwl5	2	zw5oe
-紎	zlv4	2	zl4aa
+紎	zlp4	2	zl4aa
 赼	ztn3	2	zt3ei
 崰	zel2	2	ze2ia
 秶	zdu3	2	zd3oe
@@ -18681,7 +18682,7 @@ encoder:
 朡	zux3	2	zu3ua
 嵸	zep2	2	ze2ia
 稯	zhx3	2	zh3ue
-緃	zlv2	2	zl2aa
+緃	zla2	2	zl2aa
 踨	zna2	2	zn2ia
 蝬	zcx3	2	zc3ia
 熧	zpa4	2	zp4uu
@@ -18702,8 +18703,8 @@ encoder:
 惣	zrj4	2	zr4ue
 蓗	zkp2	2	zk2ei
 摠	zjr4	2	zj4ei
-総	zlv4	2	zl4aa
-縂	zlv4	2	zl4aa
+総	zlr4	2	zl4aa
+縂	zld4	2	zl4aa
 燪	zhk4	2	zh4ou
 鏓	zar4	2	za4uo
 昮	zid5	2	zi5ia
@@ -18712,18 +18713,18 @@ encoder:
 猔	zqi2	2	zq2ua
 碂	zsi2	2	zs2eu
 糉	zdx3	2	zd3ou
-緵	zlv3	2	zl3aa
+緵	zlx3	2	zl3aa
 錝	zai2	2	za2uo
 瘲	zgp2	2	zg2oe
-縦	zlv2	2	zl2aa
-繌	slv3	2	sl3aa
+縦	zlp2	2	zl2aa
+繌	slr3	2	sl3aa
 郰	zbk5	2	zb5ei
 掫	zjb5	2	zj5ei
 菆	zkb5	2	zk5ei
 棸	zbk1	2	zb1ei
 棷	zmb5	2	zm5ei
 箃	zzb5	2	zz5ue
-緅	zlv5	2	zl5aa
+緅	zlb5	2	zl5aa
 黀	zgm5	2	zg5oe
 齺	zna3	2	zn3ie
 赱	ztw4	2	zt4ei
@@ -18738,13 +18739,13 @@ encoder:
 哫	zoia	2	zo2ia
 倅	crw1	2	cr1ui
 倅	zrw1	2	zr1ui
-紣	clv1	2	cl1aa
+紣	clj1	2	cl1aa
 崒	zew1	2	ze1ia
 崪	zew1	2	ze1ia
 稡	zhw1	2	zh1ue
 箤	zzw1	2	zz1ue
-綷	clv1	2	cl1aa
-綷	zlv1	2	zl1aa
+綷	clw1	2	cl1aa
+綷	zlw1	2	zl1aa
 踤	znw1	2	zn1ia
 踿	znh4	2	zn4ia
 岨	jeia	2	je2ia
@@ -18758,7 +18759,7 @@ encoder:
 劗	jrt2	2	jr2ue
 劗	zrt2	2	zr2ue
 繤	zkf2	2	zk2ei
-纉	zlv2	2	zl2aa
+纉	zld2	2	zl2aa
 籫	zzr2	2	zz2ue
 鑚	zad2	2	za2uo
 厜	zgr1	2	zg1eu
@@ -18767,7 +18768,7 @@ encoder:
 嗺	soe4	2	so4ia
 樶	zmi5	2	zm5ei
 蟕	zcn3	2	zc3ia
-纗	zlv2	2	zl2aa
+纗	zle2	2	zl2aa
 嶊	zej4	2	ze4ia
 嶵	zef1	2	ze1ia
 噿	zoj1	2	zo1ia
@@ -18775,7 +18776,7 @@ encoder:
 枠	zmj1	2	zm1ei
 栬	zmu5	2	zm5ei
 酔	zxj1	2	zx1ei
-絊	zlv1	2	zl1aa
+絊	zlm1	2	zl1aa
 晬	ziw1	2	zi1ia
 祽	zyw1	2	zy1oa
 辠	zrf4	2	zr4ui
@@ -18790,7 +18791,7 @@ encoder:
 墫	ztd1	2	zt1ei
 嶟	zed1	2	ze1ia
 罇	zqe1	2	zq1ue
-繜	zlv1	2	zl1aa
+繜	zld1	2	zl1aa
 鶎	zid4	2	zi4oo
 鐏	zad1	2	za1uo
 鷷	zdx4	2	zd4ou
@@ -18804,7 +18805,7 @@ encoder:
 稓	zhk2	2	zh2ue
 筰	zzr1	2	zz1ue
 鈼	zaq1	2	za1uo
-繓	zlv5	2	zl5aa
+繓	zli5	2	zl5aa
 岝	zeq1	2	ze1ia
 岞	zeq1	2	ze1ia
 侳	zra1	2	zr1ui
@@ -18812,7 +18813,7 @@ encoder:
 葃	zki1	2	zk1ei
 葄	zku1	2	zk1ei
 蓙	zkg1	2	zk1ei
-飵	zaw1	2	za1uo
+飵	zuq1	2	zu1uo
 糳	zms4	2	zm4ii
 咗	zox1	2	zo1ia
 乥	hrd5	2	hr5uo
@@ -18894,7 +18895,7 @@ encoder:
 罷	pfy3	1	pf3ia
 鮁	byx4	1	by4ua
 壩	btt3	1	bt3ei
-絔	mlv2	1	ml2aa
+絔	mls2	1	ml2aa
 擺	bjf3	1	bj3ei
 庍	tguu	1	tg3oe
 庍	xguu	1	xg3oe
@@ -18906,12 +18907,12 @@ encoder:
 覂	bxr4	1	bx4ei
 鈑	bah5	1	ba5uo
 闆	pco2	1	pc2ia
-絆	blv1	1	bl1aa
+絆	bld1	1	bl1aa
 跘	bnd1	1	bn1ia
 辦	blq4	1	bl4oe
 𠳐	bof5	1	bo5ia
 幫	btt2	1	bt2ei
-綁	blv5	1	bl5aa
+綁	blf5	1	bl5aa
 牓	pre4	1	pr4ui
 謗	byw4	1	by4oe
 鎊	baw4	1	ba4uo
@@ -18919,8 +18920,8 @@ encoder:
 襃	pwh3	1	pw3oe
 齙	bna5	1	bn5ie
 宀	mioo	1	mi4oo
-飹	baw5	1	ba5uo
-飽	baw5	1	ba5uo
+飹	buh5	1	bu5uo
+飽	bub5	1	bu5uo
 鴇	blk4	1	bl4ua
 寶	bif2	1	bi2oo
 袌	pwb3	1	pw3oe
@@ -18951,7 +18952,7 @@ encoder:
 奟	bpu3	1	bp3eu
 奟	kpu3	1	kp3eu
 傰	bre3	1	br3ui
-繃	blv3	1	bl3aa
+繃	ble3	1	bl3aa
 逬	prs4	1	pr4ue
 鏰	bae3	1	ba3uo
 皀	jnua	1	jn3ui
@@ -18983,7 +18984,7 @@ encoder:
 鸊	bpo4	1	bp4ae
 猵	pqw1	1	pq1ua
 牑	mre1	1	mr1ui
-編	blv1	1	bl1aa
+編	blw1	1	bl1aa
 鞕	bko3	1	bk3ei
 邊	brf4	1	br4ui
 鯿	byw1	1	by1ua
@@ -18996,8 +18997,8 @@ encoder:
 徧	ppw1	1	pp1uu
 閞	gcy1	1	gc1ia
 頨	bjd2	1	bj2ao
-緶	blv3	1	bl3aa
-緶	plv3	1	pl3aa
+緶	blr3	1	bl3aa
+緶	plr3	1	pl3aa
 辮	bll4	1	bl4oe
 辯	bly4	1	bl4oe
 辯	ply4	1	pl4oe
@@ -19029,7 +19030,7 @@ encoder:
 璸	pfi2	1	pf2ee
 檳	bmi2	1	bm2ei
 瀕	bvn2	1	bv2oo
-繽	blv2	1	bl2aa
+繽	bli2	1	bl2aa
 擯	bji2	1	bj2ei
 殯	bsu2	1	bs2eu
 臏	bui2	1	bu2ua
@@ -19040,7 +19041,7 @@ encoder:
 稟	bwo3	1	bw3oe
 稟	lwo3	1	lw3oe
 鉼	pak1	1	pa1uo
-餅	baw1	1	ba1uo
+餅	buk1	1	bu1uo
 癝	lgw2	1	lg2oe
 癛	bgw3	1	bg3oe
 疒	ngoe	1	ng4oe
@@ -19052,7 +19053,7 @@ encoder:
 僠	brr2	1	br2ui
 撥	bjj5	1	bj5ei
 撥	fjj5	1	fj5ei
-餑	baw5	1	ba5uo
+餑	buk5	1	bu5uo
 仢	brb4	1	br4ui
 犻	fqs2	1	fq2ua
 犻	pqs2	1	pq2ua
@@ -19073,7 +19074,7 @@ encoder:
 襏	fyj5	1	fy5oa
 鵓	bki4	1	bk4ei
 鎛	bas1	1	ba1uo
-餺	baw1	1	ba1uo
+餺	bus1	1	bu1uo
 髆	pcj1	1	pc1ia
 髉	jcj4	1	jc4ia
 箥	bzv5	1	bz5ue
@@ -19091,14 +19092,14 @@ encoder:
 鈈	pas2	1	pa2uo
 攃	cjk2	1	cj2ei
 財	chs3	1	ch3ia
-纔	slv4	1	sl4aa
+纔	slu4	1	sl4aa
 啋	coz1	1	co1ia
 叄	cyy1	1	cy1ao
 參	cyy3	1	cy3ao
 參	syy3	1	sy3ao
-喰	qoa4	1	qo4ia
-喰	soa4	1	so4ia
-飱	csu4	1	cs4eu
+喰	qouo	1	qo3ia
+喰	souo	1	so3ia
+飱	csu3	1	cs3eu
 傪	sry3	1	sr3ui
 驂	cqy3	1	cq3ei
 殘	csu1	1	cs1eu
@@ -19140,7 +19141,7 @@ encoder:
 揷	cjr3	1	cj3ei
 鍤	car3	1	ca3uo
 鎈	sad1	1	sa1uo
-餷	caw1	1	ca1uo
+餷	cum1	1	cu1uo
 詧	qud4	1	qu4ua
 摖	cju2	1	cj2ei
 褨	cyd1	1	cy1oa
@@ -19169,11 +19170,11 @@ encoder:
 蟬	cco1	1	cc1ia
 蟬	sco1	1	sc1ia
 蟬	tco1	1	tc1ia
-繵	tlv1	1	tl1aa
+繵	tlw1	1	tl1aa
 欃	zmu4	1	zm4ei
-纏	clv1	1	cl1aa
+纏	clg1	1	cl1aa
 讒	cyu4	1	cy4oe
-饞	caw4	1	ca4uo
+饞	cuu4	1	cu4uo
 產	cug1	1	cu1oe
 滻	cvl1	1	cv1oo
 蕆	ckg4	1	ck4ei
@@ -19225,7 +19226,7 @@ encoder:
 摰	ntr3	1	nt3ei
 徹	cpw3	1	cp3uu
 㬚	ciw3	1	ci3ia
-綝	slv1	1	sl1aa
+綝	slm1	1	sl1aa
 莀	ckg5	1	ck5ei
 陳	cbs2	1	cb2ai
 陳	zbs2	1	zb2ai
@@ -19264,7 +19265,7 @@ encoder:
 騁	cqi5	1	cq5ei
 呮	zoo3	1	zo3ia
 喫	kof1	1	ko1ia
-絺	zlv2	1	zl2aa
+絺	zlx2	1	zl2aa
 噄	cof2	1	co2ia
 鴟	chl4	1	ch4ua
 癡	cgl2	1	cg2oe
@@ -19286,8 +19287,8 @@ encoder:
 齒	cna5	1	cn5ie
 迣	ckl4	1	ck4ei
 跅	cnj4	1	cn4ia
-飭	caw5	1	ca5uo
-飭	saw5	1	sa5uo
+飭	cuq5	1	cu5uo
+飭	suq5	1	su5uo
 趐	ctn4	1	ct4ei
 雴	ctoe	1	ct4eo
 銐	lsu3	1	ls3eu
@@ -19305,11 +19306,11 @@ encoder:
 寵	cil1	1	ci1oo
 寵	lil1	1	li1oo
 銃	caw3	1	ca3uo
-紬	zlv2	1	zl2aa
+紬	zli2	1	zl2aa
 醔	chh1	1	ch1ue
-綢	clv2	1	cl2aa
-綢	dlv2	1	dl2aa
-綢	tlv2	1	tl2aa
+綢	clc2	1	cl2aa
+綢	dlc2	1	dl2aa
+綢	tlc2	1	tl2aa
 儔	crt1	1	cr1ui
 儔	drt1	1	dr1ui
 薵	dkt1	1	dk1ei
@@ -19343,7 +19344,7 @@ encoder:
 埱	tte5	1	tt5ei
 處	ceg3	1	ce3ie
 處	jeg3	1	je3ie
-絀	clv2	1	cl2aa
+絀	clc2	1	cl2aa
 嘼	coo2	1	co2ia
 嘼	xoo2	1	xo2ia
 諔	jye5	1	jy5oe
@@ -19372,19 +19373,19 @@ encoder:
 橁	cmz2	1	cm2ei
 輴	sph2	1	sp2ei
 䲠	cyf2	1	cy2ua
-純	clv5	1	cl5aa
-純	qlv5	1	ql5aa
-純	tlv5	1	tl5aa
-純	zlv5	1	zl5aa
+純	cls5	1	cl5aa
+純	qls5	1	ql5aa
+純	tls5	1	tl5aa
+純	zls5	1	zl5aa
 犉	crj5	1	cr5ue
 鶉	cwo4	1	cw4oe
 鶉	two4	1	tw4oe
-綽	clv1	1	cl1aa
+綽	cle1	1	cl1aa
 趠	ttn1	1	tt1ei
 趠	ztn1	1	zt1ei
 輟	cpk5	1	cp5ei
 齪	cna2	1	cn2ie
-縒	slv1	1	sl1aa
+縒	sld1	1	sl1aa
 詞	cyj2	1	cy2oe
 鈶	cay2	1	ca2uo
 鈶	tay2	1	ta2uo
@@ -19458,7 +19459,7 @@ encoder:
 垈	drl1	1	dr1ui
 軑	dpeu	1	dp1ei
 帶	dxd2	1	dx2eu
-紿	dlv2	1	dl2aa
+紿	dly2	1	dl2aa
 貸	drl2	1	dr2ui
 貸	trl2	1	tr2ui
 蹛	znx2	1	zn2ia
@@ -19568,7 +19569,7 @@ encoder:
 遰	sxd4	1	sx4eu
 慸	cxd4	1	cx4eu
 䗖	dcs2	1	dc2ia
-締	dlv2	1	dl2aa
+締	dlw2	1	dl2aa
 諦	dyw2	1	dy2oe
 諦	tyw2	1	ty2oe
 嵮	dek3	1	de3ia
@@ -19601,7 +19602,7 @@ encoder:
 臷	zkl1	1	zk1ei
 趃	ttn3	1	tt3ei
 惵	txk1	1	tx1oo
-絰	dlv1	1	dl1aa
+絰	dls1	1	dl1aa
 殜	dsu1	1	ds1eu
 諜	dyk1	1	dy1oe
 諜	xyk1	1	xy1oe
@@ -19618,7 +19619,7 @@ encoder:
 頂	djs2	1	dj2ei
 忊	txei	1	tx1oo
 訂	dyei	1	dy1oe
-飣	daw1	1	da1uo
+飣	duei	1	du1uo
 鋌	dar5	1	da5uo
 鋌	tar5	1	ta5uo
 錠	dai2	1	da2uo
@@ -19642,7 +19643,7 @@ encoder:
 鬥	def2	1	de2ie
 毭	nso3	1	ns3ei
 鋀	tas4	1	ta4uo
-餖	daw4	1	da4uo
+餖	dus4	1	du4uo
 斣	dfb1	1	df1ia
 竇	dir2	1	di2oo
 剢	dzw2	1	dz2eu
@@ -19662,7 +19663,7 @@ encoder:
 剬	tes2	1	te2ia
 剬	zes2	1	ze2ia
 褍	tye2	1	ty2oa
-緞	dlv5	1	dl5aa
+緞	dlh5	1	dl5aa
 鍛	dah5	1	da5uo
 斷	dll3	1	dl3aa
 籪	dzl3	1	dz3ue
@@ -19693,7 +19694,7 @@ encoder:
 奪	dpr1	1	dp1eu
 鐸	daf1	1	da1uo
 椯	cme2	1	cm2ei
-綞	dlv1	1	dl1aa
+綞	dlr1	1	dl1aa
 鬌	ccx2	1	cc2ei
 嚲	dwo1	1	dw1oe
 陏	sbx2	1	sb2ai
@@ -19702,7 +19703,7 @@ encoder:
 媠	nnx2	1	nn2au
 媠	tnx2	1	tn2au
 跢	cnu3	1	cn3ia
-飿	daw2	1	da2uo
+飿	duc2	1	du2uo
 墮	dbx1	1	db1ai
 墮	hbx1	1	hb1ai
 吪	hor3	1	ho3ia
@@ -19725,7 +19726,7 @@ encoder:
 惡	wse4	1	ws4ei
 詻	lyu2	1	ly2oe
 𥔲	vso5	1	vs5eu
-餓	vaw4	1	va4uo
+餓	vuv4	1	vu4uo
 諤	vyo5	1	vy5oe
 鍔	vao5	1	va5uo
 顎	voo2	1	vo2ia
@@ -19744,7 +19745,7 @@ encoder:
 爾	vsr3	1	vs3eu
 鉺	kaei	1	ka1uo
 鉺	vaei	1	va1uo
-餌	vaw1	1	va1uo
+餌	vuei	1	vu1uo
 邇	vsr4	1	vs4eu
 貳	vld2	1	vl2ee
 誀	cyei	1	cy1oe
@@ -19768,18 +19769,18 @@ encoder:
 礬	fmx1	1	fm1ei
 辺	bqoa	1	bq4au
 販	fhh5	1	fh5ia
-飯	faw5	1	fa5uo
+飯	fuh5	1	fu5uo
 軬	byp1	1	by1ao
 範	fzp5	1	fz5ue
 趽	pnoe	1	pn4ia
 鈁	faoe	1	fa4uo
 埅	dbq1	1	db1ai
 魴	fyoe	1	fy4ua
-紡	blv4	1	bl4aa
-紡	flv4	1	fl4aa
+紡	bloe	1	bl4aa
+紡	floe	1	fl4aa
 訪	fyoe	1	fy4oe
 飛	fld2	1	fl2au
-緋	flv1	1	fl1aa
+緋	fle1	1	fl1aa
 鯡	fye1	1	fy1ua
 蟦	bck2	1	bc2ia
 胇	bug3	1	bu3ua
@@ -19788,7 +19789,7 @@ encoder:
 杮	fms2	1	fm2ei
 費	bgd2	1	bg2ae
 費	fgd2	1	fg2ae
-紛	flv5	1	fl5aa
+紛	flr5	1	fl5aa
 訜	byr5	1	by5oe
 坆	ftue	1	ft3ei
 岎	cer5	1	ce5ia
@@ -19827,7 +19828,7 @@ encoder:
 摓	pju4	1	pj4ei
 漨	bvu4	1	bv4oo
 漨	pvu4	1	pv4oo
-縫	flv4	1	fl4aa
+縫	flu4	1	fl4aa
 諷	fyn2	1	fy2oe
 鳳	fns4	1	fn4ua
 賵	fhi2	1	fh2ia
@@ -19845,8 +19846,8 @@ encoder:
 畐	bso2	1	bs2ei
 畗	dwo2	1	dw2oe
 艴	bgd5	1	bg5ae
-紱	flv4	1	fl4aa
-紼	flv3	1	fl3aa
+紱	flx4	1	fl4aa
+紼	flg3	1	fl3aa
 棴	smu5	1	sm5ei
 鳧	frc3	1	fr3ui
 酻	zxz5	1	zx5ei
@@ -19878,7 +19879,7 @@ encoder:
 賦	fhs2	1	fh2ia
 輹	bpq3	1	bp3ei
 鮒	fyr1	1	fy1ua
-縛	flv1	1	fl1aa
+縛	fls1	1	fl1aa
 賻	fhs1	1	fh1ia
 鰒	fyq3	1	fy3ua
 侅	hrw3	1	hr3ui
@@ -19886,7 +19887,7 @@ encoder:
 隑	vbe4	1	vb4ai
 賅	ghw3	1	gh3ia
 該	gyw3	1	gy3oe
-絠	vlv2	1	vl2aa
+絠	vlx2	1	vl2aa
 鎅	jat3	1	ja3uo
 鈣	gas5	1	ga5uo
 蓋	gkt2	1	gk2ei
@@ -19905,7 +19906,7 @@ encoder:
 鱤	gyg4	1	gy4ua
 汵	cva5	1	cv5oo
 汵	hva5	1	hv5oo
-紺	glv1	1	gl1aa
+紺	glk1	1	gl1aa
 幹	gki1	1	gk1ei
 幹	hki1	1	hk1ei
 㽏	gva1	1	gv1oo
@@ -19916,7 +19917,7 @@ encoder:
 岡	gck2	1	gc2ia
 剛	gck2	1	gc2ia
 崗	gec2	1	ge2ia
-綱	glv2	1	gl2aa
+綱	glc2	1	gl2aa
 鋼	gac2	1	ga2uo
 焹	ghc4	1	gh4ou
 羙	gdf4	1	gd4ou
@@ -19926,7 +19927,7 @@ encoder:
 槀	kwo1	1	kw1oe
 稾	jwo3	1	jw3oe
 稾	kwo3	1	kw3oe
-縞	glv2	1	gl2aa
+縞	glw2	1	gl2aa
 鎬	gaw2	1	ga2uo
 鎬	haw2	1	ha2uo
 勂	grt5	1	gr5ue
@@ -19961,14 +19962,14 @@ encoder:
 鉻	lau2	1	la2uo
 獦	lqk5	1	lq5ua
 獦	xqk5	1	xq5ua
-給	glv2	1	gl2aa
-給	jlv2	1	jl2aa
-給	xlv2	1	xl2aa
+給	gla2	1	gl2aa
+給	jla2	1	jl2aa
+給	xla2	1	xl2aa
 亙	gse4	1	gs4ei
 賡	gge2	1	gg2oe
 鶊	gge4	1	gg4oe
-綆	blv3	1	bl3aa
-綆	glv3	1	gl3aa
+綆	bls3	1	bl3aa
+綆	gls3	1	gl3aa
 鯁	gys3	1	gy3ua
 厷	hxao	1	hx5eu
 䢼	gkr5	1	gk5ei
@@ -19983,7 +19984,7 @@ encoder:
 鉤	qab2	1	qa2uo
 溝	gvf2	1	gv2oo
 溝	kvf2	1	kv2oo
-緱	glv3	1	gl3aa
+緱	glr3	1	gl3aa
 韝	gje2	1	gj2ai
 蚼	qcb2	1	qc2ia
 蚼	xcb2	1	xc2ia
@@ -20009,8 +20010,8 @@ encoder:
 鈷	gaei	1	ga1uo
 鈷	haei	1	ha1uo
 穀	gti5	1	gt5ei
-縎	hlv2	1	hl2aa
-餶	gaw2	1	ga2uo
+縎	hlc2	1	hl2aa
+餶	guc2	1	gu2uo
 鶻	gcj4	1	gc4ia
 鶻	hcj4	1	hc4ia
 蠱	gcc2	1	gc2ia
@@ -20025,7 +20026,7 @@ encoder:
 剮	gcj2	1	gc2ia
 坬	wth4	1	wt4ei
 掛	gjt2	1	gj2ei
-絓	klv1	1	kl1aa
+絓	klt1	1	kl1aa
 罫	hft2	1	hf2ia
 詿	gyt1	1	gy1oe
 箉	gzj5	1	gz5ue
@@ -20039,7 +20040,7 @@ encoder:
 鰥	gyf2	1	gy2ua
 鰥	kyf2	1	ky2ua
 觀	gko3	1	gk3ei
-館	gaw2	1	ga2uo
+館	gui2	1	gu2uo
 丱	klc1	1	kl1au
 貫	gok2	1	go2aa
 貫	wok2	1	wo2aa
@@ -20102,8 +20103,8 @@ encoder:
 惃	gxi3	1	gx3oo
 裷	gyk5	1	gy5oa
 滾	gvw3	1	gv3oo
-緄	glv3	1	gl3aa
-緄	hlv3	1	hl3aa
+緄	gli3	1	gl3aa
+緄	hli3	1	hl3aa
 輥	gpi3	1	gp3ei
 鯀	gyr2	1	gy2ua
 睔	lfa1	1	lf1ia
@@ -20119,7 +20120,7 @@ encoder:
 猓	lqi1	1	lq1ua
 槨	gmw5	1	gm5ei
 輠	hpi1	1	hp1ei
-餜	gaw1	1	ga1uo
+餜	gui1	1	gu1uo
 過	gcj4	1	gc4ia
 過	hcj4	1	hc4ia
 腂	hui1	1	hu1ua
@@ -20155,7 +20156,7 @@ encoder:
 頷	haw2	1	ha2uo
 譀	xyj3	1	xy3oe
 迒	xwn4	1	xw4oe
-絎	hlv1	1	hl1aa
+絎	hlp1	1	hl1aa
 頏	gwn2	1	gw2oe
 頏	hwn2	1	hw2oe
 虠	hwr3	1	hw3oe
@@ -20170,9 +20171,9 @@ encoder:
 抲	qjj2	1	qj2ei
 訶	hyj2	1	hy2oe
 狢	hqu2	1	hq2ua
-紇	glv5	1	gl5aa
-紇	hlv5	1	hl5aa
-紇	jlv5	1	jl5aa
+紇	glq5	1	gl5aa
+紇	hlq5	1	hl5aa
+紇	jlq5	1	jl5aa
 秴	gha2	1	gh2ue
 毼	dib3	1	di3ia
 毼	kib3	1	ki3ia
@@ -20206,10 +20207,10 @@ encoder:
 轟	hpp1	1	hp1ei
 屸	leei	1	le1ia
 呍	hod5	1	ho5ia
-紅	glv1	1	gl1aa
-紅	hlv1	1	hl1aa
-紅	jlv1	1	jl1aa
-紘	hlv5	1	hl5aa
+紅	glei	1	gl1aa
+紅	hlei	1	hl1aa
+紅	jlei	1	jl1aa
+紘	hlx5	1	hl5aa
 硔	gsk3	1	gs3eu
 葒	hkl1	1	hk1ei
 閎	hcx5	1	hc5ia
@@ -20228,7 +20229,7 @@ encoder:
 闂	jck5	1	jc5ia
 闂	xck5	1	xc5ia
 闀	hck5	1	hc5ia
-餱	haw3	1	ha3uo
+餱	hur3	1	hu3uo
 鮜	hyh2	1	hy2ua
 鱟	hhd3	1	hh3ui
 乊	yrou	1	yr4uo
@@ -20282,15 +20283,15 @@ encoder:
 懽	gxk4	1	gx4oo
 歡	hko3	1	hk3ei
 狟	xqs1	1	xq1ua
-絙	hlv1	1	hl1aa
+絙	hls1	1	hl1aa
 環	hff3	1	hf3ee
 鍰	haz5	1	ha5uo
-繯	hlv3	1	hl3aa
+繯	hlf3	1	hl3aa
 闤	hcf3	1	hc3ia
 瓛	yfe4	1	yf4ee
 㬊	hiz5	1	hi5ia
 輐	ypi3	1	yp3ei
-緩	hlv5	1	hl5aa
+緩	hlz5	1	hl5aa
 奐	huc1	1	hu1ua
 換	hju1	1	hj1ei
 喚	hou1	1	ho1ia
@@ -20342,10 +20343,10 @@ encoder:
 篲	szf5	1	sz5ue
 燴	hha2	1	hh2ou
 穢	hhn4	1	hh4ue
-繢	hlv2	1	hl2aa
+繢	hlo2	1	hl2aa
 翽	hng4	1	hn4ie
-繪	glv2	1	gl2aa
-繪	hlv2	1	hl2aa
+繪	gla2	1	gl2aa
+繪	hla2	1	hl2aa
 闠	hco2	1	hc2ia
 儶	hre2	1	hr2ui
 儶	xre2	1	xr2ui
@@ -20361,8 +20362,8 @@ encoder:
 渾	gvi1	1	gv1oo
 渾	hvi1	1	hv1oo
 琿	hfi1	1	hf1ee
-餛	haw3	1	ha3uo
-餛	kaw3	1	ka3uo
+餛	hui3	1	hu3uo
+餛	kui3	1	ku3uo
 掍	hji3	1	hj3ei
 諢	hyi1	1	hy1oe
 秳	khr1	1	kh1ue
@@ -20391,8 +20392,8 @@ encoder:
 攲	jpj5	1	jp5eu
 槣	gmi2	1	gm2ei
 嘰	jol3	1	jo3ia
-緝	jlv1	1	jl1aa
-緝	qlv1	1	ql1aa
+緝	jlo1	1	jl1aa
+緝	qlo1	1	ql1aa
 璣	jfl3	1	jf3ee
 機	jml3	1	jm3ei
 積	jhf2	1	jh2ue
@@ -20403,14 +20404,14 @@ encoder:
 雞	jzl4	1	jz4uo
 譏	jyl3	1	jy3oe
 鐖	qal3	1	qa3uo
-饑	jaw3	1	ja3uo
-饑	qaw3	1	qa3uo
+饑	jul3	1	ju3uo
+饑	qul3	1	qu3uo
 躋	jnw1	1	jn1ia
 齎	jwd2	1	jw2oe
 齏	jwd1	1	jw1oe
 羈	jfk1	1	jf1ia
 叝	jty5	1	jt5ei
-級	jlv4	1	jl4aa
+級	jln4	1	jl4aa
 卙	ckf1	1	ck1ei
 楖	zme5	1	zm5ei
 脨	jus2	1	ju2ua
@@ -20431,7 +20432,7 @@ encoder:
 蟣	jcl3	1	jc3ia
 蟣	qcl3	1	qc3ia
 計	jyei	1	jy1oe
-紀	jlv5	1	jl5aa
+紀	jlc5	1	jl5aa
 畟	jtr3	1	jt3ia
 記	jyc5	1	jy5oe
 硛	ysw3	1	ys3eu
@@ -20442,17 +20443,17 @@ encoder:
 暩	jiu2	1	ji2ia
 薊	jky2	1	jk2ei
 劑	jwd2	1	jw2oe
-縘	xlv1	1	xl1aa
+縘	xlz1	1	xl1aa
 覬	jes3	1	je3ia
 濟	jvw1	1	jv1oo
 濟	qvw1	1	qv1oo
-績	jlv2	1	jl2aa
+績	jlf2	1	jl2aa
 璾	zfw1	1	zf1ee
 鯽	jye5	1	jy5ua
 鯽	zye5	1	zy5ua
 穧	zhw1	1	zh1ue
 糭	zdx3	1	zd3ou
-繼	jlv5	1	jl5aa
+繼	jll5	1	jl5aa
 霽	jtw1	1	jt1eo
 鱭	jyw1	1	jy1ua
 驥	jqk3	1	jq3ei
@@ -20471,8 +20472,8 @@ encoder:
 唊	qop3	1	qo3ia
 脥	jup3	1	ju3ua
 蛺	jcp3	1	jc3ia
-餄	haw2	1	ha2uo
-餄	jaw2	1	ja2uo
+餄	hua2	1	hu2uo
+餄	jua2	1	ju2uo
 鋏	jap3	1	ja3uo
 頰	jpa2	1	jp2eu
 叚	xce5	1	xc5ae
@@ -20501,10 +20502,10 @@ encoder:
 監	jce2	1	jc2ei
 監	kce2	1	kc2ei
 箋	jzl1	1	jz1ue
-緘	jlv4	1	jl4aa
-縑	jlv2	1	jl2aa
+緘	jlg4	1	jl4aa
+縑	jlk2	1	jl2aa
 艱	jko4	1	jk4ei
-餰	zaw1	1	za1uo
+餰	zup1	1	zu1uo
 鰔	xyg4	1	xy4ua
 櫼	sma1	1	sm1ei
 殲	jsu1	1	js1eu
@@ -20556,7 +20557,7 @@ encoder:
 薦	jkg4	1	jk4ei
 橌	xmc3	1	xm3ei
 鍵	jae5	1	ja5uo
-餞	jaw1	1	ja1uo
+餞	jul1	1	ju1uo
 諫	jys2	1	jy2oe
 諫	lys2	1	ly2oe
 瞯	xfc3	1	xf3ia
@@ -20582,7 +20583,7 @@ encoder:
 獎	jle4	1	jl4ai
 講	jyf2	1	jy2oe
 夅	juc2	1	ju2ua
-絳	jlv2	1	jl2aa
+絳	jlu2	1	jl2aa
 醬	jle1	1	jl1ai
 茮	nke2	1	nk2ei
 䴔	jwr1	1	jw1oe
@@ -20606,14 +20607,14 @@ encoder:
 笅	jzx3	1	jz3ue
 烄	yhw3	1	yh3ou
 筊	xzw3	1	xz3ue
-絞	jlv3	1	jl3aa
-絞	xlv3	1	xl3aa
+絞	jlw3	1	jl3aa
+絞	xlw3	1	xl3aa
 湬	jhh2	1	jh2ue
 腳	jur5	1	ju5ua
 僥	jrt3	1	jr3ui
 僥	yrt3	1	yr3ui
 鉸	jaw3	1	ja3uo
-餃	jaw3	1	ja3uo
+餃	juw3	1	ju3uo
 撟	jjr2	1	jj2ei
 撟	kjr2	1	kj2ei
 劋	coo2	1	co2ia
@@ -20621,9 +20622,9 @@ encoder:
 矯	jgr2	1	jg2ue
 蟜	qcr2	1	qc2ia
 譑	qyr2	1	qy2oe
-繳	hlv3	1	hl3aa
-繳	jlv3	1	jl3aa
-繳	zlv3	1	zl3aa
+繳	hln3	1	hl3aa
+繳	jln3	1	jl3aa
+繳	zln3	1	zl3aa
 攪	jjh3	1	jj3ei
 窌	pir5	1	pi5oo
 較	jpw3	1	jp3ei
@@ -20644,7 +20645,7 @@ encoder:
 狤	kqt2	1	kq2ua
 訐	jyee	1	jy1oe
 傑	jru1	1	jr1ui
-結	jlv2	1	jl2aa
+結	jlt2	1	jl2aa
 楬	qmi5	1	qm5ei
 節	jze5	1	jz5ue
 詰	jyt2	1	jy2oe
@@ -20659,7 +20660,7 @@ encoder:
 屆	jpt5	1	jp5ae
 蛶	jcz1	1	jc1ia
 誡	jyl1	1	jy1oe
-繲	xlv1	1	xl1aa
+繲	xlu1	1	xl1aa
 兓	zcn3	1	zc3ea
 埐	qte5	1	qt5ei
 璡	jfr4	1	jf4ee
@@ -20670,7 +20671,7 @@ encoder:
 儘	jre2	1	jr2ui
 錦	jan2	1	ja2uo
 謹	jyk1	1	jy1oe
-饉	jaw1	1	ja1uo
+饉	juk1	1	ju1uo
 伒	yruu	1	yr3ui
 勁	jsl5	1	js5ea
 晉	jsy2	1	js2ea
@@ -20679,7 +20680,7 @@ encoder:
 慬	qxk1	1	qx1oo
 盡	jee2	1	je2ae
 歏	qko3	1	qk3ei
-縉	jlv2	1	jl2aa
+縉	jls2	1	jl2aa
 藎	jke2	1	jk2ei
 濜	jve2	1	jv2oo
 覲	jko3	1	jk3ei
@@ -20693,7 +20694,7 @@ encoder:
 涇	qvs1	1	qv1oo
 殑	jsu3	1	js3eu
 䴖	jfu1	1	jf1ee
-經	jlv1	1	jl1aa
+經	jls1	1	jl1aa
 鯨	jyw2	1	jy2ua
 鯨	qyw2	1	qy2ua
 驚	jkb1	1	jk1ei
@@ -20723,7 +20724,7 @@ encoder:
 熲	jlh2	1	jl2ua
 顈	xll2	1	xl2ua
 牞	lrj5	1	lr5ue
-糾	jlv2	1	jl2aa
+糾	jll2	1	jl2aa
 鳩	jjr4	1	jj4ua
 鳩	qjr4	1	qj4ua
 鳩	zjr4	1	zj4ua
@@ -20790,8 +20791,8 @@ encoder:
 雋	jrf2	1	jr2ui
 雋	zrf2	1	zr2ui
 飬	ykp4	1	yk4ou
-絹	jlv2	1	jl2aa
-絹	xlv2	1	xl2aa
+絹	jlo2	1	jl2aa
+絹	xlo2	1	xl2aa
 吷	joc3	1	jo3ia
 決	jvc3	1	jv3oo
 決	qvc3	1	qv3oo
@@ -20805,7 +20806,7 @@ encoder:
 趹	gnc3	1	gn3ia
 訣	jyc3	1	jy3oe
 逫	zkk4	1	zk4ao
-絕	jlv5	1	jl5aa
+絕	jlq5	1	jl5aa
 蕝	zkl5	1	zk5ei
 嶡	jeg3	1	je3ia
 㵐	jvg3	1	jv3oo
@@ -20822,7 +20823,7 @@ encoder:
 棞	jmo3	1	jm3ei
 䐃	juo3	1	ju3ua
 箘	qzo3	1	qz3ue
-餕	jaw3	1	ja3uo
+餕	juy3	1	ju3uo
 駿	jqy3	1	jq3ei
 攈	jjg3	1	jj3ei
 哢	lof1	1	lo1ia
@@ -20875,7 +20876,7 @@ encoder:
 顆	kim2	1	ki2ia
 揢	qji2	1	qj2ei
 課	kyi1	1	ky1oe
-緙	klv1	1	kl1aa
+緙	klk1	1	kl1aa
 錁	gai1	1	ga1uo
 錁	kai1	1	ka1uo
 騍	kqi1	1	kq1ei
@@ -20898,7 +20899,7 @@ encoder:
 扝	kjd5	1	kj5ei
 崫	kep2	1	ke2ia
 庫	kgei	1	kg1oe
-絝	klv5	1	kl5aa
+絝	klp5	1	kl5aa
 褲	kyg1	1	ky1oa
 嚳	khd2	1	kh2ui
 誇	kyp5	1	ky5oe
@@ -20929,7 +20930,7 @@ encoder:
 爌	hhg3	1	hh3ou
 礦	gsg3	1	gs3eu
 礦	ksg3	1	ks3eu
-纊	klv3	1	kl3aa
+纊	klg3	1	kl3aa
 鑛	gag3	1	ga3uo
 窺	kir3	1	ki3oo
 虧	keg5	1	ke5ie
@@ -20953,8 +20954,8 @@ encoder:
 聵	kbo2	1	kb2ei
 簣	kzo2	1	kz2ue
 鐀	gao2	1	ga2uo
-饋	kaw2	1	ka2uo
-饋	taw2	1	ta2uo
+饋	kuo2	1	ku2uo
+饋	tuo2	1	tu2uo
 巋	ker2	1	ke2ia
 巋	wer2	1	we2ia
 褌	kyi1	1	ky1oa
@@ -21005,7 +21006,7 @@ encoder:
 覽	lce3	1	lc3ei
 攬	ljc3	1	lj3ei
 欖	lmc3	1	lm3ei
-纜	llv3	1	ll3aa
+纜	llc3	1	ll3aa
 壏	xtc2	1	xt2ei
 濫	jvc2	1	jv2oo
 濫	lvc2	1	lv2oo
@@ -21030,8 +21031,8 @@ encoder:
 艻	jkau	1	jk5ei
 竻	jzau	1	jz5ue
 鰳	lyk5	1	ly5ua
-餎	law2	1	la2uo
-縲	llv2	1	ll2aa
+餎	luu2	1	lu2uo
+縲	llt2	1	ll2aa
 鐳	lat2	1	la2uo
 誄	lyf2	1	ly2oe
 壘	ltt1	1	lt1ia
@@ -21045,7 +21046,7 @@ encoder:
 貍	yzi2	1	yz2uo
 犛	ldp1	1	ld1ee
 犛	mdp1	1	md1ee
-縭	llv5	1	ll5aa
+縭	llw5	1	ll5aa
 邌	chb4	1	ch4ue
 離	cwx4	1	cw4oe
 離	gwx4	1	gw4oe
@@ -21119,7 +21120,7 @@ encoder:
 煉	lhs2	1	lh2ou
 稴	jhk2	1	jh2ue
 稴	xhk2	1	xh2ue
-練	llv2	1	ll2aa
+練	lls2	1	ll2aa
 殮	lsu3	1	ls3eu
 鍊	jas2	1	ja2uo
 鏈	lap4	1	la4uo
@@ -21144,8 +21145,8 @@ encoder:
 遼	lpd4	1	lp4eu
 療	lgp2	1	lg2oe
 療	sgp2	1	sg2oe
-繚	llv2	1	ll2aa
-繚	rlv2	1	rl2aa
+繚	llp2	1	ll2aa
+繚	rlp2	1	rl2aa
 鷯	lpd4	1	lp4eu
 釕	laai	1	la5uo
 鐐	lap2	1	la2uo
@@ -21167,7 +21168,7 @@ encoder:
 淩	lvt3	1	lv3oo
 㥄	lxt3	1	lx3oo
 鈴	laa5	1	la5uo
-綾	llv3	1	ll3aa
+綾	llt3	1	ll3aa
 鴒	law4	1	la4uo
 鯪	lyt3	1	ly3ua
 齡	lna5	1	ln5ie
@@ -21177,13 +21178,13 @@ encoder:
 嶺	lea2	1	le2ia
 劉	lhw2	1	lh2ua
 鎦	lah2	1	la2uo
-餾	law2	1	la2uo
+餾	luh2	1	lu2uo
 瀏	lvh2	1	lv2oo
 鏐	laj3	1	la3uo
 飀	lnr2	1	ln2ua
 騮	lqh2	1	lq2ei
 鶹	lhw4	1	lh4ua
-綹	llv2	1	ll2aa
+綹	llu2	1	ll2aa
 鋶	law3	1	la3uo
 鷚	ljd4	1	lj4ao
 竜	lli5	1	ll5oe
@@ -21282,8 +21283,8 @@ encoder:
 圇	loa1	1	lo1ia
 淪	gva1	1	gv1oo
 淪	lva1	1	lv1oo
-綸	glv1	1	gl1aa
-綸	llv1	1	ll1aa
+綸	gla1	1	gl1aa
+綸	lla1	1	ll1aa
 輪	lpa1	1	lp1ei
 錀	faa1	1	fa1uo
 論	lya1	1	ly1oe
@@ -21298,7 +21299,7 @@ encoder:
 欏	lmf4	1	lm4ei
 籮	lzf4	1	lz4ue
 鑼	laf4	1	la4uo
-絡	llv2	1	ll2aa
+絡	llu2	1	ll2aa
 犖	lhh1	1	lh1ou
 鮥	gyu2	1	gy2ua
 鵅	guo4	1	gu4ua
@@ -21317,9 +21318,9 @@ encoder:
 鋁	lao2	1	la2uo
 屢	lpo5	1	lp5ae
 褸	lyo5	1	ly5oa
-縷	llv5	1	ll5aa
+縷	llo5	1	ll5aa
 穭	lhy2	1	lh2ue
-綠	llv2	1	ll2aa
+綠	llm2	1	ll2aa
 慮	leg4	1	le4ie
 濾	lve4	1	lv4oo
 櫖	cme4	1	cm4ei
@@ -21346,7 +21347,7 @@ encoder:
 顢	mke2	1	mk2ei
 樠	lmk4	1	lm4ei
 瞞	mfk4	1	mf4ia
-饅	maw5	1	ma5uo
+饅	mui5	1	mu5uo
 鰻	myi5	1	my5ua
 蠻	myl2	1	my2oe
 滿	mvk4	1	mv4oo
@@ -21354,7 +21355,7 @@ encoder:
 鄤	wif5	1	wi5ia
 槾	wmi5	1	wm5ei
 澫	vvk4	1	vv4oo
-縵	mlv5	1	ml5aa
+縵	mli5	1	ml5aa
 謾	myi5	1	my5oe
 狵	zqx4	1	zq4ua
 朚	hwi3	1	hw3oe
@@ -21410,18 +21411,18 @@ encoder:
 冪	mik2	1	mi2oa
 謐	myx2	1	my2oe
 杣	mmia	1	mm2ei
-綿	mlv2	1	ml2aa
+綿	mln2	1	ml2aa
 臱	brf4	1	br4ui
 𩾃	myu3	1	my3ua
-緬	mlv1	1	ml1aa
+緬	mls1	1	ml1aa
 麵	mkr1	1	mk1ei
 鶓	mkt4	1	mk4ei
-緲	mlv3	1	ml3aa
+緲	mlf3	1	ml3aa
 玅	ywl3	1	yw3oe
 廟	mgk3	1	mg3oe
-繆	jlv3	1	jl3aa
-繆	llv3	1	ll3aa
-繆	mlv3	1	ml3aa
+繆	jlj3	1	jl3aa
+繆	llj3	1	ll3aa
+繆	mlj3	1	ml3aa
 烕	mgs4	1	mg4eu
 覕	pxr3	1	px3oa
 滅	mvg4	1	mv4oo
@@ -21430,8 +21431,8 @@ encoder:
 渂	mvi4	1	mv4oo
 瑉	mfc2	1	mf2ee
 碈	hsh2	1	hs2eu
-緡	hlv2	1	hl2aa
-緡	mlv2	1	ml2aa
+緡	hlc2	1	hl2aa
+緡	mlc2	1	ml2aa
 鴖	mcl4	1	mc4ae
 呡	moc1	1	mo1ia
 敃	fcl3	1	fc3ae
@@ -21446,7 +21447,7 @@ encoder:
 謬	myj3	1	my3oe
 謨	myei	1	my1oe
 嬤	mng5	1	mn5au
-饃	maw1	1	ma1uo
+饃	muei	1	mu1uo
 嚩	mol1	1	mo1ia
 歿	msu5	1	ms5eu
 帓	wed2	1	we2ia
@@ -21471,14 +21472,14 @@ encoder:
 郍	fzai	1	fz5uu
 𦰡	nku5	1	nk5ei
 袦	jyc2	1	jy2oa
-納	nlv3	1	nl3aa
+納	nlc3	1	nl3aa
 鈉	nac3	1	na3uo
 鈉	rac3	1	ra3uo
 貀	nzc2	1	nz2uo
 摨	zjp1	1	zj1ei
 嬭	vns3	1	vn3au
 難	nko4	1	nk4ei
-饢	naw3	1	na3uo
+饢	nus3	1	nu3uo
 撓	njt3	1	nj3ei
 撓	rjt3	1	rj3ei
 撓	xjt3	1	xj3ei
@@ -21491,7 +21492,7 @@ encoder:
 抐	rjc3	1	rj3ei
 眲	nfei	1	nf1ia
 訥	nyc3	1	ny3oe
-餒	naw5	1	na5uo
+餒	nuz5	1	nu5uo
 內	ncr4	1	nc4ia
 銰	vak3	1	va3uo
 埿	bvp1	1	bv1oo
@@ -21552,7 +21553,7 @@ encoder:
 濘	nvi1	1	nv1oo
 汼	nvr1	1	nv1oo
 莥	rkq2	1	rk2ei
-紐	nlv2	1	nl2aa
+紐	nlj2	1	nl2aa
 鈕	caj2	1	ca2uo
 鈕	naj2	1	na2uo
 農	nck5	1	nc5ia
@@ -21622,7 +21623,7 @@ encoder:
 賠	phl2	1	ph2ia
 錇	fal2	1	fa2uo
 錇	pal2	1	pa2uo
-轡	plv2	1	pl2aa
+轡	plp2	1	pl2aa
 噴	fok2	1	fo2ia
 噴	pok2	1	po2ia
 濆	pvk2	1	pv2oo
@@ -21636,9 +21637,9 @@ encoder:
 騯	pqw4	1	pq4ei
 剻	peu2	1	pe2ia
 怶	bxg5	1	bx5oo
-紕	blv3	1	bl3aa
-紕	clv3	1	cl3aa
-紕	plv3	1	pl3aa
+紕	blg3	1	bl3aa
+紕	clg3	1	cl3aa
+紕	plg3	1	pl3aa
 旇	bqq5	1	bq5oe
 翍	bjd5	1	bj5ao
 螕	bcr3	1	bc3ia
@@ -21662,7 +21663,7 @@ encoder:
 諞	pyw1	1	py1oe
 騙	pqw1	1	pq1ei
 彯	mxd3	1	mx3ei
-縹	plv2	1	pl2aa
+縹	plx2	1	pl2aa
 飄	pxd2	1	px2ei
 僄	brx2	1	br2ui
 丿	yruu	1	yr3uu
@@ -21706,7 +21707,7 @@ encoder:
 僕	brm3	1	br3ui
 獛	pqm3	1	pq3ua
 鏷	pam3	1	pa3uo
-纀	flv3	1	fl3aa
+纀	flr3	1	fl3aa
 圑	pos1	1	po1ia
 暜	pll2	1	pl2oe
 樸	pmm3	1	pm3ei
@@ -21716,7 +21717,7 @@ encoder:
 朞	jkf2	1	jk2ei
 棲	qms5	1	qm5ei
 棲	xms5	1	xm5ei
-紪	qlv3	1	ql3aa
+紪	qln3	1	ql3aa
 傶	qrg4	1	qr4ui
 榿	qme4	1	qm4ei
 諿	xyo1	1	xy1oe
@@ -21750,8 +21751,8 @@ encoder:
 啟	qwp3	1	qw3oa
 晵	dwp2	1	dw2oa
 裿	qyp2	1	qy2oa
-綺	qlv2	1	ql2aa
-綺	ylv2	1	yl2aa
+綺	qlp2	1	ql2aa
+綺	ylp2	1	yl2aa
 矵	qsii	1	qs2eu
 氣	qqou	1	qq4ue
 氣	xqou	1	xq4ue
@@ -21817,7 +21818,7 @@ encoder:
 淺	zvl1	1	zv1oo
 槏	lmk2	1	lm2ei
 槏	xmk2	1	xm2ei
-繾	qlv4	1	ql4aa
+繾	qlo4	1	ql4aa
 譴	qyo4	1	qy4oe
 塹	jpj1	1	jp1ei
 塹	qpj1	1	qp1ei
@@ -21853,7 +21854,7 @@ encoder:
 羥	qdv1	1	qd1ou
 摤	cjp3	1	cj3ei
 勥	qgo5	1	qg5ae
-繈	qlv2	1	ql2aa
+繈	qlg2	1	ql2aa
 鏹	qag2	1	qa2uo
 嗆	coa2	1	co2ia
 嗆	qoa2	1	qo2ia
@@ -21864,7 +21865,7 @@ encoder:
 磽	qst3	1	qs3eu
 磽	vst3	1	vs3eu
 鍬	qah4	1	qa4uo
-繑	jlv2	1	jl2aa
+繑	jlr2	1	jl2aa
 蹺	qnt3	1	qn3ia
 蹻	xnr2	1	xn2ia
 喬	jrp2	1	jr2ue
@@ -21905,7 +21906,7 @@ encoder:
 鍥	qaf1	1	qa1uo
 鐑	qal2	1	qa2uo
 竊	qir5	1	qi5oo
-綅	xlv5	1	xl5aa
+綅	xle5	1	xl5aa
 嶔	qea3	1	qe3ia
 駸	qqe5	1	qq5ei
 寴	qil3	1	qi3oo
@@ -21923,7 +21924,7 @@ encoder:
 軽	zpk1	1	zp1ei
 傾	qrg2	1	qr2ui
 輕	qps1	1	qp1ei
-綪	zlv2	1	zl2aa
+綪	zlf2	1	zl2aa
 鶄	qfu4	1	qf4ee
 鯖	qyf2	1	qy2ua
 鯖	zyf2	1	zy2ua
@@ -22001,7 +22002,7 @@ encoder:
 權	gmk4	1	gm4ei
 權	qmk4	1	qm4ei
 顴	qko2	1	qk2ei
-綣	qlv5	1	ql5aa
+綣	qlk5	1	ql5aa
 韏	qkp2	1	qk2ou
 勸	qko5	1	qk5ei
 闕	jck3	1	jc3ia
@@ -22029,29 +22030,29 @@ encoder:
 嬈	ynt3	1	yn3au
 橈	nmt3	1	nm3ei
 橈	rmt3	1	rm3ei
-饒	raw3	1	ra3uo
+饒	rut3	1	ru3uo
 犪	rrj3	1	rr3ue
 擾	rjs3	1	rj3ei
 蟯	nct3	1	nc3ia
 蟯	rct3	1	rc3ia
-繞	rlv3	1	rl3aa
+繞	rlt3	1	rl3aa
 熱	rtr4	1	rt4ei
 涊	rvq4	1	rv4oo
 棯	sma4	1	sm4ei
 杒	rmq4	1	rm4ei
-紉	rlv4	1	rl4aa
+紉	rlq4	1	rl4aa
 軔	rpq4	1	rp4ei
 訒	ryq4	1	ry4oe
-紝	rlv1	1	rl1aa
+紝	rlr1	1	rl1aa
 釰	jaq4	1	ja4uo
-飪	raw1	1	ra1uo
+飪	rur1	1	ru1uo
 韌	rje4	1	rj4ai
 認	ryq4	1	ry4oe
 陾	vbs1	1	vb1ai
 馹	rqia	1	rq2ei
 肜	cuuu	1	cu3ua
 搑	rjk1	1	rj1ei
-絨	rlv1	1	rl1aa
+絨	rll1	1	rl1aa
 嵤	yhh2	1	yh2ou
 榮	rhh1	1	rh1ou
 髶	vcx1	1	vc1ei
@@ -22064,10 +22065,10 @@ encoder:
 銣	ran2	1	ra2uo
 獳	rqt2	1	rq2ua
 𦈡	xlt2	1	xl2aa
-繻	rlv2	1	rl2aa
+繻	rlt2	1	rl2aa
 顬	rts2	1	rt2eo
 擩	njt2	1	nj2ei
-縟	rlv1	1	rl1aa
+縟	rlg1	1	rl1aa
 撋	sjc1	1	sj1ei
 朊	wud3	1	wu3ua
 軟	rpu3	1	rp3ei
@@ -22098,14 +22099,14 @@ encoder:
 糝	sdy3	1	sd3ou
 鏒	cay3	1	ca3uo
 鏒	say3	1	sa3uo
-饊	saw3	1	sa3uo
+饊	suk3	1	su3uo
 喪	sto5	1	st5ei
 顙	skk2	1	sk2ao
 慅	cxk2	1	cx2oo
 鄵	soo5	1	so5ia
 懆	sxo1	1	sx1oo
-繅	slv1	1	sl1aa
-繅	zlv1	1	zl1aa
+繅	sll1	1	sl1aa
+繅	zll1	1	zl1aa
 騷	sqk2	1	sq2ei
 騷	xqk2	1	xq2ei
 鰠	syk2	1	sy2ua
@@ -22122,8 +22123,8 @@ encoder:
 殺	sxm5	1	sx5uo
 殺	xxm5	1	xx5uo
 粆	sdp3	1	sd3ou
-紗	mlv3	1	ml3aa
-紗	slv3	1	sl3aa
+紗	mlp3	1	ml3aa
+紗	slp3	1	sl3aa
 榝	smx5	1	sm5ei
 鯊	svp3	1	sv3oo
 帹	qel5	1	qe5ia
@@ -22145,8 +22146,8 @@ encoder:
 嘇	coy3	1	co3ia
 膻	duw1	1	du1ua
 鯅	syr5	1	sy5ua
-縿	clv3	1	cl3aa
-縿	xlv3	1	xl3aa
+縿	cly3	1	cl3aa
+縿	xly3	1	xl3aa
 鱣	syw1	1	sy1ua
 鱣	zyw1	1	zy1ua
 陝	sbp4	1	sb4ai
@@ -22155,7 +22156,7 @@ encoder:
 訕	syia	1	sy2oe
 墠	cto1	1	ct1ei
 樿	smo1	1	sm1ei
-繕	slv2	1	sl2aa
+繕	sld2	1	sl2aa
 蟺	dcw1	1	dc1ia
 蟺	tcw1	1	tc1ia
 騸	sqw4	1	sq4ei
@@ -22169,11 +22170,11 @@ encoder:
 觴	suu3	1	su3ua
 埫	tte2	1	tt2ei
 賞	sei2	1	se2io
-緔	slv2	1	sl2aa
+緔	sle2	1	sl2aa
 颵	snr2	1	sn2ua
 燒	sht3	1	sh3ou
-紹	clv2	1	cl2aa
-紹	slv2	1	sl2aa
+紹	clq2	1	cl2aa
+紹	slq2	1	sl2aa
 綤	sqo2	1	sq2au
 賒	sha2	1	sh2ia
 厙	sgei	1	sg1eu
@@ -22189,7 +22190,7 @@ encoder:
 罙	sir1	1	si1oa
 堔	sti1	1	st1ei
 敒	sri3	1	sr3ui
-紳	slv2	1	sl2aa
+紳	sli2	1	sl2aa
 詵	syr3	1	sy3oe
 幓	qey3	1	qe3ia
 鯵	syy3	1	sy3ua
@@ -22219,9 +22220,9 @@ encoder:
 鍟	sai1	1	sa1uo
 澠	mvc5	1	mv5oo
 澠	svc5	1	sv5oo
-繩	mlv5	1	ml5aa
-繩	slv5	1	sl5aa
-繩	ylv5	1	yl5aa
+繩	mlc5	1	ml5aa
+繩	slc5	1	sl5aa
+繩	ylc5	1	yl5aa
 鱦	myc5	1	my5ua
 渻	svp2	1	sv2oo
 勝	suk5	1	su5ua
@@ -22248,8 +22249,8 @@ encoder:
 塒	sti1	1	st1ei
 蒔	ski1	1	sk1ei
 鉐	zaeu	1	za1uo
-蝕	law2	1	la2uo
-蝕	saw2	1	sa2uo
+蝕	luia	1	lu2uo
+蝕	suia	1	su2uo
 實	sio2	1	si2oo
 實	zio2	1	zi2oo
 識	syw2	1	sy2oe
@@ -22271,14 +22272,14 @@ encoder:
 軾	spl1	1	sp1ei
 鉃	zaue	1	za3uo
 鈰	saw2	1	sa2uo
-飾	caw2	1	ca2uo
-飾	saw2	1	sa2uo
+飾	cuq2	1	cu2uo
+飾	suq2	1	su2uo
 試	syl1	1	sy1oe
 適	dwd4	1	dw4oe
 適	swd4	1	sw4oe
 適	twd4	1	tw4oe
 適	zwd4	1	zw4oe
-餝	saw4	1	sa4uo
+餝	suk4	1	su4uo
 諟	dyi2	1	dy2oe
 諡	syr2	1	sy2oe
 澨	cvz3	1	cv3oo
@@ -22290,12 +22291,12 @@ encoder:
 敊	ses5	1	se5ie
 涭	tvz5	1	tv5oo
 壽	stj1	1	st1ei
-綬	slv5	1	sl5aa
+綬	slz5	1	sl5aa
 獸	soo4	1	so4ia
 疋	sjie	1	sj2ai
 杸	dmn5	1	dm5ei
 書	set2	1	se2ae
-紓	slv2	1	sl2aa
+紓	sly2	1	sl2aa
 樞	smc2	1	sm2ei
 樞	vmc2	1	vm2ei
 輸	spa2	1	sp2ei
@@ -22314,8 +22315,8 @@ encoder:
 豎	sce4	1	sc4ei
 數	sos3	1	so3ia
 樹	smt1	1	sm1ei
-縗	clv3	1	cl3aa
-縗	slv3	1	sl3aa
+縗	clw3	1	cl3aa
+縗	slw3	1	sl3aa
 帥	sri2	1	sr2ui
 閂	scee	1	sc1ia
 雙	srf5	1	sr5ui
@@ -22339,19 +22340,19 @@ encoder:
 鑠	yan1	1	ya1uo
 厶	myao	1	my5ao
 㟃	sej2	1	se2ia
-絲	slv2	1	sl2aa
+絲	sll2	1	sl2aa
 噝	sol2	1	so2ia
 廝	sgk3	1	sg3oe
-緦	slv4	1	sl4aa
+緦	slt4	1	sl4aa
 螄	scr2	1	sc2ia
 燍	xhk3	1	xh3ou
 鍶	sat4	1	sa4uo
 颸	snr4	1	sn4ua
-鷥	slv4	1	sl4aa
+鷥	sll4	1	sl4aa
 罒	wfia	1	wf2ia
 枱	cmy2	1	cm2ei
 梩	smi2	1	sm2ei
-飼	saw2	1	sa2uo
+飼	suj2	1	su2uo
 駟	sqia	1	sq2ei
 騃	sqy3	1	sq3ei
 騃	tqy3	1	tq3ei
@@ -22366,7 +22367,7 @@ encoder:
 誦	syy2	1	sy2oe
 摉	sji3	1	sj3ei
 鎪	san5	1	sa5uo
-餿	saw5	1	sa5uo
+餿	sun5	1	su5uo
 颼	snr5	1	sn5ua
 擻	sjo3	1	sj3ei
 藪	cko3	1	ck3ei
@@ -22387,15 +22388,15 @@ encoder:
 浽	nvz5	1	nv5oo
 熣	che4	1	ch4ou
 雖	soc4	1	so4ia
-綏	rlv5	1	rl5aa
-綏	slv5	1	sl5aa
-綏	tlv5	1	tl5aa
+綏	rlz5	1	rl5aa
+綏	slz5	1	sl5aa
+綏	tlz5	1	tl5aa
 隨	sbx4	1	sb4ai
 膸	wux4	1	wu4ua
 脺	suw1	1	su1ua
 歲	sng4	1	sn4ie
 誶	syw1	1	sy1oe
-繀	clv4	1	cl4aa
+繀	cle4	1	cl4aa
 孫	sjr2	1	sj2ai
 孫	xjr2	1	xj2ai
 蓀	skj2	1	sk2ei
@@ -22406,7 +22407,7 @@ encoder:
 損	sjo2	1	sj2ei
 鶽	srf4	1	sr4ui
 摌	sjl1	1	sj1ei
-縮	slv2	1	sl2aa
+縮	sli2	1	sl2aa
 嗩	soe2	1	so2ia
 瑣	sfe2	1	sf2ee
 鎖	sae2	1	sa2uo
@@ -22469,8 +22470,8 @@ encoder:
 䣘	tei5	1	te5io
 橖	cme1	1	cm1ei
 踼	sni3	1	sn3ia
-餳	taw3	1	ta3uo
-餳	xaw3	1	xa3uo
+餳	tui3	1	tu3uo
+餳	xui3	1	xu3uo
 鏜	tae1	1	ta1uo
 偒	dri3	1	dr3ui
 儻	cre4	1	cr4ui
@@ -22489,11 +22490,11 @@ encoder:
 韜	tje3	1	tj3ai
 匋	ybq2	1	yb2ua
 鞀	tko2	1	tk2ei
-綯	tlv2	1	tl2aa
+綯	tlb2	1	tl2aa
 檮	cmt1	1	cm1ei
 檮	dmt1	1	dm1ei
 檮	tmt1	1	tm1ei
-饀	xaw3	1	xa3uo
+饀	xuz3	1	xu3uo
 討	tyei	1	ty1oe
 鋱	tal4	1	ta4uo
 謄	tuk4	1	tu4ua
@@ -22506,10 +22507,10 @@ encoder:
 罤	kfd3	1	kf3ia
 渧	tvw2	1	tv2oo
 惿	sxi2	1	sx2oo
-綈	tlv3	1	tl3aa
+綈	tld3	1	tl3aa
 碮	tsi2	1	ts2eu
 蝭	cci2	1	cc2ia
-緹	tlv2	1	tl2aa
+緹	tli2	1	tl2aa
 題	dis2	1	di2ia
 題	tis2	1	ti2ia
 鵜	tdg4	1	td4ou
@@ -22522,7 +22523,7 @@ encoder:
 鬄	dcx3	1	dc3ei
 嚔	zok2	1	zo2ia
 搷	sjk3	1	sj3ei
-緂	clv4	1	cl4aa
+緂	clh4	1	cl4aa
 闐	tck3	1	tc3ia
 捵	njv3	1	nj3ei
 覥	tvk3	1	tv3ia
@@ -22564,12 +22565,12 @@ encoder:
 朣	cul2	1	cu2ua
 鮦	tyc2	1	ty2ua
 㛚	tny2	1	tn2au
-統	tlv3	1	tl3aa
+統	tlw3	1	tl3aa
 筩	dzy2	1	dz2ue
 筩	yzy2	1	yz2ue
 𦒍	tli4	1	tl4oe
 慟	txr5	1	tx5oo
-緰	xlv2	1	xl2aa
+緰	xla2	1	xl2aa
 頭	tso2	1	ts2ei
 殕	ysu2	1	ys2eu
 鈄	dad1	1	da1uo
@@ -22599,12 +22600,12 @@ encoder:
 蛻	tcr3	1	tc3ia
 旽	zis5	1	zi5ia
 芚	cks5	1	ck5ei
-飩	taw5	1	ta5uo
-飩	zaw5	1	za5uo
+飩	tus5	1	tu5uo
+飩	zus5	1	zu5uo
 魨	tys5	1	ty5ua
 氽	qaia	1	qa2uo
 杔	zmr1	1	zm1ei
-飥	taw1	1	ta1uo
+飥	tur1	1	tu1uo
 脫	tur3	1	tu3ua
 馲	zqr1	1	zq1ei
 陁	ybq5	1	yb5ai
@@ -22650,19 +22651,19 @@ encoder:
 壪	wty5	1	wt5ei
 灣	wvy5	1	wv5oo
 汍	hvj4	1	hv4oo
-紈	wlv4	1	wl4aa
+紈	wlj4	1	wl4aa
 捖	gji3	1	gj3ei
 捖	wji3	1	wj3ei
 頑	kdn2	1	kd2ee
 頑	wdn2	1	wd2ee
 莬	mku3	1	mk3ei
-綰	wlv2	1	wl2aa
+綰	wli2	1	wl2aa
 萬	wki4	1	wk4ei
 瞣	wfo4	1	wf4ia
 鎫	war3	1	wa3uo
 忹	kxee	1	kx1oo
 罖	lfa4	1	lf4ia
-網	wlv4	1	wl4aa
+網	wlc4	1	wl4aa
 輞	wpc4	1	wp4ei
 迋	kfoa	1	kf4ee
 鰃	wyt5	1	wy5ua
@@ -22676,8 +22677,8 @@ encoder:
 溈	wvw4	1	wv4oo
 違	hje4	1	hj4ai
 違	wje4	1	wj4ai
-維	wlv4	1	wl4aa
-維	ylv4	1	yl4aa
+維	wlr4	1	wl4aa
+維	ylr4	1	yl4aa
 撝	wjz4	1	wj4ei
 醀	zxr4	1	zx4ei
 潿	wvo2	1	wv2oo
@@ -22700,7 +22701,7 @@ encoder:
 蜼	tcr4	1	tc4ia
 踓	cnr4	1	cn4ia
 諉	wyh5	1	wy5oe
-緯	wlv2	1	wl2aa
+緯	wlj2	1	wl2aa
 鮪	wyx2	1	wy2ua
 韙	wis2	1	wi2ia
 瀢	dvo4	1	dv4oo
@@ -22713,13 +22714,13 @@ encoder:
 璏	zfm3	1	zf3ee
 錗	nah5	1	na5uo
 錗	zah5	1	za5uo
-餧	naw5	1	na5uo
+餧	nuh5	1	nu5uo
 謂	wyt2	1	wy2oe
 濊	wvn4	1	wv4oo
 溫	wvo2	1	wv2oo
 鰮	wyo2	1	wy2ua
 砇	msoe	1	ms4eu
-紋	wlv4	1	wl4aa
+紋	wloe	1	wl4aa
 聞	wcei	1	wc1ia
 閿	wcz5	1	wc5ia
 忟	wxoe	1	wx4oo
@@ -22788,11 +22789,11 @@ encoder:
 焬	xhi3	1	xh3ou
 㴔	jvu4	1	jv4oo
 嵠	xez1	1	xe1ia
-餏	xaw3	1	xa3uo
+餏	xuw3	1	xu3uo
 誒	vyy3	1	vy3oe
 誒	xyy3	1	xy3oe
 誒	yyy3	1	yy3oe
-餙	saw2	1	sa2uo
+餙	sux2	1	su2uo
 螇	qcz1	1	qc1ia
 錫	tai3	1	ta3uo
 錫	xai3	1	xa3uo
@@ -22820,8 +22821,8 @@ encoder:
 鈒	san4	1	sa4uo
 鈒	xan4	1	xa4uo
 𠅤	xwt4	1	xw4oe
-細	xlv2	1	xl2aa
-綌	xlv2	1	xl2aa
+細	xlia	1	xl2aa
+綌	xlr2	1	xl2aa
 稧	xhf1	1	xh1ue
 潝	yva4	1	yv4oo
 戲	heg1	1	he1ie
@@ -22831,7 +22832,7 @@ encoder:
 鬩	hef3	1	he3ie
 鬩	xef3	1	xe3ie
 虩	sei3	1	se3io
-餼	xaw4	1	xa4uo
+餼	xuq4	1	xu4uo
 闟	sca4	1	sc4ia
 闟	tca4	1	tc4ia
 傄	xrp2	1	xr2ui
@@ -22872,8 +22873,8 @@ encoder:
 攕	xja1	1	xj1ei
 躚	xnx4	1	xn4ia
 襳	sya1	1	sy1oa
-纖	jlv1	1	jl1aa
-纖	xlv1	1	xl1aa
+纖	jla1	1	jl1aa
+纖	xla1	1	xl1aa
 閑	xcei	1	xc1ia
 閒	jcua	1	jc3ia
 閒	xcua	1	xc3ia
@@ -22912,11 +22913,11 @@ encoder:
 膁	quk2	1	qu2ua
 膁	xuk2	1	xu2ua
 膁	yuk2	1	yu2ua
-線	xlv2	1	xl2aa
+線	xln2	1	xl2aa
 縣	xhp2	1	xh2ia
 錎	qau3	1	qa3uo
-餡	kaw3	1	ka3uo
-餡	xaw3	1	xa3uo
+餡	kuu3	1	ku3uo
+餡	xuu3	1	xu3uo
 憲	xif4	1	xi4oo
 麲	xkr3	1	xk3ei
 獻	seg4	1	se4ie
@@ -22925,11 +22926,11 @@ encoder:
 鄉	xlr5	1	xl5aa
 廂	xgm2	1	xg2oe
 薌	xkl5	1	xk5ei
-緗	xlv2	1	xl2aa
+緗	xlm2	1	xl2aa
 勷	xwo5	1	xw5oe
 忀	rpw3	1	rp3uu
 欀	rmw3	1	rm3ei
-纕	slv3	1	sl3aa
+纕	slw3	1	sl3aa
 鑲	raw3	1	ra3uo
 鑲	xaw3	1	xa3uo
 驤	xqw3	1	xq3ei
@@ -22937,10 +22938,10 @@ encoder:
 詳	xyd2	1	xy2oe
 詳	yyd2	1	yy2oe
 銄	xar2	1	xa2uo
-餉	xaw2	1	xa2uo
+餉	xur2	1	xu2uo
 鮝	zkp3	1	zk3ou
 鯗	xdf3	1	xd3ou
-饗	xlr4	1	xl4aa
+饗	xlr3	1	xl3aa
 響	xlr2	1	xl2aa
 項	xds2	1	xd2ei
 勨	xuo5	1	xu5ua
@@ -22948,8 +22949,8 @@ encoder:
 曏	sil5	1	si5ia
 梟	xrc1	1	xr1ui
 萷	ske2	1	sk2ei
-綃	slv2	1	sl2aa
-綃	xlv2	1	xl2aa
+綃	sle2	1	sl2aa
+綃	xle2	1	xl2aa
 嘐	boj3	1	bo3ia
 嘐	joj3	1	jo3ia
 嘐	loj3	1	lo3ia
@@ -22992,16 +22993,16 @@ encoder:
 諧	xyg3	1	xy3oe
 擷	xjt2	1	xj2ei
 攜	xje2	1	xj2ei
-纈	xlv2	1	xl2aa
+纈	xlt2	1	xl2aa
 讗	xye2	1	xy2oe
 寫	xin4	1	xi4oo
 炨	xhi3	1	xh3ou
 洩	yvi3	1	yv3oo
-紲	ylv5	1	yl5aa
+紲	ylk5	1	yl5aa
 屟	tpk1	1	tp1ae
 僁	srr4	1	sr4ui
 碿	ssp2	1	ss2eu
-緤	ylv1	1	yl1aa
+緤	ylk1	1	yl1aa
 謝	xyr1	1	xy1oe
 褻	xwt3	1	xw3oe
 鞢	dko1	1	dk1ei
@@ -23034,14 +23035,14 @@ encoder:
 脙	xus4	1	xu4ua
 䗛	xcr2	1	xc2ia
 鵂	xrm4	1	xr4ui
-饈	xaw2	1	xa2uo
+饈	xud2	1	xu2uo
 鱃	xyd2	1	xy2ua
 峀	xei2	1	xe2ia
-綉	tlv5	1	tl5aa
+綉	tlh5	1	tl5aa
 裦	fwh3	1	fw3oe
 銹	yah5	1	ya5uo
 嚊	xor3	1	xo3ia
-繡	xlv2	1	xl2aa
+繡	xle2	1	xl2aa
 鏽	xae2	1	xa2uo
 虛	xeg1	1	xe1ie
 須	xxs2	1	xx2uu
@@ -23061,8 +23062,8 @@ encoder:
 慉	cxw2	1	cx2oo
 銊	hag4	1	ha4uo
 漵	xva3	1	xv3oo
-緒	xlv2	1	xl2aa
-續	xlv2	1	xl2aa
+緒	xlt2	1	xl2aa
+續	xlt2	1	xl2aa
 吅	soia	1	so2ia
 軒	hpee	1	hp1ei
 軒	jpee	1	jp1ei
@@ -23074,7 +23075,7 @@ encoder:
 選	xbb4	1	xb4ae
 癬	xgy2	1	xg2oe
 眴	sfb2	1	sf2ia
-絢	xlv2	1	xl2aa
+絢	xlb2	1	xl2aa
 鉉	xaw5	1	xa5uo
 鏇	xaq2	1	xa2uo
 鐶	haf3	1	ha3uo
@@ -23143,7 +23144,7 @@ encoder:
 閆	ycee	1	yc1ia
 喦	noo2	1	no2ia
 嵒	noo2	1	no2ia
-綖	xlv5	1	xl5aa
+綖	xlr5	1	xl5aa
 詽	yys1	1	yy1oe
 閻	ycu3	1	yc3ia
 顏	yug2	1	yu2oe
@@ -23179,7 +23180,7 @@ encoder:
 爓	xhc3	1	xh3ou
 贗	ygr2	1	yg2eu
 驗	yqa3	1	yq3ei
-饜	ygi4	1	yg4eu
+饜	ygi3	1	yg3eu
 釅	yxo3	1	yx3ei
 讞	yye4	1	yy4oe
 豔	yef2	1	ye2ie
@@ -23242,7 +23243,7 @@ encoder:
 艞	tzz4	1	tz4uu
 燿	shj4	1	sh4ou
 鷂	yzq4	1	yz4uo
-纅	llv1	1	ll1aa
+纅	lln1	1	ll1aa
 鑰	yaa1	1	ya1uo
 爺	yrx5	1	yr5uo
 鋣	yac5	1	ya5uo
@@ -23267,7 +23268,7 @@ encoder:
 鍱	xak1	1	xa1uo
 鎑	gat2	1	ga2uo
 鎑	tat2	1	ta2uo
-饁	yaw2	1	ya2uo
+饁	yut2	1	yu2uo
 靨	ygi1	1	yg1eu
 吚	xoe3	1	xo3ia
 渏	yvp2	1	yv2oo
@@ -23296,8 +23297,8 @@ encoder:
 詒	dyy2	1	dy2oe
 詒	tyy2	1	ty2oe
 詒	yyy2	1	yy2oe
-飴	saw2	1	sa2uo
-飴	yaw2	1	ya2uo
+飴	suy2	1	su2uo
+飴	yuy2	1	yu2uo
 誃	dyu3	1	dy3oe
 遺	soe4	1	so4ia
 遺	woe4	1	wo4ia
@@ -23339,8 +23340,8 @@ encoder:
 軼	zpq3	1	zp3ei
 幆	kei5	1	ke5ia
 湙	yvw1	1	yv1oo
-絏	xlv3	1	xl3aa
-絏	ylv3	1	yl3aa
+絏	xli3	1	xl3aa
+絏	yli3	1	yl3aa
 搤	yjk2	1	yj2ei
 詣	yyl2	1	yy2oe
 義	xdf4	1	xd4ou
@@ -23355,15 +23356,15 @@ encoder:
 懌	yxf1	1	yx1oo
 憶	yxl4	1	yx4oo
 褹	nyt4	1	ny4oa
-縊	ylv2	1	yl2aa
+縊	ylk2	1	yl2aa
 斁	tft3	1	tf3ia
 貖	yzk2	1	yz2uo
 藝	ykt5	1	yk5ei
 鎰	yak2	1	ya2uo
-繹	slv1	1	sl1aa
-繹	ylv1	1	yl1aa
+繹	slf1	1	sl1aa
+繹	ylf1	1	yl1aa
 醳	sxf1	1	sx1ei
-饐	vaw4	1	va4uo
+饐	vut4	1	vu4uo
 譯	yyf1	1	yy1oe
 議	yyd4	1	yy4oe
 鷊	yso4	1	ys4ei
@@ -23391,7 +23392,7 @@ encoder:
 齦	qna4	1	qn4ie
 齦	yna4	1	yn4ie
 釿	jauu	1	ja3uo
-飲	yaw3	1	ya3uo
+飲	yuu3	1	yu3uo
 隱	ybz4	1	yb4ai
 齗	yna3	1	yn3ie
 癮	ygb4	1	yg4oe
@@ -23404,7 +23405,7 @@ encoder:
 䓨	yki2	1	yk2ei
 焽	xiu4	1	xi4ia
 嫈	xhh5	1	xh5ou
-緓	ylv3	1	yl3aa
+緓	ylk3	1	yl3aa
 鍈	yak3	1	ya3uo
 嬰	yhh5	1	yh5ia
 攖	yjh5	1	yj5ei
@@ -23413,7 +23414,7 @@ encoder:
 瓔	yfh5	1	yf5ee
 櫻	ymh5	1	ym5ei
 鶯	yhh4	1	yh4ou
-纓	ylv5	1	yl5aa
+纓	ylh5	1	yl5aa
 鷹	ygr4	1	yg4oe
 鸚	yhh4	1	yh4ia
 塋	yhh1	1	yh1ou
@@ -23481,8 +23482,8 @@ encoder:
 誘	yyh5	1	yy5oe
 込	yrw4	1	yr4uo
 扜	wjd2	1	wj2ei
-紆	vlv2	1	vl2aa
-紆	ylv2	1	yl2aa
+紆	vld2	1	vl2aa
+紆	yld2	1	yl2aa
 盓	wvd2	1	wv2oo
 伃	xry2	1	xr2ui
 汙	wvd2	1	wv2oo
@@ -23497,7 +23498,7 @@ encoder:
 媮	yna2	1	yn2au
 牏	yre2	1	yr2ui
 漁	yvua	1	yv3oo
-餘	yaw1	1	ya1uo
+餘	yua1	1	yu1uo
 魣	yyy2	1	yy2ua
 諛	yyn3	1	yy3oe
 踰	cna2	1	cn2ia
@@ -23524,7 +23525,7 @@ encoder:
 惐	xxl1	1	xx1oo
 馭	yqao	1	yq5ei
 硲	ysr2	1	ys2eu
-飫	yaw1	1	ya1uo
+飫	yur1	1	yu1uo
 鈺	yaf4	1	ya4uo
 預	yyj2	1	yy2ao
 銉	sae1	1	sa1uo
@@ -23543,7 +23544,7 @@ encoder:
 鴧	yin4	1	yi4oo
 禦	ypq2	1	yp2uu
 鵒	yra4	1	yr4uo
-繘	jlv2	1	jl2aa
+繘	jly2	1	jl2aa
 譽	yhd4	1	yh4ui
 鐭	yar1	1	ya1uo
 鷸	syj4	1	sy4ao
@@ -23563,15 +23564,15 @@ encoder:
 楥	ymz5	1	ym5ei
 園	yot4	1	yo4ia
 圓	yoo2	1	yo2ia
-緣	ylv1	1	yl1aa
+緣	ylm1	1	yl1aa
 黿	ydn5	1	yd5ee
 轅	ypt3	1	yp3ei
 謜	qyg2	1	qy2oe
 櫞	yml1	1	ym1ei
 遠	yto4	1	yt4ei
 願	ygn2	1	yg2eu
-約	dlv4	1	dl4aa
-約	ylv4	1	yl4aa
+約	dlb4	1	dl4aa
+約	ylb4	1	yl4aa
 箹	czl4	1	cz4ue
 彠	yed5	1	ye5ae
 枂	wmua	1	wm3ei
@@ -23597,7 +23598,7 @@ encoder:
 勻	ybee	1	yb1ua
 眃	hfd5	1	hf5ia
 畇	ttb4	1	tt4ia
-紜	ylv5	1	yl5aa
+紜	yld5	1	yl5aa
 雲	ytd5	1	yt5eo
 鄖	yoh5	1	yo5ia
 篔	xzo2	1	xz2ue
@@ -23612,8 +23613,8 @@ encoder:
 惲	yxi1	1	yx1oo
 運	yip4	1	yi4oa
 慍	yxo2	1	yx2oo
-緼	wlv2	1	wl2aa
-縕	ylv2	1	yl2aa
+緼	wli2	1	wl2aa
+縕	ylo2	1	yl2aa
 醞	yxo2	1	yx2ei
 鞰	wko2	1	wk2ei
 藴	wkl2	1	wk2ei
@@ -23655,9 +23656,9 @@ encoder:
 臟	zuk4	1	zu4ua
 鑿	zms3	1	zm3ii
 棗	zse3	1	zs3ei
-繰	qlv1	1	ql1aa
-繰	slv1	1	sl1aa
-繰	zlv1	1	zl1aa
+繰	qlo1	1	ql1aa
+繰	slo1	1	sl1aa
+繰	zlo1	1	zl1aa
 唕	zon1	1	zo1ia
 喿	qoo1	1	qo1ia
 煰	zho2	1	zh2ou
@@ -23693,8 +23694,8 @@ encoder:
 橧	cmd2	1	cm2ei
 䎖	zdv4	1	zd4ou
 鋥	zao1	1	za1uo
-繒	clv2	1	cl2aa
-繒	zlv2	1	zl2aa
+繒	cld2	1	cl2aa
+繒	zld2	1	zl2aa
 贈	zhd2	1	zh2ia
 紮	zml2	1	zm2ei
 劄	zza2	1	zz2ue
@@ -23718,7 +23719,7 @@ encoder:
 齋	zwd2	1	zw2oe
 債	zrf2	1	zr2ui
 枬	zmc4	1	zm4ei
-飦	gaw1	1	ga1uo
+飦	guee	1	gu1uo
 詀	cye2	1	cy2oe
 詀	dye2	1	dy2oe
 詀	tye2	1	ty2oe
@@ -23744,7 +23745,7 @@ encoder:
 佔	dre2	1	dr2ui
 棧	cml1	1	cm1ei
 棧	zml1	1	zm1ei
-綻	zlv2	1	zl2aa
+綻	zli2	1	zl2aa
 戰	zoo1	1	zo1ia
 驏	zqp5	1	zq5ei
 弡	zgc5	1	zg5ae
@@ -23803,15 +23804,15 @@ encoder:
 鍖	zak5	1	za5uo
 鍼	qag4	1	qa4uo
 姫	znc2	1	zn2au
-紾	jlv3	1	jl3aa
+紾	jla3	1	jl3aa
 軫	zpa3	1	zp3ei
 診	zya3	1	zy3oe
-縝	clv3	1	cl3aa
-縝	zlv3	1	zl3aa
+縝	clk3	1	cl3aa
+縝	zlk3	1	zl3aa
 黰	yvt3	1	yv3ia
 侲	crg5	1	cr5ui
 陣	zbei	1	zb1ai
-紖	zlv2	1	zl2aa
+紖	zlg2	1	zl2aa
 蜄	scg5	1	sc5ia
 賑	zhg5	1	zh5ia
 鴆	zin4	1	zi4oa
@@ -23844,7 +23845,7 @@ encoder:
 梔	zmh5	1	zm5ei
 馶	sqk5	1	sq5ei
 鳷	ckk4	1	ck4ei
-織	zlv2	1	zl2aa
+織	zlw2	1	zl2aa
 執	ztd4	1	zt4ei
 淔	zvk2	1	zv2oo
 樴	ymw2	1	ym2ei
@@ -23855,7 +23856,7 @@ encoder:
 躑	znd5	1	zn5ia
 夂	zuua	1	zu3ua
 茋	dkh4	1	dk4ei
-紙	zlv1	1	zl1aa
+紙	zlh1	1	zl1aa
 軹	zpo3	1	zp3ei
 阤	zbai	1	zb5ai
 扻	kju3	1	kj3ei
@@ -23891,7 +23892,7 @@ encoder:
 鷙	ztd4	1	zt4ei
 躓	znj2	1	zn2ia
 泈	zvu4	1	zv4oo
-終	zlv4	1	zl4aa
+終	zlu4	1	zl4aa
 螤	zuc3	1	zu3oe
 鍾	zar2	1	za2uo
 蹱	cnl2	1	cn2ia
@@ -23917,14 +23918,14 @@ encoder:
 軸	zpi2	1	zp2ei
 㑇	zru5	1	zr5ui
 㤘	zxu5	1	zx5oo
-紂	zlv1	1	zl1aa
+紂	zlei	1	zl1aa
 粙	zdi2	1	zd2ou
 晝	zet1	1	ze1ae
 葤	zkl1	1	zk1ei
 皺	zbc5	1	zb5ua
 噣	dof2	1	do2ia
-縐	clv3	1	cl3aa
-縐	zlv3	1	zl3aa
+縐	clb3	1	cl3aa
+縐	zlb3	1	zl3aa
 驟	zqb3	1	zq3ei
 咮	roq2	1	ro2ia
 誅	zyq2	1	zy2oe
@@ -23954,10 +23955,10 @@ encoder:
 佇	zri1	1	zr1ui
 苧	nki1	1	nk1ei
 迬	zwf4	1	zw4oe
-紵	slv1	1	sl1aa
-紵	zlv1	1	zl1aa
+紵	sli1	1	sl1aa
+紵	zli1	1	zl1aa
 貯	zhi1	1	zh1ia
-飳	taw1	1	ta1uo
+飳	tuw1	1	tu1uo
 駐	zqw1	1	zq1ei
 築	zzd1	1	zz1ue
 麆	cgc2	1	cg2oe
@@ -23981,8 +23982,8 @@ encoder:
 轉	zps1	1	zp1ei
 簨	zzb3	1	zz3ue
 譔	qyb3	1	qy3oe
-饌	xaw3	1	xa3uo
-饌	zaw3	1	za3uo
+饌	xub3	1	xu3uo
+饌	zub3	1	zu3uo
 囀	zop1	1	zo1ia
 妝	zle5	1	zl5ai
 莊	zkl1	1	zk1ei
@@ -24001,9 +24002,9 @@ encoder:
 娷	snr1	1	sn1au
 硾	dsr1	1	ds1eu
 墜	zbk1	1	zb1ai
-綴	clv5	1	cl5aa
-綴	zlv5	1	zl5aa
-縋	zlv4	1	zl4aa
+綴	clk5	1	cl5aa
+綴	zlk5	1	zl5aa
+縋	zlr4	1	zl4aa
 錣	cak5	1	ca5uo
 贅	zfb2	1	zf2ee
 啍	dow5	1	do5ia
@@ -24030,7 +24031,7 @@ encoder:
 貲	znl2	1	zn2ie
 資	zdu2	1	zd2oe
 稵	zhk5	1	zh5ue
-緇	zlv2	1	zl2aa
+緇	zll2	1	zl2aa
 輜	zpl2	1	zp2ei
 錙	zal2	1	za2uo
 諮	zyd2	1	zy2oe
@@ -24051,21 +24052,21 @@ encoder:
 漬	qvf2	1	qv2oo
 漬	svf2	1	sv2oo
 漬	zvf2	1	zv2oo
-綜	zlv2	1	zl2aa
+綜	zli2	1	zl2aa
 艐	jzx3	1	jz3uu
 艐	kzx3	1	kz3uu
 騌	zqi2	1	zq2ei
 蹤	znp2	1	zn2ia
 揔	sjb4	1	sj4ei
 傯	zrr4	1	zr4ui
-総	clv4	1	cl4aa
+総	clr4	1	cl4aa
 鍯	cab4	1	ca4uo
-總	clv4	1	cl4aa
-總	zlv4	1	zl4aa
+總	clr4	1	cl4aa
+總	zlr4	1	zl4aa
 鏓	car4	1	ca4uo
 碂	csi2	1	cs2eu
-縱	clv2	1	cl2aa
-縱	zlv2	1	zl2aa
+縱	clp2	1	cl2aa
+縱	zlp2	1	zl2aa
 郰	jbk5	1	jb5ei
 掫	cjb5	1	cj5ei
 菆	ckb5	1	ck5ei
@@ -24081,13 +24082,13 @@ encoder:
 踤	cnw1	1	cn1ia
 鏃	caq3	1	ca3uo
 鏃	zaq3	1	za3uo
-組	qlv2	1	ql2aa
-組	zlv2	1	zl2aa
+組	qlia	1	ql2aa
+組	zlia	1	zl2aa
 詛	zyia	1	zy2oe
 謯	jye2	1	jy2oe
 躦	cnr2	1	cn2ia
 躦	znr2	1	zn2ia
-纘	zlv2	1	zl2aa
+纘	zlr2	1	zl2aa
 鑽	zar2	1	za2uo
 嗺	zoe4	1	zo4ia
 鋷	nab5	1	na5uo
@@ -24128,7 +24129,7 @@ encoder:
 猠	dqv3	1	dq3ua
 畓	dvia	1	dv2ia
 穒	hhr4	1	hh4ue
-縇	xlv1	1	xl1aa
+縇	xli1	1	xl1aa
 聁	pbr5	1	pb5ei
 聣	nbn3	1	nb3ei
 莻	gkn3	1	gk3ei
@@ -24173,8 +24174,8 @@ encoder:
 𫖮	yec2	1	ye2ia
 𫖯	fnv2	1	fn2uo
 𫖳	yer2	1	ye2ae
-𫗧	sul2	1	su2ua
-𫗴	zul1	1	zu1ua
+𫗧	sus2	1	su2ua
+𫗴	zuw1	1	zu1ua
 𫘜	wqoe	1	wq4aa
 𫘝	jqc3	1	jq3aa
 𫘦	tqb2	1	tq2aa
@@ -24372,7 +24373,7 @@ encoder:
 包	bbae	0	bb5ua
 胞	bub5	0	bu5ua
 薄	bkv1	0	bk1ei
-饱	bul5	0	bu5ua
+饱	bub5	0	bu5ua
 宝	bif4	0	bi4oo
 保	bro1	0	br1ui
 报	bjb5	0	bj5ei
@@ -24447,7 +24448,7 @@ encoder:
 丙	bsc3	0	bs3ei
 秉	bhae	0	bh5ue
 柄	bms3	0	bm3ei
-饼	bul1	0	bu1ua
+饼	buk1	0	bu1ua
 炳	bhs3	0	bh3ou
 禀	bwo2	0	bw2oe
 并	bkeu	0	bk1ou
@@ -24482,7 +24483,7 @@ encoder:
 踩	cnz1	0	cn1ia
 菜	ckz1	0	ck1ei
 参	cyp3	0	cy3ao
-餐	ceu4	0	ce4ie
+餐	ceu3	0	ce3ie
 残	csu1	0	cs1eu
 蚕	csp2	0	cs2ee
 惭	cxp3	0	cx3oo
@@ -24795,7 +24796,7 @@ encoder:
 呃	vog5	0	vo5ia
 恶	vsm4	0	vs4ei
 恶	wsm4	0	ws4ei
-饿	vul4	0	vu4ua
+饿	vuv4	0	vu4ua
 鄂	voo5	0	vo5ia
 萼	vko5	0	vk5ei
 遏	vib4	0	vi4ia
@@ -24823,7 +24824,7 @@ encoder:
 反	fhao	0	fh5uu
 返	fhk4	0	fh4uu
 犯	fqaa	0	fq5ua
-饭	ful5	0	fu5ua
+饭	fuh5	0	fu5ua
 泛	fvr4	0	fv4oo
 范	fkv5	0	fk5ei
 贩	fhh5	0	fh5ia
@@ -25016,7 +25017,7 @@ encoder:
 关	gkeu	0	gk1ou
 观	gkc3	0	gk3ao
 官	giia	0	gi2oo
-馆	gul2	0	gu2ua
+馆	gui2	0	gu2ua
 管	gzi2	0	gz2ue
 贯	gok2	0	go2aa
 冠	gid1	0	gi1oa
@@ -25189,9 +25190,9 @@ encoder:
 霍	htr4	0	ht4eo
 击	jdia	0	jd2ee
 叽	joua	0	jo3ia
+饥	juua	0	ju3ua
 玑	jfua	0	jf3ee
 机	jmua	0	jm3ei
-肌	juua	0	ju3ua
 积	jho3	0	jh3ue
 姬	jnc2	0	jn2au
 基	jkf1	0	jk1ei
@@ -25223,7 +25224,6 @@ encoder:
 祭	jud2	0	ju2ua
 悸	jxh5	0	jx5oo
 寂	jie5	0	ji5oo
-绩	jlf2	0	jl2aa
 髻	jcx2	0	jc2ei
 加	jqia	0	jq2au
 迦	jqo4	0	jq4au
@@ -25270,6 +25270,7 @@ encoder:
 郊	jwr5	0	jw5oe
 娇	jnr3	0	jn3au
 骄	jqr3	0	jq3aa
+胶	juw3	0	ju3ua
 蛟	jcw3	0	jc3ia
 焦	jrf4	0	jr4ui
 嚼	joz1	0	jo1ia
@@ -25441,7 +25442,7 @@ encoder:
 窥	kir3	0	ki3oo
 奎	kpt1	0	kp1eu
 魁	knr1	0	kn1ui
-馈	kul2	0	ku2ua
+馈	kuo2	0	ku2ua
 溃	kvo2	0	kv2oo
 愧	kxn5	0	kx5oo
 坤	kti2	0	kt2ei
@@ -26130,6 +26131,7 @@ encoder:
 赛	sif2	0	si2oo
 三	sfee	0	sf1ee
 叁	syp1	0	sy1ao
+伞	sad1	0	sa1uo
 嗓	sok1	0	so1ia
 骚	sqk2	0	sq2aa
 嫂	snn5	0	sn5au
@@ -26200,8 +26202,8 @@ encoder:
 时	siei	0	si1ia
 识	swo3	0	sw3oa
 实	sid1	0	si1oo
-食	saw4	0	sa4uo
-蚀	sul2	0	su2ua
+食	suuo	0	su3uo
+蚀	suia	0	su2ua
 史	souo	0	so3ia
 矢	sgue	0	sg3ue
 使	srs3	0	sr3ui
@@ -26216,7 +26218,7 @@ encoder:
 似	srl3	0	sr3ui
 势	sjj5	0	sj5ei
 事	sso2	0	ss2ei
-饰	sul2	0	su2ua
+饰	suq2	0	su2ua
 试	swl1	0	sw1oa
 视	syc3	0	sy3oa
 是	sis2	0	si2ia
@@ -26807,7 +26809,7 @@ encoder:
 淫	yvz1	0	yv1oo
 尹	yeuu	0	ye3ae
 引	ygii	0	yg2ae
-饮	yul3	0	yu3ua
+饮	yuu3	0	yu3ua
 隐	ybu4	0	yb4ai
 印	yhs5	0	yh5ua
 英	ykv3	0	yk3ei
@@ -26844,7 +26846,7 @@ encoder:
 余	yaee	0	ya1uo
 鱼	yyua	0	yy3ua
 俞	yas2	0	ya2uo
-馀	yul1	0	yu1ua
+馀	yua1	0	yu1ua
 逾	yas4	0	ya4uo
 瑜	yfa2	0	yf2ee
 虞	yeg1	0	ye1ie
@@ -26894,6 +26896,7 @@ encoder:
 孕	ynai	0	yn5au
 运	ydy4	0	yd4ee
 砸	zsc2	0	zs2eu
+咋	zoq1	0	zo1ia
 灾	ziou	0	zi4oo
 仔	zrai	0	zr5ui
 再	zsc2	0	zs2ei
@@ -27026,7 +27029,6 @@ encoder:
 竺	zzee	0	zz1ue
 逐	zzoa	0	zz4eu
 主	zwee	0	zw1oe
-嘱	zop4	0	zo4ia
 助	zhau	0	zh5ia
 住	zrw1	0	zr1ui
 注	zvw1	0	zv1oo
@@ -27392,7 +27394,6 @@ encoder:
 风险	fne	409
 来历	lsa	409
 疯狂	fge	409
-食物	sau	409
 陌生	mbe	409
 签署	qzi	409
 参数	cyu	409
@@ -27446,7 +27447,6 @@ encoder:
 外资	wui	409
 小燕子	xya	409
 愕然	vxo	409
-色彩	suu	409
 挨个儿	vgu	409
 非但	fee	409
 请教	qwu	409
@@ -27960,6 +27960,7 @@ encoder:
 肮脏	vue	409
 不成功	bca	409
 柔弱	ryo	409
+舒畅	sau	409
 男篮	nti	409
 哀伤	vwa	409
 燃起	rha	409
@@ -28265,7 +28266,6 @@ encoder:
 铿然	kao	409
 奥普拉	vpo	409
 馈送	kuo	409
-钡餐	bao	409
 安排好	vpa	409
 铵盐	vai	409
 帕子	pea	409
@@ -28283,6 +28283,7 @@ encoder:
 锋范	faa	409
 斛律	hue	409
 睿达	reo	409
+镖门	bao	409
 睿博	ree	409
 不过	bs;	409
 那么	nu;	409
@@ -28485,6 +28486,7 @@ encoder:
 睿哲	re;	409
 曝衣	pi;	409
 嚷声	ro;	409
+餬口	hu;	409
 问题	wc'	409
 地方	dt'	409
 那个	nu'	409
@@ -28815,6 +28817,7 @@ encoder:
 江湖	jvh3	409
 终于	zly2	409
 甚至	skz1	409
+结果	jlg1	409
 似的	srd4	409
 不禁	bsj2	409
 历史	lgs3	409
@@ -28902,7 +28905,6 @@ encoder:
 左右	zxy2	409
 促进	crj4	409
 发挥	flh1	409
-不久	bsj4	409
 资金	zdj3	409
 用户	yuh5	409
 简单	jzd1	409
@@ -28912,6 +28914,7 @@ encoder:
 究竟	jij3	409
 意义	yly3	409
 总是	zds2	409
+结合	jlh2	409
 唯一	woy1	409
 至少	zss3	409
 迅速	xls4	409
@@ -28952,7 +28955,6 @@ encoder:
 越来越	yly4	409
 友好	yxh5	409
 大汉	dph5	409
-结婚	jlh2	409
 下午	xsw1	409
 右手	yxs3	409
 体制	trz2	409
@@ -28998,7 +29000,7 @@ encoder:
 谢谢	xwx1	409
 贸易	mhy3	409
 状态	zkt4	409
-长久	ccj4	409
+数据库	sjk1	409
 交给	jwg2	409
 医院	ycy3	409
 乃是	nns2	409
@@ -29107,7 +29109,7 @@ encoder:
 推进	tjj4	409
 函数	hjs3	409
 熟悉	swx4	409
-粮食	lds4	409
+粮食	lds3	409
 特殊	trs2	409
 主义	zwy3	409
 将军	jkj1	409
@@ -29123,7 +29125,6 @@ encoder:
 广泛	ggf4	409
 浑身	hvs3	409
 中共	zog3	409
-多久	duj4	409
 文章	wuz1	409
 持续	cjx1	409
 极了	jml5	409
@@ -29208,6 +29209,7 @@ encoder:
 改造	gcz4	409
 一下子	yxz5	409
 因素	yos2	409
+胜利	sul2	409
 上午	sew1	409
 交换	jwh3	409
 运用	ydy3	409
@@ -29490,6 +29492,7 @@ encoder:
 等候	dzh3	409
 消费者	xfz2	409
 长江	ccj1	409
+食物	suw3	409
 节点	jkd4	409
 性格	xxg2	409
 据说	jjs3	409
@@ -29541,14 +29544,13 @@ encoder:
 街道	jpd4	409
 石油	ssy2	409
 折磨	zjm1	409
+角落	jul2	409
 完整	wiz2	409
 参观	cyg3	409
 局长	jpz3	409
-脑子	nuz5	409
 高速	gws4	409
 要不是	ybs2	409
 事故	ssg3	409
-类似	lds3	409
 平衡	psh1	409
 肩头	jwt1	409
 巴勒斯坦	bls1	409
@@ -29563,6 +29565,7 @@ encoder:
 全球	qaq4	409
 临时	lds1	409
 搞好	gjh5	409
+结论	jll3	409
 怪物	gxw3	409
 武装	wsz3	409
 纵然	zlr4	409
@@ -29584,6 +29587,7 @@ encoder:
 天津	tsj1	409
 清晰	qvx3	409
 难免	nkm3	409
+食品	sup2	409
 爱国主义	vgz3	409
 师弟	sdd3	409
 脸庞	lup4	409
@@ -29806,6 +29810,7 @@ encoder:
 条例	tul2	409
 短短	dgd4	409
 工厂	gdc1	409
+色彩	suc3	409
 了不起	lbq5	409
 卧室	wcs1	409
 沙漠	svm1	409
@@ -29857,6 +29862,7 @@ encoder:
 不知不觉	bzb3	409
 隐藏	ybc4	409
 直至	zkz1	409
+脱离	tul5	409
 减轻	jdq1	409
 老太太	ltt4	409
 肌肉	jur3	409
@@ -29951,7 +29957,7 @@ encoder:
 中断	zod3	409
 靶子	bkz5	409
 扩展	kjz5	409
-晚餐	wic4	409
+晚餐	wic3	409
 注定	zvd2	409
 下载	xsz1	409
 注册	zvc1	409
@@ -30406,7 +30412,6 @@ encoder:
 网际	wcj2	409
 压缩	ygs2	409
 联赛	lbs2	409
-很久	hpj4	409
 故障	ggz1	409
 显示器	xsq2	409
 风云	fny5	409
@@ -30460,7 +30465,6 @@ encoder:
 一颗	ysk2	409
 细胞	xlb5	409
 信誉	xry4	409
-饮食	yus4	409
 纺织	flz3	409
 售价	srj3	409
 来电	lsd5	409
@@ -30550,8 +30554,10 @@ encoder:
 是一家	syj1	409
 贵州	goz4	409
 公务员	gwy2	409
+美食	mds3	409
 初中	cyz2	409
 修正	xrz2	409
+饮料	yul1	409
 外语	wuy2	409
 第三章	dsz1	409
 真的很	zdh4	409
@@ -30799,6 +30805,7 @@ encoder:
 终端	zld2	409
 端口	dlk2	409
 代替	drt2	409
+月亮	yul3	409
 这样做	zyz3	409
 缺点	qqd4	409
 甘肃	gks4	409
@@ -30944,7 +30951,6 @@ encoder:
 过滤	gcl4	409
 关于维护	gyw5	409
 可谓	kjw2	409
-饰品	sup2	409
 四年	sfn2	409
 禽流感	qlg4	409
 搜寻	sjx1	409
@@ -31194,7 +31200,7 @@ encoder:
 干扰	gtr4	409
 论坛版主	ltb1	409
 入侵	rrq5	409
-早餐	zic4	409
+早餐	zic3	409
 一起去	yqq5	409
 说明书	sms4	409
 已经成为	yjc4	409
@@ -31231,7 +31237,7 @@ encoder:
 周刊	zck2	409
 介入	jar4	409
 一页	ysy2	409
-午餐	wrc4	409
+午餐	wrc3	409
 获奖	hkj1	409
 起码	qtm5	409
 英特尔	ytv2	409
@@ -31286,6 +31292,7 @@ encoder:
 淘汰	tvt4	409
 喝了	hol5	409
 有些人	yxr3	409
+食用	suy3	409
 来讲	lsj3	409
 解决问题	jjw2	409
 有意思	yys4	409
@@ -31557,7 +31564,6 @@ encoder:
 自助	zrz5	409
 失误	sqw1	409
 有助于	yzy2	409
-食谱	sap2	409
 艺人	ykr3	409
 块钱	ktq1	409
 胸前	xuq2	409
@@ -31835,7 +31841,6 @@ encoder:
 虚拟主机	xnz3	409
 网络实名	wls2	409
 奇幻	qph5	409
-已久	ycj4	409
 没有想到	myx2	409
 大幅度	dfd5	409
 科技发展	kjf5	409
@@ -31891,6 +31896,7 @@ encoder:
 确有	qsy2	409
 衡量	hpl2	409
 经理人	jlr3	409
+争论	zul3	409
 运转	ydz4	409
 均匀	jty4	409
 总发	zdf4	409
@@ -31977,7 +31983,6 @@ encoder:
 口号	koh5	409
 回复人	hfr3	409
 火灾	hhz4	409
-竣工	jlg1	409
 四季	sfj5	409
 跳转	tnz4	409
 请各位	qgw4	409
@@ -32326,8 +32331,6 @@ encoder:
 索取	skq5	409
 表面上	bms1	409
 缘分	ylf5	409
-迷失	mds3	409
-饰演	suy3	409
 芯片组	xpz2	409
 忠诚	zoc4	409
 新歌	xlg3	409
@@ -32340,7 +32343,7 @@ encoder:
 冒出	mic2	409
 充分利用	cfl3	409
 胳膊	gub1	409
-食堂	sat1	409
+食堂	sut1	409
 孕妇	ynf5	409
 全职	qaz3	409
 双腿	skt4	409
@@ -32449,6 +32452,7 @@ encoder:
 没有用	myy3	409
 共识	gks3	409
 驾驶员	jsy2	409
+连结	lpj2	409
 卫生间	wsj2	409
 首家	skj1	409
 一年级	ynj4	409
@@ -32636,7 +32640,6 @@ encoder:
 终结	zlj2	409
 后勤	hhq5	409
 网络电视	wld3	409
-争霸	zub3	409
 中国政府	zgz1	409
 联合会	lhh5	409
 县城	xhc4	409
@@ -32824,7 +32827,6 @@ encoder:
 呜呜	wow1	409
 开户	ksh5	409
 不得了	bdl5	409
-不舍	bss2	409
 送来	skl4	409
 宣扬	xiy3	409
 在旁边	zpb4	409
@@ -32958,7 +32960,6 @@ encoder:
 测定	cvd2	409
 预备	yyb2	409
 间隔	jcg2	409
-久了	jul5	409
 新一轮	xyl3	409
 公司注册	gsz1	409
 迄今	qqj5	409
@@ -33141,7 +33142,7 @@ encoder:
 渲染	xvr1	409
 独有	dqy2	409
 顺手	scs3	409
-套餐	tpc4	409
+套餐	tpc3	409
 全社会	qsh5	409
 劳动者	ldz2	409
 绝对不会	jdb5	409
@@ -33288,7 +33289,6 @@ encoder:
 驾车	jqc1	409
 诚意	cwy4	409
 地方政府	dfz1	409
-太久	tpj4	409
 涵盖	hvg2	409
 副市长	fsz3	409
 卖了	mkl5	409
@@ -33361,6 +33361,7 @@ encoder:
 低下头	dxt1	409
 鲜艳	xyy5	409
 沐浴	mvy2	409
+逼近	bsj4	409
 西亚	xxy1	409
 火花	hhh3	409
 不会吧	bhb5	409
@@ -33929,6 +33930,7 @@ encoder:
 海域	hvy1	409
 十七	skq1	409
 跳到	tnd2	409
+急了	jul5	409
 脸蛋	lud2	409
 用不着	ybz2	409
 一班	ysb1	409
@@ -34041,7 +34043,6 @@ encoder:
 电影院	dyy3	409
 极点	jmd4	409
 省内	spn3	409
-之久	zzj4	409
 涨停	zvt1	409
 料理	ldl2	409
 复印	fqy5	409
@@ -34097,6 +34098,7 @@ encoder:
 黑帮	hvb2	409
 演习	yvx4	409
 坦白	ttb3	409
+之极	zzj4	409
 刑法	xsf5	409
 银行卡	yhk2	409
 背单词	bdc2	409
@@ -34167,6 +34169,7 @@ encoder:
 定律	dil1	409
 钢筋	gaj5	409
 整洁	zsj2	409
+不善	bss2	409
 直奔	zkb1	409
 商品编号	spb5	409
 急切	juq5	409
@@ -34309,7 +34312,6 @@ encoder:
 大不了	dbl5	409
 送达	skd4	409
 要认真	yrz3	409
-快餐	kxc4	409
 请假	qwj5	409
 宠爱	civ5	409
 吉利	jtl2	409
@@ -34368,6 +34370,7 @@ encoder:
 饮酒	yuj1	409
 其主要	qzy5	409
 好可爱	hkv5	409
+结成	jlc4	409
 知晓	zgx3	409
 化合物	hhw3	409
 点缀	dez5	409
@@ -34402,7 +34405,6 @@ encoder:
 就在于	jzy2	409
 法律顾问	flg2	409
 分红	frh1	409
-用语	yuy2	409
 最新推荐	zxt5	409
 办好	bqh5	409
 辩论	bll3	409
@@ -34542,7 +34544,7 @@ encoder:
 揭密	jjm2	409
 质检	zhj1	409
 吞噬	tss3	409
-用餐	yuc4	409
+用餐	yuc3	409
 什么话	smh1	409
 典礼	dvl5	409
 性教育	xjy2	409
@@ -34601,7 +34603,6 @@ encoder:
 超高	ctg2	409
 汇聚	hvj3	409
 基本情况	jbq3	409
-绝非	jlf1	409
 烦躁	fhz1	409
 强硬	qgy3	409
 高楼	gwl5	409
@@ -34661,6 +34662,7 @@ encoder:
 看病	kvb3	409
 恶性	vsx1	409
 迈克尔	mkv2	409
+主食	zws3	409
 嘴边	zob4	409
 标本	bmb1	409
 延安	yrv5	409
@@ -34706,7 +34708,6 @@ encoder:
 很厉害	hlh2	409
 东盟	dlm2	409
 第一款	dyk3	409
-食欲	say3	409
 产品说明	cps3	409
 在线播放	zxb3	409
 新股	xlg5	409
@@ -34852,12 +34853,10 @@ encoder:
 三等奖	sdj1	409
 两颗	lsk2	409
 矿泉水	kqs2	409
-引人	ygr3	409
 漫漫	mvm5	409
 嫌疑	xny2	409
 掌控	zek1	409
 每隔	mqg2	409
-竭诚	jlc4	409
 抢占	qjz2	409
 帕萨特	pst1	409
 输入您	srn4	409
@@ -34874,7 +34873,7 @@ encoder:
 公司库	gsk1	409
 高举	gwj1	409
 催促	crc2	409
-食指	saz2	409
+食指	suz2	409
 飞行员	fxy2	409
 怎么样了	zmy5	409
 歌名	gjm2	409
@@ -34994,6 +34993,7 @@ encoder:
 搜房	sjf4	409
 要充分	ycf5	409
 下级	xsj4	409
+大餐	dpc3	409
 主宰	zwz4	409
 歌坛	gjt5	409
 等级考试	djk1	409
@@ -35041,7 +35041,6 @@ encoder:
 姊妹	znm2	409
 只做	zoz3	409
 屠杀	tps1	409
-诊所	zws3	409
 望远镜	wyj3	409
 兽人	sdr3	409
 职业生涯	zys1	409
@@ -35286,6 +35285,7 @@ encoder:
 管理工具	glg3	409
 能告诉我	ngs4	409
 评语	pwy2	409
+很近	hpj4	409
 宏观经济	hgj3	409
 第六条	dlt1	409
 这个消息	zgx4	409
@@ -35909,6 +35909,7 @@ encoder:
 服务体系	fwt2	409
 异国	ybg4	409
 总面积	zmj3	409
+闯进	ccj4	409
 伺候	crh3	409
 技术研究	jsy3	409
 衬托	cyt1	409
@@ -35992,7 +35993,6 @@ encoder:
 第一眼	dyy4	409
 花店	hkd2	409
 夏新	xsx3	409
-舒畅	sac3	409
 安娜	vin5	409
 大河	dph2	409
 三级片	sjp5	409
@@ -36630,7 +36630,7 @@ encoder:
 勃起	bkq5	409
 咕噜	gol2	409
 很满意	hmy4	409
-零食	lts4	409
+零食	lts3	409
 中华民国	zhm4	409
 裁定	ckd2	409
 本栏目	blm2	409
@@ -36728,7 +36728,6 @@ encoder:
 家禽	jiq5	409
 所列	shl2	409
 这帮	zub2	409
-素食	sfs4	409
 凶狠	xxh4	409
 投资环境	tzh3	409
 敌方	drf4	409
@@ -37253,7 +37252,6 @@ encoder:
 跌至	dnz1	409
 国贸	gom2	409
 交流平台	jlp2	409
-绝伦	jll3	409
 献身	xks3	409
 收款	slk3	409
 本留言	bly4	409
@@ -37301,7 +37299,7 @@ encoder:
 勘探	kkt1	409
 丹田	dct2	409
 出乎意料	chy1	409
-膳食	sus4	409
+膳食	sus3	409
 网络资源	wlz2	409
 始终保持	szb1	409
 风雪	fnx5	409
@@ -37403,6 +37401,7 @@ encoder:
 经济运行	jjy1	409
 显露	xil2	409
 丢弃	drq1	409
+凝结	ndj2	409
 富士通	fst4	409
 单据	ddj1	409
 期限内	qxn3	409
@@ -38012,6 +38011,7 @@ encoder:
 牛津	nrj1	409
 异味	ybw2	409
 硬盘版	ypb5	409
+甩了	sul5	409
 云彩	ydc3	409
 参股	cyg5	409
 第一轮	dyl3	409
@@ -38313,7 +38313,6 @@ encoder:
 没死	mvs3	409
 暗影	viy3	409
 启程	qwc1	409
-备课	buk1	409
 胆量	dul2	409
 工作原理	gzy2	409
 一天到晚	ytd3	409
@@ -38392,6 +38391,7 @@ encoder:
 观看电影	gkd3	409
 恭维	gkw4	409
 图书网	tsw3	409
+了结	ljj2	409
 板书	bms4	409
 饭碗	fuw5	409
 电表	dib3	409
@@ -38683,7 +38683,7 @@ encoder:
 但他却	dtq5	409
 助人	zhr3	409
 脚尖	juj1	409
-西餐	xxc4	409
+西餐	xxc3	409
 喷涂	pot1	409
 年幼	nqy5	409
 感谢大家	gxd1	409
@@ -38782,7 +38782,6 @@ encoder:
 网络小说	wlx3	409
 迈克	msk3	409
 凄厉	qdl5	409
-食宿	sas2	409
 佳肴	jry2	409
 祝福你	zfn2	409
 妖娆	ynr3	409
@@ -38868,7 +38867,6 @@ encoder:
 两个人都	lgr5	409
 工商部门	gsb4	409
 闪电般	sdb5	409
-心肠	xxc3	409
 废止	fgz2	409
 重修	crx3	409
 毛钱	mpq1	409
@@ -38984,6 +38982,7 @@ encoder:
 瞎子	xfz5	409
 采暖	czn5	409
 党和国家	dhg1	409
+中餐	zoc3	409
 干警	gtj4	409
 影楼	yil5	409
 发展速度	fzs5	409
@@ -39392,7 +39391,6 @@ encoder:
 下岗失业	xgs1	409
 屹立	yel4	409
 玛雅	mfy4	409
-饰物	suw3	409
 音乐听	yyt3	409
 疲软	pgr3	409
 砍了	ksl5	409
@@ -39427,6 +39425,7 @@ encoder:
 前苏联	qsl1	409
 吞了	tsl5	409
 嗡嗡	wow4	409
+食客	suk2	409
 晶片	jip5	409
 培训网	pxw3	409
 华贵	hrg2	409
@@ -39434,6 +39433,7 @@ encoder:
 忍无可忍	rwk4	409
 考试辅导	ksf1	409
 肖像	xex3	409
+已近	ycj4	409
 岛内	dbn3	409
 乞讨	qqt1	409
 间距	jcj5	409
@@ -39813,7 +39813,6 @@ encoder:
 合作医疗	hzy5	409
 御史	yps3	409
 开放以来	kfy4	409
-大潮	dpc3	409
 税收优惠	ssy4	409
 谋略	mwl2	409
 颇多	pgd3	409
@@ -39903,7 +39902,6 @@ encoder:
 粘膜	ndm1	409
 介于	jay2	409
 十七岁	sqs3	409
-吞食	tss4	409
 笔画	bzh5	409
 保障局	bzj2	409
 兑美元	dmy3	409
@@ -40070,6 +40068,7 @@ encoder:
 歇斯底里	xsd2	409
 很遗憾	hyh4	409
 最可怕	zkp3	409
+联结	lbj2	409
 电击	dij2	409
 行政区号	xzq5	409
 入伍	rrw1	409
@@ -40131,7 +40130,6 @@ encoder:
 淡漠	dvm1	409
 足球赛	zqs2	409
 废品	fgp2	409
-雷斯	lts3	409
 你的电脑	ndd5	409
 划拨	hlb4	409
 美英	mdy3	409
@@ -40175,6 +40173,7 @@ encoder:
 仰慕	yrm4	409
 狂赚	kqz2	409
 玛瑙	mfn3	409
+多级	duj4	409
 发行量	fxl2	409
 圣母	skm4	409
 急转弯	jzw5	409
@@ -40222,7 +40221,7 @@ encoder:
 委婉	whw5	409
 市场准入	scz4	409
 工作服	gzf5	409
-食盐	say2	409
+食盐	suy2	409
 阻抗	zbk3	409
 管理类	gll1	409
 头戴	tdd3	409
@@ -40852,7 +40851,6 @@ encoder:
 兴国	xvg4	409
 默认设置	mrs2	409
 办完	bqw3	409
-亮晶晶	ljj2	409
 不要命	bym5	409
 敢死队	gsd3	409
 低频	drp2	409
@@ -40861,7 +40859,6 @@ encoder:
 架起	jqq5	409
 西餐厅	xct1	409
 消费需求	xfx4	409
-胜者	suz2	409
 侠之大	xzd1	409
 保龄球	blq4	409
 劳动法	ldf5	409
@@ -40978,7 +40975,6 @@ encoder:
 辞退	crt4	409
 更强大	gqd1	409
 人民医院	rmy3	409
-聚餐	jbc4	409
 唯恐	wok4	409
 荒山	hks2	409
 如潮	rnc3	409
@@ -41065,6 +41061,7 @@ encoder:
 人寿保险	rsb1	409
 虚实	xes1	409
 图文并茂	twb4	409
+结为	jlw4	409
 流动人口	ldr2	409
 光栅	ges1	409
 毛利	mpl2	409
@@ -41212,6 +41209,7 @@ encoder:
 高危	gww5	409
 凯瑟琳	ksl1	409
 煽情	shq2	409
+太近	tpj4	409
 不直接	bzj5	409
 黄牛	hkn1	409
 设置成	szc4	409
@@ -41228,7 +41226,6 @@ encoder:
 农业局	nyj2	409
 天龙八部	tlb5	409
 看守所	kss3	409
-经久	jlj4	409
 共同体	gtt1	409
 五金工具	wjg3	409
 农村合作	nch1	409
@@ -41568,7 +41565,6 @@ encoder:
 洋人	yvr3	409
 废了	fgl5	409
 精炼	jdl3	409
-食疗	sal5	409
 重新安装	cxv3	409
 精诚	jdc4	409
 模范作用	mfz3	409
@@ -41723,7 +41719,6 @@ encoder:
 温度计	wdj1	409
 富士康	fsk2	409
 清晰版	qxb5	409
-自助餐	zzc4	409
 示范区	sfq3	409
 大班	dpb1	409
 成功人士	cgr1	409
@@ -42398,7 +42393,6 @@ encoder:
 欣欣	xjx3	409
 爱谁	vzs4	409
 鞋底	xkd4	409
-日久	rij4	409
 炼制	lhz2	409
 浅薄	qvb1	409
 看护	kvh5	409
@@ -42444,12 +42438,14 @@ encoder:
 孤零零	gll5	409
 跳下去	txq5	409
 蜥蜴	xcy3	409
+舒坦	sat1	409
 分毫	frh3	409
 咬紧	yoj2	409
 旅游服务	lyf5	409
 超能力	cnl5	409
 核电	hmd5	409
 农贸市场	nms3	409
+太迟	tpc4	409
 土地利用	tdl3	409
 施舍	sqs2	409
 中南海	znh4	409
@@ -42588,6 +42584,7 @@ encoder:
 附表	fbb3	409
 模拟试卷	mns5	409
 抢修	qjx3	409
+三思	sfs4	409
 奋勇	fpy5	409
 认真研究	rzy3	409
 咄咄逼人	ddb3	409
@@ -42663,7 +42660,7 @@ encoder:
 为何如此	whr3	409
 隔阂	gbh3	409
 帆布	feb2	409
-伙食	hrs4	409
+伙食	hrs3	409
 气焰	qqy3	409
 幌子	hez5	409
 女单	nnd1	409
@@ -42764,7 +42761,6 @@ encoder:
 神像	syx3	409
 刚毅	gcy5	409
 浪迹	lvj4	409
-难舍	nks2	409
 巨款	jck3	409
 外资银行	wzy1	409
 漂移	pvy3	409
@@ -42923,7 +42919,6 @@ encoder:
 保持沉默	bcc4	409
 军服	jif5	409
 博学	bkx5	409
-吸食	xos4	409
 全家福	qjf2	409
 两周内	lzn3	409
 兰蔻	ldk5	409
@@ -42975,7 +42970,6 @@ encoder:
 玷污	dfw5	409
 胸有成竹	xyc2	409
 山丘	seq1	409
-舍利	sal2	409
 劳作	lkz1	409
 童话故事	thg2	409
 徒儿	tpv3	409
@@ -43083,6 +43077,7 @@ encoder:
 用户密码	yhm5	409
 民宅	mcz1	409
 信鸽	xrg1	409
+耸了	sal5	409
 理想信念	lxx4	409
 响彻	xoc5	409
 洋娃娃	yww1	409
@@ -43567,7 +43562,7 @@ encoder:
 冬眠	dum1	409
 西北部	xbb5	409
 人员名单	rym1	409
-喂食	wos4	409
+喂食	wos3	409
 尿液	npy4	409
 漂漂	pvp2	409
 胸腔	xuq1	409
@@ -43756,7 +43751,6 @@ encoder:
 地坪	dtp1	409
 凉亭	ldt1	409
 逾越	yay4	409
-甩头	sut1	409
 掉以轻心	dyq4	409
 力挺	lqt5	409
 料想	ldx4	409
@@ -43819,7 +43813,6 @@ encoder:
 蝗虫	hcc2	409
 全凭	qap3	409
 不干净	bgj2	409
-连击	lpj2	409
 热电	rjd5	409
 论断	lwd3	409
 发出一阵	fcy1	409
@@ -43833,7 +43826,6 @@ encoder:
 秸秆	jhg1	409
 战利品	zlp2	409
 扬子晚报	yzw5	409
-饕餮	tot4	409
 一审判决	ysp3	409
 套牢	tpl1	409
 遵命	zdm5	409
@@ -43940,6 +43932,7 @@ encoder:
 废旧塑料	fjs1	409
 财年	chn2	409
 旅游胜地	lys5	409
+脑力	nul5	409
 杀灭	sxm4	409
 烦闷	fhm4	409
 更美好	gmh5	409
@@ -43961,6 +43954,7 @@ encoder:
 遇到困难	ydk4	409
 炫目	xhm2	409
 私人天地	srt5	409
+股利	gul2	409
 宣传资料	xcz1	409
 乳胶漆	rjq2	409
 超清晰	cqx3	409
@@ -44026,6 +44020,7 @@ encoder:
 芬奇	fkq2	409
 胎盘	tup2	409
 之义	zzy3	409
+结案	jlv1	409
 软硬	rpy3	409
 电子电器	dzd2	409
 翘首	qls2	409
@@ -44106,7 +44101,6 @@ encoder:
 两国关系	lgg2	409
 罗密欧	lmv3	409
 出入口	crk2	409
-觅食	mzs4	409
 红地毯	hdt4	409
 规划局	ghj2	409
 比较优势	bjy5	409
@@ -44263,6 +44257,7 @@ encoder:
 一前一后	yqy2	409
 倾泻	qrx1	409
 外阴	wuy3	409
+食之	suz4	409
 在线升级	zxs4	409
 层级	cpj4	409
 昙花一现	thy3	409
@@ -44346,6 +44341,7 @@ encoder:
 可以防止	kyf2	409
 狂风暴雨	kfb1	409
 受聘	szp5	409
+勉励	mul5	409
 丽娜	lsn5	409
 修订版	xdb5	409
 移位	yhw4	409
@@ -44590,6 +44586,7 @@ encoder:
 容易产生	ryc1	409
 苛求	kkq4	409
 泼辣	pvl2	409
+胜诉	sus4	409
 卖命	mkm5	409
 飘飞	pxf3	409
 有毛病	ymb3	409
@@ -44877,6 +44874,7 @@ encoder:
 政事	zss2	409
 假药	jry4	409
 农网	niw3	409
+纽卡斯尔	nks2	409
 不见踪影	bjz3	409
 交款	jwk3	409
 酒窝	jvw3	409
@@ -44893,6 +44891,7 @@ encoder:
 面红耳赤	mhv3	409
 刚刚好	ggh5	409
 优化设计	yhs1	409
+绝迹	jlj4	409
 行为能力	xwn5	409
 牛股	nrg5	409
 避税	bps3	409
@@ -44964,7 +44963,6 @@ encoder:
 茶匙	ckc3	409
 且慢	qhm5	409
 不正之风	bzz3	409
-物产	wrc3	409
 无线网	wxw3	409
 皮套	pgt1	409
 众星	zax1	409
@@ -45066,13 +45064,11 @@ encoder:
 躯壳	qrq3	409
 溺爱	nvv5	409
 凸起	teq5	409
-胜于	suy2	409
 学习班	xxb1	409
 而不必	vbb3	409
 包车	bbc1	409
 五个月	wgy3	409
 塔罗牌	tlp1	409
-网络教育	wlj2	409
 雕花	dch3	409
 无理取闹	wlq2	409
 先烈	xrl4	409
@@ -45146,7 +45142,6 @@ encoder:
 调节器	tjq2	409
 风湿病	fsb3	409
 帐务	zew5	409
-乡情	xlq2	409
 毕业班	byb1	409
 洞察力	dcl5	409
 东方人	dfr3	409
@@ -45247,6 +45242,7 @@ encoder:
 憎恶	zxw4	409
 科学学院	kxx3	409
 此物	cnw3	409
+信息传递	xxc4	409
 苏丹红	sdh1	409
 全部免费	qbm2	409
 全国优秀	qgy5	409
@@ -45503,7 +45499,6 @@ encoder:
 网络经济	wlj3	409
 鸵鸟	tbn1	409
 产权制度	cqz5	409
-继父	jlf3	409
 吸管	xog2	409
 琪琪	qfq3	409
 起兵	qtb3	409
@@ -45566,6 +45561,7 @@ encoder:
 桌面工具	zmg3	409
 五味	www2	409
 简练	jzl3	409
+最迟	zic4	409
 发生事故	fss3	409
 妖狐	ynh4	409
 疾患	jgh4	409
@@ -45680,7 +45676,6 @@ encoder:
 新动力	xdl5	409
 表达自己	bdz5	409
 福尔摩斯	fvm3	409
-员工培训	ygp3	409
 锄头	cat1	409
 请单击	qdj2	409
 化工行业	hgh1	409
@@ -45727,10 +45722,8 @@ encoder:
 慢性病	mxb3	409
 下坡	xsp5	409
 圈中	qoz2	409
-淋巴结	lbj2	409
 海洋生物	hys3	409
 设防	swf4	409
-甩手	sus3	409
 不充分	bcf5	409
 上钩	seg5	409
 宽慰	kiw4	409
@@ -45779,7 +45772,6 @@ encoder:
 演奏家	yzj1	409
 粤菜	yrc1	409
 一面镜子	ymj5	409
-流连忘返	llw4	409
 美少年	msn2	409
 售卖	srm1	409
 公证处	gzc2	409
@@ -45799,7 +45791,6 @@ encoder:
 好小子	hxz5	409
 新桥	xlq3	409
 我的梦想	wdm4	409
-万里长城	wlc4	409
 柔滑	ryh2	409
 声援	sty5	409
 社会风气	shf3	409
@@ -45894,7 +45885,6 @@ encoder:
 分集介绍	fjj2	409
 副产品	fcp2	409
 米色	mds5	409
-所罗门	slm4	409
 股息	gux4	409
 同等学力	tdx5	409
 全民健身	qmj3	409
@@ -45954,7 +45944,6 @@ encoder:
 小不点	xbd4	409
 蓉城	rkc4	409
 绩优	jly4	409
-管理权	glq5	409
 皮尔斯	pvs3	409
 我国治	wgz2	409
 闻其	wcq3	409
@@ -46049,6 +46038,7 @@ encoder:
 起止	qtz2	409
 污蔑	wvm4	409
 啼哭	tok4	409
+饱了	bul5	409
 打骂	djm5	409
 答题卡	dtk2	409
 敌后	drh2	409
@@ -46132,7 +46122,6 @@ encoder:
 休憩	xrq4	409
 雌性	cnx1	409
 陵园	lby3	409
-耐久	nsj4	409
 破格	psg2	409
 端来	dll4	409
 安德烈	vdl4	409
@@ -46356,8 +46345,6 @@ encoder:
 纵火	zlh4	409
 测定仪	cdy3	409
 内部结构	nbj5	409
-绝食	jls4	409
-绿意	lly4	409
 蒙特利	mtl2	409
 玩出	wfc2	409
 麦肯锡	mkx3	409
@@ -46438,6 +46425,7 @@ encoder:
 蓦然回首	mrh2	409
 创造奇迹	czq4	409
 丈母娘	zmn4	409
+吐痰	tot4	409
 力压	lqy4	409
 疯狗	fgg2	409
 看病难	kbn4	409
@@ -46535,7 +46523,6 @@ encoder:
 更便宜	gpy2	409
 花艺	hky5	409
 刷屏	spp1	409
-继位	jlw4	409
 科技人才	kjr3	409
 偏出	prc2	409
 阿梅	vbm4	409
@@ -46561,7 +46548,6 @@ encoder:
 地下铁	dxt3	409
 解构	jug5	409
 月亮代表	yld3	409
-年度计划	ndj2	409
 哪吒	noz1	409
 彩霞	czx5	409
 悍将	hxj1	409
@@ -46588,7 +46574,6 @@ encoder:
 最大扭矩	zdn5	409
 动手术	dss4	409
 显卡最新	xkz3	409
-舍命	sam5	409
 环保科技	hbk5	409
 昔年	xkn2	409
 败笔	bhb3	409
@@ -46745,7 +46730,6 @@ encoder:
 胃痛	wtt2	409
 贸易壁垒	myb1	409
 狂顶	kqd2	409
-纸笔	zlb3	409
 免费外挂	mfw1	409
 保留地	bld5	409
 低功耗	dgh3	409
@@ -46755,7 +46739,6 @@ encoder:
 花言巧语	hyq2	409
 鸡毛	jkm3	409
 孟加拉	mjl4	409
-早产	zic3	409
 落榜	lkb4	409
 妨害	fnh2	409
 每一刻	myk2	409
@@ -46893,7 +46876,6 @@ encoder:
 商标法	sbf5	409
 段誉	dhy4	409
 回不来	hbl4	409
-杂乱无章	zlw1	409
 出口货物	ckh3	409
 哆啦	dol4	409
 模具制造	mjz4	409
@@ -47021,6 +47003,7 @@ encoder:
 抚弄	fjn1	409
 有味	yxw2	409
 半途而废	btv4	409
+食糖	sut2	409
 锲而不舍	qvb2	409
 如何做好	rhz5	409
 西电	xxd5	409
@@ -47038,6 +47021,7 @@ encoder:
 车窗外	ccw2	409
 御寒	yph4	409
 摩羯	mgj5	409
+布莱恩	blv4	409
 我才明白	wcm3	409
 网上销售	wsx2	409
 球蛋白	qdb3	409
@@ -47052,7 +47036,6 @@ encoder:
 精彩无限	jcw4	409
 浩荡	hvd3	409
 残渣	csz1	409
-材料科学	clk5	409
 党群	deq2	409
 四人帮	srb2	409
 不中用	bzy3	409
@@ -47137,7 +47120,6 @@ encoder:
 成荫	cgy3	409
 苦思	kks4	409
 校规	xmg3	409
-免冠	mug1	409
 交通费	jtf2	409
 利尿	lhn2	409
 潜水艇	qst5	409
@@ -47177,9 +47159,11 @@ encoder:
 括号内	khn3	409
 虚惊	xej2	409
 观察员	gcy2	409
+野餐	yic3	409
 排名第二	pmd1	409
 转投	zpt5	409
 随军	sbj1	409
+食人	sur3	409
 妖族	ynz3	409
 润肤	rvf3	409
 鞋带	xkd2	409
@@ -47217,7 +47201,6 @@ encoder:
 渡边	dvb4	409
 华纳唱片	hnc5	409
 不均衡	bjh1	409
-下楼梯	xlt3	409
 接踵而至	jzv1	409
 凯歌	keg3	409
 而致	vsz3	409
@@ -47290,6 +47273,7 @@ encoder:
 齐抓	quz4	409
 一败涂地	ybt5	409
 彩信图片	cxt5	409
+量力而行	llv1	409
 专业学位	zyx4	409
 免遭	muz4	409
 伦理片	llp5	409
@@ -47464,7 +47448,6 @@ encoder:
 线段	xld5	409
 尿尿	npn2	409
 陈毅	cby5	409
-肥厚	fuh5	409
 汉字输入	hzs4	409
 春运期间	cyq2	409
 小组讨论	xzt3	409
@@ -47473,7 +47456,6 @@ encoder:
 考核办法	khb5	409
 腐化	fgh3	409
 废铁	fgt3	409
-腰痛	yut2	409
 露背	ltb2	409
 很糟糕	hzg4	409
 谐波	xwb5	409
@@ -47506,7 +47488,6 @@ encoder:
 就业压力	jyy5	409
 运做	ydz3	409
 恐怖电影	kbd3	409
-天蓝色	tls5	409
 如何打造	rhd4	409
 黑格尔	hgv2	409
 奔逃	bpt4	409
@@ -47704,7 +47685,6 @@ encoder:
 不期而遇	bqv4	409
 前几日	qjr2	409
 苦口婆心	kkp4	409
-线人	xlr3	409
 关起来	gql4	409
 通网	tyw3	409
 车厢内	cxn3	409
@@ -47759,7 +47739,6 @@ encoder:
 不同年龄	btn5	409
 东南方	dnf4	409
 矮胖	vgp1	409
-组态	zlt4	409
 枯枝	kmz5	409
 良田	lwt2	409
 非浅	feq1	409
@@ -47768,6 +47747,7 @@ encoder:
 楼板	lmb5	409
 我办	wvb4	409
 密技	mij5	409
+食言	suy4	409
 施工安全	sgv1	409
 日积月累	rjy2	409
 软性	rpx1	409
@@ -47903,7 +47883,6 @@ encoder:
 蓉儿	rkv3	409
 斐然	fer4	409
 清了清	qlq2	409
-切沃	qlw1	409
 销售模式	xsm1	409
 皮靴	pgx3	409
 测试你的	csn4	409
@@ -48122,6 +48101,7 @@ encoder:
 小孩儿	xhv3	409
 天麻	tsm1	409
 暴虐	bin1	409
+尽力而为	jlv4	409
 明眼人	myr3	409
 粉煤灰	fmh4	409
 人工流产	rgl3	409
@@ -48154,7 +48134,6 @@ encoder:
 横亘	hmg1	409
 考古学	kgx5	409
 克扣	kgk2	409
-胜景	suj2	409
 煤炭行业	mth1	409
 脑白金	nbj3	409
 帮困	bfk1	409
@@ -48301,7 +48280,6 @@ encoder:
 好球	hnq4	409
 考核标准	khb4	409
 纽伦堡	nlb1	409
-历久	lgj4	409
 宾语	biy2	409
 酒味	jvw2	409
 岗位培训	gwp3	409
@@ -48321,6 +48299,8 @@ encoder:
 跑不掉	pbd1	409
 母亲河	mqh2	409
 雪球	xtq4	409
+竞速	jls4	409
+食管	sug2	409
 壳体	ktt1	409
 马六甲	mlj2	409
 定语	diy2	409
@@ -48329,6 +48309,7 @@ encoder:
 梵天	fmt1	409
 瞧得	qfd1	409
 火警	hhj4	409
+锁着	saz2	409
 青壮年	qzn2	409
 礼券	lyq5	409
 分班	frb1	409
@@ -48519,7 +48500,6 @@ encoder:
 化工机械	hgj1	409
 马上会	msh5	409
 群峰	qef2	409
-中朝	zoc3	409
 贞观	zeg3	409
 美术高考	msg5	409
 口镇	koz3	409
@@ -48561,7 +48541,6 @@ encoder:
 惊悚片	jsp5	409
 常务副	cwf2	409
 带状	dsz4	409
-川流不息	clb4	409
 无归	wdg5	409
 内室	ncs1	409
 诚惶诚恐	chc4	409
@@ -48596,6 +48575,7 @@ encoder:
 青葱	qfc4	409
 英文名字	ywm5	409
 现场检查	xcj1	409
+饵料	vul1	409
 股票论坛	gpl5	409
 卖钱	mkq1	409
 短信平台	dxp2	409
@@ -48618,7 +48598,6 @@ encoder:
 美人志	mrz4	409
 货船	hrc2	409
 单枪匹马	dqp5	409
-立誓	lls4	409
 爱德	vzd4	409
 五千元	wqy3	409
 均按	jtv5	409
@@ -48824,6 +48803,7 @@ encoder:
 太离谱	tlp2	409
 徽标	hpb2	409
 自由发表	zyf3	409
+斜纹	xaw4	409
 俱都	jrd5	409
 老江湖	ljh3	409
 忌妒	jcd5	409
@@ -48883,7 +48863,6 @@ encoder:
 阿拉伯语	vlb2	409
 雷吉纳	ljn3	409
 幻想曲	hxq1	409
-专利费	zlf2	409
 拔除	bjc1	409
 儿童服装	vtf3	409
 科学界	kxj3	409
@@ -48926,6 +48905,7 @@ encoder:
 定势	dis5	409
 帐簿	zeb1	409
 完全丧失	wqs3	409
+食道	sud4	409
 吸盘	xop2	409
 唯开	wok1	409
 易感	yig4	409
@@ -48951,7 +48931,6 @@ encoder:
 粮食安全	lsv1	409
 领驭	lay5	409
 冰峰	bdf2	409
-结肠	jlc3	409
 人事变动	rsb5	409
 建材行业	jch1	409
 第五位	dww4	409
@@ -49035,7 +49014,6 @@ encoder:
 妞儿	nnv3	409
 差遣	cdq4	409
 西北风	xbf3	409
-胸肌	xuj3	409
 奥美嘉	vmj2	409
 原理图	ylt4	409
 纰漏	pll1	409
@@ -49051,7 +49029,6 @@ encoder:
 股票发行	gpf1	409
 人数最多	rsz3	409
 风味小吃	fwx5	409
-脱色	tus5	409
 入味	rrw2	409
 英文歌	ywg3	409
 发展前途	fzq4	409
@@ -49135,6 +49112,7 @@ encoder:
 各部位	gbw4	409
 长途汽车	ctq1	409
 财务收支	cws5	409
+疑案	ylv1	409
 群豪	qeh1	409
 膨化	puh3	409
 称她	cht5	409
@@ -49519,7 +49497,6 @@ encoder:
 大学语文	dxy4	409
 波幅	bvf2	409
 乙炔	ylq3	409
-博洛尼亚	bln1	409
 宣传广告	xcg2	409
 经销部	jxb5	409
 墨子	mvz5	409
@@ -49552,7 +49529,6 @@ encoder:
 船夫	czf3	409
 如纸	rnz1	409
 迈凯轮	mkl3	409
-订餐	dwc4	409
 复辟	fqb4	409
 他的背影	tdb3	409
 批评家	ppj1	409
@@ -49569,7 +49545,6 @@ encoder:
 不动心	bdx4	409
 前面板	qmb5	409
 巧夺天工	qdt1	409
-华沙	hrs3	409
 创见	caj3	409
 主会场	zhc3	409
 各支部	gzb5	409
@@ -49686,7 +49661,7 @@ encoder:
 微生物学	wsw5	409
 溶性	rvx1	409
 弄醒	nfx1	409
-饱餐	buc4	409
+饱餐	buc3	409
 停靠站	tkz2	409
 温度控制	wdk2	409
 口腔科	kqk1	409
@@ -49698,7 +49673,6 @@ encoder:
 财团法人	ctf3	409
 日子以来	rzy4	409
 喷码机	pmj3	409
-舍人	sar3	409
 善罢甘休	sbg1	409
 盈满	ynm3	409
 始创	snc2	409
@@ -49739,7 +49713,6 @@ encoder:
 爆炒	bhc3	409
 购物袋	gwd3	409
 红灯记	hdj5	409
-终其	zlq3	409
 煮成	ztc4	409
 水果刀	sgd5	409
 钛白粉	tbf5	409
@@ -49855,6 +49828,7 @@ encoder:
 盘剥	pzb2	409
 会计年度	kjn5	409
 小老婆	xlp5	409
+气结	qqj2	409
 气闷	qqm4	409
 新一期	xyq3	409
 墨绿	mvl2	409
@@ -49872,7 +49846,6 @@ encoder:
 我的初恋	wdc4	409
 干妈	gtm5	409
 维吾尔族	wwv3	409
-那厮	nus3	409
 人生态度	rst5	409
 福斯	fys3	409
 公安人员	gvr2	409
@@ -49903,6 +49876,7 @@ encoder:
 水彩画	sch5	409
 辞呈	crc1	409
 副驾驶	fjs3	409
+派力奥	plv1	409
 录音系统	lyx3	409
 新大纲	xdg3	409
 七子	qlz5	409
@@ -50016,7 +49990,6 @@ encoder:
 晚来	wil4	409
 美俄	mdv4	409
 平起平坐	pqp1	409
-农舍	nis2	409
 昆曲	kiq1	409
 南部地区	nbd3	409
 研讨班	ytb1	409
@@ -50043,7 +50016,6 @@ encoder:
 好好过	hhg4	409
 图秀	tox5	409
 脑力劳动	nll5	409
-杀了人	slr3	409
 行距	hpj5	409
 板面	bmm1	409
 大灾难	dzn4	409
@@ -50130,7 +50102,6 @@ encoder:
 蝈蝈	gcg4	409
 简明扼要	jmv5	409
 免考	muk5	409
-新楼盘	xlp2	409
 服装面料	fzm1	409
 发生车祸	fsc3	409
 工作队	gzd3	409
@@ -50142,7 +50113,6 @@ encoder:
 戏码	xkm5	409
 通情达理	tqd2	409
 刀伤	dqs5	409
-食醋	sac2	409
 骑着马	qzm5	409
 慈善总会	csz5	409
 飘流	pxl3	409
@@ -50318,7 +50288,7 @@ encoder:
 评楼	pwl5	409
 弯弓	wwg5	409
 铭心	max4	409
-食补	sab2	409
+食补	sub2	409
 过大年	gdn2	409
 傲骨	vrg2	409
 妻女	qsn5	409
@@ -50352,7 +50322,6 @@ encoder:
 连邦	lpb5	409
 牛黄	nrh3	409
 高考复习	gkf4	409
-骷髅头	klt1	409
 美国西部	mgx5	409
 异教徒	yjt2	409
 在线翻译	zxf1	409
@@ -50370,6 +50339,7 @@ encoder:
 瑞雪	rfx5	409
 戏剧化	xjh3	409
 群策群力	qcq5	409
+类图书	lts4	409
 汉密尔顿	hmv2	409
 航天飞行	htf1	409
 冒泡	mip5	409
@@ -50569,7 +50539,7 @@ encoder:
 忍耐力	rnl5	409
 股份合作	gfh1	409
 劣根性	lgx1	409
-每餐	mqc4	409
+每餐	mqc3	409
 为确保	wqb1	409
 万维网	www3	409
 双系统	sxt3	409
@@ -50641,7 +50611,6 @@ encoder:
 美宝莲	mbl4	409
 法学家	fxj1	409
 支撑点	zcd4	409
-废寝忘食	fqw4	409
 台办	tyb4	409
 物资采购	wzc5	409
 排污费	pwf2	409
@@ -50678,7 +50647,6 @@ encoder:
 光禄	gel2	409
 媚娘	mnn4	409
 法警	fvj4	409
-收付	slf1	409
 缺什么	qsm5	409
 村务公开	cwg1	409
 服务器版	fwq5	409
@@ -50783,7 +50751,6 @@ encoder:
 空寂	kij5	409
 凭直觉	pzj3	409
 老母亲	lmq1	409
-胜仗	suz4	409
 品网	pow3	409
 防紫外线	fzw1	409
 五角星	wjx1	409
@@ -50967,6 +50934,7 @@ encoder:
 体细胞	txb5	409
 每立方	mlf4	409
 难兄难弟	nxn3	409
+辅食	fps3	409
 占位	zew4	409
 国防建设	gfj5	409
 狸猫	lqm2	409
@@ -51095,7 +51063,6 @@ encoder:
 杳无	ymw3	409
 含辛茹苦	hxr1	409
 李冰	lmb2	409
-胜券	suq5	409
 社区活动	sqh5	409
 春播	cfb2	409
 基因突变	jyt5	409
@@ -51255,7 +51222,7 @@ encoder:
 安捷伦	vjl3	409
 挖潜	wjq2	409
 别称	boc2	409
-寝食	qis4	409
+寝食	qis3	409
 勒马	lkm5	409
 喷淋	pol1	409
 碰伤	pss5	409
@@ -51449,7 +51416,6 @@ encoder:
 八面玲珑	bml4	409
 所向无敌	sxw3	409
 响马	xom5	409
-音量调节	ylt5	409
 修订草案	xdc1	409
 网络课堂	wlk1	409
 边贸	bqm2	409
@@ -51625,7 +51591,6 @@ encoder:
 上海移动	shy5	409
 矮个子	vgz5	409
 恐怖小说	kbx3	409
-塑料桶	slt2	409
 日粮	ril4	409
 风势	fns5	409
 然后会	rhh5	409
@@ -51680,7 +51645,7 @@ encoder:
 乔恩	qrv4	409
 鸡冠	jkg1	409
 现场会议	xch3	409
-配餐	pxc4	409
+配餐	pxc3	409
 我好久	whj4	409
 排列组合	plz2	409
 吐口水	tks2	409
@@ -51933,6 +51898,7 @@ encoder:
 氟碳	fqt4	409
 趋近	qtj4	409
 财迷	chm4	409
+坐卧	zaw2	409
 驾崩	jqb3	409
 亲生父母	qsf4	409
 冠王	giw1	409
@@ -51960,7 +51926,6 @@ encoder:
 幻城	hlc4	409
 后妃	hhf5	409
 鼠辈	snb1	409
-丰衣足食	fyz4	409
 儿郎	vnl5	409
 保险代理	bxd2	409
 防空洞	fkd2	409
@@ -52109,6 +52074,7 @@ encoder:
 驼峰	tqf2	409
 煤田	mht2	409
 峰下	fex2	409
+日食	ris3	409
 皮肤癌	pfv2	409
 创刊号	ckh5	409
 罗城	lfc4	409
@@ -52142,7 +52108,6 @@ encoder:
 公棚	grp3	409
 妇科检查	fkj1	409
 我和妈妈	whm5	409
-强冷空气	qlk3	409
 我想学	wxx5	409
 皇城根	hcg4	409
 南方电网	nfd3	409
@@ -52192,13 +52157,13 @@ encoder:
 偶也来	vyl4	409
 养鸡场	yjc3	409
 欧洲游	vzy5	409
+耐酸碱	nsj4	409
 落笔	lkb3	409
 内在美	nzm1	409
 传媒业	cmy1	409
 热咖啡	rkf1	409
 敏感部位	mgb4	409
 儒林	rrl1	409
-通灵王	tlw1	409
 春潮	cfc3	409
 主脑	zwn5	409
 这节	zuj5	409
@@ -52281,7 +52246,6 @@ encoder:
 菖蒲	ckp4	409
 铜业	tay1	409
 飘柔	pxr1	409
-忌食	jcs4	409
 疝气	sgq3	409
 华健	hrj5	409
 避世	bps5	409
@@ -52365,7 +52329,6 @@ encoder:
 摸透	mjt4	409
 温瑞安	wrv5	409
 砌筑	qsz4	409
-耍流氓	slm1	409
 国办	gob4	409
 走私案	zsv1	409
 胸花	xuh3	409
@@ -52386,6 +52349,7 @@ encoder:
 文明创建	wmc5	409
 权钱	qmq1	409
 普通党员	ptd2	409
+赵灵儿	zlv3	409
 公平正义	gpz3	409
 豆腐皮	dfp5	409
 肉包	rcb5	409
@@ -52490,6 +52454,7 @@ encoder:
 工程安装	gcv3	409
 编报	blb5	409
 填权	ttq5	409
+听谁	tos4	409
 五角场	wjc3	409
 地球科学	dqk5	409
 分庭抗礼	ftk5	409
@@ -52738,7 +52703,6 @@ encoder:
 客运量	kyl2	409
 榨取	zmq5	409
 爱国人士	vgr1	409
-穷酸	qis3	409
 护理工作	hlg1	409
 青春少女	qcs5	409
 泼水节	psj5	409
@@ -52796,8 +52760,8 @@ encoder:
 并购买	bgm1	409
 心直口快	xzk3	409
 旧貌	jem3	409
+锁匙	sac3	409
 阿嫂	vbs5	409
-饱食	bus4	409
 纹银	wly4	409
 本票	bmp2	409
 谐趣	xwq5	409
@@ -52923,6 +52887,7 @@ encoder:
 昆德拉	kdl4	409
 快乐成长	klc3	409
 竞投	jlt5	409
+心理暗示	xlv2	409
 投资服务	tzf5	409
 日韩歌曲	rhg1	409
 初三化学	csh5	409
@@ -52931,6 +52896,7 @@ encoder:
 变压	bwy4	409
 新妈妈	xmm5	409
 硝基苯	xjb1	409
+适龄儿童	slv2	409
 尿路感染	nlg1	409
 爱女人	vnr3	409
 资本论	zbl3	409
@@ -52947,7 +52913,6 @@ encoder:
 乡镇干部	xzg5	409
 香港黄金	xgh3	409
 宴客	yik2	409
-电力部门	dlb4	409
 闹洞房	ndf4	409
 捧杯	pjb2	409
 美食天地	mst5	409
@@ -53005,7 +52970,6 @@ encoder:
 球网	qfw3	409
 竞技风暴	jjf2	409
 老火	lth4	409
-风流人物	flr3	409
 杀死比尔	ssb2	409
 臭味相投	cwx5	409
 鬼迷心窍	gmx5	409
@@ -53087,6 +53051,7 @@ encoder:
 雕梁画栋	dlh2	409
 刻录成	klc4	409
 铺张	paz3	409
+肥力	ful5	409
 佯攻	yrg3	409
 解放南路	jfn2	409
 螨虫	mcc2	409
@@ -53181,6 +53146,7 @@ encoder:
 口语考试	kyk1	409
 弘法	hgf5	409
 垦区	keq3	409
+布莱恩特	blv1	409
 内胎	nct2	409
 承前启后	cqq2	409
 让你能	rnn3	409
@@ -53241,6 +53207,7 @@ encoder:
 郭芙	gwf3	409
 有多快	ydk3	409
 案开庭	vkt5	409
+窝藏	wic4	409
 天姿	tsz5	409
 痴人	cgr3	409
 土丘	ttq1	409
@@ -53263,7 +53230,6 @@ encoder:
 塞缪尔	smv2	409
 浓荫	nvy3	409
 最头痛	ztt2	409
-材料加工	clj1	409
 域名服务	ymf5	409
 天一亮	tyl3	409
 偏门	prm4	409
@@ -53376,7 +53342,6 @@ encoder:
 晴雨	qiy1	409
 成名曲	cmq1	409
 量体裁衣	ltc3	409
-唯识	wos3	409
 褥子	ryz5	409
 珍禽	zfq5	409
 疆界	jgj3	409
@@ -53423,6 +53388,7 @@ encoder:
 未卜先知	wbx2	409
 宣传照	xcz4	409
 焊接技术	hjj4	409
+读成	dwc4	409
 即席	jex2	409
 废液	fgy4	409
 疫情报告	yqb2	409
@@ -53572,7 +53538,6 @@ encoder:
 我骄傲	wjv3	409
 邻人	lar3	409
 杨村	ymc1	409
-野炊	yic3	409
 亡故	wwg3	409
 台港澳	tgv1	409
 锐捷	raj2	409
@@ -53615,6 +53580,7 @@ encoder:
 碾过	nsg4	409
 垂直管理	czg2	409
 消磁	xvc5	409
+绝爱	jlv5	409
 小豆豆	xdd4	409
 姨父	ynf3	409
 柠檬树	nms1	409
@@ -53626,7 +53592,6 @@ encoder:
 电暖器	dnq2	409
 够朋友	gpy5	409
 成功秘诀	cgm3	409
-零零发	llf4	409
 九门	jjm4	409
 艺考	ykk5	409
 全长约	qcy4	409
@@ -53814,7 +53779,6 @@ encoder:
 中超杯	zcb2	409
 软启动	rqd5	409
 轻武器	qwq2	409
-久长	juc3	409
 絮叨	xnd5	409
 省略号	slh5	409
 羸弱	lwr4	409
@@ -53921,6 +53885,7 @@ encoder:
 气阀	qqf1	409
 全能王	qnw1	409
 天竺葵	tzk1	409
+福莱尔	flv2	409
 国庆日	gqr2	409
 地磅	dtb4	409
 取火	qbh4	409
@@ -54094,7 +54059,7 @@ encoder:
 二板	vdb5	409
 萨基姆	sjm4	409
 港澳游	gvy5	409
-控制饮食	kzy4	409
+控制饮食	kzy3	409
 戴帽	dkm2	409
 摸鱼	mjy3	409
 暖炉	nil5	409
@@ -54164,6 +54129,7 @@ encoder:
 利昂	lhv5	409
 康宝莱	kbl4	409
 满满当当	mmd5	409
+类书	lds4	409
 美的集团	mdj3	409
 嬉皮	xnp5	409
 儿童保健	vtb5	409
@@ -54306,13 +54272,11 @@ encoder:
 抗美	kjm1	409
 窃电	qid5	409
 获诺贝尔	hnb2	409
-加餐	jqc4	409
 熔接机	rjj3	409
 穆托姆博	mtm1	409
 托斯卡	tsk2	409
 长臂猿	cby3	409
 晚起	wiq5	409
-拨浪鼓	blg5	409
 牛仔裙	nzq2	409
 自动扶梯	zdf3	409
 今典	jad3	409
@@ -54375,7 +54339,6 @@ encoder:
 扩频	kjp2	409
 三孔	sfk5	409
 阿尔伯特	vvb1	409
-千千结	qqj2	409
 美女壁纸	mnb1	409
 光屁股	gpg5	409
 冰袋	bdd3	409
@@ -54420,6 +54383,7 @@ encoder:
 谱系	pwx2	409
 粥铺	zgp4	409
 普通本科	ptb1	409
+原来爱	ylv5	409
 偷漏税	tls3	409
 烈马	lsm5	409
 聚酰胺	jxv5	409
@@ -54519,6 +54483,7 @@ encoder:
 秦观	qfg3	409
 武状元	wzy3	409
 老年病	lnb3	409
+因噎废食	yyf3	409
 如上图	rst4	409
 美姿	mdz5	409
 灵猫	lem2	409
@@ -54559,6 +54524,7 @@ encoder:
 统计公报	tjg5	409
 神气活现	sqh3	409
 青年会	qnh5	409
+腺瘤	xul2	409
 利尿剂	lnj2	409
 性饥渴	xjk5	409
 科技期刊	kjq2	409
@@ -54607,7 +54573,6 @@ encoder:
 塔里木河	tlm2	409
 霍普	htp2	409
 岩井	yej3	409
-象鼻	xub3	409
 个股行情	ggh2	409
 长话短说	chd3	409
 扩编	kjb1	409
@@ -54667,13 +54632,13 @@ encoder:
 水循环	sxh2	409
 房檐	fwy4	409
 自取灭亡	zqm4	409
-表里如一	blr1	409
 兰桂坊	lgf4	409
 抗拉强度	klq5	409
 不得人心	bdr4	409
 爱国心	vgx4	409
 回送	hos4	409
 小楷	xpk3	409
+马里昂	mlv5	409
 高自考	gzk5	409
 各方对	gfd1	409
 帅小伙	sxh4	409
@@ -54789,7 +54754,6 @@ encoder:
 打雪仗	dxz4	409
 宁大	nid1	409
 飘渺之旅	pmz4	409
-左轮手枪	zls5	409
 胜迹	suj4	409
 闹革命	ngm5	409
 娇态	jnt4	409
@@ -54806,7 +54770,6 @@ encoder:
 时装模特	szm1	409
 认购书	rgs4	409
 全勤	qaq5	409
-触痛	cut2	409
 烦透了	ftl5	409
 土拨鼠	tbs5	409
 壮志未酬	zzw4	409
@@ -55018,6 +54981,7 @@ encoder:
 容留	ril2	409
 方糖	fqt2	409
 铬铁	gat3	409
+治疗癌症	zlv2	409
 皓腕	hnw5	409
 专门化	zmh3	409
 悬疑片	xyp5	409
@@ -55027,6 +54991,7 @@ encoder:
 殴伤	vcs5	409
 沈阳晚报	syw5	409
 魁星	knx1	409
+组胺	zlv5	409
 裤腰	kyy5	409
 匡威	kcw4	409
 闽南话	mnh1	409
@@ -55089,7 +55054,6 @@ encoder:
 代付	drf1	409
 波尔卡	bvk2	409
 词牌	cwp1	409
-图拉丁	tld1	409
 雨棚	ytp3	409
 西二环	xvh2	409
 团子	toz5	409
@@ -55105,7 +55069,6 @@ encoder:
 胃肠病	wcb3	409
 毛巾被	mjb5	409
 添丁	tvd1	409
-团队餐	tdc4	409
 结婚狂	jhk1	409
 小蜗牛	xwn1	409
 病况	bgk3	409
@@ -55197,7 +55160,6 @@ encoder:
 奸尸	jns5	409
 六法	lwf5	409
 维克托	wkt1	409
-纯然	clr4	409
 里脊	lij2	409
 腺癌	xuv2	409
 脱模剂	tmj2	409
@@ -55242,6 +55204,7 @@ encoder:
 口腹	kof3	409
 中秋晚会	zqw5	409
 里层	lic5	409
+乌拉尔	wlv2	409
 防臭	fbc4	409
 掐灭	qjm4	409
 苏州房产	szf3	409
@@ -55277,6 +55240,7 @@ encoder:
 金融贸易	jrm3	409
 等腰	dzy5	409
 洪承畴	hcc1	409
+推倒重来	tdc4	409
 畏怯	wtq5	409
 儿童活动	vth5	409
 赫拉克	hlk3	409
@@ -55394,7 +55358,6 @@ encoder:
 矿业权	kyq5	409
 暴跳	bit4	409
 耐用品	nyp2	409
-胜场	suc3	409
 瑞祥	rfx2	409
 繁文缛节	fwr5	409
 误工	wwg1	409
@@ -55413,6 +55376,7 @@ encoder:
 脱垂	tuc1	409
 性梦	xxm3	409
 密码学	mmx5	409
+盘中餐	pzc3	409
 啃骨头	kgt1	409
 美图网	mtw3	409
 阿昌	vbc2	409
@@ -55465,6 +55429,7 @@ encoder:
 浸没	jvm5	409
 那里人	nlr3	409
 卡玛	kem5	409
+备料	bul1	409
 莫愁湖	mch3	409
 军转	jiz4	409
 光圈值	gqz2	409
@@ -55483,6 +55448,7 @@ encoder:
 胖大海	pdh4	409
 巴彦淖尔	byn2	409
 玩票	wfp2	409
+腋臭	yuc4	409
 转关	zpg1	409
 黑窝点	hwd4	409
 胸片	xup5	409
@@ -55496,7 +55462,6 @@ encoder:
 下逐客令	xzk5	409
 回母校	hmx3	409
 茸毛	rkm3	409
-色标	sub2	409
 烤瓷	khc4	409
 接发球	jfq4	409
 音频编辑	ypb1	409
@@ -55711,6 +55676,7 @@ encoder:
 阿旺新传	vwx4	409
 宽边	kib4	409
 有滋味	yzw2	409
+食法	suf5	409
 掩耳	yjv1	409
 包打听	bdt3	409
 班会课	bhk1	409
@@ -55839,6 +55805,7 @@ encoder:
 婚假	hnj5	409
 葳蕤	wkr1	409
 宫娥	giv4	409
+食盒	suh2	409
 罗汉松	lhs5	409
 陕西国力	sxg5	409
 爱劳动	vld5	409
@@ -55858,6 +55825,7 @@ encoder:
 冯潇霆	fxt5	409
 半封建	bfj5	409
 芙蓉王	frw1	409
+可治愈	kzy4	409
 哈飞汽车	hfq1	409
 达芙妮	dfn3	409
 行伍	hpw1	409
@@ -55879,7 +55847,6 @@ encoder:
 丝棉	slm2	409
 内螺纹	nlw4	409
 推拉力计	tll1	409
-屠场	tpc3	409
 贴钱	thq1	409
 万向节	wxj5	409
 安慧	vih4	409
@@ -56025,7 +55992,6 @@ encoder:
 妒恨	dnh4	409
 农民房	nmf4	409
 阿尔派	vvp4	409
-色粉	suf5	409
 新宠儿	xcv3	409
 酸梅汤	smt3	409
 占城	zec4	409
@@ -56092,7 +56058,6 @@ encoder:
 主课	zwk1	409
 景明	jim3	409
 图表分析	tbf3	409
-排座次	pzc3	409
 临阵磨枪	lzm5	409
 窜改	cig3	409
 锚地	mad5	409
@@ -56334,7 +56299,7 @@ encoder:
 忘年交	wnj3	409
 通心粉	txf5	409
 婚纱秀	hsx5	409
-霸王餐	bwc4	409
+霸王餐	bwc3	409
 特派办	tpb4	409
 乳粉	rzf5	409
 广州话	gzh1	409
@@ -56356,7 +56321,6 @@ encoder:
 娇点	jnd4	409
 霉气	mtq3	409
 乙二胺	yvv5	409
-下龙湾	xlw5	409
 层状	cpz4	409
 服用过	fyg4	409
 窝囊气	wnq3	409
@@ -56433,6 +56397,7 @@ encoder:
 奥古斯丁	vgs1	409
 飞行棋	fxq3	409
 荣宝斋	rbz2	409
+氟利昂	flv5	409
 俄远东	vyd2	409
 贾巴尔	jbv2	409
 河工	hvg1	409
@@ -56449,6 +56414,7 @@ encoder:
 可分离	kfl5	409
 纪念封	jnf1	409
 日坛	rit5	409
+克里奥	klv1	409
 含维他命	hwt5	409
 光复路	gfl2	409
 全智能	qzn3	409
@@ -56579,6 +56545,7 @@ encoder:
 钢琴漆	gqq2	409
 积弊	jhb1	409
 宠物犬	cwq4	409
+梅丽尔	mlv2	409
 锌锭	xad2	409
 令狐绝	lhj5	409
 老姑娘	lgn4	409
@@ -56600,7 +56567,6 @@ encoder:
 恶汉	vsh5	409
 帷幔	wem5	409
 稻壳	dhk3	409
-会餐	hac4	409
 天授	tss5	409
 大明白	dmb3	409
 类黄酮	lht2	409
@@ -56677,6 +56643,7 @@ encoder:
 隋书	sbs4	409
 地契	dtq1	409
 格里菲斯	glf3	409
+莫里哀	mlv3	409
 卢展工	lzg1	409
 惊险片	jxp5	409
 忍一时	rys1	409
@@ -56748,6 +56715,7 @@ encoder:
 安达充	vdc3	409
 苏铁	skt3	409
 探亲假	tqj5	409
+阿拉尔	vlv2	409
 光固化	ggh3	409
 刘建明	ljm3	409
 谭浩强	thq2	409
@@ -56826,7 +56794,6 @@ encoder:
 燕麦片	ymp5	409
 冒险记	mxj5	409
 情味	qxw2	409
-舍己	saj5	409
 魏圣美	wsm1	409
 草寇	ckk5	409
 逆火	nkh4	409
@@ -56908,6 +56875,7 @@ encoder:
 鱼排	yyp1	409
 腐坏	fgh2	409
 电脑书	dns4	409
+解嘲	juc3	409
 小动画	xdh5	409
 阿西莫夫	vxm3	409
 宝姿	biz5	409
@@ -56921,6 +56889,7 @@ encoder:
 堂吉诃德	tjh4	409
 全宋词	qsc2	409
 小组会	xzh5	409
+舒卷	saj5	409
 任你选择	rnx1	409
 谈兵	twb3	409
 读友	dwy5	409
@@ -56980,6 +56949,7 @@ encoder:
 客户名单	khm1	409
 被判赔	bpp2	409
 木器厂	mqc1	409
+大老二	dlv1	409
 狼道	lqd4	409
 福克纳	fkn3	409
 面对着	mdz2	409
@@ -57024,7 +56994,6 @@ encoder:
 谢克	xwk3	409
 新去处	xqc2	409
 科威尔	kwv2	409
-日全食	rqs4	409
 付出了	fcl5	409
 小字辈	xzb1	409
 煤气费	mqf2	409
@@ -57133,7 +57102,6 @@ encoder:
 露马脚	lmj5	409
 国画院	ghy3	409
 坐台女	ztn5	409
-山梨醇	slc5	409
 荣军	rkj1	409
 底格里斯	dgl3	409
 且听我	qtw4	409
@@ -57173,7 +57141,6 @@ encoder:
 好一派	hyp4	409
 金瓯	jav4	409
 牡丹亭	mdt1	409
-绗缝	hlf4	409
 暖气费	nqf2	409
 圆棒	yob1	409
 国雄	gox4	409
@@ -57186,6 +57153,7 @@ encoder:
 克莱因	kly1	409
 股经	guj1	409
 平方米起	pfm5	409
+共立案	glv1	409
 暖壶	nih1	409
 圆筒形	ytx3	409
 嗳气	voq3	409
@@ -57204,6 +57172,7 @@ encoder:
 配电装置	pdz2	409
 艾美特	vmt1	409
 居安	jpv5	409
+特里尔	tlv2	409
 岗子	gez5	409
 大通关	dtg1	409
 男优	nty4	409
@@ -57234,7 +57203,6 @@ encoder:
 冷藏车	lcc1	409
 二分法	vff5	409
 痘印	dgy5	409
-晚场	wic3	409
 妇女会	fnh5	409
 赤日	ctr2	409
 互博	hsb1	409
@@ -57276,7 +57244,6 @@ encoder:
 乖僻	grp4	409
 惊悉	jxx4	409
 煤场	mhc3	409
-塑料颗粒	slk4	409
 泥塘	nvt2	409
 唐宁街	tnj1	409
 上海鲜花	shx3	409
@@ -57323,6 +57290,7 @@ encoder:
 雷震天	lzt1	409
 建峰	jef2	409
 软骨头	rgt1	409
+国联安	glv5	409
 满脑袋	mnd3	409
 丘脑	qjn5	409
 唐开元	tky3	409
@@ -57345,6 +57313,7 @@ encoder:
 无烟日	wyr2	409
 摩擦片	mcp5	409
 羁旅	jfl4	409
+吕燕	loy4	409
 燃气灶具	rqz3	409
 金玲	jal5	409
 黄卫	hkw1	409
@@ -57353,9 +57322,9 @@ encoder:
 横看成	hkc4	409
 陆龟	lbg5	409
 黄家诺	hjn2	409
+逸乐	yul2	409
 红旗车	hqc1	409
 量筒	lit2	409
-减肥餐	jfc4	409
 山凹	sev1	409
 拆伙	cjh4	409
 别怪他	bgt5	409
@@ -57459,7 +57428,6 @@ encoder:
 好好儿	hhv3	409
 按摩床	vmc1	409
 军同	jit2	409
-磨拳擦掌	mqc3	409
 耆老	qtl3	409
 捆绑带	kbd2	409
 西长安街	xcv1	409
@@ -57480,7 +57448,6 @@ encoder:
 头孢类	tbl1	409
 冬菜	duc1	409
 麻辣锅	mlg3	409
-法兰绒	flr1	409
 长毛兔	cmt4	409
 炖品	dhp2	409
 端方	dlf4	409
@@ -57614,7 +57581,6 @@ encoder:
 奥利拉	vll4	409
 免罪	muz1	409
 狗尾续貂	gwx2	409
-胞兄	bux3	409
 矿物学	kwx5	409
 化纤布	hxb2	409
 土工膜	tgm1	409
@@ -57654,6 +57620,7 @@ encoder:
 观赏鸟	gsn1	409
 群猴	qeh3	409
 开派对	kpd1	409
+钢丸	gaw4	409
 甩棍	sug3	409
 十大名茶	sdm1	409
 壁报	bpb5	409
@@ -57745,6 +57712,7 @@ encoder:
 可取消	kqx2	409
 抗电磁	kdc5	409
 喹啉	kol1	409
+水灵儿	slv3	409
 逢高减磅	fgj4	409
 善书	sds4	409
 翅片	ckp5	409
@@ -57802,7 +57770,6 @@ encoder:
 愿和你	yhn2	409
 项背	xdb2	409
 小杂粮	xzl4	409
-军令如山	jlr2	409
 贵大	god1	409
 春云	cfy5	409
 小蜻蜓	xqt5	409
@@ -58004,7 +57971,6 @@ encoder:
 水泥网	snw3	409
 嵌合	qeh2	409
 退磁	tec5	409
-寡廉鲜耻	glx2	409
 木之本	mzb1	409
 吴家丽	wjl4	409
 安志杰	vzj4	409
@@ -58015,7 +57981,6 @@ encoder:
 女色狼	nsl4	409
 铁路车辆	tlc3	409
 日冕	rim3	409
-谁领风骚	slf2	409
 瓷器活	cqh1	409
 漫画展	mhz5	409
 黑五类	hwl1	409
@@ -58029,7 +57994,6 @@ encoder:
 杜英豪	dyh1	409
 大串联	dcl1	409
 复式房	fsf4	409
-骑骆驼	qlt3	409
 血管病	xgb3	409
 代表权	dbq5	409
 女市长	nsz3	409
@@ -58062,7 +58026,6 @@ encoder:
 卡米尔	kmv2	409
 该如何办	grh4	409
 锡矿	xak4	409
-水陆空	slk1	409
 海平线	hpx1	409
 织唛	zlm3	409
 按钮图标	vnt2	409
@@ -58169,7 +58132,6 @@ encoder:
 卡雷拉斯	kll3	409
 费希尔	fxv2	409
 人造草坪	rzc1	409
-氟哌酸	fps3	409
 切薄片	qbp5	409
 忆秦娥	yqv4	409
 内外线	nwx1	409
@@ -58218,6 +58180,7 @@ encoder:
 绿城队	lcd3	409
 淋巴癌	lbv2	409
 开平案	kpv1	409
+刘累	lul2	409
 峭拔	qeb4	409
 昆明旅游	kml5	409
 陕汽	sbq3	409
@@ -58265,7 +58228,6 @@ encoder:
 锚链	mal4	409
 昆明会议	kmh3	409
 二件套	vjt1	409
-过滤芯	glx4	409
 叱骂	com5	409
 钢号	gah5	409
 锅包肉	gbr3	409
@@ -58479,7 +58441,6 @@ encoder:
 铁大牛	tdn1	409
 绗缝机	hfj3	409
 爱威海	vwh4	409
-摩洛客	mlk2	409
 无明火	wmh4	409
 马晓伟	mxw2	409
 盗车贼	dcz1	409
@@ -58505,7 +58466,6 @@ encoder:
 牧地	mrd5	409
 黄土坡	htp5	409
 瘦腹	sgf3	409
-条绒	tur1	409
 红树湾	hsw5	409
 水暖配件	snp1	409
 内应力	nyl5	409
@@ -58517,7 +58477,7 @@ encoder:
 熔炼炉	rll5	409
 南朝北	ncb3	409
 表链	bfl4	409
-饿虎扑食	vhp4	409
+饿虎扑食	vhp3	409
 五步曲	wbq1	409
 欧阳靖	vyj2	409
 阿西莫	vxm1	409
@@ -58534,6 +58494,7 @@ encoder:
 天游峰	tyf2	409
 奇琥	qph3	409
 一班岗	ybg3	409
+续二	xlv1	409
 饱学	bux5	409
 热平衡	rph1	409
 孙女婿	snx2	409
@@ -58617,6 +58578,7 @@ encoder:
 屏蔽门	pbm4	409
 物控	wrk1	409
 埃利奥特	vlv1	409
+克莱儿	klv3	409
 理工农	lgn3	409
 凡年满	fnm3	409
 秦祥林	qxl1	409
@@ -58978,6 +58940,7 @@ encoder:
 胡晴雯	hqw4	409
 华恒	hrh1	409
 天波府	tbf1	409
+大佬爱	dlv5	409
 负团费	ftf2	409
 美女动画	mnd5	409
 镁粉	maf5	409
@@ -59126,7 +59089,6 @@ encoder:
 两充电器	lcd2	409
 口炎	koy4	409
 土豆皮	tdp5	409
-窗帘杆	clg1	409
 娥佩兰	vpl1	409
 电器附件	dqf1	409
 思危	stw5	409
@@ -59211,6 +59173,7 @@ encoder:
 牛头梗	ntg3	409
 脾肿大	pzd1	409
 嫩乳	nnr5	409
+钡餐	bac3	409
 排污阀	pwf1	409
 开口了	kkl5	409
 有凭有据	ypy1	409
@@ -59351,7 +59314,6 @@ encoder:
 云南菜	ync1	409
 晚乘火车	wch1	409
 反犹太	fyt4	409
-中立派	zlp4	409
 配货网	phw3	409
 我并不是	wbb2	409
 爬墙虎	pqh3	409
@@ -59402,6 +59364,7 @@ encoder:
 共求发展	gqf5	409
 骗奸	pqj1	409
 和岳父	hyf3	409
+冯媛甄	fyz4	409
 春闺	cfg1	409
 毛混纺	mhf4	409
 拜科努尔	bkn2	409
@@ -59416,7 +59379,6 @@ encoder:
 天国阶梯	tgj3	409
 凝固剂	ngj2	409
 豆乳	dsr5	409
-绒裤	rlk1	409
 野鼠	yis5	409
 透明皂	tmz1	409
 电控柜	dkg5	409
@@ -59569,6 +59531,7 @@ encoder:
 陶瓷球	tcq4	409
 大谬不然	dmb4	409
 细胞体	xbt1	409
+法雷奥	flv1	409
 离子棒	lzb1	409
 赛宁	sin1	409
 签到贴	qdt2	409
@@ -59580,7 +59543,6 @@ encoder:
 农谚	niy3	409
 滋补药	zby4	409
 蓝蔻	lkk5	409
-窗帘轨道	clg4	409
 女特警	ntj4	409
 充气袋	cqd3	409
 催情粉	cqf5	409
@@ -59593,7 +59555,6 @@ encoder:
 泸沽	lvg1	409
 难上难	nsn4	409
 脱漆剂	tqj2	409
-扁长	bwc3	409
 春秋装	cqz3	409
 对猪弹琴	dzt5	409
 而忽视	vhs3	409
@@ -59692,6 +59653,7 @@ encoder:
 七情六欲	qql3	409
 抛砖引玉	pzy4	409
 拍案惊奇	pvj2	409
+弱肉强食	rrq3	409
 婀娜多姿	vnd5	409
 妙不可言	mbk4	409
 同日而语	trv2	409
@@ -59721,7 +59683,6 @@ encoder:
 儿女情长	vnq3	409
 看破红尘	kph1	409
 人杰地灵	rjd4	409
-秀色可餐	xsk4	409
 男欢女爱	nhn5	409
 出水芙蓉	csf2	409
 吹灰之力	chz5	409
@@ -59857,6 +59818,7 @@ encoder:
 铁板一块	tby3	409
 人心不古	rxb1	409
 求贤若渴	qxr5	409
+量力而为	llv4	409
 孔孟之道	kmz4	409
 人文荟萃	rwh1	409
 提纲挈领	tgq2	409
@@ -59923,7 +59885,6 @@ encoder:
 财迷心窍	cmx5	409
 执牛耳	znv1	409
 能者多劳	nzd5	409
-豺狼虎豹	clh4	409
 泛泛之交	ffz3	409
 奖罚分明	jff3	409
 外圆内方	wyn4	409
@@ -60036,7 +59997,6 @@ encoder:
 人同此心	rtc4	409
 此伏彼起	cfb5	409
 五劳七伤	wlq5	409
-方腊起义	flq3	409
 胶体溶液	jtr4	409
 柳绿花红	llh1	409
 天随人愿	tsr4	409
@@ -60105,7 +60065,7 @@ encoder:
 饿虎扑羊	vhp2	409
 出没无常	cmw2	409
 吊民伐罪	dmf1	409
-易子而食	yzv4	409
+易子而食	yzv3	409
 旷古未有	kgw2	409
 安内攘外	vnr2	409
 安闲自在	vxz1	409
@@ -60113,6 +60073,7 @@ encoder:
 出死入生	csr1	409
 粗通文墨	ctw1	409
 倒果为因	dgw1	409
+发愤忘食	ffw3	409
 风行草偃	fxc5	409
 躬逢其盛	gfq2	409
 过桥抽板	gqc5	409
@@ -60174,6 +60135,7 @@ encoder:
 比物连类	bwl1	409
 彼倡此和	bcc2	409
 兵出无名	bcw2	409
+并日而食	brv3	409
 病民蛊国	bmg4	409
 博闻多识	bwd3	409
 跛鳖千里	bbq2	409
@@ -60188,11 +60150,13 @@ encoder:
 茶饭无心	cfw4	409
 唱筹量沙	ccl3	409
 超凡出世	cfc5	409
+丑类恶物	clv3	409
 臭不可当	cbk5	409
 出乖弄丑	cgn2	409
 春风风人	cff3	409
 春风和气	cfh3	409
 慈乌反哺	cwf4	409
+粗衣恶食	cyv3	409
 存亡未卜	cww2	409
 带牛佩犊	dnp1	409
 殆无孑遗	dwj4	409
@@ -60208,7 +60172,7 @@ encoder:
 掇臀捧屁	dtp3	409
 扼襟控咽	vjk1	409
 恶叉白赖	vcb2	409
-恶衣蔬食	vys4	409
+恶衣恶食	vyv3	409
 饿殍载道	vpz4	409
 遏恶扬善	vvy2	409
 恩德如山	vdr2	409
@@ -60321,7 +60285,6 @@ encoder:
 没法没天	mfm1	409
 扪参历井	msl3	409
 扪心无愧	mxw5	409
-迷离惝恍	mlc5	409
 靡然向风	mrx3	409
 面北眉南	mbm1	409
 面壁功深	mbg1	409
@@ -60330,9 +60293,9 @@ encoder:
 面如傅粉	mrf5	409
 面如灰土	mrh1	409
 渺不足道	mbz4	409
-灭此朝食	mcz4	409
 民不堪命	mbk5	409
 民和年丰	mhn2	409
+民穷财尽	mqc4	409
 鸣鼓而攻	mgv3	409
 铭心镂骨	mxl2	409
 谬采虚声	mcx2	409
@@ -60385,6 +60348,7 @@ encoder:
 弃瑕取用	qxq3	409
 器宇不凡	qyb4	409
 千变万状	qbw4	409
+千里鹅毛	qlv3	409
 前挽后推	qwh4	409
 潜移暗化	qyv3	409
 羌无故实	qwg1	409
@@ -60405,6 +60369,7 @@ encoder:
 惹草拈花	rcn3	409
 热血动物	rxd3	409
 人非木石	rfm1	409
+人浮于食	rfy3	409
 人千人万	rqr5	409
 人死留名	rsl2	409
 人亡物在	rww1	409
@@ -60435,7 +60400,6 @@ encoder:
 赏同罚异	stf1	409
 深根固柢	sgg4	409
 升堂入室	str1	409
-尸禄素餐	sls4	409
 识时通变	sst5	409
 世道人情	sdr2	409
 视同秦越	stq4	409
@@ -60498,7 +60462,6 @@ encoder:
 一蹴而得	ycv1	409
 义海恩山	yhv2	409
 异途同归	ytt5	409
-易于反掌	yyf3	409
 应天承运	ytc4	409
 有目共见	ymg3	409
 张王李赵	zwl3	409
@@ -60594,7 +60557,7 @@ encoder:
 哀感顽艳	vgw5	409
 哀鸿遍地	vhb5	409
 哀毁瘠立	vhj4	409
-哀梨蒸食	vlz4	409
+哀梨蒸食	vlz3	409
 哀天叫地	vtj5	409
 挨肩并足	vjb2	409
 矮人观场	vrg3	409
@@ -60678,6 +60641,7 @@ encoder:
 薄唇轻言	bcq4	409
 抱关击柝	bgj4	409
 抱屈衔冤	bqx4	409
+抱瓮出灌	bwc4	409
 背恩弃义	bvq3	409
 背恩忘义	bvw3	409
 被宠若惊	bcr2	409
@@ -60714,6 +60678,7 @@ encoder:
 不敢旁骛	bgp5	409
 不遑宁处	bhn2	409
 不饥不寒	bjb4	409
+不了而了	blv5	409
 不宁唯是	bnw2	409
 不期而会	bqv5	409
 不擒二毛	bqv3	409
@@ -60757,8 +60722,6 @@ encoder:
 乘轻驱肥	cqq5	409
 吃瓦片儿	cwp3	409
 池鱼堂燕	cyt4	409
-持蠡测海	clc4	409
-持论公允	clg3	409
 赤壁鏖兵	cbv3	409
 冲冠怒发	cgn4	409
 冲云破雾	cyp5	409
@@ -60769,14 +60732,14 @@ encoder:
 出浅入深	cqr1	409
 出言吐气	cyt3	409
 出一头地	cyt5	409
-除狼得虎	cld3	409
 础泣而雨	cqv1	409
 楚管蛮弦	cgm5	409
+触类而通	clv4	409
 传为笑柄	cwx3	409
 怆天呼地	cth5	409
 炊粱跨卫	clk1	409
 槌仁提义	crt3	409
-鹑居鷇饮	cjk3	409
+鹑居鷇食	cjk3	409
 戳无路儿	cwl3	409
 此呼彼应	chb1	409
 从风而服	cfv5	409
@@ -60810,7 +60773,7 @@ encoder:
 盗名暗世	dmv5	409
 道傍苦李	dbk5	409
 道貌凛然	dml4	409
-道听耳食	dtv4	409
+道听耳食	dtv3	409
 得不补失	dbb3	409
 德洋恩普	dyv2	409
 德輶如羽	dyr4	409
@@ -60836,10 +60799,9 @@ encoder:
 断梗浮萍	dgf1	409
 敦默寡言	dmg4	409
 遁名匿迹	dmn4	409
-多历年稔	dln4	409
 讹以传讹	vyc3	409
 鹅湖之会	vhz5	409
-扼吭夺食	vhd4	409
+扼吭夺食	vhd3	409
 扼腕抵掌	vwd3	409
 扼腕长叹	vwc5	409
 恶尘无染	vcw1	409
@@ -60861,7 +60823,6 @@ encoder:
 二分明月	vfm3	409
 二佛涅槃	vfn1	409
 二惠竞爽	vhj3	409
-二龙戏珠	vlx2	409
 二三君子	vsj5	409
 二心三意	vxs4	409
 发蒙解惑	fmj4	409
@@ -60915,6 +60876,7 @@ encoder:
 分文未取	fww5	409
 焚典坑儒	fdk2	409
 焚符破玺	ffp4	409
+焚林而畋	flv3	409
 粉骨糜躯	fgm3	409
 奋不顾命	fbg5	409
 奋袂而起	fmv5	409
@@ -61169,6 +61131,7 @@ encoder:
 江山如画	jsr5	409
 降颜屈体	jyq1	409
 搅海翻江	jhf1	409
+教妇初来	jfc4	409
 嗟悔无及	jhw4	409
 诘屈磝碻	jqv2	409
 竭力虔心	jlq4	409
@@ -61177,6 +61140,7 @@ encoder:
 戒奢宁俭	jsn1	409
 借公行私	jgx5	409
 金龟换酒	jgh1	409
+锦衣肉食	jyr3	409
 锦营花阵	jyh1	409
 进道若蜷	jdr5	409
 进旅退旅	jlt4	409
@@ -61186,7 +61150,9 @@ encoder:
 惊心骇瞩	jxh4	409
 鲸波怒浪	jbn4	409
 鲸波鼍浪	jbt4	409
+井渫莫食	jxm3	409
 久怀慕蔺	jhm4	409
+旧仇宿怨	jcs4	409
 就棍打腿	jgd4	409
 居不重席	jbc2	409
 居官守法	jgs5	409
@@ -61212,7 +61178,6 @@ encoder:
 可操左券	kcz5	409
 渴尘万斛	kcw1	409
 渴而穿井	kvc3	409
-渴者易饮	kzy3	409
 克爱克威	kvk4	409
 克伐怨欲	kfy3	409
 刻薄寡思	kbg4	409
@@ -61277,8 +61242,8 @@ encoder:
 兰桂齐芳	lgq4	409
 阑风伏雨	lff1	409
 烂若披掌	lrp3	409
-狼飡虎食	lch4	409
 狼吃幞头	lcf1	409
+狼虫虎豹	lch4	409
 乐极哀来	ljv4	409
 乐往哀来	lwv4	409
 乐业安居	lyv1	409
@@ -61308,7 +61273,6 @@ encoder:
 撩蜂剔蝎	lft5	409
 燎如观火	lrg4	409
 料峭春寒	lqc4	409
-列鼎而食	ldv4	409
 列土封疆	ltf1	409
 林栖谷隐	lqg4	409
 临财不苟	lcb2	409
@@ -61341,6 +61305,7 @@ encoder:
 鹭朋鸥侣	lpv2	409
 鸾歌凤舞	lgf2	409
 鸾交凤俦	ljf1	409
+论甘忌辛	lgj4	409
 落落穆穆	llm3	409
 落魄不偶	lpb4	409
 率土归心	stg4	409
@@ -61436,6 +61401,7 @@ encoder:
 末路穷途	mlq4	409
 末路之难	mlz4	409
 末学肤受	mxf5	409
+莫知所为	mzs4	409
 墨汁未干	mzw1	409
 墨子泣丝	mzq1	409
 默契神会	mqs5	409
@@ -61752,6 +61718,7 @@ encoder:
 人莫予毒	rmy4	409
 人贫智短	rpz4	409
 人强胜天	rqs1	409
+人情世态	rqs4	409
 人情汹汹	rqx5	409
 人取我与	rqw1	409
 人涉卬否	rsv2	409
@@ -61776,8 +61743,7 @@ encoder:
 任怨任劳	ryr5	409
 日不我与	rbw1	409
 日短心长	rdx3	409
-日旰不食	rgb4	409
-日旰忘餐	rgw4	409
+日旰忘餐	rgw3	409
 日丽风和	rlf2	409
 日陵月替	rly2	409
 日莫途远	rmt4	409
@@ -61790,9 +61756,9 @@ encoder:
 日月不居	ryb1	409
 日月其除	ryq1	409
 日月逾迈	ryy4	409
-日昃忘食	rzw4	409
+日昃不食	rzb3	409
+日昃旰食	rzg3	409
 日炙风吹	rzf3	409
-日中必移	rzb3	409
 日中为市	rzw2	409
 戎马劻勷	rmk5	409
 荣古陋今	rgl5	409
@@ -61896,7 +61862,6 @@ encoder:
 谈论风生	tlf1	409
 谈笑封侯	txf3	409
 痰迷心窍	tmx5	409
-螳螂黄雀	tlh4	409
 韬光敛彩	tgl3	409
 韬形灭影	txm3	409
 饕风虐雪	tfn5	409
@@ -61905,7 +61870,6 @@ encoder:
 提名道姓	tmd1	409
 啼天哭地	ttk5	409
 体无完皮	tww5	409
-涕零如雨	tlr1	409
 天成地平	tcd1	409
 天地诛灭	tdz4	409
 天付良缘	tfl1	409
@@ -61945,7 +61909,6 @@ encoder:
 同敝相济	tbx3	409
 同床各梦	tcg3	409
 同德一心	tdy4	409
-同盘而食	tpv4	409
 铜城铁壁	tct1	409
 铜筋铁肋	tjt5	409
 铜围铁马	twt5	409
@@ -62006,14 +61969,12 @@ encoder:
 妄尘而拜	wcv1	409
 忘年之好	wnz5	409
 忘年之契	wnz1	409
-忘寝废食	wqf4	409
-忘情负义	wqf3	409
+忘寝废食	wqf3	409
 望尘僄声	wcp2	409
 望梅阁老	wmg3	409
 望其肩项	wqj2	409
 望洋而叹	wyv5	409
 危言逆耳	wyn1	409
-逶迤退食	wyt4	409
 微过细故	wgx3	409
 韦裤布被	wkb5	409
 为民父母	wmf4	409
@@ -62084,6 +62045,7 @@ encoder:
 橡皮钉子	xpd5	409
 枭俊禽敌	xjq3	409
 小德出入	xdc4	409
+小炉儿匠	xlv3	409
 孝子爱日	xzv2	409
 携男挈女	xnq5	409
 蟹匡蝉緌	xkc5	409
@@ -62109,6 +62071,7 @@ encoder:
 削草除根	xcc4	409
 血风肉雨	xfr1	409
 寻根拔树	xgb1	409
+询事考言	xsk4	409
 鸭步鹅行	ybv1	409
 言不二价	ybv3	409
 言之过甚	yzg5	409
@@ -62136,7 +62099,6 @@ encoder:
 一文如命	ywr5	409
 怡情理性	yql1	409
 易同反掌	ytf3	409
-易子而教	yzv3	409
 意气相得	yqx1	409
 溢美溢恶	ymy4	409
 因难见巧	ynj5	409
@@ -62149,7 +62111,7 @@ encoder:
 迎风冒雪	yfm5	409
 忧公忘私	ygw5	409
 幽期密约	yqm4	409
-有例可援	ylk5	409
+鱼烂而亡	ylv4	409
 逾年历岁	ynl3	409
 鹬蚌相危	ybx5	409
 原封未动	yfw5	409
@@ -62161,6 +62123,7 @@ encoder:
 凿坏而遁	zhv4	409
 凿空取办	zkq4	409
 凿坯而遁	zpv4	409
+择邻而居	zlv1	409
 择主而事	zzv2	409
 张袂成阴	zmc3	409
 长恶靡悛	cvm3	409
@@ -62318,6 +62281,7 @@ encoder:
 可以买	kym1	409
 哈密	hom2	409
 可以吗	kym5	409
+奥运圣火	vys4	409
 奥运火炬	vyh5	409
 容祖儿	rzv3	409
 可以打	kyd1	409
@@ -62332,6 +62296,7 @@ encoder:
 我能够	wng3	409
 阿勒泰	vlt2	409
 人死	ras3	409
+日均	rij4	409
 可不能	kbn3	409
 工作内容	gzn2	409
 昌都	cid5	409
@@ -62371,6 +62336,7 @@ encoder:
 地球人	dqr3	409
 无话可说	whk3	409
 那英	nuy3	409
+海拉尔	hlv2	409
 安全可靠	vqk1	409
 无法忍受	wfr5	409
 胖的	pud4	409
@@ -62404,7 +62370,6 @@ encoder:
 安平县	vpx5	409
 万柏林	wbl1	409
 充满希望	cmx1	409
-胜的	sud4	409
 目标任务	mbr5	409
 祁连	qyl4	409
 梅艳芳	myf4	409
@@ -62493,7 +62458,6 @@ encoder:
 百度贴吧	bdt5	409
 狗血	gqx2	409
 汶川县	wcx5	409
-邕宁	yln1	409
 怎么能够	zmn3	409
 汨罗	mvl3	409
 宁县	nix5	409
@@ -62550,12 +62514,14 @@ encoder:
 难以忍受	nyr5	409
 开发过程	kfg1	409
 上投	set5	409
+布莱尔	blv2	409
 宁阳	niy2	409
 钓到	dad2	409
 脍炙	kuz4	409
 突发奇想	tfq4	409
 固安	gov5	409
 吴镇	woz3	409
+纯爱	clv5	409
 不能看	bnk2	409
 律法	lpf5	409
 大可不必	dkb3	409
@@ -62566,7 +62532,7 @@ encoder:
 安倍	vib2	409
 量贩	lif5	409
 憋屈	bdq2	409
-日偏食	rps4	409
+日偏食	rps3	409
 哭哭	kok4	409
 五年内	wnn3	409
 棚户	pmh5	409
@@ -62705,13 +62671,11 @@ encoder:
 日媒	rim1	409
 很红	hph1	409
 飘飘然	ppr4	409
-刘芳	luf4	409
 灵璧	leb4	409
 安吉县	vjx5	409
 开源软件	kyr1	409
 打打闹闹	ddn2	409
 魂牵梦绕	hqm3	409
-惊梦	jxm3	409
 第二页	dvy2	409
 分分秒秒	ffm3	409
 陈同海	cth4	409
@@ -62763,8 +62727,10 @@ encoder:
 男伴	ntb1	409
 狼嚎	lqh1	409
 跑回来	phl4	409
+饿狼	vul4	409
 分分合合	ffh2	409
 光雕	ged4	409
+科学城	kxc4	409
 聂卫平	nwp1	409
 贵为	gow4	409
 透红	thh1	409
@@ -62896,6 +62862,7 @@ encoder:
 砍人	ksr3	409
 满屋子	mwz5	409
 记不起来	jbq4	409
+食色	sus5	409
 人大工作	rdg1	409
 分解成	fjc4	409
 万荣县	wrx5	409
@@ -62962,7 +62929,6 @@ encoder:
 白烟	bny1	409
 哪像	nox3	409
 陈国	cbg4	409
-点餐	dec4	409
 汝城	rvc4	409
 真情实感	zqs4	409
 周蕙	zch4	409
@@ -62975,13 +62941,13 @@ encoder:
 平和县	phx5	409
 外籍人士	wjr1	409
 骂娘	mon4	409
-倍儿	brv3	409
 回民区	hmq3	409
 烤盘	khp2	409
 哭个	kog2	409
 微醺	wpx4	409
 按照法律	vzf1	409
 汤池	tvc5	409
+舒曼	sam5	409
 吓退	xot4	409
 硝烟弥漫	xym5	409
 毛遂	mps4	409
@@ -62989,13 +62955,11 @@ encoder:
 测力	cvl5	409
 法库县	fkx5	409
 任城区	rcq3	409
-无力感	wlg4	409
 能免	nym3	409
 扑鼻而来	pbv4	409
 蓬头	pkt1	409
 固本	gob1	409
 盒内	han3	409
-年龄层	nlc5	409
 模拟考	mnk5	409
 蠡县	lmx5	409
 认沽	rwg1	409
@@ -63152,7 +63116,6 @@ encoder:
 剧评	jpp1	409
 轮辋	lpw4	409
 麻栗坡	mlp5	409
-特立尼达	tln4	409
 跳梁	tnl1	409
 虚有	xey2	409
 软弱无力	rrw5	409
@@ -63339,7 +63302,6 @@ encoder:
 斜插	xac3	409
 不期然	bqr4	409
 吸光	xog5	409
-红泥	hln3	409
 会旗	haq3	409
 尼勒克	nlk3	409
 阿耨多罗	vnd3	409
@@ -63390,7 +63352,6 @@ encoder:
 宁日	nir2	409
 借过	jrg4	409
 按下去	vxq5	409
-舍本	sab1	409
 瘦成	sgc4	409
 恩恩爱爱	vvv5	409
 过不下去	gbx5	409
@@ -63404,6 +63365,7 @@ encoder:
 融合为	rhw4	409
 听惯	tog2	409
 独立出来	dlc4	409
+流浪儿	llv3	409
 橙红	cmh1	409
 牵念	qpn4	409
 加尔文	jvw4	409
@@ -63472,12 +63434,12 @@ encoder:
 结伴同游	jbt5	409
 课堂练习	ktl4	409
 排名表	pmb3	409
-普鲁卡因	plk1	409
 枪案	qmv1	409
 帖木儿	tmv3	409
 鸣凤	mof5	409
 狗娘养的	gny4	409
 口出狂言	kck4	409
+繁文	fqw4	409
 钥匙孔	ysk5	409
 二千年	vqn2	409
 女娲补天	nwb1	409
@@ -63508,6 +63470,7 @@ encoder:
 欧美各国	vmg4	409
 吃盐	coy2	409
 磁感应	cgy1	409
+海拉尔区	hlv3	409
 人民法庭	rmf5	409
 太空漫步	tkm3	409
 沱茶	tvc1	409
@@ -63621,7 +63584,6 @@ encoder:
 南丁格尔	ndg2	409
 膻味	suw2	409
 成核	cgh3	409
-热力四射	rls1	409
 泡子	pvz5	409
 阿凡达	vfd4	409
 肥效	fux3	409
@@ -63768,6 +63730,7 @@ encoder:
 窃国	qig4	409
 米袋	mdd3	409
 二幅	vdf2	409
+巡按	xlv5	409
 满天繁星	mtf1	409
 前途渺茫	qtm4	409
 佩鲁贾	plj2	409
@@ -63799,7 +63762,6 @@ encoder:
 听腻	ton2	409
 冰箱门	bxm4	409
 哀帝	vwd2	409
-爱护动物	vhd3	409
 安固	vig1	409
 安泽县	vzx5	409
 丛谈	cat4	409
@@ -63891,6 +63853,7 @@ encoder:
 起跑点	qpd4	409
 乌药	wby4	409
 擤鼻涕	xbt3	409
+金吾	jaw2	409
 飞驰而去	fcv5	409
 二百人	vbr3	409
 内转	ncz4	409
@@ -64238,7 +64201,6 @@ encoder:
 铺展开来	pzk4	409
 没劲儿	mjv3	409
 破落户	plh5	409
-条痕	tuh4	409
 字眼儿	zyv3	409
 胡吃海喝	hch5	409
 通风孔	tfk5	409
@@ -64287,7 +64249,6 @@ encoder:
 窗缝	cif4	409
 能干扰	ngr4	409
 库银	kgy4	409
-扰人清梦	rrq3	409
 盹儿	dfv3	409
 暗扣	vik2	409
 特权阶级	tqj4	409
@@ -64309,7 +64270,7 @@ encoder:
 缸瓦	gqw4	409
 古根海姆	ggh4	409
 喉片	hop5	409
-颗粒归仓	klg5	409
+甲硫氨酸	jlv3	409
 课后复习	khf4	409
 空耗	kih3	409
 莫拉莱斯	mll3	409
@@ -64380,7 +64341,7 @@ encoder:
 葡萄糖胺	ptt5	409
 劝农	qkn3	409
 阮郎归	rlg5	409
-食饵	sav1	409
+食饵	suv1	409
 棠棣	ted2	409
 洮北区	tbq3	409
 投河自尽	thz4	409
@@ -64388,6 +64349,7 @@ encoder:
 写全	xiq1	409
 心态平衡	xtp1	409
 涨起	zvq5	409
+往前方	wqf4	409
 偷回	trh2	409
 叛匪	pkf1	409
 气喘如牛	qcr1	409
@@ -64488,6 +64450,7 @@ encoder:
 逆风而行	nfv1	409
 鸣炮	mop5	409
 人力车夫	rlc3	409
+破烂儿	plv3	409
 龟肉	gur3	409
 范性	fkx1	409
 判分	pkf5	409
@@ -64552,7 +64515,6 @@ encoder:
 荀况	xkk3	409
 长期共存	cqg5	409
 快去快回	kqk2	409
-舍妹	sam2	409
 虎须	hex2	409
 羌胡	qkh3	409
 拉了一把	lly5	409
@@ -64653,6 +64615,7 @@ encoder:
 恶言恶语	vyv2	409
 颚骨	vog2	409
 漂动	pvd5	409
+溯流而上	slv1	409
 煦暖	xin5	409
 枯肠	kmc3	409
 骄傲起来	jvq4	409
@@ -64740,6 +64703,7 @@ encoder:
 求才若渴	qcr5	409
 开疆辟土	kjp1	409
 开支票	kzp2	409
+舒眉	sam2	409
 按下不表	vxb3	409
 银冠	yag1	409
 兔毫	tuh3	409
@@ -64758,6 +64722,7 @@ encoder:
 白铁皮	btp5	409
 柏柏尔	bbv2	409
 壁架	bpj1	409
+超龄儿童	clv2	409
 大前年	dqn2	409
 灯蛾	dhv4	409
 电复	dif3	409
@@ -64772,7 +64737,6 @@ encoder:
 公开出来	gkc4	409
 旱象	hix3	409
 几何光学	jhg5	409
-缴库	jlk1	409
 杰士派	jsp4	409
 开国纪念	kgj4	409
 开罗宣言	klx4	409
@@ -64876,7 +64840,6 @@ encoder:
 噶伦	gol3	409
 肛门口	gmk2	409
 杲杲	gig1	409
-各唱	guc2	409
 苟且偷安	gqt5	409
 规划人员	ghr2	409
 腘窝	guw3	409
@@ -65057,6 +65020,7 @@ encoder:
 恶形恶状	vxv4	409
 官派	gip4	409
 探口风	tkf3	409
+德雷尔	dlv2	409
 凤辇	fnn1	409
 馋鬼	cug5	409
 翕张	xaz3	409
@@ -65113,7 +65077,6 @@ encoder:
 宽免	kim3	409
 累日	ltr2	409
 李千娜	lqn5	409
-理论派	llp4	409
 林冲夜奔	lcy1	409
 马尼托巴	mnt5	409
 邈邈	mzm4	409
@@ -65121,6 +65084,7 @@ encoder:
 民众服务	mzf5	409
 铭旌	maj1	409
 谋虑	mwl4	409
+谋食	mws3	409
 乃堆拉	ndl4	409
 南平地区	npd3	409
 南阳盆地	nyp5	409
@@ -65137,6 +65101,7 @@ encoder:
 平复帖	pft2	409
 凭票入场	ppr3	409
 普通名词	ptm2	409
+谱写成	pxc4	409
 骑田岭	qtl5	409
 秦惠文王	qhw1	409
 穷竭	qij5	409
@@ -65250,7 +65215,6 @@ encoder:
 梅西耶	mxy5	409
 每付	mqf1	409
 秒差距	mcj5	409
-谬说	mws3	409
 拿顶	nad2	409
 南北纬	nbw2	409
 南极光	njg5	409
@@ -65293,6 +65257,7 @@ encoder:
 同胞爱	tbv5	409
 同命鸟	tmn1	409
 荼毗	tkp3	409
+脱漏	tul1	409
 外核	wuh3	409
 畏葸	wtx4	409
 无冕王	wmw1	409
@@ -65357,6 +65322,7 @@ encoder:
 陈三五娘	csw4	409
 成果辉煌	cgh1	409
 乘兴而去	cxv5	409
+饬令	cul5	409
 电插头	dct1	409
 雕绘	dch5	409
 锭剂	daj2	409
@@ -65436,7 +65402,6 @@ encoder:
 秋耕	qhg3	409
 髯口	rck2	409
 染患	rvh4	409
-扰乱治安	rlz5	409
 热痉挛	rjl3	409
 人造橡胶	rzx3	409
 日本脑炎	rbn4	409
@@ -65451,6 +65416,7 @@ encoder:
 天纳克	tnk3	409
 铁板牛柳	tbn5	409
 亭午	tww1	409
+屯戍	tss4	409
 脱然	tur4	409
 万国公报	wgg5	409
 洗光	xvg5	409
@@ -65523,7 +65489,6 @@ encoder:
 别趣	boq5	409
 补气固表	bqg3	409
 草木鸟兽	cmn2	409
-茶里王	clw1	409
 觇标	ceb2	409
 超迁	ctq4	409
 出花儿	chv3	409
@@ -65550,6 +65515,7 @@ encoder:
 粉坊	fdf4	409
 风瘫	fnt4	409
 复合命题	fhm2	409
+旮旯儿	glv3	409
 赶任务	grw5	409
 羔羊皮	gyp5	409
 个屁阿	gpv2	409
@@ -65836,6 +65802,7 @@ encoder:
 豹皮帽	bpm2	409
 陂陀	pbt3	409
 备车前往	bcq1	409
+鼻梁儿	blv3	409
 鼻牛儿	bnv3	409
 哔哔啪啪	bbp3	409
 避匿	bpn2	409
@@ -65858,7 +65825,6 @@ encoder:
 步枪团	bqt3	409
 蔡丰州	cfz4	409
 蔡志杰	czj4	409
-苍蝇儿	cyv3	409
 鸧鹒	cag1	409
 藏垢纳污	cgn5	409
 草团瓢	ctp4	409
@@ -65904,7 +65870,6 @@ encoder:
 搭轻铁	dqt3	409
 达荷美	dhm1	409
 打磨盘	dmp2	409
-打挺儿	dtv3	409
 大兵日记	dbr5	409
 大布棚	dbp3	409
 大面儿上	dmv1	409
@@ -65965,7 +65930,6 @@ encoder:
 二二拍子	vvp5	409
 二姑母	vgm4	409
 二婚头	vht1	409
-二林镇	vlz3	409
 二轮马车	vlm1	409
 二奶专家	vnz1	409
 二撇胡	vph3	409
@@ -66028,7 +65992,6 @@ encoder:
 复共轭	fgv5	409
 复健科	fjk1	409
 复酱瓿	fjb4	409
-复礼克己	flk5	409
 复氧能力	fyn5	409
 复子明辟	fzm4	409
 富春秋	fcq4	409
@@ -66095,12 +66058,13 @@ encoder:
 黄梅季	hmj5	409
 黄热病毒	hrb4	409
 恢廓	hxk5	409
+饥虎扑食	jhp3	409
 鸡吵鹅斗	jcv1	409
 积化和差	jhh1	409
 急拍拍	jpp3	409
-嘉义人	jyr3	409
 间接人工	jjr1	409
 降格相求	jgx4	409
+角曲尺	jqc4	409
 脚钱	juq1	409
 噍类	jol1	409
 尽场儿	jcv3	409
@@ -66137,7 +66101,6 @@ encoder:
 可憎娘	kzn4	409
 可展曲面	kzq1	409
 渴不可耐	kbk1	409
-渴饮饥餐	kyj4	409
 克克尔	kkv2	409
 克里普斯	klp3	409
 克鲁斯州	kls4	409
@@ -66176,6 +66139,7 @@ encoder:
 奎尼匹克	knp3	409
 魁岸	knv1	409
 魁人党	krd3	409
+锟铻	kaw2	409
 捆成一堆	kcy4	409
 困惫	kob4	409
 拉盖尔	lgv2	409
@@ -66183,6 +66147,7 @@ encoder:
 赖比瑞亚	lbr1	409
 蓝田出玉	ltc4	409
 老哥儿们	lgv4	409
+老郎庵	llv5	409
 老面皮	lmp5	409
 了然不惑	lrb4	409
 了无长进	lwz4	409
@@ -66191,6 +66156,7 @@ encoder:
 离娘饭	lnf5	409
 历历如绘	llr5	409
 立方公分	lfg5	409
+连带而来	ldv4	409
 廉洁可风	ljk3	409
 脸盘儿	lpv3	409
 两边讨好	lbt5	409
@@ -66319,7 +66285,6 @@ encoder:
 尿肥	npf5	409
 颞颥	nbr2	409
 甯戚扣角	nqk3	409
-牛排餐	npc4	409
 牛排肉	npr3	409
 牛皮色	nps5	409
 牛肉芹菜	nrq1	409
@@ -66432,7 +66397,9 @@ encoder:
 齐克果	qkg1	409
 其次辟地	qcp5	409
 奇览	qpl3	409
+奇里安	qlv5	409
 奇蹄类	qtl1	409
+乞留恶滥	qlv2	409
 起爆点	qbd4	409
 起根发脚	qgf5	409
 气不忿儿	qbf3	409
@@ -66584,6 +66551,7 @@ encoder:
 特卖品	tmp2	409
 特权分子	tqf5	409
 腾空而过	tkv4	409
+提篮儿	tlv3	409
 啼明	tom3	409
 替班儿	tbv3	409
 天前配	tqp5	409
@@ -66614,7 +66582,6 @@ encoder:
 退坡	tep5	409
 拖牵索道	tqs4	409
 脱粟	tus4	409
-脱误	tuw1	409
 崴泥	wen3	409
 外舅	wuj5	409
 外埔	wup4	409
@@ -66647,6 +66614,7 @@ encoder:
 魏平澳	wpv1	409
 文凭主义	wpz3	409
 文坛人士	wtr1	409
+纹缕儿	wlv3	409
 闻名四方	wms4	409
 窝藏祸心	wch4	409
 沃灌	wvg4	409
@@ -66655,6 +66623,7 @@ encoder:
 乌梅酒	wmj1	409
 乌西亚	wxy1	409
 无理方程	wlf1	409
+无烟炭	wyt4	409
 梧栖港	wqg5	409
 五分法身	wff3	409
 五坪	wwp1	409
@@ -67004,6 +66973,7 @@ encoder:
 没碰	mvp1	409
 是你吗	snm5	409
 那雪	nux5	409
+来了啊	llv2	409
 任何关系	rhg2	409
 你的样子	ndy5	409
 饶了我	rlw4	409
@@ -67054,10 +67024,10 @@ encoder:
 了解你	ljn2	409
 人长得	rzd1	409
 我从没	wcm5	409
-这屋	zuw1	409
 满足你	mzn2	409
 可以改变	kyg5	409
 剔骨	tig2	409
+漂亮啊	plv2	409
 我脱	wvt3	409
 中兵	zob3	409
 而如今	vrj5	409
@@ -67129,7 +67099,6 @@ encoder:
 群妖	qey1	409
 太漂亮	tpl3	409
 刚刚那个	ggn2	409
-喘了口气	clk3	409
 放了你	fln2	409
 能忘记	nwj5	409
 从其他	cqt5	409
@@ -67183,6 +67152,7 @@ encoder:
 小情人	xqr3	409
 她姐	tnj2	409
 按照你的	vzn4	409
+可以减	kyj4	409
 人为的	rwd4	409
 我女朋友	wnp5	409
 微翘	wpq4	409
@@ -67230,6 +67200,7 @@ encoder:
 那些年	nxn2	409
 没办法啊	mbf2	409
 微怒	wpn4	409
+让给我	rgw4	409
 连弩	lpn5	409
 早啊	ziv2	409
 而形成	vxc4	409
@@ -67256,7 +67227,6 @@ encoder:
 通知他们	tzt4	409
 欣慰地	xwd5	409
 碰到过	pdg4	409
-如果我说	rgw3	409
 虎吼	heh5	409
 太年轻	tnq1	409
 在虚拟	zxn3	409
@@ -67270,6 +67240,7 @@ encoder:
 脾气暴躁	pqb1	409
 她妈妈	tmm5	409
 跑远	pny4	409
+心里暗想	xlv4	409
 非常热	fcr4	409
 机炮	jmp5	409
 腰牌	yup1	409
@@ -67368,6 +67339,7 @@ encoder:
 嗷呜	vow1	409
 问个明白	wgm3	409
 我看到的	wkd4	409
+上了二楼	slv5	409
 金鳌	jav3	409
 等了很久	dlh4	409
 来看看我	lkk4	409
@@ -67422,6 +67394,7 @@ encoder:
 是哦	siv4	409
 太完美了	twm5	409
 理由吗	lym5	409
+为了爱	wlv5	409
 我们认为	wmr4	409
 放一放	fyf3	409
 尿裤	npk1	409
@@ -67466,6 +67439,7 @@ encoder:
 会娶	haq5	409
 同其他	tqt5	409
 退无可退	twk4	409
+一阵恶心	yzv4	409
 很饿	hpv4	409
 毛球	mpq4	409
 你还是要	nhs5	409
@@ -67529,7 +67503,6 @@ encoder:
 人代表	rdb3	409
 爱好和平	vhh1	409
 能穿透	nct4	409
-甩给	sug2	409
 而奋斗	vfd1	409
 老乞丐	lqg5	409
 私人恩怨	srv4	409
@@ -67582,7 +67555,6 @@ encoder:
 不要放在	byf1	409
 从低	cad4	409
 变成你	bcn2	409
-胸无	xuw3	409
 不会考虑	bhk4	409
 测过	cvg4	409
 钱也没	qym5	409
@@ -67593,8 +67565,10 @@ encoder:
 勒普	lkp2	409
 银鹰	yay1	409
 一千七	yqq1	409
+夺路而逃	dlv4	409
 哐当	kod5	409
 路引	lny2	409
+努力啊	nlv2	409
 不太高兴	btg3	409
 可曾想	kcx4	409
 齐腰	quy5	409
@@ -67696,6 +67670,7 @@ encoder:
 那附近	nfj4	409
 她老公	tlg5	409
 不跟你们	bgn4	409
+多隆	dul1	409
 贵妃娘娘	gfn4	409
 刘丹	lud4	409
 矮人部落	vrb2	409
@@ -68006,6 +67981,7 @@ encoder:
 相去不远	xqb4	409
 那他就是	ntj2	409
 特工人员	tgr2	409
+用谁	yus4	409
 我看过了	wkg5	409
 愤怒不已	fnb5	409
 陪我出去	pwc5	409
@@ -68103,7 +68079,6 @@ encoder:
 如今他已	rjt5	409
 我不去了	wbq5	409
 不能强求	bnq4	409
-肝的	gud4	409
 我年轻时	wnq1	409
 辉点	hed4	409
 起变化	qbh3	409
@@ -68148,6 +68123,7 @@ encoder:
 暗中控制	vzk2	409
 那不要	nby5	409
 跑不快	pbk3	409
+太饿	tpv4	409
 外藩	wuf2	409
 值得夸耀	zdk4	409
 非不能	fbn3	409
@@ -68208,6 +68184,7 @@ encoder:
 太丰富了	tff5	409
 地矿	dtk4	409
 取得更大	qdg1	409
+让着我	rzw4	409
 发给他们	fgt4	409
 官民	gim1	409
 皮丘	pgq1	409
@@ -68279,7 +68256,6 @@ encoder:
 激情澎湃	jqp1	409
 轻轻柔柔	qqr1	409
 上团	set3	409
-胜势	sus5	409
 天气热	tqr4	409
 灭了它	mlt3	409
 判为	pkw4	409
@@ -68451,6 +68427,7 @@ encoder:
 漫天飞雪	mtf5	409
 忍着恶心	rzv4	409
 任主席	rzx2	409
+日落而息	rlv4	409
 如今你已	rjn5	409
 在报名	zbm2	409
 中国科学	zgk5	409
@@ -68464,9 +68441,9 @@ encoder:
 免进	muj4	409
 齐妃	quf5	409
 圈跑	qop5	409
-人类活动	rlh5	409
 展翅翱翔	zcv4	409
 安置下来	vzx4	409
+到了儿	dlv3	409
 刘村	luc1	409
 男儿膝下	nvx2	409
 钱松	qas5	409
@@ -68604,6 +68581,7 @@ encoder:
 那拨	nub4	409
 让我妈	rwm5	409
 人球分过	rqf4	409
+走了哦	zlv4	409
 靠父母	kfm4	409
 刻纹	kww4	409
 分配问题	fpw2	409
@@ -68647,6 +68625,7 @@ encoder:
 镂花	lah3	409
 你还太嫩	nht3	409
 钱成	qac4	409
+谈恋爱了	tlv5	409
 点炮	dep5	409
 高空球	gkq4	409
 垃圾啊	ljv2	409
@@ -68668,7 +68647,6 @@ encoder:
 噢噢噢	vvv1	409
 偶然地	vrd5	409
 蔷薇骑士	qwq1	409
-热烈讨论	rlt3	409
 吴坤修	wkx3	409
 拥她入怀	ytr2	409
 阿土伯	vtb3	409
@@ -68714,7 +68692,7 @@ encoder:
 梦想破灭	mxp4	409
 你没法	nmf5	409
 吻戏	wox1	409
-饵食	vus4	409
+饵食	vus3	409
 放学回家	fxh1	409
 贱啊	jhv2	409
 任意改	ryg3	409
@@ -68781,6 +68759,7 @@ encoder:
 安平国	vpg4	409
 别跪	bog5	409
 恶魔翅膀	vmc4	409
+好了哦	hlv4	409
 快点哦	kdv4	409
 年方二八	nfv3	409
 攀至	pmz1	409
@@ -68792,6 +68771,7 @@ encoder:
 发生口角	fsk3	409
 降临人世	jlr5	409
 安全中心	vqz4	409
+暗号的	vhd4	409
 班委	bfw5	409
 暴秦	biq3	409
 你回家了	nhj5	409
@@ -68810,6 +68790,7 @@ encoder:
 赤月恶魔	cyv5	409
 发觉不了	fjb5	409
 烤糊	khh3	409
+农商	nis2	409
 让同学们	rtx4	409
 新的篇章	xdp1	409
 爱自然	vzr4	409
@@ -68877,6 +68858,7 @@ encoder:
 还没回家	hmh1	409
 还有人吗	hyr5	409
 亭脚	twj5	409
+格里恩	glv4	409
 毁灭天地	hmt5	409
 路盲	lnm2	409
 人都哭	rdk4	409
@@ -68931,6 +68913,7 @@ encoder:
 格萨尔王	gsv1	409
 脑花	nuh3	409
 泡了杯茶	plb1	409
+绕路而行	rlv1	409
 软底	rpd4	409
 色浅	suq1	409
 坦帕	ttp3	409
@@ -68940,6 +68923,7 @@ encoder:
 不太困难	btk4	409
 发展农业	fzn1	409
 你想干吗	nxg5	409
+纽埃	nlv3	409
 她呐	tnn3	409
 武器铺	wqp4	409
 爱你一生	vny1	409
@@ -69005,7 +68989,6 @@ encoder:
 通盘考虑	tpk4	409
 写篇	xip1	409
 姓成	xnc4	409
-胸带	xud2	409
 拔剑而起	bjv5	409
 被批评	bpp1	409
 饼状	buz4	409
@@ -69032,7 +69015,6 @@ encoder:
 堪称奇迹	kcq4	409
 苦逼	kkb4	409
 买了票	mlp2	409
-猛虎扑食	mhp4	409
 胖娃	puw1	409
 喷流	pol3	409
 枪子儿	qzv3	409
@@ -69091,6 +69073,7 @@ encoder:
 千年古都	qng5	409
 桥南	qmn1	409
 让市场	rsc3	409
+无聊哦	wlv4	409
 现付	xff1	409
 车宽	cpk3	409
 脆化	cuh3	409
@@ -69386,6 +69369,7 @@ encoder:
 艾夫吉夫	vfj3	409
 艾克医院	vky3	409
 艾肯泉	vkq2	409
+艾利之书	vlz4	409
 艾林法顿	vlf2	409
 艾梦萌	vmm3	409
 艾米纳姆	vmn4	409
@@ -69405,7 +69389,7 @@ encoder:
 爱财爱己	vcv5	409
 爱超越	vcy4	409
 爱吃啊	vcv2	409
-爱错了人	vcl3	409
+爱吃零食	vcl3	409
 爱党爱国	vdv4	409
 爱得起	vdq5	409
 爱得太多	vdt3	409
@@ -69518,7 +69502,6 @@ encoder:
 安小兔	vxt4	409
 安心考试	vxk1	409
 安心恬荡	vxt3	409
-安婴儿	vyv3	409
 安置房	vzf4	409
 安装场地	vzc5	409
 安装扩展	vzk5	409
@@ -69728,6 +69711,7 @@ encoder:
 串案	cov1	409
 创安	cav5	409
 慈航普度	chp5	409
+此类案件	clv1	409
 次乌头碱	cwt4	409
 聪明难	cmn4	409
 从外而来	cwv4	409
@@ -69778,6 +69762,7 @@ encoder:
 代工费	dgf2	409
 代码片	dmp5	409
 贷款欺诈	dkq1	409
+戴头而来	dtv4	409
 丹杞颗粒	dqk4	409
 单词片言	dcp4	409
 单峰分布	dff2	409
@@ -69805,6 +69790,7 @@ encoder:
 吊放	dof3	409
 吊眉	dom2	409
 吊椅	doy2	409
+钓位	daw4	409
 叠片	dkp5	409
 丁丑年	dcn2	409
 定坊	dif4	409
@@ -69856,7 +69842,7 @@ encoder:
 腭音	vuy2	409
 恩爱程度	vvc5	409
 儿女成长	vnc3	409
-儿童餐	vtc4	409
+儿童城	vtc4	409
 儿童地垫	vtd1	409
 儿童发展	vtf5	409
 儿童福利	vtf2	409
@@ -69934,7 +69920,6 @@ encoder:
 阀门开度	fmk5	409
 法藏菩萨	fzp3	409
 法夫尔	ffv2	409
-法律人格	flr2	409
 法庭判决	ftp3	409
 法援惠民	fyh1	409
 帆桁	feh1	409
@@ -69981,7 +69966,6 @@ encoder:
 方片六	fpl3	409
 方片七	fpq1	409
 防冻棚	fdp3	409
-防风外衣	ffw3	409
 防护暗影	fhv3	409
 防坑	fbk3	409
 防控办	fkb4	409
@@ -70070,7 +70054,6 @@ encoder:
 富坑	fik3	409
 富养	fiy3	409
 富庄	fiz1	409
-腹围	fuw2	409
 伽蓝菩萨	qlp3	409
 钆双胺	gsv5	409
 该法案	gfv1	409
@@ -70145,7 +70128,6 @@ encoder:
 跟亲戚	gqq4	409
 跟去年	gqn2	409
 跟他那啥	gtn2	409
-耕田而食	gtv4	409
 更便宜的	gpy4	409
 更不能去	gbn5	409
 更牛逼	gnb4	409
@@ -70266,12 +70248,14 @@ encoder:
 河鼓二	hgv1	409
 核糖霉素	htm2	409
 核桃仁粥	htr5	409
+盒尺	hac4	409
 盒儿	hav3	409
 黑暗任务	hvr5	409
 黑得漂亮	hdp3	409
 黑田铺	htp4	409
 很热爱	hrv5	409
 很污	hpw5	409
+亨利二世	hlv5	409
 红扒排翅	hbp4	409
 红外透视	hwt3	409
 猴子皮肤	hzp3	409
@@ -70331,7 +70315,6 @@ encoder:
 金纺	jaf4	409
 筋膜皮瓣	jmp4	409
 锦二	jav1	409
-近乎平壤	jhp3	409
 荆防颗粒	jfk4	409
 晶糕肉片	jgr5	409
 景芳二区	jfv3	409
@@ -70464,7 +70447,7 @@ encoder:
 看评分	kpf5	409
 看俏	kvq2	409
 看清楚啦	kqc4	409
-看日全食	krq4	409
+看日全食	krq3	409
 看图案	ktv1	409
 看外婆	kwp5	409
 看外网	kww3	409
@@ -70505,7 +70488,6 @@ encoder:
 靠靠靠靠	kkk1	409
 靠模仿	kmf4	409
 靠恁	krn4	409
-靠旗	krq3	409
 靠人民	krm1	409
 柯柯里乡	kkl3	409
 柯暮卿	kmq5	409
@@ -70592,6 +70574,7 @@ encoder:
 枯桃	kmt4	409
 苦埃尺蛾	kvc4	409
 苦瓜肉片	kgr5	409
+胯里	kul2	409
 胯子	kuz5	409
 跨服	knf5	409
 跨年文案	knw1	409
@@ -70662,7 +70645,6 @@ encoder:
 离婚判决	lhp3	409
 离职人员	lzr2	409
 梨花开了	lhk5	409
-李立楠	lln1	409
 李娜传	lnz4	409
 李娜恩	lnv4	409
 李倩妮	lqn3	409
@@ -70807,6 +70789,7 @@ encoder:
 毛屋	mpw1	409
 毛舟蛾	mzv4	409
 矛尾蜂鸟	mwf1	409
+茅苍术	mcz4	409
 茅椽蓬牖	mcp4	409
 锚点	mad4	409
 锚定	mad2	409
@@ -71044,6 +71027,7 @@ encoder:
 能谱仪	npy3	409
 能源费	nyf2	409
 能致富	nzf2	409
+尼罗鳄	nlv5	409
 泥巴沱	nbt3	409
 泥城	nvc4	409
 泥泥鳅	nnq4	409
@@ -71244,7 +71228,6 @@ encoder:
 培肥地力	pfd5	409
 培根面包	pgm5	409
 培勤	ptq5	409
-培训成人	pxc3	409
 培训内	pxn3	409
 培训体系	pxt2	409
 赔偿保险	pcb1	409
@@ -71276,6 +71259,7 @@ encoder:
 彭启丰	pqf2	409
 彭特务	ptw5	409
 棚内温度	pnw5	409
+鹏路翱翔	plv4	409
 澎蜞菊	pqj4	409
 膨脝	puh5	409
 椪糖	pmt2	409
@@ -71393,6 +71377,7 @@ encoder:
 七二五四	qvw2	409
 七拐八绕	qgb3	409
 七九二零	qjv5	409
+七零二二	qlv1	409
 七牛	qln1	409
 七五二二	qwv1	409
 七五七八	qwq3	409
@@ -71461,6 +71446,7 @@ encoder:
 强化愤怒	qhf4	409
 强化伏击	qhf2	409
 强化狂怒	qhk4	409
+强烈恶臭	qlv4	409
 墙内篇	qnp1	409
 抢名额	qmv2	409
 乔楠	qrn1	409
@@ -71492,7 +71478,7 @@ encoder:
 清淋颗粒	qlk4	409
 清零派	qlp4	409
 清热开窍	qrk5	409
-情感快餐	qgk4	409
+情感快餐	qgk3	409
 情况恶化	qkv3	409
 情趣盎然	qqv4	409
 情天爱海	qtv4	409
@@ -71513,7 +71499,6 @@ encoder:
 圈牛	jon1	409
 圈羊	joy2	409
 全仓	qac5	409
-全国可飞	qgk3	409
 全国排名	qgp2	409
 全矿	qak4	409
 全民任务	qmr5	409
@@ -71523,7 +71508,6 @@ encoder:
 群友	qey5	409
 然并卵	rbl4	409
 然鹅	ruv1	409
-燃放烟花	rfy3	409
 燃煤电厂	rmd1	409
 燃脐挂胆	rqg1	409
 燃气爆炸	rqb1	409
@@ -71561,6 +71545,7 @@ encoder:
 扰你清梦	rnq3	409
 绕道而来	rdv4	409
 绕行方案	rxf1	409
+绕梁遏云	rlv5	409
 惹恨牵情	rhq2	409
 热爱程度	rvc5	409
 热爱劳动	rvl5	409
@@ -71607,7 +71592,6 @@ encoder:
 热血长安	rxc5	409
 热压釜	ryf4	409
 热依娜	ryn5	409
-热轧钢	rzg3	409
 热着呢	rzn3	409
 人才高地	rcg5	409
 人才开发	rck4	409
@@ -71639,7 +71623,6 @@ encoder:
 人口红线	rkh1	409
 人口控制	rkk2	409
 人力难为	rln4	409
-人力投资	rlt2	409
 人没钱	rmq1	409
 人面花	rmh3	409
 人民民主	rmm1	409
@@ -71703,7 +71686,7 @@ encoder:
 任香港	rxg5	409
 任胤蓬	ryp4	409
 任仲平	rzp1	409
-纫佩	rlp2	409
+扔了啊	rlv2	409
 扔了可惜	rlk2	409
 日报报道	rbb4	409
 日本奥运	rbv4	409
@@ -71848,8 +71831,6 @@ encoder:
 尚卿	seq5	409
 少年派	snp4	409
 畲话	sah1	409
-舍恩	sav4	409
-舍牌	sap1	409
 深莞惠	sgh4	409
 生圹	srk4	409
 生日趴	srp3	409
@@ -71857,7 +71838,7 @@ encoder:
 圣伯纳犬	sbn4	409
 师资培训	szp3	409
 实亏	sik5	409
-食团	sat3	409
+食断	sud3	409
 蚀耗	suh3	409
 饰片	sup5	409
 视频回传	sph4	409
@@ -71865,15 +71846,19 @@ encoder:
 恃功岸忽	sgv4	409
 收藏快报	sck5	409
 收藏哦	scv4	409
+舒位	saw4	409
 刷番	spf2	409
-甩货	suh2	409
 双倍爱心	sbv4	409
 水果派	sgp4	409
 吮乳	sor5	409
 怂的	sad4	409
+怂人	sar3	409
 宋权	siq5	409
 宋琬	siw5	409
+锁臂	sab2	409
 锁仓	sac5	409
+锁票	sap2	409
+锁屏	sap1	409
 他奶奶家	tnn1	409
 他在扯淡	tzc4	409
 他这款	tzk3	409
@@ -71882,6 +71867,8 @@ encoder:
 它呐	tin3	409
 塔尔坡	tvp5	409
 踏床啮鼻	tcn3	409
+踏浪而行	tlv1	409
+踏浪而来	tlv4	409
 踏浪前行	tlq1	409
 胎患内障	thn1	409
 台风云	tfy5	409
@@ -71902,7 +71889,6 @@ encoder:
 太没脑子	tmn5	409
 太闷热	tmr4	409
 太有爱了	tyv5	409
-泰餐	tfc4	409
 贪腐行为	tfx4	409
 贪冒无厌	tmw4	409
 贪玩儿	twv3	409
@@ -71955,6 +71941,7 @@ encoder:
 替你开心	tnk4	409
 替普瑞酮	tpr2	409
 天峰坪镇	tfp3	409
+天府长城	tfc4	409
 天猫客服	tmk5	409
 天魔棍	tmg3	409
 天桥位置	tqw2	409
@@ -72134,7 +72121,6 @@ encoder:
 洗脑壳	xnk3	409
 喜报频传	xbp4	409
 喜必爱	xbv5	409
-系列培训	xlp3	409
 系统特色	xtt5	409
 峡南	xen1	409
 下伏鳄	xfv5	409
@@ -72237,7 +72223,6 @@ encoder:
 俞弁	yab1	409
 俞府	yaf1	409
 俞某	yam1	409
-腴润	yur1	409
 虞堪	yek5	409
 虞松	yes5	409
 虞泳	yey5	409
@@ -72289,6 +72274,7 @@ encoder:
 叙永	xay5	409
 冬暖	dun5	409
 崇信	cex4	409
+耸听	sat3	409
 卡布	keb2	409
 垦丁	ked1	409
 念慈	nac4	409
@@ -72316,7 +72302,6 @@ encoder:
 姥娘	lnn4	409
 刘念	lun4	409
 镗孔	tak5	409
-惫懒	bul2	409
 胚囊	pun3	409
 溶度	rvd5	409
 囝仔	joz5	409
@@ -72332,7 +72317,6 @@ encoder:
 哪页	noy2	409
 岩脉	yem5	409
 令嫒	lav5	409
-饥困	juk1	409
 镁砖	maz4	409
 镆铘	may5	409
 斜轧	xaz5	409
@@ -72387,7 +72371,6 @@ encoder:
 幽影	yey3	409
 外扩	wuk4	409
 人哈	rah2	409
-尔萨	vus3	409
 光刃	ger4	409
 铭泰	mat2	409
 吴飞	wof3	409
@@ -72480,11 +72463,9 @@ encoder:
 光膜	gem1	409
 错哦	cav4	409
 那球	nuq4	409
-胜强	suq2	409
 镇派	zap4	409
 镇魔	zam5	409
 看火	kvh4	409
-舍内	san3	409
 日轮	ril3	409
 你砍	nrk3	409
 你是怕	nsp3	409
@@ -72509,7 +72490,6 @@ encoder:
 尔摩	vum3	409
 晶儿	jiv3	409
 哭呢	kon3	409
-日死	ris3	409
 里鬼	lig5	409
 脱层	tuc5	409
 我怕他们	wpt4	409
@@ -72587,7 +72567,6 @@ encoder:
 这票	zup2	409
 胆儿	duv3	409
 恐怖吗	kbm5	409
-夕日	xur2	409
 方孔	fqk5	409
 嘛也	moy5	409
 发布任务	fbr5	409
@@ -72682,6 +72661,7 @@ encoder:
 大半瓶	dbp4	409
 晓儿	xiv3	409
 人胖	rap1	409
+人哇	raw1	409
 冥日	mir2	409
 你太谦虚	ntq1	409
 小哦	xpv4	409
@@ -72744,16 +72724,15 @@ encoder:
 军考	jik5	409
 卡油	key2	409
 拿烟	nay1	409
-那餐	nuc4	409
 俺才	vrc3	409
 啊咧	vol2	409
 毛女	mpn5	409
 拿针	naz1	409
 人孔	rak5	409
-饿哦	vuv4	409
-齐亮	qul3	409
 别捏	bon1	409
 命背	mab2	409
+食府	suf1	409
+食梦	sum3	409
 日鬼	rig5	409
 儿哄	vnh3	409
 暖光	nig5	409
@@ -72772,7 +72751,6 @@ encoder:
 齐娜	qun5	409
 芬芬	fkf5	409
 日翻	rif4	409
-胜明	sum3	409
 熬到头了	vdt5	409
 热牛奶	rnn5	409
 人户	rah5	409
@@ -72794,7 +72772,6 @@ encoder:
 富昌	fic2	409
 中矿	zok4	409
 昂啊	viv2	409
-胜意	suy4	409
 最污	ziw5	409
 脑仁	nur1	409
 日单	rid1	409
@@ -72814,7 +72791,6 @@ encoder:
 吴太	wot4	409
 量尺	lic4	409
 胜南	sun1	409
-食坊	saf4	409
 团城	toc4	409
 旺福	wif2	409
 恩菲	vof1	409
@@ -72848,6 +72824,7 @@ encoder:
 跑呗	pnb2	409
 这坨	zut3	409
 别晕	boy1	409
+个哇	gaw1	409
 备班	bub1	409
 辉强	heq2	409
 铝片	lap5	409
@@ -72863,7 +72840,6 @@ encoder:
 儿滴	vnd1	409
 陪我妈	pwm5	409
 齐鹏	qup1	409
-胜凯	suk3	409
 馋我	cuw4	409
 滇南	dvn1	409
 冠楠	gin1	409
@@ -72894,6 +72870,7 @@ encoder:
 爱疯舞	vfw2	409
 爱个屁	vgp3	409
 爱恨情愁	vhq4	409
+爱惠浦	vhp4	409
 爱康科技	vkk5	409
 爱你如初	vnr5	409
 爱拍拍	vpp3	409
@@ -72948,7 +72925,6 @@ encoder:
 比你矮	bnv5	409
 吡嗪	boq3	409
 臂铠	bpk5	409
-饆饠	bal4	409
 便嬖	prb5	409
 别坑	bok3	409
 别秀	box5	409
@@ -73045,6 +73021,7 @@ encoder:
 疯狂烤翅	fkk4	409
 锋铓	fam4	409
 锋涛	fat1	409
+锋味	faw2	409
 锋驭	fay5	409
 锋芝	faz4	409
 浮层	fvc5	409
@@ -73119,7 +73096,6 @@ encoder:
 建秋	jeq4	409
 建绒	jer1	409
 胶黏	jun2	409
-叫餐	joc4	409
 叫诶	jov3	409
 叫哦	jov4	409
 金菲	jaf1	409
@@ -73200,7 +73176,6 @@ encoder:
 吕茜	loq1	409
 吕涛	lot1	409
 吕晓	lox3	409
-吕艳	loy5	409
 铝牌	lap1	409
 骂呗	mob2	409
 骂我啊	mwv2	409
@@ -73233,6 +73208,7 @@ encoder:
 铭丰	maf2	409
 铭杰	maj4	409
 铭铭	mam2	409
+铭万	maw5	409
 铭伟	maw2	409
 铭鑫	max3	409
 铭阳	may2	409
@@ -73396,7 +73372,7 @@ encoder:
 任丽萍	rlp1	409
 任鹏飞	rpf3	409
 扔扔扔	rrr5	409
-日餐	ric4	409
+日餐	ric3	409
 日额	riv2	409
 日湖	rih3	409
 日开幕	rkm2	409
@@ -73405,6 +73381,7 @@ encoder:
 荣庆	rkq1	409
 荣旺	rkw1	409
 绒绳儿	rsv3	409
+容臭	ric4	409
 柔福帝姬	rfd2	409
 肉蒲	rcp4	409
 茹妆	rkz5	409
@@ -73429,14 +73406,19 @@ encoder:
 润安	rvv5	409
 润宝	rvb4	409
 润龙	rvl4	409
+弱逼	rgb4	409
 啥鸟	son1	409
 啥钱	soq1	409
 啥球	soq4	409
 啥图	sot4	409
 啥馅	sox3	409
+绍恩	slv4	409
 舍你其谁	snq4	409
+胜亮	sul3	409
 胜浦	sup4	409
 史航	soh3	409
+舒超	sac2	409
+舒凡	saf4	409
 舒慧	sah4	409
 舒杰	saj4	409
 舒朗	sal3	409
@@ -73504,6 +73486,7 @@ encoder:
 鑫楠	xan1	409
 鑫鹏	xap1	409
 鑫旺	xaw1	409
+鑫伟	xaw2	409
 鑫玺	xax4	409
 胸胸	xux5	409
 叙府	xaf1	409
@@ -73519,7 +73502,6 @@ encoder:
 尹宁	yen1	409
 咋啊	zov2	409
 泽恩	zvv4	409
-餦餭	zah1	409
 兆帕	znp3	409
 者勿扰	zwr4	409
 这哦	zuv4	409
@@ -73527,6 +73509,7 @@ encoder:
 镇湖	zah3	409
 钟晨	zac5	409
 钟芳	zaf4	409
+钟红	zah1	409
 钟科	zak1	409
 钟梅	zam4	409
 钟秋	zaq4	409
