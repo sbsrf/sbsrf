@@ -136,12 +136,12 @@ encoder:
 力	lq	911651	lq5au
 分	fr	909307	fr5uo
 本	bm	904917	bm1ei
-向	xr	892467	xr2ui
+修	xr	892467	xr3ui
 实	s,	891651	si1oo
 问	wc	889022	wc2oi
 女	nn	881212	nn5au
 高	gw	872535	gw2oe
-十	sk	870546	sk1ei
+首	sk	870546	sk2ou
 话	hw	862664	hw1oa
 儿	vn	861931	vn3ua
 明	mi	861204	mi3ia
@@ -170,7 +170,7 @@ encoder:
 学	xv	734532	xv5oo
 民	m;	733152	mc1ae
 业	y,	731523	ym1ii
-相	x'	718617	xm2ei
+向	x'	718617	xr2ui
 很	hp	716135	hp4uu
 关	gk	715502	gk1ou
 因	yo	715438	yo1ia
@@ -185,20 +185,20 @@ encoder:
 神	sy	659478	sy2oa
 被	by	658630	by5oa
 白	bn	657819	bn3ui
-住	z.	656237	zr1ui
-者	z/	651351	zt2ei
+早	zi	656237	zi1ia
+者	z.	651351	zt2ei
 打	dj	646451	dj1ei
 新	xl	638613	xl3oe
 便	br	638012	br3ui
 月	y.	634564	yu3ua
 先	x,	633447	xr3ue
 位	wr	624258	wr4ui
-最	zi	615213	zi5ia
+最	z/	615213	zi5ia
 机	jm	605706	jm3ei
 给	gl	603012	gl2aa
 内	nc	601380	nc3ia
 使	s.	600630	sr3ui
-山	s/	594725	se2ia
+十	s/	594725	sk1ei
 应	yg	594707	yg1oe
 信	x.	586957	xr4ui
 加	jq	584469	jq2au
@@ -316,7 +316,7 @@ encoder:
 海	h,	404791	hv4oo
 管	gz	400977	gz2ue
 未	w.	400864	wd2ee
-长	zc	400012	zc3ue
+周	zc	400022	zc2ua
 指	zji	399853	zj2ei
 设	swa	398023	sw5oa
 江	jve	396551	jv1oo
@@ -388,7 +388,7 @@ encoder:
 石	sse	326712	ss1eu
 极	jmo	326595	jm4ei
 远	ydo	324879	yd4ee
-早	zie	324842	zi1ia
+住	zre	324842	zr1ui
 取	qb	324430	qb5ei
 领	la	323638	la2uo
 息	xro	322744	xr4ui
@@ -476,7 +476,7 @@ encoder:
 根	gm	263457	gm4ei
 精	jd;	263240	jd2ou
 八	bru	261256	br3uo
-首	ski	261136	sk2ou
+索	ski	261136	sk2ei
 举	jv;	260532	jv1oo
 罗	lfu	259812	lf3ia
 姑	gne	258952	gn1au
@@ -554,7 +554,7 @@ encoder:
 送	sko	218950	sk4ou
 照	zio	218526	zi4ia
 结	jli	218499	jl2aa
-周	zci	218306	zc2ua
+长	zcu	218316	zc3ue
 阳	ybi	218099	yb2ai
 复	f,	217669	fq3ue
 局	jpi	216345	jp2ae
@@ -758,7 +758,7 @@ encoder:
 斗	dd'	146532	dd1oo
 族	zqu	146383	zq3oe
 您	nr	146097	nr4ui
-索	ski2	146083	sk2ei
+山	se;	146083	se2ia
 试	swe	145800	sw1oa
 眉	mp	145726	mp2ai
 座	zge	145686	zg1oe
@@ -771,7 +771,7 @@ encoder:
 网	wcu	144162	wc3ia
 承	cja	144092	cj5ai
 胜	sue	143825	su1ua
-修	xre3	143368	xr3ui
+相	xmi	143368	xm2ei
 创	cai	142979	ca2uo
 协	xk	142895	xk4ei
 慢	mxa	142528	mx5oo
@@ -1281,7 +1281,7 @@ encoder:
 途	tao	64579	ta4uo
 狗	gq	64558	gq2ua
 骑	qqi	64450	qq2aa
-昨	zi;	64377	zi1ia
+昨	zie	64377	zi1ia
 暴	bii	64289	bi2ia
 乌	wbe	64186	wb1ua
 瞪	dfo	63849	df4ia
@@ -1384,7 +1384,7 @@ encoder:
 仁	rre	55685	rr1ui
 灰	hx;	55673	hx4eu
 吐	toe	55572	to1ia
-赏	se;	55537	se2io
+赏	se'	55537	se2io
 吹	cou	55475	co3ia
 扫	sjae	55379	sj5ei
 湾	wva	55335	wv5oo
@@ -1423,7 +1423,7 @@ encoder:
 吕	loi	53180	lo2ia
 呵	hoj2	53172	ho2ia
 匆	cbo	52963	cb4ua
-灾	zi'	52926	zi4oo
+灾	zi;	52926	zi4oo
 汗	hve	52740	hv1oo
 拒	jj;	52664	jj5ei
 侯	hr'	52619	hr3ui
@@ -1906,7 +1906,7 @@ encoder:
 雁	ygr4	29481	yg4eu
 戈	gle	29469	gl1ea
 寄	jip2	29369	ji2oo
-宅	zir1	29350	zi1oo
+宅	zi'	29350	zi1oo
 坛	tta	29309	tt5ei
 胖	pu;	29302	pu1ua
 乾	qki5	29284	qk5ei
@@ -2251,7 +2251,7 @@ encoder:
 骄	jqu	19324	jq3aa
 灌	gvo	19320	gv4oo
 帘	lii	19246	li2oo
-侄	zre	19203	zr1ui
+侄	zrs1	19203	zr1ui
 骆	lq'	19184	lq2aa
 坠	zb;	19177	zb1ai
 腔	que	19175	qu1ua
@@ -2358,7 +2358,7 @@ encoder:
 校	jmu	16646	jm3ei
 泡	pva	16616	pv5oo
 澄	cvo	16612	cv4oo
-裳	se'	16612	se3io
+裳	sei3	16612	se3io
 兹	zkl5	16612	zk5ou
 兮	xra	16569	xr5uo
 耍	ssa	16562	ss5eu
@@ -2425,7 +2425,7 @@ encoder:
 鲍	bya	15267	by5ua
 沧	cv;	15243	cv5oo
 挪	nja	15225	nj5ei
-杏	xmi	15192	xm2ei
+杏	xm'	15192	xm2ei
 驼	tq	15181	tq3aa
 吁	yod2	15153	yo2ia
 裸	lye	15152	ly1oa
@@ -2615,7 +2615,6 @@ encoder:
 坑	kt'	12370	kt3ei
 窄	zir1	12323	zi1oo
 圳	zt'	12321	zt3ei
-窄	zir3	12313	zi1oo
 呐	nou	12301	no3ia
 匪	fce	12274	fc1ei
 翅	ckk4	12249	ck4ei
@@ -2881,7 +2880,7 @@ encoder:
 狈	bqi	8904	bq2ua
 咨	zdu2	8900	zd2oe
 萱	xki1	8899	xk1ei
-蛛	zc;	8896	zc2ia
+蛛	zci	8896	zc2ia
 蔷	qkk2	8892	qk2ei
 拙	zjc2	8884	zj2ei
 凳	dju	8874	dj3ao
@@ -3074,7 +3073,7 @@ encoder:
 蔓	mki5	6782	mk5ei
 匀	yb;	6780	yb4ua
 窒	zir1	6776	zi1oo
-窒	zir4	6766	zi1oo
+窒	zir3	6766	zi1oo
 渺	mvu	6750	mv3oo
 洽	qva2	6737	qv2oo
 靳	jko3	6732	jk3ei
@@ -3399,7 +3398,7 @@ encoder:
 髅	lca	4511	lc5ia
 鹃	jo;	4505	jo1ia
 藩	fki	4499	fk2ei
-橡	xm'	4499	xm3ei
+橡	xmu3	4499	xm3ei
 躇	cni	4496	cn2ia
 踌	cn'	4485	cn1ia
 槽	cmi	4482	cm2ei
@@ -3482,7 +3481,7 @@ encoder:
 亢	kwu	3999	kw3oe
 婪	lm'	3996	lm5ei
 奚	xze	3991	xz1uo
-闸	zc'	3991	zc2oi
+闸	zc;	3991	zc2oi
 瑕	xf'	3990	xf5ee
 髻	jci	3982	jc2ei
 拈	nje2	3981	nj2ei
@@ -3535,7 +3534,7 @@ encoder:
 胭	yuo1	3732	yu1ua
 笈	jzn4	3727	jz4ue
 拴	sja1	3726	sj1ei
-蜘	zcg2	3726	zc2ia
+蜘	zc'	3726	zc2ia
 嘱	zop4	3714	zo4ia
 拷	kjt5	3711	kj5ei
 涎	xvr5	3710	xv5oo
@@ -26157,7 +26156,6 @@ encoder:
 赏	sei2	0	se2io
 上	seee	0	se1ie
 尚	sec2	0	se2io
-裳	sei3	0	se3io
 烧	shl3	0	sh3ou
 梢	sme2	0	sm2ei
 稍	she2	0	sh2ue
@@ -26304,6 +26302,7 @@ encoder:
 梭	smy3	0	sm3ei
 缩	sli2	0	sl2aa
 所	shc3	0	sh3uu
+索	ski2	0	sk2ei
 锁	sae2	0	sa2ue
 他	trai	0	tr5ui
 它	tiua	0	ti3oo
@@ -26610,7 +26609,6 @@ encoder:
 巷	xkr5	0	xk5ei
 象	xuo3	0	xu3ua
 像	xru3	0	xr3ui
-橡	xmu3	0	xm3ei
 肖	xeia	0	xe2io
 枭	xbw1	0	xb1ua
 逍	xeu4	0	xe4io
@@ -26668,6 +26666,7 @@ encoder:
 雄	xxy4	0	xx4eu
 熊	xyu4	0	xy4ao
 休	xrei	0	xr1ui
+修	xre3	0	xr3ui
 羞	xdv2	0	xd2ou
 朽	xms5	0	xm5ei
 宿	xir2	0	xi2oo
@@ -26923,6 +26922,7 @@ encoder:
 眨	zfr4	0	zf4ia
 诈	zwq1	0	zw1oa
 炸	zhq1	0	zh1ou
+宅	zir1	0	zi1oo
 沾	zve2	0	zv2oo
 粘	nde2	0	nd2ou
 詹	zug4	0	zu4ua
@@ -26984,9 +26984,9 @@ encoder:
 知	zgia	0	zg2ue
 肢	zuk5	0	zu5ua
 织	zlo3	0	zl3aa
+蜘	zcg2	0	zc2ia
 执	zjj4	0	zj4ei
 直	zkia	0	zk2ei
-侄	zrs1	0	zr1ui
 值	zrk2	0	zr2ui
 职	zbo3	0	zb3ei
 植	zmk2	0	zm2ei
@@ -27344,7 +27344,6 @@ encoder:
 眉头	mpe	409
 挨揍	vje	409
 安全阀	vqe	409
-长老	zcu	409
 王爷	wfa	409
 制造	zqo	409
 客厅	kie	409
@@ -28838,7 +28837,6 @@ encoder:
 基础	jkc2	409
 罢工	bfg1	409
 计划	jwh2	409
-早已	ziy5	409
 微笑	wpx1	409
 消息	xvx4	409
 双手	sks3	409
@@ -28897,10 +28895,10 @@ encoder:
 资源	zdy2	409
 简直	jzz2	409
 恢复	hxf3	409
+相当	xmd5	409
 达到	dpd2	409
 质量	zhl2	409
 程序	chx2	409
-首先	skx3	409
 绝不	jlb2	409
 左右	zxy2	409
 促进	crj4	409
@@ -29072,6 +29070,7 @@ encoder:
 沉默	cvm4	409
 照顾	zig2	409
 电视	dis3	409
+相同	xmt2	409
 交流	jwl3	409
 一致	ysz3	409
 语气	ywq3	409
@@ -29175,7 +29174,6 @@ encoder:
 读者	dwz2	409
 差不多	cbd3	409
 昨天	zit1	409
-周围	zcw2	409
 军事	jis2	409
 电子	diz5	409
 连续	lpx1	409
@@ -29242,12 +29240,14 @@ encoder:
 攻击	gdj2	409
 登时	djs1	409
 皱眉	zum2	409
+相应	xmy1	409
 印象	yhx3	409
 党员	dey2	409
 不顾	bsg2	409
 冲突	cdt4	409
 资产	zdc3	409
 颜色	yls5	409
+相对	xmd1	409
 政协	zsx4	409
 道德	dkd4	409
 武器	wsq2	409
@@ -29290,11 +29290,11 @@ encoder:
 压力	ygl5	409
 商业	swy1	409
 专门	zdm4	409
+相关	xmg1	409
 基地	jkd5	409
 花园	hky3	409
 视线	syx1	409
 执法	zjf5	409
-周年	zcn2	409
 警告	jkg2	409
 拼命	pjm5	409
 窗口	cik2	409
@@ -29335,7 +29335,6 @@ encoder:
 模糊	mmh3	409
 非洲	fez4	409
 逻辑	lfj1	409
-首都	skd5	409
 大胆	dpd1	409
 格格	gmg2	409
 肩膀	jwb4	409
@@ -29351,7 +29350,6 @@ encoder:
 罢了	bfl5	409
 窗外	ciw2	409
 偏偏	prp1	409
-早上	zis1	409
 彻底	cpd4	409
 悄悄	qxq2	409
 暗箭伤人	vjs3	409
@@ -29444,6 +29442,7 @@ encoder:
 深处	svc2	409
 导致	dbz3	409
 材料	cml1	409
+相处	xmc2	409
 鞍马	vkm5	409
 战士	zes1	409
 估计	grj1	409
@@ -29469,6 +29468,7 @@ encoder:
 总结	zdj2	409
 倘若	trr2	409
 刺激	csj3	409
+相比	xmb3	409
 马克思	mks4	409
 姓名	xnm2	409
 碰到	psd2	409
@@ -29481,6 +29481,7 @@ encoder:
 腐败	fgb3	409
 地址	dtz2	409
 依靠	yrk1	409
+相公	xmg5	409
 分布	frb2	409
 属下	spx2	409
 寂寞	jim1	409
@@ -29542,6 +29543,7 @@ encoder:
 小雨	xpy1	409
 诧异	cwy1	409
 街道	jpd4	409
+相反	xmf5	409
 石油	ssy2	409
 折磨	zjm1	409
 角落	jul2	409
@@ -29610,6 +29612,7 @@ encoder:
 老弟	ltd3	409
 整理	zsl2	409
 夏天	xst1	409
+记住	jwz1	409
 安慰	viw4	409
 瞬间	sfj2	409
 极其	jmq3	409
@@ -29624,9 +29627,9 @@ encoder:
 机遇	jmy4	409
 意志	ylz4	409
 多谢	dux1	409
-为首	wws2	409
 师傅	sdf1	409
 专题	zdt2	409
+下山	xss2	409
 伙计	hrj1	409
 司机	sjj3	409
 摆脱	bjt3	409
@@ -29638,6 +29641,7 @@ encoder:
 拳头	qkt1	409
 脑海	nuh4	409
 凌厉	ldl5	409
+住房	zrf4	409
 喜悦	xty3	409
 见识	jcs3	409
 流露	lvl2	409
@@ -29725,6 +29729,7 @@ encoder:
 四下	sfx2	409
 一点儿	ydv3	409
 魅力	mnl5	409
+山区	seq3	409
 加速	jqs4	409
 经济效益	jjx2	409
 首脑	skn5	409
@@ -29765,6 +29770,7 @@ encoder:
 景象	jix3	409
 窗户	cih5	409
 情势	qxs5	409
+华山	hrs2	409
 总体	zdt1	409
 察觉	cij3	409
 指标	zjb2	409
@@ -29805,6 +29811,7 @@ encoder:
 昔日	xkr2	409
 良心	lwx4	409
 城镇	ctz3	409
+真相	zkx2	409
 索性	skx1	409
 显著	xiz2	409
 条例	tul2	409
@@ -30280,6 +30287,7 @@ encoder:
 便宜	pry2	409
 友情链接	yql5	409
 温州	wvz4	409
+山西	sex1	409
 做什么	zsm5	409
 公园	gry3	409
 检验	jmy1	409
@@ -30510,6 +30518,7 @@ encoder:
 诺基亚	njy1	409
 精美	jdm1	409
 支撑	zkc3	409
+住了	zrl5	409
 处理器	clq2	409
 优点	yrd4	409
 破解版	pjb5	409
@@ -30527,7 +30536,6 @@ encoder:
 音频	ylp2	409
 评级	pwj4	409
 插件	cjj1	409
-周边	zcb4	409
 协助	xkz5	409
 差距	cdj5	409
 搜索引擎	ssy3	409
@@ -30556,7 +30564,6 @@ encoder:
 公务员	gwy2	409
 美食	mds3	409
 初中	cyz2	409
-修正	xrz2	409
 饮料	yul1	409
 外语	wuy2	409
 第三章	dsz1	409
@@ -30564,7 +30571,6 @@ encoder:
 订购	dwg5	409
 只代表	zdb3	409
 下跌	xsd3	409
-修复	xrf3	409
 更换	gsh3	409
 旅行社	lxs1	409
 危害	wuh2	409
@@ -30793,6 +30799,7 @@ encoder:
 玉米	yfm4	409
 累计	ltj1	409
 试用	swy3	409
+圣诞	skd5	409
 音响	ylx2	409
 网络游戏	wly1	409
 这时候	zsh3	409
@@ -30853,7 +30860,6 @@ encoder:
 中国人民	zgr1	409
 我校	wvx3	409
 软件名称	rjm2	409
-早期	ziq3	409
 偶像	vrx3	409
 配送	pxs4	409
 传送	crs4	409
@@ -30872,10 +30878,8 @@ encoder:
 谁也	swy5	409
 演绎	yvy1	409
 商贸	swm2	409
-周期	zcq3	409
 怀孕	hxy5	409
 一律	ysl1	409
-最早	ziz1	409
 产品名称	cpm2	409
 防火墙	fhq2	409
 聚会	jbh5	409
@@ -30885,8 +30889,6 @@ encoder:
 补偿	byc5	409
 如果没有	rgm2	409
 舞曲	wrq1	409
-一首	yss2	409
-每周	mqz2	409
 隆重	lbz2	409
 本报讯	bbx1	409
 携带	xjd2	409
@@ -30926,6 +30928,7 @@ encoder:
 优良	yrl4	409
 南宁	nkn1	409
 影院	yiy3	409
+相片	xmp5	409
 羡慕	xdm4	409
 本主题	bzt2	409
 说不出	sbc2	409
@@ -30935,7 +30938,6 @@ encoder:
 发票	flp2	409
 助手	zhs3	409
 仪表	yrb3	409
-讲座	jwz1	409
 氛围	fqw2	409
 管理办法	glb5	409
 言情	yyq2	409
@@ -31125,7 +31127,6 @@ encoder:
 做个	zrg2	409
 兰州	ldz4	409
 做一个	zyg2	409
-首席	skx2	409
 医师	ycs2	409
 挑选	tjx4	409
 师生	sds1	409
@@ -31223,6 +31224,7 @@ encoder:
 恋人	lwr3	409
 饲料	sul1	409
 新款	xlk3	409
+选中	xrz2	409
 史上	sos1	409
 感冒	ggm2	409
 世上	sks1	409
@@ -31233,7 +31235,6 @@ encoder:
 荷兰	hkl1	409
 欢迎大家	hyd1	409
 两个月	lgy3	409
-刑事	xss2	409
 周刊	zck2	409
 介入	jar4	409
 一页	ysy2	409
@@ -31318,7 +31319,6 @@ encoder:
 与此同时	yct1	409
 新一代	xyd1	409
 楼市	lms2	409
-上线	sex1	409
 商品房	spf4	409
 有必要	yby5	409
 夏季	xsj5	409
@@ -31367,7 +31367,6 @@ encoder:
 标记	bmj5	409
 工作会议	gzh3	409
 洽谈	qvt4	409
-华硕	hrs2	409
 占用	zey3	409
 疗法	lgf5	409
 制造商	zzs2	409
@@ -31398,7 +31397,6 @@ encoder:
 充分发挥	cff1	409
 煤炭	mht4	409
 为准	wwz4	409
-造访	zrf4	409
 出租车	czc1	409
 言情小说	yqx3	409
 图库	tok1	409
@@ -31436,6 +31434,7 @@ encoder:
 下班	xsb1	409
 时间为	sjw4	409
 发货	flh2	409
+相爱	xmv5	409
 到时候	dsh3	409
 传感器	cgq2	409
 来源于	lyy2	409
@@ -31444,7 +31443,6 @@ encoder:
 诗歌	swg3	409
 多彩	duc3	409
 下一步	xyb3	409
-周一	zcy1	409
 职场	zbc3	409
 好不容易	hbr3	409
 不超过	bcg4	409
@@ -31717,7 +31715,6 @@ encoder:
 充电	cwd5	409
 墙上	qts1	409
 小说连载	xsl1	409
-直销	zkx2	409
 正常使用	zcs3	409
 师范大学	sfd5	409
 谁是	sws2	409
@@ -31788,6 +31785,7 @@ encoder:
 剧本	jpb1	409
 评审	pws2	409
 长达	ccd4	409
+入住	rrz1	409
 东南亚	dny1	409
 重要思想	zys4	409
 茶叶	cky1	409
@@ -31855,7 +31853,6 @@ encoder:
 原油	ygy2	409
 巧克力	qkl5	409
 指向	zjx2	409
-首批	skp3	409
 这本书	zbs4	409
 守护	sih5	409
 租金	zhj3	409
@@ -32013,7 +32010,6 @@ encoder:
 武侠小说	wxx3	409
 背叛	bkp5	409
 编译	bly1	409
-上周	sez2	409
 困境	koj3	409
 反思	fhs4	409
 志愿者	zyz2	409
@@ -32076,7 +32072,6 @@ encoder:
 一号	ysh5	409
 既有	jey2	409
 事业单位	syd4	409
-我早	wvz1	409
 花钱	hkq1	409
 参照	cyz4	409
 清华大学	qhd5	409
@@ -32120,7 +32115,6 @@ encoder:
 交警	jwj4	409
 将近	jkj4	409
 趣味	qtw2	409
-修真	xrz3	409
 报刊	bjk2	409
 误区	wwq3	409
 看著	kvz2	409
@@ -32223,6 +32217,7 @@ encoder:
 简易	jzy3	409
 停车	trc1	409
 是国内	sgn3	409
+住院	zry3	409
 菩萨	pks3	409
 拷贝	kjb2	409
 江山	jvs2	409
@@ -32236,6 +32231,7 @@ encoder:
 执业	zjy1	409
 替换	tdh3	409
 踏上	tns1	409
+高山	gws2	409
 乐器	yhq2	409
 下线	xsx1	409
 知名度	zmd5	409
@@ -32289,7 +32285,6 @@ encoder:
 为您提供	wnt3	409
 共计	gkj1	409
 噪音	zoy2	409
-周日	zcr2	409
 盗链	ddl4	409
 某一	mky1	409
 转动	zpd5	409
@@ -32454,7 +32449,6 @@ encoder:
 驾驶员	jsy2	409
 连结	lpj2	409
 卫生间	wsj2	409
-首家	skj1	409
 一年级	ynj4	409
 章程	zlc1	409
 隧道	sbd4	409
@@ -32515,6 +32509,7 @@ encoder:
 烟花	yhh3	409
 清凉	qvl2	409
 发烧	fls3	409
+世家	skj1	409
 问候	wch3	409
 两个字	lgz5	409
 莲花	lkh3	409
@@ -32531,7 +32526,6 @@ encoder:
 日常生活	rcs1	409
 终生	zls1	409
 鄙视	bos3	409
-保修	brx3	409
 著作权	zzq5	409
 超人	ctr3	409
 胶囊	jun3	409
@@ -32679,6 +32673,7 @@ encoder:
 抽烟	cjy1	409
 快车下载	kcx1	409
 护肤	hjf3	409
+相连	xml4	409
 所提供	stg3	409
 天河	tsh2	409
 击中	jdz2	409
@@ -32796,6 +32791,7 @@ encoder:
 每一个人	myg3	409
 筛选	szx4	409
 体制改革	tzg1	409
+我找	wvz1	409
 他的心	tdx4	409
 国企	goq2	409
 秘籍	mhj2	409
@@ -32839,7 +32835,6 @@ encoder:
 柴油	cny2	409
 下雨	xsy1	409
 一愣	ysl4	409
-修建	xrj5	409
 好转	hnz4	409
 倒了	drl5	409
 投影机	tyj3	409
@@ -32881,7 +32876,6 @@ encoder:
 换个	hjg2	409
 飓风	jnf3	409
 结构调整	jgt2	409
-首要	sky5	409
 海盗	hvd2	409
 散热	skr4	409
 捐款	jjk3	409
@@ -33095,7 +33089,6 @@ encoder:
 比较多	bjd3	409
 业主论坛	yzl5	409
 卸载	xqz1	409
-首领	skl2	409
 无双	wds5	409
 升高	srg2	409
 相思	xms4	409
@@ -33108,6 +33101,7 @@ encoder:
 二手车	vsc1	409
 热卖	rjm1	409
 求购信息	qgx4	409
+双向	skx2	409
 好友列表	hyl3	409
 下载站	xzz2	409
 参考价格	ckj2	409
@@ -33134,7 +33128,6 @@ encoder:
 综述	zls4	409
 内核	nch3	409
 测评	cvp1	409
-周三	zcs1	409
 贯穿	goc3	409
 奖学金	jxj3	409
 成型	cgx1	409
@@ -33167,7 +33160,6 @@ encoder:
 讽刺	fwc2	409
 依法追究	yfz3	409
 国有资产	gyz3	409
-高尚	gws2	409
 遍布	bwb2	409
 豪宅	hwz1	409
 一棵	ysk1	409
@@ -33187,10 +33179,12 @@ encoder:
 牢牢	lil1	409
 计画	jwh5	409
 工商行政	gsx3	409
+相貌	xmm3	409
 高清晰	gqx3	409
 办公厅	bgt1	409
 电网	diw3	409
 欣喜	xjx2	409
+山路	sel2	409
 总要	zdy5	409
 音量	yll2	409
 我厂	wvc1	409
@@ -33290,6 +33284,7 @@ encoder:
 诚意	cwy4	409
 地方政府	dfz1	409
 涵盖	hvg2	409
+青山	qfs2	409
 副市长	fsz3	409
 卖了	mkl5	409
 装扮	zkb5	409
@@ -33350,7 +33345,6 @@ encoder:
 日趋	riq5	409
 挽回	wjh2	409
 仲裁	zrc3	409
-进修	jdx3	409
 工程技术	gcj4	409
 这个名字	zgm5	409
 地毯	dtt4	409
@@ -33358,6 +33352,7 @@ encoder:
 毫不犹豫	hby3	409
 折腾	zjt5	409
 陈述	cbs4	409
+按住	vjz1	409
 低下头	dxt1	409
 鲜艳	xyy5	409
 沐浴	mvy2	409
@@ -33371,7 +33366,6 @@ encoder:
 负荷	fuh2	409
 没有找到	myz2	409
 课堂教学	ktj5	409
-周二	zcv1	409
 多层	duc5	409
 在线试听	zxs3	409
 典雅	dvy4	409
@@ -33550,7 +33544,6 @@ encoder:
 远去	ydq5	409
 政策法规	zcf3	409
 契约	qfy4	409
-周到	zcd2	409
 流露出	llc2	409
 风湿	fns1	409
 贺卡	hqk2	409
@@ -33657,7 +33650,6 @@ encoder:
 意甲	ylj2	409
 延迟	yrc4	409
 顽强	wdq2	409
-下周	xsz2	409
 等部门	dbm4	409
 蚊子	wcz5	409
 产品类别	cpl2	409
@@ -33829,6 +33821,7 @@ encoder:
 张贴	zgt2	409
 供需	grx2	409
 赶上	gts1	409
+最深	zis1	409
 贫穷	prq5	409
 表态	bft4	409
 副总经理	fzj2	409
@@ -33945,7 +33938,6 @@ encoder:
 支行	zkh1	409
 服务质量	fwz2	409
 更多精彩	gdj3	409
-很早	hpz1	409
 奢华	sph1	409
 争执	zuz4	409
 暗恋	vil4	409
@@ -34293,7 +34285,6 @@ encoder:
 皮鞋	pgx1	409
 发布系统	fbx3	409
 企业经营	qyj2	409
-修长	xrc3	409
 错误报告	cwb2	409
 花瓣	hkb4	409
 额度	vid5	409
@@ -34358,7 +34349,6 @@ encoder:
 走访	ztf4	409
 服务业务	fwy5	409
 顾虑	ggl4	409
-最容易	zry3	409
 通俗	tys2	409
 饭菜	fuc1	409
 宽敞	kic3	409
@@ -34404,6 +34394,7 @@ encoder:
 八荣八	brb3	409
 就在于	jzy2	409
 法律顾问	flg2	409
+硬是	yss2	409
 分红	frh1	409
 最新推荐	zxt5	409
 办好	bqh5	409
@@ -34544,6 +34535,7 @@ encoder:
 揭密	jjm2	409
 质检	zhj1	409
 吞噬	tss3	409
+山下	sex2	409
 用餐	yuc3	409
 什么话	smh1	409
 典礼	dvl5	409
@@ -34652,6 +34644,7 @@ encoder:
 挂钩	gjg5	409
 命名为	mmw4	409
 草坪	ckp1	409
+相声	xms2	409
 游玩	yvw3	409
 触动	cud5	409
 凡人	fnr3	409
@@ -34660,6 +34653,7 @@ encoder:
 衷心	zwx4	409
 山脉	sem5	409
 看病	kvb3	409
+相传	xmc4	409
 恶性	vsx1	409
 迈克尔	mkv2	409
 主食	zws3	409
@@ -34970,7 +34964,6 @@ encoder:
 贸易型	myx1	409
 粮油	ldy2	409
 冲向	cdx2	409
-两周	lsz2	409
 旅游网	lyw3	409
 你敢	nrg3	409
 可以找到	kyz2	409
@@ -35013,6 +35006,7 @@ encoder:
 敲门	qwm4	409
 一百多	ybd3	409
 有点像	ydx3	409
+家住	jiz1	409
 技嘉	jjj2	409
 麻痹	mgb3	409
 明媚	mim2	409
@@ -35023,6 +35017,7 @@ encoder:
 扰乱	rjl5	409
 红光	hlg5	409
 电动车	ddc1	409
+山中	sez2	409
 交错	jwc2	409
 企业集团	qyj3	409
 连胜	lps1	409
@@ -35195,6 +35190,7 @@ encoder:
 乌云	wby5	409
 犯人	fqr3	409
 大美女	dmn5	409
+散落	skl2	409
 湖人	hvr3	409
 腐蚀	fgs2	409
 火球	hhq4	409
@@ -35244,6 +35240,7 @@ encoder:
 不得已	bdy5	409
 副院长	fyz3	409
 外资企业	wzq1	409
+轰炸	hpz1	409
 试了	swl5	409
 推荐文章	tjw1	409
 攻城	gdc4	409
@@ -35483,6 +35480,7 @@ encoder:
 第七条	dqt1	409
 新版本	xbb1	409
 入世	rrs5	409
+山林	sel1	409
 饼干	bug1	409
 斗志	ddz4	409
 趋向	qtx2	409
@@ -35527,6 +35525,7 @@ encoder:
 灯饰	dhs2	409
 告辞	grc4	409
 防疫	fby5	409
+为啥	wws2	409
 马丁	mqd1	409
 还必须	hbx2	409
 最关键	zgj5	409
@@ -35734,6 +35733,7 @@ encoder:
 游泳池	yyc5	409
 局限	jpx4	409
 通用网址	tyw2	409
+相亲	xmq1	409
 为您服务	wnf5	409
 蕾丝	lks1	409
 网址大全	wzd1	409
@@ -35781,7 +35781,6 @@ encoder:
 肝脏	guz1	409
 充分体现	cft3	409
 四六级	slj4	409
-过早	gcz1	409
 整理日期	zlr3	409
 湖泊	hvp3	409
 古今	ggj5	409
@@ -35897,6 +35896,7 @@ encoder:
 岛屿	dby1	409
 写完	xiw3	409
 内心深处	nxs2	409
+围住	woz1	409
 银幕	yam2	409
 黑名单	hmd1	409
 中俄	zov4	409
@@ -35936,11 +35936,13 @@ encoder:
 美艳	mdy5	409
 伊人	yrr3	409
 白皙	bnx3	409
+相通	xmt4	409
 彩图	czt4	409
 请确认	qqr3	409
 商圈	swq5	409
 洞穴	dvx3	409
 外籍	wuj2	409
+变相	bwx2	409
 鞋业	xky1	409
 皇冠	hng1	409
 恶作剧	vzj2	409
@@ -36039,6 +36041,7 @@ encoder:
 赚钱快	zqk3	409
 促销活动	cxh5	409
 迷惘	mdw4	409
+休假	xrj5	409
 彼岸	bpv1	409
 独创	dqc2	409
 无图片	wtp5	409
@@ -36194,6 +36197,7 @@ encoder:
 视频文件	spw1	409
 我晕	wvy1	409
 国际社会	gjs5	409
+小山	xps2	409
 有计划	yjh2	409
 战线	zex1	409
 播放软件	bfr1	409
@@ -36212,7 +36216,6 @@ encoder:
 第一大	dyd1	409
 在线咨询	zxz2	409
 虚空	xek1	409
-追了	zrl5	409
 工具软件	gjr1	409
 我还能	whn3	409
 面世	mss5	409
@@ -36407,7 +36410,6 @@ encoder:
 中国城	zgc4	409
 舅舅	jnj5	409
 庄家	zgj1	409
-早年	zin2	409
 高新区	gxq3	409
 儒家	rrj1	409
 双胞胎	sbt2	409
@@ -36527,7 +36529,6 @@ encoder:
 舒缓	sah5	409
 芳心	fkx4	409
 视频教程	spj1	409
-不早	bsz1	409
 相邻	xml5	409
 我们俩	wml3	409
 增至	ztz1	409
@@ -36615,6 +36616,7 @@ encoder:
 荟萃	hkc1	409
 懦弱	nxr4	409
 出版物	cbw3	409
+山地	sed5	409
 马上就要	msj5	409
 塞进	sij4	409
 倾向于	qxy2	409
@@ -36664,6 +36666,7 @@ encoder:
 袖子	xyz5	409
 搞清楚	gqc2	409
 出版时间	cbs2	409
+贯彻执行	gcz1	409
 过日子	grz5	409
 稀少	xhs3	409
 影片名称	ypm2	409
@@ -36941,6 +36944,7 @@ encoder:
 上传图片	sct5	409
 行业发展	hyf5	409
 开课	ksk1	409
+中长期	zcq3	409
 两套	lst1	409
 待人	dpr3	409
 消费税	xfs3	409
@@ -37093,6 +37097,7 @@ encoder:
 天仙	tsx2	409
 产品报价	cpb3	409
 神剑	syj2	409
+灾区	ziq3	409
 插手	cjs3	409
 耐磨	nsm1	409
 即时通讯	jst1	409
@@ -37286,6 +37291,7 @@ encoder:
 零配件	lpj1	409
 运河	ydh2	409
 茶杯	ckb2	409
+在车上	zcs1	409
 凸现	tex3	409
 同性	tcx1	409
 仅需	jrx2	409
@@ -37304,7 +37310,6 @@ encoder:
 始终保持	szb1	409
 风雪	fnx5	409
 投入使用	trs3	409
-早起	ziq5	409
 主要任务	zyr5	409
 永生	yws1	409
 竟敢	jlg3	409
@@ -37521,7 +37526,6 @@ encoder:
 实际行动	sjx5	409
 一言不发	yyb4	409
 桑拿	skn3	409
-上旬	sex2	409
 一年内	ynn3	409
 辨认	blr3	409
 可操作	kcz1	409
@@ -37545,7 +37549,6 @@ encoder:
 娇艳	jny5	409
 耗尽	hfj4	409
 吝啬	lus2	409
-太早	tpz1	409
 堂主	tez1	409
 暂且	zpq2	409
 厌烦	ygf2	409
@@ -37571,6 +37574,7 @@ encoder:
 混战	hvz1	409
 县长	xhz3	409
 批发零售	pfl2	409
+索要	sky5	409
 共收录	gsl2	409
 好意思	hys4	409
 好成绩	hcj2	409
@@ -37650,7 +37654,6 @@ encoder:
 走红	zth1	409
 矫正	jgz2	409
 网站设计	wzs1	409
-相恋	xml4	409
 苗条	mkt1	409
 电子地图	dzd4	409
 帮扶	bff3	409
@@ -37798,7 +37801,6 @@ encoder:
 凌云	ldy5	409
 强暴	qgb2	409
 外贸出口	wmc2	409
-首部	skb5	409
 沉声道	csd4	409
 全员	qay2	409
 宽带网	kdw3	409
@@ -38044,7 +38046,6 @@ encoder:
 殆尽	dsj4	409
 中国证券	zgz5	409
 美联储	mlc2	409
-畜牧业	xmy1	409
 法人股	frg5	409
 在心底	zxd4	409
 二室	vds1	409
@@ -38065,6 +38066,7 @@ encoder:
 本站声明	bzs3	409
 十运会	syh5	409
 桑塔纳	stn3	409
+扶住	fjz1	409
 脱口而出	tkv2	409
 汽车站	qcz2	409
 字形	zix3	409
@@ -38153,6 +38155,7 @@ encoder:
 培训课程	pxk1	409
 一张纸	yzz1	409
 多米	dum4	409
+爬山	phs2	409
 合作社	hzs1	409
 嫌弃	xnq1	409
 外篇	wup1	409
@@ -38208,7 +38211,6 @@ encoder:
 湖畔	hvp1	409
 屈服	qpf5	409
 拨通	bjt4	409
-首期	skq3	409
 反腐败	ffb3	409
 年度报告	ndb2	409
 拉链	ljl4	409
@@ -38236,6 +38238,7 @@ encoder:
 吃完饭	cwf5	409
 元宝	ydb4	409
 更不用说	gby3	409
+正常运行	zcy1	409
 深藏	svc4	409
 写照	xiz4	409
 高尔夫球	gvf4	409
@@ -38380,7 +38383,6 @@ encoder:
 网络软件	wlr1	409
 酷酷	kxk2	409
 洋葱	yvc4	409
-那首	nus2	409
 管委会	gwh5	409
 兴高采烈	xgc4	409
 得心应手	dxy3	409
@@ -38552,6 +38554,7 @@ encoder:
 今世	jas5	409
 肛门	gum4	409
 五级	wwj4	409
+相会	xmh5	409
 面积达	mjd4	409
 战士们	zsm4	409
 蓄电池	xdc5	409
@@ -38618,6 +38621,7 @@ encoder:
 理直气壮	lzq1	409
 断然	ddr4	409
 显赫	xih3	409
+封住	ftz1	409
 练到	lld2	409
 敬畏	jkw5	409
 请尽快	qjk3	409
@@ -38868,7 +38872,6 @@ encoder:
 工商部门	gsb4	409
 闪电般	sdb5	409
 废止	fgz2	409
-重修	crx3	409
 毛钱	mpq1	409
 西街	xxj1	409
 海贼王	hzw1	409
@@ -39040,7 +39043,6 @@ encoder:
 成交价	cjj3	409
 不慢	bsm5	409
 南宋	nks1	409
-青涩	qfs2	409
 追究其	zjq3	409
 自恋	zrl4	409
 所吸引	sxy2	409
@@ -39401,7 +39403,6 @@ encoder:
 影坛	yit5	409
 严惩	ysc4	409
 狗屁	gqp3	409
-上汽	seq3	409
 并不像	bbx3	409
 喜怒哀乐	xnv2	409
 如何做	rhz3	409
@@ -39495,6 +39496,7 @@ encoder:
 阴天	ybt1	409
 女教师	njs2	409
 玉兰	yfl1	409
+相望	xmw1	409
 特异	try1	409
 依次为	ycw4	409
 中枢	zos3	409
@@ -39519,6 +39521,7 @@ encoder:
 聚酯	jbz2	409
 钟头	zat1	409
 红了脸	hll1	409
+山城	sec4	409
 梦到	mmd2	409
 二十三条	vss1	409
 傻眼	sry4	409
@@ -39713,7 +39716,6 @@ encoder:
 追回	zrh2	409
 新方法	xff5	409
 飘忽	pxh4	409
-周公	zcg5	409
 罚金	ffj3	409
 互惠	hsh4	409
 辖区内	xqn3	409
@@ -39782,7 +39784,6 @@ encoder:
 旋即	xqj5	409
 堂课	tek1	409
 李世民	lsm1	409
-橡皮	xmp5	409
 鱼肉	yyr3	409
 注册登记	zcd5	409
 轮椅	lpy2	409
@@ -39862,7 +39863,6 @@ encoder:
 卫星电视	wxd3	409
 法律依据	fly1	409
 利用外资	lyw2	409
-入驻	rrz1	409
 创业投资	cyt2	409
 投资额	tzv2	409
 大名鼎鼎	dmd5	409
@@ -40064,7 +40064,6 @@ encoder:
 橱窗	cmc3	409
 会员单位	hyd4	409
 酿酒	nxj1	409
-校庆	xmq1	409
 歇斯底里	xsd2	409
 很遗憾	hyh4	409
 最可怕	zkp3	409
@@ -40111,6 +40110,7 @@ encoder:
 重振	crz5	409
 缅怀	mlh2	409
 堆满	dtm3	409
+注册地址	zcd2	409
 如火	rnh4	409
 阴霾	ybm2	409
 小类	xpl1	409
@@ -40157,6 +40157,7 @@ encoder:
 残暴	csb2	409
 中继	zoj5	409
 晒太阳	sty2	409
+山口	sek2	409
 招商网	zsw3	409
 实际出发	sjc4	409
 你爸爸	nbb5	409
@@ -40173,6 +40174,7 @@ encoder:
 仰慕	yrm4	409
 狂赚	kqz2	409
 玛瑙	mfn3	409
+猛增	mqz2	409
 多级	duj4	409
 发行量	fxl2	409
 圣母	skm4	409
@@ -40183,8 +40185,8 @@ encoder:
 猜疑	cqy2	409
 搞怪	gjg1	409
 银联	yal1	409
-尚可	sek2	409
 浓烟	nvy1	409
+山间	sej2	409
 倡议书	cys4	409
 出生地	csd5	409
 木乃伊	mny3	409
@@ -40324,7 +40326,6 @@ encoder:
 最新推出	zxt2	409
 伤疤	srb5	409
 女老师	nls2	409
-校服	xmf5	409
 市委常委	swc5	409
 春水	cfs2	409
 必死	bxs3	409
@@ -40428,7 +40429,6 @@ encoder:
 甘草	gkc1	409
 当街	dej1	409
 滑坡	hvp5	409
-今早	jaz1	409
 保护法	bhf5	409
 八千	brq1	409
 过河	gch2	409
@@ -40437,6 +40437,7 @@ encoder:
 烟云	yhy5	409
 口香糖	kxt2	409
 纷乱	fll5	409
+像只	xrz3	409
 在此次	zcc3	409
 扑鼻	pjb3	409
 保加利亚	bjl1	409
@@ -40511,7 +40512,6 @@ encoder:
 出口量	ckl2	409
 闻声	wcs2	409
 养分	ydf5	409
-周全	zcq1	409
 我才发现	wcf3	409
 告一段落	gyd2	409
 辱骂	rgm5	409
@@ -40581,7 +40581,6 @@ encoder:
 心理压力	xly5	409
 萧萧	xkx4	409
 未雨绸缪	wyc3	409
-还早	hsz1	409
 傲然	vrr4	409
 补课	byk1	409
 更易	gsy3	409
@@ -40610,7 +40609,6 @@ encoder:
 玉手	yfs3	409
 止痛	znt2	409
 三毛	sfm3	409
-早盘	zip2	409
 正午	zsw1	409
 瞧了	qfl5	409
 静默	jfm4	409
@@ -40618,6 +40616,7 @@ encoder:
 吹过	cog4	409
 扼杀	vjs1	409
 秋雨	qhy1	409
+塑像	skx3	409
 秋日	qhr2	409
 防潮	fbc3	409
 老字号	lzh5	409
@@ -40651,6 +40650,7 @@ encoder:
 反腐倡廉	ffc2	409
 利刃	lhr4	409
 美能达	mnd4	409
+相框	xmk1	409
 串行	coh1	409
 白嫩	bnn3	409
 发短消息	fdx4	409
@@ -41199,7 +41199,6 @@ encoder:
 这艘	zus5	409
 说实在的	ssz4	409
 打趣	djq5	409
-修车	xrc1	409
 魔剑	mgj2	409
 基础理论	jcl3	409
 我恨	wvh4	409
@@ -41284,6 +41283,7 @@ encoder:
 退伍	tew1	409
 精装修	jzx3	409
 跳出来	tcl4	409
+像册	xrc1	409
 哈尔	hov2	409
 神韵	syy4	409
 技术推广	jst4	409
@@ -41410,7 +41410,6 @@ encoder:
 迁就	qrj4	409
 刊号	kth5	409
 利润分配	lrf5	409
-校尉	xmw1	409
 好半天	hbt1	409
 思想家	sxj1	409
 逆境	nkj3	409
@@ -42014,10 +42013,8 @@ encoder:
 炮制	phz2	409
 笔录	bzl2	409
 雷傲	ltv3	409
-厦门大学	xmd5	409
 上浮	sef5	409
 见过面	jgm1	409
-上届	sej2	409
 瑞星杀毒	rxs4	409
 消费群体	xfq1	409
 哀愁	vwc4	409
@@ -42128,7 +42125,6 @@ encoder:
 面目全非	mmq1	409
 六位	lww4	409
 持续性	cxx1	409
-校舍	xms2	409
 蒙蔽	mkb3	409
 秀出	xhc2	409
 风雷	fnl2	409
@@ -42363,6 +42359,7 @@ encoder:
 拍广告	pgg2	409
 破译	psy1	409
 保险资金	bxz3	409
+靠山	krs2	409
 影片格式	ypg1	409
 脏话	zuh1	409
 罗尼	lfn3	409
@@ -42452,6 +42449,7 @@ encoder:
 日版	rib5	409
 慰藉	wpj2	409
 外挂下载	wgx1	409
+布什政府	bsz1	409
 文明单位	wmd4	409
 男爵	ntj1	409
 碳水	tss2	409
@@ -42470,7 +42468,6 @@ encoder:
 市政工程	szg1	409
 网友评价	wyp3	409
 肥沃	fuw1	409
-修成	xrc4	409
 血浆	xrj2	409
 沦陷	lvx3	409
 忿忿	frf4	409
@@ -42479,6 +42476,7 @@ encoder:
 谈吐	twt1	409
 匪浅	fcq1	409
 豪放	hwf3	409
+山人	ser3	409
 画卷	hsj5	409
 胃病	wtb3	409
 纽扣	nlk2	409
@@ -42513,7 +42511,7 @@ encoder:
 篮球队	lqd3	409
 告急	grj4	409
 应如何	yrh2	409
-相待	xmd1	409
+宗主	ziz1	409
 念佛	naf3	409
 魅族	mnz3	409
 序言	xgy4	409
@@ -42530,7 +42528,7 @@ encoder:
 我读	wvd1	409
 裁缝	ckf4	409
 职务犯罪	zwf1	409
-周家	zcj1	409
+山道	sed4	409
 幻象	hlx3	409
 戴维	dkw4	409
 给谁	gls4	409
@@ -42583,7 +42581,6 @@ encoder:
 诗篇	swp1	409
 附表	fbb3	409
 模拟试卷	mns5	409
-抢修	qjx3	409
 三思	sfs4	409
 奋勇	fpy5	409
 认真研究	rzy3	409
@@ -42591,6 +42588,7 @@ encoder:
 匆匆忙忙	ccm4	409
 欧洲人	vzr3	409
 喜获	xth4	409
+双拳	skq3	409
 备选	bux4	409
 救火	jsh4	409
 阅读理解	ydl1	409
@@ -42610,6 +42608,7 @@ encoder:
 柔嫩	ryn3	409
 全军覆没	qjf5	409
 读音	dwy2	409
+山大	sed1	409
 超脱	ctt3	409
 冉冉	rcr2	409
 转学	zpx5	409
@@ -42671,6 +42670,7 @@ encoder:
 刺伤	css5	409
 人才热线	rcr1	409
 车族	cpz3	409
+学生证	xsz2	409
 转业	zpy1	409
 八日	brr2	409
 玉帝	yfd2	409
@@ -42810,6 +42810,7 @@ encoder:
 成本管理	cbg2	409
 刻不容缓	kbr5	409
 原状	ygz4	409
+相许	xmx1	409
 第三期	dsq3	409
 耐不住	nbz1	409
 赛欧	siv3	409
@@ -42897,6 +42898,7 @@ encoder:
 牢房	lif4	409
 旅游信息	lyx4	409
 证券网	zqw3	409
+相向	xmx2	409
 贴牌	thp1	409
 鸡年	jkn2	409
 公司业绩	gsy2	409
@@ -43085,7 +43087,6 @@ encoder:
 敬爱	jkv5	409
 华中科技	hzk5	409
 发生意外	fsy2	409
-上篮	sel2	409
 现金流量	xjl2	409
 呢称	noc2	409
 媚眼	mny4	409
@@ -43176,7 +43177,6 @@ encoder:
 无线上网	wxs3	409
 冲印	cdy5	409
 新纪元	xjy3	409
-破坏神	phs2	409
 大忌	dpj4	409
 据他	jjt5	409
 胖了	pul5	409
@@ -43279,6 +43279,7 @@ encoder:
 干洗	gtx3	409
 锤子	caz5	409
 疲累	pgl2	409
+山风	sef3	409
 有名气	ymq3	409
 异类	ybl1	409
 贸易通	myt4	409
@@ -43350,7 +43351,6 @@ encoder:
 刁难	djn4	409
 安然无恙	vrw4	409
 人事制度	rsz5	409
-想写	xmx1	409
 副总统	fzt3	409
 课程内容	kcn2	409
 从政	caz3	409
@@ -43397,6 +43397,7 @@ encoder:
 网络产品	wlc2	409
 补考	byk5	409
 课程设置	kcs2	409
+重仓股	zcg5	409
 工具包	gjb5	409
 含金量	hjl2	409
 媒体格式	mtg1	409
@@ -43422,7 +43423,6 @@ encoder:
 流程图	lct4	409
 外贸服装	wmf3	409
 大学学报	dxx5	409
-早该	zig3	409
 物质文明	wzw3	409
 成双	cgs5	409
 上亿	sey5	409
@@ -43486,7 +43486,6 @@ encoder:
 千家万户	qjw5	409
 曾几何时	cjh1	409
 替代品	tdp2	409
-相称	xmc2	409
 雨滴	ytd1	409
 画得	hsd1	409
 遮蔽	zgb3	409
@@ -43618,6 +43617,7 @@ encoder:
 吉凶	jtx5	409
 列强	lsq2	409
 王女士	wns1	409
+选材	xrc3	409
 体魄	trp5	409
 提示符	tsf1	409
 发烫	flt4	409
@@ -43671,6 +43671,7 @@ encoder:
 顿悟	dsw2	409
 每份	mqf5	409
 搜捕	sjb4	409
+相去	xmq5	409
 秦汉	qfh5	409
 调节阀	tjf1	409
 争当	zud5	409
@@ -43787,6 +43788,7 @@ encoder:
 反对派	fdp4	409
 高分辨率	gfb1	409
 广播公司	gbg2	409
+相容	xmr2	409
 化学反应	hxf1	409
 肩部	jwb5	409
 高年级	gnj4	409
@@ -44328,7 +44330,6 @@ encoder:
 哨兵	sob3	409
 法式	fvs1	409
 婚纱摄影	hss3	409
-相惜	xmx2	409
 生动活泼	sdh4	409
 噩耗	vsh3	409
 境况	jtk3	409
@@ -44450,7 +44451,6 @@ encoder:
 亚洲国家	yzg1	409
 酷图	kxt4	409
 树皮	smp5	409
-主修	zwx3	409
 弹指	tgz2	409
 国产化	gch3	409
 内衣秀	nyx5	409
@@ -44479,6 +44479,7 @@ encoder:
 乘法	chf5	409
 窃贼	qiz1	409
 调拨	dwb4	409
+修辞	xrc4	409
 看美女	kmn5	409
 品牌价值	ppj2	409
 无障碍	wzv1	409
@@ -44493,6 +44494,7 @@ encoder:
 古罗马	glm5	409
 发表看法	fbk5	409
 高起点	gqd4	409
+相位	xmw4	409
 拐弯	gjw5	409
 捏住	njz1	409
 有机物	yjw3	409
@@ -44599,6 +44601,7 @@ encoder:
 能看懂	nkd2	409
 公私	grs5	409
 从零开始	clk2	409
+相克	xmk3	409
 霓虹	nth1	409
 电煤	dim1	409
 两党	lsd3	409
@@ -44755,6 +44758,7 @@ encoder:
 追求卓越	zqz4	409
 农垦	nik1	409
 且不说	qbs3	409
+画作	hsz1	409
 冷不防	lbf4	409
 磁力	csl5	409
 中广	zog4	409
@@ -44988,6 +44992,7 @@ encoder:
 到期日	dqr2	409
 种田	zht2	409
 碰过	psg4	409
+山之	sez4	409
 大官	dpg2	409
 泣不成声	qbc2	409
 嘹亮	lol3	409
@@ -45024,13 +45029,14 @@ encoder:
 杀人案	srv1	409
 耐腐蚀	nfs2	409
 卖淫女	myn5	409
+卡住	kez1	409
+卡住	qez1	409
 碧玉	bfy4	409
 应急处理	yjc2	409
 师爷	sdy5	409
 旖旎	yqn3	409
 拐点	gjd4	409
 泡了	pvl5	409
-叔父	sef3	409
 狂吼	kqh5	409
 玩伴	wfb1	409
 美不胜收	mbs3	409
@@ -45046,7 +45052,6 @@ encoder:
 喷发	pof4	409
 多糖	dut2	409
 类目	ldm2	409
-马修	mqx3	409
 非一般	fyb5	409
 价格优势	jgy5	409
 耗电量	hdl2	409
@@ -45077,6 +45082,7 @@ encoder:
 农庄	niz1	409
 趣闻	qtw1	409
 六层	lwc5	409
+丽质	lsz2	409
 价格下降	jgx2	409
 数学课	sxk1	409
 朱德	zqd4	409
@@ -45472,7 +45478,6 @@ encoder:
 乳酸	rzs3	409
 夹层	jsc5	409
 争气	zuq3	409
-自修	zrx3	409
 高墙	gwq2	409
 旅游开发	lyk4	409
 法制化	fzh3	409
@@ -46177,7 +46182,6 @@ encoder:
 联运	lby4	409
 俄军	vrj1	409
 外语学习	wyx4	409
-越早	ytz1	409
 美好未来	mhw4	409
 签售	qzs2	409
 割下	gix2	409
@@ -46267,7 +46271,6 @@ encoder:
 灰蒙蒙	hmm1	409
 这厮	zus3	409
 擒获	qjh4	409
-反击战	fjz1	409
 完美无缺	wmw3	409
 豆瓣	dsb4	409
 四通八达	stb4	409
@@ -46578,7 +46581,6 @@ encoder:
 昔年	xkn2	409
 败笔	bhb3	409
 归口	gdk2	409
-家庄	jiz1	409
 刘家	luj1	409
 温文尔雅	wwv4	409
 毛茸茸	mrr1	409
@@ -46753,7 +46755,6 @@ encoder:
 护卫舰	hwj3	409
 小武	xpw2	409
 工本费	gbf2	409
-尚待	sed1	409
 闲适	xcs4	409
 娇娇	jnj3	409
 膝上	xus1	409
@@ -47299,6 +47300,7 @@ encoder:
 深谙	svv2	409
 大罗	dpl3	409
 灰衣	hxy3	409
+造像	zrx3	409
 病虫	bgc2	409
 楷体	kmt1	409
 冒汗	mih1	409
@@ -47803,6 +47805,7 @@ encoder:
 寒芒	him4	409
 脏腑	zuf1	409
 农村土地	nct5	409
+相认	xmr3	409
 越级	ytj4	409
 逗弄	dsn1	409
 难以启齿	nyq5	409
@@ -47924,7 +47927,6 @@ encoder:
 扣人心弦	krx5	409
 很脆弱	hcr4	409
 换季	hjj5	409
-周天	zct1	409
 微创	wpc2	409
 眼罩	yfz1	409
 美股	mdg5	409
@@ -48042,6 +48044,7 @@ encoder:
 冰城	bdc4	409
 奇趣	qpq5	409
 入迷	rrm4	409
+进校	jdx3	409
 本坛	bmt5	409
 宝钗	bic4	409
 汽车改装	qcg3	409
@@ -48139,6 +48142,7 @@ encoder:
 帮困	bfk1	409
 深港	svg5	409
 非经常性	fjc1	409
+金针	jaz1	409
 库森	kgs1	409
 发送消息	fsx4	409
 美国股市	mgg2	409
@@ -48621,12 +48625,10 @@ encoder:
 起不来	qbl4	409
 铤而走险	tvz1	409
 共谋发展	gmf5	409
-小毛病	xmb3	409
 西大街	xdj1	409
 更灵活	glh1	409
 少林足球	slz4	409
 侯爷	hry5	409
-早退	zit4	409
 掩体	yjt1	409
 老巢	ltc1	409
 省纪委	sjw5	409
@@ -48680,9 +48682,9 @@ encoder:
 疟疾	ngj3	409
 企业化	qyh3	409
 漏气	lvq3	409
+管住	gzz1	409
 手工艺	sgy5	409
 魏国	whg4	409
-小美人	xmr3	409
 各型	gux1	409
 遗存	yoc5	409
 赴宴	fty5	409
@@ -48831,6 +48833,7 @@ encoder:
 写起	xiq5	409
 疑团	ylt3	409
 永驻	ywz1	409
+拿住	naz1	409
 避嫌	bpx2	409
 黄浦江	hpj1	409
 农林牧渔	nlm3	409
@@ -48948,7 +48951,6 @@ encoder:
 天线宝宝	txb4	409
 革履	gkl3	409
 赣南	gln1	409
-想喝	xmh5	409
 恐怖事件	kbs1	409
 国内统一	gnt1	409
 抢劫案	qjv1	409
@@ -48965,6 +48967,7 @@ encoder:
 嘉德	jtd4	409
 微硬盘	wyp2	409
 公司旗下	gsq2	409
+最疼	zit4	409
 立足点	lzd4	409
 塑料模具	slm3	409
 甲类	jil1	409
@@ -48988,7 +48991,6 @@ encoder:
 触目	cum2	409
 不可磨灭	bkm4	409
 喀布尔	kbv2	409
-苦修	kkx3	409
 副词	fsc2	409
 比做	bgz3	409
 窝窝	wiw3	409
@@ -49094,6 +49096,7 @@ encoder:
 不娶	bsq5	409
 每况愈下	mky2	409
 废塑料	fsl1	409
+现住	xfz1	409
 六西格玛	lxg5	409
 团费	tof2	409
 高塔	gwt2	409
@@ -49696,6 +49699,7 @@ encoder:
 共赴	gkf2	409
 维修基金	wxj3	409
 受虐	szn1	409
+命相	max2	409
 卡夫卡	kfk2	409
 公益行	gyh1	409
 蒋经国	jjg4	409
@@ -49931,6 +49935,7 @@ encoder:
 南京日报	njr5	409
 变局	bwj2	409
 棋牌类	qpl1	409
+相国	xmg4	409
 宣传册	xcc1	409
 抢镜	qjj3	409
 多窗口	dck2	409
@@ -50266,11 +50271,13 @@ encoder:
 杨光	ymg5	409
 快去吧	kqb5	409
 谢尔	xwv2	409
+早孕	ziy5	409
 瓷瓶	cdp4	409
 东海岸	dhv1	409
 热气球	rqq4	409
 糟粕	zdp3	409
 畅享	cix5	409
+貌相	mzx2	409
 前臂	qkb2	409
 帐下	zex2	409
 裴恩才	pvc3	409
@@ -50307,6 +50314,7 @@ encoder:
 同盟会	tmh5	409
 牛车	nrc1	409
 星战前传	xzq4	409
+长住	ccz1	409
 函件	hjj1	409
 金钗	jac4	409
 群狼	qel4	409
@@ -50376,6 +50384,7 @@ encoder:
 破财	psc3	409
 刀割	dqg2	409
 青年节	qnj5	409
+相求	xmq4	409
 嗔怪	cog1	409
 铁锹	taq4	409
 都有哪些	dyn1	409
@@ -50420,7 +50429,6 @@ encoder:
 言明	yym3	409
 交互性	jhx1	409
 法军	fvj1	409
-周记	zcj5	409
 二号线	vhx1	409
 含情	haq2	409
 柳枝	lmz5	409
@@ -50660,7 +50668,6 @@ encoder:
 金融保险	jrb1	409
 联想电脑	lxd5	409
 金鳞	jal2	409
-卡修	kex3	409
 电话区号	dhq5	409
 逆反心理	nfx2	409
 不卫生	bws1	409
@@ -50697,6 +50704,7 @@ encoder:
 日臻	riz3	409
 从宽	cak3	409
 幸运数字	xys5	409
+桑巴	skb5	409
 公司合并	gsh1	409
 捅破	tjp5	409
 不痛不痒	btb2	409
@@ -50775,10 +50783,10 @@ encoder:
 火车车次	hcc3	409
 天目山	tms2	409
 脑中风	nzf3	409
-卡纸	kez1	409
 妊娠期	rsq3	409
 判断题	pdt2	409
 投标书	tbs4	409
+促狭	crx3	409
 低分	drf5	409
 婷美	tnm1	409
 泊车	bvc1	409
@@ -50842,7 +50850,6 @@ encoder:
 榴莲	lml4	409
 复合板	fhb5	409
 麦片	mfp5	409
-小麻雀	xmq4	409
 计算题	jst2	409
 韦恩	wdv4	409
 透漏	thl1	409
@@ -50876,6 +50883,7 @@ encoder:
 舞龙	wrl4	409
 旱灾	hiz4	409
 火腿肠	htc3	409
+虎山	hes2	409
 卖给你	mgn2	409
 发件人	fjr3	409
 倩儿	qrv3	409
@@ -50945,6 +50953,7 @@ encoder:
 宿营	siy2	409
 故障分析	gzf3	409
 刘伯承	lbc5	409
+那山	nus2	409
 题诗	tis1	409
 晚秋	wiq4	409
 图书库	tsk1	409
@@ -50979,7 +50988,6 @@ encoder:
 竹筏	zqf1	409
 大好人	dhr3	409
 短信联盟	dxl2	409
-工资支付	gzz1	409
 如法炮制	rfp2	409
 欢迎留言	hyl4	409
 会议通知	hyt2	409
@@ -51179,7 +51187,6 @@ encoder:
 标志牌	bzp1	409
 简繁体	jft1	409
 著名画家	zmh1	409
-相劝	xmq5	409
 遗尿	yon2	409
 附加条件	fjt1	409
 全手动	qsd5	409
@@ -51502,6 +51509,7 @@ encoder:
 冥王篇	mwp1	409
 聪敏	cbm3	409
 倒满	drm3	409
+周遍	zcb4	409
 短程	dgc1	409
 舞团	wrt3	409
 总发帖数	zft3	409
@@ -51946,6 +51954,7 @@ encoder:
 登陆舰	dlj3	409
 男妓	ntj5	409
 纯碱	clj4	409
+谈判桌	tpz1	409
 面积计算	mjj1	409
 院团委	ytw5	409
 南半球	nbq4	409
@@ -52177,7 +52186,6 @@ encoder:
 卖光	mkg5	409
 煤炭市场	mts3	409
 律政	lpz3	409
-扼住	vjz1	409
 异宝	ybb4	409
 可储存	kcc5	409
 二倍	vdb2	409
@@ -52340,6 +52348,7 @@ encoder:
 虫儿	ccv3	409
 迷漫	mdm5	409
 幅宽	fek3	409
+看山	kvs2	409
 王辉	wfh1	409
 且不准	qbz4	409
 团支书	tzs4	409
@@ -52356,7 +52365,6 @@ encoder:
 飞行速度	fxs5	409
 第一天起	dyt5	409
 人文主义	rwz3	409
-性敏感	xmg4	409
 悲叹	bet5	409
 病案	bgv1	409
 寒窗	hic3	409
@@ -52378,6 +52386,7 @@ encoder:
 园区建设	yqj5	409
 罗罗	lfl3	409
 奋发图强	fft2	409
+看相	kvx2	409
 校企	xmq2	409
 运钞车	ycc1	409
 斑鸠	bfj1	409
@@ -52450,7 +52459,6 @@ encoder:
 合格品	hgp2	409
 牡丹卡	mdk2	409
 人高马大	rgm1	409
-消费指南	xfz1	409
 工程安装	gcv3	409
 编报	blb5	409
 填权	ttq5	409
@@ -53021,7 +53029,6 @@ encoder:
 开咖啡店	kkf2	409
 德迈尔	dmv2	409
 课目	kwm2	409
-上达	sed4	409
 沙俄	svv4	409
 江湾	jvw5	409
 集体婚礼	jth5	409
@@ -53039,7 +53046,6 @@ encoder:
 屡教不改	ljb3	409
 康纳利	knl2	409
 二进制数	vjz3	409
-项目开工	xmk1	409
 富集	fij1	409
 八十二	bsv1	409
 地牢围攻	dlw3	409
@@ -53328,6 +53334,7 @@ encoder:
 机械学	jxx5	409
 未审核	wsh3	409
 水暖器材	snq3	409
+州郡	zcj5	409
 高海拔	ghb4	409
 霉味	mtw2	409
 内六角	nlj3	409
@@ -53437,6 +53444,7 @@ encoder:
 帘幕	lim2	409
 微机控制	wjk2	409
 动物学	dwx5	409
+攀住	pmz1	409
 柴草	cnc1	409
 奥妮	vrn3	409
 牛蛙	nrw1	409
@@ -53629,7 +53637,6 @@ encoder:
 快人快语	krk2	409
 呕血	vox2	409
 史官	sog2	409
-犒赏	krs2	409
 补脑	byn5	409
 性解放	xjf3	409
 上弦	sex5	409
@@ -53676,7 +53683,6 @@ encoder:
 铁罐	tag4	409
 回顾过去	hgg5	409
 乌金	wbj3	409
-新面貌	xmm3	409
 人大会议	rdh3	409
 白莲教	blj3	409
 煅烧	dhs3	409
@@ -53756,7 +53762,6 @@ encoder:
 照排	zip1	409
 新财富	xcf2	409
 团区委	tqw5	409
-细木工板	xmg5	409
 轮训	lpx3	409
 每日电讯	mrd1	409
 人狼	ral4	409
@@ -53864,7 +53869,6 @@ encoder:
 读卖	dwm1	409
 通信线路	txx2	409
 停摆	trb5	409
-变细	bwx2	409
 奈尔	npv2	409
 奥林匹亚	vlp1	409
 凹印	vey5	409
@@ -54017,6 +54021,7 @@ encoder:
 痛改前非	tgq1	409
 哀婉	vww5	409
 一等品	ydp2	409
+钉住	daz1	409
 常用命令	cym5	409
 叶挺	yot5	409
 麦博	mfb1	409
@@ -54272,6 +54277,7 @@ encoder:
 抗美	kjm1	409
 窃电	qid5	409
 获诺贝尔	hnb2	409
+马靴	mqx3	409
 熔接机	rjj3	409
 穆托姆博	mtm1	409
 托斯卡	tsk2	409
@@ -54322,7 +54328,6 @@ encoder:
 背叛者	bpz2	409
 男仆	ntp2	409
 门牌号	mph5	409
-早发	zif4	409
 削皮	xep5	409
 闲不住	xbz1	409
 晚唐	wit2	409
@@ -54438,7 +54443,6 @@ encoder:
 良种苗	lzm2	409
 经销店	jxd2	409
 人小鬼大	rxg1	409
-虫蛀	ccz1	409
 各市县	gsx5	409
 拼合	pjh2	409
 玉女心经	ynx1	409
@@ -54968,7 +54972,6 @@ encoder:
 扩容压力	kry5	409
 女病人	nbr3	409
 投资学	tzx5	409
-尚都	sed5	409
 磕磕绊绊	kkb1	409
 名片设计	mps1	409
 木器漆	mqq2	409
@@ -55330,7 +55333,6 @@ encoder:
 幸福花	xfh3	409
 府尹	fgy3	409
 可信任	kxr1	409
-校工	xmg1	409
 人力车	rlc1	409
 皮条客	ptk2	409
 秋瑾	qhj1	409
@@ -55628,6 +55630,7 @@ encoder:
 随附	sbf1	409
 副总指挥	fzz1	409
 采暖系统	cnx3	409
+昭然	zir4	409
 咣咣	gog5	409
 城市通	cst4	409
 女公务员	ngw2	409
@@ -56364,6 +56367,7 @@ encoder:
 跳舞毯	twt4	409
 肠管	cug2	409
 汽车信息	qcx4	409
+二相	vdx2	409
 为你活	wnh1	409
 铡刀	zad5	409
 加害于	jhy2	409
@@ -56479,6 +56483,7 @@ encoder:
 棉织	mmz3	409
 航天部	htb5	409
 连袂	lpm3	409
+主校	zwx3	409
 狂搜	kqs5	409
 鬼吧	gnb5	409
 由中科院	yzk3	409
@@ -57927,6 +57932,7 @@ encoder:
 尿壶	nph1	409
 凤歌	fng3	409
 烤肉店	krd2	409
+山吧	seb5	409
 冰淇淋机	bql3	409
 利尿药	lny4	409
 如侵犯	rqf5	409
@@ -58062,7 +58068,6 @@ encoder:
 普查表	pcb3	409
 艾佛森	vfs1	409
 细菌学	xjx5	409
-辉山	hes2	409
 病毒软件	bdr1	409
 丰登	ffd4	409
 灭蟑螂	mzl5	409
@@ -58205,6 +58210,7 @@ encoder:
 极有可能	jyk3	409
 训犬	xwq4	409
 齿状	cnz4	409
+灾年	zin2	409
 勤务员	qwy2	409
 锌粉	xaf5	409
 肉骨粉	rgf5	409
@@ -58262,7 +58268,6 @@ encoder:
 莱菔	lkf5	409
 俏江南	qjn1	409
 无焊缝	whf4	409
-修明	xrm3	409
 日用品厂	ryp1	409
 娘娘庙	nnm2	409
 官复原职	gfy3	409
@@ -59152,6 +59157,7 @@ encoder:
 化工染料	hgr1	409
 兔年	tun2	409
 网捕	wcb4	409
+苦夏	kkx3	409
 入户门	rhm4	409
 口爆	kob2	409
 皓白	hnb3	409
@@ -59672,6 +59678,7 @@ encoder:
 腾空而起	tkv5	409
 头晕目眩	tym5	409
 过目不忘	gmb4	409
+咫尺天涯	zct1	409
 学海无涯	xhw1	409
 风流倜傥	flt3	409
 慕名而来	mmv4	409
@@ -60475,6 +60482,7 @@ encoder:
 重足而立	czv4	409
 周情孔思	zqk4	409
 筑坛拜将	ztb1	409
+锥处囊中	zcn2	409
 罪不可逭	zbk4	409
 各自为战	gzw1	409
 柔情蜜意	rqm4	409
@@ -60829,7 +60837,6 @@ encoder:
 发棠之请	ftz2	409
 法出一门	fcy4	409
 法无二门	fwv4	409
-凡胎浊体	ftz1	409
 凡桃俗李	fts5	409
 繁文末节	fwm5	409
 反戈相向	fgx2	409
@@ -61417,7 +61424,6 @@ encoder:
 目濡耳染	mrv1	409
 目挑眉语	mtm2	409
 目无三尺	mws4	409
-目注心凝	mzx2	409
 牧猪奴戏	mzn1	409
 幕燕釜鱼	myf3	409
 拏风跃云	nfy5	409
@@ -62031,7 +62037,6 @@ encoder:
 匣剑帷灯	xjw1	409
 遐州僻壤	xzp3	409
 下笔如神	xbr2	409
-下马看花	xmk3	409
 下乔入幽	xqr5	409
 鲜蹦活跳	xbh4	409
 鲜车怒马	xcn5	409
@@ -62114,6 +62119,7 @@ encoder:
 鱼烂而亡	ylv4	409
 逾年历岁	ynl3	409
 鹬蚌相危	ybx5	409
+渊渟泽汇	ytz1	409
 原封未动	yfw5	409
 圆孔方木	ykf1	409
 鼋鸣鳖应	ymb1	409
@@ -62178,7 +62184,6 @@ encoder:
 很多人都	hdr5	409
 完全可以	wqk3	409
 软件开发	rjk4	409
-上饶	ser3	409
 塘沽	ttg1	409
 八年	brn2	409
 崇明	cem3	409
@@ -62245,6 +62250,7 @@ encoder:
 而不能	vbn3	409
 等着你	dzn2	409
 盘古	pzg1	409
+山南	sen1	409
 那一年	nyn2	409
 贵人	gor3	409
 克拉玛依	klm3	409
@@ -62311,7 +62317,6 @@ encoder:
 热比娅	rby1	409
 塘沽区	tgq3	409
 看不出来	kbc4	409
-嵊州	sez4	409
 保护好	bhh5	409
 为你们	wnm4	409
 年代末	ndm2	409
@@ -62354,7 +62359,6 @@ encoder:
 而且都	vqd5	409
 吴宗宪	wzx3	409
 三年内	snn3	409
-吴尊	woz1	409
 可以拿	kyn3	409
 漫无目的	mwm4	409
 丹药	dcy4	409
@@ -62449,7 +62453,6 @@ encoder:
 助您	zhn4	409
 是故	sig3	409
 啪啦	pol4	409
-早安	ziv5	409
 雯雯	wtw4	409
 拿货	nah2	409
 服务功能	fwg3	409
@@ -62587,7 +62590,6 @@ encoder:
 迎面而来	ymv4	409
 涪城	fvc4	409
 方正科技	fzk5	409
-肃宁	sen1	409
 品尝到	pcd2	409
 窝心	wix4	409
 赛段	sid5	409
@@ -62680,6 +62682,7 @@ encoder:
 分分秒秒	ffm3	409
 陈同海	cth4	409
 频率响应	plx1	409
+血肉模糊	xrm3	409
 对骂	dkm5	409
 勉县	mux5	409
 鄂州市	vzs2	409
@@ -62803,6 +62806,7 @@ encoder:
 宁强	niq2	409
 泡腾	pvt5	409
 张北县	zbx5	409
+人相	rax2	409
 玉人	yfr3	409
 看着办	kzb4	409
 合不拢嘴	hbl3	409
@@ -62921,7 +62925,6 @@ encoder:
 那曲地区	nqd3	409
 魂归	hdg5	409
 翘课	qlk1	409
-哪首	nos2	409
 宾川	bic3	409
 丛台	cat2	409
 若尔盖	rvg2	409
@@ -62983,6 +62986,7 @@ encoder:
 霍邱县	hqx5	409
 辽中县	lzx5	409
 庆大霉素	qdm2	409
+看住	kvz1	409
 放上去	fsq5	409
 从艺	cay5	409
 空气调节	kqt5	409
@@ -63252,6 +63256,7 @@ encoder:
 女弟子	ndz5	409
 没准儿	mzv3	409
 穷追猛打	qzm1	409
+名相	mux2	409
 牵到	qpd2	409
 安全考虑	vqk4	409
 瓜皮	ghp5	409
@@ -63416,7 +63421,6 @@ encoder:
 宁明县	nmx5	409
 人口结构	rkj5	409
 天全县	tqx5	409
-山包	seb5	409
 喝干	hog1	409
 毛孩	mph3	409
 不干脆	bgc5	409
@@ -63524,6 +63528,7 @@ encoder:
 工程费	gcf2	409
 咖啡碱	kfj4	409
 帕劳	pel5	409
+秋季学期	qjx3	409
 微笑起来	wxq4	409
 名讳	muh2	409
 吓怕	xop3	409
@@ -63580,6 +63585,7 @@ encoder:
 发酒疯	fjf3	409
 看得远	kdy4	409
 熬出头	vct1	409
+照发	zif4	409
 那集	nuj1	409
 南丁格尔	ndg2	409
 膻味	suw2	409
@@ -63663,7 +63669,6 @@ encoder:
 陪葬品	pzp2	409
 新兵训练	xbx3	409
 肉糜	rcm4	409
-相斥	xmc4	409
 没法儿	mfv3	409
 入伏	rrf4	409
 疲劳过度	plg5	409
@@ -63691,7 +63696,6 @@ encoder:
 由上而下	ysv2	409
 齐柏林	qbl1	409
 熬不过	vbg4	409
-早亡	ziw4	409
 趴的	pnd4	409
 好猛	hnm2	409
 忙来忙去	mlm5	409
@@ -63714,6 +63718,7 @@ encoder:
 温泉城	wqc4	409
 窝铺	wip4	409
 五福临门	wfl4	409
+位相	wrx2	409
 令旗	laq3	409
 客气话	kqh1	409
 气度不凡	qdb4	409
@@ -63876,7 +63881,6 @@ encoder:
 消毒片	xdp5	409
 一番苦心	yfk4	409
 腻人	nur3	409
-翁婿	wrx2	409
 五万块	wwk3	409
 没过来	mgl4	409
 战斗任务	zdr5	409
@@ -63938,6 +63942,7 @@ encoder:
 扔下来	rxl4	409
 情报资料	qbz1	409
 太空飞船	tkf2	409
+灾厄	ziv5	409
 空蒙	kim1	409
 终年积雪	znj5	409
 交流团	jlt3	409
@@ -63977,6 +63982,7 @@ encoder:
 不愁吃	bcc5	409
 吃白饭	cbf5	409
 庵主	vgz1	409
+黏住	nhz1	409
 空喊	kih4	409
 蓬莱仙境	plx3	409
 喷入	por4	409
@@ -64048,7 +64054,6 @@ encoder:
 畅旺	ciw1	409
 春牛	cfn1	409
 动物分类	dwf1	409
-二叠系	vdx2	409
 各节	guj5	409
 关系企业	gxq1	409
 恢复名誉	hfm4	409
@@ -64154,7 +64159,6 @@ encoder:
 馆名	gum2	409
 沙皇俄国	shv4	409
 刘鹗	luv1	409
-名系	mux2	409
 阿奎那	vkn5	409
 白垩系	bvx2	409
 便条纸	btz1	409
@@ -64245,6 +64249,7 @@ encoder:
 辟易	bpy3	409
 丑奴儿	cnv3	409
 途遇	tay4	409
+靠住	krz1	409
 嘴软	zor3	409
 窗缝	cif4	409
 能干扰	ngr4	409
@@ -64315,7 +64320,6 @@ encoder:
 泥金	nvj3	409
 凹入	ver4	409
 并发动	bfd5	409
-副修	fsx3	409
 空桶	kit2	409
 黄龙府	hlf1	409
 凄寒	qdh4	409
@@ -64389,6 +64393,7 @@ encoder:
 按蚊	vjw4	409
 擦出爱	ccv5	409
 耵聍	dbn1	409
+法商学院	fsx3	409
 方向灯	fxd1	409
 辐辏	fpc1	409
 高攀不起	gpb5	409
@@ -65135,7 +65140,6 @@ encoder:
 幸不辱命	xbr5	409
 且战且走	qzq2	409
 含入	har4	409
-看座	kvz1	409
 火光熊熊	hgx4	409
 落人口实	lrk1	409
 恚怒	htn4	409
@@ -66085,7 +66089,6 @@ encoder:
 开辟记	kpj5	409
 开票所	kps3	409
 看财奴	kcn5	409
-看人嘴脸	krz1	409
 看台股	ktg5	409
 崁顶乡	kdx3	409
 康宁护校	knh3	409
@@ -66226,7 +66229,6 @@ encoder:
 拿枪杆	nqg1	409
 那古屋	ngw1	409
 那鸿书	nhs4	409
-呐喊助阵	nhz1	409
 纳聘	nlp5	409
 纳塔乃耳	ntn1	409
 纳瓦萨	nws3	409
@@ -66678,6 +66680,7 @@ encoder:
 长鼻目	cbm2	409
 折柳攀花	zlp3	409
 真神阿拉	zsv4	409
+制裁案	zcv1	409
 掷铁球	ztq4	409
 置换突变	zht5	409
 忠勇爱国	zyv4	409
@@ -66784,7 +66787,6 @@ encoder:
 可能就是	knj2	409
 就不怕	jbp3	409
 还有没	hym5	409
-想逃	xmt4	409
 能想到	nxd2	409
 非常清楚	fcq2	409
 我会让	whr1	409
@@ -66909,7 +66911,6 @@ encoder:
 给了他们	glt4	409
 你看你	nkn2	409
 非常快	fck3	409
-人血	rax2	409
 那自然	nzr4	409
 我给你们	wgn4	409
 不会发生	bhf1	409
@@ -66957,7 +66958,6 @@ encoder:
 如何呢	rhn3	409
 他给我	tgw4	409
 怕别人	pbr3	409
-嵌在	qez1	409
 想那么多	xnm3	409
 并不认为	bbr4	409
 那堆	nud4	409
@@ -67202,7 +67202,6 @@ encoder:
 微怒	wpn4	409
 让给我	rgw4	409
 连弩	lpn5	409
-早啊	ziv2	409
 而形成	vxc4	409
 亲妹妹	qmm2	409
 并不困难	bbk4	409
@@ -67393,6 +67392,7 @@ encoder:
 让我明白	rwm3	409
 是哦	siv4	409
 太完美了	twm5	409
+最稳	ziw4	409
 理由吗	lym5	409
 为了爱	wlv5	409
 我们认为	wmr4	409
@@ -67599,7 +67599,6 @@ encoder:
 你不配	nbp5	409
 没有原因	myy1	409
 五天前	wtq2	409
-早呢	zin3	409
 感情方面	gqf1	409
 软蛋	rpd2	409
 昭武	ziw2	409
@@ -67788,6 +67787,7 @@ encoder:
 桥边	qmb4	409
 由内而外	ynv2	409
 取得突破	qdt5	409
+宅内	zin3	409
 雷克明	lkm3	409
 岂不要	qby5	409
 我看错了	wkc5	409
@@ -68332,6 +68332,7 @@ encoder:
 年轻少女	nqs5	409
 态度暧昧	tdv2	409
 啼鸣	tom1	409
+最勤	ziq5	409
 别瞧	boq4	409
 别投	bot5	409
 小曲儿	xqv3	409
@@ -68728,7 +68729,6 @@ encoder:
 呛声	qos2	409
 窃走	qiz2	409
 这么怕我	zmp4	409
-看啥	kvs2	409
 灵魂附体	lhf1	409
 拍拍马屁	ppm3	409
 脾气倔强	pqj2	409
@@ -68762,7 +68762,6 @@ encoder:
 好了哦	hlv4	409
 快点哦	kdv4	409
 年方二八	nfv3	409
-攀至	pmz1	409
 趣味盎然	qwv4	409
 全部没收	qbm3	409
 如此结局	rcj2	409
@@ -68949,7 +68948,6 @@ encoder:
 我只盼	wzp5	409
 才问你的	cwn4	409
 朝鲜百姓	cxb1	409
-锻铸	daz1	409
 婀娜曼妙	vnm3	409
 高呼口号	ghk5	409
 控球权	kqq5	409
@@ -70360,6 +70358,7 @@ encoder:
 卡廷	ket5	409
 卡通头像	ktt3	409
 卡文克莱	kwk4	409
+卡乡	kex3	409
 佧佤	krw4	409
 开标后	kbh2	409
 开场模特	kcm1	409
@@ -70511,7 +70510,6 @@ encoder:
 可爱哎	kvv3	409
 可爱花	kvh3	409
 可爱可爱	kvk5	409
-可爱系	kvx2	409
 可被粉碎	kbf1	409
 可别被骗	kbb1	409
 可出售的	kcs4	409
@@ -71827,7 +71825,6 @@ encoder:
 山蓬	sep4	409
 商业库存	syk5	409
 上调红线	sth1	409
-尚城	sec4	409
 尚卿	seq5	409
 少年派	snp4	409
 畲话	sah1	409
@@ -72149,7 +72146,6 @@ encoder:
 校园快递	xyk4	409
 啸歌	xog3	409
 邪害空窍	xhk5	409
-邪门儿了	xmv5	409
 斜拱	xag3	409
 斜街	xaj1	409
 斜棱	xal3	409
@@ -72374,6 +72370,7 @@ encoder:
 光刃	ger4	409
 铭泰	mat2	409
 吴飞	wof3	409
+字啊	ziv2	409
 可能他	knt5	409
 虎牢	hel1	409
 宁王	niw1	409
@@ -72727,7 +72724,6 @@ encoder:
 俺才	vrc3	409
 啊咧	vol2	409
 毛女	mpn5	409
-拿针	naz1	409
 人孔	rak5	409
 别捏	bon1	409
 命背	mab2	409
@@ -73222,6 +73218,7 @@ encoder:
 哪跌	nod3	409
 哪号	noh5	409
 哪级	noj4	409
+哪啥	nos2	409
 哪趟	not2	409
 哪疼	not4	409
 哪屋	now1	409

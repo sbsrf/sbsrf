@@ -14,7 +14,6 @@
 宿	sir5
 盏	zlie
 绽	zliu
-窄	zir3
 暮	mkie
 晏	yiie
 妍	yns4
@@ -24,7 +23,7 @@
 戳	cjd3
 阐	ccd3
 搓	cjd4
-窒	zir4
+窒	zir3
 韶	slia
 弩	nnk4
 庐	lgw1
