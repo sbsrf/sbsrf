@@ -2,8 +2,8 @@
 patch:
   "style/color_scheme": aqua
   "style/display_tray_icon": false
-  "style/font_face": "Segoe UI Emoji, LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"              # 候选字体
-  "style/comment_font_face": "Segoe UI Emoji, LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"      # 编码字体
+  "style/font_face": "Segoe UI Emoji, LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16" # 候选字体
+  "style/comment_font_face": "Consolas, Segoe UI Emoji, LXGW WenKai, Microsoft Yahei, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16" # 编码字体
   "style/font_point": 14
   "style/fullscreen": false
   "style/horizontal": true
@@ -12,7 +12,6 @@ patch:
   "style/label_format": "%s "
   "style/layout/candidate_spacing": 10
   "style/layout/min_width": 10
-  "show_notifications": false #中英文切换时是否显示图标
 #开启以下两行进行强制盲打
-  #"style/layout/margin_y": -1
-
+#  "style/layout/margin_x": -1010
+#  "style/layout/margin_y": -1010
