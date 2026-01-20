@@ -4,6 +4,7 @@ patch:
     - schema: sbjp
     - schema: sbfd
     - schema: sbfm
+    - schema: sbxd
     - schema: sbxm
     - schema: sbmm
     - schema: sbpy
@@ -20,7 +21,7 @@ patch:
     abbreviate_options: true
     caption: "〔方案选单〕"
     fold_options: true
-    option_list_separator: '／'
+    option_list_separator: "／"
     hotkeys:
       - "Control+grave"
       - "Control+Shift+grave"

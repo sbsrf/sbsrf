@@ -39,6 +39,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field enhanced_char boolean
 ---@field char_lens { string : number }
 ---@field xm_lens { string : number }
+---@field xd_lens { string : number }
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -245,6 +246,19 @@ function this.init(env)
     env.xm_lens[char] = tonumber(len)
   end
   file:close()
+
+  env.xd_lens = {}
+  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xd_lens.txt"
+  file = io.open(path, "r")
+  if not file then
+    return
+  end
+  for line in file:lines() do
+    ---@type string, string
+    local char, len = line:match("([^\t]+)\t([^\t]+)")
+    env.xd_lens[char] = tonumber(len)
+  end
+  file:close()
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -377,7 +391,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xd(schema_id)) and input:len() < 4 then
     return nil
   end
   if core.xm(schema_id) and input:len() < 5 then
@@ -402,10 +416,12 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
-    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xm(schema_id))
+    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xm(schema_id)
+    or core.xd(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
       if core.xm(schema_id) then lens = env.xm_lens end
+      if core.xd(schema_id) then lens = env.xd_lens end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
@@ -598,7 +614,8 @@ function this.func(input, segment, env)
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
     if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) 
-    or core.xm(schema_id) and core.sxsx(input) then
+    or core.xm(schema_id) and core.sxsx(input) 
+    or core.xd(schema_id) and core.sxsx(input) then
       translate_by_split(input, segment, env)
     elseif (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
