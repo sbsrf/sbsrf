@@ -210,7 +210,7 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		if core.xm(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
+		if (core.xm(id) or core.xd(id)) and (core.s(input) or core.sxs(input)) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			local x = input:len()
 			for j = 1, 5 do
@@ -220,6 +220,13 @@ function this.func(translation, env)
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. hint_p[j]
 					break
 				end	
+			end
+			local chars = env.xm_chars
+			if core.xd(id) then chars = env.xd_chars end
+			for code, char in pairs(chars) do
+				if code and code:sub(1,1) == input:sub(x,x) and code:len() == 2 then
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
+				end
 			end
 		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
