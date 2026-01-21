@@ -543,7 +543,6 @@ encoder:
 欢	hku	226343	hkao
 忙	mx	226325	mxoo
 观	gk;	225987	gkao
-易	yi;	223222	yiia
 害	hi	223041	hioo
 志	zto	222577	ztei
 官	gii	220752	gioo
@@ -639,7 +638,7 @@ encoder:
 井	jd'	184548	jdee
 投	tja	183977	tjei
 雷	lti	183434	lteo
-纪	jl;	182959	jlaa
+纠	jl;	182959	jlaa
 选	xrt.	182827	xrue
 需	xti	182120	xteo
 既	jeu	181604	jeae
@@ -895,7 +894,7 @@ encoder:
 验	yq	117354	yqaa
 富	fi	117322	fioo
 状	zko	117309	zkoe
-攻	gd;	117263	gdei
+贡	gdi	117263	gdei
 某	mke	116802	mkei
 迎	yh	116596	yhua
 练	llu	116464	llaa
@@ -942,7 +941,7 @@ encoder:
 配	pxa	107721	pxei
 凤	fn;	107592	fnua
 徐	xp;	107457	xpuu
-归	gd'	107175	gdiu
+归	gd;	107175	gdiu
 港	gv	106992	gvoo
 恩	voo	106712	voia
 欧	vc	106463	vceu
@@ -1012,13 +1011,14 @@ encoder:
 默	mvo	97955	mvia
 均	jto	97845	jtei
 预	yyi	97784	yyao
-园	yo;	97760	yoia
+喻	yo;	97760	yoia
 软	rp	97687	rpea
 控	kj	97660	kjei
 仇	cru	97202	crui
 妙	mnu	97162	mnau
 窗	ciu	97099	cioo
 野	yii	97081	yiia
+宜	yi;	97080	yioo
 占	zei	96834	zeie
 夏	xsu	96677	xseu
 骨	gc;	96652	gcia
@@ -1168,7 +1168,7 @@ encoder:
 努	nn;	76702	nnau
 编	ble	76625	blaa
 判	pki	76239	pkou
-盖	gdi	75924	gdou
+盖	gd'	75924	gdou
 贫	pri	75813	pruo
 拳	qk'	75764	qkou
 抢	qj	75614	qjei
@@ -1373,7 +1373,7 @@ encoder:
 谋	mw	57278	mwoa
 予	yy;	57063	yyao
 欣	xju	57022	xjuu
-宜	yiia	56957	yioo
+易	yib/	56957	yiia
 鼻	brf/	56651	brui
 甘	gk'	56607	gkei
 仰	yrh'	56243	yrui
@@ -1499,7 +1499,7 @@ encoder:
 慧	hfo	48111	hfee
 忆	yxaa	47803	yxoo
 赛	sif;	47769	sioo
-黎	lh;	47753	lhue
+烙	lh;	47753	lhou
 衫	sy;	47743	syoa
 鸟	nb	47702	nbua
 斜	xae	47690	xauo
@@ -1507,7 +1507,7 @@ encoder:
 浓	nv	47516	nvoo
 违	wdo	47476	wdee
 堆	dto	47452	dtei
-辞	cr'	47424	crue
+储	cr'	47424	crui
 嘿	hov.	47302	hoia
 鹰	yge	47282	ygoe
 页	ysi	47266	yseu
@@ -1782,7 +1782,7 @@ encoder:
 坡	pta	34102	ptei
 陶	tb	34022	tbai
 轩	xp'	33985	xpea
-湘	xv'	33944	xvoo
+泻	xve	33944	xvoo
 详	xwd;	33913	xwoa
 轰	hpa	33912	hpea
 痕	hgo	33872	hgoe
@@ -1800,7 +1800,7 @@ encoder:
 罚	ffi	32975	ffia
 挤	jj'	32966	jjei
 棋	qm;	32909	qmei
-贡	gdia	32838	gdei
+攻	gdue	32838	gdei
 偶	vr;	32786	vrui
 眨	zfo	32771	zfia
 患	hooo	32753	hoia
@@ -1810,7 +1810,7 @@ encoder:
 惠	hso	32548	hsei
 频	pni	32489	pnie
 蓉	rki	32485	rkei
-储	crw;	32459	crui
+辞	crg.	32459	crue
 函	hj;	32361	hjai
 辑	jpoe	32329	jpea
 筹	cze	32325	czue
@@ -1890,7 +1890,7 @@ encoder:
 浅	qve	30002	qvoo
 圈	qoa	30002	qoia
 纤	ql;	30002	qlaa
-哩	lo;	29888	loia
+唠	loa	29888	loia
 趁	ct;	29887	ctei
 夕	xuu	29842	xuua
 幼	ylau	29836	ylaa
@@ -1986,7 +1986,7 @@ encoder:
 焰	yh'	26665	yhou
 摔	sje	26663	sjei
 尉	wp'	26642	wpae
-纠	jll;	26634	jlaa
+纪	jlc'	26634	jlaa
 妨	fn'	26603	fnau
 润	rve	26592	rvoo
 亩	mwi	26587	mwoe
@@ -2090,7 +2090,7 @@ encoder:
 轿	jpr/	23648	jpea
 晕	yie	23592	yiia
 旨	zlia	23571	zlua
-溪	xve	23549	xvoo
+溪	xv'	23549	xvoo
 抑	yjh'	23505	yjei
 蜜	mix;	23384	mioo
 墓	mkei	23353	mkei
@@ -2411,7 +2411,7 @@ encoder:
 斑	bfue	15409	bfee
 衰	swou	15402	swoe
 盲	mw'	15393	mwoe
-嘶	so;	15378	soia
+吮	so;	15378	soia
 禀	bwi	15371	bwoe
 蒲	pk'	15349	pkei
 诞	dwa	15281	dwoa
@@ -2547,7 +2547,7 @@ encoder:
 猴	hq;	13071	hqua
 涯	yvg,	13068	yvoo
 砸	zsc;	13062	zseu
-潭	tv'	13039	tvoo
+淌	tv'	13039	tvoo
 哗	hoe	13038	hoia
 敞	ce;	13021	ceio
 掘	jjp;	12998	jjei
@@ -2625,7 +2625,7 @@ encoder:
 幢	zel;	12002	zeia
 饥	juua	11996	juua
 楞	lmo	11987	lmei
-拢	lj;	11976	ljei
+撂	lj;	11976	ljei
 灼	zhb.	11956	zhou
 浸	jva	11932	jvoo
 呻	soii	11926	soia
@@ -2645,7 +2645,7 @@ encoder:
 芮	rku	11682	rkei
 顷	qgi	11679	qgea
 犬	qp'	11589	qpeu
-喻	yoai	11545	yoia
+园	yod/	11545	yoia
 歧	qna	11540	qnie
 缕	lla	11538	llaa
 榜	bmo	11536	bmei
@@ -2670,7 +2670,7 @@ encoder:
 稽	jh;	11192	jhue
 烁	shh;	11178	shou
 甄	zx;	11178	zxei
-咧	lo'	11165	loia
+咧	lo;	11165	loia
 羡	xdu	11138	xdou
 啪	pou	11136	poia
 妓	jnk'	11131	jnau
@@ -2817,7 +2817,7 @@ encoder:
 诛	zwq;	9341	zwoa
 霆	ttr'	9340	tteo
 狞	nqe	9314	nqua
-咙	lox.	9299	loia
+喽	lo'	9299	loia
 逞	coo	9289	coia
 浣	hviu	9277	hvoo
 喇	los;	9262	loia
@@ -2860,7 +2860,7 @@ encoder:
 摧	cjeo	8917	cjei
 罐	gq;	8906	gque
 汹	xvx'	8904	xvoo
-琉	lf'	8902	lfee
+珑	lf'	8902	lfee
 骏	jq'	8898	jqaa
 狈	bqi	8894	bqua
 咨	zdui	8890	zdoe
@@ -3000,7 +3000,7 @@ encoder:
 贿	hh;	7284	hhia
 詹	zuo	7281	zuua
 葫	hkg/	7280	hkei
-喽	loa	7269	loia
+咙	lox.	7269	loia
 沫	mvi	7266	mvoo
 啧	zof;	7266	zoia
 啤	poe	7244	poia
@@ -3072,7 +3072,7 @@ encoder:
 珀	pfu	6588	pfee
 枭	xbe	6577	xbua
 垮	ktp'	6567	ktei
-泻	xvie	6557	xvoo
+湘	xvm;	6557	xvoo
 蚕	cs'	6555	csee
 揣	cjei	6545	cjei
 瑾	jfe	6533	jfee
@@ -3125,7 +3125,7 @@ encoder:
 瞟	pfi	6188	pfia
 蝎	xca	6182	xcia
 怅	cxue	6179	cxoo
-淌	tvei	6176	tvoo
+潭	tvx,	6176	tvoo
 峭	qei	6171	qeia
 睨	nfu	6155	nfia
 娴	xnc,	6155	xnau
@@ -3171,7 +3171,7 @@ encoder:
 螺	lci	5807	lcia
 哮	xot'	5805	xoia
 虔	qeo	5797	qeie
-珑	lfx.	5788	lfee
+琉	lfw/	5788	lfee
 膳	sud;	5779	suua
 葱	ckb.	5777	ckei
 秽	hh'	5773	hhue
@@ -3383,7 +3383,6 @@ encoder:
 宦	hic;	4462	hioo
 漱	svs/	4460	svoo
 邑	yoai	4446	yoia
-邑	yoao	4446	yoia
 飒	sln/	4444	sloe
 搐	cjw;	4443	cjei
 骷	kc;	4433	kcia
@@ -3446,7 +3445,7 @@ encoder:
 萤	ykii	4064	ykei
 莞	gkiu	4052	gkei
 靡	mgm,	4032	mgoe
-烙	lhui	4029	lhou
+黎	lhb;	4029	lhue
 锥	zao	4028	zaue
 雌	cno	4027	cnie
 嗣	soc;	4027	soia
@@ -3538,7 +3537,7 @@ encoder:
 扉	fwe	3587	fwoa
 嬴	ywoe	3583	ywoe
 嬴	ywoo	3583	ywoe
-吮	soy/	3579	soia
+嘶	sok/	3579	soia
 笋	sz'	3579	szue
 粟	sxo	3573	sxei
 椒	jma	3570	jmei
@@ -3564,7 +3563,6 @@ encoder:
 阖	hci	3483	hcoi
 毡	zpei	3483	zpue
 唆	soy/	3479	soia
-唆	soy;	3479	soia
 镑	bao	3477	baue
 辗	zpp'	3477	zpea
 崆	ke;	3476	keia
@@ -3579,7 +3577,6 @@ encoder:
 芜	wku	3447	wkei
 煦	xib.	3442	xiia
 睑	jf'	3429	jfia
-赂	lhua	3428	lhia
 赂	lhui	3428	lhia
 剌	lsoi	3425	lsei
 骰	tca	3423	tcia
@@ -3609,7 +3606,7 @@ encoder:
 墟	xtee	3348	xtei
 俨	yrs,	3340	yrui
 暨	jee	3326	jeae
-唠	lok'	3324	loia
+哩	loii	3324	loia
 簧	hzu	3323	hzue
 赁	lrr;	3308	lrui
 赘	zfb;	3305	zfee
@@ -3820,7 +3817,6 @@ encoder:
 蹋	tnio	2610	tnia
 卞	bw;	2609	bwoe
 祀	sya	2609	syoa
-剿	jll,	2602	jlaa
 剿	jll;	2602	jlaa
 颚	voi	2598	voia
 摺	zjj/	2598	zjei
@@ -3932,7 +3928,7 @@ encoder:
 谍	dwk,	2239	dwoa
 纨	wl;	2237	wlaa
 霁	jtuu	2222	jteo
-撂	ljt;	2221	ljei
+拢	ljx.	2221	ljei
 恪	kxui	2220	kxoo
 濑	lvs;	2218	lvoo
 蜿	wca	2215	wcia
@@ -3941,12 +3937,11 @@ encoder:
 皋	gn'	2200	gnui
 眈	dfu	2196	dfia
 扒	bjuo	2188	bjei
-汀	tvea	2188	tvoo
 汀	tvei	2188	tvoo
 椰	ym'	2186	ymei
 璨	cfee	2183	cfee
 璨	cfeo	2183	cfee
-哂	soei	2182	soia
+唢	soei	2182	soia
 藕	vko	2180	vkei
 卡	qes;	2174	qeie
 毗	ptg/	2174	ptia
@@ -4022,7 +4017,6 @@ encoder:
 泓	hvg'	1989	hvoo
 唏	xox;	1989	xoia
 琨	kfu	1988	kfee
-渲	xvia	1988	xvoo
 渲	xvie	1988	xvoo
 劭	sqoa	1986	sqau
 隼	srf,	1986	srui
@@ -4099,6 +4093,7 @@ encoder:
 胚	pus,	1788	puua
 跚	snc,	1788	snia
 泞	nv;	1784	nvoo
+湍	tvea	1783	tvoo
 湍	tvei	1783	tvoo
 谤	bw'	1781	bwoa
 岖	qec/	1780	qeia
@@ -4301,7 +4296,7 @@ encoder:
 俸	frf,	1358	frui
 绉	zlua	1358	zlaa
 咤	zoie	1357	zoia
-螓	qc'	1353	qcia
+蚯	qc'	1353	qcia
 掇	djk'	1352	djei
 泗	svia	1352	svoo
 徙	xpn;	1352	xpuu
@@ -4458,7 +4453,6 @@ encoder:
 佃	dria	1082	drui
 飨	xlr/	1081	xlaa
 罹	lfx.	1078	lfia
-罹	lfx;	1078	lfia
 泠	lvaa	1076	lvoo
 轾	zps,	1076	zpea
 锢	ga'	1075	gaue
@@ -4720,8 +4714,7 @@ encoder:
 阕	qcj,	719	qcoi
 柚	ymii	719	ymei
 岫	xeii	716	xeia
-蚯	qcj'	714	qcia
-蚯	qcj,	714	qcia
+螓	qcf/	714	qcia
 汐	xvua	705	xvoo
 孱	cpj'	704	cpae
 菠	bkv'	702	bkei
@@ -4826,7 +4819,7 @@ encoder:
 颏	kwi	610	kwoe
 蒺	jkg/	609	jkei
 觞	suuu	609	suua
-畿	jll.	608	jlaa
+畿	jll,	608	jlaa
 畿	jll;	608	jlaa
 遒	qd;	607	qdou
 掼	gjoi	606	gjei
@@ -4839,7 +4832,6 @@ encoder:
 圜	yof/	602	yoia
 襁	qyi	602	qyoa
 奁	lpc/	598	lpeu
-摞	ljt'	597	ljei
 摞	ljt;	597	ljei
 鹑	cwoe	594	cwoe
 忝	ts'	594	tsee
@@ -5286,7 +5278,7 @@ encoder:
 镬	hak'	288	haue
 纥	hlq'	286	hlaa
 聩	kboi	286	kbei
-唢	soei	286	soia
+哂	soei	286	soia
 凫	fbw/	285	fbua
 郜	grt'	285	grue
 娠	sng'	285	snau
@@ -24611,6 +24603,7 @@ encoder:
 橱	cmg,	0	cmei
 躇	cnk;	0	cnia
 础	csc;	0	cseu
+储	crw;	0	crui
 楚	cmm;	0	cmei
 处	cuio	0	cuua
 畜	cwl;	0	cwoe
@@ -24639,7 +24632,6 @@ encoder:
 词	cwj;	0	cwoa
 祠	cyj;	0	cyoa
 瓷	cduo	0	cdoe
-辞	crg.	0	crue
 慈	ckl.	0	ckou
 磁	csk'	0	cseu
 雌	cng.	0	cnie
@@ -25051,7 +25043,6 @@ encoder:
 弓	ggae	0	ggae
 公	grao	0	gruo
 功	gdau	0	gdei
-攻	gdue	0	gdei
 宫	gioi	0	gioo
 恭	gkr;	0	gkei
 蚣	gcr'	0	gcia
@@ -25059,6 +25050,7 @@ encoder:
 龚	gxl/	0	gxeu
 拱	gjk/	0	gjei
 共	gkuo	0	gkei
+贡	gdia	0	gdei
 供	grk/	0	grui
 勾	gbao	0	gbua
 沟	gvb'	0	gvoo
@@ -25324,7 +25316,6 @@ encoder:
 挤	jjuu	0	jjei
 计	jwei	0	jwoa
 记	jwc'	0	jwoa
-纪	jlc'	0	jlaa
 技	jjk'	0	jjei
 忌	jcl.	0	jcae
 际	jbd;	0	jbai
@@ -25457,6 +25448,7 @@ encoder:
 境	jtl/	0	jtei
 镜	jal/	0	jaue
 炯	jhc;	0	jhou
+纠	jll;	0	jlaa
 究	jir/	0	jioo
 啾	joh.	0	joia
 九	jjua	0	jjua
@@ -25648,6 +25640,8 @@ encoder:
 牢	lir,	0	lioo
 老	ltr/	0	ltei
 姥	lnt/	0	lnau
+唠	lok'	0	loia
+烙	lhui	0	lhou
 乐	yhiu	0	yhua
 勒	lkoa	0	lkei
 了	ljai	0	ljai
@@ -25666,12 +25660,10 @@ encoder:
 梨	lhj,	0	lhue
 漓	lvw'	0	lvoo
 璃	lfw'	0	lfee
-黎	lhb;	0	lhue
 篱	lzw'	0	lzue
 礼	lyaa	0	lyoa
 李	lmai	0	lmei
 里	liie	0	liia
-哩	loii	0	loia
 理	lfii	0	lfee
 力	lqau	0	lqau
 历	lgau	0	lgeu
@@ -25710,6 +25702,7 @@ encoder:
 聊	lbh'	0	lbei
 寥	lij/	0	lioo
 料	ldd,	0	ldou
+撂	ljt;	0	ljei
 咧	los;	0	loia
 列	lsui	0	lseu
 劣	lpr'	0	lpiu
@@ -25742,18 +25735,17 @@ encoder:
 刘	luii	0	luoe
 留	lhw;	0	lhua
 流	lvw/	0	lvoo
-琉	lfw/	0	lfee
 榴	lmh;	0	lmei
 柳	lmh'	0	lmei
 六	lwuo	0	lwoe
 龙	lxl.	0	lxeu
+珑	lfx.	0	lfee
 胧	lux.	0	luua
 聋	lxl,	0	lxeu
 笼	lzx.	0	lzue
 隆	lbue	0	lbai
 窿	lir,	0	lioo
 陇	lbx.	0	lbai
-拢	ljx.	0	ljei
 垄	lxl,	0	lxeu
 娄	ldau	0	ldou
 楼	lmd'	0	lmei
@@ -26304,7 +26296,6 @@ encoder:
 禽	qaw'	0	qauo
 擒	qjaa	0	qjei
 噙	qoaa	0	qoia
-螓	qcf/	0	qcia
 寝	qik'	0	qioo
 青	qfia	0	qfee
 轻	qpy,	0	qpea
@@ -26325,6 +26316,7 @@ encoder:
 丘	qjee	0	qjui
 邱	qjs'	0	qjui
 秋	qhou	0	qhue
+蚯	qcj,	0	qcia
 囚	qouo	0	qoia
 求	qsv.	0	qsei
 虬	qcaa	0	qcia
@@ -26580,6 +26572,7 @@ encoder:
 水	svia	0	svia
 税	shd/	0	shue
 睡	sfr,	0	sfia
+吮	soy/	0	soia
 顺	scs;	0	scui
 舜	szii	0	szuo
 说	swd/	0	swoa
@@ -26589,7 +26582,6 @@ encoder:
 思	stoa	0	stia
 斯	skf/	0	skei
 厮	sgk/	0	sgeu
-嘶	sok/	0	soia
 死	ssuu	0	sseu
 巳	sbae	0	sbae
 四	sfia	0	sfia
@@ -26658,7 +26650,6 @@ encoder:
 覃	txie	0	txei
 痰	tgh.	0	tgoe
 谭	twx,	0	twoa
-潭	tvx,	0	tvoo
 檀	tmw,	0	tmei
 坦	ttie	0	ttei
 袒	tyie	0	tyoa
@@ -26674,6 +26665,7 @@ encoder:
 膛	tuee	0	tuua
 糖	tdg;	0	tdou
 螳	tcee	0	tcia
+淌	tvei	0	tvoo
 傥	treu	0	trui
 躺	trc;	0	trui
 趟	ttn;	0	ttei
@@ -26998,7 +26990,6 @@ encoder:
 相	xmia	0	xmei
 香	xhia	0	xhue
 厢	xgm;	0	xgeu
-湘	xvm;	0	xvoo
 箱	xzm;	0	xzue
 镶	xaw/	0	xaue
 祥	xyd;	0	xyoa
@@ -27038,6 +27029,7 @@ encoder:
 携	xjr'	0	xjei
 写	xis,	0	xioa
 泄	xvk'	0	xvoo
+泻	xvie	0	xvoo
 卸	xqn'	0	xque
 械	xml,	0	xmei
 谢	xwr,	0	xwoa
@@ -27187,6 +27179,7 @@ encoder:
 依	yrw/	0	yrui
 揖	yjoe	0	yjei
 饴	yuy;	0	yuua
+宜	yiia	0	yioo
 姨	yns/	0	ynau
 移	yhuu	0	yhue
 遗	yoeo	0	yoia
@@ -27203,7 +27196,6 @@ encoder:
 异	ybeu	0	ybae
 役	ypn'	0	ypuu
 译	ywk,	0	ywoa
-易	yib/	0	yiia
 驿	yqk,	0	yqaa
 疫	ygn'	0	ygoe
 益	ykr;	0	ykou
@@ -27282,12 +27274,12 @@ encoder:
 域	ytl,	0	ytei
 欲	yrau	0	yruo
 遇	yic.	0	yiia
+喻	yoai	0	yoia
 御	ypq'	0	ypuu
 愈	yas.	0	yauo
 誉	yvs.	0	yvoo
 鸳	yub,	0	yuua
 元	ydua	0	ydee
-园	yod/	0	yoia
 员	yoia	0	yoia
 垣	yts,	0	ytei
 爰	yzs'	0	yzuo
@@ -29728,7 +29720,6 @@ encoder:
 实验	siy'	399
 石油	ssy.	399
 折磨	zjm.	399
-继承	jlc'	399
 角落	jul,	399
 完整	wiz,	399
 对应	dky.	399
@@ -29758,8 +29749,10 @@ encoder:
 智慧	zgh,	399
 全球	qaq,	399
 搞好	gjh'	399
+结论	jll.	399
 怪物	gxw/	399
 武装	wsz.	399
+呻吟	soy;	399
 纵然	zlr/	399
 带领	dsl/	399
 黑影	hvy;	399
@@ -38942,6 +38935,7 @@ encoder:
 音乐在线	yyz'	399
 玻璃钢	blg/	399
 羞愧	xdk.	399
+擂台	ljt'	399
 组织开展	zzk'	399
 放屁	fqp'	399
 克里斯	kls,	399
@@ -39096,7 +39090,6 @@ encoder:
 年月日	nyr;	399
 朱雀	zqq;	399
 可耻	kjc,	399
-曲风	qcf/	399
 写手	xis/	399
 粗鲁	cdl/	399
 恩恩	vov;	399
@@ -40656,7 +40649,6 @@ encoder:
 短文	dgw.	399
 句号	jbh;	399
 两难	lsn'	399
-影币	yib/	399
 爱戴	vzd,	399
 时时刻刻	ssk.	399
 住宅小区	zzx,	399
@@ -45791,6 +45783,7 @@ encoder:
 文化娱乐	why/	399
 教练组	jlz'	399
 上画	seh,	399
+区级	qcj'	399
 思想汇报	sxh,	399
 想入非非	xrf;	399
 太古	tpg,	399
@@ -50025,7 +50018,6 @@ encoder:
 五笔字型	wbz,	399
 家破人亡	jpr.	399
 没玩过	mwg,	399
-咬得	yod/	399
 更新快	gxk.	399
 大前锋	dqf/	399
 怎奈	zqn,	399
@@ -51818,7 +51810,6 @@ encoder:
 大喜道	dxd.	399
 劝劝	qkq'	399
 盘剥	pzb'	399
-逻辑性	ljx.	399
 会计年度	kjn.	399
 显贵	xig;	399
 神户	syh.	399
@@ -52780,7 +52771,6 @@ encoder:
 降妖	xby'	399
 每单	mqd.	399
 太奇	tpq,	399
-留步	lhb;	399
 润色	rvs/	399
 第八十九	dbs/	399
 遍体	bwt/	399
@@ -52788,7 +52778,6 @@ encoder:
 智囊团	znt;	399
 擦脸	cjl/	399
 购销合同	gxh;	399
-淌下	tvx,	399
 汽车空调	qck.	399
 一片天空	ypt.	399
 西非	xxf;	399
@@ -53371,7 +53360,6 @@ encoder:
 如履薄冰	rlb.	399
 股份有限	gfy'	399
 股票推荐	gpt,	399
-辞官	crg.	399
 工程队	gcd'	399
 性经验	xjy'	399
 轿车如	jcr'	399
@@ -60543,7 +60531,6 @@ encoder:
 丁大卫	ddw'	399
 汉口路	hkl;	399
 任长风	rcf/	399
-谢尔曼	xvm;	399
 斜桥	xaq,	399
 苇子	wkz'	399
 南纬	nkw'	399
@@ -66571,6 +66558,7 @@ encoder:
 万荣县	wrx;	399
 额尔古纳	vvg'	399
 北票市	bps.	399
+理县	lfx;	399
 灵川	lec/	399
 容县	rix;	399
 尘土飞扬	ctf,	399
@@ -69649,7 +69637,6 @@ encoder:
 立方公尺	lfg'	399
 詈骂	lfm;	399
 链烃	lat.	399
-落发为僧	lfw/	399
 麻痹不了	mbb'	399
 满登登	mdd'	399
 满满登登	mmd'	399

@@ -83,6 +83,7 @@ function this.func(translation, env)
 	local hint_b = { "a", "e", "u", "i", "o" }
 	local hint_p = { ";", "'", ",", ".", "/" }
 	local i = 1
+	local j = 1
 	local memory = env.memory
 	for candidate in translation:iter() do
 		-- 猛码提示
@@ -209,7 +210,7 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		if (core.xm(id) or core.xd(id)) and (core.s(input) or core.sxs(input)) and not is_hidden then
+		if core.xm(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			local x = input:len()
 			for j = 1, 5 do
@@ -219,13 +220,6 @@ function this.func(translation, env)
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. hint_p[j]
 					break
 				end	
-			end
-			local chars = env.xm_chars
-			if core.xd(id) then chars = env.xd_chars end
-			for code, char in pairs(chars) do
-				if code and code:sub(1,1) == input:sub(x,x) and code:len() == 2 then
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
-				end
 			end
 		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
@@ -243,15 +237,33 @@ function this.func(translation, env)
 					break
 				end
 				memory:dict_lookup(candidate.preedit .. "'", false, 1)
-				for entry in memory:iter_dict()
-				do
+				for entry in memory:iter_dict()	do
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
 					break
 				end						
 			end
 		end
+		--象单在sxx时提示无理四码字
+		if core.xd(id) and core.sxx(input) and not is_hidden then
+			local char
+			if core.sxb(input) then
+				for j = 1, 5 do
+					char = env.xd_chars[input .. hint_b[j]]
+					if char then
+						candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. hint_b[j]
+					end
+				end
+			else
+				for j = 1, 5 do
+					char = env.xd_chars[input .. hint_p[j]]
+					if char then
+						candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. hint_p[j]
+					end
+				end
+			end
+		end
 		--象码和象单在sxsx时提示标点字
-		if core.xm(id) or core.xd(id) and core.sxsx(input) and not is_hidden then
+		if (core.xm(id) or core.xd(id)) and core.sxsx(input) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			memory:dict_lookup(candidate.preedit:sub(3,4) .. ";", false, 1)
 			for entry in memory:iter_dict()
@@ -366,45 +378,35 @@ function this.func(translation, env)
 		if core.xd(id) then
 			if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then
 				local forward
-				for code, char in pairs(env.xd_chars) do
-					if code and code:sub(1,3) == input then
-						forward = rime.Candidate("hint", candidate.start, candidate._end, char, code:sub(4,4))
-						rime.yield(forward)
-					end
-				end
 				---@type { string: number }
 				local candidates = {}
-				for j = 1, 5 do
-					memory:dict_lookup(candidate.preedit .. hint_p[j], false, 1)
-					for entry in memory:iter_dict() do
-						if utf8.len(entry.text) == 1 then
-							break
+				if core.sxb(input) then
+					for j = 1, 5 do
+						memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
+						for entry in memory:iter_dict() do
+							local cand = candidates[hint_b[j]] 
+							if cand and cand > 0  or entry.text == env.xd_chars[input .. hint_b[j]] then
+								break
+							end
+							candidates[hint_b[j]] = 1
+							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+							rime.yield(forward)
 						end
-						local cand = candidates[hint_p[j]] 
-						if cand and cand > 0 then
-							break
+					end		
+				else
+					for j = 1, 5 do
+						memory:dict_lookup(candidate.preedit .. hint_p[j], false, 1)
+						for entry in memory:iter_dict() do
+							local cand = candidates[hint_p[j]] 
+							if cand and cand > 0 or entry.text == env.xd_chars[input .. hint_p[j]] then
+								break
+							end
+							candidates[hint_p[j]] = 1
+							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
+							rime.yield(forward)
 						end
-						candidates[hint_p[j]] = 1
-						forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
-						rime.yield(forward)
 					end
 				end
-				candidates = {}
-				for j = 1, 5 do
-					memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
-					for entry in memory:iter_dict() do
-						if utf8.len(entry.text) == 1 then
-							break
-						end
-						local cand = candidates[hint_b[j]] 
-						if cand and cand > 0 then
-							break
-						end
-						candidates[hint_b[j]] = 1
-						forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
-						rime.yield(forward)
-					end
-				end		
 			end
 		end
 
