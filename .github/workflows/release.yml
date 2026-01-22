@@ -30,3 +30,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: sbsrf.zip
+      - name: notice
+        run: |
+          curl --request GET 'https://filemanager-zjsbgbierw.cn-chengdu.fcapp.run/external/v1/releases/notifications?key=sbsrf' \
+          --header 'X-Fc-Invocation-Type: Async'
