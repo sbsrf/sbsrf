@@ -106,7 +106,7 @@ popping:
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z]{2}[aeuio]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[a-z]"

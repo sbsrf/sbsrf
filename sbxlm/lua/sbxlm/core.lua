@@ -275,7 +275,7 @@ end
 function core.reverse(id)
   --相当于三目运算符a ? b : c
   local dict_name = (id == "sbfd" or id == "sbmd" or id == "sbfy") and "sbfm" or id
-  if id == "sbxd" then dict_name = "sbxm" end
+  -- if id == "sbxd" then dict_name = "sbxm" end
 
   --如果不是飞系方案或者猛码或者象系方案，单字构词码在扩展词库里
   if not (core.feixi(id) or core.mm(id) or core.xiangxi(id)) then
