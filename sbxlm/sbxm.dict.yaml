@@ -13,6 +13,8 @@ columns:
   - code
   - weight
   - stem
+import_tables:
+  - sbxd
 encoder:
   rules:
     - length_equal: 2

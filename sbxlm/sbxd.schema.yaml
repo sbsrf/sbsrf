@@ -14,7 +14,7 @@ schema:
     - sbyp
     - bihua
     - zhlf
-    - sbxd2
+    - sbxm2
 
 switches:
   - name: ascii_mode
@@ -127,7 +127,7 @@ speller:
       - /popping
 
 translator:
-  dictionary: sbxd
+  dictionary: sbxm
   enable_user_dict: true
   enable_filtering: true
   filter_strength: 5 #可以为3,4,5,6
@@ -145,8 +145,8 @@ translator:
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
 
 extended:
-  dictionary: sbxd.extended
-  user_dictionary: "sbxd"
+  dictionary: sbxm.extended
+  user_dictionary: "sbxm"
   enable_user_dict: true
 
 punctuator:
@@ -155,7 +155,7 @@ punctuator:
 recognizer:
   import_preset: sbxlm
 
-sbxd_bindings:
+sbxm_bindings:
   __append:
     - match: "[a-z]{3}"
       accept: "Shift+space"
@@ -171,16 +171,16 @@ key_binder:
   bindings:
     __patch:
       - sbxlm.yaml:/rime_key_bindings
-      - /sbxd_bindings
+      - /sbxm_bindings
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
-  dictionary: sbxd.extended
+  dictionary: sbxm.extended
 
 reverse_lookup2:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   overwrite_comment: true
-  dictionary: sbxd
+  dictionary: sbxm
 
 menu:
   page_size: 6

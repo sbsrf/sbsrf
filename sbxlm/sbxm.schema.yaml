@@ -29,10 +29,12 @@ switches:
   - name: is_hidden
     states: [提示, 隐藏]
     reset: 0
-  - name: is_enhanced
-    reset: 1
-    states: [常规, 增强]
+  # - name: is_enhanced
+  #   reset: 1
+  #   states: [常规, 增强]
   # 为了避免拥挤，不显示下面的状态
+  - options: [pro_word, pro_char]
+    reset: 0
   - name: auto_inline
     reset: 1
   - name: is_buffered
@@ -95,47 +97,47 @@ engine:
 
 popping:
   __append:
-    # 增强模式
-    - when: is_enhanced
-      match: "[a-z]{4}"
-      accept: "[0-9]"
+    # 单字模式
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
+      accept: "[a-zA-Z]"
       strategy: append
-    - when: is_enhanced
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[a-z]"
-      strategy: append
-    - when: is_enhanced
+    - when: pro_char
       match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[a-z;']"
       prefix: 2
+    # 词组模式
+    - when: pro_word
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+    - when: pro_word
+      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
+      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      prefix: 2
+      conditional: true
     # 不论模式
     - match: "[^a-z]"
       accept: "[^ ]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[a-z;',./]"
-      prefix: 2
+    - match: "[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[,./]"
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][12345]"
-      accept: "[a-z0-9;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z]{2}[12345][aeuio]{0,2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv0-9;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv0-9;',./]"
-    - match: "[a-z]{1,2}"
-      accept: "[0-9]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou0123456789;',./"
-  initials: "bpmfdtnlgkhjqxzcsrywvaeiou"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./"
+  initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
-  max_code_length: 7
+  max_code_length: 6
   auto_select: true
-  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][;',./]|[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
+  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
   popping:
     __patch:
       - /popping
@@ -152,9 +154,9 @@ translator:
   delete_threshold: 2000
   max_phrase_length: 5
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][;',./]?"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[12345]?"
+    - "[bpmfdtnlgkhjqxzcsrywv]"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]?"
     - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
 
@@ -171,21 +173,6 @@ recognizer:
 
 sbxm_bindings:
   __append:
-    - match: "[a-z]{3,4}"
-      accept: "6"
-      send_sequence: "5"
-    - match: "[a-z]{3,4}"
-      accept: "7"
-      send_sequence: "4"
-    - match: "[a-z]{3,4}"
-      accept: "8"
-      send_sequence: "3"
-    - match: "[a-z]{3,4}"
-      accept: "9"
-      send_sequence: "2"
-    - match: "[a-z]{3,4}"
-      accept: "0"
-      send_sequence: "1"
     - match: "[a-z]{3}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{space}{space}"
@@ -198,7 +185,6 @@ sbxm_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
-
 
 key_binder:
   bindings:
@@ -220,7 +206,7 @@ menu:
   alternative_select_keys: "_aeuio"
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
-    - "[a-z]{3}[12345]"
+    - "[a-z]{3}[;',./]"
     - "[a-z]{2}[aeuio]{2}"
-    - "[a-z]{4}[12345][aeuio]{2}"
-  select_comment_pattern: "^[a-z]{3,4}[12345]|[a-z]{2}[aeuio]{2}|[a-z]{4}[12345][aeuio]{2}$"
+    - "[a-z]{4}[aeuio]{2}"
+  select_comment_pattern: "^[a-z]{3}[;',./]|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]{2}$"
