@@ -38,7 +38,6 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field is_enhanced boolean
 ---@field enhanced_char boolean
 ---@field char_lens { string : number }
----@field xm_lens { string : number }
 ---@field xd_lens { string : number }
 
 ---判断输入的编码是否为静态编码
@@ -234,19 +233,6 @@ function this.init(env)
   end
   file:close()
 
-  env.xm_lens = {}
-  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_lens.txt"
-  file = io.open(path, "r")
-  if not file then
-    return
-  end
-  for line in file:lines() do
-    ---@type string, string
-    local char, len = line:match("([^\t]+)\t([^\t]+)")
-    env.xm_lens[char] = tonumber(len)
-  end
-  file:close()
-
   env.xd_lens = {}
   path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xd_lens.txt"
   file = io.open(path, "r")
@@ -310,16 +296,6 @@ local function dynamic(input, env)
     return input:len() - 3
   elseif core.mm(schema_id) then
     if input:len() == 5 then
-      return dtypes.full
-    else
-      return dtypes.invalid
-    end
-  elseif core.xm(schema_id) then
-    if input:len() == 5 then
-      return dtypes.base
-    elseif input:len() == 6 then
-      return dtypes.select
-    elseif input:len() == 7 then
       return dtypes.full
     else
       return dtypes.invalid
@@ -391,10 +367,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xd(schema_id)) and input:len() < 4 then
-    return nil
-  end
-  if core.xm(schema_id) and input:len() < 5 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xiangxi(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -416,12 +389,10 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
-    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xm(schema_id)
-    or core.xd(schema_id))
+    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xiangxi(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
-      if core.xm(schema_id) then lens = env.xm_lens end
-      if core.xd(schema_id) then lens = env.xd_lens end
+      if core.xiangxi(schema_id) then lens = env.xd_lens end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
@@ -565,6 +536,12 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
+    elseif (core.xd(schema_id)) and utf8.len(phrase.text) >= 4
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    elseif (core.xd(schema_id)) and utf8.len(phrase.text) < 4
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
     elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)
       known_words[phrase.text] = true
@@ -614,8 +591,7 @@ function this.func(input, segment, env)
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
     if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) 
-    or core.xm(schema_id) and core.sxsx(input) 
-    or core.xd(schema_id) and core.sxsx(input) then
+    or core.xiangxi(schema_id) and core.sxsx(input) then
       translate_by_split(input, segment, env)
     elseif (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
@@ -840,7 +816,7 @@ function this.func(input, segment, env)
         elseif (input:len() < 6) then
           break
         end
-        if input:len() < 7 and core.xm(schema_id) then
+        if input:len() < 7 then
           break
         end
       end
