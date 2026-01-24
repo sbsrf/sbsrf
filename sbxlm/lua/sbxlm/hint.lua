@@ -338,7 +338,9 @@ function this.func(translation, env)
 							end
 							candidates[hint_p[j]] = 1
 							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
-							rime.yield(forward)
+							if utf8.len(entry.text) == 1 then
+								rime.yield(forward)
+							end
 						end
 					end
 				end
