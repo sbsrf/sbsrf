@@ -26,9 +26,6 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: is_hidden
-    states: [提示, 隐藏]
-    reset: 0
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
@@ -102,7 +99,7 @@ popping:
       accept: "[,./]"
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
       accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
@@ -119,7 +116,7 @@ speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
-  max_code_length: 6
+  max_code_length: 8
   auto_select: true
   auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
   popping:
@@ -130,7 +127,7 @@ translator:
   dictionary: sbxm
   enable_user_dict: true
   enable_filtering: true
-  filter_strength: 5 #可以为3,4,5,6
+  filter_strength: 4 #可以为3,4,5,6
   forced_selection: true
   single_selection: true
   enable_encoder: true
@@ -176,6 +173,8 @@ key_binder:
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbxm.extended
+  comment_format:
+    - "xform/([a-z]{3}.).*/$1/"
 
 reverse_lookup2:
   __include: sbxlm.yaml:/prelude/reverse_lookup
@@ -184,12 +183,12 @@ reverse_lookup2:
 
 menu:
   page_size: 6
-  alternative_select_keys: "_aeuio"
+  alternative_select_keys: "_23789"
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
     - "[a-z]{3}[;',./]"
     - "[a-z]{2}[aeuio]{2}"
     - "[a-z]{4}[aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{2}"
-    - "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{2}"
-  select_comment_pattern: "^[a-z]{3}[;',./]|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]{2}|[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}|[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{0,2}$"
+    - "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]{4}"
+  select_comment_pattern: "^[a-z]{3}[;',./][aeuio]*|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]*|[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*|[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]*$"

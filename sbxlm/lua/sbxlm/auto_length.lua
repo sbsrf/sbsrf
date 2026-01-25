@@ -362,6 +362,9 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 一开始，entry.comment 中放置了 "~xxx" 形式的编码补全内容
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
+    completion = completion:sub(-1,-1) .. completion:sub(2,-2)
+  end
   local alt_completion = ""
   local to_match = ""
   if entry.comment == "" then
@@ -459,7 +462,7 @@ local function validate_phrase(entry, segment, type, input, env)
   local phrase = rime.Phrase(env.dynamic_memory, type, segment.start, segment._end, entry)
   phrase.preedit = input
   -- 单次选择模式下，显示编码补全内容；否则清空
-  if env.single_selection then
+  if env.single_selection and not core.xiangxi(schema_id) then
     if input:len() == 3 and utf8.len(phrase.text) >= 4 and core.jm(schema_id) then
       if not env.lower_case then
         phrase.comment = phrase.comment:sub(-1, -1)

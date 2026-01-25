@@ -47,6 +47,9 @@ function this.func(translation, env)
       goto continue
     end
 
+    if core.xiangxi(schema_id) then
+      goto continue2
+    end
     -- 如果是单次选重非全码产生的补全选项，无需操作
     if candidate.type == "completion" and core.zici(schema_id) 
       and segment:has_tag("abc") and not segment:has_tag("bihua") then
@@ -60,6 +63,7 @@ function this.func(translation, env)
     and rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
       key = key:upper()
     end
+    ::continue2::
     if candidate.comment:len() > 0 then
       if (core.py(schema_id) or core.jp(schema_id)) and segment:has_tag("abc") 
       and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then
