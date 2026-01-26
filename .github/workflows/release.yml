@@ -31,6 +31,8 @@ jobs:
         with:
           files: sbsrf.zip
       - name: notice
-        run: |
-          curl --request GET 'https://filemanager-zjsbgbierw.cn-chengdu.fcapp.run/external/v1/releases/notifications?key=sbsrf' \
-          --header 'X-Fc-Invocation-Type: Async'
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://filemanager-zjsbgbierw.cn-chengdu.fcapp.run/external/v1/releases/notifications?key=sbsrf'
+          method: 'GET'
+          customHeaders: '{"X-Fc-Invocation-Type": "Async"}'
