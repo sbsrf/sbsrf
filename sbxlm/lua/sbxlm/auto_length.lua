@@ -39,6 +39,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field enhanced_char boolean
 ---@field char_lens { string : number }
 ---@field xd_lens { string : number }
+---@field xx_flag boolean
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -362,7 +363,8 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 一开始，entry.comment 中放置了 "~xxx" 形式的编码补全内容
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
+  --象系的特殊处理
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[23789][aeuio]*") then
     completion = completion:sub(-1,-1) .. completion:sub(2,-2)
   end
   local alt_completion = ""
@@ -443,8 +445,8 @@ local function validate_phrase(entry, segment, type, input, env)
   else
     to_match = input:sub(4)
   end
-  -- 如果第 4 码是 23789，那么需要把它换成 aeiou
-  if fx_exchange[to_match:sub(1, 1)] then
+  -- 如果飞讯的第 4 码是 23789，那么需要把它换成 aeiou
+  if core.fx(schema_id) and fx_exchange[to_match:sub(1, 1)] then
     to_match = fx_exchange[to_match:sub(1, 1)] .. to_match:sub(2)
   end
   to_match = to_match:lower()
@@ -576,6 +578,7 @@ function this.func(input, segment, env)
   if static(input, env) then
     -- 清空候选缓存
     env.known_candidates = {}
+    env.xx_flag = false
     local input2 = input
     if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
       input2 = input2 .. "'"
@@ -584,6 +587,7 @@ function this.func(input, segment, env)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input
+      if not env.xx_flag then env.xx_flag = true end
       rime.yield(phrase:toCandidate())
     end
     -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码
@@ -599,7 +603,14 @@ function this.func(input, segment, env)
         or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
-    return
+    if not (core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]")) then
+       return 
+    end
+  end
+
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
+    local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";"]="8", ["."]="9"}
+    input = input:sub(1,3) .. pnmap[input:sub(4,4)] .. input:sub(5)
   end
 
   local memory = env.dynamic_memory
@@ -799,7 +810,7 @@ function this.func(input, segment, env)
     local count = 1
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
-      if (env.known_candidates[cand.text] or inf) < input:len() then
+      if (env.known_candidates[cand.text] or inf) < input:len() and not env.xx_flag then
         goto continue
       end
       if count == 1 then
