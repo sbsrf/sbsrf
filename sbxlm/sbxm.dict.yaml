@@ -1590,6 +1590,7 @@ encoder:
 宾	biu	43035	biooau
 厌	ygp.	42974	ygeueu
 旦	die	42947	diiaee
+呆	voei	42893	voiaee
 毁	hna	42841	hnuiea
 寺	st;	42830	steiee
 障	zbe	42776	zbaioe
@@ -2136,6 +2137,7 @@ encoder:
 奇	jpj;	22288	jpeuoe
 炉	lha	22247	lhouuo
 钦	qau	22206	qaueee
+颤	zwoi	22133	zwoeia
 炎	yho	22126	yhouuo
 炮	pha	22072	phouuo
 芝	zkoa	22029	zkeiio
@@ -2432,6 +2434,7 @@ encoder:
 宿	sir;	15040	siooau
 竖	sdo	15023	sdiiao
 琦	qfp;	15015	qfeeie
+喔	vop,	15002	voiaea
 躁	zne	15000	zniaei
 棵	km'	14973	kmeiuo
 滨	bvu	14954	bvooeo
@@ -2948,6 +2951,7 @@ encoder:
 绢	jloi	7865	jlaaei
 蔑	mkf.	7842	mkeiii
 竿	gze	7806	gzueou
+褚	zyt;	7802	zyoaiu
 绒	rle	7801	rlaaee
 斟	zkf,	7801	zkeiie
 嘎	gos,	7782	goiaee
@@ -3147,6 +3151,7 @@ encoder:
 怠	dyo	6023	dyaoia
 蚁	ycw/	6015	yciaei
 浊	zvia	6007	zvooei
+唬	xoeu	6002	xoiaei
 栅	smc,	6002	smeiuo
 粘	ndi	6002	ndouei
 簿	bz;	5993	bzueou
@@ -3331,6 +3336,7 @@ encoder:
 汰	tvp.	4775	tvooee
 涧	jvc;	4772	jvooeo
 肴	yxx;	4770	yxuoeu
+栖	xmei	4768	xmeiuo
 萼	vk;	4763	vkeiii
 佬	lrt/	4760	lruiei
 奄	yp'	4752	ypeuoi
@@ -3361,6 +3367,7 @@ encoder:
 厘	lgii	4606	lgeuia
 朔	skc/	4605	skouea
 涡	wvu	4602	wvooei
+嵌	kek/	4590	keiaie
 蝇	yca	4584	yciaei
 垦	kee	4576	keaeea
 挠	nj'	4576	njeiee
@@ -3468,6 +3475,7 @@ encoder:
 黏	nh	3966	nhueiu
 瘟	wgi	3959	wgoeuo
 匈	xba	3959	xbuauo
+谑	nwee	3951	nwoaie
 偌	rr;	3936	rruiei
 叽	jou	3933	joiaeu
 溯	svk/	3906	svooeo
@@ -3803,6 +3811,7 @@ encoder:
 稣	syue	2652	syuaia
 饵	vue	2650	vuuaae
 恣	zduo	2646	zdoeua
+乘	shk/	2645	shueii
 粤	yroa	2643	yruiao
 蠕	rc'	2640	rciaei
 冕	miuu	2637	miiaee
@@ -3881,6 +3890,7 @@ encoder:
 痪	hgu	2392	hgoeuo
 垣	yt'	2391	yteiee
 梓	zmoe	2390	zmeiuo
+僮	zrl;	2389	zruioe
 拌	bjd,	2385	bjeieo
 鸥	vce	2385	vceuoa
 馁	nu;	2384	nuuaau
@@ -3889,6 +3899,7 @@ encoder:
 燎	lhp;	2362	lhouuo
 扈	hwp'	2358	hwoaeu
 筏	fze	2352	fzueou
+蕃	fkr;	2350	fkeiiu
 贻	yhy;	2350	yhiauo
 湃	pve	2349	pvooeu
 霈	pti	2348	pteoai
@@ -3915,6 +3926,7 @@ encoder:
 膺	ygr;	2273	ygoeuu
 袈	jqou	2272	jqauia
 慵	yxg;	2268	yxooio
+瞿	jff.	2263	jfiaee
 甭	bs'	2261	bseuio
 硫	lsw/	2261	lseuia
 憬	jx;	2258	jxooii
@@ -3988,13 +4000,13 @@ encoder:
 婊	bnf/	2046	bnauee
 鞑	dkoo	2043	dkeiie
 孀	snt;	2043	snauee
+玟	mfoe	2040	mfeeie
 仞	rro	2038	rruiau
 狙	jqia	2037	jquaui
 钹	ba;	2033	baueee
 螂	lc'	2032	lciaei
 馋	cu;	2030	cuuaau
 腼	mus,	2028	muuaee
-翦	jkue	2027	jkouei
 翦	jkuo	2027	jkouei
 缨	ylh'	2024	ylaaei
 潺	cvp'	2013	cvooea
@@ -4008,6 +4020,7 @@ encoder:
 峒	tec;	2002	teiaii
 沌	dvs'	2002	dvooee
 伽	jrq;	2002	jruiau
+呷	goii	2002	goiaei
 瞿	qff.	2002	qfiaee
 俟	sry/	2002	sruiao
 峙	zet,	2002	zeiaie
@@ -4052,7 +4065,6 @@ encoder:
 缈	ml;	1900	mlaaei
 匝	zcia	1899	zceiai
 恸	txa	1897	txooie
-皎	jnw.	1895	jnuiae
 皎	jnw/	1895	jnuiae
 讹	vwu	1894	vwoaui
 敕	csu	1893	cseiae
@@ -4219,6 +4231,7 @@ encoder:
 跻	jnuu	1504	jniaei
 掸	djd,	1502	djeieo
 掸	djd;	1502	djeieo
+侗	trc;	1502	truiia
 炖	dh'	1501	dhouuo
 撬	qj'	1501	qjeieu
 龛	kao	1496	kauoei
@@ -4318,6 +4331,7 @@ encoder:
 硅	gs;	1308	gseuia
 孪	lwm'	1306	lwoeii
 徵	zpeu	1305	zpuuii
+嗄	vos/	1304	voiaee
 籽	zdai	1304	zdouei
 镐	ga;	1302	gaueee
 荏	rkr,	1302	rkeiiu
@@ -4335,6 +4349,7 @@ encoder:
 帼	geo	1287	geiaii
 蹂	rne	1286	rniaei
 蜗	wcou	1285	wciaei
+嗒	tok;	1283	toiaee
 泱	yvv/	1283	yvooei
 鹞	yze	1276	yzuoou
 阪	bb;	1273	bbaiuu
@@ -4387,8 +4402,8 @@ encoder:
 媪	vn'	1178	vnauei
 骞	qif'	1178	qiooae
 俑	yry;	1178	yruiao
+蔗	zkg'	1177	zkeiio
 蔗	zkg.	1177	zkeiio
-蔗	zkg;	1177	zkeiio
 碾	nsa	1174	nseuia
 荞	qkr/	1171	qkeiiu
 颧	qkoi	1171	qkeiii
@@ -4460,6 +4475,7 @@ encoder:
 酵	jx'	1073	jxeiau
 魇	ygp'	1073	ygeueu
 匮	kci	1069	kceiae
+匮	gcoi	1068	gceiae
 瘠	jgi	1066	jgoeuo
 龊	cnai	1063	cnieie
 龌	wne	1063	wnieie
@@ -4505,6 +4521,7 @@ encoder:
 嗒	dok;	1002	doiaee
 恫	dxc;	1002	dxooii
 刨	pbi	1002	pbuaae
+晟	sig.	1002	siiaee
 覃	txe	1002	txeiai
 腌	yup'	1002	yuuaee
 荑	yks/	1002	ykeiie
@@ -4532,6 +4549,7 @@ encoder:
 猬	wqi	964	wquaui
 卅	ssui	963	sseuii
 佶	jrt;	962	jruiei
+凹	wel,	961	weiaia
 澧	lvc.	961	lvooei
 迤	yqy.	959	yqueai
 骊	lqs.	957	lqaaee
@@ -4817,6 +4835,7 @@ encoder:
 钲	zas;	611	zaueee
 衮	gwr/	610	gwoeuo
 颏	kwi	610	kwoeau
+括	gjr,	610	gjeieu
 蒺	jkg/	609	jkeiio
 觞	suuu	609	suuaua
 畿	jll,	608	jlaaoa
@@ -4892,6 +4911,7 @@ encoder:
 膑	buu	550	buuaee
 铡	zah;	549	zaueee
 参	syp/	548	syaoeu
+恫	txc;	546	txooii
 狯	kqa	546	kquauu
 徉	ypi	546	ypuuio
 颍	ylv;	545	yluaia
@@ -4927,6 +4947,7 @@ encoder:
 郅	zsa	516	zseaoe
 涮	svp;	515	svooea
 欤	ysj/	514	yseaeu
+欹	ypj/	513	ypeuoe
 糯	nd;	512	ndouei
 箧	qzu	512	qzueou
 戕	qlee	511	qlaieu
@@ -4941,6 +4962,7 @@ encoder:
 邡	fqai	504	fqoeau
 怄	vxu	503	vxooie
 囤	tos'	502	toiaea
+噱	joee	502	joiaei
 炀	yhj'	500	yhouuo
 炀	yhj/	500	yhouuo
 镁	mae	499	maueee
@@ -4953,6 +4975,7 @@ encoder:
 铄	sah;	496	saueee
 蜴	yciu	494	yciaei
 邕	yll'	493	ylaaai
+齐	juui	492	juoeuo
 醮	jxo	491	jxeiau
 儆	jrk/	491	jruiei
 瞽	gtoi	488	gteiei
@@ -5068,7 +5091,7 @@ encoder:
 蹉	cnd,	399	cniaei
 蹉	cnd.	399	cniaei
 苫	skei	399	skeiii
-鬻	ygd'	399	ygaeao
+鬻	ygd,	399	ygaeao
 鬻	ygd;	399	ygaeao
 拊	fje	398	fjeieu
 粑	bda	397	bdouei
@@ -5237,11 +5260,13 @@ encoder:
 笳	jzq;	306	jzueou
 煊	xhie	306	xhouuo
 痂	jgq;	305	jgoeuo
+歙	xas/	305	xauoei
 痼	ggoe	304	ggoeuo
 阍	hch;	304	hcoiau
 薨	hkf/	303	hkeiii
 酮	txc;	303	txeiau
 郧	yoh'	303	yoiaei
+陂	bbg'	302	bbaiau
 鹘	hcj,	302	hciaao
 鲑	gyt,	302	gyuaia
 漯	lvt;	302	lvooei
@@ -5249,13 +5274,16 @@ encoder:
 圻	qtuu	302	qteieu
 趄	jtn;	302	jteiei
 趄	qtn;	302	qteiei
+呔	top.	302	toiaee
 焘	tfr.	302	tfeeeu
 隗	wbn'	302	wbaiui
 庠	xgd;	302	xgoeuo
 荥	ykii	302	ykeiio
 酢	zxq,	302	zxeiau
 蚪	dcd,	301	dciaei
+杓	smb.	301	smeiuo
 诟	gwh;	300	gwoauu
+阚	hcj/	298	hcoiaa
 俅	qrs.	298	qruiei
 柞	zmq,	298	zmeiuo
 鳟	zyd,	298	zyuaia
@@ -5335,6 +5363,7 @@ encoder:
 蕖	qkv,	264	qkeiio
 屣	xpp;	264	xpaeuu
 糅	rdy,	263	rdouei
+焯	zhee	262	zhouuo
 硷	jsae	262	jseuia
 瓴	law.	262	lauooa
 浜	bvj/	261	bvooeu
@@ -5362,6 +5391,7 @@ encoder:
 锨	xaj/	251	xaueee
 脔	lwm/	250	lwoeii
 镊	nab'	250	naueee
+浅	jvee	250	jvooee
 孳	zkl'	250	zkouea
 叨	toau	249	toiaea
 骐	qqk/	249	qqaaee
@@ -5376,6 +5406,7 @@ encoder:
 嘣	boeu	245	boiaei
 裢	lyp.	245	lyoaiu
 妁	snb.	245	snaueu
+隗	kbn'	245	kbaiui
 茯	fkr.	244	fkeiiu
 踬	znh;	244	zniaei
 侑	yrx;	243	yruieu
@@ -5459,6 +5490,7 @@ encoder:
 帻	zef;	212	zeiaie
 碜	csy/	211	cseuia
 摁	vjoo	211	vjeiei
+圻	ytuu	211	yteieu
 鞅	ykou	211	ykeiie
 沌	zvs'	210	zvooee
 庑	wgd/	210	wgoeue
@@ -5492,6 +5524,7 @@ encoder:
 枞	zmau	202	zmeiuo
 坻	dth.	202	dteieu
 枸	jmb;	202	jmeiuo
+矜	qyj'	202	qyaoai
 猊	nqn/	202	nquauu
 乜	njaa	202	njaaaa
 荠	jkuu	202	jkeiio
@@ -5640,6 +5673,7 @@ encoder:
 颡	skk;	154	skaoao
 砣	tsiu	154	tseuia
 溴	xvr.	154	xvooeu
+剡	yhh;	154	yhouuo
 圉	yot,	154	yoiaei
 祢	myui	153	myoaio
 蚬	xcc/	153	xciaei
@@ -5682,6 +5716,7 @@ encoder:
 爨	chd.	142	chuiee
 馑	juk,	142	juuaae
 砻	lxl,	142	lxeuau
+芘	pkg/	142	pkeiie
 笤	tzq;	142	tzueou
 谘	zwd;	142	zwoaoe
 犴	vqee	141	vquaue
@@ -5863,7 +5898,10 @@ encoder:
 鲥	syie	103	syuaia
 耜	sfp;	103	sfeeei
 胝	zuh.	103	zuuaee
+裨	pyn,	102	pyoaiu
+蹴	jnw.	102	jniaei
 畈	fth'	102	ftiaei
+嘏	jgc'	102	jgeiia
 浒	xvw,	102	xvooeo
 裥	jyc;	102	jyoaiu
 瘰	lgt;	102	lgoeuo
@@ -5875,6 +5913,7 @@ encoder:
 葸	xkt.	102	xkeiii
 窨	yir;	102	yiooau
 徭	ypz;	102	ypuuiu
+嘬	coia	102	coiaei
 湔	jvk;	101	jvooeo
 匏	ppd'	101	ppeuoe
 睃	sfy/	101	sfiaee
@@ -5889,6 +5928,7 @@ encoder:
 醯	xxw;	100	xxeiau
 瘳	cgj/	99	cgoeuo
 胼	puk,	99	puuaee
+食	yuuo	99	yuuooa
 勰	xqq.	99	xqauau
 媸	cnc;	98	cnauea
 宄	giua	98	giooau
@@ -5923,6 +5963,7 @@ encoder:
 扁	pwp,	94	pwoaeu
 铖	cag.	94	caueee
 枋	fmoe	94	fmeiuo
+荤	xkie	94	xkeiio
 粝	ldg'	94	ldouei
 椋	lmw;	94	lmeiuo
 钼	maia	94	maueee
@@ -5933,6 +5974,7 @@ encoder:
 芗	xkl/	93	xkeiia
 胙	zuq,	93	zuuaee
 疔	dgei	92	dgoeuo
+硌	lsui	92	lseuia
 藿	hkt.	92	hkeiie
 鲶	nyao	92	nyuaia
 椹	smk'	92	smeiuo
@@ -5958,6 +6000,7 @@ encoder:
 泔	gvk,	87	gvooee
 桧	gmaa	87	gmeiuo
 鲎	hviu	87	hvoouo
+姥	mnt/	87	mnauee
 簏	lzg/	87	lzueou
 旆	pqq;	87	pqoeau
 狨	rql,	87	rquaue
@@ -5982,6 +6025,8 @@ encoder:
 笊	zzh.	85	zzueou
 塍	cuk,	84	cuuaee
 莨	lkw.	84	lkeiio
+倘	crei	84	cruiio
+焘	dfr.	84	dfeeeu
 绁	xlk'	84	xlaaee
 崦	yep'	84	yeiaie
 沣	fvf;	83	fvooee
@@ -6031,11 +6076,14 @@ encoder:
 茑	nkb,	77	nkeiiu
 仳	prg/	77	pruiea
 鞘	skoi	77	skeiie
+说	ywd/	77	ywoaou
 牾	wrj;	77	wrueie
 曛	xir.	77	xiiaee
 仇	qrua	76	qruiua
 踔	cnee	76	cniaei
+鲑	xyt,	76	xyuaia
 哜	jouu	76	joiaeo
+剿	cll;	76	claaai
 毵	syp/	76	syaoeu
 石	dseu	76	dseuia
 锶	sat.	76	saueee
@@ -6048,6 +6096,7 @@ encoder:
 遘	gfd.	75	gfeeii
 呒	mod/	75	moiaee
 苘	qkc;	75	qkeiii
+柁	dmiu	75	dmeiuo
 髹	xcx,	75	xceiee
 瘥	cgd,	74	cgoeuo
 氡	dquo	74	dqueea
@@ -6086,6 +6135,7 @@ encoder:
 贾	gxia	70	gxeiai
 腩	nuk,	70	nuuaee
 黹	zms/	70	zmiiou
+蕉	qkr.	69	qkeiiu
 泌	mvx/	69	mvooeo
 笸	pzc;	69	pzueou
 荛	rkl/	69	rkeiie
@@ -6094,6 +6144,7 @@ encoder:
 蟥	hck/	68	hciaei
 僬	jrr.	68	jruiui
 蛴	qcuu	68	qciaei
+衰	cwou	68	cwoeia
 酲	cxoe	67	cxeiau
 茆	mkh'	67	mkeiiu
 埤	ptn,	67	pteieu
@@ -6113,6 +6164,7 @@ encoder:
 鲷	dyc;	65	dyuaia
 萘	nkp;	65	nkeiie
 耨	nfp,	65	nfeeei
+喏	rok;	65	roiaee
 郫	pnr'	65	pnuiae
 渖	svii	65	svooeo
 葚	skk'	65	skeiie
@@ -6126,14 +6178,17 @@ encoder:
 券	xkp'	63	xkouee
 馓	suk/	63	suuaae
 铯	saua	63	saueee
+属	zpr.	63	zpaeuu
 蔌	sks/	63	skeiie
 濉	svf.	63	svooei
 喳	com,	63	coiaee
 觜	znl/	63	znieie
 铋	bax/	62	baueee
 戥	dir,	62	diiaee
+蛾	ycv.	62	yciaei
 祓	fyx.	62	fyoaio
 擐	hjf/	62	hjeiei
+悝	lxii	62	lxooii
 蒉	kkoi	62	kkeiii
 躐	lnl'	62	lniaei
 逯	lev.	62	leaeei
@@ -6157,6 +6212,7 @@ encoder:
 矬	cgae	60	cgueeu
 痤	cgae	60	cgoeuo
 跗	fnr,	60	fniaei
+袷	jyai	60	jyoaiu
 笕	jzc/	60	jzueou
 颞	nbk;	60	nbeiie
 硗	qsl/	60	qseuia
@@ -6197,17 +6253,20 @@ encoder:
 戋	jlee	55	jleeau
 镏	lah;	55	laueee
 膀	puw.	55	puuaee
+裳	ceiu	55	ceiouo
 眭	sft,	55	sfiaee
 疃	ttl;	55	ttiaei
 鳐	yyz;	55	yyuaia
 诼	zwz.	55	zwoaeu
 嵫	zek'	55	zeiaio
 襞	bpou	54	bpaeui
+冯	pdaa	54	pdoeaa
 绋	flg/	54	flaaea
 萑	hkr.	54	hkeiiu
 犸	mqaa	54	mquaua
 熳	mhia	54	mhouuo
 亓	qdui	54	qdeeui
+契	xfee	54	xfeeei
 椠	qpj,	54	qpeaie
 惝	cxei	53	cxooii
 跏	jnq;	53	jniaei
@@ -6236,6 +6295,7 @@ encoder:
 鳎	tyio	51	tyuaia
 禊	xyf,	51	xyoaio
 芫	ykd/	51	ykeiie
+镐	haw;	50	haueee
 靓	jfuu	50	jfeeie
 舻	lzea	50	lzuuao
 瘼	mgei	50	mgoeuo
@@ -6276,6 +6336,7 @@ encoder:
 劓	yrf;	46	yruiae
 艟	czl;	45	czuuao
 诖	gwt,	45	gwoaei
+夯	bpau	45	bpeuoa
 砉	hfee	45	hfeeei
 栝	gmr,	45	gmeiuo
 艨	mzk,	45	mzuuao
@@ -6297,6 +6358,7 @@ encoder:
 俜	pria	44	pruiia
 芩	qkaa	44	qkeiiu
 谇	sww,	44	swoaoe
+屹	geq'	44	geiaiu
 潴	zvq;	44	zvooeu
 鲅	byx.	43	byuaia
 忉	dxau	43	dxooia
@@ -6314,6 +6376,7 @@ encoder:
 髟	bcuu	42	bceiee
 躔	cng,	42	cniaei
 搿	gvau	42	gvueeu
+砉	xfee	42	xfeeei
 豇	jsoe	42	jseiae
 钕	naau	42	naueee
 裒	pwn/	42	pwoeui
@@ -6323,6 +6386,7 @@ encoder:
 麴	qkr.	42	qkeiuo
 埏	str'	42	steieu
 矧	sgg;	42	sgueeu
+嚣	vooi	42	voiaei
 蚰	ycii	42	yciaei
 鲻	zyl;	42	zyuaia
 坌	brq,	41	bruoau
@@ -6343,6 +6407,7 @@ encoder:
 艿	nkau	40	nkeiia
 堋	ptuu	40	pteieu
 龆	tnai	40	tnieie
+繇	zzq;	40	zzuoou
 洇	yvoe	40	yvooei
 蔟	ckq/	39	ckeiio
 羝	ddv.	39	ddouee
@@ -6358,8 +6423,10 @@ encoder:
 诹	zwb'	39	zwoaei
 庳	bgn,	38	bgoeuu
 窆	bir.	38	biooau
+侧	zrh;	38	zruiia
 笱	gzb;	38	gzueou
 蜾	gcie	38	gciaei
+嘿	mov.	38	moiaei
 缋	hloi	38	hlaaei
 蚧	jcau	38	jciaei
 夼	kpui	38	kpeuou
@@ -6403,12 +6470,15 @@ encoder:
 酐	gxee	35	gxeiau
 岣	geb;	35	geiaiu
 绲	gliu	35	glaaei
+将	qkue	35	qkoeiu
 塄	ltf.	35	lteiei
 蒌	lkd'	35	lkeiio
 耧	lfp'	35	lfeeei
 芴	wkb/	35	wkeiiu
 枵	xmoa	35	xmeiuo
+邪	ycea	35	yceaiu
 癔	ygl.	35	ygoeuo
+轧	gpaa	35	gpeaie
 轵	zpou	35	zpeaie
 腠	cuf,	34	cuuaee
 垡	frl,	34	fruiea
@@ -6419,6 +6489,7 @@ encoder:
 蠛	mck.	34	mciaei
 酾	sxs.	34	sxeiau
 氚	cqui	33	cqueea
+坻	cth.	33	cteieu
 碲	dsw;	33	dseuia
 廑	jgk,	33	jgoeue
 郐	kad'	33	kauoee
@@ -6444,6 +6515,7 @@ encoder:
 狃	nqj;	32	nquaua
 恧	nsc.	32	nseuia
 鲆	pys,	32	pyuaia
+缲	sloe	32	slaaei
 蝤	qcd,	32	qciaei
 洳	rvn;	32	rvooea
 鳔	byx;	31	byuaia
@@ -6479,12 +6551,14 @@ encoder:
 厣	ygp;	30	ygeueu
 黟	yvt/	30	yviaou
 甾	zll;	30	zlaaai
+楂	cmm,	30	cmeiuo
 螬	cck;	29	cciaei
 撮	zjia	29	zjeiei
 匦	gcp/	29	gceeai
 戽	hwp,	29	hwoaeu
 岢	kej;	29	keiaie
 瘙	sgk;	29	sgoeuo
+窨	xir;	29	xiooau
 鞴	bkoi	28	bkeiie
 箅	bzt/	28	bzueou
 缍	dlr,	28	dlaaeu
@@ -6506,6 +6580,7 @@ encoder:
 骒	kqie	27	kqaaei
 沩	wvw.	27	wvooeo
 渫	xvk,	27	xvooee
+酢	cxq,	27	cxeiau
 髌	bcj/	26	bciaao
 憝	dwoo	26	dwoeia
 虼	gcq'	26	gciaei
@@ -6517,6 +6592,8 @@ encoder:
 莸	ykq.	26	ykeiiu
 折	sjuu	26	sjeieu
 碡	zsf.	26	zseuia
+扳	pjh'	25	pjeieu
+疒	bgoe	25	bgoeuo
 馘	gkr,	25	gkoueu
 剞	jpj;	25	jpeuoe
 椐	jmp,	25	jmeiuo
@@ -6554,6 +6631,7 @@ encoder:
 荽	skz'	23	skeiiu
 醣	txg;	23	txeiau
 罨	yfp'	23	yfiaii
+於	wqao	23	wqoeau
 砗	csea	22	cseuia
 汆	crw;	22	cruoia
 揲	djk,	22	djeiee
@@ -6562,6 +6640,7 @@ encoder:
 菔	fkua	22	fkeiiu
 呙	goc/	22	goiaei
 煳	hhg/	22	hhouuo
+浍	kvaa	22	kvooeu
 咳	how/	22	hoiaeo
 裉	kyeo	22	kyoaiu
 镧	lac;	22	laueee
@@ -6569,6 +6648,7 @@ encoder:
 泷	svx.	22	svooee
 庀	pgua	22	pgoeuu
 绱	slei	22	slaaei
+镡	xax,	22	xaueee
 黪	cvt/	21	cviaou
 苁	ckau	21	ckeiiu
 脞	cuae	21	cuuaee
@@ -6593,12 +6673,14 @@ encoder:
 浍	hvaa	20	hvooeu
 爝	jhz,	20	jhouuo
 闶	kcw/	20	kcoiao
+漯	tvt;	20	tvooei
 镘	maia	20	maueee
 芈	mes,	20	meieie
 脒	muou	20	muuaee
 瀑	bvii	20	bvooei
 薷	rkt;	20	rkeiie
 嗍	sok/	20	soiaeo
+菀	ykia	20	ykeiio
 圬	wtd'	20	wteiee
 穸	xir/	20	xiooau
 醑	xxj;	20	xxeiau
@@ -6607,6 +6689,8 @@ encoder:
 橥	zqt,	20	zquaue
 煸	bhw,	19	bhouuo
 鳊	byw,	19	byuaia
+阽	ybei	19	ybaiie
+钭	tad,	19	taueee
 镦	daw/	19	daueee
 砜	fsn/	19	fseuia
 柜	jmc'	19	jmeiuo
@@ -6615,6 +6699,7 @@ encoder:
 漭	mvk,	19	mvooee
 嘧	moii	19	moiaeo
 鹋	mkt,	19	mkeiii
+鸟	dbw,	19	dbuaoa
 髂	qcj;	19	qciaao
 肜	ruuu	19	ruuaee
 茼	tkc;	19	tkeiii
@@ -6656,11 +6741,13 @@ encoder:
 钋	paio	17	paueee
 蠼	qcf'	17	qciaei
 铷	ran;	17	raueee
+蛇	yciu	17	yciaei
 萜	tkei	17	tkeiii
 獯	xqr.	17	xquauu
 狁	yqy/	17	yquaua
 鲰	zyb'	17	zyuaia
 傺	crui	16	cruiua
+铤	dar'	16	daueee
 簖	dzd/	16	dzueou
 锇	vav.	16	vaueee
 崞	gew'	16	geiaio
@@ -6689,6 +6776,7 @@ encoder:
 蚴	ycl'	15	yciaei
 哳	zoj/	15	zoiaee
 镲	caii	14	caueee
+掸	sjd,	14	sjeieo
 篼	dzn/	14	dzueou
 伽	qrq;	14	qruiau
 哿	gqoi	14	gqauia
@@ -6735,6 +6823,7 @@ encoder:
 滗	bvz/	12	bvooeu
 艚	czk;	12	czuuao
 猹	cqm,	12	cquaue
+掺	sjy/	12	sjeiea
 茈	zkn/	12	zkeiii
 璁	cfr.	12	cfeeie
 耵	dbei	12	dbeiie
@@ -6749,10 +6838,13 @@ encoder:
 硪	wsv.	12	wseuia
 铟	yaoe	12	yaueee
 召	sqia	12	sqauia
+椎	cmr.	12	cmeiuo
 菝	bkj.	11	bkeiie
 茈	ckn/	11	ckeiii
+蹲	cnd,	11	cniaei
 繁	pqm;	11	pqueaa
 瀵	fvd/	11	fvooeo
+艴	fgd'	11	fgaeau
 龟	quia	11	quuaia
 鲩	hyiu	11	hyuaia
 犍	jrj'	11	jrueie
@@ -6763,15 +6855,20 @@ encoder:
 钐	sauu	11	saueee
 莘	xkoe	11	xkeiio
 铈	saw;	11	saueee
+陶	ybb;	11	ybaiua
+戏	hkea	11	hkaoea
+遗	woeo	11	woiaei
 缏	blr/	10	blaaeu
 醭	bxm/	10	bxeiau
 镩	caii	10	caueee
 苊	vkg'	10	vkeiie
 稃	fhz'	10	fhueiu
+革	jkoe	10	jkeiie
 牿	grj;	10	grueie
 骺	hcj;	10	hciaao
 攉	hjt.	10	hjeiee
 颉	xtoi	10	xteiei
+矜	gyj'	10	gyaoai
 颈	gyd;	10	gyaoei
 锔	jap;	10	jaueee
 鳢	lyc.	10	lyuaia
@@ -6780,11 +6877,13 @@ encoder:
 炮	bhb'	10	bhouuo
 嘌	pox;	10	poiaee
 圊	qof;	10	qoiaee
+鲭	zyf;	10	zyuaia
 蛸	scei	10	sciaei
 氏	zhea	10	zhuaea
 铽	tal.	10	taueee
 煺	theo	10	thouuo
 粞	xdei	10	xdouei
+虾	hcs;	10	hciaei
 戌	qgs.	10	qgeuea
 碹	xsie	10	xseuia
 铕	yax;	10	yaueee
@@ -6792,6 +6891,7 @@ encoder:
 怊	cxq;	9	cxooia
 茺	ckw/	9	ckeiio
 楱	cmf,	9	cmeiuo
+佃	tria	9	truiia
 岽	del;	9	deiaie
 蹯	fnr;	9	fniaei
 否	psm;	9	pseuio
@@ -6803,9 +6903,11 @@ encoder:
 耩	jfp;	9	jfeeei
 苣	qkc'	9	qkeiie
 硇	nsr/	9	nseuia
+炔	ghc/	9	ghouuo
 溻	tvio	9	tvooei
 呔	dop.	9	doiaee
 锬	tah.	9	taueee
+屯	zsc'	9	zseaia
 箢	yzia	9	yzueou
 蔚	ykp,	9	ykeiia
 莶	xkae	9	xkeiiu
@@ -6815,31 +6917,43 @@ encoder:
 癍	bgf,	8	bgoeuo
 飑	bnx'	8	bnuauo
 砘	dss'	8	dseuia
+佴	vrei	8	vruiei
 钫	faoe	8	faueee
 瘊	hgr/	8	hgoeuo
 锪	hab.	8	haueee
+稽	qhx;	8	qhueiu
 觖	juuu	8	juuaua
 锎	kac,	8	kaueee
 筘	kzj;	8	kzueou
+腊	xuk;	8	xuuaee
 铼	las.	8	laueee
 仂	lrau	8	lruiau
 坶	mtm.	8	mteiea
 锫	pal;	8	paueee
+魄	bnn'	8	bnuiae
 劁	qrf;	8	qruioe
+且	jhia	8	jhiaee
+忪	zxr'	8	zxooiu
+塔	dtk;	8	dteiee
 莛	tkr'	8	tkeiiu
 葶	tkw,	8	tkeiio
 无	mdua	8	mdeeua
 霰	xtk/	8	xteoai
 叶	xoei	8	xoiaee
 殖	ssui	8	sseuao
+粥	ygd'	8	ygaeao
+吖	yod;	7	yoiaeo
 鐾	bpou	7	bpaeui
 锝	daie	7	daueee
 铞	daoi	7	daueee
 揲	sjk,	7	sjeiee
 澉	gvj/	7	gvooea
 鲴	gyoe	7	gyuaia
+广	vgoe	7	vgoeuu
+颌	gas;	7	gauoei
 亟	qjoe	7	qjaiia
 夹	gsk/	7	gseoue
+缴	zln/	7	zlaaeu
 弪	jgy,	7	jgaeaa
 铑	lat/	7	laueee
 栎	ymh;	7	ymeiuo
@@ -6850,6 +6964,7 @@ encoder:
 蒎	pkv.	7	pkeiio
 犏	prj,	7	prueie
 炻	sheu	7	shouuo
+挝	zjc.	7	zjeiee
 痦	wgw;	7	wgoeuo
 噱	xoee	7	xoiaei
 崾	yex'	7	yeiaie
@@ -6861,9 +6976,11 @@ encoder:
 揞	vjl;	6	vjeieo
 舭	bzg/	6	bzuuao
 碥	bsw,	6	bseuia
+嘲	zok/	6	zoiaee
 鲕	vys;	6	vyuaia
 硌	gsui	6	gseuia
 嚆	hok;	6	hoiaee
+呵	koj;	6	koiaee
 嵴	jev;	6	jeiaio
 祭	zud;	6	zuuaoo
 茳	jkv,	6	jkeiio
@@ -6878,6 +6995,7 @@ encoder:
 脎	sux,	6	suuaee
 识	zwou	6	zwoaia
 螋	scn'	6	sciaei
+汤	svj/	6	svooea
 軎	wpia	6	wpeiae
 尉	ypd,	6	ypaeue
 阢	wbs/	6	wbaieu
@@ -6887,6 +7005,7 @@ encoder:
 耔	zfp'	6	zfeeei
 锿	vaw/	5	vaueee
 礤	csk;	5	cseuia
+厂	vgeu	5	vgeuuu
 耖	cfp/	5	cfeeei
 蝽	ccf;	5	cciaei
 铫	dan.	5	daueee
@@ -6903,6 +7022,7 @@ encoder:
 醌	kxiu	5	kxeiau
 猸	mqp;	5	mquaua
 榀	pmoi	5	pmeiuo
+其	jkf/	5	jkeiie
 羰	tdv.	5	tdouee
 腽	wuii	5	wuuaee
 万	msaa	5	mseauu
@@ -6910,10 +7030,15 @@ encoder:
 齄	zrf,	5	zruiae
 痄	zgq,	5	zgoeuo
 疰	zgw,	5	zgoeuo
+般	pzn'	4	pzuuao
+吡	pog/	4	poiaee
 钸	bax;	4	baueee
 蒇	ckg.	4	ckeiie
 帱	def,	4	deiaie
+丁	zjei	4	zjeiii
+莩	pkz'	4	pkeiiu
 鬲	lsoi	4	lseiae
+谷	yrai	4	yruouo
 虹	jcei	4	jciaei
 鲚	jyuu	4	jyuaia
 牮	jrl,	4	jruiea
@@ -6924,9 +7049,12 @@ encoder:
 毪	mpy,	4	mpueea
 聍	nbie	4	nbeiie
 胬	nnk/	4	nnauea
+魄	tnn'	4	tnuiae
 镨	pak;	4	paueee
 磉	ssk,	4	sseuia
+椹	zmk'	4	zmeiuo
 镡	cax,	4	caueee
+苕	tkq;	4	tkeiia
 菥	xkm/	4	xkeiie
 葙	xkm;	4	xkeiie
 瘃	zgz.	4	zgoeuo
@@ -6935,10 +7063,12 @@ encoder:
 骣	cqp'	3	cqaaea
 膪	cuw;	3	cuuaee
 鲼	fyk;	3	fyuaia
+红	glei	3	glaaee
 耠	hfp;	3	hfeeei
 劐	hkr;	3	hkeiiu
 句	gbia	3	gbuaia
 佧	krei	3	kruiie
+蜡	zck;	3	zciaei
 漤	lvm'	3	lvooee
 螵	pcx;	3	pciaei
 镤	pam/	3	paueee
@@ -6951,13 +7081,16 @@ encoder:
 嗄	sos/	2	soiaee
 欸	vyg/	2	vyaoue
 溾	vvn'	2	vvooeu
+溾	wvn'	2	wvooeu
 啀	vog,	2	voiaee
 娾	vng,	2	vnauee
 凒	vdeo	2	vdoeia
 嵦	veeo	2	veiaii
 溰	vveo	2	vvooei
+溰	yveo	2	yvooei
 嘊	voee	2	voiaei
 敱	ves'	2	veiaie
+癌	ygoi	2	ygoeuo
 毐	vtm/	2	vteiea
 昹	viw'	2	viiaee
 躷	vrc'	2	vruiae
@@ -6969,6 +7102,7 @@ encoder:
 塧	vtk;	2	vteieo
 叆	vdy'	2	vdeeao
 僾	vrz/	2	vruiuo
+壒	ktk;	2	kteiee
 壒	vtk;	2	vteiee
 鴱	vkx.	2	vkeiiu
 薆	vkz/	2	vkeiiu
@@ -6976,6 +7110,7 @@ encoder:
 賹	vhk;	2	vhiaee
 賹	yhk;	2	yhiaee
 瞹	vfz/	2	vfiaee
+馤	jhia	2	jhueiu
 皧	vnz/	2	vnuiae
 鑀	vaz/	2	vauoee
 譺	nyl;	2	nyoeee
@@ -6997,9 +7132,11 @@ encoder:
 盦	vaw;	2	vauooa
 闇	vcl;	2	vciaee
 馣	vhia	2	vhueiu
+馣	yhia	2	yhueiu
 鮟	vyia	2	vyuaia
 盫	vas;	2	vauoei
 韽	vaw;	2	vauooa
+韽	yaw;	2	yauooa
 鶕	vlio	2	vloeou
 雸	vtk,	2	vteoai
 唵	vop'	2	voiaee
@@ -7010,16 +7147,21 @@ encoder:
 犴	hqee	2	hquaue
 荌	vkia	2	vkeiio
 洝	vvia	2	vvooeo
+豻	hzee	2	hzuoou
 豻	vzee	2	vzuoou
 堓	vtee	2	vteiei
 婩	vnee	2	vnauei
+婩	ynee	2	ynauei
+貋	hzie	2	hzuoou
 儑	vrio	2	vruiia
 錌	vaee	2	vauoee
+肮	huw/	2	huuaee
 骯	vcj/	2	vciaao
 岇	veh'	2	veiaiu
 枊	vmh'	2	vmeiuo
 昻	vid'	2	viiaee
 醠	vxv;	2	vxeiau
+柪	nml'	2	nmeiuo
 柪	vml'	2	vmeiuo
 軪	vpl'	2	vpeiae
 爊	vhg.	2	vhouuo
@@ -7038,6 +7180,7 @@ encoder:
 翺	vrf.	2	vruiae
 鷔	vfb.	2	vfeeie
 鰲	vfb/	2	vfeeie
+芺	tkr,	2	tkeiiu
 芺	vkr,	2	vkeiiu
 镺	vcr,	2	vceiee
 扷	vjr,	2	vjeieu
@@ -7045,6 +7188,7 @@ encoder:
 抝	vjl'	2	vjeiea
 垇	vtee	2	vteiei
 岰	vel'	2	veiaia
+岰	yel'	2	yeiaia
 奡	vsf/	2	vseuia
 嫯	vfb'	2	vfeeie
 慠	vxf/	2	vxooie
@@ -7055,9 +7199,12 @@ encoder:
 玐	bfuo	2	bfeeie
 朳	bmuo	2	bmeiuo
 夿	bpai	2	bpeuoa
+夿	ppai	2	ppeuoa
 蚆	bcai	2	bciaei
+蚆	pcai	2	pciaei
 哵	booi	2	boiaei
 釟	bauo	2	bauoee
+釛	haau	2	hauoee
 羓	bdv'	2	bdouee
 紦	blai	2	blaaoo
 豝	bzai	2	bzeuau
@@ -7070,6 +7217,7 @@ encoder:
 妭	bnx.	2	bnauee
 胈	bux.	2	buuaee
 炦	bhx.	2	bhouuo
+癹	pjw'	2	pjaouu
 軷	bpx.	2	bpeiae
 詙	byx.	2	byoeee
 颰	bnr.	2	bnuaui
@@ -7077,14 +7225,18 @@ encoder:
 鼥	bnl.	2	bnuiea
 弝	bgai	2	bgaeaa
 垻	btia	2	bteiei
+罢	pft'	2	pfiaii
 覇	bxk/	2	bxeiai
 矲	bgf/	2	bgueeu
+矲	pgf/	2	pgueeu
 欛	bmt/	2	bmeiuo
 挀	bjh.	2	bjeieu
 栢	bms;	2	bmeiuo
 瓸	bsl;	2	bseaao
+瓸	wsl;	2	wseaao
 竡	bls;	2	bloeou
 粨	bds;	2	bdouei
+粨	mds;	2	mdouei
 絔	bls;	2	blaaoo
 襬	byf/	2	byoaiu
 庍	bguu	2	bgoeuu
@@ -7103,6 +7255,7 @@ encoder:
 粄	bdh'	2	bdouei
 蝂	bcr'	2	bciaei
 魬	byh'	2	byuaia
+魬	fyh'	2	fyuaia
 闆	bcoi	2	bciaee
 坢	btd,	2	bteieo
 坢	ptd,	2	pteieo
@@ -7119,12 +7272,16 @@ encoder:
 幇	btt;	2	bteiee
 幚	bfr;	2	bfeeeu
 鞤	btt,	2	bteiee
+榜	pmw.	2	pmeiuo
 牓	breo	2	bruiea
 玤	bff;	2	bfeeie
 棓	bml;	2	bmeiuo
+棓	pml;	2	pmeiuo
 硥	bsx.	2	bseuia
 硥	msx.	2	mseuia
+傍	prw.	2	pruioe
 塝	btw.	2	bteieo
+蒡	pkw.	2	pkeiio
 稖	bhl;	2	bhueiu
 蜯	bcf,	2	bciaei
 艕	bzw.	2	bzuuao
@@ -7132,6 +7289,7 @@ encoder:
 勹	bbua	2	bbuaaa
 佨	brb'	2	bruiua
 笣	bzb'	2	bzueou
+龅	pnaa	2	pnieie
 蕔	bkt'	2	bkeiie
 闁	bcia	2	bciaee
 襃	bwh/	2	bwoeua
@@ -7140,6 +7298,7 @@ encoder:
 珤	bfq;	2	bfeeie
 堢	btr,	2	bteieu
 媬	bnr,	2	bnaueu
+飹	luh'	2	luuooa
 寚	bif;	2	biooae
 駂	blk,	2	bluaei
 鳵	blk.	2	blaeiu
@@ -7152,8 +7311,12 @@ encoder:
 铇	bab'	2	baueee
 菢	bkj'	2	bkeiie
 袌	bwb/	2	bwoeua
+袌	gwb/	2	gwoeua
 鉋	bab'	2	bauoee
+靤	psf'	2	pseuia
 骲	bcj'	2	bciaao
+髱	pcx'	2	pceiee
+暴	pik;	2	piiaee
 虣	bsl/	2	bseeie
 曓	bic,	2	biiaee
 儤	brii	2	bruiia
@@ -7164,26 +7327,31 @@ encoder:
 桮	bms;	2	bmeiuo
 揹	bjk;	2	bjeiei
 藣	bkf/	2	bkeiii
+藣	pkf/	2	pkeiii
 鉳	bak/	2	bauoee
 苝	bkk/	2	bkeiii
 昁	bis;	2	biiaee
 牬	brj/	2	brueie
 俻	brui	2	bruiua
+被	pyg'	2	pyoaiu
 珼	bfia	2	bfeeie
 梖	bmia	2	bmeiuo
 鄁	bkl'	2	bkieeu
 偝	brk;	2	bruiie
 偹	brei	2	bruiiu
 琲	bfee	2	bfeeie
+琲	pfee	2	pfeeie
 軰	bkl,	2	bkieeu
 僃	brk;	2	bruiei
 愂	bkio	2	bkeioa
+碚	psl;	2	pseuia
 蛽	bcia	2	bciaei
 禙	byk;	2	byoaio
 骳	bcj'	2	bciaao
 犕	brj;	2	brueie
 誖	byk'	2	byoeee
 糒	bdk;	2	bdouei
+鞴	gkoi	2	gkeiie
 泍	bvm,	2	bvooee
 倴	brp,	2	bruieu
 逩	bpk.	2	bpeuoe
@@ -7193,11 +7361,15 @@ encoder:
 錛	bap,	2	bauoee
 夲	tpei	2	tpeuoe
 奙	byp'	2	byaoeu
+翉	pms.	2	pmeiuo
 楍	bmoi	2	bmeiuo
 捹	bjp,	2	bjeiee
 桳	bmy,	2	bmeiuo
 撪	bjy,	2	bjeiea
+輽	fpy;	2	fpeiae
 伻	brs,	2	bruieo
+挷	bjf'	2	bjeiee
+奟	ppuu	2	ppeuou
 閍	bcoe	2	bciaee
 絣	blk,	2	blaaoo
 絣	plk,	2	plaaoo
@@ -7228,18 +7400,22 @@ encoder:
 榌	bml;	2	bmeiuo
 豍	bsoe	2	bseiae
 鵖	bey.	2	beaeea
+鵖	ley.	2	leaeea
 鲾	bys;	2	byuaia
 鎞	bar/	2	bauoee
 鎞	par/	2	pauoee
 柲	bmx/	2	bmeiuo
 嬶	bnr/	2	bnaueu
+比	pgua	2	pgeaua
 朼	bmua	2	bmeiuo
 夶	bpeu	2	bpeuoe
 佊	brg'	2	bruiau
 疕	bgua	2	bgoeuo
 沘	bvg/	2	bvooee
+沘	pvg/	2	pvooee
 柀	bmg'	2	bmeiuo
 粊	bgl.	2	bgeaua
+俾	prn,	2	pruiui
 粃	bdg/	2	bdouei
 娝	bns;	2	bnauee
 啚	bok;	2	boiaee
@@ -7278,7 +7454,9 @@ encoder:
 滭	bvie	2	bvooei
 彃	bgie	2	bgaeai
 鞁	bkoa	2	bkeiie
+鞁	tkoa	2	tkeiie
 稫	bhs;	2	bhueiu
+稫	fhs;	2	fhueiu
 馝	bhiu	2	bhueiu
 箆	bzc/	2	bzueou
 獙	bqd/	2	bquauo
@@ -7286,6 +7464,7 @@ encoder:
 鄪	bgd'	2	bgaeau
 綼	bln,	2	blaaoo
 髲	bcx'	2	bceiee
+髲	pcx'	2	pceiee
 駜	bqx/	2	bqeiee
 幤	bec;	2	beioui
 罼	bfie	2	bfiaii
@@ -7296,6 +7475,7 @@ encoder:
 廦	bgp.	2	bgoeua
 縪	blie	2	blaaoo
 鞞	bkoe	2	bkeiie
+濞	pvr/	2	pvooeu
 奰	bff,	2	bfiaii
 鏎	baie	2	bauoee
 饆	buie	2	buuooa
@@ -7314,6 +7494,7 @@ encoder:
 鸊	ppoo	2	ppaeui
 鼊	bpoa	2	bpaeui
 萹	bkw,	2	bkeiio
+萹	pkw,	2	pkeiio
 猵	bqw,	2	bquauo
 牑	bree	2	bruiea
 箯	bzr/	2	bzueou
@@ -7323,36 +7504,44 @@ encoder:
 獱	bqii	2	bquauo
 鯾	byr/	2	byuaia
 釆	brou	2	bruoue
+釆	crou	2	cruoue
 炞	bhw;	2	bhouuo
 疺	fgr.	2	fgoeuo
 惼	bxw,	2	bxooio
 稨	bhw,	2	bhueiu
 糄	bdw,	2	bdouei
 鴘	byk.	2	byaoeu
+鴘	pyk.	2	pyaoeu
 藊	bkh,	2	bkeiiu
 鶣	bwp.	2	bwoaeu
 鶣	pwp.	2	pwoaeu
 抃	bjw;	2	bjeieo
 汳	bvh'	2	bvooeu
+玣	mfw;	2	mfeeie
 峅	bey,	2	beiaia
 昪	biy,	2	biiaee
 変	bwm/	2	bwoeii
 覍	bpf/	2	bpiuoi
 揙	bjw,	2	bjeieo
 徧	bpw,	2	bpuuio
+遍	pwp.	2	pwoaeu
 缏	plr/	2	plaaeu
 閞	bcy,	2	bciaee
 辡	bloe	2	bloeou
 艑	bzw,	2	bzuuao
+頨	pjd;	2	pjaoea
 頨	yjd;	2	yjaoea
 辧	blq.	2	bloeou
 骉	bqq'	2	bqaaea
 淲	bveu	2	bvooei
 淲	hveu	2	hvooei
+淲	pveu	2	pvooei
 猋	bpw.	2	bpeuoo
 脿	buf/	2	buuaee
 墂	btx;	2	bteiee
 摽	bjx;	2	bjeiee
+摽	pjx;	2	pjeiee
+蔈	bkx;	2	bkeiie
 蔈	pkx;	2	pkeiie
 幖	bex;	2	beiaie
 滮	bveu	2	bvooei
@@ -7363,6 +7552,7 @@ encoder:
 儦	brg.	2	bruioe
 颷	bnr.	2	bnuaui
 藨	bkg.	2	bkeiio
+藨	pkg.	2	pkeiio
 謤	byx;	2	byoeee
 瀌	bvg.	2	bvooeo
 贆	bhp.	2	bhiaee
@@ -7397,6 +7587,7 @@ encoder:
 瑸	bfiu	2	bfeeie
 豩	bzeu	2	bzeuau
 賔	bip;	2	biooaa
+濒	pvn;	2	pvooei
 虨	beg/	2	beieau
 濵	bvii	2	bvooeo
 璸	bfii	2	bfeeie
@@ -7427,11 +7618,13 @@ encoder:
 鞆	bkou	2	bkeiie
 鉼	bak,	2	bauoee
 餠	bur,	2	buuooa
+癝	bgw;	2	bgoeuo
 癛	lgw/	2	lgoeuo
 幷	brs,	2	brueeu
 併	brk,	2	bruiou
 垪	btk,	2	bteieo
 庰	bgk,	2	bgoeuo
+栤	pmd;	2	pmeiuo
 倂	brr,	2	bruiue
 竝	bloe	2	bloeou
 偋	brp,	2	bruiae
@@ -7441,19 +7634,23 @@ encoder:
 鮩	byk,	2	byuaia
 靐	btt;	2	bteoai
 癶	bjw.	2	bjaouu
+波	pvg'	2	pvooea
 砵	bsm,	2	bseuia
 盋	bxk;	2	bxeuao
 袚	byx.	2	byoaiu
 袚	fyx.	2	fyoaiu
 袯	byl.	2	byoaiu
 紴	blg'	2	blaaoo
+溊	xvc'	2	xvooea
 鉢	bam,	2	bauoee
 碆	bvg,	2	bvooea
+僠	frr;	2	fruiuo
 嶓	ber;	2	beiaiu
 磻	psr;	2	pseuia
 蹳	bnj'	2	bniaei
 驋	bqj'	2	bqeiee
 鱍	byj'	2	byuaia
+仢	srb.	2	sruiua
 犻	bqs;	2	bquaue
 苩	bkui	2	bkeiiu
 瓝	bhy.	2	bhuuao
@@ -7469,7 +7666,9 @@ encoder:
 浡	bvk'	2	bvooee
 桲	bmk'	2	bmeiuo
 桲	pmk'	2	pmeiuo
+淿	mvn;	2	mvooeu
 葧	bkk'	2	bkeiie
+湐	bvm/	2	bvooee
 鲌	byui	2	byuaia
 猼	bqs,	2	bquaue
 馎	bus,	2	buuaae
@@ -7495,18 +7694,25 @@ encoder:
 欂	bmk,	2	bmeiuo
 襮	byii	2	byoaiu
 鑮	bak,	2	bauoee
+箥	pzv'	2	pzueou
 孹	bpoa	2	bpaeui
 譒	byr;	2	byoeee
 糪	bpoo	2	bpaeui
 蘗	bkp,	2	bkeiia
+蘗	nkp,	2	nkeiia
 蔔	bkb;	2	bkeiiu
+巭	bdq/	2	bdeiea
 峬	bes.	2	beiaie
 庯	bgs.	2	bgoeue
 誧	bys.	2	byoeee
+誧	pys.	2	pyoeee
 轐	bpm/	2	bpeiae
+轐	ppm/	2	ppeiae
 鳪	bmr.	2	bmioui
 鵏	bsuo	2	bseiae
 鸔	brc;	2	bruiae
+不	dsio	2	dseuio
+不	fsio	2	fseuio
 吥	bos;	2	boiaee
 吥	pos;	2	poiaee
 佈	brx;	2	bruieu
@@ -7518,7 +7724,9 @@ encoder:
 埗	btn/	2	bteiei
 捗	bjn/	2	bjeiei
 荹	bkn/	2	bkeiii
+勏	ploa	2	ploeou
 悑	bxs.	2	bxooie
+瓿	ploo	2	ploeou
 蔀	bkl'	2	bkeiio
 廍	bgl'	2	bgoeuo
 踄	bnn/	2	bniaei
@@ -7526,8 +7734,10 @@ encoder:
 郶	bloa	2	bloeou
 篰	bzl'	2	bzueou
 餢	bul;	2	buuooa
+醭	pxm/	2	pxeiau
 攃	sjk;	2	sjeiee
 礸	csr;	2	cseuia
+礸	zsr;	2	zseuia
 遪	cyy.	2	cyaoao
 纔	cluo	2	claaoo
 毝	cpuu	2	cpueea
@@ -7535,6 +7745,7 @@ encoder:
 採	cjz,	2	cjeieu
 啋	xoz,	2	xoiaeu
 寀	ciz,	2	ciooau
+寀	siz,	2	siooau
 婇	cnz,	2	cnaueu
 跴	cnei	2	cniaei
 綵	clz,	2	claaoo
@@ -7542,6 +7753,7 @@ encoder:
 棌	cmz,	2	cmeiuo
 縩	clui	2	claaoo
 飡	cduo	2	cdoeuo
+叄	syy,	2	syaoao
 喰	couo	2	coiaeu
 湌	cvuo	2	cvooeu
 叅	cyy;	2	cyaoao
@@ -7550,6 +7762,7 @@ encoder:
 嵾	cey/	2	ceiaia
 嬠	cnoe	2	cnauei
 爘	cheu	2	chouuo
+蚕	tsp;	2	tseeuo
 蝅	csp;	2	cseeuo
 慙	cpj.	2	cpeiae
 蠺	csp;	2	cseeuo
@@ -7560,6 +7773,7 @@ encoder:
 謲	cyy/	2	cyoeee
 仺	cac,	2	cauoea
 鸧	cab,	2	cauoaa
+鸧	qab,	2	qauoaa
 凔	cdai	2	cdoeuo
 嵢	ceai	2	ceiaiu
 獊	cqai	2	cquauu
@@ -7593,6 +7807,7 @@ encoder:
 粣	cdc,	2	cdouei
 粣	sdc,	2	sdouei
 萴	ckh;	2	ckeiii
+萴	zkh;	2	zkeiii
 蓛	cks/	2	ckeiie
 筞	czie	2	czueou
 墄	ctg.	2	cteiee
@@ -7601,9 +7816,11 @@ encoder:
 笒	czaa	2	czueou
 笒	jzaa	2	jzueou
 梣	cmea	2	cmeiuo
+曽	zdt;	2	zdouia
 嶒	ced;	2	ceiaio
 竲	cld;	2	cloeou
 驓	cqd;	2	cqeiee
+驓	zqd;	2	zqeiee
 扱	xjn.	2	xjeieu
 扠	cjk.	2	cjeiea
 芆	ckk.	2	ckeiia
@@ -7612,6 +7829,7 @@ encoder:
 挿	cjr;	2	cjeieu
 訍	cyk.	2	cyoeee
 偛	crr/	2	cruiue
+揷	zjr/	2	zjeieu
 嗏	cok,	2	coiaee
 馇	zum,	2	zuuaae
 銟	caei	2	cauoee
@@ -7620,6 +7838,7 @@ encoder:
 秅	chr,	2	chueiu
 秅	nhr,	2	nhueiu
 垞	ctie	2	cteieo
+査	cmia	2	cmeiuo
 査	zmia	2	zmeiuo
 靫	ckoo	2	ckeiie
 嵖	cem,	2	ceiaie
@@ -7635,16 +7854,19 @@ encoder:
 喍	con,	2	coiaei
 袃	clq/	2	cleaau
 囆	cok;	2	coiaee
+觇	zeou	2	zeieia
 梴	cmr'	2	cmeiuo
 裧	cyh.	2	cyoaiu
 裧	tyh.	2	tyoaiu
 鋓	cah;	2	cauoee
 幨	ceuo	2	ceiaiu
+幨	deuo	2	deiaiu
 襜	cyuo	2	cyoaiu
 辿	ceoa	2	ceiaio
 棎	cmie	2	cmeiuo
 湹	cvg;	2	cvooee
 煘	chg.	2	chouuo
+煘	qhg.	2	qhouuo
 僝	crp'	2	cruiae
 僝	zrp'	2	zruiae
 鋋	car'	2	cauoee
@@ -7657,6 +7879,7 @@ encoder:
 磛	cpj,	2	cpeiae
 毚	cuoo	2	cuuaia
 鄽	cgia	2	cgoeui
+襌	cyoe	2	cyoaiu
 襌	dyoe	2	dyoaiu
 瀍	cvg,	2	cvooeo
 儳	cruo	2	cruiua
@@ -7678,11 +7901,13 @@ encoder:
 丳	coou	2	coiaei
 浐	cvl/	2	cvooeo
 啴	cod,	2	coiaeo
+啴	tod,	2	toiaeo
 産	clr,	2	cloeou
 剷	clr;	2	cloeou
 嵼	cel,	2	ceiaio
 閳	ccei	2	cciaee
 幝	ceoe	2	ceiaii
+骣	zqp'	2	zqaaea
 燀	choe	2	chouuo
 簅	czl,	2	czueou
 醦	cxy/	2	cxeiau
@@ -7690,7 +7915,9 @@ encoder:
 譂	cyoe	2	cyoeee
 讇	cyc/	2	cyoeee
 灛	cvc,	2	cvooei
+忏	qxr,	2	qxooiu
 硟	csr'	2	cseuia
+摲	sjp/	2	sjeiee
 懴	cxk,	2	cxooie
 韂	ckoo	2	ckeiie
 淐	cvii	2	cvooei
@@ -7701,6 +7928,8 @@ encoder:
 裮	cyii	2	cyoaiu
 鼚	ctoe	2	cteiei
 仧	ces/	2	ceieeu
+仩	sree	2	sruiie
+镸	zcei	2	zceiee
 兏	cheu	2	cheuie
 瓺	ccs.	2	cceiee
 甞	ceie	2	ceiouo
@@ -7711,7 +7940,10 @@ encoder:
 蟐	ccei	2	cciaei
 鲿	cyea	2	cyuaia
 鏛	caei	2	cauoee
+厂	hgeu	2	hgeuuu
+惝	txei	2	txooii
 厰	cgeu	2	cgeuio
+厰	vgeu	2	vgeuio
 僘	creu	2	cruiio
 鋹	caei	2	cauoee
 畼	ctiu	2	ctiaei
@@ -7723,12 +7955,16 @@ encoder:
 訬	myp/	2	myoeee
 焯	chee	2	chouuo
 繛	cfl,	2	cfeeie
+牊	srei	2	sruiea
+晁	zin.	2	ziiaee
 巣	cvie	2	cvooui
 鼌	cis'	2	ciiaee
 鄛	cll'	2	claaai
 漅	cvl,	2	cvooea
+漅	jvl,	2	jvooea
 樔	cml,	2	cmeiuo
 窲	cir,	2	ciooau
+窲	lir,	2	liooau
 罺	cfl,	2	cfiaii
 轈	cpl,	2	cpeiae
 謿	cyk/	2	cyoeee
@@ -7740,9 +7976,11 @@ encoder:
 仯	mrp/	2	mruiiu
 觘	cuuu	2	cuuaua
 伡	crea	2	cruiea
+伡	jrea	2	jruiea
 莗	ckei	2	ckeiie
 唓	coei	2	coiaee
 蛼	ccei	2	cciaei
+伬	crp.	2	cruiae
 伬	zrp.	2	zruiae
 偖	crt;	2	cruiei
 撦	cjp;	2	cjeiee
@@ -7751,22 +7989,27 @@ encoder:
 屮	ccii	2	ccaiii
 迠	ceoo	2	ceieia
 烢	chie	2	chouuo
+烢	zhie	2	zhouuo
 烲	xjj.	2	xjeieu
 聅	cbue	2	cbeiie
 硩	cjj,	2	cjeieu
 頙	csn;	2	cseiei
 摰	ctr/	2	cteieu
+撤	zjw/	2	zjeieo
 瞮	cfw/	2	cfiaee
 勶	cpw'	2	cpuuio
 爡	chk;	2	chouuo
+抻	sjii	2	sjeiei
 棽	cmm'	2	cmeiuo
 棽	smm'	2	smeiuo
 綝	clm,	2	claaoo
+綝	llm,	2	llaaoo
 瞋	cfk/	2	cfiaee
 賝	chie	2	chiaee
 諃	cym,	2	cyoeee
 謓	cyk/	2	cyoeee
 謓	zyk/	2	zyoeee
+沉	sviu	2	svooeo
 迧	cieo	2	ciiaee
 茞	ckc;	2	ckeiie
 莀	nkg'	2	nkeiie
@@ -7780,7 +8023,9 @@ encoder:
 愖	cxk'	2	cxooie
 蔯	ckb;	2	ckeiia
 煁	chk'	2	chouuo
+煁	shk'	2	shouuo
 樄	cmb;	2	cmeiuo
+瘎	sgk'	2	sgoeuo
 霃	ctv/	2	cteoai
 螴	cbs;	2	cbaiei
 薼	ckg,	2	ckeiio
@@ -7795,6 +8040,7 @@ encoder:
 贂	chy/	2	chiaee
 疢	cgou	2	cgoeuo
 趂	ctn;	2	cteiei
+趂	ztn;	2	zteiei
 齓	cnaa	2	cnieie
 儭	crl/	2	cruioe
 嚫	col/	2	coiaeo
@@ -7807,6 +8053,7 @@ encoder:
 偁	crz;	2	cruiuo
 赪	ctm;	2	cteieu
 靗	cfua	2	cfeeie
+摚	tjee	2	tjeiei
 憆	cxee	2	cxooii
 緽	clei	2	claaoo
 頳	ctm;	2	cteieu
@@ -7814,6 +8061,7 @@ encoder:
 罉	cqeu	2	cqueei
 穪	chs/	2	chueiu
 鏿	caee	2	cauoee
+鐣	zaeu	2	zauoee
 鏳	cad;	2	cauoee
 饓	cuee	2	cuuooa
 朾	tmei	2	tmeiuo
@@ -7840,9 +8088,11 @@ encoder:
 椉	swue	2	swoeua
 絾	clg.	2	claaoo
 塖	cth/	2	cteieu
+溗	svh/	2	svooeu
 畻	ctk,	2	ctiaei
 鋮	cag.	2	cauoee
 澂	cveu	2	cvooei
+澂	dveu	2	dvooei
 憕	cxj.	2	cxooia
 檙	cmf'	2	cmeiuo
 鯎	cyg.	2	cyuaia
@@ -7853,25 +8103,31 @@ encoder:
 悜	cxoe	2	cxooii
 庱	cgt/	2	cgoeue
 睈	cfoe	2	cfiaee
+秤	phs,	2	phueiu
 牚	ceiu	2	ceiouo
 竀	cir/	2	ciooau
+吃	joq'	2	joiaeu
 妛	ccea	2	ccaiie
 呮	qoou	2	qoiaei
 侙	crl,	2	cruiee
 彨	csc/	2	cseiao
+鸱	zhl,	2	zhuaea
 瓻	cxx.	2	cxuoeu
 粚	cdq'	2	cdouei
 喫	cof,	2	coiaee
 摛	cjw'	2	cjeieo
 絺	clx;	2	claaoo
 殦	dsuo	2	dseuao
+噄	kof;	2	koiaee
 瞝	cfw'	2	cfiaee
 鵄	csy.	2	cseaoe
 齝	cnai	2	cnieie
 攡	cjw.	2	cjeieo
+攡	ljw.	2	ljeieo
 麶	ckr'	2	ckeiuo
 彲	csc/	2	cseiao
 黐	chaa	2	chueiu
+弛	sgai	2	sgaeaa
 岻	ceh.	2	ceiaiu
 竾	czai	2	czueou
 耛	cfp;	2	cfeeei
@@ -7885,6 +8141,8 @@ encoder:
 趍	qtn/	2	qteiei
 遟	zpl.	2	zpaeuo
 漦	cdp;	2	cdeeiu
+漦	ldp;	2	ldeeiu
+漦	tdp;	2	tdeeiu
 謘	cyp.	2	cyoeee
 叺	cor.	2	coiaeu
 呎	cop.	2	coiaea
@@ -7894,16 +8152,20 @@ encoder:
 垑	ctuu	2	cteieu
 拸	cjuu	2	cjeieu
 胣	cuq'	2	cuuaee
+胣	yuq'	2	yuuaee
 蚇	ccp.	2	cciaei
+豉	ssoa	2	sseiae
 袳	qyuu	2	qyoaiu
 歯	cnd'	2	cnieie
 袲	nwuu	2	nwoeua
+袲	ywuu	2	ywoeua
 欼	ckk/	2	ckaoao
 裭	cyeu	2	cyoaiu
 鉹	cauu	2	cauoee
 灻	ctou	2	cteieo
 杘	cpei	2	cpaeue
 抶	cjq/	2	cjeieu
+迣	lkl.	2	lkeiie
 迣	zkl.	2	zkeiie
 勅	csoa	2	cseiae
 恜	cxl,	2	cxooie
@@ -7912,23 +8174,29 @@ encoder:
 烾	chh,	2	chouuo
 跅	tnj.	2	tniaei
 訵	cyia	2	cyoeee
+啻	twd;	2	twoeou
 湁	cvj;	2	cvooee
+湁	svj;	2	svooee
 趐	xtn.	2	xteiei
+雴	ltoe	2	lteoai
 跮	cns,	2	cniaei
 跮	dns,	2	dniaei
 鉓	caq;	2	cauoee
 腟	cuie	2	cuuaee
 痸	cgq;	2	cgoeuo
 遫	csoo	2	cseiae
+遫	ssoo	2	sseiae
 銐	csuu	2	cseuao
 翤	coc.	2	coiaei
 憏	cxui	2	cxooiu
 慗	csoo	2	cseiae
 翨	cjd;	2	cjaoea
+翨	sjd;	2	sjaoea
 趩	ctn/	2	cteiei
 懘	cvx.	2	cvooee
 鶒	csoo	2	cseiae
 饎	cut;	2	cuuooa
+饎	xut;	2	xuuooa
 鷘	csoo	2	cseiae
 沖	cvoi	2	cvooei
 珫	cfw/	2	cfeeie
@@ -7939,11 +8207,15 @@ encoder:
 憃	cfao	2	cfeeeu
 徸	cpl;	2	cpuuio
 罿	cfl;	2	cfiaii
+罿	tfl;	2	tfiaii
 蹖	cnf/	2	cniaei
+艟	tzl;	2	tzuuao
+虫	hcia	2	hciaei
 痋	cgia	2	cgoeuo
 痋	tgia	2	tgoeuo
 崈	cid;	2	ciooae
 隀	cbr;	2	cbaiue
+漴	zvei	2	zvooei
 褈	cyr;	2	cyoaiu
 蝩	ccr;	2	cciaei
 蝩	zcr;	2	zciaei
@@ -7989,9 +8261,13 @@ encoder:
 矁	cfh.	2	cfiaee
 魗	ctj'	2	cteiea
 遚	cneo	2	cnuiea
+臰	xrf/	2	xruiae
 殠	csuo	2	cseuao
+殠	xsuo	2	xseuao
 岀	ceia	2	ceiaii
 摴	cjt'	2	cjeiee
+摴	sjt'	2	sjeiee
+樗	smt'	2	smeiuo
 貙	czc;	2	czuoou
 齣	cnai	2	cnieie
 蒢	ckb,	2	ckeiia
@@ -8020,12 +8296,15 @@ encoder:
 竐	cln'	2	cloeou
 欪	cceu	2	ccaiia
 俶	crea	2	cruiie
+俶	trea	2	truiie
 珿	cfia	2	cfeeie
 埱	ctea	2	cteiei
+埱	stea	2	steiei
 觕	crj/	2	crueie
 琡	cfea	2	cfeeie
 傗	crw;	2	cruioe
 鄐	cwl'	2	cwoeaa
+触	huui	2	huuaua
 滀	cvw;	2	cvooeo
 滀	xvw;	2	xvooeo
 閦	ccau	2	cciaee
@@ -8033,17 +8312,23 @@ encoder:
 嘼	sooi	2	soiaei
 儊	crm;	2	cruiei
 諔	cyea	2	cyoeee
+諔	zyea	2	zyoeee
 歜	cfb/	2	cfiaii
 斶	cjf;	2	cjuuei
 臅	cuf;	2	cuuaee
 橻	cmj;	2	cmeiuo
+欻	chh/	2	chouuo
+欻	hhh/	2	hhouuo
 欻	xhh/	2	xhouuo
 膗	cueo	2	cuuaee
 巛	cll'	2	claaaa
 剶	cmz;	2	cmaaeu
+舡	gzei	2	gzuuao
 舩	czr'	2	czuuao
 圌	coei	2	coiaia
+圌	toei	2	toiaia
 猭	cqm,	2	cquaua
+猭	yqm,	2	yquaua
 瑏	cfiu	2	cfeeie
 暷	cis,	2	ciiaee
 篅	czei	2	czueou
@@ -8064,16 +8349,21 @@ encoder:
 牀	clee	2	claieu
 噇	col;	2	coiaeo
 傸	crp/	2	cruieu
+傸	qrp/	2	qruieu
 磢	csp/	2	cseuia
+磢	qsp/	2	qseuia
 刱	cdd.	2	cdeeui
 剏	ckk.	2	ckouee
 剙	ckk.	2	ckouee
+龡	yas/	2	yauoei
+桘	cmr;	2	cmeiuo
 埀	crj,	2	crueii
 倕	crr,	2	cruiue
 菙	ckr,	2	ckeiiu
 搥	cjr.	2	cjeieu
 腄	cur,	2	cuuaee
 腄	hur,	2	huuaee
+腄	zur,	2	zuuaee
 箠	czr,	2	czueou
 顀	crf;	2	cruioe
 鎚	car.	2	cauoee
@@ -8083,15 +8373,19 @@ encoder:
 堾	ctf;	2	cteiee
 媋	cnf;	2	cnauee
 瑃	cff;	2	cfeeie
+槆	xmk;	2	xmeiuo
 暙	cif;	2	ciiaee
 箺	czf;	2	czueou
+橁	xmz;	2	xmeiuo
 輴	cph;	2	cpeiae
 櫄	cmr.	2	cmeiuo
 鶞	chk.	2	chuuei
 鰆	cyf;	2	cyuaia
+纯	zls'	2	zlaaee
 陙	cbg'	2	cbaieu
 浱	cvg'	2	cvooee
 脣	cgd;	2	cgeuee
+犉	rrj'	2	rrueie
 湻	cvw;	2	cvooeo
 蒓	ckl'	2	ckeiia
 滣	cvg;	2	cvooee
@@ -8105,8 +8399,10 @@ encoder:
 惷	cfao	2	cfeeeu
 睶	cff;	2	cfiaee
 賰	chf;	2	chiaee
+賰	shf;	2	shiaee
 踳	cnf;	2	cniaei
 逴	ceio	2	ceieia
+踔	znee	2	zniaei
 辵	cxie	2	cxuuui
 娕	cns;	2	cnauee
 娕	lns;	2	lnauee
@@ -8124,6 +8420,8 @@ encoder:
 齱	cnaa	2	cnieie
 齱	znaa	2	znieie
 鑡	can'	2	cauoee
+呲	yon/	2	yoiaei
+呲	zon/	2	zoiaei
 玼	cfn/	2	cfeeie
 趀	ctn/	2	cteiei
 偨	crn,	2	cruiie
@@ -8136,7 +8434,9 @@ encoder:
 堲	jey,	2	jeaeea
 辝	cyoo	2	cyaoia
 鈶	say;	2	sauoee
+鈶	yay;	2	yauoee
 甆	ckl.	2	ckouea
+鹚	zkl,	2	zkouea
 飺	cnl/	2	cnieie
 辤	czio	2	czuoou
 餈	cduu	2	cdoeua
@@ -8147,6 +8447,7 @@ encoder:
 鴜	cnl.	2	cnieie
 礠	csk.	2	cseuia
 蠀	jcd;	2	jciaei
+蠀	zcd;	2	zciaei
 鷀	ckl.	2	ckouea
 佌	crn/	2	cruiie
 泚	cvn/	2	cvooei
@@ -8158,8 +8459,10 @@ encoder:
 茦	cks/	2	ckeiie
 庛	cgn/	2	cgoeui
 栨	cmd/	2	cmeiuo
+栨	jmd/	2	jmeiuo
 莿	cks;	2	ckeiie
 蛓	ckl;	2	ckeiei
+赐	shiu	2	shiauo
 絘	cld/	2	claaoo
 螆	cck'	2	cciaei
 茐	ckb.	2	ckeiiu
@@ -8176,7 +8479,9 @@ encoder:
 樬	cmr.	2	cmeiuo
 暰	cip;	2	ciiaee
 熜	chr.	2	chouuo
+熜	zhr.	2	zhouuo
 緫	clb.	2	claaoo
+緫	zlb.	2	zlaaoo
 瞛	cfp;	2	cfiaee
 蟌	ccr.	2	cciaei
 篵	czp;	2	czueou
@@ -8184,12 +8489,14 @@ encoder:
 繱	clk.	2	claaoo
 騘	cqb.	2	cqeiee
 鏦	cap;	2	cauoee
+从	zauo	2	zauouo
 従	cpk;	2	cpuuio
 徖	cpii	2	cpuuio
 悰	cxii	2	cxooio
 孮	cjii	2	cjaieo
 婃	cnii	2	cnaueo
 潀	cvf/	2	cvooei
+潀	zvf/	2	zvooei
 潈	zvf/	2	zvooei
 漎	cvp;	2	cvooeu
 賩	chii	2	chiaee
@@ -8219,7 +8526,11 @@ encoder:
 縬	clg.	2	claaoo
 鼀	ctr'	2	cteieu
 蹵	cwoi	2	cwoeia
+蹵	jwoi	2	jwoeia
 顣	cgei	2	cgeuie
+顣	qgei	2	qgeuie
+汆	trw;	2	truoia
+攅	cjd;	2	cjeiee
 櫕	cmd;	2	cmeiuo
 巑	cer;	2	ceiaiu
 欑	cmr;	2	cmeiuo
@@ -8238,6 +8549,7 @@ encoder:
 鏙	caeo	2	cauoee
 趡	ctn.	2	cteiei
 皠	cneo	2	cnuiae
+伜	zrj,	2	zruiua
 忰	cxj,	2	cxooiu
 疩	cgj,	2	cgoeuo
 脃	cuua	2	cuuaee
@@ -8259,6 +8571,7 @@ encoder:
 竴	cld,	2	cloeou
 侟	jrx'	2	jruieu
 拵	cjx'	2	cjeiee
+拵	tjx'	2	tjeiee
 洊	jvx'	2	jvooee
 踆	cny/	2	cniaei
 踆	qny/	2	qniaei
@@ -8282,37 +8595,52 @@ encoder:
 莡	ckia	2	ckeiii
 莝	ckae	2	ckeiiu
 夎	caau	2	cauouo
+夎	zaau	2	zauouo
 逪	ckio	2	ckeiie
+棤	xmk;	2	xmeiuo
 蓌	ckau	2	ckeiiu
 咑	doj,	2	doiaee
 垯	dtp.	2	dteiee
 畣	das;	2	dauoei
 撘	djz;	2	djeieu
 鎝	dak;	2	dauoee
+鎝	tak;	2	tauoee
+达	tpoa	2	tpeuoo
 迏	dpw.	2	dpeuoo
 迖	dpw.	2	dpeuoo
+迖	tpw.	2	tpeuoo
+迚	zoeo	2	zoiaei
 呾	doie	2	doiaei
+呾	joie	2	joiaei
 荙	dkp.	2	dkeiie
 羍	dpd;	2	dpeuoo
+羍	tpd;	2	tpeuoo
 炟	dhie	2	dhouuo
 逹	dtd.	2	dteieo
 剳	zkai	2	zkeiiu
 匒	dbk;	2	dbuaei
 詚	dyie	2	dyoeee
+溚	tvk;	2	tvooee
 跶	dnp.	2	dniaei
+跶	tnp.	2	tniaei
 燵	dht.	2	dhouuo
 蟽	dct.	2	dciaei
 繨	dlt.	2	dlaaoo
 鐽	dat.	2	dauoee
 龖	dlue	2	dloeou
 龘	dlue	2	dloeou
+大	tpeu	2	tpeuoo
 亣	dws/	2	dwoeui
 汏	dveu	2	dvooee
 汏	tveu	2	tvooee
 眔	dfiu	2	dfiaii
 獃	des.	2	deiaie
+懛	txt,	2	txooie
+歹	vsua	2	vseuao
+傣	trf;	2	truiee
 轪	dpeu	2	dpeaie
 侢	drs;	2	druiei
+垈	frl,	2	fruiea
 帒	drl;	2	druiea
 柋	drl,	2	druiea
 帯	dsc;	2	dseiii
@@ -8345,6 +8673,7 @@ encoder:
 頕	deoi	2	deieia
 褝	dyd,	2	dyoaiu
 勯	dwoa	2	dwoeia
+勯	zwoa	2	zwoeia
 聸	dbuo	2	dbeiie
 刐	dcw;	2	dcuaoe
 玬	dfc.	2	dfeeie
@@ -8352,6 +8681,7 @@ encoder:
 紞	dliu	2	dlaaoo
 亶	dwoe	2	dwoeia
 黕	dvt/	2	dviaou
+黕	zvt/	2	zviaou
 澸	dvg.	2	dvooee
 帎	deiu	2	deiaio
 狚	dqie	2	dquaui
@@ -8379,9 +8709,11 @@ encoder:
 餤	tuh.	2	tuuooa
 憺	dxuo	2	dxooiu
 禫	dyx,	2	dyoaio
+禫	tyx,	2	tyoaio
 甔	dug.	2	duuaeu
 癚	dguo	2	dgoeuo
 贉	dhx,	2	dhiaee
+贉	thx,	2	thiaee
 嚪	doc/	2	doiaei
 霮	dtv'	2	dteoai
 饏	djb/	2	djaeii
@@ -8411,13 +8743,17 @@ encoder:
 蘯	dkv;	2	dkeiio
 譡	dyei	2	dyoeee
 闣	dcei	2	dciaee
+忉	lxau	2	lxooia
 朷	mmau	2	mmeiuo
 虭	dcau	2	dciaei
 舠	dzau	2	dzuuao
 釖	daau	2	dauoee
+釖	zaau	2	zauoee
 鱽	dyau	2	dyuaia
 陦	dbf,	2	dbaiee
+宲	dioe	2	diooai
 捯	djs;	2	djeiee
+禂	cyc;	2	cyoaio
 禂	dyc;	2	dyoaio
 隝	dbr.	2	dbaiui
 槝	dmr;	2	dmeiuo
@@ -8431,6 +8767,7 @@ encoder:
 椡	dms;	2	dmeiuo
 稲	dhz;	2	dhueiu
 翢	dct.	2	dcuaei
+翢	tct.	2	tcuaei
 衜	dpk,	2	dpuuio
 艔	dzg'	2	dzuuao
 噵	dkr;	2	dkoueu
@@ -8448,6 +8785,7 @@ encoder:
 鍀	daie	2	dauoee
 揼	bjs;	2	bjeiee
 扥	djr,	2	djeieu
+扥	tjr,	2	tjeieu
 扽	djs'	2	djeiee
 豋	dud.	2	duuaoo
 嬁	dnj.	2	dnauea
@@ -8461,6 +8799,7 @@ encoder:
 櫈	dmj/	2	dmeiuo
 仾	drs,	2	druiea
 奃	dph.	2	dpeuou
+彽	cph.	2	cpuuiu
 彽	dph.	2	dpuuiu
 袛	dyh.	2	dyoaiu
 埞	dtii	2	dteieo
@@ -8468,6 +8807,7 @@ encoder:
 隄	dbii	2	dbaiia
 隄	tbii	2	tbaiia
 趆	dtn.	2	dteiei
+堤	ttii	2	tteiei
 磾	dsoe	2	dseuia
 鍉	caii	2	cauoee
 鍉	daii	2	dauoee
@@ -8507,6 +8847,7 @@ encoder:
 楴	tmw;	2	tmeiuo
 聜	dbie	2	dbeiie
 鯳	dyg.	2	dyuaia
+弚	ddg;	2	ddouae
 弚	tdg;	2	tdouae
 玓	dfb.	2	dfeeie
 杕	dmeu	2	dmeiuo
@@ -8520,10 +8861,12 @@ encoder:
 珶	dfd/	2	dfeeie
 梊	djj,	2	djeieu
 菂	dkn.	2	dkeiiu
+眱	yfs/	2	yfiaee
 偙	drw;	2	druioe
 釱	daeu	2	dauoee
 啇	dwd,	2	dwoeou
 焍	dhd/	2	dhouuo
+焍	thd/	2	thouuo
 祶	dyd/	2	dyoaio
 揥	djw;	2	djeieo
 揥	tjw;	2	tjeieo
@@ -8536,7 +8879,9 @@ encoder:
 墑	dtw,	2	dteieo
 蔕	dkx;	2	dkeiie
 遰	dxd.	2	dxeuii
+遰	zxd.	2	zxeuii
 墬	dbm,	2	dbaiaa
+墬	zbm,	2	zbaiaa
 慸	dxd.	2	dxeuii
 甋	dwd.	2	dwoeou
 踶	dnii	2	dniaei
@@ -8545,6 +8890,7 @@ encoder:
 敁	deoa	2	deieia
 厧	dgk/	2	dgeuei
 傎	drk/	2	druiei
+嵮	tek/	2	teiaie
 槙	dmk/	2	dmeiuo
 瘨	dgk/	2	dgoeuo
 蹎	dnk/	2	dniaei
@@ -8557,15 +8903,19 @@ encoder:
 椣	dmv/	2	dmeiuo
 敟	dvk/	2	dviaei
 蒧	dkg;	2	dkeiie
+蒧	zkg;	2	zkeiie
 蕇	dkoe	2	dkeiii
 嚸	dov;	2	doiaei
+甸	tbia	2	tbuaia
 阽	dbei	2	dbaiie
 扂	dwp;	2	dwoaeu
+钿	taia	2	taueee
 婝	dnii	2	dnaueo
 琔	dfii	2	dfeeie
 蜔	dcb;	2	dciaei
 橂	dmd,	2	dmeiuo
 壂	dpk,	2	dpaeue
+磹	dsx,	2	dseuia
 磹	tsx,	2	tseuia
 驔	dqx,	2	dqeiee
 汈	dvj,	2	dvooea
@@ -8595,6 +8945,7 @@ encoder:
 鈟	dag;	2	dauoee
 竨	dlee	2	dloeou
 雿	dtn.	2	dteoai
+雿	ztn.	2	zteoai
 鋽	daee	2	dauoee
 瘹	dgao	2	dgoeuo
 窵	dir.	2	diooau
@@ -8622,20 +8973,28 @@ encoder:
 幉	dek,	2	deiaie
 詄	dyq/	2	dyoeee
 惵	dxk,	2	dxooie
+殜	ysue	2	yseuao
 牃	dlee	2	dlaieu
 蜨	dcs;	2	dciaei
 嵽	dex;	2	deiaie
 褋	dyk,	2	dyoaiu
 艓	dzk,	2	dzuuao
+蹀	xnk,	2	xniaei
 疂	dtv;	2	dtiaei
 褺	dtd/	2	dteieo
+鮙	dyj.	2	dyuaia
 曡	diii	2	diiaee
 疉	dtt,	2	dtiaei
 氎	dtt/	2	dtiaei
 哋	dot'	2	doiaee
+亇	guii	2	guuaii
 亇	muii	2	muuaii
 帄	deei	2	deiaie
 奵	dnei	2	dnauee
+盯	cfei	2	cfiaee
+町	ttei	2	ttiaei
+甼	dtei	2	dtiaei
+耵	tbei	2	tbeiie
 虰	dcei	2	dciaei
 靪	dkoe	2	dkeiie
 鼑	def'	2	deieia
@@ -8670,18 +9029,26 @@ encoder:
 鶫	dsv.	2	dseiao
 墥	dtl;	2	dteieo
 蕫	dkl;	2	dkeiio
+蕫	tkl;	2	tkeiio
 箽	dzr;	2	dzueou
 諌	dys;	2	dyoeee
 嬞	dnk;	2	dnauee
 挏	djc;	2	djeiei
 迵	dcs.	2	dciaei
+迵	tcs.	2	tciaei
+峝	dec;	2	deiaii
 峝	tec;	2	teiaii
+姛	tnc;	2	tnauei
 戙	dcs,	2	dciaei
+戙	tcs,	2	tciaei
+硐	tsc;	2	tseuia
 湩	dvr;	2	dvooeu
+湩	zvr;	2	zvooeu
 働	drr'	2	druiue
 駧	dqc;	2	dqeiee
 霘	dtv;	2	dteoai
 吺	don'	2	doiaeu
+剅	dsoi	2	dseiae
 剅	lsoi	2	lseiae
 侸	drs.	2	druiei
 唗	dot;	2	doiaee
@@ -8699,14 +9066,17 @@ encoder:
 梪	dms.	2	dmeiuo
 毭	dsou	2	dseiae
 酘	dxn'	2	dxeiau
+酘	txn'	2	txeiau
 脰	dus.	2	duuaee
 閗	dcd,	2	dciaee
 鬦	def,	2	deieei
 鋀	das.	2	dauoee
+斣	cfb,	2	cfiaii
 闘	dcs,	2	dciaee
 鬪	def,	2	deieei
 鬭	def/	2	deieei
 鬬	def/	2	deieei
+剢	czw;	2	czeuau
 剢	zzw;	2	zzeuau
 阇	dct;	2	dcoiae
 阇	sct;	2	scoiae
@@ -8723,6 +9093,8 @@ encoder:
 殰	dsui	2	dseuao
 騳	dqei	2	dqeiee
 皾	dtf'	2	dteiei
+皾	mtf'	2	mteiei
+襩	dyt;	2	dyoaiu
 襩	syt;	2	syoaiu
 豄	drai	2	druouo
 贕	dhw;	2	dhuaou
@@ -8736,6 +9108,7 @@ encoder:
 琽	dft;	2	dfeeie
 暏	dit;	2	diiaee
 覩	dtr/	2	dteieu
+芏	tkei	2	tkeiie
 妬	dneu	2	dnauee
 荰	dkm,	2	dkeiie
 秺	dhie	2	dhueiu
@@ -8746,12 +9119,14 @@ encoder:
 剬	des;	2	deiaie
 偳	drei	2	druiia
 媏	dnei	2	dnauei
+端	zlei	2	zloeou
 褍	dyei	2	dyoaiu
 鍴	daei	2	dauoee
 塅	dth'	2	dteieu
 葮	dkh'	2	dkeiiu
 瑖	dfh'	2	dfeeie
 腶	duh'	2	duuaee
+煅	yhh'	2	yhouuo
 碫	dsh'	2	dseuia
 縀	xlc'	2	xlaaoo
 毈	dhw'	2	dhuaou
@@ -8762,10 +9137,12 @@ encoder:
 痽	dgr.	2	dgoeuo
 磓	dsr.	2	dseuia
 鴭	drio	2	druiae
+鴭	zrio	2	zruiae
 頧	drii	2	druiae
 兊	dry/	2	druoao
 対	duei	2	duoeuo
 祋	dyn'	2	dyoaio
+祋	syn'	2	syoaio
 陮	dbr.	2	dbaiui
 綐	dld/	2	dlaaoo
 薱	dkm,	2	dkeiii
@@ -8773,9 +9150,11 @@ encoder:
 譈	dyw/	2	dyoeee
 瀩	dvh;	2	dvooeu
 譵	dym,	2	dyoeee
+吨	tos'	2	toiaee
 惇	dxw'	2	dxooio
 蜳	dcw'	2	dciaei
 撴	djw/	2	djeieo
+壿	ctd,	2	cteieo
 壿	ztd,	2	zteieo
 獤	dqw/	2	dquauo
 墪	dwoe	2	dwoeia
@@ -8788,6 +9167,8 @@ encoder:
 驐	dqw/	2	dqeiee
 伅	drs'	2	druiea
 逇	dty.	2	dteiea
+盾	shk;	2	shuuei
+楯	dmh;	2	dmeiuo
 楯	smh;	2	smeiuo
 腞	dum,	2	duuaee
 腞	zum,	2	zuuaee
@@ -8798,6 +9179,7 @@ encoder:
 踲	dnh;	2	dniaei
 夛	deua	2	deaeeu
 茤	dkuu	2	dkeiiu
+哆	couu	2	coiaeu
 剟	dkk;	2	dkaoao
 崜	der,	2	deiaiu
 敠	dkk'	2	dkaoao
@@ -8817,6 +9199,7 @@ encoder:
 挆	djn,	2	djeieu
 挅	djn,	2	djeiea
 埵	dtr,	2	dteieu
+缍	clr,	2	claaeu
 趓	dtn,	2	dteiei
 椯	dmei	2	dmeiuo
 躱	drc,	2	druiae
@@ -8831,6 +9214,7 @@ encoder:
 柮	dmc;	2	dmeiuo
 尮	dxl,	2	dxeuaa
 桗	dmn,	2	dmeiuo
+堕	hbx,	2	hbaieu
 媠	dnx;	2	dnauee
 跢	dnuu	2	dniaei
 跥	dnn,	2	dniaei
@@ -8845,6 +9229,7 @@ encoder:
 迗	vsp.	2	vseeuo
 吪	vor/	2	voiaeu
 囮	vor/	2	voiaui
+囮	yor/	2	yoiaui
 峩	vev.	2	veiaiu
 涐	vvv.	2	vvooeu
 珴	vfv.	2	vfeeie
@@ -8875,6 +9260,7 @@ encoder:
 咹	voia	2	voiaeo
 峉	veui	2	veiaiu
 姶	vnai	2	vnaueu
+姶	ynai	2	ynaueu
 砨	vsw'	2	vseuia
 蚅	vcg'	2	vciaei
 匎	vbp'	2	vbuaeu
@@ -8882,6 +9268,7 @@ encoder:
 硆	vsai	2	vseuia
 卾	vooa	2	voiaei
 偔	vroa	2	vruiia
+阏	vcq.	2	vcoiao
 堮	vtoa	2	vteiei
 軶	vpw'	2	vpeiae
 豟	vzw'	2	vzeuau
@@ -8892,15 +9279,18 @@ encoder:
 搹	vjs;	2	vjeiee
 琧	vseo	2	vseiea
 詻	vyui	2	vyoeee
+廅	hgt;	2	hgoeue
 廅	vgt;	2	vgoeue
 蝁	vsei	2	vseiea
 僫	vrs.	2	vruiei
 蕚	vkoa	2	vkeiii
 遻	vooo	2	voiaei
+遻	wooo	2	woiaei
 頞	vin;	2	viooaa
 擜	vjk.	2	vjeiee
 覨	voou	2	voiaei
 餩	vuau	2	vuuooa
+歞	kil/	2	kiiaee
 歞	vil/	2	viiaee
 蘁	vks;	2	vkeiie
 蘁	wks;	2	wkeiie
@@ -8908,10 +9298,17 @@ encoder:
 鰐	vyoa	2	vyuaia
 讍	vys;	2	vyoeee
 鑩	vas;	2	vauoee
+诶	xwy/	2	xwoaao
+奀	dsm,	2	dseuio
+奀	msm,	2	mseuio
 奀	vsm,	2	vseuio
 煾	vhoo	2	vhouuo
+峎	leeo	2	leiaia
 峎	veeo	2	veiaia
+嗯	vooo	2	voiaei
 鞥	vkoe	2	vkeiie
+鞥	ykoe	2	ykeiie
+儿	nnua	2	nnuaaa
 児	veiu	2	veiiae
 侕	vrs;	2	vruieu
 陑	vbs;	2	vbaieu
@@ -8950,6 +9347,7 @@ encoder:
 発	fjw'	2	fjaouu
 彂	fms/	2	fmiiou
 橃	fmj'	2	fmeiuo
+醗	fxj'	2	fxeiau
 姂	fnr.	2	fnaueu
 茷	fkr,	2	fkeiiu
 栰	fmr,	2	fmeiuo
@@ -8983,6 +9381,7 @@ encoder:
 凢	frua	2	fruuaa
 杋	fmn.	2	fmeiuo
 匥	fcy,	2	fceaoe
+柉	bmr.	2	bmeiuo
 柉	fmr.	2	fmeiuo
 籵	fdei	2	fdouei
 舤	fzn.	2	fzuuao
@@ -8990,6 +9389,7 @@ encoder:
 笲	fzy,	2	fzueou
 棥	fmx,	2	fmeiuo
 緐	fqm;	2	fqueaa
+緐	pqm;	2	pqueaa
 璠	ffr;	2	ffeeie
 薠	fkh;	2	fkeiio
 橎	fmr;	2	fmeiuo
@@ -9003,8 +9403,11 @@ encoder:
 蠜	fmx;	2	fmeiuo
 鷭	frd.	2	fruoue
 犭	qqua	2	qquauu
+攵	fuue	2	fuueuo
 攵	puue	2	puueuo
+攵	wuue	2	wuueuo
 払	fjao	2	fjeiea
+辺	fqoa	2	fqauoa
 仮	frh'	2	fruiuu
 氾	fvaa	2	fvooea
 奿	fjw'	2	fjuaoa
@@ -9028,6 +9431,7 @@ encoder:
 趽	fnoe	2	fniaei
 錺	fak.	2	fauoee
 鴋	fqr.	2	fqoeau
+房	pwp.	2	pwoaeu
 埅	fbq,	2	fbaioe
 堏	fmq,	2	fmeiuo
 昉	fioe	2	fiiaee
@@ -9056,11 +9460,13 @@ encoder:
 胇	fug/	2	fuuaee
 朏	fuc;	2	fuuaee
 胐	fcd;	2	fcuaoe
+胐	kcd;	2	kcuaoe
 陫	pbee	2	pbaiie
 奜	fef,	2	feieee
 棐	fef,	2	feieee
 蕜	fkeo	2	fkeiii
 杮	bms;	2	bmeiuo
+肺	pus;	2	puuaee
 昲	fig/	2	fiiaee
 厞	fgee	2	fgeuie
 剕	fef;	2	feieee
@@ -9086,6 +9492,7 @@ encoder:
 翂	fjd'	2	fjaoea
 棻	fkr,	2	fkeiiu
 兝	fgn'	2	fgeiia
+兝	kgn'	2	kgeiia
 躮	frc'	2	fruiae
 訜	fyr'	2	fyoeee
 雰	ftr'	2	fteoai
@@ -9098,6 +9505,7 @@ encoder:
 枌	fmr'	2	fmeiuo
 炃	frq.	2	fruoau
 朌	bur'	2	buuaee
+肦	bcd'	2	bcuaoe
 蚡	fcr'	2	fciaei
 蚠	frq;	2	fruoau
 羒	fdv'	2	fdouee
@@ -9119,6 +9527,7 @@ encoder:
 黂	fgm;	2	fgoeue
 瞓	ffy/	2	ffiaee
 黺	fms'	2	fmiiou
+坋	btr'	2	bteieu
 坋	ftr'	2	fteieu
 弅	frq,	2	fruoau
 秎	fhr'	2	fhueiu
@@ -9135,6 +9544,8 @@ encoder:
 凮	fns;	2	fnuaeu
 炐	phf;	2	phouuo
 盽	fff;	2	ffiaee
+埄	gtui	2	gteieu
+埄	ptui	2	pteieu
 峯	feui	2	feiaiu
 琒	ffui	2	ffeeie
 桻	fmui	2	fmeiuo
@@ -9189,10 +9600,12 @@ encoder:
 玞	ffd/	2	ffeeie
 姇	frc'	2	fruiei
 荂	fkp'	2	fkeiie
+荂	kkp'	2	kkeiie
 砆	fsd/	2	fseuia
 怤	frc.	2	fruiei
 衭	fyd/	2	fyoaiu
 垺	ftz'	2	fteieu
+垺	ptz'	2	pteieu
 荴	fkj/	2	fkeiie
 尃	fsue	2	fseiae
 娐	fnz'	2	fnaueu
@@ -9214,6 +9627,7 @@ encoder:
 芣	fks;	2	fkeiie
 冹	fdx.	2	fdoeeu
 刜	fgd;	2	fgaeau
+拂	bjg/	2	bjeiea
 茀	fkg/	2	fkeiia
 枎	fmd/	2	fmeiuo
 咈	fog/	2	foiaea
@@ -9226,6 +9640,8 @@ encoder:
 韨	fdj.	2	fdeeai
 垘	ftr.	2	fteieu
 枹	bmb'	2	bmeiuo
+枹	fmb'	2	fmeiuo
+柫	bmg/	2	bmeiuo
 柫	fmg/	2	fmeiuo
 畐	fsoi	2	fseiae
 畉	ftd/	2	ftiaei
@@ -9237,9 +9653,11 @@ encoder:
 畗	fwoi	2	fwoeia
 琈	ffz'	2	ffeeie
 虙	feg/	2	feieau
+虙	leg/	2	leieau
 笰	fzg/	2	fzueou
 烰	fhz'	2	fhouuo
 翇	fjd.	2	fjaoea
+翇	pjd.	2	pjaoea
 葍	fks;	2	fkeiie
 棴	fmua	2	fmeiuo
 罦	ffz'	2	ffiaii
@@ -9255,6 +9673,7 @@ encoder:
 稪	fhq/	2	fhueiu
 箙	fzua	2	fzueou
 髴	fcx/	2	fceiee
+幞	pem/	2	peiaii
 鴔	frz.	2	fruoao
 澓	fvp/	2	fvooeu
 踾	fns;	2	fniaei
@@ -9263,11 +9682,13 @@ encoder:
 鮲	fyr.	2	fyuaia
 癁	fgp/	2	fgoeuo
 鵩	fub.	2	fuuaee
+襥	pyr/	2	pyoaiu
 鶝	fsoo	2	fseiae
 弣	fgr,	2	fgaeau
 郙	fsua	2	fseiae
 俌	frs.	2	fruiei
 胕	fur,	2	fuuaee
+俯	trg,	2	truioe
 釡	fruo	2	fruouo
 捬	fjg,	2	fjeieo
 酜	fxd/	2	fxeiau
@@ -9306,12 +9727,15 @@ encoder:
 輹	fpq/	2	fpeiae
 鍢	fas;	2	fauoee
 鍑	faq/	2	fauoee
+旮	xjia	2	xjuaia
 尜	gpp;	2	gpiuoe
 嘠	gos,	2	goiaee
 錷	gap'	2	gauoee
 玍	gqei	2	gqueei
+尕	nniu	2	nnauiu
 魀	gnr/	2	gnuiae
 侅	grw/	2	gruioe
+侅	krw/	2	kruioe
 郂	gwl'	2	gwoeau
 荄	gkw/	2	gkeiio
 峐	gew/	2	geiaio
@@ -9319,6 +9743,7 @@ encoder:
 晐	giw/	2	giiaee
 畡	gtw/	2	gtiaei
 祴	gyl,	2	gyoaio
+祴	jyl,	2	jyoaio
 隑	gbeo	2	gbaiia
 隑	qbeo	2	qbaiia
 絯	glw/	2	glaaoo
@@ -9327,10 +9752,12 @@ encoder:
 賌	gwl;	2	gwoeau
 忋	gxc'	2	gxooia
 絠	glx;	2	glaaoo
+鎅	gat/	2	gauoee
 乢	geaa	2	geiaia
 匃	gbaa	2	gbuauo
 匄	gboe	2	gbuaoe
 杚	gmq'	2	gmeiuo
+盖	hdf;	2	hdouee
 摡	gjeu	2	gjeiea
 摡	xjeu	2	xjeiea
 葢	gkp;	2	gkeiie
@@ -9346,15 +9773,20 @@ encoder:
 玵	vfk,	2	vfeeie
 乹	gkia	2	gkeiia
 虷	gcee	2	gciaei
+酐	hxee	2	hxeiau
 粓	gdk,	2	gdouei
 亁	gkia	2	gkeiia
+亁	qkia	2	qkeiia
 凲	gnk;	2	gnuaou
 尲	gxl;	2	gxeuao
 筸	gzie	2	gzueou
 鳱	gtr.	2	gteeiu
 漧	gvk'	2	gvooee
+漧	qvk'	2	qvooee
 尶	gsn;	2	gseuae
 魐	gnr;	2	gnuiae
+仠	qree	2	qruiee
+扞	gjee	2	gjeiee
 扞	hjee	2	hjeiee
 衦	gyee	2	gyoaiu
 皯	ggee	2	ggauia
@@ -9362,6 +9794,8 @@ encoder:
 笴	gzj;	2	gzueou
 簳	gzk,	2	gzueou
 鳡	gyg.	2	gyuaia
+干	htee	2	hteeii
+干	qtee	2	qteeii
 汵	gvaa	2	gvooeu
 盰	gfee	2	gfiaee
 倝	gkiu	2	gkeiia
@@ -9372,8 +9806,10 @@ encoder:
 榦	hkie	2	hkeiia
 檊	gmk,	2	gmeiuo
 灨	gvl;	2	gvooeo
+罓	wcuo	2	wciauo
 冮	gdei	2	gdoeei
 矼	gsei	2	gseuia
+矼	qsei	2	qseuia
 牨	grj/	2	grueie
 疘	ggei	2	ggoeuo
 堈	gtc;	2	gteiei
@@ -9387,6 +9823,7 @@ encoder:
 鎠	gaf;	2	gauoee
 掆	gjc;	2	gjeiei
 焵	ghc;	2	ghouuo
+焹	whc.	2	whouuo
 槓	gmd;	2	gmeiuo
 羙	mdf.	2	mdouee
 皐	gnv,	2	gnuiae
@@ -9401,6 +9838,7 @@ encoder:
 韟	gjee	2	gjaiei
 鼛	gtoi	2	gteiei
 鷎	gnp.	2	gnuiae
+鷎	lnp.	2	lnuiae
 鷱	grf.	2	gruiae
 夰	gpui	2	gpeuou
 菒	gkie	2	gkeiii
@@ -9412,21 +9850,28 @@ encoder:
 藳	gkw/	2	gkeiio
 檺	gmw,	2	gmeiuo
 吿	grt;	2	grueei
+勂	hrt'	2	hrueie
 峼	ger;	2	geiaiu
+祮	jyt;	2	jyoaio
 祰	gyr;	2	gyoaio
 暠	giw;	2	giiaee
 暠	hiw;	2	hiiaee
 禞	gyw;	2	gyoaio
+圪	ytq'	2	yteieu
 犵	gqq'	2	gquauu
+犵	jqq'	2	jquauu
+纥	glq'	2	glaaeu
 戓	glia	2	gleiae
 肐	guq'	2	guuaee
 牫	grj,	2	grueie
 牱	grj;	2	grueie
+袼	lyui	2	lyoaiu
 滒	gvj;	2	gvooee
 彁	ggj;	2	ggaeae
 戨	gjoe	2	gjeiae
 鴚	grc;	2	gruiae
 謌	gyj;	2	gyoeee
+鎶	kaj;	2	kauoee
 呄	gnei	2	gnauei
 佮	grai	2	gruiuo
 匌	gbai	2	gbuauo
@@ -9439,8 +9884,11 @@ encoder:
 裓	gyl,	2	gyoaiu
 觡	guui	2	guuaua
 滆	gvs;	2	gvooee
+滆	hvs;	2	hvooee
 槅	gms;	2	gmeiuo
 閤	gcai	2	gciaee
+閤	hcai	2	hciaee
+鞈	jkoi	2	jkeiie
 韐	gjei	2	gjaiei
 輵	gpia	2	gpeiae
 臈	luk'	2	luuaee
@@ -9449,9 +9897,11 @@ encoder:
 櫊	gmc;	2	gmeiuo
 韚	gjee	2	gjaiei
 騔	gqia	2	gqeiee
+騔	jqia	2	jqeiee
 轕	gpk'	2	gpeiae
 鞷	gsoe	2	gseiae
 鰪	vyt;	2	vyuaia
+哿	kqoi	2	kqauia
 嗰	gor,	2	goiaeu
 箇	gzoe	2	gzueou
 獦	gqk'	2	gquaue
@@ -9459,6 +9909,7 @@ encoder:
 揯	gjx.	2	gjeieo
 刯	gsii	2	gseiae
 畊	gtd/	2	gtiaei
+耕	jfp/	2	jfeeei
 浭	gvs/	2	gvooee
 菮	gkg/	2	gkeiio
 椩	gmg/	2	gmeiuo
@@ -9473,6 +9924,7 @@ encoder:
 莄	gks/	2	gkeiie
 峺	ges/	2	geiaie
 骾	gcj/	2	gciaao
+更	jsiu	2	jseiae
 堩	gtx.	2	gteieo
 厷	gxao	2	gxeuao
 杛	gmae	2	gmeiuo
@@ -9485,26 +9937,36 @@ encoder:
 碽	gsd;	2	gseuia
 匔	gbr;	2	gbuaui
 髸	gcx/	2	gceiee
+兣	kgn;	2	kgeiia
 兣	lgn;	2	lgeiia
 篢	gzd;	2	gzueou
 篢	lzd;	2	lzueou
 觵	guuu	2	guuaua
 龏	glue	2	gloeou
 廾	gkeu	2	gkeuii
+汞	hdia	2	hdeiei
 拲	gkr/	2	gkeiie
 栱	gmk/	2	gmeiuo
 輁	gpk/	2	gpeiae
+輁	qpk/	2	qpeiae
 羾	gjd,	2	gjaoea
+羾	hjd,	2	hjaoea
+唝	god;	2	goiaee
 唝	hod;	2	hoiaee
 慐	gdh.	2	gdeiei
 熕	ghd;	2	ghouuo
 贑	glii	2	gloeou
+抅	gjb'	2	gjeieu
+佝	hrb;	2	hruiua
+佝	krb;	2	kruiua
+泃	gvb;	2	gvooeu
 泃	jvb;	2	jvooeu
 冓	gfd;	2	gfeeii
 鈎	gab'	2	gauoee
 褠	gyf;	2	gyoaiu
 簼	gzj;	2	gzueou
 芶	gkb'	2	gkeiiu
+芶	jkb'	2	jkeiiu
 玽	gfb;	2	gfeeie
 耇	gtr;	2	gteieu
 耉	gtr;	2	gteieu
@@ -9515,6 +9977,7 @@ encoder:
 茩	gkh;	2	gkeiiu
 姤	gnh;	2	gnaueu
 袧	gyb;	2	gyoaiu
+袧	kyb;	2	kyoaiu
 傋	grf;	2	gruiee
 傋	jrf;	2	jruiee
 訽	gyb;	2	gyoeee
@@ -9524,6 +9987,7 @@ encoder:
 撀	gtp/	2	gteiea
 泒	gvh.	2	gvooeu
 柧	gmh.	2	gmeiuo
+柧	jmh.	2	jmeiuo
 唂	gor;	2	goiaeu
 罛	gfh.	2	gfiaii
 笟	gzh.	2	gzueou
@@ -9536,17 +10000,21 @@ encoder:
 篐	gzm;	2	gzueou
 嫴	gng.	2	gnauee
 橭	gmg.	2	gmeiuo
+橭	kmg.	2	kmeiuo
 鮕	gyei	2	gyuaia
 夃	gnao	2	gnauao
 扢	gjq'	2	gjeieu
+抇	gjia	2	gjeiei
 抇	hjia	2	hjeiei
 唃	gouu	2	goiaeu
 逧	grao	2	gruouo
 羖	gdv'	2	gdouee
 蛌	gch.	2	gciaei
+啒	hop;	2	hoiaea
 傦	grc;	2	gruiia
 脵	guoe	2	guuaee
 淈	gvp;	2	gvooea
+淈	qvp;	2	qvooea
 尳	gxl;	2	gxeuai
 焸	giio	2	giiaee
 焸	xiio	2	xiiaee
@@ -9569,9 +10037,12 @@ encoder:
 崓	geoe	2	geiaii
 棝	gmoe	2	gmeiuo
 祻	gyoe	2	gyoaio
+頋	ggb;	2	ggeuaa
 稒	ghoe	2	ghueiu
 僱	grw.	2	gruioa
 苽	gkh.	2	gkeiiu
+呱	woh.	2	woiaeu
+刮	krg;	2	krueii
 颪	gsm;	2	gseiou
 歄	gcj/	2	gciaai
 焻	chii	2	chouuo
@@ -9592,10 +10063,12 @@ encoder:
 箉	dzj'	2	dzueou
 恠	gxx,	2	gxooie
 覌	gkf/	2	gkaoia
+萖	gkn/	2	gkeiiu
 蒄	gkie	2	gkeiio
 窤	gir/	2	giooau
 関	gck,	2	gciaee
 瘝	ggf;	2	ggoeuo
+闗	wcl.	2	wciaee
 観	gqr/	2	gqueeu
 癏	ggf/	2	ggoeuo
 鱞	gyf/	2	gyuaia
@@ -9616,6 +10089,7 @@ encoder:
 婠	wnii	2	wnaueo
 悹	giio	2	giooai
 祼	gyie	2	gyoaio
+祼	lyie	2	lyoaio
 潅	gvq.	2	gvooeu
 遦	gok.	2	goaaie
 樌	gmoi	2	gmeiuo
@@ -9638,6 +10112,7 @@ encoder:
 挄	kjea	2	kjeiei
 茪	gkea	2	gkeiii
 洸	gvea	2	gvooei
+洸	hvea	2	hvooei
 姯	gnea	2	gnauei
 珖	gfea	2	gfeeie
 烡	ghk/	2	ghouuo
@@ -9649,12 +10124,19 @@ encoder:
 広	ggao	2	ggoeua
 臩	gceu	2	gcaiea
 俇	grq,	2	gruiua
+俇	krq,	2	kruiua
 臦	gcei	2	gcaiea
+臦	wcei	2	wcaiea
+撗	hjk/	2	hjeiee
+撗	kjk/	2	kjeiee
 邽	gtt'	2	gteiee
 茥	gkt,	2	gkeiie
+茥	kkt,	2	kkeiie
 珪	gft,	2	gfeeie
 帰	gdei	2	gdiuae
 胿	gut,	2	guuaee
+硅	hst,	2	hseuia
+硅	xst,	2	xseuia
 亀	guia	2	guuaia
 窐	gir,	2	giooau
 窐	wir,	2	wiooau
@@ -9666,20 +10148,27 @@ encoder:
 槼	gdae	2	gdeeuo
 槻	gmd/	2	gmeiuo
 螝	hcn'	2	hciaei
+螝	xcn'	2	xciaei
+嶲	ser;	2	seiaiu
 嶲	xer;	2	xeiaiu
 嬀	gnz.	2	gnaueu
 璝	gfoi	2	gfeeie
 瞡	gfd/	2	gfiaee
+瞡	jfd/	2	jfiaee
 膭	guoi	2	guuaee
 竃	zir'	2	ziooau
 鬶	gdai	2	gdeeuo
 巂	ger;	2	geiaiu
+巂	ser;	2	seiaiu
 巂	xer;	2	xeiaiu
+騩	kqn'	2	kqeiee
 騩	tqn'	2	tqeiee
 瓌	gfw/	2	gfeeie
 鬹	gdai	2	gdeeuo
 櫷	gmr/	2	gmeiuo
+氿	gvua	2	gvooeu
 氿	jvua	2	jvooeu
+庋	jgk'	2	jgoeue
 佹	grua	2	gruiua
 陒	gbua	2	gbaiua
 垝	gtua	2	gteieu
@@ -9689,25 +10178,35 @@ encoder:
 祪	gyua	2	gyoaio
 蛫	gcua	2	gciaei
 湀	gvj,	2	gvooea
+湀	kvj,	2	kvooea
 觤	guua	2	guuaua
 厬	ggii	2	ggeuia
 蟡	gcz.	2	gciaei
 攰	gkk'	2	gkeiao
 昋	gsp;	2	gseeuo
+刽	kad;	2	kauoee
+攱	llk'	2	lloeou
+桧	kmaa	2	kmeiuo
 椢	gmoo	2	gmeiuo
 筀	gzt,	2	gzueou
 猤	gqj,	2	gquaua
 蓕	gkm,	2	gkeiie
 溎	gvm,	2	gvooee
+撌	kjoi	2	kjeiei
 槶	gmoe	2	gmeiuo
+槶	kmoe	2	kmeiuo
 瞶	gfoi	2	gfiaee
 瞶	kfoi	2	kfiaee
 簂	gzoe	2	gzueou
 禬	gyai	2	gyoaio
+禬	hyai	2	hyoaio
 襘	gyai	2	gyoaiu
 襘	hyai	2	hyoaiu
+鳜	jyg/	2	jyuaia
 鞼	gkoi	2	gkeiie
 鱥	gyn.	2	gyuaia
+惃	kxiu	2	kxooii
+辊	hpiu	2	hpeaie
 蓘	gkw/	2	gkeiio
 裷	yyk'	2	yyoaiu
 蔉	gkw/	2	gkeiio
@@ -9720,6 +10219,7 @@ encoder:
 睴	gfie	2	gfiaee
 璭	gfio	2	gfeeie
 謴	gyoi	2	gyoeee
+呙	koc/	2	koiaei
 啯	gooo	2	goiaei
 楇	gmc;	2	gmeiuo
 鈛	gaea	2	gauoee
@@ -9735,6 +10235,7 @@ encoder:
 腘	guoo	2	guuaee
 聝	gbl,	2	gbeiie
 蔮	gkoe	2	gkeiii
+蔮	kkoe	2	kkeiii
 漍	gvoe	2	gvooei
 慖	gxoe	2	gxooii
 菓	gkie	2	gkeiii
@@ -9742,25 +10243,34 @@ encoder:
 淉	gvie	2	gvooei
 惈	gxie	2	gxooii
 褁	gim/	2	giiaee
+褁	zim/	2	ziiaee
 粿	gdie	2	gdouei
 綶	glie	2	glaaoo
 輠	gpie	2	gpeiae
 腂	guie	2	guuaee
+哈	xoai	2	xoiaeu
+铪	jaai	2	jaueee
+还	xsm.	2	xseuio
+胲	guw/	2	guuaee
 烸	hhq.	2	hhouuo
 塰	hvq,	2	hvooeu
 酼	hxw/	2	hxeiau
+骇	xqw/	2	xqaaeo
 嗐	hoii	2	hoiaeo
 餀	huk/	2	huuooa
 駴	hql,	2	hqeiee
+駴	xql,	2	xqeiee
 嚡	hok,	2	hoiaee
 饚	huk;	2	huuooa
 佄	hrk,	2	hruiei
 哻	hoie	2	hoiaei
 谽	hrai	2	hruouo
 嫨	hnk/	2	hnauee
+嫨	rnk/	2	rnauee
 馠	hhii	2	hhueiu
 魽	hyk,	2	hyuaia
 咁	gok,	2	goiaee
+咁	qok,	2	qoiaee
 肣	huaa	2	huuaee
 肣	quaa	2	quuaee
 凾	hjoa	2	hjaiia
@@ -9771,8 +10281,11 @@ encoder:
 琀	hfai	2	hfeeie
 梒	hmai	2	hmeiuo
 崡	hej'	2	heiaia
+嵅	geg.	2	geiaie
+嵅	qeg.	2	qeiaie
 甝	heg,	2	heieau
 筨	hzai	2	hzueou
+蜬	gcj'	2	gciaei
 蜬	hcj'	2	hciaei
 鋡	haai	2	hauoee
 澏	hvoi	2	hvooei
@@ -9782,6 +10295,7 @@ encoder:
 豃	grau	2	gruouo
 豃	hrau	2	hruouo
 鬫	hef/	2	heieei
+鬫	kef/	2	keieei
 屽	heee	2	heiaie
 闬	hcee	2	hcoiae
 垾	htie	2	hteiei
@@ -9797,6 +10311,7 @@ encoder:
 馯	hqee	2	hqeiee
 蛿	hcai	2	hciaei
 傼	hrk/	2	hruiei
+撖	qjj/	2	qjeiea
 蜭	hcuu	2	hciaei
 暵	hik/	2	hiiaee
 銲	haie	2	hauoee
@@ -9815,14 +10330,18 @@ encoder:
 斻	hqq/	2	hqoeau
 垳	htp,	2	hteieu
 蚢	hcw/	2	hciaei
+笐	gzw/	2	gzueou
 笐	hzw/	2	hzueou
 貥	hhw/	2	hhiaee
+貥	khw/	2	khiaee
 筕	hzp,	2	hzueou
+魧	gyw/	2	gyuaia
 魧	hyw/	2	hyuaia
 毜	hpiu	2	hpueea
 呺	hooa	2	hoiaei
 呺	xooa	2	xoiaei
 竓	hlue	2	hloeou
+蚝	ccue	2	cciaei
 椃	hmeu	2	hmeiuo
 獆	hqn,	2	hquauu
 噑	hon,	2	hoiaeu
@@ -9857,6 +10376,7 @@ encoder:
 皥	hnr,	2	hnuiae
 鰝	hyw;	2	hyuaia
 抲	hjj;	2	hjeiee
+呵	voj;	2	voiaee
 欱	has/	2	hauoei
 欱	xas/	2	xauoei
 蠚	hkx;	2	hkeiie
@@ -9868,12 +10388,15 @@ encoder:
 狢	mqui	2	mquauu
 饸	huai	2	huuaau
 籺	hdq'	2	hdouei
+籺	xdq'	2	xdouei
 哬	hor;	2	hoiaeu
 盉	hhia	2	hhueiu
 萂	hkh;	2	hkeiiu
+菏	gkv;	2	gkeiio
 龁	hnaa	2	hnieie
 啝	hoh;	2	hoiaeu
 秴	hhai	2	hhueiu
+渮	gvk;	2	gvooee
 渮	hvk;	2	hvooee
 惒	hhoo	2	hhueiu
 訸	hyue	2	hyoeee
@@ -9882,6 +10405,7 @@ encoder:
 毼	hib/	2	hiiaee
 鉌	haue	2	hauoee
 貈	hzuu	2	hzuoou
+鲄	gyj;	2	gyuaia
 鲄	hyj;	2	hyuaia
 詥	hyai	2	hyoeee
 澕	hvk,	2	hvooee
@@ -9894,6 +10418,7 @@ encoder:
 礉	qsn/	2	qseuia
 覈	hxn/	2	hxeiai
 皬	hnt.	2	hnuiae
+鑉	gak;	2	gauoee
 鑉	hak;	2	hauoee
 龢	has/	2	hauoei
 佫	hrui	2	hruiua
@@ -9904,12 +10429,14 @@ encoder:
 嗃	how;	2	hoiaeo
 嗃	xow;	2	xoiaeo
 煂	hhk,	2	hhouuo
+麧	gkr'	2	gkeiuo
 麧	hkr'	2	hkeiuo
 鹖	hib,	2	hiiaee
 熇	hhw;	2	hhouuo
 癋	hgs.	2	hgoeuo
 爀	hht/	2	hhouuo
 燺	hhw,	2	hhouuo
+齃	grf'	2	gruiae
 齃	hrf'	2	hruiae
 齃	vrf'	2	vruiae
 靍	htr.	2	hteoai
@@ -9917,22 +10444,29 @@ encoder:
 靎	htao	2	hteoai
 靏	htio	2	hteoai
 黒	hit.	2	hiiaee
+黑	lvt.	2	lviaou
 潶	hvv.	2	hvooei
 拫	hjeo	2	hjeiea
 鞎	hkoo	2	hkeiie
 佷	hreo	2	hruiae
 詪	hyeo	2	hyoeee
+亨	pwoa	2	pwoeia
+亨	xwoa	2	xwoeia
 涥	hvw'	2	hvooeo
 悙	hxw'	2	hxooio
 脝	huw'	2	huuaee
 恆	hxs.	2	hxooie
 姮	hns,	2	hnauee
 胻	hup,	2	huuaee
+胻	xup,	2	xuuaee
 烆	hhp,	2	hhouuo
+烆	xhp,	2	xhouuo
 鸻	hps,	2	hpuuie
 鵆	hpr,	2	hpuuiu
 鑅	hah,	2	hauoee
+鑅	rah,	2	rauoee
 啈	hot,	2	hoiaee
+堼	ftt,	2	fteiee
 叿	hoei	2	hoiaee
 灴	hhei	2	hhouuo
 軣	hpoe	2	hpeiae
@@ -9948,6 +10482,7 @@ encoder:
 屸	heei	2	heiaie
 妅	hnei	2	hnauee
 玒	hfei	2	hfeeie
+呍	yod'	2	yoiaee
 吰	hox'	2	hoiaee
 汯	hvx'	2	hvooee
 纮	hlx'	2	hlaaee
@@ -9960,6 +10495,7 @@ encoder:
 耾	hbx'	2	hbeiie
 翃	hxy.	2	hxeuao
 浤	hvia	2	hvooeo
+硔	hsk/	2	hseuia
 谹	hraa	2	hruouo
 紭	hlg'	2	hlaaoo
 葓	hkv/	2	hkeiio
@@ -9979,6 +10515,7 @@ encoder:
 潂	hvee	2	hvooei
 篊	hzv/	2	hzueou
 鋐	haia	2	hauoee
+霐	wtv'	2	wteoai
 彋	hgf/	2	hgaeai
 霟	htv/	2	hteoai
 晎	hik/	2	hiiaee
@@ -9988,7 +10525,9 @@ encoder:
 澒	hvd;	2	hvooee
 澋	hvii	2	hvooei
 闂	hck'	2	hciaee
+闀	xck'	2	xciaee
 齁	hrf;	2	hruiae
+齁	krf;	2	kruiae
 矦	hug/	2	huuaeu
 葔	hkr/	2	hkeiiu
 帿	her/	2	heiaiu
@@ -9999,13 +10538,16 @@ encoder:
 鍭	har/	2	hauoee
 鯸	hyr/	2	hyuaia
 吽	hor,	2	hoiaeu
+吽	vor,	2	voiaeu
 犼	hqj'	2	hquaua
 郈	hhs'	2	hhuuei
 垕	hhs,	2	hhuuei
+逅	ghs.	2	ghuuei
 洉	hvh;	2	hvooeu
 鄇	hrc'	2	hruiae
 豞	hzb;	2	hzeuau
 鲘	hyh;	2	hyuaia
+乊	hrou	2	hruouu
 匢	hcb/	2	hceuau
 垀	htr;	2	hteieu
 苸	hkr;	2	hkeiiu
@@ -10018,6 +10560,7 @@ encoder:
 虖	heg;	2	heieau
 淴	hvb.	2	hvooeu
 雽	htr;	2	hteoai
+雽	ytr;	2	yteoai
 雐	heg.	2	heieau
 嘑	hoei	2	hoiaei
 寣	hil.	2	hiooaa
@@ -10041,7 +10584,10 @@ encoder:
 衚	hpg,	2	hpuuie
 魱	hys,	2	hyuaia
 螜	htii	2	hteieo
+螜	vtii	2	vteieo
 縠	htia	2	hteieo
+鴩	yqao	2	yqueeu
+鴩	zqao	2	zqueeu
 頶	hrt;	2	hrueie
 鍸	hag/	2	hauoee
 餬	hug/	2	huuooa
@@ -10096,7 +10642,10 @@ encoder:
 蕐	hks,	2	hkeiie
 錵	hak/	2	hauoee
 蘤	hkn.	2	hkeiiu
+蘤	wkn.	2	wkeiiu
 姡	hnr,	2	hnaueu
+姡	knr,	2	knaueu
+滑	gvc;	2	gvooei
 撶	hjk,	2	hjeiee
 磆	ksc;	2	kseuia
 螖	hcc;	2	hciaei
@@ -10105,6 +10654,7 @@ encoder:
 鷨	hks.	2	hkeiie
 夻	hpia	2	hpeuoi
 杹	hmr/	2	hmeiuo
+话	lwr,	2	lwoaue
 崋	hes,	2	heiaie
 婳	hns'	2	hnauee
 觟	huue	2	huuaua
@@ -10119,6 +10669,7 @@ encoder:
 舙	hrg,	2	hrueii
 繣	hlee	2	hlaaoo
 蘳	hkk,	2	hkeiie
+蘳	tkk,	2	tkeiie
 佪	hroi	2	hruiia
 褢	hwn/	2	hwoeui
 褱	hwf/	2	hwoeia
@@ -10128,6 +10679,7 @@ encoder:
 櫰	hmw/	2	hmeiuo
 耲	hfp/	2	hfeeei
 蘹	hkx/	2	hkeiio
+坏	pts;	2	pteiee
 咶	hor,	2	hoiaeu
 壊	htk/	2	hteiee
 蘾	hkt/	2	hkeiie
@@ -10135,6 +10687,7 @@ encoder:
 歓	hqr/	2	hqueeu
 鴅	hcw.	2	hcuaoe
 懁	hxf/	2	hxooii
+懁	jxf/	2	jxooii
 懁	xxf/	2	xxooii
 鵍	hid.	2	hiooae
 酄	hkoa	2	hkeiii
@@ -10147,6 +10700,7 @@ encoder:
 峘	hes,	2	heiaie
 狟	hqs,	2	hquaue
 萈	hkf.	2	hkeiii
+萑	zkr.	2	zkeiiu
 雈	hes.	2	heieie
 寏	hiue	2	hiooau
 絙	gls,	2	glaaoo
@@ -10165,16 +10719,19 @@ encoder:
 轘	hpf/	2	hpeiae
 瓛	hfeo	2	hfeeie
 睆	hfiu	2	hfiaee
+輐	hpiu	2	hpeiae
 輐	wpiu	2	wpeiae
 攌	hjou	2	hjeiei
 肒	huj.	2	huuaee
 圂	hoeu	2	hoiaeu
 烉	huc.	2	huuaia
+浣	wviu	2	wvooeo
 梙	hmoi	2	hmeiuo
 嵈	hez'	2	heiaiu
 愌	hxue	2	hxooiu
 瑍	hfue	2	hfeeie
 槵	hmoo	2	hmeiuo
+鲩	wyiu	2	wyuaia
 藧	hkl'	2	hkeiia
 鰀	hyz'	2	hyuaia
 鯶	hyie	2	hyuaia
@@ -10207,6 +10764,7 @@ encoder:
 鱑	hyk/	2	hyuaia
 怳	hxou	2	hxooii
 炾	hhou	2	hhouuo
+炾	phou	2	phouuo
 晄	hiea	2	hiiaee
 宺	hiou	2	hiooai
 奛	hpiu	2	hpeuoi
@@ -10225,6 +10783,7 @@ encoder:
 皩	hnf'	2	hnuiae
 灳	hbou	2	hbuaou
 拻	hjx.	2	hjeiee
+咴	kox.	2	koiaee
 洃	hvx.	2	hvooee
 袆	hyd;	2	hyoaiu
 豗	hsn,	2	hseuae
@@ -10237,6 +10796,7 @@ encoder:
 楎	hmie	2	hmeiuo
 煇	hhie	2	hhouuo
 禈	hyie	2	hyoaio
+禈	kyie	2	kyoaio
 睳	hfp,	2	hfiaee
 幑	hpeu	2	hpuuii
 噕	hzr;	2	hzuoou
@@ -10259,6 +10819,7 @@ encoder:
 檓	hmn'	2	hmeiuo
 燬	hhn'	2	hhouuo
 譭	hyn'	2	hyoeee
+屶	deau	2	deiaia
 屷	heau	2	heiaia
 泋	hvk,	2	hvooee
 芔	hcei	2	hcaiia
@@ -10266,8 +10827,10 @@ encoder:
 翙	heuo	2	heiaiu
 阓	hcoi	2	hcoiai
 湏	hvs;	2	hvooee
+湏	xvs;	2	xvooee
 絵	hlaa	2	hlaaoo
 匯	hcv.	2	hceooe
+颒	pvk;	2	pviauo
 詯	hyr;	2	hyoeee
 滙	hvc.	2	hvooee
 彚	heie	2	heaeeo
@@ -10284,26 +10847,34 @@ encoder:
 寭	his.	2	hiooae
 璤	hfs.	2	hfeeie
 薉	hkn.	2	hkeiii
+薉	wkn.	2	wkeiii
 橞	hms.	2	hmeiuo
 殨	hsui	2	hseuao
+徻	wpai	2	wpuuiu
 獩	hqn.	2	hquaui
+獩	wqn.	2	wquaui
+嬒	wnai	2	wnaueu
 璯	hfai	2	hfeeie
 璯	kfai	2	kfeeie
 藱	hkg'	2	hkeiio
 檅	hmn.	2	hmeiuo
+檅	smn.	2	smeiuo
 篲	hzf'	2	hzueou
 餯	hum,	2	huuooa
 嚖	hof.	2	hoiaee
 瞺	hfai	2	hfiaee
 櫘	hmf.	2	hmeiuo
 譓	hys.	2	hyoeee
+儶	jrei	2	jruiia
 鏸	has.	2	hauoee
 譮	hyai	2	hyoeee
 靧	hsf;	2	hseuia
 鐬	han.	2	hauoee
 韢	hjeo	2	hjaiei
 孈	hnei	2	hnauei
+孈	snei	2	snauei
 顪	hng;	2	hnieie
+顪	sng;	2	snieie
 譿	hyf.	2	hyoeee
 昬	hcl;	2	hcaeae
 涽	hvh;	2	hvooeu
@@ -10315,25 +10886,30 @@ encoder:
 睧	hfh;	2	hfiaee
 睯	hcl;	2	hcaeae
 忶	hxd'	2	hxooie
+混	gviu	2	gvooei
 堚	htie	2	hteieo
 繉	hlf.	2	hlaaoo
 鼲	hnl,	2	hnuiea
 俒	hriu	2	hruioo
 倱	hriu	2	hruiia
+掍	gjiu	2	gjeiei
 焝	hhh;	2	hhouuo
 慁	hoz.	2	hoiaeu
 觨	huui	2	huuaua
 吙	hoou	2	hoiaeo
+吙	xoou	2	xoiaeo
 剨	hfei	2	hfeeei
 鍃	hab.	2	hauoee
 騞	hqf,	2	hqeiee
 佸	hrr,	2	hruiue
 秮	hhy;	2	hhueiu
+秮	thy;	2	thueiu
 秳	hhr,	2	hhueiu
 趏	gtn,	2	gteiei
 灬	hioo	2	hioooo
 邩	hhai	2	hhouuo
 漷	hvw'	2	hvooeo
+漷	kvw'	2	kvooeo
 沎	hvr/	2	hvooeu
 咟	hos;	2	hoiaee
 捇	hjt/	2	hjeiee
@@ -10347,7 +10923,9 @@ encoder:
 蒦	wkr'	2	wkeiiu
 奯	hpn.	2	hpeuoi
 嚄	hok'	2	hoiaee
+嚄	vok'	2	voiaee
 檴	hmk'	2	hmeiuo
+雘	hcw'	2	hcuaoe
 雘	wcw'	2	wcuaoe
 謋	hyue	2	hyoeee
 矆	xfk'	2	xfiaee
@@ -10362,6 +10940,7 @@ encoder:
 癨	hgt.	2	hgoeuo
 靃	htr.	2	hteoai
 刉	jql;	2	jqueai
+圾	stn.	2	steieu
 刏	jqii	2	jqueea
 枅	jms,	2	jmeiuo
 飢	juua	2	juuooa
@@ -10377,15 +10956,18 @@ encoder:
 鳮	jkr.	2	jkaoui
 毄	jpoa	2	jpeiae
 僟	jrl/	2	jruiaa
+銈	gat,	2	gauoee
 銈	jat,	2	jauoee
 樭	jmk,	2	jmeiuo
 賫	jkai	2	jkeiuo
 槣	jmii	2	jmeiuo
 撃	jpn/	2	jpeiae
+踦	jnp;	2	jniaei
 踦	ynp;	2	yniaei
 躸	jrc;	2	jruiae
 觭	juui	2	juuaua
 錤	jak/	2	jauoee
+錤	qak/	2	qauoee
 憿	jxn/	2	jxooiu
 禨	jyl/	2	jyoaio
 隮	jbw,	2	jbaioe
@@ -10405,6 +10987,7 @@ encoder:
 虀	jkw,	2	jkeiio
 羇	jfk;	2	jfiaii
 鑇	jaw,	2	jauoee
+鑇	qaw,	2	qauoee
 覉	jxk;	2	jxeiai
 鑙	jah;	2	jauoee
 鸄	jnq.	2	jnuiae
@@ -10415,6 +10998,7 @@ encoder:
 彶	jpn.	2	jpuuiu
 忣	jxn.	2	jxooiu
 郆	jtoa	2	jteiei
+叝	gty'	2	gteiea
 皍	jng'	2	jnuiae
 卽	jnl'	2	jnuiae
 姞	jnt;	2	jnauee
@@ -10425,6 +11009,7 @@ encoder:
 偮	jroe	2	jruiia
 谻	jrau	2	jruouo
 脨	cus;	2	cuuaee
+庴	cgk;	2	cgoeue
 庴	jgk;	2	jgoeue
 焏	jjoo	2	jjaiia
 湒	jvoe	2	jvooei
@@ -10449,6 +11034,7 @@ encoder:
 螏	jcg/	2	jciaei
 蹐	jnv;	2	jniaei
 簎	jzj;	2	jzueou
+簎	zzj;	2	zzueou
 鍓	jaoe	2	jauoee
 襋	jys/	2	jyoaiu
 艥	jzoo	2	jzuuao
@@ -10456,6 +11042,7 @@ encoder:
 霵	jtoo	2	jteoai
 鏶	jar,	2	jauoee
 鷑	jzl.	2	jzueou
+鷑	lzl.	2	lzueou
 躤	jnk;	2	jniaei
 雦	jrf.	2	jruioe
 雧	jrf,	2	jruioe
@@ -10472,6 +11059,7 @@ encoder:
 旡	jcua	2	jceaua
 坖	jdn,	2	jdeeua
 垍	jtr;	2	jteieu
+茍	ges;	2	geieie
 茍	jes;	2	jeieie
 峜	jeai	2	jeiaiu
 畟	ctr/	2	ctiaei
@@ -10479,8 +11067,10 @@ encoder:
 紒	jlau	2	jlaaoo
 萕	qkue	2	qkeiio
 梞	jmc.	2	jmeiuo
+硛	jsw/	2	jseuia
 旣	jng/	2	jnuiae
 徛	jpp;	2	jpuuie
+徛	qpp;	2	qpuuie
 済	jvue	2	jvooeo
 惎	jkf.	2	jkeiie
 葪	jkui	2	jkeiiu
@@ -10495,13 +11085,16 @@ encoder:
 継	jld'	2	jlaaoo
 稩	jht;	2	jhueiu
 穊	jheu	2	jhueiu
+墍	jng,	2	jnuiae
 誋	jyc.	2	jyoeee
 漈	jvui	2	jvooeu
 漃	jvia	2	jvooeo
 禝	jyt/	2	jyoaio
 諅	jkf.	2	jkeiie
+暩	giui	2	giiaee
 穄	jhui	2	jhueiu
 襀	jyf;	2	jyoaiu
+縘	jlz,	2	jlaaoo
 檕	jpc,	2	jpeiae
 鮆	cnl/	2	cnieie
 鮆	jnl/	2	jnieie
@@ -10518,6 +11111,7 @@ encoder:
 鯚	jyh'	2	jyuaia
 廭	jgh;	2	jgoeuu
 癠	jgw,	2	jgoeuo
+糭	jdx/	2	jdouei
 懻	jxk/	2	jxooii
 蘮	jkf;	2	jkeiii
 瀱	jvf;	2	jvooei
@@ -10526,11 +11120,14 @@ encoder:
 鰿	jyf;	2	jyuaia
 鰶	jyui	2	jyuaia
 抸	jjr.	2	jjeieu
+抸	zjr.	2	zjeieu
 宊	tip.	2	tiooae
 拁	jjq;	2	jjeiea
 泇	jvq;	2	jvooea
+挟	jjs/	2	jjeiee
 毠	jqou	2	jqauia
 埉	jtp/	2	jteiee
+家	gieu	2	giooae
 耞	jfp;	2	jfeeei
 梜	jmp/	2	jmeiuo
 傢	jrie	2	jruioo
@@ -10545,13 +11142,16 @@ encoder:
 貑	jzc'	2	jzuoou
 糘	jdie	2	jdouei
 鴐	gqoo	2	gqauia
+鴐	jqoo	2	jqauia
 鎵	jaie	2	jauoee
 麚	jgc'	2	jgoeua
+夹	qsk/	2	qseoue
 圿	jtau	2	jteieu
 扴	jjau	2	jjeieu
 唊	jop/	2	joiaee
 戛	gsf,	2	gseuia
 脥	qup/	2	quuaee
+脥	xup/	2	xuuaee
 袷	qyai	2	qyoaiu
 戞	jsc,	2	jseuia
 跲	jnai	2	jniaei
@@ -10559,6 +11159,7 @@ encoder:
 鴶	jtoo	2	jteiei
 鵊	jpao	2	jpeuou
 玾	jfii	2	jfeeie
+叚	jcea	2	jcaeie
 斚	jyy,	2	jyaoao
 斝	jooe	2	joiaei
 徦	jpc'	2	jpuuia
@@ -10566,6 +11167,7 @@ encoder:
 椵	jmc'	2	jmeiuo
 槚	jmx;	2	jmeiuo
 榎	jms/	2	jmeiuo
+价	grau	2	gruiuo
 幏	jeie	2	jeiaio
 榢	jmie	2	jmeiuo
 幵	jsx,	2	jseeue
@@ -10576,12 +11178,14 @@ encoder:
 猏	jqw;	2	jquauo
 惤	jxg'	2	jxooia
 揃	jjk;	2	jjeieo
+靬	jkoe	2	jkeiie
 靬	qkoe	2	qkeiie
 葏	jkv,	2	jkeiio
 葌	jkn'	2	jkeiia
 牋	jree	2	jruiea
 傔	qrk;	2	qruiou
 瑊	jfg.	2	jfeeie
+瑊	zfg.	2	zfeeie
 椷	jmg.	2	jmeiuo
 椾	jmk;	2	jmeiuo
 碊	jsl,	2	jseuia
@@ -10594,6 +11198,7 @@ encoder:
 篯	jzae	2	jzueou
 熸	jhc;	2	jhouuo
 麉	jtt/	2	jteeie
+麉	qtt/	2	qteeie
 馢	jhie	2	jhueiu
 餰	jup,	2	juuooa
 鳒	jyk;	2	jyuaia
@@ -10610,10 +11215,14 @@ encoder:
 韀	jkoo	2	jkeiie
 囏	jkoi	2	jkeiie
 虃	jkv,	2	jkeiio
+虃	xkv,	2	xkeiio
 鑯	jaae	2	jauoee
 囝	joai	2	joiaai
+囝	zoai	2	zoiaai
+茧	ckia	2	ckeiii
 挸	jjf/	2	jjeiei
 倹	jrau	2	jruiuo
+趼	yns,	2	yniaei
 帴	jel,	2	jeiaie
 帴	sel,	2	seiaie
 湕	jvea	2	jvooea
@@ -10650,6 +11259,7 @@ encoder:
 徤	jpea	2	jpuuia
 釼	jaq.	2	jauoee
 剱	jas.	2	jauoei
+袸	cyx'	2	cyoaiu
 袸	jyx'	2	jyoaiu
 葥	jkk;	2	jkeiio
 葥	qkk;	2	qkeiio
@@ -10666,6 +11276,7 @@ encoder:
 諓	jyl,	2	jyoeee
 糋	jdk;	2	jdouei
 橺	jmc;	2	jmeiuo
+橌	jmc/	2	jmeiuo
 鋻	jceu	2	jceiae
 劒	jas.	2	jauoei
 劔	jas.	2	jauoei
@@ -10684,6 +11295,7 @@ encoder:
 聻	jvp,	2	jvooee
 聻	nvp,	2	nvooee
 轞	jpc;	2	jpeiae
+轞	xpc;	2	xpeiae
 鑑	jac;	2	jauoee
 鑬	jac/	2	jauoee
 鑳	jaii	2	jauoee
@@ -10702,9 +11314,11 @@ encoder:
 繮	jls,	2	jlaaoo
 奨	jkz,	2	jkoeiu
 奬	jlee	2	jlaieu
+耩	gfp;	2	gfeeei
 膙	jug;	2	juuaee
 顜	jfd;	2	jfeeii
 匞	jcei	2	jceeie
+夅	luc;	2	luuaoe
 弜	jgae	2	jgaeaa
 杢	jmei	2	jmeiuo
 袶	jyui	2	jyoaiu
@@ -10713,16 +11327,19 @@ encoder:
 滰	jvl/	2	jvooeo
 摾	jjg;	2	jjeiea
 嵹	jeg;	2	jeiaia
+嵹	qeg;	2	qeiaia
 醤	jkz,	2	jkoeiu
 糡	jdl/	2	jdouei
 櫤	jmz;	2	jmeiuo
 謽	jgoo	2	jgaeai
+艽	qkua	2	qkeiiu
 芁	jkua	2	jkeiiu
 茮	jkei	2	jkeiii
 峧	jew/	2	jeiaio
 敎	jxx/	2	jxuoeu
 焳	jhr.	2	jhouuo
 嘄	jor,	2	joiaeu
+嘄	xor,	2	xoiaeu
 嶕	jer.	2	jeiaiu
 嶣	jer.	2	jeiaiu
 骹	jcj/	2	jciaao
@@ -10731,22 +11348,31 @@ encoder:
 憍	jxr;	2	jxooiu
 膲	jur.	2	juuaee
 燋	jhr.	2	jhouuo
+燋	qhr.	2	qhouuo
 穚	jhr;	2	jhueiu
 轇	jpj/	2	jpeiae
 蟭	jcr.	2	jciaei
 簥	jzr;	2	jzueou
+簥	qzr;	2	qzueou
 鐎	jar.	2	jauoee
 鷮	jrp.	2	jrueuo
+鷮	qrp.	2	qrueuo
 櫵	jmk.	2	jmeiuo
 纟	slaa	2	slaaee
 糹	slaa	2	slaaoo
 臫	jrf'	2	jruiae
+角	luua	2	luuaua
 恔	jxw/	2	jxooio
+恔	xxw/	2	xxooio
+捁	gjr;	2	gjeieu
 捁	jjr;	2	jjeieu
 晈	jiw/	2	jiiaee
+笅	xzx/	2	xzueou
 烄	jhw/	2	jhouuo
+搅	gjv/	2	gjeieo
 筊	jzw/	2	jzueou
 賋	jhw/	2	jhiaee
+湬	qhh;	2	qhueiu
 煍	jhh.	2	jhouuo
 勦	cll'	2	claaai
 勦	jll'	2	jlaaai
@@ -10760,6 +11386,8 @@ encoder:
 潐	jvr.	2	jvooeu
 敽	jrp'	2	jrueuo
 敿	jrp/	2	jrueuo
+敿	qrp/	2	qrueuo
+徼	ypn/	2	ypuuiu
 璬	jfn/	2	jfeeie
 曒	jin/	2	jiiaee
 蟜	jcr;	2	jciaei
@@ -10769,6 +11397,7 @@ encoder:
 孂	jnz;	2	jnaueu
 纐	jlw;	2	jlaaoo
 鱎	jyr;	2	jyuaia
+鱎	qyr;	2	qyuaia
 灚	jvh/	2	jvooeu
 呌	jod,	2	joiaeo
 挍	jjw/	2	jjeieo
@@ -10778,21 +11407,26 @@ encoder:
 窌	lir'	2	liooau
 滘	jvii	2	jvooeo
 斠	jfd,	2	jfeeii
+酵	xxt'	2	xxeiau
 嘂	jooi	2	joiaei
 嘦	jor'	2	joiaeu
 漖	jvt/	2	jvooee
 噭	jon/	2	joiaeu
 燞	jrf.	2	jruioe
 獥	jqn/	2	jquauu
+獥	xqn/	2	xquauu
+嬓	cnn/	2	cnaueu
 嬓	jnn/	2	jnaueu
 藠	jkn/	2	jkeiiu
 趭	jtn.	2	jteiei
+趭	ytn.	2	yteiei
 譥	jnq.	2	jnuiae
 皭	jnz,	2	jnuiae
 釂	jxz,	2	jxeiau
 掲	jjiu	2	jjeiei
 菨	jkl'	2	jkeiio
 痎	jgw/	2	jgoeuo
+痎	kgw/	2	kgoeuo
 堦	jtg/	2	jteiee
 椄	jml'	2	jmeiuo
 喼	jouo	2	joiaeu
@@ -10808,6 +11442,7 @@ encoder:
 鶛	jgl.	2	jgeaua
 卪	jboo	2	jbaioo
 尐	jpoo	2	jpiuoo
+兯	jdai	2	jdouai
 刦	jty;	2	jteiea
 刧	jty'	2	jteiea
 昅	jin.	2	jiiaee
@@ -10815,6 +11450,7 @@ encoder:
 劼	jtoa	2	jteiei
 刼	jty.	2	jteiea
 疌	jsei	2	jseaee
+疌	nsei	2	nseaee
 衱	jyn.	2	jyoaiu
 迼	jtoo	2	jteiei
 狤	jqt;	2	jquaue
@@ -10850,12 +11486,15 @@ encoder:
 巀	jep,	2	jeiaii
 蠞	jzei	2	jzueou
 蠘	jck.	2	jciaei
+蠽	gpr;	2	gpiuou
 蠽	jpr;	2	jpiuou
 毑	jms'	2	jmaaoe
 媎	jnt;	2	jnauee
 飷	juia	2	juuooa
 觧	juui	2	juuaua
+觧	xuui	2	xuuaua
 檞	jmue	2	jmeiuo
+檞	xmue	2	xmeiuo
 丯	jxii	2	jxuuui
 吤	goau	2	goiaeu
 吤	joau	2	joiaeu
@@ -10863,7 +11502,9 @@ encoder:
 庎	jgau	2	jgoeuu
 忦	jxau	2	jxooiu
 妎	hnau	2	hnaueu
+妎	xnau	2	xnaueu
 玠	jfau	2	jfeeie
+斺	xqau	2	xqoeau
 砎	jsau	2	jseuia
 畍	jtau	2	jtiaei
 衸	jyau	2	jyoaiu
@@ -10872,10 +11513,13 @@ encoder:
 堺	jtt/	2	jteiei
 琾	jft/	2	jfeeie
 楐	jmt/	2	jmeiuo
+蛶	lcz,	2	lciaei
+骱	xcj/	2	xciaao
 犗	jrj;	2	jrueie
 魪	jyau	2	jyuaia
 褯	jyg;	2	jyoaiu
 曁	jng,	2	jnuiae
+繲	jlue	2	jlaaoo
 钅	jaue	2	jaueee
 兓	jcn/	2	jceaua
 釒	jauo	2	jauoee
@@ -10884,32 +11528,41 @@ encoder:
 觔	juua	2	juuaua
 珒	jfee	2	jfeeie
 埐	jtea	2	jteiea
+矝	gyj'	2	gyaoai
 矝	jyj'	2	jyaoai
+矝	qyj'	2	qyaoai
 紟	jlaa	2	jlaaoo
 琎	jfd.	2	jfeeie
 惍	jxuo	2	jxooiu
 琻	jfuo	2	jfeeie
 堻	jvee	2	jvooea
+堻	zvee	2	zvooea
 黅	jkia	2	jkeiie
 鹶	jeoa	2	jeieia
+嶜	cec;	2	ceiaie
 嶜	jec;	2	jeiaie
 菫	jks,	2	jkeiie
 厪	jgk,	2	jgeuei
+厪	qgk,	2	qgeuei
 蓳	jkk,	2	jkeiie
+廑	qgk,	2	qgoeue
 漌	jvk,	2	jvooee
 嫤	jnk,	2	jnauee
 鏱	zal,	2	zauoee
 伒	jruu	2	jruiuu
 劤	jjau	2	jjuuei
 枃	jmb.	2	jmeiuo
+枃	ymb.	2	ymeiuo
 侭	jrp.	2	jruiae
 浕	jvp.	2	jvooea
 祲	jyea	2	jyoaio
+煡	xhea	2	xhouuo
 搢	jjs;	2	jjeiee
 溍	jvs;	2	jvooee
 寖	jiv'	2	jiooao
 瑨	jfs;	2	jfeeie
 墐	jtk,	2	jteiee
+慬	jxk,	2	jxooie
 歏	jkou	2	jkeiie
 殣	jsue	2	jseuao
 僸	jrm;	2	jruiei
@@ -10933,6 +11586,7 @@ encoder:
 婛	jnw;	2	jnaueo
 経	jlk,	2	jlaaoo
 稉	jhs/	2	jhueiu
+粳	gds/	2	gdouei
 聙	jbf;	2	jbeiie
 橸	jmii	2	jmeiuo
 鵛	jsl.	2	jseaaa
@@ -10944,9 +11598,11 @@ encoder:
 丼	jdd.	2	jdeeui
 坓	jdd,	2	jdeeui
 汫	jvd/	2	jvooee
+汫	qvd/	2	qvooee
 宑	jid/	2	jiooae
 汬	jdd;	2	jdeeui
 穽	jir/	2	jiooau
+景	yiw;	2	yiiaee
 璄	jfl/	2	jfeeie
 擏	jjk/	2	jjeiee
 擏	qjk/	2	qjeiee
@@ -10963,6 +11619,7 @@ encoder:
 浄	jvui	2	jvooeu
 婙	jnui	2	jnaueu
 倞	jrw;	2	jruioe
+倞	lrw;	2	lruioe
 凈	jdz;	2	jdoeuo
 桱	jms,	2	jmeiuo
 梷	jeoe	2	jeieia
@@ -10973,6 +11630,7 @@ encoder:
 傹	jrl/	2	jruioe
 踁	jns,	2	jniaei
 誩	jyoe	2	jyoeee
+頚	gkt;	2	gkaoei
 頚	jkt;	2	jkaoei
 曔	jik/	2	jiiaee
 瀞	jvf;	2	jvooee
@@ -10987,6 +11645,8 @@ encoder:
 泂	jvc;	2	jvooei
 侰	jrei	2	jruiae
 逈	jrc.	2	jruiai
+浻	wvc;	2	wvooei
+宭	jiei	2	jiooaa
 宭	qiei	2	qiooaa
 烱	jhc;	2	jhouuo
 絅	jlc;	2	jlaaoo
@@ -11025,13 +11685,16 @@ encoder:
 匛	jcuo	2	jceuao
 畂	ltuo	2	ltiaei
 柾	jms;	2	jmeiuo
+柾	zms;	2	zmeiuo
 倃	jrui	2	jruiua
 匓	jbea	2	jbuaae
 廐	jgeu	2	jgoeua
 廏	jgn'	2	jgoeuu
 慦	jsv.	2	jseioe
+殧	csuo	2	cseuao
 匶	jck/	2	jceeii
 鯦	jyui	2	jyuaia
+鯦	qyui	2	qyuaia
 麔	jgc;	2	jgoeua
 欍	jmk/	2	jmeiuo
 齨	jnau	2	jnieie
@@ -11043,6 +11706,7 @@ encoder:
 捄	jjs.	2	jjeiee
 挶	jjp;	2	jjeiea
 砠	jsia	2	jseuia
+砠	qsia	2	qseuia
 眗	jfb;	2	jfiaee
 罝	jfia	2	jfiaii
 痀	ggb;	2	ggoeuo
@@ -11074,10 +11738,12 @@ encoder:
 椈	jmb.	2	jmeiuo
 毱	jpb.	2	jpueea
 湨	jvf.	2	jvooei
+湨	qvf.	2	qvooei
 輂	jkr,	2	jkeiie
 犑	jrj.	2	jrueie
 蓻	jkt.	2	jkeiie
 閰	jcui	2	jciaee
+閰	ycui	2	yciaee
 跼	jnp;	2	jniaei
 粷	jdb.	2	jdouei
 趜	jtn.	2	jteiei
@@ -11090,6 +11756,7 @@ encoder:
 蘜	jkk.	2	jkeiie
 鶪	jfp.	2	jfiaee
 巈	jek.	2	jeiaie
+鼰	nnl;	2	nnuiea
 鼳	jnl.	2	jnuiea
 驧	jqk.	2	jqeiee
 弆	jty,	2	jteiea
@@ -11097,13 +11764,17 @@ encoder:
 椇	jmh/	2	jmeiuo
 筥	jzoi	2	jzueou
 蒟	jkl;	2	jkeiio
+聥	ybr.	2	ybeiie
 擧	jhd/	2	jhuiee
 欅	jmh/	2	jmeiuo
 襷	jyh/	2	jyoaiu
 岠	jec'	2	jeiaie
+邭	qboa	2	qbuaia
 洰	jvc'	2	jvooee
+洰	qvc'	2	qvooee
 怇	jxc'	2	jxooie
 姖	jnc'	2	jnauee
+坥	jtia	2	jteiei
 拠	jjuu	2	jjeieu
 歫	jnc'	2	jnieie
 昛	jic'	2	jiiaee
@@ -11113,7 +11784,9 @@ encoder:
 蚷	jcc'	2	jciaei
 倶	jrf/	2	jruiia
 粔	jdc'	2	jdouei
+烥	chc;	2	chouuo
 冣	jib'	2	jioaei
+冣	zib'	2	zioaei
 袓	jyia	2	jyoaiu
 埧	jth/	2	jteiei
 埾	jbk,	2	jbeiie
@@ -11121,6 +11794,7 @@ encoder:
 跙	jnia	2	jniaei
 鉅	jac'	2	jauoee
 豦	jeg,	2	jeieau
+豦	qeg,	2	qeieau
 虡	jeg/	2	jeieau
 駏	jqc'	2	jqeiee
 愳	jff.	2	jfiaee
@@ -11129,6 +11803,7 @@ encoder:
 鮔	jyc'	2	jyuaia
 壉	jtee	2	jteiei
 澽	jvee	2	jvooei
+懅	qxee	2	qxooii
 貗	jzoa	2	jzuoou
 簴	jzeu	2	jzueou
 躆	jnee	2	jniaei
@@ -11148,12 +11823,20 @@ encoder:
 鋑	jay/	2	jauoee
 鞙	xkoi	2	xkeiie
 鎸	jar'	2	jauoee
+呟	qow'	2	qoiaeo
+卷	qkp'	2	qkouee
+巻	qkp'	2	qkouee
+埍	qtoi	2	qteiei
+埍	xtoi	2	xteiei
 捲	jjk'	2	jjeieo
 菤	jkk'	2	jkeiio
 臇	jur;	2	juuaee
 奆	jpc'	2	jpeuoe
+劵	qkp'	2	qkouee
+劵	xkp'	2	xkouee
 帣	jkp;	2	jkouee
 弮	qkp'	2	qkouee
+桊	qkp,	2	qkouee
 勌	jkp'	2	jkouee
 悁	jxoi	2	jxooii
 悁	yxoi	2	yxooii
@@ -11161,6 +11844,7 @@ encoder:
 睊	jfoi	2	jfiaee
 罥	jfoi	2	jfiaii
 絭	jkp;	2	jkouee
+絭	qkp;	2	qkouee
 睠	jfk'	2	jfiaee
 飬	jkp.	2	jkouee
 蔨	jkoa	2	jkeiii
@@ -11174,6 +11858,7 @@ encoder:
 亅	jeii	2	jeiiii
 孒	jjee	2	jjaiee
 夬	gcuo	2	gcaeuo
+夬	jcuo	2	jcaeuo
 叏	gcea	2	gcaeia
 氒	jhl,	2	jhuaea
 刔	jcai	2	jcaeuo
@@ -11185,6 +11870,7 @@ encoder:
 泬	xviu	2	xvooeo
 挗	jjs/	2	jjeiee
 砄	jsc/	2	jseuia
+虳	dcb.	2	dciaei
 虳	jcb.	2	jciaei
 疦	jgc/	2	jgoeuo
 捔	jjuu	2	jjeieu
@@ -11193,12 +11879,14 @@ encoder:
 赽	gtn/	2	gteiei
 赽	jtn/	2	jteiei
 殌	jsue	2	jseuao
+殌	qsue	2	qseuao
 覐	jfn/	2	jfiaee
 趹	jnc/	2	jniaei
 斍	juf/	2	juoeuo
 焆	jhoi	2	jhouuo
 逫	jkk.	2	jkaoao
 趉	jtn;	2	jteiei
+趉	ztn;	2	zteiei
 傕	jrio	2	jruioa
 鈌	jac/	2	jauoee
 覚	jviu	2	jvoouo
@@ -11207,14 +11895,17 @@ encoder:
 駃	kqc/	2	kqeiee
 瑴	jtia	2	jteieo
 勪	jrp'	2	jrueuo
+镼	jcp;	2	jceiee
 镼	qcp;	2	qceiee
 蕝	jkl'	2	jkeiia
 爴	jol.	2	joiaei
 嶡	geg/	2	geiaie
 嶥	jeg/	2	jeiaie
+鴃	grc/	2	gruiae
 鴃	jrc/	2	jruiae
 瘚	jgk/	2	jgoeuo
 熦	jhp.	2	jhouuo
+潏	jvy;	2	jvooea
 潏	yvy;	2	yvooea
 憰	jxy;	2	jxooia
 鴂	gcao	2	gcaeuo
@@ -11239,6 +11930,7 @@ encoder:
 彏	jgf'	2	jgaeai
 欔	jmf'	2	jmeiuo
 龣	jas;	2	jauoei
+龣	las;	2	lauoei
 矡	jyj'	2	jyaoai
 躩	jnf'	2	jniaei
 貜	jzf'	2	jzuoou
@@ -11256,10 +11948,12 @@ encoder:
 鲪	jyei	2	jyuaia
 麇	qgc/	2	qgoeua
 鍕	jaie	2	jauoee
+鍕	raie	2	rauoee
 麏	jgc;	2	jgoeua
 麕	jgc/	2	jgoeua
 麕	qgc/	2	qgoeua
 呁	job.	2	joiaeu
+俊	zry/	2	zruiao
 陖	jby/	2	jbaiao
 埈	jty/	2	jteiea
 馂	juy/	2	juuaaa
@@ -11269,6 +11963,8 @@ encoder:
 焌	qhy/	2	qhouuo
 葰	jkr/	2	jkeiiu
 葰	skr/	2	skeiiu
+棞	hmou	2	hmeiuo
+棞	kmou	2	kmeiuo
 畯	jty/	2	jtiaei
 蜠	jcou	2	jciaei
 箟	jziu	2	jzueou
@@ -11277,11 +11973,15 @@ encoder:
 懏	jxr;	2	jxooiu
 寯	jir;	2	jiooau
 燇	jhd,	2	jhouuo
+燇	zhd,	2	zhouuo
 鵔	jrc/	2	jruiae
+鵔	xrc/	2	xruiae
 鵘	jer.	2	jeaeeu
 鵕	jyr.	2	jyaouo
 攈	pjg/	2	pjeieo
 攟	jjg/	2	jjeieo
+攟	mjg/	2	mjeieo
+咔	loei	2	loiaei
 衉	krv;	2	kruiai
 垰	ktei	2	kteiei
 裃	kyei	2	kyoaiu
@@ -11300,6 +12000,7 @@ encoder:
 嘅	goeu	2	goiaea
 嘅	koeu	2	koiaea
 鎎	kaq.	2	kauoee
+鎎	xaq.	2	xauoee
 栞	ksx,	2	kseeue
 嵁	kek'	2	keiaie
 冚	kiia	2	kioaia
@@ -11329,7 +12030,9 @@ encoder:
 躿	krc;	2	kruiae
 鏮	kag;	2	kauoee
 鱇	kyg;	2	kyuaia
+摃	gjd;	2	gjeiee
 摃	kjd;	2	kjeiee
+亢	hwua	2	hwoeua
 匟	kcw/	2	kceoeu
 邟	kwn'	2	kwoeua
 囥	kow/	2	koiaoe
@@ -11342,27 +12045,38 @@ encoder:
 攷	ksj/	2	kseaue
 洘	kvt'	2	kvooee
 薧	kkw/	2	kkeiio
+犒	drj;	2	drueie
 鲓	kyt'	2	kyuaia
 鯌	kyr;	2	kyuaia
 匼	kcai	2	kceuoe
+匼	vcai	2	vceuoe
 胢	kuj;	2	kuuaee
+牁	glei	2	glaieu
 牁	klei	2	klaieu
+趷	hnq'	2	hniaei
 趷	knq'	2	kniaei
+疴	vgj;	2	vgoeuo
 蚵	hcj;	2	hciaei
+蚵	vcj;	2	vciaei
 萪	kkh,	2	kkeiiu
 嵙	keh,	2	keiaiu
 痾	kgb;	2	kgoeuo
 痾	vgb;	2	vgoeuo
+颏	hwl;	2	hwoeau
 搕	kjt;	2	kjeiee
+嗑	hot;	2	hoiaee
 犐	krj,	2	krueie
 薖	kkc.	2	kkeiii
 榼	kmt;	2	kmeiuo
+樖	has;	2	hauoei
 樖	kas;	2	kauoei
 醘	kxt;	2	kxeiau
 礚	ksk;	2	kseuia
+殻	ktia	2	kteieo
 殻	qtia	2	qteieo
 揢	kjii	2	kjeieo
 翗	kuuo	2	kuuaou
+翗	quuo	2	quuaou
 嶱	kek'	2	keiaie
 炣	khj;	2	khouuo
 渇	kviu	2	kvooei
@@ -11374,13 +12088,17 @@ encoder:
 勊	kgn'	2	kgeiia
 峇	beai	2	beiaiu
 峇	keai	2	keiaiu
+恪	qxui	2	qxooiu
 尅	kgn,	2	kgeiia
+兛	kgn,	2	kgeiia
 兛	qgn,	2	qgeiia
 袔	hyj;	2	hyoaiu
 袔	kyj;	2	kyoaiu
 娔	kng/	2	knauee
 堁	ktie	2	kteiei
+兞	kgn/	2	kgeiia
 兞	mgn/	2	mgeiia
+锞	gaie	2	gaueee
 愙	kiuo	2	kiooau
 碦	ksii	2	kseuia
 礊	kpc,	2	kpeiae
@@ -11390,6 +12108,7 @@ encoder:
 貇	kzeo	2	kzuoou
 錹	kan;	2	kauoee
 掯	kjn;	2	kjeiei
+硍	kseo	2	kseuia
 褃	kyn;	2	kyoaiu
 劥	kwn'	2	kwoeua
 阬	gbw/	2	gbaioe
@@ -11399,6 +12118,7 @@ encoder:
 硁	ksy,	2	kseuia
 牼	krj,	2	krueie
 硻	kcee	2	kceiae
+誙	hys,	2	hyoeee
 誙	kys,	2	kyoeee
 銵	kar/	2	kauoee
 鍞	kaei	2	kauoee
@@ -11411,8 +12131,11 @@ encoder:
 鵼	kir.	2	kiooau
 鞚	kkoe	2	kkeiie
 剾	kcoi	2	kceiae
+剾	vcoi	2	vceiae
 彄	kgc;	2	kgaeae
 劶	khs'	2	khuuei
+竘	jlb;	2	jloeou
+竘	klb;	2	kloeou
 怐	kxb;	2	kxooiu
 敂	kbou	2	kbuaia
 宼	kid'	2	kiooae
@@ -11421,6 +12144,7 @@ encoder:
 窛	kir'	2	kiooau
 蔲	kkiu	2	kkeiio
 滱	kvia	2	kvooeo
+瞉	gtia	2	gteieo
 瞉	ktia	2	kteieo
 簆	kzia	2	kzueou
 鷇	ktia	2	kteieo
@@ -11428,9 +12152,11 @@ encoder:
 矻	ksq'	2	kseuia
 郀	kpd'	2	kpeuoe
 桍	kmp'	2	kmeiuo
+堀	jtp;	2	jteiea
 崫	jep;	2	jeiaia
 跍	knei	2	kniaei
 圐	kof.	2	koiaia
+狜	gqei	2	gquaue
 狜	kqei	2	kquaue
 楛	hmk,	2	hmeiuo
 楛	kmk,	2	kmeiuo
@@ -11453,7 +12179,9 @@ encoder:
 凷	ktai	2	kteiea
 鲙	kyaa	2	kyuaia
 墤	ktoi	2	kteiei
+廥	ggai	2	ggoeuu
 廥	kgai	2	kgoeuu
+旝	gqq;	2	gqoeau
 旝	kqq;	2	kqoeau
 糩	kdai	2	kdouei
 寛	kik/	2	kiooae
@@ -11472,15 +12200,21 @@ encoder:
 軭	kpc,	2	kpeiae
 筺	kzc.	2	kzueou
 抂	wjee	2	wjeiee
+狅	qqr,	2	qquauu
 軖	kpee	2	kpeiae
+軠	npr,	2	npeiae
+軠	rpr,	2	rpeiae
 鵟	kqf.	2	kquaue
+夼	cpui	2	cpeuou
 儣	krg/	2	kruioe
 懭	kxg/	2	kxooio
+矿	gsoe	2	gseuia
 岲	keou	2	keiaii
 昿	kig'	2	kiiaee
 砿	ksg'	2	kseuia
 眖	kfou	2	kfiaee
 絋	klg'	2	klaaoo
+軦	hpou	2	hpeiae
 軦	kpou	2	kpeiae
 絖	klea	2	klaaoo
 鉱	kag'	2	kauoee
@@ -11490,6 +12224,7 @@ encoder:
 爌	khg/	2	khouuo
 矌	gfg/	2	gfiaee
 矌	kfg/	2	kfiaee
+穬	ghg/	2	ghueiu
 穬	khg/	2	khueiu
 鑛	kag/	2	kauoee
 刲	ktt;	2	kteiee
@@ -11498,10 +12233,13 @@ encoder:
 闚	kcd/	2	kciaee
 蘬	kkr;	2	kkeiiu
 晆	kit,	2	kiiaee
+頄	pjs;	2	pjuaeu
+頄	qjs;	2	qjuaeu
 鄈	kjw'	2	kjaouu
 骙	kqj,	2	kqaaea
 楏	kmp,	2	kmeiuo
 楑	kmj,	2	kmeiuo
+戣	hjw,	2	hjaouu
 戣	kjw,	2	kjaouu
 頯	kud;	2	kuuaoo
 藈	kkf,	2	kkeiii
@@ -11513,16 +12251,21 @@ encoder:
 巙	nek/	2	neiaio
 躨	knk/	2	kniaei
 尯	kxl'	2	kxeuau
+尯	wxl'	2	wxeuau
+傀	grn'	2	gruiui
 頍	kkk;	2	kkeiao
 煃	khp,	2	khouuo
 磈	ksn'	2	kseuia
 磈	wsn'	2	wseuia
 蹞	kng;	2	kniaei
+卼	ksn'	2	kseuau
 卼	wsn'	2	wseuau
 欳	kec/	2	keieia
 媿	knn'	2	knaueu
+瞆	gfoi	2	gfiaee
 聭	kbn'	2	kbeiie
 嘳	kooi	2	koiaei
+嬇	hnoi	2	hnauei
 嬇	knoi	2	knauei
 樻	kmoi	2	kmeiuo
 謉	dyn'	2	dyoeee
@@ -11531,17 +12274,21 @@ encoder:
 鐀	kaoi	2	kauoee
 鑎	kac;	2	kauoee
 堒	ktiu	2	kteiei
+菎	bkiu	2	bkeiii
+菎	jkiu	2	jkeiii
 菎	kkiu	2	kkeiii
 晜	kid/	2	kiiaee
 崐	keiu	2	keiaii
 崑	keiu	2	keiaii
 猑	kqiu	2	kquaui
 堃	kqq,	2	kqoeau
+裈	hyie	2	hyoaiu
 裈	kyie	2	kyoaiu
 婫	kniu	2	knauei
 髠	kcx/	2	kceiee
 焜	khiu	2	khouuo
 鹍	kig,	2	kiiaee
+鹍	yig,	2	yiiaee
 裩	kyiu	2	kyoaiu
 髨	kcx/	2	kceiee
 尡	kes/	2	keioue
@@ -11552,6 +12299,7 @@ encoder:
 騉	kqiu	2	kqeiee
 臗	kuio	2	kuuaee
 鵾	kig.	2	kiiaee
+壸	htie	2	hteieo
 壸	ktie	2	kteieo
 梱	hmoe	2	hmeiuo
 梱	kmoe	2	kmeiuo
@@ -11565,24 +12313,33 @@ encoder:
 涃	kvoe	2	kvooei
 睏	kfoe	2	kfiaee
 拡	kjg'	2	kjeieo
+栝	kmr,	2	kmeiuo
 桰	kmh;	2	kmeiuo
+葀	gkj,	2	gkeiie
 葀	kkj,	2	kkeiie
 萿	hkv,	2	hkeiio
 萿	kkv,	2	kkeiio
+筈	gzr,	2	gzueou
 筈	kzr,	2	kzueou
 煀	whp;	2	whouuo
 彉	ggk/	2	ggaeae
+彉	kgk/	2	kgaeae
 噋	tow/	2	toiaeo
 頢	krg;	2	krueii
+髺	gcx,	2	gceiee
 髺	kcx,	2	kceiee
 髺	ycx,	2	yceiee
 鞟	kkoa	2	kkeiie
 濶	kvc,	2	kvooei
 彍	ggg/	2	ggaeao
+韕	cjea	2	cjaiei
 韕	kjea	2	kjaiei
 霩	ktw'	2	kteoai
+懖	gar.	2	gauoee
 鞹	kkoa	2	kkeiie
 鬠	kcx;	2	kceiee
+鬠	scx;	2	sceiee
+鬠	zcx;	2	zceiee
 柆	lmoe	2	lmeiuo
 菈	lkj.	2	lkeiie
 翋	ljd.	2	ljaoea
@@ -11596,6 +12353,7 @@ encoder:
 楋	lms;	2	lmeiuo
 揧	lsou	2	lseiae
 辢	lsoo	2	lseiae
+蜡	cck;	2	cciaei
 蝋	lcv,	2	lciaei
 蝲	lcs;	2	lciaei
 鬎	lcx;	2	lceiee
@@ -11618,6 +12376,7 @@ encoder:
 顂	lkr;	2	lkeiuo
 騋	lqk/	2	lqeiee
 鶆	lkr.	2	lkeiuo
+鶆	mkr.	2	mkeiuo
 麳	lkr/	2	lkeiuo
 鯠	lyk/	2	lyuaia
 勑	ckr'	2	ckeiuo
@@ -11664,6 +12423,7 @@ encoder:
 灠	lvc/	2	lvooee
 爦	lhc/	2	lhouuo
 燗	lhc/	2	lhouuo
+壏	htc;	2	hteiee
 壏	ltc;	2	lteiee
 嚂	hoc;	2	hoiaee
 嚂	loc;	2	loiaee
@@ -11700,6 +12460,7 @@ encoder:
 唥	lod'	2	loiaeo
 粩	ldt/	2	ldouei
 労	lvia	2	lvoouo
+狫	dqt/	2	dquaue
 狫	lqt/	2	lquaue
 窂	lir,	2	liooau
 哰	loie	2	loiaeo
@@ -11715,12 +12476,14 @@ encoder:
 髝	lwoa	2	lwoeia
 耂	ltuu	2	lteieu
 荖	lkt/	2	lkeiie
+荖	pkt/	2	pkeiie
 咾	lot/	2	loiaee
 恅	lxt/	2	lxooie
 珯	lft/	2	lfeeie
 硓	lst/	2	lseuia
 蛯	lct/	2	lciaei
 橑	lmp;	2	lmeiuo
+橑	vmp;	2	vmeiuo
 鮱	lyt/	2	lyuaia
 轑	lpp;	2	lpeiae
 耢	lfp'	2	lfeeei
@@ -11797,8 +12560,10 @@ encoder:
 睖	lft/	2	lfiaee
 唎	loh;	2	loiaeu
 刕	lqq'	2	lqauau
+厘	xgii	2	xgeuia
 荲	lkii	2	lkeiii
 剓	lhb'	2	lhueiu
+离	cwx'	2	cwoeuo
 琍	lfh;	2	lfeeie
 菞	lkh/	2	lkeiiu
 梸	lmh;	2	lmeiuo
@@ -11822,6 +12587,7 @@ encoder:
 醨	lxw'	2	lxeiau
 蟍	lch,	2	lciaei
 謧	lyw'	2	lyoeee
+釐	ldp;	2	ldeeiu
 釐	xdp;	2	xdeeiu
 嚟	loh;	2	loiaeu
 邌	lhb.	2	lhueiu
@@ -11858,12 +12624,14 @@ encoder:
 叓	lsoa	2	lseiae
 苙	lkoe	2	lkeiio
 岦	leoe	2	leiaio
+疠	jgs'	2	jgoeuo
 沴	lvau	2	lvooeu
 赲	ltn'	2	lteiei
 茘	lkq'	2	lkeiia
 栃	lmh'	2	lmeiuo
 砅	lsia	2	lseuia
 珕	lfq'	2	lfeeie
+栵	jms;	2	jmeiuo
 栵	lms;	2	lmeiuo
 栛	lmq'	2	lmeiuo
 秝	lhue	2	lhueiu
@@ -11880,6 +12648,7 @@ encoder:
 凓	ldx,	2	ldoeei
 塛	ltx,	2	lteiee
 搮	ljx,	2	ljeiee
+蒚	hks;	2	hkeiie
 蒚	lks;	2	lkeiie
 厯	lgm.	2	lgeuei
 鳨	lrc'	2	lruiae
@@ -11911,6 +12680,7 @@ encoder:
 爏	lhg;	2	lhouuo
 盭	llt;	2	llaaoe
 鷅	lxm.	2	lxeiai
+鷅	pxm.	2	pxeiai
 礰	lsg;	2	lseuia
 癧	lgg;	2	lgoeuo
 麜	lgc,	2	lgoeua
@@ -11934,6 +12704,7 @@ encoder:
 熑	lhk;	2	lhouuo
 聨	lbl,	2	lbeiie
 聫	lbl,	2	lbeiie
+磏	lsk;	2	lseuia
 磏	qsk;	2	qseuia
 匳	lcau	2	lceuoe
 噒	lod;	2	loiaeo
@@ -11973,6 +12744,7 @@ encoder:
 鍊	las;	2	lauoee
 鰊	lys;	2	lyuaia
 纞	lly.	2	llaaoo
+簗	lzv,	2	lzueou
 俍	lrw.	2	lruioa
 辌	lpw;	2	lpeaie
 蜋	lcw.	2	lciaei
@@ -12081,6 +12853,7 @@ encoder:
 澟	lvw/	2	lvooeo
 顲	lhh;	2	lhouuo
 恡	lxx'	2	lxooiu
+赁	rrr;	2	rruiue
 悋	lxui	2	lxooio
 焛	lcou	2	lciaee
 亃	ldua	2	ldouei
@@ -12147,6 +12920,7 @@ encoder:
 炩	lhaa	2	lhouuo
 沠	lvh.	2	lvooeu
 畄	lvia	2	lvooui
+留	dhw;	2	dhuaoa
 旈	lqw/	2	lqoeau
 畱	lsd;	2	lseiie
 裗	lyw/	2	lyoaiu
@@ -12226,6 +13000,7 @@ encoder:
 梇	lmf,	2	lmeiuo
 硦	lsf,	2	lseuia
 衖	lpk,	2	lpuuie
+衖	npk,	2	npuuie
 衖	xpk,	2	xpuuie
 贚	lhl,	2	lhiaee
 瞜	lfoa	2	lfiaee
@@ -12239,10 +13014,13 @@ encoder:
 軁	lrc'	2	lruiae
 謱	lyoa	2	lyoeee
 鞻	lkoa	2	lkeiie
+搂	sjd'	2	sjeieo
 塿	ltoa	2	lteiei
 甊	los.	2	loiaee
 屚	lpei	2	lpaeue
 瘻	lgoa	2	lgoeuo
+謢	hyr'	2	hyoeee
+謢	zyr'	2	zyoeee
 枦	lmw'	2	lmeiuo
 舮	lzw'	2	lzuuao
 玈	lwl.	2	lwoeaa
@@ -12280,6 +13058,7 @@ encoder:
 坴	ltr,	2	lteieu
 侓	lree	2	lruiae
 彔	lms;	2	lmaaei
+彔	mms;	2	mmaaei
 峍	leee	2	leiaia
 勎	ltr'	2	lteieu
 菉	lkei	2	lkeiia
@@ -12314,6 +13093,7 @@ encoder:
 錴	lat,	2	lauoee
 録	laei	2	lauoee
 螰	lcg/	2	lciaei
+鴼	grc;	2	gruiae
 鴼	lrc;	2	lruiae
 騄	lqei	2	lqeiee
 蹗	lng/	2	lniaei
@@ -12333,12 +13113,14 @@ encoder:
 圝	loy'	2	loiaoe
 奱	lyl,	2	lyoeee
 曫	lyl;	2	lyoeee
+曫	myl;	2	myoeee
 灓	lyl;	2	lyoeee
 羉	lfy;	2	lfiaii
 虊	lky,	2	lkeiio
 圞	loy,	2	loiaoe
 癴	lgy/	2	lgoeuo
 癵	lgy/	2	lgoeuo
+釠	jaua	2	jauoee
 薍	lkz'	2	lkeiiu
 薍	wkz'	2	wkeiiu
 寽	lzei	2	lzuoou
@@ -12352,6 +13134,7 @@ encoder:
 惀	lxae	2	lxooiu
 婨	lnae	2	lnaueu
 棆	lmae	2	lmeiuo
+棆	zmae	2	zmeiuo
 腀	luae	2	luuaee
 碖	lsae	2	lseuia
 耣	lfp,	2	lfeeei
@@ -12364,6 +13147,7 @@ encoder:
 埨	ltae	2	lteieu
 溣	lvr,	2	lvooeu
 頱	lzc;	2	lzuoou
+脶	guou	2	guuaee
 脶	luou	2	luuaee
 覶	lzy/	2	lzuoou
 覼	lsr/	2	lseuoi
@@ -12380,6 +13164,7 @@ encoder:
 攞	ljf.	2	ljeiei
 曪	lif.	2	liiaee
 癳	lgt;	2	lgoeuo
+泺	pvh;	2	pvooeu
 峈	leui	2	leiaiu
 洜	luoi	2	luuaoi
 笿	lzui	2	lzueou
@@ -12408,8 +13193,10 @@ encoder:
 箻	lzp,	2	lzueou
 勴	leg'	2	leieau
 繂	llw,	2	llaaoo
+繂	slw,	2	slaaoo
 櫖	lmeo	2	lmeiuo
 爈	lheo	2	lhouuo
+卛	lyl,	2	lyoeee
 鑢	laeo	2	lauoee
 畧	ltui	2	ltiaei
 圙	lor,	2	loiauo
@@ -12444,16 +13231,20 @@ encoder:
 霡	mtua	2	mteoai
 霢	mtuo	2	mteoai
 姏	mnk,	2	mnauee
+姏	qnk,	2	qnauee
 悗	mxuu	2	mxooiu
 慲	mxk.	2	mxooie
 樠	mmk.	2	mmeiuo
+鞔	wkou	2	wkeiie
 鬗	mcx.	2	mceiee
 鬘	mcx'	2	mceiee
 矕	myl;	2	myoeee
 屘	mpp'	2	mpaeuu
 睌	mfuu	2	mfiaee
+睌	wfuu	2	wfiaee
 満	mvk;	2	mvooee
 鏋	mak.	2	mauoee
+鄤	fif'	2	fiiaee
 鄤	mif'	2	miiaee
 僈	mria	2	mruiia
 摱	mjia	2	mjeiei
@@ -12461,6 +13252,7 @@ encoder:
 獌	mqia	2	mquaui
 嫚	mnia	2	mnauei
 槾	mmia	2	mmeiuo
+澫	lvk.	2	lvooee
 澫	mvk.	2	mvooee
 澫	wvk.	2	wvooee
 澷	mvio	2	mvooei
@@ -12471,14 +13263,17 @@ encoder:
 汒	mvoe	2	mvooeo
 杧	mmoe	2	mmeiuo
 尨	mxl.	2	mxeuau
+尨	pxl.	2	pxeuau
 杗	mwei	2	mwoeae
 甿	mtoe	2	mtiaei
 厖	mgx.	2	mgeueu
+厖	pgx.	2	pgeueu
 笀	mzoe	2	mzueou
 恾	mxk.	2	mxooie
 哤	mox.	2	moiaee
 狵	mqx.	2	mquaue
 庬	mgx.	2	mgoeue
+庬	pgx.	2	pgoeue
 浝	mvx.	2	mvooee
 娏	mnx.	2	mnauee
 铓	mak.	2	maueee
@@ -12495,6 +13290,7 @@ encoder:
 壾	mtoa	2	mteiei
 蠎	mck,	2	mciaei
 枆	mmue	2	mmeiuo
+牦	lrj/	2	lrueie
 罞	mfy/	2	mfiaii
 軞	mpue	2	mpeiae
 酕	mxue	2	mxeiau
@@ -12509,8 +13305,11 @@ encoder:
 鶜	mky.	2	mkeiia
 夘	wuai	2	wuuaoa
 戼	mjc'	2	mjaeae
+戼	yjc'	2	yjaeae
+铆	lah'	2	laueee
 笷	mzh'	2	mzueou
 蓩	mky'	2	mkeiia
+蓩	wky'	2	wkeiia
 冃	mcee	2	mciaee
 芼	mkue	2	mkeiiu
 皃	mnua	2	mnuiae
@@ -12530,7 +13329,10 @@ encoder:
 嚒	mog'	2	moiaeo
 濹	mvv,	2	mvooei
 嚰	mog,	2	moiaeo
+癦	ygv,	2	ygoeuo
+么	yrao	2	yruaoo
 庅	mgr'	2	mgoeuu
+麽	ygm'	2	ygoeue
 苺	mkm.	2	mkeiia
 栂	mmm.	2	mmeiuo
 脄	mux.	2	muuaee
@@ -12550,9 +13352,12 @@ encoder:
 鋂	maq.	2	mauoee
 徾	mpeu	2	mpuuii
 鎇	map;	2	mauoee
+矀	wfp/	2	wfiaee
+攗	jjg.	2	jjeieo
 攗	mjg.	2	mjeieo
 蘪	mkg.	2	mkeiio
 毎	mqoi	2	mqueaa
+凂	qduu	2	qdoeua
 挴	mjq.	2	mjeieu
 嵄	med,	2	meiaio
 渼	mvd,	2	mvooeo
@@ -12572,6 +13377,7 @@ encoder:
 煝	mhp;	2	mhouuo
 睸	mfp;	2	mfiaee
 韎	mjei	2	mjaiei
+韎	wjei	2	wjaiei
 蝞	mcp;	2	mciaei
 篃	mzp;	2	mzueou
 嚜	mov,	2	moiaei
@@ -12605,6 +13411,7 @@ encoder:
 矒	mfk;	2	mfiaee
 靀	mtk,	2	mteoai
 饛	muk,	2	muuooa
+顭	hkf;	2	hkeiii
 鼆	miia	2	mioaia
 瓾	mhn.	2	mhueiu
 鯭	myj;	2	myuaia
@@ -12612,6 +13419,7 @@ encoder:
 懜	mxk/	2	mxooie
 霥	mtie	2	mteoai
 冞	miou	2	mioaou
+祢	nyui	2	nyoaio
 袮	myq;	2	myoaiu
 蒾	mkd.	2	mkeiio
 詸	myou	2	myoeee
@@ -12621,9 +13429,11 @@ encoder:
 檷	mms/	2	mmeiuo
 檷	nms/	2	nmeiuo
 麛	mgc,	2	mgoeua
+麛	ngc,	2	ngoeua
 镾	mcs/	2	mceiee
 劘	mgm;	2	mgoeue
 攠	mjg,	2	mjeieo
+蘼	nkg,	2	nkeiio
 戂	mxg,	2	mxooio
 爢	mgm.	2	mgoeue
 醾	mxg.	2	mxeiau
@@ -12646,6 +13456,7 @@ encoder:
 糸	mliu	2	mlaaoi
 糸	sliu	2	slaaoi
 峚	mep,	2	meiaie
+祕	byx/	2	byoaio
 祕	myx/	2	myoaio
 宻	mik;	2	miooaa
 覔	msm/	2	mseuio
@@ -12667,6 +13478,7 @@ encoder:
 羃	mfk;	2	mfiaii
 簚	mzf;	2	mzueou
 芇	mkia	2	mkeiii
+杣	smia	2	smeiuo
 婂	mnn;	2	mnaueu
 蝒	mcs,	2	mciaei
 臱	mrf.	2	mruiae
@@ -12679,13 +13491,17 @@ encoder:
 矏	mfr.	2	mfiaee
 丏	msea	2	mseiaa
 汅	mvs'	2	mvooee
+免	wuou	2	wuuaia
 俛	fruu	2	fruiua
 俛	mruu	2	mruiua
+娩	wnuu	2	wnaueu
 勔	msf'	2	mseuia
 偭	mrs,	2	mruieu
+渑	svoa	2	svooei
 喕	mos,	2	moiaee
 愐	mxs,	2	mxooie
 媔	mns,	2	mnauee
+腼	tus,	2	tuuaee
 絻	mluu	2	mlaaoo
 絻	wluu	2	wlaaoo
 鮸	myuu	2	myuaia
@@ -12703,8 +13519,10 @@ encoder:
 庿	mgk;	2	mgoeue
 吀	mor,	2	moiaeu
 哶	moee	2	moiaei
+烕	xgs.	2	xgeueo
 覕	mxr/	2	mxoaou
 搣	mjg.	2	mjeiee
+蔑	bkf.	2	bkeiii
 薎	mkf,	2	mkeiii
 鴓	mxr.	2	mxoaou
 幭	mek.	2	meiaie
@@ -12722,11 +13540,14 @@ encoder:
 姄	mnc,	2	mnauea
 盿	mfoe	2	mfiaee
 罠	mfc,	2	mfiaii
+冧	mim,	2	mioaei
 捪	mjh;	2	mjeieu
 崏	meh;	2	meiaiu
 渂	wvio	2	wvooei
 琝	mfio	2	mfeeie
+琝	wfio	2	wfeeie
 琘	mfh;	2	mfeeie
+碈	msh;	2	mseuia
 鈱	mac,	2	mauoee
 痻	mgh;	2	mgoeuo
 暋	mcl;	2	mcaeae
@@ -12743,11 +13564,13 @@ encoder:
 敃	mcl/	2	mcaeae
 笽	mzia	2	mzueou
 笢	mzc,	2	mzueou
+敯	hcl'	2	hcaeae
 敯	mcl'	2	mcaeae
 慜	mqm.	2	mqueaa
 僶	mrc'	2	mruiia
 潣	mvc.	2	mvooei
 簢	mzc.	2	mzueou
+簢	vzc.	2	vzueou
 蠠	msf;	2	mseuia
 眀	mfua	2	mfiaee
 洺	mvui	2	mvooeu
@@ -12772,6 +13595,7 @@ encoder:
 糢	mdei	2	mdouei
 謩	mkoe	2	mkeiii
 擵	mjg/	2	mjeieo
+嚩	fol,	2	foiaea
 髍	mcj,	2	mciaao
 饝	mug,	2	muuooa
 麿	mgm;	2	mgoeue
@@ -12800,6 +13624,7 @@ encoder:
 貃	mzui	2	mzuoou
 塻	mtei	2	mteiee
 嗼	moei	2	moiaee
+貉	mzui	2	mzuoou
 靺	mkoi	2	mkeiie
 暯	miei	2	miiaee
 銆	mas;	2	mauoee
@@ -12807,6 +13632,7 @@ encoder:
 瞐	mff;	2	mfiaee
 黙	mit.	2	miiaee
 魩	myb/	2	myuaia
+嫼	hnv.	2	hnauei
 縸	mlei	2	mlaaoo
 藦	mkg/	2	mkeiio
 蟔	mcv.	2	mciaei
@@ -12823,6 +13649,7 @@ encoder:
 瞴	wfq.	2	wfiaee
 鴾	myr.	2	myaoue
 蟱	wcq.	2	wciaei
+呒	fod/	2	foiaee
 呣	mom.	2	moiaea
 氁	mpei	2	mpueea
 峔	met/	2	meiaie
@@ -12872,6 +13699,7 @@ encoder:
 摨	njp,	2	njeiea
 螚	nyui	2	nyaoia
 孻	njei	2	njaiea
+氖	mqau	2	mqueea
 疓	ngau	2	ngoeuo
 廼	nxao	2	nxeiau
 迺	nxoa	2	nxeiau
@@ -12879,9 +13707,11 @@ encoder:
 釢	naau	2	nauoee
 嬭	nns/	2	nnauee
 渿	nvm;	2	nvooee
+渿	qvm;	2	qvooee
 褦	nyy/	2	nyoaiu
 錼	nap;	2	nauoee
 抩	njc;	2	njeiei
+抩	tjc;	2	tjeiei
 枏	nmc,	2	nmeiuo
 侽	nrt'	2	nruiia
 莮	nkt'	2	nkeiii
@@ -12904,12 +13734,15 @@ encoder:
 蠰	rcw/	2	rciaei
 蠰	scw/	2	sciaei
 欜	nms/	2	nmeiuo
+擃	kjc'	2	kjeiei
 擃	njc'	2	njeiei
 灢	nvs/	2	nvooee
 儾	nrs/	2	nruiei
 齉	nrf/	2	nruiae
+孬	hsm'	2	hseuio
 怓	nxn'	2	nxooia
 峱	nqj;	2	nquaua
+蛲	rcl/	2	rciaei
 詉	nyn'	2	nyoeee
 嶩	nec'	2	neiaii
 獶	nqs/	2	nquaue
@@ -12923,11 +13756,13 @@ encoder:
 碯	nsl/	2	nseuia
 閙	ncw;	2	nciaee
 抐	njc/	2	njeiei
+眲	vfei	2	vfiaee
 腇	nuh'	2	nuuaee
 鮾	nyz'	2	nyuaia
 鯘	nyh'	2	nyuaia
 氝	nqc/	2	nqueea
 嫰	nns/	2	nnauee
+銰	nak/	2	nauoee
 抳	njp/	2	njeiea
 籾	ndq.	2	ndouei
 秜	nhp/	2	nhueiu
@@ -12956,6 +13791,7 @@ encoder:
 掜	njn/	2	njeieu
 掜	yjn/	2	yjeieu
 晲	nin/	2	niiaee
+晲	yin/	2	yiiaee
 鉨	naui	2	nauoee
 鉨	xaui	2	xauoee
 孴	njj;	2	njaiea
@@ -12979,6 +13815,8 @@ encoder:
 誽	nyn/	2	nyoeee
 縌	nlk.	2	nlaaoo
 懝	vxl;	2	vxooiu
+嬺	ync.	2	ynauee
+蔫	yks.	2	ykeiie
 秊	nhr,	2	nhueiu
 哖	noq;	2	noiaeu
 姩	nnq;	2	nnaueu
@@ -12999,11 +13837,13 @@ encoder:
 嬝	nnr/	2	nnaueu
 揑	njn,	2	njeieu
 苶	nkai	2	nkeiiu
+肀	neii	2	neaeei
 帇	neia	2	neaeei
 圼	niei	2	niiaee
 枿	nmk,	2	nmeiuo
 菍	nkao	2	nkeiiu
 惗	nxao	2	nxooiu
+敜	daw/	2	dauooa
 敜	naw/	2	nauooa
 湼	nvn,	2	nvooeu
 嵲	ner,	2	neiaiu
@@ -13011,9 +13851,12 @@ encoder:
 踂	nnb'	2	nniaei
 槷	ntr,	2	nteieu
 槷	ytr,	2	yteieu
+踙	jnb'	2	jniaei
 踙	nnb'	2	nniaei
 踗	nnao	2	nniaei
+噛	yon'	2	yoiaei
 嶭	ner.	2	neiaiu
+嶭	ver.	2	veiaiu
 篞	nzv,	2	nzueou
 臲	nrf'	2	nruiae
 錜	naao	2	nauoee
@@ -13027,15 +13870,20 @@ encoder:
 蠥	ncr;	2	ncaiuu
 糱	ncr.	2	ncaiuu
 囓	nof'	2	noiaee
+讘	jyb,	2	jyoeee
+讘	zyb,	2	zyoeee
 钀	naeo	2	nauoee
 脌	nuq;	2	nuuaee
 囜	noao	2	noiaao
+恁	rrr.	2	rruiue
 拰	njr,	2	njeieu
+宁	ziei	2	ziooae
 寕	nis,	2	niooae
 寍	nix;	2	niooao
 寜	nix;	2	niooao
 儜	nrie	2	nruioo
 薴	nkie	2	nkeiio
+薴	zkie	2	zkeiio
 嬣	nnie	2	nnaueo
 鑏	naie	2	nauoee
 鬡	ncx,	2	nceiee
@@ -13043,6 +13891,8 @@ encoder:
 橣	nmii	2	nmeiuo
 矃	nfie	2	nfiaee
 侫	nrw'	2	nruioe
+泞	zvie	2	zvooeo
+倿	qrl'	2	qruioe
 寗	nix;	2	niooao
 澝	nvii	2	nvooeo
 牜	nrei	2	nrueie
@@ -13051,8 +13901,10 @@ encoder:
 杻	cmj;	2	cmeiuo
 杻	nmj;	2	nmeiuo
 炄	nhj;	2	nhouuo
+莥	ckq;	2	ckeiiu
 莥	nkq;	2	nkeiiu
 靵	nkoi	2	nkeiie
+拗	yjl'	2	yjeiea
 秾	nhiu	2	nhueiu
 辳	nmm'	2	nmeiuo
 蕽	nkc'	2	nkeiii
@@ -13072,16 +13924,20 @@ encoder:
 啂	noz'	2	noiaeu
 槈	nmg,	2	nmeiuo
 檽	nmt;	2	nmeiuo
+檽	vmt;	2	vmeiuo
 鎒	nag,	2	nauoee
 鐞	naee	2	nauoee
 譳	nyt;	2	nyoeee
+伖	nrx'	2	nruieu
 砮	nnk,	2	nnauea
 笯	nzn'	2	nzueou
 伮	nrn'	2	nruiau
+傉	jrg,	2	jruieu
 傉	nrg,	2	nruieu
 搙	njg,	2	njeiee
 奻	nnau	2	nnauea
 渜	nvs,	2	nvooee
+暖	xiz'	2	xiiaee
 煗	nhs,	2	nhouuo
 餪	nus,	2	nuuooa
 硸	nsee	2	nseuia
@@ -13101,9 +13957,11 @@ encoder:
 懧	nxie	2	nxooio
 糥	nds;	2	ndouei
 穤	nht;	2	nhueiu
+女	rnau	2	rnauee
 籹	ndau	2	ndouei
 衂	nrv.	2	nruiai
 朒	nuc/	2	nuuaee
+噢	yor,	2	yoiaeu
 筽	vzoe	2	vzueou
 塸	vtc;	2	vteiee
 蓲	fkc;	2	fkeiie
@@ -13112,10 +13970,12 @@ encoder:
 鴎	vcx.	2	vceuoa
 膒	vuc;	2	vuuaee
 熰	vhc;	2	vhouuo
+藲	skm;	2	skeiie
 藲	vkm;	2	vkeiie
 櫙	vmk;	2	vmeiuo
 鏂	kac;	2	kauoee
 鏂	vac;	2	vauoee
+齵	qnao	2	qnieie
 齵	vnao	2	vnieie
 齵	ynao	2	ynieie
 吘	vor,	2	voiaeu
@@ -13125,8 +13985,11 @@ encoder:
 妑	pnai	2	pnauea
 皅	pnai	2	pnuiae
 舥	pzai	2	pzuuao
+杷	bmai	2	bmeiuo
+钯	paai	2	paueee
 跁	bnai	2	bniaei
 跁	pnai	2	pniaei
+琶	bff'	2	bfeeie
 掱	pvv/	2	pvueei
 掱	svv/	2	svueei
 潖	pvf'	2	pvooee
@@ -13142,7 +14005,10 @@ encoder:
 渒	pvn,	2	pvooeu
 鎃	pav.	2	pauoee
 眅	pfh'	2	pfiaee
+萠	mkuu	2	mkeiiu
 畨	fdia	2	fdouei
+爿	blee	2	blaieu
+爿	qlee	2	qlaieu
 蒰	pkz'	2	pkeiiu
 幋	pzn;	2	pzuuao
 媻	pzn'	2	pzuuao
@@ -13151,6 +14017,7 @@ encoder:
 螌	bzn;	2	bzuuao
 褩	bzn/	2	bzuuao
 縏	pzn;	2	pzuuao
+蹒	mnk/	2	mniaei
 鎜	pzn/	2	pzuuao
 瀊	pvz;	2	pvooeu
 鞶	pzn,	2	pzuuao
@@ -13158,6 +14025,7 @@ encoder:
 沜	pvr'	2	pvooeu
 炍	phh'	2	phouuo
 柈	bmd,	2	bmeiuo
+柈	pmd,	2	pmeiuo
 牉	pree	2	pruiea
 詊	pyd,	2	pyoeee
 溿	pvt,	2	pvooei
@@ -13166,11 +14034,14 @@ encoder:
 鵥	pdt.	2	pdouee
 鑻	pam/	2	pauoee
 沗	psp;	2	pseeuo
+胮	buui	2	buuaee
 胮	puui	2	puuaee
 雱	ptoe	2	pteoai
 膖	puuo	2	puuaee
 霶	ptv.	2	pteoai
 厐	pgx.	2	pgeueu
+彷	fpoe	2	fpuuio
+旁	bwd.	2	bwoeou
 徬	ppw.	2	ppuuio
 嫎	pnw.	2	pnaueo
 篣	pzw.	2	pzueou
@@ -13181,10 +14052,12 @@ encoder:
 嗙	pow.	2	poiaeo
 覫	pwd/	2	pwoeou
 萢	pkv'	2	pkeiio
+垉	btb'	2	bteieu
 爮	phea	2	phuuio
 炰	pbb.	2	pbuaae
 蚫	pcb'	2	pciaei
 軳	ppb'	2	ppeiae
+鞄	bkoa	2	bkeiie
 鞄	pkoa	2	pkeiie
 褜	pub/	2	puuaee
 奅	pph'	2	ppeuou
@@ -13222,6 +14095,7 @@ encoder:
 匉	pbs,	2	pbuaeo
 恲	pxk,	2	pxooio
 梈	pmw'	2	pmeiuo
+弸	bguu	2	bgaeau
 弸	pguu	2	pgaeau
 軯	pps,	2	ppeiae
 閛	pcs,	2	pciaee
@@ -13250,6 +14124,7 @@ encoder:
 髼	pcx;	2	pceiee
 鬅	pcx/	2	pceiee
 蟚	ptoi	2	pteiei
+蘕	fkl.	2	fkeiia
 韼	plio	2	ploeou
 纄	plk.	2	plaaoo
 鬔	pcx.	2	pceiee
@@ -13257,9 +14132,11 @@ encoder:
 鑝	pak.	2	pauoee
 皏	pnk,	2	pnuiae
 淎	pvf,	2	pvooee
+剻	feui	2	feiaiu
 掽	pjk,	2	pjeieo
 椪	pmk,	2	pmeiuo
 踫	pnk,	2	pniaei
+伓	brs;	2	bruieu
 伓	prs;	2	pruieu
 伾	prs,	2	pruieu
 抷	pjs,	2	pjeiee
@@ -13283,6 +14160,7 @@ encoder:
 錍	ban,	2	bauoee
 錍	pan,	2	pauoee
 魾	pys,	2	pyuaia
+錃	bvg/	2	bvooea
 憵	ppoo	2	ppaeui
 礔	psp.	2	pseuia
 礕	ppoe	2	ppaeui
@@ -13292,7 +14170,9 @@ encoder:
 岯	pes,	2	peiaie
 肶	pug/	2	puuaee
 毘	ptg/	2	ptiaei
+蚍	bcg/	2	bciaei
 笓	pzg/	2	pzueou
+埤	btn,	2	bteieu
 蚽	pcs,	2	pciaei
 蚾	bcg'	2	bciaei
 崥	pen,	2	peiaiu
@@ -13300,8 +14180,10 @@ encoder:
 猈	bqn,	2	bquauu
 猈	pqn,	2	pquauu
 椑	bmn,	2	bmeiuo
+椑	pmn,	2	pmeiuo
 腗	puiu	2	puuaee
 焷	phn,	2	phouuo
+罴	bft.	2	bfiaii
 膍	pur/	2	puuaee
 隦	pbp.	2	pbaiae
 篺	pzj,	2	pzueou
@@ -13311,17 +14193,21 @@ encoder:
 苉	pkc/	2	pkeiie
 脴	pus;	2	puuaee
 銢	pad;	2	pauoee
+銢	yad;	2	yauoee
 鴄	pcn.	2	pceuaa
 諀	byn,	2	byoeee
 諀	pyn,	2	pyoeee
 噽	ptoe	2	pteiei
 嚭	ptoi	2	pteiei
 揊	pjs;	2	pjeiee
+睤	pft/	2	pfiaee
+睥	bfn,	2	bfiaee
 嫓	pnuu	2	pnaueu
 潎	pvd/	2	pvooeo
 壀	ptp.	2	pteiea
 澼	pvp.	2	pvooea
 疈	psoi	2	pseiae
+闢	bcp.	2	bciaee
 闢	pcp.	2	pciaee
 鷿	ppoo	2	ppaeui
 囨	pos;	2	poiaeu
@@ -13330,6 +14216,7 @@ encoder:
 鍂	pauo	2	pauoee
 腁	pur,	2	puuaee
 楩	pmr/	2	pmeiuo
+楄	bmw,	2	bmeiuo
 楄	pmw,	2	pmeiuo
 賆	phk,	2	phiaee
 骿	pcj,	2	pciaao
@@ -13354,6 +14241,7 @@ encoder:
 皫	png.	2	pnuiae
 勡	pxd'	2	pxeiai
 僄	prx;	2	pruiei
+嘌	box;	2	boiaee
 徱	ppx;	2	ppuuie
 慓	pxx;	2	pxooie
 氕	pquu	2	pqueea
@@ -13361,18 +14249,23 @@ encoder:
 丿	pruu	2	pruuuu
 撆	pdeu	2	pdouia
 鐅	pdeu	2	pdouia
+嫳	bdea	2	bdouia
 嫳	pdea	2	pdouia
 礗	psii	2	pseuia
 穦	phii	2	phueiu
 馪	phii	2	phueiu
+驞	bqii	2	bqeiee
 驞	pqii	2	pqeiee
 玭	pfg/	2	pfeeie
 娦	pnj/	2	pnaueu
 琕	pfn,	2	pfeeie
 薲	pkii	2	pkeiio
+矉	bfii	2	bfiaee
 矉	pfii	2	pfiaee
 嚬	pon;	2	poiaei
+蠙	bcii	2	bciaei
 蠙	pcii	2	pciaei
+朩	pmei	2	pmeiuo
 汖	peia	2	peiaii
 甹	piea	2	piiaei
 砯	psw;	2	pseuia
@@ -13388,10 +14281,12 @@ encoder:
 荓	pkk,	2	pkeiio
 帡	pek,	2	peiaio
 胓	pus,	2	puuaee
+洴	bvk,	2	bvooeo
 洴	pvk,	2	pvooeo
 硑	psk,	2	pseuia
 蚲	pcs,	2	pciaei
 帲	per,	2	peiaiu
+屛	bpr,	2	bpaeuu
 屛	ppr,	2	ppaeuu
 塀	ptp,	2	pteiea
 蓱	pkv,	2	pkeiio
@@ -13408,15 +14303,19 @@ encoder:
 慿	pds.	2	pdoeei
 檘	bmp.	2	bmeiuo
 簈	pzp,	2	pzueou
+鵧	bkk.	2	bkouee
 鵧	pkk.	2	pkouee
 攴	peao	2	peieao
+岥	beg'	2	beiaia
 岥	peg'	2	peiaia
+酦	fxl.	2	fxeiau
 酦	pxl.	2	pxeiau
 溌	pvj'	2	pvooea
 鏺	paj'	2	pauoee
 蔢	bkv'	2	bkeiio
 蔢	pkv'	2	pkeiio
 嘙	pov'	2	poiaeo
+謈	bik.	2	biiaee
 謈	pik.	2	piiaee
 櫇	pmg;	2	pmeiuo
 尀	pcoe	2	pceiae
@@ -13424,8 +14323,10 @@ encoder:
 廹	pnao	2	pnuiae
 岶	peui	2	peiaiu
 敀	pnue	2	pnuiae
+洦	mvs;	2	mvooee
 砶	psui	2	pseuia
 哱	bok'	2	boiaee
+哱	pok'	2	poiaee
 烞	phm;	2	phouuo
 奤	hps,	2	hpeuoe
 奤	pps,	2	ppeuoe
@@ -13435,32 +14336,42 @@ encoder:
 抙	pjue	2	pjeieu
 捊	pjz'	2	pjeieu
 箁	bzl;	2	bzueou
+咅	tlia	2	tloeou
+犃	brj;	2	brueie
 炇	phue	2	phouuo
 巬	pdn/	2	pdeieu
 陠	pbs.	2	pbaiei
 痡	fgs.	2	fgoeuo
 痡	pgs.	2	pgoeuo
 擈	pjm/	2	pjeiei
+鯆	fys.	2	fyuaia
 鯆	pys.	2	pyuaia
 圤	ptio	2	pteiei
+莆	fks.	2	fkeiie
 菐	pms/	2	pmiiou
 蒱	pkj.	2	pkeiie
 蜅	fcs.	2	fciaei
 酺	pxs.	2	pxeiau
 僕	prm/	2	pruiii
 墣	ptm/	2	pteiei
+獛	bqm/	2	bquaui
 瞨	pfm/	2	pfiaee
 穙	phm/	2	phueiu
 贌	phm/	2	phiaee
 纀	plr/	2	plaaoo
 烳	phs.	2	phouuo
+圑	tos,	2	toiaei
+暜	tll;	2	tloeou
 諩	pyk,	2	pyoeee
 潽	pvk;	2	pvooeo
+氆	bpk;	2	bpueea
 檏	pmm/	2	pmeiuo
 舖	pat.	2	pauoee
 舗	pat.	2	pauoei
 曝	biii	2	biiaee
 迉	qpoa	2	qpaeuo
+迉	spoa	2	spaeuo
+恓	qxei	2	qxooie
 恓	xxei	2	xxooie
 郪	qsea	2	qseaee
 缼	qqeu	2	qqueei
@@ -13469,8 +14380,10 @@ encoder:
 悽	qxs'	2	qxooie
 娸	qnk/	2	qnauee
 朞	qkf;	2	qkeiie
+紪	cln/	2	claaoo
 傶	zrg.	2	zruieu
 褄	qys'	2	qyoaiu
+嘁	zog.	2	zoiaee
 僛	qrk/	2	qruiei
 慽	qxg.	2	qxooie
 緀	qls'	2	qlaaoo
@@ -13482,32 +14395,43 @@ encoder:
 鵸	qpj.	2	qpeuoe
 鶈	qseo	2	qseaee
 鏚	qag.	2	qauoee
+齐	zuui	2	zuoeuo
 岓	qeuu	2	qeiaiu
 庈	qgaa	2	qgoeuu
+忯	cxh,	2	cxooiu
 忯	qxh,	2	qxooiu
+肵	juuu	2	juuaee
 肵	quuu	2	quuaee
 斉	qud,	2	quoeuo
 祇	qyh,	2	qyoaio
+祇	zyh,	2	zyoaio
 亝	qyy,	2	qyaoao
 荎	cks,	2	ckeiie
+荎	qks,	2	qkeiie
 疧	qgh,	2	qgoeuo
+疧	xgh,	2	xgoeuo
 竒	qloi	2	qloeou
 剘	qkf;	2	qkeiie
 蚑	qck'	2	qciaei
 蚚	qcuu	2	qciaei
+蚔	cch,	2	cciaei
 蚔	qch,	2	qciaei
 倛	qrk/	2	qruiei
 斊	quei	2	quoeuo
 旂	qqq/	2	qqoeau
 掑	qjk/	2	qjeiee
 埼	qtp;	2	qteiee
+軝	dph,	2	dpeiae
 軝	qph,	2	qpeiae
+畦	xtt,	2	xtiaei
 跂	qnk'	2	qniaei
 帺	qek/	2	qeiaie
 釮	qas/	2	qauoee
 猉	qqk/	2	qquaue
+骑	jqp;	2	jqaaee
 棊	qkf,	2	qkeiie
 嵜	qel;	2	qeiaio
+碁	jkf,	2	jkeiie
 碁	qkf,	2	qkeiie
 碕	qsp;	2	qseuia
 锜	qap;	2	qaueee
@@ -13520,6 +14444,7 @@ encoder:
 綨	qlk/	2	qlaaoo
 綥	qlt/	2	qlaaoo
 緕	qlue	2	qlaaoo
+璂	jfk,	2	jfeeie
 踑	jnk/	2	jniaei
 踑	qnk/	2	qniaei
 禥	qyk,	2	qyoaio
@@ -13538,12 +14463,16 @@ encoder:
 籏	qzq/	2	qzueou
 艩	qzw,	2	qzuuao
 纃	qlw,	2	qlaaoo
+騹	lqk,	2	lqeiee
 魕	jnr/	2	jnuiae
+魕	qnr/	2	qnuiae
 玂	qqk/	2	qquaue
 麡	qgc,	2	qgoeua
 邔	qcl'	2	qcaeaa
+岂	kec'	2	keiaia
 玘	qfc'	2	qfeeie
 盀	qmia	2	qmioia
+呇	qvia	2	qviauo
 唘	qsk;	2	qseuia
 啔	qwp;	2	qwoaeu
 啓	qwp;	2	qwoaeu
@@ -13561,6 +14490,7 @@ encoder:
 盵	qfq'	2	qfiaee
 咠	qoei	2	qoiaee
 栔	qfee	2	qfeeei
+栔	xfee	2	xfeeei
 唭	qok/	2	qoiaee
 欫	qqn/	2	qqueei
 夡	quui	2	quuaou
@@ -13572,6 +14502,7 @@ encoder:
 碶	qsf,	2	qseuia
 暣	qiq.	2	qiiaee
 甈	qrf.	2	qruiae
+槭	cmg.	2	cmeiuo
 噐	qooi	2	qoiaei
 憇	qrg.	2	qrueii
 磩	qsg.	2	qseuia
@@ -13580,19 +14511,26 @@ encoder:
 蟿	qpc;	2	qpeiae
 罊	qpc;	2	qpeiae
 礘	vsio	2	vseuia
+鼜	gtoi	2	gteiei
 鼜	qtoi	2	qteiei
 愘	qxii	2	qxooio
 搳	hjii	2	hjeieo
 搳	xjii	2	xjeieo
 拤	qjei	2	qjeiei
+峠	geei	2	geiaii
 酠	qxj;	2	qxeiau
 跒	qnj;	2	qniaei
 鞐	qkoi	2	qkeiie
 圶	qpei	2	qpeuoe
+冾	xdai	2	xdoeuo
 帢	qeai	2	qeiaiu
+洽	xvai	2	xvooeu
+硈	jst;	2	jseuia
 硈	qst;	2	qseuia
 殎	qsuu	2	qseuao
+髂	kcj;	2	kciaao
 圲	qtr,	2	qteieu
+扦	yjr,	2	yjeieu
 圱	qrx,	2	qrueue
 汘	qvr,	2	qvooeu
 奷	qnr,	2	qnaueu
@@ -13606,10 +14544,13 @@ encoder:
 粁	qdr,	2	qdouei
 蚈	qcs,	2	qciaei
 谸	qrx;	2	qrueuu
+孯	wcea	2	wceiae
 婜	qcea	2	qceiae
 雃	jsk.	2	jseeui
+雃	ysk.	2	yseeui
 掔	qceu	2	qceiae
 鈆	qar'	2	qauoee
+鈆	yar'	2	yauoee
 鹐	qun,	2	quuaui
 摼	kjc,	2	kjeiee
 撁	qjw,	2	qjeieo
@@ -13633,9 +14574,12 @@ encoder:
 岒	qeaa	2	qeiaiu
 拑	qjk,	2	qjeiee
 歬	qnuu	2	qnieie
+乾	gkia	2	gkeiia
 軡	qpaa	2	qpeiae
+偂	jrk;	2	jruiou
 朁	ccn;	2	cceaua
 媊	qnk;	2	qnaueo
+鉆	zaei	2	zauoee
 墘	qtk'	2	qteiee
 榩	qmeo	2	qmeiuo
 銭	qaf.	2	qauoee
@@ -13644,6 +14588,7 @@ encoder:
 橬	qmc;	2	qmeiuo
 黚	jvt,	2	jviaou
 黚	qvt,	2	qviaou
+騝	jqea	2	jqeiee
 騝	qqea	2	qqeiee
 騚	qqk;	2	qqeiee
 濳	qvr;	2	qvooeu
@@ -13652,6 +14597,7 @@ encoder:
 灊	qvc;	2	qvooee
 凵	kcai	2	kcaiii
 凵	qcai	2	qcaiii
+肷	xuuu	2	xuuaee
 嵰	qek;	2	qeiaio
 槏	qmk;	2	qmeiuo
 蜸	qcei	2	qceiae
@@ -13667,9 +14613,11 @@ encoder:
 儙	qroo	2	qruiia
 篟	qzr;	2	qzueou
 壍	qvp,	2	qvooee
+嬱	cvp'	2	cvooee
 縴	qlw,	2	qlaaoo
 鏲	qaw,	2	qauoee
 玱	qfaa	2	qfeeie
+戗	cab,	2	cauoaa
 斨	qleu	2	qlaieu
 羗	ykd'	2	ykouee
 猐	qqk/	2	qquauo
@@ -13686,24 +14634,33 @@ encoder:
 謒	qyai	2	qyoeee
 蹡	qnl,	2	qniaei
 鎗	qaai	2	qauoee
+蔃	jkg;	2	jkeiia
 漒	qvg;	2	qvooea
 墻	qtt;	2	qteiee
 廧	qgt;	2	qgoeue
 艢	qzt;	2	qzuuao
 蘠	qkl;	2	qkeiia
+抢	cjaa	2	cjeieu
+摤	qjp/	2	qjeiee
 勥	jgoa	2	jgaeai
 墏	qlee	2	qlaieu
 繦	qlg;	2	qlaaoo
 唴	qok/	2	qoiaeo
 羻	qdv/	2	qdouee
 郻	qfl'	2	qfiaee
+鄥	wrc'	2	wruiae
 踍	qnt'	2	qniaei
+踍	xnt'	2	xniaei
+毃	kwoa	2	kwoeia
 毃	qwoa	2	qwoeia
 墝	qtt/	2	qteiee
 頝	qwr;	2	qwoeuo
+橇	cmp/	2	cmeiuo
+幧	ceoe	2	ceiaii
 幧	qeoe	2	qeiaii
 燆	qhr;	2	qhouuo
 缲	qloe	2	qlaaei
+缲	zloe	2	zlaaei
 橾	qmoe	2	qmeiuo
 橾	smoe	2	smeiuo
 鍫	qhh/	2	qhueiu
@@ -13712,6 +14669,7 @@ encoder:
 蹻	jnr;	2	jniaei
 蹻	qnr;	2	qniaei
 荍	qkl/	2	qkeiia
+荍	skl/	2	skeiia
 峤	qer/	2	qeiaiu
 硚	qsr/	2	qseuia
 鄡	qrc'	2	qruiae
@@ -13720,6 +14678,7 @@ encoder:
 嘺	qor;	2	qoiaeu
 嫶	qnr.	2	qnaueu
 犞	qrj;	2	qrueie
+犞	srj;	2	srueie
 癄	qgr.	2	qgoeuo
 趫	qtn;	2	qteiei
 藮	qkm.	2	qkeiie
@@ -13739,7 +14698,10 @@ encoder:
 鞩	qkoi	2	qkeiie
 躈	qnn/	2	qniaei
 苆	qkl'	2	qkeiie
+癿	qnaa	2	qnuiae
 聺	qbii	2	qbeiie
+厒	kgq;	2	kgeuue
+郄	xxx'	2	xxuoeu
 匧	qcp/	2	qceeuo
 洯	jfei	2	jfeeei
 洯	qfei	2	qfeeei
@@ -13751,11 +14713,13 @@ encoder:
 朅	qty'	2	qteiea
 魥	qyn.	2	qyuaia
 魥	vyn.	2	vyuaia
+緁	jls;	2	jlaaoo
 緁	qls;	2	qlaaoo
 踥	qnl'	2	qniaei
 藒	qkh'	2	qkeiiu
 穕	qhr,	2	qhueiu
 鯜	qyl'	2	qyuaia
+鐑	jal;	2	jauoee
 籡	qzj/	2	qzueou
 骎	qqea	2	qqaaea
 菳	jkuo	2	jkeiiu
@@ -13766,9 +14730,11 @@ encoder:
 誛	qyea	2	qyoeee
 顉	qas;	2	qauoee
 鮼	qyea	2	qyuaia
+寴	cil/	2	ciooao
 扲	qjaa	2	qjeieu
 忴	qxaa	2	qxooiu
 珡	qff/	2	qfeeie
+埁	ctea	2	cteiei
 埁	qtea	2	qteiei
 耹	qbaa	2	qbeiie
 菦	qkj.	2	qkeiiu
@@ -13776,12 +14742,15 @@ encoder:
 捦	qjuo	2	qjeieu
 琹	qff,	2	qfeeie
 鈙	qaea	2	qauoee
+鈫	waoe	2	wauoee
 雂	qaw.	2	qauooa
 靲	qkoa	2	qkeiie
+溱	zvf/	2	zvooee
 嫀	qnf/	2	qnauee
 斳	jkou	2	jkeiie
 斳	qkou	2	qkeiie
 鳹	qaw.	2	qauooa
+瘽	jgk,	2	jgoeuo
 瘽	qgk,	2	qgoeuo
 澿	qvm;	2	qvooee
 懄	qxk'	2	qxooie
@@ -13790,19 +14759,26 @@ encoder:
 鵭	qar.	2	qauoee
 坅	qtaa	2	qteieu
 昑	qiaa	2	qiiaee
+笉	czb.	2	czueou
+笉	zzb.	2	zzueou
 赾	qtn/	2	qteiei
 赺	ytn'	2	yteiei
+梫	cmea	2	cmeiuo
 梫	qmea	2	qmeiuo
 寑	qir'	2	qiooau
 螼	qck,	2	qciaei
 抋	qjoa	2	qjeieo
+沁	svoa	2	svooeo
 吢	qxia	2	qxoaoo
 菣	qkc'	2	qkeiie
 搇	qjau	2	qjeieu
+藽	ckl/	2	ckeiio
 藽	qkl/	2	qkeiio
 瀙	qvl/	2	qvooeo
+青	jfia	2	jfeeie
 靑	qfc,	2	qfeeie
 郬	qfua	2	qfeeie
+埥	ctf;	2	cteiee
 埥	qtf;	2	qteiee
 庼	qgg;	2	qgoeue
 淸	qvf,	2	qvooee
@@ -13819,17 +14795,23 @@ encoder:
 棾	qmm/	2	qmeiuo
 暒	qiie	2	qiiaee
 樈	qml/	2	qmeiuo
+黥	jvt;	2	jviaou
+凊	jdf;	2	jdoeee
 凊	qdf;	2	qdoeee
 掅	qjf;	2	qjeiee
 殸	qtp'	2	qteiea
 碃	qsf;	2	qseuia
 靘	qfua	2	qfeeie
+箐	jzf;	2	jzueou
+儬	crf/	2	cruiee
 濪	qvf'	2	qvooee
 櫦	qmg/	2	qmeiuo
 卭	qdai	2	qdeiea
+宆	kiae	2	kiooaa
 桏	qmd'	2	qmeiuo
 赹	qtn.	2	qteiei
 笻	qzd'	2	qzueou
+蛬	gkr;	2	gkeiie
 蛬	qkr;	2	qkeiie
 焭	qhh/	2	qhouuo
 焪	qhia	2	qhouuo
@@ -13838,11 +14820,13 @@ encoder:
 熍	qhii	2	qhouuo
 橩	qmh/	2	qmeiuo
 儝	qrh,	2	qruiou
+憌	cab.	2	cauoee
 憌	qab.	2	qauoee
 藑	qkuu	2	qkeiiu
 藭	qkia	2	qkeiio
 竆	qir;	2	qiooau
 瓗	qfei	2	qfeeie
+瓗	xfei	2	xfeeie
 丠	qkl,	2	qkieeu
 坵	qtj,	2	qteieu
 秌	qhue	2	qhouuo
@@ -13872,11 +14856,13 @@ encoder:
 朹	qmua	2	qmeiuo
 肍	quua	2	quuaee
 汓	qvai	2	qvooea
+觓	juui	2	juuaua
 觓	quui	2	quuaua
 訄	qjoe	2	qjuaoe
 訅	qyua	2	qyoeee
 莍	qks.	2	qkeiie
 逎	qxoa	2	qxeiau
+唒	moei	2	moiaee
 唒	qoei	2	qoiaee
 釚	qaua	2	qauoee
 浗	qvs.	2	qvooee
@@ -13890,27 +14876,36 @@ encoder:
 崷	qed,	2	qeiaio
 湭	qvd,	2	qvooeo
 渞	wvk;	2	wvooeo
+巯	lyd/	2	lyaoei
 蛷	qcs.	2	qciaei
 煪	qhd,	2	qhouuo
 絿	qls.	2	qlaaoo
 觩	quuo	2	quuaua
 璆	qfj/	2	qfeeie
+蝤	jcd,	2	jciaei
 蝤	ycd,	2	yciaei
 銶	qas.	2	qauoee
 鮂	qyou	2	qyuaia
 鯄	qys.	2	qyuaia
 蠤	qdx;	2	qdouei
+鰽	cyk;	2	cyuaia
 鰽	qyk;	2	qyuaia
+鰽	zyk;	2	zyuaia
 搝	qjr.	2	qjeieu
+匤	kcf.	2	kceeei
 佉	qrt'	2	qruiei
 伹	qria	2	qruiia
+诎	cwc;	2	cwoaai
 阹	qbt'	2	qbaiei
 抾	qjt'	2	qjeiee
 岴	qej,	2	qeiaiu
+屈	jpc;	2	jpaeua
 胠	qut'	2	quuaee
 浀	qvc,	2	qvooei
 袪	qyt'	2	qyoaiu
+蛆	jcia	2	jciaei
 紶	qlt'	2	qlaaoo
+趋	ctn'	2	cteiei
 筁	qzc,	2	qzueou
 粬	qdc,	2	qdouei
 駆	qqc/	2	qqeiee
@@ -13925,13 +14920,17 @@ encoder:
 麯	qkr,	2	qkeiuo
 鰸	qyc;	2	qyuaia
 鱋	qyee	2	qyuaia
+佢	jrc'	2	jruiea
 佢	qrc'	2	qruiea
+斪	jbou	2	jbuaia
 斪	qbou	2	qbuaia
 胊	qcd;	2	qcuaoe
 菃	qkv'	2	qkeiio
 衐	qpc,	2	qpuuie
 淭	qvw,	2	qvooeo
 翑	qjd;	2	qjaoea
+翑	yjd;	2	yjaoea
+絇	jlb;	2	jlaaoo
 絇	qlb;	2	qlaaoo
 葋	qkui	2	qkeiiu
 軥	gpb;	2	gpeiae
@@ -13944,35 +14943,46 @@ encoder:
 翵	qjd.	2	qjaoea
 鼩	qnl;	2	qnuiea
 匷	jcf.	2	jceiae
+匷	qcf.	2	qceiae
 忂	qpf.	2	qpuuii
+灈	jvf.	2	jvooei
 灈	qvf.	2	qvooei
 欋	qmf.	2	qmeiuo
 戵	qff,	2	qfiaee
 籧	qzeo	2	qzueou
 臞	quf.	2	quuaee
+癯	hgf.	2	hgoeuo
 蠷	qcf.	2	qciaei
 躣	qnf.	2	qniaei
+蠼	jcf'	2	jciaei
 鑺	qaf.	2	qauoee
+鸜	gff.	2	gfiaee
 鸜	qff.	2	qfiaee
 詓	qyt'	2	qyoeee
 竬	qlr.	2	qloeou
+蝺	jcr.	2	jciaei
 蝺	qcr.	2	qciaei
 厺	qpao	2	qpeuoa
 刞	qhii	2	qhiaee
 迲	qty.	2	qteiea
 呿	qot'	2	qoiaee
 郥	bhai	2	bhiaee
+郥	jhai	2	jhiaee
 耝	qfp;	2	qfeeei
+趣	ctn'	2	cteiei
 閴	qcia	2	qciaee
 麮	qkr'	2	qkeiuo
 鼁	qty'	2	qteiea
 覰	qeg/	2	qeieau
 覻	qeg/	2	qeieau
+奍	ykp/	2	ykouee
 峑	qeae	2	qeiaiu
 恮	qxae	2	qxooiu
+圏	jok'	2	joiaou
 圏	qok'	2	qoiaou
 駩	qqae	2	qqeiee
 騡	qqn;	2	qqeiee
+鐉	cab/	2	cauoee
 鐉	qab/	2	qauoee
 佺	qrae	2	qruiuo
 洤	qvae	2	qvooeu
@@ -14010,11 +15020,13 @@ encoder:
 甽	qtui	2	qtiaei
 甽	ztui	2	ztiaei
 烇	qhae	2	qhouuo
+虇	hkg.	2	hkeiia
 虇	qkg.	2	qkeiia
 牶	qkp,	2	qkouee
 椦	qmk'	2	qmeiuo
 勧	qqr'	2	qqueeu
 韏	jkp;	2	jkouee
+炔	jhc/	2	jhouuo
 蒛	qkq/	2	qkeiiu
 埆	qtuu	2	qteieu
 崅	qeuu	2	qeiaiu
@@ -14033,6 +15045,7 @@ encoder:
 礐	qhd,	2	qhuiee
 礭	qst.	2	qseuia
 夋	qyr/	2	qyaouo
+囷	joue	2	joiaue
 囷	qoue	2	qoiaue
 峮	qeei	2	qeiaia
 輑	ypei	2	ypeiae
@@ -14067,10 +15080,13 @@ encoder:
 鬤	rcx/	2	rceiee
 壌	rtw/	2	rteieo
 爙	rhw/	2	rhouuo
+爙	shw/	2	shouuo
 譲	ryw/	2	ryoeee
 懹	rxw/	2	rxooio
+桡	nml/	2	nmeiuo
 襓	ryt/	2	ryoaiu
 犪	krj/	2	krueie
+扰	yjx.	2	yjeiee
 隢	rbt/	2	rbaiei
 遶	rtt.	2	rteiee
 忈	rdoa	2	rdeeoa
@@ -14115,6 +15131,7 @@ encoder:
 陾	rbs,	2	rbaieu
 芿	rkr'	2	rkeiiu
 驲	rqia	2	rqaaei
+鈤	naia	2	nauoee
 鈤	raia	2	rauoee
 茙	rkl,	2	rkeiie
 栄	rvie	2	rvoouo
@@ -14130,6 +15147,7 @@ encoder:
 榵	rmk,	2	rmeiuo
 嵤	rhh;	2	rhouuo
 嫆	rnii	2	rnaueo
+嫆	ynii	2	ynaueo
 瑢	rfii	2	rfeeie
 穁	rhk,	2	rhueiu
 镕	raii	2	raueee
@@ -14137,6 +15155,7 @@ encoder:
 縙	rlk,	2	rlaaoo
 髶	rcx,	2	rceiee
 駥	rql,	2	rqeiee
+駥	xql,	2	xqeiee
 螎	rcs;	2	rciaei
 嬫	rnh,	2	rnaueo
 爃	rhh,	2	rhouuo
@@ -14148,6 +15167,7 @@ encoder:
 氄	ryj/	2	ryaoai
 穃	rhii	2	rhueiu
 禸	rcao	2	rciaao
+粈	ndj;	2	ndouei
 粈	rdj;	2	rdouei
 葇	rky,	2	rkeiia
 渘	rvy,	2	rvooea
@@ -14169,6 +15189,7 @@ encoder:
 邚	rnai	2	rnauea
 侞	rrn;	2	rruiau
 帤	rnoi	2	rnauei
+桇	ynoe	2	ynauei
 挐	nnou	2	nnauei
 挐	rnou	2	rnauei
 袽	ryn;	2	ryoaiu
@@ -14178,9 +15199,11 @@ encoder:
 鴑	rnk.	2	rnauea
 獳	nqt;	2	nquaue
 嬬	rnt;	2	rnauee
+嬬	xnt;	2	xnauee
 鴽	rnoo	2	rnauei
 曘	rit;	2	riiaee
 臑	nut;	2	nuuaee
+臑	rut;	2	ruuaee
 燸	rht;	2	rhouuo
 繻	xlt;	2	xlaaoo
 醹	rxt;	2	rxeiau
@@ -14190,6 +15213,7 @@ encoder:
 擩	rjt;	2	rjeiee
 扖	rjr.	2	rjeieu
 杁	rmr.	2	rmeiuo
+嗕	nog,	2	noiaee
 嗕	rog,	2	roiaee
 鳰	rrw.	2	rruoui
 媷	rng,	2	rnauee
@@ -14197,7 +15221,10 @@ encoder:
 壖	rtt;	2	rteiee
 耎	nsc,	2	nseuia
 耎	rsc,	2	rseuia
+偄	nrs,	2	nruieu
 偄	rrs,	2	rruieu
+愞	rxs,	2	rxooie
+媆	nns,	2	nnauee
 瑌	rfs,	2	rfeeie
 腝	nus,	2	nuuaee
 碝	rss,	2	rseuia
@@ -14228,6 +15255,7 @@ encoder:
 鄀	rkx'	2	rkeiie
 焫	rhk/	2	rhouuo
 渃	rvk;	2	rvooee
+婼	cnk;	2	cnauee
 婼	rnk;	2	rnauee
 楉	rmk;	2	rmeiuo
 蒻	rkg.	2	rkeiia
@@ -14239,15 +15267,19 @@ encoder:
 鶸	rgd.	2	rgaeao
 訯	syn.	2	syoeee
 靸	skoo	2	skeiie
+靸	tkoo	2	tkeiie
 潵	svk/	2	svooee
+钑	jan.	2	jaueee
 钑	san.	2	saueee
 馺	sqn.	2	sqeiee
 摋	sjx'	2	sjeieu
 隡	sbl,	2	sbaioe
+櫒	cmk;	2	cmeiuo
 毢	spei	2	spueea
 揌	sjt.	2	sjeiei
 毸	spt.	2	spueea
 嘥	sop;	2	soiaeu
+鳃	xyt.	2	xyuaia
 顋	stx;	2	stiaei
 嗮	soie	2	soiaei
 僿	srie	2	sruioo
@@ -14284,8 +15316,10 @@ encoder:
 鱢	syoe	2	syuaia
 氉	soou	2	soiaei
 矂	sfoe	2	sfiaee
+矂	zfoe	2	zfiaee
 鐰	qaoe	2	qauoee
 髞	swoe	2	swoeia
+洓	svs/	2	svooee
 栜	sms/	2	smeiuo
 雭	stn.	2	steoai
 渋	svn.	2	svooei
@@ -14310,15 +15344,19 @@ encoder:
 槮	smy/	2	smeiuo
 襂	syy/	2	syoaiu
 篸	czy/	2	czueou
+篸	szy/	2	szueou
 篸	zzy/	2	zzueou
 鬙	scx;	2	sceiee
 乷	svp'	2	svooei
+剎	cxm;	2	cxuoei
 剎	sxm;	2	sxuoei
 挱	sjv/	2	sjeieo
+唦	gov/	2	goiaeo
 唦	sov/	2	soiaeo
 猀	sqv/	2	squauo
 粆	cdp/	2	cdouei
 桬	svp,	2	svooei
+硰	cvp,	2	cvooei
 硰	svp,	2	svooei
 蔱	skx'	2	skeiiu
 榝	xmx'	2	xmeiuo
@@ -14331,18 +15369,25 @@ encoder:
 儍	srx/	2	sruiuo
 倽	srai	2	sruiuo
 萐	sks;	2	skeiie
+唼	qol'	2	qoiaeo
+唼	zol'	2	zoiaeo
 帹	sel'	2	seiaio
 喢	sor/	2	soiaeu
 翜	sjd/	2	sjaoea
 箑	szs;	2	szueou
 翣	sjd'	2	sjaoea
 閯	scv/	2	sciaee
+酾	lxs.	2	lxeiau
 簁	szp;	2	szueou
+簁	xzp;	2	xzueou
 邖	seai	2	seiaia
 圸	stia	2	steiei
+姗	xnc,	2	xnaueu
+埏	ytr'	2	yteieu
 狦	sqc,	2	squaui
 軕	spia	2	speiae
 脠	cur'	2	cuuaee
+痁	dgei	2	dgoeuo
 痁	sgei	2	sgoeuo
 閊	scia	2	sciaee
 笘	szei	2	szueou
@@ -14353,6 +15398,8 @@ encoder:
 穇	chy/	2	chueiu
 穇	shy/	2	shueiu
 檆	smh;	2	smeiuo
+膻	tuw,	2	tuuaee
+鯅	tyr'	2	tyuaia
 縿	sly/	2	slaaoo
 羴	sdf;	2	sdouee
 羶	sdv,	2	sdouee
@@ -14360,6 +15407,7 @@ encoder:
 晱	sih.	2	siiaee
 睒	sfh.	2	sfiaee
 煔	shh;	2	shouuo
+煔	thh;	2	thouuo
 熌	shc/	2	shouuo
 覢	shh/	2	shouuo
 赸	stn;	2	steiei
@@ -14369,6 +15417,7 @@ encoder:
 僐	srd;	2	sruiou
 墠	stoe	2	steiei
 墡	std;	2	steieo
+樿	zmoe	2	zmeiuo
 敾	sdf/	2	sdouee
 磰	ssd;	2	sseuia
 謆	syw.	2	syoeee
@@ -14377,20 +15426,25 @@ encoder:
 鐥	sad;	2	sauoee
 饍	sud;	2	suuooa
 譱	sdf.	2	sdouee
+灗	dvc,	2	dvooei
 鱓	syoe	2	syuaia
 蔏	skw;	2	skeiio
 漡	svq/	2	svooeu
 漡	tvq/	2	tvooeu
 滳	svw;	2	svooeo
 慯	sxq/	2	sxooiu
+熵	dhw;	2	dhouuo
 螪	scw;	2	sciaei
 謪	syw;	2	syoeee
 鬺	ssou	2	sseiae
+垧	jtr;	2	jteieu
+埫	ctei	2	cteiei
 贘	shei	2	shiaee
 鑜	saei	2	sauoee
 丄	seee	2	seieee
 尙	spc;	2	spiuoi
 恦	sxr;	2	sxooiu
+恦	xxr;	2	xxooiu
 莦	skei	2	skeiii
 莦	xkei	2	xkeiii
 弰	sgei	2	sgaeai
@@ -14408,16 +15462,24 @@ encoder:
 卲	sqoa	2	sqauia
 柖	smq;	2	smeiuo
 袑	syq;	2	syoaiu
+睄	qfei	2	qfiaee
 睄	sfei	2	sfiaee
+綤	cqoi	2	cqauia
+畲	yad;	2	yauoee
+輋	jep,	2	jeiaie
 輋	sep,	2	seiaie
 賖	shae	2	shiaee
 檨	smd/	2	smeiuo
 蛥	scuu	2	sciaei
 捨	sjai	2	sjeieu
 舎	sat;	2	sauoei
+射	yrc,	2	yruiae
 渉	svn/	2	svooei
+涻	gvai	2	gvooeu
 涻	svai	2	svooeu
 弽	sgk,	2	sgaeae
+摂	zjb.	2	zjeiee
+慑	zxb'	2	zxooie
 摵	sjg.	2	sjeiee
 蔎	sky'	2	skeiio
 慴	sxj/	2	sxooia
@@ -14428,8 +15490,10 @@ encoder:
 欇	smb,	2	smeiuo
 扟	sjl,	2	sjeiea
 屾	seia	2	seiaii
+身	jrc/	2	jruiae
 侁	srr/	2	sruiue
 籶	sdua	2	sdouei
+罙	mir,	2	mioauo
 妽	snii	2	snauei
 珅	sfii	2	sfeeie
 柛	smii	2	smeiuo
@@ -14439,14 +15503,23 @@ encoder:
 眒	sfii	2	sfiaee
 峷	seoe	2	seiaio
 甡	srf,	2	srueei
+娠	cng'	2	cnauee
+娠	zng'	2	znauee
+堔	ctie	2	cteieo
+敒	zriu	2	zruiia
+葠	ckr'	2	ckeiiu
 葠	skr'	2	skeiiu
 兟	srt/	2	srueie
+兟	xrt/	2	xrueie
 訷	syii	2	syoeee
 裑	syr/	2	syoaiu
+蓡	ckv'	2	ckeiio
 蓡	skv'	2	skeiio
+罧	lfm,	2	lfiaii
 罧	sfm,	2	sfiaii
 蔘	sky/	2	skeiia
 幓	sey/	2	seiaia
+幓	xey/	2	xeiaia
 甧	srf;	2	srueei
 駪	sqr/	2	sqeiee
 薓	skv'	2	skeiio
@@ -14454,18 +15527,27 @@ encoder:
 燊	shh,	2	shouuo
 曑	siiu	2	siiaee
 鵢	src.	2	sruiae
+鯓	nyr/	2	nyuaia
 鯓	syr/	2	syuaia
 鰺	syy/	2	syuaia
 榊	smy;	2	smeiuo
 鉮	haii	2	hauoee
 鰰	syy;	2	syuaia
+伔	criu	2	cruioa
+伔	zriu	2	zruioa
 邥	sin'	2	sioaua
 抌	djiu	2	djeieo
+抌	zjiu	2	zjeieo
+沈	cviu	2	cvooeo
 弞	sguu	2	sgaeau
 矤	sgue	2	sgaeau
+宷	pir.	2	piooau
 谉	swii	2	swoaoo
 訠	syg;	2	syoeee
+頣	ycei	2	yceiae
 魫	syiu	2	syuaia
+曋	qix,	2	qiiaee
+曋	tix,	2	tiiaee
 瞫	sfx,	2	sfiaee
 讅	syii	2	syoeee
 覾	sir/	2	siooau
@@ -14473,12 +15555,14 @@ encoder:
 侺	srea	2	sruiia
 眘	spd;	2	speuoo
 脤	sug'	2	suuaee
+祳	zyg'	2	zyoaio
 葚	rkk'	2	rkeiie
 瘆	sgy/	2	sgoeuo
 愼	sxl/	2	sxooiu
 鋠	sag'	2	sauoee
 阩	sbr,	2	sbaiue
 呏	sor,	2	soiaeu
+呏	yor,	2	yoiaeu
 斘	sud,	2	suuaoo
 苼	rkr,	2	rkeiiu
 枡	smr,	2	smeiuo
@@ -14495,6 +15579,7 @@ encoder:
 焺	shie	2	shouuo
 湦	svie	2	svooei
 鉎	sar,	2	sauoee
+鍟	xaie	2	xauoee
 鼪	snl,	2	snuiea
 鵿	src,	2	sruiae
 縄	slia	2	slaaoo
@@ -14503,6 +15588,8 @@ encoder:
 鱦	syc'	2	syuaia
 鱦	yyc'	2	yyuaia
 偗	srp;	2	sruiiu
+渻	xvp;	2	xvooei
+胜	xur,	2	xuuaee
 晠	sig.	2	siiaee
 剰	srt;	2	srueei
 貹	shr,	2	shiaee
@@ -14516,6 +15603,7 @@ encoder:
 呞	soj;	2	soiaea
 鸤	spb,	2	spaeuu
 浉	svd;	2	svooei
+敆	gas'	2	gauoei
 絁	slq'	2	slaaoo
 葹	skq'	2	skeiio
 湤	svq'	2	svooeo
@@ -14534,6 +15622,7 @@ encoder:
 鰤	syr;	2	syuaia
 襹	sys/	2	syoaiu
 籭	szs/	2	szueou
+丆	sseu	2	sseuuu
 饣	suua	2	suuaaa
 辻	skoa	2	skeioa
 佦	sreu	2	sruieu
@@ -14544,6 +15633,7 @@ encoder:
 旹	scei	2	scaiie
 峕	sew;	2	seiaio
 祏	syeu	2	syoaio
+姼	cnuu	2	cnaueu
 遈	sis.	2	siiaee
 湜	svii	2	svooei
 寔	siii	2	siooai
@@ -14558,6 +15648,7 @@ encoder:
 鼭	snl,	2	snuiea
 乨	syoa	2	syaoia
 兘	sdn;	2	sdeeua
+宩	xiou	2	xiooao
 笶	szue	2	szueou
 榁	smie	2	smeiuo
 鉂	saou	2	sauoee
@@ -14571,18 +15662,27 @@ encoder:
 昰	sis;	2	siiaee
 昰	xis;	2	xiiaee
 眂	sfh,	2	sfiaee
+适	grg.	2	grueii
+适	krg.	2	krueii
 狧	tqr,	2	tquauu
+恀	cxuu	2	cxooiu
 恀	sxuu	2	sxooiu
 冟	sin/	2	sioaui
+栻	cml,	2	cmeiuo
 栻	sml,	2	smeiuo
 眎	sfd;	2	sfiaee
 眡	sfh.	2	sfiaee
 烒	shl,	2	shouuo
 秲	zht,	2	zhueiu
+笹	xzk'	2	xzueou
 釈	srd.	2	sruoue
 揓	sjq'	2	sjeieo
 崼	seii	2	seiaii
+徥	cpii	2	cpuuii
 徥	spii	2	spuuii
+谥	ywk;	2	ywoaou
+觢	cfeu	2	cfeeei
+觢	zfeu	2	zfeeei
 睗	sfiu	2	sfiaee
 鉃	saue	2	sauoee
 弒	sxm,	2	sxuoei
@@ -14591,10 +15691,12 @@ encoder:
 奭	sps;	2	speeui
 銴	sjj/	2	sjeieu
 銴	zjj/	2	zjeieu
+餝	cuk.	2	cuuooa
 遾	szd.	2	szueou
 諟	syii	2	syoeee
 澨	svz/	2	svooeu
 嬕	snf,	2	snauei
+螫	ztm;	2	zteieu
 檡	zmf,	2	zmeiuo
 謚	syk;	2	syoeee
 謚	yyk;	2	yyoeee
@@ -14624,8 +15726,10 @@ encoder:
 軗	spn'	2	speiae
 焂	sreo	2	sruiiu
 鄃	sas'	2	sauoei
+鄃	yas'	2	yauoei
 疎	sjn;	2	sjaiei
 毺	spai	2	spueea
+毹	yas/	2	yauoei
 綀	sls;	2	slaaoo
 踈	sns;	2	sniaei
 跾	crei	2	cruiiu
@@ -14645,12 +15749,14 @@ encoder:
 籔	szou	2	szueou
 蠴	sck;	2	sciaei
 鱪	syii	2	syuaia
+鸀	sfb.	2	sfiaii
 鸀	zfb.	2	zfiaii
 鱰	syf;	2	syuaia
 朮	skr.	2	skeiua
 朮	zkr.	2	zkeiua
 荗	skg.	2	skeiie
 怷	skr.	2	skeiua
+怷	xkr.	2	xkeiua
 捒	sjs;	2	sjeiee
 蒁	skm.	2	skeiie
 庻	sgk/	2	sgoeue
@@ -14659,6 +15765,7 @@ encoder:
 裋	sys.	2	syoaiu
 竪	sceo	2	sceiae
 鉥	sam.	2	sauoee
+腧	yuai	2	yuuaee
 潄	svs/	2	svooee
 錰	sam.	2	sauoee
 濖	svf;	2	svooei
@@ -14667,6 +15774,7 @@ encoder:
 虪	seg.	2	seieau
 誜	syy/	2	syoeee
 缞	clw/	2	claaeo
+缞	slw/	2	slaaeo
 腨	suei	2	suuaee
 滝	lvl'	2	lvooeo
 骦	sqt;	2	sqaaee
@@ -14722,6 +15830,7 @@ encoder:
 罳	sft.	2	sfiaii
 銯	sal;	2	sauoee
 凘	sdk/	2	sdoeei
+禠	cyh/	2	cyoaio
 禠	syh/	2	syoaio
 蕬	skl;	2	skeiia
 磃	ssh/	2	sseuia
@@ -14734,7 +15843,9 @@ encoder:
 鐁	sak/	2	sauoee
 鼶	snl/	2	snuiea
 偲	crt.	2	cruiia
+偲	srt.	2	sruiia
 亖	sdee	2	sdeeee
+罒	sfia	2	sfiaii
 佀	sria	2	sruiia
 泤	svl/	2	svooea
 価	srei	2	sruiei
@@ -14742,6 +15853,7 @@ encoder:
 柶	smia	2	smeiuo
 枱	smy;	2	smeiuo
 枱	tmy;	2	tmeiuo
+枱	ymy;	2	ymeiuo
 牭	srj;	2	srueie
 娰	snr/	2	snaueu
 肂	ssue	2	sseuao
@@ -14767,6 +15879,7 @@ encoder:
 倯	srm'	2	sruiei
 庺	sgr,	2	sgoeuu
 梥	sir,	2	siooau
+愡	hxb.	2	hxooiu
 硹	ssm'	2	sseuia
 蜙	scm'	2	sciaei
 濍	svk.	2	svooee
@@ -14775,6 +15888,7 @@ encoder:
 傱	srp;	2	sruiuu
 愯	sxr'	2	sxooiu
 嵷	sep;	2	seiaiu
+嵷	zep;	2	zeiaiu
 駷	sqs;	2	sqeiee
 鎹	sak.	2	sauoee
 餸	suk.	2	suuooa
@@ -14785,27 +15899,32 @@ encoder:
 獀	sqn'	2	squauu
 廋	sgn'	2	sgoeuu
 廀	sgia	2	sgoeuo
+摉	rjiu	2	rjeieo
 摗	sjs/	2	sjeiee
 醙	sxn'	2	sxeiau
 騪	sqn'	2	sqeiee
 叜	sih'	2	siooao
 傁	srn'	2	sruiui
 蓃	skn'	2	skeiiu
+嗾	zoq/	2	zoiaeo
 謏	syn'	2	syoeee
 謏	xyn'	2	xyoeee
 櫢	smou	2	smeiuo
 欶	ssou	2	sseiae
 瘶	sgs/	2	sgoeuo
 甦	ssie	2	sseiae
+稣	wyue	2	wyuaia
 窣	sir,	2	siooau
 鯂	syei	2	syuaia
 蘓	skh/	2	skeiiu
 櫯	smy/	2	smeiuo
 囌	sok/	2	soiaee
 玊	sfoo	2	sfeeie
+玊	xfoo	2	xfeeie
 泝	svj.	2	svooeu
 洬	svn/	2	svooeu
 珟	sfn/	2	sfeeie
+梀	cms;	2	cmeiuo
 梀	yms;	2	ymeiuo
 殐	ssui	2	sseuao
 粛	sem/	2	seaeei
@@ -14826,6 +15945,7 @@ encoder:
 鋉	sas;	2	sauoee
 餗	sus;	2	suuooa
 潥	svx.	2	svooee
+憟	lxx.	2	lxooie
 憟	sxx.	2	sxooie
 潚	svei	2	svooea
 潚	xvei	2	xvooea
@@ -14840,14 +15960,19 @@ encoder:
 祘	sdp;	2	sdeeiu
 笇	szw;	2	szueou
 筭	szf,	2	szueou
+夊	cuua	2	cuuaoo
 芕	skua	2	skeiiu
+挼	njz'	2	njeieu
 挼	rjz'	2	rjeieu
 挼	sjz'	2	sjeieu
 荾	sky/	2	skeiia
 哸	soz'	2	soiaeu
+倠	hrr.	2	hruiui
+倠	xrr.	2	xruiui
 浽	svz'	2	svooeu
 娞	nnz'	2	nnaueu
 娞	snz'	2	snaueu
+睢	hfr.	2	hfiaee
 滖	svw/	2	svooeo
 熣	sheo	2	shouuo
 鞖	skoa	2	skeiie
@@ -14878,6 +16003,7 @@ encoder:
 繀	sleo	2	slaaoo
 旞	sqq.	2	sqoeau
 懳	hxf.	2	hxooie
+繐	hls.	2	hlaaoo
 繐	sls.	2	slaaoo
 繸	slk.	2	slaaoo
 譢	syk.	2	syoeee
@@ -14887,6 +16013,7 @@ encoder:
 槂	smj;	2	smeiuo
 蕵	skuu	2	skeiiu
 薞	sks/	2	skeiie
+隼	zrf,	2	zruioe
 箰	szb'	2	szueou
 鎨	sar,	2	sauoee
 鶽	xrf.	2	xruioe
@@ -14895,6 +16022,7 @@ encoder:
 潠	xvb/	2	xvooea
 莏	skj/	2	skeiie
 傞	srd,	2	sruiou
+羧	zdv/	2	zdouee
 趖	stn,	2	steiei
 摍	sjii	2	sjeieo
 簑	szw/	2	szueou
@@ -14913,10 +16041,14 @@ encoder:
 牠	trj'	2	trueie
 祂	tyai	2	tyoaio
 咜	toiu	2	toiaeo
+趿	snn.	2	sniaei
+铊	saiu	2	saueee
 榙	tmk;	2	tmeiuo
+褟	dyio	2	dyoaiu
 褟	tyio	2	tyoaiu
 闧	tct.	2	tciaee
 蹹	tnao	2	tniaei
+墖	dtai	2	dteieu
 墖	ttai	2	tteieu
 荅	dkai	2	dkeiiu
 崉	tev;	2	teiaii
@@ -14928,6 +16060,7 @@ encoder:
 禢	tyio	2	tyoaio
 誻	tyv;	2	tyoeee
 澾	tvt.	2	tvooee
+橽	dmt.	2	dmeiuo
 嚃	tof.	2	toiaei
 錔	tav;	2	tauoee
 鞜	tkoi	2	tkeiie
@@ -14959,6 +16092,7 @@ encoder:
 籉	tzt,	2	tzueou
 夳	tpee	2	tpeuoe
 冭	tpoo	2	tpeuoo
+忕	dxeu	2	dxooie
 忕	sxeu	2	sxooie
 忕	txeu	2	txooie
 忲	txp.	2	txooie
@@ -14968,37 +16102,50 @@ encoder:
 燤	thk.	2	thouuo
 軚	dpp.	2	dpeiae
 怹	try.	2	truiai
+痑	dguu	2	dgoeuo
 痑	tguu	2	tgoeuo
+潬	dvoe	2	dvooei
 擹	tjk/	2	tjeiee
 倓	trh.	2	truiou
 埮	tth.	2	tteieo
 惔	txh.	2	txooio
+惔	yxh.	2	yxooio
 婒	tnh.	2	tnaueo
 弾	dgv,	2	dgaeao
+弾	tgv,	2	tgaeao
+榃	lmm;	2	lmeiuo
 榃	tmm;	2	tmeiuo
+锬	xah.	2	xaueee
 墰	ttx,	2	tteiee
 墵	ttt'	2	tteiee
 醈	dxh.	2	dxeiau
 憛	txx,	2	txooie
 橝	tmx,	2	tmeiuo
 顃	thh;	2	thouuo
+顃	yhh;	2	yhouuo
 藫	tkv,	2	tkeiio
 罈	tqee	2	tqueei
 壜	ttia	2	tteiei
 醰	txx,	2	txeiau
 貚	tzoe	2	tzuoou
 譠	tyw,	2	tyoeee
+譠	zyw,	2	zyoeee
 罎	tqea	2	tqueei
+钽	daie	2	daueee
 菼	tkh.	2	tkeiio
 嗿	toai	2	toiaeu
 憳	txee	2	txooia
 醓	txii	2	txeiau
+暺	dioe	2	diiaee
 憻	txw,	2	txooio
 璮	tfw,	2	tfeeie
 襢	tyw,	2	tyoaiu
+赕	thh.	2	thiauo
 湠	tveo	2	tvooei
+僋	qrai	2	qruiuo
 僋	trai	2	truiuo
 嘆	tok/	2	toiaee
+舕	drg.	2	drueii
 舕	trg.	2	trueii
 撢	djx,	2	djeiee
 铴	tav/	2	taueee
@@ -15010,6 +16157,7 @@ encoder:
 闛	tcee	2	tciaee
 鞺	tkoe	2	tkeiie
 鼞	ttoe	2	tteiei
+饧	tuj/	2	tuuaaa
 坣	teie	2	teiouo
 啺	toiu	2	toiaei
 傏	trg;	2	truioe
@@ -15034,21 +16182,26 @@ encoder:
 餹	tug;	2	tuuooa
 饄	tuee	2	tuuooa
 鶶	tgeo	2	tgoeua
+帑	nnk;	2	nnauea
 偒	triu	2	truiia
 镋	taeu	2	taueee
 鎲	taeu	2	tauoee
+戃	cxeo	2	cxooii
 戃	txeo	2	txooii
 曭	tieo	2	tiiaee
 爣	theo	2	thouuo
 矘	tfeo	2	tfiaee
 钂	taeo	2	tauoee
 摥	tjq/	2	tjeieu
+仐	taei	2	tauoei
 弢	tgc'	2	tgaeaa
 詜	tyc'	2	tyoeee
 搯	tjz/	2	tjeieu
+幍	dez/	2	deiaiu
 幍	tez/	2	teiaiu
 慆	txz/	2	txooiu
 嫍	tnz/	2	tnaueu
+嫍	ynz/	2	ynaueu
 瑫	tfz/	2	tfeeie
 槄	tmz/	2	tmeiuo
 飸	tos/	2	toiaee
@@ -15059,6 +16212,7 @@ encoder:
 匋	tbq;	2	tbuaue
 迯	tum.	2	tuuaoi
 咷	ton.	2	toiaeu
+洮	yvn.	2	yvooeu
 梼	tmf,	2	tmeiuo
 绹	tlb;	2	tlaaeu
 祹	tyb;	2	tyoaio
@@ -15078,6 +16232,7 @@ encoder:
 鼟	ttoo	2	tteiei
 幐	tuk;	2	tuuaee
 漛	tvk;	2	tvooeo
+邆	djw.	2	djaouu
 邆	tjw.	2	tjaouu
 螣	tuk;	2	tuuaee
 縢	tuk;	2	tuuaee
@@ -15088,13 +16243,16 @@ encoder:
 籘	tzui	2	tzueou
 虅	tkue	2	tkeiiu
 驣	tqk,	2	tqeiee
+霯	dtj.	2	dteoai
 霯	ttj.	2	tteoai
+鷈	src/	2	sruiae
 鷈	trc/	2	truiae
 鷉	sheo	2	shuuie
 鷉	theo	2	thuuie
 苐	dkg/	2	dkeiia
 厗	tgoe	2	tgeuoe
 偍	trii	2	truiia
+提	sjii	2	sjeiei
 罤	tfd/	2	tfiaii
 崹	tew;	2	teiaio
 稊	thd/	2	thueiu
@@ -15102,6 +16260,7 @@ encoder:
 渧	dvw;	2	dvooeo
 惿	txii	2	txooii
 媞	snii	2	snauei
+媞	tnii	2	tnauei
 瑅	tfii	2	tfeeie
 嗁	toh/	2	toiaeu
 碮	dsii	2	dseuia
@@ -15112,11 +16271,14 @@ encoder:
 徲	cpp,	2	cpuuia
 徲	tpp,	2	tpuuia
 漽	tvp,	2	tvooea
+趧	dtn;	2	dteiei
 趧	ttn;	2	tteiei
 鴺	tsg.	2	tseaea
 鴺	ysg.	2	yseaea
 蹏	tnh/	2	tniaei
+鍗	daw;	2	dauoee
 鍗	taw;	2	tauoee
+鳀	syii	2	syuaia
 鳀	tyii	2	tyuaia
 謕	syh/	2	syoeee
 謕	tyh/	2	tyoeee
@@ -15124,12 +16286,16 @@ encoder:
 騠	tqii	2	tqeiee
 鶗	tis.	2	tiiaee
 鶙	twd.	2	twoeou
+鷤	dooo	2	doiaei
 鷤	tooo	2	toiaei
+体	brm,	2	bruiei
 躰	trc,	2	truiae
 骵	tcj,	2	tciaao
 軆	trc.	2	truiae
 戻	twp,	2	twoaeu
+屉	xpk'	2	xpaeue
 洟	tvs/	2	tvooee
+洟	yvs/	2	yvooee
 挮	tjd/	2	tjeieo
 掦	tjiu	2	tjeiei
 逷	tib.	2	tiiaee
@@ -15140,10 +16306,12 @@ encoder:
 殢	tsui	2	tseuao
 歒	twd/	2	twoeou
 鬀	tcx/	2	tceiee
+瓋	zfw.	2	zfeeie
 鬄	tcx/	2	tceiee
 嚔	tok;	2	toiaee
 籊	tzj.	2	tzueou
 趯	ttn.	2	tteiei
+趯	ytn.	2	yteiei
 兲	tfuo	2	tfeeie
 婖	tns;	2	tnauee
 靔	tfuu	2	tfeeie
@@ -15159,6 +16327,7 @@ encoder:
 甛	tkd,	2	tkeiie
 菾	tks;	2	tkeiie
 湉	tvx,	2	tvooeo
+搷	cjk/	2	cjeiee
 搷	tjk/	2	tjeiee
 塡	ttl/	2	tteieu
 碵	tsei	2	tseuia
@@ -15168,6 +16337,7 @@ encoder:
 鴫	ttr.	2	ttiaei
 璳	tfq;	2	tfeeie
 鷏	tkh.	2	tkeiia
+鷏	zkh.	2	zkeiia
 鷆	tlf.	2	tluaia
 倎	trv/	2	truiia
 捵	cjv/	2	cjeiei
@@ -15176,6 +16346,7 @@ encoder:
 铦	xar,	2	xaueee
 淟	tvv/	2	tvooei
 悿	txs;	2	txooie
+琠	dfv/	2	dfeeie
 琠	tfv/	2	tfeeie
 晪	tiv/	2	tiiaee
 觍	tvk/	2	tviaei
@@ -15184,8 +16355,10 @@ encoder:
 痶	tgv/	2	tgoeuo
 餂	tur,	2	tuuooa
 賟	thv/	2	thiaee
+錪	dav/	2	dauoee
 錪	tav/	2	tauoee
 瑱	tfk/	2	tfeeie
+瑱	zfk/	2	zfeeie
 睼	tfii	2	tfiaee
 舚	trg.	2	trueii
 旫	tiau	2	tiiaee
@@ -15213,6 +16386,7 @@ encoder:
 誂	dyn.	2	dyoeee
 誂	tyn.	2	tyoeee
 窱	tir,	2	tiooau
+嬥	dnj.	2	dnauea
 嬥	tnj.	2	tnauea
 朓	tun.	2	tuuaee
 脁	tcd.	2	tcuaoe
@@ -15223,8 +16397,10 @@ encoder:
 頫	fnv;	2	fnuoea
 頫	tnv;	2	tnuoea
 怗	txei	2	txooii
+聑	dbei	2	dbeiie
 聑	tbei	2	tbeiie
 跕	dnei	2	dniaei
+铁	yaq/	2	yaueee
 蛈	tcq/	2	tciaei
 鉄	taq/	2	tauoee
 僣	trd;	2	truiee
@@ -15232,12 +16408,16 @@ encoder:
 驖	tqk,	2	tqeiee
 呫	coei	2	coiaei
 呫	toei	2	toiaei
+呫	zoei	2	zoiaei
 飻	tuau	2	tuuooa
 艼	dkei	2	dkeiie
 艼	tkei	2	tkeiie
 庁	tgei	2	tgoeue
+厑	vgou	2	vgeuia
+听	youu	2	yoiaeu
 耓	tfp,	2	tfeeei
 厛	tgou	2	tgeuia
+烃	jhy,	2	jhouuo
 渟	tvw,	2	tvooeo
 綎	tlr'	2	tlaaoo
 鞓	tkoe	2	tkeiie
@@ -15257,6 +16437,7 @@ encoder:
 圢	ttei	2	tteiee
 侹	trr'	2	truiue
 涏	tvr'	2	tvooeu
+娗	dnr'	2	dnaueu
 娗	tnr'	2	tnaueu
 珽	tfr'	2	tfeeie
 脡	tur'	2	tuuaee
@@ -15265,6 +16446,7 @@ encoder:
 誔	tyr'	2	tyoeee
 濎	dvf'	2	dvooei
 囲	tod/	2	toiaee
+炵	dhuo	2	dhouuo
 炵	thuo	2	thouuo
 痌	tgc;	2	tgoeuo
 蓪	tky.	2	tkeiia
@@ -15295,6 +16477,7 @@ encoder:
 勭	tlia	2	tloeou
 獞	tql;	2	tquauo
 獞	zql;	2	zquauo
+橦	cml;	2	cmeiuo
 橦	tml;	2	tmeiuo
 曈	til;	2	tiiaee
 犝	trj;	2	trueie
@@ -15303,21 +16486,27 @@ encoder:
 氃	tliu	2	tloeou
 燑	thl;	2	thouuo
 穜	thl;	2	thueiu
+穜	zhl;	2	zhueiu
 筩	tzy;	2	tzueou
 綂	tlw/	2	tlaaoo
 憅	trs.	2	trueia
 偸	trr'	2	truiuo
 鍮	taai	2	tauoee
+骰	scj'	2	sciaao
 緰	tlai	2	tlaaoo
 緰	ylai	2	ylaaoo
 妵	tnw,	2	tnaueo
 紏	tld,	2	tlaaoo
 殕	bsui	2	bseuao
 殕	fsui	2	fseuao
+敨	dlou	2	dloeou
+敨	plou	2	ploeou
 斢	tkie	2	tkeiie
 黈	tkie	2	tkeiie
 蘣	tkk,	2	tkeiie
 哣	pos.	2	poiaee
+凸	des,	2	deieia
+凸	ges,	2	geieia
 唋	toae	2	toiaeu
 涋	tvio	2	tvooeo
 捸	tjei	2	tjeiea
@@ -15327,6 +16516,7 @@ encoder:
 湥	tvio	2	tvooeo
 瑹	sfk,	2	sfeeie
 瑹	tfk,	2	tfeeie
+嶀	det'	2	deiaie
 嶀	tet'	2	teiaie
 鋵	tah/	2	tauoee
 鵚	thn.	2	thueiu
@@ -15342,6 +16532,7 @@ encoder:
 蒤	tkv,	2	tkeiio
 筡	tzae	2	tzueou
 嵞	tah;	2	tauoee
+鈯	jac;	2	jauoee
 鈯	tac;	2	tauoee
 腯	tuh;	2	tuuaee
 瘏	tgt;	2	tgoeuo
@@ -15355,6 +16546,7 @@ encoder:
 駼	tqae	2	tqeiee
 鍎	tah;	2	tauoee
 鵌	trc,	2	truiae
+鵌	yrc,	2	yruiae
 鶟	tir.	2	tiooau
 鷋	tkao	2	tkeiiu
 鷵	tpt.	2	tpaeue
@@ -15375,6 +16567,7 @@ encoder:
 篿	tzs,	2	tzueou
 篿	zzs,	2	zzueou
 檲	tmoe	2	tmeiuo
+鏄	bas,	2	bauoee
 鏄	tas,	2	tauoee
 糰	tdoe	2	tdouei
 鷒	tsio	2	tseiae
@@ -15398,15 +16591,19 @@ encoder:
 骽	tcj'	2	tciaao
 侻	trd/	2	truiou
 娧	tnd/	2	tnaueo
+蜕	scd/	2	sciaei
 螁	bceo	2	bciaei
+螁	tceo	2	tciaei
 駾	tqd/	2	tqeiee
 呑	trp;	2	trueuo
 旽	tis'	2	tiiaee
 涒	tvei	2	tvooea
 涒	yvei	2	yvooea
 朜	tuw'	2	tuuaee
+焞	chw'	2	chouuo
 焞	thw'	2	thouuo
 黗	tvt'	2	tviaou
+屯	csc'	2	cseaia
 芚	tks'	2	tkeiie
 庉	dgs'	2	dgoeue
 庉	tgs'	2	tgoeue
@@ -15416,7 +16613,9 @@ encoder:
 鲀	tys'	2	tyuaia
 霕	ttd'	2	tteoai
 臋	tpk/	2	tpaeue
+氽	caia	2	cauoia
 畽	ttr;	2	ttiaei
+坉	dts'	2	dteiee
 坉	tts'	2	tteiee
 乇	zrea	2	zrueaa
 讬	twr,	2	twoaue
@@ -15428,6 +16627,7 @@ encoder:
 侂	trg,	2	truioe
 沰	dveu	2	dvooee
 沰	tveu	2	tvooee
+莌	dkd/	2	dkeiio
 莌	tkd/	2	tkeiio
 託	tyr,	2	tyoeee
 袥	tyeu	2	tyoaiu
@@ -15437,9 +16637,11 @@ encoder:
 陁	tbq'	2	tbaiue
 岮	teiu	2	teiaio
 狏	tqq'	2	tquauu
+沲	dvq'	2	dvooeu
 迱	til.	2	tiooau
 柁	tmiu	2	tmeiuo
 砤	tsq'	2	tseuia
+袉	dyiu	2	dyoaiu
 袉	tyiu	2	tyoaiu
 紽	tliu	2	tlaaoo
 堶	ttx;	2	tteiee
@@ -15447,6 +16649,7 @@ encoder:
 詑	tyiu	2	tyoeee
 詑	yyiu	2	yyoeee
 碢	tsc;	2	tseuia
+駄	dqp.	2	dqeiee
 槖	ttie	2	tteieo
 駞	tqq'	2	tqeiee
 踻	tnc;	2	tniaei
@@ -15484,8 +16687,10 @@ encoder:
 嗢	woii	2	woiaei
 韈	wkoo	2	wkeiie
 韤	wjeo	2	wjaiei
+喎	koc;	2	koiaei
 喎	woc;	2	woiaei
 竵	wls;	2	wloeou
+顡	ylz;	2	yloeou
 捥	wjia	2	wjeieo
 帵	weia	2	weiaio
 塆	wtw'	2	wteieo
@@ -15496,8 +16701,10 @@ encoder:
 抏	wjd/	2	wjeiee
 岏	wed/	2	weiaie
 笂	wzj.	2	wzueou
+捖	hjiu	2	hjeieo
 貦	whd/	2	whiaee
 骫	wcj.	2	wciaao
+宛	yiua	2	yiooau
 莬	wkuu	2	wkeiiu
 唍	woiu	2	woiaeo
 倇	wria	2	wruioo
@@ -15505,12 +16712,17 @@ encoder:
 琓	wfiu	2	wfeeie
 埦	wtia	2	wteieo
 梚	wmuu	2	wmeiuo
+晥	hiiu	2	hiiaee
 晥	wiiu	2	wiiaee
+脘	guiu	2	guuaee
+涴	wvia	2	wvooeo
 涴	yvia	2	yvooeo
 葂	mkua	2	mkeiiu
+葂	wkua	2	wkeiiu
 椀	wmia	2	wmeiuo
 晩	wiuu	2	wiiaee
 晼	wiia	2	wiiaee
+皖	hniu	2	hnuiae
 輓	wpuu	2	wpeiae
 綩	wlia	2	wlaaoo
 踠	wnia	2	wniaei
@@ -15522,8 +16734,11 @@ encoder:
 脕	wuuu	2	wuuaee
 鋄	was'	2	wauoee
 翫	wjd/	2	wjaoea
+瞣	hfoo	2	hfiaee
+蟃	mcia	2	mciaei
 蟃	wcia	2	wciaei
 贃	whoo	2	whiaee
+鎫	mar/	2	mauoee
 贎	whk.	2	whiaee
 尪	wxl,	2	wxeuae
 尫	wsn,	2	wseuae
@@ -15535,6 +16750,7 @@ encoder:
 莣	wkw.	2	wkeiio
 蚟	wcee	2	wciaei
 忹	wxee	2	wxooie
+罖	wfao	2	wfiaii
 徃	wpr,	2	wpuuiu
 菵	wkc.	2	wkeiii
 棢	wmc.	2	wmeiuo
@@ -15548,6 +16764,7 @@ encoder:
 盳	mfoe	2	mfiaee
 盳	wfoe	2	wfiaee
 朢	wcee	2	wceiae
+烓	qht,	2	qhouuo
 烓	wht,	2	whouuo
 隇	wbg.	2	wbaieu
 揻	wjg.	2	wjeiee
@@ -15559,6 +16776,7 @@ encoder:
 媙	wng.	2	wnauee
 楲	wmg.	2	wmeiuo
 椳	wmt'	2	wmeiuo
+詴	hyx;	2	hyoeee
 詴	wyx;	2	wyoeee
 溦	wveu	2	wvooei
 蝛	wcg.	2	wciaei
@@ -15571,7 +16789,9 @@ encoder:
 癐	wgai	2	wgoeuo
 鰄	wyg.	2	wyuaia
 囗	woia	2	woiaee
+沩	gvw.	2	gvooeo
 峗	weua	2	weiaiu
+峞	keua	2	keiaiu
 峞	weua	2	weiaiu
 洈	wvua	2	wvooeu
 琟	wfr.	2	wfeeie
@@ -15597,12 +16817,17 @@ encoder:
 浘	wvp/	2	wvooea
 屗	wpp,	2	wpaeuu
 梶	wmp/	2	wmeiuo
+硊	gsua	2	gseuia
+硊	ksua	2	kseuia
+硊	wsua	2	wseuia
 崣	weh'	2	weiaiu
 骩	wcj/	2	wciaao
 蒍	wkw.	2	wkeiio
 嵔	wet'	2	weiaii
 骪	wcj.	2	wciaao
 徫	wpj;	2	wpuuia
+廆	ggn'	2	ggoeuu
+廆	hgn'	2	hgoeuu
 廆	wgn'	2	wgoeuu
 愇	wxj;	2	wxooia
 椲	wmj;	2	wmeiuo
@@ -15618,11 +16843,13 @@ encoder:
 薳	wkt.	2	wkeiie
 儰	wrk.	2	wruiei
 鍡	wat'	2	wauoee
+濻	dvb;	2	dvooea
 濻	wvb;	2	wvooea
 壝	wtoo	2	wteiei
 颹	wnr;	2	wnuaui
 瀢	wvoo	2	wvooei
 韡	wjee	2	wjaiei
+亹	mwh;	2	mwoeui
 亹	wwh;	2	wwoeui
 斖	wuh;	2	wuoeuo
 苿	wkd;	2	wkeiie
@@ -15653,6 +16880,7 @@ encoder:
 鏏	waf'	2	wauoee
 鳚	wyp,	2	wyuaia
 蘶	wkh'	2	wkeiiu
+饖	hun.	2	huuooa
 饖	wun.	2	wuuooa
 躗	wpj;	2	wpuuia
 讆	wpj.	2	wpuuia
@@ -15673,15 +16901,20 @@ encoder:
 芠	wkoe	2	wkeiio
 彣	wuuu	2	wuoeuo
 炆	whoe	2	whouuo
+砇	wsoe	2	wseuia
 蚉	wuia	2	wuoeuo
 珳	wfuu	2	wfeeie
+駇	pque	2	pqeiee
 駇	wque	2	wqeiee
 馼	wqoe	2	wqeiee
 瘒	wgie	2	wgoeuo
+魰	jyoe	2	jyuaia
 魰	wyoe	2	wyuaia
 鳼	wur.	2	wuoeuo
 鴍	wur.	2	wuoeuo
+閺	mcio	2	mciaee
 閺	wcio	2	wciaee
+閺	ycio	2	yciaee
 螡	wuc;	2	wuoeuo
 闅	wcf'	2	wciaee
 鼤	wnl.	2	wnuiea
@@ -15691,11 +16924,13 @@ encoder:
 呚	woue	2	woiaeu
 呅	mooe	2	moiaeo
 呅	wooe	2	woiaeo
+忟	mxoe	2	mxooio
 肳	wub/	2	wuuaee
 忞	muoa	2	muoeuo
 桽	wmae	2	wmeiuo
 脗	wub;	2	wuuaee
 穏	whz.	2	whueiu
+汶	mvoe	2	mvooeo
 妏	wnoe	2	wnaueo
 揾	wjii	2	wjeiei
 搵	wjoi	2	wjeiei
@@ -15711,25 +16946,33 @@ encoder:
 暡	wir.	2	wiiaee
 瞈	wfr.	2	wfiaee
 聬	wbr.	2	wbeiie
+攚	yjh;	2	yjeieo
+蕹	ykw.	2	ykeiio
 罋	wwl;	2	wwoeaa
 齆	wrf'	2	wruiae
+捼	njh'	2	njeieu
 捼	rjh'	2	rjeieu
 唩	woh'	2	woiaeu
 猧	wqc;	2	wquaui
 涹	wvh'	2	wvooeu
+蜗	gcou	2	gciaei
 踒	wnh'	2	wniaei
 捰	wjie	2	wjeiei
+婐	vnie	2	vnauei
 婐	wnie	2	wnauei
 婑	rnh'	2	rnaueu
 婑	wnh'	2	wnaueu
 仴	wrua	2	wruiua
 捾	wjii	2	wjeieo
 偓	wrp,	2	wruiae
+硪	vsv.	2	vseuia
 焥	whia	2	whouuo
+焥	yhia	2	yhouuo
 媉	wnp,	2	wnauea
 楃	wmp,	2	wmeiuo
 腛	wup,	2	wuuaee
 瞃	wfh;	2	wfiaee
+瓁	hfk'	2	hfeeie
 瓁	wfk'	2	wfeeie
 濣	wvk,	2	wvooee
 弙	wgd;	2	wgaeae
@@ -15752,6 +16995,7 @@ encoder:
 郚	wwoa	2	wweiae
 莁	wkd/	2	wkeiie
 茣	wkoe	2	wkeiii
+唔	now;	2	noiaee
 洖	wvoe	2	wvooei
 娪	wnw;	2	wnauee
 珸	wfw;	2	wfeeie
@@ -15796,14 +17040,17 @@ encoder:
 隖	wbr.	2	wbaiui
 雺	mty/	2	mteoai
 雺	wty/	2	wteoai
+嵨	der.	2	deiaiu
 嵨	wer.	2	weiaiu
 溩	wvr.	2	wvooeu
 奦	wyj,	2	wyaoai
+鹜	myj,	2	myaoai
 熃	wyj.	2	wyaoai
 窹	wir;	2	wiooau
 霚	wty/	2	wteoai
 鼿	wrf/	2	wruiae
 齀	wrf.	2	wruiae
+邜	wuai	2	wuuaoa
 覀	xxei	2	xxeiai
 忚	xxai	2	xxooia
 扸	xjr'	2	xjeieu
@@ -15814,6 +17061,7 @@ encoder:
 俙	xrx;	2	xruiuo
 徔	zpk.	2	zpuuie
 徆	xpei	2	xpuuie
+郗	cxx'	2	cxuoeu
 饻	xuw/	2	xuuaao
 莃	xkx;	2	xkeiiu
 氥	xqei	2	xqueea
@@ -15841,7 +17089,9 @@ encoder:
 焬	yhiu	2	yhouuo
 蒠	xkr.	2	xkeiiu
 厀	xmaa	2	xmeiuo
+嵠	qez,	2	qeiaiu
 徯	xpz,	2	xpuuiu
+溪	qvz,	2	qvooeu
 煕	xceo	2	xceiia
 蜤	smj;	2	smeiuo
 蜤	xmj;	2	xmeiuo
@@ -15849,6 +17099,7 @@ encoder:
 豨	xzx;	2	xzeuau
 熈	xrc.	2	xrueia
 緆	xliu	2	xlaaoo
+緆	yliu	2	ylaaoo
 磎	qsz,	2	qseuia
 磎	xsz,	2	xseuia
 噏	xoao	2	xoiaeu
@@ -15868,14 +17119,17 @@ encoder:
 犠	xrj.	2	xrueie
 豀	xrae	2	xruouo
 貕	xzz,	2	xzuoou
+谿	qzl;	2	qzuoou
 谿	xzl;	2	xzuoou
 燨	xhd.	2	xhouuo
 鵗	xxx.	2	xxuoeu
 鯑	xyx;	2	xyuaia
 糦	xdt;	2	xdouei
+雟	scr;	2	scaiuu
 雟	xcr;	2	xcaiuu
 繥	xlt;	2	xlaaoo
 鏭	xar.	2	xauoee
+觹	wuui	2	wuuaua
 譆	xyt;	2	xyoeee
 隵	xbee	2	xbaiie
 巇	xeee	2	xeiaii
@@ -15888,6 +17142,7 @@ encoder:
 觿	xuui	2	xuuaua
 鑴	xaei	2	xauoee
 郋	xrf'	2	xruiae
+喺	bor;	2	boiaeu
 蒵	xkz,	2	xkeiiu
 蓆	xkg;	2	xkeiio
 椺	xmr,	2	xmeiuo
@@ -15930,10 +17185,12 @@ encoder:
 躧	xns/	2	xniaei
 匸	xcea	2	xceaaa
 卌	xkei	2	xkeiii
+呬	loia	2	loiaei
 呬	xoia	2	xoiaei
 忥	xqoa	2	xqueea
 怬	xxia	2	xxooii
 盻	xfr'	2	xfiaee
+咥	dos,	2	doiaee
 咥	xos,	2	xoiaee
 恄	xxt;	2	xxooie
 欯	ktou	2	kteiei
@@ -15957,9 +17214,11 @@ encoder:
 澙	xvn.	2	xvooeu
 潟	xvn.	2	xvooeu
 潝	xvao	2	xvooeu
+戱	heg,	2	heieau
 戱	xeg,	2	xeieau
 黖	xvt/	2	xviaou
 繋	jpn;	2	jpeiae
+繋	xpn;	2	xpeiae
 磶	xsn.	2	xseuia
 虩	xeiu	2	xeioui
 闟	xcao	2	xciaee
@@ -15968,17 +17227,23 @@ encoder:
 衋	xet;	2	xeaeee
 谺	xrau	2	xruouo
 閕	xcc/	2	xciaee
+傄	hrp;	2	hruieu
 敮	xrk'	2	xrueiu
 颬	xnr/	2	xnuaui
 鰕	xyc'	2	xyuaia
+郃	gas'	2	gauoei
 郃	has'	2	hauoei
 炠	xhii	2	xhouuo
+陜	sbp/	2	sbaieu
 陜	xbp/	2	xbaieu
 珨	xfai	2	xfeeie
 烚	xhai	2	xhouuo
+祫	jyai	2	jyoaio
+祫	qyai	2	qyoaio
 祫	xyai	2	xyoaio
 翈	xieo	2	xiiaee
 笚	xzii	2	xzueou
+舺	jzii	2	jzuuao
 舺	xzii	2	xzuuao
 陿	xbc/	2	xbaiee
 筪	xzc;	2	xzueou
@@ -15991,21 +17256,25 @@ encoder:
 赮	xtm'	2	xteieu
 螛	hcii	2	hciaei
 螛	xcii	2	xciaei
+魻	qyii	2	qyuaia
 魻	xyii	2	xyuaia
 縖	xlii	2	xlaaoo
 鍜	xac'	2	xauoee
 鎋	xaii	2	xauoee
 騢	xqc'	2	xqeiee
 鶷	xif.	2	xiooae
+閜	kcj;	2	kciaee
 閜	vcj;	2	vciaee
 丅	xsii	2	xseiii
 圷	xts;	2	xteiee
 芐	hks;	2	hkeiie
 芐	xks;	2	xkeiie
 疜	xgs;	2	xgoeuo
+夏	jsf/	2	jseuia
 梺	xmm;	2	xmeiuo
 懗	xxt/	2	xxooie
 鎼	xaeu	2	xauoee
+夓	jhd/	2	jhuiee
 鏬	xaei	2	xauoee
 仚	xaia	2	xauoia
 屳	xrw;	2	xruoia
@@ -16016,6 +17285,7 @@ encoder:
 杴	xmuu	2	xmeiuo
 姺	xnr/	2	xnaueu
 珗	xfr/	2	xfeeie
+莶	lkae	2	lkeiiu
 搟	xjp,	2	xjeiee
 嘕	xos.	2	xoiaee
 僊	xrx'	2	xruiei
@@ -16025,10 +17295,13 @@ encoder:
 嬐	xnau	2	xnaueu
 韱	xaae	2	xauouo
 褼	xyx'	2	xyoaiu
+繊	qlk,	2	qlaaoo
 繊	xlk,	2	xlaaoo
 蹮	xnx'	2	xniaei
 馦	xhii	2	xhueiu
 攕	jjae	2	jjeieu
+攕	sjae	2	sjeieu
+譣	qyau	2	qyoeee
 譣	xyau	2	xyoeee
 廯	xgy;	2	xgoeuu
 孅	xnae	2	xnaueu
@@ -16038,6 +17311,7 @@ encoder:
 鱻	xyy/	2	xyuaia
 咞	xos,	2	xoiaee
 伭	xrw'	2	xruioe
+闲	jcei	2	jcoiae
 挦	xjee	2	xjeiea
 胘	xuw'	2	xuuaee
 蚿	xcw'	2	xciaei
@@ -16046,6 +17320,7 @@ encoder:
 絃	xlw'	2	xlaaoo
 蛝	xceo	2	xciaei
 啣	xoq'	2	xoiaeu
+湺	yvr,	2	yvooeu
 嗛	qok;	2	qoiaeo
 嗛	xok;	2	xoiaeo
 衘	ypq,	2	ypuuiu
@@ -16065,14 +17340,18 @@ encoder:
 贒	xcei	2	xceiae
 鷴	xcm.	2	xciaee
 鷼	xcio	2	xciaee
+狝	mqui	2	mquauu
 狝	xqui	2	xquauu
+冼	sdr/	2	sdoeue
 崄	xeae	2	xeiaiu
+崄	yeae	2	yeiaiu
 毨	xpr/	2	xpueea
 烍	xhr/	2	xhouuo
 険	xbau	2	xbaiuo
 赻	xtn/	2	xteiei
 尠	xkf/	2	xkeiie
 尟	xis/	2	xiiaee
+禒	tym,	2	tyoaio
 禒	xym,	2	xyoaio
 箲	xzv/	2	xzueou
 鍌	xvr/	2	xvooeu
@@ -16084,6 +17363,7 @@ encoder:
 韅	xkoo	2	xkeiie
 灦	xvii	2	xvooei
 伣	qrc/	2	qruiia
+伣	xrc/	2	xruiia
 臽	xuui	2	xuuaui
 県	xfl;	2	xfiaee
 俔	qrf/	2	qruiia
@@ -16093,9 +17373,11 @@ encoder:
 垷	xtf/	2	xteiei
 哯	xof/	2	xoiaei
 涀	xvf/	2	xvooei
+娨	mnie	2	mnauei
 娊	xnf/	2	xnauei
 晛	xif/	2	xiiaee
 睍	xff/	2	xfiaee
+羡	ydf/	2	ydouee
 缐	xln;	2	xlaaeu
 絤	xlei	2	xlaaoo
 粯	xdf/	2	xdouei
@@ -16111,6 +17393,10 @@ encoder:
 麲	ykr/	2	ykeiuo
 臔	xuc;	2	xuuaee
 瀗	xvio	2	xvooeo
+糮	hdc;	2	hdouei
+糮	jdc;	2	jdouei
+鼸	jnl;	2	jnuiea
+鼸	qnl;	2	qnuiea
 鼸	xnl;	2	xnuiea
 郷	xlr'	2	xlaaua
 鄊	xlr'	2	xlaaue
@@ -16128,6 +17414,7 @@ encoder:
 纕	rlw/	2	rlaaoo
 纕	xlw/	2	xlaaoo
 瓨	hds.	2	hdeiee
+瓨	jds.	2	jdeiee
 佭	xrui	2	xruiua
 栙	xmui	2	xmeiuo
 絴	xld;	2	xlaaoo
@@ -16140,11 +17427,14 @@ encoder:
 蠁	xlr;	2	xlaauo
 饟	xuw/	2	xuuooa
 鱶	xyd.	2	xyuaia
+姠	snr;	2	snaueu
 姠	xnr;	2	xnaueu
 珦	xfr;	2	xfeeie
 萫	xkh;	2	xkeiiu
+缿	hqei	2	hqueei
 缿	xqei	2	xqueei
 稥	xhii	2	xhueiu
+勨	yuoa	2	yuuaia
 嶑	xeuu	2	xeiaiu
 潒	dvuu	2	dvooeu
 潒	xvuu	2	xvooeu
@@ -16159,13 +17449,16 @@ encoder:
 鸮	xos,	2	xoiaee
 恷	xrm.	2	xruiei
 虓	xjeu	2	xjuaie
+庨	qgt'	2	qgoeue
 庨	xgt'	2	xgoeue
 宯	xit'	2	xiooae
 猇	xqeu	2	xquaui
+猇	yqeu	2	yquaui
 焇	xhei	2	xhouuo
 婋	xneu	2	xnauei
 萷	xkei	2	xkeiii
 硣	xst'	2	xseuia
+翛	sreo	2	sruiiu
 翛	xreo	2	xruiiu
 痚	xgt'	2	xgoeuo
 痟	xgei	2	xgoeuo
@@ -16182,9 +17475,11 @@ encoder:
 藃	hkw/	2	hkeiio
 藃	xkw/	2	xkeiio
 蟏	xck.	2	xciaei
+蟂	jcr,	2	jciaei
 蟂	xcr,	2	xciaei
 穘	xht/	2	xhueiu
 簘	xzeu	2	xzueou
+鴵	jnv.	2	jnuoea
 謞	hyw;	2	hyoeee
 謞	xyw;	2	xyoeee
 鵁	jwr.	2	jwoeuo
@@ -16192,17 +17487,23 @@ encoder:
 髇	xcj;	2	xciaao
 譊	nyt/	2	nyoeee
 櫹	xmk;	2	xmeiuo
+嚻	vooi	2	voiaei
 嚻	xooi	2	xoiaei
 髐	xcj/	2	xciaao
+鷍	jrf.	2	jruiae
 鷍	xrf.	2	xruiae
 毊	xtp;	2	xteiea
 虈	xkoi	2	xkeiii
 洨	xvw/	2	xvooeo
 郩	xxx'	2	xxuoeu
+崤	yex;	2	yeiaiu
 訤	nyx/	2	nyoeee
+淆	yvx;	2	yvooeu
 誵	xyx;	2	xyoeee
 暁	xik/	2	xiiaee
 筿	xzue	2	xzueou
+皛	jnn/	2	jnuiae
+皛	ynn/	2	ynuiae
 篠	xzr,	2	xzueou
 皢	xnt/	2	xnuiae
 効	xwr'	2	xwoeuo
@@ -16211,14 +17512,17 @@ encoder:
 涍	xvt'	2	xvooee
 傚	xrw/	2	xruioe
 敩	xviu	2	xvoouo
+詨	jyw/	2	jyoeee
 詨	xyw/	2	xyoeee
 嘋	xot/	2	xoiaee
 嘨	xoeu	2	xoiaea
 誟	xyt'	2	xyoeee
 熽	xhei	2	xhouuo
+歗	ceeu	2	ceaeei
 歗	xeeu	2	xeaeei
 斅	xhd'	2	xhuiee
 斆	xhd/	2	xhuiee
+蝎	hcia	2	hciaei
 旪	xiei	2	xiiaee
 奊	ltt.	2	lteiee
 奊	xtt.	2	xteiee
@@ -16229,6 +17533,7 @@ encoder:
 脇	xuq'	2	xuuaee
 衺	xwc/	2	xwoeea
 脋	xqq;	2	xqauau
+偕	jrg/	2	jruiea
 揳	xjf,	2	xjeiee
 翓	xtoo	2	xteiei
 猲	gqia	2	gquaui
@@ -16240,12 +17545,15 @@ encoder:
 綊	xlp/	2	xlaaoo
 膎	xuz,	2	xuuaee
 熁	xhq;	2	xhouuo
+撷	jjt;	2	jjeiee
 擕	xjr;	2	xjeieu
 蝢	xcs;	2	xciaei
+緳	jgf;	2	jgoeue
 緳	xgf;	2	xgoeue
 燲	xhq;	2	xhouuo
 鞵	xkoe	2	xkeiie
 襭	xyt;	2	xyoaiu
+讗	hyei	2	hyoeee
 龤	xas/	2	xauoei
 冩	xin.	2	xioaui
 藛	xkio	2	xkeiio
@@ -16255,12 +17563,14 @@ encoder:
 缷	xqea	2	xqueei
 祄	xyau	2	xyoaio
 炧	xhq'	2	xhouuo
+炨	dhiu	2	dhouuo
 洩	xviu	2	xvooei
 娎	xjj'	2	xjeieu
 卨	xec;	2	xeieia
 屓	xpia	2	xpaeui
 焎	xjj.	2	xjeieu
 禼	xeoa	2	xeieia
+偰	qrf,	2	qruiee
 偰	xrf,	2	xruiee
 徢	xps;	2	xpuuie
 紲	xlk'	2	xlaaoo
@@ -16275,6 +17585,7 @@ encoder:
 噧	xok.	2	xoiaee
 屧	xpp,	2	xpaeuu
 緤	xlk,	2	xlaaoo
+薢	jkue	2	jkeiiu
 薢	xkue	2	xkeiiu
 韰	xeue	2	xeieua
 嶰	jeue	2	jeiaiu
@@ -16287,6 +17598,7 @@ encoder:
 蠏	xcue	2	xciaei
 爕	xyh.	2	xyoeee
 齥	xnau	2	xnieie
+齂	lrf;	2	lruiae
 齂	xrf;	2	xruiae
 躠	skr;	2	skeiiu
 躠	xkr;	2	xkeiiu
@@ -16309,10 +17621,12 @@ encoder:
 枔	xmaa	2	xmeiuo
 鬵	qcn;	2	qceaua
 伈	xroa	2	xruioa
+阠	sbl,	2	sbaiae
 阠	xbl,	2	xbaiae
 伩	xroe	2	xruioe
 孞	xjoa	2	xjaieo
 炘	xhuu	2	xhouuo
+信	sroe	2	sruioe
 軐	xpl,	2	xpeiae
 脪	xux;	2	xuuaee
 訫	xyoa	2	xyoeee
@@ -16340,8 +17654,10 @@ encoder:
 郉	xsx'	2	xseeue
 侀	xrs;	2	xruiee
 哘	xop,	2	xoiaeu
+钘	jas,	2	jaueee
 钘	xas,	2	xaueee
 洐	xvp,	2	xvooeu
+娙	kns,	2	knauee
 娙	xns,	2	xnauee
 铏	xas;	2	xaueee
 裄	xyp,	2	xyoaiu
@@ -16355,6 +17671,8 @@ encoder:
 塂	jtk'	2	jteiee
 緈	xlt,	2	xlaaoo
 臖	xhd;	2	xhuiee
+匂	bbua	2	bbuaua
+芎	qkae	2	qkeiia
 兇	xxc/	2	xxuoai
 讻	xwx'	2	xwoauo
 忷	xxx'	2	xxooiu
@@ -16372,6 +17690,7 @@ encoder:
 烋	xrm.	2	xruiei
 脩	xrei	2	xruiiu
 烌	xhr,	2	xhouuo
+脙	qus.	2	quuaee
 臹	xsy.	2	xseaoe
 髤	xcx,	2	xceiee
 樇	xmr;	2	xmeiuo
@@ -16381,19 +17700,24 @@ encoder:
 鏅	xar;	2	xauoee
 鱃	qyd;	2	qyuaia
 飍	xnr;	2	xnuaui
+苬	qkou	2	qkeiii
 苬	xkou	2	xkeiii
 滫	xvr;	2	xvooeu
 潃	xvp;	2	xvooeu
 綇	xlei	2	xlaaoo
 糔	xdk;	2	xdouei
+峀	beii	2	beiaii
 珛	xfx;	2	xfeeie
 琇	xfh'	2	xfeeie
+溴	cvr.	2	cvooeu
 綉	xlh'	2	xlaaoo
 璓	xfk'	2	xfeeie
 褏	xwh/	2	xwoeua
 褎	xwh/	2	xwoeua
 褎	ywh/	2	ywoeua
+裦	bwh/	2	bwoeua
 銹	xah'	2	xauoee
+螑	qcr.	2	qciaei
 螑	xcr.	2	xciaei
 嚊	por/	2	poiaeu
 繍	xleu	2	xlaaoo
@@ -16413,6 +17737,7 @@ encoder:
 幁	xes;	2	xeiaie
 媭	xxs'	2	xxuuue
 楈	xmj;	2	xmeiuo
+窢	hir,	2	hiooau
 窢	xir,	2	xiooau
 稰	xhj;	2	xhueiu
 魆	xnr.	2	xnuiae
@@ -16431,10 +17756,12 @@ encoder:
 鑐	xat;	2	xauoee
 俆	xrae	2	xruiuo
 蒣	xkp,	2	xkeiiu
+许	hwr,	2	hwoaue
 呴	xob;	2	xoiaeu
 珝	xfj.	2	xfeeie
 冔	xioi	2	xiiaee
 蛡	ycj.	2	yciaei
+暊	fis;	2	fiiaee
 鄦	xqk'	2	xqueei
 盨	xxs;	2	xxuuue
 伵	xria	2	xruiia
@@ -16450,6 +17777,7 @@ encoder:
 烅	xhr;	2	xhouuo
 勗	xih'	2	xiiaee
 敍	xah'	2	xauoee
+烼	hheu	2	hhouuo
 烼	xheu	2	xhouuo
 聓	xdn,	2	xdeieu
 壻	xtj;	2	xteiea
@@ -16474,12 +17802,14 @@ encoder:
 藚	xkt;	2	xkeiie
 鱮	xyh/	2	xyuaia
 鱮	yyh/	2	yyuaia
+蓿	skii	2	skeiio
 吅	xoia	2	xoiaei
 昍	xiia	2	xiiaee
 咺	xos,	2	xoiaee
 晅	xis,	2	xiiaee
 塇	xtie	2	xteieo
 萲	xkz'	2	xkeiiu
+萲	ykz'	2	ykeiiu
 愋	xxz'	2	xxooiu
 愃	xxie	2	xxooio
 媗	xnie	2	xnaueo
@@ -16494,6 +17824,8 @@ encoder:
 禤	xyf.	2	xyoaio
 蕿	xkh'	2	xkeiio
 諠	xyie	2	xyoeee
+嬛	hnf/	2	hnauei
+嬛	qnf/	2	qnauei
 嬛	xnf/	2	xnauei
 駽	xqoi	2	xqeiee
 轋	hpp.	2	hpeiae
@@ -16505,6 +17837,7 @@ encoder:
 翾	xfs.	2	xfiaii
 鰚	xyie	2	xyuaia
 譞	xyf/	2	xyoeee
+讂	jyuu	2	jyoeee
 讂	xyuu	2	xyoeee
 妶	xnw'	2	xnaueo
 玹	xfw'	2	xfeeie
@@ -16519,6 +17852,7 @@ encoder:
 怰	xxw'	2	xxooio
 昡	xiw'	2	xiiaee
 袨	xyw'	2	xyoaiu
+琄	qfoi	2	qfeeie
 琄	xfoi	2	xfeeie
 眴	xfb;	2	xfiaee
 衒	xpw,	2	xpuuio
@@ -16528,6 +17862,7 @@ encoder:
 繏	xlb/	2	xlaaoo
 贙	xeg;	2	xeieau
 疶	xgk'	2	xgoeuo
+蒆	qkd'	2	qkeiie
 蒆	xkd'	2	xkeiie
 辥	ycr.	2	ycaiuu
 辪	xnr.	2	xnieie
@@ -16539,6 +17874,7 @@ encoder:
 峃	xvii	2	xvoouo
 鸴	xvie	2	xvoouo
 袕	xyiu	2	xyoaiu
+踅	cjj;	2	cjeieu
 燢	xhd.	2	xhuiee
 觷	hhd/	2	hhuiee
 觷	xhd/	2	xhuiee
@@ -16550,6 +17886,8 @@ encoder:
 轌	xpt'	2	xpeiae
 坹	xtiu	2	xteieo
 狘	xqh.	2	xquaue
+狘	yqh.	2	yquaue
+泧	yvh.	2	yvooee
 怴	xxh.	2	xxooie
 桖	xmr;	2	xmeiuo
 谑	xwee	2	xwoaie
@@ -16559,8 +17897,10 @@ encoder:
 焄	her.	2	heaeeu
 焄	xer.	2	xeaeeu
 勛	xoh'	2	xoiaei
+蔒	hkeo	2	hkeiia
 蔒	xkeo	2	xkeiia
 勲	xrs.	2	xrueia
+駨	jqb;	2	jqeiee
 薫	xkr.	2	xkeiiu
 壎	xtr.	2	xteieu
 嚑	xor.	2	xoiaeu
@@ -16573,7 +17913,9 @@ encoder:
 纁	xlr.	2	xlaaoo
 廵	xll'	2	xlaaaa
 杊	xmui	2	xmeiuo
+畃	sieo	2	siiaee
 郇	xbia	2	xbuaia
+荨	tkee	2	tkeiia
 荨	xkee	2	xkeiia
 咰	sob;	2	soiaeu
 咰	xob;	2	xoiaeu
@@ -16583,6 +17925,7 @@ encoder:
 桪	xmee	2	xmeiuo
 毥	xpb;	2	xpueea
 偱	xrh;	2	xruiuu
+揗	sjh;	2	sjeieu
 揗	xjh;	2	xjeieu
 鄩	xed'	2	xeaeee
 噚	xoee	2	xoiaea
@@ -16609,7 +17952,9 @@ encoder:
 殾	xtr'	2	xteieu
 稄	zhy/	2	zhueiu
 賐	xhy/	2	xhiaee
+愻	sjr.	2	sjaieu
 愻	xjr.	2	xjaieu
+蕈	jkx,	2	jkeiie
 噀	xob/	2	xoiaea
 濬	jvei	2	jvooei
 濬	xvei	2	xvooei
@@ -16620,19 +17965,24 @@ encoder:
 孲	yjs,	2	yjaiee
 鵶	yseo	2	yseiea
 鐚	yas.	2	yauoee
+岈	xec/	2	xeiaie
 玡	yfc/	2	yfeeie
 枒	ymc/	2	ymeiuo
 厓	ygt,	2	ygeuei
 疨	ygc/	2	ygoeuo
 笌	yzc/	2	yzueou
+堐	vtg,	2	vteiee
 堐	ytg,	2	yteiee
 崕	yeg,	2	yeiaie
+崖	veg,	2	veiaie
 猚	yqr.	2	yquauu
 瑘	yfb'	2	yfeeie
+睚	vfg,	2	vfiaee
 漄	yvee	2	yvooei
 齖	ynau	2	ynieie
 厊	ygc/	2	ygeuea
 庌	ygc/	2	ygoeue
+哑	vos,	2	voiaee
 唖	yos,	2	yoiaee
 蕥	ykc.	2	ykeiie
 劜	yqaa	2	yqauaa
@@ -16640,10 +17990,12 @@ encoder:
 襾	ysc,	2	yseiai
 亜	ysoe	2	yseiae
 犽	yqc/	2	yquaue
+垭	wts,	2	wteiee
 挜	yjs,	2	yjeiee
 俹	yrs,	2	yruiei
 聐	ybt;	2	ybeiie
 猰	yqf,	2	yquaue
+圔	vot;	2	voiaei
 圔	yot;	2	yoiaei
 稏	yhs,	2	yhueiu
 窫	yir,	2	yiooau
@@ -16683,6 +18035,7 @@ encoder:
 塩	ytq;	2	yteieu
 楌	yml/	2	ymeiuo
 揅	yss/	2	yseuia
+詽	xys,	2	xyoeee
 蔅	ykc'	2	ykeiii
 碞	yooe	2	yoiaei
 虤	yeg/	2	yeieau
@@ -16728,6 +18081,7 @@ encoder:
 黡	ygp.	2	ygeueu
 檿	ygie	2	ygeuia
 鶠	ycio	2	yceiae
+齞	nnau	2	nnieie
 齞	ynau	2	ynieie
 甗	yeg.	2	yeieau
 黤	yvt'	2	yviaou
@@ -16748,7 +18102,10 @@ encoder:
 牪	yrj,	2	yrueie
 姲	ynia	2	ynaueo
 烻	shr'	2	shouuo
+烻	yhr'	2	yhouuo
+掞	sjh.	2	sjeieo
 豜	jzs,	2	jzeuau
+豜	yzs,	2	yzeuau
 偐	yrl/	2	yruioe
 焔	yhui	2	yhouuo
 隁	ybc'	2	ybaiei
@@ -16763,6 +18120,7 @@ encoder:
 熖	yhz/	2	yhouuo
 嬊	ykoa	2	ykeiie
 鴈	ygr.	2	ygeuui
+鬳	jeg;	2	jeieau
 鬳	yeg;	2	yeieau
 燄	yun.	2	yuuaui
 嬮	ygia	2	ygeuia
@@ -16798,7 +18156,9 @@ encoder:
 眏	yfv/	2	yfiaee
 雵	ytv/	2	yteoai
 鉠	yav/	2	yauoee
+羊	xdf;	2	xdouee
 阦	ybou	2	ybaiou
+玚	cfj/	2	cfeeie
 玚	yfj/	2	yfeeie
 旸	yij/	2	yiiaee
 飏	ynx/	2	ynuauo
@@ -16810,8 +18170,10 @@ encoder:
 羏	ydv/	2	ydouee
 珜	yfd;	2	yfeeie
 眻	yfd;	2	yfiaee
+崸	des;	2	deiaie
 崵	yeiu	2	yeiaii
 敭	yis/	2	yiiaee
+蝆	mcee	2	mciaei
 蝆	ycee	2	yciaei
 禓	yyiu	2	yyoaio
 輰	ypiu	2	ypeiae
@@ -16822,12 +18184,14 @@ encoder:
 霷	ytiu	2	yteoai
 鸉	ymio	2	ymeiuo
 卬	vhai	2	vhuaai
+卬	yhai	2	yhuaai
 佒	yrv/	2	yruiia
 坱	ytv/	2	yteiei
 岟	yev/	2	yeiaii
 炴	yhv/	2	yhouuo
 紻	ylv/	2	ylaaoo
 楧	ymk/	2	ymeiuo
+軮	vpv/	2	vpeiae
 軮	ypv/	2	ypeiae
 傟	yrr.	2	yruiuo
 氱	yqiu	2	yqueea
@@ -16871,20 +18235,24 @@ encoder:
 餆	yun.	2	yuuooa
 磘	ysz;	2	yseuia
 嶤	yet/	2	yeiaie
+徺	ypt/	2	ypuuie
 窰	yir;	2	yiooau
 餚	yux;	2	yuuooa
 謡	yyz;	2	yyoeee
 鎐	yaz;	2	yauoee
 蘨	ykz;	2	ykeiiu
+顤	xtt;	2	xteiee
 顤	ytt;	2	yteiee
 仸	yrr,	2	yruiue
 岆	yer,	2	yeiaiu
 宎	yir,	2	yiooau
 抭	yjiu	2	yjeieo
 苭	ykl'	2	ykeiia
+杳	mmia	2	mmeiuo
 狕	yql'	2	yquaua
 柼	ymiu	2	ymeiuo
 眑	yfl'	2	yfiaee
+舀	wzui	2	wzuoou
 窅	yir;	2	yiooau
 偠	yrx'	2	yruiei
 婹	ynx'	2	ynauee
@@ -16902,6 +18270,7 @@ encoder:
 葯	ykl.	2	ykeiia
 筄	yzn.	2	yzueou
 鈅	yaua	2	yauoee
+詏	vyl'	2	vyoeee
 詏	yyl'	2	yyoeee
 靿	ykoa	2	ykeiie
 覞	yfn/	2	yfiaee
@@ -16917,6 +18286,7 @@ encoder:
 纅	yln,	2	ylaaoo
 讑	yyae	2	yyoeee
 倻	yrb'	2	yruiei
+暍	hiia	2	hiiaee
 暍	yiia	2	yiiaee
 潱	yvt.	2	yvooee
 蠮	ycc.	2	yciaei
@@ -16931,6 +18301,7 @@ encoder:
 嘢	yoii	2	yoiaei
 漜	yvm,	2	yvooee
 壄	ymy,	2	ymeiuo
+叶	soei	2	soiaee
 曵	yil.	2	yiiaee
 抴	yjk'	2	yjeiee
 枼	ykl,	2	ykeiie
@@ -16944,7 +18315,9 @@ encoder:
 鄓	yrf'	2	yruiae
 墷	ytk,	2	yteiee
 楪	dmk,	2	dmeiuo
+楪	ymk,	2	ymeiuo
 馌	yut;	2	yuuaae
+璍	hfk,	2	hfeeie
 曅	yik,	2	yiiaee
 僷	yrk,	2	yruiei
 歋	yheu	2	yhuuie
@@ -16979,6 +18352,7 @@ encoder:
 祎	yyd;	2	yyoaio
 洢	yvr/	2	yvooeu
 畩	ytw/	2	ytiaei
+渏	qvp;	2	qvooee
 郼	yjea	2	yjaiei
 欹	qpj/	2	qpeuoe
 蛜	ycr/	2	yciaei
@@ -17000,7 +18374,9 @@ encoder:
 宐	yieo	2	yiooai
 戺	swp'	2	swoaeu
 戺	ywp'	2	ywoaeu
+冝	kiia	2	kioaia
 侇	yrs/	2	yruiea
+狋	nqd;	2	nquaue
 狋	yqd;	2	yquaue
 沶	yvd;	2	yvooee
 衪	yyai	2	yyoaiu
@@ -17012,7 +18388,9 @@ encoder:
 瓵	yyoo	2	yyaoia
 巸	ycea	2	yceiia
 桋	yms/	2	ymeiuo
+栘	cmuu	2	cmeiuo
 栘	ymuu	2	ymeiuo
+眙	cfy;	2	cfiaee
 宧	yic;	2	yiooae
 扅	ywp/	2	ywoaeu
 袘	yyq'	2	yyoaiu
@@ -17047,8 +18425,11 @@ encoder:
 鏔	yaiu	2	yauoee
 籎	yzl;	2	yzueou
 觺	ylg/	2	yluaue
+讉	qyoo	2	qyoeee
 鸃	yrc.	2	yruiae
 迆	yyoa	2	yyaiao
+佁	cry;	2	cruiao
+佁	vry;	2	vruiao
 佁	yry;	2	yruiao
 攺	ybue	2	ybaeau
 苢	ykia	2	ykeiii
@@ -17063,6 +18444,7 @@ encoder:
 鉯	yal/	2	yauoee
 旑	yqp;	2	yqoeau
 輢	ypp;	2	ypeiae
+敼	xtoa	2	xteiei
 敼	ytoa	2	yteiei
 螘	yceo	2	yciaei
 檥	ymd.	2	ymeiuo
@@ -17070,15 +18452,19 @@ encoder:
 顗	yes;	2	yeiaie
 轙	ypd.	2	ypeiae
 齮	ynai	2	ynieie
+乂	vxuo	2	vxuooo
 乂	yxuo	2	yxuooo
+仡	yrq'	2	yruiue
 肊	yuaa	2	yuuaee
 匇	ybua	2	ybuaua
 阣	ybq'	2	ybaiue
 芅	ykea	2	ykeiie
 伇	yrn'	2	yruiua
 忔	qxq'	2	qxooiu
+忔	xxq'	2	xxooiu
 坄	ytn'	2	yteieu
 耴	ybaa	2	ybeiie
+耴	zbaa	2	zbeiie
 苅	ykx;	2	ykeiiu
 杙	ymea	2	ymeiuo
 劮	yqaa	2	yqueeu
@@ -17094,9 +18480,11 @@ encoder:
 玴	yfk'	2	yfeeie
 枻	ymk'	2	ymeiuo
 昳	diq/	2	diiaee
+昳	yiq/	2	yiiaee
 帠	ynia	2	ynuiea
 俋	yroa	2	yruiia
 帟	ywm;	2	ywoeui
+浂	gvk,	2	gvooeo
 浂	yvk,	2	yvooeo
 衵	yyia	2	yyoaiu
 栧	ymiu	2	ymeiuo
@@ -17115,6 +18503,7 @@ encoder:
 萟	ykh.	2	ykeiiu
 殹	ycg'	2	yceuee
 悘	ycg.	2	yceuee
+豛	dzn'	2	dzeuau
 豛	yzn'	2	yzeuau
 隿	ylr.	2	yleaou
 釴	yaea	2	yauoee
@@ -17127,12 +18516,15 @@ encoder:
 殔	ysui	2	yseuao
 晹	yiiu	2	yiiaee
 敡	yib'	2	yiiaee
+跇	cnk'	2	cniaei
 跇	ynk'	2	yniaei
 幆	yeia	2	yeiaii
 骮	ycj,	2	yciaao
 鈠	yan'	2	yauoee
+詍	syk'	2	syoeee
 詍	yyk'	2	yyoeee
 焲	yhw.	2	yhouuo
+湙	jvw,	2	jvooeo
 搤	vjk;	2	vjeieo
 亄	ytia	2	yteieo
 獈	yqk;	2	yquauo
@@ -17148,9 +18540,12 @@ encoder:
 廙	ygt/	2	ygoeui
 潩	yvt/	2	yvooei
 嫕	ync.	2	ynauee
+撎	tjt.	2	tjeiee
 槸	ymt.	2	ymeiuo
+鹝	nsoe	2	nseiae
 鹝	ysoe	2	yseiae
 黓	yvt,	2	yviaou
+鹢	nkr,	2	nkoueu
 鹢	ykr,	2	ykoueu
 熼	yht/	2	yhouuo
 熤	yhj.	2	yhouuo
@@ -17175,14 +18570,18 @@ encoder:
 斁	dft/	2	dfiaii
 斁	yft/	2	yfiaii
 歝	yft/	2	yfiaii
+貖	vzk;	2	vzuoou
 燡	yhf,	2	yhouuo
 燱	yhl.	2	yhouuo
+寱	nil,	2	niooaa
 寱	yil,	2	yiooaa
 藙	ykl'	2	ykeiio
+贀	wcg;	2	wceuee
 贀	ycg;	2	yceuee
 豷	yzt.	2	yzeuau
 霬	ytt/	2	yteoai
 鶍	yib.	2	yiiaee
+鶂	nnn.	2	nnuiea
 鶂	ynn.	2	ynuiea
 鶃	yrc/	2	yruiae
 鯣	yyiu	2	yyuaia
@@ -17195,6 +18594,7 @@ encoder:
 瀷	yvj/	2	yvooea
 鷧	ytio	2	yteieo
 襼	yyk'	2	yyoaiu
+虉	vks.	2	vkeiie
 虉	yks.	2	ykeiie
 鷾	ylio	2	yloeou
 齸	ynai	2	ynieie
@@ -17230,6 +18630,7 @@ encoder:
 闉	ycx,	2	yciaee
 噾	yoii	2	yoiaeo
 濦	yvz.	2	yvooeu
+韾	htp;	2	hteiea
 韾	ytp;	2	yteiea
 冘	yiua	2	yioaua
 乑	yzui	2	yzuiuu
@@ -17252,15 +18653,18 @@ encoder:
 崯	yeuo	2	yeiaiu
 訡	yyaa	2	yyoeee
 婬	ynz,	2	ynaueu
+龂	knau	2	knieie
 龂	ynau	2	ynieie
 鈝	yar,	2	yauoee
 碒	ysuo	2	yseuia
 滛	yvz;	2	yvooeu
 蔩	ykiu	2	ykeiio
+龈	knao	2	knieie
 璌	yfiu	2	yfeeie
 殥	ysuu	2	yseuao
 噖	yof'	2	yoiaee
 誾	ycoe	2	yciaee
+膶	yuc,	2	yuuaee
 檭	ymao	2	ymeiuo
 蟫	ycx,	2	yciaei
 嚚	yooi	2	yoiaei
@@ -17281,8 +18685,10 @@ encoder:
 櫽	ybz,	2	ybaiuo
 讔	yyb.	2	yyoeee
 廴	yzao	2	yzaooo
+岃	yeq.	2	yeiaia
 洕	yvr;	2	yvooeu
 垽	yvj,	2	yvooeu
+堷	vtl;	2	vteieo
 猌	ykr.	2	ykeiuo
 湚	yvr'	2	yvooeu
 廕	ygb'	2	ygoeua
@@ -17301,6 +18707,7 @@ encoder:
 愥	yxk/	2	yxooie
 媖	ynk/	2	ynauee
 绬	ylk/	2	ylaaee
+焽	yiuo	2	yiiaee
 朠	yuk/	2	yuuaee
 煐	yhk/	2	yhouuo
 碤	ysk/	2	yseuia
@@ -17309,6 +18716,7 @@ encoder:
 賏	yhia	2	yhiaee
 蝧	yck/	2	yciaei
 甇	yhh.	2	yhouuo
+霙	jtk/	2	jteoai
 霙	ytk/	2	yteoai
 罃	yhh;	2	yhouuo
 褮	yhh/	2	yhouuo
@@ -17337,9 +18745,11 @@ encoder:
 僌	yrp/	2	yruiei
 蝿	ycia	2	yciaei
 藀	ykh.	2	ykeiio
+覮	phh/	2	phouuo
 覮	yhh/	2	yhouuo
 謍	yhh.	2	yhouuo
 濚	yvh,	2	yvooeo
+濴	xvh;	2	xvooeo
 濴	yvh;	2	yvooeo
 濙	yvh.	2	yvooeo
 攍	yjw.	2	yjeieo
@@ -17377,6 +18787,7 @@ encoder:
 廱	ygl.	2	ygoeua
 灉	yvl.	2	yvooea
 鷛	ygeo	2	ygoeua
+鰫	ryii	2	ryuaia
 鰫	yyii	2	yyuaia
 怺	yxw'	2	yxooio
 栐	ymw'	2	ymeiuo
@@ -17388,6 +18799,7 @@ encoder:
 惥	ynao	2	ynuiea
 愑	yxy'	2	yxooia
 塎	ytii	2	yteieo
+嵱	reii	2	reiaio
 嵱	yeii	2	yeiaio
 愹	yxii	2	yxooio
 彮	yir/	2	yiooau
@@ -17413,9 +18825,11 @@ encoder:
 沋	yvx.	2	yvooee
 肬	yux.	2	yuuaee
 怞	yxii	2	yxooii
+怞	zxii	2	zxooii
 怣	yqao	2	yqueeu
 斿	yqq'	2	yqoeau
 莤	ykei	2	ykeiie
+莜	dkr/	2	dkeiiu
 逌	yeoo	2	yeieia
 蚘	hcx.	2	hciaei
 蚘	ycx.	2	yciaei
@@ -17439,6 +18853,7 @@ encoder:
 庮	ygei	2	ygoeue
 聈	ybl'	2	ybeiie
 梄	ymei	2	ymeiuo
+脜	rus;	2	ruuaee
 蒏	ykie	2	ykeiio
 湵	yvd.	2	yvooeo
 蜏	ych'	2	yciaei
@@ -17451,7 +18866,9 @@ encoder:
 迶	yxuo	2	yxeuia
 哊	yox;	2	yoiaee
 峟	yex;	2	yeiaie
+牰	xrj;	2	xrueie
 牰	yrj;	2	yrueie
+祐	syx;	2	syoaio
 祐	yyx;	2	yyoaio
 姷	ynx;	2	ynauee
 唀	yoh'	2	yoiaeu
@@ -17461,13 +18878,17 @@ encoder:
 貁	yziu	2	yzuoou
 亴	ywou	2	ywoeia
 酭	yxx;	2	yxeiau
+込	rrw.	2	rruooa
 迃	ydj.	2	ydeeao
+扜	gjd;	2	gjeiee
 扜	yjd;	2	yjeiee
+陓	wbp'	2	wbaieu
 陓	ybp'	2	ybaieu
 虶	ycd;	2	yciaei
 唹	yoq.	2	yoiaeo
 盓	yvd;	2	yvooee
 箊	yzq.	2	yzueou
+于	wdii	2	wdeeii
 亐	ydaa	2	ydeeaa
 邘	ydea	2	ydeeia
 伃	yry;	2	yruiao
@@ -17479,6 +18900,7 @@ encoder:
 杅	ymd;	2	ymeiuo
 衧	yyd;	2	yyoaiu
 茰	ykiu	2	ykeiii
+俞	sas;	2	sauoei
 兪	srw'	2	sruoei
 兪	yrw'	2	yruoei
 酑	yxd;	2	yxeiau
@@ -17486,6 +18908,7 @@ encoder:
 悇	yxae	2	yxooiu
 娯	ynou	2	ynauei
 釪	yad;	2	yauoee
+隃	ybai	2	ybaiuo
 堣	ytio	2	yteiei
 堬	ytai	2	yteieu
 楰	ymn/	2	ymeiuo
@@ -17493,11 +18916,16 @@ encoder:
 畭	ytae	2	ytiaei
 嵎	yeio	2	yeiaii
 骬	ycj;	2	yciaao
+畬	sah;	2	sauoee
 畬	yah;	2	yauoee
+湡	vvio	2	vvooei
 湡	yvio	2	yvooei
 媮	tnai	2	tnaueu
 婾	tnr'	2	tnaueu
+婾	ynr'	2	ynaueu
 楡	ymr'	2	ymeiuo
+牏	trei	2	truiea
+牏	zrei	2	zruiea
 艅	yzae	2	yzuuao
 歈	yas/	2	yauoei
 睮	yfai	2	yfiaee
@@ -17530,6 +18958,7 @@ encoder:
 穻	yir;	2	yiooau
 挧	yjj.	2	yjeiea
 峿	wew;	2	weiaie
+峿	yew;	2	yeiaie
 祤	yyj.	2	yyoaio
 敔	ywou	2	yweiae
 匬	ycai	2	yceuoe
@@ -17538,6 +18967,7 @@ encoder:
 萭	ykr.	2	ykeiiu
 萮	ykai	2	ykeiiu
 铻	waw;	2	waueee
+铻	yaw;	2	yaueee
 斞	ynae	2	ynuiea
 瑀	yfr.	2	yfeeie
 楀	ymr.	2	ymeiuo
@@ -17547,8 +18977,10 @@ encoder:
 噳	yoee	2	yoiaei
 貐	yzai	2	yzuoou
 斔	yuc/	2	yuoeuo
+麌	wgc,	2	wgoeua
 麌	ygc,	2	ygoeua
 蘌	ykp;	2	ykeiiu
+圫	ytr,	2	yteieu
 芌	ykd'	2	ykeiie
 忬	yxy;	2	yxooia
 茟	wkee	2	wkeiia
@@ -17569,6 +19001,7 @@ encoder:
 棫	yml,	2	ymeiuo
 棜	ymq.	2	ymeiuo
 棛	ymw;	2	ymeiuo
+硲	gsr;	2	gseuia
 喅	yoio	2	yoiaei
 喩	yor'	2	yoiaeu
 庽	ygio	2	ygoeui
@@ -17579,6 +19012,7 @@ encoder:
 罭	yfl,	2	yfiaii
 稢	yhl,	2	yhueiu
 艈	yzw/	2	yzuuao
+愈	was.	2	wauoei
 滪	yvy;	2	yvooea
 輍	ypr;	2	ypeiae
 戫	yxue	2	yxeuia
@@ -17588,10 +19022,13 @@ encoder:
 僪	yry;	2	yruiao
 銉	yaee	2	yauoee
 瘉	ygai	2	ygoeuo
+澚	vvr'	2	vvooeu
 隩	vbr,	2	vbaiui
+隩	ybr,	2	ybaiui
 緎	yll,	2	ylaaoo
 鳿	yfr.	2	yfeeie
 墺	vtr,	2	vteieu
+薁	ykr,	2	ykeiiu
 蓹	ykp'	2	ykeiiu
 噊	yoy;	2	yoiaea
 稶	yhl.	2	yhueiu
@@ -17602,8 +19039,10 @@ encoder:
 錥	yaw;	2	yauoee
 燏	yhy;	2	yhouuo
 鴪	yir.	2	yiooau
+鴧	rin.	2	riooau
 礇	ysr,	2	yseuia
 儥	drt;	2	druiei
+儥	mrt;	2	mruiei
 儥	yrt;	2	yruiei
 魊	ynr,	2	ynuiae
 醧	vxc;	2	vxeiau
@@ -17617,6 +19056,7 @@ encoder:
 饇	yuc;	2	yuuooa
 霱	yty;	2	yteoai
 轝	yhd,	2	yhuiee
+鐭	var,	2	vauoee
 驈	yqy;	2	yqeiee
 欎	ymx,	2	ymeiuo
 籞	yzp;	2	yzueou
@@ -17652,6 +19092,7 @@ encoder:
 円	ycee	2	yciaie
 邧	ydn'	2	ydeeua
 贠	yyia	2	yyaoia
+妧	wnd/	2	wnauee
 妧	ynd/	2	ynauee
 杬	ymd/	2	ymeiuo
 蚖	wcd/	2	wciaei
@@ -17695,15 +19136,19 @@ encoder:
 夗	yuaa	2	yuuaoa
 肙	yoia	2	yoiaei
 茒	ykua	2	ykeiiu
+妴	wub'	2	wuuaoa
 妴	yub'	2	yuuaoa
+垸	htiu	2	hteieo
 衏	ypd,	2	ypuuie
 禐	yyz'	2	yyoaio
 裫	yyd;	2	yyoaiu
 噮	yof/	2	yoiaei
 曱	yiii	2	yiiaee
 箹	yzl.	2	yzueou
+矱	hgk'	2	hgueeu
 矱	ygk'	2	ygueeu
 彟	yec'	2	yeaeee
+月	ruua	2	ruuaee
 戉	yhl.	2	yheaau
 汋	zvb.	2	zvooeu
 抈	yjua	2	yjeieu
@@ -17712,6 +19157,7 @@ encoder:
 玥	yfua	2	yfeeie
 枂	ymua	2	ymeiuo
 恱	yxr/	2	yxooiu
+軏	wps/	2	wpeiae
 軏	yps/	2	ypeiae
 蚎	ycia	2	yciaei
 蚏	ycua	2	yciaei
@@ -17738,7 +19184,10 @@ encoder:
 蝹	ycii	2	yciaei
 輼	wpii	2	wpeiae
 赟	yus;	2	yuoeuo
+頵	jer;	2	jeaeeu
 頵	yer;	2	yeaeeu
+馧	whii	2	whueiu
+伝	crd'	2	cruiee
 伝	yrd'	2	yruiee
 囩	yod'	2	yoiaee
 沄	yvd'	2	yvooee
@@ -17780,16 +19229,21 @@ encoder:
 熅	yhoi	2	yhouuo
 蕰	wkv;	2	wkeiio
 緼	ylii	2	ylaaoo
+薀	wkv;	2	wkeiio
 薀	ykv;	2	ykeiio
 醖	yxii	2	yxeiau
 餫	huie	2	huuooa
 餫	yuie	2	yuuooa
+鞰	ykoi	2	ykeiie
 藴	ykl;	2	ykeiia
+韗	xjee	2	xjaiei
 韗	yjee	2	yjaiei
 帀	zsia	2	zseiai
+迊	yseo	2	yseiai
 沞	zvs;	2	zvooee
 桚	zml/	2	zmeiuo
 鉔	zac;	2	zauoee
+魳	bys;	2	byuaia
 臜	zur;	2	zuuaee
 沯	zveu	2	zviauo
 韴	zlii	2	zloeou
@@ -17801,11 +19255,13 @@ encoder:
 烖	zkl.	2	zkeieo
 菑	zkl;	2	zkeiia
 渽	zvk;	2	zvooee
+溨	cvk,	2	cvooee
 睵	zfk;	2	zfiaee
 賳	zhk;	2	zhiaee
 扗	zjei	2	zjeiee
 洅	zvs;	2	zvooee
 傤	zrk,	2	zruiei
+酨	dkl,	2	dkeiee
 酨	zkl,	2	zkeiee
 儎	zrk,	2	zruiei
 縡	zlio	2	zlaaoo
@@ -17819,11 +19275,15 @@ encoder:
 撍	zjc;	2	zjeiee
 噆	coc;	2	coiaee
 噆	zoc;	2	zoiaee
+儧	crd;	2	cruiee
 儧	zrd;	2	zruiee
+儹	crr;	2	cruiue
 儹	zrr;	2	zruiue
 賛	zdai	2	zdeeuo
+鄼	cdaa	2	cdeeuo
 鄼	zdaa	2	zdeeuo
 蹔	zpj;	2	zpeiae
+酂	crt'	2	crueie
 酂	zrt'	2	zrueie
 濽	zvd;	2	zvooee
 瓉	zfd;	2	zfeeie
@@ -17856,9 +19316,12 @@ encoder:
 薻	zkv,	2	zkeiio
 皁	znei	2	znuiae
 梍	zmn,	2	zmeiuo
+喿	cooe	2	coiaei
 喿	zooe	2	zoiaei
 艁	zzr;	2	zzuuao
+煰	ghoi	2	ghouuo
 慥	zxr.	2	zxooiu
+簉	czr.	2	czueou
 簉	zzr.	2	zzueou
 趮	ztn,	2	zteiei
 譟	zyoe	2	zyoeee
@@ -17870,8 +19333,11 @@ encoder:
 啫	zot;	2	zoiaee
 唶	jok;	2	joiaee
 溭	zvt/	2	zvooei
+矠	cyj;	2	cyaoai
 蔶	zkf;	2	zkeiie
+箦	kzf;	2	kzueou
 嫧	znf;	2	znauee
+樍	jmf;	2	jmeiuo
 歵	znf;	2	znieie
 諎	zyk;	2	zyoeee
 瞔	zff;	2	zfiaee
@@ -17889,6 +19355,7 @@ encoder:
 庂	zguo	2	zgoeuu
 汄	zvuo	2	zvooeu
 昗	ziw/	2	ziiaee
+捑	sjio	2	sjeiei
 捑	zjio	2	zjeiei
 崱	zeh;	2	zeiaii
 戝	zhea	2	zhiaee
@@ -17898,6 +19365,7 @@ encoder:
 譛	zyd;	2	zyoeee
 囎	zoh;	2	zoiaei
 増	ztd;	2	zteieo
+鄫	cdv'	2	cdouia
 璔	zfd;	2	zfeeie
 橧	zmd;	2	zmeiuo
 熷	zhd;	2	zhouuo
@@ -17918,6 +19386,7 @@ encoder:
 觰	zuui	2	zuuaua
 皻	zeg'	2	zeieau
 蹅	cnm,	2	cniaei
+譇	syp;	2	syoeee
 譇	zyp;	2	zyoeee
 囃	cow.	2	coiaeo
 甴	yiii	2	yiiaie
@@ -17933,7 +19402,9 @@ encoder:
 鲝	zdv/	2	zdouee
 踷	znt;	2	zniaei
 灹	zhr,	2	zhouuo
+奓	spuu	2	speuou
 奓	zpuu	2	zpeuou
+痄	cgq,	2	cgoeuo
 宱	zir,	2	ziooau
 搾	zjie	2	zjeieo
 鲊	zyq,	2	zyuaia
@@ -17944,29 +19415,37 @@ encoder:
 斎	zud;	2	zuoeuo
 榸	zmt;	2	zmeiuo
 鉙	zaou	2	zauoee
+枬	nmc.	2	nmeiuo
 栴	zmq.	2	zmeiuo
+蛅	rcei	2	rciaei
 蛅	zcei	2	zciaei
+飦	juee	2	juuooa
 飦	zuee	2	zuuooa
 趈	ztn;	2	zteiei
 詀	zyei	2	zyoeee
+惉	cveo	2	cvooei
 閚	zcoe	2	zciaee
 薝	zkuo	2	zkeiiu
 霑	ztv;	2	zteoai
 噡	zouo	2	zoiaeu
+嶦	zeuo	2	zeiaiu
 邅	zwoo	2	zwoeia
 氊	zpw,	2	zpueea
 覱	zpj/	2	zpeiae
 鹯	zwoe	2	zwoeia
 旜	zqq,	2	zqoeau
 饘	zuw,	2	zuuooa
+鳣	syw,	2	syuaia
 鳣	zyw,	2	zyuaia
 驙	zqw,	2	zqeiee
+魙	cvp'	2	cvooee
 魙	zvp'	2	zvooee
 讝	zyou	2	zyoeee
 拃	zjq,	2	zjeieu
 飐	znx;	2	znuauo
 琖	zfl,	2	zfeeie
 榐	zmp'	2	zmeiuo
+辗	npp'	2	npeaie
 嶃	zep/	2	zeiaie
 醆	zxl,	2	zxeiau
 嫸	znd;	2	znaueo
@@ -17990,6 +19469,7 @@ encoder:
 傽	zrl,	2	zruioe
 蔁	zkl,	2	zkeiio
 遧	zlio	2	zloeou
+粻	cdei	2	cdouei
 慞	zxl,	2	zxooio
 暲	zil,	2	ziiaee
 餦	zuei	2	zuuooa
@@ -18020,6 +19500,7 @@ encoder:
 菬	qkv;	2	qkeiio
 菬	zkv;	2	zkeiio
 瑵	zfk;	2	zfeeie
+枛	jmh.	2	jmeiuo
 垗	ztn.	2	zteieu
 狣	zqn.	2	zquauu
 炤	zhq;	2	zhouuo
@@ -18029,22 +19510,30 @@ encoder:
 箌	zzs;	2	zzueou
 肈	zwp,	2	zwoaeu
 曌	ziue	2	ziiaee
+鮡	tyn.	2	tyuaia
 鮡	zyn.	2	zyuaia
 燳	zhio	2	zhouuo
 櫂	zmj.	2	zmeiuo
 瞾	zff,	2	zfiaee
 羄	zfl,	2	zfiaii
 嗻	zog.	2	zoiaeo
+嫬	sng.	2	snaueo
 嫬	zng.	2	znaueo
+乛	wjaa	2	wjaaaa
 厇	zgr,	2	zgeuue
 矺	dsr,	2	dseuia
+矺	tsr,	2	tseuia
 歽	zsuu	2	zseuao
 砓	zsn'	2	zseuia
 虴	zcr,	2	zciaei
 籷	zdr,	2	zdouei
 埑	zjj,	2	zjeieu
+粍	hdue	2	hdouei
+粍	ldue	2	ldouei
+粍	mdue	2	mdouei
 袩	cyei	2	cyoaiu
 晢	zjj;	2	zjeieu
+悊	qjj.	2	qjeieu
 悊	zjj.	2	zjeieu
 晣	zij/	2	ziiaee
 啠	zjj;	2	zjuuei
@@ -18054,20 +19543,26 @@ encoder:
 樀	dmw,	2	dmeiuo
 輙	zpb'	2	zpeiae
 銸	nab'	2	nauoee
+辙	cpw/	2	cpeaie
 嚞	ztoi	2	zteiei
 謺	ztd.	2	zteieo
 鮿	zyb'	2	zyuaia
 讁	zyw.	2	zyoeee
 襵	zyb,	2	zyoaiu
+禇	cyt;	2	cyoaio
+褶	xyj/	2	xyoaiu
 淛	zvq;	2	zvooeu
 樜	zmg.	2	zmeiuo
 蟅	zcg.	2	zciaei
 珎	zfui	2	zfeeie
 枮	xmei	2	xmeiuo
+浈	cvei	2	cvooei
+栕	ymc;	2	ymeiuo
 帪	zeg'	2	zeiaie
 眞	zlf/	2	zluaia
 桭	zmg'	2	zmeiuo
 酙	zxd,	2	zxeiau
+葴	xkg.	2	xkeiie
 葴	zkg.	2	zkeiie
 遉	zeh.	2	zeieia
 寊	ziei	2	ziooai
@@ -18076,6 +19571,7 @@ encoder:
 蒖	zkk/	2	zkeiie
 鉁	zaau	2	zauoee
 獉	zqf/	2	zquaue
+瑧	jff/	2	jfeeie
 槇	dml/	2	dmeiuo
 碪	zsk'	2	zseuia
 殝	zsuu	2	zseuao
@@ -18084,6 +19580,7 @@ encoder:
 薽	zkx.	2	zkeiie
 樼	zmp'	2	zmeiuo
 錱	zaf,	2	zauoee
+澵	qvl/	2	qvooeo
 轃	zpf/	2	zpeiae
 鍖	cak'	2	cauoee
 鍼	zag.	2	zauoee
@@ -18102,6 +19599,7 @@ encoder:
 紾	tlau	2	tlaaoo
 紾	zlau	2	zlaaoo
 覙	lup/	2	luuaiu
+裖	cyg'	2	cyoaiu
 裖	zyg'	2	zyoaiu
 嫃	znk/	2	znauee
 駗	zqau	2	zqeiee
@@ -18110,6 +19608,8 @@ encoder:
 辴	zooa	2	zoiaei
 鬒	zcx/	2	zceiee
 黰	zvt/	2	zviaou
+圳	ctui	2	cteieu
+纼	ylg;	2	ylaaea
 纼	zlg;	2	zlaaea
 挋	zjc;	2	zjeiee
 侲	zrg'	2	zruieu
@@ -18120,18 +19620,21 @@ encoder:
 蜄	zcg'	2	zciaei
 絼	zluo	2	zlaaoo
 誫	zyg'	2	zyoeee
+敶	cbs/	2	cbaiei
 敶	zbs/	2	zbaiei
 鋴	zag/	2	zauoee
 鎭	zal/	2	zauoee
 黮	tvt'	2	tviaou
 凧	znia	2	znuaia
 佂	zrs;	2	zruiei
+怔	lxs;	2	lxooie
 姃	zns;	2	znauee
 埩	ztui	2	zteieu
 炡	zhs;	2	zhouuo
 眐	zfs;	2	zfiaee
 烝	zjv.	2	zjaiau
 聇	zbs;	2	zbeiie
+崝	cef;	2	ceiaie
 崝	zef;	2	zeiaie
 揁	kjei	2	kjeiei
 媜	znei	2	znauei
@@ -18149,17 +19652,22 @@ encoder:
 愸	zkr.	2	zkeiuo
 撜	zjj.	2	zjeiea
 証	zys;	2	zyoeee
+塣	cvoe	2	cvooei
 塣	zvoe	2	zvooei
 鴊	zsn.	2	zseiei
+只	qouo	2	qoiaeu
 巵	zhs'	2	zhuuea
 汥	jvk'	2	jvooee
 汥	zvk'	2	zvooee
+枝	qmk'	2	qmeiuo
 秓	zhk'	2	zhueiu
 秖	zhh,	2	zhueiu
 胑	zuou	2	zuuaee
 衼	zyk'	2	zyoaiu
 衹	qyh,	2	qyoaiu
 衹	zyh,	2	zyoaiu
+祗	dyh.	2	dyoaio
+秪	dhh.	2	dhueiu
 秪	zhh.	2	zhueiu
 倁	zrg;	2	zruiue
 疷	zgh.	2	zgoeuo
@@ -18167,8 +19675,11 @@ encoder:
 椥	zmg;	2	zmeiuo
 臸	jsy,	2	jseaoe
 臸	zsy,	2	zseaoe
+戠	cwd;	2	cwoeou
+戠	swd;	2	swoeou
 戠	zwd;	2	zwoeou
 搘	zjt;	2	zjeiee
+禔	tyii	2	tyoaio
 禔	zyii	2	zyoaio
 馶	zqk'	2	zqeiee
 榰	zmt;	2	zmeiuo
@@ -18182,6 +19693,7 @@ encoder:
 聀	zbea	2	zbeiie
 値	zrk'	2	zruiei
 釞	zar.	2	zauoee
+淔	cvk;	2	cvooee
 犆	trj;	2	trueie
 犆	zrj;	2	zrueie
 禃	zyk;	2	zyoaio
@@ -18196,17 +19708,23 @@ encoder:
 樴	zmw;	2	zmeiuo
 膱	zuw;	2	zuuaee
 蹢	dnw,	2	dniaei
+蹢	znw,	2	zniaei
 蟙	zcw;	2	zciaei
 軄	zrc;	2	zruiae
 劧	zvau	2	zvueei
 凪	znie	2	znuaie
 阯	zbie	2	zbaiie
 坁	zth,	2	zteieu
+扺	djh,	2	djeieu
 扺	zjh,	2	zjeieu
 帋	zhl;	2	zhuaea
 沚	zvie	2	zvooei
+汦	cvh,	2	cvooeu
 汦	zvh,	2	zvooeu
 抧	zjou	2	zjeiei
+茋	zkh.	2	zkeiiu
+泜	cvh.	2	cvooeu
+泜	dvh.	2	dvooeu
 泜	zvh.	2	zvooeu
 砋	zsie	2	zseuia
 洔	zvt,	2	zvooee
@@ -18224,6 +19742,7 @@ encoder:
 垁	ztue	2	zteieu
 厔	zgs,	2	zgeuea
 挃	zjs,	2	zjeiee
+栉	jmk'	2	jmeiuo
 柣	dmq/	2	dmeiuo
 柣	zmq/	2	zmeiuo
 俧	zrt.	2	zruiei
@@ -18232,6 +19751,7 @@ encoder:
 洷	zvs,	2	zvooee
 祑	zyq/	2	zyoaio
 歭	cnt,	2	cnieie
+歭	snt,	2	snieie
 歭	znt,	2	znieie
 晊	zis,	2	ziiaee
 徏	zpn/	2	zpuuii
@@ -18248,6 +19768,7 @@ encoder:
 偫	zrp,	2	zruiuu
 貭	zhk;	2	zhuuei
 徝	zpk;	2	zpuuie
+乿	czl'	2	czuoou
 乿	lzl'	2	lzuoou
 猘	zqq;	2	zquauu
 觗	zuue	2	zuuaua
@@ -18255,11 +19776,13 @@ encoder:
 翐	zjd/	2	zjaoea
 紩	zlq/	2	zlaaoo
 崻	zep,	2	zeiaiu
+傂	crh/	2	cruiuu
 傂	zrh/	2	zruiuu
 搱	zjp.	2	zjeiea
 跱	znt,	2	zniaei
 锧	zah;	2	zaueee
 筫	zzia	2	zzueou
+廌	jgc.	2	jgoeua
 廌	zgc.	2	zgoeua
 滍	zvc;	2	zvooea
 寘	zik/	2	ziooae
@@ -18268,21 +19791,25 @@ encoder:
 覟	ztx/	2	zteieo
 疐	zkii	2	zkeioa
 瘈	cgf,	2	cgoeuo
+瘈	jgf,	2	jgoeuo
 瘈	zgf,	2	zgoeuo
 潌	zvie	2	zvooeo
 稺	zhp.	2	zhueiu
 憄	zpk.	2	zpuuie
 鋕	zat.	2	zauoee
 熫	zhg.	2	zhouuo
+潪	dvg;	2	dvooeu
 潪	zvg;	2	zvooeu
 駤	zqs,	2	zqeiee
 薙	tkg.	2	tkeiiu
 鴙	zgr.	2	zgueeu
 旘	zqw;	2	zqoeau
+瀄	jvz'	2	jvooeu
 瀄	zvz'	2	zvooeu
 隲	zbp,	2	zbaiiu
 緻	zls/	2	zlaaoo
 擿	tjw.	2	tjeieo
+擿	zjw.	2	zjeieo
 螲	dcie	2	dciaei
 螲	zcie	2	zciaei
 穉	zhp,	2	zhueiu
@@ -18292,8 +19819,10 @@ encoder:
 懫	zxj;	2	zxooiu
 瓆	zfj;	2	zfeeie
 櫍	zmj;	2	zmeiuo
+鯯	jyq;	2	jyuaia
 礩	zsj;	2	zseuia
 豑	zck/	2	zciaei
+鶨	dmz.	2	dmaaeu
 鶨	zmz.	2	zmaaeu
 驇	ztr,	2	zteieu
 騺	ztd,	2	zteieo
@@ -18306,12 +19835,15 @@ encoder:
 妐	znr'	2	znaueu
 刣	zyoi	2	zyaoia
 炂	zhr'	2	zhouuo
+泈	yvuo	2	yvooeu
 柊	zmuo	2	zmeiuo
 衳	zyr'	2	zyoaiu
 鈡	zaoi	2	zauoee
 蔠	zkl.	2	zkeiia
 幒	zer.	2	zeiaiu
 鴤	zrc.	2	zruiae
+螤	yuc/	2	yuoeuo
+鼨	tnl.	2	tnuiea
 鼨	znl.	2	znuiea
 蹱	znl;	2	zniaei
 籦	zzai	2	zzueou
@@ -18345,6 +19877,7 @@ encoder:
 週	zct.	2	zcuaei
 淍	dvc;	2	dvooeu
 淍	zvc;	2	zvooeu
+婤	cnc;	2	cnaueu
 婤	znc;	2	znaueu
 喌	zooo	2	zoiaei
 赒	zhc;	2	zhiauo
@@ -18356,6 +19889,7 @@ encoder:
 嚋	cot,	2	coiaee
 騆	dqc;	2	dqeiee
 騆	zqc;	2	zqeiee
+碡	dsf.	2	dseuia
 疛	zgei	2	zgoeuo
 菷	zkei	2	zkeiia
 晭	zic;	2	ziiaee
@@ -18366,6 +19900,7 @@ encoder:
 呪	zoou	2	zoiaei
 荮	zkl,	2	zkeiia
 冑	ziee	2	ziiaei
+粙	ydii	2	ydouei
 詋	zyou	2	zyoeee
 甃	zhh.	2	zhueiu
 駎	zqii	2	zqeiee
@@ -18373,6 +19908,7 @@ encoder:
 噣	zof;	2	zoiaei
 籕	zzm;	2	zzueou
 籒	zzj;	2	zzueou
+朱	sqiu	2	squeei
 劯	zsau	2	zseuia
 咮	zoq;	2	zoiaeu
 硃	zsq;	2	zseuia
@@ -18381,6 +19917,7 @@ encoder:
 絑	zlq;	2	zlaaoo
 跦	cnq;	2	cniaei
 跦	znq;	2	zniaei
+蕏	zkq;	2	zkeiiu
 蝫	zct;	2	zciaei
 駯	zqq;	2	zqeiee
 鴸	zqp.	2	zqueei
@@ -18392,6 +19929,7 @@ encoder:
 鼄	zqp'	2	zqueei
 鯺	zyt;	2	zyuaia
 蠩	zcy;	2	zciaei
+泏	cvc;	2	cvooea
 泏	kvc;	2	kvooea
 茿	zkd.	2	zkeiie
 笁	zzei	2	zzueou
@@ -18410,6 +19948,7 @@ encoder:
 爥	zhp;	2	zhouuo
 斸	zpeu	2	zpaeui
 蠾	zcp;	2	zciaei
+钃	sap;	2	sauoee
 宔	ziw,	2	ziooao
 罜	zfw,	2	zfiaii
 陼	dbt;	2	dbaiei
@@ -18423,6 +19962,7 @@ encoder:
 坾	ztie	2	zteieo
 迬	wwf.	2	wwoeei
 壴	ztoo	2	zteiei
+柷	cmou	2	cmeiuo
 柷	zmou	2	zmeiuo
 殶	zwf'	2	zwoeei
 莇	zkh'	2	zkeiii
@@ -18446,18 +19986,23 @@ encoder:
 霔	ztv,	2	zteoai
 篫	zzd/	2	zzueou
 麆	zgc;	2	zgoeua
+檛	wmc.	2	wmeiuo
 檛	zmc.	2	zmeiuo
+膼	guc.	2	guuaee
 膼	zuc.	2	zuuaee
 髽	zcx,	2	zceiee
 簻	kzc.	2	kzueou
 簻	zzc.	2	zzueou
 跩	sniu	2	sniaei
 跩	zniu	2	zniaei
+拽	yjiu	2	yjeiei
 叀	zsia	2	zseiae
 専	zsie	2	zseiae
 耑	des;	2	deiaie
+耑	zes;	2	zeiaie
 剸	tsii	2	tseiae
 剸	zsii	2	zseiae
+鄟	tsia	2	tseiae
 鄟	zsia	2	zseiae
 塼	tts,	2	tteiee
 塼	zts,	2	zteiee
@@ -18466,6 +20011,7 @@ encoder:
 甎	zsio	2	zseiae
 磗	zss,	2	zseuia
 膞	zus,	2	zuuaee
+諯	cyei	2	cyoeee
 諯	zyei	2	zyoeee
 蟤	zcb/	2	zciaei
 鱄	tys,	2	tyuaia
@@ -18478,11 +20024,13 @@ encoder:
 蒃	zkm,	2	zkeiia
 瑑	zfm,	2	zfeeie
 僎	zrb/	2	zruiae
+篹	czf'	2	czueou
 篹	zzf'	2	zzueou
 襈	jyb/	2	jyoaiu
 縳	jls,	2	jlaaoo
 縳	zls,	2	zlaaoo
 簨	szb/	2	szueou
+簨	xzb/	2	xzueou
 譔	zyb/	2	zyoeee
 籑	zzf.	2	zzueou
 庒	zgt.	2	zgoeue
@@ -18490,30 +20038,41 @@ encoder:
 娤	zlea	2	zlaieu
 梉	zml,	2	zmeiuo
 粧	zdg,	2	zdouei
+湷	cvf;	2	cvooee
 糚	zdk,	2	zdouei
 丬	qkoe	2	qkoeii
 壵	ztt,	2	zteiee
 焋	zleo	2	zlaieu
+撞	cjl;	2	cjeieo
 戅	glio	2	gloeou
 鵻	zrc.	2	zruiae
 沝	zvia	2	zviauo
 笍	zzc/	2	zzueou
+娷	cnr,	2	cnaueu
 娷	znr,	2	znaueu
+甀	crs.	2	crueie
 甀	zrs.	2	zrueie
 腏	cuk'	2	cuuaee
+腏	duk'	2	duuaee
 腏	zuk'	2	zuuaee
+硾	csr,	2	cseuia
 硾	zsr,	2	zseuia
+畷	ctk'	2	ctiaei
 畷	ztk'	2	ztiaei
 膇	zur.	2	zuuaee
+醊	cxk'	2	cxeiau
 醊	zxk'	2	zxeiau
+諈	cyr,	2	cyoeee
 諈	zyr,	2	zyoeee
 錣	zak'	2	zauoee
 餟	zuk'	2	zuuooa
 礈	zsk.	2	zseuia
+轛	dpm,	2	dpeiae
 轛	zpm,	2	zpeiae
 鑆	zam,	2	zauoee
 迍	zsc.	2	zseaia
 宒	ziue	2	ziooau
+啍	row'	2	roiaeo
 啍	tow'	2	toiaeo
 訰	zys'	2	zyoeee
 衠	zpk,	2	zpuuie
@@ -18534,11 +20093,13 @@ encoder:
 穱	jhz,	2	jhueiu
 穱	zhz,	2	zhueiu
 蠿	zll;	2	zlaaoa
+圴	stb.	2	steieu
 圴	ztb.	2	zteieu
 彴	zpb.	2	zpuuiu
 犳	zqb.	2	zquauu
 妰	znq,	2	znaueu
 叕	zkk'	2	zkaoao
+斫	csuu	2	cseuia
 丵	zms,	2	zmiiou
 烵	zhk.	2	zhouuo
 梲	zmr/	2	zmeiuo
@@ -18568,13 +20129,16 @@ encoder:
 鵫	zeio	2	zeieia
 蠗	zcj.	2	zciaei
 灂	zvz,	2	zvooeu
+籗	kzt.	2	kzueou
 籗	zzt.	2	zzueou
 鷟	zqq.	2	zqoeau
 籱	zzt.	2	zzueou
+孖	mjai	2	mjaiea
 孖	zjai	2	zjaiea
 茊	zkj,	2	zkeiiu
 姕	znl'	2	znieie
 栥	zdue	2	zdoeua
+玆	cwl'	2	cwoeaa
 玆	zwl'	2	zwoeaa
 紎	zlp.	2	zlaaoo
 赼	ztn/	2	zteiei
@@ -18585,6 +20149,7 @@ encoder:
 孶	zkl'	2	zkeiia
 椔	zml;	2	zmeiuo
 嗞	zok'	2	zoiaeo
+粢	cduo	2	cdoeua
 湽	zvs;	2	zvooee
 訿	zyn/	2	zyoeee
 禌	zyk'	2	zyoaio
@@ -18605,21 +20170,25 @@ encoder:
 吇	zoai	2	zoiaea
 杍	zmai	2	zmeiuo
 姉	zns;	2	znauee
+姊	jnr/	2	jnaueu
 矷	zsai	2	zseuia
 秄	zhai	2	zhueiu
 胏	fur/	2	fuuaee
 胏	zur/	2	zuuaee
 呰	znl;	2	znieie
 虸	zcai	2	zciaei
+笫	yzr/	2	yzueou
 釨	zaai	2	zauoee
 啙	znl;	2	znieie
 榟	zmio	2	zmeiuo
 橴	zmn;	2	zmeiuo
 芓	zkai	2	zkeiia
+荢	ykii	2	ykeiio
 茡	zkia	2	zkeiio
 剚	zsoi	2	zseiae
 牸	zrj'	2	zrueie
 倳	zrs;	2	zruiei
+恣	cduo	2	cdoeua
 胾	zkl/	2	zkeiei
 胔	znl/	2	znieie
 倧	zrii	2	zruioo
@@ -18642,6 +20211,7 @@ encoder:
 艐	zzx/	2	zzuuao
 翪	zjd/	2	zjaoea
 磫	zsp;	2	zseuia
+鍐	cax/	2	cauoee
 鍐	zax/	2	zauoee
 豵	zzp;	2	zzeuau
 鬉	zcx/	2	zceiee
@@ -18659,6 +20229,7 @@ encoder:
 総	zlr.	2	zlaaoo
 縂	zld.	2	zlaaoo
 燪	zhk.	2	zhouuo
+鍯	zab.	2	zauoee
 鏓	zar.	2	zauoee
 昮	zid'	2	ziiaee
 疭	zgau	2	zgoeuo
@@ -18667,6 +20238,7 @@ encoder:
 碂	zsii	2	zseuia
 糉	zdx/	2	zdouei
 緵	zlx/	2	zlaaoo
+錝	caii	2	cauoee
 錝	zaii	2	zauoee
 瘲	zgp;	2	zgoeuo
 縦	zlp;	2	zlaaoo
@@ -18682,6 +20254,8 @@ encoder:
 齺	znau	2	znieie
 赱	ztw.	2	zteieo
 鯐	zyt;	2	zyuaia
+菹	jkv;	2	jkeiio
+葅	jkai	2	jkeiiu
 葅	zkai	2	zkeiiu
 蒩	jkh;	2	jkeiiu
 蒩	zkh;	2	zkeiiu
@@ -18689,6 +20263,7 @@ encoder:
 鉏	jaia	2	jauoee
 錊	zaw,	2	zauoee
 卆	zjei	2	zjuaei
+足	jnia	2	jniaei
 哫	zoia	2	zoiaei
 倅	crw,	2	cruioe
 倅	zrw,	2	zruioe
@@ -18696,11 +20271,13 @@ encoder:
 崒	zew,	2	zeiaio
 崪	zew,	2	zeiaio
 稡	zhw,	2	zhueiu
+箤	jzw,	2	jzueou
 箤	zzw,	2	zzueou
 綷	clw,	2	claaoo
 綷	zlw,	2	zlaaoo
 踤	znw,	2	zniaei
 踿	znh.	2	zniaei
+镞	caq/	2	caueee
 岨	jeia	2	jeiaii
 岨	qeia	2	qeiaii
 珇	zfia	2	zfeeie
@@ -18709,6 +20286,7 @@ encoder:
 靻	zkoi	2	zkeiie
 鎺	zay;	2	zauoee
 謯	zyei	2	zyoeee
+劗	crt;	2	crueie
 劗	jrt;	2	jrueie
 劗	zrt;	2	zrueie
 繤	zkf;	2	zkeiii
@@ -18718,10 +20296,12 @@ encoder:
 厜	zgr,	2	zgeuue
 朘	juy/	2	juuaee
 朘	zuy/	2	zuuaee
+嗺	coeo	2	coiaei
 嗺	soeo	2	soiaei
 樶	zmia	2	zmeiuo
 蟕	zcn/	2	zciaei
 纗	zlei	2	zlaaoo
+嶊	cej.	2	ceiaie
 嶊	zej.	2	zeiaie
 嶵	zef,	2	zeiaii
 噿	zoj,	2	zoiaea
@@ -18751,6 +20331,7 @@ encoder:
 僔	zrd,	2	zruiou
 噂	zod,	2	zoiaeo
 譐	zyd,	2	zyoeee
+捘	jjy/	2	jjeiea
 捘	zjy/	2	zjeiea
 銌	zax'	2	zauoee
 莋	zkr,	2	zkeiiu
@@ -18761,7 +20342,9 @@ encoder:
 繓	zlia	2	zlaaoo
 岝	zeq,	2	zeiaiu
 岞	zeq,	2	zeiaiu
+侳	crae	2	cruiuo
 侳	zrae	2	zruiuo
+唑	soae	2	soiaeu
 袏	zyx,	2	zyoaiu
 葃	zkie	2	zkeiii
 葄	zkue	2	zkeiiu
@@ -18769,24 +20352,68 @@ encoder:
 飵	zuq,	2	zuuooa
 糳	zms.	2	zmiiou
 咗	zox,	2	zoiaee
+乤	hsm'	2	hseioa
 乥	hrd'	2	hruoua
+乫	kqoa	2	kqauia
+乬	kcc'	2	kceaea
+乭	tsaa	2	tseuia
 乮	mhr'	2	mhuaua
+乯	vrk'	2	vruoue
+乲	cdua	2	cdoeua
+乶	psua	2	pseiae
 乺	shc'	2	shuuae
+乻	vqaa	2	vqoeau
 乼	cvw'	2	cvooeo
+乽	ctr'	2	cteieu
 亪	ywm.	2	ywoeui
 侤	trt'	2	truiei
+兺	prq/	2	pruoau
+匁	qbr.	2	qbuauo
+厼	kyiu	2	kyaoiu
+叾	djia	2	djaiia
+哛	pol'	2	poiaeu
 唜	mdp/	2	mdeeiu
+唟	kty/	2	kteiea
+喸	psuu	2	pseiae
+嗭	ckh/	2	ckeiia
+囕	roc/	2	roiaee
 壭	stai	2	steiea
+夞	vum/	2	vuuaoi
+岾	ceei	2	ceiaii
+巪	kcc'	2	kceaea
+巼	pbou	2	pbaiea
 廤	kgp/	2	kgoeue
+怾	kxou	2	kxooii
 旀	mqy;	2	mqoeau
+旕	vqau	2	vqoeau
+曢	diii	2	diiaee
+朑	quk'	2	quuaee
+朰	tmaa	2	tmeiuo
 栍	smr,	2	smeiuo
 椧	mmaa	2	mmeiuo
 榋	cmea	2	cmeiuo
+歚	xdf/	2	xdouee
+毮	vjp/	2	vjeiei
+浌	pvr,	2	pvooeu
+猠	cqv/	2	cquaui
+畓	tvia	2	tviauo
 癷	bjw,	2	bjaouu
 硳	cst/	2	cseuia
+穒	khr.	2	khueiu
+縇	slie	2	slaaoo
+聁	zbr'	2	zbeiie
+聣	dbn/	2	dbeiie
+莻	nkn/	2	nkeiia
+蒊	kkr/	2	kkeiiu
 虄	skc,	2	skeiii
+虲	scio	2	sciaei
 袰	bms/	2	bmaaoe
+襨	tym,	2	tyoaiu
+鐢	tmx/	2	tmeiuo
 閪	scei	2	sciaee
+闏	pcn;	2	pciaee
+霻	wtc.	2	wteoai
+鶑	shh.	2	shouuo
 鿎	dsp.	1	dseieu
 鿕	dyc.	1	dyeieu
 鿔	gaj;	1	gaeieu
@@ -18872,6 +20499,7 @@ encoder:
 鎊	paw.	1	pauoee
 襃	pwh/	1	pwoeua
 齙	bnaa	1	bnieie
+齙	pnaa	1	pnieie
 宀	mioo	1	miooaa
 飹	buh'	1	buuooa
 飽	bub'	1	buuooa
@@ -18983,6 +20611,7 @@ encoder:
 璸	pfii	1	pfeeie
 檳	bmii	1	bmeiuo
 瀕	bvn;	1	bvooei
+瀕	pvn;	1	pvooei
 繽	blii	1	blaaoo
 擯	bjii	1	bjeieo
 殯	bsui	1	bseuao
@@ -19095,6 +20724,7 @@ encoder:
 鍤	car/	1	cauoee
 鎈	sad,	1	sauoee
 餷	cum,	1	cuuooa
+餷	zum,	1	zuuooa
 詧	qud.	1	quuaoo
 摖	cjui	1	cjeieu
 褨	cyd,	1	cyoaiu
@@ -19108,6 +20738,7 @@ encoder:
 覘	ceou	1	ceieia
 覘	deou	1	deieia
 覘	jeou	1	jeieia
+覘	zeou	1	zeieia
 摻	cjy/	1	cjeiea
 摻	sjy/	1	sjeiea
 攙	cjuo	1	cjeieu
@@ -19221,6 +20852,7 @@ encoder:
 絺	zlx;	1	zlaaoo
 噄	cof;	1	coiaee
 鴟	chl.	1	chuaea
+鴟	zhl.	1	zhuaea
 癡	cgl;	1	cgoeuo
 黐	lhaa	1	lhueiu
 赿	ctn,	1	cteiei
@@ -19345,7 +20977,9 @@ encoder:
 蠀	ccd;	1	cciaei
 辭	czy.	1	czuoou
 鶿	ckl.	1	ckouea
+鶿	zkl.	1	zkouea
 賜	chiu	1	chiaee
+賜	shiu	1	shiaee
 囪	croo	1	cruiau
 棇	smr.	1	smeiuo
 楤	smb.	1	smeiuo
@@ -19407,6 +21041,7 @@ encoder:
 韃	dkoo	1	dkeiie
 韃	tkoo	1	tkeiie
 躂	dnt.	1	dniaei
+躂	tnt.	1	tniaei
 獃	ves.	1	veiaie
 懛	dxt,	1	dxooie
 垈	drl,	1	druiea
@@ -19647,6 +21282,7 @@ encoder:
 奪	dpr,	1	dpeuou
 鐸	daf,	1	dauoee
 椯	cmei	1	cmeiuo
+綞	clr,	1	claaoo
 綞	dlr,	1	dlaaoo
 鬌	ccx;	1	cceiee
 嚲	dwoe	1	dwoeia
@@ -19844,6 +21480,7 @@ encoder:
 鎅	jat/	1	jauoee
 鈣	gas'	1	gauoee
 蓋	gkt;	1	gkeiie
+蓋	hkt;	1	hkeiie
 忓	hxee	1	hxooie
 攼	htue	1	hteeiu
 玵	gfk,	1	gfeeie
@@ -19938,6 +21575,7 @@ encoder:
 溝	gvf;	1	gvooee
 溝	kvf;	1	kvooee
 緱	glr/	1	glaaoo
+韝	bjei	1	bjaiei
 韝	gjei	1	gjaiei
 蚼	qcb;	1	qciaei
 蚼	xcb;	1	xciaei
@@ -20047,6 +21685,7 @@ encoder:
 撌	gjoi	1	gjeiei
 劌	gng;	1	gnieie
 劊	gas;	1	gauoei
+劊	kas;	1	kauoei
 瞶	wfoi	1	wfiaee
 櫃	gmc;	1	gmeiuo
 鞼	hkoi	1	hkeiie
@@ -20059,6 +21698,7 @@ encoder:
 緄	gliu	1	glaaoo
 緄	hliu	1	hlaaoo
 輥	gpiu	1	gpeiae
+輥	hpiu	1	hpeiae
 鯀	gyr;	1	gyuaia
 睔	lfae	1	lfiaee
 楇	hmc;	1	hmeiuo
@@ -20085,6 +21725,7 @@ encoder:
 還	hfs.	1	hfiaii
 還	xfs.	1	xfiaii
 駭	hqw/	1	hqeiee
+駭	xqw/	1	xqeiee
 佄	grk,	1	gruiei
 頇	hts;	1	hteeie
 頇	vts;	1	vteeie
@@ -20147,6 +21788,7 @@ encoder:
 佫	grui	1	gruiua
 賀	hqoi	1	hqauia
 鶡	hib.	1	hiiaee
+鶡	jib.	1	jiiaee
 鶴	hir.	1	hioaui
 恆	gxs.	1	gxooie
 橫	hmk/	1	hmeiuo
@@ -20219,6 +21861,7 @@ encoder:
 驊	hqk,	1	hqeiee
 畫	het,	1	heaeee
 話	hyr,	1	hyoeee
+話	lyr,	1	lyoeee
 樺	hmk,	1	hmeiuo
 劃	het;	1	heaeee
 諣	gyc;	1	gyoeee
@@ -20252,6 +21895,7 @@ encoder:
 煥	hhue	1	hhouuo
 瘓	hgue	1	hgoeuo
 鯇	hyiu	1	hyuaia
+鯇	wyiu	1	wyuaia
 黃	hks/	1	hkeiie
 磺	gsk/	1	gseuia
 磺	ksk/	1	kseuia
@@ -20271,6 +21915,7 @@ encoder:
 煇	yhie	1	yhouuo
 輝	hes,	1	heioue
 噅	hoz.	1	hoiaeu
+噅	koz.	1	koiaeu
 翬	hjd,	1	hjaoea
 毀	hnt'	1	hnuiea
 屶	heau	1	heiaia
@@ -20436,6 +22081,7 @@ encoder:
 鉀	gaii	1	gauoee
 鉀	jaii	1	jauoee
 檟	jmx;	1	jmeiuo
+價	grx;	1	gruiei
 價	jrx;	1	jruiei
 價	qrx;	1	qruiei
 駕	jqoe	1	jqauia
@@ -20578,6 +22224,7 @@ encoder:
 繳	hln/	1	hlaaoo
 繳	jln/	1	jlaaoo
 繳	zln/	1	zlaaoo
+攪	gjh/	1	gjeieu
 攪	jjh/	1	jjeieu
 窌	pir'	1	piooau
 較	jpw/	1	jpeiae
@@ -20779,6 +22426,7 @@ encoder:
 餕	juy/	1	juuooa
 駿	jqy/	1	jqeiee
 攈	jjg/	1	jjeieo
+哢	kof,	1	koiaee
 哢	lof,	1	loiaee
 開	kcs,	1	kciaee
 開	qcs,	1	qciaee
@@ -20898,6 +22546,7 @@ encoder:
 匱	kcoi	1	kceiae
 瞆	kfoi	1	kfiaee
 蕢	kkoi	1	kkeiii
+潰	hvoi	1	hvooei
 潰	kvoi	1	kvooei
 潰	xvoi	1	xvooei
 憒	kxoi	1	kxooii
@@ -20911,11 +22560,14 @@ encoder:
 饋	tuoi	1	tuuooa
 巋	ker;	1	keiaiu
 巋	wer;	1	weiaiu
+褌	hyie	1	hyoaiu
 褌	kyie	1	kyoaiu
 錕	gaiu	1	gauoee
 錕	kaiu	1	kauoee
 鯤	kyiu	1	kyuaia
 鶤	kip.	1	kioaei
+鶤	yip.	1	yioaei
+壼	htie	1	hteieo
 壼	ktie	1	kteieo
 閫	kcoe	1	kciaee
 噋	kow/	1	koiaeo
@@ -20925,6 +22577,7 @@ encoder:
 闊	kcv,	1	kciaee
 懖	kar.	1	kauoee
 臘	lul'	1	luuaee
+臘	xul'	1	xuuaee
 蠟	lcl'	1	lciaei
 鑞	lal'	1	lauoee
 來	lkr/	1	lkeiuo
@@ -20984,6 +22637,7 @@ encoder:
 艻	jkau	1	jkeiia
 竻	jzau	1	jzueou
 鰳	lyk'	1	lyuaia
+餎	guui	1	guuooa
 餎	luui	1	luuooa
 縲	llt;	1	llaaoo
 鐳	lat;	1	lauoee
@@ -21027,6 +22681,7 @@ encoder:
 曆	lgh;	1	lgeuue
 鬁	lcx;	1	lceiee
 隸	lmd;	1	lmeiuo
+癘	jgk.	1	jgoeuo
 癘	lgk.	1	lgoeuo
 壢	ltg;	1	lteiee
 藶	lkg;	1	lkeiie
@@ -21116,6 +22771,7 @@ encoder:
 懍	lxw/	1	lxooio
 檁	lmw/	1	lmeiuo
 賃	lrr;	1	lruiue
+賃	rrr;	1	rruiue
 藺	lkc.	1	lkeiii
 躪	lnk.	1	lniaei
 淩	lvt/	1	lvooee
@@ -21241,6 +22897,7 @@ encoder:
 輪	lpae	1	lpeiae
 錀	faae	1	fauoee
 論	lyae	1	lyoeee
+腡	guc;	1	guuaee
 腡	luc;	1	luuaee
 羅	lfl.	1	lfiaii
 鏍	lat;	1	lauoee
@@ -21605,6 +23262,7 @@ encoder:
 隦	jbp.	1	jbaiae
 鮍	jyg'	1	jyuaia
 鮍	pyg'	1	pyuaia
+羆	bfy.	1	bfiaii
 羆	pfy.	1	pfiaii
 擗	bjp.	1	bjeiea
 揊	cjs;	1	cjeiee
@@ -21646,6 +23304,7 @@ encoder:
 洦	pvs;	1	pvooee
 頗	pgei	1	pgauia
 頮	hvk;	1	hviauo
+頮	pvk;	1	pviauo
 捊	fjz'	1	fjeieu
 箁	fzl;	1	fzueou
 箁	pzl;	1	pzueou
@@ -21908,6 +23567,7 @@ encoder:
 釓	qaaa	1	qauoee
 𨱇	qas.	1	qaueee
 渞	qvk;	1	qvooeo
+巰	lsl/	1	lseaaa
 巰	qsl/	1	qseaaa
 賕	qhs.	1	qhiaee
 匤	qcf.	1	qceeei
@@ -22140,6 +23800,7 @@ encoder:
 灄	nvb,	1	nvooee
 灄	svb,	1	svooee
 懾	sxb,	1	sxooie
+懾	zxb,	1	zxooie
 罙	sir,	1	sioauo
 堔	stie	1	steieo
 敒	sriu	1	sruiia
@@ -22283,6 +23944,7 @@ encoder:
 順	scs;	1	scuiie
 哾	sod/	1	soiaeo
 說	syr/	1	syoeee
+說	yyr/	1	yyoeee
 説	tyd/	1	tyoeee
 碩	sss;	1	sseuia
 爍	lhn,	1	lhouuo
@@ -22326,6 +23988,7 @@ encoder:
 藪	ckou	1	ckeiii
 藪	skou	1	skeiii
 穌	syue	1	syuaia
+穌	wyue	1	wyuaia
 蘇	sky/	1	skeiiu
 梀	sms;	1	smeiuo
 訴	syj.	1	syoeee
@@ -22369,6 +24032,7 @@ encoder:
 鰨	tyio	1	tyuaia
 荅	tkai	1	tkeiiu
 搨	djio	1	djeiei
+遝	dfv.	1	dfiaii
 遝	tfv.	1	tfiaii
 撻	tjt.	1	tjeiee
 橽	tmt.	1	tmeiuo
@@ -22407,6 +24071,7 @@ encoder:
 曇	tit'	1	tiiaee
 顃	shh;	1	shouuo
 譚	tyx,	1	tyoeee
+鉭	daie	1	dauoee
 鉭	taie	1	tauoee
 暺	tioe	1	tiiaee
 襢	cyw,	1	cyoaiu
@@ -22415,6 +24080,7 @@ encoder:
 撢	tjx,	1	tjeiee
 撢	xjx,	1	xjeiee
 歎	tkou	1	tkeiie
+賧	dhh.	1	dhiaee
 賧	thh.	1	thiaee
 湯	sviu	1	svooei
 湯	tviu	1	tvooei
@@ -22468,9 +24134,11 @@ encoder:
 題	tis;	1	tiiaee
 鵜	tdg.	1	tdouae
 鶗	cis.	1	ciiaee
+鯷	syii	1	syuaia
 鯷	tyii	1	tyuaia
 體	tcj.	1	tciaao
 屜	tpp'	1	tpaeuu
+屜	xpp'	1	xpaeuu
 歒	xwd/	1	xwoeou
 瓋	tfw.	1	tfeeie
 鬄	dcx/	1	dceiee
@@ -22527,6 +24195,7 @@ encoder:
 頭	tsoi	1	tseiae
 殕	ysui	1	yseuao
 鈄	dad,	1	dauoee
+鈄	tad,	1	tauoee
 敨	tlou	1	tloeou
 禿	thua	1	thueiu
 㻬	tft'	1	tfeeie
@@ -22550,6 +24219,7 @@ encoder:
 尵	zxl;	1	zxeuai
 頹	thn;	1	thueiu
 脮	nuz'	1	nuuaee
+蛻	scr/	1	sciaei
 蛻	tcr/	1	tciaei
 旽	zis'	1	ziiaee
 芚	cks'	1	ckeiie
@@ -22595,6 +24265,7 @@ encoder:
 襪	wyk.	1	wyoaiu
 咼	gcj;	1	gciaai
 咼	hcj;	1	hciaai
+咼	kcj;	1	kciaai
 咼	wcj;	1	wciaai
 竵	hls;	1	hloeou
 顡	wlz;	1	wloeou
@@ -22611,6 +24282,7 @@ encoder:
 頑	wdn;	1	wdeeua
 莬	mkuu	1	mkeiiu
 綰	wlii	1	wlaaoo
+萬	mkio	1	mkeiii
 萬	wkio	1	wkeiii
 瞣	wfoo	1	wfiaee
 鎫	war/	1	wauoee
@@ -22627,6 +24299,7 @@ encoder:
 韋	wjei	1	wjaiei
 幃	wej;	1	weiaia
 圍	woj;	1	woiaai
+溈	gvw.	1	gvooeo
 溈	wvw.	1	wvooeo
 違	hjeo	1	hjaiei
 違	wjeo	1	wjaiei
@@ -22701,6 +24374,7 @@ encoder:
 臥	wceu	1	wceiae
 捾	xjii	1	xjeieo
 焥	vhia	1	vhouuo
+臒	huk'	1	huuaee
 臒	wuk'	1	wuuaee
 臒	yuk'	1	yuuaee
 齷	wnae	1	wnieie
@@ -22769,8 +24443,10 @@ encoder:
 瓕	xgs.	1	xgaeae
 呬	coia	1	coiaei
 盻	pfr'	1	pfiaee
+係	jrr;	1	jruiua
 係	xrr;	1	xruiua
 郤	xraa	1	xruouo
+鈒	jan.	1	jauoee
 鈒	san.	1	sauoee
 鈒	xan.	1	xauoee
 𠅤	xwt.	1	xwoeia
@@ -22789,7 +24465,9 @@ encoder:
 闟	scao	1	sciaee
 闟	tcao	1	tciaee
 傄	xrp;	1	xruieu
+煆	dhc'	1	dhouuo
 煆	xhc'	1	xhouuo
+煆	yhc'	1	yhouuo
 蝦	hcc'	1	hciaei
 蝦	jcc'	1	jciaei
 蝦	xcc'	1	xciaei
@@ -22944,6 +24622,7 @@ encoder:
 頡	jtoi	1	jteiei
 頡	xtoi	1	xteiei
 諧	xyg/	1	xyoeee
+擷	jjt;	1	jjeiee
 擷	xjt;	1	xjeiee
 攜	xjei	1	xjeiei
 纈	xlt;	1	xlaaoo
@@ -22968,12 +24647,15 @@ encoder:
 鋅	xaoe	1	xauoee
 鋅	zaoe	1	zauoee
 鬵	xcn;	1	xceaua
+鐔	cax,	1	cauoee
+鐔	tax,	1	tauoee
 鐔	xax,	1	xauoee
 脪	cux;	1	cuuaee
 馸	xquu	1	xqeiee
 釁	xhd'	1	xhuiee
 鮏	zyr,	1	zyuaia
 騂	xqoe	1	xqeiee
+鈃	jas,	1	jauoee
 鈃	xas,	1	xauoee
 銒	jas,	1	jauoee
 鉶	xas;	1	xauoee
@@ -23000,6 +24682,7 @@ encoder:
 虛	xeg,	1	xeieau
 須	xxs;	1	xxuuue
 頊	xfs;	1	xfeeie
+噓	soee	1	soiaei
 噓	xoee	1	xoiaei
 諝	xyj;	1	xyoeee
 俆	srae	1	sruiuo
@@ -23038,11 +24721,13 @@ encoder:
 學	hhd'	1	hhuiee
 學	jhd'	1	jhuiee
 學	xhd'	1	xhuiee
+鴬	xvio	1	xvoouo
 鴬	yvio	1	yvoouo
 澩	xhd;	1	xhuiee
 鱈	xyt'	1	xyuaia
 泧	svh.	1	svooee
 泧	xvh.	1	xvooee
+謔	nyee	1	nyoeee
 謔	xyee	1	xyoeee
 姰	jnb;	1	jnaueu
 塤	xtoi	1	xteiei
@@ -23206,6 +24891,7 @@ encoder:
 偞	xrk,	1	xruiei
 偞	zrk,	1	zruiei
 葉	skk,	1	skeiie
+葉	xkk,	1	xkeiie
 葉	ykk,	1	ykeiie
 業	yms/	1	ymiiou
 璍	yfk,	1	yfeeie
@@ -23264,6 +24950,7 @@ encoder:
 讉	tyoo	1	tyoeee
 讉	yyoo	1	yyoeee
 扡	cjai	1	cjeiea
+扡	qjai	1	qjeiea
 扡	tjai	1	tjeiea
 扡	yjai	1	yjeiea
 迆	tyoa	1	tyaiao
@@ -23320,9 +25007,11 @@ encoder:
 饐	vut.	1	vuuooa
 譯	yyf,	1	yyoeee
 議	yyd.	1	yyoeee
+鷊	nsoo	1	nseiae
 鷊	ysoo	1	yseiae
 囈	yok'	1	yoiaee
 鐿	yal.	1	yauoee
+鷁	nkr.	1	nkoueu
 鷁	ykr.	1	ykoueu
 鷖	ycg.	1	yceuee
 驛	yqf,	1	yqeiee
@@ -23347,6 +25036,7 @@ encoder:
 釿	jauu	1	jauoee
 飲	yuuu	1	yuuooa
 隱	ybz.	1	ybaiuo
+齗	knau	1	knieie
 齗	ynau	1	ynieie
 癮	ygb.	1	ygoeuo
 岃	req.	1	reiaia
@@ -23408,6 +25098,7 @@ encoder:
 癰	ygl.	1	ygoeuo
 硧	tsy;	1	tseuia
 詠	yyw'	1	yyoeee
+湧	cvy'	1	cvooea
 湧	yvy'	1	yvooea
 踴	yny'	1	yniaei
 鯒	yyy;	1	yyuaia
@@ -23633,6 +25324,7 @@ encoder:
 澤	svf,	1	svooei
 澤	yvf,	1	yvooei
 澤	zvf,	1	zvooei
+簀	kzf;	1	kzueou
 簀	zzf;	1	zzueou
 賾	zcei	1	zceiia
 襗	zyf,	1	zyoaiu
@@ -23700,6 +25392,7 @@ encoder:
 棧	zml,	1	zmeiuo
 綻	zlii	1	zlaaoo
 戰	zooe	1	zoiaei
+驏	cqp'	1	cqeiee
 驏	zqp'	1	zqeiee
 弡	zgc'	1	zgaeae
 張	zgei	1	zgaeae
@@ -23730,6 +25423,7 @@ encoder:
 銸	zab'	1	zauoee
 蟄	ztd;	1	zteieo
 謫	zyw,	1	zyoeee
+轍	cpw/	1	cpeiae
 轍	zpw/	1	zpeiae
 讋	zluo	1	zloeou
 禇	zyt;	1	zyoaio
@@ -23765,6 +25459,7 @@ encoder:
 黰	yvt/	1	yviaou
 侲	crg'	1	cruieu
 陣	zbei	1	zbaiei
+紖	ylg;	1	ylaaoo
 紖	zlg;	1	zlaaoo
 蜄	scg'	1	sciaei
 賑	zhg'	1	zhiaee
@@ -23833,6 +25528,7 @@ encoder:
 質	zjj;	1	zjuuei
 薙	zkg.	1	zkeiiu
 擲	zjd'	1	zjeieo
+櫛	jmz'	1	jmeiuo
 櫛	zmz'	1	zmeiuo
 穉	chp,	1	chueiu
 穉	thp,	1	thueiu
@@ -23907,6 +25603,7 @@ encoder:
 矚	zfp;	1	zfiaee
 佇	zrie	1	zruioo
 苧	nkie	1	nkeiio
+苧	zkie	1	zkeiio
 迬	zwf.	1	zwoeei
 紵	slie	1	slaaoo
 紵	zlie	1	zlaaoo
@@ -27504,1133 +29201,1133 @@ encoder:
 祚	zyq,	0	zyoaio
 座	zgae	0	zgoeuu
 做	zrg/	0	zruiei
-现在	xfe	399
-还是	hsi	399
-如果	rni	399
-第一	dze	399
-告诉	gro	399
-开始	ksa	399
-看到	kve	399
-爱人	vzu	399
-同时	tci	399
-东西	dle	399
-认为	rwo	399
-人民	raa	399
-忽然	hbu	399
-任何	rru	399
-发生	flu	399
-阿哥哥	vge	399
-合作	hau	399
-成为	cgo	399
-方法	fqo	399
-文化	wuu	399
-会议	hao	399
-小姐	xpa	399
-人们	rau	399
-干部	gto	399
-老人	ltu	399
-处理	cue	399
-最后	ziu	399
-人员	rai	399
-人家	rao	399
-科技	khe	399
-看看	kvu	399
-其实	qko	399
-除了	cba	399
-提供	tju	399
-准备	zdu	399
-数据	sde	399
-那样	nue	399
-主席	zwo	399
-果然	giu	399
-见到	jce	399
-答应	dzo	399
-科学	kho	399
-师父	sdu	399
-取得	qbu	399
-名字	muo	399
-脸色	luu	399
-日本	rie	399
-不好	bsa	399
-跟着	gno	399
-表情	bfo	399
-能力	nya	399
-各种	guu	399
-制度	zqo	399
-产生	clu	399
-小心	xpo	399
-改变	gco	399
-算法	szo	399
-日子	ria	399
-安全	viu	399
-而已	vsa	399
-大师	dpi	399
-厉害	lgo	399
-实际	sia	399
-认真	rwe	399
-耳边	vba	399
-确定	qso	399
-究竟	jio	399
-反而	fhe	399
-外面	wue	399
-内容	nco	399
-很快	hpo	399
-关心	gko	399
-曾经	cda	399
-美丽	mde	399
-肯定	kno	399
-比赛	bgo	399
-领域	lae	399
-神情	syo	399
-大会	dpu	399
-多年	duu	399
-讨论	two	399
-人才	rae	399
-委员会	wyu	399
-东方	dlo	399
-之际	zza	399
-按照	vji	399
-年纪	nqa	399
-头发	tda	399
-未来	wde	399
-秘密	mho	399
-附近	fbu	399
-软件	rpu	399
-房子	fwa	399
-旁边	pwa	399
-命令	mau	399
-维护	wle	399
-必要	bxe	399
-现代	xfu	399
-银子	yaa	399
-路上	lni	399
-左手	zxu	399
-好像	hnu	399
-当地	dee	399
-亲自	qlu	399
-现实	xfo	399
-吩咐	foi	399
-通知	tyu	399
-丝毫	slo	399
-澳门	vvo	399
-妇人	fnu	399
-罢免	bfu	399
-爱情	vzo	399
-运动	yde	399
-劳动	lke	399
-走过	zte	399
-屋子	wpa	399
-俄罗斯	vle	399
-肚子	dua	399
-日前	rio	399
-没什么	msu	399
-难得	nku	399
-快速	kxe	399
-起头	qto	399
-懂得	dxu	399
-丰富	ffo	399
-完善	wio	399
-威胁	wgu	399
-匆匆	cbu	399
-必定	bxo	399
-舒服	sau	399
-夫妻	fde	399
-失望	sqo	399
-而言	vso	399
-电影	dii	399
-符合	fzu	399
-手法	svo	399
-愤怒	fxa	399
-鲜血	xyu	399
-内力	nca	399
-耳朵	vbu	399
-核心	hmo	399
-凝视	ndo	399
-美人	mdu	399
-天气	tsu	399
-教授	jte	399
-桌子	zea	399
-面临	msi	399
-此外	cnu	399
-眉头	mpo	399
-针对	zaa	399
-安全阀	vqo	399
-电脑	diu	399
-更为	gso	399
-无限	wda	399
-看法	kvo	399
-哀求	vwe	399
-尽快	jpo	399
-何以	hra	399
-巴黎	bbu	399
-平常	psi	399
-迟疑	cpu	399
-一方面	yfe	399
-采访	czo	399
-忍受	rqu	399
-独自	dqu	399
-足以	zna	399
-退出	tea	399
-光芒	gee	399
-评价	pwu	399
-威力	wga	399
-毛泽东	mze	399
-小人	xpu	399
-年龄	nqi	399
-灵魂	lee	399
-个性	gao	399
-服务器	fwi	399
-力气	lqu	399
-红色	hlu	399
-猛地	mqe	399
-立场	lle	399
-内功	nce	399
-突破	tie	399
-美好	mda	399
-刺激	cso	399
-姓名	xnu	399
-毕业	bgi	399
-厉声	lge	399
-尴尬	gxe	399
-陌生	mbu	399
-签署	qzi	399
-法规	fve	399
-参数	cyo	399
-办事	bqe	399
-脸颊	lue	399
-冠军	gio	399
-跟踪	gni	399
-诧异	cwa	399
-礼物	lyu	399
-认出	rwa	399
-纽约	nla	399
-头顶	tde	399
-形容	xso	399
-能否	nye	399
-宝宝	bio	399
-奇异	qpa	399
-脑海	nuo	399
-途径	tau	399
-部署	bli	399
-里头	lio	399
-凡是	fni	399
-生产力	sca	399
-补充	byo	399
-惊奇	jxe	399
-购买	gha	399
-克服	kgu	399
-皮肤	pgu	399
-王府	wfo	399
-快活	kxo	399
-透露	the	399
-取消	qbo	399
-开拓	kse	399
-台阶	tya	399
-糊涂	hdo	399
-职能	zba	399
-而后	vsu	399
-短短	dgu	399
-非但	feu	399
-怪异	gxa	399
-富有	fie	399
-明亮	mio	399
-人民币	rmu	399
-喜爱	xtu	399
-国内外	gnu	399
-覆盖	fxo	399
-瞥见	pdi	399
-虽说	soo	399
-多媒体	dmu	399
-平方米	pfo	399
-师妹	sda	399
-风格	fne	399
-媳妇	xna	399
-如意	rno	399
-管家	gzo	399
-女士	nne	399
-餐厅	cee	399
-在线	zxa	399
-更多	gsu	399
-到了	dsa	399
-发帖	fli	399
-平台	psa	399
-超级	cta	399
-如果你	rgu	399
-也不	yye	399
-添加	tva	399
-联系人	lxu	399
-房地产	fdo	399
-更是	gsi	399
-另一	loe	399
-包装	bbo	399
-太多	tpu	399
-特别是	tbi	399
-各类	guo	399
-第一个	dyu	399
-购物	ghu	399
-贴子	tha	399
-福建	fya	399
-维修	wlu	399
-没想到	mxe	399
-导演	dbo	399
-下一页	xye	399
-求购	qsi	399
-光临	gei	399
-欢迎您	hyu	399
-投资者	tze	399
-年度	nqo	399
-二手	vdu	399
-您是	nri	399
-可能会	knu	399
-陕西	sbe	399
-可以说	kyo	399
-宁波	nio	399
-二十	vde	399
-男性	nto	399
-能量	nyi	399
-那么多	nmu	399
-看起来	kqe	399
-忍不住	rbu	399
-航空	hzo	399
-你怎么	nzu	399
-新技术	xje	399
-能源	nyo	399
-考核	kte	399
-女孩子	nha	399
-请您	qwu	399
-你知道	nzo	399
-排行榜	phe	399
-求职	qse	399
-买了	mja	399
-委托	whe	399
-拿出	naa	399
-财经	cha	399
-开发商	kfo	399
-您现在	nxe	399
-从来没	clo	399
-你自己	nza	399
-分公司	fga	399
-任何人	rhu	399
-防治	fbo	399
-二级	vda	399
-梦幻	mma	399
-看不到	kbe	399
-女朋友	npe	399
-供应商	gyo	399
-周边	zca	399
-签订	qzo	399
-给她	gla	399
-没办法	mbo	399
-器材	qoe	399
-赔偿	phu	399
-朋友们	pyu	399
-文件夹	wje	399
-辅导	fpa	399
-点了	dea	399
-打印机	dye	399
-面板	mse	399
-辉煌	heo	399
-要注意	yzo	399
-篮球	lze	399
-暴力	bia	399
-她也	tna	399
-卡通	kea	399
-怀里	hxi	399
-给自己	gza	399
-看了看	klu	399
-奥运	vre	399
-爱好者	vhe	399
-过去了	gqa	399
-欧盟	vci	399
-爱好	vza	399
-庞大	pge	399
-融合	rsu	399
-边缘	bqa	399
-该企业	gqi	399
-匿名	ncu	399
-每天都	mte	399
-忽视	hbo	399
-羡慕	xde	399
-本主题	bzi	399
-贴数	tho	399
-爱上	vzi	399
-会对	haa	399
-普及	pku	399
-陶瓷	tbo	399
-融资	rso	399
-难题	nki	399
-多功能	dga	399
-销量	xai	399
-附加	fba	399
-按摩	vjo	399
-好不好	hba	399
-耐心	nso	399
-强劲	qga	399
-穿过	cie	399
-然后再	rhe	399
-忽略	hbi	399
-考虑到	kle	399
-三级	sfa	399
-无意中	wyi	399
-框架	kma	399
-星期六	xqo	399
-那个人	ngu	399
-您所在	nse	399
-福利	fyu	399
-就不能	jba	399
-符号	fzi	399
-光驱	gea	399
-夸张	kpa	399
-奥运会	vyu	399
-签约	qza	399
-纳入	nlu	399
-退休	teu	399
-导弹	dba	399
-科目	khi	399
-看着他	kzu	399
-我心里	wxi	399
-二次	vdo	399
-认同	rwi	399
-暴露	bie	399
-看不见	kbi	399
-瑞士	rfe	399
-非常好	fca	399
-吓得	xou	399
-秋天	qhe	399
-东风	dlu	399
-忍者	rqe	399
-亏损	kde	399
-如果说	rgo	399
-你不要	nbe	399
-男士	nte	399
-看不出	kba	399
-被称为	bco	399
-可持续	kca	399
-火车站	hco	399
-各方面	gfe	399
-它可以	tka	399
-悲剧	bea	399
-你还是	nhi	399
-乳房	rzo	399
-注意力	zya	399
-春季	cfu	399
-认识到	rse	399
-派出所	pcu	399
-轨道	gpo	399
-你喜欢	nxa	399
-猜测	cqo	399
-辐射	fpu	399
-头痛	tdo	399
-童年	tlu	399
-名叫	mui	399
-屋里	wpi	399
-课文	kwo	399
-产业化	cyu	399
-狗狗	gqu	399
-房间里	fji	399
-王者	wfe	399
-阵容	zbo	399
-裤子	kya	399
-第一步	dyi	399
-高品质	gpu	399
-牛皮癣	npo	399
-县委	xhu	399
-陪我	pbu	399
-骗子	pqa	399
-能找到	nze	399
-非要	fee	399
-发送到	fse	399
-概况	gmo	399
-不合格	bhe	399
-我只能	wza	399
-柔和	ryu	399
-每一次	myo	399
-富豪	fio	399
-埃及	vtu	399
-规范化	gfu	399
-或以上	hyi	399
-看一下	kye	399
-猴子	hqa	399
-歧视	qno	399
-瑞典	rfi	399
-癌症	vgo	399
-降到	jbe	399
-奇特	qpu	399
-回答者	hde	399
-爱立信	vlu	399
-寝室	qio	399
-柔情	ryo	399
-人民网	rmi	399
-句话	jbo	399
-未注册	wzu	399
-管理学	glo	399
-牧师	mri	399
-匹配	pce	399
-别忘了	bwa	399
-胖子	pua	399
-哪里去	nle	399
-毛巾	mpi	399
-富翁	fiu	399
-纳米	nlo	399
-该怎么	gzu	399
-人性化	rxu	399
-县城	xhe	399
-很明显	hmi	399
-刻录	kwa	399
-不同意	bto	399
-弱点	rgi	399
-热水器	rsi	399
-救了	jsa	399
-肉体	rcu	399
-阀门	fco	399
-靠在	kre	399
-完整性	wzo	399
-苦恼	kko	399
-力求	lqe	399
-您无权	nwe	399
-钓鱼	dau	399
-封印	ftu	399
-会议室	hyo	399
-骗人	pqu	399
-跨国	kni	399
-拜访	bvo	399
-器具	qoi	399
-通讯员	txi	399
-分析师	fxi	399
-另存为	lco	399
-独有	dqe	399
-盘中	pzi	399
-虚幻	xea	399
-航线	hza	399
-爱护	vze	399
-同性恋	txo	399
-您目前	nmo	399
-妥善	tzo	399
-我们家	wmo	399
-王先生	wxu	399
-厚厚	hge	399
-二战	vdi	399
-驱动器	qdi	399
-低下头	dxo	399
-工业化	gyu	399
-岂不是	qbi	399
-脑子里	nzi	399
-巧合	qdu	399
-同志们	tzu	399
-给朋友	gpe	399
-筷子	kza	399
-陶醉	tbe	399
-譬如	ppa	399
-没必要	mbe	399
-调解	twu	399
-换上	hji	399
-丰胸	ffu	399
-余地	yae	399
-为主题	wzi	399
-怪不得	gbu	399
-买入	mju	399
-富贵	fii	399
-统统	tla	399
-你的手	ndu	399
-调皮	twa	399
-靠着	kro	399
-浓缩	nva	399
-翡翠	fea	399
-伦理	lre	399
-虐待	neu	399
-名字叫	mzi	399
-怪怪	gxo	399
-安全感	vqe	399
-弹簧	tgu	399
-鞍山	vki	399
-另一半	lyo	399
-赔率	pho	399
-狂野	kqi	399
-狂风	kqu	399
-骂人	mou	399
-若不是	rbi	399
-溶液	rvo	399
-黯然	vvu	399
-独孤	dqa	399
-卫视	wbo	399
-看不懂	kbo	399
-剥夺	bee	399
-封建	fta	399
-分数线	fsa	399
-我只想	wze	399
-软弱	rpa	399
-超低价	cdu	399
-诺言	nwo	399
-锋利	fau	399
-奈何	npu	399
-每隔	mqa	399
-威严	wge	399
-晴天	qie	399
-里也	lia	399
-能满足	nmi	399
-扶着	fjo	399
-废墟	fge	399
-毛孔	mpa	399
-朴实	pmo	399
-饿了	vua	399
-前一天	qye	399
-恐怖片	kbu	399
-无条件	wtu	399
-卡号	kei	399
-俄国	vri	399
-胡同	hgi	399
-护肤品	hfi	399
-往前走	wqe	399
-溶解	rvu	399
-赚疯了	zfa	399
-岂不	qee	399
-朴素	pme	399
-雕像	dcu	399
-拿到了	nda	399
-枯燥	kmo	399
-枫叶	fmi	399
-妊娠	rna	399
-柔弱	rya	399
-岸边	vea	399
-夸奖	kpo	399
-国防部	gfo	399
-恶狠狠	vhu	399
-肉类	rco	399
-本条例	btu	399
-内分泌	nfo	399
-爱普生	vpu	399
-那个女	nga	399
-丰收	ffa	399
-秋水	qhi	399
-我们班	wme	399
-没意思	myi	399
-舒缓	saa	399
-冒险岛	mxu	399
-复印机	fye	399
-若能	rka	399
-盘算	pzu	399
-舞会	wqu	399
-日报社	rbo	399
-铠甲	kai	399
-懊恼	vxo	399
-日用品	ryi	399
-回忆起	hye	399
-盘子	pza	399
-人生观	rsa	399
-女孩儿	nhu	399
-爱情片	vqu	399
-丹田	dci	399
-辅导员	fdi	399
-免不了	mba	399
-鸟类	nbo	399
-额头上	vti	399
-抢着	qjo	399
-齐齐	quo	399
-可操作	kcu	399
-蓝筹股	lcu	399
-狂潮	kqo	399
-网游之	wyo	399
-铺设	pao	399
-软软	rpe	399
-弄出	nfa	399
-马路上	mli	399
-安眠药	vme	399
-瞳孔	tfa	399
-匹马	pca	399
-里程碑	lce	399
-大拇指	dme	399
-弄到	nfe	399
-叹口气	tku	399
-民政局	mza	399
-瞥了	pda	399
-抚慰	fja	399
-睿智	reu	399
-你还不	nhe	399
-儿歌	vne	399
-乳腺	rzu	399
-桃子	tma	399
-富民	fia	399
-耳塞	vbo	399
-岸上	vei	399
-南方网	nfi	399
-热衷于	rze	399
-锋芒	fae	399
-如下图	rxi	399
-妇产科	fcu	399
-快餐店	kco	399
-人行道	rxo	399
-儿科	vnu	399
-泰达	tfe	399
-分泌物	fmu	399
-入门级	rma	399
-航天员	hti	399
-任天堂	rti	399
-饶了	rua	399
-美联社	mlo	399
-耐高温	ngo	399
-嚷道	roo	399
-枪口	qmi	399
-偶像剧	vxa	399
-项羽	xda	399
-欠了	qua	399
-镖局	baa	399
-艾伦	vku	399
-铭记	mao	399
-缥缈	pla	399
-霓虹灯	nho	399
-提取物	tqu	399
-奋进	fpe	399
-锋线	faa	399
-康宝	kgo	399
-尼姑	npa	399
-男星	nti	399
-儿童节	vte	399
-猥亵	wqo	399
-龌龊	wni	399
-铿锵	kau	399
-韧性	rdo	399
-咖啡屋	kfa	399
-馈赠	kui	399
-福星	fyi	399
-丹尼	dca	399
-铺垫	pae	399
-囊中	nsi	399
-虎口	hei	399
-阿联酋	vlo	399
-五年前	wno	399
-埃弗顿	vfe	399
-忍了	rqa	399
-扩展性	kzo	399
-奥克斯	vke	399
-绕了	rla	399
-复选框	fxe	399
-开了门	klo	399
-评论家	plo	399
-帕克	pee	399
-爱丽丝	vla	399
-绒毛	rlu	399
-朋友圈	pyi	399
-欧佩克	vpe	399
-峨眉山	vmi	399
-哀悼	vwo	399
-满天飞	mta	399
-卡路里	kli	399
-维尼	wla	399
-铂金	bau	399
-女秘书	nma	399
-欧版	vcu	399
-蝴蝶结	hda	399
-陌路	mbi	399
-人情味	rqi	399
-肉鸡	rca	399
-盎司	vva	399
-宁波网	nbi	399
-脾胃	pui	399
-韧带	rde	399
-太复杂	tfu	399
-溺水	nvi	399
-美容店	mro	399
-齐国	qui	399
-耗电量	hdi	399
-铺子	paa	399
-电信局	dxa	399
-工艺厂	gye	399
-可以点	kyi	399
-惹麻烦	rmo	399
-潘多拉	pde	399
-榕树	rme	399
-胯下	kue	399
-瑞郎	rfo	399
-软骨	rpi	399
-补偿费	bca	399
-瑞德	rfu	399
-热腾腾	rtu	399
-爱情观	vqa	399
-铺路	pai	399
-促发展	cfa	399
-彭德怀	pdo	399
-安全网	vqi	399
-拍拍网	ppi	399
-热带鱼	rdu	399
-陪葬	pbe	399
-毛坯	mpe	399
-软组织	rza	399
-亏待	kdu	399
-袍子	pya	399
-日本车	rbe	399
-夸赞	kpu	399
-铺货	pau	399
-软座	rpo	399
-脑萎缩	nwa	399
-排气量	pqi	399
-然则	rui	399
-尔时	vui	399
-陶子	tba	399
-高压线	gya	399
-阿里山	vli	399
-认同感	rte	399
-虎豹	heu	399
-爱面子	vma	399
-迢迢	tqa	399
-盆腔炎	pqo	399
-鄱阳湖	pyo	399
-尼古丁	nge	399
-曝晒	pii	399
-二环路	vhi	399
-爱与恨	vyo	399
-燃尽	rha	399
-镖师	bai	399
-虐囚	nei	399
-培养基	pye	399
-岷江	meo	399
-熔断器	rdi	399
-二号线	vha	399
-而后快	vho	399
-巍然	weu	399
-克鲁尼	kla	399
-鹌鹑	vpo	399
-儿童房	vto	399
-艾美奖	vmo	399
-人工费	rga	399
-肉包子	rba	399
-奥运村	vye	399
-暗夜里	vyi	399
-恶魔岛	vmu	399
-人贩子	rfa	399
-凹版	veu	399
-钨钢	wau	399
-焚尸	fma	399
-热电阻	rda	399
-曝露	pie	399
-女歌星	ngi	399
-曝气	piu	399
-绕路	rli	399
-人头马	rta	399
-供配电	gpi	399
-虐恋	neo	399
-安息日	vxi	399
-乳头状	rto	399
-绕线机	rxe	399
-胯部	kuo	399
-钨丝	waa	399
-帽徽	meu	399
-诺思	nwi	399
-安防网	vfi	399
-钨矿	wae	399
-然诺	ruo	399
-钼丝	maa	399
-辊子	gpa	399
-帕潘	peo	399
-安排好	vpa	399
-安平县	vpi	399
-脍炙	kuu	399
-铵盐	vae	399
-帕子	pea	399
-睿明	rei	399
-嚅动	roe	399
-虐政	nee	399
-曝衣	pio	399
-入选了	rxa	399
-锋快	fao	399
-帡幪	pei	399
-睿宗	reo	399
-钨灯	wao	399
-虐了	nea	399
-啡色	fou	399
-锋尚	fai	399
-餬口	hui	399
-嚷我	rou	399
-睿姐	rea	399
-如此	rn;	399
-还有	hs;	399
-而且	vs;	399
-然后	ru;	399
-宝贝	bi;	399
-男人	nt;	399
-通过	ty;	399
-看见	kv;	399
-能够	ny;	399
-认识	rw;	399
-开发	ks;	399
-农民	ni;	399
-容易	ri;	399
-人物	ra;	399
-稳定	wh;	399
-笑容	xz;	399
-恐怕	kd;	399
-范围	fk;	399
-热情	rj;	399
-取出	qb;	399
-矛盾	my;	399
-念头	na;	399
-科研	kh;	399
-王爷	wf;	399
-卫生	wb;	399
-阿胶	vb;	399
-负责人	fz;	399
-忽地	hb;	399
-委员长	wy;	399
-防止	fb;	399
-帽子	me;	399
-奋斗	fp;	399
-埋伏	mt;	399
-奉献	ff;	399
-愕然	vx;	399
-舞台	wq;	399
-燃烧	rh;	399
-泰国	tf;	399
-毛病	mp;	399
-威望	wg;	399
-给我	gl;	399
-如果您	rg;	399
-会员价	hy;	399
-签名	qz;	399
-很多人	hd;	399
-可以用	ky;	399
-你们的	nm;	399
-二人	vd;	399
-能不能	nb;	399
-第一章	dy;	399
-福州	fy;	399
-可能性	kn;	399
-他自己	tz;	399
-爱心	vz;	399
-工艺品	gy;	399
-女歌手	ng;	399
-日本人	rb;	399
-你这个	nz;	399
-安全性	vq;	399
-官方网	gf;	399
-融入	rs;	399
-软体	rp;	399
-控制器	kz;	399
-各部门	gb;	399
-纳税	nl;	399
-陪伴	pb;	399
-秋季	qh;	399
-雕刻	dc;	399
-日子里	rz;	399
-富士	fi;	399
-完整版	wz;	399
-男孩子	nh;	399
-阿拉伯	vl;	399
-瑞星	rf;	399
-轨迹	gp;	399
-狂热	kq;	399
-爬上	ph;	399
-忍耐	rq;	399
-攀升	pm;	399
-毛主席	mz;	399
-骗我	pq;	399
-看不起	kb;	399
-刻录机	kl;	399
-我们党	wm;	399
-夸大	kp;	399
-鳄鱼	vy;	399
-嚷嚷	ro;	399
-买不到	mb;	399
-凹凸	ve;	399
-按回车	vh;	399
-乳腺癌	rx;	399
-热卖价	rm;	399
-人体内	rt;	399
-诺亚	nw;	399
-铺开	pa;	399
-拍电影	pd;	399
-帕特	pe;	399
-碰运气	py;	399
-欧姆龙	vm;	399
-安排表	vp;	399
-热电偶	rd;	399
-虐猫	ne;	399
-呋喃	fo;	399
-锋刃	fa;	399
-钨钼	wa;	399
-睿哲	re;	399
-铵根	va;	399
-那么	nu'	399
-如何	rn'	399
-必须	bx'	399
-情况	qx'	399
-美国	md'	399
-夫人	fd'	399
-难道	nk'	399
-多少	du'	399
-然而	ru'	399
-参加	cy'	399
-看来	kv'	399
-还要	hs'	399
-否则	fs'	399
-马上	mq'	399
-农业	ni'	399
-办法	bq'	399
-法律	fv'	399
-随着	sb'	399
-开放	ks'	399
-房间	fw'	399
-年轻	nq'	399
-更加	gs'	399
-职工	zb'	399
-统一	tl'	399
-台湾	ty'	399
-男子	nt'	399
-包括	bb'	399
-人类	ra'	399
-贸易	mh'	399
-祖国	zy'	399
-欧洲	vc'	399
-内心	nc'	399
-委员	wh'	399
-命运	ma'	399
-热闹	rj'	399
-恐惧	kd'	399
-恶心	vs'	399
-配合	px'	399
-挨揍	vj'	399
-认得	rw'	399
-笑意	xz'	399
-握住	wj'	399
-路线	ln'	399
-扶贫	fj'	399
-宝剑	bi'	399
-日后	ri'	399
-王子	wf'	399
-靠近	kr'	399
-岗位	ge'	399
-偶然	vr'	399
-共和国	gh'	399
-东京	dl'	399
-挨个儿	vg'	399
-柔软	ry'	399
-透过	th'	399
-芙蓉	fk'	399
-评论	pw'	399
-管理员	gl'	399
-附件	fb'	399
-档案	dm'	399
-会计	ka'	399
-我现在	wx'	399
-每一个	my'	399
-会不会	hb'	399
-库存	kg'	399
-辅助	fp'	399
-不承担	bc'	399
-能在	ny'	399
-耳机	vb'	399
-我一直	wy'	399
-拿着	na'	399
-齐全	qu'	399
-内蒙古	nm'	399
-客户端	kh'	399
-卫星	wb'	399
-化妆品	hz'	399
-发现该	fx'	399
-你现在	nx'	399
-请注明	qz'	399
-舞曲	wq'	399
-摩托车	mt'	399
-男朋友	np'	399
-悲伤	be'	399
-请不要	qb'	399
-爱我	vz'	399
-问题是	wt'	399
-那时候	ns'	399
-男歌手	ng'	399
-纺织品	fz'	399
-第一卷	dy'	399
-罚款	ff'	399
-封闭	ft'	399
-发言人	fy'	399
-女主角	nz'	399
-弄得	nf'	399
-二楼	vd'	399
-隔离	gb'	399
-你不会	nb'	399
-回到家	hd'	399
-工业园	gy'	399
-卡片	ke'	399
-欢迎你	hy'	399
-外国人	wg'	399
-聘请	pb'	399
-她自己	tz'	399
-你到底	nd'	399
-特别版	tb'	399
-可直接	kz'	399
-跨越	kn'	399
-不同于	bt'	399
-秋冬	qh'	399
-泰山	tf'	399
-燃料	rh'	399
-雕塑	dc'	399
-听起来	tq'	399
-看一看	ky'	399
-剖析	pl'	399
-富裕	fi'	399
-弱势	rg'	399
-牡丹	mr'	399
-蔚蓝	wk'	399
-能力强	nl'	399
-猜想	cq'	399
-蜂蜜	fc'	399
-盘点	pz'	399
-骂道	mo'	399
-购房者	gf'	399
-屋子里	wz'	399
-眉毛	mp'	399
-脑海里	nh'	399
-融化	rs'	399
-忍住	rq'	399
-狂欢	kq'	399
-青年报	qn'	399
-貌似	mz'	399
-爬起来	pq'	399
-帷幕	we'	399
-软盘	rp'	399
-绵阳	ml'	399
-绕过	rl'	399
-安理会	vl'	399
-看不清	kb'	399
-炮弹	ph'	399
-安全套	vq'	399
-肮脏	vu'	399
-哀伤	vw'	399
-润滑	rv'	399
-我们俩	wm'	399
-乳头	rz'	399
-螃蟹	pc'	399
-铁矿石	tk'	399
-克林顿	kl'	399
-攀登	pm'	399
-焚烧	fm'	399
-面包车	mb'	399
-癌细胞	vx'	399
-埃尔	vt'	399
-诺斯	nw'	399
-峨嵋	ve'	399
-嚷着	ro'	399
-幌子	he'	399
-乳白色	rb'	399
-软绵绵	rm'	399
-光盘版	gp'	399
-判断力	pd'	399
-瑞克	rf'	399
-铺满	pa'	399
-暗红色	vh'	399
-馄饨	hu'	399
-肉体上	rt'	399
-卡佩罗	kp'	399
-恶魔城	vm'	399
-帕斯	pe'	399
-热电厂	rd'	399
-欧阳修	vy'	399
-热心人	rx'	399
-虐杀	ne'	399
-便宜货	py'	399
-阿帕奇	vp'	399
-岷山	me'	399
-吠叫	fo'	399
-馈线	ku'	399
-锋面	fa'	399
-钨酸	wa'	399
-铵基	va'	399
-睿见	re'	399
+现在	xfe
+还是	hsi
+如果	rni
+第一	dze
+告诉	gro
+开始	ksa
+看到	kve
+爱人	vzu
+同时	tci
+东西	dle
+认为	rwo
+人民	raa
+忽然	hbu
+任何	rru
+发生	flu
+阿哥哥	vge
+合作	hau
+成为	cgo
+方法	fqo
+文化	wuu
+会议	hao
+小姐	xpa
+人们	rau
+干部	gto
+老人	ltu
+处理	cue
+最后	ziu
+人员	rai
+人家	rao
+科技	khe
+看看	kvu
+其实	qko
+除了	cba
+提供	tju
+准备	zdu
+数据	sde
+那样	nue
+主席	zwo
+果然	giu
+见到	jce
+答应	dzo
+科学	kho
+师父	sdu
+取得	qbu
+名字	muo
+脸色	luu
+日本	rie
+不好	bsa
+跟着	gno
+表情	bfo
+能力	nya
+各种	guu
+制度	zqo
+产生	clu
+小心	xpo
+改变	gco
+算法	szo
+日子	ria
+安全	viu
+而已	vsa
+大师	dpi
+厉害	lgo
+实际	sia
+认真	rwe
+耳边	vba
+确定	qso
+究竟	jio
+反而	fhe
+外面	wue
+内容	nco
+很快	hpo
+关心	gko
+曾经	cda
+美丽	mde
+肯定	kno
+比赛	bgo
+领域	lae
+神情	syo
+大会	dpu
+多年	duu
+讨论	two
+人才	rae
+委员会	wyu
+东方	dlo
+之际	zza
+按照	vji
+年纪	nqa
+头发	tda
+未来	wde
+秘密	mho
+附近	fbu
+软件	rpu
+房子	fwa
+旁边	pwa
+命令	mau
+维护	wle
+必要	bxe
+现代	xfu
+银子	yaa
+路上	lni
+左手	zxu
+好像	hnu
+当地	dee
+亲自	qlu
+现实	xfo
+吩咐	foi
+通知	tyu
+丝毫	slo
+澳门	vvo
+妇人	fnu
+罢免	bfu
+爱情	vzo
+运动	yde
+劳动	lke
+走过	zte
+屋子	wpa
+俄罗斯	vle
+肚子	dua
+日前	rio
+没什么	msu
+难得	nku
+快速	kxe
+起头	qto
+懂得	dxu
+丰富	ffo
+完善	wio
+威胁	wgu
+匆匆	cbu
+必定	bxo
+舒服	sau
+夫妻	fde
+失望	sqo
+而言	vso
+电影	dii
+符合	fzu
+手法	svo
+愤怒	fxa
+鲜血	xyu
+内力	nca
+耳朵	vbu
+核心	hmo
+凝视	ndo
+美人	mdu
+天气	tsu
+教授	jte
+桌子	zea
+面临	msi
+此外	cnu
+眉头	mpo
+针对	zaa
+安全阀	vqo
+电脑	diu
+更为	gso
+无限	wda
+看法	kvo
+哀求	vwe
+尽快	jpo
+何以	hra
+巴黎	bbu
+平常	psi
+迟疑	cpu
+一方面	yfe
+采访	czo
+忍受	rqu
+独自	dqu
+足以	zna
+退出	tea
+光芒	gee
+评价	pwu
+威力	wga
+毛泽东	mze
+小人	xpu
+年龄	nqi
+灵魂	lee
+个性	gao
+服务器	fwi
+力气	lqu
+红色	hlu
+猛地	mqe
+立场	lle
+内功	nce
+突破	tie
+美好	mda
+刺激	cso
+姓名	xnu
+毕业	bgi
+厉声	lge
+尴尬	gxe
+陌生	mbu
+签署	qzi
+法规	fve
+参数	cyo
+办事	bqe
+脸颊	lue
+冠军	gio
+跟踪	gni
+诧异	cwa
+礼物	lyu
+认出	rwa
+纽约	nla
+头顶	tde
+形容	xso
+能否	nye
+宝宝	bio
+奇异	qpa
+脑海	nuo
+途径	tau
+部署	bli
+里头	lio
+凡是	fni
+生产力	sca
+补充	byo
+惊奇	jxe
+购买	gha
+克服	kgu
+皮肤	pgu
+王府	wfo
+快活	kxo
+透露	the
+取消	qbo
+开拓	kse
+台阶	tya
+糊涂	hdo
+职能	zba
+而后	vsu
+短短	dgu
+非但	feu
+怪异	gxa
+富有	fie
+明亮	mio
+人民币	rmu
+喜爱	xtu
+国内外	gnu
+覆盖	fxo
+瞥见	pdi
+虽说	soo
+多媒体	dmu
+平方米	pfo
+师妹	sda
+风格	fne
+媳妇	xna
+如意	rno
+管家	gzo
+女士	nne
+餐厅	cee
+在线	zxa
+更多	gsu
+到了	dsa
+发帖	fli
+平台	psa
+超级	cta
+如果你	rgu
+也不	yye
+添加	tva
+联系人	lxu
+房地产	fdo
+更是	gsi
+另一	loe
+包装	bbo
+太多	tpu
+特别是	tbi
+各类	guo
+第一个	dyu
+购物	ghu
+贴子	tha
+福建	fya
+维修	wlu
+没想到	mxe
+导演	dbo
+下一页	xye
+求购	qsi
+光临	gei
+欢迎您	hyu
+投资者	tze
+年度	nqo
+二手	vdu
+您是	nri
+可能会	knu
+陕西	sbe
+可以说	kyo
+宁波	nio
+二十	vde
+男性	nto
+能量	nyi
+那么多	nmu
+看起来	kqe
+忍不住	rbu
+航空	hzo
+你怎么	nzu
+新技术	xje
+能源	nyo
+考核	kte
+女孩子	nha
+请您	qwu
+你知道	nzo
+排行榜	phe
+求职	qse
+买了	mja
+委托	whe
+拿出	naa
+财经	cha
+开发商	kfo
+您现在	nxe
+从来没	clo
+你自己	nza
+分公司	fga
+任何人	rhu
+防治	fbo
+二级	vda
+梦幻	mma
+看不到	kbe
+女朋友	npe
+供应商	gyo
+周边	zca
+签订	qzo
+给她	gla
+没办法	mbo
+器材	qoe
+赔偿	phu
+朋友们	pyu
+文件夹	wje
+辅导	fpa
+点了	dea
+打印机	dye
+面板	mse
+辉煌	heo
+要注意	yzo
+篮球	lze
+暴力	bia
+她也	tna
+卡通	kea
+怀里	hxi
+给自己	gza
+看了看	klu
+奥运	vre
+爱好者	vhe
+过去了	gqa
+欧盟	vci
+爱好	vza
+庞大	pge
+融合	rsu
+边缘	bqa
+该企业	gqi
+匿名	ncu
+每天都	mte
+忽视	hbo
+羡慕	xde
+本主题	bzi
+贴数	tho
+爱上	vzi
+会对	haa
+普及	pku
+陶瓷	tbo
+融资	rso
+难题	nki
+多功能	dga
+销量	xai
+附加	fba
+按摩	vjo
+好不好	hba
+耐心	nso
+强劲	qga
+穿过	cie
+然后再	rhe
+忽略	hbi
+考虑到	kle
+三级	sfa
+无意中	wyi
+框架	kma
+星期六	xqo
+那个人	ngu
+您所在	nse
+福利	fyu
+就不能	jba
+符号	fzi
+光驱	gea
+夸张	kpa
+奥运会	vyu
+签约	qza
+纳入	nlu
+退休	teu
+导弹	dba
+科目	khi
+看着他	kzu
+我心里	wxi
+二次	vdo
+认同	rwi
+暴露	bie
+看不见	kbi
+瑞士	rfe
+非常好	fca
+吓得	xou
+秋天	qhe
+东风	dlu
+忍者	rqe
+亏损	kde
+如果说	rgo
+你不要	nbe
+男士	nte
+看不出	kba
+被称为	bco
+可持续	kca
+火车站	hco
+各方面	gfe
+它可以	tka
+悲剧	bea
+你还是	nhi
+乳房	rzo
+注意力	zya
+春季	cfu
+认识到	rse
+派出所	pcu
+轨道	gpo
+你喜欢	nxa
+猜测	cqo
+辐射	fpu
+头痛	tdo
+童年	tlu
+名叫	mui
+屋里	wpi
+课文	kwo
+产业化	cyu
+狗狗	gqu
+房间里	fji
+王者	wfe
+阵容	zbo
+裤子	kya
+第一步	dyi
+高品质	gpu
+牛皮癣	npo
+县委	xhu
+陪我	pbu
+骗子	pqa
+能找到	nze
+非要	fee
+发送到	fse
+概况	gmo
+不合格	bhe
+我只能	wza
+柔和	ryu
+每一次	myo
+富豪	fio
+埃及	vtu
+规范化	gfu
+或以上	hyi
+看一下	kye
+猴子	hqa
+歧视	qno
+瑞典	rfi
+癌症	vgo
+降到	jbe
+奇特	qpu
+回答者	hde
+爱立信	vlu
+寝室	qio
+柔情	ryo
+人民网	rmi
+句话	jbo
+未注册	wzu
+管理学	glo
+牧师	mri
+匹配	pce
+别忘了	bwa
+胖子	pua
+哪里去	nle
+毛巾	mpi
+富翁	fiu
+纳米	nlo
+该怎么	gzu
+人性化	rxu
+县城	xhe
+很明显	hmi
+刻录	kwa
+不同意	bto
+弱点	rgi
+热水器	rsi
+救了	jsa
+肉体	rcu
+阀门	fco
+靠在	kre
+完整性	wzo
+苦恼	kko
+力求	lqe
+您无权	nwe
+钓鱼	dau
+封印	ftu
+会议室	hyo
+骗人	pqu
+跨国	kni
+拜访	bvo
+器具	qoi
+通讯员	txi
+分析师	fxi
+另存为	lco
+独有	dqe
+盘中	pzi
+虚幻	xea
+航线	hza
+爱护	vze
+同性恋	txo
+您目前	nmo
+妥善	tzo
+我们家	wmo
+王先生	wxu
+厚厚	hge
+二战	vdi
+驱动器	qdi
+低下头	dxo
+工业化	gyu
+岂不是	qbi
+脑子里	nzi
+巧合	qdu
+同志们	tzu
+给朋友	gpe
+筷子	kza
+陶醉	tbe
+譬如	ppa
+没必要	mbe
+调解	twu
+换上	hji
+丰胸	ffu
+余地	yae
+为主题	wzi
+怪不得	gbu
+买入	mju
+富贵	fii
+统统	tla
+你的手	ndu
+调皮	twa
+靠着	kro
+浓缩	nva
+翡翠	fea
+伦理	lre
+虐待	neu
+名字叫	mzi
+怪怪	gxo
+安全感	vqe
+弹簧	tgu
+鞍山	vki
+另一半	lyo
+赔率	pho
+狂野	kqi
+狂风	kqu
+骂人	mou
+若不是	rbi
+溶液	rvo
+黯然	vvu
+独孤	dqa
+卫视	wbo
+看不懂	kbo
+剥夺	bee
+封建	fta
+分数线	fsa
+我只想	wze
+软弱	rpa
+超低价	cdu
+诺言	nwo
+锋利	fau
+奈何	npu
+每隔	mqa
+威严	wge
+晴天	qie
+里也	lia
+能满足	nmi
+扶着	fjo
+废墟	fge
+毛孔	mpa
+朴实	pmo
+饿了	vua
+前一天	qye
+恐怖片	kbu
+无条件	wtu
+卡号	kei
+俄国	vri
+胡同	hgi
+护肤品	hfi
+往前走	wqe
+溶解	rvu
+赚疯了	zfa
+岂不	qee
+朴素	pme
+雕像	dcu
+拿到了	nda
+枯燥	kmo
+枫叶	fmi
+妊娠	rna
+柔弱	rya
+岸边	vea
+夸奖	kpo
+国防部	gfo
+恶狠狠	vhu
+肉类	rco
+本条例	btu
+内分泌	nfo
+爱普生	vpu
+那个女	nga
+丰收	ffa
+秋水	qhi
+我们班	wme
+没意思	myi
+舒缓	saa
+冒险岛	mxu
+复印机	fye
+若能	rka
+盘算	pzu
+舞会	wqu
+日报社	rbo
+铠甲	kai
+懊恼	vxo
+日用品	ryi
+回忆起	hye
+盘子	pza
+人生观	rsa
+女孩儿	nhu
+爱情片	vqu
+丹田	dci
+辅导员	fdi
+免不了	mba
+鸟类	nbo
+额头上	vti
+抢着	qjo
+齐齐	quo
+可操作	kcu
+蓝筹股	lcu
+狂潮	kqo
+网游之	wyo
+铺设	pao
+软软	rpe
+弄出	nfa
+马路上	mli
+安眠药	vme
+瞳孔	tfa
+匹马	pca
+里程碑	lce
+大拇指	dme
+弄到	nfe
+叹口气	tku
+民政局	mza
+瞥了	pda
+抚慰	fja
+睿智	reu
+你还不	nhe
+儿歌	vne
+乳腺	rzu
+桃子	tma
+富民	fia
+耳塞	vbo
+岸上	vei
+南方网	nfi
+热衷于	rze
+锋芒	fae
+如下图	rxi
+妇产科	fcu
+快餐店	kco
+人行道	rxo
+儿科	vnu
+泰达	tfe
+分泌物	fmu
+入门级	rma
+航天员	hti
+任天堂	rti
+饶了	rua
+美联社	mlo
+耐高温	ngo
+嚷道	roo
+枪口	qmi
+偶像剧	vxa
+项羽	xda
+欠了	qua
+镖局	baa
+艾伦	vku
+铭记	mao
+缥缈	pla
+霓虹灯	nho
+提取物	tqu
+奋进	fpe
+锋线	faa
+康宝	kgo
+尼姑	npa
+男星	nti
+儿童节	vte
+猥亵	wqo
+龌龊	wni
+铿锵	kau
+韧性	rdo
+咖啡屋	kfa
+馈赠	kui
+福星	fyi
+丹尼	dca
+铺垫	pae
+囊中	nsi
+虎口	hei
+阿联酋	vlo
+五年前	wno
+埃弗顿	vfe
+忍了	rqa
+扩展性	kzo
+奥克斯	vke
+绕了	rla
+复选框	fxe
+开了门	klo
+评论家	plo
+帕克	pee
+爱丽丝	vla
+绒毛	rlu
+朋友圈	pyi
+欧佩克	vpe
+峨眉山	vmi
+哀悼	vwo
+满天飞	mta
+卡路里	kli
+维尼	wla
+铂金	bau
+女秘书	nma
+欧版	vcu
+蝴蝶结	hda
+陌路	mbi
+人情味	rqi
+肉鸡	rca
+盎司	vva
+宁波网	nbi
+脾胃	pui
+韧带	rde
+太复杂	tfu
+溺水	nvi
+美容店	mro
+齐国	qui
+耗电量	hdi
+铺子	paa
+电信局	dxa
+工艺厂	gye
+可以点	kyi
+惹麻烦	rmo
+潘多拉	pde
+榕树	rme
+胯下	kue
+瑞郎	rfo
+软骨	rpi
+补偿费	bca
+瑞德	rfu
+热腾腾	rtu
+爱情观	vqa
+铺路	pai
+促发展	cfa
+彭德怀	pdo
+安全网	vqi
+拍拍网	ppi
+热带鱼	rdu
+陪葬	pbe
+毛坯	mpe
+软组织	rza
+亏待	kdu
+袍子	pya
+日本车	rbe
+夸赞	kpu
+铺货	pau
+软座	rpo
+脑萎缩	nwa
+排气量	pqi
+然则	rui
+尔时	vui
+陶子	tba
+高压线	gya
+阿里山	vli
+认同感	rte
+虎豹	heu
+爱面子	vma
+迢迢	tqa
+盆腔炎	pqo
+鄱阳湖	pyo
+尼古丁	nge
+曝晒	pii
+二环路	vhi
+爱与恨	vyo
+燃尽	rha
+镖师	bai
+虐囚	nei
+培养基	pye
+岷江	meo
+熔断器	rdi
+二号线	vha
+而后快	vho
+巍然	weu
+克鲁尼	kla
+鹌鹑	vpo
+儿童房	vto
+艾美奖	vmo
+人工费	rga
+肉包子	rba
+奥运村	vye
+暗夜里	vyi
+恶魔岛	vmu
+人贩子	rfa
+凹版	veu
+钨钢	wau
+焚尸	fma
+热电阻	rda
+曝露	pie
+女歌星	ngi
+曝气	piu
+绕路	rli
+人头马	rta
+供配电	gpi
+虐恋	neo
+安息日	vxi
+乳头状	rto
+绕线机	rxe
+胯部	kuo
+钨丝	waa
+帽徽	meu
+诺思	nwi
+安防网	vfi
+钨矿	wae
+然诺	ruo
+钼丝	maa
+辊子	gpa
+帕潘	peo
+安排好	vpa
+安平县	vpi
+脍炙	kuu
+铵盐	vae
+帕子	pea
+睿明	rei
+嚅动	roe
+虐政	nee
+曝衣	pio
+入选了	rxa
+锋快	fao
+帡幪	pei
+睿宗	reo
+钨灯	wao
+虐了	nea
+啡色	fou
+锋尚	fai
+餬口	hui
+嚷我	rou
+睿姐	rea
+如此	rn;
+还有	hs;
+而且	vs;
+然后	ru;
+宝贝	bi;
+男人	nt;
+通过	ty;
+看见	kv;
+能够	ny;
+认识	rw;
+开发	ks;
+农民	ni;
+容易	ri;
+人物	ra;
+稳定	wh;
+笑容	xz;
+恐怕	kd;
+范围	fk;
+热情	rj;
+取出	qb;
+矛盾	my;
+念头	na;
+科研	kh;
+王爷	wf;
+卫生	wb;
+阿胶	vb;
+负责人	fz;
+忽地	hb;
+委员长	wy;
+防止	fb;
+帽子	me;
+奋斗	fp;
+埋伏	mt;
+奉献	ff;
+愕然	vx;
+舞台	wq;
+燃烧	rh;
+泰国	tf;
+毛病	mp;
+威望	wg;
+给我	gl;
+如果您	rg;
+会员价	hy;
+签名	qz;
+很多人	hd;
+可以用	ky;
+你们的	nm;
+二人	vd;
+能不能	nb;
+第一章	dy;
+福州	fy;
+可能性	kn;
+他自己	tz;
+爱心	vz;
+工艺品	gy;
+女歌手	ng;
+日本人	rb;
+你这个	nz;
+安全性	vq;
+官方网	gf;
+融入	rs;
+软体	rp;
+控制器	kz;
+各部门	gb;
+纳税	nl;
+陪伴	pb;
+秋季	qh;
+雕刻	dc;
+日子里	rz;
+富士	fi;
+完整版	wz;
+男孩子	nh;
+阿拉伯	vl;
+瑞星	rf;
+轨迹	gp;
+狂热	kq;
+爬上	ph;
+忍耐	rq;
+攀升	pm;
+毛主席	mz;
+骗我	pq;
+看不起	kb;
+刻录机	kl;
+我们党	wm;
+夸大	kp;
+鳄鱼	vy;
+嚷嚷	ro;
+买不到	mb;
+凹凸	ve;
+按回车	vh;
+乳腺癌	rx;
+热卖价	rm;
+人体内	rt;
+诺亚	nw;
+铺开	pa;
+拍电影	pd;
+帕特	pe;
+碰运气	py;
+欧姆龙	vm;
+安排表	vp;
+热电偶	rd;
+虐猫	ne;
+呋喃	fo;
+锋刃	fa;
+钨钼	wa;
+睿哲	re;
+铵根	va;
+那么	nu'
+如何	rn'
+必须	bx'
+情况	qx'
+美国	md'
+夫人	fd'
+难道	nk'
+多少	du'
+然而	ru'
+参加	cy'
+看来	kv'
+还要	hs'
+否则	fs'
+马上	mq'
+农业	ni'
+办法	bq'
+法律	fv'
+随着	sb'
+开放	ks'
+房间	fw'
+年轻	nq'
+更加	gs'
+职工	zb'
+统一	tl'
+台湾	ty'
+男子	nt'
+包括	bb'
+人类	ra'
+贸易	mh'
+祖国	zy'
+欧洲	vc'
+内心	nc'
+委员	wh'
+命运	ma'
+热闹	rj'
+恐惧	kd'
+恶心	vs'
+配合	px'
+挨揍	vj'
+认得	rw'
+笑意	xz'
+握住	wj'
+路线	ln'
+扶贫	fj'
+宝剑	bi'
+日后	ri'
+王子	wf'
+靠近	kr'
+岗位	ge'
+偶然	vr'
+共和国	gh'
+东京	dl'
+挨个儿	vg'
+柔软	ry'
+透过	th'
+芙蓉	fk'
+评论	pw'
+管理员	gl'
+附件	fb'
+档案	dm'
+会计	ka'
+我现在	wx'
+每一个	my'
+会不会	hb'
+库存	kg'
+辅助	fp'
+不承担	bc'
+能在	ny'
+耳机	vb'
+我一直	wy'
+拿着	na'
+齐全	qu'
+内蒙古	nm'
+客户端	kh'
+卫星	wb'
+化妆品	hz'
+发现该	fx'
+你现在	nx'
+请注明	qz'
+舞曲	wq'
+摩托车	mt'
+男朋友	np'
+悲伤	be'
+请不要	qb'
+爱我	vz'
+问题是	wt'
+那时候	ns'
+男歌手	ng'
+纺织品	fz'
+第一卷	dy'
+罚款	ff'
+封闭	ft'
+发言人	fy'
+女主角	nz'
+弄得	nf'
+二楼	vd'
+隔离	gb'
+你不会	nb'
+回到家	hd'
+工业园	gy'
+卡片	ke'
+欢迎你	hy'
+外国人	wg'
+聘请	pb'
+她自己	tz'
+你到底	nd'
+特别版	tb'
+可直接	kz'
+跨越	kn'
+不同于	bt'
+秋冬	qh'
+泰山	tf'
+燃料	rh'
+雕塑	dc'
+听起来	tq'
+看一看	ky'
+剖析	pl'
+富裕	fi'
+弱势	rg'
+牡丹	mr'
+蔚蓝	wk'
+能力强	nl'
+猜想	cq'
+蜂蜜	fc'
+盘点	pz'
+骂道	mo'
+购房者	gf'
+屋子里	wz'
+眉毛	mp'
+脑海里	nh'
+融化	rs'
+忍住	rq'
+狂欢	kq'
+青年报	qn'
+貌似	mz'
+爬起来	pq'
+帷幕	we'
+软盘	rp'
+绵阳	ml'
+绕过	rl'
+安理会	vl'
+看不清	kb'
+炮弹	ph'
+安全套	vq'
+肮脏	vu'
+哀伤	vw'
+润滑	rv'
+我们俩	wm'
+乳头	rz'
+螃蟹	pc'
+铁矿石	tk'
+克林顿	kl'
+攀登	pm'
+焚烧	fm'
+面包车	mb'
+癌细胞	vx'
+埃尔	vt'
+诺斯	nw'
+峨嵋	ve'
+嚷着	ro'
+幌子	he'
+乳白色	rb'
+软绵绵	rm'
+光盘版	gp'
+判断力	pd'
+瑞克	rf'
+铺满	pa'
+暗红色	vh'
+馄饨	hu'
+肉体上	rt'
+卡佩罗	kp'
+恶魔城	vm'
+帕斯	pe'
+热电厂	rd'
+欧阳修	vy'
+热心人	rx'
+虐杀	ne'
+便宜货	py'
+阿帕奇	vp'
+岷山	me'
+吠叫	fo'
+馈线	ku'
+锋面	fa'
+钨酸	wa'
+铵基	va'
+睿见	re'
