@@ -578,7 +578,8 @@ function this.func(input, segment, env)
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果
   if static(input, env) then
     -- 清空候选缓存
-    -- env.known_candidates = {}
+    env.known_candidates = {}
+    env.xx_flag = false 
     local input2 = input
     if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
       input2 = input2 .. "'"
