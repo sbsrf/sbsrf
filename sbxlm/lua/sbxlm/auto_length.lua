@@ -218,6 +218,7 @@ function this.init(env)
   env.dynamic_memory:memorize(function(commit) callback(commit, env) end)
   ---@type { string: number }
   env.known_candidates = {}
+  env.xx_flag = false
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.single_display = env.engine.context:get_option("single_display") or false
 
@@ -577,8 +578,7 @@ function this.func(input, segment, env)
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果
   if static(input, env) then
     -- 清空候选缓存
-    env.known_candidates = {}
-    env.xx_flag = false
+    -- env.known_candidates = {}
     local input2 = input
     if core.jm(schema_id) and env.enhanced_char and not env.third_pop and core.ssb(input2) then
       input2 = input2 .. "'"
@@ -587,9 +587,10 @@ function this.func(input, segment, env)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input
-      if not env.xx_flag then env.xx_flag = true end
+      if core.xiangxi(schema_id) and not env.xx_flag then env.xx_flag = true end
       rime.yield(phrase:toCandidate())
-    end
+    end  
+
     -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码
     -- 1. 编码为 sxs 格式时，只要不是简码的三顶模式，就要拆分成二简字 + 一简字翻译
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
@@ -810,11 +811,15 @@ function this.func(input, segment, env)
     local count = 1
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
-      if (env.known_candidates[cand.text] or inf) < input:len() and not env.xx_flag then
-        goto continue
+      if (env.known_candidates[cand.text] or inf) < input:len() then
+          goto continue
       end
       if count == 1 then
-        env.known_candidates[cand.text] = input:len()
+        if env.xx_flag then
+          env.xx_flag = false
+        else
+          env.known_candidates[cand.text] = input:len()
+        end
         cand.comment = ""
       elseif cand.comment ~= "" then
         cand.type = "completion"
