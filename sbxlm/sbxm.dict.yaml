@@ -22,6 +22,10 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZaAcAd"
 ...
+# 增加条目
+搜索	sjs6
+探视	sjs0
+# 内置条目
 的	d	18680623	dnuiae
 一	y	9613771	yseeee
 不	b	8204601	bseuio

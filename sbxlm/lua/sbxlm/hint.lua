@@ -343,6 +343,13 @@ function this.func(translation, env)
 							end
 						end
 					end
+					for j = 1, #hint_n2 do
+						memory:dict_lookup(candidate.preedit .. hint_n2[j], false, 1)
+						for entry in memory:iter_dict() do
+							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_n2[j])
+							rime.yield(forward)
+						end
+					end
 				end
 			end
 		end
