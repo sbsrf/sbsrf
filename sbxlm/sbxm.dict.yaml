@@ -22,7 +22,10 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZaAcAd"
 ...
-# 增加条目
+# 增加条目sxs[14560]
+逝世	sjs1
+疏散	sjs4
+扫视	sjs5
 搜索	sjs6
 探视	sjs0
 # 内置条目
