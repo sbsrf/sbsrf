@@ -264,7 +264,7 @@ function core.word_rules(code, id)
   end
   -- 全部编码为基本编码加上扩展编码
   local full = base .. extended
-  local final = { i="8", a="5", e="3", o="9", u="7" }
+  local final = { i="8", a="2", e="3", o="9", u="7" }
   local middle = code[2]:sub(3, 6)
   if #code > 2 then middle = code[2]:sub(3, 4) .. code[3]:sub(3, 4) end
   if xx then full = full .. middle .. final[code[#code]:sub(3, 3)] end
