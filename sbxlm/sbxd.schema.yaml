@@ -139,7 +139,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv]"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][;']?"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./14560]?"
     - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
 

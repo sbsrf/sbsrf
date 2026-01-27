@@ -365,7 +365,7 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
   --象系的特殊处理
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[23789][aeuio]*") then
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9][aeuio]*") then
     completion = completion:sub(-1,-1) .. completion:sub(2,-2)
   end
   local alt_completion = ""
