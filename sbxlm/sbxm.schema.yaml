@@ -190,5 +190,5 @@ menu:
     - "[a-z]{2}[aeuio]{2}"
     - "[a-z]{4}[aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*"
-    - "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]*"
-  select_comment_pattern: "^[a-z]{3}[;',./0-9][aeuio]*|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]*|[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*|[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]*$"
+    - "[bpmfdtnlgkhjqxzcsrywv]{3}[A-Z][aeuio]*"
+  select_comment_pattern: "^[a-z]{3}[;',./0-9][aeuio]*|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]*|[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*|[bpmfdtnlgkhjqxzcsrywv]{3}[A-Z][aeuio]*$"
