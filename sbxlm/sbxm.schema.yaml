@@ -26,15 +26,7 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: is_hidden
-    states: [提示, 隐藏]
-    reset: 0
-  # - name: is_enhanced
-  #   reset: 1
-  #   states: [常规, 增强]
   # 为了避免拥挤，不显示下面的状态
-  - options: [pro_word, pro_char]
-    reset: 0
   - name: auto_inline
     reset: 1
   - name: is_buffered
@@ -97,25 +89,6 @@ engine:
 
 popping:
   __append:
-    # 单字模式
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
-      accept: "[a-zA-Z]"
-      strategy: append
-    - when: pro_char
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[a-z;']"
-      prefix: 2
-    # 词组模式
-    - when: pro_word
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - when: pro_word
-      match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
-      prefix: 2
-      conditional: true
-    # 不论模式
     - match: "[^a-z]"
       accept: "[^ ]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
@@ -124,18 +97,26 @@ popping:
       accept: "[;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[,./]"
-    - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
-      accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./0-9][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z]{2}[aeuio]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      prefix: 2
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
+      accept: "[A-Z]"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio]?"
+      accept: "[0-9]"
 
 speller:
-  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./"
+  alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
-  max_code_length: 6
+  max_code_length: 8
   auto_select: true
   auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
   popping:
@@ -146,7 +127,7 @@ translator:
   dictionary: sbxm
   enable_user_dict: true
   enable_filtering: true
-  filter_strength: 6    #可以为3,4,5,6 
+  filter_strength: 4 #可以为3,4,5,6
   forced_selection: true
   single_selection: true
   enable_encoder: true
@@ -156,7 +137,7 @@ translator:
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv]"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][;']?"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./14560]?"
     - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
 
@@ -182,9 +163,6 @@ sbxm_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
 
 key_binder:
   bindings:
@@ -195,6 +173,8 @@ key_binder:
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
   dictionary: sbxm.extended
+  comment_format:
+    - "xform/([a-z]{3}.).*/$1/"
 
 reverse_lookup2:
   __include: sbxlm.yaml:/prelude/reverse_lookup
@@ -203,10 +183,12 @@ reverse_lookup2:
 
 menu:
   page_size: 6
-  alternative_select_keys: "_aeuio"
+  alternative_select_keys: "_23789"
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
-    - "[a-z]{3}[;',./]"
+    - "[a-z]{3}[;',./0-9][aeuio]*"
     - "[a-z]{2}[aeuio]{2}"
     - "[a-z]{4}[aeuio]{2}"
-  select_comment_pattern: "^[a-z]{3}[;',./]|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]{2}$"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*"
+    - "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]*"
+  select_comment_pattern: "^[a-z]{3}[;',./0-9][aeuio]*|[a-z]{2}[aeuio]{2}|[a-z]{4}[aeuio]*|[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*|[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV][aeuio]*$"

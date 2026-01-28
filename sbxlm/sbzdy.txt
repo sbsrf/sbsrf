@@ -61,8 +61,6 @@ sbxlm.github.io/sbfj	fja
 sbxlm.github.io/sbmm	mma
 声笔象码：sbxlm.github.io/sbxm	xm
 sbxlm.github.io/sbxm	xma
-声笔象单：sbxlm.github.io/sbxd	xd
-sbxlm.github.io/sbxd	xda
 发展历程：sbxlm.github.io/fzlc	lc
 sbxlm.github.io/fzlc	lca
 常见问题：sbxlm.github.io/faq	wt

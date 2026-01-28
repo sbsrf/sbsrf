@@ -4,7 +4,6 @@ patch:
     - schema: sbjp
     - schema: sbfd
     - schema: sbfm
-    - schema: sbxd
     - schema: sbxm
     - schema: sbmm
     - schema: sbpy
