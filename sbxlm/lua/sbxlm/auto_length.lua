@@ -606,9 +606,10 @@ function this.func(input, segment, env)
         or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
-    if not (core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]")) then
-       return 
-    end
+    -- if not (core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]")) then
+    --    return 
+    -- end
+    return
   end
 
   if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then

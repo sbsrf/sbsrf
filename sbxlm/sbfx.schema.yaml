@@ -159,9 +159,9 @@ popping:
     # 大写的词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[BPMFDTNLGKHJQXZCSRYWV;',./][aeiou]{0,3}"
       accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][BPMFDTNLGKHJQXZCSRYWV;',./'][aeiou]{0,3}"
       accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV]"
     # 增强模式词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
