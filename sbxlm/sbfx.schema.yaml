@@ -159,10 +159,10 @@ popping:
     # 大写的词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeiou]{0,2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[BPMFDTNLGKHJQXZCSRYWV;',./][aeiou]{0,3}"
-      accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][BPMFDTNLGKHJQXZCSRYWV;',./'][aeiou]{0,3}"
-      accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2,3}[BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio][BPMFDTNLGKHJQXZCSRYWV][aeiou]{0,3}"
+      accept: "[bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV;',./]"
     # 增强模式词组顶
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789][aeiou]{0,3}"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
@@ -209,10 +209,10 @@ speller:
 translator:
   dictionary: sbfx
   enable_user_dict: true
-  enable_filtering: false
+  enable_filtering: true
   filter_strength: 4    #可以为3,4,5,6 
   forced_selection: true
-  single_selection: false
+  single_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000

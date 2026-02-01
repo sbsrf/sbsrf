@@ -54,7 +54,7 @@ style:
 # 字型、字号
   latin_font: Y.ttf #latin.ttf #西文字型
   text_font: Y.ttf #latin.ttf #编码字型
-  comment_font: [LXGWWenKaiGBScreen.ttf, Singbit, WenJinMinchoCP0.ttf, WenJinMinchoCP2.ttf, WenJinMinchoCP3.ttf] #comment.ttf #編碼提示字型
+  comment_font: [LXGWWenKaiGBScreen.ttf, Singbit.ttf, WenJinMinchoCP0.ttf, WenJinMinchoCP2.ttf, WenJinMinchoCP3.ttf] #comment.ttf #編碼提示字型
   candidate_font: [LXGWWenKaiGBScreen.ttf, WenJinMinchoCP0.ttf, WenJinMinchoCP2.ttf, WenJinMinchoCP3.ttf] #han.ttf #候选字型
   key_font: Y.ttf #symbol.ttf #按键字型
   preview_font: Y.ttf #latin.ttf #按键气泡字型

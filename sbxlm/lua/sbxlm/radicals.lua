@@ -15,6 +15,9 @@ local this = {}
 function this.init(env)
   env.radicals = {}
   local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/radicals.txt"
+  if env.engine.schema.schema_id == "sbxm" then
+    path = rime.api.get_user_data_dir() .. "/lua/sbxlm/sbxmcf.txt"
+  end
   local file = io.open(path, "r")
   if not file then
     return

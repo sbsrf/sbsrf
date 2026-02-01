@@ -71,8 +71,8 @@ sbxlm.github.io/sbtf	tfa
 sbxlm.github.io/sbkd	kda
 声笔工具：sbxlm.github.io/sbgj	gj
 sbxlm.github.io/sbgj	gja
-声笔下载：github.com/sbsrf/home/releases	xz
-github.com/sbsrf/home/releases	xza
+声笔下载：github.com/sbsrf/sbsrf/releases	xz
+github.com/sbsrf/sbsrf/releases	xza
 live.bilibili.com/31638019	bza
 声笔B站直播间：live.bilibili.com/31638019	bz
 声笔QQ交流群：445906697,780510469,783734487,728093309	qq
