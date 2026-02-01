@@ -1,4 +1,4 @@
 patch:
   style/candidate_format: "%@"
   style/horizontal: true
-  style/comment_font_face: "Monaco, Menlo, SF Mono"
+  style/comment_font_face: "Monaco, Menlo, SF Mono, Singbit"
