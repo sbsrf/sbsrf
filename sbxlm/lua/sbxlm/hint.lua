@@ -136,6 +136,16 @@ function this.func(translation, env)
 				end
 			end
 		end
+		-- 象码简词提示
+		if core.xiangxi(id) and not is_hidden
+		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{1,2}[23789;',./][aeuio]*") then
+			local codes = env.reverse:lookup(candidate.text)
+			for code in string.gmatch(codes, "[^ ]+") do
+				if candidate.preedit ~= code then
+					candidate.comment = candidate.comment .. " " .. code
+				end
+			end
+		end
 		-- 声笔简拼和声笔拼音在非自由模式下在常规码位上提示简码
 		-- 注意ctx:input和input(candidate.preedit)是不一样的，后者在音节间含有空格
 		if (id == 'sbpy' or id == 'sbjp') and not ctx:get_option("free")
