@@ -1,9 +1,7 @@
 name: Release (Manual Trigger)
 
-# 1. 修改触发条件为手动触发
 on:
   workflow_dispatch:
-    # 可选：添加一些手动触发时可以配置的输入参数
     inputs:
       reason:
         description: '测试原因（选填）'
@@ -27,14 +25,28 @@ jobs:
           New-Item -ItemType Directory -Path librime -Force
           Invoke-WebRequest -Uri "https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-Windows-msvc-x64.7z" -OutFile "librime/rime.7z" -UseBasicParsing
           7z x "librime/rime.7z" -o"librime" -y
-          echo "PATH=$pwd/librime/bin;$env:PATH" >> $env:GITHUB_ENV
+          # 不再尝试修改系统 PATH，而是在后续步骤中使用绝对路径
 
       - name: Build
         id: build
         shell: pwsh
         run: |
+          # 1. 定义 rime_deployer.exe 的绝对路径
+          $deployerPath = Join-Path -Path $pwd -ChildPath "librime\bin\rime_deployer.exe"
+          
+          # 2. 检查文件是否存在，确保路径正确
+          if (-Not (Test-Path $deployerPath)) {
+              Write-Error "rime_deployer.exe not found at path: $deployerPath"
+              # 列出目录内容以便调试
+              Get-ChildItem -Path "librime\bin"
+              exit 1
+          }
+
+          # 3. 使用绝对路径执行构建命令
           Move-Item -Path sbxlm\* -Destination . -Force
-          rime_deployer --build . "C:\Program Files\Rime\data"
+          & $deployerPath --build . "C:\Program Files\Rime\data"
+          
+          # 后续步骤保持不变
           Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, user.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force
           Compress-Archive -Path build, lua, opencc, *.yaml, *.txt -DestinationPath sbsrf.zip -Force
 
@@ -42,9 +54,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: sbsrf.zip
-          # 手动触发时，将其标记为预发布版本，避免干扰正式版本
           prerelease: true
-          # 使用手动触发时输入的原因作为发布说明
           body: |
             **Trigger Type**: Manual
             **Reason**: ${{ github.event.inputs.reason }}
