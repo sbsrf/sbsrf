@@ -1,0 +1,56 @@
+name: Release (Manual Trigger)
+
+# 1. 修改触发条件为手动触发
+on:
+  workflow_dispatch:
+    # 可选：添加一些手动触发时可以配置的输入参数
+    inputs:
+      reason:
+        description: '测试原因（选填）'
+        required: false
+        default: 'Manual test run'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download and extract librime binary
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Path librime -Force
+          Invoke-WebRequest -Uri "https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-Windows-msvc-x64.7z" -OutFile "librime/rime.7z" -UseBasicParsing
+          7z x "librime/rime.7z" -o"librime" -y
+          echo "PATH=$pwd/librime/bin;$env:PATH" >> $env:GITHUB_ENV
+
+      - name: Build
+        id: build
+        shell: pwsh
+        run: |
+          Move-Item -Path sbxlm\* -Destination . -Force
+          rime_deployer --build . "C:\Program Files\Rime\data"
+          Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, user.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force
+          Compress-Archive -Path build, lua, opencc, *.yaml, *.txt -DestinationPath sbsrf.zip -Force
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: sbsrf.zip
+          # 手动触发时，将其标记为预发布版本，避免干扰正式版本
+          prerelease: true
+          # 使用手动触发时输入的原因作为发布说明
+          body: |
+            **Trigger Type**: Manual
+            **Reason**: ${{ github.event.inputs.reason }}
+
+      - name: notice
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf'
+          method: 'GET'
