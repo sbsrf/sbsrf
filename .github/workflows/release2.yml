@@ -47,7 +47,7 @@ jobs:
           & $deployerPath --build . "C:\Program Files\Rime\data"
           
           # 后续步骤保持不变
-          Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, user.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force
+          Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force
           Compress-Archive -Path build, lua, opencc, *.yaml, *.txt -DestinationPath sbsrf.zip -Force
 
       - name: Release
