@@ -25,9 +25,6 @@ jobs:
           New-Item -ItemType Directory -Path librime -Force
           Invoke-WebRequest -Uri "https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-Windows-msvc-x64.7z" -OutFile "librime/rime.7z" -UseBasicParsing
           7z x "librime/rime.7z" -o"librime" -y
-
-          # 关键修正：根据实际目录结构，将 bin 和 lib 目录都添加到 PATH
-          # 这样系统既能找到 rime_deployer.exe，也能找到它依赖的 rime.dll
           $librimeBinPath = Join-Path -Path $pwd -ChildPath "librime\dist\bin"
           $librimeLibPath = Join-Path -Path $pwd -ChildPath "librime\dist\lib"
           echo "PATH=$librimeBinPath;$librimeLibPath;$env:PATH" >> $env:GITHUB_ENV
@@ -36,11 +33,12 @@ jobs:
         id: build
         shell: pwsh
         run: |
-          # 现在可以直接使用 rime_deployer 命令，因为 PATH 已正确配置
           Move-Item -Path sbxlm\* -Destination . -Force
           rime_deployer --build . "C:\Program Files\Rime\data"
           
-          Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, user.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force
+          # 关键修正：添加 -ErrorAction SilentlyContinue 以忽略不存在的文件
+          Remove-Item -Path bihua*, zhlf*, sbfc*, *.extended.dict.yaml, *2.schema.yaml, user.yaml, sbpy.base.dict.yaml, sbpy.ext.dict.yaml, sbpy.tencent.dict.yaml -Force -ErrorAction SilentlyContinue
+          
           Compress-Archive -Path build, lua, opencc, *.yaml, *.txt -DestinationPath sbsrf.zip -Force
 
       - name: Release
