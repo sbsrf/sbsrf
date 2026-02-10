@@ -32,7 +32,7 @@ jobs:
         shell: pwsh
         run: |
           # 1. 定义 rime_deployer.exe 的绝对路径
-          $deployerPath = Join-Path -Path $pwd -ChildPath "librime\bin\rime_deployer.exe"
+          $deployerPath = Join-Path -Path $pwd -ChildPath "librime\dist\bin\rime_deployer.exe"
           
           # 2. 检查文件是否存在，确保路径正确
           if (-Not (Test-Path $deployerPath)) {
