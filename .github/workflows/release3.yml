@@ -118,10 +118,11 @@ jobs:
           files: sbsrf.zip
           # 手动触发标记为预发布，标签推送触发为正式发布
           prerelease: ${{ github.event_name == 'workflow_dispatch' }}
+          # 修复：改用 GitHub Actions 支持的字符串拼接方式
           body: |
             **Build Environment**: macOS-latest
             **Trigger Type**: ${{ github.event_name == 'workflow_dispatch' && 'Manual' || 'Tag Push' }}
-            ${{ github.event_name == 'workflow_dispatch' && '**Reason**: ' + github.event.inputs.reason || '' }}
+            ${{ github.event_name == 'workflow_dispatch' && format('**Reason**: {0}', github.event.inputs.reason) || '' }}
 
       - name: Send notification (optional)
         run: |
