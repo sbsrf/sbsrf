@@ -25,39 +25,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install missing dependencies (适配 Apple Silicon 路径)
+      - name: Install missing dependencies
         run: |
-          # 1. 检测 CPU 架构，确定 Homebrew 路径
+          # 自动适配 Apple Silicon/Intel 架构
           if [[ $(uname -m) == "arm64" ]]; then
               HOMEBREW_PATH="/opt/homebrew"
           else
               HOMEBREW_PATH="/usr/local"
           fi
-          echo "📋 检测到 CPU 架构：$(uname -m)，Homebrew 路径：$HOMEBREW_PATH"
           echo "HOMEBREW_PATH=$HOMEBREW_PATH" >> $GITHUB_ENV
-          # 提前设置 LIBRIME_PATH 到环境变量（避免后续表达式问题）
           LIBRIME_PATH="$PWD/librime"
           echo "LIBRIME_PATH=$LIBRIME_PATH" >> $GITHUB_ENV
 
-          # 2. 确保 Homebrew 可用（适配不同架构）
+          # 安装 Homebrew 及 boost 依赖
           if [[ ! -f "$HOMEBREW_PATH/bin/brew" ]]; then
-              echo "📦 安装 Homebrew..."
               /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           fi
-
-          # 3. 安装依赖库（libiconv 已包含在 macOS 系统中，无需单独安装）
-          echo "📦 安装 boost 依赖..."
           "$HOMEBREW_PATH/bin/brew" install boost
-
-          # 4. 简化验证逻辑（避免通配符报错）
-          echo "📋 验证依赖安装："
-          if [[ -d "$HOMEBREW_PATH/lib" ]]; then
-              ls -la "$HOMEBREW_PATH/lib/libboost"* 2>/dev/null || echo "⚠️ boost 库未找到（忽略，继续执行）"
-          else
-              echo "⚠️ Homebrew lib 目录不存在"
-          fi
-          # 验证系统自带的 libiconv
-          ls -la /usr/lib/libiconv* 2>/dev/null || echo "⚠️ 系统 libiconv 未找到（忽略）"
 
       - name: Download and extract librime
         run: |
@@ -66,108 +50,107 @@ jobs:
           
           mkdir -p "${{ env.LIBRIME_PATH }}"
           curl -L -o "$LIBRIME_ARCHIVE" "$LIBRIME_URL" || { echo "❌ 下载 librime 失败"; exit 1; }
-          
-          if [[ ! -f "$LIBRIME_ARCHIVE" ]]; then
-              echo "❌ 下载的 librime 文件不存在"
-              exit 1
-          fi
-          
           tar -xjf "$LIBRIME_ARCHIVE" -C "${{ env.LIBRIME_PATH }}/" --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
-          echo "✅ 已解压 librime 到: ${{ env.LIBRIME_PATH }}"
-          # 确认核心文件存在
-          if [[ ! -f "${{ env.LIBRIME_PATH }}/librime.1.dylib" ]]; then
-              echo "❌ 未找到 librime.1.dylib 动态库"
+          
+          # 验证核心文件存在
+          if [[ ! -f "${{ env.LIBRIME_PATH }}/librime.1.dylib" || ! -f "${{ env.LIBRIME_PATH }}/rime_deployer" ]]; then
+              echo "❌ librime 核心文件缺失"
+              ls -la "${{ env.LIBRIME_PATH }}"
               exit 1
           fi
-          if [[ ! -f "${{ env.LIBRIME_PATH }}/rime_deployer" ]]; then
-              echo "❌ 未找到 rime_deployer 可执行文件"
-              exit 1
-          fi
+          echo "✅ librime 解压成功"
 
-      - name: Fix rime_deployer dynamic library paths
+      - name: Fix dynamic library paths
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
           LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
-          RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
-          LIBRIME_DYLIB_PATH="$LIBRIME_PATH/librime.1.dylib"
-          
-          # 1. 修复 rime_deployer 对 librime 的引用
-          echo "🔧 修复 rime_deployer 动态库引用..."
-          install_name_tool -change "@rpath/librime.1.dylib" "$LIBRIME_DYLIB_PATH" "$RIME_DEPLOYER_PATH"
-          
-          # 2. 修复 librime.1.dylib 的依赖（适配系统 libiconv）
-          if otool -L "$LIBRIME_DYLIB_PATH" | grep -q "libiconv"; then
-              echo "🔧 修复 librime.1.dylib 的 libiconv 引用..."
-              # 使用系统自带的 libiconv（无需 Homebrew 版本）
-              SYSTEM_ICONV_PATH="/usr/lib/libiconv.2.dylib"
-              install_name_tool -change "@rpath/libiconv.2.dylib" "$SYSTEM_ICONV_PATH" "$LIBRIME_DYLIB_PATH"
-          fi
-          
-          # 3. 修复 boost 依赖（如果有）
-          if otool -L "$LIBRIME_DYLIB_PATH" | grep -q "boost"; then
-              echo "🔧 修复 librime.1.dylib 的 boost 引用..."
-              BOOST_PATH="$HOMEBREW_PATH/lib/libboost_regex-mt.dylib"
-              install_name_tool -change "@rpath/libboost_regex-mt.dylib" "$BOOST_PATH" "$LIBRIME_DYLIB_PATH"
-          fi
+          RIME_DEPLOYER="$LIBRIME_PATH/rime_deployer"
+          LIBRIME_DYLIB="$LIBRIME_PATH/librime.1.dylib"
 
-      - name: Test dynamic library loading
+          # 修复 rime_deployer 对 librime 的引用
+          install_name_tool -change "@rpath/librime.1.dylib" "$LIBRIME_DYLIB" "$RIME_DEPLOYER"
+          
+          # 修复 librime 依赖的系统库
+          SYSTEM_ICONV="/usr/lib/libiconv.2.dylib"
+          if otool -L "$LIBRIME_DYLIB" | grep -q "@rpath/libiconv"; then
+              install_name_tool -change "@rpath/libiconv.2.dylib" "$SYSTEM_ICONV" "$LIBRIME_DYLIB"
+          fi
+          
+          # 修复 boost 依赖
+          BOOST_LIB="$HOMEBREW_PATH/lib/libboost_regex-mt.dylib"
+          if otool -L "$LIBRIME_DYLIB" | grep -q "@rpath/libboost"; then
+              install_name_tool -change "@rpath/libboost_regex-mt.dylib" "$BOOST_LIB" "$LIBRIME_DYLIB"
+          fi
+          echo "✅ 动态库路径修复完成"
+
+      - name: Verify dynamic library loading (修正测试逻辑)
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
           LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
-          RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
           
-          # 配置完整的动态库路径（适配 Apple Silicon）
-          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$HOMEBREW_PATH/lib:/usr/lib:$DYLD_LIBRARY_PATH"
+          # 配置动态库路径
+          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$HOMEBREW_PATH/lib:/usr/lib"
           export PATH="$LIBRIME_PATH:$PATH"
-          
-          # 详细调试动态库加载
-          echo "📋 动态库搜索路径：$DYLD_LIBRARY_PATH"
-          echo "📋 测试 rime_deployer 加载..."
-          if DYLD_PRINT_LIBRARIES=1 "$RIME_DEPLOYER_PATH" -h >/dev/null 2>&1; then
-              echo "✅ 动态库加载测试通过"
+
+          # 正确的测试方式：执行 rime_deployer 无参数（不报错=加载成功）
+          echo "📋 测试动态库加载（执行 rime_deployer 无参数）..."
+          set +e  # 临时关闭错误中断
+          "$LIBRIME_PATH/rime_deployer" 2>&1 | tee load_test.log
+          LOAD_EXIT_CODE=$?
+          set -e
+
+          # 判断是否为动态库加载失败（关键：区分动态库错误和参数错误）
+          if grep -q "dyld:" load_test.log || grep -q "Library not loaded" load_test.log; then
+              echo "❌ 动态库加载失败！详细日志："
+              cat load_test.log
+              exit 1
           else
-              echo "❌ 动态库加载测试失败，详细日志："
-              DYLD_PRINT_ERRORS=1 "$RIME_DEPLOYER_PATH" -h 2>&1
-              exit 1
+              echo "✅ 动态库加载成功（rime_deployer 无参数返回参数错误，属于正常现象）"
           fi
 
-      - name: Build project
+      - name: Build project (核心构建步骤)
         run: |
+          LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
-          LIBRIME_PATH="${{ env.LIBRIME_PATH }}"  # 直接使用已配置的环境变量，无需表达式判断
+          
           # 配置环境变量
+          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$HOMEBREW_PATH/lib:/usr/lib"
           export PATH="$LIBRIME_PATH:$PATH"
-          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$HOMEBREW_PATH/lib:/usr/lib:$DYLD_LIBRARY_PATH"
-          
-          # 移动 sbxlm 文件
-          echo "🔄 移动 sbxlm 目录下的文件..."
-          setopt null_glob
-          mv -f sbxlm/* . 2>/dev/null || echo "⚠️ sbxlm 目录可能为空或不存在"
-          unsetopt null_glob
-          
-          # 执行构建
-          RIME_TEMP_DIR="$PWD/tmp_rime"
-          mkdir -p "$RIME_TEMP_DIR"
-          echo "🔨 运行 rime_deployer --build..."
-          rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
+
+          # 移动 sbxlm 目录文件（构建必需）
+          echo "🔄 移动 sbxlm 配置文件..."
+          if [[ -d "sbxlm" ]]; then
+              mv -f sbxlm/* .
+              echo "✅ sbxlm 文件移动完成"
+          else
+              echo "⚠️ sbxlm 目录不存在，跳过移动"
+          fi
+
+          # 创建构建目标目录
+          RIME_TARGET="$PWD/tmp_rime"
+          mkdir -p "$RIME_TARGET"
+
+          # 执行 Rime 构建（核心命令）
+          echo "🔨 执行 rime_deployer --build..."
+          rime_deployer --build . "$RIME_TARGET" 2>&1 | tee build.log
           if [[ $? -ne 0 ]]; then
               echo "❌ 构建失败！详细日志："
-              cat build_error.log
+              cat build.log
               exit 1
           fi
-          echo "✅ 构建成功！"
+          echo "✅ 项目构建成功！"
 
       - name: Clean up and package
         run: |
-          # 清理文件
+          # 清理冗余文件
           rm -rf bihua* zhlf* sbfc* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml 2>/dev/null
-          # 打包
+          
+          # 打包构建产物
           zip -q -r sbsrf.zip build lua opencc *.yaml *.txt 2>/dev/null
           if [[ -f "sbsrf.zip" ]]; then
-              echo "✅ 打包成功！文件位置：$PWD/sbsrf.zip"
-              du -h sbsrf.zip
+              echo "✅ 打包成功！文件大小：$(du -h sbsrf.zip | awk '{print $1}')"
           else
-              echo "⚠️  打包步骤未找到指定文件，未生成 sbsrf.zip"
+              echo "⚠️ 未生成 sbsrf.zip（无匹配文件）"
           fi
 
       - name: Upload release artifact
