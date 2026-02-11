@@ -40,45 +40,67 @@ jobs:
           
           tar -xjf "$LIBRIME_ARCHIVE" -C librime/ --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
           echo "✅ 已解压 librime 到: $PWD/librime"
-          # 新增：打印 librime 目录文件，确认动态库存在
+          # 打印 librime 目录文件，确认动态库存在
           echo "📋 librime 目录文件列表："
           ls -la $PWD/librime
+          # 确认 librime.1.dylib 存在
+          if [[ ! -f "$PWD/librime/librime.1.dylib" ]]; then
+              echo "❌ 未找到 librime.1.dylib 动态库"
+              exit 1
+          fi
+
+      - name: Fix rime_deployer dynamic library path (核心修复)
+        run: |
+          LIBRIME_PATH="$PWD/librime"
+          RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
+          LIBRIME_DYLIB_PATH="$LIBRIME_PATH/librime.1.dylib"
+          
+          # 1. 查看原始的动态库引用路径
+          echo "📋 原始动态库引用路径："
+          otool -L "$RIME_DEPLOYER_PATH" | grep librime
+          
+          # 2. 修复 rpath 配置（关键：将 @rpath 改为绝对路径）
+          echo "🔧 修复动态库引用路径..."
+          install_name_tool -change "@rpath/librime.1.dylib" "$LIBRIME_DYLIB_PATH" "$RIME_DEPLOYER_PATH"
+          
+          # 3. 验证修复结果
+          echo "📋 修复后动态库引用路径："
+          otool -L "$RIME_DEPLOYER_PATH" | grep librime
+          
+          # 4. 测试动态库加载（此时无需 DYLD_LIBRARY_PATH 也能加载）
+          echo "🔍 测试动态库加载..."
+          if "$RIME_DEPLOYER_PATH" -h >/dev/null 2>&1; then
+              echo "✅ 动态库加载测试通过"
+          else
+              echo "❌ 动态库加载测试仍失败"
+              exit 1
+          fi
 
       - name: Configure environment variables
         run: |
-          # 定义绝对路径，避免相对路径问题
           LIBRIME_PATH="$PWD/librime"
-          # 1. 写入 GITHUB_ENV（供后续步骤使用）
+          # 写入 GITHUB_ENV 供后续步骤使用
           echo "LIBRIME_PATH=$LIBRIME_PATH" >> $GITHUB_ENV
-          # 2. 直接导出到当前 shell（供本步骤验证）
+          # 配置 PATH
           export PATH="$LIBRIME_PATH:$PATH"
-          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$DYLD_LIBRARY_PATH"
-          
           echo "✅ 已配置环境变量："
           echo "  - LIBRIME_PATH: $LIBRIME_PATH"
           echo "  - PATH: $PATH"
-          echo "  - DYLD_LIBRARY_PATH: $DYLD_LIBRARY_PATH"
 
       - name: Verify rime_deployer and dependencies
         run: |
-          # 显式引用 GITHUB_ENV 中的变量，并重新导出
           export LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           export PATH="$LIBRIME_PATH:$PATH"
-          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$DYLD_LIBRARY_PATH"
           
           if command -v rime_deployer &> /dev/null; then
               echo "✅ rime_deployer 命令可用"
               echo "📋 rime_deployer 路径：$(which rime_deployer)"
-              # 检查动态库依赖
-              if otool -L $(which rime_deployer) | grep -q librime; then
-                  echo "✅ librime 动态库依赖正常"
-                  # 提前测试动态库加载
-                  DYLD_LIBRARY_PATH="$LIBRIME_PATH" rime_deployer -h >/dev/null 2>&1 && echo "✅ 动态库加载测试通过" || echo "❌ 动态库加载测试失败"
-              else
+              # 再次验证动态库依赖
+              otool -L $(which rime_deployer) | grep -q librime && echo "✅ librime 动态库依赖正常" || {
                   echo "❌ rime_deployer 存在但未找到 librime 动态库"
                   ls -la $LIBRIME_PATH
                   exit 1
-              fi
+              }
           else
               echo "❌ 无法找到 rime_deployer 命令"
               ls -la $LIBRIME_PATH
@@ -87,10 +109,8 @@ jobs:
 
       - name: Build project
         run: |
-          # 核心修复：显式引用 GITHUB_ENV 变量，并强制重新导出
           export LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           export PATH="$LIBRIME_PATH:$PATH"
-          export DYLD_LIBRARY_PATH="$LIBRIME_PATH"  # 强制覆盖，避免为空
           
           # 完整调试日志
           echo "📋 调试：当前工作目录"
@@ -111,10 +131,6 @@ jobs:
           which rime_deployer
           file $(which rime_deployer)
           otool -L $(which rime_deployer)
-          echo "📋 调试：环境变量（确认生效）"
-          echo "LIBRIME_PATH: $LIBRIME_PATH"
-          echo "PATH: $PATH"
-          echo "DYLD_LIBRARY_PATH: $DYLD_LIBRARY_PATH"  # 确认不为空
           
           # 改用临时目录构建
           RIME_TEMP_DIR="$PWD/tmp_rime"
@@ -123,8 +139,8 @@ jobs:
           
           echo "🔨 运行 rime_deployer --build..."
           set -x
-          # 强制指定 DYLD_LIBRARY_PATH 执行，确保动态库加载
-          DYLD_LIBRARY_PATH="$LIBRIME_PATH" rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
+          # 修复后无需强制指定 DYLD_LIBRARY_PATH
+          rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
           BUILD_EXIT_CODE=$?
           set +x
           
