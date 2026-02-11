@@ -25,6 +25,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install missing dependencies (核心修复)
+        run: |
+          # 安装 librime 依赖的核心库（libiconv、boost 等）
+          echo "📦 安装 Homebrew 依赖..."
+          # 确保 Homebrew 可用
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          # 安装缺失的依赖库
+          brew install libiconv boost
+          # 验证依赖安装
+          echo "📋 验证依赖库："
+          ls -la /usr/local/lib/libiconv*
+          ls -la /usr/local/lib/libboost*
+
       - name: Download and extract librime
         run: |
           LIBRIME_URL="https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-macOS-universal.tar.bz2"
@@ -40,107 +53,113 @@ jobs:
           
           tar -xjf "$LIBRIME_ARCHIVE" -C librime/ --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
           echo "✅ 已解压 librime 到: $PWD/librime"
-          # 打印 librime 目录文件，确认动态库存在
+          # 打印 librime 目录文件
           echo "📋 librime 目录文件列表："
           ls -la $PWD/librime
-          # 确认 librime.1.dylib 存在
+          # 确认核心文件存在
           if [[ ! -f "$PWD/librime/librime.1.dylib" ]]; then
               echo "❌ 未找到 librime.1.dylib 动态库"
               exit 1
           fi
+          if [[ ! -f "$PWD/librime/rime_deployer" ]]; then
+              echo "❌ 未找到 rime_deployer 可执行文件"
+              exit 1
+          fi
 
-      - name: Fix rime_deployer dynamic library path (核心修复)
+      - name: Fix rime_deployer and librime dynamic library paths
         run: |
           LIBRIME_PATH="$PWD/librime"
           RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
           LIBRIME_DYLIB_PATH="$LIBRIME_PATH/librime.1.dylib"
           
-          # 1. 查看原始的动态库引用路径
-          echo "📋 原始动态库引用路径："
-          otool -L "$RIME_DEPLOYER_PATH" | grep librime
+          # 1. 先检查 librime.1.dylib 的依赖（关键：找到缺失的库）
+          echo "📋 检查 librime.1.dylib 的依赖："
+          otool -L "$LIBRIME_DYLIB_PATH"
+          # 用 dyld 检查缺失的依赖（macOS 自带工具）
+          echo "📋 检查动态库缺失依赖："
+          dyld_info -dependents "$LIBRIME_DYLIB_PATH"
           
-          # 2. 修复 rpath 配置（关键：将 @rpath 改为绝对路径）
-          echo "🔧 修复动态库引用路径..."
+          # 2. 修复 rime_deployer 对 librime 的引用
+          echo "🔧 修复 rime_deployer 动态库引用..."
           install_name_tool -change "@rpath/librime.1.dylib" "$LIBRIME_DYLIB_PATH" "$RIME_DEPLOYER_PATH"
           
-          # 3. 验证修复结果
-          echo "📋 修复后动态库引用路径："
-          otool -L "$RIME_DEPLOYER_PATH" | grep librime
+          # 3. 修复 librime.1.dylib 自身的依赖（如果有缺失）
+          # 检查 libiconv 依赖，若引用 @rpath 则修复
+          if otool -L "$LIBRIME_DYLIB_PATH" | grep -q "@rpath/libiconv"; then
+              echo "🔧 修复 librime.1.dylib 的 libiconv 引用..."
+              LIBICONV_PATH=$(brew --prefix libiconv)/lib/libiconv.2.dylib
+              install_name_tool -change "@rpath/libiconv.2.dylib" "$LIBICONV_PATH" "$LIBRIME_DYLIB_PATH"
+          fi
           
-          # 4. 测试动态库加载（此时无需 DYLD_LIBRARY_PATH 也能加载）
-          echo "🔍 测试动态库加载..."
-          if "$RIME_DEPLOYER_PATH" -h >/dev/null 2>&1; then
+          # 4. 验证修复结果
+          echo "📋 修复后 rime_deployer 依赖："
+          otool -L "$RIME_DEPLOYER_PATH" | grep librime
+          echo "📋 修复后 librime.1.dylib 依赖："
+          otool -L "$LIBRIME_DYLIB_PATH" | grep -E "libiconv|boost"
+
+      - name: Test dynamic library loading (详细日志)
+        run: |
+          LIBRIME_PATH="$PWD/librime"
+          RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
+          
+          # 1. 导出所有依赖库路径
+          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$(brew --prefix libiconv)/lib:$(brew --prefix boost)/lib:$DYLD_LIBRARY_PATH"
+          export PATH="$LIBRIME_PATH:$PATH"
+          
+          # 2. 用 dyld 诊断加载问题（关键：获取具体缺失的库）
+          echo "📋 用 dyld 诊断加载问题："
+          DYLD_PRINT_LIBRARIES=1 DYLD_PRINT_ERRORS=1 "$RIME_DEPLOYER_PATH" -h 2>&1 | tee dyld_debug.log
+          
+          # 3. 检查加载测试结果
+          if [[ $? -eq 0 ]]; then
               echo "✅ 动态库加载测试通过"
           else
-              echo "❌ 动态库加载测试仍失败"
+              echo "❌ 动态库加载测试失败，详细调试日志："
+              cat dyld_debug.log
+              # 打印所有依赖库的路径
+              echo "📋 系统依赖库路径："
+              find /usr/local/lib /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -name "libiconv*" 2>/dev/null
+              find /usr/local/lib -name "libboost*" 2>/dev/null
               exit 1
           fi
 
       - name: Configure environment variables
         run: |
           LIBRIME_PATH="$PWD/librime"
-          # 写入 GITHUB_ENV 供后续步骤使用
           echo "LIBRIME_PATH=$LIBRIME_PATH" >> $GITHUB_ENV
-          # 配置 PATH
+          # 配置完整的依赖路径
           export PATH="$LIBRIME_PATH:$PATH"
+          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$(brew --prefix libiconv)/lib:$(brew --prefix boost)/lib:$DYLD_LIBRARY_PATH"
           echo "✅ 已配置环境变量："
           echo "  - LIBRIME_PATH: $LIBRIME_PATH"
-          echo "  - PATH: $PATH"
-
-      - name: Verify rime_deployer and dependencies
-        run: |
-          export LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
-          export PATH="$LIBRIME_PATH:$PATH"
-          
-          if command -v rime_deployer &> /dev/null; then
-              echo "✅ rime_deployer 命令可用"
-              echo "📋 rime_deployer 路径：$(which rime_deployer)"
-              # 再次验证动态库依赖
-              otool -L $(which rime_deployer) | grep -q librime && echo "✅ librime 动态库依赖正常" || {
-                  echo "❌ rime_deployer 存在但未找到 librime 动态库"
-                  ls -la $LIBRIME_PATH
-                  exit 1
-              }
-          else
-              echo "❌ 无法找到 rime_deployer 命令"
-              ls -la $LIBRIME_PATH
-              exit 1
-          fi
+          echo "  - DYLD_LIBRARY_PATH: $DYLD_LIBRARY_PATH"
 
       - name: Build project
         run: |
           export LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           export PATH="$LIBRIME_PATH:$PATH"
+          export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$(brew --prefix libiconv)/lib:$(brew --prefix boost)/lib:$DYLD_LIBRARY_PATH"
           
-          # 完整调试日志
+          # 调试日志
           echo "📋 调试：当前工作目录"
           pwd
-          echo "📋 调试：当前目录完整文件列表"
-          ls -la
           echo "📋 调试：sbxlm 目录内容"
           ls -la sbxlm/ 2>/dev/null || echo "sbxlm 目录不存在/为空"
           
+          # 移动文件
           echo "🔄 移动 sbxlm 目录下的文件..."
           setopt null_glob
           mv -f sbxlm/* . 2>/dev/null || echo "⚠️ sbxlm 目录可能为空或不存在"
           unsetopt null_glob
-          echo "📋 调试：移动文件后的目录内容"
-          ls -la
           
-          echo "📋 调试：rime_deployer 详细信息"
-          which rime_deployer
-          file $(which rime_deployer)
-          otool -L $(which rime_deployer)
-          
-          # 改用临时目录构建
+          # 构建目标目录
           RIME_TEMP_DIR="$PWD/tmp_rime"
           mkdir -p "$RIME_TEMP_DIR"
-          echo "📋 调试：目标目录：$RIME_TEMP_DIR"
           
+          # 执行构建（带完整调试）
           echo "🔨 运行 rime_deployer --build..."
           set -x
-          # 修复后无需强制指定 DYLD_LIBRARY_PATH
-          rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
+          DYLD_PRINT_LIBRARIES=1 rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
           BUILD_EXIT_CODE=$?
           set +x
           
@@ -151,13 +170,11 @@ jobs:
           fi
           echo "✅ 构建成功！"
 
-      - name: Clean up unnecessary files
+      - name: Clean up and package
         run: |
+          # 清理文件
           rm -rf bihua* zhlf* sbfc* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml 2>/dev/null
-          echo "✅ 文件清理完成"
-
-      - name: Package build artifacts
-        run: |
+          # 打包
           zip -q -r sbsrf.zip build lua opencc *.yaml *.txt 2>/dev/null
           if [[ -f "sbsrf.zip" ]]; then
               echo "✅ 打包成功！文件位置：$PWD/sbsrf.zip"
