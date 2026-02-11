@@ -121,6 +121,7 @@ jobs:
           echo "🔄 移动 sbxlm 配置文件..."
           if [[ -d "sbxlm" ]]; then
               mv -f sbxlm/* .
+              mv -f trime/default.yaml .
               echo "✅ sbxlm 文件移动完成"
           else
               echo "⚠️ sbxlm 目录不存在，跳过移动"
