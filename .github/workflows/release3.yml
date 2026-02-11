@@ -83,7 +83,7 @@ jobs:
           fi
           echo "✅ 动态库路径修复完成"
 
-      - name: Verify dynamic library loading (修正测试逻辑)
+      - name: Verify dynamic library loading
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
           LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
@@ -108,7 +108,7 @@ jobs:
               echo "✅ 动态库加载成功（rime_deployer 无参数返回参数错误，属于正常现象）"
           fi
 
-      - name: Build project (核心构建步骤)
+      - name: Build project
         run: |
           LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
@@ -149,16 +149,30 @@ jobs:
           zip -q -r sbsrf.zip build lua opencc *.yaml *.txt 2>/dev/null
           if [[ -f "sbsrf.zip" ]]; then
               echo "✅ 打包成功！文件大小：$(du -h sbsrf.zip | awk '{print $1}')"
+              # 上传产物到 GitHub Actions 工件（手动触发时也能下载）
+              echo "::set-output name=package_exists::true"
           else
               echo "⚠️ 未生成 sbsrf.zip（无匹配文件）"
+              echo "::set-output name=package_exists::false"
           fi
+        id: package_step  # 标记步骤，用于后续判断
 
-      - name: Upload release artifact
+      # 修复：分场景处理 Release 上传
+      - name: Upload release artifact (仅 Tag 推送触发)
+        if: github.event_name == 'push' && github.ref_type == 'tag' && steps.package_step.outputs.package_exists == 'true'
         uses: softprops/action-gh-release@v1
         with:
           files: sbsrf.zip
-          prerelease: ${{ github.event_name == 'workflow_dispatch' }}
+          prerelease: false  # Tag 推送触发为正式发布
           body: |
             **Build Environment**: macOS-latest (${{ env.HOMEBREW_PATH == '/opt/homebrew' && 'Apple Silicon' || 'Intel' }})
-            **Trigger Type**: ${{ github.event_name == 'workflow_dispatch' && 'Manual' || 'Tag Push' }}
-            ${{ github.event_name == 'workflow_dispatch' && format('**Reason**: {0}', github.event.inputs.reason) || '' }}
+            **Trigger Type**: Tag Push (${{ github.ref_name }})
+
+      # 手动触发时：上传到 GitHub Actions 工件（可手动下载），不创建 Release
+      - name: Upload artifact for manual run
+        if: github.event_name == 'workflow_dispatch' && steps.package_step.outputs.package_exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sbsrf-macos-build
+          path: sbsrf.zip
+          retention-days: 7  # 工件保留7天
