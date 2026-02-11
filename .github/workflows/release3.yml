@@ -80,9 +80,9 @@ jobs:
 
       - name: Build project
         run: |
-          # 列出当前目录文件（调试用）
-          echo "📋 构建前当前目录文件："
-          ls -la
+          # 列出sbxlm目录文件（调试用）
+          echo "📋 构建sbxlm目录文件："
+          ls -la sbxlm/
           
           # 移动 sbxlm 目录文件
           echo "🔄 移动 sbxlm 目录下的文件..."
@@ -124,8 +124,8 @@ jobs:
             **Trigger Type**: ${{ github.event_name == 'workflow_dispatch' && 'Manual' || 'Tag Push' }}
             ${{ github.event_name == 'workflow_dispatch' && format('**Reason**: {0}', github.event.inputs.reason) || '' }}
 
-      - name: Send notification (optional)
-        run: |
-          # 可选：保留原脚本的通知逻辑（如果需要）
-          curl -X GET "https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf"
-        continue-on-error: true # 通知失败不影响整体流程
+    #   - name: Send notification (optional)
+    #     run: |
+    #       # 可选：保留原脚本的通知逻辑（如果需要）
+    #       curl -X GET "https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf"
+    #     continue-on-error: true # 通知失败不影响整体流程
