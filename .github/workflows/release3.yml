@@ -35,6 +35,9 @@ jobs:
           fi
           echo "📋 检测到 CPU 架构：$(uname -m)，Homebrew 路径：$HOMEBREW_PATH"
           echo "HOMEBREW_PATH=$HOMEBREW_PATH" >> $GITHUB_ENV
+          # 提前设置 LIBRIME_PATH 到环境变量（避免后续表达式问题）
+          LIBRIME_PATH="$PWD/librime"
+          echo "LIBRIME_PATH=$LIBRIME_PATH" >> $GITHUB_ENV
 
           # 2. 确保 Homebrew 可用（适配不同架构）
           if [[ ! -f "$HOMEBREW_PATH/bin/brew" ]]; then
@@ -61,7 +64,7 @@ jobs:
           LIBRIME_URL="https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-macOS-universal.tar.bz2"
           LIBRIME_ARCHIVE="librime/rime.tar.bz2"
           
-          mkdir -p librime
+          mkdir -p "${{ env.LIBRIME_PATH }}"
           curl -L -o "$LIBRIME_ARCHIVE" "$LIBRIME_URL" || { echo "❌ 下载 librime 失败"; exit 1; }
           
           if [[ ! -f "$LIBRIME_ARCHIVE" ]]; then
@@ -69,14 +72,14 @@ jobs:
               exit 1
           fi
           
-          tar -xjf "$LIBRIME_ARCHIVE" -C librime/ --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
-          echo "✅ 已解压 librime 到: $PWD/librime"
+          tar -xjf "$LIBRIME_ARCHIVE" -C "${{ env.LIBRIME_PATH }}/" --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
+          echo "✅ 已解压 librime 到: ${{ env.LIBRIME_PATH }}"
           # 确认核心文件存在
-          if [[ ! -f "$PWD/librime/librime.1.dylib" ]]; then
+          if [[ ! -f "${{ env.LIBRIME_PATH }}/librime.1.dylib" ]]; then
               echo "❌ 未找到 librime.1.dylib 动态库"
               exit 1
           fi
-          if [[ ! -f "$PWD/librime/rime_deployer" ]]; then
+          if [[ ! -f "${{ env.LIBRIME_PATH }}/rime_deployer" ]]; then
               echo "❌ 未找到 rime_deployer 可执行文件"
               exit 1
           fi
@@ -84,7 +87,7 @@ jobs:
       - name: Fix rime_deployer dynamic library paths
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
-          LIBRIME_PATH="$PWD/librime"
+          LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
           LIBRIME_DYLIB_PATH="$LIBRIME_PATH/librime.1.dylib"
           
@@ -110,7 +113,7 @@ jobs:
       - name: Test dynamic library loading
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
-          LIBRIME_PATH="$PWD/librime"
+          LIBRIME_PATH="${{ env.LIBRIME_PATH }}"
           RIME_DEPLOYER_PATH="$LIBRIME_PATH/rime_deployer"
           
           # 配置完整的动态库路径（适配 Apple Silicon）
@@ -131,7 +134,7 @@ jobs:
       - name: Build project
         run: |
           HOMEBREW_PATH="${{ env.HOMEBREW_PATH }}"
-          LIBRIME_PATH="${{ env.LIBRIME_PATH || $PWD/librime }}"
+          LIBRIME_PATH="${{ env.LIBRIME_PATH }}"  # 直接使用已配置的环境变量，无需表达式判断
           # 配置环境变量
           export PATH="$LIBRIME_PATH:$PATH"
           export DYLD_LIBRARY_PATH="$LIBRIME_PATH:$HOMEBREW_PATH/lib:/usr/lib:$DYLD_LIBRARY_PATH"
