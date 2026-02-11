@@ -1,5 +1,6 @@
 name: Release (macOS)
 
+# 支持手动触发 + 标签推送触发（可选）
 on:
   workflow_dispatch:
     inputs:
@@ -19,7 +20,7 @@ jobs:
     runs-on: macos-latest
     defaults:
       run:
-        shell: zsh {0}
+        shell: zsh {0} # 全局使用 zsh 执行命令
 
     steps:
       - name: Checkout repository
@@ -27,104 +28,85 @@ jobs:
 
       - name: Download and extract librime
         run: |
+          # 定义变量（对应本地脚本的配置部分）
           LIBRIME_URL="https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-macOS-universal.tar.bz2"
           LIBRIME_ARCHIVE="librime/rime.tar.bz2"
           
+          # 创建目录并下载文件
           mkdir -p librime
           curl -L -o "$LIBRIME_ARCHIVE" "$LIBRIME_URL" || { echo "❌ 下载 librime 失败"; exit 1; }
           
+          # 检查文件是否存在
           if [[ ! -f "$LIBRIME_ARCHIVE" ]]; then
               echo "❌ 下载的 librime 文件不存在"
               exit 1
           fi
           
+          # 解压文件（适配 macOS 环境）
           tar -xjf "$LIBRIME_ARCHIVE" -C librime/ --strip-components=2 || { echo "❌ 解压 librime 失败"; exit 1; }
           echo "✅ 已解压 librime 到: $PWD/librime"
 
       - name: Configure environment variables
         run: |
+          # 配置可执行文件和动态库路径
           LIBRIME_PATH="$PWD/librime"
-          # 修复：若 librime 解压后有 bin/lib 子目录，精准指向
-          LIBRIME_BIN_PATH="$LIBRIME_PATH/bin"
-          LIBRIME_LIB_PATH="$LIBRIME_PATH/lib"
-          # 优先使用子目录路径（避免层级错误）
-          echo "PATH=$LIBRIME_BIN_PATH:$LIBRIME_PATH:$PATH" >> $GITHUB_ENV
-          echo "DYLD_LIBRARY_PATH=$LIBRIME_LIB_PATH:$LIBRIME_PATH:$DYLD_LIBRARY_PATH" >> $GITHUB_ENV
+          echo "PATH=$LIBRIME_PATH:$PATH" >> $GITHUB_ENV
+          echo "DYLD_LIBRARY_PATH=$LIBRIME_PATH:$DYLD_LIBRARY_PATH" >> $GITHUB_ENV
           
+          # 验证环境变量配置
           echo "✅ 已配置环境变量："
-          echo "  - PATH: $LIBRIME_BIN_PATH:$LIBRIME_PATH"
-          echo "  - DYLD_LIBRARY_PATH: $LIBRIME_LIB_PATH:$LIBRIME_PATH"
+          echo "  - PATH: $LIBRIME_PATH"
+          echo "  - DYLD_LIBRARY_PATH: $LIBRIME_PATH"
 
       - name: Verify rime_deployer and dependencies
         run: |
+          # 验证 rime_deployer 是否可用
           if command -v rime_deployer &> /dev/null; then
               echo "✅ rime_deployer 命令可用"
+              # 检查动态库依赖
               if otool -L $(command -v rime_deployer) | grep -q librime; then
                   echo "✅ librime 动态库依赖正常"
               else
                   echo "❌ rime_deployer 存在但未找到 librime 动态库"
-                  ls -la $LIBRIME_PATH
                   exit 1
               fi
           else
               echo "❌ 无法找到 rime_deployer 命令"
+              # 调试：列出 librime 目录结构
+              echo "📋 librime 目录结构："
               ls -la $LIBRIME_PATH
               exit 1
           fi
 
       - name: Build project
         run: |
-          # 完整调试日志（核心修改）
-          echo "📋 调试：当前工作目录"
-          pwd
-          echo "📋 调试：当前目录完整文件列表"
-          ls -la
-          echo "📋 调试：sbxlm 目录内容"
-          ls -la sbxlm/ 2>/dev/null || echo "sbxlm 目录不存在/为空"
+          # 列出sbxlm目录文件（调试用）
+          echo "📋 构建sbxlm目录文件："
+          ls -la sbxlm/
           
+          # 移动 sbxlm 目录文件
           echo "🔄 移动 sbxlm 目录下的文件..."
-          setopt null_glob
-          mv -f sbxlm/* . 2>/dev/null || echo "⚠️ sbxlm 目录可能为空或不存在"
-          unsetopt null_glob
-          echo "📋 调试：移动文件后的目录内容"
-          ls -la
+          mv -f sbxlm/* . 2>/dev/null || echo "⚠️ sbxlm 目录可能为空或不存在，跳过移动"
           
-          echo "📋 调试：rime_deployer 详细信息"
-          which rime_deployer
-          file $(which rime_deployer)
-          otool -L $(which rime_deployer)
-          echo "📋 调试：环境变量"
-          echo "PATH: $PATH"
-          echo "DYLD_LIBRARY_PATH: $DYLD_LIBRARY_PATH"
-          
-          # 改用临时目录构建（避免权限问题）
-          RIME_TEMP_DIR="$PWD/tmp_rime"
-          mkdir -p "$RIME_TEMP_DIR"
-          echo "📋 调试：目标目录：$RIME_TEMP_DIR"
-          
+          # 执行构建命令（适配 GitHub Actions 的 macOS 环境）
           echo "🔨 运行 rime_deployer --build..."
-          set -x
-          DYLD_LIBRARY_PATH="$LIBRIME_LIB_PATH:$LIBRIME_PATH" rime_deployer --build -v . "$RIME_TEMP_DIR" 2>&1 | tee build_error.log
-          BUILD_EXIT_CODE=$?
-          set +x
-          
-          if [[ $BUILD_EXIT_CODE -ne 0 ]]; then
-              echo "❌ 构建失败！详细日志："
-              cat build_error.log
-              exit 1
-          fi
-          echo "✅ 构建成功！"
+          rime_deployer --build . "$HOME/Library/Rime" || { echo "❌ 构建失败"; exit 1; }
 
       - name: Clean up unnecessary files
         run: |
+          # 清理文件
           rm -rf bihua* zhlf* sbfc* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml 2>/dev/null
           echo "✅ 文件清理完成"
 
       - name: Package build artifacts
         run: |
+          # 打包生成压缩包
           zip -q -r sbsrf.zip build lua opencc *.yaml *.txt 2>/dev/null
+          
+          # 检查打包结果
           if [[ -f "sbsrf.zip" ]]; then
               echo "✅ 打包成功！文件位置：$PWD/sbsrf.zip"
+              # 输出文件大小（调试用）
               du -h sbsrf.zip
           else
               echo "⚠️  打包步骤未找到指定文件，未生成 sbsrf.zip"
@@ -134,8 +116,16 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: sbsrf.zip
+          # 手动触发标记为预发布，标签推送触发为正式发布
           prerelease: ${{ github.event_name == 'workflow_dispatch' }}
+          # 修复：改用 GitHub Actions 支持的字符串拼接方式
           body: |
             **Build Environment**: macOS-latest
             **Trigger Type**: ${{ github.event_name == 'workflow_dispatch' && 'Manual' || 'Tag Push' }}
             ${{ github.event_name == 'workflow_dispatch' && format('**Reason**: {0}', github.event.inputs.reason) || '' }}
+
+    #   - name: Send notification (optional)
+    #     run: |
+    #       # 可选：保留原脚本的通知逻辑（如果需要）
+    #       curl -X GET "https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf"
+    #     continue-on-error: true # 通知失败不影响整体流程
