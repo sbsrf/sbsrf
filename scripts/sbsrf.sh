@@ -5,7 +5,7 @@ ORIGINAL_DIR=$(pwd)
 PARENT_DIR=$(dirname "$ORIGINAL_DIR")
 echo "✅ 原始执行目录：$ORIGINAL_DIR"
 echo "✅ 父目录：$PARENT_DIR"
-# 核心修复2：只保存目录路径，不提前加通配符
+# 只保存目录路径，不提前加通配符
 SBXLM_DIR="$PARENT_DIR/sbxlm"
 LIBRIME_URL="https://github.com/rime/librime/releases/download/1.16.1/rime-de4700e-macOS-universal.tar.bz2" # macOS 版本的 librime
 WORK_DIR="${TMPDIR:-/tmp}/sbsrf_local_build_$(date +%Y%m%d%H%M%S)" # 临时工作目录（修复 TMPDIR 为空的情况）
@@ -26,7 +26,7 @@ error() {
     exit 1
 }
 
-# 新增：调试函数，打印目录详情
+# 调试函数，打印目录详情
 debug_dir() {
     local dir_path="$1"
     echo "📋 调试：目录 $dir_path 详情："

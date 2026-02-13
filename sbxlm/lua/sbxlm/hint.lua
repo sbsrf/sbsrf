@@ -85,8 +85,8 @@ function this.func(translation, env)
 				end
 			end
 		end		
-		-- 象系单字在全码时提示简码
-		if (core.xiangxi(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[aeuio;',./]") then
+		-- 象系字词在全码时提示简码
+		if (core.xiangxi(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[aeuio;',./23789][aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
 			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
@@ -132,16 +132,6 @@ function this.func(translation, env)
 				if not is_enhanced and rime.match(code, ".*[0-9].*") then
 					;
 				elseif candidate.preedit ~= code then
-					candidate.comment = candidate.comment .. " " .. code
-				end
-			end
-		end
-		-- 象码简词提示
-		if core.xiangxi(id) and not is_hidden
-		and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{1,2}[23789;',./][aeuio]*") then
-			local codes = env.reverse:lookup(candidate.text)
-			for code in string.gmatch(codes, "[^ ]+") do
-				if candidate.preedit ~= code then
 					candidate.comment = candidate.comment .. " " .. code
 				end
 			end
