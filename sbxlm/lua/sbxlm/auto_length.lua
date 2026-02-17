@@ -395,7 +395,8 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
-    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) or core.xiangxi(schema_id))
+    or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) 
+    or core.xiangxi(schema_id) and env.pro_char)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
       if core.xiangxi(schema_id) then lens = env.xd_lens end
