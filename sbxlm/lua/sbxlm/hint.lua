@@ -247,21 +247,21 @@ function this.func(translation, env)
 			end
 		end
 		--象码和象单在sxsx时提示标点字
-		if core.xiangxi(id) and core.sxsx(input) and not is_hidden then
-			candidate:get_genuine().comment = ''
-			memory:dict_lookup(candidate.preedit:sub(3,4) .. ";", false, 1)
-			for entry in memory:iter_dict()
-			do
-				candidate:get_genuine().comment = ' ' .. entry.text .. ";"
-				break
-			end
-			memory:dict_lookup(candidate.preedit:sub(3,4) .. "'", false, 1)
-			for entry in memory:iter_dict()
-			do
-				candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
-				break
-			end						
-		end
+		-- if core.xiangxi(id) and core.sxsx(input) and not is_hidden then
+		-- 	candidate:get_genuine().comment = ''
+		-- 	memory:dict_lookup(candidate.preedit:sub(3,4) .. ";", false, 1)
+		-- 	for entry in memory:iter_dict()
+		-- 	do
+		-- 		candidate:get_genuine().comment = ' ' .. entry.text .. ";"
+		-- 		break
+		-- 	end
+		-- 	memory:dict_lookup(candidate.preedit:sub(3,4) .. "'", false, 1)
+		-- 	for entry in memory:iter_dict()
+		-- 	do
+		-- 		candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
+		-- 		break
+		-- 	end						
+		-- end
 		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
@@ -456,23 +456,23 @@ function this.func(translation, env)
 			end
 		end
 		--象码和象单在sxsx上时的提示
-		if core.sxsx(input) and core.xiangxi(id) and not is_hidden then
-			for _, bihua in ipairs(hint_b) do
-				local ssb = candidate.preedit:sub(3,4) .. bihua
-				memory:dict_lookup(ssb, false, 1)
-				local entry1 = nil
-				for entry in memory:iter_dict() do
-					entry1 = entry
-					break
-				end
-				if not entry1 then
-					goto continue
-				end
-				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
-				rime.yield(forward)
-				::continue::
-			end
-		end
+		-- if core.sxsx(input) and core.xiangxi(id) and not is_hidden then
+		-- 	for _, bihua in ipairs(hint_b) do
+		-- 		local ssb = candidate.preedit:sub(3,4) .. bihua
+		-- 		memory:dict_lookup(ssb, false, 1)
+		-- 		local entry1 = nil
+		-- 		for entry in memory:iter_dict() do
+		-- 			entry1 = entry
+		-- 			break
+		-- 		end
+		-- 		if not entry1 then
+		-- 			goto continue
+		-- 		end
+		-- 		local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
+		-- 		rime.yield(forward)
+		-- 		::continue::
+		-- 	end
+		-- end
 		-- 飞系方案在 ssb 码位上，提示spbb缩减字
 		if core.ssb(input) and core.feixi(id) and not is_hidden then
 			for _, b in ipairs(hint_b) do

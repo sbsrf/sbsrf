@@ -597,8 +597,7 @@ function this.func(input, segment, env)
     -- 1. 编码为 sxs 格式时，只要不是简码的三顶模式，就要拆分成二简字 + 一简字翻译
     -- 2. 飞系方案，编码为 sbsb 格式时，拆分成声笔字 + 声笔字翻译
     -- 3. 飞讯，编码为 sxsb 格式时，拆分成二简字 + 声笔字翻译
-    if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) 
-    or core.xiangxi(schema_id) and core.sxsx(input) then
+    if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) then
       translate_by_split(input, segment, env)
     elseif (core.sxs(input) and not env.third_pop)
         or (core.feixi(schema_id) and core.sbsb(input))
