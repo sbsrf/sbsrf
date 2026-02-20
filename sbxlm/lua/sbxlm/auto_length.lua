@@ -365,7 +365,7 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
   --象系的特殊处理
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9][aeuio]*") then
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9;',./][aeuio]*") then
     completion = completion:sub(-1,-1) .. completion:sub(2,-2)
   end
   local alt_completion = ""
@@ -446,6 +446,10 @@ local function validate_phrase(entry, segment, type, input, env)
     -- 如果当前的策略是 base, full 或者 short，那么从 4 码开始的部分都要匹配
   else
     to_match = input:sub(4)
+    if core.xiangxi(schema_id) and rime.match(to_match, "[;',./][aeuio]*") then
+      local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";"]="8", ["."]="9"}
+      to_match = pnmap[to_match:sub(1,1)] .. to_match:sub(2)
+    end
   end
   -- 如果飞讯的第 4 码是 23789，那么需要把它换成 aeiou
   if core.fx(schema_id) and fx_exchange[to_match:sub(1, 1)] then
@@ -543,8 +547,14 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    elseif (core.xiangxi(schema_id)) and utf8.len(phrase.text) < 4
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    elseif (core.xiangxi(schema_id)) and utf8.len(phrase.text) ~= 3
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[23789].*") then
+      ;
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) > 2
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
     elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)
@@ -606,15 +616,7 @@ function this.func(input, segment, env)
         or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
-    -- if not (core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]")) then
-    --    return 
-    -- end
     return
-  end
-
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
-    local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";"]="8", ["."]="9"}
-    input = input:sub(1,3) .. pnmap[input:sub(4,4)] .. input:sub(5)
   end
 
   local memory = env.dynamic_memory
