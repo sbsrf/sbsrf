@@ -400,7 +400,19 @@ local function validate_phrase(entry, segment, type, input, env)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
       if core.xiangxi(schema_id) then lens = env.xd_lens end
-      if (utf8.len(entry.text) == 2) then
+      if core.xiangxi(schema_id) and utf8.len(entry.text) <= 3 
+      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]+") then
+        local offset = utf8.offset(entry.text, 2)
+        local char1 = entry.text:sub(1, offset - 1)
+        local char2 = entry.text:sub(offset)
+        local char1_len = lens[char1]
+        local char2_len = lens[char2]
+        if char1 and char2 and char1_len and char2_len and env.filter_strength >= 5 then
+          if char1_len + char2_len <= 5 then
+            return nil
+          end
+        end
+      elseif (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
         local char2 = entry.text:sub(offset)
