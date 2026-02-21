@@ -396,7 +396,7 @@ local function validate_phrase(entry, segment, type, input, env)
     end
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
     or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) 
-    or core.xiangxi(schema_id) and env.pro_char)
+    or core.xiangxi(schema_id))
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
       if core.xiangxi(schema_id) then lens = env.xd_lens end
@@ -407,11 +407,13 @@ local function validate_phrase(entry, segment, type, input, env)
         local char2 = entry.text:sub(offset)
         local char1_len = lens[char1]
         local char2_len = lens[char2]
-        if char1 and char2 and char1_len and char2_len and env.filter_strength >= 5 then
-          if char1_len + char2_len <= 5 then
+        if char1 and char2 and char1_len and char2_len and env.filter_strength >= 4 then
+          if char1_len + char2_len <= 4 then
             return nil
           end
         end
+      elseif core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]*") then
+        ;
       elseif (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
@@ -562,11 +564,11 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    elseif (core.xiangxi(schema_id)) and utf8.len(phrase.text) ~= 3
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[23789].*") then
-      ;
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) > 2
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 3
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+      ;
+    elseif (core.xiangxi(schema_id)) and utf8.len(phrase.text) > 2
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789].*") then
       ;
     elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)
