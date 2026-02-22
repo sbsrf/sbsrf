@@ -40,6 +40,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field char_lens { string : number }
 ---@field xd_lens { string : number }
 ---@field xx_flag boolean
+---@field xx_cand string
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -394,6 +395,12 @@ local function validate_phrase(entry, segment, type, input, env)
         return nil
       end
     end
+    -- 象系sgsf型词在5码及以上时过滤掉四码简词
+    if core.xiangxi(schema_id) and env.cand == entry.text
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]+") then
+      return nil
+    end
+
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
     or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) 
     or core.xiangxi(schema_id))
@@ -596,7 +603,7 @@ function this.func(input, segment, env)
   env.is_enhanced = env.engine.context:get_option("is_enhanced") or false
   env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
   local schema_id = env.engine.schema.schema_id
-  env.xx_flag = false 
+  env.xx_flag = false
 
   if env.engine.context:get_option("ascii_mode") then
     return
@@ -614,7 +621,12 @@ function this.func(input, segment, env)
     for entry in env.static_memory:iter_dict() do
       local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
       phrase.preedit = input
-      if core.xiangxi(schema_id) and not env.xx_flag then env.xx_flag = true end
+      if core.xiangxi(schema_id) and not env.xx_flag then 
+        env.xx_flag = true 
+        if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then 
+          env.cand = entry.text
+        end
+      end
       rime.yield(phrase:toCandidate())
     end  
 
