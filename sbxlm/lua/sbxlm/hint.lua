@@ -88,7 +88,6 @@ function this.func(translation, env)
 		-- 象系字词在全码时提示简码
 		if (core.xiangxi(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{2}[a-zA-Z;',./23789]?[aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
-			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
 				if input ~= code and input:len() >= code:len() then
 					candidate.comment = candidate.comment .. " " .. code
