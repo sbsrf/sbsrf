@@ -248,6 +248,21 @@ function this.init(env)
     env.xd_lens[char] = tonumber(len)
   end
   file:close()
+
+  -- 读取笔画编码文件
+  env.strokes = {}
+  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/strokes.txt"
+  file = io.open(path, "r")
+  if file then
+    for line in file:lines() do
+      ---@type string, string
+      local char, stroke = line:match("([^\t]+)\t([^\t]+)")
+      if char and stroke then
+        env.strokes[char] = stroke
+      end
+    end
+    file:close()
+  end
 end
 
 ---涉及到自动码长翻译时，指定对特定类型的输入应该用何种策略翻译
@@ -366,7 +381,11 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
   --象系的特殊处理
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9;',./][aeuio]*") then
+  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
+    -- 象系方案：对于sgsf型词（第四码是[;',./]），不进行completion重排
+    -- 保持原始completion格式，以便正确匹配
+  elseif core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9][aeuio]*") then
+    -- 对于数字结尾的编码，进行原有的重排处理
     completion = completion:sub(-1,-1) .. completion:sub(2,-2)
   end
   local alt_completion = ""
@@ -452,8 +471,11 @@ local function validate_phrase(entry, segment, type, input, env)
     -- 如果当前的策略是 base, full 或者 short，那么从 4 码开始的部分都要匹配
   else
     to_match = input:sub(4)
-    if core.xiangxi(schema_id) and rime.match(to_match, "[;',./][aeuio]*") then
-      local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";"]="8", ["."]="9"}
+    -- 象系方案特殊处理：第四码是[;',./]，直接使用原始输入，不进行数字映射
+    if core.xiangxi(schema_id) then
+      -- 对于象系方案，直接使用原始的[;',./]和aeuio笔画，不进行数字映射
+    elseif rime.match(to_match, "[;',./][aeuio]*") then
+      local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";" ]="8", ["."]="9"}
       to_match = pnmap[to_match:sub(1,1)] .. to_match:sub(2)
     end
   end
@@ -462,8 +484,129 @@ local function validate_phrase(entry, segment, type, input, env)
     to_match = fx_exchange[to_match:sub(1, 1)] .. to_match:sub(2)
   end
   to_match = to_match:lower()
+  
+  -- 声笔象码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
+  if core.xiangxi(schema_id) and input:len() >= 4 and env.strokes then
+    -- 第一步：检查第四码是否匹配（末字首笔的[;',./]表示）
+    local fourth_char = input:sub(4, 4)
+    if fourth_char ~= "" and rime.match(fourth_char, "[;',./]") then
+      -- 获取候选词的末字
+      local phrase_text = entry.text
+      local last_char = ""
+      for _, char in utf8.codes(phrase_text) do
+        last_char = utf8.char(char)
+      end
+      
+      -- 查找末字的首笔
+      local last_char_stroke = env.strokes[last_char]
+      if last_char_stroke then
+        -- 获取末字首笔（第一笔）
+        local first_stroke = last_char_stroke:sub(1, 1)
+        
+        -- 首笔到[;',./]的映射
+        local stroke_map = {["a"]="'", ["e"]=",", ["u"]="/", ["i"]=";", ["o"]="."}
+        local expected_fourth_char = stroke_map[first_stroke]
+        
+        -- 检查第四码是否匹配
+        if expected_fourth_char and expected_fourth_char ~= fourth_char then
+          return nil
+        end
+      end
+    end
+    
+    -- 第二步：检查第五码及以后的笔画补码
+    if input:len() > 4 then
+      -- 提取笔画输入：从第5码开始
+      local stroke_input = input:sub(5)
+      
+      if stroke_input ~= "" then
+        local phrase_length = utf8.len(entry.text)
+        local phrase_strokes = ""
+        
+        -- 根据词组长度应用不同的笔画补充规则
+        if phrase_length == 2 then
+          -- 二字词：补充首字的前两笔和末字的前四笔
+          local chars = {}
+          for _, char in utf8.codes(entry.text) do
+            table.insert(chars, utf8.char(char))
+          end
+          
+          -- 首字前两笔
+          local char1_stroke = env.strokes[chars[1]]
+          if char1_stroke then
+            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
+          end
+          
+          -- 末字前四笔
+          local char2_stroke = env.strokes[chars[2]]
+          if char2_stroke then
+            phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 4)
+          end
+          
+        elseif phrase_length == 3 then
+          -- 三字词：补充各字的前两笔
+          local chars = {}
+          for _, char in utf8.codes(entry.text) do
+            table.insert(chars, utf8.char(char))
+          end
+          
+          -- 第一字前两笔
+          local char1_stroke = env.strokes[chars[1]]
+          if char1_stroke then
+            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
+          end
+          
+          -- 第二字前两笔
+          local char2_stroke = env.strokes[chars[2]]
+          if char2_stroke then
+            phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 2)
+          end
+          
+        elseif phrase_length >= 4 then
+          -- 多字词：补充前三字的前两笔
+          local chars = {}
+          for _, char in utf8.codes(entry.text) do
+            table.insert(chars, utf8.char(char))
+          end
+          
+          -- 第一字前两笔
+          local char1_stroke = env.strokes[chars[1]]
+          if char1_stroke then
+            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
+          end
+          
+          -- 第二字前两笔
+          local char2_stroke = env.strokes[chars[2]]
+          if char2_stroke then
+            phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 2)
+          end
+          
+          -- 第三字前两笔
+          local char3_stroke = env.strokes[chars[3]]
+          if char3_stroke then
+            phrase_strokes = phrase_strokes .. char3_stroke:sub(1, 2)
+          end
+        end
+        
+        -- 检查笔画编码是否匹配
+        if phrase_strokes ~= "" then
+          -- 检查笔画编码是否匹配
+          if phrase_strokes:sub(1, stroke_input:len()) ~= stroke_input then
+            return nil
+          end
+        end
+      end
+    end
+  end
+  
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
-  if completion:sub(1, to_match:len()) == to_match then
+  -- 对于象系方案，由于我们只保留了前四码编码，completion可能只是一个字符（如"w"）
+  -- 此时需要特殊处理，只要输入的前三码匹配，就认为是有效的候选
+  if core.xiangxi(schema_id) then
+    -- 象系方案特殊处理：只要前三码匹配，就认为是有效的候选
+    -- 因为我们已经在前面的步骤中进行了第四码和第五码的筛选
+    goto valid
+  elseif completion:sub(1, to_match:len()) == to_match then
     goto valid
   elseif alt_completion:sub(1, to_match:len()) == to_match then
     completion = alt_completion
@@ -633,7 +776,7 @@ function this.func(input, segment, env)
   local memory = env.dynamic_memory
   -- 静态编码都处理完了，现在进入自动码长的动态编码部分
   -- 首先，根据输入的前三码来模糊匹配，依次查询固态词典和用户词典，并且结果都存放到一个列表中
-  local lookup_code = input:sub(0, 3):lower()
+  local lookup_code = input:sub(1, 3):lower()
   ---@type Phrase[]
   local phrases = {}
   ---@type Phrase[]
