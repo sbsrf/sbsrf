@@ -382,14 +382,6 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 一开始，entry.comment 中放置了 "~xxx" 形式的编码补全内容
   -- 对其取子串，得到真正的编码补全内容
   local completion = entry.comment:sub(2)
-  --象系的特殊处理
-  if core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]*") then
-    -- 象系方案：对于sgsf型词（第四码是[;',./]），不进行completion重排
-    -- 保持原始completion格式，以便正确匹配
-  elseif core.xiangxi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[0-9][aeuio]*") then
-    -- 对于数字结尾的编码，进行原有的重排处理
-    completion = completion:sub(-1,-1) .. completion:sub(2,-2)
-  end
   local alt_completion = ""
   local to_match = ""
   if entry.comment == "" then
@@ -473,19 +465,13 @@ local function validate_phrase(entry, segment, type, input, env)
     -- 如果当前的策略是 base, full 或者 short，那么从 4 码开始的部分都要匹配
   else
     to_match = input:sub(4)
-    -- 象系方案特殊处理：第四码是[;',./]，直接使用原始输入，不进行数字映射
-    if core.xiangxi(schema_id) then
-      -- 对于象系方案，直接使用原始的[;',./]和aeuio笔画，不进行数字映射
-    elseif rime.match(to_match, "[;',./][aeuio]*") then
-      local pnmap = {["'"]="2", [","]="3", ["/"]="7", [";" ]="8", ["."]="9"}
-      to_match = pnmap[to_match:sub(1,1)] .. to_match:sub(2)
-    end
   end
   -- 如果飞讯的第 4 码是 23789，那么需要把它换成 aeiou
   if core.fx(schema_id) and fx_exchange[to_match:sub(1, 1)] then
     to_match = fx_exchange[to_match:sub(1, 1)] .. to_match:sub(2)
+  else
+    to_match = to_match:lower()
   end
-  to_match = to_match:lower()
   
   -- 声笔象码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
   if core.xiangxi(schema_id) and input:len() >= 4 and env.strokes then
@@ -493,22 +479,7 @@ local function validate_phrase(entry, segment, type, input, env)
     local fourth_char = input:sub(4, 4)
     if fourth_char ~= "" then
       -- 检查是否是sssS型编码（第四码大写字母）
-      if rime.match(fourth_char, "[A-Z]") then
-        -- 对于sssS型编码，需要检查候选词的第四码是否与输入的大写字母匹配
-        -- 获取候选词的完整编码（前四码）
-        local phrase_code = entry.comment:sub(2)
-        if phrase_code then
-          -- 获取候选词的第四码（小写）
-          local candidate_fourth = phrase_code:sub(4, 4):lower()
-          -- 输入的第四码（转为小写）
-          local input_fourth = fourth_char:lower()
-          -- 检查是否匹配
-          if candidate_fourth ~= input_fourth then
-            return nil
-          end
-        end
-      -- 检查是否是sgsf型编码（第四码是[;',./]）
-      elseif rime.match(fourth_char, "[;',./]") then
+      if rime.match(fourth_char, "[;',./]") then
         -- 获取候选词的末字
         local phrase_text = entry.text
         local last_char = ""
@@ -531,6 +502,32 @@ local function validate_phrase(entry, segment, type, input, env)
             return nil
           end
         end
+      -- 检查是否是sgsn型编码（第四码是[23789]）
+      elseif rime.match(fourth_char, "[23789]") then
+        -- 获取候选词的末字
+        local phrase_text = entry.text
+        local last_char = ""
+        for _, char in utf8.codes(phrase_text) do
+          last_char = utf8.char(char)
+        end
+        
+        -- 查找末字的首笔
+        local last_char_stroke = env.strokes[last_char]
+        if last_char_stroke then
+          -- 获取末字首笔（第一笔）
+          local first_stroke = last_char_stroke:sub(1, 1)
+          
+          -- 首笔到[23789]的映射
+          local stroke_map = {["a"]="2", ["e"]="3", ["u"]="7", ["i"]="8", ["o"]="9"}
+          local expected_fourth_char = stroke_map[first_stroke]
+          
+          -- 检查第四码是否匹配
+          if expected_fourth_char and expected_fourth_char ~= fourth_char then
+            return nil
+          end
+        end
+      elseif fourth_char:lower() ~= completion:sub(1, 1) then
+        return nil
       end
     end
     
@@ -773,15 +770,15 @@ function this.func(input, segment, env)
     end
     env.static_memory:dict_lookup(input2, false, 0)
     for entry in env.static_memory:iter_dict() do
-      local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
-      phrase.preedit = input
-      if core.xiangxi(schema_id) and not env.xx_flag then 
-        env.xx_flag = true 
-        if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then 
-          env.cand = entry.text
+        local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
+        phrase.preedit = input
+        if core.xiangxi(schema_id) and not env.xx_flag then 
+          env.xx_flag = true 
+          if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then 
+            env.cand = entry.text
+          end
         end
-      end
-      rime.yield(phrase:toCandidate())
+        rime.yield(phrase:toCandidate())
     end  
 
     -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码
