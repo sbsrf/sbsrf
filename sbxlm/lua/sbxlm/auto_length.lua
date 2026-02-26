@@ -416,7 +416,7 @@ local function validate_phrase(entry, segment, type, input, env)
 
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
     or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) 
-    or core.xiangxi(schema_id))
+    or core.xiangxi(schema_id) and env.pro_char)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
       if (utf8.len(entry.text) == 2) then
@@ -724,9 +724,9 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 3
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][a-z].*") then
       ;
-    -- sgsn型：二字词专用，第四码为数字或[;',./]，应保留2字词组
+    -- sgsn型：二字词专用，第四码为数字，应保留2字词组
     elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 2
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789;',./].*") then
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789].*") then
       ;
     elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)
