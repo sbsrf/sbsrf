@@ -40,8 +40,14 @@ local function handle_candidate(text, stroke_input, env)
     char1 = text:sub(1, offset - 1)
   end
   local strokes = env.strokes[char1]
-  if stroke_input == strokes:sub(1, len) then
-    return true
+  if strokes then
+    -- 对于新的strokes.txt结构，从第3笔开始取（跳过前两笔）
+    -- 确保编码长度足够
+    if #strokes >= len + 2 then
+      if stroke_input == strokes:sub(3, 2 + len) then
+        return true
+      end
+    end
   end
   return false
 end

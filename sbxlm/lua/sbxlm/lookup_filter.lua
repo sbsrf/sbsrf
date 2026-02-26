@@ -42,7 +42,17 @@ function this.func(translation, env)
         yield(candidate)
     else
         local strokes = env.strokes[candidate.text]
-        strokes = strokes == nil and "" or strokes:sub(1, len)
+        if strokes then
+          -- 对于新的strokes.txt结构，从第3笔开始取（跳过前两笔）
+          -- 确保编码长度足够
+          if #strokes >= len + 2 then
+            strokes = strokes:sub(3, 2 + len)
+          else
+            strokes = ""
+          end
+        else
+          strokes = ""
+        end
         candidate.comment = candidate.comment:gsub("(%S+)","%1" .. strokes)
         yield(candidate)
     end
