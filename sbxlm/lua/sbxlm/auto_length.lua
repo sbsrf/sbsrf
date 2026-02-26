@@ -41,6 +41,8 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field xd_lens { string : number }
 ---@field xx_flag boolean
 ---@field xx_cand string
+---@field cand string
+---@field strokes { string : string }
 
 ---判断输入的编码是否为静态编码
 ---@param input string
@@ -487,29 +489,47 @@ local function validate_phrase(entry, segment, type, input, env)
   
   -- 声笔象码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
   if core.xiangxi(schema_id) and input:len() >= 4 and env.strokes then
-    -- 第一步：检查第四码是否匹配（末字首笔的[;',./]表示）
+    -- 第一步：检查第四码是否匹配
     local fourth_char = input:sub(4, 4)
-    if fourth_char ~= "" and rime.match(fourth_char, "[;',./]") then
-      -- 获取候选词的末字
-      local phrase_text = entry.text
-      local last_char = ""
-      for _, char in utf8.codes(phrase_text) do
-        last_char = utf8.char(char)
-      end
-      
-      -- 查找末字的首笔
-      local last_char_stroke = env.strokes[last_char]
-      if last_char_stroke then
-        -- 获取末字首笔（第一笔）
-        local first_stroke = last_char_stroke:sub(1, 1)
+    if fourth_char ~= "" then
+      -- 检查是否是sssS型编码（第四码大写字母）
+      if rime.match(fourth_char, "[A-Z]") then
+        -- 对于sssS型编码，需要检查候选词的第四码是否与输入的大写字母匹配
+        -- 获取候选词的完整编码（前四码）
+        local phrase_code = entry.comment:sub(2)
+        if phrase_code then
+          -- 获取候选词的第四码（小写）
+          local candidate_fourth = phrase_code:sub(4, 4):lower()
+          -- 输入的第四码（转为小写）
+          local input_fourth = fourth_char:lower()
+          -- 检查是否匹配
+          if candidate_fourth ~= input_fourth then
+            return nil
+          end
+        end
+      -- 检查是否是sgsf型编码（第四码是[;',./]）
+      elseif rime.match(fourth_char, "[;',./]") then
+        -- 获取候选词的末字
+        local phrase_text = entry.text
+        local last_char = ""
+        for _, char in utf8.codes(phrase_text) do
+          last_char = utf8.char(char)
+        end
         
-        -- 首笔到[;',./]的映射
-        local stroke_map = {["a"]="'", ["e"]=",", ["u"]="/", ["i"]=";", ["o"]="."}
-        local expected_fourth_char = stroke_map[first_stroke]
-        
-        -- 检查第四码是否匹配
-        if expected_fourth_char and expected_fourth_char ~= fourth_char then
-          return nil
+        -- 查找末字的首笔
+        local last_char_stroke = env.strokes[last_char]
+        if last_char_stroke then
+          -- 获取末字首笔（第一笔）
+          local first_stroke = last_char_stroke:sub(1, 1)
+          
+          -- 首笔到[;',./]的映射
+          local stroke_map = {["a"]="'", ["e"]=",", ["u"]="/", ["i"]=";", ["o"]="."}
+          local expected_fourth_char = stroke_map[first_stroke]
+          
+          -- 检查第四码是否匹配
+          if expected_fourth_char and expected_fourth_char ~= fourth_char then
+            return nil
+          end
         end
       end
     end
@@ -652,8 +672,10 @@ local function translate_by_split(input, segment, env)
   local part2 = input:sub(3)
   if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
     local start =  string.find(input, "%u")
-    part1 = part1 .. input:sub(start):lower()
-    part2 = input:sub(3, start - 1)
+    if start then
+      part1 = part1 .. input:sub(start):lower()
+      part2 = input:sub(3, start - 1)
+    end
   end
   memory:dict_lookup(part1, false, 1)
   local text = ""
@@ -696,14 +718,18 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
+    -- 象系编码类型处理
+    -- sssS型：多字词专用，第四码大写，应保留4字及以上词组
     elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
+    -- ssSg型：三字词专用，第三码大写，应保留3字词组
     elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 3
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][a-z].*") then
       ;
-    elseif (core.xiangxi(schema_id)) and utf8.len(phrase.text) > 2
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789].*") then
+    -- sgsn型：二字词专用，第四码为数字或[;',./]，应保留2字词组
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 2
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789;',./].*") then
       ;
     elseif not known_words[phrase.text] then
       table.insert(phrases, phrase)

@@ -2,12 +2,13 @@
 -- 针对单字，使用strokes.txt中的汉字笔画编码补齐至6位
 
 local rime = require "lib"
+local yield = rime.yield
 local this = {}
 
----@class StrokesEnv: Env
+---@class LookupStrokesEnv: Env
 ---@field strokes table<string, string>
 
----@param env StrokesEnv
+---@param env LookupStrokesEnv
 function this.init(env)
   env.strokes = {}
   local dir = rime.api.get_user_data_dir() .. "/lua/sbxlm/"
@@ -26,7 +27,7 @@ function this.init(env)
 end
 
 ---@param translation Translation
----@param env StrokesEnv
+---@param env LookupStrokesEnv
 function this.func(translation, env)
   local context = env.engine.context
   local id = env.engine.schema.schema_id

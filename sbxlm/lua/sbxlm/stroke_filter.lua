@@ -2,6 +2,7 @@
 -- 超过基本编码后，使用strokes.txt中的汉字笔画编码快速过滤重码
 
 local rime = require "lib"
+local yield = rime.yield
 local this = {}
 
 ---@class StrokesEnv: Env

@@ -15,7 +15,7 @@ function this.init(env)
     env.engine.context:refresh_non_confirmed_composition()
   end
   local context = env.engine.context
-  context:delete_input()
+  context.input = ""
   context.select_notifier:connect(clear)
   context.commit_notifier:connect(clear)
 end
@@ -58,7 +58,7 @@ function this.func(key_event, env)
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
 
   -- 追加笔画
-  if rime.match(input, "^[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}.*") then
+  if input and rime.match(input, "^[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}.*") then
     local stroke_input = context:get_property("stroke_input")
     if rime.match(context.input:sub(1, 4) .. stroke_input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeiou]{4,}")
     and incoming ~= "BackSpace" then
