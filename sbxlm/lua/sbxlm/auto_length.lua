@@ -419,6 +419,9 @@ local function validate_phrase(entry, segment, type, input, env)
     or core.xiangxi(schema_id) and env.pro_char)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
+      if core.xiangxi(schema_id) then
+        lens = env.xd_lens
+      end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
