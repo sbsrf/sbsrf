@@ -30,8 +30,8 @@ end
 function this.func(translation, env)
   local context = env.engine.context
   -- 取出输入中当前正在翻译的一部分
-  local input = rime.current(context)
-  local stroke_input = context:get_property("stroke_input")
+  local input = rime.current(context) or ""
+  local stroke_input = context:get_property("stroke_input") or ""
   local length = input:len() + stroke_input:len()
   -- 删除与当前编码长度相等或者更长的已知候选，这些对当前输入无帮助
   for k, v in pairs(env.known_candidates) do
