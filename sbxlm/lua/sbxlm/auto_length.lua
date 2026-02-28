@@ -419,9 +419,7 @@ local function validate_phrase(entry, segment, type, input, env)
     or core.xiangxi(schema_id) and env.pro_char)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
-      if core.xiangxi(schema_id) then
-        lens = env.xd_lens
-      end
+      if core.xiangxi(schema_id) then lens = env.xd_lens end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
@@ -719,16 +717,16 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
     -- 象系编码类型处理
-    -- sssS型：多字词专用，第四码大写，应保留4字及以上词组
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 4
+    -- sssS型：四字词专用，第四码大写
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    -- ssSg型：三字词专用，第三码大写，应保留3字词组
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 3
+    -- ssSg型：多字词专用，第三码大写
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 5
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][a-z].*") then
       ;
-    -- sgsn型：二字词专用，第四码为数字，应保留2字词组
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 2
+    -- sgsn型：二、三字词用，第四码为数字
+    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) >= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789].*") then
       ;
     elseif not known_words[phrase.text] then
