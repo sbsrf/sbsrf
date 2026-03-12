@@ -205,13 +205,28 @@ function this.func(translation, env)
 				end
 			end
 		end
+		--象码和象单在sx时提示标点字
+		if core.xiangxi(id) and core.sx(input) and not is_hidden then
+			memory:dict_lookup(input .. ";", false, 1)
+			for entry in memory:iter_dict()
+			do
+				candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. ";"
+				break
+			end
+			memory:dict_lookup(input .. "'", false, 1)
+			for entry in memory:iter_dict()
+			do
+				candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
+				break
+			end				
+		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
 		if core.zici(id) and (core.s(input) or core.sx(input)) then
 			if core.jm(id) and is_hidden then
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词 
-			elseif not ((core.feixi(id) or core.xiangxi(id)) and core.s(input)) then
+			elseif not ((core.feixi(id) and core.s(input)) or core.xiangxi(id)) then
 				candidate:get_genuine().comment = ''
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
@@ -245,22 +260,6 @@ function this.func(translation, env)
 				end
 			end
 		end
-		--象码和象单在sxsx时提示标点字
-		-- if core.xiangxi(id) and core.sxsx(input) and not is_hidden then
-		-- 	candidate:get_genuine().comment = ''
-		-- 	memory:dict_lookup(candidate.preedit:sub(3,4) .. ";", false, 1)
-		-- 	for entry in memory:iter_dict()
-		-- 	do
-		-- 		candidate:get_genuine().comment = ' ' .. entry.text .. ";"
-		-- 		break
-		-- 	end
-		-- 	memory:dict_lookup(candidate.preedit:sub(3,4) .. "'", false, 1)
-		-- 	for entry in memory:iter_dict()
-		-- 	do
-		-- 		candidate:get_genuine().comment = candidate:get_genuine().comment .. entry.text .. "'"
-		-- 		break
-		-- 	end						
-		-- end
 		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
@@ -309,7 +308,7 @@ function this.func(translation, env)
 		end
 
 		-- 象系提示
-		if core.xiangxi(id) then
+		if core.xiangxi(id) and not is_hidden then
 			if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then
 				local forward
 				---@type { string: number }
@@ -437,7 +436,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系方案、双拼方案和象码在 sx 码位上，进行后码提示
-		if core.sx(input) and (core.feixi(id) and not is_hidden or core.sp(id) or core.xiangxi(id)) then
+		if core.sx(input) and (core.feixi(id) or core.sp(id) or core.xiangxi(id)) and not is_hidden then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
 				memory:dict_lookup(ssb, false, 1)
@@ -454,24 +453,6 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		--象码和象单在sxsx上时的提示
-		-- if core.sxsx(input) and core.xiangxi(id) and not is_hidden then
-		-- 	for _, bihua in ipairs(hint_b) do
-		-- 		local ssb = candidate.preedit:sub(3,4) .. bihua
-		-- 		memory:dict_lookup(ssb, false, 1)
-		-- 		local entry1 = nil
-		-- 		for entry in memory:iter_dict() do
-		-- 			entry1 = entry
-		-- 			break
-		-- 		end
-		-- 		if not entry1 then
-		-- 			goto continue
-		-- 		end
-		-- 		local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, bihua)
-		-- 		rime.yield(forward)
-		-- 		::continue::
-		-- 	end
-		-- end
 		-- 飞系方案在 ssb 码位上，提示spbb缩减字
 		if core.ssb(input) and core.feixi(id) and not is_hidden then
 			for _, b in ipairs(hint_b) do
