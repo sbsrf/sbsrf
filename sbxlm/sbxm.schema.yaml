@@ -30,6 +30,8 @@ switches:
     reset: 1
     states: [词组, 单字]
   # 为了避免拥挤，不显示下面的状态
+  - name: pure_char
+    reset: 0
   - name: is_hidden
     reset: 0
   - name: auto_inline

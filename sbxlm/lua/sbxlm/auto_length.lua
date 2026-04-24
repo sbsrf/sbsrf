@@ -40,7 +40,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field char_lens { string : number }
 ---@field xd_lens { string : number }
 ---@field xx_flag boolean
----@field xx_cand string
+---@field pure_char boolean
 ---@field cand string
 ---@field strokes { string : string }
 
@@ -222,6 +222,7 @@ function this.init(env)
   ---@type { string: number }
   env.known_candidates = {}
   env.xx_flag = false
+  env.pure_char = false
   env.is_buffered = env.engine.context:get_option("is_buffered") or false
   env.single_display = env.engine.context:get_option("single_display") or false
 
@@ -756,6 +757,7 @@ function this.func(input, segment, env)
   env.enhanced_char = env.engine.context:get_option("enhanced_char") or false
   local schema_id = env.engine.schema.schema_id
   env.xx_flag = false
+  env.pure_char = env.engine.context:get_option("pure_char") or false
 
   if env.engine.context:get_option("ascii_mode") then
     return
@@ -779,7 +781,12 @@ function this.func(input, segment, env)
             env.cand = entry.text
           end
         end
-        rime.yield(phrase:toCandidate())
+        if core.xiangxi(schema_id) and env.pure_char and utf8.len(entry.text) > 1
+        and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then
+          return --设置纯单选项时在四码时忽略标点词
+        else
+          rime.yield(phrase:toCandidate())
+        end
     end  
 
     -- 在一些情况下，需要把三码或者四码的编码拆分成两段分别翻译，这也算是一种静态编码

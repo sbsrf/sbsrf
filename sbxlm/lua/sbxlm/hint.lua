@@ -55,7 +55,8 @@ end
 ---@param env HintEnv
 function this.func(translation, env)
 	local ctx = env.engine.context
-	local is_enhanced = ctx:get_option("is_enhanced")
+	local is_enhanced = ctx:get_option("is_enhanced") or false
+	local pure_char = ctx:get_option("pure_char") or false
 	--[[
 		0：隐藏，为不显示，即完全隐藏
 		1：有理，为显示23789有理组
@@ -336,10 +337,12 @@ function this.func(translation, env)
 							end
 							candidates[hint_p[j]] = 1
 							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
-							rime.yield(forward)
-							-- if utf8.len(entry.text) == 1 then
-							-- 	rime.yield(forward)
-							-- end
+							-- rime.yield(forward)
+							if pure_char and utf8.len(entry.text) > 1 then
+								-- 忽略标点简词
+							else
+								rime.yield(forward)
+							end
 						end
 					end
 					for j = 1, #hint_n2 do
