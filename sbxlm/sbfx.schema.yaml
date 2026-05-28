@@ -32,7 +32,7 @@ switches:
     reset: 0
     states: [词组, 单字]
   - name: is_enhanced
-    reset: 0
+    reset: 1
     states: [常规, 增强]
   - options: [slow_pop, fast_pop, rapid_pop]
     reset: 0
@@ -209,10 +209,10 @@ speller:
 translator:
   dictionary: sbfx
   enable_user_dict: true
-  enable_filtering: true
-  filter_strength: 4    #可以为3,4,5,6 
+  enable_filtering: false
+  filter_strength: 5    #可以为3,4,5,6 
   forced_selection: true
-  single_selection: true
+  single_selection: false
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
