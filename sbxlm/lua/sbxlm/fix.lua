@@ -55,7 +55,7 @@ function this.func(translation, env)
     return rime.process_results.kNoop
   end
   local fixed_phrases = env.fixed[input]
-  if has_fixed and fix_combination and core.sss(input) then
+  if has_fixed and fix_combination and core.sxs(input) then
     local ss = (env.fixed[input:sub(1, 2)] or {})[1]
     local s = (env.fixed[input:sub(3, 3)] or {})[1]
     if ss and s then
