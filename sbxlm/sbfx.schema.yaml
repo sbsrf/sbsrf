@@ -32,7 +32,7 @@ switches:
     reset: 0
     states: [词组, 单字]
   - name: is_enhanced
-    reset: 1
+    reset: 0
     states: [常规, 增强]
   - options: [slow_pop, fast_pop, rapid_pop]
     reset: 0
