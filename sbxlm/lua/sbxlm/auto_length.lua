@@ -775,7 +775,7 @@ function this.func(input, segment, env)
     for entry in env.static_memory:iter_dict() do
         local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
         phrase.preedit = input
-        if core.xiangxi(schema_id) and not env.xx_flag then 
+        if core.xiangxi(schema_id) and not env.xx_flag and not env.pure_char then 
           env.xx_flag = true 
           if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then 
             env.cand = entry.text
@@ -783,7 +783,7 @@ function this.func(input, segment, env)
         end
         if core.xiangxi(schema_id) and env.pure_char and utf8.len(entry.text) > 1
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then
-          return --设置纯单选项时在四码时忽略标点词
+          ; --设置纯单选项时在四码时忽略标点词
         else
           rime.yield(phrase:toCandidate())
         end
