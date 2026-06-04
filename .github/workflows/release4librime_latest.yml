@@ -49,7 +49,7 @@ jobs:
         run: |
           LATEST_RELEASE=$(curl -s "https://api.github.com/repos/rime/librime/releases/latest" | grep -o '"tag_name": "[^"]*"' | cut -d'"' -f4)
           echo "latest_release=$LATEST_RELEASE" >> $GITHUB_OUTPUT
-          ASSETS=$(curl -s "https://api.github.com/repos/rime/librime/releases/tags/$LATEST_RELEASE" | grep -o '"browser_download_url": "[^"]*macOS-universal[^"]*"' | cut -d'"' -f4)
+          ASSETS=$(curl -s "https://api.github.com/repos/rime/librime/releases/tags/$LATEST_RELEASE" | grep -o '"browser_download_url": "[^"]*macOS-universal[^"]*"' | cut -d'"' -f4 | grep -v "deps")
           echo "download_url=$ASSETS" >> $GITHUB_OUTPUT
           echo "Found latest librime: $LATEST_RELEASE"
           echo "Download URL: $ASSETS"
