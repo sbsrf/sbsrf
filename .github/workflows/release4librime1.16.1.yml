@@ -11,9 +11,6 @@ on:
         description: '要构建的 Git ref（分支/Tag/commit，留空使用默认分支）'
         required: false
         default: ''
-  push:
-    tags:
-      - '*'
 
 permissions:
   contents: write
@@ -164,22 +161,11 @@ jobs:
           fi
         id: package_step  # 标记步骤，用于后续判断
 
-      # 修复：分场景处理 Release 上传
-      - name: Upload release artifact (仅 Tag 推送触发)
-        if: github.event_name == 'push' && github.ref_type == 'tag' && steps.package_step.outputs.package_exists == 'true'
-        uses: softprops/action-gh-release@v1
-        with:
-          files: sbsrf4librime1.16.1.zip
-          prerelease: false  # Tag 推送触发为正式发布
-          body: |
-            **Build Environment**: macOS-latest (${{ env.HOMEBREW_PATH == '/opt/homebrew' && 'Apple Silicon' || 'Intel' }})
-            **Trigger Type**: Tag Push (${{ github.ref_name }})
-
-      # 手动触发时：上传到 GitHub Actions 工件（可手动下载），不创建 Release
+      # 手动触发时：上传到 GitHub Actions 工件（可手动下载）
       - name: Upload artifact for manual run
-        if: github.event_name == 'workflow_dispatch' && steps.package_step.outputs.package_exists == 'true'
+        if: steps.package_step.outputs.package_exists == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: sbsrf-macos-build
+          name: sbsrf4librime1.16.1
           path: sbsrf4librime1.16.1.zip
           retention-days: 7  # 工件保留7天
