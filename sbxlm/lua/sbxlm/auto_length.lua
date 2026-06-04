@@ -895,6 +895,7 @@ function this.func(input, segment, env)
   if core.fm(schema_id) and env.single_selection and env.forced_selection
   and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
     translate_by_split(input, segment, env)
+    return
   end
 
   -- 以下分 4 种情况实现自动码长的翻译策略
