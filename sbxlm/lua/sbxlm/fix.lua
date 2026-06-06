@@ -116,7 +116,7 @@ function this.func(translation, env)
       end
       -- cand.type = "fixed"
       -- 固定字词不调频
-      cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
+      cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], cand.comment)
       rime.yield(cand)
       i = i + 1
     end
