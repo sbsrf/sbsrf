@@ -114,7 +114,9 @@ function this.func(translation, env)
           end
         end
       end
-      cand.type = "fixed"
+      -- cand.type = "fixed"
+      -- 固定字词不调频
+      cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
       rime.yield(cand)
       i = i + 1
     end
@@ -147,10 +149,10 @@ function this.func(translation, env)
     rime.yield(cand)
     i = i + 1
   end
-  -- 输出没有固顶的候选
-  for _, candidate in ipairs(unknown_candidates) do
-    rime.yield(candidate)
-  end
+  -- -- 输出没有固顶的候选
+  -- for _, candidate in ipairs(unknown_candidates) do
+  --   rime.yield(candidate)
+  -- end
 end
 
 return this
