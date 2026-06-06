@@ -91,7 +91,11 @@ function this.func(translation, env)
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if input ~= code and input:len() >= code:len() then
-					candidate.comment = candidate.comment .. " " .. code
+					if pure_char and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then
+						;
+					else
+						candidate.comment = candidate.comment .. " " .. code
+					end
 				end
 			end
 		end
@@ -330,9 +334,10 @@ function this.func(translation, env)
 				else
 					for j = 1, 5 do
 						memory:dict_lookup(candidate.preedit .. hint_p[j], false, 1)
+						local p = ""
 						for entry in memory:iter_dict() do
 							local cand = candidates[hint_p[j]] 
-							if cand and cand > 0 or entry.text == env.xd_chars[input .. hint_p[j]] then
+							if not pure_char and cand and cand > 0 or entry.text == env.xd_chars[input .. hint_p[j]] then
 								break
 							end
 							candidates[hint_p[j]] = 1
@@ -340,7 +345,8 @@ function this.func(translation, env)
 							-- rime.yield(forward)
 							if pure_char and utf8.len(entry.text) > 1 then
 								-- 忽略标点简词
-							else
+							elseif p ~= hint_p[j] then
+								p = hint_p[j]
 								rime.yield(forward)
 							end
 						end
