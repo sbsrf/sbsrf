@@ -110,9 +110,11 @@ algebra:
   # 6. 理特例
   - xform/er/e/
   - xform/(?<=[ln])v/u/
-  # 7. 纯音节
+  # 7. 调手感
+  - derive/aa/au/
+  # 8. 纯音节
   - derive/\b([a-z][aeuio])(?=\d)/$1'/
-  # 8. 补笔画
+  # 9. 补笔画
   - xform/\b([a-z'\d]{6})\d+/$1/
   - xlit/12345/eiuoa/
 
