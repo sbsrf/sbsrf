@@ -107,11 +107,11 @@ algebra:
   - xform/\b([a-z]{3})[a-z]+/$1/
   # 5. 去鼻音
   - xform/(.)n(?=\d)/$1$1/
-  # 6. 理特例
+  # 6. 调手感
+  - derive/aa/au/
+  # 7. 理特例
   - xform/er/e/
   - xform/(?<=[ln])v/u/
-  # 7. 调手感
-  - derive/aa/au/
   # 8. 纯音节
   - derive/\b([a-z][aeuio])(?=\d)/$1'/
   # 9. 补笔画
