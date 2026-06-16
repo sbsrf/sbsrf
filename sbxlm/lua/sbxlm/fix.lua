@@ -114,9 +114,14 @@ function this.func(translation, env)
           end
         end
       end
-      -- cand.type = "fixed"
-      -- 固定字词不调频
-      cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], cand.comment)
+
+      if segment.start > 0 or context.input:len() > segment._end or context:get_option("temp_buffered") then
+        -- 在造词的时候允许固定字词调频
+        cand.type = "fixed"
+      else
+        -- 固定字词一般情况下不调频
+        cand = rime.Candidate("fixed", segment.start, segment._end, fixed_phrases[i], cand.comment)
+      end        
       rime.yield(cand)
       i = i + 1
     end
