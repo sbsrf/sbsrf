@@ -656,7 +656,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.custom_code:find(kEncodedPrefix) then
     phrase.comment = phrase.comment .. kUnitySymbol
   elseif entry.custom_code:len() > 0 and entry.custom_code:len() < 6 then
-    phrase.comment = phrase.comment .. kTopSymbol
+    -- phrase.comment = phrase.comment .. kTopSymbol
   end
   return phrase
 end
