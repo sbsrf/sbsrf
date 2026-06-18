@@ -1,0 +1,5380 @@
+[33mcommit 8fc4d3a6ae581fafdf50018a67aa23db74de9d20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 18 08:00:19 2026 +0800
+
+    优化候选注释信息
+
+[33mcommit 9acaafdb2d1e77bc84f89537797b35e45b15c4e4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 18 07:50:53 2026 +0800
+
+    修正象码提示中的bug
+
+[33mcommit bc21651703200fca8894e8cf2dcbbd3c94ca9855[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 16 09:02:09 2026 +0800
+
+    fix errors in fix.lua during word creation
+
+[33mcommit 3336295a479792f4ae9b6fa35d9c02e49e0ef030[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 8 08:34:13 2026 +0800
+
+    update sbpy schema
+
+[33mcommit fb195ec3d4d3c2024c5f9fb30ba41a8f49336ede[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 8 08:13:16 2026 +0800
+
+    声笔拼音韵母aa增加au手感调整音节
+
+[33mcommit 5d5300922a779e4a4c7e27227fec4f4e80ab4588[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 7 07:58:30 2026 +0800
+
+    fix bugs in fix.lua
+
+[33mcommit 6554e4cb4405253969b239c6afdf5eef254be395[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 6 20:57:04 2026 +0800
+
+    update sbjp and sbpy schemas
+
+[33mcommit eaee816402c97918a8d16123b7e1cfb7693f61a1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 6 20:29:03 2026 +0800
+
+    fix bugs in fix.lua
+
+[33mcommit e37f87853c1a71aa0915773c38b3fc09beb0185f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 6 19:55:08 2026 +0800
+
+    声笔简拼固定字词作为简码输入时不调频
+
+[33mcommit 4f1cf75b7ba5cf6e2d84c55d2d5398f309cd672d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 6 15:03:41 2026 +0800
+
+    修正飞系中「看」字反查时的归部
+
+[33mcommit 6b6214c2a9c03e398adb27600edce70314166abc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 6 14:38:34 2026 +0800
+
+    修正象码在pure_char时输入三码后sggf字未提示的bug
+
+[33mcommit 6543b6d94d1df4be4c2911a3b549d566d42cdc04[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 5 07:08:02 2026 +0800
+
+    fix errors in release4librime_latest.yml
+
+[33mcommit 883c5904a5dd1b0ffbc238d3f23dfa637c8ca83f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 5 07:04:02 2026 +0800
+
+    采用最新版的librime，而不是固定的版本
+
+[33mcommit 89fc9685c52098e81db677a5c64da10795881e5f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 5 06:37:12 2026 +0800
+
+    把自动触发禁止，只允许手动触发
+
+[33mcommit 200fed1f3243935e40a90365a4f6f5e8c33a27ea[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 5 06:01:49 2026 +0800
+
+    update release4librime1.16.1.yml
+
+[33mcommit bff8d100546b331ad57e6d22e3cce81fe0f02ed4[m[33m ([m[1;33mtag: [m[1;33m20260604[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 4 10:15:09 2026 +0800
+
+    修正飞码single_selection和forced_selection时的bug
+
+[33mcommit d03acccc469c1166d3dc7792b3f66ce0bf0fe216[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 4 04:45:32 2026 +0800
+
+    修正象码pure_char模式下部分单字不能输入的bug
+
+[33mcommit 7ba0e646ca022c722d074f6473e404ad6878df47[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 28 13:08:17 2026 +0800
+
+    update sbhz and sbzz schemas
+
+[33mcommit 286e6f8ca6e7c215615cbf8ff43b8546e291fbad[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 28 12:59:17 2026 +0800
+
+    纠正声笔双拼fix_combinnation的bug
+
+[33mcommit b16270665381d9d046f09a99dc497ea0f7619cc6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 28 08:57:13 2026 +0800
+
+    update sbfx schema
+
+[33mcommit 5bd3dd7cd5609c48b7dbeef8d690b4c6f7523707[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 28 08:56:17 2026 +0800
+
+    纠正飞讯自造词bug
+
+[33mcommit 64d5baa5b72dd668647089dcf342a7f17fea3303[m[33m ([m[1;33mtag: [m[1;33m20260425[m[33m, [m[1;33mtag: [m[1;33m20260424[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Apr 24 17:18:50 2026 +0800
+
+    象码支持用pure_char选项来屏蔽四码标点词
+
+[33mcommit 60441aeaa6a15b20409ac6784c531d9c3db3d9b8[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Apr 22 08:52:11 2026 +0800
+
+    Revert "象码取消四码标点简词"
+    
+    This reverts commit 141f6e42d5584ce2f557e1df32b69470cd8e6f5d.
+
+[33mcommit 141f6e42d5584ce2f557e1df32b69470cd8e6f5d[m
+Author: dsl <sbxlm@qq.com>
+Date:   Tue Apr 14 11:49:49 2026 +0800
+
+    象码取消四码标点简词
+
+[33mcommit 91f34891c8a6d90ae305fa7ce66e3d93160f3b08[m
+Author: dsl <sbxlm@qq.com>
+Date:   Tue Mar 17 08:59:50 2026 +0800
+
+    象码增加特殊字「〇」，编码为looo；飞系单字「〇」的反查部首修正为「〇」
+
+[33mcommit ba84e7e10b3ddf91681484a25fed526780fff9f9[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Mar 12 08:45:05 2026 +0800
+
+    象码支持is_hidden选项
+
+[33mcommit 81da7136e4d32b2d28c5b3c7ac99bd6baf1ced58[m[33m ([m[1;33mtag: [m[1;33m20260301[m[33m)[m
+Author: dsl <sbxlm@qq.com>
+Date:   Sat Feb 28 10:26:56 2026 +0800
+
+    优化象码词组输入方法
+
+[33mcommit 24efa9361d81e1093c217d623340b43ef50e492b[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 27 09:40:25 2026 +0800
+
+    fix small problems in lua
+
+[33mcommit faa6d5ae0e8ac7d77785fc8dba0b0f9336f221b5[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 27 07:58:40 2026 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit fc02b834351a1a4b27c64e98d50d3a9c12f6b121[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 27 06:45:37 2026 +0800
+
+    修正auto.length.lua中的错误
+
+[33mcommit 159e714eaa16f9abc5f3d10cb2b896388b14aaf0[m[33m ([m[1;33mtag: [m[1;33m20260226[m[33m)[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 26 21:06:36 2026 +0800
+
+    fix more bugs in auto_length.lua
+
+[33mcommit 78467b01855afc7cc6543110b430785db37e6a66[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 26 19:33:10 2026 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 4efbf65516fc173b3f6e9a75db372a0c1df24d52[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 26 13:09:33 2026 +0800
+
+    fix problems in lua files
+
+[33mcommit 775638d952dcd1eadf4838de6b7980fc29ec92a5[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 26 11:29:00 2026 +0800
+
+    消除strokes.txt结构变化对整句方案的影响
+
+[33mcommit adb37cd0c539bd443ac826c8a13643c0ffab912a[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 26 10:52:33 2026 +0800
+
+    精简象码的扩展词库编码,在strokes.txt中增加前两笔,实现象码扩展词组的动态笔画加码和重码筛选
+
+[33mcommit e6629db6ed282098c55793d7efe73a2ec343a611[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 25 08:09:32 2026 +0800
+
+    optimize sbxm
+
+[33mcommit 03ff0470af82290c0253af5a7f96d54b658cd535[m
+Author: dsl <sbxlm@qq.com>
+Date:   Tue Feb 24 13:51:52 2026 +0800
+
+    update auto_length.lua
+
+[33mcommit d96987bc18881330e1e1d225f38090ddbe1ee2b9[m
+Author: dsl <sbxlm@qq.com>
+Date:   Tue Feb 24 07:29:19 2026 +0800
+
+    update sbxm.dict
+
+[33mcommit ec1f50bb3c5889660dd3aa1fbf8951b17ffe78a0[m
+Author: dsl <sbxlm@qq.com>
+Date:   Mon Feb 23 07:13:15 2026 +0800
+
+    update auto_length.lua
+
+[33mcommit 9e7adab17adbbab7eb91de1111450ac951be58cc[m[33m ([m[1;33mtag: [m[1;33m20260222[m[33m)[m
+Author: dsl <sbxlm@qq.com>
+Date:   Sat Feb 21 19:06:09 2026 +0800
+
+    update sbxm.dict
+
+[33mcommit 51b9cd980cdce9b4717abc57090d8073a30255b9[m
+Author: dsl <sbxlm@qq.com>
+Date:   Sat Feb 21 11:09:47 2026 +0800
+
+    优化声笔象码
+
+[33mcommit 7c82613d7b5c8ae3a0c383d3b5c9bcbabe1784af[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 20 14:41:51 2026 +0800
+
+    optimize sbxm
+
+[33mcommit 30843f49d1c44d7f8c82ac708cf556b6f460d52e[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 20 11:38:19 2026 +0800
+
+    update sbxm.dict
+
+[33mcommit 7a99db8848d9fcd15e4fc1fdbbbda1447b4f9498[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 20 10:39:47 2026 +0800
+
+    优化象系词组输入逻辑
+
+[33mcommit e4d5d2a2fe336afbbe084d49348d3fabc87de811[m[33m ([m[1;33mtag: [m[1;33m20260218[m[33m)[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 18 07:26:18 2026 +0800
+
+    optimize sbxm
+
+[33mcommit e8deab926312a0056d837c4ed2ab7bde5d5da37f[m[33m ([m[1;33mtag: [m[1;33m20260217[m[33m)[m
+Author: dsl <sbxlm@qq.com>
+Date:   Tue Feb 17 18:04:43 2026 +0800
+
+    象码支持主词模式
+
+[33mcommit 75d8f22ceec54d2fa6f839466e4daa63f280c4b3[m
+Author: dsl <sbxlm@qq.com>
+Date:   Sat Feb 14 07:13:56 2026 +0800
+
+    象码优化常规词组简码提示
+
+[33mcommit 9b159ad795f1582f053ed5fcd77a3e90dc1b5117[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 13 10:36:04 2026 +0800
+
+    象码词组常规码时提示简码
+
+[33mcommit bfd3f5bb57d6c30a093588de78d5c879a2f700e9[m
+Author: dsl <sbxlm@qq.com>
+Date:   Fri Feb 13 08:50:41 2026 +0800
+
+    update sbsrf.sh
+
+[33mcommit 3245a0452fefc6e2cafae9fae8de44fca37c1664[m
+Author: dsl <sbxlm@qq.com>
+Date:   Thu Feb 12 09:58:20 2026 +0800
+
+    fix bugs in sbxm schema
+
+[33mcommit 5cb3694df821b209c21d8da4735668959835e5af[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 16:23:25 2026 +0800
+
+    tidy files
+
+[33mcommit ce6a7bc549f24e14f7880b3cc18a06d1f4215ccd[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 16:09:17 2026 +0800
+
+    rime_deployer needs default.yaml
+
+[33mcommit 28af7abe549df9450d5b7e3327017b4ece45859c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 16:01:02 2026 +0800
+
+    Improve GitHub Actions workflow steps and naming
+    
+    Refactor GitHub Actions workflow for better clarity and functionality.
+
+[33mcommit b6e919ffd275f0ce49821a1cc80dfb126d1b73f4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:53:14 2026 +0800
+
+    Refactor GitHub Actions workflow for dependency installation
+
+[33mcommit eb58e5c0b1ad25ac3c5bd8d138654309f5763618[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:48:29 2026 +0800
+
+    Refactor LIBRIME_PATH to use environment variable
+    
+    Updated LIBRIME_PATH usage to reference environment variable throughout the workflow.
+
+[33mcommit 270f3a6ab94fc0d4b8e2712b8182f1c1e6949f5c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:45:41 2026 +0800
+
+    Adapt release workflow for Apple Silicon compatibility
+    
+    Updated the workflow to adapt to Apple Silicon architecture, including changes to dependency installation and dynamic library path fixes.
+
+[33mcommit cafa3144665c5a556d1f5c54821c3a5babfc4594[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:41:07 2026 +0800
+
+    Enhance GitHub Actions workflow for librime build
+    
+    Added steps to install missing dependencies and fix dynamic library paths for rime_deployer and librime. Enhanced logging and cleanup processes.
+
+[33mcommit 2f999b090e34c2590d78a5aff0a86c8cffa1a219[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:36:35 2026 +0800
+
+    Refactor dynamic library handling in release workflow
+
+[33mcommit 0c3bc3438da176ae61e985a0a818205ef6b1cbb8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:30:51 2026 +0800
+
+    Enhance release workflow with better env variable management
+    
+    Refactor environment variable handling and improve logging.
+
+[33mcommit 2ad74b3e881d8694bc86c11ecb1f74c3cd53ab1c[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:16:05 2026 +0800
+
+    fix librime path
+
+[33mcommit 9e6e9969ecbf67d0bcf39cec29080ab6eb1ae6e1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 15:00:17 2026 +0800
+
+    Enhance GitHub Actions workflow for releases
+    
+    Added support for manual triggering and tag push events. Updated environment variable configurations and improved error handling in the build process.
+
+[33mcommit 6c3684030f17f5f847bd46cb07e8f4db30a8c9bf[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 12:01:27 2026 +0800
+
+    Enhance macOS release workflow with debugging and fixes
+    
+    Refactor GitHub Actions workflow for macOS release, improving environment variable configuration, debugging logs, and build process.
+
+[33mcommit 96753a2238beede68942c349b8abffc0e0cd9cab[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 11:55:25 2026 +0800
+
+    fix bugs in release3.yml
+
+[33mcommit 8818c34fdeb22e02e970cda4c1d6142663c4f676[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 11:18:21 2026 +0800
+
+    fix bugs in sbsrf.sh
+
+[33mcommit 26dc550a5c094a8004d8fab387026911a56aa31d[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 10:07:10 2026 +0800
+
+    add sbsrf.sh
+
+[33mcommit fe6f56e31d2e94ed2cf48b07c95b14051b40b233[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 08:37:29 2026 +0800
+
+    delete test
+
+[33mcommit 2bfa7705d0c4db26fece9f78cc2bd83665f41597[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 08:25:44 2026 +0800
+
+    Fix string concatenation in release workflow
+    
+    Updated the string concatenation method for GitHub Actions to use the supported format function.
+
+[33mcommit 5f7c576d5a30da30ccbebaeb73091380d40a6cf2[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 08:21:44 2026 +0800
+
+    add release3.yml
+
+[33mcommit 345bc2d9fbb40cc6a7cde0c1f3968c5519ceb8ec[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 06:10:23 2026 +0800
+
+    Enhance release workflow with debug output
+    
+    Added debug statements to list directory contents at various stages of the workflow.
+
+[33mcommit e65d688dc63ead79cd25a63615f315bf49735c69[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 06:06:10 2026 +0800
+
+    Fix Remove-Item command to handle missing files
+    
+    Added -ErrorAction SilentlyContinue to Remove-Item command to ignore non-existent files.
+
+[33mcommit 2654c024a10624375bcb74ca4c42053c4a0d3d79[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 06:01:49 2026 +0800
+
+    Fix PATH setup for librime in release workflow
+    
+    Updated the GitHub Actions workflow to correctly set the PATH for librime binaries and libraries, allowing the use of rime_deployer directly. Removed unnecessary checks for the deployer executable and adjusted file removal commands.
+
+[33mcommit 6bdf0945388e98191a0e6499f499587e27b4fb48[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 05:54:01 2026 +0800
+
+    Fix Remove-Item command in release2.yml
+
+[33mcommit 85a58253484d4e3db3b2e88af51357ad65971239[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 05:48:54 2026 +0800
+
+    Update path for rime_deployer.exe in workflow
+
+[33mcommit 1c5d1178174061d722b15e535e1823bc7758e107[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 11 05:40:25 2026 +0800
+
+    Refactor release workflow for manual trigger and paths
+    
+    Updated the GitHub Actions workflow to use absolute paths for rime_deployer.exe and removed attempts to modify the system PATH. Added checks for file existence and improved comments for clarity.
+
+[33mcommit 37639a78a31e509b6dc906b462c6a12ef7159624[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 05:31:31 2026 +0800
+
+    save the content of release2.yml
+
+[33mcommit 7fb1e429a6fcfdd15403415ab25671704175818a[m
+Author: dsl <sbxlm@qq.com>
+Date:   Wed Feb 11 05:29:21 2026 +0800
+
+    add a manual workflow for test
+
+[33mcommit 60cc5ac85256d28562516a4596d8f556ced18b22[m
+Author: dsl <sbxlm@qq.com>
+Date:   Sat Feb 7 16:11:26 2026 +0800
+
+    象码词组常规码时提示简码
+
+[33mcommit 44a1064de93eb79dbd54e13204637b2f3cac0827[m
+Author: Time <ls5474364@gmail.com>
+Date:   Sun Feb 1 15:58:10 2026 +0800
+
+    Modify notification service
+    
+    修改通知服务
+
+[33mcommit cd8dbc6df8da9f18f15663e1133cca61c222dfa7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 1 15:41:29 2026 +0800
+
+    update trime themes
+
+[33mcommit 5ea5a6eed50c35dec39bf7048350d0a290f3059a[m[33m ([m[1;33mtag: [m[1;33m20260201[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 1 14:09:21 2026 +0800
+
+    fix bugs
+
+[33mcommit 17496c45139024cdd929aee3d42ae4608c185c53[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 1 08:41:09 2026 +0800
+
+    support Singbit font
+
+[33mcommit af9882a4697d45c341583abbbf934bfc77039bba[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 1 07:35:41 2026 +0800
+
+    optimize sbxm.dict
+
+[33mcommit 2b7cfa27b38f7d49184daff823873f5ba5c9a9e6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 30 21:05:23 2026 +0800
+
+    update sbxm.dict
+
+[33mcommit d3a129628db16ef3f8690754739a1efbf606b640[m[33m ([m[1;33mtag: [m[1;33m20260130[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 30 11:58:27 2026 +0800
+
+    优化象码简词
+
+[33mcommit f38005ddda257f7dffc825aa2761d3467c5df395[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 28 14:46:52 2026 +0800
+
+    fix bugs in sbxm
+
+[33mcommit 503bc919af62c0cd646fac6a038eb5a76193c617[m[33m ([m[1;33mtag: [m[1;33m20260128[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 28 10:11:53 2026 +0800
+
+    将象单改为象码，并删除原来的象码
+
+[33mcommit a6ae01141684f418ed80de69a82e0649c3101db0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 20:25:13 2026 +0800
+
+    fix errors in sbxd.schema
+
+[33mcommit e4d20afc3785c3a1fe7770d209af32d36146b8ab[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 18:41:22 2026 +0800
+
+    fix bugs in sbxd
+
+[33mcommit ae4f15904b112f46e86183a1dc6822a004dcf0cb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 11:32:47 2026 +0800
+
+    优化自定义简词功能
+
+[33mcommit 198015c358b482b128ba37aaae3af53f39893dd6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 10:58:06 2026 +0800
+
+    支持sxsn型自定义简词
+
+[33mcommit db31d504dee91a2b36c54a9a04a9831e9b524ece[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 09:58:57 2026 +0800
+
+    fix more bugs in auto_length.lua
+
+[33mcommit e9b7e459bf5b9cf8904cd28725966d5b81bd01da[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 09:56:29 2026 +0800
+
+    象单增加缺少的多音字
+
+[33mcommit a2608e09db9f43200ba70de3640b8be4c314f260[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 08:49:44 2026 +0800
+
+    fix bug in core.lua
+
+[33mcommit 6cc3ca1a830412c651859f23059dcd0bd1f97b07[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 27 08:43:13 2026 +0800
+
+    fix bug in auto_length.lua
+
+[33mcommit f71900e47429228783b4abe8aa5673f0ab65d0d6[m
+Author: Time <ls5474364@gmail.com>
+Date:   Mon Jan 26 20:30:38 2026 +0800
+
+    Update notification method
+    
+    使用另一种方式来通知发布
+
+[33mcommit 9ac5709e1297140c674b0def2624994ff2742a08[m[33m ([m[1;33mtag: [m[1;33m20260126[m[33m)[m
+Merge: c147541 1ba9114
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 26 14:26:20 2026 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit c1475417f280344e62ebc143915d258fcb28f942[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 26 10:34:06 2026 +0800
+
+    进一步优化象单词组输入
+
+[33mcommit 921d5bff60261a82ddb547b76dff6acd033e9f53[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 25 17:18:33 2026 +0800
+
+    optimize sbxd and sbxm
+
+[33mcommit a777604292728b892a41ecb91b8afdbea159fe53[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 25 07:44:26 2026 +0800
+
+    优化象单大写打词
+
+[33mcommit d685232a89d97f0386e697bf6ae8f6ff5c588030[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 25 07:37:21 2026 +0800
+
+    不提示四码简词
+
+[33mcommit 921d2b00ded55f472b8d2870a21267e2224843a4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 24 19:46:22 2026 +0800
+
+    fix errors
+
+[33mcommit 3c5ed01508d7791e121d1fac11b345a843c0229f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 24 16:26:13 2026 +0800
+
+    fix bugs
+
+[33mcommit 30ac9254fb5e22c04537c87fc923d59a80345b18[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 24 11:37:53 2026 +0800
+
+    象单支持常规词组，且改52顶为42顶
+
+[33mcommit 1ba9114e76ae71d9577f9b7bf0b4d2974b72eb14[m
+Author: Time <ls5474364@gmail.com>
+Date:   Thu Jan 22 10:10:40 2026 +0800
+
+    Add release notification
+    
+    发布的时候增加通知
+
+[33mcommit 5e70bb590fd8a0f2171b35d4d74529f06a4d8439[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 21 11:45:14 2026 +0800
+
+    fix errors in hint.lua
+
+[33mcommit 21367cb002fcf107813f83eeca0053b2ffcba669[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 21 11:22:54 2026 +0800
+
+    优化重码和四码字词提示
+
+[33mcommit 4390bb2ed7d734f2fe0e09da0ede8ee8a89870d3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 20 17:33:58 2026 +0800
+
+    add sbxd
+
+[33mcommit 12ad8115e7f250bbe6c89cbfe57526b98f1c3269[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 16 07:24:16 2026 +0800
+
+    小狼毫和鼠须管修改注释使用的字体以优化候选项的纵向显示
+
+[33mcommit 02eb8941f8e3cbd487a23c61f0eaec15464ea5ce[m[33m ([m[1;33mtag: [m[1;33m20260101[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 1 08:46:59 2026 +0800
+
+    release sbsrf 20260101
+
+[33mcommit 92b860bbdeb285e7b1e4de4023e37d7d25d4713b[m[33m ([m[1;33mtag: [m[1;33m20251228[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 28 07:40:57 2025 +0800
+
+    update sbzdy.txt
+
+[33mcommit d1d96161d1dc0b9e005da2e9b679e6e226a6156f[m[33m ([m[1;33mtag: [m[1;33m20251227[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 27 07:29:03 2025 +0800
+
+    fix bugs in lua
+
+[33mcommit f3ef22a980d39527eab76932cbbd53e97c55cb13[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 24 16:49:39 2025 +0800
+
+    improve sbxm
+
+[33mcommit 761aaa54486985b90acad5f583d11d59e93a5dd4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 24 11:08:47 2025 +0800
+
+    optimize sbxm
+
+[33mcommit 02b33fd9f42ab65c25423500cc98d8a9cde5b639[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 24 06:55:57 2025 +0800
+
+    optimize sbxm
+
+[33mcommit 9e388f0353bc2eb30e78104c7e6d662c8cd4c90f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 23 12:03:15 2025 +0800
+
+    optimize sbxm
+
+[33mcommit 81788f4bdae80cf0a7243fba80dd59ed59b6c1b9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 22 19:46:10 2025 +0800
+
+    fix bugs in sbxm
+
+[33mcommit 70b3606fbbe09e4caefa06c1a7e06dc845895e99[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 22 12:07:08 2025 +0800
+
+    update sbsrf.bat
+
+[33mcommit 8417b1a35953d6056abd5c02770af67b0122b71e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 22 11:49:30 2025 +0800
+
+    improve sbxm
+
+[33mcommit aafb1d54bd2de9daa94be26a6ef485f46297815b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 20 15:57:01 2025 +0800
+
+    add sbxm
+
+[33mcommit aaddd7e75485638a5a1808756a6e9ee576e473d6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 13 15:23:15 2025 +0800
+
+    猛码支持增强模式
+
+[33mcommit de810a90ee49e11171d18efe78d6bc59ab221c41[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 10 11:44:53 2025 +0800
+
+    fix some errors
+
+[33mcommit 72467a11bd7928f758dacdf656a6e94e19253254[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 10 10:12:13 2025 +0800
+
+    update sbfm schema
+
+[33mcommit ea9386eb31e029a0bd6b6121d9d90b67f74ab1c0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 10 09:23:40 2025 +0800
+
+    optimize hint.lua
+
+[33mcommit c8c3b9135319eb46c48704a16bc46e13f0d2fa6c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 10 08:58:58 2025 +0800
+
+    飞系新增，用于重复输入一简字、声笔字和自定义等
+
+[33mcommit 428765f1b401d837d10809df457af9ba8b9c11eb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 10 06:02:07 2025 +0800
+
+    飞码的sxs上不提示标点字
+
+[33mcommit 011192b1f02c05eddddc2e3cee2d05ebff410c58[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 9 18:46:06 2025 +0800
+
+    update default.custom.yaml
+
+[33mcommit 6b324b33087acfb2462e56d441ce1890eb7294be[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 9 16:33:58 2025 +0800
+
+    增加只能在Windows下使用的飞单盲打方案声笔魔单（由群友贡献）
+
+[33mcommit 1727d32a97e4b66619f2ab33c78c390f1e30e180[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 9 12:14:55 2025 +0800
+
+    update weasel.custom.yaml
+
+[33mcommit 474d74c996c362482722f6bd8880c8f4486bfc19[m[33m ([m[1;33mtag: [m[1;33m20251208[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 8 14:36:24 2025 +0800
+
+    fix bugs
+
+[33mcommit 76aed75e6977330a5b11b69c464949cd5cb26039[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 7 08:41:51 2025 +0800
+
+    fix bugs in sbmm
+
+[33mcommit 8633efa020231874f6ad52c20d4b3e001a83bbe7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 6 09:27:25 2025 +0800
+
+    fix bugs in sbmm
+
+[33mcommit 21a5bf60e0cb69de3e560e0ac38e81829310963e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 26 14:52:57 2025 +0800
+
+    简字在前3500内不让全
+
+[33mcommit a6c68c4c0fcb19a639d2f7c0a8d089f073155abd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Nov 23 17:21:55 2025 +0800
+
+    update files
+
+[33mcommit c8c3fd8d8afdb1a09b63ad7202da89448224bf48[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 21 09:05:07 2025 +0800
+
+    fix errors in lua
+
+[33mcommit d209891cf87a0711d8b9b37063c072ec77e29623[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 21 07:43:50 2025 +0800
+
+    replace sbbm with sbmm
+
+[33mcommit 015a2f907edaef3bae427d400123d24dc41146e4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Nov 16 15:53:13 2025 +0800
+
+    fix errors in hint.lua
+
+[33mcommit b9d7e2d0f1f271dac37e886afc46cfd5cddf4802[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Nov 16 14:15:40 2025 +0800
+
+    add sbbm
+
+[33mcommit 0382f388ae137b0c58ae1ecb4abd6369202b9a4b[m[33m ([m[1;33mtag: [m[1;33m20251108[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 5 14:59:50 2025 +0800
+
+    Revert "修正飞延单个显示状态下四码加Tab和右Shift时仍显示多个选项的错误"
+    
+    This reverts commit c558c87ca2a68374e02f74c7d55cf7259ccfba98.
+
+[33mcommit e2f1741ec65e1284f91fd33a742f8ea1bb17c9e2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 5 14:58:51 2025 +0800
+
+    Revert "修正飞讯标点顶屏错误"
+    
+    This reverts commit baef8ed1f37afb2bf18aec6a6d0bc19ca86266d9.
+
+[33mcommit c558c87ca2a68374e02f74c7d55cf7259ccfba98[m[33m ([m[1;33mtag: [m[1;33m20251105[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 5 12:08:41 2025 +0800
+
+    修正飞延单个显示状态下四码加Tab和右Shift时仍显示多个选项的错误
+
+[33mcommit baef8ed1f37afb2bf18aec6a6d0bc19ca86266d9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 5 11:02:07 2025 +0800
+
+    修正飞讯标点顶屏错误
+
+[33mcommit 6c2a3b31dfda0e7639631678cd7736514f9ccf9f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Oct 29 07:19:13 2025 +0800
+
+    Revert "飞码在三码时支持标点延迟顶屏"
+    
+    This reverts commit b8fde64bc5fe0f9995cb1e6ef13083d57a319c75.
+
+[33mcommit b8fde64bc5fe0f9995cb1e6ef13083d57a319c75[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Oct 29 07:03:37 2025 +0800
+
+    飞码在三码时支持标点延迟顶屏
+
+[33mcommit 31a3a9385422df11e319f5567343f295d7731b91[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 28 10:03:11 2025 +0800
+
+    fix errors in sbf.dict
+
+[33mcommit ec0b824d1ff09695189b1d81c2c6b70e7458bda3[m[33m ([m[1;33mtag: [m[1;33m20251027[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Oct 24 15:32:22 2025 +0800
+
+    update sbf.dict
+
+[33mcommit a8ca8ea4c2ab1e0308668f6554935279cd4c462a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Oct 23 10:15:43 2025 +0800
+
+    修正声笔简码schema中的提示问题
+
+[33mcommit 6a485e6990f64ea7eea518b01d8fbae9327e2bd1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Oct 22 11:58:18 2025 +0800
+
+    update key_binder.lua
+
+[33mcommit 40e13c2b34efa587f4940ee986e7d9f1ed6371f1[m[33m ([m[1;33mtag: [m[1;33m20251014[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 14 08:32:10 2025 +0800
+
+    飞码在szszb?时支持用数字顶二简字并变换为笔画
+
+[33mcommit 9d2844d6bdeec547c1e76bf75a53ca29e70f2f54[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 14 07:08:33 2025 +0800
+
+    飞码在szss和sss时支持用Shift_R代替Shift+space进行组合变换
+
+[33mcommit cb2e8b73734aa4d0bf645efbd0e52332069c60b1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 14 07:05:36 2025 +0800
+
+    update sbf.dict
+
+[33mcommit c7f688b4343305b0a9b6bdab85ffdffa6bd88a5b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 14 04:40:09 2025 +0800
+
+    fix bugs in popping
+
+[33mcommit 9f5acf4e6074922c628fe41c99f662e12f19b366[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Oct 13 05:39:20 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 7af5430d3faeb990eb86bb6c63073db76dcce71f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 15:42:32 2025 +0800
+
+    fix bugs in sbxlm.yaml
+
+[33mcommit 49585cfd32540189a73363da574a47da9a737d65[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 14:39:36 2025 +0800
+
+    添加更多含数字的三字词
+
+[33mcommit 888ae4c89ac8d02a71ee4205feb91bcc646c55a3[m[33m ([m[1;33mtag: [m[1;33m20251012[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 12:15:10 2025 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit c65207a7a6a9ab03dde229ab4e91a2b69734c1a7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 12:06:25 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 07e30fa1cf74c8edd1d1aba9d476cb9e011f59c0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 11:52:57 2025 +0800
+
+    飞系增强模式下增加数选多字词
+
+[33mcommit e30541bdbc685eb4463f0960646ff89bb9397eb7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 09:52:58 2025 +0800
+
+    update default.custom.yaml
+
+[33mcommit 167f65a793d6b1c141f08152475bcedea85f5c75[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 09:29:02 2025 +0800
+
+    fix bugs in popping
+
+[33mcommit 5f0976e05f42b6f1310da1c9d85f7f579fb71629[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 12 09:28:18 2025 +0800
+
+    飞码增加组合输入模式
+
+[33mcommit 494fe0ac0198ac70a8b9ab674f3104c246fdd8d2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 11 14:54:37 2025 +0800
+
+    飞系单字编码kr由「会」改为「侃」，zp由「长」改为「朱」
+
+[33mcommit 81050416edd905a08526b9b56deea264115eeefe[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 11 14:32:42 2025 +0800
+
+    标点字r'由「软」改为「仁」
+
+[33mcommit ce3b1f97b3f83124b704a0c6450a672d3a0d1cb9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 11 06:20:20 2025 +0800
+
+    飞系增加更多的spbb缩减码
+
+[33mcommit ff548a657759f3eba16772022a1dd4e596a8588f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Oct 10 08:48:27 2025 +0800
+
+    fix bug in hint.lua
+
+[33mcommit c83cd4939c76e4e355d8a6897b2f7a020be49fb6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Oct 10 07:48:13 2025 +0800
+
+    update hint.lua
+
+[33mcommit 86f66ef3fb8b37a50dec8bcefd786a54227c9b79[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Oct 10 06:41:33 2025 +0800
+
+    飞系首码提示更多的标点字
+
+[33mcommit d3a704e99a8181aadf771fef7d5b72e5df30f8ba[m[33m ([m[1;33mtag: [m[1;33m20241008[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 7 17:30:58 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 33e34bc2465b8f791cd2d673a024c8216e530720[m[33m ([m[1;33mtag: [m[1;33m20251007[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 7 11:30:31 2025 +0800
+
+    更新声笔版本到11.0
+
+[33mcommit d496bac3665fe773af5cce352dced47e6ace0087[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 7 11:03:55 2025 +0800
+
+    支持更多的标点词
+
+[33mcommit e554077f6185b78ffaec0bfa50a5888f939bfd79[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Oct 6 18:36:57 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 831c6932f44d258ef9030497a31259addacc12b2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 5 19:35:30 2025 +0800
+
+    update sbfd.dict
+
+[33mcommit ba852d60c6ca20ae4b4e65f23fdf082397634089[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 5 14:31:06 2025 +0800
+
+    update sbf.dict
+
+[33mcommit e5c963f41b570db3d5a3ac354e379fc33e58be54[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 5 11:55:28 2025 +0800
+
+    udpate sbf.dict
+
+[33mcommit a36bde7bd0b83e850011d8c1dec52c1a11a941c9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 5 10:50:56 2025 +0800
+
+    update schemas and dicts
+
+[33mcommit 35d77c3419dedc3f829a5677b59fd474f75fb228[m[33m ([m[1;33mtag: [m[1;33m20251005[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 5 09:02:29 2025 +0800
+
+    飞系增加63个高频标点字
+
+[33mcommit 6ed2631598d2631f2637849e10d734e8bfd73f51[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 4 08:59:13 2025 +0800
+
+    分号后接aeuio输入常见标点符号
+
+[33mcommit e82da30c11eca91cfc7a7f31e46d9885618a4e18[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 4 04:08:45 2025 +0800
+
+    飞延支持一简字与二简词组合起来通过右Shift一起上屏
+
+[33mcommit 26c333708c5bc4eb46b078465b67fedec16ddb73[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 4 03:47:05 2025 +0800
+
+    飞延支持四码后用右shift输入词组
+
+[33mcommit bd833f40694c7782b0536f039401322b2ec8c11a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Sep 30 07:32:55 2025 +0800
+
+    修正sbfh.yam中的手指箭头命名
+
+[33mcommit 44116b5607a133719dcf9fed5c88909d2ed635e6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 27 08:19:48 2025 +0800
+
+    飞系增加更多的spbb型单字缩减码
+
+[33mcommit 61052f74a6b6ec31b8f4bb3881b591652d59daee[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 26 20:23:30 2025 +0800
+
+    飞系增加几个单字缩减码：「肢 zveo」「翅 cveo」「燥 zhio」「哉 zhio」
+
+[33mcommit 771b24cf1ce0f42cfa28495ac49fb18fce1ef3f7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 26 20:00:41 2025 +0800
+
+    飞系增加两个单字缩减码：「邮 yvio」「陨 yviu」
+
+[33mcommit 65b862dd4d6a66f69064bcdfad9f7879002fd51f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 26 12:13:25 2025 +0800
+
+    更新飞单的声笔反查码表
+
+[33mcommit 380218dd1a4befc946d0d1e04f77804a276d914e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Sep 24 11:27:19 2025 +0800
+
+    飞系增强模式下的zu2由「旨」改为「脂」
+
+[33mcommit 9e5218318ec15eb7e648aae41a3d498b016ec1f2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Sep 23 09:28:56 2025 +0800
+
+    飞系增强模式下的ce7由「辰」改为「ce7」
+
+[33mcommit 47a6b7bb63ed83663d15f3bce6b978a127f40c35[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 20 19:10:19 2025 +0800
+
+    Revert "飞延增加caps_word选项，以支持大写分流二、三、多字词"
+    
+    This reverts commit 903c62068beac805d9ad6a1b61edb3f425576128.
+
+[33mcommit 903c62068beac805d9ad6a1b61edb3f425576128[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Sep 17 09:29:56 2025 +0800
+
+    飞延增加caps_word选项，以支持大写分流二、三、多字词
+
+[33mcommit bd2e92890b2b55f2ba9c9be813050090b001afc3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 12 20:32:09 2025 +0800
+
+    删除同文主题思无邪中的sbfmzj下的lock行
+
+[33mcommit 52d51f11cf8f63a095683e6cbbcb2d2707735f62[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 12 08:42:54 2025 +0800
+
+    use new trime themes
+
+[33mcommit 867720c4bbb37c91532d1a22c4ee2639fc920507[m[33m ([m[1;33mtag: [m[1;33m20250910[m[33m, [m[1;33mtag: [m[1;33m20250909[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Sep 5 21:15:08 2025 +0800
+
+    去掉声笔方案压缩包里的sbfc文件
+
+[33mcommit 58102f7ec56577dbd1c4b57bcd0ab567ec1cfc8b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 28 09:11:43 2025 +0800
+
+    小狼毫使用增加优先的表情字体，以表情颜色
+
+[33mcommit d6723ea78504e2cd8c6d04b242e7dbb9ee0945e8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 27 18:17:55 2025 +0800
+
+    为sbfh.yaml中的条目加上注释
+
+[33mcommit 6f7c7c5ca46a0d7b5b7e1f8e393343b3b39ca95d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 27 18:10:33 2025 +0800
+
+    解决声笔简拼单字输入不能补充笔画的问题
+
+[33mcommit 9cd9303ea6adf0dfc1361ae6d2bc0121809067f2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 27 16:55:11 2025 +0800
+
+    update sbfh.yaml
+
+[33mcommit 15501737fab51cf5e93b1a6d4c473f6eae397249[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 27 15:37:02 2025 +0800
+
+    优化\引导的特殊符号和表情符号的分类（感谢群友咕咕的工作）
+
+[33mcommit 7f8beb2638d85bccc37e10431c37b6ac0d7654f0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 17:13:47 2025 +0800
+
+    修正飞讯Schema中的声笔反查错误
+
+[33mcommit 3888ff4dd3b79a61291a0371d69ed833c94df99b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 15:43:50 2025 +0800
+
+    replace wrong pictures in trime
+
+[33mcommit b24c98e72a068f2ce8a97cb626d558ac04a9a648[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 15:18:59 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit c5906844e847dac5ddc8013c0dfa529b7dc81df2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 11:12:53 2025 +0800
+
+    update pictures in trime
+
+[33mcommit a8ab245f03edc2949af2b46def7881ab81dc268d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 11:09:49 2025 +0800
+
+    修改助记键盘
+
+[33mcommit e206bedf401b743f984cc22ee208ea063099c239[m[33m ([m[1;33mtag: [m[1;33m20250822[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 22 10:54:12 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 72059102c3a45618e3fb36faeb88f7db6237d743[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 21 20:32:33 2025 +0800
+
+    修改飞系的键盘助记
+
+[33mcommit d711ac19ae1cf867a7074b63f0be4084dba92ef6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 21 20:09:49 2025 +0800
+
+    消除单字反查时无编码的bug
+
+[33mcommit 7154e38c0a1c15af61bdc68267192bc14e1a9e3d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 21 19:56:34 2025 +0800
+
+    调整「由」「于」的编码为yt和ys，以避开高频重码
+
+[33mcommit a037cd7f9afb6c532a99d1a255c93c391731ae80[m[33m ([m[1;33mtag: [m[1;33m20250821[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 20 16:58:55 2025 +0800
+
+    correct errors in sbfj dicts
+
+[33mcommit 27fc7d432cfde1fe4dfb1eba1c6ce28918ec83d1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 20 15:04:53 2025 +0800
+
+    fix bus in dicts
+
+[33mcommit 8a26ce8edce2f1652eb94e38c0a4c510372c67b4[m[33m ([m[1;33mtag: [m[1;33m20250820[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 19 15:11:02 2025 +0800
+
+    飞码支持大写补码后的分号变换
+
+[33mcommit a90d6de2569e0e55cd0f724fb3added2a0b9f92c[m[33m ([m[1;33mtag: [m[1;33m20250819[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 19 10:08:18 2025 +0800
+
+    优化飞码的大写补码
+
+[33mcommit 2511e2589dc3f7013c1bfae3046513502e2c4111[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 19 08:53:45 2025 +0800
+
+    增大小狼毫声笔定制皮肤字号并不恢复默认配色aqua
+
+[33mcommit 0ad53baeb16c6396c80d0887c39d762526c14476[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 19 04:20:30 2025 +0800
+
+    飞码在输入二字词四码后跟AEUIO补充首字的编码
+
+[33mcommit 7cad434626725dacee44a327e2cb4def9c689d77[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 18 21:11:08 2025 +0800
+
+    优化飞系的声笔反查
+
+[33mcommit f01ff883c3bd770ef0d14c485e8e448f9fb14563[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 18 20:28:47 2025 +0800
+
+    优化飞系缩减码
+
+[33mcommit 2374d7058d2cd832c8dbe35e57562be42ed301f8[m[33m ([m[1;33mtag: [m[1;33m20250818[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 18 10:19:53 2025 +0800
+
+    将部首「日」由q调整为v
+
+[33mcommit 32c9b2bdc73fe01a974abefc498f751cdcb182f4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Aug 17 21:10:50 2025 +0800
+
+    优化飞码数选顶屏
+
+[33mcommit 6a139856563fd08cc1218ee5bbad4b64e8a16071[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 15 18:02:49 2025 +0800
+
+    修正大写顶屏的bug
+
+[33mcommit d0d729066c155a209fe458997a2e11e54dea3921[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 15 09:32:11 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 04ab8691e1f3e5dbe9fecffabfc7a3f116f6c7c5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 15 06:23:05 2025 +0800
+
+    optimize auto_length.lua again
+
+[33mcommit 3c51d785bdafe8628d0e7950cf2790f185909c39[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 15 06:08:26 2025 +0800
+
+    optimize auto_length.lua
+
+[33mcommit 13ad9abd5b48dddc691784c05323ffe5c3c95b2b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 15 06:00:58 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 238f20ef75206e62dfe8e4a16b364b8878b71804[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 14 15:40:29 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 4168deb00985aa3c6ec8dc54172180ce2b8d2565[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 12 17:40:42 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 4f5f4855a15cd613eb9eaebec03e78dd4552b58f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 12 17:28:31 2025 +0800
+
+    修正条件顶不上屏后引入的bug
+
+[33mcommit 1314f8776cb5badde821e015159734e128437d79[m[33m ([m[1;33mtag: [m[1;33m20250812[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 12 06:08:10 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit d18ad65036d40a99de4635a67893a02fec16a497[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 11 21:15:48 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit e8774a4020c90fc5b888047e516e2ea2c631dc09[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 11 09:00:14 2025 +0800
+
+    条件顶不直接上屏，而显示组合，以免误用分号变换时出错
+
+[33mcommit 0ddc7d2447f01b38304c49627483e3af4d760df0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 11 08:13:12 2025 +0800
+
+    修正「戼」的读音，you改为mao；设置filter_length后在过滤时不排除缩减码
+
+[33mcommit 5d9917b9727d888458a546a54b11112c878b6527[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 6 17:54:31 2025 +0800
+
+    update sbfj schema
+
+[33mcommit 2f391291f95321318d35a0bd0bd9d0ac095715fa[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Aug 6 17:45:00 2025 +0800
+
+    优化飞简三码时的组合变换
+
+[33mcommit 0996ae7f9d6745025a8b8746e4a29061ee3a186f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 5 19:11:52 2025 +0800
+
+    优化简系和声笔拼音数选字
+
+[33mcommit c8cf4f9f1af8ad672fb467d8ae45f5189a3b8765[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Aug 5 18:57:02 2025 +0800
+
+    优化飞单数选字和标点字
+
+[33mcommit d64e6acb9f26b5aa1c38f31cbfcca04e133d0294[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 30 12:16:25 2025 +0800
+
+    优化飞单数选字
+
+[33mcommit b9f592f6e82862d614e98bc147979425d33c14e0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 24 11:11:02 2025 +0800
+
+    Revert "在sbxlm.yaml中增加一个键绑定Control+Shift+0用于切换最近使用的两个输入方案"
+    
+    This reverts commit 4d9892ef974fb36e9fcec462d570aba9491eb781.
+
+[33mcommit 4d9892ef974fb36e9fcec462d570aba9491eb781[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 24 10:17:03 2025 +0800
+
+    在sbxlm.yaml中增加一个键绑定Control+Shift+0用于切换最近使用的两个输入方案
+
+[33mcommit 2d0765256874ada0d953b28bf40061bf5ba5dccc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 22 07:09:13 2025 +0800
+
+    修正飞系中「赣」字反查部首错误
+
+[33mcommit 8615f5eca220dba2215df498724de90f71a52396[m[33m ([m[1;33mtag: [m[1;33m20250715[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 14 15:31:52 2025 +0800
+
+    fix bugs in selector.lua
+
+[33mcommit 9d9e0d2d56630748af38e94d3a4dda6447583f05[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 14 06:54:10 2025 +0800
+
+    优化自整和鹤整的快速定位
+
+[33mcommit 12e480caec497a9784ad5468311c09806b02a485[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 13 17:09:11 2025 +0800
+
+    fix bugs in lua
+
+[33mcommit 3c3a17079bf00e6cfa5a36032d0aecd5c81c8fbc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 13 15:50:54 2025 +0800
+
+    update schemas of sbfj and sbfm
+
+[33mcommit f0aa268ea1fe478b154a59fa43e639bf77889818[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 13 11:47:04 2025 +0800
+
+    update sbfm again
+
+[33mcommit 04f9273a500a34669a60d59caea1f5570e5223db[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 13 11:44:25 2025 +0800
+
+    update sbfm schema
+
+[33mcommit 14f022fc0b8fce4f684da43f91da2c49cf2e0ab8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 13 06:37:12 2025 +0800
+
+    update weasel.custom.yaml
+
+[33mcommit 06392d6bf5bad48c0d054f35cee36a7c26521ec2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 12 15:59:24 2025 +0800
+
+    update sbf dict
+
+[33mcommit 6043e0536225e9a546f0e3c839b24de1d8269287[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 12 11:36:15 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 8a7267b5273779d8e063e7a84e35243b4b7e261e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 12 11:15:05 2025 +0800
+
+    重新启用并优化重复输入功能
+
+[33mcommit 52801c69480a25f56bfe734c243c93f9b8dd9054[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 10 10:37:17 2025 +0800
+
+    fix bugs in sbjm schema
+
+[33mcommit 1f2df619bb0ae8f527097315b18a68ff07a21772[m[33m ([m[1;33mtag: [m[1;33m20250710[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 10 10:02:42 2025 +0800
+
+    用e引导易拼来输入emoji
+
+[33mcommit 6db4a8e44049c30a5eb128bd255dfb969986b1e0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 10 08:13:11 2025 +0800
+
+    update sbf.dict and sbfy.schema
+
+[33mcommit a067ef48d520dad96503409e9c5bf3039a8373ba[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 8 07:11:52 2025 +0800
+
+    optimize sbfy
+
+[33mcommit 7c92b0832a562a2d7d66c542216e634eb664ff64[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 8 06:28:47 2025 +0800
+
+    飞延改空格出词为Tab出词
+
+[33mcommit f31f43dbf9f7f7df1ff7ab625ce2335362fe5e12[m[33m ([m[1;33mtag: [m[1;33m20250707[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 7 07:11:27 2025 +0800
+
+    优化飞系数选字和标点字；优化飞系数选字顶屏方式；优化飞系组合变换
+
+[33mcommit 18b8f6d3a6d0435f3d133b1014b6a5a981ab01b9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 6 15:36:48 2025 +0800
+
+    优化飞讯和飞延的标点字顶屏方式
+
+[33mcommit 4afe170b959625ce00ff55864da50ec0811d31d8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 5 11:28:49 2025 +0800
+
+    声笔飞延上屏两个二简字的方法由回车改为Tab
+
+[33mcommit 6b80a3a2fbff8ff4e237e12dfd993607748394a6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 4 10:10:30 2025 +0800
+
+    fix bugs in editor.lua
+
+[33mcommit 15ad71d6e71ad834f2a21da11d4fb50f5c4025c1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 3 16:10:33 2025 +0800
+
+    update sbjp schema
+
+[33mcommit d4e35d8d532f6b00cc298941eff35271d8d956b7[m[33m ([m[1;33mtag: [m[1;33m20250703[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 3 15:28:04 2025 +0800
+
+    optimize editor.lua
+
+[33mcommit fb270e65e3be4a7822b42b64484aaa5c9dc4fe34[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 3 11:26:33 2025 +0800
+
+    fix bugs in editor.lua
+
+[33mcommit f5986dd0095f7faaa0be921a639e175eaea5a5b3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 3 07:20:38 2025 +0800
+
+    优化各种反查方法的实现
+
+[33mcommit d6b99729d3ca4ccaeeddb7684578be98d66f6b42[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 2 10:37:41 2025 +0800
+
+    optimize sbhz and sbzz
+
+[33mcommit b58326fdb7d5f291bf4cc2e2732aa9535a98d254[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 1 15:15:47 2025 +0800
+
+    fix bugs
+
+[33mcommit 7509133c997da7f1a265647063ae0a6a63fe53fd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 1 09:26:22 2025 +0800
+
+    fix bugs in editor.lua
+
+[33mcommit a39a7bab7b84ed58f35c1c94fff8961f9c9a8617[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 30 15:28:57 2025 +0800
+
+    声笔拼音和声笔简拼改善多字词的检索性能
+
+[33mcommit 14d36808e61ba67bd9ef28d0d56cc1da6f1f05c4[m[33m ([m[1;33mtag: [m[1;33m20250630[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 30 07:56:03 2025 +0800
+
+    update dicts
+
+[33mcommit af83902336f80f3c57dcc5efb09411f28c1edaf4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 26 21:54:40 2025 +0800
+
+    update sbjm.dict
+
+[33mcommit 96102c24576afd0746a9264cac97b24af1f8d0e9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 26 21:41:45 2025 +0800
+
+    update dicts
+
+[33mcommit 98c8ea499c0f498d0d1f0b1d4940c6d94f47b708[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 26 21:24:39 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 78872a207d1d53b0e4c16e6885b88061ad144ca7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 26 21:18:00 2025 +0800
+
+    优化简系、飞系和易拼共用的声数字和声标字
+
+[33mcommit badccdfc2c4316ef8d25a96721406a3e1872b150[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 25 10:04:09 2025 +0800
+
+    update sbzdy.txt
+
+[33mcommit 8ba036bf12c64b71a8c56d8d6dc199f167220e11[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 24 17:53:18 2025 +0800
+
+    fix more bugs in sbfy
+
+[33mcommit 3de7a7bc3145a627dc5f10e6c2a7e69523416208[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 24 12:21:34 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 2896bb116e876deab920dd8ae24e3cfb5a104872[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 24 11:47:18 2025 +0800
+
+    将声笔飞单的延顶模式独立出来作为声笔飞延方案
+
+[33mcommit c1e72f07af8d02fbe1bbb8692dfc5c9200edc66a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 23 09:13:59 2025 +0800
+
+    update sbjm schema
+
+[33mcommit d232deca5928b8acf6f6b1a04dc210df68d89c32[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 22 17:37:56 2025 +0800
+
+    修正声笔简码组合变换的bug
+
+[33mcommit 9710e88bcd719be84669f35281f38a6841ed3a06[m[33m ([m[1;33mtag: [m[1;33m20250619[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 19 11:06:24 2025 +0800
+
+    修正无读音偏旁部首的编码
+
+[33mcommit 792e340033169ed225098bdcaf9d85dd780a4e1b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 18 17:35:34 2025 +0800
+
+    声笔简码取消对声笔飞单的兼容
+
+[33mcommit eac858062911d2ad9d80ce99cfb5d8c0c699bb43[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 13 04:55:08 2025 +0800
+
+    修正飞讯过滤强度设置不完全起作用的问题
+
+[33mcommit 5c35dd68c23ec39d34a8ce3af470a03294acad3d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 12 07:26:45 2025 +0800
+
+    修正飞系的声笔反查有时候选项标签显示错位的问题；去掉sbf.dict中的「趣q;」「星x;」两个手感自定义项
+
+[33mcommit 86afcd5431d25a847459fcaf30a5ac4c876e8381[m[33m ([m[1;33mtag: [m[1;33m20250606[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 6 15:46:53 2025 +0800
+
+    1.「戛」增加读音ga；2.统一声笔双拼各方案的声声词与其他方案一致
+
+[33mcommit 4959bafbfeee0eca47051fe8e27c46fdb8c2d5e3[m[33m ([m[1;33mtag: [m[1;33m20250605[m[33m, [m[1;33mtag: [m[1;33m20250506[m[33m)[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Fri May 30 18:13:23 2025 +0800
+
+    Update container.yml
+
+[33mcommit c7a7ae47e2af03c2aa0eea9968ca084125ef63d6[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Fri May 30 18:11:27 2025 +0800
+
+    Update container.yml
+
+[33mcommit b664edbe97ecf5f1f5299fee7997f0d2faabf6c2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 15:01:57 2025 +0800
+
+    update a file
+
+[33mcommit 5a0c6cb17bed3e3d16f4469de4f2b59f3850b255[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 13:38:03 2025 +0800
+
+    Update container.yml
+
+[33mcommit 13a76353644b464670200f65885f87dac732c10b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 13:34:58 2025 +0800
+
+    Update container.yml
+
+[33mcommit 9ed46f63daf55ad6a33b814696a525f6fc89745e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 13:15:01 2025 +0800
+
+    Update container.yml
+
+[33mcommit 6da1e213aefa9db4dcba37c54c4e8352c888d8c8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 13:08:20 2025 +0800
+
+    Update container.yml
+
+[33mcommit 167e153db8a1728bb1ef7ececdcfb1603a63e907[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 13:02:52 2025 +0800
+
+    Update Dockerfile
+
+[33mcommit 32416b0633d8701c571f24dc29febbac6a268474[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 12:58:02 2025 +0800
+
+    Update Dockerfile
+
+[33mcommit 2a367afb8f4fd7ac27b365a2705872a8dd322092[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 12:55:18 2025 +0800
+
+    Update Dockerfile
+
+[33mcommit 9db7bb7c9e6ad0e115a66b2a4b7abfb19a8ded0c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 12:53:25 2025 +0800
+
+    Update Dockerfile
+
+[33mcommit d14c312cec1ef26577e7d0721d0ff3e5c8a707b5[m[33m ([m[1;33mtag: [m[1;33m20250530[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 11:55:19 2025 +0800
+
+    Update release.yml
+
+[33mcommit 95f4582dea1f0c17c0f239c707b6c67c51be089d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 30 11:49:19 2025 +0800
+
+    Update container.yml
+
+[33mcommit 1ebcb265dfea14df5957bbf82bee52174b297171[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 26 18:15:53 2025 +0800
+
+    优化飞系声笔反查时的提示信息
+
+[33mcommit 73854ca484520fd4e6d67a03bb4f9540b0213339[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 26 09:31:31 2025 +0800
+
+    声笔拼音和声笔简拼在显示有理项的同时显示标点字
+
+[33mcommit c5ed552a9275d2e9c1b675b74d65fefffbfd3233[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 26 07:57:07 2025 +0800
+
+    飞讯支持filter_strength选项
+
+[33mcommit 49603bb0af6279e1ee7e5707d160a7b1ddca4502[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 25 09:47:29 2025 +0800
+
+    update sbxlm.yaml to set the commit option for the digit separator action of puctuator
+
+[33mcommit b281fa6acf6d713230b57d79d720e8b9d33ecf24[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 18 09:07:54 2025 +0800
+
+    update sbfd.dict and sbfj.dict
+
+[33mcommit e324af0b6ff35003a19a0aa51cc7485bf326fb77[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 16 11:26:05 2025 +0800
+
+    update sbjm.dict
+
+[33mcommit 4d467eff33778bfedd3ebf3daaa1b1889e6ab5cb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 16 11:15:51 2025 +0800
+
+    取消/的重复功能，中文标点时用/立即上屏顿号，西文标点时所有标点符号都为半角并立即上屏
+
+[33mcommit 826b3dcfc44bcd3e30687c6d7c8ac7f4cfdabca2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 3 15:03:47 2025 +0800
+
+    default.custom.yaml
+
+[33mcommit fc19e2c1b0bf6423a158f5c67bf87504d088bdc8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Apr 10 09:02:52 2025 +0800
+
+    飞码延顶增加句号出词和仅大写第四码出词选项；修正飞系「戼」的编码yhue→yzea
+
+[33mcommit 7780ed96c0ba24db61bab4e2ba3ec6da5daceff8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Mar 16 09:44:51 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 749c21212a5bb59c44527cd399aef0a375599182[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Mar 16 08:29:06 2025 +0800
+
+    在default.custom.yaml中加入ascii_composer配置，以方便定制
+
+[33mcommit 72232f04314c5c17bb457f2d5834e90a179ddee2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Mar 14 12:03:17 2025 +0800
+
+    声笔简码支持延顶模式
+
+[33mcommit ce4364a7dca57f648f9bbcfaa8a4473f092cfc29[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Mar 9 08:13:25 2025 +0800
+
+    修正ascii_composer.lua中的bug
+
+[33mcommit 967ed2ad300c7f70bb469ad6653ec791c7bb1ce0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Mar 9 06:35:35 2025 +0800
+
+    飞简采用import table来共享sbf.dict
+
+[33mcommit fcb8c5308daadfceb3102e565acdcdce266c5e0b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Mar 7 17:59:17 2025 +0800
+
+    在飞简词典中加入非内置条目
+
+[33mcommit 223127cdf83bb6aa9e8ff9ee048fa54d7d75cdd2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Mar 6 11:08:30 2025 +0800
+
+    update dicts
+
+[33mcommit b7c8005a6850135089878b19e780e1b44fa9da7d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Mar 5 07:22:54 2025 +0800
+
+    修正飞简延顶单选模式中的bug
+
+[33mcommit ec0b5d6d5be71efbd32042b0a92e22671f0c8be4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Mar 4 20:37:54 2025 +0800
+
+    优化飞讯分号变换
+
+[33mcommit 9a759a9f5705565a989ff1488dcc5f9515266bf1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 28 08:15:51 2025 +0800
+
+    update sbfx schema
+
+[33mcommit 9e4b41f33455efacc2d82be2f2fcfc1199551dc5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 28 08:10:02 2025 +0800
+
+    修正飞讯三码时数字顶屏的Bug
+
+[33mcommit b777ac81c8b6a2b74a22da55ce1351e5a562464c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 27 17:51:53 2025 +0800
+
+    update dicts
+
+[33mcommit 4053f1447327a16177bc3d082820b85c95ace14c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 27 08:30:44 2025 +0800
+
+    update dicts
+
+[33mcommit 0f89777c9cee32efd2bc88c2352ba905f71556c0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 26 10:13:53 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 0e7d14a3be056c10218c7a5d58fe1dc356506651[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 25 23:57:47 2025 +0800
+
+    update dicts
+
+[33mcommit 75cfa70f60aa0104e9c30aeab4945f4f84cbe298[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 25 08:37:15 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 64402239acdd04e17204b60226f375903fdf6539[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 25 08:30:05 2025 +0800
+
+    优化缓冲模式回车上屏逻辑
+
+[33mcommit 2a3e848f88858555103142913941009dd4f518d5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 25 00:40:25 2025 +0800
+
+    回车上屏二简字组合
+
+[33mcommit d47043746f9a91c830c52838167f34967fae730a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 24 18:08:51 2025 +0800
+
+    update dicts and schemas
+
+[33mcommit 72f31900fa18877c0986522fdd68464db623c605[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 24 15:43:21 2025 +0800
+
+    fix bugs in ascii_composer.lua
+
+[33mcommit 74af6e0dfeff30effd70004facf223cd7aec0948[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 24 12:27:58 2025 +0800
+
+    update dicts and schemas
+
+[33mcommit 3417b5f19b53454b82e8d10a7cbc013aaa8bb3e5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 23 13:09:55 2025 +0800
+
+    update lua scripts
+
+[33mcommit 7de0bccd897f95f70d3fff7628d95cc6a2c5bbeb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 23 11:39:22 2025 +0800
+
+    优化飞码延顶简词提示功能
+
+[33mcommit 69e30a794e4a3a52535271894ecea7cb8007f225[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 23 10:29:12 2025 +0800
+
+    飞码延顶四码时用空格变换词组，Shift加空格上屏二简组合，以避免与组合变换的冲突
+
+[33mcommit 7e4a4d1779c7b096502c6777b2ce30f1406215e3[m[33m ([m[1;33mtag: [m[1;33m20250221[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 21 17:07:25 2025 +0800
+
+    update sbjm dict
+
+[33mcommit 4be6366d016d6cc7419c6ef8ad2723c31cd806f5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 21 16:24:44 2025 +0800
+
+    update dicts and schemas
+
+[33mcommit 7b47a62222076102c2b3780da4cc67fd225b6938[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 20 21:14:48 2025 +0800
+
+    update dicts
+
+[33mcommit c46bf67203631ae95901d8461fb77e74a8e93fbd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 20 20:58:10 2025 +0800
+
+    update dicts and yamls
+
+[33mcommit a7207784e853b3bf9773746d789c64cba838b00a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 19 19:38:51 2025 +0800
+
+    update dicts
+
+[33mcommit df6e9bde07cb1d608be40687082139ef94624899[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 19 18:15:28 2025 +0800
+
+    update dicts
+
+[33mcommit 44915c66492360b2360c0de35c9103aba0c24f6f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 19 14:52:08 2025 +0800
+
+    update dicts
+
+[33mcommit 5cf5a0b6278cd3e234f51440021d126fea1081f3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 19 09:17:36 2025 +0800
+
+    update dicts
+
+[33mcommit 445bf03357ecbb17ffbbb0605e329793cdac26af[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 19 08:13:09 2025 +0800
+
+    优化飞系单字编码
+
+[33mcommit 8656891b651fe69ff1293e69653c3a4d96918e2a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 21:38:08 2025 +0800
+
+    update files
+
+[33mcommit 97551a09e2722c96f63cd9f071029619a6cae018[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 20:04:05 2025 +0800
+
+    update dicts
+
+[33mcommit ea5befd4ef6847c450e5087ec5dd11b87531b929[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 19:50:25 2025 +0800
+
+    update sbf and sbfj dicts
+
+[33mcommit 8c8ccd263460dcc6489776d5879b390ade2b6c11[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 18:51:19 2025 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit 51baec2b3ece2e3f4649e64a002b278049803df8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 18:11:43 2025 +0800
+
+    update sbf and sbfj dicts
+
+[33mcommit 898dc93f7bfdea4f4302dfe4c5d569f0335159ce[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 17:32:26 2025 +0800
+
+    fix bugs
+
+[33mcommit 8b36ae57fd424d6f1bdaec5af38217af53dab612[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 16:33:15 2025 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 4ee32bc3f69cfdacf8605af2e40239a512a52af6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 16:23:57 2025 +0800
+
+    fix bugs in sbsrf.bat
+
+[33mcommit 8b31680cce3a78eaff907629d169cc530991e2ec[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 15:03:41 2025 +0800
+
+    fix bugs
+
+[33mcommit 25bb23c4edb6829eae1f294651ec944ce8eb9f66[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 12:08:31 2025 +0800
+
+    add sbsrf.bat
+
+[33mcommit 92295e3082dbc1fcdb3f881009bec6882944b0ef[m[33m ([m[1;33mtag: [m[1;33m20250218[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 09:59:29 2025 +0800
+
+    update dicts
+
+[33mcommit 9154ff5d216f2e6436689a3dba57026bc9ff4664[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 18 09:27:59 2025 +0800
+
+    update sbf and sbfd dicts
+
+[33mcommit 8aff2faeb364b474cc6ff2b89b272df7a022680c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 17 18:31:30 2025 +0800
+
+    update sbfd schema
+
+[33mcommit a2a52bd25fee80d2fb8a4044ed265f228f3d7e26[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 17 17:12:04 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 4ae839966546421214268953ffa5aef311c8c6b8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Feb 17 12:14:45 2025 +0800
+
+    飞码单字模式下支持词组过滤强度选项
+
+[33mcommit ecd1f6c831a3ba79ee0a61b962693cbbe7fff741[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 16 11:22:08 2025 +0800
+
+    update sbyp schema
+
+[33mcommit 00710d1f95c1ba4d57b4d1c184fdc6cf04de264b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Feb 15 10:04:48 2025 +0800
+
+    update default.custom.yaml
+
+[33mcommit 3a8cedb28164de0baebee60a56707508849584dc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Feb 15 09:27:24 2025 +0800
+
+    optimize schema and lua files
+
+[33mcommit 232ee7eca960df9cdab387001b1daebad75cdaff[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 14 07:49:24 2025 +0800
+
+    update sbpy schema
+
+[33mcommit e82db85b275123e428463eb292f10146c93c3ce7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 14 07:21:09 2025 +0800
+
+    将顶功作为声笔拼音的默认模式；声笔拼音和声笔简拼默认进行固定组合
+
+[33mcommit a087bf2f29bc302283d9b2078fe52008b3ef3241[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 13 12:02:59 2025 +0800
+
+    update sbf.dict
+
+[33mcommit 30fc9f9690245c6847d46d769425a1d5d2aff981[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 13 11:36:46 2025 +0800
+
+    add examples in sbf.dict
+
+[33mcommit dd3c41427e7c1a85aefb7b775c39dac4e24cc740[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Feb 13 09:44:24 2025 +0800
+
+    update sbpy schema
+
+[33mcommit a885c4addfdd60d923ecc093213aa5beeaf0152b[m[33m ([m[1;33mtag: [m[1;33m20250213[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 21:41:26 2025 +0800
+
+    update sbfm schema
+
+[33mcommit cc699ae02ce9082eb22dbd489411328240322be8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 21:24:35 2025 +0800
+
+    优化飞码延顶四码词
+
+[33mcommit ac9162c7f19d8cf85c784c0fd7f8ada59eaa8b2e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 17:57:56 2025 +0800
+
+    优化飞码延顶sss;组合变换
+
+[33mcommit 9f8902973d1cd265372a392f6c0e979b8b8a6414[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 17:11:05 2025 +0800
+
+    update sbfm schema
+
+[33mcommit e5adce18bdaee2c6e88140b0a2725b30e82d5ea4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 15:09:16 2025 +0800
+
+    优化飞讯的组合变换
+
+[33mcommit b72e6d5b1e78fde61403ce19c52b2e9c94086274[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 12 08:49:09 2025 +0800
+
+    优化声笔简拼快速定位方式
+
+[33mcommit f103d0116e4bf60bcd8101e8796bde77cc69cbfb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 11 19:13:16 2025 +0800
+
+    fix more bugs in sbpy schema
+
+[33mcommit 02424dc0790181945049992443c007c45269fd37[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 11 17:53:05 2025 +0800
+
+    fix bugs in sbpy schema
+
+[33mcommit dec8dc5eaf390cd8a3eb311154b34f49ee294095[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 11 16:38:22 2025 +0800
+
+    update editor.lua
+
+[33mcommit 5e20da2756a642f2ef21379fa02503fd7af2cc18[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 11 16:25:16 2025 +0800
+
+    声笔拼音二字母音节后可用单引号作为第三码；优化声笔拼音快速定位方式
+
+[33mcommit c6e9399b43a5b74da5fa2bece4de8b603ebeb6bd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Feb 9 17:08:37 2025 +0800
+
+    优化简系和飞系的声笔标字和声笔数字
+
+[33mcommit dcbb4de999396ec2b3aceec032a7ec0bada61e38[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 7 16:07:48 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit b42132d837bedd6f89ea3620d926145d7b736b92[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 7 12:28:33 2025 +0800
+
+    optimize sbfj schema
+
+[33mcommit 2600a9f9d8a5a382ddf7040a6b31ea9ae6fb9429[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 7 11:58:19 2025 +0800
+
+    增加飞简延顶ssss首选项
+
+[33mcommit 3e97fcaa04b05aa281104c3396f7dec423d78b5a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 7 10:37:33 2025 +0800
+
+    update sbzdy.txt
+
+[33mcommit f9be23429e14b8f6cf5776c49e211a2940ea1e52[m[33m ([m[1;33mtag: [m[1;33m20250207[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Feb 7 10:02:44 2025 +0800
+
+    声笔飞简增加延顶模式
+
+[33mcommit 158adf186d8b2eeb3c0c4c683f21ba29a2c6ab2e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 5 15:18:06 2025 +0800
+
+    解决o引导的选项在整句方案里不能用aeuio进行选择的问题
+
+[33mcommit 432e281a3d9c6c70f8a4bfdb3bfee32c03999f8b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Feb 5 11:53:05 2025 +0800
+
+    消除number.lua中的bug
+
+[33mcommit 30ec990b703eb3fb38624537dcc90e733b60d24a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Feb 4 18:35:42 2025 +0800
+
+    优化飞讯数选顶屏
+
+[33mcommit d39ec59c10cc405ff8c87a70ff80a7cb24d7e71c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 27 11:46:21 2025 +0800
+
+    飞码延顶四码时强制用Tab选第三候选项
+
+[33mcommit cd7b83e74b38faa949d0f1121be64d7965fb814e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 27 11:45:26 2025 +0800
+
+    支持在有编码时用Ctrl+c作为Page_Up
+
+[33mcommit 979fe757822dda4457805adf3ba9f348a69b6878[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 27 07:56:22 2025 +0800
+
+    易拼增加模糊n为l
+
+[33mcommit 030179a269a6f32aa2d1452f625c212ebfd25d0a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 27 07:56:06 2025 +0800
+
+    优化飞码数选顶屏
+
+[33mcommit c17787265eecd6603c8259ac4253814db8051847[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 26 11:49:41 2025 +0800
+
+    update sbzdy.txt
+
+[33mcommit 8ac1fe8b42fd09018cb2521cb1c372238e7b3184[m[33m ([m[1;33mtag: [m[1;33m20250126[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 25 14:36:22 2025 +0800
+
+    拼音反查支持笔画筛选
+
+[33mcommit e584b8a9035460cfafb097f0f2af000544b25dc6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 25 12:10:42 2025 +0800
+
+    避免易拼快速定位时重复分隔符
+
+[33mcommit 0437ab231afce4747594bb3c3799763536cd053d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 25 12:08:37 2025 +0800
+
+    make optiional the rules [zcs]h=>[zcs] and [nl]v=>[nl]u in sbyp algebra
+
+[33mcommit 417185ad727aa2b1abfd84b1dce933e9a2683b13[m[33m ([m[1;33mtag: [m[1;33m20250125[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 24 16:04:21 2025 +0800
+
+    optimize sbyp schema
+
+[33mcommit 96364a6d44f46f2de3b47d96c1c7b346660d5f99[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 24 11:36:03 2025 +0800
+
+    optimize sbyp schema
+
+[33mcommit 7f04246a0ea304cf9aae7fbaf852b3276442b603[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 24 11:35:24 2025 +0800
+
+    两分反查：模糊翘舌音和后鼻音
+
+[33mcommit 47c490477d1cb3ed8a4c5491f946ed8552724cce[m[33m ([m[1;33mtag: [m[1;33m20250123[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 23 12:46:18 2025 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit 2b720ec408b96255566fbebaa3ef88bb333f0c5a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 23 12:00:31 2025 +0800
+
+    飞系和支持型双拼在两码时揭示后一码
+
+[33mcommit 1782aec6dc23e0abc73c6ddea27f5818f3037adc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 23 11:59:37 2025 +0800
+
+    fix bugs in sbyp
+
+[33mcommit b8a8ff5479a9d56013368f5191d5b238f2c624bd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 23 11:19:37 2025 +0800
+
+    support popping in sbyp
+
+[33mcommit dd3812a5cf74987cfd4eb5a30933cbe8799b2e63[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 23 09:39:03 2025 +0800
+
+    延顶模式下二简字组合作为首选，次选用分号选择，三选可设置用Tab
+
+[33mcommit c84875827b7732ee2812f7e04e79304146ea4807[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 22 09:40:49 2025 +0800
+
+    update schemas
+
+[33mcommit 06637092911b5d89e77c23c88fb02cd5aa499cfa[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 21 15:02:42 2025 +0800
+
+    自整和鹤整：隐藏无用的状态选项
+
+[33mcommit 67f3d485e675f1879b4827c447927fa0cf3d879b[m[33m ([m[1;33mtag: [m[1;33m20250121[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 21 11:23:58 2025 +0800
+
+    update release.yml
+
+[33mcommit 4d59106d4cc396b40d5c48af829eaa177a49d77e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 21 11:00:44 2025 +0800
+
+    增加独立的声笔易拼为声笔的默认方案，并用它作为其他声笔输入方案的拼音反查手段
+
+[33mcommit 206b6984e4390108e59f8b6986ad105b44867085[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 21 10:59:33 2025 +0800
+
+    修正飞简单字模式下声偏字不能二顶的问题
+
+[33mcommit 7227366b6d07d52d067631eecb13c58f6ae780e4[m[33m ([m[1;33mtag: [m[1;33m20250118[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 18 07:07:35 2025 +0800
+
+    fix bugs in sbfj and sbfm
+
+[33mcommit c8d02d91af664c5948499e5e116b92a37ae12e27[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 17 11:51:36 2025 +0800
+
+    optimize sbfm schema
+
+[33mcommit bdca23deaf6798beeb91cdd0a83bd5ca5c07c58a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 17 10:56:00 2025 +0800
+
+    optimize auto_length.lua
+
+[33mcommit fcdcf695c521446515987ebafa5790e0f44db153[m[33m ([m[1;33mtag: [m[1;33m20250117[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 17 08:29:32 2025 +0800
+
+    fix errors in sbfm schema
+
+[33mcommit 2a9177551f1b6067ad0d8a25955df4740556e404[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 17 08:10:51 2025 +0800
+
+    update sbfm schema
+
+[33mcommit 10fecbee45c29a0eee5d2d84499dce23121aacc4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 17 08:07:12 2025 +0800
+
+    Revert "在popping.lua中的when支持简单的逻辑表达式，并修正一些bug。"
+    
+    This reverts commit ae05daf4f99e85fdb96fd0dca389fecba140d835.
+
+[33mcommit ae05daf4f99e85fdb96fd0dca389fecba140d835[m[33m ([m[1;33mtag: [m[1;33m20250116[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 16 19:11:08 2025 +0800
+
+    在popping.lua中的when支持简单的逻辑表达式，并修正一些bug。
+
+[33mcommit f1572690575b073df76cb5c483250c846b57644c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 16 07:35:30 2025 +0800
+
+    optimize sbfm's delayed_pop mode
+
+[33mcommit 7a8e747310b1f94c7bd723b72aafe204681fa21a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 15 15:12:28 2025 +0800
+
+    fix bugs in lua scripts
+
+[33mcommit 2266012e45a9af3b94779614d1f2375b4b4810cf[m[33m ([m[1;33mtag: [m[1;33m20250115[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 15 07:18:15 2025 +0800
+
+    修正飞简选择自造词可能空码的bug
+
+[33mcommit 49007e453caf4d5a122e1d1c82508ce27f49b75c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 14 21:30:01 2025 +0800
+
+    add char_lens.txt
+
+[33mcommit ede21ab0989b472479637d7757e5ff95f96bb5ee[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 14 20:59:33 2025 +0800
+
+    support filtering chars in sbfm's delayed pop mode
+
+[33mcommit c062378adbf7d2f44d30e342e767adb848ccd10a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 14 17:15:00 2025 +0800
+
+    优化数标字词
+
+[33mcommit 9d34ddbf12e5d35bcf9c5607c84562d4e1b5acde[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 14 10:09:41 2025 +0800
+
+    声笔飞码增加延顶模式
+
+[33mcommit 4c08e3463901f045e9a374eee45c209c4d9dc6f4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 13 11:33:16 2025 +0800
+
+    optimize number.lua
+
+[33mcommit 3ea57ca3cf64c41da4f66a6f4e2a15f482069bbf[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 13 11:29:28 2025 +0800
+
+    fix more errors in sbfj schema
+
+[33mcommit 198718f5fcfbf6e776b59c5a51f5ba196ec2a680[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 13 11:11:27 2025 +0800
+
+    fix errors in sbfj schema
+
+[33mcommit 8e899b6676d8431e952e9c29eab46976cec1d1cf[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jan 13 10:23:07 2025 +0800
+
+    optimize sbfj schema
+
+[33mcommit eebdae9d46f26e79fd63b330529ffa601a534d33[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 11 19:58:28 2025 +0800
+
+    fix errors in sbfx schema
+
+[33mcommit cfb65c3537283f710d22fdba2d50cfb7f39ac046[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 11 19:40:08 2025 +0800
+
+    飞讯的ssz变换，改为与飞码和飞简一致
+
+[33mcommit c666bf855811d62ac1612d72c9a96e9f155df81f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 10 11:42:05 2025 +0800
+
+    update dicts for sbzr, sbxh and sbfj
+
+[33mcommit 1ecd92f57fc4ccb14270f10a020b45d34763654e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 9 18:59:09 2025 +0800
+
+    add opencc files in trime
+
+[33mcommit 7d616d7e2c19f4053a23aa95c0a8cfc2cd497009[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 9 15:16:26 2025 +0800
+
+    声笔自然和声笔小鹤取消快调模式
+
+[33mcommit 9e2d861af4c4a584c419e4016ee512f47c20df58[m[33m ([m[1;33mtag: [m[1;33m20250108[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jan 7 10:44:10 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 68d9afef10f664533ea42c437db525d23590bb9a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 5 11:36:32 2025 +0800
+
+    update dicts
+
+[33mcommit 729c2031d85d9d08e9c76a0fd77ae30d29ed8019[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jan 5 08:47:30 2025 +0800
+
+    fix errors in trime themes
+
+[33mcommit afe8dea6bb8cb3c2cefa83d8a528078d9f3e73c1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 4 17:37:06 2025 +0800
+
+    增加声笔同文皮肤里的飞简助记
+
+[33mcommit 4cfbbee9eb5f2bbccd5b156325aa13db7182bc56[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 4 17:36:37 2025 +0800
+
+    fix more bugs in auto_length.lua
+
+[33mcommit 7820893792f921dba60b6c1599b04d5bd71dca5d[m[33m ([m[1;33mtag: [m[1;33m20250104[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 4 11:27:54 2025 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 9a8cbab0f6ebeb42db050e60dc7194441db1d3f8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 4 11:09:43 2025 +0800
+
+    fix more bugs in sbfj
+
+[33mcommit 2a9d6adfa16ac1391e29306506ab9b481e61ddf9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jan 4 09:18:22 2025 +0800
+
+    fix bugs in sbfj
+
+[33mcommit 7fc484346e6d7f6d11aa53a00cadcd66e3f0b291[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jan 3 13:15:57 2025 +0800
+
+    update sbfj.extended.dict
+
+[33mcommit d2f019d4ded43193a61c8e170de5b80ca045f70b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jan 2 08:07:26 2025 +0800
+
+    fix bugs
+
+[33mcommit 442b1eb66d04955ecc8c8a04f97bcb4fc1c94e11[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 1 20:55:29 2025 +0800
+
+    add sbfj in default.custom.yaml
+
+[33mcommit 228342d6ebabe3ef0d3f9ea000a75b2086aadab0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jan 1 20:38:03 2025 +0800
+
+    增加声笔飞简方案；优化和统一飞系与简系的数标字词
+
+[33mcommit 75639b7ad50fc723c9c8877142e2c10036ce815b[m[33m ([m[1;33mtag: [m[1;33m20241231[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 31 10:09:54 2024 +0800
+
+    纠正飞系单字编码错误
+
+[33mcommit ea72c64792e078eca4fc7e198d9f65645bf1d2d8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 30 10:14:53 2024 +0800
+
+    各方案增加缺失的通规汉字
+
+[33mcommit bb46b03ab5cc0851381e2e4df2b732ed33ced869[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 28 08:36:29 2024 +0800
+
+    optimize hint.lua
+
+[33mcommit bcf8c9cd76e6bc975403c39b26717caf08b2e97b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Dec 27 10:04:15 2024 +0800
+
+    fix bugs in sbhz and sbzz
+
+[33mcommit d52d2959a292dcd33bfb4b3b7e6ae28f63ee5b24[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Dec 27 08:55:01 2024 +0800
+
+    声笔拼音加回声笔字
+
+[33mcommit 752319893b2daa1773db5db77047378816003b15[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Dec 27 07:46:40 2024 +0800
+
+    优化自整与鹤整的组合上屏方式和简码提示方式; 取消声笔拼音中的声笔字
+
+[33mcommit b48ba81f9d247a88de65c182089d7bf92a77192d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 22 09:07:54 2024 +0800
+
+    飞系中个别字的归部修改：'夔','虁','蘷'改为夂部
+
+[33mcommit c9835070d36abd9e14508cdcd0e3fbaa6ed12f70[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Dec 13 09:21:44 2024 +0800
+
+    飞系调整几个数选字：v2娾→矣，v3耦→臣，v8嗄→忠，v9鏖→诸，v0瓯→焉
+
+[33mcommit 4fa0b06e449e252fe8a3b67c34d68a3f195da3d5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 11 08:43:19 2024 +0800
+
+    飞码单字模式的词组输入增加过滤选项
+
+[33mcommit 4995457b92968af6cb08eef0f0ce7070532b7f15[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 21:22:28 2024 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 36a33d73f06bffba20f0eea5eae5fd884d7ae06c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 20:48:48 2024 +0800
+
+    optimize sbfx schema
+
+[33mcommit 3c1d14704132ed26d27630cc03c889b65347022a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 19:14:18 2024 +0800
+
+    飞讯增加速顶模式
+
+[33mcommit 6ed38568d9bc0f1307ed8ec6efa2e898098de50f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 18:00:10 2024 +0800
+
+    fix bugs
+
+[33mcommit 3c857d1a45d1d50cbc14c7546bc2c4e2360cc10a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 15:33:26 2024 +0800
+
+    飞讯单字模式时通过大写第三码支持所有字词的输入
+
+[33mcommit 596b3dc6885a15f4763ab0c2a828b40e8e1e4949[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 09:39:49 2024 +0800
+
+    飞讯增加单字模式和词组模式切换快捷键
+
+[33mcommit bc1d4a5a352d992535bcb04220df169f8cebd7b8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 10 09:25:25 2024 +0800
+
+    纠正安卓声笔版比翼主题的助记配色分号键显示错误
+
+[33mcommit ec5ffc92ab1c83a431c35d59bca8a75b0372c91f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 8 15:36:04 2024 +0800
+
+    optimize hint.lua
+
+[33mcommit fcc5ca17ea61ec2f16a52ff568061f2df695561d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 7 17:12:26 2024 +0800
+
+    消除声笔大写状态切换输入法的BUG
+
+[33mcommit 08037952c97a1cc12eceabf4deb8dc175574a0aa[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 7 15:23:52 2024 +0800
+
+    调整「腘gvia」到重码的首页
+
+[33mcommit 90a70201e66c813b5a96e73bd57f5ad33f1b17dc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 7 08:16:58 2024 +0800
+
+    数选词优化：zc0资产→早晨，飞单优化：vki嗯↔凹
+
+[33mcommit 1fb34d4b365599181a713fc0a7cf8266f06e38f8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Dec 7 07:43:55 2024 +0800
+
+    飞系单字提示兼容码
+
+[33mcommit 9ac6fa28569d4295f63d42fa452639c8c7359d4e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Dec 6 14:26:15 2024 +0800
+
+    correct errors in trime themes
+
+[33mcommit 94baa43804bd5b09b8391b22f78150e88c119421[m[33m ([m[1;33mtag: [m[1;33m20241206[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Dec 5 09:05:25 2024 +0800
+
+    调整安卓版声笔45键和46键主题下排按键的宽度
+
+[33mcommit f85d355cc42999ed1e4c1781ee762fb7bdfbfb58[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Dec 5 08:43:15 2024 +0800
+
+    飞单调整个别字的兼容码：最rq，早rqe，昨rqu，暂rqo
+
+[33mcommit 5ca0e544d5946e7177b72b39775e785fd8def0c9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 4 20:05:41 2024 +0800
+
+    飞单调整个别标点字词：昨z;i→直z;i，资源z;o→昨z;o
+
+[33mcommit 92de8ecc00a567e6c31bf1410c49ebb2484e9329[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Dec 4 08:01:05 2024 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit 1a8e776f2ae5d29168cdb989847a5eab5979c3c9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 3 18:15:16 2024 +0800
+
+    修正飞讯快顶二字词时不排除四码时的选项的错误
+
+[33mcommit e0704b4fb5410746b44c14b78f1a2ed8c4a842f2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Dec 3 12:18:22 2024 +0800
+
+    支持分号在szsb时变换为sz_sb;
+
+[33mcommit 5800706d1c696a10343c02a4a01e53c839afefc9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Dec 2 16:51:03 2024 +0800
+
+    fix bugs in schemas
+
+[33mcommit 15b98501b5b9f3c7aed76c9eb2305f42d79e75c5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 1 11:30:15 2024 +0800
+
+    update lib.lua
+
+[33mcommit 24da6a17a95e2cb396c78ae1c0fc34782a97fa2e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Dec 1 11:24:10 2024 +0800
+
+    实现自造词中废词的自动清理，可通过删除阈值来的控制删词强度，需要librime和librime-lua上游通过github仓库的PR；修正声笔简码三码起调时不排除三码字词的错误；声笔简码增加单字增强模式，以实现飞单三码字的三键输入。
+
+[33mcommit 5a30832dad3b575cb283d4612e62e6987cb5d830[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 27 07:57:42 2024 +0800
+
+    消除BUG：在single_selection和single_display时，飞系单字需要两次tab才能翻页；飞码和飞单的单字全码时重复提示单字简码和编码；飞讯三字词在single_selection和single_display时6码时就提示后码了
+
+[33mcommit e2e2a4a6fd14f5ae9559ad2ddf12e8be14ac470e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 21 20:46:31 2024 +0800
+
+    fix more bugs in hint.lua
+
+[33mcommit 0169c123391b1919acfcae5c030fb84545d9fc84[m[33m ([m[1;33mtag: [m[1;33m20241121[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 21 20:17:00 2024 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit c71ec6b7737280b56a005004c7d3d812e1e9928e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 21 18:46:29 2024 +0800
+
+    update hypy schema
+
+[33mcommit c68a1c7a2cafc91c4c9e9d4655a8228a3892fede[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 21 18:37:30 2024 +0800
+
+    update sbxlm.yaml
+
+[33mcommit a7a7d9545700b7144ace948912d164f64f7dfaa4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 21 09:47:57 2024 +0800
+
+    解决字词型法案Control+Delete触发多次删除的问题
+
+[33mcommit 05a1bf94315a5ca320cae86026bd79c9000fb0fb[m[33m ([m[1;33mtag: [m[1;33m20241116[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Nov 16 15:44:25 2024 +0800
+
+    fix bugs in schemas
+
+[33mcommit 37efb583a14c7d230b96535d3316284d2096928d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 15 20:19:22 2024 +0800
+
+    fix bugs in lua scripts
+
+[33mcommit 9aa1f541f4eecbf2d58b2c00b7858f5d7768229d[m[33m ([m[1;33mtag: [m[1;33m20241115[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 14 19:55:47 2024 +0800
+
+    fix bugs in asci_composer.lua
+
+[33mcommit 7d3d87328e09c7bd50d374f8174a38e2d4ce5721[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 14 12:59:39 2024 +0800
+
+    增加或优化各输入方案在输入非简码时的简码提示功能
+
+[33mcommit 2919ba6ddfefbe70519d59cde7480709db4c5540[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 13 20:44:45 2024 +0800
+
+    修改小狼毫的默认配色为lost_temple
+
+[33mcommit 1da6ae96d4f93a7de7230324bfd4e7de3d78e9c2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Nov 13 19:57:25 2024 +0800
+
+    update sbpy schema
+
+[33mcommit 0bdb5e692130930f46aca9058ee6f32d55088260[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Nov 12 07:03:54 2024 +0800
+
+    optimize sbjp schema
+
+[33mcommit 8415f4d172f57cc130c0477d759872e94368f538[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Nov 11 11:02:16 2024 +0800
+
+    optimize schemas
+
+[33mcommit 2d02ec57fa09a709ad2a4bd2ff73fe40635f32b2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Nov 9 06:58:40 2024 +0800
+
+    飞系增加「疋」的编码
+
+[33mcommit 04780ff6aa8561c4f07cab5ff4a66b269caa8b6c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 8 20:44:22 2024 +0800
+
+    update hint.lua
+
+[33mcommit ae8eccea97704cda3ead2918100c6ce04182cda1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 8 20:07:36 2024 +0800
+
+    update sbf.dict
+
+[33mcommit b724da36afc6f145c6d7ab78463bf694e740a911[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 8 20:01:18 2024 +0800
+
+    飞系修改和增加标点字「最z; 暂z;a 早z;e 争z;u」，以改善手感
+
+[33mcommit 89bf544c2453e4a4a0b916ea345c3d36531c169f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 8 16:16:05 2024 +0800
+
+    在增强模式的隐藏状态下仍然在全码时提示简码字词
+
+[33mcommit 9546a299510c1d1542591d056c2c9960f786a244[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 7 14:12:24 2024 +0800
+
+    纠正飞系笔画反查和声笔反查非首选项编码问题
+
+[33mcommit 30e408fc43bd2c0c8330dac05339bf67a23cac11[m[33m ([m[1;33mtag: [m[1;33m20241107[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 7 11:26:09 2024 +0800
+
+    fix bugs in yaml files
+
+[33mcommit 030e41e4a5dda038723173f5ff888bdaf636869a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Nov 7 10:46:43 2024 +0800
+
+    modify files
+
+[33mcommit 04ab73cd8f0d70e52df045e83f687542c4427c24[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Nov 5 19:07:51 2024 +0800
+
+    fix bugs in ascii_composer.lua
+
+[33mcommit bba9a01043e68ff96b6cedc8a15de8202d0f90e9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Nov 5 17:56:25 2024 +0800
+
+    fix bugs
+
+[33mcommit 8fbef58c08db95cd22f5fc16f040b49f500b1528[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Nov 4 10:16:30 2024 +0800
+
+    update sbpy schema
+
+[33mcommit 61c733b1deb4ebb9b8abc9777ef8598d653698b2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Nov 4 09:44:05 2024 +0800
+
+    消除三码时不能用1定位的错误
+
+[33mcommit 4aec6dc51d715ad65b9dfd271ecebebad2fbdde3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Nov 4 08:12:28 2024 +0800
+
+    optimize popping.lua
+
+[33mcommit 7118e96ae9fb03cc9364f0cb5383fe53dac13352[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Nov 3 18:00:17 2024 +0800
+
+    optimize the mixed mode
+
+[33mcommit 0beb937907c6ba2f10c4229ae72f2f30cf428798[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Nov 3 11:18:40 2024 +0800
+
+    optimize sbpy schema
+
+[33mcommit b6eb3fa4986f0a53ef9df045979466dc809cca25[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Nov 2 13:51:16 2024 +0800
+
+    fix more bugs in sbpy schema
+
+[33mcommit 5ca3cc6086b4cfd7f4cdb477f0053dec2f32ca03[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Nov 2 10:45:26 2024 +0800
+
+    fix bugs in sbpy schema
+
+[33mcommit fbace474f856cac4539d59cf942cfc317e04af4e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 1 19:25:17 2024 +0800
+
+    optimize the mixed mode
+
+[33mcommit 8007fcf4695ff12817c10ebfa7654646d5b73d6b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 1 15:56:55 2024 +0800
+
+    update sbpy schema
+
+[33mcommit b12126b1748bf141ea08fb3e03af4477a0320bf9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Nov 1 15:50:20 2024 +0800
+
+    optimize the mixed mode
+
+[33mcommit f81b0546be80f22ae153a19fb5cfd09765652638[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Oct 31 20:51:00 2024 +0800
+
+    update sbpy schema
+
+[33mcommit adda7418494292bb1e740d1bb4cb710ec531ca2b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Oct 31 10:18:14 2024 +0800
+
+    update sbpy schema
+
+[33mcommit 097def147aa434066172676fd5adfb2b724ec103[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Oct 31 08:03:25 2024 +0800
+
+    update sbpy schema
+
+[33mcommit 947de0ecc7c483b305ba30bec2f6a6e214bf9ec5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Oct 30 18:33:27 2024 +0800
+
+    声笔拼音和声笔简拼增加混合模式
+
+[33mcommit 6f1f5c50995ad8f4f101ab2c3ddf33d68c196406[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 27 07:23:20 2024 +0800
+
+    声笔简拼和声笔简码的简码he6由「胡」改为「坏」
+
+[33mcommit bc4eadc2c60e5f12ebda557c60f59e7958bcacc0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 20 06:53:42 2024 +0800
+
+    交换同文皮肤空格上滑和下滑实现的功能
+
+[33mcommit 1929e79a3bfb5d98ffd267a6932e5ff70fd35a42[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 20 06:48:03 2024 +0800
+
+    fix bugs in select_key_to_comment.lua
+
+[33mcommit e889ad090fb267eb1f46985b49d7891178cd3c30[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 19 18:01:52 2024 +0800
+
+    修正飞讯在single_selection和single_display时的提示错误
+
+[33mcommit b635f5843bc8271c7e35116a15b38ce0d15189d8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 19 15:21:21 2024 +0800
+
+    修正涉及bq的简词错误
+
+[33mcommit df0854ed572b7718b44cf1bd89c6539ab0586f09[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 19 15:05:43 2024 +0800
+
+    修正声笔简码的简词错误
+
+[33mcommit a162a6e50c5ef3a881d7758dd04a7db12f324de8[m[33m ([m[1;33mtag: [m[1;33m20241016[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Oct 16 07:39:43 2024 +0800
+
+    取消同文皮肤的下滑大写，以减少误触
+
+[33mcommit 8485880f583de5f040b25606001c2d1fc72393b5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Oct 7 08:24:40 2024 +0800
+
+    将方案schema中single_display默认值设置为0
+
+[33mcommit 25cfe0328873f1479d3c46c499afbf36246b644c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Oct 6 21:43:35 2024 +0800
+
+    在方案的schema里增加用下三角隐藏键盘的选项，供同文选择使用
+
+[33mcommit 1086b5454bb299dee50c39d2549e03af191c3c40[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Oct 5 10:59:03 2024 +0800
+
+    优化涉及bq的声声词和数选词
+
+[33mcommit 1e89791122d70c3265acbcc457e3e11d4ea6823b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Oct 1 11:20:57 2024 +0800
+
+    add blind typing option to weasel.custom.yaml
+
+[33mcommit c921110e0ae67095f615d44db30f6d376982048d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Sep 26 16:36:53 2024 +0800
+
+    优化声笔飞系的反查编码提示
+
+[33mcommit a526c4f319f36cb7cdc23881e31dc275f4f694ad[m[33m ([m[1;33mtag: [m[1;33m20240915[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 14 16:04:12 2024 +0800
+
+    fix bugs in fix.lua and sbjp.schema
+
+[33mcommit 8ebd9ff34d7f46fcc6d5f622689c605af98d6a8b[m[33m ([m[1;33mtag: [m[1;33m20240914[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 14 11:58:32 2024 +0800
+
+    声笔拼音取消sbb字，输入声母时提示声笔字
+
+[33mcommit 692273c6d9033ff1dfe72ec6cbf6261bd2612505[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 14 02:42:50 2024 +0800
+
+    修正飞讯增强模式下的单引号变换错误
+
+[33mcommit 68c29ed2a45cc48b316c302bf63b4253834dd518[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 14 02:30:25 2024 +0800
+
+    在popping.lua中支持ignore策略，并修正飞讯增强模式下的分号变换错误
+
+[33mcommit 9e2c99c7f417e696488b8aa9a9b9079557593df5[m
+Author: Time-linux <ls5474364@gmail.com>
+Date:   Thu Sep 12 17:11:01 2024 +0800
+
+    fix-sync
+    
+    修复同步时文件占用
+
+[33mcommit ecd88fad776bfba903f02aa5233efba7f3d7cb4b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Sep 11 02:21:51 2024 +0800
+
+    correct errors in editor.lua
+
+[33mcommit 75042b9668e16efc88df5fbd130b4af99970e1d2[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Sep 10 19:15:16 2024 +0800
+
+    拼音和简拼强顶模式修正bug：在有部分确认字词时，三字及以上词补码不合预期
+
+[33mcommit 0715a58f5b2f777958d02257f8622b2508cb9a07[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Sep 9 18:49:53 2024 +0800
+
+    飞讯修正bug：vwMe之类不出词
+
+[33mcommit 3e708885e1878ffa07ddd3a87779eba70ed8323c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Sep 9 07:55:04 2024 +0800
+
+    取消声笔拼音和声笔简拼的混顶和纯顶，并将强顶改为顶功
+
+[33mcommit 2d9e0c76a411a387b9b4934c3840454026d9fda1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Sep 7 07:02:53 2024 +0800
+
+    修正sbpy.schema中的瑕疵
+
+[33mcommit ed9a1d072ed202c8c003e39de9cf6a41765ac187[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Sep 4 10:02:20 2024 +0800
+
+    声笔双拼达到最大补码长度时禁止继续补码
+
+[33mcommit 8025a756dfa61d627c3f80f46f3462546b8a4c30[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Sep 4 09:32:09 2024 +0800
+
+    fix bugs in sbfx
+
+[33mcommit 61d4e3c13802cfd963ead438b4ccfc4a11bbc84c[m[33m ([m[1;33mtag: [m[1;33m20240901[m[33m, [m[1;33mtag: [m[1;33m20240830[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 30 10:43:19 2024 +0800
+
+    声笔简拼的笔画数限制由4改为5
+
+[33mcommit 12adc2340e0a9257327e963a29395eadda59bdb5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 30 09:07:18 2024 +0800
+
+    限制声笔拼音和声笔简拼的单字码长
+
+[33mcommit 6cac8f2b9b68ab0788b51aba9442edb4ca2cea93[m[33m ([m[1;33mtag: [m[1;33m20240827[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 20:49:07 2024 +0800
+
+    fix bugs in editor.lua
+
+[33mcommit 5d6eea62d6eb220ad3c868e183f9a3197307dbc9[m
+Merge: 417bfdb 3747d4d
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 11:59:11 2024 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit 417bfdb91308953d15564c66b12800081997edb7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 11:58:34 2024 +0800
+
+    update sbxlm.yaml
+
+[33mcommit 2e6da6fc5abbcdf40fef51587e3238683c235cd6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 11:53:32 2024 +0800
+
+    在composing时用Shift+BackSpace来模拟Escape
+
+[33mcommit 3747d4d30e5924ac4a14cc07275fb2772a759e29[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 11:53:32 2024 +0800
+
+    在composing时用Shift+BackSpace来模拟Escape
+
+[33mcommit e82703037210c3dd8120f651b8b6b79866f49b04[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 26 10:08:23 2024 +0800
+
+    修正字词型方案中「禵」的读音（zhi→ti）
+
+[33mcommit 23ca4528b7ab173ddd4a60f1cdf406f243234b84[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Aug 25 09:03:34 2024 +0800
+
+    通过扩大编码空间来增强声笔拼音和声笔简拼的补码能力
+
+[33mcommit 73d64a426cb07806063e824502412ab586336975[m[33m ([m[1;33mtag: [m[1;33m20240824[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 22 18:47:43 2024 +0800
+
+    优化声笔拼音、声笔简拼和声笔简码的数标字
+
+[33mcommit fc32ac97e49df4367633bfffaf3525982def5037[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Aug 22 06:59:48 2024 +0800
+
+    修正字词型方案中「莋」的读音（ji→zuo）
+
+[33mcommit 04a047e9078c50f104d1a8d1fc8c6bc7df3e6940[m[33m ([m[1;33mtag: [m[1;33m20240821[m[33m)[m
+Merge: 2e89b28 ce71211
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Aug 18 05:14:04 2024 +0800
+
+    拼音和简拼达到最大补码长度时禁止继续补码
+
+[33mcommit 2e89b2806e48016d8eea65176164bf10cc3d26bd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Aug 18 05:09:31 2024 +0800
+
+    拼音和简拼达到最大补码长度时禁止继续补码
+
+[33mcommit 3d7b1c052025859def9895c438c73c282190e09d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Aug 17 08:32:37 2024 +0800
+
+    修正拼音和简拼达到最大补码长度时若退格则光标位置不回到尾部的错误
+
+[33mcommit ce71211d779626df46a048c4ec0bb13d3f600d46[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Aug 17 08:32:37 2024 +0800
+
+    修正拼音和简码达到最大补码长度时若退格则光标位置不回到尾部的错误
+
+[33mcommit f39a508d88cdb22723c8c6cfc076205db262c395[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Aug 12 17:27:11 2024 +0800
+
+    修正声笔拼音的默认输入状态
+
+[33mcommit f3bd97dd9bf2356bfba7a80af7c2915ee52b38fc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Aug 10 07:20:46 2024 +0800
+
+    调整标点字词的提示顺序
+
+[33mcommit e2b6e49f43cdbdc978424e73ebc3e3f2317efab8[m[33m ([m[1;33mtag: [m[1;33m20240809[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Aug 9 08:49:27 2024 +0800
+
+    声笔拼音和声笔简拼增加标点固定字
+
+[33mcommit 829c9ba2fccaacad033fcded73552eaea6e9af90[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 29 09:14:23 2024 +0800
+
+    优化声笔飞码的组合变换，实现szszbb;变换为sz_szbb_；优化声笔简码的组合变换，sssn变换为s_ssn而不是ss_sn
+
+[33mcommit b05888fe102d10cda4013610064d18e370781584[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 29 08:10:02 2024 +0800
+
+    change 遨游四海求其皇 with 遨游四海求其凰 in dicts
+
+[33mcommit ac7ef7ffe9f50969444a7a7d8f6bbaa63fc041f1[m[33m ([m[1;33mtag: [m[1;33m20240712[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 12 08:15:08 2024 +0800
+
+    release sbsrf version 20240712
+
+[33mcommit 8df8281fdbc5956cf27813a8322e3c7c6298f2e3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jul 9 17:22:56 2024 +0800
+
+    update sbjm dict
+
+[33mcommit 363908f26a035b216e6fcedc29fea56771391d57[m[33m ([m[1;33mtag: [m[1;33m20240709[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 20:14:14 2024 +0800
+
+    update sbxh and sbzr dicts and schemas
+
+[33mcommit b2d6df9658921e968d76ce7a62f50591a5bdcb1c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 12:12:59 2024 +0800
+
+    飞系单字「囧」调整到首页
+
+[33mcommit 5a8de036b6493d5fa24077a3b1186c66b2fc5aa4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 10:17:07 2024 +0800
+
+    fix bugs in select_key_to_commnent.lua
+
+[33mcommit fc664b943991b3f3085e52a54b87df48b16fdf7f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 09:29:56 2024 +0800
+
+    update sbzr.schema
+
+[33mcommit 19bc058ae3c2218acb5415d58e611c418f0d1134[m[33m ([m[1;33mtag: [m[1;33m20240708[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 08:55:12 2024 +0800
+
+    声笔自然和声笔小鹤：优化快调模式单字初始频率；消除单字无法输入扩展编码的错误
+
+[33mcommit 12216dcce19af3406b4e8e4684d71fc01cc93804[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 08:36:54 2024 +0800
+
+    fix more bugs in ascii_composer.lua
+
+[33mcommit e544f1377dab62ee536d3842528a9c2b957d6c8d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jul 8 08:23:48 2024 +0800
+
+    fix bugs in ascii_composer.lua
+
+[33mcommit 493196e98a80016df866d1ef44861e5e9db99a11[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 7 17:32:03 2024 +0800
+
+    fix bugs in schemas of sbzr and sbxh
+
+[33mcommit 7cadd95fa302c279c6f1ce2a8957c373a50f57ed[m[33m ([m[1;33mtag: [m[1;33m20240707[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jul 7 08:42:14 2024 +0800
+
+    纠正声笔自然和声笔小鹤快调模式无效的错误
+
+[33mcommit d8b3610dd123cf8b30e3d5378c132cd7ca23d0ed[m
+Merge: 57cf9ae f8a4274
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 6 20:22:34 2024 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit 57cf9ae31a9c409ca1b17aa4264101d825dae38b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 6 20:19:04 2024 +0800
+
+    声笔自然和声笔小鹤支持增强模式和标点字词
+
+[33mcommit ff73c65949ac47e5d833ab7710481752adbd23fe[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jul 6 20:18:48 2024 +0800
+
+    声笔拼音完全采用声笔简拼的固定字词
+
+[33mcommit f8a42743aa86af3114ad5149bdf80c03e19e6228[m[33m ([m[1;33mtag: [m[1;33m20240706[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Jul 5 22:17:35 2024 -0400
+
+    Add script for making snapshot
+
+[33mcommit 800f5d28766b8d4e024a6fe00f8586653cf12941[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 5 18:37:24 2024 +0800
+
+    纠正声笔拼音和声笔简拼在强顶模式下四码后大写声母不能作为编码的错误
+
+[33mcommit 2540c0d3e76344c2685d0a8a5b62c549466f87bf[m[33m ([m[1;33mtag: [m[1;33m20240705[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 5 09:19:10 2024 +0800
+
+    fix bugs in lua scripts and yaml schemas, and optimize sbpy.fixed.dict
+
+[33mcommit 967e01017e5cc80f6caba43059663e05a5d3bb1d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 5 06:02:36 2024 +0800
+
+    优化声笔拼音固定字的编码
+
+[33mcommit 204624a5164df4a23822f6738680f9c547943424[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jul 5 06:01:51 2024 +0800
+
+    fix bugs in lua scripts
+
+[33mcommit d26b89729841834cd3ef61855691b380b26c5d1c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 4 18:07:05 2024 +0800
+
+    声笔拼音、声笔鹤整和声笔自然单字全码由5码改为6码
+
+[33mcommit 2a26e561ed4264259cc60bbef70c35c08b36967c[m[33m ([m[1;33mtag: [m[1;33m20240704[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jul 4 00:52:12 2024 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 74b3cb84fb9decbd02da1b0bb5bfa4a8acd8d140[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 16:42:51 2024 +0800
+
+    fix bugs in ascii_composer.lua
+
+[33mcommit 6ba69e1036edbcd4934e05c83a5d7211cb738d0a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 12:55:22 2024 +0800
+
+    声笔飞码、声笔自然和声笔小鹤的单字模式支持用sSss分流多字词
+
+[33mcommit 49382e49e25e2cb3bd00a17c001e1b08a1b5d20f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 11:10:25 2024 +0800
+
+    fix bugs in lua script and sbfm schema
+
+[33mcommit 92d11b681863ffa9c2c39802cc097b0ac6659154[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 11:05:47 2024 +0800
+
+    Revert "优化声笔飞码、声笔小鹤和声笔自然单字模式的词组输入"
+    
+    This reverts commit 3dff8c15b6b6d71095cb4cabd7e66a9da9eba9da.
+
+[33mcommit 3dff8c15b6b6d71095cb4cabd7e66a9da9eba9da[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 10:59:00 2024 +0800
+
+    优化声笔飞码、声笔小鹤和声笔自然单字模式的词组输入
+
+[33mcommit cbc91c2771dac41a488fdd4df2a2a574830167ae[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 07:41:54 2024 +0800
+
+    飞单支持大写第四码顶屏
+
+[33mcommit cfe8237e7f6421ed4e5d479dc800199ddde0ff20[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jul 3 07:40:44 2024 +0800
+
+    优化简系的数选字且不再兼容飞单
+
+[33mcommit 2c73a93d2d80713e37c52bf5ca8240c9bcd73a15[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 30 17:53:20 2024 +0800
+
+    fix bugs in popping.lua
+
+[33mcommit 3baf4539639c05d76ebc8fce29d5807eb1a3f8d0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 30 16:42:10 2024 +0800
+
+    消除ascii_composer.lua中的BUG
+
+[33mcommit 5ee1152957971de802ab3c906bbf11fb8b0fac7a[m[33m ([m[1;33mtag: [m[1;33m20240630[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 30 08:14:33 2024 +0800
+
+    fix bugs in sbfm and sbfx
+
+[33mcommit 860dbc603319892109f429325dd1365d8ddadd7a[m[33m ([m[1;33mtag: [m[1;33m20240629[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 29 09:58:43 2024 +0800
+
+    update sbfd and sbjm dicts
+
+[33mcommit 4a7504fbd5d0e0ff7401b1e54b59d434a5623818[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 29 08:50:34 2024 +0800
+
+    remove sbfj and sbjf
+
+[33mcommit 85c13d9970af044c0e2480433742bb606cec7d3c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 29 08:07:59 2024 +0800
+
+    fix bugs
+
+[33mcommit 4e893df2cf4cee83a5c9884c92fddd0801334a5b[m[33m ([m[1;33mtag: [m[1;33m20240628[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 28 14:08:46 2024 +0800
+
+    增加飞简方案
+
+[33mcommit 0ee682a9b8fdceda65516e4cd15d4d6552873bba[m[33m ([m[1;33mtag: [m[1;33m20240627[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 27 11:52:11 2024 +0800
+
+    提示行直接显示大写编码
+
+[33mcommit 2a392ccf08625bfd7cac05fb08f5249a8321659d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 27 07:49:49 2024 +0800
+
+    飞讯支持用ssSbbbb输入三字词
+
+[33mcommit 40e8f0c1156b6e5b76f65bca44114f8240467d78[m[33m ([m[1;33mtag: [m[1;33m20240626[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 26 07:12:01 2024 +0800
+
+    字词方案补充尚缺的通规字
+
+[33mcommit ae7b8f711792f12692c88072e06a6c667c54aeb9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 25 11:38:04 2024 +0800
+
+    update datetime.lua
+
+[33mcommit 36a58320477f2a96e807331f8801426c379dd2c7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 19 07:40:17 2024 +0800
+
+    update hzinfo
+
+[33mcommit d79edf56d322aa5cf5fd3256b25bc71bbbad5b65[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 15 11:02:44 2024 +0800
+
+    update sbfx.schema
+
+[33mcommit 874627c82403e7f196e602f6ff5beca690bbce98[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 15 10:40:54 2024 +0800
+
+    优化飞码和飞讯组合变换
+
+[33mcommit 6db1a724aab82a9e893e8a8bf69111545153ec01[m[33m ([m[1;33mtag: [m[1;33m20240615[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 12 18:24:32 2024 +0800
+
+    update auto_length.lua and sbfx.schema
+
+[33mcommit 0e4149e4d63460ac73b58e98032f1a2a184e8953[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 12 10:34:48 2024 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 75546cc89dd49ea8163e19d4996e221d27ad472e[m[33m ([m[1;33mtag: [m[1;33m20240612[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 12 08:19:54 2024 +0800
+
+    update sbfm and sbfx dicts
+
+[33mcommit 982bdcd61df655f46c5b432b7cf4f9e8b5394905[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 12 07:29:26 2024 +0800
+
+    correct errors in dicts
+
+[33mcommit f8f7e7c0d4af6ec0eb9c1e6b2acf6a26151af41c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 12 06:54:38 2024 +0800
+
+    update dicts
+
+[33mcommit 6c82c594e81ae22c306d12445f804490ce2179c4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Jun 11 08:11:25 2024 +0800
+
+    优化数选顶屏
+
+[33mcommit 2e62da74dc28035ed71f2d79d095e72c04e2b75c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 10 17:59:52 2024 +0800
+
+    优化飞系的反查提示编码
+
+[33mcommit 1e8734af78b23d7f34ab31c732b178b3f5762d40[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 10 11:22:29 2024 +0800
+
+    解决声笔简拼单引号定位失效问题
+
+[33mcommit 66922f1da5f64098a6f86025f7503109468a922d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 10 11:22:04 2024 +0800
+
+    optimize lua scripts
+
+[33mcommit ae7b8b586952b3d5c348ce230309d858abf3ed51[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Jun 10 07:30:01 2024 +0800
+
+    增加单字模式快捷键
+
+[33mcommit 412a9cebf2c2eb2b7f67f3216748fec9b7394ff0[m[33m ([m[1;33mtag: [m[1;33m20240609[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 9 09:20:18 2024 +0800
+
+    remove upper_case.lua
+
+[33mcommit a4e3fc1f01b6390c9ed4f1ac8e49d36addd43585[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 9 08:17:09 2024 +0800
+
+    update sbfx.schema and sbf.dict
+
+[33mcommit df506358a2019a00f86ad988faf08cbf89a89739[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat Jun 8 16:29:49 2024 +0800
+
+    解决冰雪与声笔的lua冲突问题
+
+[33mcommit baaafff01415abccc69dd04995cffab5f0d7229c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 7 22:27:59 2024 +0800
+
+    纠正「嗤」字的笔画错误
+
+[33mcommit 3c463aa6ffd666ab7b84e3a8dc72c94e618e34c6[m[33m ([m[1;33mtag: [m[1;33m20240607[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri Jun 7 15:19:49 2024 +0800
+
+    update dicts
+
+[33mcommit d81e12dbd8d0af898a8058d83d6e59aacbee7477[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 6 17:00:55 2024 +0800
+
+    update dicts
+
+[33mcommit 7dc98af076b5dd5c7e7c2068872f6a84b9e59d16[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 6 11:36:14 2024 +0800
+
+    update lua and dicts
+
+[33mcommit 5c35379c3d20b2ba7f7e384e5614fc624cb38a74[m[33m ([m[1;33mtag: [m[1;33m20240606[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu Jun 6 08:04:52 2024 +0800
+
+    update dicts, lua and schemas
+
+[33mcommit 2aaba4f122e23eab08733d9cdd958b8dbcd99656[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed Jun 5 08:45:48 2024 +0800
+
+    update dicts and lua
+
+[33mcommit 8ad2cc000392c88bd5651552037bb5dcef358af3[m[33m ([m[1;33mtag: [m[1;33m20240602[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 2 09:22:11 2024 +0800
+
+    update hint.lua and sbjm
+
+[33mcommit b6ce77971897d226975f1e961bf577ab09fb83bc[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun Jun 2 07:28:48 2024 +0800
+
+    简系和飞系增加标点字词
+
+[33mcommit 81a342ed34d19a207769706a9989bdb1f7c05f40[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 31 00:07:53 2024 +0800
+
+    修正声笔简码在非隐藏级别时不提示飞单三简字的错误
+
+[33mcommit c0e20e1aeae8830f65d3fbb4f46bf493590a28c4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 30 23:43:54 2024 +0800
+
+    快顶模式下仍然支持szsbb输入词组
+
+[33mcommit a3babe73464c5fc0c615f5c995f7bd4600bd6edd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 29 17:51:04 2024 +0800
+
+    支持飞系反查词组时提示编码
+
+[33mcommit 71d9b3bd289a9cb9b5720cc05cedf0d8a8390489[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 29 17:48:35 2024 +0800
+
+    fix errors in sbjm.extended.dict
+
+[33mcommit acfdb20aea3c9ab695e2d01759a2d00897045f05[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 29 16:42:55 2024 +0800
+
+    add more entries to sbzdy.txt
+
+[33mcommit 1c37bdee491152e2a60535893c025abdacfc1774[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 29 11:17:17 2024 +0800
+
+    更正飞单中「赣」的部首，由「立」改为「音」；优化字词型方案的词组编码，特别是数选词
+
+[33mcommit b78eeb5a23c19d2697f53e0144775fe6d946caa9[m[33m ([m[1;33mtag: [m[1;33m20240528[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 28 10:57:47 2024 +0800
+
+    delete sbpy.custom.yaml
+
+[33mcommit f5329149de02d5b56c10abd23da89586e74cca4b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 28 05:52:37 2024 +0800
+
+    优化sb'自定义字词的上屏方式
+
+[33mcommit 138b5df8e07c39e8728aed0222456cdfeaf84c31[m[33m ([m[1;33mtag: [m[1;33m20240526[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 26 08:59:51 2024 +0800
+
+    update trime themes
+
+[33mcommit c4c291ba70e02e96d7caf12c663f9b97feec9ccb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 26 08:59:36 2024 +0800
+
+    修改声笔简飞sp词的编码规则
+
+[33mcommit 6b939fa14a1e9685d91bba3e0fd5c9d1ddd08094[m[33m ([m[1;33mtag: [m[1;33m202405025[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 25 15:42:17 2024 +0800
+
+    优化声笔简码和声笔简拼的个别数选字
+
+[33mcommit bf6da701ff79c9eed8fb1ce4bf6c9eb33f74a34d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 25 11:56:32 2024 +0800
+
+    优化个别声声词，数选二字词
+
+[33mcommit 52c8de646c8faef521aa360947fe5686a5cab770[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 25 11:02:25 2024 +0800
+
+    update sbjp.schema
+
+[33mcommit 164034d9787ccbe73cbc078cd6d8d822cf87aa44[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 25 10:15:55 2024 +0800
+
+    优化数选二字词
+
+[33mcommit 16e581ce7aa90f693c166b954efb1fff5bb73b3a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 25 10:09:25 2024 +0800
+
+    修正声笔拼音和声笔简拼有些固定词提示不全的错误
+
+[33mcommit 5c386d5fcd5a09eaa7089ff42e31250f6ed3c924[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 22 07:27:02 2024 +0800
+
+    optimize hint.lua
+
+[33mcommit c8343ecad9c4b92c0391ee5df1dc923512f74e56[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 21 18:33:10 2024 +0800
+
+    飞系若提示为隐藏解级别，输入三个声母时不提示声笔字
+
+[33mcommit d68a6751174cfd0d0e4dafb05349686f1ae79b5d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 20 09:15:28 2024 +0800
+
+    update sbfx.schema
+
+[33mcommit b0793ce4e429b087d2de35dec81f7d6cb2c2cfa5[m[33m ([m[1;33mtag: [m[1;33m20240520[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 20 07:00:13 2024 +0800
+
+    update dicts
+
+[33mcommit d1e6b90779000786d92b28ef4deaf52093e8978e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 19 13:19:31 2024 +0800
+
+    纠正飞系「臻」的部首，由「一」改为「禾」
+
+[33mcommit da46c849f94c5a761f1bf3e0493060e267345acf[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 19 11:43:42 2024 +0800
+
+    优化数选二字词，不收录一简字和声笔字的组合
+
+[33mcommit ab136da26eb5a38f6f3712490807906fd267d2ad[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 19 07:40:27 2024 +0800
+
+    3.声笔拼音和声笔简拼在组合变换时不造词；4.优化简系固定字，取消标选单字
+
+[33mcommit 802d0191d4cec08ca137cce6297efa4a9ee2f91a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 18 08:39:52 2024 +0800
+
+    fix bugs in sbjm schema
+
+[33mcommit 3f96c4885cf8e6a2007a94590ce58636ef3a855f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 17 15:06:47 2024 +0800
+
+    1.修正声笔简码条件顶屏错误；22.修正声笔小鹤词典错误
+
+[33mcommit b350b5e83e12652853e1d0d7bf489e72a101b0ed[m[33m ([m[1;33mtag: [m[1;33m20240516[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 16 08:16:50 2024 +0800
+
+    update sbpy.schema
+
+[33mcommit f6ddb0ff2c92e6c62745c7b1352a1d24a0824832[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 15 19:02:21 2024 +0800
+
+    解决简繁转换后不提示选择键的问题
+
+[33mcommit 2b38e312827a18127736929a8f149579b7c44845[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 15 10:48:02 2024 +0800
+
+    修正从字词型方案切换到整句方案后，在输入声母后翻页时跳回首页的错误
+
+[33mcommit 33f67bf989930aa0723446b204bd5dff799021da[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 14 17:50:46 2024 +0800
+
+    支持声笔飞系缩减码数字变换
+
+[33mcommit 29e7d98be601727364a00c1f38b7ce6b4701ad1b[m[33m ([m[1;33mtag: [m[1;33m20240514[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 14 11:51:38 2024 +0800
+
+    fix bugs in sbjf
+
+[33mcommit aa7678cb34beaa80211ea524ea4043cbec62fb93[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 14 08:05:07 2024 +0800
+
+    update sbf.dict and sbfx.schema
+
+[33mcommit 46285a4651d0f7c1b6ce9f7d7570f8d85df13327[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 14 07:26:08 2024 +0800
+
+    支持声笔飞讯缩减码数字变换
+
+[33mcommit 925b4ad03332fae8a13d36c72f75c5d2b94601b9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 21:27:53 2024 +0800
+
+    fix bugs in trime themes
+
+[33mcommit 06010e189c135b76c3475d942ffa43a83abadc41[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 19:53:06 2024 +0800
+
+    fix bugs in word deletion and recreation
+
+[33mcommit d6717477366e909bbadccc8ceb62b29ec0f0286b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 13:49:35 2024 +0800
+
+    update dicts for sbjm and sbjp
+
+[33mcommit 0f474b2f692f9ce0a134034d6733583014aafb14[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 11:41:31 2024 +0800
+
+    fix errors in sbjm.dict
+
+[33mcommit 909964c129bbef20af2798cb6c13f4eb8b38814c[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 11:17:42 2024 +0800
+
+    fix errors in sbf.dict
+
+[33mcommit f692b34f17bf2f2bcc61b42aa906dd69bae45ce0[m[33m ([m[1;33mtag: [m[1;33m20240513[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 08:14:03 2024 +0800
+
+    update hamster themes
+
+[33mcommit cb53ef5fd6ac7f324c6c0379f9f78744f963239b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 08:13:04 2024 +0800
+
+    update hint.lua and sbzdy.txt
+
+[33mcommit b41e48e89a42a61def2912822cf4836c304fdb60[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 13 07:30:23 2024 +0800
+
+    improve sbjf
+
+[33mcommit 4825613969b45c562024740b7c804b04a5aa3d7d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 12 19:27:37 2024 +0800
+
+    add sbjf
+
+[33mcommit 3fde625f84ac0351ce01fb9c52009bbabbc5ede3[m[33m ([m[1;33mtag: [m[1;33m20240512[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 12 08:51:57 2024 +0800
+
+    update auto_length.lua
+
+[33mcommit 7f509927d5fe905dedcf6375c6656a1b71ffc4a8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 12 07:16:17 2024 +0800
+
+    修正「仦」和「哋」的读音错误
+
+[33mcommit 0b03b4db4c282ce9b456716072351589b0293600[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 11 20:53:37 2024 +0800
+
+    optimize sbjm
+
+[33mcommit e67eab95ac55091a57905c56080d73725d45cfff[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 11 14:29:14 2024 +0800
+
+    fix errors in sbjm and sbjp dicts
+
+[33mcommit 2e067172c6f03a39257b4f262df95346e6c2f4b0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 11 13:55:03 2024 +0800
+
+    fix errors in sbjm.dict
+
+[33mcommit e0dcc0545d926c6a21271adcf316dc8e555d8129[m[33m ([m[1;33mtag: [m[1;33m20240511[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 11 10:42:37 2024 +0800
+
+    optimize sbjm
+
+[33mcommit 04f44a0ecedce57efa84eebe98cbf9083bdad306[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 11 06:40:27 2024 +0800
+
+    声笔同文比翼主题增加两个配色
+
+[33mcommit a4ffdc2463658dc50812895f4d17943c51a33dff[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 20:35:28 2024 +0800
+
+    fix wrong file
+
+[33mcommit 5579e616c9d26e28df7f89ee3f88c5d74b3800f7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 20:33:44 2024 +0800
+
+    fix bugs in sbfd.dict and auto_length.lua
+
+[33mcommit 3541d546d8bea8f16be8953774a26c91bc2d61da[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 19:35:34 2024 +0800
+
+    fix bugs in sbjm.dict
+
+[33mcommit 73fde808e80bb11a5621263289466ab6a4363cb0[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 19:25:15 2024 +0800
+
+    优化简码和简拼的数选字
+
+[33mcommit 2b6601afde93e78fac579bbd72bdfa8941af95ad[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 17:43:23 2024 +0800
+
+    improve hint.lua
+
+[33mcommit 0e7d80c1e6314de6461e5fd1ac1ce392d96438ef[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 17:42:43 2024 +0800
+
+    remove fast_char mode
+
+[33mcommit 85b8b1889f927243c5a5f78c021b375f846a967e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 15:25:08 2024 +0800
+
+    fix bugs in word creation for sbjm
+
+[33mcommit 301d1d375e6d1643b8a0e7244c292a5d653a783b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 15:23:59 2024 +0800
+
+    用飞单增强简码，采用s1s2p2b2b1b1方式编码的二字词
+
+[33mcommit 08299a51eecb5eb22b9db3a416e43b68c820e83d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 10 15:22:44 2024 +0800
+
+    优化声笔简码的数选字，并增加s[;']字
+
+[33mcommit 7ae7bda714daa670e118eab18a0b9401f08bedc8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 9 06:53:02 2024 +0800
+
+    声笔简码修正sbjm.extended.dict中多字词编码错误，三顶时多字词编码不提示最后的声母
+
+[33mcommit be6f3bfb4fa7a6db2b25054fb81548f29c1d88d3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 9 06:52:41 2024 +0800
+
+    字词型方案：增强隐藏状态下，在正码时不提示数选字词
+
+[33mcommit a32aa3c566fcf6a1c9330c6271bcb82511944802[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 8 15:20:29 2024 +0800
+
+    update trime
+
+[33mcommit ce289eec1719d413fbdabafe15142f1c96ec8e73[m[33m ([m[1;33mtag: [m[1;33m20240508[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 7 10:40:47 2024 +0800
+
+    improve number.lua
+
+[33mcommit cf6924afdbf21e599a06ae00fff3be9d3095b27b[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 7 09:19:12 2024 +0800
+
+    optimize number.lua
+
+[33mcommit 1631983832b5f0ac925a0959e09eff9ff3973a93[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 7 08:48:43 2024 +0800
+
+    fix bugs in number.lua
+
+[33mcommit 3b27be31747fb1f14e4ab22050ac65efc39e92f9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue May 7 06:52:41 2024 +0800
+
+    fix bugs in selector.lua and sbhz.fixed.txt
+
+[33mcommit ac926bc73c18a2304705aa78c3b09d1a7c5ee67a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 17:24:23 2024 +0800
+
+    rename sbsrf.ico to sbxlm.ico
+
+[33mcommit 3cbc5c4513436ceccf441ee5635670d897a28dbe[m[33m ([m[1;33mtag: [m[1;33m20240506[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 14:05:10 2024 +0800
+
+    优化o引导的lua脚本候选项及其选择方式
+
+[33mcommit 4e9d33f796baa00b01c0a730e8564f798b23e2b8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 11:07:00 2024 +0800
+
+    fix bugs in selector.lua
+
+[33mcommit e286344a5e70aaff03b4e5f57822d7895387a344[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 10:36:32 2024 +0800
+
+    fix bugs in trime themes
+
+[33mcommit d87ead858190089c6d45fa69fce263b5683fadf8[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 10:32:39 2024 +0800
+
+    fix bugs in ascii_composer.lua
+
+[33mcommit 8b1be623aeaad1186a199d480d027c6710a48beb[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon May 6 07:49:10 2024 +0800
+
+    支持声笔飞码打空时用单引号快捷造词
+
+[33mcommit 1d71ea9451ffe4fe0004e471003261e6c8dd0ec3[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 5 14:21:36 2024 +0800
+
+    支持声笔双拼在码长5以上时，单引号进入打空造词
+
+[33mcommit c1540331fb500c762c0838bb5b7f15f535a2f582[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 5 14:01:41 2024 +0800
+
+    update lua script and sbjm.dict
+
+[33mcommit 344c94224166dc36d3a9f59651c20b03f5aea9b9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 5 09:06:52 2024 +0800
+
+    add sbsrf.ico
+
+[33mcommit a7a410a020366c3c0bccfbea61870a2c722eca89[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 5 08:51:54 2024 +0800
+
+    声笔简码正码时提示一二简数选字词
+
+[33mcommit b2e29be22d3b1ed23c85628cc742c8dac54f6e55[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sun May 5 08:51:11 2024 +0800
+
+    为声笔小狼毫增加声笔图标
+
+[33mcommit c6988f692681e64a3290dcc9300e6fe95209b6f6[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 20:49:59 2024 +0800
+
+    use = to lead the calculator
+
+[33mcommit ec2f899502a5ab5ef750c599c64ae2c8031f54ce[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 20:05:18 2024 +0800
+
+    fix bugs in select_key_to_comment.lua
+
+[33mcommit a2cb7e9a08d6ec8538cdc39b6c0f5ad850ba258f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 12:09:39 2024 +0800
+
+    optimize key bindings in sbhz and sbzz
+
+[33mcommit 9abfa8df9489b30ca5824db47e5fdbe2e27c9ac1[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 11:56:02 2024 +0800
+
+    do not display is_hidden status in sbhz and sbzz
+
+[33mcommit d9c337e2603798de93c6f5c522995fca6d5707f4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 11:20:54 2024 +0800
+
+    fix bug in select_key_to_comment.lua
+
+[33mcommit 4d9aab1c795f65a4783d55cf3880bdbc86038fa5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 10:36:27 2024 +0800
+
+    update select_key_to_comment.lua and sbzdy.txt
+
+[33mcommit 8a7c8739d904bc0cc3e487e01c5fbd1684c12596[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 10:35:45 2024 +0800
+
+    add hamster themes
+
+[33mcommit 4d87325a1fe29d637ef36d2627eebac8270f9c52[m[33m ([m[1;33mtag: [m[1;33m20240504[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 08:47:36 2024 +0800
+
+    improve input of puncts
+
+[33mcommit 3e7969aca396116dd5d02e1f7715256a5603a545[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 08:03:10 2024 +0800
+
+    fix bugs in selector.lua
+
+[33mcommit cfdc3aa7170cfa06c0e42c2f2ec6463d4e66bb5f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 07:41:55 2024 +0800
+
+    支持字词型方案在反查时通过数字来选择重码
+
+[33mcommit b549b353ace7b72770e77e2d01796b3c9081b83e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Sat May 4 06:13:26 2024 +0800
+
+    update trime themes
+
+[33mcommit d858381d32a3f5f4f1c32d4fb5fa073624221094[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 3 12:34:01 2024 +0800
+
+    update sbjm schema
+
+[33mcommit da37f5b970a11a277c8ce6eea97863f761ec16f5[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Fri May 3 07:31:54 2024 +0800
+
+    update trime themes
+
+[33mcommit 87e266b80b05b926e89b3b11f0006070dea3492b[m[33m ([m[1;33mtag: [m[1;33m20240502[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 2 18:04:22 2024 +0800
+
+    update trime themes
+
+[33mcommit 7781312c150dc36aa8bf8553c70dbe88e4dc34f9[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 2 17:51:26 2024 +0800
+
+    optimize word creation in sbjm
+
+[33mcommit 212541871cfd6557b7ee7fde9eb233cb57371b5d[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Thu May 2 08:19:59 2024 +0800
+
+    update lua scripts
+
+[33mcommit e8f631c4b53018ddfaeeb81e29bac4b57cdbda0e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 1 20:48:44 2024 +0800
+
+    update trime themes
+
+[33mcommit 6be228829b1fac2782f0f78712d0a49f81fdac4e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 1 20:23:00 2024 +0800
+
+    update trime themes and auto_length.lua
+
+[33mcommit 2eb1fc9923d580740569b82f45646ebbfbc2d3b4[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 1 11:54:36 2024 +0800
+
+    fix more bugs in sbfx and optimize number popping
+
+[33mcommit 9e09ac30274e84e46fef1c9d979dcb75f87e78cd[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Wed May 1 10:42:36 2024 +0800
+
+    fix bugs in sbfx
+
+[33mcommit 4e03c13f0524815178188b4c94d05df7a1e84e6a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Apr 30 11:04:51 2024 +0800
+
+    fix bug in paging
+
+[33mcommit 9f073615a557654ac930923ab06b9e13147d364e[m[33m ([m[1;33mtag: [m[1;33m20240430[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Tue Apr 30 06:57:54 2024 +0800
+
+    fix more bugs
+
+[33mcommit 9f6a031a7fd7b0966ecfb7888756cc6858f88c54[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Mon Apr 29 13:21:51 2024 -0400
+
+    Fix #66
+
+[33mcommit 20d250d657d5164578f1cbe9b008ffbadc2901a3[m[33m ([m[1;33mtag: [m[1;33m20240429[m[33m)[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 17:40:29 2024 +0800
+
+    fix more bugs
+
+[33mcommit 3dd8c533bd423128604955031b1aa06889d51b0f[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 14:32:21 2024 +0800
+
+    fix bug in select_key_to_comment.lua
+
+[33mcommit 864971d45cfdd4d9ce4c857c5a4382b44cf9edb7[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 13:31:01 2024 +0800
+
+    fix bugs in auto_length.lua
+
+[33mcommit 98655a421ce81757b4716c88536934526315370a[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 12:56:13 2024 +0800
+
+    fix bugs in trime themes
+
+[33mcommit 663e8d390c030b18abd7dbe7d3313bfe7dce891e[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 09:49:29 2024 +0800
+
+    fix bug in lable display
+
+[33mcommit bd9c89dc5cb8928bfc996d04486187b2946326ca[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 09:17:55 2024 +0800
+
+    change gitee to github
+
+[33mcommit 305fbec4da30b8932a58a12c4965e198a609ab98[m
+Author: sbxlmdsl <sbxlm@qq.com>
+Date:   Mon Apr 29 07:45:37 2024 +0800
+
+    update ascii_composer.lua
+
+[33mcommit a97128ab0d5b52664c4a654843ab2ac597b57972[m
+Author: sbxlm <sbxlm@qq.com>
+Date:   Mon Apr 29 07:36:36 2024 +0800
+
+    update ascii_composer.lua
+
+[33mcommit 3b914b8db235e7045a4a2f82d82889f7a7d12a4d[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 29 06:38:48 2024 +0800
+
+    update themes and sbfh
+
+[33mcommit 11deec5390d0d13edb416dc243316f47c153ba32[m[33m ([m[1;33mtag: [m[1;33m20240428[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Apr 28 19:57:11 2024 +0800
+
+    update auto_length.lua
+
+[33mcommit c97793f2c3ad080b4c591bd3a575f9078601a219[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Apr 28 18:07:57 2024 +0800
+
+    update schemas
+
+[33mcommit 28e79e68a047e2be4ca66de34879901fe1beeffb[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Apr 28 17:46:25 2024 +0800
+
+    update trime themes and sbjm
+
+[33mcommit ce6c34bf4408c59a729fb146761b17706cfafa22[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Apr 28 09:32:41 2024 +0800
+
+    update trime themes
+
+[33mcommit 7c03c2fbd4772ee346abaa23e57511ef33f1f263[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 27 18:31:59 2024 +0800
+
+    update trime themes
+
+[33mcommit cab42975219b340bdd9236ca0fd1e6238314f665[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 27 10:58:14 2024 +0800
+
+    update 比翼45键  主题
+
+[33mcommit 9a058358c289cf12bea9bfe9f81ebe702d84f618[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 27 09:42:12 2024 +0800
+
+    optimize trime themes
+
+[33mcommit 1c4b2e6e3a7c5fabdc88ca2714182cebedceab6c[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 27 07:51:14 2024 +0800
+
+    optimize code change
+
+[33mcommit c8739debaf079d04899d64c126c5bcb20d736341[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Apr 25 19:22:15 2024 +0800
+
+    update trime themes
+
+[33mcommit 9fc36be14ed6dad0fbc5d5a01ffed06482c884ba[m[33m ([m[1;33mtag: [m[1;33m20240425[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Apr 25 10:44:35 2024 +0800
+
+    rename sbjz to sbjp
+
+[33mcommit 0ced15328187c1c8b8a690c6a4882c0bf222c38c[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Wed Apr 24 21:53:29 2024 -0400
+
+    Add single selection mode
+
+[33mcommit ce57cf4237bfc86195a1b8e26285b7f91abff7cc[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Apr 24 20:01:41 2024 +0800
+
+    fix bug in using Tab when the first char is a punct
+
+[33mcommit a05e59c630a6586c0bcdaa3d8e973a1a75480084[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Apr 23 15:58:56 2024 +0800
+
+    fix errors in dicts and lua scripts
+
+[33mcommit 2b7c3e8834d9ebaae9a49415ae8a9bdc9478b640[m[33m ([m[1;33mtag: [m[1;33m20240423[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Apr 23 10:22:13 2024 +0800
+
+    merge rime-ice pinyin words into sbsrf
+
+[33mcommit e3e081b357680a5b3061894127ad2da5262efdd9[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Apr 23 08:56:30 2024 +0800
+
+    update sbjm schema
+
+[33mcommit eaec612adcc91526172a9bf4e2344d91df0ab63e[m[33m ([m[1;33mtag: [m[1;33m20240422[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 22 10:09:28 2024 +0800
+
+    fix bugs in hint
+
+[33mcommit c16c4caff714622ec3ca4052082c533f7dc06a81[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 22 07:16:06 2024 +0800
+
+    fix bug in sbjm schema
+
+[33mcommit 27fa91826e23fc7bf95ff0357ce3bf1bb8c53850[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 22 06:49:16 2024 +0800
+
+    further hint improvement of customized words
+
+[33mcommit 94234bfe82b4de0ffacd716a875bfa117e3c2b0b[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Apr 21 10:05:51 2024 +0800
+
+    improve hint of customized words
+
+[33mcommit 5527db0942dac35a3454095a5074c4b96f39a839[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 20 14:19:53 2024 +0800
+
+    optimize sbfd code
+
+[33mcommit cf7e19f114c13728ca7835f3eb8a8057449fcf1e[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 20 09:36:13 2024 +0800
+
+    fix bug when using ctrl+l to create words
+
+[33mcommit d0b45d819bd1677f7d0bd55d0733109b6aeb27cf[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Apr 19 14:08:07 2024 +0800
+
+    fix some bugs
+
+[33mcommit 183903b8fdd9012da44154c4f416a08e58dcd7d5[m[33m ([m[1;33mtag: [m[1;33m20240418[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Apr 18 09:35:51 2024 +0800
+
+    restore the name of sbjz
+
+[33mcommit 04a1143238ff2ff35fe6b49d0d2774abbbd6a1d2[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Apr 17 06:32:18 2024 +0800
+
+    rename tsfh.yaml to sbfh.yaml, add more fixed items to sbjp and sbpy
+
+[33mcommit 53958bb57f049e049c37dae7121101e689a0794c[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 15 20:34:09 2024 +0800
+
+    update sbpy and themes
+
+[33mcommit dc280f213084b661d20f8c7b85c7c519ba7d8eb3[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 15 07:48:39 2024 +0800
+
+    rename sbjz to sbjp
+
+[33mcommit 450fee2b6823841ad42ad5badcc4b0cb06077724[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Apr 13 11:47:27 2024 +0800
+
+    fix bug in 数字在下.trime.yaml
+
+[33mcommit 18d492c4f46930dc4b25472a5991ee336490af9a[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Apr 12 21:12:10 2024 -0400
+
+    Improve fix and postpone script
+
+[33mcommit 92e42ed672bf737775b14068b511b8e2486ac30d[m[33m ([m[1;33mtag: [m[1;33m20240412[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Apr 12 07:54:32 2024 +0800
+
+    rename fly_simp to fast_char
+
+[33mcommit 14151ebb3dfab5ae098d18c986fdc37da7653822[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Apr 11 10:21:22 2024 +0800
+
+    optimize sbjm
+
+[33mcommit 565e1819a003817695762ff0b32589b639006ed6[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Apr 10 16:27:26 2024 +0800
+
+    correct the spelling of 仦
+
+[33mcommit 32403554566c80ba92046d50b52ab50c526dc367[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Apr 10 09:17:54 2024 +0800
+
+    improve sbjm
+
+[33mcommit 658e1dbf8e8ac891dfe46cb286bb89471faa66ca[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Apr 9 20:42:46 2024 +0800
+
+    optimize sbjm
+
+[33mcommit ecf1f76184e0ea45a2eb7d0eb9dfa873a380c4ba[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 8 18:21:16 2024 +0800
+
+    remove bpmf theme and optimize 33-key theme
+
+[33mcommit ab306dfb52f06678f25a311538b23758ee7119c4[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Apr 8 09:08:45 2024 +0800
+
+    change themes and lua
+
+[33mcommit 9f19049958392d9fd033a5e4e236dbf60e89c929[m[33m ([m[1;33mtag: [m[1;33m20240331[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 31 14:51:18 2024 +0800
+
+    update default.custom.yaml
+
+[33mcommit ff871899a9aaad55a653139b667be5cd2594f696[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 31 14:41:47 2024 +0800
+
+    fix bugs in integration of sbsrf-extra
+
+[33mcommit e76a9c450f92d82087ac5ce956e93113f6736998[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 31 12:23:59 2024 +0800
+
+    integrate sbsrf-extra into sbsrf
+
+[33mcommit c96fe89b4d91d26b0f542c1a977a343e70dd5966[m
+Author: Yubao Liu <yubao.liu@gmail.com>
+Date:   Thu Mar 28 17:12:05 2024 +0800
+
+    增加表情并将常用表情前置
+
+[33mcommit a8af0bc43203355468cffb37c3d123af10b6e036[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 30 17:47:50 2024 +0800
+
+    support code insert in sbhz and sbzz
+
+[33mcommit 60fe0c34f59ea78d6793d296abe0537c80344c2b[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 30 10:37:28 2024 +0800
+
+    add sbjz
+
+[33mcommit e1a0d0f6d9a4e39907f9b8d4bb619fe5442e83a7[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Mar 29 15:17:47 2024 +0800
+
+    optimize prompt of fixed words and use ' to input three one-letter chars in sbpy and the like
+
+[33mcommit eedbb0999bd204c8633a2cfc7af23f8ede5733ee[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 27 17:33:12 2024 +0800
+
+    remove bug for sbfx in hint.lua
+
+[33mcommit cfb7aa9b5b2de97a5cb1b0f60de7e3de0ccd28b3[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 27 16:01:11 2024 +0800
+
+    correct spelling in emoji code
+
+[33mcommit 32690e6519f3ebd0c0372265061d927773d232a9[m[33m ([m[1;33mtag: [m[1;33m20240327[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 27 15:01:37 2024 +0800
+
+    support more hint options
+
+[33mcommit 8f1519263428cc70b588fe3a342e4bd0b5dba7b9[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Mar 26 16:31:57 2024 +0800
+
+    add more emojis and fix some bugs
+
+[33mcommit d54a2c5c6cec842042abeaf62daf08badceb1a5c[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 25 11:55:48 2024 +0800
+
+    allow more code positions be defined by users
+
+[33mcommit f8e1c0dba42d5e97ac2e3b96181719b09bdc63e4[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 25 09:17:37 2024 +0800
+
+    optimize trime themes
+
+[33mcommit 6a15fc4247a0c01c1d29258ab70c76d1e2078c86[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 25 07:42:42 2024 +0800
+
+    add 42 s[;'] words in sbjm and fix a bug of sxsx stared words
+
+[33mcommit 4c78bdbac81d827d9a10dfc02384e5e87c51d31a[m[33m ([m[1;33mtag: [m[1;33m20240320[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 20 12:02:21 2024 +0800
+
+    fix bugs in trime themes and in reverse lookup of sentence-mode schemas, and improve repetition of previous inputs
+
+[33mcommit 44f7ba52294ba6170f6c51bdee6bca2a7d99aef4[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Mon Mar 18 12:33:31 2024 +0800
+
+    Update README.md
+
+[33mcommit b7b29883330db1c4de99a97c3a2c5f23f2b0cd0e[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Mon Mar 18 12:32:00 2024 +0800
+
+    Update README.md
+
+[33mcommit 74fe9087ad3122f1e3481472a7ab4141ddd5667b[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Mon Mar 18 12:30:00 2024 +0800
+
+    Update README.md
+
+[33mcommit ae34e47709577ca5b7078be3e5ab93cf60fd1baa[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Mon Mar 18 09:13:18 2024 +0800
+
+    Create LICENSE
+
+[33mcommit ae70b0207034f2fe0a5fbd8a81641f94fad8fb96[m[33m ([m[1;33mtag: [m[1;33m20240316[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Thu Mar 14 00:05:01 2024 -0400
+
+    Fix reverse lookup
+
+[33mcommit 27febdab10b7162a1424a7c56dd57ff388899026[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 13 16:47:08 2024 +0800
+
+    update sbxlm.yaml and sbzdy.txt
+
+[33mcommit 24774ad9b3cf605e12f05ecb5bf1463430633745[m[33m ([m[1;33mtag: [m[1;33m20240311[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 11 07:24:08 2024 +0800
+
+    fix bugs in sbxlm.yaml
+
+[33mcommit d1bb77fc6d2953a3fe8996c5180033a8ee619796[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Mar 10 12:29:43 2024 -0400
+
+    Fix zhlf and sbzdy
+
+[33mcommit cd639bfbb6189e5902616057264ef833c0b3e337[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 10 11:30:42 2024 +0800
+
+    improve sbzdy
+
+[33mcommit 145bd948c51ee0d8a73394abd295a69872ec70d8[m
+Merge: 86d2b9b cfe14e9
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 10 09:33:33 2024 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit cfe14e9120391b81fee01481d24e284483d39ba0[m[33m ([m[1;33mtag: [m[1;33m20240310[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Mar 9 15:05:36 2024 -0500
+
+    Add strong mode for sbpy
+
+[33mcommit 86d2b9b56d2d5da2a43393310dac09b0c3f069f0[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Mar 9 15:05:36 2024 -0500
+
+    Add strong mode for sbpy
+
+[33mcommit 4ab44d9582f8ab27795fe3b647ca063cb85b5f4b[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Mar 9 12:58:54 2024 -0500
+
+    Fix sbpy free mode encoding
+
+[33mcommit eb390bae98a55efd9a1f5b4d24580aa6f2fd9847[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Mar 9 12:53:09 2024 -0500
+
+    forced_selection and enable_filtering option
+
+[33mcommit 44d872744786c19873344006b30aafe40a121f96[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Mar 8 09:51:53 2024 +0800
+
+    optimize the enhanced mode of sbjm
+
+[33mcommit ff2aeb5ef028ab049f4001fe8f1e3005bfb9e663[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Mar 7 21:52:03 2024 +0800
+
+    update sbxlm.yaml
+
+[33mcommit fb46b4edc270e90d26a647a72cbaacda0af263e3[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Mar 7 19:25:49 2024 +0800
+
+    update hint.lua
+
+[33mcommit 7a521feeadc5133da29bd87a68141c7d90aa0994[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Mar 7 19:13:09 2024 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit 9c28698a4b721ab5690d598bde5a087b0855a77f[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Mar 7 17:59:25 2024 +0800
+
+    optimize static chars and words of sbjm
+
+[33mcommit f1cc2a8f1ab1d6c795f02dac6a2469c202758924[m[33m ([m[1;33mtag: [m[1;33m20240307[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Mar 7 10:42:00 2024 +0800
+
+    update optimize fixed chars and words
+
+[33mcommit 377c14769863732090fbd80e991bdc3ca0203619[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Wed Mar 6 21:53:36 2024 +0800
+
+    fix bugs in hint.lua
+
+[33mcommit 5c32cc47e850b3cfe804fb3ca8a45214eb85a52d[m[33m ([m[1;33mtag: [m[1;33m20240305[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Mar 5 08:43:46 2024 +0800
+
+    fix bugs of select comment in sbxh and sbzr
+
+[33mcommit c7507e53bd18f26a37b8896d8b3db1bd71dde544[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Mar 5 08:19:29 2024 +0800
+
+    update readme.md
+
+[33mcommit 5e6dd0846cc1a159da65d55c82db527d6bd4098e[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Mar 5 08:15:26 2024 +0800
+
+    fix bugs displaying ss words in sbxh and sbzr
+
+[33mcommit 2ea507c7104a5fa8ce1b4ff7df189bc84bcff543[m[33m ([m[1;33mtag: [m[1;33m20240304[m[33m)[m
+Merge: 6a0636e 27c5c6d
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 4 09:27:07 2024 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit 6a0636e1acaa67cac2913770b5909201fb480da4[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Mar 4 09:26:24 2024 +0800
+
+    update themes for tirme
+
+[33mcommit 27c5c6d5d59ec1579e38717761d0d42067e9cb93[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Mar 3 17:47:49 2024 -0500
+
+    move zhlf lookup to a
+
+[33mcommit d0922eee0fb06ca8d1615c1b930bea9b67e5a1e5[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Mar 3 12:27:47 2024 -0500
+
+    Improve reverse lookup
+
+[33mcommit 4406f73cd7b7b3a7d268068f5ba5271f86fbba4c[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 3 21:26:41 2024 +0800
+
+    update trime themes
+
+[33mcommit 32af357d433b70e5315ecf1cb91c2af77b5e1614[m[33m ([m[1;33mtag: [m[1;33m20240303[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 3 12:10:48 2024 +0800
+
+    optimize themes in trime
+
+[33mcommit a3ba50a70dbaa37fd4c8509c166d0817e42fc0c1[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 3 10:50:16 2024 +0800
+
+    fix bug in hint.lua
+
+[33mcommit 7e4922c62960bf4376a0f4e1a1fd884c8717e729[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Mar 3 09:55:53 2024 +0800
+
+    add hide_option
+
+[33mcommit f73b331cc3638800b9c13b3e67fb203cbfdb1f3a[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Mar 2 15:23:59 2024 -0500
+
+    Refactor lua file structure
+
+[33mcommit d8870a47d5b191cd68bb106f91d702fb51c92e3f[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 14:47:42 2024 +0800
+
+    use apostrophe to simulate two 1s when code is more than two syllables
+
+[33mcommit 180ad0cbabb3da00f221eaeba6428ff868024c70[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 11:28:23 2024 +0800
+
+    pop ;' when code len is 1
+
+[33mcommit ec366d7b062aa8a7e3cb4dc61f88ccccf92a3f90[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 11:07:30 2024 +0800
+
+    support memory assist in trime themes for sbjz, sbhz, sbzz and sbsp
+
+[33mcommit c6e70a7680bb61210a66632068611a2f32093591[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 10:19:45 2024 +0800
+
+    optimize default.custom.yaml
+
+[33mcommit 36afb5e314aded3bad62649aa00f0a081969bae0[m[33m ([m[1;33mtag: [m[1;33m20240302[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 09:20:28 2024 +0800
+
+    fix issues in sbfm and sbfx schemas
+
+[33mcommit 1c63f7b17244dc64dd66a7dceeabad65243dad1c[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Mar 2 07:49:51 2024 +0800
+
+    optimize sbf.dict
+
+[33mcommit 45c522439a35742ef74dd13e7ab82a4988cd0029[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Mar 1 17:41:44 2024 -0500
+
+    add popping strategy
+
+[33mcommit 7fc638ef4ff0eec178bb337e388698b14fe84ff0[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Mar 1 16:32:52 2024 -0500
+
+    Fix issues
+
+[33mcommit 08fdc77c6770661844bce64d8f8c4a7941e94c7f[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Mar 1 16:16:51 2024 -0500
+
+    Add fast_change for sbxh and sbzr
+
+[33mcommit 2d08dfd315d3362443df0d9fe5c0799ba77a84ff[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Mar 1 14:17:28 2024 -0500
+
+    Fix bug in editor
+
+[33mcommit b85d665ceee609f532d32399e61d33a4793bf604[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Mar 1 08:46:24 2024 +0800
+
+    fix bugs in fast_pop mode
+
+[33mcommit a4dc95aca6c6c05c4c5c3c2ea6a525038eedaeba[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 29 19:45:00 2024 +0800
+
+    improve fast_pop mode
+
+[33mcommit 98ec0b2a7c921146025f8761d4cf786c99110e69[m[33m ([m[1;33mtag: [m[1;33m20240229[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 29 13:20:55 2024 +0800
+
+    fix bugs when using number keyoards in trime
+
+[33mcommit 5668e8d0b57c569009470d8650cbf34d8b2aefc8[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 29 12:44:08 2024 +0800
+
+    revert modification to last modification to sbf's schemas
+
+[33mcommit c9073a319f72ee48a3450211e243b3e8a22669dc[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 29 11:22:45 2024 +0800
+
+    add new key bindings to smooth key strokes in sbf's
+
+[33mcommit b82e5661de7e6dd56675f2b132b880d5ff3899e4[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Feb 27 22:39:53 2024 -0500
+
+    Fix bug in editor
+
+[33mcommit 36c2913f7af54c7232380487277872f60a8e4da0[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Wed Feb 28 11:15:17 2024 +0800
+
+    Update README.md
+
+[33mcommit 0916e8bfc41dec7be5aa6881b7a89116128c67c8[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Feb 27 21:53:23 2024 -0500
+
+    Add more strokes to sbpy dictionary
+
+[33mcommit 62718acb0c123adc524271ec90fff71cdba33137[m[33m ([m[1;33mtag: [m[1;33m20240228[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 27 20:31:50 2024 +0800
+
+    update dicts for sbxh and sbzr
+
+[33mcommit 7c6480e13d4f01db51b872d0d66f93426cbfbb39[m[33m ([m[1;33mtag: [m[1;33m20240227[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 27 11:45:17 2024 +0800
+
+    fix bugs in auto_inline
+
+[33mcommit 235fb9cca19dbe3a8b3869f441350891d2969175[m
+Merge: 5dcfead a7efe41
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 27 11:18:44 2024 +0800
+
+    Merge branch 'main' of https://github.com/sbsrf/sbsrf
+
+[33mcommit 5dcfeadba6d758c6fb3eebc83134bc011c8cc8c0[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 27 11:16:13 2024 +0800
+
+    update sbpy fixed words and some schemas
+
+[33mcommit a7efe41170877df30c9f2fe281bca74ea6fdafed[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Mon Feb 26 20:57:18 2024 -0500
+
+    Add make fixed script
+
+[33mcommit 90c287a834e31ca26250406dc2976bfe19e84da8[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Mon Feb 26 20:57:18 2024 -0500
+
+    Add make fixed script
+
+[33mcommit 7791bbfc027414eb516e7c37b95c9202065beab2[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 27 09:41:57 2024 +0800
+
+    optimize fixed words
+
+[33mcommit b565c1c030a84a2175d2e692145a9ab1ec3945fa[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 26 14:23:01 2024 +0800
+
+    update sbfx schema
+
+[33mcommit 5cfa749b399bd287c73ad66d93134d231c5ef308[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Mon Feb 26 00:48:53 2024 -0500
+
+    Improve squirrel interface; add install guide
+
+[33mcommit 694b36ca779522378c6709991de76dd7e649c1d0[m[33m ([m[1;33mtag: [m[1;33m20240226[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 26 12:15:49 2024 +0800
+
+    optimize enhanced mode of sbjm and sbf's
+
+[33mcommit fa77796e8b1bf7aec0f7c217bc03efc9a40a62a2[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 25 20:55:07 2024 +0800
+
+    opimize sbjm
+
+[33mcommit d9af03bed02327a8cc3f37022ef2877e846a4f9f[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 24 20:45:20 2024 -0500
+
+    Improve postpone behavior
+
+[33mcommit b8542cda2426d7a4c84ebf9c7e27e49e82aec6b3[m[33m ([m[1;33mtag: [m[1;33m20240225[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 24 18:05:46 2024 -0500
+
+    Add postpone; fix encoding for sxs/sbsb
+
+[33mcommit b10b6249e89176615f3eb92769e15258478d4aae[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 24 16:18:56 2024 -0500
+
+    Remove global variables in lua scripts
+
+[33mcommit a6aba15a5e89a5deb4f347e5cd781f9dac23e408[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 24 15:16:36 2024 -0500
+
+    Improve select comment logic
+
+[33mcommit 0108887f167fe81a85b9459e062e741cd985a7ed[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Sat Feb 24 19:30:17 2024 +0800
+
+    Update README.md
+
+[33mcommit 6f81aac6fbecd75dd662cf88812eeb656c7e8fb5[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 24 17:55:15 2024 +0800
+
+    exchange the order of 梗 and 杠 in sbfd.dict
+
+[33mcommit 74b7edbaef04d910ee0cd067b8cf793966074fa0[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 24 17:30:20 2024 +0800
+
+    update dicts
+
+[33mcommit d46871479f42055bb77477223d25bc1ee1e11d1b[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 24 14:02:04 2024 +0800
+
+    opimize dicts
+
+[33mcommit f27dc1f3260bd4b3bf31f03e6decb0058976c807[m[33m ([m[1;33mtag: [m[1;33m20240224[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 24 08:10:52 2024 +0800
+
+    tidy up file dirs
+
+[33mcommit 8040297b88f9044099ab537750be71a501aec02c[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Feb 23 16:15:43 2024 -0500
+
+    Migrate sbpy dict to rime-ice
+
+[33mcommit ffec8aeb8b4dee1cd8c1fe43e3072630ac4911e6[m[33m ([m[1;33mtag: [m[1;33m20240219[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 19 09:28:47 2024 +0800
+
+    fix bugs of key bindings in sbjm
+
+[33mcommit 88d1df3bb7bef4f683196e08af19c6b5f3e1e986[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 19 09:08:31 2024 +0800
+
+    fix bugs in key bindings
+
+[33mcommit 8d14802b3ef4980885704a8134fe2dc99a223291[m[33m ([m[1;33mtag: [m[1;33m20240218[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 18 08:49:32 2024 +0800
+
+    some optimization
+
+[33mcommit 30fd8eac2c7a522c1ae3dde413478ebb786dab19[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 17 17:47:10 2024 +0800
+
+    fix bugs in ascii mode
+
+[33mcommit c28cae8054da939ec98d648eb09f0cc95202e0ed[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 17 16:40:10 2024 +0800
+
+    fix bugs in u-led code like ujsa
+
+[33mcommit 0a641a72979d9389e3d708eb4b5dc2de612a4a3b[m[33m ([m[1;33mtag: [m[1;33m20240217-2[m[33m)[m
+Merge: b790699 e4163bf
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 17 12:27:04 2024 +0800
+
+    remove dependency on key_binder.yaml and set default value of enable_encoder to false in sbfd
+
+[33mcommit b790699e7721ead93884665fca784f6133e9d4b1[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 17 12:20:01 2024 +0800
+
+    remove dependency on key_binder.yaml and set default value of enable_encoder to false in sbfd
+
+[33mcommit e4163bf183a54369b42ce960d854d2ce24baf237[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Feb 16 22:11:12 2024 -0500
+
+    Fix key_binder reference
+
+[33mcommit df8783474931836fd6d7bb46e038b916c8bb5f1c[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Feb 16 21:38:02 2024 -0500
+
+    Fix sbfd encoder
+
+[33mcommit 343f835b5bfd7a9120e000d99d6a782860b2ac42[m[33m ([m[1;33mtag: [m[1;33m20240217[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Feb 16 17:27:14 2024 -0500
+
+    Unify translator
+
+[33mcommit 8675d298b6ff003044d28cb0699b5b64abdb1657[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Feb 13 14:54:08 2024 -0500
+
+    Fix user dict transaction problem
+
+[33mcommit 8cc67fd6bb7469e4101c0042936a746a8f71e1a7[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 12 07:41:41 2024 +0800
+
+    update readme
+
+[33mcommit e3e84c592b370dcf0f974b57011f50bb7effa703[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Mon Feb 12 07:28:31 2024 +0800
+
+    update readme.md
+
+[33mcommit aa4ed38a1b47275a27dd6a45c5961c4a5db63f3c[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Feb 11 16:00:55 2024 -0500
+
+    Fix bug in translator
+
+[33mcommit 2453267a57e0fb49d961512ba82332d944f5ca19[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Feb 11 15:23:16 2024 -0500
+
+    Fix sbpy user dict issue
+
+[33mcommit 76a31eb5256be05e6f7e4261832b45bd5e962b9d[m[33m ([m[1;33mtag: [m[1;33m20240212[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Feb 11 12:32:01 2024 -0500
+
+    Add container build
+
+[33mcommit 404ad1c06ceba44a3ad56193411fd6ae69326da5[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sun Feb 11 12:05:12 2024 -0500
+
+    Add release ci
+
+[33mcommit b1710779fe185b71d3e263ef63ecbbcd3bcc4016[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 11 20:29:11 2024 +0800
+
+    add default.custom.yaml
+
+[33mcommit cb73e4b8d23281af1c2dedfbf5673b65d031bc4c[m[33m ([m[1;33mtag: [m[1;33m20240211[m[33m)[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 11 20:15:41 2024 +0800
+
+    optimize files
+
+[33mcommit d65fde2a5fad67d52d5badcdec9c250ce1b45bec[m
+Merge: 19527c3 b679317
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Sun Feb 11 08:03:57 2024 +0800
+
+    Merge pull request #15 from sbsrf/split
+    
+    split dicts
+
+[33mcommit b679317d1b28a83331613d6d0e64f204f88029f3[m[33m ([m[1;31morigin/split[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 10 13:34:42 2024 -0500
+
+    split dicts
+
+[33mcommit 19527c3ed59522bee3612847e7da42cf83749f43[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Sat Feb 10 11:50:25 2024 -0500
+
+    move sbpy words to packs
+
+[33mcommit a2373f6cb3c2cd0d2a2663fd2cfb284c81286c7e[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 10 20:42:11 2024 +0800
+
+    fix bugs of popping mode in sbpy
+
+[33mcommit a2c5cb469735152dd2eb0da3ebbb285014a506e6[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Feb 9 22:42:16 2024 +0800
+
+    get rid of bugs in sbpy
+
+[33mcommit 1aee46e4ec39be334e22c405f068e672a1efdc14[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Feb 9 09:38:28 2024 +0800
+
+    apply select_key_to_comment to sbpy
+
+[33mcommit da98c512523cb1694236d59e1264189680c28f65[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 8 12:10:33 2024 +0800
+
+    add sbjm to schema list in default.yaml
+
+[33mcommit 9f394161e2f1fcb75579236b2002472c210e8c8f[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 8 11:12:34 2024 +0800
+
+    change auto_clear to none
+
+[33mcommit bc2477826a8c96b5549e16002e7d060a223ee300[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 8 10:31:21 2024 +0800
+
+    optimize sbjm schema and sbxlm.yaml
+
+[33mcommit 2d51bdedb9ac9f3ebd5135dfa20ae788b1a96e10[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 8 08:59:20 2024 +0800
+
+    fix more bugs in statuses
+
+[33mcommit 61f9c59f5c431ac328176f61f7b7e951bbb0b569[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 8 08:27:33 2024 +0800
+
+    fix bugs of status chaos
+
+[33mcommit 69087f653402ece5bbfef0a136dcc4676bea98c0[m[33m ([m[1;33mtag: [m[1;33m20240207[m[33m)[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Feb 6 11:55:29 2024 -0500
+
+    Fix sbjm pinyin lookup; remove retentions
+
+[33mcommit 9e85adba6c6392809964a9232bc7e59d6cb9806f[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Tue Feb 6 19:15:47 2024 +0800
+
+    Update README.md
+
+[33mcommit efb80f53c699231cb0f01312f56c6c53246fe6d5[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Tue Feb 6 19:10:53 2024 +0800
+
+    Update README.md
+
+[33mcommit f44638822b48966d6a21aeb07b8e471465863a42[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 6 15:50:44 2024 +0800
+
+    update auto_length.lua
+
+[33mcommit 207d230eb066640f156f92cc13164a3b0fb28df4[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 6 12:24:48 2024 +0800
+
+    update sbzdy.txt
+
+[33mcommit 0d554e9e9693d28f1f1238dff4de420e47566b2c[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Mon Feb 5 22:30:34 2024 -0500
+
+    Fix bugs
+
+[33mcommit 08aa4baa1095ddc05e6954eb4f087d7d5b69d227[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 6 11:05:20 2024 +0800
+
+    improve format of datetime
+
+[33mcommit 10b7b309777970cdf441cb05906a2e91ecba9215[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Tue Feb 6 10:56:06 2024 +0800
+
+    remove bugs unable to accept numbers following first o, e and \
+
+[33mcommit 571bc9489a1b9ede844039161f21338eb30a7de6[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 17:22:43 2024 +0800
+
+    improve display of radicals
+
+[33mcommit f481422a46229fbc5af383826415303667826ee4[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 16:24:02 2024 +0800
+
+    change some default values for word creation and optimize display of radical reverse lookup
+
+[33mcommit 2a4b9f62ce898f30b8ab55cba3c2e9fd8b95552f[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 12:29:47 2024 +0800
+
+    do not display uncommon statuses
+
+[33mcommit 3237fa9e7c39a6216223928871f4f767c72b4791[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 11:33:05 2024 +0800
+
+    rename rime.lua to lib.lua to avoid possible name clash and remove invalid lines in sbzdy.txt
+
+[33mcommit 7f6a430000091efbd3fef9c2dabb4651379ee238[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 10:02:56 2024 +0800
+
+    add fonts for trime
+
+[33mcommit afa47c51041eeb1d46905ac5eacde49bd6f9c5e0[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sun Feb 4 09:16:22 2024 +0800
+
+    remove bug of reverse lookup in sbfx
+
+[33mcommit ce048e84a0eeb9ee6fcbeea3467154d469191091[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Sat Feb 3 12:20:59 2024 +0800
+
+    move radical.txt to user dir and optimize auto_inline
+
+[33mcommit 1d54ceab9d2c0f9a6e2057ef466f85ba91944dc5[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Fri Feb 2 15:09:27 2024 +0800
+
+    Migrate more features from librime-sbxlm
+
+[33mcommit 94a347a6523e3188235d298b12000466732728f7[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Fri Feb 2 07:31:21 2024 +0800
+
+    optimize display of radicals and schemas of hypy and zhlf
+
+[33mcommit 9add022ce71ff97c2156a07a4696fbf6bc54a551[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Thu Feb 1 19:08:18 2024 +0800
+
+    Fix several bugs
+
+[33mcommit 560ea15ddbe9c2637e706043e10e2bd67d73db91[m
+Author: 声笔系列码 <sbxlm@126.com>
+Date:   Thu Feb 1 18:14:39 2024 +0800
+
+    Update README.md
+
+[33mcommit 729e905c28bdc7bf3cfd6663c23fdbd72f1147db[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 1 17:59:20 2024 +0800
+
+    support popping of multi-char words in sbfx
+
+[33mcommit 8e72a3776b86682b4480de9d1598387a81c58817[m
+Author: sbxlmdsl <sbxlmdsl@qq.com>
+Date:   Thu Feb 1 17:45:18 2024 +0800
+
+    add special stuff of weasel, trime and squirrel, and optimize display of hint and select key
+
+[33mcommit 62580ef4a58032419bfb600d0abd1074c2561beb[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Jan 30 21:05:54 2024 +0800
+
+    Initial Upload
+
+[33mcommit fca733f5b6a6c3f96be1ccc100f4d6f979f9be90[m
+Author: Songchen Tan <i@tansongchen.com>
+Date:   Tue Jan 30 19:38:01 2024 +0800
+
+    Initial commit

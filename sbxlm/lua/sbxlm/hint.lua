@@ -227,7 +227,7 @@ function this.func(translation, env)
 			end				
 		end
 		-- 字词型方案 s 和 ss 格式输入需要提示加; 和 ' 格式的二字词
-		if core.zici(id) and (core.s(input) or core.sx(input)) then
+		if core.zici(id) and not core.mm(id) and (core.s(input) or core.sx(input)) then
 			if core.jm(id) and is_hidden then
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
@@ -344,7 +344,7 @@ function this.func(translation, env)
 							candidates[hint_p[j]] = 1
 							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
 							-- rime.yield(forward)
-							if pure_char and utf8.len(entry.text) > 1 then
+							if (pure_char or env.engine.context:get_option("_pure_char")) and utf8.len(entry.text) > 1 then
 								-- 忽略标点简词
 							elseif p ~= hint_p[j] then
 								p = hint_p[j]

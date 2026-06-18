@@ -137,10 +137,21 @@ function this.func(key_event, env)
     context.caret_pos = segment.start + 2
     return rime.process_results.kAccepted
   end
-  -- 在码长为1时，取消临时重码提示
+  -- 在码长为1时，取消临时重码和纯单模式提示
   if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
-      and not key_event:release() and input:len() == 1 and context:get_option("single_display") then
+      and not key_event:release() and input:len() == 1 then
     context:set_option("not_single_display", false)
+    context:set_option("_pure_char", false)
+  end
+
+  -- 象码码长为3且按Shift+Tab时
+  if not ascii_mode and segment and segment:has_tag("abc") and core.xiangxi(schema_id)
+  and not key_event:release() and input:len() == 3 and key_event:shift() and key_event.keycode == XK_Tab then
+    context:set_option("_pure_char", true)
+    local str = input:sub(segment._start, segment._end)
+    env.engine:process_key(rime.KeyEvent("BackSpace"))
+    context:push_input(str:sub(3))
+    return rime.process_results.kAccepted
   end
 
   -- 声笔拼音和声笔简拼在混合模式时的回头补码状态
