@@ -561,27 +561,8 @@ local function validate_phrase(entry, segment, type, input, env)
           if char2_stroke then
             phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 4)
           end
-          
-        elseif phrase_length == 3 then
-          -- 三字词：补充各字的前两笔
-          local chars = {}
-          for _, char in utf8.codes(entry.text) do
-            table.insert(chars, utf8.char(char))
-          end
-          
-          -- 第一字前两笔
-          local char1_stroke = env.strokes[chars[1]]
-          if char1_stroke then
-            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
-          end
-          
-          -- 第二字前两笔
-          local char2_stroke = env.strokes[chars[2]]
-          if char2_stroke then
-            phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 2)
-          end
-          
-        elseif phrase_length >= 4 then
+                  
+        elseif phrase_length >= 3 then
           -- 多字词：补充前三字的前两笔
           local chars = {}
           for _, char in utf8.codes(entry.text) do
