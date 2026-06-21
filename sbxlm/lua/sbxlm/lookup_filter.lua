@@ -66,4 +66,8 @@ function this.tags_match(segment, env)
   return segment:has_tag("sbyp") or segment:has_tag("bihua") or segment:has_tag("zhlf")
 end
 
+function this.fini(env)
+  env.strokes = nil
+end
+
 return this

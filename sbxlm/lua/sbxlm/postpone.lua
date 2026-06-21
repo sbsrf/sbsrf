@@ -113,4 +113,8 @@ function this.func(translation, env)
   end
 end
 
+function this.fini(env)
+  env.known_candidates = nil
+end
+
 return this

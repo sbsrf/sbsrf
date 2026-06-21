@@ -255,4 +255,9 @@ function this.func(key_event, env)
   return env.speller:process_key_event(key_event)
 end
 
+function this.fini(env)
+  env.speller = nil
+  env.popping = nil
+end
+
 return this

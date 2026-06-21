@@ -247,4 +247,13 @@ function this.func(key_event, env)
   return rime.process_results.kNoop
 end
 
+function this.fini(env)
+  env.ascii_composer = nil
+  env.selector = nil
+  if env.connection then
+    env.connection:disconnect()
+    env.connection = nil
+  end
+end
+
 return this

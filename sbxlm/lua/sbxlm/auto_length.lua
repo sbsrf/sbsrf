@@ -1054,7 +1054,7 @@ function this.fini(env)
   if env.static_memory.disconnect then
     env.static_memory:disconnect()
   else
-    env.memory = nil
+    env.static_memory = nil
   end
 
   if (env.dynamic_memory.disconnect) then
@@ -1062,6 +1062,12 @@ function this.fini(env)
   else
     env.dynamic_memory = nil
   end
+
+  env.reverse = nil
+  env.known_candidates = nil
+  env.char_lens = nil
+  env.xd_lens = nil
+  env.strokes = nil
 end
 
 return this

@@ -492,6 +492,8 @@ function this.fini(env)
 	else
 		env.memory = nil
 	end
+	env.reverse = nil
+	env.xd_chars = nil
 end
 
 return this

@@ -55,4 +55,8 @@ function this.func(translation, env)
   return
 end
 
+function this.fini(env)
+  env.radicals = nil
+end
+
 return this

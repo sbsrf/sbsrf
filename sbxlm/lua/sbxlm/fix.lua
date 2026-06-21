@@ -160,4 +160,8 @@ function this.func(translation, env)
   end
 end
 
+function this.fini(env)
+  env.fixed = nil
+end
+
 return this

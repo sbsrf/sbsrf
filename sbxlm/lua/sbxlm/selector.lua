@@ -90,4 +90,10 @@ function this.func(key_event, env)
   return rime.process_results.kNoop
 end
 
+function this.fini(env)
+  env.select_keys = nil
+  env.select_patterns = nil
+  env.selector = nil
+end
+
 return this
