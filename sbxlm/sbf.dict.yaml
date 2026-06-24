@@ -32,8 +32,8 @@ columns:
 争	rua
 致	vea
 # 内置条目
-笔	b'	0
-保	b,	0
+巴	b'	0
+百	b,	0
 报纸	b,a	0
 班级	b,aa	0
 布局	b,ae	0
@@ -64,7 +64,7 @@ columns:
 报价	b,ui	0
 不受	b,uo	0
 本质	b,uu	0
-百	b.	0
+病	b.	0
 宝马	b.a	0
 变幻	b.aa	0
 变异	b.ae	0
@@ -95,7 +95,7 @@ columns:
 补偿	b.ui	0
 半个	b.uo	0
 变得	b.uu	0
-帮	b/	0
+保	b/	0
 鼻子	b/a	0
 白马	b/aa	0
 便民	b/ae	0
@@ -1209,8 +1209,8 @@ columns:
 包装容器	bz9i	0
 包装设计	bz9o	0
 不知道为什么	bz9u	0
-程	c'	0
-城	c,	0
+陈	c'	0
+车	c,	0
 超级	c,a	0
 城乡	c,aa	0
 车展	c,ae	0
@@ -1241,7 +1241,7 @@ columns:
 插件	c,ui	0
 查杀	c,uo	0
 材质	c,uu	0
-错	c.	0
+冲	c.	0
 初级	c.a	0
 测验	c.aa	0
 差异	c.ae	0
@@ -1272,7 +1272,7 @@ columns:
 炒作	c.ui	0
 闯入	c.uo	0
 诚征	c.uu	0
-村	c/	0
+程	c/	0
 创建	c/a	0
 重组	c/aa	0
 重建	c/ae	0
@@ -1303,7 +1303,7 @@ columns:
 彩信	c/ui	0
 处分	c/uo	0
 船舶	c/uu	0
-车	c;	0
+财	c;	0
 财经	c;a	0
 此书	c;aa	0
 逞强	c;ae	0
@@ -2402,8 +2402,8 @@ columns:
 蹙	czeo	9999
 踹	cziu	9999
 踩	czuu	9999
-第	d'	0
-电	d,	0
+队	d'	0
+动	d,	0
 动力	d,a	0
 顶级	d,aa	0
 都已	d,ae	0
@@ -2465,7 +2465,7 @@ columns:
 单身	d.ui	0
 单个	d.uo	0
 定律	d.uu	0
-倒	d/	0
+第	d/	0
 胆子	d/a	0
 等级	d/aa	0
 多层	d/ae	0
@@ -2496,7 +2496,7 @@ columns:
 独自	d/ui	0
 爹爹	d/uo	0
 多得	d/uu	0
-动	d;	0
+电	d;	0
 电力	d;a	0
 电缆	d;aa	0
 当局	d;ae	0
@@ -3587,8 +3587,8 @@ columns:
 党支部书记	dz9o	0
 电子商务	dz9u	0
 跺	dzui	9999
-父	f'	0
-负	f,	0
+防	f'	0
+封	f,	0
 奋力	f,a	0
 赴约	f,aa	0
 封建	f,ae	0
@@ -3619,7 +3619,7 @@ columns:
 范例	f,ui	0
 封杀	f,uo	0
 敷衍	f,uu	0
-防	f.	0
+福	f.	0
 疯子	f.a	0
 粉丝	f.aa	0
 富民	f.ae	0
@@ -3650,7 +3650,7 @@ columns:
 放假	f.ui	0
 富含	f.uo	0
 方舟	f.uu	0
-福	f/	0
+父	f/	0
 父子	f/a	0
 分组	f/aa	0
 付费	f/ae	0
@@ -4762,8 +4762,8 @@ columns:
 发展空间	fz9o	0
 发展方向	fz9u	0
 飞	fzu'	0
-功	g'	0
-感	g,	0
+姑	g'	0
+更	g,	0
 构建	g,a	0
 故乡	g,aa	0
 甘肃	g,ae	0
@@ -4794,7 +4794,7 @@ columns:
 古代	g,ui	0
 感人	g,uo	0
 搞得	g,uu	0
-干	g.	0
+怪	g.	0
 高级	g.a	0
 该书	g.aa	0
 诡异	g.ae	0
@@ -4825,7 +4825,7 @@ columns:
 高低	g.ui	0
 高耸	g.uo	0
 该行	g.uu	0
-怪	g/	0
+够	g/	0
 股改	g/a	0
 供给	g/aa	0
 各异	g/ae	0
@@ -4856,7 +4856,7 @@ columns:
 稿件	g/ui	0
 公众	g/uo	0
 逛街	g/uu	0
-更	g;	0
+贵	g;	0
 跟随	g;a	0
 光纤	g;aa	0
 归属	g;ae	0
@@ -5937,8 +5937,8 @@ columns:
 工作部署	gz9i	0
 工作效率	gz9o	0
 工作流程	gz9u	0
-火	h'	0
-合	h,	0
+缓	h'	0
+花	h,	0
 换了	h,a	0
 花纹	h,aa	0
 耗费	h,ae	0
@@ -5969,7 +5969,7 @@ columns:
 横向	h,ui	0
 获悉	h,uo	0
 还很	h,uu	0
-化	h.	0
+海	h.	0
 怀孕	h.a	0
 汇编	h.aa	0
 话费	h.ae	0
@@ -6000,7 +6000,7 @@ columns:
 汉化	h.ui	0
 混合	h.uo	0
 活得	h.uu	0
-海	h/	0
+合	h/	0
 合约	h/a	0
 后续	h/aa	0
 会展	h/ae	0
@@ -6031,7 +6031,7 @@ columns:
 会使	h/ui	0
 合金	h/uo	0
 会很	h/uu	0
-花	h;	0
+黑	h;	0
 喝了	h;a	0
 回乡	h;aa	0
 哈尼	h;ae	0
@@ -7118,7 +7118,7 @@ columns:
 还在这里	hz9i	0
 合作精神	hz9o	0
 合作意向	hz9u	0
-及	j'	0
+己	j'	0
 机	j,	0
 接收	j,a	0
 检验	j,aa	0
@@ -7150,7 +7150,7 @@ columns:
 聚集	j,ui	0
 据悉	j,uo	0
 接待	j,uu	0
-建	j.	0
+计	j.	0
 精力	j.a	0
 家乡	j.aa	0
 精灵	j.ae	0
@@ -7212,7 +7212,7 @@ columns:
 仅仅	j/ui	0
 集合	j/uo	0
 介质	j/uu	0
-己	j;	0
+紧	j;	0
 景观	j;a	0
 紧缩	j;aa	0
 迥异	j;ae	0
@@ -8324,8 +8324,8 @@ columns:
 建筑施工企业	jz9i	0
 建筑设计	jz9o	0
 建筑装饰	jz9u	0
-块	k'	0
-恐	k,	0
+恳	k'	0
+块	k,	0
 开张	k,a	0
 苦练	k,aa	0
 扩建	k,ae	0
@@ -8387,7 +8387,7 @@ columns:
 寇仲	k.ui	0
 课余	k.uo	0
 课后	k.uu	0
-哭	k/	0
+靠	k/	0
 筷子	k/a	0
 科级	k/aa	0
 科尼	k/ae	0
@@ -8418,7 +8418,7 @@ columns:
 看作	k/ui	0
 看剑	k/uo	0
 看后	k/uu	0
-靠	k;	0
+哭	k;	0
 卡巴	k;a	0
 口红	k;aa	0
 困局	k;ae	0
@@ -9482,8 +9482,8 @@ columns:
 控制设备	kz9u	0
 孔	kza'	0
 空中	kzi	0
-龙	l'	0
-量	l,	0
+灵	l'	0
+龙	l,	0
 列出	l,a	0
 连结	l,aa	0
 两张	l,ae	0
@@ -9514,7 +9514,7 @@ columns:
 零售	l,ui	0
 两会	l,uo	0
 拉近	l,uu	0
-李	l.	0
+流	l.	0
 离线	l.a	0
 六级	l.aa	0
 离异	l.ae	0
@@ -9545,7 +9545,7 @@ columns:
 礼仪	l.ui	0
 六个	l.uo	0
 旅行	l.uu	0
-流	l/	0
+留	l/	0
 脸红	l/a	0
 卵巢	l/aa	0
 利尿	l/ae	0
@@ -9576,7 +9576,7 @@ columns:
 利息	l/ui	0
 领会	l/uo	0
 领衔	l/uu	0
-灵	l;	0
+量	l;	0
 累了	l;a	0
 临终	l;aa	0
 罗尼	l;ae	0
@@ -10681,8 +10681,8 @@ columns:
 隆重举行	lz9u	0
 了	lzi'	0
 力	lzu'	0
-么	m'	0
-母	m,	0
+母	m'	0
+模	m,	0
 卖出	m,a	0
 描绘	m,aa	0
 莫属	m,ae	0
@@ -10713,7 +10713,7 @@ columns:
 蔓延	m,ui	0
 某人	m,uo	0
 木质	m,uu	0
-模	m.	0
+密	m.	0
 满了	m.a	0
 魔幻	m.aa	0
 没敢	m.ae	0
@@ -10744,7 +10744,7 @@ columns:
 密集	m.ui	0
 美金	m.uo	0
 美德	m.uu	0
-密	m/	0
+们	m/	0
 每隔	m/a	0
 脉络	m/aa	0
 每张	m/ae	0
@@ -10775,7 +10775,7 @@ columns:
 貌似	m/ui	0
 免受	m/uo	0
 免征	m/uu	0
-们	m;	0
+默	m;	0
 明媚	m;a	0
 明细	m;aa	0
 明君	m;ae	0
@@ -11859,8 +11859,8 @@ columns:
 民族精神	mz9o	0
 民族文化	mz9u	0
 民	mze'	0
-哪	n'	0
-您	n,	0
+怒	n'	0
+奈	n,	0
 南阳	n,a	0
 南巡	n,aa	0
 拟建	n,ae	0
@@ -11891,7 +11891,7 @@ columns:
 奈何	n,ui	0
 弄个	n,uo	0
 南瓜	n,uu	0
-尼	n.	0
+诺	n.	0
 凝结	n.a	0
 粘结	n.aa	0
 闹剧	n.ae	0
@@ -11920,7 +11920,7 @@ columns:
 逆向	n.ui	0
 恼人	n.uo	0
 农行	n.uu	0
-乃	n/	0
+您	n/	0
 年终	n/a	0
 念书	n/aa	0
 年费	n/ae	0
@@ -11951,7 +11951,7 @@ columns:
 年仅	n/ui	0
 年金	n/uo	0
 年后	n/uu	0
-怒	n;	0
+哪	n;	0
 哪能	n;a	0
 呢绒	n;aa	0
 内壁	n;ae	0
@@ -13025,8 +13025,8 @@ columns:
 囊中羞涩	nz9o	0
 内政部长	nz9u	0
 拿着	nzo	0
-拍	p'	0
-朋	p,	0
+颇	p'	0
+批	p,	0
 拍出	p,a	0
 破绽	p,aa	0
 平局	p,ae	0
@@ -13057,7 +13057,7 @@ columns:
 排版	p,ui	0
 拚命	p,uo	0
 排斥	p,uu	0
-批	p.	0
+评	p.	0
 瓶颈	p.a	0
 派驻	p.aa	0
 炮弹	p.ae	0
@@ -13088,7 +13088,7 @@ columns:
 炮兵	p.ui	0
 疲乏	p.uo	0
 叛徒	p.uu	0
-评	p/	0
+朋	p/	0
 盘子	p/a	0
 盘缠	p/aa	0
 贫民	p/ae	0
@@ -13119,7 +13119,7 @@ columns:
 彷佛	p/ui	0
 贫乏	p/uo	0
 爬行	p/uu	0
-盘	p;	0
+频	p;	0
 喷出	p;a	0
 喷绘	p;aa	0
 跑犀	p;ae	0
@@ -14188,7 +14188,7 @@ columns:
 萍踪浪迹	pz9o	0
 配置文件	pz9u	0
 皮	pzu'	0
-求	q'	0
+群	q'	0
 青	q,	0
 却也	q,a	0
 契约	q,aa	0
@@ -14220,7 +14220,7 @@ columns:
 去向	q,ui	0
 区分	q,uo	0
 轻微	q,uu	0
-取	q.	0
+亲	q.	0
 情缘	q.a	0
 清纯	q.aa	0
 亲属	q.ae	0
@@ -14251,7 +14251,7 @@ columns:
 亲身	q.ui	0
 诠释	q.uo	0
 亲近	q.uu	0
-奇	q/	0
+秋	q/	0
 签约	q/a	0
 侨乡	q/aa	0
 千寻	q/ae	0
@@ -14282,7 +14282,7 @@ columns:
 躯体	q/ui	0
 迄今	q/uo	0
 气得	q/uu	0
-亲	q;	0
+器	q;	0
 曲线	q;a	0
 雀巢	q;aa	0
 峭壁	q;ae	0
@@ -15358,8 +15358,8 @@ columns:
 强直性脊柱炎	qz9o	0
 求职意向	qz9u	0
 起	qza'	0
-仁	r'	0
-仍	r,	0
+忍	r'	0
+荣	r,	0
 软驱	r,a	0
 热络	r,aa	0
 扰民	r,ae	0
@@ -15390,7 +15390,7 @@ columns:
 热身	r,ui	0
 揉合	r,uo	0
 惹得	r,uu	0
-荣	r.	0
+染	r.	0
 燃尽	r.a	0
 认缴	r.aa	0
 润迅	r.ae	0
@@ -15420,7 +15420,7 @@ columns:
 溶化	r.ui	0
 认命	r.uo	0
 容得	r.uu	0
-融	r/	0
+仍	r/	0
 人妖	r/a	0
 人缘	r/aa	0
 人居	r/ae	0
@@ -15451,7 +15451,7 @@ columns:
 人像	r/ui	0
 入会	r/uo	0
 人质	r/uu	0
-忍	r;	0
+嚷	r;	0
 日剧	r;a	0
 肉丝	r;aa	0
 肉弹	r;ae	0
@@ -16504,8 +16504,8 @@ columns:
 融资渠道	rz9o	0
 认真学习贯彻	rz9u	0
 日照	rzi	0
-神	s'	0
-什	s,	0
+书	s'	0
+三	s,	0
 散发	s,a	0
 三级	s,aa	0
 搜寻	s,ae	0
@@ -16536,7 +16536,7 @@ columns:
 搜集	s,ui	0
 三人	s,uo	0
 事后	s,uu	0
-三	s.	0
+神	s.	0
 施展	s.a	0
 神经	s.aa	0
 首届	s.ae	0
@@ -16567,7 +16567,7 @@ columns:
 深化	s.ui	0
 宿舍	s.uo	0
 施行	s.uu	0
-水	s/	0
+什	s/	0
 删除	s/a	0
 升级	s/aa	0
 所属	s/ae	0
@@ -16598,7 +16598,7 @@ columns:
 售价	s/ui	0
 色彩	s/uo	0
 稍微	s/uu	0
-书	s;	0
+水	s;	0
 是以	s;a	0
 思维	s;aa	0
 上司	s;ae	0
@@ -17707,8 +17707,8 @@ columns:
 神舟六号	sz9i	0
 深圳证券	sz9o	0
 所在单位	sz9u	0
-谈	t'	0
-图	t,	0
+退	t'	0
+提	t,	0
 拓展	t,a	0
 天骄	t,aa	0
 推迟	t,ae	0
@@ -17739,7 +17739,7 @@ columns:
 替代	t,ui	0
 推介	t,uo	0
 推行	t,uu	0
-铁	t.	0
+谈	t.	0
 它也	t.a	0
 头绪	t.aa	0
 涂层	t.ae	0
@@ -17770,7 +17770,7 @@ columns:
 头像	t.ui	0
 淘金	t.uo	0
 痛得	t.uu	0
-推	t/	0
+铁	t/	0
 兔子	t/a	0
 特约	t/aa	0
 特异	t/ae	0
@@ -17801,7 +17801,7 @@ columns:
 铁血	t/ui	0
 体彩	t/uo	0
 体质	t/uu	0
-提	t;	0
+图	t;	0
 帖子	t;a	0
 图纸	t;aa	0
 同居	t;ae	0
@@ -18880,8 +18880,8 @@ columns:
 特种变压器	tz9i	0
 投资咨询	tz9o	0
 投资决策	tz9u	0
-恶	v'	0
-岸	v,	0
+娥	v'	0
+恶	v,	0
 而以	v,a	0
 而终	v,aa	0
 而尽	v,ae	0
@@ -18912,7 +18912,7 @@ columns:
 艾伦	v,ui	0
 扼杀	v,uo	0
 恶行	v,uu	0
-傲	v.	0
+澳	v.	0
 安居	v.a	0
 安纳	v.aa	0
 哀恳	v.ae	0
@@ -18943,7 +18943,7 @@ columns:
 安息	v.ui	0
 安妥	v.uo	0
 安德	v.uu	0
-哦	v/	0
+傲	v/	0
 奥妙	v/a	0
 氨纶	v/aa	0
 奥尼	v/ae	0
@@ -20039,8 +20039,8 @@ columns:
 安装完成后	vz9u	0
 案子	vza	0
 按照	vzi	0
-万	w'	0
-务	w,	0
+卫	w'	0
+万	w,	0
 无尽	w,a	0
 萎缩	w,aa	0
 顽强	w,ae	0
@@ -20071,7 +20071,7 @@ columns:
 武侠	w,ui	0
 万个	w,uo	0
 无须	w,uu	0
-物	w.	0
+闻	w.	0
 问了	w.a	0
 完结	w.aa	0
 亡灵	w.ae	0
@@ -20102,7 +20102,7 @@ columns:
 问候	w.ui	0
 问个	w.uo	0
 完后	w.uu	0
-微	w/	0
+务	w/	0
 微妙	w/a	0
 微红	w/aa	0
 位居	w/ae	0
@@ -20133,7 +20133,7 @@ columns:
 物价	w/ui	0
 外企	w/uo	0
 午后	w/uu	0
-五	w;	0
+网	w;	0
 蚊子	w;a	0
 网线	w;aa	0
 蜗居	w;ae	0
@@ -21207,7 +21207,7 @@ columns:
 网站设计	wz9o	0
 文字广告	wz9u	0
 细	x'	0
-像	x,	0
+需	x,	0
 喜剧	x,a	0
 献给	x,aa	0
 下属	x,ae	0
@@ -21238,7 +21238,7 @@ columns:
 相似	x,ui	0
 下令	x,uo	0
 现行	x,uu	0
-系	x.	0
+兴	x.	0
 详细	x.a	0
 玄幻	x.aa	0
 新建	x.ae	0
@@ -21269,7 +21269,7 @@ columns:
 写作	x.ui	0
 写入	x.uo	0
 写得	x.uu	0
-兄	x/	0
+像	x/	0
 箱子	x/a	0
 行驶	x/aa	0
 修建	x/ae	0
@@ -21300,7 +21300,7 @@ columns:
 鲜血	x/ui	0
 仙人	x/uo	0
 先行	x/uu	0
-雪	x;	0
+兄	x;	0
 星级	x;a	0
 县级	x;aa	0
 小屋	x;ae	0
@@ -22387,8 +22387,8 @@ columns:
 下载说明	xz9i	0
 下载次数	xz9o	0
 行政主管	xz9u	0
-雨	y'	0
-业	y,	0
+院	y'	0
+云	y,	0
 一张	y,a	0
 一级	y,aa	0
 一层	y,ae	0
@@ -22419,7 +22419,7 @@ columns:
 英俊	y,ui	0
 与会	y,uo	0
 一律	y,uu	0
-云	y.	0
+应	y.	0
 游戏	y.a	0
 演绎	y.aa	0
 游民	y.ae	0
@@ -22450,7 +22450,7 @@ columns:
 油价	y.ui	0
 冶金	y.uo	0
 赢得	y.uu	0
-员	y/	0
+依	y/	0
 犹豫	y/a	0
 延续	y/aa	0
 印刷	y/ae	0
@@ -22481,7 +22481,7 @@ columns:
 延伸	y/ui	0
 爷爷	y/uo	0
 优质	y/uu	0
-应	y;	0
+业	y;	0
 业已	y;a	0
 因缘	y;aa	0
 邮局	y;ae	0
@@ -23605,7 +23605,7 @@ columns:
 宇宙空间	yz9o	0
 语重心长	yz9u	0
 也	yzi'	0
-种	z'	0
+展	z'	0
 真	z,	0
 抓好	z,a	0
 直线	z,aa	0
@@ -23637,7 +23637,7 @@ columns:
 转化	z,ui	0
 至今	z,uo	0
 招待	z,uu	0
-住	z.	0
+总	z.	0
 主张	z.a	0
 总结	z.aa	0
 这张	z.ae	0
@@ -23668,7 +23668,7 @@ columns:
 字体	z.ui	0
 之人	z.uo	0
 资质	z.uu	0
-者	z/	0
+种	z/	0
 针对	z/a	0
 制约	z/aa	0
 自已	z/ae	0
@@ -23699,7 +23699,7 @@ columns:
 重伤	z/ui	0
 自杀	z/uo	0
 自行	z/uu	0
-展	z;	0
+早	z;	0
 桌子	z;a	0
 最终	z;aa	0
 最强	z;ae	0
