@@ -192,7 +192,7 @@ popping:
       accept: "[,./]"
       strategy: append
     # 支持标点词顶屏
-    - match: "[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][;',./][aeuio]+"
       accept: "[bpmfdtnlgkhjqxzcsrywv]"
 
 speller:
