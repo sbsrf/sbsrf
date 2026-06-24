@@ -70,7 +70,7 @@ function this.func(translation, env)
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_n3 = { "1", "2", "3", "4", "5" }
 	local hint_b = { "a", "e", "u", "i", "o" }
-	local hint_p = { ";", "'", ",", ".", "/" }
+	local hint_p = { "'", ",", "/", ";", "." }
 	local i = 1
 	local j = 1
 	local memory = env.memory
