@@ -104,7 +104,7 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[;',./]"
+      accept: "[;,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./0-9][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
@@ -130,7 +130,7 @@ speller:
   auto_clear: none
   max_code_length: 8
   auto_select: true
-  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
+  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][']$"
   popping:
     __patch:
       - /popping
@@ -148,7 +148,7 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv]"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][;']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][']?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./14560]?"
     # - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"

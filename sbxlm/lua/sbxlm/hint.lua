@@ -14,7 +14,7 @@ local this = {}
 ---@field xd_chars { string : string }
 
 ---@param env HintEnv
-function this.init(env)
+function this.init(env) 
 	local id = env.engine.schema.schema_id
 	if core.zici(id) then
 		env.memory = rime.Memory(env.engine, env.engine.schema)
@@ -206,7 +206,7 @@ function this.func(translation, env)
 			end
 			local chars = env.xd_chars
 			for code, char in pairs(chars) do
-				if code and code:sub(1,1) == input:sub(x,x) and code:len() == 2 then
+				if code and code:sub(1,1) == input:sub(x,x) and code:len() == 2 and core.s(input) then
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
 				end
 			end
