@@ -47,7 +47,7 @@ function this.func(translation, env)
       goto continue
     end
 
-    if core.xmft(schema_id) then
+    if core.xiangxi(schema_id) then
       goto continue2
     end
     -- 如果是单次选重非全码产生的补全选项，无需操作
