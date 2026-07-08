@@ -388,7 +388,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xiangxi(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xmft(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -410,17 +410,17 @@ local function validate_phrase(entry, segment, type, input, env)
       end
     end
     -- 象系sgsf型词在5码及以上时过滤掉四码简词
-    if core.xiangxi(schema_id) and env.cand == entry.text
+    if core.xmft(schema_id) and env.cand == entry.text
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./][aeuio]+") then
       return nil
     end
 
     if ((core.fm(schema_id) or core.fy(schema_id)) and (env.delayed_pop or env.pro_char)
     or core.fd(schema_id) or core.fx(schema_id) or core.mm(schema_id) 
-    or core.xiangxi(schema_id) and env.pro_char)
+    or core.xmft(schema_id) and env.pro_char)
     and (utf8.len(entry.text) == 2 or utf8.len(entry.text) == 3) then
       local lens = env.char_lens
-      if core.xiangxi(schema_id) then lens = env.xd_lens end
+      if core.xm(schema_id) then lens = env.xd_lens end
       if (utf8.len(entry.text) == 2) then
         local offset = utf8.offset(entry.text, 2)
         local char1 = entry.text:sub(1, offset - 1)
@@ -476,7 +476,7 @@ local function validate_phrase(entry, segment, type, input, env)
   end
   
   -- 声笔象码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
-  if core.xiangxi(schema_id) and input:len() >= 4 and env.strokes then
+  if core.xmft(schema_id) and input:len() >= 4 and env.strokes then
     -- 第一步：检查第四码是否匹配
     local fourth_char = input:sub(4, 4)
     if fourth_char ~= "" then
@@ -602,7 +602,7 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
   -- 对于象系方案，由于我们只保留了前四码编码，completion可能只是一个字符（如"w"）
   -- 此时需要特殊处理，只要输入的前三码匹配，就认为是有效的候选
-  if core.xiangxi(schema_id) then
+  if core.xmft(schema_id) then
     -- 象系方案特殊处理：只要前三码匹配，就认为是有效的候选
     -- 因为我们已经在前面的步骤中进行了第四码和第五码的筛选
     goto valid
@@ -619,7 +619,7 @@ local function validate_phrase(entry, segment, type, input, env)
   local phrase = rime.Phrase(env.dynamic_memory, type, segment.start, segment._end, entry)
   phrase.preedit = input
   -- 单次选择模式下，显示编码补全内容；否则清空
-  if env.single_selection and not core.xiangxi(schema_id) then
+  if env.single_selection and not core.xm(schema_id) then
     if input:len() == 3 and utf8.len(phrase.text) >= 4 and core.jm(schema_id) then
       if not env.lower_case then
         phrase.comment = phrase.comment:sub(-1, -1)
@@ -700,15 +700,15 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
       ;
     -- 象系编码类型处理
     -- sssS型：四字词专用，第四码大写
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) ~= 4
+    elseif core.xmft(schema_id) and utf8.len(phrase.text) ~= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
     -- ssSg型：多字词专用，第三码大写
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) < 5
+    elseif core.xmft(schema_id) and utf8.len(phrase.text) < 5
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][a-z].*") then
       ;
     -- sgsn型：二、三字词用，第四码为数字
-    elseif core.xiangxi(schema_id) and utf8.len(phrase.text) >= 4
+    elseif core.xmft(schema_id) and utf8.len(phrase.text) >= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][23789].*") then
       ;
     elseif not known_words[phrase.text] then
@@ -756,13 +756,13 @@ function this.func(input, segment, env)
     for entry in env.static_memory:iter_dict() do
         local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
         phrase.preedit = input
-        if core.xiangxi(schema_id) and not env.xx_flag and not env.pure_char then 
+        if core.xmft(schema_id) and not env.xx_flag and not env.pure_char then 
           env.xx_flag = true 
           if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then 
             env.cand = entry.text
           end
         end
-        if core.xiangxi(schema_id) and env.pure_char and utf8.len(entry.text) > 1
+        if core.xmft(schema_id) and env.pure_char and utf8.len(entry.text) > 1
         and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./]") then
           ; --设置纯单选项时在四码时忽略标点词
         else

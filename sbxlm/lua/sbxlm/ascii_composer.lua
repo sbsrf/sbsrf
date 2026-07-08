@@ -145,7 +145,7 @@ function this.func(key_event, env)
   end
 
   -- 象码码长为3且按Shift+Tab时
-  if not ascii_mode and segment and segment:has_tag("abc") and core.xiangxi(schema_id)
+  if not ascii_mode and segment and segment:has_tag("abc") and core.xmft(schema_id)
   and not key_event:release() and input:len() == 3 and key_event:shift() and key_event.keycode == XK_Tab then
     context:set_option("_pure_char", true)
     local str = input:sub(segment._start, segment._end)

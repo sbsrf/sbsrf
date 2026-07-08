@@ -23,7 +23,7 @@ function this.init(env)
 	end
 	-- 声笔飞单和声笔飞延采用了声笔飞码的词典，所以反查词典的名称与方案 ID 不相同，需要特殊判断
 	local dict_name = (id == "sbfd" or id == "sbmd" or id == "sbfy") and "sbfm" or id
-	if id == "sbxd" then dict_name = "sbxm" end
+
 	-- 声笔简拼和声笔拼音用声笔简码的简码
 	if (id == 'sbjp' or id == 'sbpy') then dict_name = 'sbjm' end
 	-- 声笔自整用声笔自然的简码
@@ -65,7 +65,7 @@ function this.func(translation, env)
 	]]
 	local id = env.engine.schema.schema_id
 	local is_hidden = ctx:get_option("hide")
-	if core.xiangxi(id) then is_hidden = ctx:get_option("is_hidden") end
+	if core.xmft(id) then is_hidden = ctx:get_option("is_hidden") end
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_n3 = { "1", "2", "3", "4", "5" }
@@ -87,7 +87,7 @@ function this.func(translation, env)
 			end
 		end		
 		-- 象系字词在全码时提示简码
-		if (core.xiangxi(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{2}[a-zA-Z;',./23789]?[aeuio]*") then
+		if (core.xmft(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-zA-Z]{2}[a-zA-Z;',./23789]?[aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
 			for code in string.gmatch(codes, "[^ ]+") do
 				if input ~= code and input:len() >= code:len() then
@@ -193,7 +193,7 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		if core.xiangxi(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
+		if core.xmft(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			local x = input:len()
 			for j = 1, 5 do
@@ -211,8 +211,8 @@ function this.func(translation, env)
 				end
 			end
 		end
-		--象码和象单在sx时提示标点字
-		if core.xiangxi(id) and core.sx(input) and not is_hidden then
+		--象系在sx时提示标点字
+		if core.xmft(id) and core.sx(input) and not is_hidden then
 			memory:dict_lookup(input .. ";", false, 1)
 			for entry in memory:iter_dict()
 			do
@@ -232,7 +232,7 @@ function this.func(translation, env)
 				; -- 简码只在非隐藏模式且兼容飞系时提示
 			elseif core.feixi(id) and is_hidden then
 				; -- 飞系在隐藏模式时不提示声声词 
-			elseif not ((core.feixi(id) and core.s(input)) or core.xiangxi(id)) then
+			elseif not ((core.feixi(id) and core.s(input)) or core.xmft(id)) then
 				candidate:get_genuine().comment = ''
 				memory:dict_lookup(candidate.preedit .. ";", false, 1)
 				for entry in memory:iter_dict()
@@ -248,7 +248,7 @@ function this.func(translation, env)
 			end
 		end
 		--象系在sxx时提示无理四码字
-		if core.xiangxi(id) and core.sxx(input) and not is_hidden then
+		if core.xmft(id) and core.sxx(input) and not is_hidden then
 			local char
 			if core.sxb(input) then
 				for j = 1, 5 do
@@ -314,7 +314,7 @@ function this.func(translation, env)
 		end
 
 		-- 象系提示
-		if core.xiangxi(id) and not is_hidden then
+		if core.xmft(id) and not is_hidden then
 			if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then
 				local forward
 				---@type { string: number }
@@ -376,7 +376,7 @@ function this.func(translation, env)
 		end
 
 		-- 飞系方案和声笔简码在 s, sx, sxb 格式的编码上提示 23789 和 14560 两组数选字词
-		if (core.s(input) or core.sx(input) or core.sxb(input)) and not core.xiangxi(id) and is_enhanced and not is_hidden then
+		if (core.s(input) or core.sx(input) or core.sxb(input)) and is_enhanced and not is_hidden then
 			for j = 1, #hint_n1 do
 				local n1 = hint_n1[j]
 				local n2 = hint_n2[j]
@@ -446,7 +446,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞系方案、双拼方案和象码在 sx 码位上，进行后码提示
-		if core.sx(input) and (core.feixi(id) or core.sp(id) or core.xiangxi(id)) and not is_hidden then
+		if core.sx(input) and (core.feixi(id) or core.sp(id) or core.xmft(id)) and not is_hidden then
 			for _, bihua in ipairs(hint_b) do
 				local ssb = candidate.preedit .. bihua
 				memory:dict_lookup(ssb, false, 1)
