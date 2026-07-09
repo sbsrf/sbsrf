@@ -177,7 +177,7 @@ sbxm_bindings:
       send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
-      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
 
 key_binder:
   bindings:

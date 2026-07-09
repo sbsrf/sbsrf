@@ -124,7 +124,7 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
       accept: "[A-Z]"
       strategy: append
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
       prefix: 2
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9][aeuio]*"
@@ -184,7 +184,7 @@ sbft_bindings:
       send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
-      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"

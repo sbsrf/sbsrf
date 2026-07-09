@@ -22,6 +22,10 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZaAcAd"
 ...
+# 增加条目
+声笔飞天	sb6e
+〇	looo	1	looo
+# 内置条目
 的	d	18680622	dbui
 一	y	9613770	yhee
 不	b	8204600	bheu
