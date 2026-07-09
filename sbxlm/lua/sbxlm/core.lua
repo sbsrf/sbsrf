@@ -117,13 +117,8 @@ function core.xm(id)
 end
 
 ---@param id string
-function core.xd(id)
-  return id == "sbxd"
-end
-
----@param id string
-function core.xiangxi(id)
-  return id == "sbxm" or id == "sbxd"
+function core.xmft(id)
+  return id == "sbxm" or id == "sbft"
 end
 
 ---@param id string
@@ -188,7 +183,7 @@ end
 
 ---@param id string
 function core.zici(id)
-  return core.feixi(id) or core.jm(id) or id == "sbzr" or id == "sbxh" or core.mm(id) or core.xiangxi(id)
+  return core.feixi(id) or core.jm(id) or id == "sbzr" or id == "sbxh" or core.mm(id) or core.xmft(id)
 end
 
 
@@ -219,7 +214,7 @@ function core.word_rules(code, id)
   local sp = core.sp(id)
   local fx = core.fx(id) or core.fj(id)
   local mm = core.mm(id)
-  local xx = core.xiangxi(id)
+  local xx = core.xmft(id)
 
   if #code == 2 then
     if jm then           -- s1s2b2b2
@@ -287,10 +282,9 @@ end
 function core.reverse(id)
   --相当于三目运算符a ? b : c
   local dict_name = (id == "sbfd" or id == "sbmd" or id == "sbfy") and "sbfm" or id
-  if id == "sbxd" then dict_name = "sbxm" end
 
   --如果不是飞系方案或者猛码或者象系方案，单字构词码在扩展词库里
-  if not (core.feixi(id) or core.mm(id) or core.xiangxi(id)) then
+  if not (core.feixi(id) or core.mm(id) or core.xmft(id)) then
     dict_name = dict_name .. ".extended"
   end
   return rime.ReverseLookup(dict_name)
