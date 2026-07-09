@@ -11,6 +11,7 @@ schema:
   author:
     - 戴石麟 <https://sbxlm.github.io>
   dependencies:
+    - sbfc
     - sbyp
     - bihua
     - zhlf
@@ -36,8 +37,6 @@ switches:
     reset: 1
     states: [隐藏, 有理, 无理, 两者]
   # 为了避免拥挤，不显示下面的状态
-  - name: pure_char
-    reset: 0
   - name: is_hidden
     reset: 0
   - name: auto_inline
@@ -73,6 +72,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@sbzdy
+    - affix_segmentor@sbfc
     - affix_segmentor@bihua
     - affix_segmentor@sbyp
     - affix_segmentor@emoji
@@ -82,6 +82,7 @@ engine:
   translators:
     - punct_translator
     - lua_translator@*sbxlm.auto_length
+    - table_translator@sbfc
     - table_translator@bihua
     - script_translator@sbyp
     - script_translator@emoji
@@ -111,7 +112,7 @@ popping:
       accept: "[;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./0-9][aeuio]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
@@ -127,7 +128,7 @@ popping:
       accept: "[0-9]"
       prefix: 2
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9][aeuio]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[bpmfdtnlgkhjqxzcsrywv;',./0-9]"
     - when: pro_char
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[a-z]"
@@ -148,8 +149,8 @@ translator:
   dictionary: sbft
   enable_user_dict: true
   enable_filtering: true
-  filter_strength: 3 #可以为3,4,5,6
-  forced_selection: true
+  filter_strength: 4 #可以为3,4,5,6
+  forced_selection: false
   single_selection: true
   enable_encoder: true
   stop_change: false
