@@ -27,7 +27,7 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
-  - name: pro_char
+  - options: [pro_word, pro_char]
     reset: 1
     states: [词组, 单字]
   - options: [hide, rational, irrational, both, neither]
@@ -108,6 +108,8 @@ popping:
       accept: "[bpmfdtnlgkhjqxzcsrywv;,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "[,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
@@ -118,7 +120,7 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z]{2}[aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
-      accept: "[A-Z]"
+      accept: "[A-Z']"
       strategy: append
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[0-9]"
@@ -129,6 +131,14 @@ popping:
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[a-z]"
       prefix: 2
+    - when: pro_word
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[,./]"
+    - when: pro_word
+      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "[;]"
+      prefix: 1
+      strategy: ignore
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
@@ -169,12 +179,6 @@ recognizer:
 
 sbft_bindings:
   __append:
-    - match: "[a-z]{3}"
-      accept: "Shift+space"
-      send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[a-z]{4}[aeuio]{0,2}"
-      accept: "Shift+space"
-      send_sequence: "{Home}{Right}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
@@ -202,6 +206,21 @@ sbft_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "o"
       send_sequence: "9"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4}[aeuio]{0,2}"
+      accept: ";"
+      send_sequence: "{Home}{Right}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "'"
+      send_sequence: "{Home}{Right}{Right}{space}{apostrophe}{space}"
+    # - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+    #   accept: "'"
+    #   send_sequence: "{Home}{Right}{space}{apostrophe}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]{2}"
+      accept: "Shift+space"
+      send_sequence: "{Home}{Right}{Right}{space}{Home}{Right}{space}{space}"
 
 key_binder:
   bindings:

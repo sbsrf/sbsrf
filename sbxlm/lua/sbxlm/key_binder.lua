@@ -85,6 +85,7 @@ function this.func(key_event, env)
   local delayed_pop = context:get_option("delayed_pop")
   local space_word = context:get_option("space_word")
   local tab_word = context:get_option("tab_word")
+  local pro_word = context:get_option("pro_word")
   if env.redirecting then
     return rime.process_results.kNoop
   end
@@ -164,6 +165,26 @@ function this.func(key_event, env)
       env.engine:process_key(rime.KeyEvent("'"))
       env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
       env.engine:process_key(rime.KeyEvent(input:sub(4,4)))
+      env.engine:process_key(rime.KeyEvent("'"))
+      env.engine:process_key(rime.KeyEvent("space"))
+    else
+      env.redirecting = false
+      goto continue
+    end
+    env.redirecting = false
+    return rime.process_results.kAccepted
+  end
+
+  -- 飞天三码特殊处理
+  if not ascii_mode and not key_event:ctrl() and not key_event:shift()
+  and core.ft(schema_id) and pro_word and key_event.keycode == XK_apostrophe then
+    env.redirecting = true
+    if core.sss(input) then
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("BackSpace"))
+      env.engine:process_key(rime.KeyEvent("space"))
+      env.engine:process_key(rime.KeyEvent(input:sub(2,2)))
+      env.engine:process_key(rime.KeyEvent(input:sub(3,3)))
       env.engine:process_key(rime.KeyEvent("'"))
       env.engine:process_key(rime.KeyEvent("space"))
     else

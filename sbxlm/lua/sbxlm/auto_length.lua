@@ -781,6 +781,7 @@ function this.func(input, segment, env)
     if core.mm(schema_id) and (core.xxx(input) or core.xxxx(input)) then
       translate_by_split(input, segment, env)
     elseif (core.sxs(input) and not env.third_pop)
+        or (core.ft(schema_id) and core.sbsb(input))
         or (core.feixi(schema_id) and core.sbsb(input))
         or (core.fx(schema_id) and core.sxsb(input)) 
         or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then

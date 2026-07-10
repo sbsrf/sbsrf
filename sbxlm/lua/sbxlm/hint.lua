@@ -192,7 +192,7 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		if core.xmft(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
+		if core.xm(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			local x = input:len()
 			for j = 1, 5 do
