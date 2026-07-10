@@ -265,12 +265,12 @@ function this.func(translation, env)
 				end
 			end
 		end
-		if core.jm(id) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
+		if (core.jm(id) or core.ft(id)) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
 			do
 				if candidate:get_genuine().text ~= entry.text then
-				  candidate:get_genuine().comment = candidate:get_genuine().comment..  ' ' .. entry.text
+				  candidate:get_genuine().comment = candidate:get_genuine().comment..  ' ' .. entry.text .. "'"
 				  break
 				end
 			end
