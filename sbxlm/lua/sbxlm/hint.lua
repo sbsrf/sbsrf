@@ -411,7 +411,7 @@ function this.func(translation, env)
 				elseif ctx:get_option("irrational") then
 					comment = b .. entry_n1.text .. n2
 				elseif entry_n2 and ctx:get_option("both") then
-					comment = comment .. entry_n2.text .. n2
+					comment = comment .. entry_n1.text .. n1 .. entry_n2.text .. n2
 				end
 				local forward = rime.Candidate("hint", candidate.start, candidate._end, text, comment)
 				rime.yield(forward)
