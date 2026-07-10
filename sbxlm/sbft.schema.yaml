@@ -30,15 +30,13 @@ switches:
   - name: pro_char
     reset: 1
     states: [词组, 单字]
+  - options: [hide, rational, irrational, both, neither]
+    reset: 4
+    states: [隐藏, 有理, 无理, 两者, 都不]
+  # 为了避免拥挤，不显示下面的状态
   - name: is_enhanced
     reset: 1
-    states: [常规, 增强]
-  - options: [hide, rational, irrational, both]
-    reset: 1
-    states: [隐藏, 有理, 无理, 两者]
-  # 为了避免拥挤，不显示下面的状态
-  - name: is_hidden
-    reset: 0
+    # states: [常规, 增强]
   - name: auto_inline
     reset: 1
   - name: is_buffered

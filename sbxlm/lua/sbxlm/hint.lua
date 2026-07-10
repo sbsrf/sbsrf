@@ -64,7 +64,7 @@ function this.func(translation, env)
 	]]
 	local id = env.engine.schema.schema_id
 	local is_hidden = ctx:get_option("hide")
-	if core.xmft(id) then is_hidden = ctx:get_option("is_hidden") end
+	if core.xm(id) then is_hidden = ctx:get_option("is_hidden") end
 	local hint_n1 = { "2", "3", "7", "8", "9" }
 	local hint_n2 = { "1", "4", "5", "6", "0" }
 	local hint_n3 = { "1", "2", "3", "4", "5" }
@@ -247,7 +247,7 @@ function this.func(translation, env)
 			end
 		end
 		--象系在sxx时提示无理四码字
-		if core.xmft(id) and core.sxx(input) and not is_hidden then
+		if core.xm(id) and core.sxx(input) and not is_hidden then
 			local char
 			if core.sxb(input) then
 				for j = 1, 5 do
@@ -374,8 +374,56 @@ function this.func(translation, env)
 			end
 		end
 
+		-- 飞天方案在s, sxs 格式的编码上提示声笔字、23789 和 14560 两组数选字
+		if (core.s(input) or core.sxs(input)) and core.ft(id) and is_enhanced and not is_hidden then
+			for j = 1, #hint_n1 do
+				local n1 = hint_n1[j]
+				local n2 = hint_n2[j]
+				local b = hint_b[j]
+				memory:dict_lookup(candidate.preedit:sub(-1) .. b, false, 1)
+				local entry_b = nil
+				for entry in memory:iter_dict() do
+					entry_b = entry
+					break
+				end
+				if not entry_b then
+					goto continue
+				end					
+				memory:dict_lookup(candidate.preedit:sub(-1) .. n1, false, 1)
+				local entry_n1 = nil
+				for entry in memory:iter_dict() do
+					entry_n1 = entry
+					break
+				end
+				if not entry_n1 then
+					goto continue
+				end
+				memory:dict_lookup(candidate.preedit:sub(-1) .. n2, false, 1)
+				local entry_n2 = nil
+				for entry in memory:iter_dict() do
+					entry_n2 = entry
+					break
+				end
+				local text = entry_b.text
+				local comment = b
+				if ctx:get_option("rational") then
+					comment = comment .. entry_n1.text .. n1
+				elseif ctx:get_option("irrational") then
+					comment = b .. entry_n1.text .. n2
+				elseif entry_n2 and ctx:get_option("both") then
+					comment = comment .. entry_n2.text .. n2
+				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, text, comment)
+				rime.yield(forward)
+				::continue::
+			end
+		end
+
 		-- 飞系方案和声笔简码在 s, sx, sxb 格式的编码上提示 23789 和 14560 两组数选字词
 		if (core.s(input) or core.sx(input) or core.sxb(input)) and not core.xm(id) and is_enhanced and not is_hidden then
+			if core.ft(id) and ctx:get_option("neither") then
+				goto final
+			end
 			for j = 1, #hint_n1 do
 				local n1 = hint_n1[j]
 				local n2 = hint_n2[j]
@@ -406,6 +454,7 @@ function this.func(translation, env)
 				rime.yield(forward)
 				::continue::
 			end
+			::final::
 		end
 
 		-- 飞系在隐藏模式下不提示声笔字
