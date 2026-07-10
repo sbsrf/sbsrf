@@ -113,7 +113,7 @@ popping:
       accept: "[bpmfdtnlgkhjqxzcsrywv;,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./][aeuio]*"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
