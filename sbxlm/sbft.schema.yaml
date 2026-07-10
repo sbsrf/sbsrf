@@ -104,6 +104,11 @@ popping:
   __append:
     - match: "[^a-z]"
       accept: "[^ ]"
+    - when: pro_word
+      match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
+      accept: "[;]"
+      prefix: 1
+      strategy: ignore
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
       accept: "[bpmfdtnlgkhjqxzcsrywv;,./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
@@ -134,11 +139,6 @@ popping:
     - when: pro_word
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[,./]"
-    - when: pro_word
-      match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
-      accept: "[;]"
-      prefix: 1
-      strategy: ignore
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
