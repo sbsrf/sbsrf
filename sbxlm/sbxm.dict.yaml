@@ -22,7 +22,7 @@ encoder:
     - length_in_range: [4, 12]
       formula: "AaBaCaZaAcAd"
 ...
-# 自定义条目，格式为sxs[14560]、sb'等
+# 增加条目sxs[14560]
 逝世	sjs0
 净水剂	jsj1
 信息技术	xxj4
@@ -820,7 +820,7 @@ encoder:
 素	sfl;	133127	sfeeie
 阴	ybu	133055	ybaiua
 尼	np	132787	npaeuu
-益	yki	132675	ykoueu
+营	yki	132675	ykeiio
 瞧	qfo	132662	qfiaee
 州	zco	132493	zcouoi
 充	cw	132084	cwoeao
@@ -839,7 +839,7 @@ encoder:
 习	xj	128954	xjaoee
 担	djie	128692	djeiei
 柔	ry	128682	ryaoai
-营	ykii	128610	ykeiio
+益	ykr;	128610	ykoueu
 贵	goi	128557	goiaei
 土	tt	127989	tteiee
 隐	ybo	127765	ybaiua
@@ -28255,7 +28255,6 @@ encoder:
 译	ywk,	0	ywoaao
 驿	yqk,	0	yqaaea
 疫	ygn'	0	ygoeuo
-益	ykr;	0	ykoueu
 意	ylio	0	yloeou
 懿	ytio	0	yteieo
 因	yoeu	0	yoiaeu
@@ -28274,6 +28273,7 @@ encoder:
 鹰	ygr,	0	ygoeuu
 迎	yhb.	0	yhuaai
 盈	ynk;	0	ynauao
+营	ykii	0	ykeiio
 蝇	ycoa	0	yciaei
 影	yiw/	0	yiiaee
 应	ygv,	0	ygoeuo
@@ -69942,7 +69942,6 @@ encoder:
 无处可逃	wck/	400
 二意	vdy.	400
 肃宁县	snx;	400
-一块肉	ykr;	400
 拜伦	bvl/	400
 哪年	non/	400
 万荣县	wrx;	400
