@@ -192,7 +192,8 @@ function this.func(translation, env)
 			rime.yield(candidate)
 			goto continue
 		end
-		if core.xm(id) and (core.s(input) or core.sxs(input)) and not is_hidden then
+		--象码提示
+		if core.xm(id) and (core.s(input) or core.sx(input) or core.sxs(input)) and not is_hidden then
 			candidate:get_genuine().comment = ''
 			local x = input:len()
 			for j = 1, 5 do
@@ -205,12 +206,13 @@ function this.func(translation, env)
 			end
 			local chars = env.xm_chars
 			for code, char in pairs(chars) do
-				if code and code:sub(1,1) == input:sub(x,x) and code:len() == 2 and core.s(input) then
+				if code:sub(1,1) == input:sub(x,x) and code:len() == 2 and core.s(input) then
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
+				elseif code:sub(1,2) == input and code:len() == 3 and core.sx(input) then
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(3,3)
 				end
 			end
 		end
-		--象码和象单在sx时提示标点字
 		if core.xmft(id) and core.sx(input) and not is_hidden then
 			memory:dict_lookup(input .. ";", false, 1)
 			for entry in memory:iter_dict()
@@ -311,7 +313,6 @@ function this.func(translation, env)
 				end
 			end
 		end
-
 		-- 象系提示
 		if core.xmft(id) and not is_hidden then
 			if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then

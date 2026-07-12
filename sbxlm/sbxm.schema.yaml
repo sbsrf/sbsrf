@@ -139,7 +139,7 @@ translator:
   dictionary: sbxm
   enable_user_dict: true
   enable_filtering: true
-  filter_strength: 4 #可以为3,4,5,6
+  filter_strength: 3 #可以为3,4,5,6
   forced_selection: true
   single_selection: true
   enable_encoder: true
@@ -172,9 +172,9 @@ sbxm_bindings:
     - match: "[a-z]{4}[aeuio]{0,2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: Tab
-      send_sequence: "{Home}{Right}{space}{space}"
+      send_sequence: "{apostrophe}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
