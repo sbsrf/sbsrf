@@ -31,6 +31,9 @@ function this.init(env)
 	if id == 'sbhz' then dict_name = 'sbxh' end
 	env.reverse = rime.ReverseLookup(dict_name)
 	env.xm_chars = {}
+	-- 新增数组存放有序编码
+	env.xm_char_list = {}
+	
 	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
 	local file = io.open(path, "r")
 	if not file then
@@ -40,17 +43,15 @@ function this.init(env)
 	for line in file:lines() do
 		local char, code = line:match("([^\t]+)\t([^\t]+)")
 		if char and code then
-			table.insert(env.xm_chars, {
-					code = code,
-					char = char
-			})
+			env.xm_chars[code] = char
+			table.insert(env.xm_char_list, { code = code, char = char })
 		end
 	end
 	file:close()
 	
-	-- 按code字典序排序数组
-	table.sort(env.xm_chars, function(a, b)
-			return a.code < b.code
+	-- 对编码做字典序升序排序（原位排序数组）
+	table.sort(env.xm_char_list, function(a, b)
+		return a < b
 	end)
 end
 
@@ -214,10 +215,10 @@ function this.func(translation, env)
 					break
 				end	
 			end
-			for _, item in ipairs(env.xm_chars) do
+			for _, item in ipairs(env.xm_char_list) do
 				if item.code:sub(1,1) == input:sub(x,x) and item.code:len() == 2 and core.s(input) then
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(2,2)
-				elseif item.code:sub(1,2) == input and code:len() == 3 and core.sx(input) then
+				elseif item.code:sub(1,2) == input and item.code:len() == 3 and core.sx(input) then
 					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(3,3)
 				end
 			end
