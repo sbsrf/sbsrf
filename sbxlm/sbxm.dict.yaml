@@ -95,7 +95,7 @@ encoder:
 事	ss	1372273	sseiae
 还	hs	1360628	hseuio
 如	rn	1358729	rnauei
-身	ng	1317288	sruiae
+身	pc	1317288	sruiae
 多	du	1316187	duuaou
 已	yc	1311774	ycaeaa
 面	ms	1286744	mseuia
@@ -214,7 +214,7 @@ encoder:
 么	mb	575392	mruaoo
 处	cu	574946	cuuaoi
 次	cd	572318	cdoeua
-水	ku	571283	sviauo
+水	rl	571283	sviauo
 太	tp	570068	tpeuoo
 光	ge	566746	geioue
 入	rr	565494	rruooo
@@ -224,15 +224,15 @@ encoder:
 由	yi	561569	yiiaei
 风	fn	560218	fnuauo
 表	bf	552696	bfeeie
-报	ba	550503	bjeiea
+报	bja	550503	bjeiea
 难	nk	548379	nkaoui
 死	ssu	548187	sseuao
 长	cc	544727	ccueao
 今	ja	544475	jauooa
 平	p	541007	pseoue
 展	zp	540928	zpaeue
-四	gh	532925	sfiaua
-金	nh	527231	jauoee
+四	nh	532925	sfiaua
+金	pl	527231	jauoee
 怎	zq	527202	zqueie
 体	tr	526435	truiei
 色	su	522015	suuaai
@@ -272,7 +272,7 @@ encoder:
 步	bnu	468698	bnieie
 剑	jai	467999	jauoeo
 轻	qp	467412	qpeaie
-血	vw	467002	xruiai
+血	pi	467002	xruiai
 双	ka	466581	skaoao
 王	wf	463527	wfeeie
 教	jt	462581	jteieu
@@ -282,7 +282,7 @@ encoder:
 重	cr	457156	crueia
 通	ty	456703	tyaoia
 万	ws	456252	wseauu
-师	vt	455660	sdiuei
+师	rt	455660	sdiuei
 产	cl	455376	cloeou
 绩	jli	454532	jlaaee
 算	sz	454333	szueou
@@ -324,11 +324,11 @@ encoder:
 管	gz	400967	gzueou
 未	wdi	400854	wdeeiu
 长	zc	400002	zcueao
-指	kf	399843	zjeieu
+指	vp	399843	zjeieu
 设	swa	398013	swoaua
 江	vm	396541	jvooee
 计	jwe	395437	jwoaei
-带	dsa	394906	dseiii
+带	dsi	394906	dseiii
 认	re	393084	rwoauo
 社	sye	392811	syoaio
 交	wt	391229	jwoeuo
@@ -336,8 +336,8 @@ encoder:
 言	yyo	387302	yyoeee
 华	hre	385988	hruiua
 往	wp	385489	wpuuio
-吧	boa	385290	boiaea
-斯	pi	383003	skeiie
+吧	ba	385290	boiaea
+斯	ne	383003	skeiie
 题	ti	380185	tiiaee
 保	bre	379648	bruiia
 舌	pb	378929	srueii
@@ -347,21 +347,20 @@ encoder:
 员	vy	375955	yoiaei
 书	sj	375726	sjaaio
 许	xw	373258	xwoaue
-决	pl	373187	jdoeae
+决	gh	373187	jdoeae
 务	we	372320	wuuaoa
 武	wsi	371543	wseeie
 干	gt	371451	gteeii
 形	xs	370271	xseeui
 反	fh	369694	fhuuao
 衣	yw	369419	ywoeua
-元	rl	368155	ydeeua
+元	ku	368155	ydeeua
 近	jjo	362869	jjuuei
 物	wa	361225	wrueie
 龙	lx	361143	lxeuau
 呢	no	359766	noiaea
 条	tu	358909	tuuaoe
 它	tx	357944	tiooau
-重	zrs;	357156	zrueia
 义	ky	356214	ywouoo
 青	qf	355869	qfeeie
 区	qc	355402	qceuoa
@@ -380,7 +379,7 @@ encoder:
 济	jvu	336136	jvooeo
 满	mv	336083	mvooee
 告	gri	335720	grueie
-李	pa	335530	lmeiuo
+李	nw	335530	lmeiuo
 拉	lj	335481	ljeieo
 惊	jx	335122	jxooio
 娘	nb	334640	nnaueo
@@ -391,7 +390,7 @@ encoder:
 空	ki	330423	kiooau
 军	jie	330328	jioaea
 传	cro	328002	cruiee
-找	pm	327393	zjeiee
+找	vt	327393	zjeiee
 石	sse	326702	sseuia
 极	jmo	326585	jmeiuo
 远	ydo	324869	ydeeua
@@ -414,7 +413,7 @@ encoder:
 虽	so	311998	soiaei
 据	jje	310812	jjeiea
 收	sl	310363	slaiue
-资	hd	310200	zdoeua
+资	vk	310200	zdoeua
 请	qw	310165	qwoaee
 百	bs	309521	bseuia
 字	zia	308943	ziooaa
@@ -425,7 +424,7 @@ encoder:
 怕	px	306064	pxooiu
 房	fw	304408	fwoaeu
 弟	ddu	304192	ddouae
-式	vv	303990	sleeie
+式	nv	303990	sleeie
 论	lz	302094	lwoauo
 象	xu	301409	xuuaia
 净	jdi	301178	jdoeua
@@ -440,7 +439,7 @@ encoder:
 持	cj	295151	cjeiee
 杀	sx	294642	sxuoei
 德	pd	293703	dpuuie
-语	pf	293635	ywoaei
+语	kf	293635	ywoaei
 视	syu	292590	syoaio
 绝	jla	292116	jlaaeu
 音	yli	291749	yloeou
@@ -454,14 +453,14 @@ encoder:
 司	sji	284185	sjaeia
 坐	za	282161	zauouo
 每	mqo	281546	mqueaa
-众	cq	281426	zauouo
+众	pm	281426	zauouo
 随	sb	280172	sbaieu
-谁	fm	279880	swoaui
+谁	rb	279880	swoaui
 院	yb	279057	ybaioo
 喜	xt	278857	xteiei
 父	fa	278700	fruouo
 委	wh	278063	whueiu
-急	fo	277517	juuaae
+急	pf	277517	juuaae
 代	dre	277402	druiea
 议	py	277347	ywoaou
 刻	kw	276704	kwoeau
@@ -482,9 +481,9 @@ encoder:
 品	po	264015	poiaei
 乎	hri	264013	hruoue
 根	gm	263447	gmeiuo
-精	jda	263230	jdouei
+精	jdf;	263230	jdouei
 八	pq	261246	bruooo
-首	tv	261126	skoueu
+首	rv	261126	skoueu
 举	jve	260522	jvooue
 罗	lfu	259802	lfiaii
 姑	gne	258942	gnauee
@@ -510,10 +509,10 @@ encoder:
 站	zli	246005	zloeou
 千	qr	245944	qrueii
 确	qsu	245491	qseuia
-断	dda	245192	ddouei
+断	ddl/	245192	ddouei
 足	zn	244971	zniaei
 示	sdi	244114	sdeeiu
-整	gf	242910	zseiae
+整	vw	242910	zseiae
 图	too	242860	toiaua
 留	lhi	242773	lhuaoa
 片	pr	242619	pruiea
@@ -523,7 +522,7 @@ encoder:
 香	xh	238041	xhueiu
 般	bz	237182	bzuuao
 晚	wiu	236512	wiiaee
-准	nv	235322	zdoeui
+准	vv	235322	zdoeui
 集	jre	234835	jruioe
 七	qle	234407	qleaaa
 刀	dq	233889	dqauuu
@@ -532,12 +531,12 @@ encoder:
 英	yku	232919	ykeiii
 导	dbe	232784	dbaeae
 宝	bi	232352	biooae
-错	mt	231882	caueee
+错	cq	231882	caueee
 帮	bfi	231522	bfeeeu
 联	lb	230848	lbeiie
 阿	vb	230703	vbaiei
 兴	xvu	230097	xvooue
-约	ve	229841	ylaaeu
+约	tq	229841	ylaaeu
 沉	cv	229373	cvooeo
 夜	ywo	228640	ywoeui
 曾	fc	228002	cdouia
@@ -561,7 +560,7 @@ encoder:
 久	juo	218489	juuaoo
 周	zci	218296	zcuaei
 阳	ybi	218089	ybaiia
-复	fqo	217659	fqueia
+复	fqiu	217659	fqueia
 局	jpi	216335	jpaeua
 施	sqa	216034	sqoeau
 拿	na	215068	nauoei
@@ -587,7 +586,7 @@ encoder:
 故	ggu	206366	ggeiia
 热	rj	205850	rjeieu
 念	nao	205256	nauooa
-黄	wk	204965	hkeiie
+黄	hd	204965	hkeiie
 查	cm	204702	cmeiuo
 响	xoi	204510	xoiaeu
 静	jf	204076	jfeeie
@@ -597,13 +596,12 @@ encoder:
 星	xi	203245	xiiaee
 模	mme	202607	mmeiuo
 究	jiu	202601	jiooau
-造	kp	202350	zrueie
+造	vq	202350	zrueie
 包	bba	201915	bbuaae
 护	hja	201201	hjeieo
 楚	cmi	200939	cmeiuo
-亚	kc	200894	yseiio
+亚	yse	200894	yseiio
 酒	vf	200393	jvooee
-乐	lhiu	200002	lhuaiu
 段	dh	199228	dhuiee
 注	zve	198214	zvooeo
 依	tf	197935	yruioe
@@ -615,8 +613,8 @@ encoder:
 喝	hoa	195945	hoiaei
 证	zwi	194087	zwoaei
 写	xie	193993	xioaea
-须	vq	193348	xxuuue
-严	yse	193344	yseiio
+须	fp	193348	xxuuue
+严	ysm,	193344	yseiio
 破	ps	193151	pseuia
 古	gge	192244	ggeiia
 左	zx	191802	zxeuei
@@ -624,26 +622,26 @@ encoder:
 省	spi	190002	spiuou
 费	fgi	189822	fgaeau
 怀	hx	189066	hxooie
-线	pe	188839	xlaaee
+线	fo	188839	xlaaee
 摇	yj	188726	yjeieu
 存	cx	188532	cxeuia
 熟	swo	188210	swoeia
 痛	tg	188158	tgoeuo
 装	zku	187834	zkoeie
 另	lo	187744	loiaea
-类	rb	187619	ldouei
+类	fm	187619	ldouei
 汉	hva	186961	hvooea
 居	jpe	186953	jpaeue
 具	jh	186493	jhiaee
 哈	hoi	186389	hoiaeu
 灵	le	186253	leaeeo
 标	bmi	185953	bmeiuo
-研	ysa	185712	yseuia
+研	yss,	185712	yseuia
 冲	cdi	185090	cdoeia
 井	jdu	184548	jdeeui
 投	tja	183977	tjeieu
 雷	tb	183434	lteoai
-纠	tq	182959	jlaaea
+纠	gf	182959	jlaaea
 选	xro	182827	xrueie
 需	xti	182120	xteoai
 既	jeu	181604	jeaeea
@@ -691,7 +689,7 @@ encoder:
 止	zni	164853	znieie
 乙	yla	164336	ylaaaa
 宫	gii	164328	giooai
-显	xio	164109	xiiaee
+显	xim,	164109	xiiaee
 态	tpo	164038	tpeuoo
 构	gma	163568	gmeiuo
 穿	ci	163245	ciooau
@@ -720,7 +718,7 @@ encoder:
 称	chi	156842	chueiu
 史	sou	156781	soiaeu
 楼	lma	156682	lmeiuo
-药	fp	156435	ykeiia
+药	kp	156435	ykeiia
 致	zsu	155421	zseaoe
 讲	jwu	155406	jwoaee
 负	fui	155173	fuuaia
@@ -736,12 +734,12 @@ encoder:
 妈	mna	152300	mnauea
 寒	hio	151951	hiooae
 丽	lso	151806	lseiao
-宋	pc	151737	siooae
+宋	ng	151737	siooae
 角	juu	151451	juuaua
 顿	dsc;	151447	dseaia
 亮	lwu	151045	lwoeia
 医	ycu	151031	yceuee
-号	rt	150961	hoiaee
+号	mt	150961	hoiaee
 雨	yte	150946	yteiai
 温	wv	150307	wvooei
 杨	ymu	150233	ymeiuo
@@ -760,12 +758,12 @@ encoder:
 初	cya	147125	cyoaiu
 礼	ly	147056	lyoaio
 价	jru	146848	jruiuo
-斗	bt	146522	ddooei
+斗	nd	146522	ddooei
 族	zqu	146373	zqoeau
 您	nr	146087	nruiua
 索	ski	146073	skeioa
 试	swe	145790	swoaee
-眉	mp	145716	mpaieu
+毛	mp	145716	mpueea
 座	zge	145676	zgoeuu
 优	yro	145527	yruieu
 鬼	gna	145095	gnuiae
@@ -791,11 +789,11 @@ encoder:
 秋	qho	140265	qhueiu
 胡	hg	140053	hgeiia
 叹	toa	139991	toiaea
-抱	bja	139990	bjeieu
+抱	bjb'	139990	bjeieu
 妇	fna	139982	fnauea
 耳	vbe	139890	vbeiie
 脑	nua	139494	nuuaee
-仅	rao	138699	jruiao
+仅	jrao	138699	jruiao
 简	jz	138581	jzueou
 县	xha	138415	xhiaee
 织	zlu	138251	zlaaei
@@ -828,11 +826,11 @@ encoder:
 层	cpa	130634	cpaeue
 丈	zxo	130585	zxeuoo
 波	bv	130487	bvooea
-跳	ga	129509	tniaei
+跳	bt	129509	tniaei
 忘	wwo	129418	wwoeao
 遇	yio	129364	yiiaee
 刘	lui	129292	luoeuo
-掉	vk	129156	djeiei
+掉	wk	129156	djeiei
 习	xj	128954	xjaoee
 担	dje	128692	djeiei
 柔	ry	128682	ryaoai
@@ -894,7 +892,7 @@ encoder:
 凌	ldu	118139	ldoeei
 摘	zje	117837	zjeieo
 皇	hne	117580	hnuiae
-毛	mpu	117394	mpueea
+眉	mpi	117394	mpaieu
 验	yq	117354	yqaaeu
 富	fi	117322	fiooae
 状	zko	117309	zkoeie
@@ -917,7 +915,7 @@ encoder:
 章	zle	114035	zloeou
 恨	hxo	113741	hxooia
 毫	hwu	113652	hwoeia
-央	nw	113478	yviaeu
+央	tv	113478	yviaeu
 米	nm	113455	mdouei
 流	lvu	113228	lvooeo
 醒	xxe	112707	xxeiau
@@ -980,8 +978,8 @@ encoder:
 虚	xee	101357	xeieau
 婆	pva	101219	pvooea
 劳	lka	101210	lkeiio
-托	teu	100939	tjeieu
-底	dgu	100932	dgoeuu
+托	tjr,	100939	tjeieu
+底	dgh.	100932	dgoeuu
 超	cti	100792	cteiei
 妻	qsa	100697	qseaee
 稳	who	100450	whueiu
@@ -996,7 +994,6 @@ encoder:
 率	lwe	100002	lwoeaa
 秘	mh	100002	mhueiu
 弄	nf	100002	nfeeie
-调	twc;	100002	twoaua
 析	xmu	100002	xmeiuo
 陆	lbi	99991	lbaiee
 徒	tpi	99431	tpuuie
@@ -1043,7 +1040,7 @@ encoder:
 午	wre	94525	wrueei
 幕	me	94419	mkeiii
 苗	mki	94418	mkeiii
-暮	meu	94417	mkeiii
+暮	mkia	94417	mkeiii
 词	cwi	94161	cwoaae
 曰	yue	94156	yiiaee
 犯	fqa	94141	fquaua
@@ -1060,7 +1057,7 @@ encoder:
 柳	lmh'	92154	lmeiuo
 亿	yra	91573	yruiaa
 笔	bzu	91375	bzueou
-智	rv	91118	zgueeu
+智	pa	91118	zgueeu
 罢	bfa	90938	bfiaii
 绿	lli	90544	llaaea
 厂	cgeu	90502	cgeuuu
@@ -1096,10 +1093,9 @@ encoder:
 曲	qce	85524	qciaei
 奥	vr	85507	vruiao
 浴	yvr;	85337	yvooeu
-油	roo	85336	yvooei
+油	yvii	85336	yvooei
 偷	tri	85328	truiuo
-杂	naa	85312	zjuaei
-朝	zkiu	85260	zkeiia
+杂	zjei	85312	zjuaei
 介	jau	85144	jauoui
 盏	zlia	84963	zleeau
 洲	zvo	84869	zvooeo
@@ -1111,7 +1107,7 @@ encoder:
 荣	rke	83628	rkeiio
 述	smo	83351	smeiuo
 域	ytl,	83298	yteiee
-款	kte	83213	kteiee
+款	ktd/	83213	kteiee
 概	gmu	83179	gmeiuo
 宇	yid;	83174	yiooae
 彩	czm/	83087	czuoou
@@ -1124,7 +1120,7 @@ encoder:
 侠	xrs/	82621	xruieo
 迟	cpo	82478	cpaeuo
 爹	dru	82407	druouo
-诗	roa	82378	swoaei
+诗	swt,	82378	swoaei
 针	zae	82297	zaueee
 版	bra	82119	bruiea
 鱼	yyu	82040	yyuaia
@@ -1185,7 +1181,7 @@ encoder:
 爸	brx'	74728	bruouo
 疾	jgu	74713	jgoeuo
 训	xwui	74631	xwoaui
-额	viu	74614	viooau
+额	viui	74614	viooau
 销	xai	74543	xaueee
 迹	jwo	74498	jwoeui
 冒	miia	74494	miiaee
@@ -1214,7 +1210,7 @@ encoder:
 扑	pji	72055	pjeiei
 阶	jbu	72042	jbaiuo
 茶	cke	71971	ckeiiu
-趣	qto	71892	qteiei
+趣	qtn'	71892	qteiei
 洋	yvd;	71888	yvooeo
 舍	sai	71830	sauoee
 戳	cje	71636	cjaoea
@@ -1265,7 +1261,7 @@ encoder:
 搞	gji	67070	gjeieo
 挂	gje	66917	gjeiee
 壁	bpe	66645	bpaeui
-待	dpu	66509	dpuuie
+待	dpt,	66509	dpuuie
 菜	ckz,	66337	ckeiiu
 贼	zhe	66152	zhiauo
 逼	bso	66116	bseiae
@@ -1316,7 +1312,6 @@ encoder:
 稍	shi	61820	shueiu
 惨	cxu	61623	cxooia
 丰	ff	61601	ffeeei
-恶	wsm.	61573	wseiio
 犹	yqo	61442	yquaue
 烧	shl/	61440	shouuo
 录	lei	61269	leaeei
@@ -1340,7 +1335,7 @@ encoder:
 辛	xloe	60176	xloeou
 郭	gwa	60112	gwoeia
 触	cui	60049	cuuaua
-乘	cha	60002	chueii
+乘	chk/	60002	chueii
 貌	mzu	59959	mzuoou
 昏	hhi	59956	hhuaea
 督	dei	59935	deieei
@@ -1405,9 +1400,8 @@ encoder:
 壮	zkei	54954	zkoeie
 梁	lve	54825	lvooea
 郑	zkp'	54773	zkouee
-校	xmw/	54678	xmeiuo
 碎	ssw,	54501	sseuia
-挺	tju	54372	tjeieu
+挺	tjr'	54372	tjeieu
 僧	srd;	54353	sruiou
 荡	dku	54326	dkeiio
 箭	jzi	54302	jzueou
@@ -1447,11 +1441,11 @@ encoder:
 穷	qi	51794	qiooau
 莲	lko	51785	lkeiie
 疯	fgu	51760	fgoeuo
-享	xou	51412	xwoeia
+享	xwoa	51412	xwoeia
 粮	ldo	51351	ldouei
 祝	zyu	51318	zyoaio
 绕	rlu	51295	rlaaee
-颗	kim;	51235	kiiaee
+颗	kc	51235	kiiaee
 赤	ctu	51209	cteieu
 蒂	dki	51040	dkeiio
 旗	qqq/	50909	qqoeau
@@ -1498,7 +1492,7 @@ encoder:
 仪	yrw/	48162	yruiou
 镜	jal/	48145	jaueee
 慧	hfo	48111	hfeeei
-忆	nio	47803	yxooia
+忆	yxaa	47803	yxooia
 赛	sif;	47769	siooae
 烙	lhui	47753	lhouuo
 衫	syuu	47743	syoaiu
@@ -1564,7 +1558,6 @@ encoder:
 仔	zra	44519	zruiai
 裂	lsu	44442	lseuao
 绪	xlt;	44343	xlaaee
-降	jbui	44216	jbaiua
 翼	yjd/	44203	yjaoea
 缓	hlz'	44158	hlaaeu
 驻	zqe	43992	zqaaeo
@@ -1591,7 +1584,6 @@ encoder:
 宾	biu	43035	biooau
 厌	ygp.	42974	ygeueu
 旦	die	42947	diiaee
-呆	voei	42893	voiaee
 毁	hna	42841	hnuiea
 寺	stei	42830	steiee
 障	zbe	42776	zbaioe
@@ -1614,7 +1606,7 @@ encoder:
 锁	saei	41933	saueee
 剩	shk;	41846	shueii
 繁	fqi	41822	fqueaa
-筑	zza	41732	zzueou
+筑	zzd.	41732	zzueou
 劝	qka	41725	qkaoau
 饮	yuu	41689	yuuaau
 姆	mno	41565	mnauea
@@ -1650,7 +1642,6 @@ encoder:
 跌	dnu	40328	dniaei
 焦	jro	40308	jruioe
 跨	kna	40190	kniaei
-弹	tgd,	40002	tgaeao
 尾	wpue	40002	wpaeuu
 疗	lgai	39989	lgoeuo
 播	bji	39983	bjeieu
@@ -1658,7 +1649,7 @@ encoder:
 甜	trg,	39876	trueii
 寂	jia	39854	jiooai
 恰	qxai	39842	qxooiu
-景	jio	39827	jiiaee
+景	jiw;	39827	jiiaee
 傻	sru	39794	sruiui
 卢	lea	39793	leieae
 浑	hvie	39692	hvooeo
@@ -1740,7 +1731,7 @@ encoder:
 虹	hce	36202	hciaei
 墨	mvt,	36147	mviaou
 崖	yee	36079	yeiaie
-击	nd	36048	jdeeia
+击	ga	36048	jdeeia
 亭	twoe	35936	twoeia
 腹	fuu	35854	fuuaee
 鞭	bkou	35806	bkeiie
@@ -1837,12 +1828,12 @@ encoder:
 狄	dqo	31710	dquauo
 勃	bka	31684	bkeioa
 铜	tai	31662	taueee
-迈	msu	31613	mseauo
+迈	msj.	31613	mseauo
 瓶	pko	31553	pkouee
 薛	xkr.	31510	xkeiiu
 涂	tvae	31480	tvooeu
 茫	mkv.	31428	mkeiio
-则	ne	31423	zhiauo
+则	ve	31423	zhiauo
 炸	zhq,	31422	zhouuo
 梨	lhe	31396	lhueiu
 岩	yeeu	31373	yeiaie
@@ -1852,7 +1843,7 @@ encoder:
 狱	yqw.	31193	yquauo
 骇	hqu	31136	hqaaeo
 擦	cee	31062	cjeieo
-九	vp	31058	jjuaaa
+九	pe	31058	jjuaaa
 贷	drl;	31055	druiea
 币	bria	31003	bruiai
 袁	ytu	30997	yteiei
@@ -1978,7 +1969,6 @@ encoder:
 屠	tpt;	26988	tpaeue
 杖	zmo	26966	zmeiuo
 赢	ywoo	26956	ywoeai
-藏	zkg.	26942	zkeiie
 逢	fuo	26894	fuuaoe
 矮	vga	26860	vgueeu
 瓜	gho	26854	ghuuao
@@ -2000,7 +1990,7 @@ encoder:
 喉	hor/	26447	hoiaeu
 芙	fku	26446	fkeiie
 巡	xll.	26440	xlaaao
-姜	jdf'	26393	jdouee
+姜	jda	26393	jdouee
 昔	xki	26370	xkeiie
 厨	cgs,	26338	cgeuei
 豆	dso	26313	dseiae
@@ -2017,7 +2007,6 @@ encoder:
 循	xpi	25999	xpuuiu
 棉	mmi	25982	mmeiuo
 爪	zho	25974	zhuuio
-率	swl,	25914	swoeaa
 缝	flo	25904	flaaeu
 辩	blo	25873	bloeou
 姨	ynu	25801	ynauee
@@ -2032,7 +2021,7 @@ encoder:
 懒	lxi	25548	lxooie
 宴	yia	25544	yiooai
 捧	pjf,	25451	pjeiee
-帅	sdu	25435	sdiuia
+帅	sdia	25435	sdiuia
 偿	cra	25402	cruiio
 撑	cjeu	25371	cjeiei
 猫	mqk;	25306	mquaue
@@ -2076,7 +2065,7 @@ encoder:
 贪	taw;	24214	tauooa
 迁	qro	24187	qrueio
 擒	qjaa	24098	qjeieu
-渊	vua	24083	yvooeu
+渊	vyo	24083	yvooeu
 猎	lqi	24071	lquaue
 嚷	rou	24070	roiaeo
 砍	ksu	24049	kseuia
@@ -2135,7 +2124,6 @@ encoder:
 弓	gga	22486	ggaeaa
 漏	lvp,	22432	lvooea
 廊	lgw'	22289	lgoeuo
-奇	jpj;	22288	jpeuoe
 炉	lha	22247	lhouuo
 钦	qau	22206	qaueee
 颤	zwoi	22133	zwoeia
@@ -2191,7 +2179,7 @@ encoder:
 耗	hfu	20641	hfeeei
 玫	mfue	20602	mfeeie
 棒	bme	20587	bmeiuo
-辨	bli	20496	bloeou
+辨	blw.	20496	bloeou
 逻	lfo	20437	lfiaii
 沃	wvr,	20419	wvooeu
 恍	hxa	20416	hxooii
@@ -2219,9 +2207,9 @@ encoder:
 阅	ycd/	20058	ycoiao
 葬	zks,	20037	zkeiie
 夸	kpa	20022	kpeuoe
-番	prd;	20002	pruoue
 屏	ppe	20002	ppaeuo
 券	qkp'	20002	qkouee
+宿	xii	20002	xiooau
 爽	spu	19989	speuou
 纹	wlo	19976	wlaaeo
 脖	buk'	19967	buuaee
@@ -2324,7 +2312,6 @@ encoder:
 尧	ylu	17272	yleaue
 峻	jey/	17215	jeiaia
 枕	zmu	17166	zmeiuo
-会	kad'	17128	kauoee
 狮	sqi	17122	squaui
 郡	jer'	17120	jeaeeu
 厢	xgm;	17091	xgeuei
@@ -2406,7 +2393,7 @@ encoder:
 逊	xjo	15526	xjaiei
 蜂	fci	15509	fciaei
 佑	yrx;	15507	yruieu
-赚	vui	15485	zhiauo
+赚	zhk;	15485	zhiauo
 乳	rza	15482	rzuoou
 煌	hhe	15448	hhouuo
 桩	zmg,	15430	zmeiuo
@@ -2447,7 +2434,7 @@ encoder:
 霎	sta	14805	steoai
 婷	tne	14774	tnaueo
 灿	chia	14772	chouuo
-串	cie	14764	coiaei
+串	cooi	14764	coiaei
 碑	bse	14750	bseuia
 胎	tui	14714	tuuaee
 畔	pte	14686	ptiaei
@@ -2458,7 +2445,7 @@ encoder:
 坤	ktii	14562	kteiei
 聘	pba	14554	pbeiie
 锡	xau	14538	xaueee
-鄙	bok'	14513	boiaee
+鄙	boa	14513	boiaee
 掷	zjk'	14506	zjeieo
 敖	vfu	14482	vfeeie
 堵	dtt;	14454	dteiee
@@ -2570,7 +2557,7 @@ encoder:
 昧	mid;	12768	miiaee
 咪	moo	12765	moiaeo
 寰	hiu	12746	hiooai
-蝉	cnu	12742	cciaei
+蝉	cie	12742	cciaei
 盐	yti	12742	yteiei
 樵	qmo	12740	qmeiuo
 硕	sss;	12725	sseuia
@@ -2588,7 +2575,6 @@ encoder:
 噢	voe	12589	voiaeu
 勿	wbu	12554	wbuauu
 糕	gdo	12553	gdouei
-弄	lfeu	12547	lfeeie
 刮	grg;	12545	grueii
 牟	mye	12532	myaoue
 皓	hnr;	12512	hnuiae
@@ -2605,7 +2591,7 @@ encoder:
 哨	soei	12387	soiaei
 狭	xqu	12381	xquaue
 弘	hgao	12370	hgaeaa
-坑	kgu	12360	kteieo
+坑	ktw/	12360	kteieo
 圳	ztui	12311	zteieu
 呐	nou	12291	noiaei
 匪	fce	12264	fceiee
@@ -2625,8 +2611,7 @@ encoder:
 狡	jqw/	12019	jquauo
 鞘	qki	12002	qkeiie
 幢	zel;	12002	zeiaio
-饥	juua	11996	juuaau
-饥	juue	11996	juuaau
+饥	vvu	11996	juuaau
 楞	lmo	11987	lmeiuo
 撂	ljt;	11976	ljeiei
 灼	zhb.	11956	zhouuo
@@ -2687,7 +2672,6 @@ encoder:
 怡	yxy;	11044	yxooia
 绸	clc;	11028	claaeu
 痒	ygd;	11020	ygoeuo
-秘	bhx/	10944	bhueiu
 绫	llt/	10915	llaaee
 萄	tkb;	10893	tkeiiu
 兜	dnh/	10888	dnuiae
@@ -2699,7 +2683,7 @@ encoder:
 滞	zvs;	10778	zvooee
 啼	toi	10765	toiaeo
 煮	ztr.	10689	zteieu
-逾	vvu	10675	yauoei
+逾	yae	10675	yauoei
 祁	qya	10667	qyoaio
 舆	yhd/	10661	yhuiee
 邹	zuea	10653	zuuaae
@@ -2717,7 +2701,7 @@ encoder:
 莽	mkp,	10497	mkeiie
 懈	xxue	10467	xxooiu
 鸦	yce	10455	yceaiu
-艇	tzu	10415	tzuuao
+艇	tzr'	10415	tzuuao
 逛	gqo	10414	gquaue
 瑛	yfu	10413	yfeeie
 滥	lvd;	10410	lvooei
@@ -2758,19 +2742,15 @@ encoder:
 呃	voa	10008	voiaee
 蹙	cgei	10006	cgeuie
 泊	bvui	10002	bvooeu
-禅	syd,	10002	syoaio
 畜	xwl;	10002	xwoeaa
 嗑	kot;	10002	koiaee
-辟	bpoo	10002	bpaeui
 茜	xkei	10002	xkeiie
-厦	sgs/	10002	sgeueu
 匙	siu	10002	siiaee
 伺	crj;	10002	cruiae
 吁	xod;	10002	xoiaee
 卒	zwae	10002	zwoeuo
 撼	hjo	9994	hjeiee
-晏	yiia	9985	yiiaee
-晏	yiiu	9985	yiiaee
+晏	vyi	9985	yiiaee
 眷	jkp;	9983	jkouee
 悍	hxie	9980	hxooii
 雯	wto	9958	wteoai
@@ -2780,13 +2760,12 @@ encoder:
 嘟	dot'	9897	doiaee
 匠	jcu	9876	jceuue
 腥	xue	9874	xuuaee
-省	xpr;	9870	xpiuou
 梢	smi	9861	smeiuo
 匕	blu	9838	bluaaa
 肺	fus;	9837	fuuaee
 禄	lyei	9813	lyoaio
 逮	deo	9810	deaeei
-娱	yae	9803	ynauei
+娱	vva	9803	ynauei
 宙	ziii	9759	ziooai
 纺	floe	9758	flaaeo
 澡	zvoe	9739	zvooei
@@ -2794,8 +2773,7 @@ encoder:
 卦	gti	9668	gteiee
 烫	tvj.	9631	tvooea
 腻	nui	9618	nuuaee
-嫉	jng/	9612	jnaueo
-嫉	jng;	9612	jnaueo
+嫉	jio	9612	jnaueo
 虞	yeg,	9588	yeieau
 绷	bluu	9587	blaaeu
 絮	xnoi	9583	xnauei
@@ -2817,7 +2795,6 @@ encoder:
 熄	xhr.	9440	xhouuo
 嫣	yns.	9401	ynauee
 鹅	vvl,	9395	vvueie
-嗔	cok'	9362	coiaee
 嗔	cok/	9362	coiaee
 荐	jkx'	9356	jkeiie
 诛	zwq;	9341	zwoaue
@@ -2826,8 +2803,7 @@ encoder:
 喽	lod'	9299	loiaeo
 逞	coo	9289	coiaee
 浣	hviu	9277	hvooeo
-喇	los,	9262	loiaee
-喇	los;	9262	loiaee
+喇	loe	9262	loiaee
 彰	zliu	9241	zloeou
 屡	lpd'	9221	lpaeuo
 缪	mlu	9217	mlaaea
@@ -2847,7 +2823,6 @@ encoder:
 冶	ydy;	9065	ydoeao
 刁	djee	9062	djaeee
 渗	svy/	9050	svooea
-菁	jkf'	9042	jkeiie
 菁	jkf;	9042	jkeiie
 晒	siei	9035	siiaee
 揪	jjh.	9031	jjeieu
@@ -2856,7 +2831,6 @@ encoder:
 垃	lto	9017	lteieo
 凰	hnn,	9016	hnuaui
 鸭	yiee	9011	yiiaee
-壳	ktiu	9002	kteieo
 淘	tvb;	8979	tvooeu
 踉	lno	8962	lniaei
 裘	qsv/	8962	qseioe
@@ -2995,7 +2969,7 @@ encoder:
 笠	lzoe	7386	lzueou
 朦	muk,	7382	muuaee
 粹	cdw,	7379	cdouei
-璧	bia	7376	bpaeui
+璧	bpoo	7376	bpaeui
 疤	bga	7363	bgoeuo
 衲	nyu	7356	nyoaiu
 霖	lte	7352	lteoai
@@ -3019,8 +2993,7 @@ encoder:
 瘫	tgk.	7186	tgoeuo
 筷	kzu	7178	kzueou
 趴	pnu	7157	pniaei
-犀	xpea	7141	xpaeui
-犀	xpee	7141	xpaeui
+犀	xpa	7141	xpaeui
 夭	yre	7125	yrueuo
 霓	ntu	7124	nteoai
 谣	ywz;	7109	ywoauo
@@ -3035,8 +3008,6 @@ encoder:
 甸	dbia	6964	dbuaia
 涅	nve	6957	nvooei
 漾	yvd'	6957	yvooeo
-搓	cjd,	6955	cjeieo
-搓	cjd.	6955	cjeieo
 搓	cue	6955	cjeieo
 俐	lrh;	6931	lruiue
 绛	jlui	6923	jlaaeu
@@ -3062,13 +3033,11 @@ encoder:
 匣	xci	6787	xceiae
 矫	jgr/	6784	jgueeu
 栗	lxei	6774	lxeiai
-蔓	mkia	6772	mkeiii
+蔓	mau	6772	mkeiii
 匀	yboe	6770	ybuaoe
 窒	zir,	6766	ziooau
-窒	zir.	6766	ziooau
 渺	mvu	6740	mvooei
 洽	qvai	6727	qvooeu
-靳	jkoa	6722	jkeiie
 靳	jkou	6722	jkeiie
 掣	cqu	6704	cqueei
 兢	jgn/	6694	jgeiia
@@ -3094,8 +3063,7 @@ encoder:
 镶	xaw/	6514	xaueee
 扛	kjei	6502	kjeiee
 嚣	xooi	6502	xoiaei
-韶	slii	6501	sloeou
-韶	slio	6501	sloeou
+韶	slo	6501	sloeou
 倔	jrp;	6494	jruiae
 堡	proe	6485	pruiia
 讪	swia	6478	swoaia
@@ -3114,11 +3082,8 @@ encoder:
 诣	ywl;	6357	ywoaua
 晁	cin.	6355	ciiaee
 墅	sit,	6350	siiaee
-弩	nnk'	6347	nnauea
-弩	nnk,	6347	nnauea
-弩	nnk.	6347	nnauea
-庐	lgw'	6326	lgoeuo
-庐	lgw,	6326	lgoeuo
+弩	nne	6347	nnauea
+庐	lgo	6326	lgoeuo
 弊	bde	6316	bdouia
 癌	vgi	6304	vgoeuo
 瀑	pvii	6302	pvooei
@@ -3143,7 +3108,6 @@ encoder:
 峭	qei	6171	qeiaii
 睨	nfu	6155	nfiaee
 娴	xnc,	6155	xnaueo
-圈	qok'	6142	qoiaou
 磋	csd,	6133	cseuia
 猾	hqc;	6129	hquaui
 沮	jvia	6129	jvooei
@@ -3203,7 +3167,7 @@ encoder:
 讷	nwu	5725	nwoaia
 汛	xvl,	5724	xvooea
 蟒	mce	5709	mciaei
-曦	xid.	5707	xiiaee
+曦	xio	5707	xiiaee
 驯	xqui	5695	xqaaeu
 秉	bha	5680	bhueae
 噬	soz/	5674	soiaeu
@@ -3264,7 +3228,7 @@ encoder:
 袅	nbu	5280	nbuaoa
 氧	yqi	5273	yqueea
 杉	smuu	5267	smeiuo
-仕	sia	5263	sruiei
+仕	srei	5263	sruiei
 卵	lho	5258	lhuaou
 缔	dlw;	5236	dlaaeo
 浏	lvui	5233	lvooeo
@@ -3273,8 +3237,7 @@ encoder:
 奖	jkeu	5206	jkoeiu
 寥	liu	5205	liooaa
 捞	ljk'	5201	ljeiee
-诏	zwq'	5201	zwoaau
-诏	zwq;	5201	zwoaau
+诏	zwo	5201	zwoaau
 俭	jrae	5190	jruiuo
 绊	bld,	5176	blaaeo
 啜	coa	5174	coiaea
@@ -3315,7 +3278,6 @@ encoder:
 诅	zwia	4974	zwoaia
 憔	qxo	4968	qxooiu
 炫	xhw'	4958	xhouuo
-屏	bpk,	4940	bpaeuo
 彷	ppoe	4937	ppuuio
 癫	dgi	4919	dgoeuo
 惫	but.	4912	buuaoi
@@ -3333,7 +3295,7 @@ encoder:
 憋	bdo	4860	bdouia
 婕	jns;	4856	jnauee
 翊	ylj.	4855	yloeou
-酱	vai	4850	jkoeiu
+酱	vvo	4850	jkoeiu
 湄	mvp;	4849	mvooea
 缰	jls,	4838	jlaaee
 珞	lfi	4833	lfeeie
@@ -3346,7 +3308,6 @@ encoder:
 汰	tvp.	4775	tvooee
 涧	jvc;	4772	jvooeo
 肴	yxx;	4770	yxuoeu
-栖	xmei	4768	xmeiuo
 萼	vkoa	4763	vkeiii
 佬	lrt/	4760	lruiei
 奄	ypia	4752	ypeuoi
@@ -3373,8 +3334,7 @@ encoder:
 灶	zhei	4642	zhouuo
 琵	pff/	4641	pfeeie
 呼	hor;	4611	hoiaeu
-薰	xkr'	4607	xkeiiu
-薰	xkr.	4607	xkeiiu
+薰	xea	4607	xkeiiu
 厘	lgii	4606	lgeuia
 朔	skc/	4605	skouea
 涡	wvu	4602	wvooei
@@ -3383,7 +3343,6 @@ encoder:
 垦	kee	4576	keaeea
 挠	njl/	4576	njeiee
 骸	hcj/	4551	hciaao
-盛	cgj;	4537	cgeuaa
 哆	dou	4536	doiaeu
 萎	wka	4528	wkeiiu
 捺	njp;	4517	njeiee
@@ -3422,7 +3381,6 @@ encoder:
 赃	zhg,	4325	zhiauo
 簌	szu	4317	szueou
 癞	lgs;	4315	lgoeuo
-曙	sif'	4312	siiaee
 曙	sif;	4312	siiaee
 庚	ggeu	4302	ggoeua
 砌	qsl'	4291	qseuia
@@ -3449,20 +3407,16 @@ encoder:
 淇	qvk/	4137	qvooee
 滤	lveo	4132	lvooei
 搀	cjuo	4124	cjeieu
-窖	jir.	4120	jiooau
 窖	jir;	4120	jiooau
-岱	drl'	4118	druiea
 岱	drl;	4118	druiea
 杠	gmei	4109	gmeiuo
 粪	fdu	4100	fdouei
 幌	hea	4096	heiaii
 鸯	yvae	4087	yviaeu
-翡	fef'	4083	feieee
-翡	fef.	4083	feieee
+翡	fee	4083	feieee
 拯	zjj,	4076	zjeiea
 萤	ykii	4064	ykeiio
 莞	gkiu	4052	gkeiio
-靡	mgm'	4032	mgoeue
 靡	mgm,	4032	mgoeue
 黎	lhb;	4029	lhueiu
 锥	zao	4028	zaueee
@@ -3537,7 +3491,7 @@ encoder:
 拷	kjt'	3701	kjeiee
 涎	xvr'	3700	xvooeu
 昱	yioe	3696	yiiaee
-咋	ria	3694	zoiaeu
+咋	zoq,	3694	zoiaeu
 唰	sop;	3692	soiaea
 蛙	wct,	3690	wciaei
 蟹	xuui	3685	xuuaua
@@ -3555,7 +3509,6 @@ encoder:
 撮	cjia	3602	cjeiei
 蛾	vco	3602	vciaei
 扉	fwe	3587	fwoaeu
-嬴	ywoe	3583	ywoeai
 嬴	ywoo	3583	ywoeai
 嘶	sok/	3579	soiaee
 笋	szeu	3579	szueou
@@ -3583,7 +3536,6 @@ encoder:
 阖	hci	3483	hcoiae
 毡	zpei	3483	zpueea
 唆	soy/	3479	soiaea
-唆	soy;	3479	soiaea
 镑	bao	3477	baueee
 辗	zpp'	3477	zpeaie
 崆	keie	3476	keiaio
@@ -3598,8 +3550,7 @@ encoder:
 芜	wkd/	3447	wkeiie
 煦	xib.	3442	xiiaee
 睑	jfae	3429	jfiaee
-赂	lhua	3428	lhiauo
-赂	lhui	3428	lhiauo
+赂	lia	3428	lhiauo
 剌	lsoi	3425	lseiae
 骰	tca	3423	tciaao
 芊	qke	3412	qkeiiu
@@ -3608,7 +3559,7 @@ encoder:
 帛	bni	3406	bnuiae
 飕	snx'	3405	snuauo
 恤	xxr;	3405	xxooiu
-穹	qie	3398	qiooau
+穹	qir'	3398	qiooau
 栩	xmo	3394	xmeiuo
 戎	rleu	3389	rleeua
 琥	hfeu	3384	hfeeie
@@ -3695,14 +3646,11 @@ encoder:
 糙	cdr.	3079	cdouei
 趾	znie	3078	zniaei
 茧	jkia	3071	jkeiii
-茧	jkio	3071	jkeiii
-珉	mfc'	3067	mfeeie
 珉	mfc,	3067	mfeeie
 剃	tdg;	3064	tdouae
 啄	zoz.	3063	zoiaee
 蜷	qck'	3061	qciaei
 踞	jnp,	3056	jniaei
-喟	kot,	3056	koiaei
 喟	kot;	3056	koiaei
 忐	tes.	3051	teieeo
 荧	ykio	3051	ykeiio
@@ -3758,7 +3706,6 @@ encoder:
 娼	cnii	2893	cnauei
 汕	svia	2893	svooei
 隋	sbi	2886	sbaieu
-攸	yrea	2879	yruiiu
 攸	yreu	2879	yruiiu
 亵	xwj/	2877	xwoeei
 沅	yvd/	2877	yvooee
@@ -3766,7 +3713,6 @@ encoder:
 疙	ggq'	2871	ggoeuo
 坞	wte	2871	wteieu
 伎	jrk'	2870	jruiei
-伎	jrk.	2870	jruiei
 恁	nro	2857	nruiue
 惦	dxi	2852	dxooio
 籁	lzs;	2850	lzueou
@@ -3799,7 +3745,6 @@ encoder:
 巽	xbb/	2748	xbaeaa
 弛	cgai	2745	cgaeaa
 渎	dvk,	2744	dvooee
-匙	cis/	2744	ciiaee
 茜	qkei	2742	qkeiie
 姣	jnw/	2741	jnaueo
 瘩	dgk;	2735	dgoeuo
@@ -3816,7 +3761,6 @@ encoder:
 泌	bvx/	2702	bvooeo
 蹊	qne	2702	qniaei
 麓	lmm/	2692	lmeiuo
-锵	qak'	2677	qaueee
 锵	qak,	2677	qaueee
 惆	cxc;	2675	cxooiu
 嫔	pniu	2672	pnaueo
@@ -3827,6 +3771,7 @@ encoder:
 稣	syue	2652	syuaia
 饵	vue	2650	vuuaae
 恣	zduo	2646	zdoeua
+乘	shk/	2645	shueii
 粤	yroa	2643	yruiao
 蠕	rct;	2640	rciaei
 冕	miuu	2637	miiaee
@@ -3850,7 +3795,6 @@ encoder:
 抉	jjc/	2574	jjeiea
 墩	dtu	2565	dteieo
 璐	lfn;	2563	lfeeie
-倜	trc'	2563	truiua
 倜	trc;	2563	truiua
 槟	bmiu	2559	bmeiuo
 亥	hwl/	2549	hwoeau
@@ -3968,10 +3912,8 @@ encoder:
 汀	tvei	2188	tvooee
 椰	ymb'	2186	ymeiuo
 璨	cfeo	2183	cfeeie
-唢	soea	2182	soiaei
 唢	soei	2182	soiaei
 藕	vko	2180	vkeiie
-卡	qes;	2174	qeieei
 毗	ptg/	2174	ptiaei
 噙	qoaa	2174	qoiaeu
 啷	low'	2170	loiaeo
@@ -3994,7 +3936,6 @@ encoder:
 臊	suoe	2096	suuaee
 酉	yxe	2094	yxeiau
 咫	zpw/	2094	zpaeuo
-咫	zpw;	2094	zpaeuo
 倭	wrh'	2084	wruiue
 胥	xjn;	2079	xjaieu
 荻	dko	2078	dkeiiu
@@ -4008,7 +3949,6 @@ encoder:
 痰	tgh.	2066	tgoeuo
 埠	bte	2064	bteieu
 腋	yuw.	2060	yuuaee
-妤	yny,	2055	ynauea
 妤	yny;	2055	ynauea
 荼	tke	2054	tkeiiu
 谙	vwi	2053	vwoaoe
@@ -4039,7 +3979,6 @@ encoder:
 呷	goii	2002	goiaei
 瞿	qff.	2002	qfiaee
 俟	sry/	2002	sruiao
-峙	zet,	2002	zeiaie
 桦	hmr,	2000	hmeiuo
 罔	wck.	1999	wciaou
 皑	vna	1996	vnuiae
@@ -4048,7 +3987,6 @@ encoder:
 琨	kfu	1988	kfeeie
 渲	xvie	1988	xvooeo
 劭	sqoa	1986	sqauia
-劭	sqoe	1986	sqauia
 隼	srf,	1986	sruioe
 犁	lhj,	1983	lhueiu
 挝	wjc.	1982	wjeiee
@@ -4073,8 +4011,7 @@ encoder:
 峒	dec;	1923	deiaii
 潼	tvl;	1921	tvooeo
 杳	ymia	1921	ymeiuo
-郸	ddia	1911	ddouia
-藜	lkh'	1904	lkeiiu
+郸	dda	1911	ddouia
 藜	lkh;	1904	lkeiiu
 掂	djg;	1903	djeieo
 伽	grq;	1902	gruiau
@@ -4082,7 +4019,6 @@ encoder:
 缈	mlf/	1900	mlaaei
 匝	zcia	1899	zceiai
 恸	txa	1897	txooie
-皎	jnw'	1895	jnuiae
 皎	jnw/	1895	jnuiae
 讹	vwr/	1894	vwoaui
 敕	csu	1893	cseiae
@@ -4108,7 +4044,6 @@ encoder:
 揄	yjai	1822	yjeieu
 榄	lmd/	1815	lmeiuo
 嫦	cnei	1813	cnauei
-嫦	cneu	1813	cnauei
 讫	qwq'	1806	qwoaue
 褛	lya	1802	lyoaiu
 旌	jqq,	1800	jqoeau
@@ -4123,13 +4058,11 @@ encoder:
 胚	pus,	1788	puuaee
 跚	snc,	1788	sniaei
 泞	nvie	1784	nvooeo
-湍	tvea	1783	tvooei
 湍	tvei	1783	tvooei
 谤	bww.	1781	bwoaoe
 岖	qec/	1780	qeiaie
 葳	wko	1778	wkeiie
 琏	lfp.	1777	lfeeie
-颉	jtoe	1772	jteiei
 颉	jtoi	1772	jteiei
 馅	xuuu	1772	xuuaau
 洵	xvb;	1772	xvooeu
@@ -4156,7 +4089,6 @@ encoder:
 谲	jwy;	1719	jwoaao
 吒	zor,	1714	zoiaeu
 芍	skb.	1709	skeiiu
-瀛	yvw'	1707	yvooeo
 瀛	yvw.	1707	yvooeo
 玷	dfei	1703	dfeeie
 蛤	hcai	1702	hciaei
@@ -4174,7 +4106,6 @@ encoder:
 橄	gmj/	1681	gmeiuo
 翱	vnp.	1676	vnuiae
 唁	yooe	1676	yoiaeo
-唁	yooo	1676	yoiaeo
 瞌	kft;	1670	kfiaee
 堇	jkoe	1669	jkeiie
 捋	ljz,	1668	ljeieu
@@ -4188,15 +4119,13 @@ encoder:
 痣	zgt.	1647	zgoeuo
 碳	tseo	1644	tseuia
 掴	gjoo	1642	gjeiei
-饺	juw/	1641	juuaao
-饺	juw;	1641	juuaao
+饺	vyu	1641	juuaao
 咔	koei	1639	koiaei
 沽	gve	1636	gvooee
 郢	yof'	1635	yoiaee
 惰	dxx;	1630	dxooie
 驸	fqe	1628	fqaaeu
 剐	goc;	1627	goiaei
-蛰	zjj'	1627	zjeieu
 蛰	zjj;	1627	zjeieu
 烽	fhui	1626	fhouuo
 焊	hhie	1626	hhouuo
@@ -4213,7 +4142,6 @@ encoder:
 绡	xlei	1602	xlaaei
 癸	gjw,	1599	gjaouu
 诌	zwua	1599	zwoaua
-骼	gcj/	1593	gciaao
 骼	gcj;	1593	gciaao
 鄱	pra	1592	pruoue
 堰	yta	1592	yteiee
@@ -4239,7 +4167,6 @@ encoder:
 甯	nii	1537	niooao
 猥	wqa	1536	wquaui
 宸	cig'	1528	ciooae
-绺	llua	1528	llaaeu
 绺	llui	1528	llaaeu
 蔺	lkc.	1525	lkeiio
 柠	nmie	1525	nmeiuo
@@ -4252,7 +4179,6 @@ encoder:
 霾	mtz;	1507	mteoai
 跻	jnuu	1504	jniaei
 掸	djd,	1502	djeieo
-掸	djd;	1502	djeieo
 侗	trc;	1502	truiia
 炖	dhs'	1501	dhouuo
 撬	qjp/	1501	qjeieu
@@ -4293,7 +4219,6 @@ encoder:
 阉	ycp'	1419	ycoiae
 瑷	vfa	1417	vfeeie
 痞	pgs;	1416	pgoeuo
-褴	lyd'	1415	lyoaiu
 褴	lyd;	1415	lyoaiu
 羲	xdf.	1414	xdouee
 胄	ziei	1413	ziiaei
@@ -4378,7 +4303,6 @@ encoder:
 猱	nqy,	1271	nquaua
 臧	zgl.	1270	zgeuae
 肪	fuoe	1261	fuuaee
-嵇	jhx'	1259	jhueiu
 嵇	jhx;	1259	jhueiu
 怏	yxv/	1257	yxooii
 掰	bvr/	1248	bvueeu
@@ -4425,7 +4349,6 @@ encoder:
 媪	vnii	1178	vnauei
 骞	qif'	1178	qiooae
 俑	yry;	1178	yruiao
-蔗	zkg'	1177	zkeiio
 蔗	zkg.	1177	zkeiio
 碾	nsa	1174	nseuia
 荞	qkr/	1171	qkeiiu
@@ -4449,7 +4372,6 @@ encoder:
 怩	nxu	1142	nxooia
 蘸	zkx.	1139	zkeiie
 狒	fqg/	1138	fquaua
-狒	fqg;	1138	fquaua
 蜚	fef;	1134	feieee
 倨	jrp,	1131	jruiae
 晾	liw;	1131	liiaee
@@ -4468,7 +4390,6 @@ encoder:
 箸	zzt;	1108	zzueou
 挞	tjp.	1107	tjeiee
 蕲	qkd/	1106	qkeiio
-蕲	qkd;	1106	qkeiio
 踮	dng;	1105	dniaei
 邋	llo	1103	llaaai
 懔	lxw;	1103	lxooio
@@ -4492,7 +4413,6 @@ encoder:
 佃	dria	1082	druiia
 飨	xlr/	1081	xlaauu
 罹	lfx.	1078	lfiaii
-罹	lfx;	1078	lfiaii
 泠	lvaa	1076	lvooeu
 轾	zps,	1076	zpeaie
 锢	gaoe	1075	gaueee
@@ -4500,7 +4420,6 @@ encoder:
 酵	jxt'	1073	jxeiau
 魇	ygp'	1073	ygeueu
 匮	kci	1069	kceiae
-匮	gcoi	1068	gceiae
 瘠	jgi	1066	jgoeuo
 龊	cnai	1063	cnieie
 龌	wnae	1063	wnieie
@@ -4524,21 +4443,17 @@ encoder:
 谟	mwei	1031	mwoaei
 沏	qvl'	1031	qvooee
 氤	yqoe	1030	yqueea
-磅	bsw.	1029	bseuia
 姝	snq;	1028	snaueu
 垛	dte	1027	dteieu
 螃	pco	1026	pciaei
 猷	ydx.	1026	ydouei
 劾	hwl'	1025	hwoeau
-传	zrd.	1017	zruiee
 讴	vwc/	1017	vwoaeu
-弈	ywm'	1015	ywoeui
 弈	ywm,	1015	ywoeui
 潸	svm;	1014	svooee
 腴	yun/	1014	yuuaee
 鸢	ylb,	1014	yleaou
 町	dtei	1013	dtiaei
-坯	pts'	1011	pteiee
 坯	pts,	1011	pteiee
 锲	qaf,	1010	qaueee
 酗	xxx'	1007	xxeiau
@@ -4546,9 +4461,7 @@ encoder:
 骠	bqx;	1002	bqaaee
 嗒	dok;	1002	doiaee
 恫	dxc;	1002	dxooii
-刨	pbb;	1002	pbuaae
 晟	sig.	1002	siiaee
-覃	txie	1002	txeiai
 腌	yup'	1002	yuuaee
 荑	yks/	1002	ykeiie
 飚	bnx.	1001	bnuauo
@@ -4584,7 +4497,6 @@ encoder:
 臬	nrf,	953	nruiae
 戌	xgs.	952	xgeuea
 洱	vvei	951	vvooee
-氅	cec'	947	ceioui
 氅	cec/	947	ceioui
 玖	jfuo	947	jfeeie
 驷	sqia	947	sqaaei
@@ -4610,7 +4522,6 @@ encoder:
 镳	bag.	917	baueee
 匐	fbi	917	fbuaei
 臃	yuw.	913	yuuaee
-臃	yuw;	913	yuuaee
 滂	pvw.	912	pvooeo
 虱	slr;	911	slauia
 雉	zgr.	911	zgueeu
@@ -4638,12 +4549,10 @@ encoder:
 炷	zhw,	875	zhouuo
 佝	grb;	874	gruiua
 呶	non'	871	noiaea
-呶	non;	871	noiaea
 啖	doh.	869	doiaeo
 湮	yvx,	866	yvooee
 淅	xvm/	865	xvooee
 垸	ytiu	863	yteieo
-颌	has,	862	hauoei
 颌	has;	862	hauoei
 疹	zgau	862	zgoeuo
 缇	tlii	860	tlaaei
@@ -4656,7 +4565,6 @@ encoder:
 峥	zeui	853	zeiaiu
 橹	lmy;	851	lmeiuo
 岷	mee	850	meiaia
-禺	yic'	849	yiiaee
 禺	yic.	849	yiiaee
 泾	jvy,	848	jvooea
 饪	rue	844	ruuaau
@@ -4684,7 +4592,6 @@ encoder:
 佥	qas,	805	qauoeo
 呗	boi	803	boiaei
 谩	mwia	801	mwoaia
-谩	mwie	801	mwoaia
 锌	xao	801	xaueee
 剜	wiui	800	wiooau
 粽	zdii	800	zdouei
@@ -4698,12 +4605,10 @@ encoder:
 箔	bzv/	792	bzueou
 诰	gwr;	792	gwoaue
 绶	slz'	792	slaaeu
-绶	slz;	792	slaaeu
-鄢	ysn'	792	yseiei
+鄢	ysa	792	yseiei
 氮	dqh.	791	dqueea
 桠	yms,	790	ymeiuo
 喁	yoio	790	yoiaei
-绌	clc'	789	claaea
 绌	clc;	789	claaea
 馔	zub/	788	zuuaaa
 缮	sld;	785	slaaeo
@@ -4758,7 +4663,6 @@ encoder:
 裱	byu	721	byoaiu
 浃	jvs/	719	jvooee
 泸	lvea	719	lvooei
-阕	qcj'	719	qcoiaa
 阕	qcj,	719	qcoiaa
 柚	ymii	719	ymeiuo
 岫	xeii	716	xeiaii
@@ -4769,7 +4673,6 @@ encoder:
 圩	xtd;	702	xteiee
 蜍	ccae	701	cciaei
 蘅	hkp,	700	hkeiiu
-蘅	hkp;	700	hkeiiu
 傩	nrk.	700	nruiao
 渚	zvt;	700	zvooee
 澹	dvo	697	dvooeu
@@ -4789,11 +4692,9 @@ encoder:
 褓	byr,	683	byoaiu
 斛	hue	683	huuaua
 塾	swoe	681	swoeia
-痢	lgh.	680	lgoeuo
 痢	lgh;	680	lgoeuo
 畦	qtt,	680	qtiaei
 埂	gtu	679	gteiee
-给	jlai	678	jlaaeu
 酊	dxei	676	dxeiau
 佚	yrq/	675	yruiue
 悒	yxoa	674	yxooii
@@ -4803,12 +4704,10 @@ encoder:
 纤	xlr,	672	xlaaeu
 祚	zye	672	zyoaio
 虻	mcoe	670	mciaei
-虻	mcou	670	mciaei
 燮	xya	670	xyoeee
 鏖	vgu	668	vgoeua
 铧	hae	667	haueee
 扪	mjoi	667	mjeieo
-洙	zvq'	666	zvooeu
 洙	zvq;	666	zvooeu
 拮	jjt;	665	jjeiee
 鳅	qyh.	662	qyuaia
@@ -4844,7 +4743,6 @@ encoder:
 蹇	jif;	630	jiooae
 殇	ssuu	630	sseuao
 魑	cnr'	629	cnuiae
-黍	shaa	628	shueiu
 黍	shai	628	shueiu
 夔	kku	627	kkoueu
 艄	szei	627	szuuao
@@ -4866,36 +4764,30 @@ encoder:
 钲	zas;	611	zaueee
 衮	gwr/	610	gwoeuo
 颏	kwi	610	kwoeau
-括	gjr,	610	gjeieu
 蒺	jkg/	609	jkeiio
 觞	suuu	609	suuaua
-畿	jll,	608	jlaaoa
 畿	jll;	608	jlaaoa
 遒	qdx.	607	qdouei
 掼	gjoi	606	gjeiea
 糠	kdi	605	kdouei
 蠡	lmz;	605	lmaaeu
 裨	byn,	604	byoaiu
-澹	tvuo	602	tvooeu
 铤	taa	602	taueee
 夯	hpau	602	hpeuoa
 圜	yof/	602	yoiaia
 襁	qyg;	602	qyoaiu
 奁	lpc/	598	lpeuoe
-摞	ljt'	597	ljeiei
 摞	ljt;	597	ljeiei
 鹑	cwoe	594	cwoeia
 忝	tsp;	594	tseeuo
 壹	ytio	592	yteieo
 錾	zpj/	592	zpeaie
 轸	zpau	592	zpeaie
-碉	dsc'	590	dseuia
 碉	dsc;	590	dseuia
 踽	jno	587	jniaei
 缢	ylk;	587	ylaaeo
 刍	cuae	586	cuuaae
 臭	xrf.	584	xruiae
-牍	drea	584	druiea
 牍	dree	584	druiea
 咯	goui	584	goiaeu
 咯	koui	584	koiaeu
@@ -4907,7 +4799,6 @@ encoder:
 痘	dgs.	583	dgoeuo
 邈	mzo	582	mzuoou
 郗	xxx'	581	xxuoeu
-郗	xxx,	581	xxuoeu
 罂	yhh;	581	yhiauo
 钾	jaii	580	jaueee
 琊	yfc'	579	yfeeie
@@ -4921,7 +4812,6 @@ encoder:
 窠	kie	572	kiooau
 矍	jff'	571	jfiaee
 撺	cjii	570	cjeieo
-撺	cjiu	570	cjeieo
 挈	qfeu	570	qfeeei
 咝	sol,	568	soiaea
 仡	grq'	568	gruiue
@@ -4931,7 +4821,6 @@ encoder:
 韭	jef,	562	jeieee
 梏	gmr;	561	gmeiuo
 獭	tqi	558	tquaue
-潋	lvai	556	lvooeu
 潋	lvau	556	lvooeu
 喑	yol;	556	yoiaeo
 湎	mvs,	555	mvooee
@@ -4944,7 +4833,6 @@ encoder:
 烊	yhd;	552	yhouuo
 膑	buu	550	buuaee
 铡	zah;	549	zaueee
-参	syp/	548	syaoeu
 酮	txc;	547	txeiau
 恫	txc;	546	txooii
 狯	kqa	546	kquauu
@@ -4991,14 +4879,12 @@ encoder:
 觥	guua	508	guuaua
 柢	dmo	507	dmeiuo
 踅	xjj;	507	xjeieu
-雠	crf'	506	cruioe
 雠	crf.	506	cruioe
 揆	kjj,	505	kjeiea
 邡	fqai	504	fqoeau
 怄	vxu	503	vxooie
 囤	tos'	502	toiaea
 噱	joee	502	joiaei
-炀	yhj'	500	yhouuo
 炀	yhj/	500	yhouuo
 镁	mae	499	maueee
 悌	txd/	499	txooio
@@ -5010,7 +4896,6 @@ encoder:
 铄	sah;	496	saueee
 蜴	yciu	494	yciaei
 邕	yll'	493	ylaaai
-齐	juui	492	juoeuo
 醮	jxo	491	jxeiau
 儆	jrk/	491	jruiei
 瞽	gtoi	488	gteiei
@@ -5018,12 +4903,10 @@ encoder:
 彀	gtia	487	gteieo
 邛	qdai	486	qdeiea
 濠	hvw,	484	hvooeo
-濠	hvw.	484	hvooeo
 栅	zmc,	484	zmeiuo
 漕	cvk;	483	cvooee
 徕	lpo	483	lpuuie
 愆	qpv.	481	qpuuio
-豕	szea	481	szeuau
 豕	szeu	481	szeuau
 鹜	wye	481	wyaoai
 玳	dfr,	478	dfeeie
@@ -5043,9 +4926,8 @@ encoder:
 辚	lpd;	464	lpeaie
 镍	nae	464	naueee
 倚	yrp;	463	yruieu
-獒	vao	462	vfeeie
+獒	vfb.	462	vfeeie
 畲	sad;	461	sauoee
-佘	sad'	461	sauoee
 佘	sad;	461	sauoee
 橐	tse	461	tseiae
 蒯	kkui	458	kkeiiu
@@ -5071,9 +4953,7 @@ encoder:
 遛	lhw.	441	lhuaoa
 菸	ykq.	441	ykeiio
 寤	wil;	440	wiooaa
-脯	fus.	439	fuuaee
 狲	sqj;	438	squaua
-搠	sjk.	434	sjeieo
 搠	sjk/	434	sjeieo
 笏	hzb/	433	hzueou
 奂	huv/	433	huuaia
@@ -5111,7 +4991,6 @@ encoder:
 鳏	gyf;	410	gyuaia
 囹	loaa	410	loiauo
 仵	wrr,	408	wruiue
-啁	zoc'	406	zoiaeu
 啁	zoc;	406	zoiaeu
 靛	dfui	405	dfeeie
 馏	luh;	404	luuaau
@@ -5121,22 +5000,424 @@ encoder:
 繇	yzq;	402	yzuoou
 蛹	ycy;	402	yciaei
 楂	zmm,	402	zmeiuo
+癌	ygoi	400	ygoeuo
+艾	ykuo	400	ykeiiu
+肮	huw/	400	huuaee
+八	bruo	400	bruooo
+罢	pft'	400	pfiaii
+吧	boai	400	boiaea
+般	pzn'	400	pzuuao
+榜	pmw.	400	pmeiuo
+傍	prw.	400	pruioe
+磅	bsw.	400	bseuia
+暴	pik;	400	piiaee
+被	pyg'	400	pyoaiu
+比	pgua	400	pgeaua
+扁	pwp,	400	pwoaeu
+便	prs/	400	pruiei
+遍	pwp.	400	pwoaeu
+濒	pvn;	400	pvooei
+波	pvg'	400	pvooea
+不	dsio	400	dseuio
+不	fsio	400	fseuio
+擦	cjii	400	cjeieo
+参	syp/	400	syaoeu
+藏	zkg.	400	zkeiie
+侧	zrh;	400	zruiia
+曾	cdv;	400	cdouia
+曾	zdv;	400	zdouia
+查	zmie	400	zmeiuo
+禅	syd,	400	syoaio
+蝉	ccd,	400	cciaei
+朝	zkiu	400	zkeiia
+车	jpea	400	jpeaei
+沉	sviu	400	svooeo
+澄	dvj.	400	dvooea
+秤	phs,	400	phueiu
+吃	joq'	400	joiaeu
+仇	qrua	400	qruiua
+触	huui	400	huuaua
+传	zrd.	400	zruiee
+纯	zls'	400	zlaaee
+从	zauo	400	zauouo
+促	cria	400	cruiia
+搓	cjd,	400	cjeieo
+错	cak;	400	caueee
+达	tpoa	400	tpeuoo
+大	tpeu	400	tpeuoo
+呆	voei	400	voiaee
+歹	vsua	400	vseuao
+单	cdie	400	cdouia
+单	sdie	400	sdouia
+弹	tgd,	400	tgaeao
+澹	tvuo	400	tvooeu
+得	dpie	400	dpuuii
+德	dpk.	400	dpuuie
+堤	ttii	400	tteiei
+敌	drg/	400	drueii
+第	dzg/	400	dzueou
+点	deoo	400	deieia
+电	diaa	400	diiaee
+掉	djee	400	djeiei
+盯	cfei	400	cfiaee
+铤	dar'	400	daueee
+洞	tvc;	400	tvooei
+都	dtr'	400	dteieu
+斗	ddei	400	ddooei
+端	zlei	400	zloeou
+对	dkei	400	dkaoei
+吨	tos'	400	toiaee
+哆	couu	400	coiaeu
+蛾	ycv.	400	yciaei
+恶	wsm.	400	wseiio
+嗯	vooo	400	voiaei
+儿	nnua	400	nnuaaa
+番	prd;	400	pruoue
+繁	pqm;	400	pqueaa
+房	pwp.	400	pwoaeu
+翡	fef.	400	feieee
+否	psm;	400	pseuio
+父	fruo	400	fruouo
+干	htee	400	hteeii
+干	qtee	400	qteeii
+革	jkoe	400	jkeiie
+给	jlai	400	jlaaeu
+耕	jfp/	400	jfeeei
+更	jsiu	400	jseiae
+功	gdau	400	gdeiea
+呱	woh.	400	woiaeu
+观	gkc/	400	gkaoia
+官	giia	400	giooai
+广	vgoe	400	vgoeuu
+刽	kad;	400	kauoee
+哈	xoai	400	xoiaeu
+还	xsm.	400	xseuio
+海	hvq.	400	hvooeu
+骇	xqw/	400	xqaaeo
+行	hps,	400	hpuuie
+行	xps,	400	xpuuie
+号	hos'	400	hoiaee
+合	gas;	400	gauoei
+合	has;	400	hauoei
+黑	lvt.	400	lviaou
+红	glei	400	glaaee
+虹	jcei	400	jciaei
+候	hreu	400	hruiia
+化	hrua	400	hruiua
+话	lwr,	400	lwoaue
+坏	pts;	400	pteiee
+黄	hkiu	400	hkeiie
+磺	gsk/	400	gseuia
+磺	ksk/	400	kseuia
+会	kad'	400	kauoee
+混	gviu	400	gvooei
+或	hloe	400	hleiae
+击	jdia	400	jdeeia
+饥	juua	400	juuaau
+及	jnoo	400	jnuaoo
+急	jueo	400	juuaae
+嫉	jng/	400	jnaueo
+己	jcaa	400	jcaeaa
+祭	zud;	400	zuuaoo
+家	gieu	400	giooae
+夹	gsk/	400	gseoue
+夹	qsk/	400	qseoue
+贾	gxia	400	gxeiai
+价	grau	400	gruiuo
+间	jcia	400	jcoiai
+见	xcua	400	xciaua
+江	jvei	400	jvooee
+将	qkue	400	qkoeiu
+降	jbui	400	jbaiua
+酱	jkei	400	jkoeiu
+交	jwr/	400	jwoeuo
+角	luua	400	luuaua
+饺	juw/	400	juuaao
+结	jlt;	400	jlaaee
+解	xuue	400	xuuaua
+界	jtau	400	jtiaei
+金	jauo	400	jauoee
+矜	gyj'	400	gyaoai
+矜	qyj'	400	qyaoai
+颈	gyd;	400	gyaoei
+纠	jll;	400	jlaaea
+九	jjua	400	jjuaaa
+酒	jvei	400	jvooee
+句	gbia	400	gbuaia
+决	jdc/	400	jdoeae
+筠	yzt.	400	yzueou
+咖	goq;	400	goiaea
+卡	qes;	400	qeieei
+楷	jmg/	400	jmeiuo
+亢	hwua	400	hwoeua
+犒	drj;	400	drueie
+颏	hwl;	400	hwoeau
+颗	kim;	400	kiiaee
 蝌	kch,	400	kciaei
+壳	ktiu	400	kteieo
+咳	how/	400	hoiaeo
+矿	gsoe	400	gseuia
+傀	grn'	400	gruiui
+匮	gcoi	400	gceiae
+溃	hvoi	400	hvooei
+括	gjr,	400	gjeieu
+喇	los;	400	loiaee
+蜡	cck;	400	cciaei
+蜡	zck;	400	zciaei
+姥	mnt/	400	mnauee
+乐	lhiu	400	lhuaiu
+雷	ltia	400	lteoai
+类	ldeu	400	ldouei
+离	cwx'	400	cwoeuo
 黧	lhb.	400	lhueiu
+李	lmai	400	lmeiuo
+两	lsc/	400	lseiau
+量	lis;	400	liiaee
+留	dhw;	400	dhuaoa
+六	lwuo	400	lwoeuo
+搂	sjd'	400	sjeieo
+庐	lgw'	400	lgoeuo
+赂	lhui	400	lhiauo
+论	lwau	400	lwoauo
+率	swl,	400	swoeaa
+蔓	mkia	400	mkeiii
+蔓	wkia	400	wkeiii
+么	mrao	400	mruaoo
+么	yrao	400	yruaoo
+麽	ygm'	400	ygoeue
+米	mdou	400	mdouei
+秘	bhx/	400	bhueiu
+免	wuou	400	wuuaia
+民	mcl,	400	mcaeae
+貉	mzui	400	mzuoou
+木	mmei	400	mmeiuo
+幕	mkia	400	mkeiii
+娘	nnw.	400	nnaueo
+鸟	dbw,	400	dbuaoa
+恁	rrr.	400	rruiue
+宁	ziei	400	ziooae
+拗	njl'	400	njeiea
+拗	yjl'	400	yjeiea
+弄	lfeu	400	lfeeie
+弩	nnk'	400	nnauea
+暖	xiz'	400	xiiaee
+喏	rok;	400	roiaee
+女	rnau	400	rnauee
+噢	yor,	400	yoiaeu
+哦	vov.	400	voiaeu
+杷	bmai	400	bmeiuo
+爿	blee	400	blaieu
+爿	qlee	400	qlaieu
+旁	bwd.	400	bwoeou
+膀	puw.	400	puuaee
+刨	pbb;	400	pbuaae
+睥	bfn,	400	bfiaee
+辟	bpoo	400	bpaeui
+屏	bpk,	400	bpaeuo
+魄	bnn'	400	bnuiae
+魄	tnn'	400	tnuiae
+脯	fus.	400	fuuaee
+曝	biii	400	biiaee
+栖	xmei	400	xmeiuo
+期	jkf/	400	jkeiie
+期	qkf/	400	qkeiie
+蹊	xnz,	400	xniaei
+齐	juui	400	juoeuo
+齐	zuui	400	zuoeuo
+其	jkf/	400	jkeiie
+奇	jpj;	400	jpeuoe
+骑	jqp;	400	jqaaee
+岂	kec'	400	keiaia
+契	xfee	400	xfeeei
+前	qkui	400	qkouei
+浅	jvee	400	jvooee
+强	jgoi	400	jgaeai
+抢	cjaa	400	cjeieu
+鞘	skoi	400	skeiie
+且	jhia	400	jhiaee
+青	jfia	400	jfeeie
+区	vcuo	400	vceuoa
+趋	ctn'	400	cteiei
+趋	qtn'	400	qteiei
+圈	qok'	400	qoiaou
+炔	ghc/	400	ghouuo
+炔	jhc/	400	jhouuo
+扰	yjx.	400	yjeiee
+认	rwuo	400	rwoauo
+任	rrr,	400	rruiue
+厦	sgs/	400	sgeueu
+山	seia	400	seiaii
+姗	xnc,	400	xnaueu
+韶	slii	400	sloeou
+舌	srei	400	srueii
+蛇	yciu	400	yciaei
+射	yrc,	400	yruiae
+慑	zxb'	400	zxooie
+身	jrc/	400	jruiae
+身	src/	400	sruiae
+什	srei	400	sruiei
+省	xpr;	400	xpiuou
+胜	xur,	400	xuuaee
+盛	cgj;	400	cgeuaa
+师	sds;	400	sdiuei
+石	dseu	400	dseuia
+识	zwou	400	zwoaia
+实	sid,	400	siooao
+食	yuuo	400	yuuooa
+使	srs/	400	sruiei
+氏	zhea	400	zhuaea
+世	skaa	400	skeiie
+市	swia	400	swoeia
+式	slei	400	sleeie
+似	srl/	400	sruiao
+适	grg.	400	grueii
+适	krg.	400	krueii
 谥	swk;	400	swoaou
+匙	cis/	400	ciiaee
+首	skr;	400	skoueu
+受	szia	400	szuoou
+属	zpr.	400	zpaeuu
+术	zmoo	400	zmeiuo
+双	skao	400	skaoao
+谁	swr.	400	swoaui
+水	svia	400	sviauo
+说	ywd/	400	ywoaou
+斯	skf/	400	skeiie
+四	sfia	400	sfiaua
+宋	siei	400	siooae
+送	skp.	400	skouee
+睢	hfr.	400	hfiaee
+它	tiua	400	tiooau
+覃	txie	400	txeiai
+汤	svj/	400	svooea
+陶	ybb;	400	ybaiua
+特	trj,	400	trueie
+提	djii	400	djeiei
+提	sjii	400	sjeiei
+体	brm,	400	bruiei
+屉	xpk'	400	xpaeue
+调	twc;	400	twoaua
+跳	tnn.	400	tniaei
+铁	yaq/	400	yaueee
+听	youu	400	yoiaeu
+骰	scj'	400	sciaao
+屯	csc'	400	cseaia
+屯	zsc'	400	zseaia
+驮	dqeu	400	dqaaee
+宛	yiua	400	yiooau
+万	msaa	400	mseauu
+望	wwue	400	wwoeau
 闱	wcd;	400	wcoiae
+蔚	ykp,	400	ykeiia
+文	wuoe	400	wuoeuo
+汶	mvoe	400	mvooeo
+涡	gvou	400	gvooei
+无	mdua	400	mdeeua
+五	wwei	400	wweiae
+务	wuau	400	wuuaoa
+物	wrj/	400	wrueie
+鹜	myj,	400	myaoai
+西	xxei	400	xxeiau
+息	xrf.	400	xruiae
+犀	xpee	400	xpaeui
+戏	hkea	400	hkaoea
+系	jrl;	400	jruaao
+系	xrl;	400	xruaao
+夏	jsf/	400	jseuia
+先	xrt/	400	xrueie
+闲	jcei	400	jcoiae
+线	xlee	400	xlaaee
+羡	ydf/	400	ydouee
+相	xmia	400	xmeiuo
+巷	hkr'	400	hkeiie
+像	xruu	400	xruiua
+校	xmw/	400	xmeiuo
+蝎	hcia	400	hciaei
+邪	ycea	400	yceaiu
+信	sroe	400	sruioe
+信	xroe	400	xruioe
+性	xxr,	400	xxooiu
+宿	sir;	400	siooau
+须	xxs;	400	xxuuue
+许	hwr,	400	hwoaue
+血	xria	400	xruiai
+薰	xkr.	400	xkeiiu
+崖	veg,	400	veiaie
+娅	yns,	400	ynauee
+晏	yiia	400	yiiaee
+央	yvuo	400	yviaeu
+羊	xdf;	400	xdouee
+舀	wzui	400	wzuoou
+药	ykl.	400	ykeiia
+要	yxau	400	yxeiai
+业	ymee	400	ymiiou
+叶	soei	400	soiaee
+叶	xoei	400	xoiaee
+依	yrw/	400	yruioe
+义	ywuo	400	ywouoo
+议	yww/	400	ywoaou
+易	yib/	400	yiiaee
+意	ylio	400	yloeou
+于	wdii	400	wdeeii
+俞	sas;	400	sauoei
+娱	ynoe	400	ynauei
+逾	yas.	400	yauoei
+语	yww;	400	ywoaei
+渊	yvr;	400	yvooeu
+元	ydua	400	ydeeua
+员	yoia	400	yoiaei
+原	ygn;	400	ygeuui
+曰	yiia	400	yiiaee
+约	ylb.	400	ylaaeu
+月	ruua	400	ruuaee
+月	yuua	400	yuuaee
+运	ydy.	400	ydeeao
+再	zsc;	400	zseiai
+早	ziei	400	ziiaee
+造	zrt.	400	zrueie
+则	zhii	400	zhiauo
+轧	gpaa	400	gpeaie
+轧	ypaa	400	ypeaie
+绽	zlii	400	zlaaeo
+找	zjea	400	zjeiee
+诏	zwq;	400	zwoaau
+折	sjuu	400	sjeieu
+者	ztr;	400	zteieu
 鹧	zgk,	400	zgoeue
+怔	lxs;	400	lxooie
+整	zsoi	400	zseiae
+政	zsn/	400	zseiei
+只	qouo	400	qoiaeu
+只	zouo	400	zoiaeu
+枝	qmk'	400	qmeiuo
+祗	dyh.	400	dyoaio
+直	zkia	400	zkeiia
+旨	zlia	400	zluaia
+指	zjl;	400	zjeieu
+制	zqei	400	zqueei
+质	zhk;	400	zhuuei
+峙	zet,	400	zeiaie
+智	zgoi	400	zgueeu
+种	choi	400	chueiu
+众	zaau	400	zauouo
+重	zrs;	400	zrueia
+粥	ygd'	400	ygaeao
+朱	sqiu	400	squeei
+准	zdr.	400	zdoeui
+资	zdui	400	zdoeua
+姊	jnr/	400	jnaueu
+总	zdoo	400	zdouia
+足	jnia	400	jniaei
+作	zrq,	400	zruiue
+做	zrg/	400	zruiei
 蹉	cnd,	399	cniaei
-蹉	cnd.	399	cniaei
 苫	skei	399	skeiii
-鬻	ygd,	399	ygaeao
 鬻	ygd;	399	ygaeao
 拊	fje	398	fjeieu
 粑	bda	397	bdouei
 邗	htai	397	hteeia
 铰	jaw/	397	jaueee
 唿	hob.	396	hoiaeu
-牖	yree	396	yruiea
 牖	yreo	396	yruiea
 淦	gvuo	395	gvooeu
 醴	lxc.	395	lxeiau
@@ -5216,7 +5497,6 @@ encoder:
 菅	jkii	347	jkeiio
 痍	ygs/	346	ygoeuo
 荚	jks/	345	jkeiie
-提	djii	345	djeiei
 栀	zmh'	345	zmeiuo
 沆	hvw/	343	hvooeo
 贽	zjj;	342	zjeieu
@@ -5359,7 +5639,6 @@ encoder:
 幛	zel,	280	zeiaio
 阆	lcw.	279	lcoiao
 赅	ghw/	278	ghiauo
-咖	goq;	278	goiaea
 殄	tsuu	278	tseuao
 逑	qsv.	277	qseioe
 阼	zbq,	277	zbaiue
@@ -5393,7 +5672,6 @@ encoder:
 禳	ryw/	265	ryoaio
 蓣	yky;	265	ykeiia
 缒	zlr.	265	zlaaeu
-便	prs/	264	pruiei
 蝈	gcoo	264	gciaei
 蕖	qkv,	264	qkeiio
 屣	xpp;	264	xpaeuu
@@ -5426,7 +5704,6 @@ encoder:
 锨	xaj/	251	xaueee
 脔	lwm/	250	lwoeii
 镊	nab'	250	naueee
-浅	jvee	250	jvooee
 孳	zkl'	250	zkouea
 叨	toau	249	toiaea
 骐	qqk/	249	qqaaee
@@ -5559,7 +5836,6 @@ encoder:
 枞	zmau	202	zmeiuo
 坻	dth.	202	dteieu
 枸	jmb;	202	jmeiuo
-矜	qyj'	202	qyaoai
 猊	nqn/	202	nquauu
 乜	njaa	202	njaaaa
 荠	jkuu	202	jkeiio
@@ -5963,13 +6239,11 @@ encoder:
 醯	xxw;	100	xxeiau
 瘳	cgj/	99	cgoeuo
 胼	puk,	99	puuaee
-食	yuuo	99	yuuooa
 勰	xqq.	99	xqauau
 媸	cnc;	98	cnauea
 宄	giua	98	giooau
 洹	hvs,	98	hvooee
 芰	jkk'	98	jkeiie
-解	xuue	98	xuuaua
 蠲	jkr;	98	jkoueu
 垆	ltea	98	lteiei
 浼	mvuu	98	mvooeu
@@ -5985,7 +6259,6 @@ encoder:
 癜	dgp'	96	dgoeuo
 鲽	dyk,	96	dyuaia
 吭	how/	96	hoiaeo
-拗	njl'	96	njeiea
 筲	szei	96	szueou
 浠	xvx;	96	xvooeu
 趑	ztn/	96	zteiei
@@ -5995,14 +6268,12 @@ encoder:
 筇	qzd'	95	qzueou
 舄	xnb.	95	xnuiea
 饔	ywl/	95	ywoeaa
-扁	pwp,	94	pwoaeu
 铖	cag.	94	caueee
 枋	fmoe	94	fmeiuo
 荤	xkie	94	xkeiio
 粝	ldg'	94	ldouei
 椋	lmw;	94	lmeiuo
 钼	maia	94	maueee
-蹊	xnz,	94	xniaei
 椟	dmk,	93	dmeiuo
 麸	ffuu	93	ffeeie
 圪	gtq'	93	gteieu
@@ -6035,7 +6306,6 @@ encoder:
 泔	gvk,	87	gvooee
 桧	gmaa	87	gmeiuo
 鲎	hviu	87	hvoouo
-姥	mnt/	87	mnauee
 簏	lzg/	87	lzueou
 旆	pqq;	87	pqoeau
 狨	rql,	87	rquaue
@@ -6102,7 +6372,6 @@ encoder:
 躞	xny'	78	xniaei
 攒	cjr;	78	cjeieu
 晡	bis.	77	biiaee
-车	jpea	77	jpeaei
 谠	dweu	77	dwoaio
 哏	goeo	77	goiaea
 槲	hmue	77	hmeiuo
@@ -6110,17 +6379,13 @@ encoder:
 埒	ltz,	77	lteieu
 茑	nkb,	77	nkeiiu
 仳	prg/	77	pruiea
-鞘	skoi	77	skeiie
-说	ywd/	77	ywoaou
 牾	wrj;	77	wrueie
 曛	xir.	77	xiiaee
-仇	qrua	76	qruiua
 踔	cnee	76	cniaei
 鲑	xyt,	76	xyuaia
 哜	jouu	76	joiaeo
 剿	cll;	76	claaai
 毵	syp/	76	syaoeu
-石	dseu	76	dseuia
 锶	sat.	76	saueee
 澌	svk/	76	svooee
 楦	xmie	76	xmeiuo
@@ -6148,7 +6413,6 @@ encoder:
 簦	dzj.	73	dzueou
 猓	gqie	73	gquaui
 鞯	jkoa	73	jkeiie
-筠	yzt.	73	yzueou
 侔	mry,	73	mruiao
 饩	xuue	73	xuuaau
 槠	zmw;	73	zmeiuo
@@ -6166,7 +6430,6 @@ encoder:
 檗	bpoe	70	bpaeui
 觏	gfd/	70	gfeeii
 晗	hiai	70	hiiaee
-贾	gxia	70	gxeiai
 腩	nuk,	70	nuuaee
 黹	zms/	70	zmiiou
 蕉	qkr.	69	qkeiiu
@@ -6198,7 +6461,6 @@ encoder:
 鲷	dyc;	65	dyuaia
 萘	nkp;	65	nkeiie
 耨	nfp,	65	nfeeei
-喏	rok;	65	roiaee
 郫	pnr'	65	pnuiae
 渖	svii	65	svooeo
 葚	skk'	65	skeiie
@@ -6211,14 +6473,12 @@ encoder:
 券	xkp'	63	xkouee
 馓	suk/	63	suuaae
 铯	saua	63	saueee
-属	zpr.	63	zpaeuu
 蔌	sks/	63	skeiie
 濉	svf.	63	svooei
 喳	com,	63	coiaee
 觜	znl/	63	znieie
 铋	bax/	62	baueee
 戥	dir,	62	diiaee
-蛾	ycv.	62	yciaei
 祓	fyx.	62	fyoaio
 擐	hjf/	62	hjeiei
 悝	lxii	62	lxooii
@@ -6227,7 +6487,6 @@ encoder:
 逯	lev.	62	leaeei
 綮	qwp;	62	qwoaeu
 蓐	rkg,	62	rkeiie
-驮	dqeu	62	dqaaee
 翟	zjd.	62	zjaoea
 螽	zud;	62	zuuaoo
 嘬	zoia	62	zoiaei
@@ -6240,7 +6499,6 @@ encoder:
 芡	qkuu	61	qkeiiu
 艉	wzp/	61	wzuuao
 阌	wcz'	61	wcoiau
-涡	gvou	61	gvooei
 荸	bkk'	60	bkeiie
 矬	cgae	60	cgueeu
 痤	cgae	60	cgoeuo
@@ -6252,7 +6510,6 @@ encoder:
 蛳	scd;	60	sciaei
 侥	yrl/	60	yruiea
 殪	ysuo	60	yseuao
-澄	dvj.	59	dvooea
 铛	caea	59	caueee
 漶	hvoo	59	hvooei
 槛	jmd;	59	jmeiuo
@@ -6285,7 +6542,6 @@ encoder:
 呷	xoii	55	xoiaei
 戋	jlee	55	jleeau
 镏	lah;	55	laueee
-膀	puw.	55	puuaee
 裳	ceiu	55	ceiouo
 眭	sft,	55	sfiaee
 疃	ttl;	55	ttiaei
@@ -6299,7 +6555,6 @@ encoder:
 犸	mqaa	54	mquaua
 熳	mhia	54	mhouuo
 亓	qdui	54	qdeeui
-契	xfee	54	xfeeei
 椠	qpj,	54	qpeaie
 惝	cxei	53	cxooii
 跏	jnq;	53	jniaei
@@ -6309,7 +6564,6 @@ encoder:
 汔	qvq'	53	qvooeu
 窳	yir.	53	yiooau
 粢	zduo	53	zdoeua
-艾	ykuo	52	ykeiiu
 嗌	yok;	52	yoiaeo
 龅	bnaa	52	bnieie
 吡	bog/	52	boiaee
@@ -6375,7 +6629,6 @@ encoder:
 艨	mzk,	45	mzuuao
 乜	mjaa	45	mjaaaa
 蚺	rcc;	45	rciaei
-术	zmoo	45	zmeiuo
 螗	tcg;	45	tciaei
 蜩	tcc;	45	tciaei
 硎	xss;	45	xseuia
@@ -6385,7 +6638,6 @@ encoder:
 赙	fhs,	44	fhiauo
 噍	jor.	44	joiaeu
 獍	jql/	44	jquauo
-楷	jmg/	44	jmeiuo
 栌	lmea	44	lmeiuo
 鍪	myj/	44	myaoai
 俜	pria	44	pruiia
@@ -6456,7 +6708,6 @@ encoder:
 诹	zwb'	39	zwoaei
 庳	bgn,	38	bgoeuu
 窆	bir.	38	biooau
-侧	zrh;	38	zruiia
 笱	gzb;	38	gzueou
 蜾	gcie	38	gciaei
 嘿	mov.	38	moiaei
@@ -6503,15 +6754,12 @@ encoder:
 酐	gxee	35	gxeiau
 岣	geb;	35	geiaiu
 绲	gliu	35	glaaei
-将	qkue	35	qkoeiu
 塄	ltf.	35	lteiei
 蒌	lkd'	35	lkeiio
 耧	lfp'	35	lfeeei
 芴	wkb/	35	wkeiiu
 枵	xmoa	35	xmeiuo
-邪	ycea	35	yceaiu
 癔	ygl.	35	ygoeuo
-轧	gpaa	35	gpeaie
 轵	zpou	35	zpeaie
 腠	cuf,	34	cuuaee
 垡	frl,	34	fruiea
@@ -6537,7 +6785,6 @@ encoder:
 瘐	ygn/	33	ygoeuo
 龠	yas,	33	yauoei
 瘵	zgui	33	zgoeuo
-单	sdie	32	sdouia
 氘	dqui	32	dqueea
 铫	yan.	32	yaueee
 哕	hoeu	32	hoiaei
@@ -6552,7 +6799,6 @@ encoder:
 蝤	qcd,	32	qciaei
 洳	rvn;	32	rvooea
 鳔	byx;	31	byuaia
-查	zmie	31	zmeiuo
 呋	fod/	31	foiaee
 鲡	lys.	31	lyuaia
 臁	lug;	31	luuaee
@@ -6577,7 +6823,6 @@ encoder:
 锩	jak'	30	jaueee
 瘌	lgs;	30	lgoeuo
 哌	poh.	30	poiaeu
-强	jgoi	30	jgaeai
 酞	txp.	30	txeiau
 鼗	tnv'	30	tnuoea
 氩	yqs,	30	yqueea
@@ -6623,7 +6868,6 @@ encoder:
 瑭	tfg;	26	tfeeie
 囤	dos'	26	doiaea
 莸	ykq.	26	ykeiiu
-折	sjuu	26	sjeieu
 碡	zsf.	26	zseuia
 扳	pjh'	25	pjeieu
 疒	bgoe	25	bgoeuo
@@ -6640,16 +6884,12 @@ encoder:
 鲐	tyy;	25	tyuaia
 鲦	tyue	25	tyuaia
 鼯	wnl;	25	wnuiea
-轧	ypaa	25	ypeaie
-单	cdie	24	cdouia
 鸸	vsc,	24	vseuia
 炅	giou	24	giiaee
 炅	jiou	24	jiiaee
-区	vcuo	24	vceuoa
 摅	sjeo	24	sjeiei
 涠	wvoi	24	wvooei
 氙	xqia	24	xqueea
-巷	hkr'	24	hkeiie
 驵	zqia	24	zqaaei
 甏	btoo	23	bteiei
 枧	jmc/	23	jmeiuo
@@ -6674,7 +6914,6 @@ encoder:
 呙	goc/	22	goiaei
 煳	hhg/	22	hhouuo
 浍	kvaa	22	kvooeu
-咳	how/	22	hoiaeo
 裉	kyeo	22	kyoaiu
 镧	lac;	22	laueee
 鲮	lyt/	22	lyuaia
@@ -6732,7 +6971,6 @@ encoder:
 漭	mvk,	19	mvooee
 嘧	moii	19	moiaeo
 鹋	mkt,	19	mkeiii
-鸟	dbw,	19	dbuaoa
 髂	qcj;	19	qciaao
 肜	ruuu	19	ruuaee
 茼	tkc;	19	tkeiii
@@ -6774,13 +7012,11 @@ encoder:
 钋	paio	17	paueee
 蠼	qcf'	17	qciaei
 铷	ran;	17	raueee
-蛇	yciu	17	yciaei
 萜	tkei	17	tkeiii
 獯	xqr.	17	xquauu
 狁	yqy/	17	yquaua
 鲰	zyb'	17	zyuaia
 傺	crui	16	cruiua
-铤	dar'	16	daueee
 簖	dzd/	16	dzueou
 锇	vav.	16	vaueee
 崞	gew'	16	geiaio
@@ -6875,7 +7111,6 @@ encoder:
 菝	bkj.	11	bkeiie
 茈	ckn/	11	ckeiii
 蹲	cnd,	11	cniaei
-繁	pqm;	11	pqueaa
 瀵	fvd/	11	fvooeo
 艴	fgd'	11	fgaeau
 龟	quia	11	quuaia
@@ -6888,21 +7123,16 @@ encoder:
 钐	sauu	11	saueee
 莘	xkoe	11	xkeiio
 铈	saw;	11	saueee
-陶	ybb;	11	ybaiua
-戏	hkea	11	hkaoea
 遗	woeo	11	woiaei
 缏	blr/	10	blaaeu
 醭	bxm/	10	bxeiau
 镩	caii	10	caueee
 苊	vkg'	10	vkeiie
 稃	fhz'	10	fhueiu
-革	jkoe	10	jkeiie
 牿	grj;	10	grueie
 骺	hcj;	10	hciaao
 攉	hjt.	10	hjeiee
 颉	xtoi	10	xteiei
-矜	gyj'	10	gyaoai
-颈	gyd;	10	gyaoei
 锔	jap;	10	jaueee
 鳢	lyc.	10	lyuaia
 尿	spia	10	spaeui
@@ -6912,7 +7142,6 @@ encoder:
 圊	qof;	10	qoiaee
 鲭	zyf;	10	zyuaia
 蛸	scei	10	sciaei
-氏	zhea	10	zhuaea
 铽	tal.	10	taueee
 煺	theo	10	thouuo
 粞	xdei	10	xdouei
@@ -6927,7 +7156,6 @@ encoder:
 佃	tria	9	truiia
 岽	del;	9	deiaie
 蹯	fnr;	9	fniaei
-否	psm;	9	pseuio
 筻	gzs/	9	gzueou
 焓	hhai	9	hhouuo
 烀	hhr;	9	hhouuo
@@ -6936,13 +7164,10 @@ encoder:
 耩	jfp;	9	jfeeei
 苣	qkc'	9	qkeiie
 硇	nsr/	9	nseuia
-炔	ghc/	9	ghouuo
 溻	tvio	9	tvooei
 呔	dop.	9	doiaee
 锬	tah.	9	taueee
-屯	zsc'	9	zseaia
 箢	yzia	9	yzueou
-蔚	ykp,	9	ykeiia
 莶	xkae	9	xkeiiu
 榍	xmp;	9	xmeiuo
 泶	xvii	9	xvoouo
@@ -6963,18 +7188,13 @@ encoder:
 仂	lrau	8	lruiau
 坶	mtm.	8	mteiea
 锫	pal;	8	paueee
-魄	bnn'	8	bnuiae
 劁	qrf;	8	qruioe
-且	jhia	8	jhiaee
 忪	zxr'	8	zxooiu
 塔	dtk;	8	dteiee
 莛	tkr'	8	tkeiiu
 葶	tkw,	8	tkeiio
-无	mdua	8	mdeeua
 霰	xtk/	8	xteoai
-叶	xoei	8	xoiaee
 殖	ssui	8	sseuao
-粥	ygd'	8	ygaeao
 吖	yod;	7	yoiaeo
 鐾	bpou	7	bpaeui
 锝	daie	7	daueee
@@ -6982,10 +7202,8 @@ encoder:
 揲	sjk,	7	sjeiee
 澉	gvj/	7	gvooea
 鲴	gyoe	7	gyuaia
-广	vgoe	7	vgoeuu
 颌	gas;	7	gauoei
 亟	qjoe	7	qjaiia
-夹	gsk/	7	gseoue
 缴	zln/	7	zlaaeu
 弪	jgy,	7	jgaeaa
 铑	lat/	7	laueee
@@ -7003,7 +7221,6 @@ encoder:
 崾	yex'	7	yeiaie
 镱	yal.	7	yaueee
 涌	cvy;	7	cvooea
-种	choi	7	chueiu
 吖	vod;	6	voiaeo
 砹	vsk/	6	vseuia
 揞	vjl;	6	vjeieo
@@ -7015,20 +7232,16 @@ encoder:
 嚆	hok;	6	hoiaee
 呵	koj;	6	koiaee
 嵴	jev;	6	jeiaio
-祭	zud;	6	zuuaoo
 茳	jkv,	6	jkeiio
 莰	kkt/	6	kkeiie
 锍	law/	6	laueee
 纶	glau	6	glaaeu
-蔓	wkia	6	wkeiii
 镎	naau	6	naueee
 钷	pac;	6	paueee
 巯	qyd/	6	qyaoei
 磲	qsv,	6	qseuia
 脎	sux,	6	suuaee
-识	zwou	6	zwoaia
 螋	scn'	6	sciaei
-汤	svj/	6	svooea
 軎	wpia	6	wpeiae
 尉	ypd,	6	ypaeue
 阢	wbs/	6	wbaieu
@@ -7051,19 +7264,15 @@ encoder:
 撖	hjj/	5	hjeiea
 鲒	jyt;	5	jyuaia
 悝	kxii	5	kxooii
-溃	hvoi	5	hvooei
 醌	kxiu	5	kxeiau
 猸	mqp;	5	mquaua
 榀	pmoi	5	pmeiuo
-其	jkf/	5	jkeiie
 羰	tdv.	5	tdouee
 腽	wuii	5	wuuaee
-万	msaa	5	mseauu
 茚	ykh'	5	ykeiiu
 齄	zrf,	5	zruiae
 痄	zgq,	5	zgoeuo
 疰	zgw,	5	zgoeuo
-般	pzn'	4	pzuuao
 吡	pog/	4	poiaee
 钸	bax;	4	baueee
 蒇	ckg.	4	ckeiie
@@ -7072,7 +7281,6 @@ encoder:
 莩	pkz'	4	pkeiiu
 鬲	lsoi	4	lseiae
 谷	yrai	4	yruouo
-虹	jcei	4	jciaei
 鲚	jyuu	4	jyuaia
 牮	jrl,	4	jruiea
 犋	jrj/	4	jrueie
@@ -7082,7 +7290,6 @@ encoder:
 毪	mpy,	4	mpueea
 聍	nbie	4	nbeiie
 胬	nnk/	4	nnauea
-魄	tnn'	4	tnuiae
 镨	pak;	4	paueee
 磉	ssk,	4	sseuia
 椹	zmk'	4	zmeiuo
@@ -7096,12 +7303,9 @@ encoder:
 骣	cqp'	3	cqaaea
 膪	cuw;	3	cuuaee
 鲼	fyk;	3	fyuaia
-红	glei	3	glaaee
 耠	hfp;	3	hfeeei
 劐	hkr;	3	hkeiiu
-句	gbia	3	gbuaia
 佧	krei	3	kruiie
-蜡	zck;	3	zciaei
 漤	lvm'	3	lvooee
 螵	pcx;	3	pciaei
 镤	pam/	3	paueee
@@ -7123,7 +7327,6 @@ encoder:
 溰	yveo	2	yvooei
 嘊	voee	2	voiaei
 敱	ves'	2	veiaie
-癌	ygoi	2	ygoeuo
 毐	vtm/	2	vteiea
 昹	viw'	2	viiaee
 躷	vrc'	2	vruiae
@@ -7188,7 +7391,6 @@ encoder:
 貋	hzie	2	hzuoou
 儑	vrio	2	vruiia
 錌	vaee	2	vauoee
-肮	huw/	2	huuaee
 骯	vcj/	2	vciaao
 岇	veh'	2	veiaiu
 枊	vmh'	2	vmeiuo
@@ -7258,7 +7460,6 @@ encoder:
 鼥	bnl.	2	bnuiea
 弝	bgai	2	bgaeaa
 垻	btia	2	bteiei
-罢	pft'	2	pfiaii
 覇	bxk/	2	bxeiai
 矲	bgf/	2	bgueeu
 矲	pgf/	2	pgueeu
@@ -7305,14 +7506,12 @@ encoder:
 幇	btt;	2	bteiee
 幚	bfr;	2	bfeeeu
 鞤	btt,	2	bteiee
-榜	pmw.	2	pmeiuo
 牓	breo	2	bruiea
 玤	bff;	2	bfeeie
 棓	bml;	2	bmeiuo
 棓	pml;	2	pmeiuo
 硥	bsx.	2	bseuia
 硥	msx.	2	mseuia
-傍	prw.	2	pruioe
 塝	btw.	2	bteieo
 蒡	pkw.	2	pkeiio
 稖	bhl;	2	bhueiu
@@ -7349,7 +7548,6 @@ encoder:
 靤	psf'	2	pseuia
 骲	bcj'	2	bciaao
 髱	pcx'	2	pceiee
-暴	pik;	2	piiaee
 虣	bsl/	2	bseeie
 曓	bic,	2	biiaee
 儤	brii	2	bruiia
@@ -7366,7 +7564,6 @@ encoder:
 昁	bis;	2	biiaee
 牬	brj/	2	brueie
 俻	brui	2	bruiua
-被	pyg'	2	pyoaiu
 珼	bfia	2	bfeeie
 梖	bmia	2	bmeiuo
 鄁	bkl'	2	bkieeu
@@ -7439,7 +7636,6 @@ encoder:
 鎞	par/	2	pauoee
 柲	bmx/	2	bmeiuo
 嬶	bnr/	2	bnaueu
-比	pgua	2	pgeaua
 朼	bmua	2	bmeiuo
 夶	bpeu	2	bpeuoe
 佊	brg'	2	bruiau
@@ -7557,7 +7753,6 @@ encoder:
 覍	bpf/	2	bpiuoi
 揙	bjw,	2	bjeieo
 徧	bpw,	2	bpuuio
-遍	pwp.	2	pwoaeu
 缏	plr/	2	plaaeu
 閞	bcy,	2	bciaee
 辡	bloe	2	bloeou
@@ -7620,7 +7815,6 @@ encoder:
 瑸	bfiu	2	bfeeie
 豩	bzeu	2	bzeuau
 賔	bip;	2	biooaa
-濒	pvn;	2	pvooei
 虨	beg/	2	beieau
 濵	bvii	2	bvooeo
 璸	bfii	2	bfeeie
@@ -7667,7 +7861,6 @@ encoder:
 鮩	byk,	2	byuaia
 靐	btt;	2	bteoai
 癶	bjw.	2	bjaouu
-波	pvg'	2	pvooea
 砵	bsm,	2	bseuia
 盋	bxk;	2	bxeuao
 袚	byx.	2	byoaiu
@@ -7744,8 +7937,6 @@ encoder:
 鳪	bmr.	2	bmioui
 鵏	bsuo	2	bseiae
 鸔	brc;	2	bruiae
-不	dsio	2	dseuio
-不	fsio	2	fseuio
 吥	bos;	2	boiaee
 吥	pos;	2	poiaee
 佈	brx;	2	bruieu
@@ -8042,7 +8233,6 @@ encoder:
 諃	cym,	2	cyoeee
 謓	cyk/	2	cyoeee
 謓	zyk/	2	zyoeee
-沉	sviu	2	svooeo
 迧	cieo	2	ciiaee
 茞	ckc;	2	ckeiie
 莀	nkg'	2	nkeiie
@@ -8136,10 +8326,8 @@ encoder:
 悜	cxoe	2	cxooii
 庱	cgt/	2	cgoeue
 睈	cfoe	2	cfiaee
-秤	phs,	2	phueiu
 牚	ceiu	2	ceiouo
 竀	cir/	2	ciooau
-吃	joq'	2	joiaeu
 妛	ccea	2	ccaiie
 呮	qoou	2	qoiaei
 侙	crl,	2	cruiee
@@ -8337,7 +8525,6 @@ encoder:
 琡	cfea	2	cfeeie
 傗	crw;	2	cruioe
 鄐	cwl'	2	cwoeaa
-触	huui	2	huuaua
 滀	cvw;	2	cvooeo
 滀	xvw;	2	xvooeo
 閦	ccau	2	cciaee
@@ -8414,7 +8601,6 @@ encoder:
 櫄	cmr.	2	cmeiuo
 鶞	chk.	2	chuuei
 鰆	cyf;	2	cyuaia
-纯	zls'	2	zlaaee
 陙	cbg'	2	cbaieu
 浱	cvg'	2	cvooee
 脣	cgd;	2	cgeuee
@@ -8522,7 +8708,6 @@ encoder:
 繱	clk.	2	claaoo
 騘	cqb.	2	cqeiee
 鏦	cap;	2	cauoee
-从	zauo	2	zauouo
 従	cpk;	2	cpuuio
 徖	cpii	2	cpuuio
 悰	cxii	2	cxooio
@@ -8638,7 +8823,6 @@ encoder:
 撘	djz;	2	djeieu
 鎝	dak;	2	dauoee
 鎝	tak;	2	tauoee
-达	tpoa	2	tpeuoo
 迏	dpw.	2	dpeuoo
 迖	dpw.	2	dpeuoo
 迖	tpw.	2	tpeuoo
@@ -8662,14 +8846,12 @@ encoder:
 鐽	dat.	2	dauoee
 龖	dlue	2	dloeou
 龘	dlue	2	dloeou
-大	tpeu	2	tpeuoo
 亣	dws/	2	dwoeui
 汏	dveu	2	dvooee
 汏	tveu	2	tvooee
 眔	dfiu	2	dfiaii
 獃	des.	2	deiaie
 懛	txt,	2	txooie
-歹	vsua	2	vseuao
 傣	trf;	2	truiee
 轪	dpeu	2	dpeaie
 侢	drs;	2	druiei
@@ -8840,7 +9022,6 @@ encoder:
 隄	dbii	2	dbaiia
 隄	tbii	2	tbaiia
 趆	dtn.	2	dteiei
-堤	ttii	2	tteiei
 磾	dsoe	2	dseuia
 鍉	caii	2	cauoee
 鍉	daii	2	dauoee
@@ -9024,7 +9205,6 @@ encoder:
 亇	muii	2	muuaii
 帄	deei	2	deiaie
 奵	dnei	2	dnauee
-盯	cfei	2	cfiaee
 町	ttei	2	ttiaei
 甼	dtei	2	dtiaei
 耵	tbei	2	tbeiie
@@ -9152,7 +9332,6 @@ encoder:
 剬	des;	2	deiaie
 偳	drei	2	druiia
 媏	dnei	2	dnauei
-端	zlei	2	zloeou
 褍	dyei	2	dyoaiu
 鍴	daei	2	dauoee
 塅	dth'	2	dteieu
@@ -9183,7 +9362,6 @@ encoder:
 譈	dyw/	2	dyoeee
 瀩	dvh;	2	dvooeu
 譵	dym,	2	dyoeee
-吨	tos'	2	toiaee
 惇	dxw'	2	dxooio
 蜳	dcw'	2	dciaei
 撴	djw/	2	djeieo
@@ -9212,7 +9390,6 @@ encoder:
 踲	dnh;	2	dniaei
 夛	deua	2	deaeeu
 茤	dkuu	2	dkeiiu
-哆	couu	2	coiaeu
 剟	dkk;	2	dkaoao
 崜	der,	2	deiaiu
 敠	dkk'	2	dkaoao
@@ -9338,10 +9515,8 @@ encoder:
 煾	vhoo	2	vhouuo
 峎	leeo	2	leiaia
 峎	veeo	2	veiaia
-嗯	vooo	2	voiaei
 鞥	vkoe	2	vkeiie
 鞥	ykoe	2	ykeiie
-儿	nnua	2	nnuaaa
 児	veiu	2	veiiae
 侕	vrs;	2	vruieu
 陑	vbs;	2	vbaieu
@@ -9464,7 +9639,6 @@ encoder:
 趽	fnoe	2	fniaei
 錺	fak.	2	fauoee
 鴋	fqr.	2	fqoeau
-房	pwp.	2	pwoaeu
 埅	fbq,	2	fbaioe
 堏	fmq,	2	fmeiuo
 昉	fioe	2	fiiaee
@@ -9827,8 +10001,6 @@ encoder:
 笴	gzj;	2	gzueou
 簳	gzk,	2	gzueou
 鳡	gyg.	2	gyuaia
-干	htee	2	hteeii
-干	qtee	2	qteeii
 汵	gvaa	2	gvooeu
 盰	gfee	2	gfiaee
 倝	gkiu	2	gkeiia
@@ -9942,7 +10114,6 @@ encoder:
 揯	gjx.	2	gjeieo
 刯	gsii	2	gseiae
 畊	gtd/	2	gtiaei
-耕	jfp/	2	jfeeei
 浭	gvs/	2	gvooee
 菮	gkg/	2	gkeiio
 椩	gmg/	2	gmeiuo
@@ -9957,7 +10128,6 @@ encoder:
 莄	gks/	2	gkeiie
 峺	ges/	2	geiaie
 骾	gcj/	2	gciaao
-更	jsiu	2	jseiae
 堩	gtx.	2	gteieo
 厷	gxao	2	gxeuao
 杛	gmae	2	gmeiuo
@@ -10074,7 +10244,6 @@ encoder:
 稒	ghoe	2	ghueiu
 僱	grw.	2	gruioa
 苽	gkh.	2	gkeiiu
-呱	woh.	2	woiaeu
 刮	krg;	2	krueii
 颪	gsm;	2	gseiou
 歄	gcj/	2	gciaai
@@ -10217,7 +10386,6 @@ encoder:
 蟡	gcz.	2	gciaei
 攰	gkk'	2	gkeiao
 昋	gsp;	2	gseeuo
-刽	kad;	2	kauoee
 攱	llk'	2	lloeou
 桧	kmaa	2	kmeiuo
 椢	gmoo	2	gmeiuo
@@ -10281,14 +10449,11 @@ encoder:
 綶	glie	2	glaaoo
 輠	gpie	2	gpeiae
 腂	guie	2	guuaee
-哈	xoai	2	xoiaeu
 铪	jaai	2	jaueee
-还	xsm.	2	xseuio
 胲	guw/	2	guuaee
 烸	hhq.	2	hhouuo
 塰	hvq,	2	hvooeu
 酼	hxw/	2	hxeiau
-骇	xqw/	2	xqaaeo
 嗐	hoii	2	hoiaeo
 餀	huk/	2	huuooa
 駴	hql,	2	hqeiee
@@ -10477,7 +10642,6 @@ encoder:
 靎	htao	2	hteoai
 靏	htio	2	hteoai
 黒	hit.	2	hiiaee
-黑	lvt.	2	lviaou
 潶	hvv.	2	hvooei
 拫	hjeo	2	hjeiea
 鞎	hkoo	2	hkeiie
@@ -10687,7 +10851,6 @@ encoder:
 鷨	hks.	2	hkeiie
 夻	hpia	2	hpeuoi
 杹	hmr/	2	hmeiuo
-话	lwr,	2	lwoaue
 崋	hes,	2	heiaie
 婳	hns'	2	hnauee
 觟	huue	2	huuaua
@@ -10712,7 +10875,6 @@ encoder:
 櫰	hmw/	2	hmeiuo
 耲	hfp/	2	hfeeei
 蘹	hkx/	2	hkeiio
-坏	pts;	2	pteiee
 咶	hor,	2	hoiaeu
 壊	htk/	2	hteiee
 蘾	hkt/	2	hkeiie
@@ -10919,7 +11081,6 @@ encoder:
 睧	hfh;	2	hfiaee
 睯	hcl;	2	hcaeae
 忶	hxd'	2	hxooie
-混	gviu	2	gvooei
 堚	htie	2	hteieo
 繉	hlf.	2	hlaaoo
 鼲	hnl,	2	hnuiea
@@ -11160,7 +11321,6 @@ encoder:
 挟	jjs/	2	jjeiee
 毠	jqou	2	jqauia
 埉	jtp/	2	jteiee
-家	gieu	2	giooae
 耞	jfp;	2	jfeeei
 梜	jmp/	2	jmeiuo
 傢	jrie	2	jruioo
@@ -11178,7 +11338,6 @@ encoder:
 鴐	jqoo	2	jqauia
 鎵	jaie	2	jauoee
 麚	jgc'	2	jgoeua
-夹	qsk/	2	qseoue
 圿	jtau	2	jteieu
 扴	jjau	2	jjeieu
 唊	jop/	2	joiaee
@@ -11200,7 +11359,6 @@ encoder:
 椵	jmc'	2	jmeiuo
 槚	jmx;	2	jmeiuo
 榎	jms/	2	jmeiuo
-价	grau	2	gruiuo
 幏	jeie	2	jeiaio
 榢	jmie	2	jmeiuo
 幵	jsx,	2	jseeue
@@ -11282,7 +11440,6 @@ encoder:
 鹻	jeoi	2	jeieia
 籛	jzae	2	jzueou
 襺	jyk;	2	jyoaiu
-见	xcua	2	xciaua
 珔	jfx'	2	jfeeie
 栫	jmx'	2	jmeiuo
 俴	jrl,	2	jruiea
@@ -11394,7 +11551,6 @@ encoder:
 纟	slaa	2	slaaee
 糹	slaa	2	slaaoo
 臫	jrf'	2	jruiae
-角	luua	2	luuaua
 恔	jxw/	2	jxooio
 恔	xxw/	2	xxooio
 捁	gjr;	2	gjeieu
@@ -11635,6 +11791,7 @@ encoder:
 宑	jid/	2	jiooae
 汬	jdd;	2	jdeeui
 穽	jir/	2	jiooau
+景	yiw;	2	yiiaee
 璄	jfl/	2	jfeeie
 擏	jjk/	2	jjeiee
 擏	qjk/	2	qjeiee
@@ -12064,7 +12221,6 @@ encoder:
 鱇	kyg;	2	kyuaia
 摃	gjd;	2	gjeiee
 摃	kjd;	2	kjeiee
-亢	hwua	2	hwoeua
 匟	kcw/	2	kceoeu
 邟	kwn'	2	kwoeua
 囥	kow/	2	koiaoe
@@ -12077,7 +12233,6 @@ encoder:
 攷	ksj/	2	kseaue
 洘	kvt'	2	kvooee
 薧	kkw/	2	kkeiio
-犒	drj;	2	drueie
 鲓	kyt'	2	kyuaia
 鯌	kyr;	2	kyuaia
 匼	kcai	2	kceuoe
@@ -12094,7 +12249,6 @@ encoder:
 嵙	keh,	2	keiaiu
 痾	kgb;	2	kgoeuo
 痾	vgb;	2	vgoeuo
-颏	hwl;	2	hwoeau
 搕	kjt;	2	kjeiee
 嗑	hot;	2	hoiaee
 犐	krj,	2	krueie
@@ -12240,7 +12394,6 @@ encoder:
 夼	cpui	2	cpeuou
 儣	krg/	2	kruioe
 懭	kxg/	2	kxooio
-矿	gsoe	2	gseuia
 岲	keou	2	keiaii
 昿	kig'	2	kiiaee
 砿	ksg'	2	kseuia
@@ -12284,7 +12437,6 @@ encoder:
 躨	knk/	2	kniaei
 尯	kxl'	2	kxeuau
 尯	wxl'	2	wxeuau
-傀	grn'	2	gruiui
 頍	kkk;	2	kkeiao
 煃	khp,	2	khouuo
 磈	ksn'	2	kseuia
@@ -12385,7 +12537,6 @@ encoder:
 楋	lms;	2	lmeiuo
 揧	lsou	2	lseiae
 辢	lsoo	2	lseiae
-蜡	cck;	2	cciaei
 蝋	lcv,	2	lciaei
 蝲	lcs;	2	lciaei
 鬎	lcx;	2	lceiee
@@ -12595,7 +12746,6 @@ encoder:
 厘	xgii	2	xgeuia
 荲	lkii	2	lkeiii
 剓	lhb'	2	lhueiu
-离	cwx'	2	cwoeuo
 琍	lfh;	2	lfeeie
 菞	lkh/	2	lkeiiu
 梸	lmh;	2	lmeiuo
@@ -12952,7 +13102,6 @@ encoder:
 炩	lhaa	2	lhouuo
 沠	lvh.	2	lvooeu
 畄	lvia	2	lvooui
-留	dhw;	2	dhuaoa
 旈	lqw/	2	lqoeau
 畱	lsd;	2	lseiie
 裗	lyw/	2	lyoaiu
@@ -13046,7 +13195,6 @@ encoder:
 軁	lrc'	2	lruiae
 謱	lyoa	2	lyoeee
 鞻	lkoa	2	lkeiie
-搂	sjd'	2	sjeieo
 塿	ltoa	2	lteiei
 甊	los.	2	loiaee
 屚	lpei	2	lpaeue
@@ -13363,7 +13511,6 @@ encoder:
 嚰	mog,	2	moiaeo
 癦	ygv,	2	ygoeuo
 庅	mgr'	2	mgoeuu
-麽	ygm'	2	ygoeue
 苺	mkm.	2	mkeiia
 栂	mmm.	2	mmeiuo
 脄	mux.	2	muuaee
@@ -13522,7 +13669,6 @@ encoder:
 矏	mfr.	2	mfiaee
 丏	msea	2	mseiaa
 汅	mvs'	2	mvooee
-免	wuou	2	wuuaia
 俛	fruu	2	fruiua
 俛	mruu	2	mruiua
 娩	wnuu	2	wnaueu
@@ -13655,7 +13801,6 @@ encoder:
 貃	mzui	2	mzuoou
 塻	mtei	2	mteiee
 嗼	moei	2	moiaee
-貉	mzui	2	mzuoou
 靺	mkoi	2	mkeiie
 暯	miei	2	miiaee
 銆	mas;	2	mauoee
@@ -13906,9 +14051,7 @@ encoder:
 钀	naeo	2	nauoee
 脌	nuq;	2	nuuaee
 囜	noao	2	noiaao
-恁	rrr.	2	rruiue
 拰	njr,	2	njeieu
-宁	ziei	2	ziooae
 寕	nis,	2	niooae
 寍	nix;	2	niooao
 寜	nix;	2	niooao
@@ -13935,7 +14078,6 @@ encoder:
 莥	ckq;	2	ckeiiu
 莥	nkq;	2	nkeiiu
 靵	nkoi	2	nkeiie
-拗	yjl'	2	yjeiea
 秾	nhiu	2	nhueiu
 辳	nmm'	2	nmeiuo
 蕽	nkc'	2	nkeiii
@@ -13968,7 +14110,6 @@ encoder:
 搙	njg,	2	njeiee
 奻	nnau	2	nnauea
 渜	nvs,	2	nvooee
-暖	xiz'	2	xiiaee
 煗	nhs,	2	nhouuo
 餪	nus,	2	nuuooa
 硸	nsee	2	nseuia
@@ -13988,11 +14129,9 @@ encoder:
 懧	nxie	2	nxooio
 糥	nds;	2	ndouei
 穤	nht;	2	nhueiu
-女	rnau	2	rnauee
 籹	ndau	2	ndouei
 衂	nrv.	2	nruiai
 朒	nuc/	2	nuuaee
-噢	yor,	2	yoiaeu
 筽	vzoe	2	vzueou
 塸	vtc;	2	vteiee
 蓲	fkc;	2	fkeiie
@@ -14016,7 +14155,6 @@ encoder:
 妑	pnai	2	pnauea
 皅	pnai	2	pnuiae
 舥	pzai	2	pzuuao
-杷	bmai	2	bmeiuo
 钯	paai	2	paueee
 跁	bnai	2	bniaei
 跁	pnai	2	pniaei
@@ -14038,8 +14176,6 @@ encoder:
 眅	pfh'	2	pfiaee
 萠	mkuu	2	mkeiiu
 畨	fdia	2	fdouei
-爿	blee	2	blaieu
-爿	qlee	2	qlaieu
 蒰	pkz'	2	pkeiiu
 幋	pzn;	2	pzuuao
 媻	pzn'	2	pzuuao
@@ -14072,7 +14208,6 @@ encoder:
 霶	ptv.	2	pteoai
 厐	pgx.	2	pgeueu
 彷	fpoe	2	fpuuio
-旁	bwd.	2	bwoeou
 徬	ppw.	2	ppuuio
 嫎	pnw.	2	pnaueo
 篣	pzw.	2	pzueou
@@ -14232,7 +14367,6 @@ encoder:
 嚭	ptoi	2	pteiei
 揊	pjs;	2	pjeiee
 睤	pft/	2	pfiaee
-睥	bfn,	2	bfiaee
 嫓	pnuu	2	pnaueu
 潎	pvd/	2	pvooeo
 壀	ptp.	2	pteiea
@@ -14399,7 +14533,6 @@ encoder:
 檏	pmm/	2	pmeiuo
 舖	pat.	2	pauoee
 舗	pat.	2	pauoei
-曝	biii	2	biiaee
 迉	qpoa	2	qpaeuo
 迉	spoa	2	spaeuo
 恓	qxei	2	qxooie
@@ -14426,7 +14559,6 @@ encoder:
 鵸	qpj.	2	qpeuoe
 鶈	qseo	2	qseaee
 鏚	qag.	2	qauoee
-齐	zuui	2	zuoeuo
 岓	qeuu	2	qeiaiu
 庈	qgaa	2	qgoeuu
 忯	cxh,	2	cxooiu
@@ -14459,7 +14591,6 @@ encoder:
 帺	qek/	2	qeiaie
 釮	qas/	2	qauoee
 猉	qqk/	2	qquaue
-骑	jqp;	2	jqaaee
 棊	qkf,	2	qkeiie
 嵜	qel;	2	qeiaio
 碁	jkf,	2	jkeiie
@@ -14500,7 +14631,6 @@ encoder:
 玂	qqk/	2	qquaue
 麡	qgc,	2	qgoeua
 邔	qcl'	2	qcaeaa
-岂	kec'	2	keiaia
 玘	qfc'	2	qfeeie
 盀	qmia	2	qmioia
 呇	qvia	2	qviauo
@@ -14671,7 +14801,6 @@ encoder:
 廧	qgt;	2	qgoeue
 艢	qzt;	2	qzuuao
 蘠	qkl;	2	qkeiia
-抢	cjaa	2	cjeieu
 摤	qjp/	2	qjeiee
 勥	jgoa	2	jgaeai
 墏	qlee	2	qlaieu
@@ -14806,7 +14935,6 @@ encoder:
 藽	ckl/	2	ckeiio
 藽	qkl/	2	qkeiio
 瀙	qvl/	2	qvooeo
-青	jfia	2	jfeeie
 靑	qfc,	2	qfeeie
 郬	qfua	2	qfeeie
 埥	ctf;	2	cteiee
@@ -14999,6 +15127,7 @@ encoder:
 郥	bhai	2	bhiaee
 郥	jhai	2	jhiaee
 耝	qfp;	2	qfeeei
+趣	ctn'	2	cteiei
 閴	qcia	2	qciaee
 麮	qkr'	2	qkeiuo
 鼁	qty'	2	qteiea
@@ -15055,7 +15184,6 @@ encoder:
 椦	qmk'	2	qmeiuo
 勧	qqr'	2	qqueeu
 韏	jkp;	2	jkouee
-炔	jhc/	2	jhouuo
 蒛	qkq/	2	qkeiiu
 埆	qtuu	2	qteieu
 崅	qeuu	2	qeiaiu
@@ -15115,7 +15243,6 @@ encoder:
 桡	nml/	2	nmeiuo
 襓	ryt/	2	ryoaiu
 犪	krj/	2	krueie
-扰	yjx.	2	yjeiee
 隢	rbt/	2	rbaiei
 遶	rtt.	2	rteiee
 忈	rdoa	2	rdeeoa
@@ -15411,7 +15538,6 @@ encoder:
 簁	xzp;	2	xzueou
 邖	seai	2	seiaia
 圸	stia	2	steiei
-姗	xnc,	2	xnaueu
 埏	ytr'	2	yteieu
 狦	sqc,	2	squaui
 軕	spia	2	speiae
@@ -15502,13 +15628,11 @@ encoder:
 蛥	scuu	2	sciaei
 捨	sjai	2	sjeieu
 舎	sat;	2	sauoei
-射	yrc,	2	yruiae
 渉	svn/	2	svooei
 涻	gvai	2	gvooeu
 涻	svai	2	svooeu
 弽	sgk,	2	sgaeae
 摂	zjb.	2	zjeiee
-慑	zxb'	2	zxooie
 摵	sjg.	2	sjeiee
 蔎	sky'	2	skeiio
 慴	sxj/	2	sxooia
@@ -15617,7 +15741,6 @@ encoder:
 鱦	yyc'	2	yyuaia
 偗	srp;	2	sruiiu
 渻	xvp;	2	xvooei
-胜	xur,	2	xuuaee
 晠	sig.	2	siiaee
 剰	srt;	2	srueei
 貹	shr,	2	shiaee
@@ -15690,8 +15813,6 @@ encoder:
 昰	sis;	2	siiaee
 昰	xis;	2	xiiaee
 眂	sfh,	2	sfiaee
-适	grg.	2	grueii
-适	krg.	2	krueii
 狧	tqr,	2	tquauu
 恀	cxuu	2	cxooiu
 恀	sxuu	2	sxooiu
@@ -16000,7 +16121,6 @@ encoder:
 浽	svz'	2	svooeu
 娞	nnz'	2	nnaueu
 娞	snz'	2	snaueu
-睢	hfr.	2	hfiaee
 滖	svw/	2	svooeo
 熣	sheo	2	shouuo
 鞖	skoa	2	skeiie
@@ -16280,7 +16400,6 @@ encoder:
 苐	dkg/	2	dkeiia
 厗	tgoe	2	tgeuoe
 偍	trii	2	truiia
-提	sjii	2	sjeiei
 罤	tfd/	2	tfiaii
 崹	tew;	2	teiaio
 稊	thd/	2	thueiu
@@ -16316,12 +16435,10 @@ encoder:
 鶙	twd.	2	twoeou
 鷤	dooo	2	doiaei
 鷤	tooo	2	toiaei
-体	brm,	2	bruiei
 躰	trc,	2	truiae
 骵	tcj,	2	tciaao
 軆	trc.	2	truiae
 戻	twp,	2	twoaeu
-屉	xpk'	2	xpaeue
 洟	tvs/	2	tvooee
 洟	yvs/	2	yvooee
 挮	tjd/	2	tjeieo
@@ -16428,7 +16545,6 @@ encoder:
 聑	dbei	2	dbeiie
 聑	tbei	2	tbeiie
 跕	dnei	2	dniaei
-铁	yaq/	2	yaueee
 蛈	tcq/	2	tciaei
 鉄	taq/	2	tauoee
 僣	trd;	2	truiee
@@ -16442,7 +16558,6 @@ encoder:
 艼	tkei	2	tkeiie
 庁	tgei	2	tgoeue
 厑	vgou	2	vgeuia
-听	youu	2	yoiaeu
 耓	tfp,	2	tfeeei
 厛	tgou	2	tgeuia
 烃	jhy,	2	jhouuo
@@ -16520,7 +16635,6 @@ encoder:
 憅	trs.	2	trueia
 偸	trr'	2	truiuo
 鍮	taai	2	tauoee
-骰	scj'	2	sciaao
 緰	tlai	2	tlaaoo
 緰	ylai	2	ylaaoo
 妵	tnw,	2	tnaueo
@@ -16631,7 +16745,6 @@ encoder:
 焞	chw'	2	chouuo
 焞	thw'	2	thouuo
 黗	tvt'	2	tviaou
-屯	csc'	2	cseaia
 芚	tks'	2	tkeiie
 庉	dgs'	2	dgoeue
 庉	tgs'	2	tgoeue
@@ -16732,7 +16845,6 @@ encoder:
 捖	hjiu	2	hjeieo
 貦	whd/	2	whiaee
 骫	wcj.	2	wciaao
-宛	yiua	2	yiooau
 莬	wkuu	2	wkeiiu
 唍	woiu	2	woiaeo
 倇	wria	2	wruioo
@@ -16958,7 +17070,6 @@ encoder:
 桽	wmae	2	wmeiuo
 脗	wub;	2	wuuaee
 穏	whz.	2	whueiu
-汶	mvoe	2	mvooeo
 妏	wnoe	2	wnaueo
 揾	wjii	2	wjeiei
 搵	wjoi	2	wjeiei
@@ -17072,7 +17183,6 @@ encoder:
 嵨	wer.	2	weiaiu
 溩	wvr.	2	wvooeu
 奦	wyj,	2	wyaoai
-鹜	myj,	2	myaoai
 熃	wyj.	2	wyaoai
 窹	wir;	2	wiooau
 霚	wty/	2	wteoai
@@ -17298,7 +17408,6 @@ encoder:
 芐	hks;	2	hkeiie
 芐	xks;	2	xkeiie
 疜	xgs;	2	xgoeuo
-夏	jsf/	2	jseuia
 梺	xmm;	2	xmeiuo
 懗	xxt/	2	xxooie
 鎼	xaeu	2	xauoee
@@ -17339,7 +17448,6 @@ encoder:
 鱻	xyy/	2	xyuaia
 咞	xos,	2	xoiaee
 伭	xrw'	2	xruioe
-闲	jcei	2	jcoiae
 挦	xjee	2	xjeiea
 胘	xuw'	2	xuuaee
 蚿	xcw'	2	xciaei
@@ -17405,7 +17513,6 @@ encoder:
 娊	xnf/	2	xnauei
 晛	xif/	2	xiiaee
 睍	xff/	2	xfiaee
-羡	ydf/	2	ydouee
 缐	xln;	2	xlaaeu
 絤	xlei	2	xlaaoo
 粯	xdf/	2	xdouei
@@ -17550,7 +17657,6 @@ encoder:
 歗	xeeu	2	xeaeei
 斅	xhd'	2	xhuiee
 斆	xhd/	2	xhuiee
-蝎	hcia	2	hciaei
 旪	xiei	2	xiiaee
 奊	ltt.	2	lteiee
 奊	xtt.	2	xteiee
@@ -17783,7 +17889,6 @@ encoder:
 鑐	xat;	2	xauoee
 俆	xrae	2	xruiuo
 蒣	xkp,	2	xkeiiu
-许	hwr,	2	hwoaue
 呴	xob;	2	xoiaeu
 珝	xfj.	2	xfeeie
 冔	xioi	2	xiiaee
@@ -18001,7 +18106,6 @@ encoder:
 堐	vtg,	2	vteiee
 堐	ytg,	2	yteiee
 崕	yeg,	2	yeiaie
-崖	veg,	2	veiaie
 猚	yqr.	2	yquauu
 瑘	yfb'	2	yfeeie
 睚	vfg,	2	vfiaee
@@ -18183,7 +18287,6 @@ encoder:
 眏	yfv/	2	yfiaee
 雵	ytv/	2	yteoai
 鉠	yav/	2	yauoee
-羊	xdf;	2	xdouee
 阦	ybou	2	ybaiou
 玚	cfj/	2	cfeeie
 玚	yfj/	2	yfeeie
@@ -18279,7 +18382,6 @@ encoder:
 狕	yql'	2	yquaua
 柼	ymiu	2	ymeiuo
 眑	yfl'	2	yfiaee
-舀	wzui	2	wzuoou
 窅	yir;	2	yiooau
 偠	yrx'	2	yruiei
 婹	ynx'	2	ynauee
@@ -18328,7 +18430,6 @@ encoder:
 嘢	yoii	2	yoiaei
 漜	yvm,	2	yvooee
 壄	ymy,	2	ymeiuo
-叶	soei	2	soiaee
 曵	yil.	2	yiiaee
 抴	yjk'	2	yjeiee
 枼	ykl,	2	ykeiie
@@ -18915,7 +19016,6 @@ encoder:
 唹	yoq.	2	yoiaeo
 盓	yvd;	2	yvooee
 箊	yzq.	2	yzueou
-于	wdii	2	wdeeii
 亐	ydaa	2	ydeeaa
 邘	ydea	2	ydeeia
 伃	yry;	2	yruiao
@@ -18927,7 +19027,6 @@ encoder:
 杅	ymd;	2	ymeiuo
 衧	yyd;	2	yyoaiu
 茰	ykiu	2	ykeiii
-俞	sas;	2	sauoei
 兪	srw'	2	sruoei
 兪	yrw'	2	yruoei
 酑	yxd;	2	yxeiau
@@ -19653,7 +19752,6 @@ encoder:
 黮	tvt'	2	tviaou
 凧	znia	2	znuaia
 佂	zrs;	2	zruiei
-怔	lxs;	2	lxooie
 姃	zns;	2	znauee
 埩	ztui	2	zteieu
 炡	zhs;	2	zhouuo
@@ -19684,14 +19782,12 @@ encoder:
 巵	zhs'	2	zhuuea
 汥	jvk'	2	jvooee
 汥	zvk'	2	zvooee
-枝	qmk'	2	qmeiuo
 秓	zhk'	2	zhueiu
 秖	zhh,	2	zhueiu
 胑	zuou	2	zuuaee
 衼	zyk'	2	zyoaiu
 衹	qyh,	2	qyoaiu
 衹	zyh,	2	zyoaiu
-祗	dyh.	2	dyoaio
 秪	dhh.	2	dhueiu
 秪	zhh.	2	zhueiu
 倁	zrg;	2	zruiue
@@ -19933,7 +20029,6 @@ encoder:
 噣	zof;	2	zoiaei
 籕	zzm;	2	zzueou
 籒	zzj;	2	zzueou
-朱	sqiu	2	squeei
 劯	zsau	2	zseuia
 咮	zoq;	2	zoiaeu
 硃	zsq;	2	zseuia
@@ -20195,7 +20290,6 @@ encoder:
 吇	zoai	2	zoiaea
 杍	zmai	2	zmeiuo
 姉	zns;	2	znauee
-姊	jnr/	2	jnaueu
 矷	zsai	2	zseuia
 秄	zhai	2	zhueiu
 胏	fur/	2	fuuaee
@@ -20288,7 +20382,6 @@ encoder:
 鉏	jaia	2	jauoee
 錊	zaw,	2	zauoee
 卆	zjei	2	zjuaei
-足	jnia	2	jniaei
 哫	zoia	2	zoiaei
 倅	crw,	2	cruioe
 倅	zrw,	2	zruioe
@@ -20480,7 +20573,6 @@ encoder:
 婩	nnee	1	nnauei
 貋	vzie	1	vzuoou
 骯	kcj/	1	kciaao
-獒	vfb.	1	vfeeie
 摮	qfb/	1	qfeeie
 磝	qsf/	1	qseuia
 鼇	vfb'	1	vfeeie
@@ -20490,7 +20582,6 @@ encoder:
 嶴	vrc;	1	vruiao
 驁	vfb,	1	vfeeie
 驁	yfb,	1	yfeeie
-八	bruo	1	bruooo
 釛	baau	1	bauoee
 茇	fkx.	1	fkeiie
 茇	pkx.	1	pkeiie
@@ -20532,7 +20623,6 @@ encoder:
 飽	bub'	1	buuooa
 鴇	blk.	1	bluaei
 寶	bif;	1	biooae
-报	bjb'	1	bjeiea
 袌	pwb/	1	pwoeua
 報	btd'	1	bteieo
 報	ftd'	1	fteieo
@@ -20589,7 +20679,6 @@ encoder:
 鞞	pkoe	1	pkeiie
 蹕	bnie	1	bniaei
 斃	bdeu	1	bdouia
-璧	bpoo	1	bpaeui
 贔	bhh;	1	bhiaee
 鸊	bpoo	1	bpaeui
 猵	pqw,	1	pquauo
@@ -20609,7 +20698,6 @@ encoder:
 頨	bjd;	1	bjaoea
 緶	blr/	1	blaaoo
 緶	plr/	1	plaaoo
-辨	blw.	1	bloeou
 辮	bll.	1	bloeou
 辯	bly.	1	bloeou
 辯	ply.	1	ploeou
@@ -20703,7 +20791,6 @@ encoder:
 鈈	bas;	1	bauoee
 鈈	pas;	1	pauoee
 攃	cjk;	1	cjeiee
-擦	cjii	1	cjeieo
 財	chs/	1	chiaee
 纔	sluo	1	slaaoo
 啋	coz,	1	coiaeu
@@ -20747,8 +20834,6 @@ encoder:
 笒	hzaa	1	hzueou
 梣	qmea	1	qmeiuo
 曽	cdt;	1	cdouia
-曾	cdv;	1	cdouia
-曾	zdv;	1	zdouia
 層	cpd;	1	cpaeuo
 扱	cjn.	1	cjeieu
 扱	qjn.	1	qjeieu
@@ -20776,7 +20861,6 @@ encoder:
 摻	sjy/	1	sjeiea
 攙	cjuo	1	cjeieu
 攙	sjuo	1	sjeieu
-蝉	ccd,	1	cciaei
 鋋	yar'	1	yauoee
 儃	drw,	1	druioe
 儃	trw,	1	truioe
@@ -20874,8 +20958,6 @@ encoder:
 鐣	caeu	1	cauoee
 朾	cmei	1	cmeiuo
 娍	sng.	1	snauee
-乘	chk/	1	chueii
-乘	shk/	1	shueii
 棖	cmei	1	cmeiuo
 誠	cyg.	1	cyoeee
 溗	cvh/	1	cvooeu
@@ -20977,7 +21059,6 @@ encoder:
 猭	sqm,	1	squaua
 傳	crs,	1	cruiei
 傳	zrs,	1	zruiei
-串	cooi	1	coiaei
 釧	caui	1	cauoee
 瘡	cgai	1	cgoeuo
 闖	ccei	1	cciaee
@@ -21037,7 +21118,6 @@ encoder:
 湊	cvf,	1	cvooee
 楱	zmf,	1	zmeiuo
 輳	cpf,	1	cpeiae
-促	cria	1	cruiia
 噈	how.	1	hoiaeo
 攛	cjia	1	cjeieo
 躥	cnia	1	cniaei
@@ -21061,7 +21141,6 @@ encoder:
 蔖	zkei	1	zkeiii
 鹺	ceoe	1	ceieia
 棤	cmk;	1	cmeiuo
-错	cak;	1	caueee
 銼	caae	1	cauoee
 錯	cak;	1	cauoee
 錯	xak;	1	xauoee
@@ -21084,8 +21163,6 @@ encoder:
 獃	ves.	1	veiaie
 懛	dxt,	1	dxooie
 垈	drl,	1	druiea
-带	dsi	1	dseiii
-待	dpt,	1	dpuuie
 軑	dpeu	1	dpeiae
 帶	dxd;	1	dxeuii
 紿	dly;	1	dlaaoo
@@ -21164,8 +21241,6 @@ encoder:
 禱	dyt,	1	dyoaio
 盜	dvui	1	dvooeu
 翢	zct.	1	zcuaei
-得	dpie	1	dpuuii
-德	dpk.	1	dpuuie
 燈	dhj.	1	dhouuo
 僜	crj.	1	cruiao
 僜	trj.	1	truiao
@@ -21174,14 +21249,12 @@ encoder:
 奃	tph.	1	tpeuou
 䃅	dsd,	1	dseuia
 肑	dub.	1	duuaee
-敌	drg/	1	drueii
 滌	dvr,	1	dvooeu
 敵	dwd/	1	dwoeou
 篴	zzz.	1	zzueou
 藋	zkj.	1	zkeiia
 鏑	daw,	1	dauoee
 糴	drw.	1	druoou
-底	dgh.	1	dgoeuu
 牴	zrj.	1	zrueie
 軧	cph.	1	cpeiae
 觝	zuuo	1	zuuaua
@@ -21191,7 +21264,6 @@ encoder:
 坔	lvei	1	lviauo
 珶	tfd/	1	tfeeie
 眱	dfs/	1	dfiaee
-第	dzg/	1	dzueou
 啇	swd,	1	swoeou
 啇	zwd,	1	zwoeou
 𤧛	dfw;	1	dfeeie
@@ -21213,10 +21285,8 @@ encoder:
 巔	dek;	1	deiaie
 癲	dgk;	1	dgoeuo
 丶	zwoo	1	zwoooo
-点	deoo	1	deieia
 點	dvt;	1	dviaou
 點	zvt;	1	zviaou
-电	diaa	1	diiaee
 電	dtia	1	dteoai
 鈿	daia	1	dauoee
 鈿	taia	1	tauoee
@@ -21226,7 +21296,6 @@ encoder:
 鯛	dyc;	1	dyuaia
 扚	ljb.	1	ljeieu
 扚	yjb.	1	yjeieu
-掉	djee	1	djeiei
 釣	dab.	1	dauoee
 銱	daoi	1	dauoee
 調	dyc;	1	dyoeee
@@ -21266,7 +21335,6 @@ encoder:
 鼕	ttoo	1	tteiei
 鶇	dsio	1	dseiae
 墥	ttl;	1	tteieo
-洞	tvc;	1	tvooei
 姛	dnc;	1	dnauei
 凍	dds;	1	ddoeei
 崠	des;	1	deiaie
@@ -21276,9 +21344,7 @@ encoder:
 湩	tvr;	1	tvooeu
 吺	ron'	1	roiaeu
 侸	srs.	1	sruiei
-都	dtr'	1	dteieu
 枓	zmd,	1	zmeiuo
-斗	ddei	1	ddooei
 鬥	def;	1	deieei
 毭	nsou	1	nseiae
 鋀	tas.	1	tauoee
@@ -21302,13 +21368,11 @@ encoder:
 剬	tes;	1	teiaie
 剬	zes;	1	zeiaie
 褍	tyei	1	tyoaiu
-断	ddl/	1	ddouei
 緞	dlh'	1	dlaaoo
 鍛	dah'	1	dauoee
 斷	dll/	1	dlaaoa
 籪	dzl/	1	dzueou
 磓	zsr.	1	zseuia
-对	dkei	1	dkaoei
 兌	drou	1	druoia
 隊	dbk/	1	dbaiou
 隊	sbk/	1	sbaiou
@@ -21353,7 +21417,6 @@ encoder:
 鋨	tav.	1	tauoee
 鋨	vav.	1	vauoee
 魤	hyr/	1	hyuaia
-额	viui	1	viooau
 鵝	vvl.	1	vvueie
 額	viui	1	viooau
 譌	gyz.	1	gyoeee
@@ -21508,9 +21571,7 @@ encoder:
 撫	fjq.	1	fjeieu
 撫	mjq.	1	mjeieu
 鬴	lsoo	1	lseiae
-父	fruo	1	fruouo
 㳇	fvr/	1	fvooeu
-复	fqiu	1	fqueia
 峊	nrii	1	nruiae
 負	fuia	1	fuuaia
 訃	fyio	1	fyoeee
@@ -21618,7 +21679,6 @@ encoder:
 綆	gls/	1	glaaoo
 鯁	gys/	1	gyuaia
 厷	hxao	1	hxeuao
-功	gdau	1	gdeiea
 䢼	gkr'	1	gkeiie
 宮	gioi	1	giooai
 愩	hxd;	1	hxooie
@@ -21681,8 +21741,6 @@ encoder:
 噲	goai	1	goiaeu
 噲	koai	1	koiaeu
 噲	woai	1	woiaeu
-观	gkc/	1	gkaoia
-官	giia	1	giooai
 萖	wkn/	1	wkeiiu
 闗	gcl.	1	gciaee
 關	gcl,	1	gciaee
@@ -21783,7 +21841,6 @@ encoder:
 鉿	kaai	1	kauoee
 還	hfs.	1	hfiaii
 還	xfs.	1	xfiaii
-海	hvq.	1	hvooeu
 駭	hqw/	1	hqeiee
 駭	xqw/	1	xqeiee
 佄	grk,	1	gruiei
@@ -21809,8 +21866,6 @@ encoder:
 熯	rhk/	1	rhouuo
 頷	haw;	1	hauooa
 譀	xyj/	1	xyoeee
-行	hps,	1	hpuuie
-行	xps,	1	xpuuie
 迒	xwn.	1	xwoeua
 絎	hlp,	1	hlaaoo
 頏	gwn;	1	gwoeua
@@ -21819,7 +21874,6 @@ encoder:
 獋	gqr,	1	gquauu
 諕	xyeu	1	xyoeee
 蠔	hcw,	1	hciaei
-号	hos'	1	hoiaee
 悎	jxr;	1	jxooiu
 號	hos/	1	hoiaee
 滈	xvw;	1	xvooeo
@@ -21827,8 +21881,6 @@ encoder:
 灝	hvii	1	hvooei
 抲	qjj;	1	qjeiee
 訶	hyj;	1	hyoeee
-合	gas;	1	gauoei
-合	has;	1	hauoei
 狢	hqui	1	hquauu
 紇	glq'	1	glaaoo
 紇	hlq'	1	hlaaoo
@@ -21890,7 +21942,6 @@ encoder:
 闂	xck'	1	xciaee
 闀	hck'	1	hciaee
 餱	hur/	1	huuooa
-候	hreu	1	hruiia
 鮜	hyh;	1	hyuaia
 鱟	hhd/	1	hhuiee
 乊	yrou	1	yruouu
@@ -21925,7 +21976,6 @@ encoder:
 磆	hsc;	1	hseuia
 鏵	hak,	1	hauoee
 驊	hqk,	1	hqeiee
-化	hrua	1	hruiua
 畫	het,	1	heaeee
 話	hyr,	1	hyoeee
 話	lyr,	1	lyoeee
@@ -21963,10 +22013,7 @@ encoder:
 瘓	hgue	1	hgoeuo
 鯇	hyiu	1	hyuaia
 鯇	wyiu	1	wyuaia
-黄	hkiu	1	hkeiie
 黃	hks/	1	hkeiie
-磺	gsk/	1	gseuia
-磺	ksk/	1	kseuia
 𨱑	hak/	1	haueee
 鍠	han,	1	hauoee
 趪	gtn/	1	gteiei
@@ -22036,7 +22083,6 @@ encoder:
 趏	htn,	1	hteiei
 灬	bioo	1	bioooo
 鈥	haou	1	hauoee
-或	hloe	1	hleiae
 捇	cjt/	1	cjeiee
 閄	scuo	1	sciaee
 掝	xjl,	1	xjeiee
@@ -22054,7 +22100,6 @@ encoder:
 鑊	hak'	1	hauoee
 靃	str.	1	steoai
 丌	qsui	1	qseuii
-击	jdia	1	jdeeia
 咭	qot;	1	qoiaee
 咭	xot;	1	xoiaee
 攲	jpj'	1	jpeuoe
@@ -22078,9 +22123,7 @@ encoder:
 齎	jwd;	1	jwoeou
 齏	jwd,	1	jwoeou
 羈	jfk,	1	jfiaii
-及	jnoo	1	jnuaoo
 叝	jty'	1	jteiea
-急	jueo	1	juuaae
 級	jln.	1	jlaaoo
 卙	ckf,	1	ckeiie
 楖	zmea	1	zmeiuo
@@ -22094,7 +22137,6 @@ encoder:
 鶺	jvao	1	jvoeuo
 覿	dtf/	1	dteiei
 覿	jtf/	1	jteiei
-己	jcaa	1	jcaeaa
 幾	jll/	1	jlaaoa
 幾	qll/	1	qlaaoa
 魢	jyc'	1	jyuaia
@@ -22161,7 +22203,6 @@ encoder:
 駱	jqui	1	jqeiee
 駱	lqui	1	lqeiee
 幵	qsx,	1	qseeue
-间	jcia	1	jcoiai
 戔	clea	1	cleauo
 戔	jlea	1	jleauo
 堅	jcee	1	jceiae
@@ -22242,7 +22283,6 @@ encoder:
 艦	jzc;	1	jzuuao
 鐧	jac;	1	jauoee
 鑒	jceu	1	jceiae
-江	jvei	1	jvooee
 將	jlee	1	jlaieu
 將	qlee	1	qlaieu
 將	ylee	1	ylaieu
@@ -22258,9 +22298,7 @@ encoder:
 講	jyf;	1	jyoeee
 夅	juc;	1	juuaoe
 絳	jlui	1	jlaaoo
-酱	jkei	1	jkoeiu
 醬	jlee	1	jlaieu
-交	jwr/	1	jwoeuo
 茮	nkei	1	nkeiii
 䴔	jwr,	1	jwoeuo
 嘄	dor,	1	doiaeu
@@ -22320,7 +22358,6 @@ encoder:
 疌	qsei	1	qseaee
 㛃	jfea	1	jfeeei
 狤	kqt;	1	kquaue
-结	jlt;	1	jlaaee
 訐	jyee	1	jyoeee
 傑	jrue	1	jruiua
 結	jlt;	1	jlaaoo
@@ -22336,16 +22373,13 @@ encoder:
 斺	cqau	1	cqoeau
 斺	jqau	1	jqoeau
 屆	jpt'	1	jpaeue
-界	jtau	1	jtiaei
 蛶	jcz,	1	jciaei
 誡	jyl,	1	jyoeee
 繲	xlue	1	xlaaoo
 兓	zcn/	1	zceaua
-金	jauo	1	jauoee
 埐	qtea	1	qteiea
 璡	jfr.	1	jfeeie
 嶜	qec;	1	qeiaie
-仅	jrao	1	jruiao
 巹	jjv'	1	jjaiau
 僅	jrk,	1	jruiei
 緊	jcei	1	jceiae
@@ -22376,14 +22410,11 @@ encoder:
 殑	jsuu	1	jseuao
 䴖	jfue	1	jfeeie
 經	jls,	1	jlaaoo
-精	jdf;	1	jdouei
 鯨	jyw;	1	jyuaia
 鯨	qyw;	1	qyuaia
 驚	jkb,	1	jkeiiu
 坓	xdd,	1	xdeeui
 剄	jsl;	1	jseaaa
-景	jiw;	1	jiiaee
-景	yiw;	1	yiiaee
 頸	gsl;	1	gseaaa
 頸	jsl;	1	jseaaa
 陘	jbs,	1	jbaiea
@@ -22407,7 +22438,6 @@ encoder:
 浻	jvc;	1	jvooei
 熲	jlh;	1	jluaou
 顈	xll;	1	xluaaa
-纠	jll;	1	jlaaea
 牞	lrj'	1	lrueie
 糾	jll;	1	jlaaoo
 鳩	jjr.	1	jjuaui
@@ -22416,8 +22446,6 @@ encoder:
 摎	njj/	1	njeiea
 樛	lmj/	1	lmeiuo
 鬮	jef/	1	jeieei
-九	jjua	1	jjuaaa
-酒	jvei	1	jvooee
 廄	jgea	1	jgoeua
 㠇	jew.	1	jeiaio
 殧	jsuo	1	jseuao
@@ -22480,7 +22508,6 @@ encoder:
 飬	ykp.	1	ykouee
 絹	jloi	1	jlaaoo
 絹	xloi	1	xlaaoo
-决	jdc/	1	jdoeae
 吷	joc/	1	joiaea
 決	jvc/	1	jvooea
 決	qvc/	1	qvooea
@@ -22574,7 +22601,6 @@ encoder:
 墾	kzee	1	kzuoou
 懇	kzeo	1	kzuoou
 硍	yseo	1	yseuia
-坑	ktw/	1	kteieo
 妔	hnw/	1	hnaueo
 硜	kss,	1	kseuia
 硜	qss,	1	qseuia
@@ -22606,7 +22632,6 @@ encoder:
 鱠	kyai	1	kyuaia
 寬	kik.	1	kiooae
 髖	kcj.	1	kciaao
-款	ktd/	1	kteiee
 窾	cir/	1	ciooau
 誆	kyc,	1	kyoeee
 抂	kjee	1	kjeiee
@@ -22729,12 +22754,10 @@ encoder:
 鰳	lyk'	1	lyuaia
 餎	guui	1	guuooa
 餎	luui	1	luuooa
-雷	ltia	1	lteoai
 縲	llt;	1	llaaoo
 鐳	lat;	1	lauoee
 誄	lyf;	1	lyoeee
 壘	ltt,	1	ltiaei
-类	ldeu	1	ldouei
 淚	lvw.	1	lvooeo
 類	ldp;	1	ldouei
 纇	ldl;	1	ldouei
@@ -22758,7 +22781,6 @@ encoder:
 驪	lqs/	1	lqeiee
 鸝	lsc.	1	lseiao
 鱺	lys/	1	lyuaia
-李	lmai	1	lmeiuo
 裡	lyii	1	lyoaiu
 鋰	laii	1	lauoee
 禮	lyc.	1	lyoaio
@@ -22832,14 +22854,12 @@ encoder:
 輬	lpw;	1	lpeiae
 糧	ldii	1	ldouei
 冫	bdoe	1	bdoeee
-两	lsc/	1	lseiau
 兩	lseo	1	lseiai
 唡	yos/	1	yoiaee
 倆	lrs.	1	lruiei
 啢	los.	1	loiaee
 啢	yos.	1	yoiaee
 魎	lnr.	1	lnuiae
-量	lis;	1	liiaee
 靚	jfuu	1	jfeeie
 靚	lfuu	1	lfeeie
 輛	lps.	1	lpeiae
@@ -22890,7 +22910,6 @@ encoder:
 鶹	lhw.	1	lhuaoa
 綹	llui	1	llaaoo
 鋶	law/	1	lauoee
-六	lwuo	1	lwoeuo
 鷚	ljd.	1	ljaoea
 竜	llia	1	lloeou
 龍	llue	1	lloeou
@@ -22992,7 +23011,6 @@ encoder:
 綸	llae	1	llaaoo
 輪	lpae	1	lpeiae
 錀	faae	1	fauoee
-论	lwau	1	lwoauo
 論	lyae	1	lyoeee
 腡	guc;	1	guuaee
 腡	luc;	1	luuaee
@@ -23045,7 +23063,6 @@ encoder:
 罵	mfei	1	mfiaii
 買	mfia	1	mfiaii
 蕒	mkf;	1	mkeiii
-迈	msj.	1	mseauo
 脈	muh.	1	muuaee
 麥	mkr/	1	mkeiuo
 勱	mkia	1	mkeiii
@@ -23080,8 +23097,6 @@ encoder:
 貿	mhw;	1	mhuaoa
 霿	wty;	1	wteoai
 癦	mgv,	1	mgoeuo
-么	mrao	1	mruaoo
-么	yrao	1	yruaoo
 麼	mgm'	1	mgoeue
 沒	mvb'	1	mvooeu
 矀	mfp/	1	mfiaee
@@ -23111,7 +23126,6 @@ encoder:
 禰	nys/	1	nyoaio
 禰	xys/	1	xyoaio
 獼	mqg/	1	mquaua
-米	mdou	1	mdouei
 羋	mes,	1	meieii
 眫	pfd,	1	pfiaee
 濔	mvs/	1	mvooee
@@ -23138,7 +23152,6 @@ encoder:
 覕	pxr/	1	pxoaou
 滅	mvg.	1	mvooee
 鴓	bxr.	1	bxoaou
-民	mcl,	1	mcaeae
 冧	lim,	1	lioaei
 渂	mvio	1	mvooei
 瑉	mfc;	1	mfeeie
@@ -23177,10 +23190,7 @@ encoder:
 畝	mwt.	1	mwoeia
 娒	wnq.	1	wnaueu
 𧿹	mnm.	1	mniaei
-木	mmei	1	mmeiuo
-幕	mkia	1	mkeiii
 鉬	maia	1	mauoee
-暮	mkia	1	mkeiii
 樢	mmr.	1	mmeiuo
 蒘	rkn/	1	rkeiia
 鎿	naau	1	nauoee
@@ -23231,7 +23241,6 @@ encoder:
 攆	njd,	1	njeiee
 唸	doao	1	doiaeu
 艌	qzao	1	qzuuao
-娘	nnw.	1	nnaueo
 釀	nxw/	1	nxeiau
 鳥	drc.	1	druiae
 鳥	nrc.	1	nruiae
@@ -23289,7 +23298,6 @@ encoder:
 諾	nyk;	1	nyoeee
 鍩	tak;	1	tauoee
 釹	naau	1	nauoee
-哦	vov.	1	voiaeu
 筽	wzoe	1	wzueou
 蓲	xkc;	1	xkeiie
 漚	vvc;	1	vvooee
@@ -23434,8 +23442,6 @@ encoder:
 鐠	pak;	1	pauoee
 淒	qvs'	1	qvooee
 朞	jkf;	1	jkeiie
-期	jkf/	1	jkeiie
-期	qkf/	1	qkeiie
 棲	qms'	1	qmeiuo
 棲	xms'	1	xmeiuo
 紪	qln/	1	qlaaoo
@@ -23516,7 +23522,6 @@ encoder:
 鵮	qun.	1	quuaui
 鶼	jkeo	1	jkouea
 鶼	qkeo	1	qkouea
-前	qkui	1	qkouei
 偂	qrk;	1	qruiou
 朁	jcn;	1	jceaua
 朁	qcn;	1	qceaua
@@ -23663,7 +23668,6 @@ encoder:
 親	qlm/	1	qloeou
 儬	qrf/	1	qruiee
 宆	qiae	1	qiooaa
-穹	qir'	1	qiooau
 䓖	qkia	1	qkeiio
 煢	qhh,	1	qhouuo
 窮	qir'	1	qiooau
@@ -23689,8 +23693,6 @@ encoder:
 區	kcoi	1	kceiae
 區	qcoi	1	qceiae
 區	vcoi	1	vceiae
-趋	ctn'	1	cteiei
-趋	qtn'	1	qteiei
 詘	cyc;	1	cyoeee
 詘	qyc;	1	qyoeee
 嶇	qec;	1	qeiaie
@@ -23709,8 +23711,6 @@ encoder:
 齲	qnao	1	qnieie
 呿	kot'	1	koiaee
 耝	cfp;	1	cfeeei
-趣	ctn'	1	cteiei
-趣	qtn'	1	qteiei
 闃	qcf.	1	qciaee
 覷	qeg/	1	qeieau
 奍	qkp/	1	qkouee
@@ -23767,8 +23767,6 @@ encoder:
 熱	rtr.	1	rteieu
 涊	rvq.	1	rvooea
 棯	smao	1	smeiuo
-认	rwuo	1	rwoauo
-任	rrr,	1	rruiue
 杒	rmq.	1	rmeiuo
 紉	rlq.	1	rlaaoo
 軔	rpq.	1	rpeiae
@@ -23866,7 +23864,6 @@ encoder:
 釃	lxs/	1	lxeiau
 釃	sxs/	1	sxeiau
 曬	sis/	1	siiaee
-山	seia	1	seiaii
 刪	scd;	1	sciaii
 姍	pnc,	1	pnauei
 姍	snc,	1	snauei
@@ -23908,7 +23905,6 @@ encoder:
 紹	slq;	1	slaaoo
 綤	sqoi	1	sqauia
 賒	shai	1	shiaee
-舌	srei	1	srueii
 厙	sgei	1	sgeuei
 設	syn'	1	syoeee
 摂	sjb.	1	sjeiee
@@ -23920,8 +23916,6 @@ encoder:
 灄	svb,	1	svooee
 懾	sxb,	1	sxooie
 懾	zxb,	1	zxooie
-身	jrc/	1	jruiae
-身	src/	1	sruiae
 罙	sir,	1	sioauo
 堔	stie	1	steieo
 敒	sriu	1	sruiia
@@ -23930,7 +23924,6 @@ encoder:
 幓	qey/	1	qeiaia
 鯵	syy/	1	syuaia
 鰺	cyy/	1	cyuaia
-什	srei	1	sruiei
 鉮	saii	1	sauoee
 伔	driu	1	druioa
 抌	sjiu	1	sjeieo
@@ -23964,8 +23957,6 @@ encoder:
 勝	suk'	1	suuaee
 聖	sboe	1	sbeiie
 琞	siuo	1	siiaee
-师	sds;	1	sdiuei
-诗	swt,	1	swoaei
 䴓	ssee	1	sseiai
 屍	sps/	1	spaeue
 師	srii	1	sruiae
@@ -23980,7 +23971,6 @@ encoder:
 濕	xvio	1	xvooei
 鯴	syl;	1	syuaia
 丆	hseu	1	hseuuu
-实	sid,	1	siooao
 姼	jnuu	1	jnaueu
 姼	snuu	1	snaueu
 姼	tnuu	1	tnaueu
@@ -23995,14 +23985,8 @@ encoder:
 識	syw;	1	syoeee
 識	zyw;	1	zyoeee
 鰣	syie	1	syuaia
-使	srs/	1	sruiei
 宩	siou	1	siooao
 駛	sqou	1	sqeiee
-世	skaa	1	skeiie
-仕	srei	1	sruiei
-市	swia	1	swoeia
-式	slei	1	sleeie
-似	srl/	1	sruiao
 柹	fmr/	1	fmeiuo
 䏡	sud;	1	suuaee
 狧	sqr,	1	squauu
@@ -24034,8 +24018,6 @@ encoder:
 釋	srd,	1	sruoue
 釋	yrd,	1	yruoue
 敊	ses'	1	seieei
-首	skr;	1	skoueu
-受	szia	1	szuoou
 涭	tvz'	1	tvooeu
 壽	stj,	1	steiea
 綬	slz'	1	slaaoo
@@ -24064,16 +24046,12 @@ encoder:
 樹	smt,	1	smeiuo
 縗	clw/	1	claaoo
 縗	slw/	1	slaaoo
-帅	sdia	1	sdiuia
 帥	srii	1	sruiae
 閂	scee	1	sciaee
-双	skao	1	skaoao
 雙	srf'	1	sruioe
 驦	sqt;	1	sqeiee
 鸘	stm.	1	steoai
-谁	swr.	1	swoaui
 誰	syr.	1	syoeee
-水	svia	1	sviauo
 捝	sjd/	1	sjeieo
 捝	yjd/	1	yjeieo
 祱	lyd/	1	lyoaio
@@ -24092,7 +24070,6 @@ encoder:
 鑠	yan,	1	yauoee
 厶	myao	1	myaooo
 㟃	sej;	1	seiaia
-斯	skf/	1	skeiie
 絲	sll;	1	slaaoo
 噝	sol;	1	soiaea
 廝	sgk/	1	sgoeue
@@ -24103,7 +24080,6 @@ encoder:
 颸	snr.	1	snuaui
 鷥	sll.	1	slaaoo
 罒	wfia	1	wfiaii
-四	sfia	1	sfiaua
 枱	cmy;	1	cmeiuo
 梩	smii	1	smeiuo
 飼	suj;	1	suuooa
@@ -24115,8 +24091,6 @@ encoder:
 㧐	sjk'	1	sjeiea
 慫	spao	1	spuuiu
 聳	spae	1	spuuiu
-宋	siei	1	siooae
-送	skp.	1	skouee
 訟	syr'	1	syoeee
 頌	rry;	1	rruoao
 頌	sry;	1	sruoao
@@ -24168,7 +24142,6 @@ encoder:
 嗩	soei	1	soiaei
 瑣	sfei	1	sfeeie
 鎖	saei	1	sauoee
-它	tiua	1	tiooau
 獺	tqs;	1	tquaue
 鰨	dyio	1	dyuaia
 鰨	tyio	1	tyuaia
@@ -24257,7 +24230,6 @@ encoder:
 檮	tmt,	1	tmeiuo
 饀	xuz/	1	xuuooa
 討	tyei	1	tyoeee
-特	trj,	1	trueie
 鋱	tal.	1	tauoee
 謄	tuk.	1	tuuaee
 䲢	tuk/	1	tuuaee
@@ -24300,7 +24272,6 @@ encoder:
 儵	treo	1	truiiu
 齠	tnai	1	tnieie
 鰷	tyr,	1	tyuaia
-跳	tnn.	1	tniaei
 糶	dceo	1	dcaiia
 糶	tceo	1	tcaiia
 怗	zxei	1	zxooii
@@ -24318,8 +24289,6 @@ encoder:
 聽	tbf.	1	tbeiie
 廳	tgb.	1	tgoeue
 䗴	tcz'	1	tciaei
-挺	tjr'	1	tjeieu
-艇	tzr'	1	tzuuao
 頲	trt;	1	trueie
 濎	tvf'	1	tvooei
 冂	jcia	1	jciaaa
@@ -24373,7 +24342,6 @@ encoder:
 飩	zus'	1	zuuooa
 魨	tys'	1	tyuaia
 氽	qaia	1	qauoia
-托	tjr,	1	tjeieu
 杔	zmr,	1	zmeiuo
 飥	tur,	1	tuuooa
 脫	tur/	1	tuuaee
@@ -24438,7 +24406,6 @@ encoder:
 網	wlc.	1	wlaaoo
 輞	wpc.	1	wpeiae
 迋	kfoa	1	kfeeie
-望	wwue	1	wwoeau
 鰃	wyt'	1	wyuaia
 囗	goia	1	goiaee
 𣲗	wvd;	1	wvooee
@@ -24493,7 +24460,6 @@ encoder:
 濊	wvn.	1	wvooei
 溫	wvoi	1	wvooei
 鰮	wyoi	1	wyuaia
-文	wuoe	1	wuoeuo
 砇	msoe	1	mseuia
 紋	wloe	1	wlaaoo
 聞	wcei	1	wciaee
@@ -24542,14 +24508,11 @@ encoder:
 蕪	wkq.	1	wkeiiu
 鵐	wdao	1	wdeiuo
 譕	myq.	1	myoeee
-五	wwei	1	wweiae
 𣲘	wvd/	1	wvooee
 廡	wgq.	1	wgoeuu
 憮	wxq.	1	wxooiu
 嫵	wnq.	1	wnaueu
 鵡	wsl.	1	wseeie
-务	wuau	1	wuuaoa
-物	wrj/	1	wrueie
 敄	myj/	1	myaoai
 務	myj'	1	myaoai
 務	wyj'	1	wyaoai
@@ -24562,10 +24525,8 @@ encoder:
 鶩	myj.	1	myaoai
 鶩	wyj.	1	wyaoai
 邜	xuai	1	xuuaoa
-西	xxei	1	xxeiau
 忚	lxai	1	lxooia
 扸	zjr'	1	zjeieu
-息	xrf.	1	xruiae
 狶	sqx;	1	squauu
 焬	xhiu	1	xhouuo
 㴔	jvuo	1	jvooeu
@@ -24595,8 +24556,6 @@ encoder:
 諰	syt.	1	syoeee
 璽	xsr.	1	xseuoi
 瓕	xgs.	1	xgaeae
-系	jrl;	1	jruaao
-系	xrl;	1	xruaao
 呬	coia	1	coiaei
 盻	pfr'	1	pfiaee
 係	jrr;	1	jruiua
@@ -24640,7 +24599,6 @@ encoder:
 嚇	hot/	1	hoiaee
 嚇	xot/	1	xoiaee
 夓	xhd/	1	xhuiee
-先	xrt/	1	xrueie
 杴	qmuu	1	qmeiuo
 秈	xhia	1	xhueiu
 姺	snr/	1	snaueu
@@ -24678,7 +24636,6 @@ encoder:
 癇	xgc/	1	xgoeuo
 藖	qkc;	1	qkeiie
 鷳	xcuo	1	xciaee
-显	xim,	1	xiiaee
 蜆	xcf/	1	xciaei
 㬎	xil.	1	xiiaee
 險	jbau	1	jbaiuo
@@ -24691,7 +24648,6 @@ encoder:
 獮	xqs/	1	xquaue
 蘚	xky;	1	xkeiiu
 顯	xil;	1	xiiaee
-线	xlee	1	xlaaee
 莧	wkf/	1	wkeiii
 莧	xkf/	1	xkeiii
 峴	xef/	1	xeiaii
@@ -24713,7 +24669,6 @@ encoder:
 獻	seg.	1	seieau
 獻	xeg.	1	xeieau
 糮	xdc;	1	xdouei
-相	xmia	1	xmeiuo
 鄉	xlr'	1	xlaauo
 廂	xgm;	1	xgoeue
 薌	xkl'	1	xkeiia
@@ -24728,7 +24683,6 @@ encoder:
 瓨	xds.	1	xdeiee
 詳	xyd;	1	xyoeee
 詳	yyd;	1	yyoeee
-享	xwoa	1	xwoeia
 銄	xar;	1	xauoee
 餉	xur;	1	xuuooa
 鮝	zkp/	1	zkouee
@@ -24736,7 +24690,6 @@ encoder:
 饗	xlr/	1	xlaauo
 響	xlr;	1	xlaauo
 項	xds;	1	xdeiee
-像	xruu	1	xruiua
 勨	xuoa	1	xuuaia
 潒	yvuu	1	yvooeu
 曏	sil'	1	siiaee
@@ -24812,8 +24765,6 @@ encoder:
 鐔	cax,	1	cauoee
 鐔	tax,	1	tauoee
 鐔	xax,	1	xauoee
-信	sroe	1	sruioe
-信	xroe	1	xruioe
 脪	cux;	1	cuuaee
 馸	xquu	1	xqeiee
 釁	xhd'	1	xhuiee
@@ -24824,7 +24775,6 @@ encoder:
 銒	jas,	1	jauoee
 鉶	xas;	1	xauoee
 鋞	jas,	1	jauoee
-性	xxr,	1	xxooiu
 塂	xtk'	1	xteiee
 興	xhd/	1	xhuiee
 匂	xbua	1	xbuaua
@@ -24837,8 +24787,6 @@ encoder:
 鵂	xrm.	1	xruiei
 饈	xud;	1	xuuooa
 鱃	xyd;	1	xyuaia
-宿	sir;	1	siooau
-宿	xii	1	xiooau
 峀	xeii	1	xeiaii
 綉	tlh'	1	tlaaoo
 裦	fwh/	1	fwoeua
@@ -24846,7 +24794,6 @@ encoder:
 嚊	xor/	1	xoiaeu
 繡	xlei	1	xlaaoo
 鏽	xaei	1	xauoee
-须	xxs;	1	xxuuue
 虛	xeg,	1	xeieau
 須	xxs;	1	xxuuue
 頊	xfs;	1	xfeeie
@@ -24893,7 +24840,6 @@ encoder:
 鴬	yvio	1	yvoouo
 澩	xhd;	1	xhuiee
 鱈	xyt'	1	xyuaia
-血	xria	1	xruiai
 泧	svh.	1	svooee
 泧	xvh.	1	xvooee
 謔	nyee	1	nyoeee
@@ -24926,13 +24872,11 @@ encoder:
 啞	vos,	1	voiaee
 啞	yos,	1	yoiaee
 瘂	ygs,	1	ygoeuo
-亚	ysm,	1	yseiio
 亞	vsee	1	vseiea
 亞	ysee	1	yseiea
 軋	gpaa	1	gpeiae
 軋	ypaa	1	ypeiae
 軋	zpaa	1	zpeiae
-娅	yns,	1	ynauee
 埡	vts,	1	vteiee
 埡	wts,	1	wteiee
 埡	yts,	1	yteiee
@@ -24949,7 +24893,6 @@ encoder:
 厃	wueu	1	wuuaeu
 訁	yyoe	1	yyoeee
 挻	yjr'	1	yjeieu
-研	yss,	1	yseuia
 唌	dor'	1	doiaeu
 閆	ycee	1	yciaee
 喦	nooi	1	noiaei
@@ -24995,7 +24938,6 @@ encoder:
 讞	yyeo	1	yyoeee
 豔	yef;	1	yeieee
 灩	yvei	1	yvooei
-央	yvuo	1	yviaeu
 鴦	yvao	1	yviaeu
 氜	rqia	1	rqueea
 羏	xdv/	1	xdouee
@@ -25048,8 +24990,6 @@ encoder:
 蓔	zkd.	1	zkeiio
 鴢	vlq.	1	vlaaoa
 鷕	xor.	1	xoiaeu
-药	ykl.	1	ykeiia
-要	yxau	1	yxeiai
 藥	lkn,	1	lkeiiu
 藥	skn,	1	skeiiu
 藥	ykn,	1	ykeiiu
@@ -25060,7 +25000,6 @@ encoder:
 鑰	yaae	1	yauoee
 爺	yrx'	1	yruouo
 鋣	yac'	1	yauoee
-业	ymee	1	ymiiou
 抴	sjk'	1	sjeiee
 頁	xsia	1	xseuia
 頁	ysia	1	yseuia
@@ -25086,7 +25025,6 @@ encoder:
 饁	yut;	1	yuuooa
 靨	ygie	1	ygeuia
 吚	xoeu	1	xoiaea
-依	yrw/	1	yruioe
 渏	yvp;	1	yvooee
 禕	yyj;	1	yyoaio
 銥	yaw/	1	yauoee
@@ -25141,12 +25079,8 @@ encoder:
 齮	qnai	1	qnieie
 靉	vtd/	1	vteoai
 靉	ytd/	1	yteoai
-义	ywuo	1	ywouoo
-忆	yxaa	1	yxooia
-议	yww/	1	ywoaou
 阣	gbq'	1	gbaiue
 忔	yxq'	1	yxooiu
-易	yib/	1	yiiaee
 呹	coq/	1	coiaeu
 秇	yhj.	1	yhueiu
 㑊	yrw/	1	yruioe
@@ -25165,7 +25099,6 @@ encoder:
 絏	yliu	1	ylaaoo
 搤	yjk;	1	yjeieo
 詣	yyl;	1	yyoeee
-意	ylio	1	yloeou
 義	xdf.	1	xdouee
 義	ydf.	1	ydouee
 勩	ykl'	1	ykeiie
@@ -25288,7 +25221,6 @@ encoder:
 泑	vvl'	1	vvooea
 憂	ysc/	1	yseuia
 優	yrs/	1	yruieu
-油	yvii	1	yvooei
 怞	cxii	1	cxooii
 斿	lqq'	1	lqoeau
 莤	skei	1	skeiie
@@ -25316,13 +25248,11 @@ encoder:
 汙	wvd;	1	wvooee
 汙	yvd;	1	yvooee
 兪	zrw'	1	zruoei
-娱	ynoe	1	ynauei
 娛	ynoe	1	ynauei
 釪	had;	1	hauoee
 魚	yyua	1	yyuaia
 隃	sbai	1	sbaiuo
 崳	yeai	1	yeiaiu
-逾	yas.	1	yauoei
 㺄	yqai	1	yquauu
 媮	ynai	1	ynaueu
 牏	yrei	1	yruiea
@@ -25337,7 +25267,6 @@ encoder:
 歟	yhd/	1	yhuiee
 顒	yic;	1	yiiaee
 俁	yroe	1	yruiia
-语	yww;	1	ywoaei
 萭	jkr.	1	jkeiiu
 與	yhd/	1	yhuiee
 傴	yrc;	1	yruiei
@@ -25382,15 +25311,11 @@ encoder:
 鬱	ymq/	1	ymeiuo
 籲	yzai	1	yzueou
 弲	xgoi	1	xgaeai
-渊	yvr;	1	yvooeu
 淵	yvd;	1	yvooeu
 惌	wiuo	1	wiooau
 鳶	ylr.	1	yleaou
 鴛	yub.	1	yuuaoa
 鵷	yiuo	1	yiooau
-元	ydua	1	ydeeua
-员	yoia	1	yoiaei
-原	ygn;	1	ygeuui
 員	yoia	1	yoiaei
 喛	xoz'	1	xoiaeu
 喛	yoz'	1	yoiaeu
@@ -25405,14 +25330,10 @@ encoder:
 櫞	yml,	1	ymeiuo
 遠	ytoo	1	yteiei
 願	ygn;	1	ygeuui
-曰	yiia	1	yiiaee
-约	ylb.	1	ylaaeu
 約	dlb.	1	dlaaoo
 約	ylb.	1	ylaaoo
 箹	czl.	1	czueou
 彠	yed'	1	yeaeee
-月	ruua	1	ruuaee
-月	yuua	1	yuuaee
 枂	wmua	1	wmeiuo
 悅	yxr/	1	yxooiu
 粵	yroa	1	yruiau
@@ -25446,7 +25367,6 @@ encoder:
 溳	yvoi	1	yvooei
 殞	ysui	1	yseuao
 褞	wyii	1	wyoaiu
-运	ydy.	1	ydeeao
 貟	yyia	1	yyaoia
 鄆	yip'	1	yioaei
 惲	yxie	1	yxooio
@@ -25465,18 +25385,15 @@ encoder:
 魳	sys;	1	syuaia
 魳	zys;	1	zyuaia
 臢	zur;	1	zuuaee
-杂	zjei	1	zjuaei
 磼	ssr,	1	sseuia
 雜	zwao	1	zwoeuo
 囐	noeo	1	noiaei
 囐	voeo	1	voiaei
 囐	yoeo	1	yoiaei
-咋	zoq,	1	zoiaeu
 災	zll.	1	zlaaao
 溨	zvk,	1	zvooee
 載	dkl,	1	dkeiee
 載	zkl,	1	zkeiee
-再	zsc;	1	zseiai
 鐟	zad;	1	zauoee
 撍	qjc;	1	qjeiee
 攢	cjr;	1	cjeieu
@@ -25497,17 +25414,14 @@ encoder:
 駔	zqia	1	zqeiee
 臟	zuk.	1	zuuaee
 鑿	zms/	1	zmiiou
-早	ziei	1	ziiaee
 棗	zseu	1	zseiai
 繰	qloe	1	qlaaoo
 繰	sloe	1	slaaoo
 繰	zloe	1	zlaaoo
 唕	zon,	1	zoiaeu
-造	zrt.	1	zrueie
 喿	qooe	1	qoiaei
 煰	zhoi	1	zhouuo
 𥖨	zsoe	1	zseuia
-则	zhii	1	zhiauo
 則	zhii	1	zhiaee
 責	zfia	1	zfeeie
 唶	zok;	1	zoiaee
@@ -25589,7 +25503,6 @@ encoder:
 皽	dwoa	1	dwoeia
 佔	crei	1	cruiie
 佔	drei	1	druiie
-绽	zlii	1	zlaaeo
 棧	cml,	1	cmeiuo
 棧	zml,	1	zmeiuo
 綻	zlii	1	zlaaoo
@@ -25608,7 +25521,6 @@ encoder:
 釗	zaii	1	zauoee
 釽	zah.	1	zauoee
 窼	zir,	1	ziooau
-找	zjea	1	zjeiee
 枛	zmh.	1	zmeiuo
 詔	zyq;	1	zyoeee
 趙	dtn;	1	dteiei
@@ -25629,7 +25541,6 @@ encoder:
 轍	cpw/	1	cpeiae
 轍	zpw/	1	zpeiae
 讋	zluo	1	zloeou
-者	ztr;	1	zteieu
 禇	zyt;	1	zyoaio
 鍺	dat;	1	dauoee
 鍺	zat;	1	zauoee
@@ -25686,14 +25597,10 @@ encoder:
 氶	cjau	1	cjaiau
 掟	zjii	1	zjeieo
 撜	cjj.	1	cjeiea
-整	zsoi	1	zseiae
-政	zsn/	1	zseiei
 幀	zeei	1	zeiaii
 諍	zyui	1	zyoeee
 鄭	zdx'	1	zdouei
 證	zyj.	1	zyoeee
-只	qouo	1	qoiaeu
-只	zouo	1	zoiaeu
 𦭜	zkou	1	zkeiii
 衹	tyh,	1	tyoaiu
 隻	hrf'	1	hruioe
@@ -25702,7 +25609,6 @@ encoder:
 馶	sqk'	1	sqeiee
 鳷	ckk.	1	ckeiao
 織	zlw;	1	zlaaoo
-直	zkia	1	zkeiia
 執	ztd.	1	zteieo
 淔	zvk;	1	zvooee
 樴	ymw;	1	ymeiuo
@@ -25712,21 +25618,16 @@ encoder:
 蹠	zng.	1	zniaei
 躑	znd'	1	zniaei
 夂	zuua	1	zuuaoo
-旨	zlia	1	zluaia
 茋	dkh.	1	dkeiiu
-指	zjl;	1	zjeieu
 紙	zlh,	1	zlaaoo
 軹	zpou	1	zpeiae
 阤	zbai	1	zbaiai
 扻	kjuu	1	kjeieu
 扻	sjuu	1	sjeieu
 厔	sgs,	1	sgeuea
-制	zqei	1	zqueei
-质	zhk;	1	zhuuei
 挃	djs,	1	djeiee
 眰	zfs,	1	zfiaee
 乿	zzl'	1	zzuoou
-智	zgoi	1	zgueeu
 傂	srh/	1	sruiuu
 搱	njp.	1	njeiea
 輊	zps,	1	zpeiae
@@ -25764,7 +25665,6 @@ encoder:
 腫	zur;	1	zuuaee
 種	chr;	1	chueiu
 種	zhr;	1	zhueiu
-众	zaau	1	zauouo
 眾	zfr/	1	zfiaii
 偅	crr;	1	cruiue
 偅	trr;	1	truiue
@@ -25823,7 +25723,6 @@ encoder:
 紵	slie	1	slaaoo
 紵	zlie	1	zlaaoo
 貯	zhie	1	zhiaee
-筑	zzd.	1	zzueou
 飳	tuw,	1	tuuooa
 駐	zqw,	1	zqeiee
 築	zzd,	1	zzueou
@@ -25842,7 +25741,6 @@ encoder:
 鱄	lys,	1	lyuaia
 䏝	zud.	1	zuuaee
 孨	zjj'	1	zjaiea
-赚	zhk;	1	zhiauo
 篹	szf'	1	szueou
 賺	zhk;	1	zhiaee
 襈	zyb/	1	zyoaiu
@@ -25878,7 +25776,6 @@ encoder:
 啍	xow'	1	xoiaeo
 啍	zow'	1	zoiaeo
 諄	zyw'	1	zyoeee
-准	zdr.	1	zdoeui
 埻	dtw'	1	dteieo
 準	zvr,	1	zvooeu
 炪	chc;	1	chouuo
@@ -25895,7 +25792,6 @@ encoder:
 茲	ckl'	1	ckeiia
 茲	zkl'	1	zkeiia
 姕	cnl'	1	cnieie
-资	zdui	1	zdoeua
 玆	xwl'	1	xwoeaa
 貲	znl;	1	znieie
 資	zdui	1	zdoeua
@@ -25926,7 +25822,6 @@ encoder:
 艐	kzx/	1	kzuuao
 騌	zqii	1	zqeiee
 蹤	znp;	1	zniaei
-总	zdoo	1	zdouia
 揔	sjb.	1	sjeieu
 傯	zrr.	1	zruiui
 総	clr.	1	claaoo
@@ -25966,8 +25861,6 @@ encoder:
 鱒	zyd,	1	zyuaia
 莋	jkr,	1	jkeiiu
 阝	fbai	1	fbaiii
-作	zrq,	1	zruiue
-做	zrg/	1	zruiei
 乤	xsm'	1	xseioa
 乫	jqoa	1	jqauia
 乬	jcc'	1	jceaea
@@ -26205,7 +26098,6 @@ encoder:
 肮	vuw/	0	vuuaee
 昂	vih'	0	viiaee
 敖	vfb/	0	vfeeie
-獒	vfb.	0	vfeeie
 熬	vfb.	0	vfeeie
 鏖	vgc/	0	vgoeua
 袄	vyr,	0	vyoaiu
@@ -26251,7 +26143,6 @@ encoder:
 宝	bif.	0	biooae
 保	broe	0	bruiia
 报	bjb'	0	bjeiea
-抱	bjb'	0	bjeieu
 豹	bzb.	0	bzuoou
 鲍	byb'	0	byuaia
 暴	bik;	0	biiaee
@@ -26279,6 +26170,7 @@ encoder:
 比	bgua	0	bgeaua
 彼	bpg'	0	bpuuia
 笔	bzue	0	bzueou
+鄙	bok'	0	boiaee
 必	bxuu	0	bxoaou
 毕	bgl,	0	bgeaua
 闭	bcs/	0	bcoiae
@@ -26290,7 +26182,6 @@ encoder:
 壁	bpoe	0	bpaeui
 避	bpoo	0	bpaeui
 臂	bpoi	0	bpaeui
-璧	bpoo	0	bpaeui
 边	bqoa	0	bqauoa
 编	blw,	0	blaaeo
 蝙	bcw,	0	bciaei
@@ -26300,7 +26191,6 @@ encoder:
 变	bwm'	0	bwoeii
 便	brs/	0	bruiei
 遍	bwp.	0	bwoaeu
-辨	blw.	0	bloeou
 辩	blw.	0	bloeou
 标	bmd;	0	bmeiuo
 飙	bpw/	0	bpeuoo
@@ -26410,7 +26300,6 @@ encoder:
 诚	cwg.	0	cwoaeu
 承	cjf'	0	cjaiee
 城	ctg.	0	cteiee
-乘	chk/	0	chueii
 程	choe	0	chueiu
 澄	cvj.	0	cvooea
 橙	cmj.	0	cmeiuo
@@ -26446,7 +26335,6 @@ encoder:
 穿	cir/	0	ciooau
 传	crd.	0	cruiee
 船	czn;	0	czuuao
-串	cooi	0	coiaei
 窗	cir/	0	ciooau
 床	cgei	0	cgoeue
 闯	ccaa	0	ccoiaa
@@ -26495,13 +26383,13 @@ encoder:
 逮	dev.	0	deaeei
 代	drea	0	druiea
 带	dsc;	0	dseiii
-待	dpt,	0	dpuuie
 怠	dyoo	0	dyaoia
 丹	dcoe	0	dcuaoe
 担	djie	0	djeiei
 单	ddie	0	ddouia
 眈	dfiu	0	dfiaee
 耽	dbiu	0	dbeiie
+郸	ddia	0	ddouia
 胆	duie	0	duuaee
 旦	diee	0	diiaee
 但	drie	0	druiia
@@ -26544,7 +26432,6 @@ encoder:
 敌	drg/	0	drueii
 邸	dhl'	0	dhuaea
 诋	dwh.	0	dwoaua
-底	dgh.	0	dgoeuu
 柢	dmh.	0	dmeiuo
 地	dtai	0	dteiea
 弟	ddg/	0	ddouae
@@ -26599,7 +26486,6 @@ encoder:
 端	dlei	0	dloeou
 短	dgs.	0	dgueeu
 段	dhf'	0	dhuiee
-断	ddl/	0	ddouei
 缎	dlh'	0	dlaaeu
 锻	dah'	0	daueee
 堆	dtr.	0	dteieu
@@ -26621,7 +26507,6 @@ encoder:
 峨	vev.	0	veiaiu
 娥	vnv.	0	vnaueu
 蛾	vcv.	0	vciaei
-额	viui	0	viooau
 呃	vog'	0	voiaee
 恶	vsm.	0	vseiio
 饿	vuv.	0	vuuaau
@@ -26672,6 +26557,7 @@ encoder:
 扉	fwp,	0	fwoaeu
 霏	ftee	0	fteoai
 匪	fcee	0	fceiee
+翡	fef.	0	feieee
 吠	fop.	0	foiaee
 废	fgl.	0	fgoeua
 沸	fvg/	0	fvooea
@@ -26725,7 +26611,6 @@ encoder:
 咐	for,	0	foiaeu
 驸	fqr,	0	fqaaeu
 赴	ftn;	0	fteiei
-复	fqiu	0	fqueia
 副	fsoi	0	fseiae
 富	fis;	0	fiooae
 腹	fuq/	0	fuuaee
@@ -26970,6 +26855,7 @@ encoder:
 霍	htr.	0	hteoai
 击	jdia	0	jdeeia
 叽	joua	0	joiaeu
+饥	juua	0	juuaau
 玑	jfua	0	jfeeie
 机	jmua	0	jmeiuo
 积	jhou	0	jhueiu
@@ -26985,6 +26871,7 @@ encoder:
 急	jueo	0	juuaae
 疾	jgue	0	jgoeuo
 集	jrf,	0	jruioe
+嫉	jng/	0	jnaueo
 瘠	jgv;	0	jgoeuo
 几	jnua	0	jnuaaa
 己	jcaa	0	jcaeaa
@@ -27032,6 +26919,7 @@ encoder:
 箭	jzk;	0	jzueou
 江	jvei	0	jvooee
 将	jkue	0	jkoeiu
+姜	jdf'	0	jdouee
 疆	jgt,	0	jgaeae
 讲	jwd/	0	jwoaee
 匠	jcuu	0	jceuue
@@ -27047,6 +26935,7 @@ encoder:
 礁	jsr.	0	jseuia
 嚼	joz,	0	joiaeu
 角	juua	0	juuaua
+饺	juw/	0	juuaao
 脚	jut'	0	juuaee
 叫	jol;	0	joiaea
 觉	jviu	0	jvoouo
@@ -27072,7 +26961,6 @@ encoder:
 金	jauo	0	jauoee
 矜	jyj'	0	jyaoai
 筋	jzua	0	jzueou
-仅	jrao	0	jruiao
 瑾	jfk,	0	jfeeie
 尽	jpw.	0	jpaeuo
 进	jdd.	0	jdeeui
@@ -27086,10 +26974,8 @@ encoder:
 经	jly,	0	jlaaea
 惊	jxw;	0	jxooio
 睛	jff;	0	jfiaee
-精	jdf;	0	jdouei
 井	jdui	0	jdeeui
 颈	jyd;	0	jyaoei
-景	jiw;	0	jiiaee
 警	jkb.	0	jkeiiu
 净	jdui	0	jdoeua
 迳	jyd.	0	jyaoei
@@ -27161,6 +27047,7 @@ encoder:
 科	khd,	0	khueiu
 颏	kwl;	0	kwoeau
 窠	kir,	0	kiooau
+颗	kim;	0	kiiaee
 磕	kst;	0	kseuia
 壳	qtiu	0	qteieo
 咳	kow/	0	koiaeo
@@ -27173,7 +27060,6 @@ encoder:
 肯	knia	0	knieie
 垦	kel,	0	keaeea
 恳	kel.	0	keaeea
-坑	ktw/	0	kteieo
 铿	kad,	0	kaueee
 空	kir,	0	kiooau
 孔	kjaa	0	kjaiea
@@ -27198,7 +27084,6 @@ encoder:
 狯	kqaa	0	kquauu
 筷	kzx/	0	kzueou
 宽	kik/	0	kiooae
-款	ktd/	0	kteiee
 筐	kzc,	0	kzueou
 狂	kqee	0	kquaue
 旷	kioe	0	kiiaee
@@ -27228,6 +27113,7 @@ encoder:
 拉	ljoe	0	ljeieo
 啦	loj.	0	loiaee
 邋	lll.	0	llaaai
+喇	los;	0	loiaee
 蜡	lck;	0	lciaei
 来	lsou	0	lseoue
 徕	lps.	0	lpuuie
@@ -27331,11 +27217,13 @@ encoder:
 髅	lcj'	0	lciaao
 搂	ljd'	0	ljeieo
 卢	leae	0	leieae
+庐	lgw'	0	lgoeuo
 炉	lhw'	0	lhouuo
 鲁	lyia	0	lyuaia
 陆	lbd;	0	lbaiee
 录	leio	0	leaeei
 辂	lpui	0	lpeaie
+赂	lhui	0	lhiauo
 鹿	lgc/	0	lgoeua
 路	lnui	0	lniaei
 鹭	lnue	0	lniaei
@@ -27375,12 +27263,12 @@ encoder:
 嘛	mog,	0	moiaeo
 埋	mtii	0	mteiei
 买	mjd,	0	mjaooe
-迈	msj.	0	mseauo
 麦	mfua	0	mfeeie
 脉	muw'	0	muuaee
 鳗	myia	0	myuaia
 满	mvk/	0	mvooee
 曼	mif'	0	miiaee
+蔓	mkia	0	mkeiii
 幔	meia	0	meiaii
 漫	mvia	0	mvooei
 慢	mxia	0	mxooii
@@ -27478,7 +27366,6 @@ encoder:
 目	mfia	0	mfiaee
 牧	mrj/	0	mrueie
 幕	mkia	0	mkeiii
-暮	mkia	0	mkeiii
 穆	mhn/	0	mhueiu
 拿	nas/	0	nauoei
 哪	noua	0	noiaea
@@ -27549,6 +27436,7 @@ encoder:
 浓	nviu	0	nvooeo
 脓	nuiu	0	nuuaee
 弄	nfeu	0	nfeeie
+弩	nnk'	0	nnauea
 怒	nnk.	0	nnauea
 暖	niz'	0	niiaee
 虐	neg,	0	neieau
@@ -27753,7 +27641,6 @@ encoder:
 庆	qgeu	0	qgoeue
 磬	qtp,	0	qteiea
 穷	qir'	0	qiooau
-穹	qir'	0	qiooau
 琼	qfw;	0	qfeeie
 丘	qjee	0	qjuiei
 秋	qhou	0	qhueiu
@@ -27769,7 +27656,6 @@ encoder:
 娶	qbk'	0	qbeiie
 去	qtao	0	qteiea
 阒	qcf.	0	qcoiai
-趣	qtn'	0	qteiei
 觑	qeg/	0	qeieau
 圈	jok'	0	joiaou
 权	qmao	0	qmeiuo
@@ -27874,6 +27760,7 @@ encoder:
 尚	sec;	0	seioui
 梢	smei	0	smeiuo
 稍	shei	0	shueiu
+韶	slii	0	sloeou
 少	spuu	0	spiuou
 舌	srei	0	srueii
 蛇	sciu	0	sciaei
@@ -27903,7 +27790,6 @@ encoder:
 尸	spae	0	spaeuu
 失	squo	0	squeeu
 师	sds;	0	sdiuei
-诗	swt,	0	swoaei
 狮	sqd;	0	squaui
 施	sqq'	0	sqoeau
 十	skei	0	skeiii
@@ -27920,7 +27806,6 @@ encoder:
 氏	shea	0	shuaea
 示	sdiu	0	sdeeiu
 世	skaa	0	skeiie
-仕	srei	0	sruiei
 市	swia	0	swoeia
 式	slei	0	sleeie
 似	srl/	0	sruiao
@@ -27958,7 +27843,6 @@ encoder:
 耍	ssc'	0	sseuia
 摔	sjw,	0	sjeieo
 甩	suaa	0	suuaee
-帅	sdia	0	sdiuia
 双	skao	0	skaoao
 霜	stm;	0	steoai
 爽	spx/	0	speuou
@@ -28082,8 +27966,6 @@ encoder:
 庭	tgr'	0	tgoeuu
 停	trw,	0	truioe
 婷	tnw,	0	tnaueo
-挺	tjr'	0	tjeieu
-艇	tzr'	0	tzuuao
 通	tyuo	0	tyaoia
 仝	taei	0	tauoei
 同	tcs;	0	tciaei
@@ -28116,7 +27998,6 @@ encoder:
 褪	tyeo	0	tyoaiu
 吞	tsp;	0	tseeuo
 屯	tsc'	0	tseaia
-托	tjr,	0	tjeieu
 脱	tud/	0	tuuaee
 驮	tqeu	0	tqaaee
 陀	tbiu	0	tbaioo
@@ -28245,11 +28126,13 @@ encoder:
 息	xrf.	0	xruiae
 奚	xzl,	0	xzuoou
 稀	xhx;	0	xhueiu
+犀	xpee	0	xpaeui
 锡	xaiu	0	xaueee
 熙	xceo	0	xceiia
 蜥	xcm/	0	xciaei
 膝	xum;	0	xuuaee
 熹	xtoo	0	xteiei
+曦	xid.	0	xiiaee
 习	xjoe	0	xjaoee
 席	xgk;	0	xgoeue
 袭	xxl/	0	xxeuau
@@ -28273,7 +28156,6 @@ encoder:
 舷	xzw'	0	xzuuao
 痫	xgc,	0	xgoeuo
 嫌	xnk;	0	xnaueo
-显	xim,	0	xiiaee
 险	xbae	0	xbaiuo
 县	xhao	0	xhiaee
 现	xfc/	0	xfeeie
@@ -28286,7 +28168,6 @@ encoder:
 香	xhia	0	xhueiu
 箱	xzm;	0	xzueou
 翔	xdv.	0	xdouee
-享	xwoa	0	xwoeia
 响	xor;	0	xoiaeu
 想	xmf.	0	xmeiuo
 向	xrc;	0	xruiai
@@ -28376,6 +28257,7 @@ encoder:
 雪	xtae	0	xteoai
 血	xria	0	xruiai
 勋	xoh'	0	xoiaei
+薰	xkr.	0	xkeiiu
 寻	xeei	0	xeaeee
 询	xwb;	0	xwoaua
 循	xph;	0	xpuuiu
@@ -28390,10 +28272,9 @@ encoder:
 呀	yoc/	0	yoiaee
 烟	yhoe	0	yhouuo
 焉	ysn.	0	yseiei
-严	ysm,	0	yseiio
+鄢	ysn'	0	yseiei
 言	yyoe	0	yyoeee
 炎	yhou	0	yhouuo
-研	yss,	0	yseuia
 盐	ytm;	0	yteiei
 筵	yzr'	0	yzueou
 檐	ymuo	0	ymeiuo
@@ -28401,6 +28282,7 @@ encoder:
 眼	yfeo	0	yfiaee
 演	yviu	0	yvooeo
 艳	yfea	0	yfeeei
+晏	yiia	0	yiiaee
 宴	yiia	0	yiooai
 验	yqae	0	yqaaeu
 堰	ytc'	0	yteiee
@@ -28452,7 +28334,6 @@ encoder:
 亿	yraa	0	yruiaa
 义	ywuo	0	ywouoo
 艺	ykaa	0	ykeiia
-忆	yxaa	0	yxooia
 议	yww/	0	ywoaou
 亦	ywui	0	ywoeui
 异	ybeu	0	ybaeae
@@ -28495,7 +28376,6 @@ encoder:
 尤	yxl.	0	yxeuao
 由	yiii	0	yiiaei
 犹	yqx.	0	yquaue
-油	yvii	0	yvooei
 游	yvq'	0	yvooeo
 友	yxao	0	yxeuao
 有	yxia	0	yxeuia
@@ -28551,9 +28431,7 @@ encoder:
 运	ydy.	0	ydeeao
 韵	ylio	0	yloeou
 熨	ypd.	0	ypaeue
-杂	zjei	0	zjuaei
 砸	zsc;	0	zseuia
-咋	zoq,	0	zoiaeu
 仔	zrai	0	zruiai
 载	zkl,	0	zkeiee
 崽	zet.	0	zeiaii
@@ -28601,6 +28479,7 @@ encoder:
 爪	zheo	0	zhuuio
 找	zjea	0	zjeiee
 兆	znoe	0	znuoea
+诏	zwq;	0	zwoaau
 赵	ztn/	0	zteiei
 照	ziq.	0	ziiaee
 遮	zgk.	0	zgoeue
@@ -28676,12 +28555,10 @@ encoder:
 柱	zmw,	0	zmeiuo
 祝	zyou	0	zyoaio
 著	zkt;	0	zkeiie
-筑	zzd.	0	zzueou
 抓	zjh.	0	zjeieu
 专	zdj.	0	zdeeao
 砖	zsd.	0	zseuia
 转	zpd.	0	zpeaie
-赚	zhk;	0	zhiauo
 装	zkt/	0	zkoeie
 状	zkp.	0	zkoeie
 追	zrio	0	zruiae
@@ -29163,10 +29040,12 @@ encoder:
 声音	syo	400
 然后	rhu	400
 想到	xde	400
+组织	zza	400
 由于	yye	400
 会议	hyo	400
 不想	bxe	400
 人们	rmu	400
+似的	sdu	400
 能够	ngu	400
 提供	tgu	400
 众人	zru	400
@@ -29230,6 +29109,7 @@ encoder:
 可怜	klo	400
 会见	hji	400
 满足	mzi	400
+体制	tzu	400
 国内	gni	400
 可怕	kpo	400
 采用	cyu	400
@@ -29247,6 +29127,7 @@ encoder:
 贸易	myi	400
 状态	zte	400
 得出	dca	400
+其它	qto	400
 满意	myo	400
 年代	ndu	400
 乃是	nsi	400
@@ -29278,6 +29159,7 @@ encoder:
 爱情	vqo	400
 模式	mse	400
 吃饭	cfu	400
+放弃	fqo	400
 行业	hyi	400
 想法	xfo	400
 兴奋	xfe	400
@@ -29306,10 +29188,9 @@ encoder:
 皇帝	hdo	400
 观察	gco	400
 不许	bxo	400
-中文	zwo	400
 独立	dlo	400
+面色	msu	400
 无情	wqo	400
-遨游	vyo	400
 内部	nbo	400
 电影	dyi	400
 暗处	vcu	400
@@ -29365,12 +29246,12 @@ encoder:
 韩国	hgi	400
 嘴巴	zba	400
 为止	wzi	400
+读书	dsa	400
 碰到	pde	400
 扶贫	fpu	400
 无意	wyo	400
 风险	fxa	400
 签署	qsi	400
-设立	slo	400
 人数	rso	400
 付出	fca	400
 小雨	xye	400
@@ -29392,11 +29273,10 @@ encoder:
 明日	mri	400
 过后	ghu	400
 庆祝	qzo	400
-安安	vvo	400
+途径	tju	400
 品种	pzu	400
 日益	ryo	400
 奋斗	fdo	400
-安逸	vyu	400
 掠过	lge	400
 人马	rma	400
 人权	rqe	400
@@ -29405,6 +29285,8 @@ encoder:
 回顾	hge	400
 长发	cfa	400
 快活	kho	400
+开拓	kte	400
+变量	bli	400
 口袋	kdu	400
 南方	nfo	400
 女郎	nlo	400
@@ -29450,6 +29332,7 @@ encoder:
 股票	gpe	400
 福建	fja	400
 河北	hbi	400
+多个	dgu	400
 日报	rbe	400
 你要	nye	400
 梦想	mxe	400
@@ -29500,12 +29383,14 @@ encoder:
 起点	qdi	400
 外观	wga	400
 对她	dta	400
+大盘	dpu	400
 开关	kgo	400
 能在	nze	400
 拿着	nzo	400
 乐趣	lqe	400
 五个	wgu	400
 看你	knu	400
+名牌	mpu	400
 为他	wtu	400
 好吗	hmi	400
 开启	kqo	400
@@ -29540,6 +29425,7 @@ encoder:
 跑了	pla	400
 他那	tna	400
 福利	flu	400
+控股	kgu	400
 歌迷	gmo	400
 切换	qhe	400
 光驱	gqa	400
@@ -29557,6 +29443,7 @@ encoder:
 热血	rxu	400
 面上	msi	400
 看书	ksa	400
+菜鸟	cnu	400
 困扰	kre	400
 光线	gxa	400
 抛弃	pqo	400
@@ -29593,7 +29480,6 @@ encoder:
 温泉	wqu	400
 头部	tbo	400
 让它	rto	400
-哎呀	vyi	400
 人能	rna	400
 曲目	qmi	400
 卡片	kpu	400
@@ -29604,6 +29490,7 @@ encoder:
 宽容	kro	400
 颇有	pye	400
 扭曲	nqi	400
+才好	cha	400
 快快	kko	400
 容器	rqi	400
 躲避	dba	400
@@ -29705,12 +29592,9 @@ encoder:
 灭绝	mja	400
 土匪	tfe	400
 太强	tqa	400
-名品	mpi	400
 破获	phe	400
-能耐	nne	400
 你吗	nmi	400
 而无	vwe	400
-率高	lgo	400
 创维	cwa	400
 放屁	fpa	400
 科尔	kvu	400
@@ -29725,7 +29609,6 @@ encoder:
 条纹	twa	400
 每台	mta	400
 如飞	rfa	400
-橡皮	xpa	400
 横幅	hfi	400
 冷暖	lni	400
 矮小	vxi	400
@@ -29783,13 +29666,14 @@ encoder:
 鞍辔	vpa	400
 太阿	tva	400
 入孔	rka	400
-媕娿	vva	400
 诺阿	nva	400
+世界	sia	400
+宝贝	bia	400
 任何	rui	400
 男人	nuo	400
 合作	hui	400
 群众	quo	400
-立刻	loe	400
+兄弟	xou	400
 面前	mou	400
 对于	dee	400
 目光	mio	400
@@ -29800,7 +29684,6 @@ encoder:
 刚才	gei	400
 找到	zea	400
 或者	hei	400
-力量	lia	400
 不好	bau	400
 很多	hua	400
 全身	qui	400
@@ -29809,14 +29692,13 @@ encoder:
 好好	hau	400
 达到	dea	400
 表现	bee	400
+若是	ria	400
 外面	weu	400
-负责	fee	400
 危险	wai	400
 好不	heu	400
 比较	bea	400
 功能	gao	400
 并非	bie	400
-妹妹	mau	400
 苦笑	kue	400
 命令	muo	400
 吩咐	fia	400
@@ -29825,6 +29707,7 @@ encoder:
 劳动	lee	400
 往往	wuu	400
 感受	guo	400
+特殊	teu	400
 夫妇	fau	400
 特点	tie	400
 贯彻	guu	400
@@ -29841,6 +29724,7 @@ encoder:
 卫生	wue	400
 来得	luu	400
 何以	hao	400
+阿胶	vua	400
 无力	wau	400
 评价	pui	400
 青衣	qoe	400
@@ -29848,14 +29732,15 @@ encoder:
 未能	wao	400
 内功	nei	400
 秘书	maa	400
-相比	xea	400
 分布	feu	400
 委屈	wae	400
 两手	lue	400
 黄金	huo	400
 围绕	waa	400
 报纸	baa	400
+欧阳	vai	400
 案板	vei	400
+纽约	naa	400
 靠近	kuu	400
 安慰	vae	400
 防止	fie	400
@@ -29865,11 +29750,14 @@ encoder:
 任意	roe	400
 怒气	nue	400
 埋伏	mui	400
+认定	roo	400
 柔软	rea	400
 还给	haa	400
+密码	meu	400
 添加	tau	400
 看了	kai	400
 批发	pau	400
+日记	roa	400
 日常	rio	400
 快车	kea	400
 女友	neu	400
@@ -29883,6 +29771,9 @@ encoder:
 而成	veu	400
 复习	fao	400
 风光	fio	400
+缺点	qie	400
+偶像	vui	400
+而又	vao	400
 看好	kau	400
 披露	peo	400
 我当	wio	400
@@ -29898,12 +29789,14 @@ encoder:
 人际	rai	400
 开创	kuo	400
 拿来	neo	400
+恶劣	viu	400
 太少	tiu	400
 品尝	pio	400
 弱点	rie	400
 各省	giu	400
 容纳	raa	400
 而至	vea	400
+你当	nio	400
 碰上	pie	400
 废旧	fii	400
 恰当	qio	400
@@ -29911,6 +29804,7 @@ encoder:
 萝卜	lio	400
 软弱	rae	400
 朴素	pee	400
+如对	rao	400
 大业	dii	400
 偏小	piu	400
 中国	zi'	400
@@ -29920,14 +29814,12 @@ encoder:
 只有	ze'	400
 心中	xi'	400
 社会	su'	400
-世界	si'	400
 爱人	vu'	400
 之间	zo'	400
 技术	je'	400
 生活	so'	400
 一起	ye'	400
 以为	yo'	400
-宝贝	bi'	400
 国际	ga'	400
 所有	se'	400
 本报	be'	400
@@ -29936,17 +29828,17 @@ encoder:
 对方	do'	400
 决定	jo'	400
 信息	xu'	400
-组织	za'	400
 继续	ja'	400
 提高	to'	400
 她们	tu'	400
 以及	yu'	400
 母亲	mo'	400
 回答	hu'	400
-兄弟	xo'	400
 无关	wo'	400
+立刻	lo'	400
 处理	ce'	400
 机会	ju'	400
+不见	bi'	400
 除了	ca'	400
 了解	lu'	400
 不断	bo'	400
@@ -29955,16 +29847,19 @@ encoder:
 地上	di'	400
 奇怪	qo'	400
 学习	xa'	400
+增加	za'	400
 人物	ru'	400
 行动	xe'	400
 过程	gu'	400
+力量	li'	400
 变化	bu'	400
 敌人	du'	400
-冷冷	lo'	400
 能力	na'	400
 出手	cu'	400
+事业	si'	400
 为何	wu'	400
 今日	ji'	400
+小心	xo'	400
 开口	ki'	400
 哈哈	hi'	400
 青年	qu'	400
@@ -29978,45 +29873,44 @@ encoder:
 出口	ci'	400
 那儿	nu'	400
 不如	ba'	400
-若是	ri'	400
 内容	no'	400
 同样	te'	400
+负责	fe'	400
 肯定	ko'	400
 美元	me'	400
 全面	qe'	400
-方才	fe'	400
 工业	gi'	400
 人才	re'	400
 得了	da'	400
 文明	wi'	400
 明显	mi'	400
+妹妹	ma'	400
 房子	fa'	400
-理由	li'	400
 完了	wa'	400
 良好	la'	400
 情绪	qa'	400
-放弃	fo'	400
 犯罪	fi'	400
 暗中	vi'	400
 互相	he'	400
 突出	ta'	400
 日前	ro'	400
 文献	we'	400
-面色	mu'	400
-而言	vo'	400
+遨游	vo'	400
+方案	fo'	400
 空气	ku'	400
 轻易	qi'	400
-面孔	ma'	400
+猛然	mu'	400
 科研	ke'	400
 普遍	po'	400
 婚姻	ha'	400
-欧阳	va'	400
 平衡	pu'	400
 拍拍	pe'	400
 瞥见	pi'	400
+仍旧	ri'	400
 女士	ne'	400
 平台	pa'	400
 二十	ve'	400
+二级	va'	400
 日出	ra'	400
 爱因斯坦	vys,	400
 为什么	wsm/	400
@@ -30043,12 +29937,12 @@ encoder:
 罢工	bfg,	400
 计划	jwh,	400
 消息	xvx/	400
+报道	bjd.	400
 竟然	jlr/	400
 注意	zvy.	400
 愿意	ygy.	400
 政策	zsc/	400
 进一步	jyb;	400
-增加	ztj'	400
 答应	dzy.	400
 根据	gmj,	400
 增长	ztz/	400
@@ -30165,6 +30059,7 @@ encoder:
 强烈	qgl,	400
 谢谢	xwx.	400
 投入	tjr/	400
+数据库	sjk.	400
 长久	ccj/	400
 医院	ycy'	400
 属于	spy,	400
@@ -30175,6 +30070,7 @@ encoder:
 不得不	bdb,	400
 距离	jnl.	400
 竞争	jlz/	400
+健康	jrk.	400
 值得	zrd/	400
 尚未	sew,	400
 现代化	xdh/	400
@@ -30256,7 +30152,6 @@ encoder:
 函数	hjs.	400
 熟悉	swx/	400
 粮食	lds/	400
-特殊	trs,	400
 没什么	msm/	400
 将军	jkj.	400
 优秀	yrx/	400
@@ -30335,6 +30230,7 @@ encoder:
 掌握	zew,	400
 尸体	spt/	400
 应付	ygf/	400
+而言	vsy.	400
 专业	zdy;	400
 愉快	yxk.	400
 异常	ybc;	400
@@ -30343,6 +30239,7 @@ encoder:
 符合	fzh/	400
 商品	swp;	400
 避免	bpm/	400
+穴道	xid.	400
 体育	try.	400
 改造	gcz/	400
 一下子	yxz'	400
@@ -30351,6 +30248,7 @@ encoder:
 施展	sqz'	400
 逐步	zzb;	400
 时辰	sic,	400
+喃喃	non;	400
 销售	xas/	400
 颤抖	cwd,	400
 严肃	yss'	400
@@ -30364,7 +30262,6 @@ encoder:
 文艺	wuy,	400
 深刻	svk.	400
 损失	sjs/	400
-方案	fqv.	400
 类型	ldx,	400
 再度	zsd.	400
 党委	dew/	400
@@ -30407,6 +30304,7 @@ encoder:
 嘴角	zoj/	400
 提醒	tjx,	400
 一部分	ybf/	400
+面孔	msk'	400
 勇气	yyq/	400
 石头	sst.	400
 修改	xrg'	400
@@ -30414,7 +30312,6 @@ encoder:
 集体	jrt/	400
 诸位	zww/	400
 职业	zby;	400
-猛然	mqr/	400
 推出	tjc'	400
 探索	tjs,	400
 逃走	tnz,	400
@@ -30437,6 +30334,7 @@ encoder:
 要紧	yxj;	400
 指挥	zjh,	400
 安装	viz.	400
+眉头	mpt.	400
 灯光	dhg;	400
 未曾	wdc.	400
 针对	zad'	400
@@ -30466,6 +30364,7 @@ encoder:
 无限	wdx'	400
 实际上	sjs;	400
 非洲	fez.	400
+情报	qxb,	400
 逻辑	lfj,	400
 大胆	dpd/	400
 格格	gmg,	400
@@ -30502,7 +30401,6 @@ encoder:
 层次	cpc.	400
 一方面	yfm,	400
 采访	czf.	400
-阿胶	vbj/	400
 批评	pjp.	400
 中国人	zgr/	400
 回忆	hoy.	400
@@ -30542,7 +30440,6 @@ encoder:
 询问	xww.	400
 属性	spx.	400
 伤口	srk;	400
-涉及	svj/	400
 毛泽东	mzd,	400
 达成	dpc,	400
 选举	xrj.	400
@@ -30576,7 +30473,6 @@ encoder:
 隐隐	yby'	400
 低下	drx,	400
 标志	bmz,	400
-引导	ygd'	400
 绿色	lls/	400
 深处	svc/	400
 导致	dbz,	400
@@ -30593,7 +30489,6 @@ encoder:
 对待	dkd/	400
 干净	gtj.	400
 指示	zjs,	400
-读书	dws'	400
 繁荣	fqr,	400
 一流	ysl.	400
 蓦地	mkd,	400
@@ -30648,6 +30543,7 @@ encoder:
 编辑	blj,	400
 道士	dks,	400
 死去	ssq,	400
+设立	swl.	400
 西藏	xxz,	400
 办事	bqs,	400
 无聊	wdl,	400
@@ -30696,9 +30592,9 @@ encoder:
 趋势	qts,	400
 智慧	zgh,	400
 全球	qaq,	400
-纽约	nly'	400
 搞好	gjh'	400
 武装	wsz.	400
+呻吟	soy;	400
 纵然	zlr/	400
 黑影	hvy;	400
 士兵	stb/	400
@@ -30785,7 +30681,6 @@ encoder:
 岗位	gew/	400
 室内	sin;	400
 仆人	prr/	400
-途径	taj/	400
 冒险	mix'	400
 股份	guf/	400
 循环	xph,	400
@@ -30813,6 +30708,7 @@ encoder:
 惊呼	jxh;	400
 得罪	dpz;	400
 联络	lbl'	400
+安逸	viy/	400
 发言	fly.	400
 好久	hnj/	400
 凡是	fns;	400
@@ -30829,7 +30725,6 @@ encoder:
 布置	bxz;	400
 收购	slg;	400
 证据	zwj,	400
-赢得	ywd/	400
 地球	dtq,	400
 惊奇	jxq,	400
 购买	ghm'	400
@@ -30894,7 +30789,6 @@ encoder:
 取消	qbx.	400
 依据	yrj,	400
 树立	sml.	400
-开拓	kst,	400
 饭店	fud.	400
 黄昏	hkh/	400
 安身立命	vsl/	400
@@ -31079,7 +30973,6 @@ encoder:
 舆论	yhl.	400
 谨慎	jws.	400
 顺便	scb/	400
-仍旧	rrj;	400
 英俊	ykj/	400
 孤独	gjd/	400
 审议	siy.	400
@@ -31142,7 +31035,6 @@ encoder:
 苹果	pkg;	400
 董事长	dsz/	400
 二手车	vsc,	400
-了吧	ljb;	400
 微信	wpx/	400
 猥琐	wqs,	400
 搭理	djl,	400
@@ -31215,7 +31107,6 @@ encoder:
 删除	scc'	400
 深圳	svz,	400
 阅读	ycd.	400
-密码	mim,	400
 他们的	tmd/	400
 即可	jek,	400
 简介	jzj/	400
@@ -31230,7 +31121,6 @@ encoder:
 英语	yky.	400
 互联网	hlw;	400
 情况下	qkx,	400
-媒体	mnt/	400
 新手上路	xss;	400
 人民政府	rmz.	400
 配置	pxz;	400
@@ -31254,6 +31144,7 @@ encoder:
 收藏	slc,	400
 包装	bbz.	400
 是一种	syz/	400
+报名	bjm/	400
 第一次	dyc.	400
 放在	fqz,	400
 技能	jjn'	400
@@ -31364,7 +31255,6 @@ encoder:
 包含	bbh/	400
 有关规定	ygg.	400
 商标	swb,	400
-转让	zpr.	400
 罚款	ffk,	400
 遵守	zds.	400
 提出了	tcl'	400
@@ -31663,6 +31553,7 @@ encoder:
 用途	yut/	400
 常见的	cjd/	400
 合适	has/	400
+报考	bjk,	400
 频率	pnl.	400
 邦迪	bfd;	400
 菜单	ckd.	400
@@ -31888,6 +31779,7 @@ encoder:
 制造业	zzy;	400
 欢迎您	hyn/	400
 显示器	xsq;	400
+回报	hob,	400
 经营的	jyd/	400
 周边	zcb'	400
 不含	bsh/	400
@@ -32031,7 +31923,6 @@ encoder:
 境外	jtw/	400
 建设项目	jsx;	400
 没有了	myl'	400
-一颗	ysk;	400
 唯一的	wyd/	400
 您现在	nxz,	400
 城乡	ctx'	400
@@ -32100,7 +31991,6 @@ encoder:
 面板	msb,	400
 第三章	dsz.	400
 不愿	bsy,	400
-缺点	qqd;	400
 舞蹈	wqd;	400
 整改	zsg'	400
 球队	qfd'	400
@@ -32218,6 +32108,7 @@ encoder:
 代替	drt,	400
 或者是	hzs;	400
 纳税	nls/	400
+上报	seb,	400
 宇宙	yiz.	400
 不断地	bdd,	400
 原告	ygg/	400
@@ -32511,7 +32402,6 @@ encoder:
 加载	jqz,	400
 僵尸	jrs'	400
 第八条	dbt/	400
-版面	brm,	400
 珠海	zfh.	400
 班主任	bzr/	400
 停留	trl/	400
@@ -32589,6 +32479,7 @@ encoder:
 节奏	jkz,	400
 培训班	pxb,	400
 宿舍	sis/	400
+通报	tyb,	400
 可选	kjx/	400
 照明	zim;	400
 收录	sll'	400
@@ -32643,7 +32534,6 @@ encoder:
 商业银行	syy/	400
 核实	hms.	400
 小麦	xpm,	400
-名牌	mup/	400
 各自的	gzd/	400
 信息内容	xxn.	400
 模仿	mmf/	400
@@ -32655,7 +32545,6 @@ encoder:
 质量管理	zlg,	400
 剧情	jpq.	400
 款式	kts,	400
-报刊	bjk,	400
 为核心	whx.	400
 技术人员	jsr;	400
 还有一个	hyy/	400
@@ -32698,7 +32587,6 @@ encoder:
 主办单位	zbd/	400
 档次	dmc.	400
 中国企业	zgq;	400
-虚拟主机	xnz,	400
 邮政	yiz,	400
 版块	brk,	400
 首选	skx/	400
@@ -32812,6 +32700,7 @@ encoder:
 单价	ddj/	400
 口味	kow;	400
 离开了	lkl'	400
+健康发展	jkf'	400
 排行榜	phb,	400
 录像	lex/	400
 仍有	rry,	400
@@ -32949,7 +32838,6 @@ encoder:
 第七张	dqz'	400
 实践中	sjz;	400
 疗效	lgx.	400
-北京大学	bjd.	400
 讲究	jwj.	400
 恋人	lwr/	400
 第十五条	dsw/	400
@@ -33025,6 +32913,7 @@ encoder:
 可以看到	kyk,	400
 经营范围	jyf;	400
 宁夏	nix,	400
+每人	mqr/	400
 不容易	bry;	400
 特点是	tds;	400
 使用了	syl'	400
@@ -33260,6 +33149,7 @@ encoder:
 很久	hpj/	400
 密封	mif,	400
 查看附件	ckf/	400
+学报	xvb,	400
 零件	ltj/	400
 宝石	bis,	400
 章节	zlj,	400
@@ -33469,7 +33359,6 @@ encoder:
 要认真	yrz,	400
 小朋友	xpy,	400
 每一位	myw/	400
-大盘	dpp/	400
 保证金	bzj/	400
 广播电视	gbd.	400
 评为	pww.	400
@@ -33619,7 +33508,6 @@ encoder:
 护照	hjz;	400
 奖学金	jxj/	400
 可通过	ktg,	400
-技术服务	jsf/	400
 史上	sos;	400
 共同所有	gts,	400
 成为一个	cwy/	400
@@ -33697,6 +33585,7 @@ encoder:
 表现在	bxz,	400
 惩罚	cpf;	400
 发帖数	fts.	400
+三亚	sfy,	400
 干预	gty'	400
 功勋	gdx;	400
 职场	zbc,	400
@@ -33929,7 +33818,6 @@ encoder:
 而且在	vqz,	400
 产业链	cyl/	400
 贵阳	goy'	400
-偶像	vrx/	400
 祝贺	zyh'	400
 原装	ygz.	400
 医疗卫生	ylw/	400
@@ -33942,7 +33830,6 @@ encoder:
 有力的	yld/	400
 捐款	jjk,	400
 来临	lsl;	400
-不稳定	bwd.	400
 底部	dgb.	400
 瑞典	rfd;	400
 知识分子	zsf'	400
@@ -34159,7 +34046,6 @@ encoder:
 几乎所有	jhs,	400
 你认为	nrw.	400
 存档	cxd,	400
-来吧	lsb;	400
 党员干部	dyg.	400
 青岛市	qds.	400
 应该说	ygs.	400
@@ -34178,10 +34064,8 @@ encoder:
 采取的	cqd/	400
 压抑	ygy,	400
 全自动	qzd,	400
-去吧	qtb;	400
 评比	pwb,	400
 空军	kij.	400
-凝聚力	njl'	400
 暴露	bil,	400
 公共服务	ggf/	400
 增进	ztj,	400
@@ -34488,7 +34372,6 @@ encoder:
 看着我	kzw/	400
 包含了	bhl'	400
 合肥市	hfs.	400
-好吧	hnb;	400
 党政	dez,	400
 职业技能	zyj'	400
 区政府	qzf.	400
@@ -34744,7 +34627,6 @@ encoder:
 济南市	jns.	400
 终点站	zdz.	400
 结构调整	jgt,	400
-菜鸟	ckn/	400
 入境	rrj,	400
 风扇	fns.	400
 沙滩	svt.	400
@@ -34758,6 +34640,7 @@ encoder:
 畅销	cix/	400
 搬完家	bwj.	400
 中国银行	zgy/	400
+学习型	xxx,	400
 七个	qlg/	400
 口碑	kob,	400
 文化产业	whc;	400
@@ -34874,7 +34757,6 @@ encoder:
 电容	dir.	400
 站着	zlz.	400
 血压	xry,	400
-恶劣	vsl;	400
 本系统	bxt'	400
 勤奋	qkf,	400
 舰队	jzd'	400
@@ -34959,7 +34841,6 @@ encoder:
 物质的	wzd/	400
 申请材料	sqc.	400
 萨达姆	sdm'	400
-已记录	yjl'	400
 这么说	zms.	400
 构思	gms;	400
 清爽	qvs,	400
@@ -34981,6 +34862,7 @@ encoder:
 只剩下	zsx,	400
 专长	zdc/	400
 乡镇企业	xzq;	400
+报关	bjg.	400
 那里的	nld/	400
 请勿转载	qwz,	400
 吸纳	xon'	400
@@ -35505,7 +35387,6 @@ encoder:
 中级	zoj'	400
 迷你	mdn/	400
 垃圾邮件	ljy/	400
-关于加强	gyj'	400
 名胜区	msq,	400
 很明显	hmx;	400
 骚扰	sqr,	400
@@ -35620,6 +35501,7 @@ encoder:
 搬家	bjj.	400
 流转	lvz,	400
 我也不	wyb,	400
+并报	bkb,	400
 还不如	hbr'	400
 典当	dvd;	400
 那个时候	ngs/	400
@@ -35652,6 +35534,7 @@ encoder:
 卫生局	wsj'	400
 农业科技	nyk,	400
 复兴	fqx.	400
+丢了	drl'	400
 丢了吗	dlm;	400
 免除	muc'	400
 胳膊	gub/	400
@@ -35694,15 +35577,16 @@ encoder:
 团战	toz;	400
 妥了	tzl'	400
 通传	tyc/	400
+了呗	ljb;	400
 钱数	qas.	400
 几年之后	jnz/	400
-呢吧	nob;	400
 真把自己	zbz'	400
 蚁人	ycr/	400
 那个啥	ngs;	400
 的呗	dnb;	400
 非常贵	fcg;	400
 机翻	jmf/	400
+威亚	wgy,	400
 氪金	kqj/	400
 古埃及人	gvj/	400
 白嫖	bnp'	400
@@ -35879,6 +35763,7 @@ encoder:
 舞曲	wqq;	400
 闪光灯	sgd.	400
 优质服务	yzf/	400
+东亚	dly,	400
 收款	slk,	400
 科技的	kjd/	400
 电邮	diy;	400
@@ -35933,7 +35818,6 @@ encoder:
 反腐倡廉	ffc.	400
 台风	tyf/	400
 基数	jks.	400
-道路运输	dly,	400
 建站	jez.	400
 是不可能	sbk'	400
 成套	cgt,	400
@@ -36251,6 +36135,7 @@ encoder:
 超人	ctr/	400
 画眉鸟	hmn/	400
 采访了	cfl'	400
+壮观	zkg'	400
 生物学	swx.	400
 海滩	hvt.	400
 岛屿	dby;	400
@@ -36440,7 +36325,6 @@ encoder:
 市场部	scb.	400
 微软的	wrd/	400
 嫂嫂	sns'	400
-走吧	ztb;	400
 也不错	ybc/	400
 搞定	gjd.	400
 想办法	xbf.	400
@@ -36540,7 +36424,6 @@ encoder:
 玩不成	wbc,	400
 数据传输	sjc,	400
 字体大小	ztd;	400
-素有	sfy,	400
 五粮液	wly.	400
 居家	jpj.	400
 格式化	gsh/	400
@@ -36614,7 +36497,7 @@ encoder:
 主要以	zyy'	400
 看见了	kjl'	400
 学士	xvs,	400
-平台上	pts;	400
+哎呀	voy;	400
 收据	slj,	400
 违法犯罪	wff;	400
 足迹	znj.	400
@@ -36742,7 +36625,6 @@ encoder:
 代表性	dbx.	400
 安全事故	vqs,	400
 兵团	bjt;	400
-评判	pwp.	400
 全称	qac/	400
 堕落	dbl,	400
 无公害	wgh.	400
@@ -36972,6 +36854,7 @@ encoder:
 也不过	ybg,	400
 拘役	jjy/	400
 飞行员	fxy;	400
+年报	nqb,	400
 成员国	cyg;	400
 身心健康	sxj.	400
 第二批	dvp,	400
@@ -37071,7 +36954,6 @@ encoder:
 差价	cdj/	400
 台式机	tsj,	400
 小城镇	xcz/	400
-存储卡	cck;	400
 哪位	now/	400
 秀丽	xhl,	400
 使用情况	syq.	400
@@ -37083,7 +36965,6 @@ encoder:
 创造条件	czt/	400
 陆地	lbd,	400
 橄榄油	gly.	400
-一步步	ybb;	400
 水泵	svb,	400
 陷入了	xrl'	400
 商业秘密	sym.	400
@@ -37274,6 +37155,7 @@ encoder:
 经常会	jch/	400
 市政协	szx,	400
 利用外资	lyw.	400
+担当	djd;	400
 平坦	pst,	400
 他们自己	tmz'	400
 争吵	zuc;	400
@@ -37390,6 +37272,7 @@ encoder:
 一家人	yjr/	400
 第二代	dvd/	400
 包头	bbt.	400
+中层	zoc'	400
 三个人	sgr/	400
 城中	ctz;	400
 见附件	jfj/	400
@@ -37416,7 +37299,6 @@ encoder:
 为提高	wtg.	400
 寂寞的	jmd/	400
 优先级	yxj'	400
-毛衣	mpy.	400
 驾驭	jqy'	400
 小猫	xpm/	400
 技术培训	jsp.	400
@@ -37565,7 +37447,6 @@ encoder:
 佩戴	prd,	400
 高额	gwv.	400
 所取得	sqd/	400
-我吧	wvb;	400
 功能性	gnx.	400
 经国家	jgj.	400
 异味	ybw;	400
@@ -38105,10 +37986,8 @@ encoder:
 做出决定	zcj.	400
 商议	swy.	400
 眉毛	mpm/	400
-切实可行	qsk/	400
 不出来	bcl,	400
 你不会	nbh/	400
-死亡率	swl.	400
 邯郸	hkd.	400
 批发商	pfs.	400
 其他组织	qtz'	400
@@ -38213,6 +38092,7 @@ encoder:
 高度评价	gdp/	400
 稀土	xht,	400
 自然会	zrh/	400
+电报	dib,	400
 哪怕是	nps;	400
 宁可	nik,	400
 医疗保健	ylb/	400
@@ -38512,7 +38392,6 @@ encoder:
 残联	csl,	400
 就会出现	jhc,	400
 内蒙	ncm,	400
-毛发	mpf'	400
 自然而然	zrv/	400
 抛出	pjc'	400
 肛门	gum.	400
@@ -38543,7 +38422,6 @@ encoder:
 乏力	frl'	400
 分站	frz.	400
 公司里	gsl;	400
-流淌	lvt.	400
 有帮助	ybz;	400
 卵巢	lhc'	400
 销售渠道	xsq.	400
@@ -38886,6 +38764,7 @@ encoder:
 莫过于	mgy,	400
 新能源	xny.	400
 奢侈	spc/	400
+总结经验	zjj'	400
 法令	fvl/	400
 天花板	thb,	400
 福克斯	fks,	400
@@ -39066,7 +38945,6 @@ encoder:
 失业人员	syr;	400
 暴利	bil/	400
 一连串	ylc;	400
-养分	ydf/	400
 茄子	qkz'	400
 订购热线	dgr'	400
 团市委	tsw/	400
@@ -39122,7 +39000,6 @@ encoder:
 微波炉	wbl.	400
 庄园	zgy;	400
 瑕疵	xfc.	400
-比较高	bjg.	400
 孔雀	kjq;	400
 该怎么	gzm/	400
 本地化	bdh/	400
@@ -39237,6 +39114,7 @@ encoder:
 小岛	xpd/	400
 社会进步	shj;	400
 无数次	wsc.	400
+区级	qcj'	400
 第二十	dvs,	400
 详细描述	xxm,	400
 涨跌	zvd;	400
@@ -39282,7 +39160,6 @@ encoder:
 现代物流	xdw.	400
 巨星	jcx;	400
 传真机	czj,	400
-研究性	yjx.	400
 游戏机	yxj,	400
 听说过	tsg,	400
 江阴	jvy'	400
@@ -39295,7 +39172,6 @@ encoder:
 姓了	xnl'	400
 动荡	ddd,	400
 爆破	bhp,	400
-粤菜	yrc,	400
 增至	ztz,	400
 使用方便	syf/	400
 母狗	mmg/	400
@@ -39491,7 +39367,6 @@ encoder:
 较深	jps.	400
 管理机制	glj/	400
 赚到	zhd,	400
-看吧	kvb;	400
 虚构	xeg,	400
 手写	svx.	400
 安全保障	vqb'	400
@@ -39514,6 +39389,7 @@ encoder:
 那几个	njg/	400
 资产管理	zcg,	400
 卫士	wbs,	400
+成绩单	cjd.	400
 说起来	sql,	400
 到账	dsz;	400
 与普通	ypt'	400
@@ -39551,7 +39427,6 @@ encoder:
 新版本	xbb,	400
 长期有效	cqy.	400
 橙色	cms/	400
-各界人士	gjr,	400
 管理团队	glt'	400
 很开心	hkx.	400
 全班	qab,	400
@@ -39588,6 +39463,7 @@ encoder:
 他身上	tss;	400
 关键时刻	gjs.	400
 一经发现	yjf,	400
+海湾	hvw.	400
 物流业	wly;	400
 坦言	tty.	400
 课改	kwg'	400
@@ -39781,6 +39657,7 @@ encoder:
 食品药品	spy;	400
 在我面前	zwm.	400
 冲破	cdp,	400
+两步	lsb;	400
 写给	xig'	400
 客源	kiy.	400
 并给予	bjy'	400
@@ -39842,7 +39719,6 @@ encoder:
 康师傅	ksf/	400
 心理上	xls;	400
 污垢	wvg,	400
-是吧	sib;	400
 糯米	ndm.	400
 佳人	jrr/	400
 文化活动	whh,	400
@@ -39949,6 +39825,7 @@ encoder:
 抢险	qjx'	400
 在线客服	zxk/	400
 叹道	tod.	400
+简报	jzb,	400
 湖畔	hvp;	400
 上传日期	scr,	400
 藏品	ckp;	400
@@ -39984,7 +39861,6 @@ encoder:
 水瓶座	spz.	400
 改革试点	ggs;	400
 医护人员	yhr;	400
-两颗	lsk;	400
 攀岩	pmy;	400
 皇帝的	hdd/	400
 岂不是	qbs;	400
@@ -40210,7 +40086,6 @@ encoder:
 不稳	bsw/	400
 射手座	ssz.	400
 放缓	fqh'	400
-上榜	seb,	400
 由北京	ybj.	400
 据新华社	jxh.	400
 流逝	lvs,	400
@@ -40521,7 +40396,6 @@ encoder:
 安全防范	vqf,	400
 低频	drp;	400
 小动物	xdw/	400
-疏导	sjd'	400
 切实做好	qsz'	400
 持之以恒	czy.	400
 馄饨	hut/	400
@@ -40740,6 +40614,7 @@ encoder:
 旅游服务	lyf/	400
 一夜情	yyq.	400
 制造出	zzc'	400
+带出	dsc'	400
 入网	rrw;	400
 参加培训	cjp.	400
 不敢相信	bgx/	400
@@ -40831,7 +40706,6 @@ encoder:
 佛的	frd/	400
 我只好	wzh'	400
 背负	bkf/	400
-皮毛	pgm/	400
 提醒您	txn/	400
 外置	wuz;	400
 个体户	gth.	400
@@ -41077,7 +40951,6 @@ encoder:
 计程车	jcc,	400
 操作符	czf/	400
 婷婷	tnt'	400
-这颗	zuk;	400
 可以减少	kyj;	400
 浩瀚	hvh.	400
 审批程序	spc.	400
@@ -41134,6 +41007,7 @@ encoder:
 闪亮	scl.	400
 扬起	yjq,	400
 补觉	byj.	400
+是呗	sib;	400
 限号	xbh;	400
 行贿	xph;	400
 冲浪	cdl.	400
@@ -41276,9 +41150,7 @@ encoder:
 处理意见	cly;	400
 奈何	nph/	400
 薄荷	bkh,	400
-毛利	mpl/	400
 骨科	gck/	400
-企业级	qyj'	400
 脚步声	jbs,	400
 画上	hss;	400
 股指期货	gzq/	400
@@ -41485,6 +41357,7 @@ encoder:
 楼顶	lmd,	400
 一周内	yzn;	400
 聊聊	lbl,	400
+橡皮	xmp'	400
 嘉年华	jnh/	400
 潜入	qvr/	400
 查询结果	cxj;	400
@@ -41762,7 +41635,6 @@ encoder:
 就那么	jnm/	400
 枪支	qmz,	400
 枸杞	gmq,	400
-点吧	deb;	400
 调侃	twk/	400
 山楂	sez,	400
 耳屎	vbs'	400
@@ -41840,6 +41712,7 @@ encoder:
 染上	rvs;	400
 劳务输出	lws'	400
 按计划	vjh,	400
+大牌	dpp/	400
 隔音	gby.	400
 考试合格	ksh,	400
 海峡两岸	hxl;	400
@@ -41928,7 +41801,6 @@ encoder:
 最棒	zib,	400
 长期使用	cqs/	400
 贪官	tag.	400
-追回	zrh;	400
 查看详情	ckx.	400
 狭义	xqy.	400
 烤箱	khx/	400
@@ -42041,6 +41913,7 @@ encoder:
 吸收	xos'	400
 热转印	rzy/	400
 日均	rij,	400
+快报	kxb,	400
 经济体制	jjt/	400
 省城	spc,	400
 看得见	kdj;	400
@@ -42081,6 +41954,7 @@ encoder:
 锅里	gal;	400
 尿液	npy.	400
 局机关	jjg.	400
+塑料制品	slz;	400
 学科建设	xkj.	400
 万事如意	wsr.	400
 马英九	myj/	400
@@ -42515,18 +42389,15 @@ encoder:
 第一场	dyc,	400
 车迷	cpm.	400
 现在看来	xzk,	400
-汤匙	tvc;	400
 评析	pwx,	400
 大范围	dfw;	400
 可以解决	kyj.	400
 赵薇	ztw,	400
-两小时	lxs;	400
 零售企业	lsq;	400
 肯定不	kdb,	400
 却不知	qbz/	400
 新突破	xtp,	400
 明媚	mim'	400
-而是因为	vsy.	400
 突破性	tpx.	400
 湖南卫视	hnw.	400
 五代	wwd/	400
@@ -42651,7 +42522,6 @@ encoder:
 补考	byk,	400
 眼看着	ykz.	400
 饿死	vus,	400
-调用函数	dyh.	400
 退缩	tes'	400
 广告业务	ggy/	400
 管理所	gls/	400
@@ -42674,7 +42544,6 @@ encoder:
 玩弄	wfn,	400
 盈余	yny/	400
 也不迟	ybc'	400
-交汇处	jhc/	400
 代码块	dmk,	400
 吃什么	csm/	400
 保修卡	bxk;	400
@@ -42995,7 +42864,6 @@ encoder:
 个人利益	grl.	400
 余亩	yam.	400
 以后会	yhh/	400
-雅安	ycv.	400
 歌曲名	gqm/	400
 磨难	mgn'	400
 客户群	khq'	400
@@ -43016,6 +42884,7 @@ encoder:
 在同一个	zty/	400
 领军	laj.	400
 种类繁多	zlf/	400
+勇敢地	ygd,	400
 容易引起	ryy,	400
 在人们	zrm/	400
 日志总数	rzz.	400
@@ -43039,7 +42908,6 @@ encoder:
 合作经济	hzj.	400
 恶性循环	vxx,	400
 结果表明	jgb;	400
-第二卷	dvj.	400
 断线	ddx'	400
 学佛	xvf/	400
 效仿	xwf/	400
@@ -43172,6 +43040,7 @@ encoder:
 行程安排	xcv,	400
 在本次	zbc.	400
 地面上	dms;	400
+泸沽湖	lgh.	400
 霓虹灯	nhd.	400
 国办	gob'	400
 通话记录	thj'	400
@@ -43449,7 +43318,6 @@ encoder:
 下列内容	xln.	400
 国产化	gch/	400
 贫困人口	pkr;	400
-威严	wgy,	400
 摸到	mjd,	400
 严格管理	ygg,	400
 人民团体	rmt/	400
@@ -43496,6 +43364,7 @@ encoder:
 寄生虫	jsc;	400
 惨烈	cxl,	400
 很晚	hpw;	400
+铜价	taj/	400
 接壤	jjr,	400
 笑嘻嘻	xxx;	400
 抢眼	qjy;	400
@@ -43628,7 +43497,6 @@ encoder:
 完整版	wzb/	400
 测量范围	clf;	400
 戏的	xkd/	400
-对吧	dkb;	400
 即兴	jex.	400
 感光度	ggd.	400
 不是很好	bsh'	400
@@ -43804,7 +43672,6 @@ encoder:
 号召力	hzl'	400
 解释为	jsw.	400
 生命安全	smv/	400
-个人能力	grn'	400
 累得	ltd/	400
 征程	zpc/	400
 国有资本	gyz,	400
@@ -44454,6 +44321,7 @@ encoder:
 晶莹剔透	jyt/	400
 清幽	qvy;	400
 反洗钱	fxq/	400
+高层建筑	gcj/	400
 咪咪	mom;	400
 都只是	dzs;	400
 从来都	cld,	400
@@ -44812,6 +44680,7 @@ encoder:
 其独特的	qdt/	400
 案卷	vij.	400
 个屁	gap'	400
+擂台	ljt'	400
 化学成分	hxc/	400
 公安厅	gvt,	400
 信托公司	xtg'	400
@@ -44900,7 +44769,6 @@ encoder:
 宇文	yiw.	400
 菲亚特	fyt/	400
 办理程序	blc.	400
-争当	zud;	400
 生字	srz.	400
 疑点	yld;	400
 当之无愧	dzw.	400
@@ -44932,6 +44800,7 @@ encoder:
 墓葬	mkz,	400
 美味的	mwd/	400
 深呼吸	shx;	400
+欧亚	vcy,	400
 与品牌	ypp/	400
 另一面	lym,	400
 横扫	hms,	400
@@ -45020,7 +44889,6 @@ encoder:
 染发	rvf'	400
 与政策	yzc/	400
 棉纱	mms'	400
-哎哟	voy;	400
 抗干扰	kgr,	400
 需要做	xyz/	400
 各占	guz;	400
@@ -45109,7 +44977,6 @@ encoder:
 红葡萄酒	hpt.	400
 狮王	sqw,	400
 泰勒	tfl,	400
-小孔	xpk'	400
 百万元	bwy,	400
 优化配置	yhp;	400
 审验	siy'	400
@@ -45203,6 +45070,7 @@ encoder:
 替代品	tdp;	400
 列举了	ljl'	400
 西伯利亚	xbl,	400
+袁世凯	ysk;	400
 中年男子	znn'	400
 例会	lrh/	400
 快钱	kxq/	400
@@ -45246,6 +45114,7 @@ encoder:
 英明	ykm;	400
 到晚	dsw;	400
 划归	hlg;	400
+腰围	yuw;	400
 浦江	pvj.	400
 优质产品	yzc;	400
 版权保护	bqb,	400
@@ -45525,6 +45394,7 @@ encoder:
 最丰富	zff.	400
 启动仪式	qdy,	400
 狂暴	kqb;	400
+会死	has,	400
 改革创新	ggc.	400
 托儿所	tvs/	400
 该病毒	gbd,	400
@@ -45812,7 +45682,6 @@ encoder:
 放心吧	fxb;	400
 弯路	wwl;	400
 下辈子	xbz'	400
-折射出	zsc'	400
 单位负责	dwf,	400
 头绪	tdx'	400
 飞行器	fxq;	400
@@ -45844,7 +45713,6 @@ encoder:
 教学水平	jxs,	400
 药监	ykj;	400
 从那以后	cny/	400
-个人感觉	grg.	400
 相配套	xpt,	400
 安监局	vjj'	400
 以上为	ysw.	400
@@ -45855,7 +45723,6 @@ encoder:
 我的手机	wds,	400
 同情心	tqx.	400
 启程	qwc/	400
-禁锢	jmg/	400
 输变电	sbd;	400
 数量有限	sly'	400
 我也不会	wyb/	400
@@ -45934,9 +45801,9 @@ encoder:
 无线通讯	wxt.	400
 汉朝	hvc,	400
 峭壁	qeb'	400
-记者表示	jzb,	400
 渔港	yvg.	400
 竞拍	jlp,	400
+能耐	nyn,	400
 想看看	xkk/	400
 甲烷	jiw.	400
 省厅	spt,	400
@@ -46268,7 +46135,6 @@ encoder:
 准确无误	zqw.	400
 初年	cyn/	400
 会计法	kjf.	400
-长毛	ccm/	400
 长孙	zcs'	400
 蓝牙耳机	lyv,	400
 配套产品	ptc;	400
@@ -46444,6 +46310,7 @@ encoder:
 纳米技术	nmj,	400
 人才测评	rcc.	400
 酒泉	jvq/	400
+移居	yhj'	400
 更愿意	gyy.	400
 不要忘了	byw'	400
 幽深	yes.	400
@@ -46474,7 +46341,6 @@ encoder:
 冲去	cdq,	400
 细密	xlm.	400
 饱和度	bhd.	400
-没有见过	myj,	400
 危难	wun'	400
 操作流程	czl/	400
 凉风	ldf/	400
@@ -46805,7 +46671,6 @@ encoder:
 太慢	tpm.	400
 税前	shq.	400
 低年级	dnj'	400
-评聘	pwp,	400
 茶汤	ckt.	400
 建功立业	jgl;	400
 包给	bbg'	400
@@ -47134,7 +46999,6 @@ encoder:
 系统信息	xtx/	400
 眼睁睁	yzz;	400
 磁卡	csk;	400
-吃吧	cob;	400
 困扰着	krz.	400
 低功耗	dgh,	400
 教学任务	jxr/	400
@@ -47166,7 +47030,6 @@ encoder:
 一条条	ytt/	400
 大可不必	dkb.	400
 台式电脑	tsd/	400
-毛重	mpz/	400
 寻访	xef.	400
 梯田	tmt;	400
 调整好	tzh'	400
@@ -47264,7 +47127,6 @@ encoder:
 成瘾	cgy.	400
 波折	bvz,	400
 后勤保障	hqb'	400
-一致同意	yzt.	400
 多吨	dud;	400
 慈爱	ckv/	400
 没有啊	myv;	400
@@ -47631,7 +47493,6 @@ encoder:
 打麻将	dmj.	400
 七号	qlh;	400
 镇区	zaq,	400
-金毛	jam/	400
 唐伯虎	tbh;	400
 不文明	bwm;	400
 拱北	gjb;	400
@@ -47763,6 +47624,7 @@ encoder:
 几套	jnt,	400
 火腿肠	htc/	400
 双眸	skm;	400
+邮戳	yic'	400
 我仍	wvr/	400
 头枕	tdz,	400
 镜中	jaz;	400
@@ -47952,7 +47814,6 @@ encoder:
 心田	xxt;	400
 圣诞树	sds,	400
 庆祝活动	qzh,	400
-周口	zck;	400
 共同举办	gtj'	400
 别出心裁	bcx,	400
 蓝屏	lkp'	400
@@ -47997,6 +47858,7 @@ encoder:
 文学创作	wxc/	400
 锐志	raz,	400
 满天星	mtx;	400
+报国	bjg;	400
 电煤	dim.	400
 错误提示	cwt,	400
 房产网	fcw;	400
@@ -48019,7 +47881,6 @@ encoder:
 耳麦	vbm,	400
 失地农民	sdn'	400
 烧热	shr,	400
-他吧	trb;	400
 清洁工	qjg,	400
 楼阁	lmg.	400
 一小块	yxk,	400
@@ -48414,11 +48275,9 @@ encoder:
 在交通	zjt'	400
 与父母	yfm'	400
 交易信息	jyx/	400
-阳光明媚	ygm'	400
 建树	jes,	400
 持股比例	cgb/	400
 开场白	kcb/	400
-宣纸	xiz'	400
 每时每刻	msm.	400
 渴望的	kwd/	400
 共舞	gkw/	400
@@ -48447,10 +48306,10 @@ encoder:
 绿豆汤	ldt.	400
 改天	gct,	400
 你不必	nbb.	400
+不报	bsb,	400
 迸发	bkf'	400
 继续履行	jxl/	400
 想不通	xbt'	400
-几颗	jnk;	400
 小芳	xpf,	400
 退费	tef'	400
 苏菲	skf,	400
@@ -48553,7 +48412,6 @@ encoder:
 漱口	svk;	400
 减量	jdl;	400
 由此看来	yck,	400
-上吧	seb;	400
 五中全会	wzq/	400
 暂缺	zpq/	400
 公司经理	gsj,	400
@@ -48566,7 +48424,6 @@ encoder:
 海贼王	hzw,	400
 后花园	hhy;	400
 最精彩	zjc/	400
-产生出	csc'	400
 棱角	lmj/	400
 钱多	qad/	400
 生产量	scl;	400
@@ -48878,7 +48735,6 @@ encoder:
 出版者	cbz,	400
 杨志	ymz,	400
 勾当	gbd;	400
-毛片	mpp/	400
 选拔赛	xbs.	400
 配套设备	pts/	400
 泡点	pvd;	400
@@ -48977,7 +48833,6 @@ encoder:
 位于北京	wyb.	400
 童话故事	thg,	400
 师专	sdz,	400
-回拨	hob,	400
 失火	sqh.	400
 爱你的人	vnd/	400
 图谋	tom.	400
@@ -49374,6 +49229,7 @@ encoder:
 财险	chx'	400
 小病	xpb.	400
 让读者	rdz,	400
+亚欧	ysv,	400
 禽蛋	qad'	400
 月供	yug/	400
 最爱的人	zvd/	400
@@ -49520,6 +49376,7 @@ encoder:
 完之后	wzh/	400
 备案登记	bvd.	400
 大喝一声	dhy,	400
+二十六日	vsl;	400
 楚王	cmw,	400
 急匆匆	jcc/	400
 受惠	szh,	400
@@ -49558,7 +49415,6 @@ encoder:
 全明星	qmx;	400
 对讲	dkj.	400
 战略联盟	zll;	400
-左臂	zxb'	400
 鬼怪	gng.	400
 我这个人	wzg/	400
 办出	bqc'	400
@@ -49787,6 +49643,7 @@ encoder:
 满腹	mvf/	400
 平民百姓	pmb'	400
 贷款期限	dkq'	400
+妖艳	yny,	400
 红岭	hll;	400
 著名学者	zmx,	400
 叹口气	tkq/	400
@@ -49912,7 +49769,6 @@ encoder:
 好好休息	hhx/	400
 不愉快的	byk/	400
 转念	zpn/	400
-毛线	mpx'	400
 李肇星	lzx;	400
 吴官正	wgz,	400
 一起吃饭	yqc/	400
@@ -50196,6 +50052,7 @@ encoder:
 太晚了	twl'	400
 太晚了吧	twl;	400
 揉搓	rjc,	400
+明末	mim,	400
 持续稳定	cxw.	400
 船东	czd,	400
 那台	nut'	400
@@ -50206,7 +50063,6 @@ encoder:
 雾灯	wtd.	400
 畅通无阻	ctw'	400
 陈至立	czl.	400
-型煤	xsm.	400
 铁骑	taq'	400
 而止	vsz;	400
 球杆	qfg,	400
@@ -50390,7 +50246,6 @@ encoder:
 不同寻常	btx;	400
 目标考核	mbk,	400
 清河	qvh.	400
-过吧	gcb;	400
 太远了吧	tyl;	400
 篱笆	lzb/	400
 太平洋卡	tpy;	400
@@ -50760,7 +50615,6 @@ encoder:
 股票交易	gpj;	400
 特困户	tkh.	400
 天上人间	tsr.	400
-毛色	mps/	400
 特别奖	tbj.	400
 企业名单	qym.	400
 使用频率	syp.	400
@@ -50775,7 +50629,6 @@ encoder:
 会议要求	hyy,	400
 配套措施	ptc.	400
 投资比例	tzb/	400
-白嫩	bnn'	400
 宽幅	kif;	400
 统计部门	tjb.	400
 法国队	fgd'	400
@@ -51026,6 +50879,7 @@ encoder:
 悍马	hxm'	400
 唇彩	cgc/	400
 轻叹	qpt;	400
+眉目	mpm;	400
 表现方式	bxf,	400
 出其不意	cqb.	400
 军部	jib.	400
@@ -51118,6 +50972,7 @@ encoder:
 观察员	gcy;	400
 城市花园	csh;	400
 亨得利	hdl/	400
+见报	jcb,	400
 绩效考评	jxk.	400
 皮影	pgy;	400
 文明创建	wmc'	400
@@ -51224,6 +51079,7 @@ encoder:
 目测	mfc.	400
 臭氧层	cyc'	400
 很平静	hpj,	400
+毛毡	mpz/	400
 行规	hpg,	400
 倍频	brp;	400
 满头大汗	mtd.	400
@@ -51290,7 +51146,6 @@ encoder:
 全胜	qas/	400
 两个女人	lgn/	400
 境外企业	jwq;	400
-锁上	sas;	400
 任何一项	rhy,	400
 解放日报	jfr,	400
 暖流	nil.	400
@@ -51385,6 +51240,7 @@ encoder:
 这五个	zwg/	400
 一再强调	yzq.	400
 用户空间	yhk.	400
+名篇	mup/	400
 规划部门	ghb.	400
 逃课	tnk.	400
 锁骨	sag;	400
@@ -51418,7 +51274,6 @@ encoder:
 人民卫生	rmw/	400
 你究竟	njj.	400
 破碎机	psj,	400
-用吧	yub;	400
 经费支出	jfz'	400
 停水	trs;	400
 铺满	pam.	400
@@ -51455,7 +51310,6 @@ encoder:
 维修技术	wxj,	400
 回暖	hon;	400
 实用工具	syg;	400
-她吧	tnb;	400
 全国妇联	qgf,	400
 奋发有为	ffy.	400
 巨大压力	jdy'	400
@@ -51480,8 +51334,8 @@ encoder:
 每日经济	mrj.	400
 陪衬	pbc.	400
 五金件	wjj/	400
-偏食	prs/	400
 师承	sdc'	400
+野味	yiw;	400
 老教师	ljs;	400
 涌来	yvl,	400
 新干线	xgx'	400
@@ -51708,7 +51562,6 @@ encoder:
 查询方式	cxf,	400
 窥探	kit,	400
 驳斥	bqc/	400
-三颗	sfk;	400
 争气	zuq/	400
 杜比	dmb,	400
 对号入座	dhr.	400
@@ -51814,7 +51667,6 @@ encoder:
 大雄宝殿	dxb'	400
 频次	pnc.	400
 去处理	qcl,	400
-编辑工具	bjg;	400
 沉船	cvc/	400
 几层	jnc'	400
 透明化	tmh/	400
@@ -52011,6 +51863,7 @@ encoder:
 现代工业	xdg;	400
 蹊跷	qnq;	400
 泡面	pvm,	400
+放光	fqg;	400
 五味子	wwz'	400
 勘验	kky'	400
 米老鼠	mls/	400
@@ -52441,13 +52294,13 @@ encoder:
 遇袭	yix,	400
 放风筝	ffz/	400
 盐类	ytl.	400
-芭比	bkb,	400
 建网	jew;	400
 帕特	pet/	400
 媒人	mnr/	400
 农民起义	nmq.	400
 七八个	qbg/	400
 拔地而起	bdv,	400
+建立连接	jll,	400
 池子	cvz'	400
 干什么呢	gsm;	400
 提供保障	tgb'	400
@@ -52464,6 +52317,7 @@ encoder:
 车牌号	cph;	400
 辟邪	bpx,	400
 吉祥如意	jxr.	400
+动物实验	dws'	400
 交付给	jfg'	400
 满嘴	mvz;	400
 海王星	hwx;	400
@@ -52605,7 +52459,6 @@ encoder:
 每日更新	mrg.	400
 奶类	nnl.	400
 还没有人	hmy/	400
-多吧	dub;	400
 考前辅导	kqf'	400
 灰飞烟灭	hfy,	400
 可自定义	kzd.	400
@@ -52703,6 +52556,7 @@ encoder:
 效法	xwf.	400
 青年团	qnt;	400
 从系统	cxt'	400
+眉心	mpx.	400
 只听见	ztj;	400
 避讳	bph.	400
 正殿	zsd'	400
@@ -52804,6 +52658,7 @@ encoder:
 认购权证	rgq.	400
 附加信息	fjx/	400
 美丑	mdc'	400
+投入不足	trb;	400
 国内品牌	gnp/	400
 刑讯逼供	xxb/	400
 陈道明	cdm;	400
@@ -52913,7 +52768,6 @@ encoder:
 方便群众	fbq/	400
 偶然性	vrx.	400
 杨康	ymk.	400
-一闪而过	ysv,	400
 日粮	ril.	400
 分众传媒	fzc'	400
 价格范围	jgf;	400
@@ -53097,7 +52951,6 @@ encoder:
 细细品味	xxp;	400
 人见人爱	rjr/	400
 改变传统	gbc'	400
-定标	dib,	400
 这么晚	zmw;	400
 日益扩大	ryk,	400
 可燃气体	krq/	400
@@ -53292,7 +53145,6 @@ encoder:
 通话费	thf'	400
 治超	zvc,	400
 防爆膜	fbm/	400
-农业农村	nyn,	400
 尼古拉斯	ngl,	400
 天翻地覆	tfd,	400
 吸湿	xos.	400
@@ -53519,7 +53371,6 @@ encoder:
 本地连接	bdl,	400
 平均海拔	pjh,	400
 很明白	hmb/	400
-爱吧	vzb;	400
 这些行业	zxh;	400
 说得对	sdd'	400
 小蝶	xpd;	400
@@ -53575,6 +53426,7 @@ encoder:
 香港电影	xgd;	400
 好事情	hsq.	400
 抚养费	fyf'	400
+在台北	ztb;	400
 入锅	rrg/	400
 品牌服装	ppf.	400
 农民朋友	nmp,	400
@@ -53672,6 +53524,7 @@ encoder:
 简化方案	jhf.	400
 建峰化工	jfh,	400
 交大南洋	jdn.	400
+金德发展	jdf'	400
 金丰投资	jft.	400
 锦化氯碱	jhl,	400
 开开实业	kks;	400
@@ -53785,7 +53638,6 @@ encoder:
 可看出	kkc'	400
 风光无限	fgw'	400
 新增功能	xzg'	400
-公司控股	gsk/	400
 女护士	nhs,	400
 后勤管理	hqg,	400
 平方尺	pfc'	400
@@ -53871,7 +53723,6 @@ encoder:
 满足需求	mzx,	400
 春耕	cfg,	400
 恨他	hxt/	400
-电话网	dhw;	400
 年过去了	ngq'	400
 春秋航空	cqh.	400
 照旧	zij;	400
@@ -53985,7 +53836,6 @@ encoder:
 大包围	dbw;	400
 变味	bww;	400
 合情合理	hqh,	400
-快板	kxb,	400
 明万历	mwl,	400
 兴趣小组	xqx'	400
 全副武装	qfw.	400
@@ -54142,6 +53992,7 @@ encoder:
 大错特错	dct/	400
 周年庆典	znq;	400
 司法程序	sfc.	400
+在同级	ztj'	400
 称他为	ctw.	400
 连接处	ljc/	400
 该函	gwh'	400
@@ -54277,6 +54128,7 @@ encoder:
 卵泡	lhp.	400
 二十五年	vsw/	400
 中国文联	zgw,	400
+能力有限	nly'	400
 疾病预防	jby'	400
 抢滩	qjt.	400
 勃然大怒	brd'	400
@@ -54308,6 +54160,7 @@ encoder:
 到你了	dnl'	400
 你问我	nww/	400
 附加运费	fjy'	400
+某品牌	mpp/	400
 保卫战	bwz;	400
 访问团	fwt;	400
 艾克	vkk,	400
@@ -54365,6 +54218,7 @@ encoder:
 软件评论	rjp.	400
 砍柴	ksc;	400
 降糖	jbt.	400
+投入产出	trc'	400
 记叙文	jxw.	400
 花草树木	hcs,	400
 二元结构	vyj,	400
@@ -54602,7 +54456,6 @@ encoder:
 乘积	chj/	400
 唱道	cod.	400
 拍卖会上	pmh;	400
-基础班	jcb,	400
 小区环境	xqh,	400
 造型美观	zxm'	400
 邻居们	ljm/	400
@@ -54705,6 +54558,7 @@ encoder:
 毛绒玩具	mrw;	400
 我慢慢	wmm.	400
 数字内容	szn.	400
+起步	qtb;	400
 放声大哭	fsd;	400
 可惜啊	kxv;	400
 比往年	bwn/	400
@@ -54780,6 +54634,7 @@ encoder:
 嫁衣	jny.	400
 车标	cpb,	400
 小窝	xpw.	400
+焉能	ysn'	400
 这种态度	zzt.	400
 认可度	rkd.	400
 海平面	hpm,	400
@@ -54829,7 +54684,6 @@ encoder:
 升本科	sbk/	400
 呼风唤雨	hfh,	400
 逢人	fur/	400
-红毛	hlm/	400
 改编成	gbc,	400
 拍摄地点	psd;	400
 屈光	qpg;	400
@@ -54912,6 +54766,7 @@ encoder:
 庭审中	tsz;	400
 百度快照	bdk;	400
 很平常	hpc;	400
+踏步	tnb;	400
 徒然	tpr/	400
 新动向	xdx/	400
 林业厅	lyt,	400
@@ -55191,7 +55046,6 @@ encoder:
 钢坯	gap,	400
 郭襄	gwx.	400
 认识不	rsb,	400
-宏伟蓝图	hwl;	400
 耽美	dbm.	400
 最昂贵	zvg;	400
 困顿	kod,	400
@@ -55252,6 +55106,7 @@ encoder:
 美版	mdb/	400
 帕尔马	pvm'	400
 埋了	mtl'	400
+腰背	yub;	400
 排水系统	psx'	400
 动力装置	dlz;	400
 重重困难	cck'	400
@@ -55357,7 +55212,6 @@ encoder:
 预付费	yff'	400
 教育观	jyg'	400
 吉尼斯	jns,	400
-逃难	tnn'	400
 舒爽	sas,	400
 非常专业	fcz;	400
 突出成绩	tcc'	400
@@ -55542,7 +55396,6 @@ encoder:
 镊子	naz'	400
 而在此	vzc;	400
 财务风险	cwf'	400
-把脉	bjm/	400
 桌面工具	zmg;	400
 胡同里	htl;	400
 盘内	pzn;	400
@@ -55700,7 +55553,6 @@ encoder:
 振华路	zhl;	400
 此曲	cnq;	400
 而提供	vtg/	400
-高一点	gyd;	400
 劈开	ppk,	400
 帘子	liz'	400
 馆员	guy;	400
@@ -55924,6 +55776,7 @@ encoder:
 牛仔布	nzb,	400
 播放音乐	bfy/	400
 接地电阻	jdd'	400
+眉宇	mpy.	400
 合川	hac/	400
 养好	ydh'	400
 精心安排	jxv,	400
@@ -56094,7 +55947,6 @@ encoder:
 封口费	fkf'	400
 削除	xec'	400
 蟒袍	mcp.	400
-逼逼	bsb,	400
 侧线	crx'	400
 螟虫	mcc;	400
 吃不开	cbk,	400
@@ -56347,7 +56199,6 @@ encoder:
 玉米花儿	ymh/	400
 直眉瞪眼	zmd;	400
 看到他	kdt/	400
-人吧	rab;	400
 的故事	dgs,	400
 会帮	hab,	400
 和那些	hnx;	400
@@ -56376,6 +56227,7 @@ encoder:
 我换	wvh,	400
 传我	crw/	400
 赌约	dhy'	400
+催发	crf'	400
 的料	dnl.	400
 碰我	psw/	400
 被改	byg'	400
@@ -56449,6 +56301,7 @@ encoder:
 娘们儿	nmv/	400
 呛死	qos,	400
 阿塔	vbt,	400
+吹吧	cob;	400
 闹呢	ncn;	400
 吓我一跳	xwy;	400
 白丝	bns'	400
@@ -56457,7 +56310,6 @@ encoder:
 摁在	vjz,	400
 洗白	xvb/	400
 唰啦	sol;	400
-毛啊	mpv;	400
 来做客	lzk.	400
 完了吧	wlb;	400
 没进入	mjr/	400
@@ -56632,12 +56484,14 @@ encoder:
 独爱	dqv/	400
 好气儿	hqv/	400
 老着脸皮	lzl'	400
+女款	nnk,	400
 藏富	ckf.	400
 航天飞船	htf/	400
 剪完	jkw.	400
 您请看	nqk/	400
 必玩	bxw,	400
 二零零五	vll,	400
+好呗	hnb;	400
 忒快	tlk.	400
 认负	rwf/	400
 送一程	syc/	400
@@ -56664,7 +56518,6 @@ encoder:
 很背	hpb;	400
 洗点	xvd;	400
 二零零六	vll.	400
-学霸	xvb,	400
 罢考	bfk,	400
 陈胜吴广	csw.	400
 盒子炮	hzp.	400
@@ -56718,6 +56571,7 @@ encoder:
 啊服啦	vfl;	400
 欸乃	vyn'	400
 挨班儿	vbv/	400
+矮半截儿	vbj/	400
 艾叶豹	vyb/	400
 爱克斯刀	vks'	400
 安慰赛	vws.	400
@@ -56920,7 +56774,6 @@ encoder:
 官媒	gim'	400
 光盘行动	gpx,	400
 广东柠檬	gdn,	400
-贵圈	goq;	400
 跪舔	gnt/	400
 国乒	gop/	400
 哈喽啊	hlv;	400
@@ -56961,7 +56814,6 @@ encoder:
 疥蛤蟆	jhm;	400
 金句	jaj/	400
 京味儿	jwv/	400
-警匪片儿	jfp/	400
 究根儿	jgv/	400
 巨痒无比	jyw,	400
 剧本儿	jbv/	400
@@ -57069,10 +56921,10 @@ encoder:
 毛寸发型	mcf,	400
 毛估	mpg/	400
 毛乎乎	mhh/	400
-毛左	mpz,	400
 没家没业	mjm;	400
 没人比你	mrb/	400
 没样儿	myv/	400
+眉线	mpx'	400
 煤砟子	mzz'	400
 每轮儿	mlv/	400
 门洞儿	mdv/	400
@@ -57281,7 +57133,6 @@ encoder:
 细活儿	xhv/	400
 细颗粒物	xkl/	400
 细腰蜂	xyf;	400
-虾米皮	xmp'	400
 瞎逼	xfb,	400
 下绊儿	xbv/	400
 香干儿	xgv/	400
@@ -57376,6 +57227,7 @@ encoder:
 录取分数	lqf.	400
 骗到	pqd,	400
 护城河	hch.	400
+花圃	hkp;	400
 塑料模具	slm;	400
 人口数量	rks;	400
 称王	chw,	400
@@ -57421,6 +57273,7 @@ encoder:
 却迟迟	qcc'	400
 宫室	gis.	400
 围垦	wok'	400
+眉眼	mpy;	400
 点睛	dej;	400
 限购	xbg;	400
 盲盒	mwh/	400
@@ -57528,7 +57381,6 @@ encoder:
 每刻	mqk.	400
 蜚声	fes,	400
 青春年华	qcn/	400
-圆融	yor,	400
 脾气暴躁	pqb;	400
 崇尚	ces;	400
 踏雪	tnx,	400
@@ -57556,7 +57408,6 @@ encoder:
 晚上好	wsh'	400
 青紫	qfz;	400
 鲁南	lyn,	400
-战略思维	zls'	400
 毫无顾忌	hwg'	400
 看中国	kzg;	400
 认识问题	rsw;	400
@@ -57585,6 +57436,7 @@ encoder:
 袍子	pyz'	400
 信息群发	xxq'	400
 让我感动	rwg,	400
+眉间	mpj.	400
 卫生用品	wsy;	400
 紫铜	znt/	400
 花园小区	hyx,	400
@@ -57619,7 +57471,6 @@ encoder:
 多留	dul/	400
 工会干部	ghg.	400
 哪会	noh/	400
-发毛	flm/	400
 反对票	fdp,	400
 并驾齐驱	bjq'	400
 猪皮	zqp'	400
@@ -57745,6 +57596,7 @@ encoder:
 爱好者们	vhz/	400
 热压	rjy,	400
 骑虎	qqh;	400
+投入市场	trs,	400
 服输	fus,	400
 防盗网	fdw;	400
 悲悯	bem.	400
@@ -57781,7 +57633,6 @@ encoder:
 麻布	mgb,	400
 有染	yxr.	400
 专门人员	zmr;	400
-它吧	tib;	400
 女警	nnj,	400
 潮头	cvt.	400
 离子交换	lzj,	400
@@ -57831,6 +57682,7 @@ encoder:
 产业体系	cyt/	400
 虎啸	hex;	400
 我学习	wxx'	400
+裂口	lsk;	400
 反舰导弹	fjd'	400
 太厚	tph,	400
 涂覆	tvf,	400
@@ -57917,6 +57769,7 @@ encoder:
 世界人民	sjr'	400
 呼吸器	hxq;	400
 日臻完善	rzw.	400
+门票收入	mps/	400
 法律环境	flh,	400
 乳罩	rzz;	400
 罗布	lfb,	400
@@ -58018,6 +57871,7 @@ encoder:
 瓦房店	wfd.	400
 多亩	dum.	400
 还没呢	hmn;	400
+错报	cab,	400
 现有企业	xyq;	400
 巨蟒	jcm;	400
 高收入者	gsr,	400
@@ -58796,7 +58650,6 @@ encoder:
 燃放烟花	rfy,	400
 久矣	juy'	400
 哪部	nob.	400
-担保物权	dbw,	400
 澳门回归	vmh;	400
 石屋	ssw'	400
 目标公司	mbg'	400
@@ -58851,6 +58704,7 @@ encoder:
 人耳	rav,	400
 你的心灵	ndx'	400
 定向培养	dxp.	400
+溃败	kvb;	400
 油桶	yvt,	400
 钻床	zac.	400
 无法拒绝	wfj'	400
@@ -58867,7 +58721,6 @@ encoder:
 去年全年	qnq/	400
 强而有力	qvy'	400
 豪强	hwq'	400
-发吧	flb;	400
 不能也	bny'	400
 哀号	vwh;	400
 宁乡	nix'	400
@@ -59073,7 +58926,6 @@ encoder:
 梵天	fmt,	400
 剃刀	tdd'	400
 高一年级	gyn'	400
-爬树	phs,	400
 随附	sbf'	400
 杨开慧	ykh,	400
 英格	ykg,	400
@@ -59198,6 +59050,7 @@ encoder:
 认定事实	rds.	400
 无法履行	wfl/	400
 嗅探	xot,	400
+缺电	qqd;	400
 青岛港	qdg.	400
 财付通	cft'	400
 明确分工	mqf,	400
@@ -59385,6 +59238,7 @@ encoder:
 免费发布	mff,	400
 快步	kxb;	400
 佣兵	yrb/	400
+招聘网	zpw;	400
 目前市场	mqs,	400
 等级考试	djk.	400
 墨盒	mvh/	400
@@ -59429,6 +59283,7 @@ encoder:
 版通	brt'	400
 山西网通	sxw'	400
 德甲	dpj;	400
+率高	lwg.	400
 铃木	lam,	400
 印染	yhr.	400
 四川网通	scw'	400
@@ -59521,7 +59376,6 @@ encoder:
 油品	yvp;	400
 稳赚	whz;	400
 企业财务	qyc/	400
-下吧	xsb;	400
 太厉害	tlh.	400
 灵犀	lex'	400
 然后按	rhv,	400
@@ -59559,7 +59413,6 @@ encoder:
 修改版	xgb/	400
 网页特效	wyt.	400
 屏东	ppd,	400
-你吧	nrb;	400
 背投	bkt,	400
 县人	xhr/	400
 反覆	fhf,	400
@@ -59660,6 +59513,7 @@ encoder:
 莞尔	wkv/	400
 沃尔	wvv/	400
 楞了	lml'	400
+里亚	liy,	400
 可支配	kzp,	400
 莱恩	lkv;	400
 倩碧	qrb,	400
@@ -59865,6 +59719,7 @@ encoder:
 王者归来	wzg,	400
 战网	zew;	400
 点歌台	dgt'	400
+纯纯	clc'	400
 索纳塔	snt,	400
 目眩	mfx;	400
 瞠目	cfm;	400
@@ -60021,6 +59876,7 @@ encoder:
 旧房	jef.	400
 大钱	dpq/	400
 长弓	ccg'	400
+娇娃	jnw'	400
 白沫	bnm.	400
 他的手臂	tds'	400
 木剑	mmj/	400
@@ -60068,7 +59924,6 @@ encoder:
 怎么改	zmg'	400
 特区报	tqb,	400
 叶枫	yof,	400
-暗月	viy/	400
 裙下	qyx,	400
 磨房	mgf.	400
 哈飞	hof'	400
@@ -60185,7 +60040,6 @@ encoder:
 炕上	khs;	400
 尿床	npc.	400
 靠著	krz,	400
-体育报	tyb,	400
 纲目	glm;	400
 前几日	qjr;	400
 苦口婆心	kkp.	400
@@ -60402,7 +60256,6 @@ encoder:
 暴食	bis/	400
 狼籍	lqj/	400
 容道	rid.	400
-抢先报	qxb,	400
 看不透	kbt/	400
 嘴巴里	zbl;	400
 听天由命	tty/	400
@@ -60518,6 +60371,7 @@ encoder:
 恐怖事件	kbs/	400
 抢劫案	qjv.	400
 热点专题	rdz;	400
+科斯塔	kst,	400
 迫降	pnj'	400
 云母	ydm'	400
 铃儿	lav/	400
@@ -60967,7 +60821,6 @@ encoder:
 取保	qbb/	400
 几千块	jqk,	400
 吊具	doj;	400
-干吧	gtb;	400
 化工公司	hgg'	400
 任你选	rnx/	400
 大魔王	dmw,	400
@@ -61006,7 +60859,6 @@ encoder:
 冒泡	mip.	400
 黎民	lhm'	400
 口误	kow.	400
-机器配置	jqp;	400
 电车男	dcn;	400
 有天赋	ytf;	400
 给水排水	jsp;	400
@@ -61362,6 +61214,7 @@ encoder:
 美洲杯	mzb,	400
 黏土	nht,	400
 安妮宝贝	vnb;	400
+毛纺	mpf'	400
 产品组合	cpz/	400
 懊丧	vxs,	400
 图酷	tok,	400
@@ -61420,6 +61273,7 @@ encoder:
 念错	nac/	400
 贺信	hqx/	400
 买股票	mgp,	400
+上步	seb;	400
 艳史	yfs;	400
 忘返	wwf/	400
 讷讷	nwn.	400
@@ -61480,7 +61334,6 @@ encoder:
 波尔图	bvt;	400
 即发	jef'	400
 不相容	bxr.	400
-体毛	trm/	400
 蝉翼	ccy'	400
 权谋	qmm.	400
 七仙女	qxn'	400
@@ -61516,8 +61369,8 @@ encoder:
 脱销	tux/	400
 钙片	gap/	400
 剑飞	jaf'	400
+犯案	fqv.	400
 大闹天宫	dnt.	400
-低贱	drj;	400
 看雪	kvx,	400
 验尸	yqs'	400
 磨坊	mgf,	400
@@ -61545,6 +61398,7 @@ encoder:
 哪个城市	ngc.	400
 能源安全	nyv/	400
 胖乎乎	phh/	400
+锐步	rab;	400
 宽频网	kpw;	400
 胸臆	xuy/	400
 母子俩	mzl/	400
@@ -61597,6 +61451,7 @@ encoder:
 输油管道	syg.	400
 床板	cgb,	400
 内政部长	nzb/	400
+果报	gib,	400
 妖物	ynw/	400
 充气娃娃	cqw'	400
 耳坠	vbz'	400
@@ -61661,6 +61516,7 @@ encoder:
 人生感悟	rsg.	400
 汴京	bvj.	400
 舍去	saq,	400
+娇贵	jng;	400
 本专科	bzk/	400
 贱民	jhm'	400
 村夫	cmf,	400
@@ -62081,6 +61937,7 @@ encoder:
 智力开发	zlk'	400
 棉签	mmq/	400
 泰丰	tff,	400
+赛弗	sif'	400
 脱缰	tuj'	400
 逡巡	qyx'	400
 虎踞	hej;	400
@@ -62092,10 +61949,8 @@ encoder:
 狂涨	kqz.	400
 恩莱科	vlk/	400
 图像编辑	txb,	400
-吻痕	woh.	400
 天下武林	txw,	400
 续航能力	xhn'	400
-叫屈	joq'	400
 波多黎各	bdl/	400
 睽违	kfw,	400
 最有钱	zyq/	400
@@ -62106,7 +61961,6 @@ encoder:
 戎马	rlm'	400
 乱涂	lrt.	400
 银屏	yap'	400
-银钱	yaq/	400
 大司马	dsm'	400
 拜尔	bvv/	400
 我想吃	wxc;	400
@@ -62210,6 +62064,7 @@ encoder:
 外包服务	wbf/	400
 董存瑞	dcr,	400
 图释	tos/	400
+军容	jir.	400
 日本军队	rbj'	400
 东方美女	dfm'	400
 并购买	bgm'	400
@@ -62315,7 +62170,6 @@ encoder:
 夜长梦多	ycm/	400
 锻练	dal'	400
 钨钢	wag/	400
-离宫	lwg.	400
 盘绕	pzr'	400
 绘图工具	htg;	400
 告慰	grw'	400
@@ -62329,6 +62183,7 @@ encoder:
 丽春院	lcy'	400
 骂街	moj/	400
 陪我玩	pww,	400
+小说吧	xsb;	400
 枯骨	kmg;	400
 临阵脱逃	lzt/	400
 脓包	nub/	400
@@ -62417,7 +62272,6 @@ encoder:
 普瑞	pkr,	400
 每个人对	mgr'	400
 看扁	kvb.	400
-毛家	mpj.	400
 成都日报	cdr,	400
 毕尔巴	bvb'	400
 康居	kgj'	400
@@ -62683,6 +62537,7 @@ encoder:
 篮坛	lzt,	400
 基诺	jkn.	400
 老资格	lzg,	400
+干贝	gtb;	400
 割让	gir.	400
 动漫画	dmh,	400
 伞下	sax,	400
@@ -62945,7 +62800,6 @@ encoder:
 明慧	mih,	400
 翁虹	wrh;	400
 好想哭	hxk;	400
-毛边	mpb'	400
 地下党	dxd;	400
 绵薄	mlb,	400
 岷山	mes;	400
@@ -62973,7 +62827,6 @@ encoder:
 雾状	wtz.	400
 安徽阜阳	vhf'	400
 好玩儿	hwv/	400
-卡尺	kec'	400
 鸣不平	mbp,	400
 枕巾	zmj;	400
 人之处	rzc/	400
@@ -63011,7 +62864,6 @@ encoder:
 赔偿标准	pcb.	400
 岗亭	get.	400
 金海岸	jhv;	400
-星吧	xib;	400
 华晨宝马	hcb'	400
 南山路	nsl;	400
 朝鲜队	cxd'	400
@@ -63159,6 +63011,7 @@ encoder:
 摇粒绒	ylr'	400
 不锈钢网	bxg;	400
 起纠纷	qjf'	400
+女裤	nnk.	400
 燃烧弹	rsd'	400
 宫闱	giw.	400
 埃文斯	vws,	400
@@ -63275,6 +63128,7 @@ encoder:
 无正文	wzw.	400
 单词通	dct'	400
 五百次	wbc.	400
+同仁们	trm/	400
 两百人	lbr/	400
 映山红	ysh'	400
 谋女郎	mnl.	400
@@ -63456,7 +63310,6 @@ encoder:
 琵琶半	ppb.	400
 军魂	jih,	400
 山县	sex;	400
-拍卖网站	pmw.	400
 飞行队	fxd'	400
 桑拿房	snf.	400
 镀镍	dan/	400
@@ -63555,7 +63408,6 @@ encoder:
 底边	dgb'	400
 恩那	von'	400
 上膛	set/	400
-多毛	dum/	400
 大联欢	dlh'	400
 牵累	qpl;	400
 外屋	wuw'	400
@@ -63715,6 +63567,7 @@ encoder:
 容器里	rql;	400
 虹吸	hcx;	400
 胡宗南	hzn,	400
+女报	nnb,	400
 情报库	qbk.	400
 骗税	pqs/	400
 封面照	fmz;	400
@@ -63966,6 +63819,7 @@ encoder:
 噘嘴	joz;	400
 霄汉	xth.	400
 护唇膏	hcg.	400
+袁伟民	ywm'	400
 好爽啊	hsv;	400
 里层	lic'	400
 二三线	vsx'	400
@@ -64014,6 +63868,7 @@ encoder:
 贤能	xdn'	400
 丝织品	szp;	400
 就来气	jlq/	400
+淫娃	yvw'	400
 构词	gmc.	400
 内耳	ncv,	400
 滚边	gvb'	400
@@ -64232,7 +64087,6 @@ encoder:
 农畜	nic.	400
 锈病	xab.	400
 嫩黄	nnh,	400
-水产局	scj'	400
 窠臼	kij/	400
 邮码	yim,	400
 马尔科	mvk/	400
@@ -64314,6 +64168,7 @@ encoder:
 全内置	qnz;	400
 除暴安良	cbv.	400
 农经网	njw;	400
+小眉	xpm'	400
 海贼团	hzt;	400
 台联党	tld;	400
 农林局	nlj'	400
@@ -64471,6 +64326,7 @@ encoder:
 勤学苦练	qxk'	400
 铺轨	pag,	400
 骠悍	bqh.	400
+奥修	vrx/	400
 瑞利	rfl/	400
 外国名著	wgm,	400
 乱骂	lrm;	400
@@ -64615,7 +64471,6 @@ encoder:
 二年生	vns/	400
 天都峰	tdf;	400
 城东南	cdn,	400
-软毛	rpm/	400
 换行符	hhf/	400
 王导	wfd'	400
 二千人	vqr/	400
@@ -64657,6 +64512,7 @@ encoder:
 恳谈	ket.	400
 范阳	fky'	400
 偶联剂	vlj.	400
+键名	jam/	400
 糖尿	tdn'	400
 风景图	fjt;	400
 吸怪	xog.	400
@@ -64680,6 +64536,7 @@ encoder:
 含怒	han'	400
 脑外科	nwk/	400
 吃人肉	crr;	400
+柳叶刀	lyd'	400
 开网吧	kwb;	400
 摩托化	mth/	400
 力诺	lqn.	400
@@ -64893,6 +64750,7 @@ encoder:
 福建网	fjw;	400
 徒子徒孙	tzt'	400
 窝囊气	wnq/	400
+眉眉	mpm'	400
 七星岩	qxy;	400
 富矿	fik,	400
 译码器	ymq;	400
@@ -64915,7 +64773,6 @@ encoder:
 互殴	hsv,	400
 跳房子	tfz'	400
 彩霸王	cbw,	400
-毛呢	mpn;	400
 窘困	jik;	400
 阿尔克	vvk,	400
 优利欧	ylv,	400
@@ -64982,11 +64839,13 @@ encoder:
 马粪	mqf.	400
 年刊	nqk,	400
 赤膊上阵	cbs'	400
+岑参	cec'	400
 敲破	qwp,	400
 您所处	nsc/	400
 把它买	btm'	400
 亚南	ysn,	400
 人棉	ram,	400
+题跋	tib;	400
 旁支	pwz,	400
 车台	cpt'	400
 谢客	xwk.	400
@@ -65005,6 +64864,7 @@ encoder:
 牛头怪	ntg.	400
 胶泥	jun.	400
 啮齿	noc;	400
+积习	jhx'	400
 松劲	smj'	400
 航天部	htb.	400
 连袂	lpm.	400
@@ -65616,6 +65476,7 @@ encoder:
 痘印	dgy/	400
 伽玛刀	gmd'	400
 赤日	ctr;	400
+皮膜	pgm/	400
 臭皮囊	cpn,	400
 老股民	lgm'	400
 单行线	dxx'	400
@@ -65641,7 +65502,6 @@ encoder:
 北太平	btp,	400
 甜咖啡	tkf;	400
 吊桶	dot,	400
-吧女	bon'	400
 银杉	yas,	400
 峰山下	fsx,	400
 人体美	rtm.	400
@@ -65787,6 +65647,7 @@ encoder:
 植物体	zwt/	400
 防眩目	fxm;	400
 爱达荷	vdh,	400
+送风口	sfk;	400
 发型屋	fxw'	400
 烤肉串	krc;	400
 虢国	gzg;	400
@@ -65809,6 +65670,7 @@ encoder:
 厚恩	hgv;	400
 咖啡猫	kfm/	400
 萎蔫	wkn,	400
+眉形	mpx,	400
 蜡人	lcr/	400
 中周	zoz/	400
 肉兔	rct/	400
@@ -65897,6 +65759,7 @@ encoder:
 波盘	bvp/	400
 卡通图	ktt;	400
 棉纺织厂	mfz,	400
+分两步	flb;	400
 闵政浩	mzh.	400
 核大国	hdg;	400
 成人卡通	crk'	400
@@ -65909,6 +65772,7 @@ encoder:
 冀馆陶	jgt'	400
 供求热线	gqr'	400
 克孜	kgz'	400
+纪念卡	jnk;	400
 脚凳	jud'	400
 矮凳	vgd'	400
 抚摩她	fmt'	400
@@ -66021,7 +65885,6 @@ encoder:
 啤酒屋	pjw'	400
 明星照片	mxz/	400
 首期款	sqk,	400
-毛拉	mpl,	400
 炮位	phw/	400
 摸彩	mjc/	400
 奥美定	vmd.	400
@@ -66035,7 +65898,6 @@ encoder:
 唐恩	tgv;	400
 平绒	psr'	400
 青玉案	qyv.	400
-慢跑鞋	mpx,	400
 田赋	ttf;	400
 小蜻蜓	xqt;	400
 泰式按摩	tsv.	400
@@ -66048,7 +65910,6 @@ encoder:
 赎买	shm'	400
 儒尼尼奥	rnn/	400
 蔷薇科	qwk/	400
-二次元	vcy,	400
 库奇马	kqm'	400
 配料表	plb,	400
 乳贴	rzt;	400
@@ -66318,6 +66179,7 @@ encoder:
 割绒	gir'	400
 烘房	hhf.	400
 平开窗	pkc.	400
+鹿王	lgw,	400
 切薄片	qbp/	400
 更名器	gmq;	400
 忆秦娥	yqv'	400
@@ -66354,6 +66216,7 @@ encoder:
 孟二冬	mvd/	400
 脏弹	zud'	400
 少年行	snx/	400
+化疗敏	hlm/	400
 九牧王	jmw,	400
 裴氏	pes/	400
 王冕	wfm;	400
@@ -66747,7 +66610,6 @@ encoder:
 屏蔽门	pbm.	400
 力回馈	lhk/	400
 关秀媚	gxm'	400
-超五星级	cwx'	400
 护耳	hjv,	400
 理工农	lgn.	400
 伊藤忍	ytr'	400
@@ -66969,6 +66831,7 @@ encoder:
 楼采凝	lcn.	400
 岬角	jej/	400
 白马湖	bmh.	400
+长宁店	cnd.	400
 安托万	vtw,	400
 钢桶	gat,	400
 曼昆	mik;	400
@@ -67219,6 +67082,7 @@ encoder:
 涓子	jvz'	400
 稽留	jhl/	400
 恢复器	hfq;	400
+菜牛	ckn/	400
 流星街	lxj/	400
 危如累卵	wrl/	400
 彭兴庭	pxt.	400
@@ -67493,7 +67357,6 @@ encoder:
 广东台	gdt'	400
 春闺梦	cgm,	400
 赛宁	sin.	400
-挂号处	ghc/	400
 性派对	xpd'	400
 壁画墓	bhm,	400
 毛袜	mpw.	400
@@ -67523,7 +67386,6 @@ encoder:
 钱江潮	qjc.	400
 人不学	rbx.	400
 锡丝	xas'	400
-桥孔	qmk'	400
 山里红	slh'	400
 铁道口	tdk;	400
 华体网	htw;	400
@@ -67611,6 +67473,7 @@ encoder:
 好高骛远	hgw,	400
 春华秋实	chq.	400
 不可限量	bkx;	400
+披头散发	pts'	400
 物尽其用	wjq/	400
 阿谀奉承	vyf'	400
 斗志昂扬	dzv,	400
@@ -68262,7 +68125,6 @@ encoder:
 人世沧桑	rsc'	400
 称臣纳贡	ccn,	400
 马放南山	mfn;	400
-黄口孺子	hkr'	400
 窃玉偷香	qyt/	400
 牛黄狗宝	nhg.	400
 畏敌如虎	wdr;	400
@@ -68656,7 +68518,6 @@ encoder:
 海屋筹添	hwc.	400
 含垢藏疾	hgc.	400
 含垢匿瑕	hgn,	400
-含污忍垢	hwr,	400
 函盖充周	hgc/	400
 寒泉之思	hqz;	400
 罕譬而喻	hpv;	400
@@ -69008,7 +68869,6 @@ encoder:
 南冠楚囚	ngc;	400
 南航北骑	nhb'	400
 南户窥郎	nhk.	400
-南去北来	nqb,	400
 南山铁案	nst.	400
 难更仆数	ngp.	400
 难乎其难	nhq'	400
@@ -69096,7 +68956,6 @@ encoder:
 喷雨嘘云	pyx,	400
 烹犬藏弓	pqc'	400
 蓬户柴门	phc.	400
-蓬生麻中	psm;	400
 蓬头赤脚	ptc/	400
 批砉导窾	phd.	400
 批鳞请剑	plq/	400
@@ -69625,6 +69484,7 @@ encoder:
 渝北	yvb;	400
 别忘	bow.	400
 迁安	qrv.	400
+眉山	mps;	400
 成华	cgh/	400
 喜欢听	xht;	400
 皇姑	hng'	400
@@ -69738,7 +69598,6 @@ encoder:
 红外光谱	hwg.	400
 判断出	pdc'	400
 明争	miz/	400
-孟婆汤	mpt.	400
 曲棍	qcg,	400
 弹弹	tgt'	400
 哪般	nob/	400
@@ -69810,7 +69669,6 @@ encoder:
 磐安	pzv.	400
 富顺	fis/	400
 看不过	kbg,	400
-回稳	how/	400
 不大好	bdh'	400
 翻红	frh'	400
 某男	mkn;	400
@@ -69894,6 +69752,7 @@ encoder:
 公安县	gvx;	400
 牟平区	mpq,	400
 好赚	hnz;	400
+写吧	xib;	400
 昆都仑	kdl/	400
 泡芙	pvf,	400
 小娃娃	xww'	400
@@ -69961,6 +69820,7 @@ encoder:
 万荣县	wrx;	400
 额尔古纳	vvg'	400
 北票市	bps.	400
+理县	lfx;	400
 灵川	lec/	400
 容县	rix;	400
 清新县	qxx;	400
@@ -70031,7 +69891,6 @@ encoder:
 安福县	vfx;	400
 法库县	fkx;	400
 扑鼻而来	pbv,	400
-整颗	zsk;	400
 蓬头	pkt.	400
 能力范围	nlf;	400
 鄂托克旗	vtk.	400
@@ -70107,7 +69966,6 @@ encoder:
 热敏电阻	rmd'	400
 毫不费力	hbf'	400
 评鉴	pwj;	400
-五颗	wwk;	400
 内斯塔	nst,	400
 莹润	ykr.	400
 划清界限	hqj'	400
@@ -70173,6 +70031,7 @@ encoder:
 直方图	zft;	400
 可喜可贺	kxk'	400
 拍岸	pjv;	400
+齐眉	qum'	400
 微寒	wph.	400
 另谋	lom.	400
 牙子	ycz'	400
@@ -70288,6 +70147,7 @@ encoder:
 安全考虑	vqk;	400
 瓜皮	ghp'	400
 拿笔	nab/	400
+牛背	nrb;	400
 枯藤	kmt,	400
 偏题	prt;	400
 区域范围	qyf;	400
@@ -70442,7 +70302,6 @@ encoder:
 平城	psc,	400
 嗡嗡作响	wwz;	400
 民团	mct;	400
-毛孩	mph'	400
 钉死	das,	400
 瑞兽	rfs.	400
 藏污	ckw.	400
@@ -70451,6 +70310,7 @@ encoder:
 盲女	mwn'	400
 北国风光	bgf;	400
 胞浆	buj.	400
+飞秒	flm/	400
 非婚	feh'	400
 哈珀	hop,	400
 哌嗪	poq;	400
@@ -70469,6 +70329,7 @@ encoder:
 纳尔逊	nvx'	400
 日益壮大	ryz,	400
 静园	jfy;	400
+社会科	shk/	400
 卡尔加里	kvj;	400
 狂人日记	krr.	400
 票房纪录	pfj'	400
@@ -70518,7 +70379,6 @@ encoder:
 呛了	qol'	400
 流传开来	lck,	400
 后勤人员	hqr;	400
-卡吧	keb;	400
 饱暖	bun;	400
 爱管闲事	vgx,	400
 日出而作	rcv/	400
@@ -70549,7 +70409,6 @@ encoder:
 前摆	qkb,	400
 吠陀	fot'	400
 生父母	sfm'	400
-多颗	duk;	400
 闹翻天	nft,	400
 会操	hac,	400
 镶满	xam.	400
@@ -70624,7 +70483,6 @@ encoder:
 乳糜	rzm.	400
 图片报	tpb,	400
 文魁	wuk/	400
-六颗	lwk;	400
 扭过头去	ngt,	400
 还真难	hzn'	400
 狂涛	kqt.	400
@@ -70922,7 +70780,6 @@ encoder:
 非君	fej'	400
 没头没尾	mtm'	400
 扔下来	rxl,	400
-泥泞不堪	nnb,	400
 空蒙	kim,	400
 赔光	phg;	400
 目标点	mbd;	400
@@ -71005,7 +70862,6 @@ encoder:
 爱护公物	vhg/	400
 锻模	dam,	400
 黄檗	hkb'	400
-克什克腾	ksk/	400
 落墨	lkm;	400
 木芙蓉	mfr,	400
 人工心脏	rgx/	400
@@ -71015,6 +70871,7 @@ encoder:
 脱蜡	tul;	400
 征夫	zpf,	400
 屏风后	pfh/	400
+多步	dub;	400
 欧冶子	vyz'	400
 生面孔	smk'	400
 抽身而退	csv'	400
@@ -71288,6 +71145,7 @@ encoder:
 甜酒酿	tjn,	400
 照登	zid'	400
 郑苹如	zpr'	400
+植物群	zwq'	400
 字尾	ziw'	400
 凡无	fnw,	400
 鸟气	nbq/	400
@@ -71470,7 +71328,6 @@ encoder:
 分度头	fdt.	400
 分配律	fpl/	400
 挂红灯	ghd.	400
-果柄	gib,	400
 核膜	hmm/	400
 解放日	jfr;	400
 靠右边	kyb'	400
@@ -71959,7 +71816,6 @@ encoder:
 性情温柔	xqw'	400
 牙婆	ycp.	400
 药贩	ykf;	400
-荫棚	ykp,	400
 治外法权	zwf,	400
 前滚	qkg.	400
 号炮	hop.	400
@@ -71987,6 +71843,7 @@ encoder:
 裁开	ckk,	400
 驱逐令	qzl/	400
 吊祭	doj/	400
+眉月	mpy/	400
 空天飞机	ktf,	400
 削壁	xeb'	400
 越障	ytz'	400
@@ -72038,6 +71895,7 @@ encoder:
 罗讷河	lnh.	400
 马尼托巴	mnt'	400
 麦纳麦	mnm,	400
+锚喷支护	mpz,	400
 面积分	mjf/	400
 拿手戏	nsx'	400
 纳贿	nlh;	400
@@ -72273,6 +72131,7 @@ encoder:
 敞露	cel,	400
 畏服	wtf/	400
 嗒然	tor/	400
+噜苏	los,	400
 逆流而行	nlv/	400
 年貌	nqm/	400
 囚居	qoj'	400
@@ -72430,11 +72289,11 @@ encoder:
 宽阔无边	kkw'	400
 铜子儿	tzv/	400
 吵扰	cor,	400
-毛口	mpk;	400
 二男二女	vnv'	400
 阿芙蓉	vfr,	400
 哀江南赋	vjn;	400
 埃琳娜	vln'	400
+癌症病患	vzb;	400
 安宁平静	vnp,	400
 安息国	vxg;	400
 案秤	vic/	400
@@ -72454,6 +72313,7 @@ encoder:
 丛葬	caz,	400
 粗恶	cdv,	400
 崔鸿	ceh.	400
+寸脉	ccm/	400
 弹子房	dzf.	400
 德国麻疹	dgm.	400
 地主分子	dzf'	400
@@ -72515,7 +72375,6 @@ encoder:
 满登登	mdd'	400
 满满登登	mmd'	400
 慢坡	mxp,	400
-毛蚴	mpy;	400
 帽舌	mes/	400
 媒人婆	mrp.	400
 密度波	mdb.	400
@@ -72804,6 +72663,7 @@ encoder:
 德乌帕	dwp;	400
 嫡堂	dnt;	400
 地躺拳	dtq.	400
+颠踣	dkb;	400
 电离气	dlq/	400
 电位能	dwn'	400
 吊慰	dow'	400
@@ -72910,6 +72770,7 @@ encoder:
 各河流	ghl.	400
 各期刊	gqk,	400
 各投其好	gtq'	400
+工厂布置	gcb;	400
 弓弦儿	gxv/	400
 公安官员	gvg;	400
 公民科	gmk/	400
@@ -72947,7 +72808,6 @@ encoder:
 互动台	hdt'	400
 互蒙其利	hmq/	400
 户对门当	hdm;	400
-护发乳液	hfr.	400
 花粉囊	hfn,	400
 化验品	hyp;	400
 荒怪不经	hgb'	400
@@ -73091,6 +72951,7 @@ encoder:
 瞒人耳目	mrv;	400
 满口胡柴	mkh;	400
 猫王迷	mwm.	400
+毛蓝	mpl,	400
 毛渠	mpq.	400
 卯尽全力	mjq'	400
 没后跟	mhg;	400
@@ -73764,7 +73625,6 @@ encoder:
 那个意思	ngy;	400
 办法可以	bfk'	400
 脸容	lur.	400
-马上开始	msk'	400
 下去吗	xqm;	400
 如墨	rnm;	400
 我嘛	wvm;	400
@@ -74172,7 +74032,6 @@ encoder:
 添麻烦了	tmf'	400
 领悟到了	lwd'	400
 封喉	fth;	400
-小妈	xpm'	400
 哪的	nod/	400
 你头上	nts;	400
 而最让	vzr.	400
@@ -74320,7 +74179,6 @@ encoder:
 免你	mun/	400
 去哪儿了	qnv'	400
 是那里的	snl/	400
-忍吧	rqb;	400
 认识啊	rsv;	400
 亭内	twn;	400
 向前跑去	xqp,	400
@@ -74351,7 +74209,6 @@ encoder:
 她敢	tng'	400
 温香软玉	wxr,	400
 雨啊	ytv;	400
-安吧	vib;	400
 负能量	fnl;	400
 太强悍了	tqh'	400
 比我们强	bwm'	400
@@ -74587,6 +74444,7 @@ encoder:
 我团	wvt;	400
 触球	cuq,	400
 哪跟哪	ngn;	400
+入监	rrj;	400
 啥啊	sov;	400
 非偶然	fvr/	400
 防空火力	fkh'	400
@@ -74685,6 +74543,7 @@ encoder:
 乱劈	lrp'	400
 茫然无措	mrw,	400
 仰天咆哮	ytp;	400
+昭容	zir.	400
 恶婆娘	vpn'	400
 通道入口	tdr;	400
 然乌	ruw/	400
@@ -74728,12 +74587,13 @@ encoder:
 不能取得	bnq/	400
 吃大亏了	cdk'	400
 没玩够	mwg/	400
+模仿出	mfc'	400
 浅坑	qvk,	400
 直接按	zjv,	400
 发脾气了	fpq'	400
-毛叔	mps;	400
 好吃啊	hcv;	400
 年发展	nfz'	400
+去看电影	qkd;	400
 寻遍	xeb.	400
 报平安	bpv.	400
 反而容易	fvr;	400
@@ -74806,7 +74666,6 @@ encoder:
 醒了啊	xlv;	400
 志南	ztn,	400
 百尺竿	bcg/	400
-穿吧	cib;	400
 可认识	krs.	400
 快饿死了	kvs'	400
 你放屁	nfp'	400
@@ -75045,6 +74904,7 @@ encoder:
 财力物力	clw'	400
 破坏能力	phn'	400
 下本钱	xbq/	400
+再三考虑	zsk;	400
 脆了	cul'	400
 大反派	dfp.	400
 封建王朝	fjw,	400
@@ -75211,7 +75071,6 @@ encoder:
 挂念你	gnn/	400
 留下给	lxg'	400
 弄墨	nfm;	400
-骗吗	pqm;	400
 胜果	sug;	400
 谈崩	twb;	400
 光频	gep;	400
@@ -75297,6 +75156,7 @@ encoder:
 风光一时	fgy;	400
 叫保安	jbv.	400
 你是恶魔	nsv.	400
+为我考虑	wwk;	400
 别谦虚了	bqx'	400
 可怕程度	kpc.	400
 买了房子	mlf'	400
@@ -75429,6 +75289,7 @@ encoder:
 没突破	mtp,	400
 窃走	qiz,	400
 少年天子	snt'	400
+渭北	wvb;	400
 冬虫	duc;	400
 还没发生	hmf/	400
 叫兽	jos.	400
@@ -75477,7 +75338,6 @@ encoder:
 安荣	vir,	400
 赴险	ftx'	400
 琥珀朱绫	hpz'	400
-玛旁雍错	mpy/	400
 男娃	ntw'	400
 太没人性	tmr.	400
 听了吗	tlm;	400
@@ -75601,7 +75461,6 @@ encoder:
 日内瓦湖	rnw.	400
 容差	ric.	400
 时贤	six;	400
-吧啊	bov;	400
 不理你啦	bln;	400
 串儿	cov/	400
 叫菜	joc,	400
@@ -75853,6 +75712,7 @@ encoder:
 会过日子	hgr'	400
 获得权力	hdq'	400
 九个儿子	jgv'	400
+莲红	lkh'	400
 量价	lij/	400
 民航飞机	mhf,	400
 尿完	npw.	400
@@ -75897,6 +75757,7 @@ encoder:
 安插亲信	vcq/	400
 别陪	bop'	400
 二两肉	vlr;	400
+卡崩	keb;	400
 免扰	mur,	400
 魔王降临	mwj;	400
 泥阳	nvy'	400
@@ -76028,7 +75889,6 @@ encoder:
 长期合同	cqh;	400
 亭亭如盖	ttr.	400
 夕死可矣	xsk'	400
-新的风暴	xdf;	400
 阿巴巴	vbb'	400
 阿巴尔虎	vbv;	400
 阿城市	vcs.	400
@@ -76306,7 +76166,6 @@ encoder:
 扒窃犯罪	pqf;	400
 霸雀	btq;	400
 霸王拧	bwn,	400
-吧务	bow/	400
 掰面儿了	bmv'	400
 白鹅绒	bvr'	400
 白芒铺乡	bmp'	400
@@ -77503,7 +77362,6 @@ encoder:
 来啦您嘞	lln;	400
 来你府上	lnf;	400
 来赔我	lpw/	400
-来往如梭	lwr,	400
 来西安	lxv.	400
 来自人民	lzr'	400
 来自体内	lzt;	400
@@ -77552,6 +77410,7 @@ encoder:
 李娜恩	lnv;	400
 李子坪	lzp,	400
 里奥阿维	lvv'	400
+力旺康景	lwk;	400
 立春快乐	lck/	400
 立法监督	lfj;	400
 立方尺	lfc'	400
@@ -77652,6 +77511,7 @@ encoder:
 马尔科姆	mvk'	400
 马颈坳村	mjv,	400
 马力强劲	mlq'	400
+马牌轮胎	mpl/	400
 马派传人	mpc/	400
 马嘶人喊	msr;	400
 马桶堵了	mtd'	400
@@ -77668,6 +77528,7 @@ encoder:
 买鞭炮	mbp.	400
 买彩票了	mcp'	400
 买贵必赔	mgb;	400
+买瓶儿水	mpv;	400
 买汤圆	mty;	400
 买条裙子	mtq'	400
 买洗发水	mxf;	400
@@ -77695,12 +77556,9 @@ encoder:
 猫人参	mrs'	400
 猫学派	mxp.	400
 毛海峰	mhf;	400
-毛怀	mph.	400
 毛集	mpj/	400
 毛加恩	mjv;	400
 毛举糠秕	mjk/	400
-毛妹	mpm'	400
-毛蠓	mpm;	400
 毛宁	mpn.	400
 毛扭法螺	mnf;	400
 毛田	mpt;	400
@@ -77735,6 +77593,8 @@ encoder:
 没开启吗	mkq;	400
 没男朋友	mnp,	400
 没内容	mnr.	400
+没拍好	mph'	400
+没骗你啊	mpn;	400
 没骗人啊	mpr;	400
 没然后了	mrh'	400
 没人看好	mrk'	400
@@ -77746,6 +77606,7 @@ encoder:
 没啥人了	msr'	400
 没责任心	mzr.	400
 没招儿了	mzv'	400
+玫瑰魅力	mgm'	400
 媒体平台	mtp'	400
 美女破舌	mnp/	400
 美欧日	mvr;	400
@@ -77809,6 +77670,7 @@ encoder:
 莫罗阿	mlv'	400
 墨剪绒	mjr'	400
 默认网络	mrw'	400
+谋篇布局	mpb'	400
 某传媒	mcm'	400
 木版年画	mbn,	400
 目不旁瞬	mbp;	400
@@ -78257,7 +78119,6 @@ encoder:
 偏传统	pct'	400
 偏强运行	pqy/	400
 偏头看了	ptk'	400
-偏误	prw.	400
 翩其反矣	pqf'	400
 骗粉丝	pfs'	400
 骗马	pqm'	400
@@ -78284,7 +78145,6 @@ encoder:
 平安集团	pvj;	400
 平常话	pch.	400
 平等互鉴	pdh;	400
-平福头乡	pft'	400
 平复如故	pfr,	400
 平肝潜阳	pgq'	400
 平均浓度	pjn.	400
@@ -78333,7 +78193,6 @@ encoder:
 普通病床	ptb.	400
 普通二本	ptv,	400
 溥博如天	pbr,	400
-溥仪故居	pyg'	400
 七八二四	qbv;	400
 七尺昂藏	qcv,	400
 七二八六	qvb.	400
@@ -78596,6 +78455,7 @@ encoder:
 热面皮	rmp'	400
 热能抗性	rnk.	400
 热气枪头	rqq.	400
+热情帮助	rqb;	400
 热情程度	rqc.	400
 热情欢迎	rqh/	400
 热土难离	rtn.	400
@@ -78696,7 +78556,6 @@ encoder:
 任何调整	rht,	400
 任骏飞	rjf'	400
 任你调戏	rnt'	400
-任溶溶	rrr.	400
 任天真	rtz,	400
 任务迁移	rwq/	400
 任贤仗能	rxz'	400
@@ -78804,6 +78663,7 @@ encoder:
 软烂	rpl.	400
 软颅	rpl;	400
 软萌	rpm,	400
+软膜	rpm/	400
 软盘上	rps;	400
 软皮鞋	rpx,	400
 软球	rpq,	400
@@ -78863,6 +78723,7 @@ encoder:
 啥破	sop,	400
 啥味	sow;	400
 啥装	soz.	400
+钐刀	sad'	400
 商通卡	stk;	400
 商务网络	sww'	400
 上岙	sev/	400
@@ -79426,6 +79287,7 @@ encoder:
 钟鹏	zap/	400
 肿么	zum/	400
 重庆人民	cqr'	400
+州安全局	zvq'	400
 周南南	znn,	400
 周倩如	zqr'	400
 煮鹌鹑蛋	zvc'	400
@@ -79518,7 +79380,6 @@ encoder:
 定省	dis;	400
 卢江	lej.	400
 名鉴	muj;	400
-铲板	cab,	400
 凸耳	tev,	400
 令嫒	lav'	400
 馈遗	kuw;	400
@@ -79545,7 +79406,6 @@ encoder:
 很容	hpr.	400
 们不能	mbn'	400
 会忘	haw.	400
-里吧	lib;	400
 能容	nyr.	400
 幽若	yer,	400
 钱人	qar/	400
@@ -79565,7 +79425,6 @@ encoder:
 嗯了	vol'	400
 口喷	kop;	400
 饶你	run/	400
-命吧	mab;	400
 恩特	vot/	400
 能容忍	nrr'	400
 会骗	hap'	400
@@ -79652,7 +79511,6 @@ encoder:
 年秋	nqq/	400
 日终	riz'	400
 字如	zir'	400
-毛威	mpw,	400
 那钱	nuq/	400
 当奴	den'	400
 咬你	yon/	400
@@ -79688,7 +79546,6 @@ encoder:
 个婚	gah'	400
 先陪	xrp'	400
 而烦恼	vfn.	400
-叫吧	job;	400
 军安	jiv.	400
 影卫	yiw'	400
 哪用	noy/	400
@@ -79697,10 +79554,11 @@ encoder:
 抛开一切	pky,	400
 认真看	rzk/	400
 瓶瓶	pkp.	400
-拿吧	nab;	400
+多秒	dum/	400
 可麻烦	kmf.	400
 饭好	fuh'	400
 美女呢	mnn;	400
+多困	duk;	400
 是捏	sin,	400
 舒悦	say.	400
 建北	jeb;	400
@@ -79711,11 +79569,11 @@ encoder:
 嘛啊	mov;	400
 讨逆	twn.	400
 里河	lih.	400
+点背	deb;	400
 然姐	ruj'	400
 那鱼	nuy/	400
 坎帕	ktp;	400
 盟战	miz;	400
-吧内	bon;	400
 尔摩	vum.	400
 刘强	luq'	400
 我闹	wvn.	400
@@ -79758,14 +79616,12 @@ encoder:
 晓平	xip,	400
 刘景	luj;	400
 肝脑	gun/	400
-里耶	liy,	400
 股和	guh/	400
 娇软	jnr,	400
 吴剑	woj/	400
 从盘	cap/	400
 你生日	nsr;	400
 嘛呀	moy;	400
-日吧	rib;	400
 饿啊	vuv;	400
 叽歪	jow,	400
 虐了	nel'	400
@@ -79817,7 +79673,6 @@ encoder:
 啡色	fos/	400
 光塔	get,	400
 骂成	moc,	400
-那吧	nub;	400
 裴勇	pey'	400
 尹丹	yed/	400
 而你呢	vnn;	400
@@ -79842,6 +79697,7 @@ encoder:
 嘛也	moy'	400
 恩利	vol/	400
 能量圈	nlq;	400
+那步	nub;	400
 剑强	jaq'	400
 灵湖	leh.	400
 光背	geb;	400
@@ -79943,7 +79799,7 @@ encoder:
 破窗而出	pcv'	400
 啦你	lon/	400
 容隐	riy'	400
-叫毛	jom/	400
+哪吧	nob;	400
 钟斌	zab.	400
 别改	bog'	400
 唱红	coh'	400
@@ -80046,9 +79902,7 @@ encoder:
 齐涛	qut.	400
 宝岩	biy;	400
 卡费	kef'	400
-毛女	mpn'	400
 哪对	nod'	400
-群吧	qeb;	400
 人孔	rak'	400
 滕王	tuw,	400
 当托	det,	400
@@ -80057,6 +79911,7 @@ encoder:
 甩你	sun/	400
 锋尚	fas;	400
 钱飞	qaf'	400
+命背	mab;	400
 宁子	niz'	400
 轻喷	qpp;	400
 尹浩	yeh.	400
@@ -80299,6 +80154,7 @@ encoder:
 彪彪	beb;	400
 膘实	bus.	400
 别熬	bov,	400
+别虐	bon;	400
 别骗人了	bpr'	400
 别刷	bos'	400
 宾格	big,	400
@@ -80316,6 +80172,7 @@ encoder:
 餐区	ceq,	400
 餐条	cet/	400
 仓科	cak/	400
+昌北	cib;	400
 昌斌	cib.	400
 昌峰	cif;	400
 昌金	cij/	400
@@ -80508,6 +80365,7 @@ encoder:
 骞哥	qig,	400
 建秋	jeq/	400
 建涛	jet.	400
+角蛙	juw;	400
 铰孔	jak'	400
 叫餐	joc;	400
 叫诶	jov.	400
@@ -80595,6 +80453,7 @@ encoder:
 良品铺子	lpp'	400
 俩群	lrq'	400
 量入而出	lrv'	400
+寮步	lib;	400
 灵鹿	lel.	400
 岭门	lem.	400
 领峰	laf;	400
@@ -80632,13 +80491,15 @@ encoder:
 毛陈	mpc'	400
 毛蛋	mpd'	400
 毛迪	mpd;	400
-毛强	mpq'	400
+毛凯	mpk;	400
+毛娜	mpn'	400
 锚筋	maj/	400
 锚喷	map;	400
 锚网	maw;	400
 帽帽	mem;	400
 帽绳	mes'	400
 没人呢	mrn;	400
+眉户	mph.	400
 美女群	mnq'	400
 咪啪	mop;	400
 芈你	men/	400
@@ -80652,6 +80513,7 @@ encoder:
 咩好	moh'	400
 蠛蚊负山	mwf;	400
 敏强	mqq'	400
+名片王	mpw,	400
 明康	mik.	400
 鸣泣	moq.	400
 铭城	mac,	400
@@ -80668,6 +80530,7 @@ encoder:
 膜法	muf.	400
 莫办	mkb'	400
 沐晴	mvq;	400
+拿呗	nab;	400
 拿哈	nah;	400
 拿啦	nal;	400
 拿俩	nal/	400
@@ -80966,7 +80829,6 @@ encoder:
 吐逆	ton.	400
 团票	top,	400
 退仓	tec/	400
-退毛	tem/	400
 脱饭	tuf/	400
 崴货	weh/	400
 完美屏	wmp'	400
@@ -81058,3 +80920,4 @@ encoder:
 桌卡	zek;	400
 卓敏	zem/	400
 邹飞	zuf'	400
+邹凯	zuk;	400

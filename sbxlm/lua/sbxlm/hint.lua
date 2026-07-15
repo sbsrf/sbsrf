@@ -34,14 +34,24 @@ function this.init(env)
 	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
 	local file = io.open(path, "r")
 	if not file then
-	  return
+		return
 	end
+	
 	for line in file:lines() do
-	  ---@type string, string
-	  local char, code = line:match("([^\t]+)\t([^\t]+)")
-	  env.xm_chars[code] = char
+		local char, code = line:match("([^\t]+)\t([^\t]+)")
+		if char and code then
+			table.insert(env.xm_chars, {
+					code = code,
+					char = char
+			})
+		end
 	end
 	file:close()
+	
+	-- 按code字典序排序数组
+	table.sort(env.xm_chars, function(a, b)
+			return a.code < b.code
+	end)
 end
 
 ---@param segment Segment
@@ -204,12 +214,11 @@ function this.func(translation, env)
 					break
 				end	
 			end
-			local chars = env.xm_chars
-			for code, char in pairs(chars) do
-				if code:sub(1,1) == input:sub(x,x) and code:len() == 2 and core.s(input) then
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(2,2)
-				elseif code:sub(1,2) == input and code:len() == 3 and core.sx(input) then
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. char .. code:sub(3,3)
+			for _, item in ipairs(env.xm_chars) do
+				if item.code:sub(1,1) == input:sub(x,x) and item.code:len() == 2 and core.s(input) then
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(2,2)
+				elseif item.code:sub(1,2) == input and code:len() == 3 and core.sx(input) then
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(3,3)
 				end
 			end
 		end
