@@ -117,6 +117,11 @@ function core.xm(id)
 end
 
 ---@param id string
+function core.ft(id)
+  return id == "sbft"
+end
+
+---@param id string
 function core.xmft(id)
   return id == "sbxm" or id == "sbft"
 end
