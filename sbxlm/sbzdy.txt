@@ -49,7 +49,7 @@ sbxlm.github.io/sbhz	hza
 sbxlm.github.io/sbf	sbfa
 声笔飞单：sbxlm.github.io/sbfd	fd
 sbxlm.github.io/sbfm	fma
-声笔飞天：sbxlm.github.io/sbft	fd
+声笔飞天：sbxlm.github.io/sbft	ft
 sbxlm.github.io/sbft	fta
 声笔飞码：sbxlm.github.io/sbfm	fm
 sbxlm.github.io/sbfd	fda
