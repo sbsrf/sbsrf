@@ -188,7 +188,7 @@ sbft_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
       send_sequence: "{apostrophe}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "'"
       send_sequence: "{apostrophe}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
