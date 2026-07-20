@@ -2437,7 +2437,7 @@ encoder:
 串	cooi	14764	coiaei
 碑	bse	14750	bseuia
 胎	tui	14714	tuuaee
-畔	pte	14686	ptiaei
+坪	pte	14686	pteiee
 骚	sqk;	14685	sqaaea
 厮	sgu	14667	sgeuei
 婴	yhh'	14641	yhiauo
@@ -2860,7 +2860,7 @@ encoder:
 奎	kpe	8746	kpeuoe
 疚	jgo	8723	jgoeuo
 隶	leio	8721	leaeei
-坪	pts,	8712	pteiee
+畔	ptd,	8712	ptiaei
 烂	lhd,	8691	lhouuo
 鞍	vka	8679	vkeiie
 姗	sne	8666	snaueu
@@ -27468,7 +27468,6 @@ encoder:
 判	pkx;	0	pkouee
 盼	pfr'	0	pfiaee
 叛	pkx'	0	pkouee
-畔	ptd,	0	ptiaei
 乓	pjs.	0	pjuiei
 庞	pgx.	0	pgoeue
 旁	pwd.	0	pwoeou
@@ -27523,6 +27522,7 @@ encoder:
 聘	pbia	0	pbeiie
 平	psd,	0	pseoue
 评	pws,	0	pwoaeo
+坪	pts,	0	pteiee
 凭	prr/	0	pruiue
 屏	ppk,	0	ppaeuo
 瓶	pkk.	0	pkouee
@@ -31951,7 +31951,7 @@ encoder:
 影响力	yxl'	400
 模板	mmb,	400
 载入	zkr/	400
-原因是	yys;	400
+饮用水	yys;	400
 精英	jdy,	400
 足球	znq,	400
 舒适	sas/	400
@@ -32705,7 +32705,7 @@ encoder:
 录像	lex/	400
 仍有	rry,	400
 高低	gwd/	400
-格式的	gsd/	400
+更迭	gsd/	400
 纪律	jll/	400
 国有资产	gyz.	400
 选中	xrz;	400
@@ -40175,7 +40175,7 @@ encoder:
 求发展	qfz'	400
 他一眼	tyy;	400
 懈怠	xxd'	400
-与生活	ysh.	400
+严寒	ysh.	400
 期货市场	qhs,	400
 家纺	jif'	400
 能帮	nyb,	400
@@ -56327,7 +56327,7 @@ encoder:
 团灭	tom,	400
 了吧唧	lbj;	400
 洞眼	dvy;	400
-闷坐	mcz/	400
+民众	mcz/	400
 挪步	njb;	400
 番外	frw/	400
 忍不了	rbl'	400
