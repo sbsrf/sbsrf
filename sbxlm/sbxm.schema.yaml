@@ -178,7 +178,7 @@ sbxm_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
       send_sequence: "{Home}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
 
