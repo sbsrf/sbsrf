@@ -105,7 +105,7 @@ function this.func(key_event, env)
       return rime.process_results.kNoop
     end
   end
-  if (core.fm(schema_id) and incoming == ';'
+  if ((core.fm(schema_id) or core.ft(schema_id)) and incoming == ';'
   and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?")) then
     local start =  string.find(input, "%u")
     if start then
