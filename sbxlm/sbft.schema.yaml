@@ -115,15 +115,13 @@ popping:
       accept: "[;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z][;',./][aeuio]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./a-zA-Z][aeuio]*"
+      accept: "[^aeuio]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
       accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[BPMFDTNLGKHJQXZCSRYWV]"
       prefix: 2
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z]{2}[aeuio]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
       accept: "[A-Z']"
       strategy: append
