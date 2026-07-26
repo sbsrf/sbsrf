@@ -238,7 +238,7 @@ function core.word_rules(code, id)
         base = base .. code[3]:sub(2, 2)
       elseif fx then         -- s1s2s3b3b3
         base = base .. code[3]:sub(3, 4)
-      elseif mm or xx then       -- AaBaCaCbCc
+      elseif mm then       -- AaBaCaCbCc
         base = base .. code[3]:sub(2, 3)
       end
     elseif #code >= 4 then
@@ -259,27 +259,15 @@ function core.word_rules(code, id)
   local extended = ""
   if jm then
     extended = code[1]:sub(2, 3)
-  elseif fm or fx or sp or xx then
+  elseif fm or fx or sp then
     extended = code[1]:sub(3, 4)
   end
   -- 全部编码为基本编码加上扩展编码
   local full = base .. extended
-  -- local final = { i="8", a="2", e="3", o="9", u="7" }
-  -- local middle = code[2]:sub(3, 6)
-  -- if #code > 2 then middle = code[2]:sub(3, 4) .. code[3]:sub(3, 4) end
-  -- if xx then 
-  --   -- 声笔象码只保留前四码基本编码，不添加扩展编码
-  --   return base
-  -- else
-  --   full = full .. middle .. final[code[#code]:sub(3, 3)]
-  -- end
   -- 对于简码和飞讯，多字词有两种打法，之前生成的打法没有考虑用 ssss 格式的情况。
   -- 这里，在编码的最后增加一个末字的声母，然后在检索的时候动态判断
   if (jm or fx) and #code >= 4 then
     full = full .. code[#code]:sub(1, 1)
-  elseif xx then
-    -- 声笔象码只保留前四码基本编码，不添加扩展编码
-    full = base
   end
   return full
 end

@@ -96,7 +96,7 @@ local function dfs_encode(phrase, position, code, env)
   for _, char in utf8.codes(phrase) do
     table.insert(characters, utf8.char(char))
   end
-  -- 对于飞系方案，构词用的编码不一定出现在单字全面中，所以需要单独的构词码
+  -- 对于飞系方案，构词用的编码不一定出现在单字全码中，所以需要单独的构词码
   -- 对于其他方案，调用单字全码即可，可以减少词库的大小
   local translations = env.reverse:lookup_stems(characters[position])
   if translations == "" then
@@ -106,8 +106,8 @@ local function dfs_encode(phrase, position, code, env)
   -- 对所有可能的构词码，逐个入栈，然后递归调用，从而实现各字的构词码之间的排列组合
   for stem in string.gmatch(translations, "[^ ]+") do
     -- 如果之前调用的是 reverse:lookup，那么除了单字全码之外，也可能查询到简码
-    -- 这里要把它们过滤掉，猛码除外
-    if not core.mm(env.engine.schema.schema_id) and stem:len() < 4 then
+    -- 这里要把它们过滤掉，猛码和象码除外
+    if not (core.mm(env.engine.schema.schema_id) or core.xm(env.engine.schema.schema_id)) and stem:len() < 4 then
       goto continue
     end
     table.insert(code, stem)
@@ -132,6 +132,7 @@ local function callback(commit, env)
     if static(entry.preedit, env) then
       goto continue
     end
+    --如果是组合上屏则不记忆
     if entry.comment == kTopSymbol then
       goto continue
     end
