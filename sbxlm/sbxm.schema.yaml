@@ -99,24 +99,29 @@ popping:
   __append:
     - match: "[^a-z]"
       accept: "[^ ]"
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      prefix: 2
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[A-Z]"
+      prefix: 2
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
       accept: "[A-Z]"
       strategy: append
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[^ a-z]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[^ a-z']"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]+"
       accept: "[^ aeuio]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[^ aeuio;',./0-9]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9A-Z][aeuio]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9A-Za-z][aeuio]*"
       accept: "[^ aeuio]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[A-Z]"
-      prefix: 2
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[a-z]"
-      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
