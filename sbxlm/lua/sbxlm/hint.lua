@@ -199,6 +199,8 @@ function this.func(translation, env)
 		    -- 如果是双拼的声声词，也直接通过
 		    if core.sp(id) and core.ss(input) then
 		      goto continue
+				elseif core.ft(id) and core.sxsx(input) then
+					goto continue
 		    end
 			rime.yield(candidate)
 			goto continue
@@ -289,7 +291,7 @@ function this.func(translation, env)
 		end
 		rime.yield(candidate)
 		-- 字词型方案 s 加数字或 ; 或 ' 后用aeuio选择的自定义字词
-		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][;',./0-9][aeuio]?") and not is_hidden then
+		if core.zici(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[;',./0-9][aeuio]?") and not is_hidden then
 			local forward
 			for j = 1, #hint_b do
 				memory:dict_lookup(candidate.preedit .. hint_b[j], false, 1)
