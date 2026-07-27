@@ -710,7 +710,7 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
       ;
     -- sgsf型：是否过滤掉多字词
     elseif core.ft(schema_id) and utf8.len(phrase.text) >= 4 and env.forced_selection
-    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][;',./].*") then
+    and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z;',./].*") then
       ;
   -- sgsn型：二、三字词用，第四码为数字
     elseif core.xm(schema_id) and utf8.len(phrase.text) >= 4

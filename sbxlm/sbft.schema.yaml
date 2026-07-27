@@ -120,6 +120,9 @@ popping:
     - when: pro_word
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[,./]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      prefix: 2
     - match: "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}"
       accept: "[AEUIO]"
       strategy: append
@@ -144,11 +147,8 @@ popping:
       accept: "[^ aeuio]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[^ aeuio;',./0-9]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9a-zA-Z][aeuio]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9a-zA-Z][aeuioAEUIO]*"
       accept: "[^ aeuio]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[A-Z]"
-      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
