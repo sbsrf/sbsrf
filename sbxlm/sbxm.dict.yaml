@@ -5109,6 +5109,7 @@ encoder:
 黄	hkiu	400	hk
 磺	gsk/	400	gs
 磺	ksk/	400	ks
+洄	hvoi	400	hv
 会	kad'	400	ka
 混	gviu	400	gv
 或	hloe	400	hl
@@ -6075,7 +6076,6 @@ encoder:
 篚	fzc,	130	fz
 畚	byp;	129	by
 妫	gnw.	129	gn
-洄	hvoi	129	hv
 麂	jgc/	129	jg
 堀	ktp;	129	kt
 杌	wms/	129	wm
@@ -33940,7 +33940,6 @@ encoder:
 裁判	ckp.	400
 低温	drw.	400
 无忧	wdy.	400
-所在单位	szd/	400
 之称	zzc/	400
 压抑	ygy,	400
 全自动	qzd,	400
@@ -47739,7 +47738,6 @@ encoder:
 烧热	shr,	400
 清洁工	qjg,	400
 楼阁	lmg.	400
-一小块	yxk,	400
 可溶性	krx.	400
 铺上	pas;	400
 山脊	sej.	400
@@ -49408,7 +49406,7 @@ encoder:
 则完全	zwq/	400
 共同完成	gtw,	400
 阎王	ycw,	400
-踩踩	cnc;	400
+踌躇	cnc;	400
 投票权	tpq,	400
 娱乐中心	ylz.	400
 电磁场	dcc,	400
@@ -49677,7 +49675,6 @@ encoder:
 径向	jpx/	400
 巩固了	ggl'	400
 懊悔	vxh.	400
-圆了	yol'	400
 面团	mst;	400
 盖好	gdh'	400
 昆曲	kiq;	400
@@ -53312,7 +53309,6 @@ encoder:
 与微软	ywr,	400
 浮出	fvc'	400
 公开信	gkx/	400
-写些	xix;	400
 鱼苗	yym,	400
 清淡的	qdd/	400
 企业会计	qyk.	400
@@ -56453,7 +56449,6 @@ encoder:
 厂龄	cgl;	400
 厂妹	cgm'	400
 唱片儿	cpv/	400
-超滑	cth.	400
 超凶	ctx/	400
 车貌	cpm/	400
 成宿儿	cxv/	400
@@ -76856,7 +76851,6 @@ encoder:
 三七二二	sqv,	400
 三日耳聋	srv,	400
 三日疟	srn.	400
-三孝口	sxk;	400
 散个步	sgb;	400
 桑地诺	sdn.	400
 搔头弄姿	stn.	400
