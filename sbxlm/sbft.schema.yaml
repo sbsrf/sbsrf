@@ -104,36 +104,19 @@ popping:
   __append:
     - match: "[^a-z]"
       accept: "[^ ]"
+    - when: pro_char
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      prefix: 2
+    - when: pro_word
+      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[a-z]"
+      strategy: append
     - when: pro_word
       match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]"
       accept: "[;]"
       prefix: 1
       strategy: ignore
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
-      accept: "[bpmfdtnlgkhjqxzcsrywv;,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[,./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./a-zA-Z][aeuio]*"
-      accept: "[^ aeuio]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
-      accept: "[bpmfdtnlgkhjqxzcsrywv;',./]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
-      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
-      prefix: 2
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
-      accept: "[A-Z']"
-      strategy: append
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
-      accept: "[0-9]"
-      prefix: 2
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0-9;',./][aeuio]*"
-      accept: "[bpmfdtnlgkhjqxzcsrywv;',./0-9]"
-    - when: pro_char
-      match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
-      accept: "[a-z]"
-      prefix: 2
     - when: pro_word
       match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[,./]"
@@ -144,6 +127,28 @@ popping:
       accept: "[;]"
       prefix: 0
       strategy: ignore
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]?"
+      accept: "[A-Z]"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[0-9]"
+      prefix: 2
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[;']"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][0-9]"
+      accept: "[^ aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "[^ a-z0-9]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio0-9]+"
+      accept: "[^ aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
+      accept: "[^ aeuio;',./0-9]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9a-zA-Z][aeuio]*"
+      accept: "[^ aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: "[A-Z]"
+      prefix: 2
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
@@ -190,6 +195,9 @@ sbft_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: ";"
       send_sequence: "{Home}{Right}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+      accept: ";"
+      send_sequence: ";{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
       accept: Tab
       send_sequence: "{apostrophe}{space}"
