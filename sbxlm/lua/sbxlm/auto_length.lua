@@ -224,8 +224,6 @@ function this.init(env)
   env.known_candidates = {}
   env.xx_flag = false
   env.pure_char = false
-  env.is_buffered = env.engine.context:get_option("is_buffered") or false
-  env.single_display = env.engine.context:get_option("single_display") or false
 
   env.char_lens = {}
   local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/char_lens.txt"
@@ -699,7 +697,7 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    -- 象系编码类型处理
+    -- 编码类型处理
     -- sssS型：四字词专用，第四码大写
     elseif core.xmft(schema_id) and utf8.len(phrase.text) ~= 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{3}[BPMFDTNLGKHJQXZCSRYWV].*") then
@@ -708,7 +706,7 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
     elseif core.xmft(schema_id) and utf8.len(phrase.text) < 5
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV][a-z].*") then
       ;
-    -- sgsf型：是否过滤掉多字词
+    -- 是否过滤掉多字词
     elseif core.ft(schema_id) and utf8.len(phrase.text) >= 4 and env.forced_selection
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv][a-z;',./].*") then
       ;
