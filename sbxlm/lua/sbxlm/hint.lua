@@ -51,7 +51,7 @@ function this.init(env)
 	
 	-- 对编码做字典序升序排序（原位排序数组）
 	table.sort(env.xm_char_list, function(a, b)
-		return a < b
+		return a.code < b.code
 	end)
 end
 

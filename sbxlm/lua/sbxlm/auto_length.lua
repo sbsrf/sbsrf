@@ -474,12 +474,12 @@ local function validate_phrase(entry, segment, type, input, env)
     to_match = to_match:lower()
   end
   
-  -- 声笔象码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
+  -- 象码天码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
   if core.xmft(schema_id) and input:len() >= 4 and env.strokes then
     -- 第一步：检查第四码是否匹配
     local fourth_char = input:sub(4, 4)
     if fourth_char ~= "" then
-      -- 检查是否是sssS型编码（第四码大写字母）
+      -- 检查是否是sgsf型编码
       if rime.match(fourth_char, "[;',./]") then
         -- 获取候选词的末字
         local phrase_text = entry.text
@@ -599,11 +599,9 @@ local function validate_phrase(entry, segment, type, input, env)
   end
   
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
-  -- 对于象系方案，由于我们只保留了前四码编码，completion可能只是一个字符（如"w"）
-  -- 此时需要特殊处理，只要输入的前三码匹配，就认为是有效的候选
+    -- 但对于象码和飞天，全码为四码，completion只有一个字符（如"w"），需要特殊处理
+    -- 只要前三码匹配，就认为是有效的候选，因为已经在前面进行了笔画筛选
   if core.xmft(schema_id) then
-    -- 象系方案特殊处理：只要前三码匹配，就认为是有效的候选
-    -- 因为我们已经在前面的步骤中进行了第四码和第五码的筛选
     goto valid
   elseif completion:sub(1, to_match:len()) == to_match then
     goto valid
@@ -721,6 +719,14 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
   end
 end
 
+local function table_count(t)
+  local n = 0
+  for _ in pairs(t) do
+      n = n + 1
+  end
+  return n
+end
+
 ---@param input string
 ---@param segment Segment
 ---@param env AutoLengthEnv
@@ -746,6 +752,7 @@ function this.func(input, segment, env)
   if env.engine.context:get_option("ascii_mode") then
     return
   end
+  
   -- 如果当前编码是静态编码，就只进行精确匹配，并依原样返回结果
   if static(input, env) then
     -- 清空候选缓存
@@ -890,6 +897,7 @@ function this.func(input, segment, env)
   -- 4. 如果输入的编码是扩展编码的全码，那么返回所有的候选
   -- 在情况 1 和 2 下，还要把已经见到的候选放到缓存中，以便在更长码时不重复出现这个候选
   -- 例如，对于声笔简码来说，3 码出现过的字词就不会再出现在 4 码的候选中，4 码出现过的字词就不会再出现在 6 码的候选中
+
   if dynamic(input, env) == dtypes.short then
     --飞简需要特殊处理
     if core.fj(schema_id) then
@@ -988,7 +996,7 @@ function this.func(input, segment, env)
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
       if (env.known_candidates[cand.text] or inf) < input:len() then
-          goto continue
+        goto continue
       end
       if count == 1 then
         if env.xx_flag then
@@ -1015,8 +1023,15 @@ function this.func(input, segment, env)
       count = count + 1
       ::continue::
     end
-  end
   
+    local cnt = table_count(env.known_candidates)
+    if core.ft(schema_id) and input:len() >= 4 + cnt
+    and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}") then
+      translate_by_split(input, segment, env)
+      return
+    end 
+  end
+ 
   if not env.single_selection and core.fm(schema_id) 
   and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
     local n, _ = string.find('aeuio', input:sub(-1))
