@@ -28,7 +28,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [pro_word, pro_char]
-    reset: 0
+    reset: 1
     states: [词组, 单字]
   - options: [hide, rational, irrational, both, neither]
     reset: 4
