@@ -28,7 +28,7 @@ switches:
     reset: 0
     states: [简体, 繁体]
   - options: [pro_word, pro_char]
-    reset: 1
+    reset: 0
     states: [词组, 单字]
   - options: [hide, rational, irrational, both, neither]
     reset: 4
@@ -138,6 +138,9 @@ popping:
       prefix: 2
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[;']"
+      strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]"
+      accept: "[']"
       strategy: append
     - match: "[bpmfdtnlgkhjqxzcsrywv][0-9][aeuio]*"
       accept: "[^ aeuio]"

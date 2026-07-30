@@ -16,11 +16,11 @@ columns:
 encoder:
   rules:
     - length_equal: 2
-      formula: "AaAbBaBbAcAd"
+      formula: "AaAbBaBb"
     - length_equal: 3
-      formula: "AaBaCaCbAcAd"
+      formula: "AaBaCaCb"
     - length_in_range: [4, 12]
-      formula: "AaBaCaZaAcAd"
+      formula: "AaBaCaZa"
 ...
 # 增加条目
 声笔飞天	sb6e
