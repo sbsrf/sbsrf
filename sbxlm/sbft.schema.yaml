@@ -139,9 +139,11 @@ popping:
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[;']"
       strategy: append
+    - match: "[bpmfdtnlgkhjqxzcsrywv][0-9][aeuio]*"
+      accept: "[^ aeuio]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: "[^ a-z0-9]"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?[aeuio0-9]+"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio0-9]+"
       accept: "[^ aeuio]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: "[^ aeuio;',./0-9]"
