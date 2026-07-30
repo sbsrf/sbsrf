@@ -312,7 +312,7 @@ local function dynamic(input, env)
     else
       return input:len() - 3
     end
-  elseif core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.sp(schema_id) then
+  elseif core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) then
     return input:len() - 3
   elseif core.mm(schema_id) then
     if input:len() == 5 then
@@ -387,7 +387,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xmft(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xmft(schema_id) or core.sp(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -475,7 +475,7 @@ local function validate_phrase(entry, segment, type, input, env)
   end
   
   -- 象码天码笔画补码：如果输入超过4码，使用后续笔画编码过滤候选词
-  if core.xmft(schema_id) and input:len() >= 4 and env.strokes then
+  if (core.xmft(schema_id) or core.sp(schema_id)) and input:len() >= 4 and env.strokes then
     -- 第一步：检查第四码是否匹配
     local fourth_char = input:sub(4, 4)
     if fourth_char ~= "" then
@@ -540,40 +540,29 @@ local function validate_phrase(entry, segment, type, input, env)
       if stroke_input ~= "" then
         local phrase_length = utf8.len(entry.text)
         local phrase_strokes = ""
-        
-        -- 根据词组长度应用不同的笔画补充规则
-        if phrase_length == 2 then
-          -- 二字词：补充首字的前两笔和末字的前四笔
-          local chars = {}
-          for _, char in utf8.codes(entry.text) do
-            table.insert(chars, utf8.char(char))
-          end
-          
-          -- 首字前两笔
-          local char1_stroke = env.strokes[chars[1]]
-          if char1_stroke then
-            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
-          end
-          
+        local chars = {}
+        for _, char in utf8.codes(entry.text) do
+          table.insert(chars, utf8.char(char))
+        end
+        -- 首字前两笔
+        local char1_stroke = env.strokes[chars[1]]
+        if char1_stroke then
+          phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
+        end
+
+        -- 根据双拼的单字也进行笔画过滤
+        if core.sp(schema_id) and phrase_length == 1 then
+          -- stroke_input是从第三笔开始的，所以要调整phrase_strokes
+          phrase_strokes = char1_stroke:sub(3)
+        -- 二字词：补充首字的前两笔和末字的前四笔 
+        elseif phrase_length == 2 then                
           -- 末字前四笔
           local char2_stroke = env.strokes[chars[2]]
           if char2_stroke then
             phrase_strokes = phrase_strokes .. char2_stroke:sub(1, 4)
           end
-                  
-        elseif phrase_length >= 3 then
-          -- 多字词：补充前三字的前两笔
-          local chars = {}
-          for _, char in utf8.codes(entry.text) do
-            table.insert(chars, utf8.char(char))
-          end
-          
-          -- 第一字前两笔
-          local char1_stroke = env.strokes[chars[1]]
-          if char1_stroke then
-            phrase_strokes = phrase_strokes .. char1_stroke:sub(1, 2)
-          end
-          
+        -- 多字词：补充前三字的前两笔     
+        elseif phrase_length >= 3 then        
           -- 第二字前两笔
           local char2_stroke = env.strokes[chars[2]]
           if char2_stroke then
@@ -601,7 +590,7 @@ local function validate_phrase(entry, segment, type, input, env)
   -- 如果 completion 和 alt_completion 有一个匹配上了，就认为这是一个有效的候选
     -- 但对于象码和飞天，全码为四码，completion只有一个字符（如"w"），需要特殊处理
     -- 只要前三码匹配，就认为是有效的候选，因为已经在前面进行了笔画筛选
-  if core.xmft(schema_id) then
+  if (core.xmft(schema_id) or core.sp(schema_id)) then
     goto valid
   elseif completion:sub(1, to_match:len()) == to_match then
     goto valid
@@ -616,7 +605,7 @@ local function validate_phrase(entry, segment, type, input, env)
   local phrase = rime.Phrase(env.dynamic_memory, type, segment.start, segment._end, entry)
   phrase.preedit = input
   -- 单次选择模式下，显示编码补全内容；否则清空
-  if env.single_selection and not core.xmft(schema_id) then
+  if env.single_selection and not (core.xmft(schema_id) or core.sp(schema_id)) then
     if input:len() == 3 and utf8.len(phrase.text) >= 4 and core.jm(schema_id) then
       if not env.lower_case then
         phrase.comment = phrase.comment:sub(-1, -1)
@@ -687,11 +676,11 @@ local function filter(phrase, schema_id, input, phrases, known_words, env)
         table.insert(phrases, phrase)
         known_words[phrase.text] = true
       end
-    elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
+    elseif (core.fm(schema_id) or core.fd(schema_id))
     and utf8.len(phrase.text) >= 4 and env.enable_filtering
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv]{2}[BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
-    elseif (core.fm(schema_id) or core.fd(schema_id) or core.sp(schema_id))
+    elseif (core.fm(schema_id) or core.fd(schema_id))
     and utf8.len(phrase.text) < 4
     and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][BPMFDTNLGKHJQXZCSRYWV].*") then
       ;
@@ -838,17 +827,7 @@ function this.func(input, segment, env)
       filter(phrase, schema_id, input, phrases, known_words, env)
     end
   end
-  -- 如果在快调时声笔自然或声笔小鹤用sxb没检索到单字，则查找静态词组
-  if #phrases == 0 and core.sp(schema_id) and core.sxb(input) then
-    env.static_memory:dict_lookup(input, false, 0)
-    for entry in env.static_memory:iter_dict() do
-      local phrase = rime.Phrase(env.static_memory, "table", segment.start, segment._end, entry)
-      phrase.preedit = input
-      rime.yield(phrase:toCandidate())
-    end
-    return
-  end
-  
+ 
   -- 飞简ssss时的特殊处理
   if dynamic(input, env) == dtypes.fj4s then
     local entry = rime.DictEntry()

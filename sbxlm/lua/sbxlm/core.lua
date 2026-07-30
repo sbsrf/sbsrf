@@ -259,7 +259,7 @@ function core.word_rules(code, id)
   local extended = ""
   if jm then
     extended = code[1]:sub(2, 3)
-  elseif fm or fx or sp then
+  elseif fm or fx then
     extended = code[1]:sub(3, 4)
   end
   -- 全部编码为基本编码加上扩展编码

@@ -27,13 +27,9 @@ switches:
   - name: zh_trad
     reset: 0
     states: [简体, 繁体]
+  # 为了避免拥挤，不显示下面的状态
   - name: pro_char
     reset: 0
-    states: [词组, 单字]
-  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
-  #- options: [_key_Hide]
-  #  states: ["▼"]
-  # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
   - name: is_buffered
@@ -110,7 +106,7 @@ translator:
   dictionary: sbzr
   enable_user_dict: true
   forced_selection: true
-  single_selection: false
+  single_selection: true
   enable_encoder: true
   stop_change: false
   delete_threshold: 2000
@@ -139,8 +135,9 @@ reverse_lookup:
   dictionary: sbzr.extended
 
 menu:
-  __include: sbxlm.yaml:/prelude/menu
+  page_size: 6
+  alternative_select_keys: "_23789"
+  alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{4}"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{2}"
-  select_comment_pattern: "^[a-z]{4,}|[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]{0,2}$"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]*"
+  select_comment_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z]{3}[aeuio]*$"
