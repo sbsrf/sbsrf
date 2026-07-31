@@ -109,8 +109,8 @@ function this.func(translation, env)
 				end
 			end
 		end
-		-- 飞系方案 sxbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
-		if core.feixi(id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]*") then
+		-- 飞系和双拼方案 sxbb 格式上的编码需要提示 sbb 或者 sbbb 格式的缩减码
+		if (core.feixi(id) or core.sp(id)) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]*") then
 			local codes = env.reverse:lookup(candidate.text)
 			candidate.comment = ""
 			for code in string.gmatch(codes, "[^ ]+") do
