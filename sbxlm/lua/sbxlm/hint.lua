@@ -499,10 +499,10 @@ function this.func(translation, env)
 					if not (core.fm(id) and core.sxs(input)) then
 						bihua = bihua .. entry.text .. hint_p[idx]
 					end
-					local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
-					rime.yield(forward)
 					break
 				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, text, bihua)
+				rime.yield(forward)
 				::continue::
 			end
 		end
@@ -524,11 +524,11 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 飞系方案在 ssb 码位上，提示spbb缩减字
-		if core.ssb(input) and core.feixi(id) and not is_hidden then
+		-- 飞系、双拼在 sxb 码位上，提示sxbb缩减字
+		if core.sxb(input) and (core.feixi(id) or core.sp(id)) and not is_hidden then
 			for _, b in ipairs(hint_b) do
-				local ssbx = candidate.preedit .. b
-				memory:dict_lookup(ssbx, false, 1)
+				local sxbx = candidate.preedit .. b
+				memory:dict_lookup(sxbx, false, 1)
 				local entry1 = nil
 				for entry in memory:iter_dict() do
 					entry1 = entry
