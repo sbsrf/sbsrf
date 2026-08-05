@@ -483,6 +483,12 @@ function this.func(translation, env)
 		or rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?[0123456789]")) then
 			for idx, bihua in ipairs(hint_b) do
 				local shengmu = candidate.preedit:sub(-1)
+				-- 仅当末位为声母时才提示声笔字；否则跳过本笔画。
+				-- 飞天声韵+数选（如 nz5）末位是数选键，进入此分支会把多字候选
+				-- 截断（脑子→脑）后误当成声笔字提示，产生多余的「脑」字。
+				if not core.s(shengmu) then
+					goto continue
+				end
 				-- hack，假设 UTF-8 编码都是 3 字节的
 				local text = candidate.text:sub(1, -4)
 				if core.sp(id) and not core.invalid_pinyin(shengmu .. bihua) then
