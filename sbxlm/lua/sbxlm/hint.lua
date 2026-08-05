@@ -484,7 +484,7 @@ function this.func(translation, env)
 			for idx, bihua in ipairs(hint_b) do
 				local shengmu = candidate.preedit:sub(-1)
 				-- 仅当末位为声母时才提示声笔字；否则跳过本笔画。
-				-- 飞天声韵+数选（如 nz5）末位是数选键，进入此分支会把多字候选
+				-- 飞天数选（如 nz5）末位是数选键，进入此分支会把多字候选
 				-- 截断（脑子→脑）后误当成声笔字提示，产生多余的「脑」字。
 				if not core.s(shengmu) then
 					goto continue
@@ -535,6 +535,24 @@ function this.func(translation, env)
 			for _, b in ipairs(hint_b) do
 				local sxbx = candidate.preedit .. b
 				memory:dict_lookup(sxbx, false, 1)
+				local entry1 = nil
+				for entry in memory:iter_dict() do
+					entry1 = entry
+					break
+				end
+				if not entry1 then
+					goto continue
+				end
+				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, b)
+				rime.yield(forward)
+				::continue::
+			end
+		end
+		-- 飞天 在sxbb+ 码位上，提示后码
+		if core.ft(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2,5}") then
+			for _, b in ipairs(hint_b) do
+				local code = candidate.preedit .. b
+				memory:dict_lookup(code, false, 1)
 				local entry1 = nil
 				for entry in memory:iter_dict() do
 					entry1 = entry
