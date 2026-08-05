@@ -215,7 +215,7 @@ function this.func(key_event, env)
   -- apply_schema 前先把输入存入 context property，
   -- 新 schema 的 func 在下一个按键事件中读取并恢复。
   if not ascii_mode and not key_event:shift() and key_event:ctrl() and not key_event:release()
-  and key_event.keycode == XK_period and core.fd(schema_id) then
+  and key_event.keycode == XK_j and core.fd(schema_id) then
     env.redirecting = true
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].*") then
       local target_schema_id = (schema_id == 'sbfd') and 'sbmd' or 'sbfd'
