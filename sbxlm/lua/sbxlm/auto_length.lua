@@ -636,7 +636,7 @@ local function translate_by_split(input, segment, env)
   local memory = env.static_memory
   local part1 = input:sub(1, 2)
   local part2 = input:sub(3)
-  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
+  if rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,6}[AEUIO][aeiouAEUIO]?") then
     local start =  string.find(input, "%u")
     if start then
       part1 = part1 .. input:sub(start):lower()
@@ -779,7 +779,7 @@ function this.func(input, segment, env)
         or (core.ft(schema_id) and core.sbsb(input))
         or (core.feixi(schema_id) and core.sbsb(input))
         or (core.fx(schema_id) and core.sxsb(input)) 
-        or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,2}[AEUIO][aeiouAEUIO]?") then
+        or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,6}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
     return
@@ -858,7 +858,7 @@ function this.func(input, segment, env)
   end
 
   -- 如果在四码时动态编码没有检索到结果，可以尝试拆分编码给出一个候选
-  if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}") then
+  if #phrases == 0 and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,6}") then
     translate_by_split(input, segment, env)
     return
   end
@@ -1005,7 +1005,7 @@ function this.func(input, segment, env)
   
     local cnt = table_count(env.known_candidates)
     if core.ft(schema_id) and input:len() >= 4 + cnt
-    and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,2}") then
+    and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{0,6}") then
       translate_by_split(input, segment, env)
       return
     end 
