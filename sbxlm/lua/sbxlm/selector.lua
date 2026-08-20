@@ -46,9 +46,10 @@ function this.func(key_event, env)
   if not segment then
     return rime.process_results.kNoop
   end
-  if segment:has_tag("sbyp") or segment:has_tag("bihua")
-      or segment:has_tag("zhlf") or segment:has_tag("sbzdy")
-      or segment:has_tag("lua") then
+
+  if (segment:has_tag("sbyp") or segment:has_tag("bihua") or
+      segment:has_tag("zhlf") or segment:has_tag("sbzdy") or
+      segment:has_tag("emoji") or segment:has_tag("lua")) then
     local pat = "[_23789]"
     local str = "_23789"
     if segment:has_tag("lua") then
@@ -62,8 +63,8 @@ function this.func(key_event, env)
       env.engine.schema.select_keys = temp
       return ret
     end
-  elseif env.engine.schema.schema_id == "sbmm" 
-    and rime.match(env.engine.context.input, "^[a-z]{3}[;',./]$") then
+  elseif env.engine.schema.schema_id == "sbmm" and
+      rime.match(env.engine.context.input, "^[a-z]{3}[;',./]$") then
     local pat = "[09876]"
     local map = {["0"] = "1",["9"] = "2",["8"] = "3",["7"] = "4",["6"] = "5"}
     if (string.find(key, pat)) then

@@ -1,6 +1,6 @@
--- 选择键转注释过滤器
--- 本过滤器将 alternative_select_keys 中定义的选择键添加到候选项的注释中显示
--- Version: 20240125
+-- 选择键转注释过滤器（极简最终版）
+-- 核心优化：es_conversion移到紧前面，🏠🏡无处可逃，必须进入本过滤器for循环迭代
+-- Version: 20260820
 -- Author: 戴石麟
 
 local rime = require "lib"
@@ -15,13 +15,13 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.tags_match(segment, env)
-  -- 当前段落需要为标点或为正常输入码且匹配选择注释模式
   local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
   local input = rime.current(env.engine.context) or ""
-  return (segment:has_tag("abc") and rime.match(input, pattern))
-      or segment:has_tag("punct") or segment:has_tag("sbyp")
-      or input:len() >= 2 and segment:has_tag("bihua") or segment:has_tag("zhlf")
-      or segment:has_tag("sbzdy") or segment:has_tag("lua")
+  -- 修正续行语法（运算符在行尾）
+  return (segment:has_tag("abc") and rime.match(input, pattern)) or
+      segment:has_tag("punct") or segment:has_tag("sbyp") or segment:has_tag("emoji") or
+      (input:len() >= 2 and segment:has_tag("bihua")) or segment:has_tag("zhlf") or
+      segment:has_tag("sbzdy") or segment:has_tag("lua")
 end
 
 ---@param translation Translation
@@ -31,18 +31,19 @@ function this.func(translation, env)
   local input = rime.current(env.engine.context) or ""
   local select_keys = env.engine.schema.select_keys or ""
   local segment = env.engine.context.composition:back()
-  if segment:has_tag("sbyp") or input:len() >= 2 and segment:has_tag("bihua")
-      or segment:has_tag("zhlf") or segment:has_tag("sbzdy") then
+  -- 特殊场景下强制选择键为_23789或_aeuio（与selector.lua一致）
+  if (segment:has_tag("sbyp") or (input:len() >= 2 and segment:has_tag("bihua")) or
+      segment:has_tag("zhlf") or segment:has_tag("sbzdy") or
+      segment:has_tag("emoji")) then
     select_keys = "_23789"
   elseif segment:has_tag("lua") then
     select_keys = "_aeuio"
   end
   local i = 0
   for candidate in translation:iter() do
-    -- 通过取模运算获取与候选项对应的选择键
+    -- 基于当前i获取选择键（现在🏠🏡会经过这里，i会正常递增！）
     local j = i % select_keys:len() + 1
     local key = select_keys:sub(j, j)
-    -- 如果是下划线，说明是首选，无需操作
     if key == "_" then
       goto continue
     end
@@ -50,23 +51,29 @@ function this.func(translation, env)
     if core.xmft(schema_id) then
       goto continue2
     end
-    -- 如果是单次选重非全码产生的补全选项，无需操作
-    if candidate.type == "completion" and core.zici(schema_id) 
-      and segment:has_tag("abc") and not segment:has_tag("bihua") then
+    -- 单次选重非全码补全
+    if candidate.type == "completion" and core.zici(schema_id) and
+        segment:has_tag("abc") and not segment:has_tag("bihua") then
       if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then
         goto continue
       elseif (input:len() < 6) and not segment:has_tag("sbjm") then
         goto continue
       end
     end
-    if (core.fm(schema_id) or core.fy(schema_id)) and segment:has_tag("abc") and env.engine.context:get_option("delayed_pop")
-    and rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
+    if (core.fm(schema_id) or core.fy(schema_id)) and segment:has_tag("abc") and env.engine.context:get_option("delayed_pop") and
+        rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
       key = key:upper()
     end
     ::continue2::
+    -- 对于_23789/_aeuio的特殊场景：无条件覆盖comment（因为此时es_conversion产出的emoji会带空comment进入本过滤器）
+    if select_keys == "_23789" or select_keys == "_aeuio" then
+      candidate.comment = key
+      goto continue
+    end
+    -- 普通场景：保留原有comment并追加选择键
     if candidate.comment:len() > 0 then
-      if (core.py(schema_id) or core.jp(schema_id)) and segment:has_tag("abc") 
-      and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then
+      if (core.py(schema_id) or core.jp(schema_id) or core.yp(schema_id)) and segment:has_tag("abc") and
+          rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then
         candidate.comment = key .. candidate.comment
       else
         candidate.comment = candidate.comment .. ":" .. key
