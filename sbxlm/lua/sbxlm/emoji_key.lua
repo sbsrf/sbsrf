@@ -60,16 +60,6 @@ local function assign_comment(candidate, i, select_keys, schema_id, segment, inp
   local len = select_keys:len()
   local j = i % len + 1
   local key = select_keys:sub(j, j)
-
-  if select_keys == "_23789" or select_keys == "_aeuio" then
-    if key == "_" then
-      candidate.comment = ""
-    else
-      candidate.comment = key
-    end
-    return
-  end
-
   if candidate.type == "completion" and core.zici(schema_id) and
       segment:has_tag("abc") and not segment:has_tag("bihua") then
     if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then
@@ -149,6 +139,11 @@ function this.func(translation, env)
       end
     end
   end
+end
+
+---@param env Env
+function this.fini(env)
+  env.emoji_dict = nil
 end
 
 return this

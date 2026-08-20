@@ -1,8 +1,3 @@
--- 选择键转注释过滤器（极简最终版）
--- 核心优化：es_conversion移到紧前面，🏠🏡无处可逃，必须进入本过滤器for循环迭代
--- Version: 20260820
--- Author: 戴石麟
-
 local rime = require "lib"
 local core = require "sbxlm.core"
 

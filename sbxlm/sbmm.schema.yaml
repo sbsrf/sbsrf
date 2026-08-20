@@ -70,12 +70,12 @@ engine:
     - script_translator@sbyp
     - history_translator
   filters:
-    - lua_filter@*sbxlm.emoji_key
     - reverse_lookup_filter@reverse_lookup
     - reverse_lookup_filter@reverse_lookup2
     - lua_filter@*sbxlm.hint
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.emoji_key
 
 popping:
   __append:

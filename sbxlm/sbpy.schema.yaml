@@ -85,15 +85,15 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
-    - lua_filter@*sbxlm.emoji_key
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
-    - uniquifier
     - lua_filter@*sbxlm.fix
     - lua_filter@*sbxlm.stroke_filter
     - lua_filter@*sbxlm.postpone
     - lua_filter@*sbxlm.lookup_filter
     - simplifier
+    - uniquifier
+    - lua_filter@*sbxlm.emoji_key
 
 algebra:
   # 1. 冠零声

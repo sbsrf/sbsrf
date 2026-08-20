@@ -91,13 +91,13 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
-    - lua_filter@*sbxlm.emoji_key
     - reverse_lookup_filter@reverse_lookup
     - reverse_lookup_filter@reverse_lookup2
     - lua_filter@*sbxlm.hint
     - lua_filter@*sbxlm.radicals
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.emoji_key
 
 popping:
   __append:
@@ -244,7 +244,7 @@ menu:
   alternative_select_labels: ["", "", "", "", "", ""]
   alternative_select_patterns:
     - "[a-z]{3}[;',./0-9][aeuio]*"
-    - "[a-z]{2}[aeuio]{6}"
+    - "[a-z]{2}[aeuio]{2}"
     - "[a-z]{4}[aeuio]{2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][BPMFDTNLGKHJQXZCSRYWV][a-z][aeuio]*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[a-zA-Z][aeuio]+"
