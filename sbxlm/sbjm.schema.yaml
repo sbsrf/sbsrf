@@ -96,11 +96,11 @@ engine:
     - table_translator@sbzdy
     - history_translator
   filters:
+    - lua_filter@*sbxlm.emoji_key
     - lua_filter@*sbxlm.hint
     - reverse_lookup_filter@reverse_lookup
     - simplifier
     - uniquifier
-    - lua_filter@*sbxlm.emoji_key
 
 popping:
   __append:
