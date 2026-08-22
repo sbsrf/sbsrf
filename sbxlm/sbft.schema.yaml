@@ -151,6 +151,12 @@ popping:
       accept: "[^ aeuio;',./0-9]"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][a-zA-Z][;',./0-9a-zA-Z][aeuioAEUIO]*"
       accept: "[^ aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[a-z]"
+      accept: Tab
+      send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{3}[a-z]"
+      accept: "Shift+Tab"
+      send_sequence: "{Home}{Right}{space}{Home}{Right}{space}{space}"
 
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
