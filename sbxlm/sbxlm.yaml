@@ -131,7 +131,7 @@ prelude:
   reverse_lookup:
     tags: [bihua, sbyp, zhlf, sbfc]
     overwrite_comment: true
-    dictionary: sbjm.extended
+    dictionary: sbfc
 
   es_conversion:
     tags: [emoji]
