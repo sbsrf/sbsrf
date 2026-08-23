@@ -6,17 +6,12 @@ __include: sbft.schema.yaml:/
 schema:
   schema_id: sbmf
   name: "声笔魔飞"
-  icon: "assets/fly_o.ico"
+  icon: "nothing.ico"
   description: |
-    —— 隐藏了候选框的飞天, 强制盲打_ᵢₙg...
+    —— 隐藏了候选框的飞单, 强制盲打。只能在Windows下使用。
 
-__patch:
-  # schema/icon: "assets/fly_y.ico"
-  style/+:
-      # composition
-      preedit_type: preview
-      # inline_preedit: false
-      layout:
-        __include: style.yaml:/layout_h
-        margin_y: -1
-        # min_width: 0
+style:
+  inline_preedit: true #如果连嵌入的首选都不想看，请把true改为false
+  preedit_type: preview #若只想看首选的编码，请把preview改为composition
+  layout:
+    margin_y: -1
