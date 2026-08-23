@@ -387,7 +387,7 @@ local function validate_phrase(entry, segment, type, input, env)
   if entry.comment == "" then
     goto valid
   end
-  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or core.xmft(schema_id) or core.sp(schema_id)) and input:len() < 4 then
+  if (core.fm(schema_id) or core.fy(schema_id) or core.fd(schema_id) or core.mm(schema_id) or (core.xmft(schema_id) and schema_id ~= "sbmf") or core.sp(schema_id)) and input:len() < 4 then
     return nil
   end
   -- 处理一些特殊的过滤条件
@@ -782,7 +782,9 @@ function this.func(input, segment, env)
         or rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeiou]{0,6}[AEUIO][aeiouAEUIO]?") then
       translate_by_split(input, segment, env)
     end
-    return
+    if not (schema_id == "sbmf" and input:len() == 3) then
+      return
+    end
   end
 
   local memory = env.dynamic_memory
@@ -970,18 +972,21 @@ function this.func(input, segment, env)
     if env.single_selection and core.fm(schema_id) and env.forced_selection
     and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]{1}") then
       return
-    end    
+    end
+    local use_known_candidates = not (schema_id == "sbmf" and input:len() >= 4)
     local count = 1
     for _, phrase in ipairs(phrases) do
       local cand = phrase:toCandidate()
-      if (env.known_candidates[cand.text] or inf) < input:len() then
+      if use_known_candidates and (env.known_candidates[cand.text] or inf) < input:len() then
         goto continue
       end
       if count == 1 then
         if env.xx_flag then
           env.xx_flag = false
         else
-          env.known_candidates[cand.text] = input:len()
+          if use_known_candidates then
+            env.known_candidates[cand.text] = input:len()
+          end
         end
         cand.comment = ""
       elseif cand.comment ~= "" then

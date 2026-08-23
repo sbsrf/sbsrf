@@ -1,5 +1,6 @@
 patch:
   schema_list:
+    - schema: sbmf
     - schema: sbjp
     - schema: sbft
     - schema: sbpy
