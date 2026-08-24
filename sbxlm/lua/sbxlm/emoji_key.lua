@@ -60,7 +60,7 @@ local function assign_comment(candidate, i, select_keys, schema_id, segment, inp
   local len = select_keys:len()
   local j = i % len + 1
   local key = select_keys:sub(j, j)
-  if candidate.type == "completion" and core.zici(schema_id) and
+  if not core.xmft(schema_id) and candidate.type == "completion" and core.zici(schema_id) and
       segment:has_tag("abc") and not segment:has_tag("bihua") then
     if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then
       return
@@ -97,6 +97,7 @@ function this.func(translation, env)
   local segment = env.engine.context.composition:back()
 
   local is_emoji_mode = false
+  local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
   if (segment:has_tag("sbyp") or (input:len() >= 2 and segment:has_tag("bihua")) or
       segment:has_tag("zhlf") or segment:has_tag("sbzdy") or
       segment:has_tag("emoji")) then
@@ -104,6 +105,8 @@ function this.func(translation, env)
     is_emoji_mode = segment:has_tag("emoji")
   elseif segment:has_tag("lua") then
     select_keys = "_aeuio"
+  elseif segment:has_tag("abc") and rime.match(input, pattern) then
+    select_keys = "_23789"
   end
 
   local show_emoji = false
