@@ -8,15 +8,15 @@ patch:
     - schema: sbxh
     - schema: sbzz
     - schema: sbhz
+    - schema: sbyp
+    - schema: sbmf
     - schema: sbfd
     - schema: sbfm
     - schema: sbfy
     - schema: sbfx
     - schema: sbfj
-    - schema: sbmf
     - schema: sbmm
     - schema: sbjm
-    - schema: sbyp
   switcher:
     abbreviate_options: true
     caption: "〔方案选单〕"
@@ -28,7 +28,7 @@ patch:
       - F4
   ascii_composer:
     good_old_caps_lock: true
-    switch_key:
+    switch_key: 
       Shift_L: inline_ascii
       Shift_R: inline_ascii
       Control_L: commit_code
