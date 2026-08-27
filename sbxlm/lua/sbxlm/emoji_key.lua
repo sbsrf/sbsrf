@@ -97,7 +97,6 @@ function this.func(translation, env)
   local segment = env.engine.context.composition:back()
 
   local is_emoji_mode = false
-  local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
   if (segment:has_tag("sbyp") or (input:len() >= 2 and segment:has_tag("bihua")) or
       segment:has_tag("zhlf") or segment:has_tag("sbzdy") or
       segment:has_tag("emoji")) then
@@ -105,8 +104,6 @@ function this.func(translation, env)
     is_emoji_mode = segment:has_tag("emoji")
   elseif segment:has_tag("lua") then
     select_keys = "_aeuio"
-  elseif segment:has_tag("abc") and rime.match(input, pattern) then
-    select_keys = "_23789"
   end
 
   local show_emoji = false
