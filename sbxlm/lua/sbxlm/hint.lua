@@ -503,7 +503,7 @@ function this.func(translation, env)
 				memory:dict_lookup(shengmu .. hint_p[idx], false, 1)
 				for entry in memory:iter_dict() do
 					-- 飞码的sxs上不提示标点字
-					if not (core.fm(id) and core.sxs(input)) then
+					if not core.feixi(id) then
 						bihua = bihua .. entry.text .. hint_p[idx]
 					end
 					break
