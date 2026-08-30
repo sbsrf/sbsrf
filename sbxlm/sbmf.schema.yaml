@@ -12,6 +12,6 @@ schema:
 
 style:
   inline_preedit: true #如果连嵌入的首选都不想看，请把true改为false
-  preedit_type: preview #若只想看首选的编码，请把preview改为composition
+  preedit_type: preview #若只想看首选的编码，请把preview改为composition，如果想看所有选项就改为preview_all
   layout:
     margin_y: -1
