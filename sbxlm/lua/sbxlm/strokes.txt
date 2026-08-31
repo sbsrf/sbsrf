@@ -446,7 +446,7 @@
 贝	iauooooo
 狈	uauiauoo
 貝	iaeeeuoo
-邶	ieeuaaii
+邶	ieeeaaii
 备	uaoiaeie
 昁	iaeeeiai
 牬	ueieuaiu
@@ -2168,7 +2168,7 @@
 辞	ueiiaeoe
 鈶	uoeeioue
 磁	euiaeoue
-雌	ieieuaui
+雌	ieieeaui
 鹚	oueaaoaa
 糍	oueiuoou
 辤	uoouoaao
@@ -8694,7 +8694,7 @@
 籄	ueoueoei
 昆	iaeeeaua
 髠	eieeeaou
-鹍	iaeeeaua
+鹍	iaeeeaea
 騉	eieeiaoo
 鯤	uaiaeieo
 捆	eieiaeiu
@@ -18233,7 +18233,7 @@
 呦	iaeaaoau
 優	uieuiaee
 櫌	eiuoeuia
-尢	aaaaaa
+尢	euaaaaaa
 峳	iaiuiiue
 訧	oeeeiaee
 游	ooeoeauu
@@ -20980,9 +20980,9 @@
 䴘	uuieauea
 䴙	aeuiaeoe
 䶮	euauoeeu
-鿍	ueeuaoea
-鿎	ueiaeeuo
-鿏	eueeaeei
+鿍	eieuaoea
+鿎	euiaeeuo
+鿏	ueeeaeei
 𠅤	oeiaeieo
 𠙶	aiaiiiii
 𠳐	iaeeeeua
