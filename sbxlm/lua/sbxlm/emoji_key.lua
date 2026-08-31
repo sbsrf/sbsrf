@@ -104,6 +104,8 @@ function this.func(translation, env)
     is_emoji_mode = segment:has_tag("emoji")
   elseif segment:has_tag("lua") then
     select_keys = "_aeuio"
+  elseif segment:has_tag("punct") and core.zici(schema_id) then
+    select_keys = "_aeuio"
   end
 
   local show_emoji = false

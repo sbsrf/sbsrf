@@ -5,6 +5,7 @@
 -- 例如，在声笔系列码中，aeuio 可以在一定的时机作为选重键
 
 local rime = require "lib"
+local core = require "sbxlm.core"
 
 local this = {}
 
@@ -63,6 +64,15 @@ function this.func(key_event, env)
       env.engine.schema.select_keys = temp
       return ret
     end
+  elseif segment:has_tag("punct") and core.zici(env.engine.schema.schema_id) then
+    if string.find(key, "[_aeuio]") then
+      local temp = env.engine.schema.select_keys
+      env.engine.schema.select_keys = "_aeuio"
+      local ret = env.selector:process_key_event(key_event)
+      env.engine.schema.select_keys = temp
+      return ret
+    end
+    return rime.process_results.kNoop
   elseif env.engine.schema.schema_id == "sbmm" and
       rime.match(env.engine.context.input, "^[a-z]{3}[;',./]$") then
     local pat = "[09876]"
