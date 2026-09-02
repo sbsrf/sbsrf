@@ -550,7 +550,7 @@ function this.func(translation, env)
 			end
 		end
 		-- 飞天 在sxbb+ 码位上，提示重码
-		if core.ft(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2,5}") then
+		if core.ft(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2,}") then
 			memory:dict_lookup(candidate.preedit, true, 200)
 			for entry in memory:iter_dict() do
 				if candidate.text == entry.text then

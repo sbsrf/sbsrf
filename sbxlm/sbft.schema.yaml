@@ -156,7 +156,7 @@ speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiouBPMFDTNLGKHJQXZCSRYWVAEUIO;',./1234567890"
   initials: "bpmfdtnlgkhjqxzcsrywv"
   auto_clear: none
-  max_code_length: 8
+  max_code_length: 10
   popping:
     __patch:
       - /popping
