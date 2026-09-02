@@ -218,13 +218,13 @@ function this.func(translation, env)
 					break
 				end	
 			end
-			for _, item in ipairs(env.xm_char_list) do
-				if item.code:sub(1,1) == input:sub(x,x) and item.code:len() == 2 and core.s(input) then
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(2,2)
-				elseif item.code:sub(1,2) == input and item.code:len() == 3 and core.sx(input) then
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(3,3)
-				end
-			end
+			-- for _, item in ipairs(env.xm_char_list) do
+			-- 	if item.code:sub(1,1) == input:sub(x,x) and item.code:len() == 2 and core.s(input) then
+			-- 		candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(2,2)
+			-- 	elseif item.code:sub(1,2) == input and item.code:len() == 3 and core.sx(input) then
+			-- 		candidate:get_genuine().comment = candidate:get_genuine().comment .. item.char .. item.code:sub(3,3)
+			-- 	end
+			-- end
 		end
 		if core.xmft(id) and core.sx(input) and not is_hidden then
 			memory:dict_lookup(input .. ";", false, 1)
