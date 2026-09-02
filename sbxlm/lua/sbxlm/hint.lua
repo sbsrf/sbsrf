@@ -549,22 +549,16 @@ function this.func(translation, env)
 				::continue::
 			end
 		end
-		-- 飞天 在sxbb+ 码位上，提示后码
+		-- 飞天 在sxbb+ 码位上，提示重码
 		if core.ft(id) and not is_hidden and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2,5}") then
-			for _, b in ipairs(hint_b) do
-				local code = candidate.preedit .. b
-				memory:dict_lookup(code, false, 1)
-				local entry1 = nil
-				for entry in memory:iter_dict() do
-					entry1 = entry
-					break
-				end
-				if not entry1 then
-					goto continue
-				end
-				local forward = rime.Candidate("hint", candidate.start, candidate._end, entry1.text, b)
-				rime.yield(forward)
-				::continue::
+			memory:dict_lookup(candidate.preedit, true, 200)
+			for entry in memory:iter_dict() do
+				if candidate.text == entry.text then
+					;
+				else
+					local forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, '')
+					rime.yield(forward)	
+				end		
 			end
 		end
 		::continue::
