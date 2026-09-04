@@ -150,10 +150,17 @@ local function callback(commit, env)
   if not env.enable_encoder then
     return
   end
+  build_phrases(env, #commit:get())
+end
+
+---对上屏历史造词（从callback抽出，可由commit_notifier兏底调用）
+---@param env AutoLengthEnv
+---@param commit_count integer 提交的候选数（多候选组合上屏时>1）
+function build_phrases(env, commit_count)
   -- 对上屏历史造词
   local phrase = ""
   -- 允许包含的上屏字词类型
-  local valid_types = rime.Set({ "table", "user_table", "sentence", "simplified", "uniquified", "raw", "completion" })
+  local valid_types = rime.Set({ "table", "user_table", "sentence", "simplified", "uniquified", "raw", "completion", "hint" })
   local index = 0
   for _, record in env.engine.context.commit_history:iter() do
     ---@type string[]
@@ -163,13 +170,18 @@ local function callback(commit, env)
       goto continue
     end
     index = index + 1
+    -- librime 选重时写入的按键穿透记录，text 是按键字符，不是真实上屏词，跳过
+    if record.type == "thru" then
+      goto continue
+    end
     -- 如果是其他类型，打断造词
     if not valid_types[record.type] then
       break
     end
     -- librime 的 bug：顶字上屏会产生一个空的 raw 记录，这里要跳过
+    -- 提交 hint 类型候选时，librime 会写入一条 text 为 "hint" 的 raw 记录，也需跳过
     if record.type == "raw" then
-      if record.text == "" then
+      if record.text == "" or record.text == "hint" then
         goto continue
       else
         break
@@ -178,7 +190,7 @@ local function callback(commit, env)
     -- 对最末一个上屏的候选
     if phrase:len() == 0 then
       phrase = record.text
-      if #commit:get() > 1 then
+      if commit_count > 1 then
         dfs_encode(phrase, 1, code, env)
       end
       goto continue
@@ -219,7 +231,23 @@ function this.init(env)
   env.delete_threshold = config:get_int("translator/delete_threshold") or 1000
   env.max_phrase_length = config:get_int("translator/max_phrase_length") or 4
   env.static_patterns = rime.get_string_list(config, "translator/disable_user_dict_for_patterns");
-  env.dynamic_memory:memorize(function(commit) callback(commit, env) end)
+  env.dynamic_memory:memorize(function(commit) 
+    env._memorized_fired = true
+    callback(commit, env) 
+  end)
+
+  -- 修复：按2选重时memorize未触发，用commit_notifier兏底跑造词
+  -- 标志位_memorized_fired防止与memorize callback双触发
+  env.engine.context.commit_notifier:connect(function()
+    if env._memorized_fired then
+      env._memorized_fired = false
+      return
+    end
+    -- 兏底场景：按2选重（单候选），commit_count=1
+    if env.enable_encoder and not env.stop_change then
+      build_phrases(env, 1)
+    end
+  end)
   ---@type { string: number }
   env.known_candidates = {}
   env.xx_flag = false
