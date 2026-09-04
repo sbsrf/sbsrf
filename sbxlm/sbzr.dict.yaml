@@ -14,7 +14,7 @@ encoder:
     - '^[aeiou].*$'
   rules:
     - length_equal: 2
-      formula: "AaAbBaBbd"
+      formula: "AaAbBaBb"
     - length_equal: 3
       formula: "AaBaCaCb"
     - length_in_range: [4, 12]
