@@ -34,12 +34,9 @@ switches:
   - name: is_enhanced
     reset: 0
     states: [常规, 增强]
-  - options: [hide, rational, irrational, both]
+  - options: [hide, rational, irrational, both, punct]
     reset: 1
-    states: [隐藏, 有理, 无理, 两者]
-  # 希望在同文里用下三角来隐藏键盘的可去掉下面两行的注释
-  #- options: [_key_Hide]
-  #  states: ["▼"]
+    states: [隐藏, 有理, 无理, 两者, 标点]
   # 为了避免拥挤，不显示下面的状态
   - name: auto_inline
     reset: 1
