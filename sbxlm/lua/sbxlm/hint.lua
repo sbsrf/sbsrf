@@ -32,9 +32,6 @@ function this.init(env)
 	if id == 'sbhz' then dict_name = 'sbxh' end
 	env.reverse = rime.ReverseLookup(dict_name)
 	env.xm_chars = {}
-	-- 新增数组存放有序编码
-	env.xm_char_list = {}
-	
 	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
 	local file = io.open(path, "r")
 	if not file then
@@ -45,15 +42,9 @@ function this.init(env)
 		local char, code = line:match("([^\t]+)\t([^\t]+)")
 		if char and code then
 			env.xm_chars[code] = char
-			table.insert(env.xm_char_list, { code = code, char = char })
 		end
 	end
 	file:close()
-	
-	-- 对编码做字典序升序排序（原位排序数组）
-	table.sort(env.xm_char_list, function(a, b)
-		return a.code < b.code
-	end)
 end
 
 ---@param segment Segment

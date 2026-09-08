@@ -240,7 +240,7 @@ reverse_lookup:
 
 reverse_lookup2:
   __include: sbxlm.yaml:/prelude/reverse_lookup
-  tags: [bihua, sbyp, zhlf]
+  tags: [bihua, sbyp, zhlf, sbfc]
   overwrite_comment: true
   dictionary: sbft
 
