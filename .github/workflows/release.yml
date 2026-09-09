@@ -23,15 +23,14 @@ jobs:
         id: build
         run: |
           mv sbxlm/* .
-          rime_deployer --build . /usr/share/rime-data
-          rm bihua* zhlf* sbfc* *.extended.dict.yaml *2.schema.yaml user.yaml sbpy.base.dict.yaml sbpy.ext.dict.yaml sbpy.tencent.dict.yaml
-          zip -r sbsrf.zip build lua opencc *.yaml *.txt
+          zip -r sbsrf.zip lua opencc *.yaml *.txt
+          zip -r extra.zip extra/*.*
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: sbsrf.zip
-      - name: notice
-        uses: fjogeleit/http-request-action@v1
-        with:
-          url: 'https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf'
-          method: 'GET'
+          files: sbsrf.zip extra.zip
+      # - name: notice
+      #   uses: fjogeleit/http-request-action@v1
+      #   with:
+      #     url: 'https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf'
+      #     method: 'GET'
