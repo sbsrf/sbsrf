@@ -31,8 +31,8 @@ jobs:
           files: | 
             sbsrf.zip
             extra.zip
-      # - name: notice
-      #   uses: fjogeleit/http-request-action@v1
-      #   with:
-      #     url: 'https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf'
-      #     method: 'GET'
+      - name: notice
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://5b042a5455e0480fa806fc9483f9a8a1-cn-chengdu.alicloudapi.com/external/v1/releases/notifications?key=sbsrf'
+          method: 'GET'
