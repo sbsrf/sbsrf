@@ -24,11 +24,13 @@ jobs:
         run: |
           mv sbxlm/* .
           zip -r sbsrf.zip lua opencc *.yaml *.txt
-          zip -r extra.zip extra/*.*
+          zip -r extra.zip extra/
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: sbsrf.zip extra.zip
+          files: | 
+            sbsrf.zip
+            extra.zip
       # - name: notice
       #   uses: fjogeleit/http-request-action@v1
       #   with:
