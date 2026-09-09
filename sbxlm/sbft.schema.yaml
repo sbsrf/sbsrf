@@ -233,7 +233,7 @@ key_binder:
 
 reverse_lookup:
   __include: sbxlm.yaml:/prelude/reverse_lookup
-  tags: [bihua, sbyp, zhlf]
+  tags: [bihua, sbyp, zhlf, sbfc]
   dictionary: sbft.extended
   comment_format:
     - "xform/([a-z]{3}.).*/$1/"

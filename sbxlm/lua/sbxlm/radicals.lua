@@ -45,7 +45,25 @@ end
 ---@param translation Translation
 ---@param env RadicalsEnv
 function this.func(translation, env)
+  local context = env.engine.context
+  local segment = context.composition:back()
+  local input = rime.current(context) or ""
+  -- 声笔反查时，comment 中可能包含与输入相同的简码以及重复编码，需去除冗余项
+  local is_sbfc = segment and segment:has_tag("sbfc")
+
   for candidate in translation:iter() do
+    if is_sbfc and input ~= "" and candidate.comment:len() > 0 then
+      local seen = {}
+      local tokens = {}
+      for token in candidate.comment:gmatch("%S+") do
+        if token ~= input and not seen[token] then
+          seen[token] = true
+          table.insert(tokens, token)
+        end
+      end
+      candidate.comment = table.concat(tokens, " ")
+    end
+
     local radical = env.radicals[candidate.text]
     if radical then
       candidate.comment = candidate.comment .. string.format(" [%s]", env.radicals[candidate.text])
