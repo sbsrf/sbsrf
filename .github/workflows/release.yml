@@ -24,7 +24,9 @@ jobs:
         run: |
           mv sbxlm/* .
           zip -r sbsrf.zip lua opencc *.yaml *.txt
-          zip -r extra.zip extra/
+          cd extra
+          zip -r ../extra.zip .
+          cd ..
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
