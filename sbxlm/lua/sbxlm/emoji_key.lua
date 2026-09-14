@@ -77,11 +77,12 @@ function this.func(translation, env)
   local emoji_dict = env.emoji_dict or {}
   local i = 0
   for candidate in translation:iter() do
-    assign_comment(candidate, i, select_keys, schema_id, segment, input, env)
-    rime.yield(candidate)
-    i = i + 1
+
 
     if show_emoji and emoji_dict and emoji_dict[candidate.text] then
+      assign_comment(candidate, i, select_keys, schema_id, segment, input, env)
+      rime.yield(candidate)
+      i = i + 1
       for _, emoji_text in ipairs(emoji_dict[candidate.text]) do
         if emoji_text ~= candidate.text then
           local emoji_cand = rime.Candidate(candidate.type, candidate.start, candidate._end, emoji_text, "")
