@@ -39,12 +39,8 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.tags_match(segment, env)
-  local pattern = env.engine.schema.config:get_string("menu/select_comment_pattern") or ""
-  local input = rime.current(env.engine.context) or ""
-  return (segment:has_tag("abc") and rime.match(input, pattern)) or
-      segment:has_tag("punct") or segment:has_tag("sbyp") or segment:has_tag("emoji") or
-      (input:len() >= 2 and segment:has_tag("bihua")) or segment:has_tag("zhlf") or
-      segment:has_tag("sbzdy") or segment:has_tag("lua")
+  -- 仅在 emoji 模式下运行：选择键注释由 select_key_to_comment.lua 承担
+  return segment:has_tag("emoji")
 end
 
 ---辅助函数：基于候选和全局索引i，计算并设置comment

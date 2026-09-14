@@ -84,6 +84,7 @@ engine:
     - lua_filter@*sbxlm.postpone
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
     - lua_filter@*sbxlm.emoji_key
 
 algebra:

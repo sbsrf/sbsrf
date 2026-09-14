@@ -86,6 +86,7 @@ engine:
     - reverse_lookup_filter@reverse_lookup
     - simplifier
     - uniquifier
+    - lua_filter@*sbxlm.select_key_to_comment
     - lua_filter@*sbxlm.emoji_key
 
 speller:
