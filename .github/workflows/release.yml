@@ -22,11 +22,13 @@ jobs:
       - name: Build
         id: build
         run: |
+          shopt -s nullglob
           mv sbxlm/* .
-          zip -r sbsrf.zip lua opencc *.yaml *.txt
+          zip -r sbsrf.zip lua opencc . -x "*.zip"
           cd extra
           zip -r ../extra.zip .
           cd ..
+          ls -la *.zip
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
