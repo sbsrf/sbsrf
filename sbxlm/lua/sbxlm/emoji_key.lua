@@ -39,12 +39,11 @@ end
 ---@param segment Segment
 ---@param env Env
 function this.tags_match(segment, env)
-  -- 仅在 emoji 模式下运行：选择键注释由 select_key_to_comment.lua 承担
+  -- 仅在 emoji 模式下运行
   return segment:has_tag("emoji")
 end
 
 ---辅助函数：基于候选和全局索引i，计算并设置comment
----特殊场景（_23789/_aeuio）优先判断并直接赋值，避免被其他条件提前return
 ---@param candidate table
 ---@param i number
 ---@param select_keys string
@@ -56,32 +55,11 @@ local function assign_comment(candidate, i, select_keys, schema_id, segment, inp
   local len = select_keys:len()
   local j = i % len + 1
   local key = select_keys:sub(j, j)
-  if not core.xmft(schema_id) and candidate.type == "completion" and core.zici(schema_id) and
-      segment:has_tag("abc") and not segment:has_tag("bihua") then
-    if (input:len() < 7) and (core.fx(schema_id) or core.fj(schema_id)) then
-      return
-    elseif (input:len() < 6) and not segment:has_tag("sbjm") then
-      return
-    end
-  end
-  if (core.fm(schema_id) or core.fy(schema_id)) and segment:has_tag("abc") and env.engine.context:get_option("delayed_pop") and
-      rime.match(env.engine.context.input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}") then
-    key = key:upper()
-  end
   if key == "_" then
     if not candidate.comment then candidate.comment = "" end
     return
   end
-  if candidate.comment and candidate.comment:len() > 0 then
-    if (core.py(schema_id) or core.jp(schema_id) or core.yp(schema_id)) and segment:has_tag("abc") and
-        rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z]?") then
-      candidate.comment = key .. candidate.comment
-    else
-      candidate.comment = candidate.comment .. ":" .. key
-    end
-  else
-    candidate.comment = key
-  end
+  candidate.comment = key
 end
 
 ---@param translation Translation
@@ -92,23 +70,9 @@ function this.func(translation, env)
   local select_keys = env.engine.schema.select_keys or ""
   local segment = env.engine.context.composition:back()
 
-  local is_emoji_mode = false
-  if (segment:has_tag("sbyp") or (input:len() >= 2 and segment:has_tag("bihua")) or
-      segment:has_tag("zhlf") or segment:has_tag("sbzdy") or
-      segment:has_tag("emoji")) then
-    select_keys = "_23789"
-    is_emoji_mode = segment:has_tag("emoji")
-  elseif segment:has_tag("lua") then
-    select_keys = "_aeuio"
-  elseif segment:has_tag("punct") and core.zici(schema_id) then
-    select_keys = "_aeuio"
-  end
-
   local show_emoji = false
-  if is_emoji_mode then
-    show_emoji = env.engine.context:get_option("show_es")
-    if show_emoji == nil then show_emoji = true end
-  end
+  show_emoji = env.engine.context:get_option("show_es")
+  if show_emoji == nil then show_emoji = true end
 
   local emoji_dict = env.emoji_dict or {}
   local i = 0
@@ -120,13 +84,7 @@ function this.func(translation, env)
     if show_emoji and emoji_dict and emoji_dict[candidate.text] then
       for _, emoji_text in ipairs(emoji_dict[candidate.text]) do
         if emoji_text ~= candidate.text then
-          local emoji_cand = rime.Candidate(
-            candidate.type,
-            candidate.start,
-            candidate._end,
-            emoji_text,
-            ""
-          )
+          local emoji_cand = rime.Candidate(candidate.type, candidate.start, candidate._end, emoji_text, "")
           if candidate.preedit then
             emoji_cand.preedit = candidate.preedit
           end
