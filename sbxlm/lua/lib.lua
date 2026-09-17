@@ -147,8 +147,8 @@ local _Engine
 ---@field refresh_non_confirmed_composition fun(self: self): boolean
 ---@field set_option fun(self: self, name: string, value: boolean)
 ---@field get_option fun(self: self, name: string): boolean
----@field set_property fun(self: self, key: string, value: string) 與 `get_property` 配合使用, 在組件之間傳遞消息
----@field get_property fun(self: self, key: string): string 與 `set_property` 配合使用, 在組件之間傳遞消息
+---@field set_property fun(self: self, key: string, value: string)
+---@field get_property fun(self: self, key: string): string
 ---@field clear_transient_options fun()
 local _Context
 

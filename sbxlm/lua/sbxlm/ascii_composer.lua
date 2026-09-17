@@ -24,6 +24,12 @@ function this.init(env)
   local config = env.engine.schema.config
   env.single_selection = config:get_bool("translator/single_selection") or false
   env.delayed_pop = env.engine.context:get_option("delayed_pop") or false
+  -- 重置跨组件共享状态，防止切方案时残留
+  core.state.not_single_display = false
+  core.state.pure_char = false
+  core.state.is_buffered = false
+  core.state.temp_buffered = false
+  env.engine.context:set_option("_auto_commit", true)
 end
 
 ---@param ch number
@@ -79,17 +85,18 @@ function this.func(key_event, env)
   if (not ascii_mode and segment and not segment:has_tag("punct") and not key_event:release()) then
     if input:len() == 1 and key_event.keycode == XK_Tab then
       if key_event:shift() then
-        if not context:get_option("is_buffered") then
-          context:set_option("is_buffered", true)
+        if not core.state.is_buffered then
+          core.state.is_buffered = true
+          context:set_option("_auto_commit", false)
         end
-        if not context:get_option("temp_buffered") then
-          context:set_option("temp_buffered", true)
+        if not core.state.temp_buffered then
+          core.state.temp_buffered = true
         end
       else
         switch_inline(context, env)
       end
       return rime.process_results.kAccepted
-    elseif segment._end > segment._start and key_event.keycode == XK_Return and context:get_option("is_buffered") then
+    elseif segment._end > segment._start and key_event.keycode == XK_Return and core.state.is_buffered then
       context:commit()
       return rime.process_results.kAccepted
     end
@@ -99,8 +106,8 @@ function this.func(key_event, env)
         and key_event.keycode == XK_Tab and not key_event:release()
         and not (core.feixi(schema_id) and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"))) then
     if env.single_selection and context:get_option("single_display")
-        and not context:get_option("not_single_display") then
-      context:set_option("not_single_display", true)
+        and not core.state.not_single_display then
+      core.state.not_single_display = true
       if not ((core.fm(schema_id) or core.fy(schema_id)) and context:get_option("delayed_pop")
             and rime.match(input, "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}[aeuio]*"))
           and key_event.modifier ~= rime.modifier_masks.kShift then
@@ -142,18 +149,14 @@ function this.func(key_event, env)
   -- 在码长为1时，取消临时重码和纯单模式提示
   if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
       and not key_event:release() and input:len() == 1 then
-    if context:get_option("not_single_display") then
-      context:set_option("not_single_display", false)
-    end
-    if context:get_option("_pure_char") then
-      context:set_option("_pure_char", false)
-    end
+    core.state.not_single_display = false
+    core.state.pure_char = false
   end
 
   -- 象码码长为3且按Shift+Tab时
   if not ascii_mode and segment and segment:has_tag("abc") and core.xm(schema_id)
   and not key_event:release() and input:len() == 3 and key_event:shift() and key_event.keycode == XK_Tab then
-    context:set_option("_pure_char", true)
+    core.state.pure_char = true
     local str = input:sub(segment._start, segment._end)
     env.engine:process_key(rime.KeyEvent("BackSpace"))
     context:push_input(str:sub(3))
@@ -256,6 +259,11 @@ end
 function this.fini(env)
   env.ascii_composer = nil
   env.selector = nil
+  -- 清理跨组件共享状态
+  core.state.not_single_display = false
+  core.state.pure_char = false
+  core.state.is_buffered = false
+  core.state.temp_buffered = false
   if env.connection then
     env.connection:disconnect()
     env.connection = nil

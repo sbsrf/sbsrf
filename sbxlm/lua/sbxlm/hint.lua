@@ -336,7 +336,7 @@ function this.func(translation, env)
 							candidates[hint_p[j]] = 1
 							forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_p[j])
 							-- rime.yield(forward)
-							if (pure_char or env.engine.context:get_option("_pure_char")) and utf8.len(entry.text) > 1 then
+							if (pure_char or core.state.pure_char) and utf8.len(entry.text) > 1 then
 								-- 忽略标点简词
 							elseif p ~= hint_p[j] then
 								p = hint_p[j]

@@ -751,7 +751,7 @@ function this.func(input, segment, env)
   if not segment:has_tag("abc") then
     return
   end
-  env.is_buffered = env.engine.context:get_option("is_buffered") or false
+  env.is_buffered = core.state.is_buffered
   env.third_pop = env.engine.context:get_option("third_pop") or false
   env.single_display = env.engine.context:get_option("single_display") or false
   env.pro_word = env.engine.context:get_option("pro_word") or false
@@ -1016,7 +1016,7 @@ function this.func(input, segment, env)
         cand.type = "completion"
       end
       yield(cand)
-      if count == 1 and env.single_display and not env.engine.context:get_option("not_single_display") then
+      if count == 1 and env.single_display and not core.state.not_single_display then
         if (input:len() < 7 and (core.fx(schema_id) or core.fj(schema_id))
           and rime.match(input, "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywvBPMFDTNLGKHJQXZCSRYWV][aeuio23789][aeuio]+")) then
           break

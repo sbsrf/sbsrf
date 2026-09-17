@@ -115,7 +115,7 @@ function this.func(translation, env)
         end
       end
 
-      if segment.start > 0 or context.input:len() > segment._end or context:get_option("temp_buffered") then
+      if segment.start > 0 or context.input:len() > segment._end or core.state.temp_buffered then
         -- 在造词的时候允许固定字词调频
         cand.type = "fixed"
       else

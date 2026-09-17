@@ -29,16 +29,11 @@ local strategies = {
 ---@param env PoppingEnv
 function this.init(env)
   env.speller = rime.Processor(env.engine, "", "speller")
-  env.engine.context.option_update_notifier:connect(function(ctx, name)
-    if name == "is_buffered" then
-      local is_buffered = ctx:get_option("is_buffered")
-      ctx:set_option("_auto_commit", not is_buffered)
-    end
-  end)
   env.engine.context.commit_notifier:connect(function(ctx)
-    if ctx:get_option("temp_buffered") then
-      ctx:set_option("temp_buffered", false)
-      ctx:set_option("is_buffered", false)
+    if core.state.temp_buffered then
+      core.state.temp_buffered = false
+      core.state.is_buffered = false
+      ctx:set_option("_auto_commit", true)
     end
   end)
   local config = env.engine.schema.config
@@ -78,7 +73,7 @@ function this.func(key_event, env)
     return rime.process_results.kNoop
   end
   local context = env.engine.context
-  local is_buffered = context:get_option("is_buffered")
+  local is_buffered = core.state.is_buffered
   if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
     return rime.process_results.kNoop
   end

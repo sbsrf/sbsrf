@@ -5,6 +5,15 @@ local rime = require "lib"
 local match = rime.match
 local core = {}
 
+-- 跨组件共享状态表（纯内存，不触发任何 notifier，不导致界面刷新）
+-- 用于替代被误用为内部信号的 option/property
+core.state = {
+  not_single_display = false,
+  pure_char = false,
+  is_buffered = false,
+  temp_buffered = false,
+}
+
 -- 大键盘的所有按键
 local s = "[bpmfdtnlgkhjqxzcsrywv]";
 -- 小键盘的所有按键
