@@ -36,8 +36,6 @@ switches:
     reset: 0
   - name: auto_inline
     reset: 1
-  - name: is_buffered
-    reset: 0
   - name: single_display
     reset: 0
   - name: show_es
