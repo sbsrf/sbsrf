@@ -82,7 +82,9 @@ function this.func(key_event, env)
         if not context:get_option("is_buffered") then
           context:set_option("is_buffered", true)
         end
-        context:set_option("temp_buffered", true)
+        if not context:get_option("temp_buffered") then
+          context:set_option("temp_buffered", true)
+        end
       else
         switch_inline(context, env)
       end
@@ -140,8 +142,12 @@ function this.func(key_event, env)
   -- 在码长为1时，取消临时重码和纯单模式提示
   if not ascii_mode and segment and segment:has_tag("abc") and core.zici(schema_id)
       and not key_event:release() and input:len() == 1 then
-    context:set_option("not_single_display", false)
-    context:set_option("_pure_char", false)
+    if context:get_option("not_single_display") then
+      context:set_option("not_single_display", false)
+    end
+    if context:get_option("_pure_char") then
+      context:set_option("_pure_char", false)
+    end
   end
 
   -- 象码码长为3且按Shift+Tab时
