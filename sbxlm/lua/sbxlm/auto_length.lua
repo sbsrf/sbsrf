@@ -43,6 +43,7 @@ local kUnitySymbol   = " \xe2\x98\xaf "
 ---@field pure_char boolean
 ---@field cand string
 ---@field strokes { string : string }
+---@field _memorized_fired boolean
 
 ---判断输入的编码是否为静态编码
 ---@param input string

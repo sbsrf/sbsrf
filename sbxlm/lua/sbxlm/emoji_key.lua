@@ -3,10 +3,12 @@ local core = require "sbxlm.core"
 
 local this = {}
 
+---@class EmojiEnv: Env
+---@field emoji_dict table<string, string[]>
+
 ---加载es.txt字典（OpenCC格式），返回text→emoji列表的映射
----@param env Env
 ---@return table<string, string[]>
-local function load_emoji_dict(env)
+local function load_emoji_dict()
   local dict = {}
   local path = rime.api.get_user_data_dir() .. "/opencc/es.txt"
   local f = io.open(path, "r")
@@ -31,13 +33,13 @@ local function load_emoji_dict(env)
   return dict
 end
 
----@param env Env
+---@param env EmojiEnv
 function this.init(env)
-  env.emoji_dict = load_emoji_dict(env)
+  env.emoji_dict = load_emoji_dict()
 end
 
 ---@param segment Segment
----@param env Env
+---@param env EmojiEnv
 function this.tags_match(segment, env)
   -- 仅在 emoji 模式下运行
   return segment:has_tag("emoji")
@@ -63,7 +65,7 @@ local function assign_comment(candidate, i, select_keys, schema_id, segment, inp
 end
 
 ---@param translation Translation
----@param env Env
+---@param env EmojiEnv
 function this.func(translation, env)
   local schema_id = env.engine.schema.schema_id
   local input = rime.current(env.engine.context) or ""
@@ -98,7 +100,7 @@ function this.func(translation, env)
   end
 end
 
----@param env Env
+---@param env EmojiEnv
 function this.fini(env)
   env.emoji_dict = nil
 end
