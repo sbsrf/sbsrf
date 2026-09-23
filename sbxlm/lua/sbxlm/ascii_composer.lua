@@ -230,7 +230,7 @@ function this.func(key_event, env)
 
   if input:len() == 0 then
     return rime.process_results.kNoop
-  elseif  key_event.keycode == XK_Tab then
+  elseif ascii_mode and key_event.keycode == XK_Tab then
     return rime.process_results.kAccepted
   end
 
