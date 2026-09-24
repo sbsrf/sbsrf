@@ -22,7 +22,7 @@ jobs:
         run: |
           shopt -s nullglob
           mv sbxlm/* .
-          zip -r sbsrf.zip lua opencc . -x "*.zip"
+          zip -r sbsrf.zip lua opencc *.yaml *.txt *.ico
           cd extra
           zip -r ../extra.zip .
           cd ..
