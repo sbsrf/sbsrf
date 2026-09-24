@@ -1,13 +1,10 @@
 name: Release
-
 on:
   push:
     tags:
       - '*'
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         id: build
+        shell: bash
         run: |
           shopt -s nullglob
           mv sbxlm/* .
