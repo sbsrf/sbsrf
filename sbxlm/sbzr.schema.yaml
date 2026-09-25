@@ -85,7 +85,7 @@ engine:
 speller:
   alphabet: "bpmfdtnlgkhjqxzcsrywvaeiou;'BPMFDTNLGKHJQXZCSRYWV"
   initials: "bpmfdtnlgkhjqxzcsrywv"
-  auto_clear: none`
+  auto_clear: none
   max_code_length: 6
   algebra:
     - derive/'//
