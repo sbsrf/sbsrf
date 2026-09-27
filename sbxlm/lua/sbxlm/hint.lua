@@ -259,17 +259,6 @@ function this.func(translation, env)
 				end
 			end
 		end
-		--象系在s时提示sb'简词
-		if core.xm(id) and core.s(input) and not is_hidden then
-			for j = 1, 5 do
-				memory:dict_lookup(input:sub(1,1) .. hint_b[j] .. "'", false, 1)
-				for entry in memory:iter_dict()
-				do
-					candidate:get_genuine().comment = candidate:get_genuine().comment .. ' ' .. entry.text .. hint_b[j]
-					break
-				end
-			end
-		end
 		if (core.jm(id) or core.ft(id)) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
@@ -313,6 +302,19 @@ function this.func(translation, env)
 					candidates[x[j]] = 1
 					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, x[j])
 					rime.yield(forward)
+				end
+			end
+		end
+		--象系在s时提示sb'简词
+		if core.xm(id) and core.s(input) and not is_hidden then
+			local forward
+			for j = 1, 5 do
+				memory:dict_lookup(input:sub(1,1) .. hint_b[j] .. "'", false, 1)
+				for entry in memory:iter_dict()
+				do
+					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+					rime.yield(forward)
+					break
 				end
 			end
 		end
