@@ -164,12 +164,9 @@ sbxm_bindings:
     - match: "[a-z]{4}[aeuio]{0,2}"
       accept: "Shift+space"
       send_sequence: "{Home}{Right}{Right}{space}{space}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: Tab
       send_sequence: "{apostrophe}"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "{Home}{Right}{space}{space}"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{apostrophe}{space}{space}"
