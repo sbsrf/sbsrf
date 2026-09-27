@@ -259,6 +259,17 @@ function this.func(translation, env)
 				end
 			end
 		end
+		--象系在s时提示sb'简词
+		if core.xm(id) and core.s(input) and not is_hidden then
+			for j = 1, 5 do
+				memory:dict_lookup(input:sub(1,1) .. hint_b[j] .. "'", false, 1)
+				for entry in memory:iter_dict()
+				do
+					candidate:get_genuine().comment = candidate:get_genuine().comment .. ' ' .. entry.text .. hint_b[j]
+					break
+				end
+			end
+		end
 		if (core.jm(id) or core.ft(id)) and (core.sxb(input) or core.sxbb(input)) and not is_hidden then
 			memory:dict_lookup(candidate.preedit .. "'", false, 1)
 			for entry in memory:iter_dict()
