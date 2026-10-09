@@ -215,10 +215,15 @@ function this.func(key_event, env)
   -- apply_schema 前先把输入存入 context property，
   -- 新 schema 的 func 在下一个按键事件中读取并恢复。
   if not ascii_mode and not key_event:shift() and key_event:ctrl() and not key_event:release()
-  and key_event.keycode == XK_j and core.ft(schema_id) then
+  and key_event.keycode == XK_j and core.xmft(schema_id) then
     env.redirecting = true
     if rime.match(input, "[bpmfdtnlgkhjqxzcsrywv].*") then
       local target_schema_id = (schema_id == 'sbft') and 'sbmf' or 'sbft'
+      if schema_id == 'sbxm' then
+       target_schema_id = 'sbmx'
+      elseif schema_id == 'sbmx' then
+        target_schema_id = 'sbxm'
+      end
       -- 保存输入，供新 schema 在下一个按键事件中恢复
       env.engine.context:set_property("lua_pending_input", input)
       env.engine:apply_schema(rime.Schema(target_schema_id))

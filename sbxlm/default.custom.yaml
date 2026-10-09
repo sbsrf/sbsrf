@@ -10,6 +10,7 @@ patch:
     - schema: sbhz
     - schema: sbyp
     - schema: sbmf
+    - schema: sbmx
     - schema: sbfd
     - schema: sbfm
     - schema: sbfy
