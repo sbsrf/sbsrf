@@ -12,6 +12,7 @@ local this = {}
 ---@field memory Memory
 ---@field reverse ReverseLookup
 ---@field xm_chars { string : string }
+---@field jm_words { string : string }
 
 ---@param env HintEnv
 function this.init(env) 
@@ -97,7 +98,7 @@ function this.func(translation, env)
 	and (ctx:get_property("stroke_input") or ""):len() > 0 then
 		local hint_seg = ctx.composition:toSegmentation():back()
 		local hint_text = hint_seg and env.jm_words and env.jm_words[ctx.input]
-		if hint_text then
+		if hint_text and hint_seg then
 			rime.yield(rime.Candidate("hint", hint_seg.start, hint_seg._end, hint_text, ctx.input))
 		end
 	end
@@ -597,7 +598,7 @@ function this.func(translation, env)
 	and rime.match(ctx.input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
 		local segment = ctx.composition:toSegmentation():back()
 		local text = segment and env.jm_words and env.jm_words[ctx.input:sub(1, 3)]
-		if text then
+		if text and segment then
 			rime.yield(rime.Candidate("hint", segment.start, segment._end, text, ctx.input:sub(1, 3)))
 		end
 	end
