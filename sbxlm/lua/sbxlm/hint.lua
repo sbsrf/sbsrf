@@ -150,7 +150,10 @@ function this.func(translation, env)
 					elseif rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z0-9;']?") then
 						candidate.comment = candidate.comment .. " " .. code
 					elseif id == 'sbjp' and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][aeuio][0-9;']") then
-						candidate.comment = candidate.comment .. " " .. code					
+						candidate.comment = candidate.comment .. " " .. code
+					-- 声笔简拼二字词长码时，提示声母{2}[;'] 格式的声声分号/单引号简码
+					elseif id == 'sbjp' and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv]{2}[;']") then
+						candidate.comment = candidate.comment .. " " .. code
 					end
 				end
 			end

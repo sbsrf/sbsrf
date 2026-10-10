@@ -199,10 +199,9 @@ sbjp_extra_bindings:
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "5", send_sequence: "{Page_Down}3" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "6", send_sequence: "{Page_Down}7" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: "0", send_sequence: "{Page_Down}8" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][aeuio]?", accept: "'", send_sequence: "{Page_Down}9" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}", accept: "'", send_sequence: "{Page_Down}{space}" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?", accept: "'", send_sequence: "{Page_Down}9" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,1}", accept: ";", send_sequence: "{Page_Down}{Page_Down}{space}" }
-    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]", accept: Tab, send_sequence: "{Page_Down}8" }
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]", accept: Tab, send_sequence: "{Home}{Right}{space}{space}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]", accept: "1", send_sequence: "{Home}{Right}" }
     - { match: "[bpmfdtnlgkhjqxzcsrywv]{3}", accept: "0", send_sequence: "{Home}{Right}{Right}" }
     - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }

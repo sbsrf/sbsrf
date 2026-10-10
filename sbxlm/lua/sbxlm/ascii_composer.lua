@@ -180,7 +180,13 @@ function this.func(key_event, env)
       and not key_event:release() then
     local str = input:sub(segment._start, segment._end)
     if key_event.keycode == string.byte(";") then
-      if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]?") then
+      -- 声笔简拼两码输入时，分号选择第十三个固顶字词（对应码表中的 ; 编码）
+      if schema_id == "sbjp" and rime.match(str, "[bpmfdtnlgkhjqxzcsrywv][a-z]") then
+        env.engine:process_key(rime.KeyEvent("Page_Down"))
+        env.engine:process_key(rime.KeyEvent("Page_Down"))
+        env.engine:process_key(rime.KeyEvent("space"))
+        return rime.process_results.kAccepted
+      elseif rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{2}[a-z]?") then
         context.caret_pos = segment.start + 1
         context:commit()
         context:push_input(str:sub(2))
