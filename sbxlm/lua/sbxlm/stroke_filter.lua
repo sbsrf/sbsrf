@@ -67,10 +67,16 @@ function this.func(translation, env)
   end
   ---@type Candidate
   for candidate in translation:iter() do
+    -- 提示候选（如声笔简拼三码固定字词提示）直接输出，不参与笔画过滤
+    if candidate.type == "hint" then
+      yield(candidate)
+      goto continue
+    end
     if handle_candidate(candidate.text, stroke_input, env) then
       candidate.preedit = candidate.preedit:sub(1,len) .. stroke_input ..candidate.preedit:sub(len + 1)
       yield(candidate)
     end
+    ::continue::
   end
 end
 

@@ -33,6 +33,23 @@ function this.init(env)
 	if id == 'sbhz' then dict_name = 'sbxh' end
 	env.reverse = rime.ReverseLookup(dict_name)
 	env.xm_chars = {}
+	-- 声笔简拼加载简码表中的三码字词，用于长码无候选时提示三码固定字词
+	if id == 'sbjp' then
+		env.jm_words = {}
+		local jm_file = io.open(rime.api.get_user_data_dir() .. "/sbjm.dict.yaml", "r")
+		if jm_file then
+			for line in jm_file:lines() do
+				local text, code = line:match("^([^\t]+)\t([bpmfdtnlgkhjqxzcsrywv][a-z][a-z])\r?$")
+				if not text then
+					text, code = line:match("^([^\t]+)\t([bpmfdtnlgkhjqxzcsrywv][a-z][a-z])%s")
+				end
+				if text and not env.jm_words[code] then
+					env.jm_words[code] = text
+				end
+			end
+			jm_file:close()
+		end
+	end
 	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
 	local file = io.open(path, "r")
 	if not file then
@@ -72,6 +89,18 @@ function this.func(translation, env)
 	local i = 1
 	local j = 1
 	local memory = env.memory
+	-- 声笔简拼输入完整三码后继续输入笔画时，提示该三码的固定字词
+	-- 注意：超过3码后，ctx.input 停留在3码，多余笔画存入 stroke_input 属性
+	-- 如输入 jei+e 时 ctx.input=jei, stroke_input=e，提示「接 jei」
+	if id == 'sbjp' and not ctx:get_option("free")
+	and rime.match(ctx.input, "[bpmfdtnlgkhjqxzcsrywv][a-z][a-z]")
+	and (ctx:get_property("stroke_input") or ""):len() > 0 then
+		local hint_seg = ctx.composition:toSegmentation():back()
+		local hint_text = hint_seg and env.jm_words and env.jm_words[ctx.input]
+		if hint_text then
+			rime.yield(rime.Candidate("hint", hint_seg.start, hint_seg._end, hint_text, ctx.input))
+		end
+	end
 	for candidate in translation:iter() do
 		-- 猛码提示
 		local input = candidate.preedit
@@ -153,6 +182,9 @@ function this.func(translation, env)
 						candidate.comment = candidate.comment .. " " .. code
 					-- 声笔简拼二字词长码时，提示声母{2}[;'] 格式的声声分号/单引号简码
 					elseif id == 'sbjp' and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv]{2}[;']") then
+						candidate.comment = candidate.comment .. " " .. code
+					-- 声笔简拼长码时，提示三码固定字词（如 jeie 提示 接 jei，jsei 提示 技术 jse）
+					elseif id == 'sbjp' and rime.match(code, "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}") then
 						candidate.comment = candidate.comment .. " " .. code
 					end
 				end
@@ -559,6 +591,15 @@ function this.func(translation, env)
 		end
 		::continue::
 		i = i + 1
+	end
+	-- 声笔简拼声声长码无候选时，提示三码固定字词（如 jseu 提示 技术 jse）
+	if id == 'sbjp' and not ctx:get_option("free") and i == 1
+	and rime.match(ctx.input, "[bpmfdtnlgkhjqxzcsrywv]{2}[aeuio]{2,}") then
+		local segment = ctx.composition:toSegmentation():back()
+		local text = segment and env.jm_words and env.jm_words[ctx.input:sub(1, 3)]
+		if text then
+			rime.yield(rime.Candidate("hint", segment.start, segment._end, text, ctx.input:sub(1, 3)))
+		end
 	end
 end
 
