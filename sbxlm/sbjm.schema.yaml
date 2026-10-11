@@ -153,7 +153,9 @@ translator:
   delete_threshold: 2000  #自动废词清理阈值
   max_phrase_length: 5    #自动造词最大长度
   disable_user_dict_for_patterns:
-    - "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9']?"
+    # 码长不超过3的纯字母编码一律按静态编码精确查词典，出固定简码字词，不随词频动态调整
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z]{0,2}"
+    - "[bpmfdtnlgkhjqxzcsrywv]{2}[0-9;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][aeuio]?[0-9;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][0-9;'][aeuio]*"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][bpmfdtnlgkhjqxzcsrywv]"
@@ -172,12 +174,16 @@ recognizer:
   patterns:
     sbfc: ''
 
-# 两码时按分号直接上屏分号简词（如 js; 即使），须排在 sbxlm_basic_bindings 之前以优先于其分号选二绑定
-sbjm_semicolon_binding:
+# 一码或两码时按分号/单引号直接上屏对应简码字词（如 j; 即、j' 及、js; 即使、js' 解释）
+# 须排在 sbxlm_basic_bindings 之前以优先于其分号选二绑定
+sbjm_punct_select_binding:
   __append:
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
       accept: ";"
-      send_sequence: "{semicolon}"
+      send_sequence: "{semicolon}{space}"
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]?"
+      accept: "'"
+      send_sequence: "{apostrophe}{space}"
 
 sbjm_extra_bindings:
   __append:
@@ -195,7 +201,7 @@ sbjm_extra_bindings:
 key_binder:
   bindings:
     __patch: 
-      - /sbjm_semicolon_binding
+      - /sbjm_punct_select_binding
       - sbxlm.yaml:/rime_key_bindings
       - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbjm_extra_bindings
