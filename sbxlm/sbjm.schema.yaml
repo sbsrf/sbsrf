@@ -172,14 +172,15 @@ recognizer:
   patterns:
     sbfc: ''
 
-sbjm_extra_bindings:
+# 两码时按分号直接上屏分号简词（如 js; 即使），须排在 sbxlm_basic_bindings 之前以优先于其分号选二绑定
+sbjm_semicolon_binding:
   __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: Tab
-      send_sequence: "0"
-    - match: "[bpmfdtnlgkhjqxzcsrywv]{2}"
-      accept: "'"
-      send_sequence: "1"
+      accept: ";"
+      send_sequence: "{semicolon}"
+
+sbjm_extra_bindings:
+  __append:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{3}"
       accept: Tab
       send_sequence: "{Home}{Right}{Right}{space}{space}"
@@ -189,10 +190,12 @@ sbjm_extra_bindings:
     - match: "[bpmfdtnlgkhjqxzcsrywv]{4}"
       accept: "'"
       send_sequence: "{Right}{Right}{Right}{space}{Right}{Right}{space}{space}"
+    - { match: "[bpmfdtnlgkhjqxzcsrywv][a-z]", accept: Tab, send_sequence: "{Home}{Right}{space}{space}" }
 
 key_binder:
   bindings:
     __patch: 
+      - /sbjm_semicolon_binding
       - sbxlm.yaml:/rime_key_bindings
       - sbxlm.yaml:/sbxlm_basic_bindings
       - /sbjm_extra_bindings
