@@ -342,14 +342,21 @@ function this.func(translation, env)
 				end
 			end
 		end
-		--象系在s时提示sb'简词
+		--象系在s时提示sb;和sb'简词
 		if core.xm(id) and core.s(input) and not is_hidden then
 			local forward
+			local text = ''
 			for j = 1, 5 do
+				memory:dict_lookup(input:sub(1,1) .. hint_b[j] .. ";", false, 1)
+				for entry in memory:iter_dict()
+				do
+					text = entry.text
+					break
+				end
 				memory:dict_lookup(input:sub(1,1) .. hint_b[j] .. "'", false, 1)
 				for entry in memory:iter_dict()
 				do
-					forward = rime.Candidate("hint", candidate.start, candidate._end, entry.text, hint_b[j])
+					forward = rime.Candidate("hint", candidate.start, candidate._end, text, entry.text .. hint_b[j])
 					rime.yield(forward)
 					break
 				end

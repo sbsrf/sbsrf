@@ -107,6 +107,10 @@ popping:
       strategy: append
     - match: "[bpmfdtnlgkhjqxzcsrywv]"
       accept: "[^ a-z]"
+    # 分号简词：两码后按分号时，若该编码存在分号简词则追加分号直接上屏，否则保持原有顶屏行为
+    - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
+      accept: ";"
+      strategy: conditional
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z]"
       accept: "[^ a-z']"
     - match: "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]+"
@@ -122,7 +126,7 @@ speller:
   auto_clear: none
   max_code_length: 8
   auto_select: true
-  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][']$"
+  auto_select_pattern: "^[bpmfdtnlgkhjqxzcsrywv][a-z][;']$"
   popping:
     __patch:
       - /popping
@@ -140,7 +144,7 @@ translator:
   max_phrase_length: 5
   disable_user_dict_for_patterns:
     - "[bpmfdtnlgkhjqxzcsrywv]"
-    - "[bpmfdtnlgkhjqxzcsrywv][a-z][']?"
+    - "[bpmfdtnlgkhjqxzcsrywv][a-z][;']?"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z]{2}[;',./14560]?"
     # - "([bpmfdtnlgkhjqxzcsrywv][a-z]){2}"
     - "[bpmfdtnlgkhjqxzcsrywv][a-z][aeuio]{2}"
