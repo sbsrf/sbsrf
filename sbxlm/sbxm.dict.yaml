@@ -29818,7 +29818,7 @@ encoder:
 重要	zy;	400
 眼睛	yj;	400
 以为	yw;	400
-有些	yx;	400
+允许	yx;	400
 所有	sy;	400
 本报	bb;	400
 公司	gs;	400
@@ -30251,12 +30251,12 @@ encoder:
 耳旁	vp;	400
 咱们	zu'	400
 只要	ze'	400
+有些	yi'	400
 似乎	su'	400
 研究	yo'	400
 这时	zi'	400
 以及	yu'	400
 实在	se'	400
-有点	yi'	400
 除了	ca'	400
 结构	je'	400
 主席	zo'	400
@@ -30279,9 +30279,9 @@ encoder:
 机关	jo'	400
 迅速	xe'	400
 绝对	ja'	400
-说是	si'	400
 措施	co'	400
 保证	bo'	400
+说明	si'	400
 小时	xi'	400
 不成	be'	400
 友好	ya'	400
@@ -30357,7 +30357,7 @@ encoder:
 只见	zi;	400
 主要	ze;	400
 也许	yo;	400
-意思	yi;	400
+有点	yi;	400
 整个	zu;	400
 计划	je;	400
 使用	su;	400
@@ -30375,7 +30375,6 @@ encoder:
 曾经	ca;	400
 倒是	di;	400
 动手	du;	400
-说明	si;	400
 标准	bo;	400
 始终	sa;	400
 紧紧	ji;	400
@@ -30388,6 +30387,7 @@ encoder:
 医院	ya;	400
 小小	xi;	400
 放下	fe;	400
+实践	si;	400
 路上	li;	400
 超过	ce;	400
 落实	lo;	400
@@ -30465,6 +30465,7 @@ encoder:
 阿哥哥	vgg,	400
 终于	zly,	400
 新华社	xhs.	400
+意思	yls;	400
 社会主义	shz.	400
 进一步	jyb;	400
 增长	ztz/	400
@@ -30526,7 +30527,6 @@ encoder:
 属于	spy,	400
 祖国	zyg;	400
 休息	xrx/	400
-实践	sij;	400
 距离	jnl.	400
 竞争	jlz/	400
 值得	zrd/	400
@@ -31779,7 +31779,7 @@ encoder:
 一步	ysb;	400
 据了解	jlj/	400
 模拟	mmn,	400
-是一家	syj.	400
+摄影家	syj.	400
 及其他	jqt/	400
 均可	jtk,	400
 仪表	yrb,	400
@@ -33728,7 +33728,7 @@ encoder:
 人选	rax/	400
 占地面积	zdm/	400
 风味	fnw;	400
-高级会员	gjh;	400
+挂号	gjh;	400
 往返	wpf/	400
 原则上	yzs;	400
 青团	qft;	400
@@ -34557,7 +34557,7 @@ encoder:
 高质量的	gzl/	400
 前台	qkt'	400
 差额	cdv.	400
-使用时	sys;	400
+啥意思	sys;	400
 背包	bkb/	400
 这一天	zyt,	400
 都不知道	dbz.	400
@@ -34626,6 +34626,7 @@ encoder:
 城里	ctl;	400
 调查报告	dcb/	400
 没内存	mnc,	400
+意思是	yss;	400
 符合国家	fhg.	400
 有线电视	yxd.	400
 济南市	jns.	400
@@ -36511,7 +36512,6 @@ encoder:
 填入	ttr/	400
 灯泡	dhp.	400
 编织	blz'	400
-一路上	yls;	400
 羽毛	yjm/	400
 合格后	hgh/	400
 前夕	qkx/	400
@@ -39877,7 +39877,6 @@ encoder:
 封印	fty/	400
 成立时间	cls.	400
 聚氨酯	jvz,	400
-硬是	yss;	400
 包里	bbl;	400
 伟人	wrr/	400
 就是从	jsc/	400
@@ -46098,6 +46097,7 @@ encoder:
 人文社会	rws/	400
 让女人	rnr/	400
 挑了	tjl'	400
+实景	sij;	400
 旋钮	xqn/	400
 良药	lwy,	400
 名企	muq/	400
@@ -81083,7 +81083,6 @@ encoder:
 太迟	tcae	400
 捣蛋	ddai	400
 新贴	xtia	400
-实景	sjia	400
 渡口	dkia	400
 匪浅	fqoo	400
 出库	ckoe	400
@@ -81097,6 +81096,7 @@ encoder:
 清闲	qxoi	400
 谚语	yyoa	400
 不愈	byuo	400
+丝巾	sjia	400
 浅笑	qxue	400
 晚点	wdie	400
 被窝	bwoo	400
@@ -85945,6 +85945,7 @@ encoder:
 绝佳	jaui	400
 财物	ciue	400
 撒娇	seau	400
+硬是	yeia	400
 僵硬	jueu	400
 桃园	teia	400
 甲醛	jiei	400
@@ -85953,7 +85954,6 @@ encoder:
 投向	teui	400
 钻进	zuee	400
 占到	ziea	400
-雅思	yeia	400
 钢管	guue	400
 近视	juoa	400
 赛区	soeu	400
@@ -86491,7 +86491,6 @@ encoder:
 相待	xeuu	400
 绕到	raea	400
 欢愉	haoo	400
-丝巾	saia	400
 猝死	cueu	400
 偷听	tuia	400
 黑心	hioa	400
@@ -86819,6 +86818,7 @@ encoder:
 南端	neoe	400
 冲劲	coao	400
 赴京	feoe	400
+圣水	saia	400
 劈头	paoo	400
 唯我	wiue	400
 密语	mooa	400
