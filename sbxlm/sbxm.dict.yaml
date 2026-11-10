@@ -324,7 +324,6 @@ encoder:
 海	hz	404781	hv
 管	gz	400967	gz
 未	wdi	400854	wd
-长	zc	400002	zc
 指	vp	399843	zj
 设	swa	398013	sw
 江	vm	396541	jv
@@ -559,7 +558,7 @@ encoder:
 送	rf	218940	sk
 照	zio	218516	zi
 久	juo	218489	ju
-周	zci	218296	zc
+周	zc	218296	zc
 阳	ybi	218089	yb
 复	fqiu	217659	fq
 局	jpi	216335	jp
@@ -2834,6 +2833,7 @@ encoder:
 凰	hnn,	9016	hn
 鸭	yiee	9011	yi
 壳	ktiu	9002	kt
+闸	zci	9001	zc
 淘	tvb;	8979	tv
 踉	lno	8962	ln
 裘	qsv/	8962	qs
@@ -3437,7 +3437,6 @@ encoder:
 亢	kwua	3989	kw
 婪	lmm'	3986	lm
 奚	xzl,	3981	xz
-闸	zcii	3981	zc
 瑕	xfc'	3980	xf
 髻	jcx;	3972	jc
 拈	njei	3971	nj
@@ -5338,6 +5337,7 @@ encoder:
 造	zrt.	400	zr
 则	zhii	400	zh
 绽	zlii	400	zl
+长	zcue	400	zc
 找	zjea	400	zj
 诏	zwq;	400	zw
 折	sjuu	400	sj
@@ -27980,6 +27980,7 @@ encoder:
 怎	zqeo	0	zq
 增	ztd;	0	zt
 扎	zjaa	0	zj
+闸	zcii	0	zc
 眨	zfr.	0	zf
 诈	zwq,	0	zw
 摘	zjw,	0	zj
@@ -27995,7 +27996,6 @@ encoder:
 张	zgue	0	zg
 章	zlie	0	zl
 长	ccue	0	cc
-长	zcue	0	zc
 涨	zvg/	0	zv
 掌	zeiu	0	ze
 丈	zxoo	0	zx
@@ -28627,7 +28627,6 @@ encoder:
 值得	zdu	400
 分钟	fzu	400
 阁下	gxe	400
-四周	szu	400
 彼此	bci	400
 推动	tde	400
 银子	yza	400
@@ -28648,6 +28647,7 @@ encoder:
 一致	yze	400
 规则	gzi	400
 模式	mse	400
+素质	szu	400
 吃饭	cfu	400
 放弃	fqo	400
 增强	zqa	400
@@ -30064,7 +30064,6 @@ encoder:
 适应	sy;	400
 罢免	bm;	400
 基于	jy;	400
-素质	sz;	400
 剩下	sx;	400
 规模	gm;	400
 伤害	sh;	400
@@ -30081,10 +30080,11 @@ encoder:
 上帝	sd;	400
 效益	xy;	400
 昨天	zt;	400
-周围	zw;	400
 椅子	yz;	400
 低头	dt;	400
+掌握	zw;	400
 愉快	yk;	400
+施展	sz;	400
 逐步	zb;	400
 时辰	sc;	400
 颤抖	cd;	400
@@ -30108,7 +30108,6 @@ encoder:
 探索	ts;	400
 构成	gc;	400
 执法	zf;	400
-周年	zn;	400
 窗口	ck;	400
 后悔	hh;	400
 局面	jm;	400
@@ -30259,6 +30258,7 @@ encoder:
 确认	qr;	400
 昨日	zr;	400
 会计	kj;	400
+指南	zn;	400
 帝国	dg;	400
 云南	yn;	400
 顾客	gk;	400
@@ -30546,7 +30546,6 @@ encoder:
 不由得	byd/	400
 老前辈	lqb;	400
 享受	xws/	400
-掌握	zew,	400
 专业	zdy;	400
 一辈子	ybz'	400
 一代	ysd/	400
@@ -30555,7 +30554,6 @@ encoder:
 胜利	sul/	400
 上午	sew/	400
 交换	jwh,	400
-施展	sqz'	400
 销售	xas/	400
 称为	chw.	400
 鲜血	xyx/	400
@@ -31650,7 +31648,6 @@ encoder:
 初始化	csh/	400
 国家法律	gjf/	400
 一律	ysl/	400
-周期	zcq,	400
 就这样	jzy,	400
 转到	zpd,	400
 形式的	xsd/	400
@@ -31666,10 +31663,8 @@ encoder:
 欢迎您	hyn/	400
 显示器	xsq;	400
 经营的	jyd/	400
-周边	zcb'	400
 不含	bsh/	400
 传递	crd.	400
-指南	zjn,	400
 如果有	rgy,	400
 或其他	hqt/	400
 把自己	bzj'	400
@@ -31751,7 +31746,6 @@ encoder:
 我们也	wmy'	400
 营业执照	yyz;	400
 季节	jhj,	400
-本周	bmz/	400
 演唱	yvc;	400
 我现在	wxz,	400
 引擎	ygq,	400
@@ -32355,7 +32349,6 @@ encoder:
 民警	mcj,	400
 颁布	brb,	400
 侵害	qrh.	400
-周一	zcy,	400
 人事部	rsb.	400
 软件大小	rjd;	400
 响应	xoy.	400
@@ -32502,7 +32495,7 @@ encoder:
 激活	jvh.	400
 被称为	bcw.	400
 眼镜	yfj/	400
-以人为本	yrw,	400
+仰卧	yrw,	400
 你自己	nzj'	400
 造成了	zcl'	400
 购房	ghf.	400
@@ -32839,7 +32832,6 @@ encoder:
 高峰	gwf;	400
 混凝土	hnt,	400
 新世纪	xsj'	400
-周六	zcl.	400
 核定	hmd.	400
 卫生部	wsb.	400
 失效	sqx.	400
@@ -32996,7 +32988,6 @@ encoder:
 支行	zkh/	400
 马来西亚	mlx,	400
 副局长	fjz/	400
-周日	zcr;	400
 产业发展	cyf'	400
 软件下载	rjx,	400
 股东大会	gdd/	400
@@ -33290,7 +33281,7 @@ encoder:
 树脂	smz/	400
 近几年	jjn/	400
 科技成果	kjc;	400
-由国家	ygj.	400
+应激	ygj.	400
 通知书	tzs'	400
 要坚持	yjc,	400
 月至	yuz,	400
@@ -33523,7 +33514,7 @@ encoder:
 社会化	shh/	400
 绍兴	slx.	400
 智能化	znh/	400
-在进行	zjx/	400
+总经销	zjx/	400
 编译	bly.	400
 已经开始	yjk'	400
 登上	djs;	400
@@ -33564,7 +33555,7 @@ encoder:
 违背	wdb;	400
 词语	cwy.	400
 这一次	zyc.	400
-在今年	zjn/	400
+杂念	zjn/	400
 大使馆	dsg/	400
 东南	dln,	400
 从根本上	cgb;	400
@@ -33593,7 +33584,7 @@ encoder:
 敢于	gjy,	400
 中文版	zwb/	400
 投产	tjc.	400
-在一些	zyx;	400
+睁眼瞎	zyx;	400
 方便面	fbm,	400
 七月	qly/	400
 声誉	sty.	400
@@ -33693,6 +33684,7 @@ encoder:
 名词	muc.	400
 很重要	hzy,	400
 服务商	fws.	400
+狮子	sqz'	400
 资本主义	zbz.	400
 说什么	ssm/	400
 普洱茶	pvc,	400
@@ -34166,7 +34158,6 @@ encoder:
 风暴	fnb;	400
 抽查	cjc,	400
 历代	lgd/	400
-上周	sez/	400
 进一步的	jyb/	400
 财力	chl'	400
 数据线	sjx'	400
@@ -34605,7 +34596,6 @@ encoder:
 教育事业	jys;	400
 估算	grs/	400
 豆油	dsy.	400
-周到	zcd,	400
 亲戚	qlq,	400
 仍不	rrb,	400
 什么东西	smd,	400
@@ -35171,6 +35161,7 @@ encoder:
 资产评估	zcp/	400
 蜡烛	lcz.	400
 网络广告	wlg/	400
+走出去	zcq,	400
 点燃	der.	400
 证明材料	zmc.	400
 圣人	skr/	400
@@ -35388,6 +35379,7 @@ encoder:
 复活	fqh.	400
 智能手机	zns,	400
 矿产	ksc.	400
+正处于	zcy,	400
 走访	ztf.	400
 多余的	dyd/	400
 大侠	dpx/	400
@@ -35563,7 +35555,6 @@ encoder:
 写成	xic,	400
 菊花	jkh,	400
 同行业	thy;	400
-周二	zcv,	400
 巨人	jcr/	400
 收音机	syj,	400
 立体声	lts,	400
@@ -35615,7 +35606,7 @@ encoder:
 人生观	rsg'	400
 毫无疑问	hwy.	400
 来这里	lzl;	400
-远的	ydd/	400
+云朵	ydd/	400
 静脉	jfm/	400
 勘察	kkc.	400
 自我介绍	zwj'	400
@@ -36231,7 +36222,7 @@ encoder:
 停靠站	tkz.	400
 方方面面	ffm,	400
 探测器	tcq;	400
-经批准	jpz.	400
+柬埔寨	jpz.	400
 踏上	tns;	400
 大中型	dzx,	400
 储量	crl;	400
@@ -37945,7 +37936,6 @@ encoder:
 汽配	qvp,	400
 行为人	xwr/	400
 与支持	yzc,	400
-周易	zcy;	400
 抬起头	tqt.	400
 闻到	wcd,	400
 或多或少	hdh;	400
@@ -39630,7 +39620,7 @@ encoder:
 网络资源	wlz.	400
 管理理念	gll/	400
 重要途径	zyt/	400
-切尔西	qvx,	400
+浅析	qvx,	400
 衷心	zwx.	400
 总督	zdd;	400
 盛景	sgj;	400
@@ -40339,6 +40329,7 @@ encoder:
 挑起	tjq,	400
 扣分	kjf/	400
 符合要求	fhy,	400
+真诚地	zcd,	400
 工业发展	gyf'	400
 手绘	svh'	400
 滞留	zvl/	400
@@ -42034,6 +42025,7 @@ encoder:
 人员名单	rym.	400
 平板电视	pbd.	400
 休眠	xrm;	400
+仲裁员	zcy;	400
 所发表	sfb,	400
 机构改革	jgg,	400
 缩减	slj.	400
@@ -42385,6 +42377,7 @@ encoder:
 烟尘	yhc;	400
 给你带来	gnd,	400
 好男人	hnr/	400
+支持力度	zcl.	400
 赝品	ygp;	400
 导游服务	dyf/	400
 全面完成	qmw,	400
@@ -42658,7 +42651,6 @@ encoder:
 就差	jwc.	400
 在工程	zgc/	400
 详见	xwj;	400
-周全	zcq/	400
 准确率	zql.	400
 岁末	sem,	400
 工作台	gzt'	400
@@ -43598,7 +43590,7 @@ encoder:
 廉租房	lzf.	400
 与朋友	ypy,	400
 发布广告	fbg/	400
-因为现在	ywx,	400
+夜校	ywx,	400
 天黑	tsh;	400
 默认值	mrz/	400
 在分析	zfx,	400
@@ -45274,6 +45266,7 @@ encoder:
 等几天	djt,	400
 不畏	bsw;	400
 我呀	wvy;	400
+部门主管	bmz/	400
 景区内	jqn;	400
 重点突出	zdt'	400
 土著	ttz,	400
@@ -45562,6 +45555,7 @@ encoder:
 内存分配	ncf,	400
 晚霞	wix,	400
 直系亲属	zxq'	400
+在加拿大	zjn,	400
 理论课	llk.	400
 国际条约	gjt'	400
 腹中	fuz;	400
@@ -45829,7 +45823,6 @@ encoder:
 联想集团	lxj;	400
 即插即用	jcj/	400
 不要被	byb.	400
-周内	zcn;	400
 不喝	bsh;	400
 回过神来	hgs,	400
 准确无误	zqw.	400
@@ -45945,7 +45938,6 @@ encoder:
 阈值	ycz/	400
 得逞	dpc;	400
 桌前	zeq.	400
-周长	zcc/	400
 外援	wuy,	400
 吹嘘	cox;	400
 荣誉证书	ryz'	400
@@ -46578,6 +46570,7 @@ encoder:
 与传播	ycb,	400
 那帮	nub,	400
 在湖南	zhn,	400
+上肢	sez/	400
 却更	qtg,	400
 从后面	chm,	400
 本科院校	bky,	400
@@ -48502,7 +48495,7 @@ encoder:
 白塔	bnt,	400
 共获	gkh,	400
 延长了	ycl'	400
-班集体	bjt/	400
+拔腿	bjt/	400
 嗜血	sox/	400
 惊愕	jxv.	400
 采购管理	cgg,	400
@@ -50109,7 +50102,7 @@ encoder:
 描写了	mxl'	400
 房屋面积	fwm/	400
 懒懒	lxl.	400
-中国海军	zgh.	400
+中国话	zgh.	400
 变慢	bwm.	400
 钓友	day,	400
 动起来	dql,	400
@@ -50819,7 +50812,7 @@ encoder:
 千军万马	qjw'	400
 接踵而来	jzv,	400
 屋中	wpz;	400
-影片格式	ypg,	400
+压迫感	ypg,	400
 野兔	yit/	400
 舱位	czw/	400
 满足不了	mzb'	400
@@ -51245,6 +51238,7 @@ encoder:
 聊个	lbg/	400
 拍过	pjg,	400
 隔日	gbr;	400
+在此处	zcc/	400
 驾乘	jqc/	400
 个旧	gaj;	400
 未婚夫	whf,	400
@@ -52829,6 +52823,7 @@ encoder:
 初秋	cyq/	400
 可以改	kyg'	400
 不同品牌	btp/	400
+侦查人员	zcr;	400
 想入非非	xrf;	400
 激情片	jqp/	400
 坚忍不拔	jrb,	400
@@ -53357,7 +53352,7 @@ encoder:
 辽通化工	lth,	400
 羚锐股份	lrg/	400
 美都控股	mdk/	400
-美克股份	mkg/	400
+卖乖	mkg/	400
 男的呢	ndn;	400
 南风化工	nfh,	400
 南京中北	njz;	400
@@ -58275,7 +58270,6 @@ encoder:
 放炮	fqp.	400
 卖淫嫖娼	myp'	400
 程序控制	cxk/	400
-周强	zcq'	400
 人民西路	rmx;	400
 隆鼻	lbb/	400
 电气控制	dqk/	400
@@ -58347,6 +58341,7 @@ encoder:
 教学反思	jxf;	400
 土木建筑	tmj/	400
 残奥会	cvh/	400
+在车内	zcn;	400
 年底开始	ndk'	400
 所罗门	slm.	400
 车迷网	cmw;	400
@@ -58835,7 +58830,7 @@ encoder:
 帐号	zeh;	400
 处理器	clq;	400
 请使用	qsy/	400
-发现该	fxg.	400
+佛香阁	fxg.	400
 相关软件	xgr/	400
 关于维护	gyw,	400
 的歌	dng,	400
@@ -61836,7 +61831,7 @@ encoder:
 暗花	vih,	400
 好处费	hcf'	400
 恩将仇报	vjc,	400
-动漫作品	dmz;	400
+地面战	dmz;	400
 查禁	cmj,	400
 规划图	ght;	400
 汽车玻璃	qcb,	400
@@ -64845,7 +64840,6 @@ encoder:
 眉形	mpx,	400
 蜡人	lcr/	400
 电钮	din/	400
-中周	zoz/	400
 肉兔	rct/	400
 钨矿	wak,	400
 老百晓	lbx;	400
@@ -68880,6 +68874,7 @@ encoder:
 你是为了	nsw'	400
 胜境	suj,	400
 龟兹	quc.	400
+只租	zoz/	400
 天黑黑	thh;	400
 斜靠	xak/	400
 温柔乡	wrx'	400
@@ -69436,7 +69431,7 @@ encoder:
 拿不了	nbl'	400
 窃国	qig;	400
 电鳗	dim/	400
-成为泡影	cwp;	400
+词频	cwp;	400
 挪窝	njw.	400
 杯内	bmn;	400
 满天繁星	mtf;	400
@@ -69604,6 +69599,7 @@ encoder:
 若尔盖县	rvg;	400
 踏访	tnf.	400
 完备性	wbx.	400
+支撑不了	zcb'	400
 暗紫色	vzs/	400
 工部尚书	gbs'	400
 恩威并施	vwb.	400
@@ -72062,11 +72058,13 @@ encoder:
 于晨楠	ycn,	400
 逾分	yaf/	400
 择人而事	zrv,	400
+张聪秋	zcq/	400
 长条图	ctt;	400
 昭和年间	zhn.	400
 珍同拱璧	ztg'	400
 只字片纸	zzp'	400
 皱叶欧芹	zyv,	400
+主车群	zcq'	400
 擢发难数	zfn.	400
 姊妹品	zmp;	400
 宗姓	zix'	400
@@ -74785,6 +74783,7 @@ encoder:
 侧卫	crw'	400
 测试开发	csk'	400
 岑姓	cex'	400
+曾厝垵	zcv,	400
 曾秋坤	zqk,	400
 蹭网卡	cwk;	400
 插着耳机	czv,	400
@@ -78348,6 +78347,7 @@ encoder:
 润口	rvk;	400
 泰河	tfh.	400
 肖宁	xen.	400
+占武	zew,	400
 真能跑	znp;	400
 备班	bub,	400
 辉强	heq'	400
@@ -79195,7 +79195,6 @@ encoder:
 一座	yzoe	400
 高达	gdeu	400
 搜集	sjui	400
-一周	yzua	400
 降价	jjui	400
 精美	jmou	400
 发达	fdeu	400
@@ -79328,7 +79327,6 @@ encoder:
 短片	dpui	400
 隐形	yxee	400
 争论	zloa	400
-狮子	szai	400
 细心	xxoa	400
 亚太	yteu	400
 显存	xceu	400
@@ -79461,7 +79459,6 @@ encoder:
 一架	yjau	400
 崭新	zxoe	400
 防伪	fwui	400
-周四	zsia	400
 议案	yvoo	400
 近乎	jhuo	400
 凭着	pzou	400
@@ -79477,7 +79474,6 @@ encoder:
 办厂	bceu	400
 组装	zzoe	400
 兵力	blau	400
-周三	zsee	400
 顺手	ssue	400
 主帅	zsiu	400
 高尚	gsio	400
@@ -79579,6 +79575,7 @@ encoder:
 支部	zboe	400
 拖着	tzou	400
 曙光	sgio	400
+招式	zsee	400
 抱起	bqei	400
 狼狈	lbua	400
 不懈	bxoo	400
@@ -79722,11 +79719,11 @@ encoder:
 带我	dwue	400
 语录	ylae	400
 班上	bsie	400
+傻子	szai	400
 标语	byoa	400
 挣脱	ztua	400
 喊着	hzou	400
 筹划	chea	400
-两周	lzua	400
 辆车	lcea	400
 只顾	zgeu	400
 摆手	bsue	400
@@ -79956,7 +79953,6 @@ encoder:
 拖动	tdee	400
 沙特	stue	400
 冷哼	lhia	400
-专程	zcue	400
 应邀	yyui	400
 推断	tdou	400
 绿洲	lzoo	400
@@ -79994,6 +79990,7 @@ encoder:
 不减	bjoe	400
 病因	byia	400
 见效	jxoe	400
+舟山	zsia	400
 波罗	blia	400
 硬卧	ywei	400
 大举	djoo	400
@@ -80240,6 +80237,7 @@ encoder:
 偏向	pxui	400
 紫薇	zwei	400
 营收	ysai	400
+胭脂	yzua	400
 北面	bmeu	400
 佛祖	fzoa	400
 帖图	ttia	400
@@ -80450,7 +80448,6 @@ encoder:
 型式	xsee	400
 双敏	smue	400
 大笔	dbue	400
-浅析	qxei	400
 玛雅	myea	400
 砍了	klai	400
 尤物	ywue	400
@@ -80628,6 +80625,7 @@ encoder:
 安顿	vdea	400
 乒乓	ppui	400
 凋零	dleo	400
+七喜	qxei	400
 云飞	yfau	400
 朝气	zque	400
 造船	zcuu	400
@@ -81345,7 +81343,6 @@ encoder:
 或未	hwee	400
 两省	lsiu	400
 客套	kteu	400
-不周	bzua	400
 我答	wdue	400
 乱窜	lcoo	400
 右掌	yzio	400
@@ -81914,7 +81911,6 @@ encoder:
 搪瓷	tcoe	400
 烟波	yboo	400
 宽心	kxoa	400
-周天	ztee	400
 傲游	vyoo	400
 同党	tdio	400
 通鉴	tjii	400
@@ -82329,6 +82325,7 @@ encoder:
 民初	mcoa	400
 高矮	gvue	400
 漆膜	qmua	400
+磷脂	lzua	400
 弱视	rsoa	400
 凝滞	nzoo	400
 偏多	pdua	400
@@ -82406,6 +82403,7 @@ encoder:
 未予	wyao	400
 打昏	dhua	400
 打岔	dcuo	400
+正泰	ztee	400
 佩尔	pvua	400
 糅合	rhuo	400
 恶补	vboa	400
@@ -82906,6 +82904,7 @@ encoder:
 昂头	vtoo	400
 快剑	kjuo	400
 潍柴	wcie	400
+北周	bzua	400
 本末	bmee	400
 胶辊	jgea	400
 归降	gxai	400
@@ -83725,7 +83724,6 @@ encoder:
 尿毒	ndee	400
 河间	hjoi	400
 能留	nlua	400
-二周	vzua	400
 面砖	mzeu	400
 王楠	wnei	400
 也敢	ygae	400
@@ -84272,6 +84270,7 @@ encoder:
 东翁	dwuo	400
 凄哀	qvoe	400
 残弱	crae	400
+腌臜	vzua	400
 没染	mroo	400
 陪绑	pbaa	400
 二读	vdoa	400
@@ -85841,7 +85840,6 @@ encoder:
 黑衣	hioe	400
 转会	zeuo	400
 新兵	xoui	400
-下周	xeua	400
 绚丽	xaei	400
 吸了	xiai	400
 本厂	beeu	400
@@ -86239,6 +86237,7 @@ encoder:
 阻击	zaee	400
 广角	goua	400
 逃了	tuai	400
+下册	xeua	400
 去追	qeui	400
 参演	caoo	400
 粉底	fooe	400
