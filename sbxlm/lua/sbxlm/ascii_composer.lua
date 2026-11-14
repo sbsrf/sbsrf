@@ -214,8 +214,9 @@ function this.func(key_event, env)
     end
     if key_event.keycode == XK_Tab then
       if rime.match(str, "[bpmfdtnlgkhjqxzcsrywv]{3}") then
-        context.caret_pos = segment.start + 2
-        context:commit()
+        context:clear()
+        context:push_input(str:sub(1, 2))
+        env.engine:process_key(rime.KeyEvent(";"))
         context:push_input(str:sub(3, 3))
         context:commit()
         return rime.process_results.kAccepted
