@@ -10,8 +10,7 @@ local this = {}
 ---@return table<string, string[]>
 local function load_emoji_dict()
   local dict = {}
-  local path = rime.api.get_user_data_dir() .. "/opencc/es.txt"
-  local f = io.open(path, "r")
+  local f = rime.open_data_file("opencc/es.txt")
   if not f then
     return dict
   end

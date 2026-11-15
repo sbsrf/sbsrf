@@ -37,7 +37,7 @@ function this.init(env)
 	-- 声笔简拼加载简码表中的三码字词，用于长码无候选时提示三码固定字词
 	if id == 'sbjp' then
 		env.jm_words = {}
-		local jm_file = io.open(rime.api.get_user_data_dir() .. "/sbjm.dict.yaml", "r")
+		local jm_file = rime.open_data_file("sbjm.dict.yaml")
 		if jm_file then
 			for line in jm_file:lines() do
 				local text, code = line:match("^([^\t]+)\t([bpmfdtnlgkhjqxzcsrywv][a-z][a-z])\r?$")
@@ -51,8 +51,7 @@ function this.init(env)
 			jm_file:close()
 		end
 	end
-	local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_chars.txt"
-	local file = io.open(path, "r")
+	local file = rime.open_data_file("lua/sbxlm/xm_chars.txt")
 	if not file then
 		return
 	end

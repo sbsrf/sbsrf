@@ -11,8 +11,7 @@ local this = {}
 ---@param env StrokesEnv
 function this.init(env)
   env.strokes = {}
-  local dir = rime.api.get_user_data_dir() .. "/lua/sbxlm/"
-  local file = io.open(dir .. "strokes.txt", "r")
+  local file = rime.open_data_file("lua/sbxlm/strokes.txt")
   if not file then return end
   for line in file:lines() do
     ---@type string, string

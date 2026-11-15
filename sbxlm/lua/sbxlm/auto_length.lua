@@ -255,8 +255,7 @@ function this.init(env)
   env.pure_char = false
 
   env.char_lens = {}
-  local path = rime.api.get_user_data_dir() .. "/lua/sbxlm/char_lens.txt"
-  local file = io.open(path, "r")
+  local file = rime.open_data_file("lua/sbxlm/char_lens.txt")
   if not file then
     return
   end
@@ -268,8 +267,7 @@ function this.init(env)
   file:close()
 
   env.xm_lens = {}
-  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/xm_lens.txt"
-  file = io.open(path, "r")
+  file = rime.open_data_file("lua/sbxlm/xm_lens.txt")
   if not file then
     return
   end
@@ -282,8 +280,7 @@ function this.init(env)
 
   -- 读取笔画编码文件
   env.strokes = {}
-  path = rime.api.get_user_data_dir() .. "/lua/sbxlm/strokes.txt"
-  file = io.open(path, "r")
+  file = rime.open_data_file("lua/sbxlm/strokes.txt")
   if file then
     for line in file:lines() do
       ---@type string, string

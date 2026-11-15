@@ -783,4 +783,23 @@ function rime.current(context)
     return context.input:sub(segment.start + 1, segment._end)
   end
   
+---只读打开数据文件：用户目录优先，失败后尝试共享目录。
+---@param relative_path string 相对于 Rime 数据目录的路径
+function rime.open_data_file(relative_path)
+    local user_path = rime.api.get_user_data_dir() .. "/" .. relative_path
+    local file, user_error = io.open(user_path, "r")
+    if file then
+        return file
+    end
+
+    local shared_path = rime.api.get_shared_data_dir() .. "/" .. relative_path
+    local shared_error
+    file, shared_error = io.open(shared_path, "r")
+    if file then
+        return file
+    end
+
+    return nil, user_error .. "\n" .. shared_error
+end
+
 return rime
