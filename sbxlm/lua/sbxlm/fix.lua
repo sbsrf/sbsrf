@@ -15,8 +15,7 @@ local this = {}
 function this.init(env)
   ---@type { string : string[] }
   env.fixed = {}
-  local path = rime.api.get_user_data_dir() .. ("/%s.fixed.txt"):format(env.engine.schema.schema_id)
-  local file = io.open(path, "r")
+  local file = rime.open_data_file(("%s.fixed.txt"):format(env.engine.schema.schema_id))
   if not file then
     return
   end
