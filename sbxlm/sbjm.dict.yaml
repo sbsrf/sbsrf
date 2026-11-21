@@ -786,6 +786,7 @@ encoder:
 才能	cn
 才女	cn1
 才是	csi
+才有	cy1
 材料	clo
 材质	cz1
 财	cia
@@ -819,7 +820,7 @@ encoder:
 餐	cie
 餐馆	cg7
 餐厅	cte
-餐饮	cy0
+餐饮	cy6
 残	ce1
 残酷	ck'
 残留	cl7
@@ -908,7 +909,7 @@ encoder:
 常人	cr6
 常委	cw5
 常务	cw4
-常用	cy5
+常用	cy7
 常州	cz9
 偿还	ch3
 嫦娥	cva
@@ -939,12 +940,12 @@ encoder:
 超频	cpi
 超强	cqa
 超人	cr7
-超越	cy6
+超越	cy5
 巢	ca4
 朝	ce5
 朝廷	ctu
 朝鲜	cxu
-朝阳	cy1
+朝阳	cy0
 嘲弄	cne
 潮	co0
 潮流	cl4
@@ -968,7 +969,6 @@ encoder:
 沉	coo
 沉默	cm;
 沉思	cs8
-沉吟	cy;
 沉重	cz'
 陈	cai
 晨	ci'
@@ -1039,7 +1039,7 @@ encoder:
 驰	ca7
 驰名	cmu
 迟	ca;
-迟疑	cy7
+迟疑	cy'
 持	cei
 持股	cgu
 持平	cp1
@@ -1113,7 +1113,7 @@ encoder:
 处分	cf7
 处理	cle
 处女	cn'
-处于	cy'
+处于	cy;
 触	cua
 触发	cf2
 触摸	cm0
